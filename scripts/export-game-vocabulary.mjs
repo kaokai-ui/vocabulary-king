@@ -3,18 +3,48 @@ import path from "node:path";
 import xlsx from "xlsx";
 
 const DATA_ROOT = path.resolve("public/data");
-const TRACK_ID = "junior-high";
-const TRACK_OUTPUT_DIR = path.join(DATA_ROOT, "tracks", TRACK_ID);
+const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
-const TARGET_SHEETS = ["Level 1", "Level 2"];
+const PLACEHOLDER_TRACKS = [
+  { id: "toeic", title: "TOEIC" },
+  { id: "toefl", title: "TOEFL" },
+  { id: "ielts", title: "IELTS" },
+  { id: "gept", title: "GEPT" }
+];
+const TRACK_DEFINITIONS = [
+  {
+    id: "junior-high",
+    title: "Junior High",
+    sourceWorkbookKey: "level-1-level-2-workbook",
+    workbookPattern: /L1L2\.xlsx$/i,
+    sheets: ["Level 1", "Level 2"],
+    available: true
+  },
+  {
+    id: "senior-high",
+    title: "Senior High (Level 3-4)",
+    sourceWorkbookKey: "level-3-level-4-workbook",
+    workbookPattern: /L3L6\.xlsx$/i,
+    sheets: ["Level 3", "Level 4"],
+    available: true
+  },
+  {
+    id: "senior-high-5-6",
+    title: "Senior High (Level 5-6)",
+    sourceWorkbookKey: "level-5-level-6-workbook",
+    workbookPattern: /L3L6\.xlsx$/i,
+    sheets: ["Level 5", "Level 6"],
+    available: false
+  }
+];
 
-function findWorkbookPath() {
+function findWorkbookPath(workbookPattern) {
   const workbookName = fs
     .readdirSync(process.cwd())
-    .find((fileName) => /L1L2\.xlsx$/i.test(fileName) && !/backup|before/i.test(fileName));
+    .find((fileName) => workbookPattern.test(fileName) && !/backup|before/i.test(fileName));
 
   if (!workbookName) {
-    throw new Error("Could not find the Level 1 / Level 2 workbook in the project root.");
+    throw new Error(`Could not find a workbook matching ${workbookPattern} in the project root.`);
   }
 
   return path.resolve(workbookName);
@@ -28,11 +58,11 @@ function toSlug(text) {
     .slice(0, 48);
 }
 
-function readVocabularyRows(workbookPath) {
+function readVocabularyRows(workbookPath, sheetNames) {
   const workbook = xlsx.readFile(workbookPath);
   const vocabulary = [];
 
-  for (const sheetName of TARGET_SHEETS) {
+  for (const sheetName of sheetNames) {
     const sheet = workbook.Sheets[sheetName];
 
     if (!sheet) {
@@ -85,80 +115,77 @@ function writeJson(filePath, value) {
   fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n", "utf8");
 }
 
-const workbookPath = findWorkbookPath();
-const vocabulary = readVocabularyRows(workbookPath);
-const chunks = chunkItems(vocabulary, CHUNK_SIZE);
+function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
+  return {
+    id: definition.id,
+    available: definition.available,
+    title: definition.title,
+    sourceWorkbookKey: definition.sourceWorkbookKey,
+    totalWords,
+    chunkSize: CHUNK_SIZE,
+    chunkFiles
+  };
+}
 
-fs.rmSync(TRACK_OUTPUT_DIR, { recursive: true, force: true });
-fs.rmSync(path.join(DATA_ROOT, "vocabulary.json"), { force: true });
+function buildTrack(definition) {
+  const workbookPath = findWorkbookPath(definition.workbookPattern);
+  const vocabulary = readVocabularyRows(workbookPath, definition.sheets);
+  const chunks = chunkItems(vocabulary, CHUNK_SIZE);
+  const trackOutputDir = path.join(TRACKS_ROOT, definition.id);
 
-const chunkFiles = chunks.map((chunk, index) => {
-  const fileName = `chunk-${String(index + 1).padStart(3, "0")}.json`;
-  const relativePath = `data/tracks/${TRACK_ID}/${fileName}`;
-  writeJson(path.join(TRACK_OUTPUT_DIR, fileName), chunk);
+  fs.rmSync(trackOutputDir, { recursive: true, force: true });
+
+  const chunkFiles = chunks.map((chunk, index) => {
+    const fileName = `chunk-${String(index + 1).padStart(3, "0")}.json`;
+    const relativePath = `data/tracks/${definition.id}/${fileName}`;
+
+    writeJson(path.join(trackOutputDir, fileName), chunk);
+
+    return {
+      id: `${definition.id}-chunk-${index + 1}`,
+      path: relativePath,
+      wordCount: chunk.length
+    };
+  });
 
   return {
-    id: `${TRACK_ID}-chunk-${index + 1}`,
-    path: relativePath,
-    wordCount: chunk.length
+    catalogTrack: createCatalogTrack(definition, chunkFiles, vocabulary.length),
+    summary: `${definition.id}: ${vocabulary.length} words, ${chunkFiles.length} chunk files`
   };
+}
+
+const catalogTracks = {};
+const summaries = [];
+
+fs.rmSync(path.join(DATA_ROOT, "vocabulary.json"), { force: true });
+
+for (const definition of TRACK_DEFINITIONS) {
+  if (definition.available) {
+    const { catalogTrack, summary } = buildTrack(definition);
+
+    catalogTracks[definition.id] = catalogTrack;
+    summaries.push(summary);
+    continue;
+  }
+
+  fs.rmSync(path.join(TRACKS_ROOT, definition.id), { recursive: true, force: true });
+  catalogTracks[definition.id] = createCatalogTrack(definition);
+}
+
+for (const definition of PLACEHOLDER_TRACKS) {
+  catalogTracks[definition.id] = {
+    id: definition.id,
+    available: false,
+    title: definition.title,
+    totalWords: 0,
+    chunkSize: CHUNK_SIZE,
+    chunkFiles: []
+  };
+}
+
+writeJson(path.join(DATA_ROOT, "catalog.json"), {
+  generatedAt: new Date().toISOString(),
+  tracks: catalogTracks
 });
 
-const catalog = {
-  generatedAt: new Date().toISOString(),
-  tracks: {
-    [TRACK_ID]: {
-      id: TRACK_ID,
-      available: true,
-      title: "Junior High",
-      sourceWorkbookKey: "level-1-level-2-workbook",
-      totalWords: vocabulary.length,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles
-    },
-    "senior-high": {
-      id: "senior-high",
-      available: false,
-      title: "Senior High",
-      totalWords: 0,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles: []
-    },
-    toeic: {
-      id: "toeic",
-      available: false,
-      title: "TOEIC",
-      totalWords: 0,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles: []
-    },
-    toefl: {
-      id: "toefl",
-      available: false,
-      title: "TOEFL",
-      totalWords: 0,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles: []
-    },
-    ielts: {
-      id: "ielts",
-      available: false,
-      title: "IELTS",
-      totalWords: 0,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles: []
-    },
-    gept: {
-      id: "gept",
-      available: false,
-      title: "GEPT",
-      totalWords: 0,
-      chunkSize: CHUNK_SIZE,
-      chunkFiles: []
-    }
-  }
-};
-
-writeJson(path.join(DATA_ROOT, "catalog.json"), catalog);
-
-console.log(`Exported ${vocabulary.length} words into ${chunkFiles.length} chunk files for ${TRACK_ID}.`);
+console.log(`Exported tracks:\n- ${summaries.join("\n- ")}`);

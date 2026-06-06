@@ -21,6 +21,17 @@ export function sessionReducer(state, action) {
         screen: action.payload
       };
 
+    case actionTypes.updateSetting:
+      if (action.payload.key !== "vocabularyTrack") {
+        return state;
+      }
+
+      return {
+        screen: "home",
+        flashcards: null,
+        quiz: null
+      };
+
     case actionTypes.startFlashcards:
       return {
         ...state,

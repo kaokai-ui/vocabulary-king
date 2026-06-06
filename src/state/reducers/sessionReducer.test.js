@@ -62,6 +62,34 @@ describe("sessionReducer", () => {
     expect(nextState.quiz.questionStartedAt).toBe(999);
   });
 
+  it("resets the active session when switching vocabulary tracks", () => {
+    const sessionState = {
+      screen: "flashcards",
+      flashcards: {
+        mode: "random",
+        wordIds: ["a", "b"],
+        currentIndex: 1,
+        showMeaning: true,
+        showExample: false
+      },
+      quiz: null
+    };
+
+    const nextState = sessionReducer(sessionState, {
+      type: actionTypes.updateSetting,
+      payload: {
+        key: "vocabularyTrack",
+        value: "senior-high"
+      }
+    });
+
+    expect(nextState).toEqual({
+      screen: "home",
+      flashcards: null,
+      quiz: null
+    });
+  });
+
   it("moves to quiz result on completion", () => {
     const quizState = {
       screen: "quiz",
