@@ -1,0 +1,193 @@
+@media (orientation: portrait) {
+  .app-shell,
+  .stage-shell,
+  .game-shell {
+    padding: 18px;
+  }
+
+  .choice-grid,
+  .choice-grid--compact,
+  .quiz-options {
+    grid-template-columns: 1fr;
+  }
+
+  .flashcard-layout {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .hero-panel {
+    padding: 20px;
+  }
+
+  .feature-card {
+    grid-column: span 12;
+  }
+
+  .flashcard-stage,
+  .quiz-stage {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .game-footer,
+  .resume-banner,
+  .stage-header,
+  .setting-row,
+  .word-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 980px) {
+  .choice-grid,
+  .choice-grid--compact,
+  .flashcard-layout,
+  .quiz-options,
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-logo-title {
+    width: min(100%, 860px);
+  }
+
+  .feature-card {
+    grid-column: span 12;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-shell,
+  .stage-shell,
+  .game-shell {
+    padding: 14px;
+  }
+
+  .hero-panel {
+    padding: 18px;
+    gap: 12px;
+    border-radius: 24px;
+  }
+
+  .hero-logo-title {
+    width: min(100%, 540px);
+  }
+
+  .game-shell {
+    gap: 14px;
+    justify-content: flex-start;
+  }
+
+  .flashcard-layout {
+    flex: 0 0 auto;
+    gap: 10px;
+  }
+
+  .flashcard-stage {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    min-height: 420px;
+    padding: 14px 16px;
+  }
+
+  .quiz-stage {
+    min-height: 34vh;
+    padding: 20px;
+  }
+
+  .flashcard-stage h1,
+  .quiz-stage h1 {
+    font-size: clamp(2.2rem, 10vw, 3.6rem);
+  }
+
+  .flashcard-inline-controls {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .flashcard-inline-controls .chip {
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+  }
+
+  .word-heading {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .game-footer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .game-footer button {
+    width: 100%;
+    padding: 12px 14px;
+  }
+
+  .hero-copy p {
+    margin: 8px 0 0;
+    font-size: 0.98rem;
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 4px;
+  }
+
+  .hero-stats .metric-card {
+    min-height: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+    background: transparent;
+    gap: 2px;
+  }
+
+  .hero-stats .metric-card span {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  .hero-stats .metric-card strong {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+
+  .home-grid {
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .feature-card {
+    min-height: 0;
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .feature-card h2 {
+    font-size: clamp(1.5rem, 8vw, 2rem);
+    margin: 8px 0;
+  }
+
+  .feature-card p {
+    margin: 0;
+    font-size: 0.98rem;
+  }
+
+  .locale-switcher {
+    margin-top: 16px;
+  }
+}

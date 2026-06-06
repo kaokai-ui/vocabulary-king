@@ -1,0 +1,170 @@
+.stage-header {
+  padding: 20px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.stage-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stage-copy h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+}
+
+.choice-grid,
+.metric-row,
+.stats-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.choice-grid {
+  margin-top: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.choice-grid--compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.quiz-count-chip {
+  text-align: center;
+  justify-content: center;
+}
+
+.metric-row,
+.stats-grid {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.mode-card,
+.placeholder-panel,
+.results-panel,
+.list-panel,
+.settings-panel,
+.history-panel {
+  padding: 24px;
+}
+
+.mode-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quiz-setup-panel {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quiz-setup-panel p,
+.quiz-setup-panel h2 {
+  margin: 0;
+}
+
+.result-table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result-table th,
+.result-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.answer-cell--correct {
+  color: var(--teal);
+  font-weight: 700;
+}
+
+.answer-cell--wrong {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.list-panel,
+.settings-panel,
+.history-panel {
+  margin-top: 24px;
+}
+
+.word-row,
+.setting-row,
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.word-row {
+  padding-left: 18px;
+  padding-right: 8px;
+}
+
+.word-row + .word-row,
+.setting-row + .setting-row,
+.history-row + .history-row {
+  border-top: 1px solid var(--border);
+}
+
+.word-row__head,
+.word-row__title,
+.results-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.word-row__head,
+.results-actions {
+  flex-wrap: wrap;
+}
+
+.word-row__title {
+  flex-wrap: wrap;
+}
+
+.mastery-rule {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.setting-row--stack {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.setting-row--stack p,
+.setting-row p {
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+
+.settings-select {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--panel-strong);
+  color: var(--text);
+  padding: 14px 16px;
+}
+
+.setting-row--toggle input {
+  width: 24px;
+  height: 24px;
+}

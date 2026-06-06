@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-06-06T02:20:34.886Z",
+  "tracks": {
+    "junior-high": {
+      "id": "junior-high",
+      "available": true,
+      "title": "Junior High",
+      "sourceWorkbookKey": "level-1-level-2-workbook",
+      "totalWords": 2074,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "junior-high-chunk-1",
+          "path": "data/tracks/junior-high/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "junior-high-chunk-2",
+          "path": "data/tracks/junior-high/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "junior-high-chunk-3",
+          "path": "data/tracks/junior-high/chunk-003.json",
+          "wordCount": 74
+        }
+      ]
+    },
+    "senior-high": {
+      "id": "senior-high",
+      "available": false,
+      "title": "Senior High",
+      "totalWords": 0,
+      "chunkSize": 1000,
+      "chunkFiles": []
+    },
+    "toeic": {
+      "id": "toeic",
+      "available": false,
+      "title": "TOEIC",
+      "totalWords": 0,
+      "chunkSize": 1000,
+      "chunkFiles": []
+    },
+    "toefl": {
+      "id": "toefl",
+      "available": false,
+      "title": "TOEFL",
+      "totalWords": 0,
+      "chunkSize": 1000,
+      "chunkFiles": []
+    },
+    "ielts": {
+      "id": "ielts",
+      "available": false,
+      "title": "IELTS",
+      "totalWords": 0,
+      "chunkSize": 1000,
+      "chunkFiles": []
+    },
+    "gept": {
+      "id": "gept",
+      "available": false,
+      "title": "GEPT",
+      "totalWords": 0,
+      "chunkSize": 1000,
+      "chunkFiles": []
+    }
+  }
+}

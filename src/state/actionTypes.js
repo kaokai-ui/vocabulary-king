@@ -1,0 +1,19 @@
+export const actionTypes = {
+  hydratePersistence: "HYDRATE_PERSISTENCE",
+  setNow: "SET_NOW",
+  setPronunciationMessage: "SET_PRONUNCIATION_MESSAGE",
+  updateSetting: "UPDATE_SETTING",
+  toggleSetting: "TOGGLE_SETTING",
+  toggleStarredWord: "TOGGLE_STARRED_WORD",
+  toggleKnownWord: "TOGGLE_KNOWN_WORD",
+  markWordSeen: "MARK_WORD_SEEN",
+  goHome: "GO_HOME",
+  openScreen: "OPEN_SCREEN",
+  startFlashcards: "START_FLASHCARDS",
+  advanceFlashcard: "ADVANCE_FLASHCARD",
+  toggleFlashcardPanel: "TOGGLE_FLASHCARD_PANEL",
+  startQuiz: "START_QUIZ",
+  lockQuizAnswer: "LOCK_QUIZ_ANSWER",
+  advanceQuiz: "ADVANCE_QUIZ",
+  completeQuiz: "COMPLETE_QUIZ"
+};

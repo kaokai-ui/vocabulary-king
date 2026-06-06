@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+.vite/
+
+# Test and automation artifacts
+playwright-report/
+test-results/
+outputs/
+
+# Project-local documents and datasets
+docs/
+
+# Local source/reference materials not needed for the app repo
+Source/
+*.tmp
+*.temp
+
+# Backup workbooks and scratch files
+詞彙分級表L1L2.xlsx
+詞彙分級表L3L6.xlsx
+*_backup.xlsx
+*_before_refine.xlsx
+test.xlsx
+
+# Unused duplicate assets kept only for local reference
+public/branding/logo-home - *.png
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

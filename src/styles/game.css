@@ -1,0 +1,133 @@
+.game-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.game-topbar,
+.game-footer,
+.flashcard-layout,
+.flashcard-inline-controls,
+.scoreboard,
+.status-pills,
+.quiz-heading,
+.word-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.game-topbar,
+.game-footer {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.scoreboard,
+.status-pills,
+.quiz-heading {
+  flex-wrap: wrap;
+}
+
+.flashcard-layout {
+  flex: 1;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.flashcard-inline-controls {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flashcard-stage,
+.quiz-stage {
+  flex: 1;
+  padding: clamp(28px, 5vw, 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  min-height: 56vh;
+}
+
+.flashcard-stage h1,
+.quiz-stage h1 {
+  font-size: clamp(3rem, 9vw, 6rem);
+}
+
+.flashcard-word-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  line-height: 0.92;
+}
+
+.flashcard-word-line {
+  display: block;
+}
+
+.word-heading {
+  flex-wrap: wrap;
+}
+
+.word-heading--center {
+  justify-content: center;
+}
+
+.flashcard-meaning {
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+  margin: 0;
+}
+
+  .flashcard-example {
+  font-size: 1.05rem;
+  color: var(--muted);
+  max-width: 56ch;
+}
+
+.quiz-stage {
+  align-items: center;
+  text-align: center;
+}
+
+.quiz-options {
+  width: min(760px, 100%);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.quiz-option {
+  min-height: 112px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+}
+
+.quiz-option span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: rgba(23, 49, 59, 0.06);
+  font-weight: 700;
+}
+
+.quiz-option--selected {
+  border-color: rgba(239, 131, 84, 0.56);
+}
+
+.quiz-option--correct {
+  background: #ddf7ee;
+  border-color: rgba(42, 157, 143, 0.44);
+}
+
+.quiz-option--wrong {
+  background: #ffe3da;
+  border-color: rgba(223, 94, 45, 0.4);
+}
