@@ -9,6 +9,54 @@ import StatsScreen from "../components/screens/StatsScreen";
 import WordListScreen from "../components/screens/WordListScreen";
 import { actionTypes } from "../state/actionTypes";
 
+export const screenAnalytics = {
+  home: {
+    pagePath: "/home",
+    pageTitle: "Vocabulary King - Home",
+    screenName: "home"
+  },
+  flashcards: {
+    pagePath: "/flashcards",
+    pageTitle: "Vocabulary King - Flashcards",
+    screenName: "flashcards"
+  },
+  quizSetup: {
+    pagePath: "/quiz/setup",
+    pageTitle: "Vocabulary King - Quiz Setup",
+    screenName: "quiz_setup"
+  },
+  quiz: {
+    pagePath: "/quiz/play",
+    pageTitle: "Vocabulary King - Quiz",
+    screenName: "quiz"
+  },
+  quizResult: {
+    pagePath: "/quiz/result",
+    pageTitle: "Vocabulary King - Quiz Result",
+    screenName: "quiz_result"
+  },
+  wordList: {
+    pagePath: "/word-list",
+    pageTitle: "Vocabulary King - Starred Words",
+    screenName: "word_list"
+  },
+  knownWords: {
+    pagePath: "/known-words",
+    pageTitle: "Vocabulary King - Known Words",
+    screenName: "known_words"
+  },
+  stats: {
+    pagePath: "/stats",
+    pageTitle: "Vocabulary King - Stats",
+    screenName: "stats"
+  },
+  settings: {
+    pagePath: "/settings",
+    pageTitle: "Vocabulary King - Settings",
+    screenName: "settings"
+  }
+};
+
 export const screenRegistry = {
   flashcards: (context) => (
     <FlashcardScreen

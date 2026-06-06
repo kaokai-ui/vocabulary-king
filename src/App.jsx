@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { messages } from "./i18n/messages";
 import { useVocabularyApp } from "./hooks/useVocabularyApp";
+import { trackScreenView } from "./lib/analytics";
 import { useVocabularyData } from "./hooks/useVocabularyData";
 import { defaultSettings, readStoredValue, STORAGE_KEYS } from "./lib/storage";
-import { screenRegistry } from "./screens/screenRegistry";
+import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
 
 function App() {
   const [activeTrack, setActiveTrack] = useState(() => readStoredValue(STORAGE_KEYS.settings, defaultSettings).vocabularyTrack);
@@ -16,6 +17,19 @@ function App() {
       setActiveTrack(app.settings.vocabularyTrack);
     }
   }, [activeTrack, app.settings.vocabularyTrack]);
+
+  useEffect(() => {
+    const screenConfig = screenAnalytics[activeScreenKey] ?? screenAnalytics.home;
+
+    if (typeof document !== "undefined") {
+      document.title = screenConfig.pageTitle;
+    }
+
+    trackScreenView(screenConfig, {
+      language: app.settings.locale,
+      vocabulary_track: activeTrack
+    });
+  }, [activeScreenKey, activeTrack, app.settings.locale]);
 
   if (vocabularyError) {
     return (
