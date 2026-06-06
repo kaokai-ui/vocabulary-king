@@ -65,11 +65,6 @@
   text-align: left;
 }
 
-.hero-stats .metric-card--track strong {
-  font-size: clamp(1.05rem, 1.65vw, 1.4rem);
-  line-height: 1.2;
-}
-
 .home-grid {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   margin-top: 18px;
