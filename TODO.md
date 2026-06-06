@@ -14,14 +14,3 @@
 - After updating the Level 1 / Level 2 workbook, run `npm run refresh:vocab` to rebuild the catalog and chunk files under `public/data/`.
 - If you also need a fresh production build after the workbook update, run `npm run build`.
 
-###
-你剛更新完 詞彙分級表L1L2.xlsx 之後，手動更新遊戲資料庫的方式是：
-npm run refresh:vocab
-
-這個指令會重新產生 public/data/vocabulary.json。
-如果你是開發中：
-先跑 npm run refresh:vocab
-然後重新整理瀏覽器頁面
-如果你是要更新正式版：
-先跑 npm run refresh:vocab
-再跑 npm run build
