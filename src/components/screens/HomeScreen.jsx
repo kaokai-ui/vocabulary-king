@@ -22,13 +22,25 @@ export default function HomeScreen({
   onChangeLocale
 }) {
   const heroLogoSrc = `${import.meta.env.BASE_URL}branding/logo-home.png`;
+  const heroLogoWebpSrc = `${import.meta.env.BASE_URL}branding/logo-home.webp`;
 
   return (
     <main className="app-shell">
       <section className="hero-panel">
         <div className="hero-copy">
           <h1 className="hero-logo-title">
-            <img className="hero-logo" src={heroLogoSrc} alt={text.title} />
+            <picture>
+              <source srcSet={heroLogoWebpSrc} type="image/webp" />
+              <img
+                className="hero-logo"
+                src={heroLogoSrc}
+                alt={text.title}
+                width="2048"
+                height="486"
+                fetchPriority="high"
+                decoding="async"
+              />
+            </picture>
           </h1>
         </div>
 
