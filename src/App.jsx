@@ -31,6 +31,12 @@ function App() {
     });
   }, [activeScreenKey, activeTrack, app.settings.locale]);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.scrollTo(0, 0);
+    }
+  }, [activeScreenKey]);
+
   if (vocabularyError) {
     return (
       <main className="stage-shell">

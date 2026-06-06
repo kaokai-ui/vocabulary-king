@@ -21,7 +21,18 @@ export default function KnownWordListScreen({ text, words, pronunciationMessage,
                   <span className="pill">{word.level}</span>
                 </div>
                 <p>{word.meaning}</p>
-                <p className="word-row__example">{word.example || text.emptyExample}</p>
+                {word.example ? (
+                  <div className="word-row__example-wrap">
+                    <p className="word-row__example">{word.example}</p>
+                    <SpeakerButton
+                      className="speaker-button--inline"
+                      label="Play example sentence"
+                      onClick={() => onPronounce(word.example)}
+                    />
+                  </div>
+                ) : (
+                  <p className="word-row__example">{text.emptyExample}</p>
+                )}
               </div>
               <button className="ghost-button" type="button" onClick={() => onRemoveWord(word.id)}>
                 {text.remove}

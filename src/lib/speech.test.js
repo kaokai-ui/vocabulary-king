@@ -25,4 +25,30 @@ describe("speech helpers", () => {
       reason: "inAppBrowser"
     });
   });
+
+  it("speaks an example sentence with an English voice when synthesis is available", async () => {
+    const speak = vi.fn();
+    const cancel = vi.fn();
+
+    globalThis.window = {
+      setTimeout,
+      clearTimeout,
+      speechSynthesis: {
+        getVoices: () => [{ name: "Test English", lang: "en-US" }],
+        speak,
+        cancel
+      },
+      SpeechSynthesisUtterance: function SpeechSynthesisUtterance(text) {
+        this.text = text;
+      }
+    };
+
+    const result = await speakWord("The teacher encouraged the students to review the new vocabulary before the quiz.");
+
+    expect(result).toEqual({ ok: true });
+    expect(cancel).toHaveBeenCalledTimes(1);
+    expect(speak).toHaveBeenCalledTimes(1);
+    expect(speak.mock.calls[0][0].text).toContain("review the new vocabulary");
+    expect(speak.mock.calls[0][0].lang).toBe("en-US");
+  });
 });

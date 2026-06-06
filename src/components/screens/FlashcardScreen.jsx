@@ -79,7 +79,20 @@ export default function FlashcardScreen({
             <SpeakerButton onClick={() => onPronounce(pronunciationWord)} />
           </div>
           {showMeaning ? <p className="flashcard-meaning">{flashcard.meaning}</p> : null}
-          {showExample ? <p className="flashcard-example">{flashcard.example || text.emptyExample}</p> : null}
+          {showExample ? (
+            flashcard.example ? (
+              <div className="flashcard-example-row">
+                <p className="flashcard-example">{flashcard.example}</p>
+                <SpeakerButton
+                  className="speaker-button--inline"
+                  label="Play example sentence"
+                  onClick={() => onPronounce(flashcard.example)}
+                />
+              </div>
+            ) : (
+              <p className="flashcard-example">{text.emptyExample}</p>
+            )
+          ) : null}
           {pronunciationMessage ? <p className="flashcard-example">{pronunciationMessage}</p> : null}
         </article>
       </section>

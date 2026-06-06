@@ -81,10 +81,20 @@
   margin: 0;
 }
 
-  .flashcard-example {
+.flashcard-example {
   font-size: 1.05rem;
   color: var(--muted);
   max-width: 56ch;
+}
+
+.flashcard-example-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.flashcard-example-row .flashcard-example {
+  margin: 0;
 }
 
 .quiz-stage {

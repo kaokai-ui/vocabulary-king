@@ -124,6 +124,7 @@
 
 .word-row__head,
 .word-row__title,
+.word-row__example-wrap,
 .results-actions {
   display: flex;
   align-items: center;
@@ -137,6 +138,10 @@
 
 .word-row__title {
   flex-wrap: wrap;
+}
+
+.word-row__example-wrap {
+  align-items: flex-start;
 }
 
 .mastery-rule {
@@ -153,6 +158,11 @@
 .setting-row p {
   color: var(--muted);
   margin: 6px 0 0;
+}
+
+.word-row__example {
+  margin: 0;
+  flex: 1;
 }
 
 .settings-select {
