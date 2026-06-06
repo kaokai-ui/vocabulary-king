@@ -21,9 +21,11 @@ export function createInitialAppState() {
 }
 
 export function appReducer(state, action) {
+  const nextSettings = settingsReducer(state.settings, action);
+
   return {
-    settings: settingsReducer(state.settings, action),
-    progress: progressReducer(state.progress, action),
+    settings: nextSettings,
+    progress: progressReducer(state.progress, action, state.settings.vocabularyTrack),
     session: sessionReducer(state.session, action),
     ...uiReducer(
       {

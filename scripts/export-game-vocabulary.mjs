@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import xlsx from "xlsx";
+import { buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
@@ -50,14 +51,6 @@ function findWorkbookPath(workbookPattern) {
   return path.resolve(workbookName);
 }
 
-function toSlug(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 48);
-}
-
 function readVocabularyRows(workbookPath, sheetNames) {
   const workbook = xlsx.readFile(workbookPath);
   const vocabulary = [];
@@ -75,7 +68,7 @@ function readVocabularyRows(workbookPath, sheetNames) {
       raw: false
     });
 
-    rows.slice(1).forEach((row, index) => {
+    rows.slice(1).forEach((row) => {
       const word = String(row[1] ?? "").trim();
       const meaning = String(row[2] ?? "").trim();
       const example = String(row[4] || row[3] || "").trim();
@@ -85,10 +78,9 @@ function readVocabularyRows(workbookPath, sheetNames) {
       }
 
       const level = sheetName.replace("Level ", "L");
-      const slug = toSlug(word);
 
       vocabulary.push({
-        id: `${level}-${index + 1}-${slug || "word"}`,
+        id: buildStableVocabularyId(level, word, meaning),
         level,
         word,
         meaning,

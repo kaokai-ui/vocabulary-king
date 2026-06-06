@@ -6,10 +6,12 @@
   "scripts": {
     "build:vocab": "node scripts/export-game-vocabulary.mjs",
     "refresh:vocab": "node scripts/export-game-vocabulary.mjs",
+    "verify:vocab": "node scripts/verify-vocabulary-data.mjs",
     "dev": "vite",
     "predev": "npm run build:vocab",
     "build": "vite build",
     "build:site": "vite build",
+    "check:site": "npm run test && npm run verify:vocab && npm run build:site",
     "prebuild": "npm run build:vocab",
     "preview": "vite preview",
     "test": "vitest run"

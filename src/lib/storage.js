@@ -13,10 +13,7 @@ export const defaultSettings = {
 };
 
 export const defaultProgress = {
-  starredWordIds: [],
-  knownWordIds: [],
-  wordStats: {},
-  quizHistory: []
+  byTrack: {}
 };
 
 export const defaultSession = {

@@ -1,10 +1,15 @@
 import { shuffle } from "./game";
 
-export function countProgress(progress, totalWords, isMasteredWord) {
-  const studiedWordIds = new Set(progress.knownWordIds ?? []);
-  const masteredWordIds = new Set(progress.knownWordIds ?? []);
+export function countProgress(progress, vocabulary, isMasteredWord) {
+  const vocabularyIds = new Set(vocabulary.map((word) => word.id));
+  const studiedWordIds = new Set((progress.knownWordIds ?? []).filter((wordId) => vocabularyIds.has(wordId)));
+  const masteredWordIds = new Set((progress.knownWordIds ?? []).filter((wordId) => vocabularyIds.has(wordId)));
 
-  Object.entries(progress.wordStats).forEach(([wordId, stats]) => {
+  Object.entries(progress.wordStats ?? {}).forEach(([wordId, stats]) => {
+    if (!vocabularyIds.has(wordId)) {
+      return;
+    }
+
     if (stats.seenCount > 0) {
       studiedWordIds.add(wordId);
     }
@@ -21,7 +26,7 @@ export function countProgress(progress, totalWords, isMasteredWord) {
     studiedCount,
     masteredCount,
     unknownCount: Math.max(studiedCount - masteredCount, 0),
-    progressRate: totalWords === 0 ? 0 : Math.round((masteredCount / totalWords) * 100)
+    progressRate: vocabulary.length === 0 ? 0 : Math.round((masteredCount / vocabulary.length) * 100)
   };
 }
 

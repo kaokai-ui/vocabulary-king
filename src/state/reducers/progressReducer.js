@@ -1,5 +1,6 @@
 import { actionTypes } from "../actionTypes";
 import { updateWordStats } from "../../lib/game";
+import { getTrackProgress, setTrackProgress } from "../../lib/progress";
 
 function toggleStarredWordIds(starredWordIds, wordId) {
   return starredWordIds.includes(wordId)
@@ -13,51 +14,81 @@ function toggleKnownWordIds(knownWordIds, wordId) {
     : [...knownWordIds, wordId];
 }
 
-export function progressReducer(state, action) {
+function resolveTrackId(action, fallbackTrackId = "junior-high") {
+  return action.meta?.trackId ?? fallbackTrackId;
+}
+
+export function progressReducer(state, action, fallbackTrackId) {
   switch (action.type) {
     case actionTypes.hydratePersistence:
-      return {
-        ...state,
-        ...action.payload.progress
-      };
+      return action.payload.progress ?? state;
 
-    case actionTypes.toggleStarredWord:
-      return {
-        ...state,
-        starredWordIds: toggleStarredWordIds(state.starredWordIds, action.payload)
-      };
+    case actionTypes.syncTrackProgress:
+      return setTrackProgress(state, action.payload.trackId, action.payload.progress);
 
-    case actionTypes.toggleKnownWord:
-      return {
-        ...state,
-        knownWordIds: toggleKnownWordIds(state.knownWordIds ?? [], action.payload)
-      };
+    case actionTypes.toggleStarredWord: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
 
-    case actionTypes.markWordSeen:
-      return updateWordStats(state, action.payload.wordId, (wordStats) => {
-        wordStats.seenCount += 1;
-        wordStats.lastSeenAt = action.payload.seenAt;
-      });
-
-    case actionTypes.lockQuizAnswer: {
-      const { activeQuestion, isCorrect, answeredAt } = action.payload;
-
-      return updateWordStats(state, activeQuestion.wordId, (wordStats) => {
-        wordStats.seenCount += 1;
-        wordStats.lastSeenAt = answeredAt;
-        wordStats.correctCount += isCorrect ? 1 : 0;
-        wordStats.wrongCount += isCorrect ? 0 : 1;
+      return setTrackProgress(state, trackId, {
+        ...trackProgress,
+        starredWordIds: toggleStarredWordIds(trackProgress.starredWordIds, action.payload)
       });
     }
 
-    case actionTypes.completeQuiz:
-      return {
-        ...state,
+    case actionTypes.toggleKnownWord: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
+
+      return setTrackProgress(state, trackId, {
+        ...trackProgress,
+        knownWordIds: toggleKnownWordIds(trackProgress.knownWordIds ?? [], action.payload)
+      });
+    }
+
+    case actionTypes.markWordSeen: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
+
+      return setTrackProgress(
+        state,
+        trackId,
+        updateWordStats(trackProgress, action.payload.wordId, (wordStats) => {
+          wordStats.seenCount += 1;
+          wordStats.lastSeenAt = action.payload.seenAt;
+        })
+      );
+    }
+
+    case actionTypes.lockQuizAnswer: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
+      const { activeQuestion, isCorrect, answeredAt } = action.payload;
+
+      return setTrackProgress(
+        state,
+        trackId,
+        updateWordStats(trackProgress, activeQuestion.wordId, (wordStats) => {
+          wordStats.seenCount += 1;
+          wordStats.lastSeenAt = answeredAt;
+          wordStats.correctCount += isCorrect ? 1 : 0;
+          wordStats.wrongCount += isCorrect ? 0 : 1;
+        })
+      );
+    }
+
+    case actionTypes.completeQuiz: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
+
+      return setTrackProgress(state, trackId, {
+        ...trackProgress,
         quizHistory: [
           action.payload.historyEntry,
-          ...state.quizHistory
+          ...trackProgress.quizHistory
         ].slice(0, 10)
-      };
+      });
+    }
 
     default:
       return state;

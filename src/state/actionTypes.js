@@ -1,5 +1,6 @@
 export const actionTypes = {
   hydratePersistence: "HYDRATE_PERSISTENCE",
+  syncTrackProgress: "SYNC_TRACK_PROGRESS",
   setNow: "SET_NOW",
   setPronunciationMessage: "SET_PRONUNCIATION_MESSAGE",
   updateSetting: "UPDATE_SETTING",

@@ -44,12 +44,13 @@ export function isMasteredWord(stats) {
 }
 
 export function updateWordStats(progress, wordId, updater) {
+  const currentWordStats = progress.wordStats ?? {};
   const nextStats = {
     seenCount: 0,
     correctCount: 0,
     wrongCount: 0,
     lastSeenAt: null,
-    ...(progress.wordStats[wordId] ?? {})
+    ...(currentWordStats[wordId] ?? {})
   };
 
   updater(nextStats);
@@ -57,7 +58,7 @@ export function updateWordStats(progress, wordId, updater) {
   return {
     ...progress,
     wordStats: {
-      ...progress.wordStats,
+      ...currentWordStats,
       [wordId]: nextStats
     }
   };
