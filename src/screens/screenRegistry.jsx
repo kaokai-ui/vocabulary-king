@@ -7,6 +7,7 @@ import QuizSetupScreen from "../components/screens/QuizSetupScreen";
 import SettingsScreen from "../components/screens/SettingsScreen";
 import StatsScreen from "../components/screens/StatsScreen";
 import WordListScreen from "../components/screens/WordListScreen";
+import { vocabularyTracks } from "../constants/vocabularyTracks";
 import { actionTypes } from "../state/actionTypes";
 
 export const screenAnalytics = {
@@ -150,6 +151,10 @@ export const screenRegistry = {
       text={context.text}
       locale={context.settings.locale}
       messages={context.messages}
+      vocabularyTrackLabel={
+        context.text[vocabularyTracks.find((track) => track.value === context.settings.vocabularyTrack)?.labelKey] ??
+        context.settings.vocabularyTrack
+      }
       vocabularyCount={context.vocabulary.length}
       masteredCount={context.stats.masteredCount}
       starredCount={context.progress.starredWordIds.length}

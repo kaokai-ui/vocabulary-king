@@ -140,7 +140,7 @@
   }
 
   .hero-stats {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1.56fr) minmax(0, 1.2fr) minmax(0, 0.73fr) minmax(0, 0.73fr);
     gap: 10px;
     margin-top: 4px;
   }
@@ -164,6 +164,11 @@
   .hero-stats .metric-card strong {
     font-size: 1.8rem;
     line-height: 1;
+  }
+
+  .hero-stats .metric-card--track strong {
+    font-size: 1.2rem;
+    line-height: 1.2;
   }
 
   .home-grid {

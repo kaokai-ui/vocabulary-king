@@ -43,8 +43,31 @@
 }
 
 .hero-stats {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: stretch;
+}
+
+.hero-stats .metric-card {
+  min-width: 0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-stats .metric-card strong,
+.hero-stats .metric-card span {
+  word-break: keep-all;
+}
+
+.hero-stats .metric-card--track {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-stats .metric-card--track strong {
+  font-size: clamp(1.05rem, 1.65vw, 1.4rem);
+  line-height: 1.2;
 }
 
 .home-grid {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T07:50:52.308Z",
+  "generatedAt": "2026-06-06T11:08:40.178Z",
   "tracks": {
     "junior-high": {
       "id": "junior-high",
@@ -29,7 +29,7 @@
     "senior-high": {
       "id": "senior-high",
       "available": true,
-      "title": "Senior High (Level 3-4)",
+      "title": "Senior High (L3-4)",
       "sourceWorkbookKey": "level-3-level-4-workbook",
       "totalWords": 2143,
       "chunkSize": 1000,
@@ -54,7 +54,7 @@
     "senior-high-5-6": {
       "id": "senior-high-5-6",
       "available": false,
-      "title": "Senior High (Level 5-6)",
+      "title": "Senior High (L5-6)",
       "sourceWorkbookKey": "level-5-level-6-workbook",
       "totalWords": 0,
       "chunkSize": 1000,

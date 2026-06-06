@@ -4,6 +4,7 @@ export default function HomeScreen({
   text,
   locale,
   messages,
+  vocabularyTrackLabel,
   vocabularyCount,
   masteredCount,
   starredCount,
@@ -32,6 +33,10 @@ export default function HomeScreen({
         </div>
 
         <div className="hero-stats">
+          <div className="metric-card metric-card--track">
+            <span>{text.vocabularyTrackCurrent}</span>
+            <strong>{vocabularyTrackLabel}</strong>
+          </div>
           <div className="metric-card">
             <span>{text.totalWords}</span>
             <strong>{vocabularyCount}</strong>
@@ -41,7 +46,7 @@ export default function HomeScreen({
             <strong>{masteredCount}</strong>
           </div>
           <div className="metric-card">
-            <span>{text.totalStarred}</span>
+            <span>{text.starredWordsShort}</span>
             <strong>{starredCount}</strong>
           </div>
         </div>

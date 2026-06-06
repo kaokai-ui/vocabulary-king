@@ -23,7 +23,7 @@ const TRACK_DEFINITIONS = [
   },
   {
     id: "senior-high",
-    title: "Senior High (Level 3-4)",
+    title: "Senior High (L3-4)",
     sourceWorkbookKey: "level-3-level-4-workbook",
     workbookPattern: /L3L6\.xlsx$/i,
     sheets: ["Level 3", "Level 4"],
@@ -31,7 +31,7 @@ const TRACK_DEFINITIONS = [
   },
   {
     id: "senior-high-5-6",
-    title: "Senior High (Level 5-6)",
+    title: "Senior High (L5-6)",
     sourceWorkbookKey: "level-5-level-6-workbook",
     workbookPattern: /L3L6\.xlsx$/i,
     sheets: ["Level 5", "Level 6"],
