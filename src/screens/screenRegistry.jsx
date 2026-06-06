@@ -108,6 +108,7 @@ export const screenRegistry = {
     <WordListScreen
       text={context.text}
       words={context.starredWords}
+      pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
       onRemoveWord={context.actions.toggleStarredWord}
@@ -117,6 +118,7 @@ export const screenRegistry = {
     <KnownWordListScreen
       text={context.text}
       words={context.knownWords}
+      pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
       onRemoveWord={context.actions.toggleKnownWord}

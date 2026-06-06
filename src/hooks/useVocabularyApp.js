@@ -279,16 +279,18 @@ export function useVocabularyApp(vocabulary) {
     });
   }
 
-  function pronounce(textToSpeak) {
+  async function pronounce(textToSpeak) {
     dispatch({
       type: actionTypes.setPronunciationMessage,
       payload: ""
     });
 
-    if (!speakWord(textToSpeak)) {
+    const result = await speakWord(textToSpeak);
+
+    if (!result.ok) {
       dispatch({
         type: actionTypes.setPronunciationMessage,
-        payload: text.pronunciationUnavailable
+        payload: result.reason === "inAppBrowser" ? text.pronunciationOpenInChrome : text.pronunciationUnavailable
       });
     }
   }

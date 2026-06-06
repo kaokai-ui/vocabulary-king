@@ -13,6 +13,8 @@ export const enMessages = {
   flashcardsStarred: "Flashcards (Word List)",
   quiz: "Quiz",
   pronunciationUnavailable: "This device does not support browser speech synthesis.",
+  pronunciationOpenInChrome:
+    "Opening this page directly inside LINE/FB may block pronunciation. Please open the URL in Chrome for normal pronunciation.",
   randomPractice: "Random practice",
   starPractice: "Practice starred words",
   randomPracticeHint: "Draw random words from the current track, excluding words already in your word list.",

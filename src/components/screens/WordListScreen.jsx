@@ -1,11 +1,12 @@
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
 
-export default function WordListScreen({ text, words, onHome, onPronounce, onRemoveWord }) {
+export default function WordListScreen({ text, words, pronunciationMessage, onHome, onPronounce, onRemoveWord }) {
   return (
     <main className="stage-shell">
       <StageHeader text={text} title={text.wordList} subtitle={text.wordListExplanation} onHome={onHome} />
       <section className="list-panel">
+        {pronunciationMessage ? <p className="empty-state">{pronunciationMessage}</p> : null}
         {words.length === 0 ? (
           <p className="empty-state">{text.emptyWordList}</p>
         ) : (

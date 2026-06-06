@@ -2,6 +2,19 @@ export function isSpeechSynthesisSupported() {
   return typeof window !== "undefined" && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 }
 
+export function isLikelyInAppBrowser(userAgent = "") {
+  const normalizedUserAgent = userAgent.toLowerCase();
+
+  return (
+    normalizedUserAgent.includes(" line/") ||
+    normalizedUserAgent.includes("line/") ||
+    normalizedUserAgent.includes("fban") ||
+    normalizedUserAgent.includes("fbav") ||
+    normalizedUserAgent.includes("fb_iab") ||
+    normalizedUserAgent.includes("instagram")
+  );
+}
+
 function pickEnglishVoice(voices) {
   return (
     voices.find((voice) => voice.lang?.toLowerCase().startsWith("en-us")) ??
@@ -11,28 +24,76 @@ function pickEnglishVoice(voices) {
   );
 }
 
-export function speakWord(text) {
-  if (!isSpeechSynthesisSupported() || !text) {
-    return false;
+function waitForVoices(synth, timeoutMs = 1200) {
+  const existingVoices = synth.getVoices();
+
+  if (existingVoices.length > 0) {
+    return Promise.resolve(existingVoices);
   }
 
-  const synth = window.speechSynthesis;
-  const utterance = new window.SpeechSynthesisUtterance(text);
-  const voices = synth.getVoices();
-  const voice = pickEnglishVoice(voices);
+  return new Promise((resolve) => {
+    let settled = false;
+    let timeoutId = null;
 
-  utterance.lang = voice?.lang ?? "en-US";
-  utterance.rate = 0.92;
-  utterance.pitch = 1;
+    function finish(voices) {
+      if (settled) {
+        return;
+      }
 
-  if (voice) {
-    utterance.voice = voice;
+      settled = true;
+
+      if (timeoutId) {
+        window.clearTimeout(timeoutId);
+      }
+
+      synth.onvoiceschanged = null;
+      resolve(voices);
+    }
+
+    synth.onvoiceschanged = () => {
+      finish(synth.getVoices());
+    };
+
+    timeoutId = window.setTimeout(() => {
+      finish(synth.getVoices());
+    }, timeoutMs);
+  });
+}
+
+export async function speakWord(text) {
+  if (!text || !isSpeechSynthesisSupported()) {
+    return {
+      ok: false,
+      reason: typeof navigator !== "undefined" && isLikelyInAppBrowser(navigator.userAgent) ? "inAppBrowser" : "unsupported"
+    };
   }
 
-  synth.cancel();
-  synth.speak(utterance);
+  try {
+    const synth = window.speechSynthesis;
+    const utterance = new window.SpeechSynthesisUtterance(text);
+    const voices = await waitForVoices(synth);
+    const voice = pickEnglishVoice(voices);
 
-  return true;
+    utterance.lang = voice?.lang ?? "en-US";
+    utterance.rate = 0.92;
+    utterance.pitch = 1;
+
+    if (voice) {
+      utterance.voice = voice;
+    }
+
+    synth.cancel();
+    synth.speak(utterance);
+
+    return {
+      ok: true
+    };
+  } catch (error) {
+    return {
+      ok: false,
+      reason: typeof navigator !== "undefined" && isLikelyInAppBrowser(navigator.userAgent) ? "inAppBrowser" : "unsupported"
+    };
+  }
 }
 
 export function stopSpeaking() {

@@ -13,6 +13,7 @@ export const zhTWMessages = {
   flashcardsStarred: "閃卡練習（生字表）",
   quiz: "單字測驗",
   pronunciationUnavailable: "這台裝置目前不支援瀏覽器內建發音。",
+  pronunciationOpenInChrome: "在LINE/FB直接點開會有無法發音的問題，請用Chrome瀏覽器開啟網址便可以正常發音",
   randomPractice: "隨機練習",
   starPractice: "從生詞表練習",
   randomPracticeHint: "從目前詞彙等級的全部單字隨機抽題，排除已加入生詞表的單字。",
