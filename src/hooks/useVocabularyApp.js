@@ -3,11 +3,12 @@ import { messages } from "../i18n/messages";
 import { countProgress, createPracticeDeck, getResumeScreen } from "../lib/appState";
 import { loadPersistedAppState, savePersistedAppState } from "../lib/persistence";
 import { getTrackProgress, isTrackProgressEqual, migrateTrackProgress } from "../lib/progress";
-import { createQuizQuestions, isMasteredWord, QUIZ_TIME_LIMIT_MS, shuffle } from "../lib/game";
+import { isMasteredWord, shuffle } from "../lib/game";
 import { speakWord, stopSpeaking } from "../lib/speech";
 import { STORAGE_KEYS, writeStoredValue } from "../lib/storage";
 import { actionTypes } from "../state/actionTypes";
 import { appReducer, createInitialAppState } from "../state/appReducer";
+import { useQuizSession } from "./useQuizSession";
 
 export function useVocabularyApp(vocabulary) {
   const [state, dispatch] = useReducer(appReducer, undefined, createInitialAppState);
@@ -15,7 +16,6 @@ export function useVocabularyApp(vocabulary) {
   const [storageMode, setStorageMode] = useState("localstorage");
   const sessionRef = useRef(state.session);
   const flashcardSeenRef = useRef(null);
-  const quizAdvanceTimeoutRef = useRef(null);
 
   const { settings, progress, session, now, pronunciationMessage } = state;
   const activeTrackId = settings.vocabularyTrack;
@@ -37,21 +37,19 @@ export function useVocabularyApp(vocabulary) {
       ? currentFlashcards[session.flashcards.currentIndex % currentFlashcards.length]
       : null;
 
-  const currentQuestion =
-    session.quiz && session.quiz.questions.length > 0
-      ? session.quiz.questions[session.quiz.currentIndex]
-      : null;
-
   const stats = useMemo(() => countProgress(activeProgress, vocabulary, isMasteredWord), [activeProgress, vocabulary]);
-
-  const timeLeftMs =
-    session.screen === "quiz" && session.quiz
-      ? Math.max(QUIZ_TIME_LIMIT_MS - Math.max(now - session.quiz.questionStartedAt, 0), 0)
-      : QUIZ_TIME_LIMIT_MS;
-  const timeLeftSeconds = Math.ceil(timeLeftMs / 1000);
   const hasSavedSession = session.screen === "home" && Boolean(session.flashcards || session.quiz);
   const starredWords = activeProgress.starredWordIds.map((wordId) => vocabularyById[wordId]).filter(Boolean);
   const knownWords = (activeProgress.knownWordIds ?? []).map((wordId) => vocabularyById[wordId]).filter(Boolean);
+
+  const { currentQuestion, timeLeftSeconds, startQuiz, handleQuizAnswer } = useQuizSession({
+    dispatch,
+    session,
+    sessionRef,
+    activeTrackId,
+    vocabulary,
+    now
+  });
 
   useEffect(() => {
     sessionRef.current = session;
@@ -117,101 +115,6 @@ export function useVocabularyApp(vocabulary) {
   }, [activeProgress, activeTrackId, isPersistenceReady, progress.byTrack, vocabulary]);
 
   useEffect(() => {
-    if (session.screen !== "quiz" || !session.quiz) {
-      return undefined;
-    }
-
-    const intervalId = window.setInterval(() => {
-      dispatch({
-        type: actionTypes.setNow,
-        payload: Date.now()
-      });
-    }, 250);
-
-    return () => {
-      window.clearInterval(intervalId);
-    };
-  }, [session.screen, session.quiz?.currentIndex]);
-
-  function handleQuizAnswer(selectedIndex) {
-    const activeSession = sessionRef.current;
-
-    if (!activeSession.quiz || activeSession.quiz.isLocked) {
-      return;
-    }
-
-    const activeQuestion = activeSession.quiz.questions[activeSession.quiz.currentIndex];
-    const isCorrect = selectedIndex === activeQuestion.correctIndex;
-
-    dispatch({
-      type: actionTypes.lockQuizAnswer,
-      payload: {
-        activeQuestion,
-        answeredAt: Date.now(),
-        isCorrect,
-        selectedIndex
-      },
-      meta: {
-        trackId: activeTrackId
-      }
-    });
-
-    if (quizAdvanceTimeoutRef.current) {
-      window.clearTimeout(quizAdvanceTimeoutRef.current);
-    }
-
-    quizAdvanceTimeoutRef.current = window.setTimeout(() => {
-      const latestSession = sessionRef.current;
-
-      if (!latestSession.quiz) {
-        return;
-      }
-
-      const latestQuiz = latestSession.quiz;
-      const nextIndex = latestQuiz.currentIndex + 1;
-
-      if (nextIndex >= latestQuiz.questions.length) {
-        const accuracy =
-          latestQuiz.questionCount === 0 ? 0 : Math.round((latestQuiz.correctCount / latestQuiz.questionCount) * 100);
-
-        dispatch({
-          type: actionTypes.completeQuiz,
-          payload: {
-            accuracy,
-            historyEntry: {
-              trackId: activeTrackId,
-              playedAt: Date.now(),
-              questionCount: latestQuiz.questionCount,
-              correctCount: latestQuiz.correctCount,
-              wrongCount: latestQuiz.wrongCount,
-              accuracy
-            }
-          },
-          meta: {
-            trackId: activeTrackId
-          }
-        });
-        return;
-      }
-
-      dispatch({
-        type: actionTypes.advanceQuiz,
-        payload: {
-          startedAt: Date.now()
-        }
-      });
-    }, 700);
-  }
-
-  useEffect(() => {
-    if (session.screen !== "quiz" || !session.quiz || session.quiz.isLocked || timeLeftMs > 0) {
-      return;
-    }
-
-    handleQuizAnswer(null);
-  }, [session.screen, session.quiz, timeLeftMs]);
-
-  useEffect(() => {
     if (!currentFlashcard || session.screen !== "flashcards") {
       return;
     }
@@ -238,10 +141,6 @@ export function useVocabularyApp(vocabulary) {
   useEffect(() => {
     return () => {
       stopSpeaking();
-
-      if (quizAdvanceTimeoutRef.current) {
-        window.clearTimeout(quizAdvanceTimeoutRef.current);
-      }
     };
   }, []);
 
@@ -323,17 +222,6 @@ export function useVocabularyApp(vocabulary) {
       type: actionTypes.advanceFlashcard,
       payload: {
         wordIds: nextWordIds
-      }
-    });
-  }
-
-  function startQuiz(questionCount) {
-    dispatch({
-      type: actionTypes.startQuiz,
-      payload: {
-        questionCount,
-        questions: createQuizQuestions(vocabulary, questionCount),
-        startedAt: Date.now()
       }
     });
   }

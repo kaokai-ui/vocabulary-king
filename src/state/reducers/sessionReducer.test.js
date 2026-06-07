@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { actionTypes } from "../actionTypes";
 import { sessionReducer } from "./sessionReducer";
+import { QUIZ_MODES } from "../../lib/game";
 
 describe("sessionReducer", () => {
   const initialState = {
@@ -51,6 +52,7 @@ describe("sessionReducer", () => {
     const nextState = sessionReducer(initialState, {
       type: actionTypes.startQuiz,
       payload: {
+        mode: QUIZ_MODES.meaningChoice,
         questionCount: 10,
         startedAt: 999,
         questions: [{ wordId: "x" }]
@@ -58,6 +60,7 @@ describe("sessionReducer", () => {
     });
 
     expect(nextState.screen).toBe("quiz");
+    expect(nextState.quiz.mode).toBe(QUIZ_MODES.meaningChoice);
     expect(nextState.quiz.questionCount).toBe(10);
     expect(nextState.quiz.questionStartedAt).toBe(999);
   });
@@ -99,12 +102,13 @@ describe("sessionReducer", () => {
         currentIndex: 9,
         correctCount: 8,
         wrongCount: 2,
-        selectedIndex: 1,
+        selectedChoiceId: "choice-1",
         isLocked: true,
         questionStartedAt: 1000,
         answers: [],
         questions: [],
-        accuracy: 0
+        accuracy: 0,
+        mode: QUIZ_MODES.meaningChoice
       }
     };
 
@@ -117,5 +121,63 @@ describe("sessionReducer", () => {
 
     expect(nextState.screen).toBe("quizResult");
     expect(nextState.quiz.accuracy).toBe(80);
+  });
+
+  it("stores generic answer payload fields when locking a quiz answer", () => {
+    const quizState = {
+      screen: "quiz",
+      flashcards: null,
+      quiz: {
+        mode: QUIZ_MODES.meaningChoice,
+        questionCount: 1,
+        currentIndex: 0,
+        correctCount: 0,
+        wrongCount: 0,
+        selectedChoiceId: null,
+        isLocked: false,
+        questionStartedAt: 1000,
+        answers: [],
+        questions: [
+          {
+            id: "meaning-choice:word-1",
+            type: QUIZ_MODES.meaningChoice,
+            wordId: "word-1",
+            prompt: "apple",
+            reviewPrompt: "apple",
+            answerWord: "apple",
+            correctText: "蘋果",
+            choices: [
+              { id: "choice-1", text: "蘋果" },
+              { id: "choice-2", text: "香蕉" }
+            ],
+            correctChoiceId: "choice-1"
+          }
+        ]
+      }
+    };
+
+    const nextState = sessionReducer(quizState, {
+      type: actionTypes.lockQuizAnswer,
+      payload: {
+        activeQuestion: quizState.quiz.questions[0],
+        isCorrect: true,
+        selectedChoiceId: "choice-1",
+        selectedChoiceText: "蘋果"
+      }
+    });
+
+    expect(nextState.quiz.selectedChoiceId).toBe("choice-1");
+    expect(nextState.quiz.answers).toEqual([
+      {
+        questionId: "meaning-choice:word-1",
+        questionType: QUIZ_MODES.meaningChoice,
+        wordId: "word-1",
+        prompt: "apple",
+        answerWord: "apple",
+        correctText: "蘋果",
+        selectedText: "蘋果",
+        isCorrect: true
+      }
+    ]);
   });
 });

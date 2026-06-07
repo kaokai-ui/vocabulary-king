@@ -8,7 +8,7 @@ export default function QuizScreen({
   correctCount,
   wrongCount,
   timeLeftSeconds,
-  selectedIndex,
+  selectedChoiceId,
   isLocked,
   pronunciationMessage,
   onAnswer,
@@ -36,16 +36,16 @@ export default function QuizScreen({
           </strong>
         </div>
         <div className="word-heading word-heading--center">
-          <h1>{question.word}</h1>
-          <SpeakerButton onClick={() => onPronounce(question.word)} />
+          <h1>{question.prompt}</h1>
+          {question.promptVoice ? <SpeakerButton onClick={() => onPronounce(question.promptVoice)} /> : null}
         </div>
         <p>{text.tapCorrectAnswer}</p>
         {pronunciationMessage ? <p className="flashcard-example">{pronunciationMessage}</p> : null}
 
         <div className="quiz-options">
-          {question.options.map((option, optionIndex) => {
-            const isSelected = selectedIndex === optionIndex;
-            const isCorrect = optionIndex === question.correctIndex;
+          {question.choices.map((choice, optionIndex) => {
+            const isSelected = selectedChoiceId === choice.id;
+            const isCorrect = choice.id === question.correctChoiceId;
             const className = [
               "quiz-option",
               isSelected ? "quiz-option--selected" : "",
@@ -57,14 +57,14 @@ export default function QuizScreen({
 
             return (
               <button
-                key={`${question.wordId}-${option}`}
+                key={`${question.wordId}-${choice.id}`}
                 className={className}
                 type="button"
                 disabled={isLocked}
-                onClick={() => onAnswer(optionIndex)}
+                onClick={() => onAnswer(choice.id)}
               >
                 <span>{String.fromCharCode(65 + optionIndex)}</span>
-                <strong>{option}</strong>
+                <strong>{choice.text}</strong>
               </button>
             );
           })}

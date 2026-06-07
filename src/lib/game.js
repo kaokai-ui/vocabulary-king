@@ -1,4 +1,7 @@
 export const QUIZ_TIME_LIMIT_MS = 10000;
+export { QUIZ_MODES } from "./quiz/questionBuilders";
+
+import { buildQuizQuestions } from "./quiz/questionBuilders";
 
 export function shuffle(items) {
   const next = [...items];
@@ -15,27 +18,10 @@ export function sample(items, count) {
   return shuffle(items).slice(0, count);
 }
 
-export function createQuizQuestions(vocabulary, count) {
-  const selectedWords = sample(vocabulary, Math.min(count, vocabulary.length));
-
-  return selectedWords.map((word) => {
-    const distractors = sample(
-      vocabulary.filter((candidate) => candidate.id !== word.id && candidate.meaning !== word.meaning),
-      3
-    ).map((candidate) => candidate.meaning);
-
-    const options = shuffle([word.meaning, ...distractors]);
-    const correctIndex = options.findIndex((option) => option === word.meaning);
-
-    return {
-      wordId: word.id,
-      word: word.word,
-      level: word.level,
-      correctMeaning: word.meaning,
-      example: word.example,
-      options,
-      correctIndex
-    };
+export function createQuizQuestions(vocabulary, count, options = {}) {
+  return buildQuizQuestions(vocabulary, {
+    count,
+    ...options
   });
 }
 

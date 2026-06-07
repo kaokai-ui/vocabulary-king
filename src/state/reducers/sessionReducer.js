@@ -89,11 +89,12 @@ export function sessionReducer(state, action) {
         screen: "quiz",
         flashcards: null,
         quiz: {
+          mode: action.payload.mode,
           questionCount: action.payload.questionCount,
           currentIndex: 0,
           correctCount: 0,
           wrongCount: 0,
-          selectedIndex: null,
+          selectedChoiceId: null,
           isLocked: false,
           questionStartedAt: action.payload.startedAt,
           answers: [],
@@ -108,23 +109,26 @@ export function sessionReducer(state, action) {
         return state;
       }
 
-      const { activeQuestion, isCorrect, selectedIndex } = action.payload;
+      const { activeQuestion, isCorrect, selectedChoiceId, selectedChoiceText } = action.payload;
 
       return {
         ...state,
         quiz: {
           ...quiz,
-          selectedIndex,
+          selectedChoiceId,
           isLocked: true,
           correctCount: quiz.correctCount + (isCorrect ? 1 : 0),
           wrongCount: quiz.wrongCount + (isCorrect ? 0 : 1),
           answers: [
             ...quiz.answers,
             {
+              questionId: activeQuestion.id,
+              questionType: activeQuestion.type,
               wordId: activeQuestion.wordId,
-              word: activeQuestion.word,
-              correctMeaning: activeQuestion.correctMeaning,
-              selectedMeaning: selectedIndex == null ? null : activeQuestion.options[selectedIndex],
+              prompt: activeQuestion.reviewPrompt ?? activeQuestion.prompt,
+              answerWord: activeQuestion.answerWord,
+              correctText: activeQuestion.correctText,
+              selectedText: selectedChoiceText,
               isCorrect
             }
           ]
@@ -139,16 +143,16 @@ export function sessionReducer(state, action) {
         return state;
       }
 
-      return {
-        ...state,
-        quiz: {
-          ...quiz,
-          currentIndex: quiz.currentIndex + 1,
-          selectedIndex: null,
-          isLocked: false,
-          questionStartedAt: action.payload.startedAt
-        }
-      };
+        return {
+          ...state,
+          quiz: {
+            ...quiz,
+            currentIndex: quiz.currentIndex + 1,
+            selectedChoiceId: null,
+            isLocked: false,
+            questionStartedAt: action.payload.startedAt
+          }
+        };
     }
 
     case actionTypes.completeQuiz: {

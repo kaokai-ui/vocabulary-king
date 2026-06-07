@@ -5,6 +5,7 @@ import {
   STORAGE_KEYS,
   writeStoredValue
 } from "./storage";
+import { normalizeSession } from "./quiz/sessionModel";
 
 const DB_NAME = "vocabulary-king";
 const DB_VERSION = 1;
@@ -74,7 +75,7 @@ function writeToStore(key, value) {
 function readLocalFallbackState() {
   return {
     progress: readStoredValue(STORAGE_KEYS.progress, defaultProgress),
-    session: readStoredValue(STORAGE_KEYS.session, defaultSession)
+    session: normalizeSession(readStoredValue(STORAGE_KEYS.session, defaultSession))
   };
 }
 
@@ -103,10 +104,10 @@ export async function loadPersistedAppState() {
         ...defaultProgress,
         ...(persisted.progress ?? {})
       },
-      session: {
+      session: normalizeSession({
         ...defaultSession,
         ...(persisted.session ?? {})
-      },
+      }),
       storageMode: "indexeddb"
     };
   } catch (error) {

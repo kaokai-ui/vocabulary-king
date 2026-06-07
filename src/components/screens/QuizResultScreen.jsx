@@ -37,11 +37,11 @@ export default function QuizResultScreen({ text, quiz, onHome, onRestartQuiz }) 
             </thead>
             <tbody>
               {quiz.answers.map((answer) => (
-                <tr key={`${answer.wordId}-${answer.correctMeaning}`}>
-                  <td>{answer.word}</td>
-                  <td>{answer.correctMeaning}</td>
+                <tr key={`${answer.questionId}-${answer.wordId}`}>
+                  <td>{answer.prompt}</td>
+                  <td>{answer.correctText}</td>
                   <td className={answer.isCorrect ? "answer-cell answer-cell--correct" : "answer-cell answer-cell--wrong"}>
-                    {answer.selectedMeaning ?? text.timedOut}
+                    {answer.selectedText ?? text.timedOut}
                   </td>
                 </tr>
               ))}
@@ -50,7 +50,7 @@ export default function QuizResultScreen({ text, quiz, onHome, onRestartQuiz }) 
         </div>
 
         <div className="results-actions">
-          <button className="solid-button" type="button" onClick={() => onRestartQuiz(quiz.questionCount)}>
+          <button className="solid-button" type="button" onClick={() => onRestartQuiz(quiz.questionCount, quiz.mode)}>
             {text.restart}
           </button>
           <button className="ghost-button" type="button" onClick={onHome}>
