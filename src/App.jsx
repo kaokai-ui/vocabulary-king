@@ -3,11 +3,11 @@ import { messages } from "./i18n/messages";
 import { useVocabularyApp } from "./hooks/useVocabularyApp";
 import { trackScreenView } from "./lib/analytics";
 import { useVocabularyData } from "./hooks/useVocabularyData";
-import { defaultSettings, readStoredValue, STORAGE_KEYS } from "./lib/storage";
+import { readStoredSettings } from "./lib/storage";
 import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
 
 function App() {
-  const [activeTrack, setActiveTrack] = useState(() => readStoredValue(STORAGE_KEYS.settings, defaultSettings).vocabularyTrack);
+  const [activeTrack, setActiveTrack] = useState(() => readStoredSettings().vocabularyTrack);
   const { vocabulary, catalog, vocabularyError } = useVocabularyData(activeTrack);
   const app = useVocabularyApp(vocabulary);
   const activeScreenKey = screenRegistry[app.session.screen] ? app.session.screen : "home";

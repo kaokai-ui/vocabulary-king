@@ -23,6 +23,8 @@ Source/
 詞彙分級表L1L2.xlsx
 詞彙分級表L3L6.xlsx
 GEPT_with_levels.KK.xlsx
+scripts/fill_gept_levels.py
+scripts/generate-tts-sample.ps1
 *_backup.xlsx
 *_before_refine.xlsx
 test.xlsx

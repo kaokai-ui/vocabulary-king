@@ -9,3 +9,20 @@ export const vocabularyTracks = [
   { value: "toefl", labelKey: "vocabularyTrackToefl", enabled: false },
   { value: "ielts", labelKey: "vocabularyTrackIelts", enabled: false }
 ];
+
+const legacyVocabularyTrackAliases = {
+  gept: "gept-elementary"
+};
+
+export const defaultVocabularyTrack = "junior-high";
+
+export function normalizeVocabularyTrack(trackId) {
+  const candidate = legacyVocabularyTrackAliases[trackId] ?? trackId;
+  const matchedTrack = vocabularyTracks.find((track) => track.value === candidate && track.enabled);
+
+  if (matchedTrack) {
+    return matchedTrack.value;
+  }
+
+  return defaultVocabularyTrack;
+}

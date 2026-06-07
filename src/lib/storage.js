@@ -1,3 +1,5 @@
+import { defaultVocabularyTrack, normalizeVocabularyTrack } from "../constants/vocabularyTracks";
+
 export const STORAGE_KEYS = {
   appState: "vocabulary-king:app-state",
   settings: "vocabulary-king:settings",
@@ -7,7 +9,7 @@ export const STORAGE_KEYS = {
 
 export const defaultSettings = {
   locale: "zh-TW",
-  vocabularyTrack: "junior-high",
+  vocabularyTrack: defaultVocabularyTrack,
   autoShowMeaning: false,
   autoShowExample: false
 };
@@ -37,6 +39,17 @@ export function readStoredValue(key, fallback) {
   } catch (error) {
     return fallback;
   }
+}
+
+export function normalizeSettings(settings) {
+  return {
+    ...settings,
+    vocabularyTrack: normalizeVocabularyTrack(settings?.vocabularyTrack)
+  };
+}
+
+export function readStoredSettings() {
+  return normalizeSettings(readStoredValue(STORAGE_KEYS.settings, defaultSettings));
 }
 
 export function writeStoredValue(key, value) {

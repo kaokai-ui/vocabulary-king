@@ -1,7 +1,7 @@
 import {
   defaultProgress,
   defaultSession,
-  defaultSettings,
+  readStoredSettings,
   readStoredValue,
   STORAGE_KEYS
 } from "../lib/storage";
@@ -12,7 +12,7 @@ import { uiReducer } from "./reducers/uiReducer";
 
 export function createInitialAppState() {
   return {
-    settings: readStoredValue(STORAGE_KEYS.settings, defaultSettings),
+    settings: readStoredSettings(),
     progress: readStoredValue(STORAGE_KEYS.progress, defaultProgress),
     session: readStoredValue(STORAGE_KEYS.session, defaultSession),
     now: Date.now(),
