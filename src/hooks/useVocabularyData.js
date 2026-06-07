@@ -1,24 +1,50 @@
 import { useEffect, useState } from "react";
 
+let cachedCatalog = null;
+const cachedVocabularyByTrack = new Map();
+
 export function useVocabularyData(trackId) {
   const [vocabulary, setVocabulary] = useState([]);
   const [catalog, setCatalog] = useState(null);
   const [vocabularyError, setVocabularyError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadedTrackId, setLoadedTrackId] = useState(null);
 
   useEffect(() => {
     let isCancelled = false;
+    const abortController = new AbortController();
 
     async function loadVocabulary() {
       try {
         setVocabularyError("");
+        setIsLoading(true);
 
-        const catalogResponse = await fetch(`${import.meta.env.BASE_URL}data/catalog.json`);
-
-        if (!catalogResponse.ok) {
-          throw new Error(`HTTP ${catalogResponse.status}`);
+        if (cachedCatalog) {
+          setCatalog(cachedCatalog);
         }
 
-        const nextCatalog = await catalogResponse.json();
+        if (cachedVocabularyByTrack.has(trackId)) {
+          setVocabulary(cachedVocabularyByTrack.get(trackId));
+          setLoadedTrackId(trackId);
+          setIsLoading(false);
+          return;
+        }
+
+        setVocabulary([]);
+
+        if (!cachedCatalog) {
+          const catalogResponse = await fetch(`${import.meta.env.BASE_URL}data/catalog.json`, {
+            signal: abortController.signal
+          });
+
+          if (!catalogResponse.ok) {
+            throw new Error(`HTTP ${catalogResponse.status}`);
+          }
+
+          cachedCatalog = await catalogResponse.json();
+        }
+
+        const nextCatalog = cachedCatalog;
 
         if (isCancelled) {
           return;
@@ -34,7 +60,9 @@ export function useVocabularyData(trackId) {
 
         const chunkPayloads = await Promise.all(
           track.chunkFiles.map(async (chunkFile) => {
-            const chunkResponse = await fetch(`${import.meta.env.BASE_URL}${chunkFile.path}`);
+            const chunkResponse = await fetch(`${import.meta.env.BASE_URL}${chunkFile.path}`, {
+              signal: abortController.signal
+            });
 
             if (!chunkResponse.ok) {
               throw new Error(`Failed to load chunk: ${chunkFile.path}`);
@@ -45,12 +73,22 @@ export function useVocabularyData(trackId) {
         );
 
         if (!isCancelled) {
-          setVocabulary(chunkPayloads.flat());
+          const nextVocabulary = chunkPayloads.flat();
+          cachedVocabularyByTrack.set(trackId, nextVocabulary);
+          setVocabulary(nextVocabulary);
+          setLoadedTrackId(trackId);
+          setIsLoading(false);
         }
       } catch (error) {
+        if (error?.name === "AbortError") {
+          return;
+        }
+
         if (!isCancelled) {
           setVocabulary([]);
+          setLoadedTrackId(null);
           setVocabularyError("load-failed");
+          setIsLoading(false);
         }
       }
     }
@@ -59,12 +97,14 @@ export function useVocabularyData(trackId) {
 
     return () => {
       isCancelled = true;
+      abortController.abort();
     };
   }, [trackId]);
 
   return {
     vocabulary,
     catalog,
-    vocabularyError
+    vocabularyError,
+    isLoading: isLoading || loadedTrackId !== trackId
   };
 }

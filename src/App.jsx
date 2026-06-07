@@ -8,7 +8,7 @@ import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
 
 function App() {
   const [activeTrack, setActiveTrack] = useState(() => readStoredSettings().vocabularyTrack);
-  const { vocabulary, catalog, vocabularyError } = useVocabularyData(activeTrack);
+  const { vocabulary, catalog, vocabularyError, isLoading } = useVocabularyData(activeTrack);
   const app = useVocabularyApp(vocabulary);
   const activeScreenKey = screenRegistry[app.session.screen] ? app.session.screen : "home";
 
@@ -47,11 +47,21 @@ function App() {
     );
   }
 
-  if (!app.isPersistenceReady || vocabulary.length === 0) {
+  if (!app.isPersistenceReady || isLoading) {
     return (
       <main className="stage-shell">
         <section className="placeholder-panel">
           <h2>{app.text.loadingVocabulary}</h2>
+        </section>
+      </main>
+    );
+  }
+
+  if (vocabulary.length === 0) {
+    return (
+      <main className="stage-shell">
+        <section className="placeholder-panel">
+          <h2>{app.text.emptyVocabularyTrack}</h2>
         </section>
       </main>
     );
