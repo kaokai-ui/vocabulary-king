@@ -1,0 +1,7002 @@
+[
+  {
+    "level": "L6",
+    "word": "tranquil",
+    "meaning": "平靜的、靜謐的",
+    "example": "The lake looked tranquil at dawn.（黎明時湖面看起來很寧靜。）",
+    "id": "L6-tranquil-megyb62"
+  },
+  {
+    "level": "L6",
+    "word": "tranquilizer",
+    "meaning": "鎮定劑",
+    "example": "The doctor gave him a tranquilizer.（醫生給了他鎮定劑。）",
+    "id": "L6-tranquilizer-mm2qud"
+  },
+  {
+    "level": "L6",
+    "word": "transaction",
+    "meaning": "交易、辦理",
+    "example": "The bank recorded the transaction.（銀行記錄了這筆交易。）",
+    "id": "L6-transaction-m10g5axe"
+  },
+  {
+    "level": "L6",
+    "word": "transcript",
+    "meaning": "抄本、謄本、成績單",
+    "example": "Please send me your school transcript.（請寄給我你的成績單。）",
+    "id": "L6-transcript-mx2jasg"
+  },
+  {
+    "level": "L6",
+    "word": "transformation",
+    "meaning": "(徹底的)變化、改革",
+    "example": "The city went through a major transformation.（這座城市經歷了重大轉變。）",
+    "id": "L6-transformation-mpe8qak"
+  },
+  {
+    "level": "L6",
+    "word": "transistor",
+    "meaning": "電晶體",
+    "example": "The old radio uses a transistor.（這台舊收音機使用電晶體。）",
+    "id": "L6-transistor-mmme6x"
+  },
+  {
+    "level": "L6",
+    "word": "transit",
+    "meaning": "運輸(系統)、過境；運送過、通過",
+    "example": "Many passengers use public transit.（許多乘客使用大眾運輸。）",
+    "id": "L6-transit-mg518wq"
+  },
+  {
+    "level": "L6",
+    "word": "transition",
+    "meaning": "過渡、轉變",
+    "example": "The transition to a new school was difficult.（轉到新學校的過程很困難。）",
+    "id": "L6-transition-ma33aun"
+  },
+  {
+    "level": "L6",
+    "word": "transmission",
+    "meaning": "傳送、傳染、(電台或電視)播送",
+    "example": "The transmission of the virus can be prevented.（病毒傳播可以被預防。）",
+    "id": "L6-transmission-m1309zv"
+  },
+  {
+    "level": "L6",
+    "word": "transmit",
+    "meaning": "播送、傳染、傳導(熱、光)",
+    "example": "Radios transmit signals through the air.（收音機透過空氣傳送訊號。）",
+    "id": "L6-transmit-ma0xieh"
+  },
+  {
+    "level": "L6",
+    "word": "trauma",
+    "meaning": "精神創傷、外傷",
+    "example": "The accident caused deep trauma.（事故造成深層創傷。）",
+    "id": "L6-trauma-m14g3t0g"
+  },
+  {
+    "level": "L6",
+    "word": "tread",
+    "meaning": "踩、踏；步伐、腳步聲",
+    "example": "Do not tread on the flowers.（不要踩花。）",
+    "id": "L6-tread-m1qd7ejy"
+  },
+  {
+    "level": "L6",
+    "word": "treason",
+    "meaning": "叛國罪",
+    "example": "Treason is a serious crime.（叛國是嚴重罪行。）",
+    "id": "L6-treason-mcpo7u"
+  },
+  {
+    "level": "L6",
+    "word": "trek",
+    "meaning": "長途跋涉、徒步旅行",
+    "example": "We made a long trek through the mountains.（我們長途跋涉穿越山區。）",
+    "id": "L6-trek-m13xlds"
+  },
+  {
+    "level": "L6",
+    "word": "tremor",
+    "meaning": "顫抖、輕微地震",
+    "example": "A small tremor shook the room.（一陣輕微震動搖晃了房間。）",
+    "id": "L6-tremor-m1uxsk2u"
+  },
+  {
+    "level": "L6",
+    "word": "trespass",
+    "meaning": "擅自進入、侵占",
+    "example": "Do not trespass on private land.（不要擅闖私人土地。）",
+    "id": "L6-trespass-mtjqj9w"
+  },
+  {
+    "level": "L6",
+    "word": "trigger",
+    "meaning": "扳機、誘因；觸發、起動",
+    "example": "The smell of smoke triggered the alarm.（煙味觸發了警報。）",
+    "id": "L6-trigger-m1fottml"
+  },
+  {
+    "level": "L6",
+    "word": "triumphant",
+    "meaning": "大獲全勝的、歡欣鼓舞的",
+    "example": "The team returned home triumphant.（隊伍勝利地回家。）",
+    "id": "L6-triumphant-m5rs3oa"
+  },
+  {
+    "level": "L6",
+    "word": "trivial",
+    "meaning": "不重要的、瑣碎的",
+    "example": "That is a trivial problem.（那是個小問題。）",
+    "id": "L6-trivial-m1sb53nf"
+  },
+  {
+    "level": "L6",
+    "word": "trophy",
+    "meaning": "獎品、獎盃、戰利品",
+    "example": "She won a trophy in the contest.（她在比賽中贏得獎盃。）",
+    "id": "L6-trophy-m1qkd38q"
+  },
+  {
+    "level": "L6",
+    "word": "tropic",
+    "meaning": "回歸線、熱帶；熱帶的",
+    "example": "Taiwan is near the Tropic of Cancer.（台灣靠近北回歸線。）",
+    "id": "L6-tropic-m3tjw2y"
+  },
+  {
+    "level": "L6",
+    "word": "truant",
+    "meaning": "逃學生；怠忽職守的；曠課、逃學",
+    "example": "The truant student skipped class again.（那名逃課學生又翹課了。）",
+    "id": "L6-truant-m1ib32we"
+  },
+  {
+    "level": "L6",
+    "word": "truce",
+    "meaning": "停戰協定",
+    "example": "The two sides agreed to a truce.（雙方同意停戰。）",
+    "id": "L6-truce-majo55m"
+  },
+  {
+    "level": "L6",
+    "word": "tuberculosis",
+    "meaning": "結核病",
+    "example": "Tuberculosis can affect the lungs.（結核病可能影響肺部。）",
+    "id": "L6-tuberculosis-miv55p"
+  },
+  {
+    "level": "L6",
+    "word": "tumor",
+    "meaning": "腫瘤、腫塊",
+    "example": "The doctor found a small tumor.（醫生發現一個小腫瘤。）",
+    "id": "L6-tumor-mnx2ekn"
+  },
+  {
+    "level": "L6",
+    "word": "turmoil",
+    "meaning": "動亂、騷動、焦慮",
+    "example": "The country was in political turmoil.（這個國家處於政治動盪中。）",
+    "id": "L6-turmoil-m8rlmt3"
+  },
+  {
+    "level": "L6",
+    "word": "twilight",
+    "meaning": "暮色、黃昏",
+    "example": "We walked home at twilight.（我們在暮色中走回家。）",
+    "id": "L6-twilight-m1qzn815"
+  },
+  {
+    "level": "L6",
+    "word": "tyranny",
+    "meaning": "暴虐、暴政",
+    "example": "The people suffered under tyranny.（人民在暴政下受苦。）",
+    "id": "L6-tyranny-m1rk8l68"
+  },
+  {
+    "level": "L6",
+    "word": "ulcer",
+    "meaning": "潰瘍",
+    "example": "Stress can make an ulcer worse.（壓力可能使潰瘍惡化。）",
+    "id": "L6-ulcer-mjlp9"
+  },
+  {
+    "level": "L6",
+    "word": "ultimate",
+    "meaning": "最後的、極端的、基本的；極品、最終的事物、終極、極限",
+    "example": "Our ultimate goal is peace.（我們的最終目標是和平。）",
+    "id": "L6-ultimate-mu9zaws"
+  },
+  {
+    "level": "L6",
+    "word": "unanimous",
+    "meaning": "意見一致的、一致同意的",
+    "example": "The decision was unanimous.（這項決定是全體一致的。）",
+    "id": "L6-unanimous-mz36ncw"
+  },
+  {
+    "level": "L6",
+    "word": "uncover",
+    "meaning": "揭開蓋子、揭露、揭發",
+    "example": "The police uncovered new evidence.（警方發現了新證據。）",
+    "id": "L6-uncover-muk84x9"
+  },
+  {
+    "level": "L6",
+    "word": "underestimate",
+    "meaning": "低估、輕視",
+    "example": "Do not underestimate her ability.（不要低估她的能力。）",
+    "id": "L6-underestimate-m105p8g0"
+  },
+  {
+    "level": "L6",
+    "word": "undergo",
+    "meaning": "經歷、遭受",
+    "example": "She will undergo surgery tomorrow.（她明天將接受手術。）",
+    "id": "L6-undergo-m7jmakn"
+  },
+  {
+    "level": "L6",
+    "word": "undermine",
+    "meaning": "逐漸削弱、破壞",
+    "example": "His lies undermined our trust.（他的謊言削弱了我們的信任。）",
+    "id": "L6-undermine-mlbjmf0"
+  },
+  {
+    "level": "L6",
+    "word": "undo",
+    "meaning": "拆開、消除、打敗",
+    "example": "Click here to undo the change.（按這裡復原變更。）",
+    "id": "L6-undo-myc91yl"
+  },
+  {
+    "level": "L6",
+    "word": "unemployment",
+    "meaning": "失業、失業人數",
+    "example": "Unemployment rose last year.（失業率去年上升。）",
+    "id": "L6-unemployment-m1q6jw8v"
+  },
+  {
+    "level": "L6",
+    "word": "unfold",
+    "meaning": "展開、透露",
+    "example": "The story began to unfold slowly.（故事開始慢慢展開。）",
+    "id": "L6-unfold-moxrqr2"
+  },
+  {
+    "level": "L6",
+    "word": "unify",
+    "meaning": "統一、使成一體",
+    "example": "The leader tried to unify the country.（領袖試圖統一國家。）",
+    "id": "L6-unify-m1asgiev"
+  },
+  {
+    "level": "L6",
+    "word": "unlock",
+    "meaning": "開鎖、揭開",
+    "example": "Use this key to unlock the door.（用這把鑰匙開門。）",
+    "id": "L6-unlock-mzaaw8k"
+  },
+  {
+    "level": "L6",
+    "word": "unpack",
+    "meaning": "打開(包裹、行李)、取出東西",
+    "example": "I need to unpack my suitcase.（我需要打開行李箱整理。）",
+    "id": "L6-unpack-mxncsq1"
+  },
+  {
+    "level": "L6",
+    "word": "upbringing",
+    "meaning": "撫育、教育",
+    "example": "His strict upbringing shaped his character.（嚴格的教養塑造了他的性格。）",
+    "id": "L6-upbringing-m1iw9i0j"
+  },
+  {
+    "level": "L6",
+    "word": "upgrade",
+    "meaning": "使升級、提升；升級、上坡",
+    "example": "I want to upgrade my computer.（我想升級我的電腦。）",
+    "id": "L6-upgrade-m6aj3bk"
+  },
+  {
+    "level": "L6",
+    "word": "uphold",
+    "meaning": "維護(正義)、維持(判決)",
+    "example": "The court upheld the decision.（法院維持了這項決定。）",
+    "id": "L6-uphold-mqpphiz"
+  },
+  {
+    "level": "L6",
+    "word": "uranium",
+    "meaning": "鈾",
+    "example": "Uranium is used in nuclear energy.（鈾被用於核能。）",
+    "id": "L6-uranium-msvy"
+  },
+  {
+    "level": "L6",
+    "word": "urgency",
+    "meaning": "迫切(的樣子)、急迫、緊急(性)",
+    "example": "There is a sense of urgency in his voice.（他的聲音中有急迫感。）",
+    "id": "L6-urgency-m1368x81"
+  },
+  {
+    "level": "L6",
+    "word": "urine",
+    "meaning": "尿、小便",
+    "example": "The doctor tested the patient’s urine.（醫生檢驗病人的尿液。）",
+    "id": "L6-urine-mbubz5e"
+  },
+  {
+    "level": "L6",
+    "word": "usher",
+    "meaning": "引座員、(婚禮)招待；引導、開創",
+    "example": "The usher showed us to our seats.（引座員帶我們到座位。）",
+    "id": "L6-usher-m1hxj8cg"
+  },
+  {
+    "level": "L6",
+    "word": "utensil",
+    "meaning": "(家庭)用具、器皿",
+    "example": "A spoon is a useful kitchen utensil.（湯匙是有用的廚房用具。）",
+    "id": "L6-utensil-mfgy7pb"
+  },
+  {
+    "level": "L6",
+    "word": "utility",
+    "meaning": "效用、公共事業(水、電、瓦斯等)",
+    "example": "Monthly utility bills like water and electricity are skyrocketing.（每月的水電等公用事業帳單正在飛漲。",
+    "id": "L6-utility-mi3ftbw"
+  },
+  {
+    "level": "L6",
+    "word": "utility",
+    "meaning": "多用途的、多功能的",
+    "example": "Monthly utility bills like water and electricity are skyrocketing.（每月的水電等公用事業帳單正在飛漲。",
+    "id": "L6-utility-m1byx54f"
+  },
+  {
+    "level": "L6",
+    "word": "utilize",
+    "meaning": "使用、利用",
+    "example": "We should utilize our time wisely.（我們應該善用時間。）",
+    "id": "L6-utilize-m15or4xj"
+  },
+  {
+    "level": "L6",
+    "word": "utmost",
+    "meaning": "最大的、極度的；最大量、極限、最大可能",
+    "example": "I will do my utmost to help.（我會盡最大努力幫忙。）",
+    "id": "L6-utmost-mta0d92"
+  },
+  {
+    "level": "L6",
+    "word": "vaccine",
+    "meaning": "疫苗、痘苗",
+    "example": "The vaccine protects people from disease.（疫苗保護人們免於疾病。）",
+    "id": "L6-vaccine-m1elvflg"
+  },
+  {
+    "level": "L6",
+    "word": "valiant",
+    "meaning": "勇敢的、堅定的",
+    "example": "The valiant soldier saved his friend.（勇敢的士兵救了朋友。）",
+    "id": "L6-valiant-mydlmpj"
+  },
+  {
+    "level": "L6",
+    "word": "valid",
+    "meaning": "有效的、合理的",
+    "example": "Your ticket is still valid.（你的票仍然有效。）",
+    "id": "L6-valid-m1ug0ht6"
+  },
+  {
+    "level": "L6",
+    "word": "validity",
+    "meaning": "有效、合理",
+    "example": "The validity of the data is important.（資料的有效性很重要。）",
+    "id": "L6-validity-m1oown40"
+  },
+  {
+    "level": "L6",
+    "word": "vanilla",
+    "meaning": "香草、香草香精",
+    "example": "I like vanilla ice cream.（我喜歡香草冰淇淋。）",
+    "id": "L6-vanilla-mbunw06"
+  },
+  {
+    "level": "L6",
+    "word": "variable",
+    "meaning": "多變的；可變因素、變數",
+    "example": "Price is a variable in this study.（價格是這項研究中的變數。）",
+    "id": "L6-variable-m160g7sd"
+  },
+  {
+    "level": "L6",
+    "word": "variation",
+    "meaning": "變異、變更",
+    "example": "There is a small variation in color.（顏色有些微差異。）",
+    "id": "L6-variation-m1rek77p"
+  },
+  {
+    "level": "L6",
+    "word": "vend",
+    "meaning": "販賣、兜售",
+    "example": "The machine can vend cold drinks.（這台機器可以販賣冷飲。）",
+    "id": "L6-vend-m1yqk7zt"
+  },
+  {
+    "level": "L6",
+    "word": "verge",
+    "meaning": "瀕臨",
+    "example": "The company was on the verge of success.（公司即將成功。）",
+    "id": "L6-verge-mjrzn"
+  },
+  {
+    "level": "L6",
+    "word": "verge",
+    "meaning": "邊緣；路肩",
+    "example": "The company was on the verge of success.（公司即將成功。）",
+    "id": "L6-verge-mdtyim4"
+  },
+  {
+    "level": "L6",
+    "word": "versatile",
+    "meaning": "多才多藝的、多功能的",
+    "example": "This versatile tool has many uses.（這個多功能工具有很多用途。）",
+    "id": "L6-versatile-mkv8jfj"
+  },
+  {
+    "level": "L6",
+    "word": "veteran",
+    "meaning": "老手、老兵、退伍軍人",
+    "example": "The veteran told stories about the war.（老兵講述戰爭故事。）",
+    "id": "L6-veteran-mbj1btc"
+  },
+  {
+    "level": "L6",
+    "word": "veterinarian",
+    "meaning": "獸醫",
+    "example": "The vet examined my dog.（獸醫檢查了我的狗。）",
+    "id": "L6-veterinarian-mkfub"
+  },
+  {
+    "level": "L6",
+    "word": "vibration",
+    "meaning": "震動、共鳴、振幅",
+    "example": "The vibration of the phone woke me up.（手機震動把我吵醒。）",
+    "id": "L6-vibration-m7053wh"
+  },
+  {
+    "level": "L6",
+    "word": "vice",
+    "meaning": "罪行、惡行",
+    "example": "Greed is a common vice.（貪婪是常見惡習。）",
+    "id": "L6-vice-midajfu"
+  },
+  {
+    "level": "L6",
+    "word": "vicious",
+    "meaning": "殘暴的、惡劣的",
+    "example": "The dog made a vicious attack.（那隻狗發動了兇猛攻擊。）",
+    "id": "L6-vicious-m105ozzd"
+  },
+  {
+    "level": "L6",
+    "word": "victimize",
+    "meaning": "使受害、使受苦",
+    "example": "The scam victimized many elderly people.（詐騙使許多老人受害。）",
+    "id": "L6-victimize-mz73v2g"
+  },
+  {
+    "level": "L6",
+    "word": "victor",
+    "meaning": "勝利者、獲勝者",
+    "example": "The victor raised the trophy.（勝利者舉起獎盃。）",
+    "id": "L6-victor-m1hghusy"
+  },
+  {
+    "level": "L6",
+    "word": "victorious",
+    "meaning": "勝利的、戰勝的",
+    "example": "The team was victorious.（這支隊伍勝利了。）",
+    "id": "L6-victorious-mg87d9q"
+  },
+  {
+    "level": "L6",
+    "word": "villa",
+    "meaning": "渡假別墅、豪宅",
+    "example": "They stayed in a villa by the sea.（他們住在海邊別墅。）",
+    "id": "L6-villa-mtkg97a"
+  },
+  {
+    "level": "L6",
+    "word": "vineyard",
+    "meaning": "葡萄園、釀酒廠",
+    "example": "The vineyard produces red wine.（葡萄園生產紅酒。）",
+    "id": "L6-vineyard-m1taimu4"
+  },
+  {
+    "level": "L6",
+    "word": "virtual",
+    "meaning": "(透過電腦)虛擬的",
+    "example": "We had a virtual meeting.（我們開了一場線上會議。）",
+    "id": "L6-virtual-mlr3324"
+  },
+  {
+    "level": "L6",
+    "word": "visualize",
+    "meaning": "視覺化、想像",
+    "example": "Try to visualize your goal.（試著想像你的目標。）",
+    "id": "L6-visualize-m10esjkb"
+  },
+  {
+    "level": "L6",
+    "word": "vitality",
+    "meaning": "生命力",
+    "example": "She is full of vitality.（她充滿活力。）",
+    "id": "L6-vitality-mhkefx"
+  },
+  {
+    "level": "L6",
+    "word": "vocal",
+    "meaning": "嗓音的、直言不諱的；聲樂作品",
+    "example": "The singer warmed up his vocal muscles.（歌手暖了嗓。）",
+    "id": "L6-vocal-m1ctcpll"
+  },
+  {
+    "level": "L6",
+    "word": "vocation",
+    "meaning": "天職、職業",
+    "example": "Teaching is her vocation.（教書是她的志業。）",
+    "id": "L6-vocation-m9vif6x"
+  },
+  {
+    "level": "L6",
+    "word": "vocational",
+    "meaning": "職業的、職業技術的",
+    "example": "He attends a vocational school.（他就讀職業學校。）",
+    "id": "L6-vocational-mljwglk"
+  },
+  {
+    "level": "L6",
+    "word": "vogue",
+    "meaning": "流行、時髦",
+    "example": "Short hair is in vogue this year.（短髮今年很流行。）",
+    "id": "L6-vogue-mie83h6"
+  },
+  {
+    "level": "L6",
+    "word": "vomit",
+    "meaning": "嘔吐；嘔吐(物)",
+    "example": "The smell made him vomit.（那個味道讓他嘔吐。）",
+    "id": "L6-vomit-m1m5rarx"
+  },
+  {
+    "level": "L6",
+    "word": "vulgar",
+    "meaning": "粗俗的、下流的",
+    "example": "Do not use vulgar language.（不要使用粗俗語言。）",
+    "id": "L6-vulgar-m14vun3l"
+  },
+  {
+    "level": "L6",
+    "word": "vulnerable",
+    "meaning": "易受傷的、易受攻擊的",
+    "example": "Children are vulnerable to disease.（孩子容易受到疾病影響。）",
+    "id": "L6-vulnerable-m1ltf7up"
+  },
+  {
+    "level": "L6",
+    "word": "wardrobe",
+    "meaning": "衣櫥、全部衣物",
+    "example": "She keeps her coats in the wardrobe.（她把外套放在衣櫃裡。）",
+    "id": "L6-wardrobe-m1wzl3np"
+  },
+  {
+    "level": "L6",
+    "word": "warranty",
+    "meaning": "(商品)保修期",
+    "example": "This phone comes with a one-year warranty.（這支手機有一年保固。）",
+    "id": "L6-warranty-mvwduw8"
+  },
+  {
+    "level": "L6",
+    "word": "watertight",
+    "meaning": "防水的、(論點)無懈可擊的",
+    "example": "This jacket is waterproof.（這件外套防水。）",
+    "id": "L6-watertight-m1lsj7gq"
+  },
+  {
+    "level": "L6",
+    "word": "whatsoever",
+    "meaning": "(用於負面強調)毫無",
+    "example": "I have no doubt whatsoever.（我完全沒有疑問。）",
+    "id": "L6-whatsoever-m10xxn4p"
+  },
+  {
+    "level": "L6",
+    "word": "windshield",
+    "meaning": "擋風玻璃",
+    "example": "The windshield was covered with rain.（擋風玻璃被雨水覆蓋。）",
+    "id": "L6-windshield-mdcl4it"
+  },
+  {
+    "level": "L6",
+    "word": "withstand",
+    "meaning": "承受、耐得住",
+    "example": "This bridge can withstand strong winds.（這座橋能承受強風。）",
+    "id": "L6-withstand-m1jq5w73"
+  },
+  {
+    "level": "L6",
+    "word": "witty",
+    "meaning": "機智的、言語詼諧的",
+    "example": "She gave a witty answer.（她給了一個機智的回答。）",
+    "id": "L6-witty-m1gwlh7n"
+  },
+  {
+    "level": "L6",
+    "word": "woo",
+    "meaning": "懇請…的支持、求愛",
+    "example": "He tried to woo her with flowers.（他試著用花追求她。）",
+    "id": "L6-woo-m13reqli"
+  },
+  {
+    "level": "L6",
+    "word": "wrench",
+    "meaning": "猛拉、猛扭",
+    "example": "Use a wrench to tighten the bolt.（用扳手鎖緊螺栓。）",
+    "id": "L6-wrench-m10jm0th"
+  },
+  {
+    "level": "L6",
+    "word": "wrench",
+    "meaning": "(離別的)痛苦",
+    "example": "Use a wrench to tighten the bolt.（用扳手鎖緊螺栓。）",
+    "id": "L6-wrench-mxb6b97"
+  },
+  {
+    "level": "L6",
+    "word": "wrestle",
+    "meaning": "摔角、鬥爭；摔角、全力對付",
+    "example": "The boys like to wrestle on the grass.（男孩們喜歡在草地上摔角。）",
+    "id": "L6-wrestle-m80dcgh"
+  },
+  {
+    "level": "L6",
+    "word": "yearn",
+    "meaning": "渴求、渴望",
+    "example": "She yearns to travel around the world.（她渴望環遊世界。）",
+    "id": "L6-yearn-mikju8q"
+  },
+  {
+    "level": "L6",
+    "word": "zeal",
+    "meaning": "熱情、激情",
+    "example": "He studied with great zeal.（他以極大的熱忱學習。）",
+    "id": "L6-zeal-murefwy"
+  },
+  {
+    "level": "中高級",
+    "word": "abbey",
+    "meaning": "大修道院",
+    "example": "We visited an old abbey in England.（我們參觀了英格蘭的一座古老修道院。）",
+    "id": "中高級-abbey-mbl7vx2"
+  },
+  {
+    "level": "中高級",
+    "word": "absent-minded",
+    "meaning": "心不在焉的",
+    "example": "The absent-minded teacher left his book on the bus.（那位心不在焉的老師把書忘在公車上。）",
+    "id": "中高級-absent-minded-mthhtjt"
+  },
+  {
+    "level": "中高級",
+    "word": "acclaim",
+    "meaning": "稱譽、(給予)高度評價",
+    "example": "The young singer won public acclaim.（那位年輕歌手贏得大眾讚賞。）",
+    "id": "中高級-acclaim-m5n97ye"
+  },
+  {
+    "level": "中高級",
+    "word": "accomplished",
+    "meaning": "技藝高超的、有才華的",
+    "example": "She is an accomplished pianist.（她是一位有成就的鋼琴家。）",
+    "id": "中高級-accomplished-mjeaf8g"
+  },
+  {
+    "level": "中高級",
+    "word": "accustomed",
+    "meaning": "習慣於",
+    "example": "I am accustomed to getting up early.（我習慣早起。）",
+    "id": "中高級-accustomed-mj747f"
+  },
+  {
+    "level": "中高級",
+    "word": "acoustic",
+    "meaning": "聲音的、聽覺的、(樂器)原聲的",
+    "example": "The room has good acoustic design.（這個房間有良好的音響設計。）",
+    "id": "中高級-acoustic-m2uubku"
+  },
+  {
+    "level": "中高級",
+    "word": "acoustic",
+    "meaning": "(建築物、房間的)傳音效果、音響效果",
+    "example": "He played an acoustic guitar.（他彈了一把木吉他。）",
+    "id": "中高級-acoustic-m1xhgr7p"
+  },
+  {
+    "level": "中高級",
+    "word": "acting",
+    "meaning": "臨時代理的",
+    "example": "Her acting in the movie was excellent.（她在電影中的演技很出色。）",
+    "id": "中高級-acting-mny56fb"
+  },
+  {
+    "level": "中高級",
+    "word": "activate",
+    "meaning": "使活動、活化",
+    "example": "Press this button to activate the machine.（按這個按鈕啟動機器。）",
+    "id": "中高級-activate-m1m1xuhv"
+  },
+  {
+    "level": "中高級",
+    "word": "addicted",
+    "meaning": "上癮的、入迷的",
+    "example": "He is addicted to video games.（他沉迷於電玩遊戲。）",
+    "id": "中高級-addicted-m1tf80gh"
+  },
+  {
+    "level": "中高級",
+    "word": "additive",
+    "meaning": "(尤指食品的)添加物",
+    "example": "This food additive keeps the bread fresh.（這種食品添加物讓麵包保持新鮮。）",
+    "id": "中高級-additive-mxfgifm"
+  },
+  {
+    "level": "中高級",
+    "word": "additive",
+    "meaning": "附加的",
+    "example": "Sugar is sometimes used as an additive.（糖有時被用作添加物。）",
+    "id": "中高級-additive-mmf1uw"
+  },
+  {
+    "level": "中高級",
+    "word": "adhere",
+    "meaning": "附著、遵循",
+    "example": "Please adhere to the rules.（請遵守規則。）",
+    "id": "中高級-adhere-m106zy8z"
+  },
+  {
+    "level": "中高級",
+    "word": "adjacent",
+    "meaning": "毗連的、鄰近的",
+    "example": "The school is adjacent to the park.（學校緊鄰公園。）",
+    "id": "中高級-adjacent-mglin96"
+  },
+  {
+    "level": "中高級",
+    "word": "adjoin",
+    "meaning": "毗連、鄰接",
+    "example": "The kitchen adjoins the dining room.（廚房連接著餐廳。）",
+    "id": "中高級-adjoin-mduz3be"
+  },
+  {
+    "level": "中高級",
+    "word": "advancement",
+    "meaning": "發展、促進、晉升",
+    "example": "Technology has brought great advancement.（科技帶來了巨大的進步。）",
+    "id": "中高級-advancement-m1xe70tk"
+  },
+  {
+    "level": "中高級",
+    "word": "advent",
+    "meaning": "出現、到來",
+    "example": "The advent of the Internet changed daily life.（網路的出現改變了日常生活。）",
+    "id": "中高級-advent-m1f8m0cz"
+  },
+  {
+    "level": "中高級",
+    "word": "adverse",
+    "meaning": "不利的、負面的、有害的",
+    "example": "The medicine had an adverse effect.（這種藥有不良影響。）",
+    "id": "中高級-adverse-mturm2q"
+  },
+  {
+    "level": "中高級",
+    "word": "advert",
+    "meaning": "廣告",
+    "example": "The company placed an advert in the newspaper.（公司在報紙上刊登了一則廣告。）",
+    "id": "中高級-advert-mglon"
+  },
+  {
+    "level": "中高級",
+    "word": "advertising",
+    "meaning": "廣告業、廣告活動",
+    "example": "Advertising can influence people’s choices.（廣告會影響人們的選擇。）",
+    "id": "中高級-advertising-monpcqk"
+  },
+  {
+    "level": "中高級",
+    "word": "advisable",
+    "meaning": "明智的、可取的",
+    "example": "It is advisable to check the weather first.（最好先查看天氣。）",
+    "id": "中高級-advisable-m7qk9n8"
+  },
+  {
+    "level": "中高級",
+    "word": "advisory",
+    "meaning": "顧問的、諮詢的",
+    "example": "The advisory board met on Monday.（諮詢委員會星期一開會。）",
+    "id": "中高級-advisory-mcd85pn"
+  },
+  {
+    "level": "中高級",
+    "word": "advisory",
+    "meaning": "公告、警報",
+    "example": "She works in an advisory role.（她擔任顧問性角色。）",
+    "id": "中高級-advisory-m192uqlq"
+  },
+  {
+    "level": "中高級",
+    "word": "aerial",
+    "meaning": "從飛機上的、空中的",
+    "example": "We took an aerial photo of the city.（我們拍了一張城市空照圖。）",
+    "id": "中高級-aerial-mf4ci30"
+  },
+  {
+    "level": "中高級",
+    "word": "aerial",
+    "meaning": "天線",
+    "example": "The bird made an aerial turn.（那隻鳥在空中轉彎。）",
+    "id": "中高級-aerial-mfutt"
+  },
+  {
+    "level": "中高級",
+    "word": "aerospace",
+    "meaning": "航空航天業(的)、航空航天技術(的)",
+    "example": "My cousin works in the aerospace industry.（我表哥在航太產業工作。）",
+    "id": "中高級-aerospace-m16iolnd"
+  },
+  {
+    "level": "中高級",
+    "word": "aesthetic",
+    "meaning": "美感的、審美的",
+    "example": "The building has a simple aesthetic style.（這棟建築有簡約的美感風格。）",
+    "id": "中高級-aesthetic-m1s7i7pt"
+  },
+  {
+    "level": "中高級",
+    "word": "aesthetics",
+    "meaning": "美學、美感",
+    "example": "She studies aesthetics at university.（她在大學研究美學。）",
+    "id": "中高級-aesthetics-md9offs"
+  },
+  {
+    "level": "中高級",
+    "word": "affiliate",
+    "meaning": "附屬機構、分公司",
+    "example": "The local school is an affiliate of a larger academy.（這所地方學校是一所大型學院的附屬機構。）",
+    "id": "中高級-affiliate-m162bxh"
+  },
+  {
+    "level": "中高級",
+    "word": "affiliate",
+    "meaning": "使隸屬於、加入、為...工作",
+    "example": "The company will affiliate with a foreign partner.（這家公司將與外國夥伴結盟。）",
+    "id": "中高級-affiliate-m19pxzhr"
+  },
+  {
+    "level": "中高級",
+    "word": "afflict",
+    "meaning": "折磨、使痛苦",
+    "example": "The disease continued to afflict the village.（這種疾病持續折磨那個村莊。）",
+    "id": "中高級-afflict-m1y8i1uh"
+  },
+  {
+    "level": "中高級",
+    "word": "aftermath",
+    "meaning": "後果、餘波",
+    "example": "The aftermath of the storm was serious.（暴風雨的後果很嚴重。）",
+    "id": "中高級-aftermath-mvprbaz"
+  },
+  {
+    "level": "中高級",
+    "word": "aggravate",
+    "meaning": "加重、惡化",
+    "example": "Lack of sleep can aggravate stress.（睡眠不足會加重壓力。）",
+    "id": "中高級-aggravate-m1ljayfd"
+  },
+  {
+    "level": "中高級",
+    "word": "aggregate",
+    "meaning": "總計(的)、合計(的)",
+    "example": "The aggregate score was higher than expected.（總分比預期高。）",
+    "id": "中高級-aggregate-m35pbvy"
+  },
+  {
+    "level": "中高級",
+    "word": "aging",
+    "meaning": "變老的；老化",
+    "example": "Aging can change a person’s eyesight.（老化會改變人的視力。）",
+    "id": "中高級-aging-mrcs91f"
+  },
+  {
+    "level": "中高級",
+    "word": "agitate",
+    "meaning": "鼓動、煽動；激怒",
+    "example": "The loud noise began to agitate the baby.（巨大的聲音開始讓寶寶不安。）",
+    "id": "中高級-agitate-m1a3lqt2"
+  },
+  {
+    "level": "中高級",
+    "word": "agitation",
+    "meaning": "焦慮不安、煩亂；煽動、鼓動",
+    "example": "There was growing agitation among the workers.（工人之間的不安情緒逐漸增加。）",
+    "id": "中高級-agitation-m5gbhc6"
+  },
+  {
+    "level": "中高級",
+    "word": "aide",
+    "meaning": "(從政者或軍隊高官的)助理、助手",
+    "example": "The president’s aide answered the phone.（總統助理接了電話。）",
+    "id": "中高級-aide-mjn1p9m"
+  },
+  {
+    "level": "中高級",
+    "word": "airlift",
+    "meaning": "空運、空投",
+    "example": "Food was delivered to the island by airlift.（食物透過空運送到島上。）",
+    "id": "中高級-airlift-m2psvf"
+  },
+  {
+    "level": "中高級",
+    "word": "alarming",
+    "meaning": "驚人的、令人驚慌的",
+    "example": "The rise in prices is alarming.（物價上漲令人擔憂。）",
+    "id": "中高級-alarming-mcu5vy7"
+  },
+  {
+    "level": "中高級",
+    "word": "allegation",
+    "meaning": "(未經證實的)指責、指控",
+    "example": "The allegation has not been proved.（這項指控尚未被證實。）",
+    "id": "中高級-allegation-m1whb3bd"
+  },
+  {
+    "level": "中高級",
+    "word": "allege",
+    "meaning": "(未經證實地)指責、指控",
+    "example": "They allege that the company broke the law.（他們聲稱那家公司違法。）",
+    "id": "中高級-allege-m1fmsjzp"
+  },
+  {
+    "level": "中高級",
+    "word": "alleged",
+    "meaning": "(證據不足的情況下)被指控的、涉嫌的",
+    "example": "The alleged thief denied everything.（那名被指稱的小偷否認一切。）",
+    "id": "中高級-alleged-m1v2wnw8"
+  },
+  {
+    "level": "中高級",
+    "word": "alleviate",
+    "meaning": "減輕、緩和",
+    "example": "This medicine can alleviate pain.（這種藥可以減輕疼痛。）",
+    "id": "中高級-alleviate-mmkzzze"
+  },
+  {
+    "level": "中高級",
+    "word": "allied",
+    "meaning": "結盟的、聯盟的；類似的、有關聯的",
+    "example": "The allied forces entered the city.（盟軍進入了那座城市。）",
+    "id": "中高級-allied-m14ccxkm"
+  },
+  {
+    "level": "中高級",
+    "word": "alloy",
+    "meaning": "合金；把...鑄成合金",
+    "example": "Bronze is an alloy of copper and tin.（青銅是銅和錫的合金。）",
+    "id": "中高級-alloy-m1me6hbf"
+  },
+  {
+    "level": "中高級",
+    "word": "alloy",
+    "meaning": "把(價值)降低、損壞",
+    "example": "The factory produces a strong metal alloy.（這家工廠生產一種堅固的金屬合金。）",
+    "id": "中高級-alloy-mt3mjc9"
+  },
+  {
+    "level": "中高級",
+    "word": "amend",
+    "meaning": "修訂、修正(法律文件等)",
+    "example": "They decided to amend the rule.（他們決定修改規則。）",
+    "id": "中高級-amend-m1m0s65n"
+  },
+  {
+    "level": "中高級",
+    "word": "amendment",
+    "meaning": "修正案、修訂",
+    "example": "The amendment improved the law.（這項修正案改善了法律。）",
+    "id": "中高級-amendment-mz2kema"
+  },
+  {
+    "level": "中高級",
+    "word": "amends",
+    "meaning": "賠罪、賠償",
+    "example": "He tried to make amends for his mistake.（他試著彌補自己的錯誤。）",
+    "id": "中高級-amends-m1xvwqie"
+  },
+  {
+    "level": "中高級",
+    "word": "amicable",
+    "meaning": "友善的、友好的",
+    "example": "They reached an amicable agreement.（他們達成了友好的協議。）",
+    "id": "中高級-amicable-m9h2iho"
+  },
+  {
+    "level": "中高級",
+    "word": "ammunition",
+    "meaning": "彈藥",
+    "example": "The soldiers ran out of ammunition.（士兵們用完了彈藥。）",
+    "id": "中高級-ammunition-mgxwd"
+  },
+  {
+    "level": "中高級",
+    "word": "amnesty",
+    "meaning": "赦免、赦免期",
+    "example": "The government granted amnesty to some prisoners.（政府赦免了一些囚犯。）",
+    "id": "中高級-amnesty-m1orarj2"
+  },
+  {
+    "level": "中高級",
+    "word": "angler",
+    "meaning": "垂釣者",
+    "example": "The angler caught a large fish.（釣魚者釣到一條大魚。）",
+    "id": "中高級-angler-mdixz8"
+  },
+  {
+    "level": "中高級",
+    "word": "apartheid",
+    "meaning": "(南非)種族隔離",
+    "example": "Apartheid was a system of racial separation.（種族隔離是一種種族分離制度。）",
+    "id": "中高級-apartheid-mr8o4bt"
+  },
+  {
+    "level": "中高級",
+    "word": "appall",
+    "meaning": "使驚駭、使大為震驚",
+    "example": "The news appalled everyone.（這個消息讓所有人震驚。）",
+    "id": "中高級-appall-m1c7f5p2"
+  },
+  {
+    "level": "中高級",
+    "word": "appalling",
+    "meaning": "令人震驚的、糟糕的",
+    "example": "The damage was appalling.（損害情況令人震驚。）",
+    "id": "中高級-appalling-mgx9cko"
+  },
+  {
+    "level": "中高級",
+    "word": "apparatus",
+    "meaning": "儀器、設備；(政府的)組織、機構",
+    "example": "The lab has special apparatus for the experiment.（實驗室有實驗用的特殊器材。）",
+    "id": "中高級-apparatus-mvrbebt"
+  },
+  {
+    "level": "中高級",
+    "word": "appendix",
+    "meaning": "(書或文件的)附錄；闌尾",
+    "example": "The appendix is at the end of the book.（附錄在書的最後。）",
+    "id": "中高級-appendix-m104sqj7"
+  },
+  {
+    "level": "中高級",
+    "word": "appraisal",
+    "meaning": "評價、評估",
+    "example": "The house needs a professional appraisal.（這棟房子需要專業估價。）",
+    "id": "中高級-appraisal-m1i32t88"
+  },
+  {
+    "level": "中高級",
+    "word": "appreciable",
+    "meaning": "可觀的",
+    "example": "There was an appreciable improvement in his grades.（他的成績有明顯進步。）",
+    "id": "中高級-appreciable-mcynsj"
+  },
+  {
+    "level": "中高級",
+    "word": "apprehension",
+    "meaning": "憂慮、恐懼",
+    "example": "She felt apprehension before the interview.（面試前她感到不安。）",
+    "id": "中高級-apprehension-m12lg62p"
+  },
+  {
+    "level": "中高級",
+    "word": "arbitrary",
+    "meaning": "武斷的、專制的",
+    "example": "The decision seemed arbitrary.（這個決定似乎很武斷。）",
+    "id": "中高級-arbitrary-myu3fyg"
+  },
+  {
+    "level": "中高級",
+    "word": "arc",
+    "meaning": "弧形；作弧形運動",
+    "example": "The rainbow formed a beautiful arc.（彩虹形成一道美麗的弧線。）",
+    "id": "中高級-arc-m1ukywqp"
+  },
+  {
+    "level": "中高級",
+    "word": "archaeology",
+    "meaning": "考古學",
+    "example": "She studies archaeology.（她研究考古學。）",
+    "id": "中高級-archaeology-mj5rvb"
+  },
+  {
+    "level": "中高級",
+    "word": "architectural",
+    "meaning": "建築學的、建築方面的",
+    "example": "The temple has beautiful architectural details.（這座寺廟有美麗的建築細節。）",
+    "id": "中高級-architectural-mn51i5i"
+  },
+  {
+    "level": "中高級",
+    "word": "archive",
+    "meaning": "檔案、檔案室；歸檔、存檔",
+    "example": "Old letters are kept in the archive.（舊信件被保存在檔案館。）",
+    "id": "中高級-archive-mtm2i5l"
+  },
+  {
+    "level": "中高級",
+    "word": "array",
+    "meaning": "大量、一批",
+    "example": "The store sells a wide array of toys.（這家店販售各式各樣的玩具。）",
+    "id": "中高級-array-mc0x9de"
+  },
+  {
+    "level": "中高級",
+    "word": "array",
+    "meaning": "配置、布置、排列",
+    "example": "The soldiers stood in a neat array.（士兵們整齊列隊。）",
+    "id": "中高級-array-m3ohkl7"
+  },
+  {
+    "level": "中高級",
+    "word": "artillery",
+    "meaning": "火炮",
+    "example": "The army moved heavy artillery to the front.（軍隊把重砲移到前線。）",
+    "id": "中高級-artillery-mjqn7"
+  },
+  {
+    "level": "中高級",
+    "word": "ascertain",
+    "meaning": "查明、弄清",
+    "example": "We need to ascertain the truth.（我們需要查明真相。）",
+    "id": "中高級-ascertain-m1s5fn4p"
+  },
+  {
+    "level": "中高級",
+    "word": "ascribe",
+    "meaning": "把...歸因於、認為...具有",
+    "example": "He ascribed his success to hard work.（他把成功歸因於努力。）",
+    "id": "中高級-ascribe-mdf462q"
+  },
+  {
+    "level": "中高級",
+    "word": "aspiration",
+    "meaning": "抱負、渴望",
+    "example": "Her aspiration is to become a doctor.（她的志向是成為醫生。）",
+    "id": "中高級-aspiration-m1co90vt"
+  },
+  {
+    "level": "中高級",
+    "word": "assimilate",
+    "meaning": "消化吸收、理解、融入",
+    "example": "Children often assimilate new words quickly.（孩子常能很快吸收新單字。）",
+    "id": "中高級-assimilate-m92w5k7"
+  },
+  {
+    "level": "中高級",
+    "word": "assured",
+    "meaning": "自信的、確定的",
+    "example": "You can feel assured that we will help.（你可以放心，我們會幫忙。）",
+    "id": "中高級-assured-mkriicw"
+  },
+  {
+    "level": "中高級",
+    "word": "athletics",
+    "meaning": "體育運動、田徑運動",
+    "example": "Athletics is important at this school.（田徑運動在這所學校很重要。）",
+    "id": "中高級-athletics-m1x63d8k"
+  },
+  {
+    "level": "中高級",
+    "word": "atrocity",
+    "meaning": "凶惡、殘暴行為",
+    "example": "The war crime was a terrible atrocity.（那項戰爭罪行是可怕的暴行。）",
+    "id": "中高級-atrocity-m1neok3k"
+  },
+  {
+    "level": "中高級",
+    "word": "attached",
+    "meaning": "依戀的、附屬的",
+    "example": "Please read the attached file.（請閱讀附加檔案。）",
+    "id": "中高級-attached-mo0srdo"
+  },
+  {
+    "level": "中高級",
+    "word": "attempted",
+    "meaning": "(犯罪)未遂的",
+    "example": "The attempted robbery failed.（那起搶劫未遂失敗了。）",
+    "id": "中高級-attempted-m1xzaizq"
+  },
+  {
+    "level": "中高級",
+    "word": "attorney",
+    "meaning": "律師",
+    "example": "The attorney spoke for his client.（律師替他的客戶發言。）",
+    "id": "中高級-attorney-mgrnk"
+  },
+  {
+    "level": "中高級",
+    "word": "attribute",
+    "meaning": "歸因於",
+    "example": "Kindness is one attribute of a good teacher.（善良是好老師的一項特質。）",
+    "id": "中高級-attribute-mg60k4"
+  },
+  {
+    "level": "中高級",
+    "word": "attribute",
+    "meaning": "屬性、特徵",
+    "example": "We attribute our success to teamwork.（我們把成功歸功於團隊合作。）",
+    "id": "中高級-attribute-mijubk2"
+  },
+  {
+    "level": "中高級",
+    "word": "audit",
+    "meaning": "審計、稽核、查帳",
+    "example": "The company will audit its accounts.（公司將審核帳目。）",
+    "id": "中高級-audit-md1wa1e"
+  },
+  {
+    "level": "中高級",
+    "word": "audit",
+    "meaning": "旁聽(大學課程)",
+    "example": "The audit found several mistakes.（審計發現了幾個錯誤。）",
+    "id": "中高級-audit-mvk9l77"
+  },
+  {
+    "level": "中高級",
+    "word": "authoritative",
+    "meaning": "具權威的、專斷的",
+    "example": "The report came from an authoritative source.（這份報告來自權威來源。）",
+    "id": "中高級-authoritative-m260z1m"
+  },
+  {
+    "level": "中高級",
+    "word": "automation",
+    "meaning": "自動化",
+    "example": "Automation has changed factory work.（自動化改變了工廠工作。）",
+    "id": "中高級-automation-mjfkuj"
+  },
+  {
+    "level": "中高級",
+    "word": "autonomous",
+    "meaning": "自治的、自主的",
+    "example": "The robot can work in an autonomous mode.（這台機器人可以用自主模式工作。）",
+    "id": "中高級-autonomous-m11d2jyd"
+  },
+  {
+    "level": "中高級",
+    "word": "avail",
+    "meaning": "(對人或物)有幫助；幫助、效益",
+    "example": "We tried to avail ourselves of the opportunity.（我們試著利用這個機會。）",
+    "id": "中高級-avail-mm9kn4g"
+  },
+  {
+    "level": "中高級",
+    "word": "avert",
+    "meaning": "防止、避開",
+    "example": "Quick action helped avert a disaster.（迅速行動幫助避免了一場災難。）",
+    "id": "中高級-avert-mwrsf99"
+  },
+  {
+    "level": "中高級",
+    "word": "aviary",
+    "meaning": "大鳥籠、鳥舍",
+    "example": "The zoo has a large aviary.（動物園有一座大型鳥舍。）",
+    "id": "中高級-aviary-m1yi76iv"
+  },
+  {
+    "level": "中高級",
+    "word": "axis",
+    "meaning": "軸、軸線",
+    "example": "The Earth turns on its axis.（地球繞著地軸轉動。）",
+    "id": "中高級-axis-mi8w4ob"
+  },
+  {
+    "level": "中高級",
+    "word": "backing",
+    "meaning": "支持、援助、資助",
+    "example": "The project has strong financial backing.（這個專案有強大的資金支持。）",
+    "id": "中高級-backing-m1f2enen"
+  },
+  {
+    "level": "中高級",
+    "word": "baffle",
+    "meaning": "困惑",
+    "example": "The difficult question baffled the students.（那個難題讓學生困惑。）",
+    "id": "中高級-baffle-mfbhd"
+  },
+  {
+    "level": "中高級",
+    "word": "bail",
+    "meaning": "保釋金；獲得保釋",
+    "example": "The judge set bail at ten thousand dollars.（法官把保釋金訂為一萬元。）",
+    "id": "中高級-bail-m16bi8tn"
+  },
+  {
+    "level": "中高級",
+    "word": "bankruptcy",
+    "meaning": "破產",
+    "example": "The company faced bankruptcy.（那家公司面臨破產。）",
+    "id": "中高級-bankruptcy-ml372"
+  },
+  {
+    "level": "中高級",
+    "word": "barge",
+    "meaning": "大型平底船",
+    "example": "A barge carried goods along the river.（駁船沿河運送貨物。）",
+    "id": "中高級-barge-m4v8xf7"
+  },
+  {
+    "level": "中高級",
+    "word": "barge",
+    "meaning": "衝撞、亂闖",
+    "example": "Do not barge into the room without knocking.（不要不敲門就闖進房間。）",
+    "id": "中高級-barge-m1cuvutw"
+  },
+  {
+    "level": "中高級",
+    "word": "barrack",
+    "meaning": "起哄、喝倒采",
+    "example": "The soldiers slept in a barrack.（士兵睡在營房裡。）",
+    "id": "中高級-barrack-mb3hnxa"
+  },
+  {
+    "level": "中高級",
+    "word": "barracks",
+    "meaning": "兵營、營房",
+    "example": "The barracks were built near the base.（兵營建在基地附近。）",
+    "id": "中高級-barracks-m1cy059z"
+  },
+  {
+    "level": "中高級",
+    "word": "barricade",
+    "meaning": "障礙物、(設)路障；阻擋",
+    "example": "Police put up a barricade on the road.（警方在路上設置路障。）",
+    "id": "中高級-barricade-m1g0ridr"
+  },
+  {
+    "level": "中高級",
+    "word": "bash",
+    "meaning": "猛攻、痛擊",
+    "example": "He bashed the door with a stick.（他用棍子猛敲門。）",
+    "id": "中高級-bash-m10uq7ww"
+  },
+  {
+    "level": "中高級",
+    "word": "basically",
+    "meaning": "基本上",
+    "example": "Basically, the plan is simple.（基本上，這個計畫很簡單。）",
+    "id": "中高級-basically-mddviw"
+  },
+  {
+    "level": "中高級",
+    "word": "bastard",
+    "meaning": "討厭鬼、壞蛋",
+    "example": "The man called himself a lonely bastard.（那個男人稱自己是個孤苦的人。）",
+    "id": "中高級-bastard-mx1ulch"
+  },
+  {
+    "level": "中高級",
+    "word": "bastard",
+    "meaning": "私生子；私生的",
+    "example": "Do not use “bastard” to insult people.（不要用 “bastard” 侮辱別人。）",
+    "id": "中高級-bastard-m3cc47x"
+  },
+  {
+    "level": "中高級",
+    "word": "battalion",
+    "meaning": "(軍隊的)營部、隊伍",
+    "example": "A battalion of soldiers arrived at dawn.（一營士兵在黎明抵達。）",
+    "id": "中高級-battalion-m1yp7ykx"
+  },
+  {
+    "level": "中高級",
+    "word": "battlefield",
+    "meaning": "戰場",
+    "example": "The old battlefield is now a park.（舊戰場現在是一座公園。）",
+    "id": "中高級-battlefield-mh6o4"
+  },
+  {
+    "level": "中高級",
+    "word": "bearing",
+    "meaning": "關係、影響；舉止、風度",
+    "example": "Her posture has a confident bearing.（她的姿態帶著自信的氣質。）",
+    "id": "中高級-bearing-m1nrrx84"
+  },
+  {
+    "level": "中高級",
+    "word": "bent",
+    "meaning": "彎曲的、駝背的",
+    "example": "The key was bent.（鑰匙彎了。）",
+    "id": "中高級-bent-m1nu06ok"
+  },
+  {
+    "level": "中高級",
+    "word": "bent",
+    "meaning": "天賦",
+    "example": "He has a bent for music.（他有音樂天分。）",
+    "id": "中高級-bent-mfxst"
+  },
+  {
+    "level": "中高級",
+    "word": "bewilder",
+    "meaning": "使困惑",
+    "example": "The strange map bewildered us.（那張奇怪的地圖讓我們困惑。）",
+    "id": "中高級-bewilder-mc2i00"
+  },
+  {
+    "level": "中高級",
+    "word": "bibliography",
+    "meaning": "參考書目、文獻目錄",
+    "example": "Please include a bibliography in your report.（請在報告中附上參考書目。）",
+    "id": "中高級-bibliography-m1clu8ut"
+  },
+  {
+    "level": "中高級",
+    "word": "bilateral",
+    "meaning": "雙邊的、雙方的",
+    "example": "The two countries held bilateral talks.（兩國舉行雙邊會談。）",
+    "id": "中高級-bilateral-mdy1x2"
+  },
+  {
+    "level": "中高級",
+    "word": "binding",
+    "meaning": "必須遵守的，有法律約束力的",
+    "example": "The binding of this book is strong.（這本書的裝訂很牢固。）",
+    "id": "中高級-binding-mm2fvfp"
+  },
+  {
+    "level": "中高級",
+    "word": "binding",
+    "meaning": "(書籍的)封皮、鑲邊",
+    "example": "This agreement is legally binding.（這份協議具有法律約束力。）",
+    "id": "中高級-binding-mnrt2bu"
+  },
+  {
+    "level": "中高級",
+    "word": "birdie",
+    "meaning": "小鳥",
+    "example": "He scored a birdie in golf.（他在高爾夫球中打出博蒂。）",
+    "id": "中高級-birdie-mgipi"
+  },
+  {
+    "level": "中高級",
+    "word": "birdie",
+    "meaning": "(高爾夫球)小鳥擊、比標準桿少一桿入洞",
+    "example": "A little birdie landed on the branch.（一隻小鳥停在樹枝上。）",
+    "id": "中高級-birdie-ma1s8yz"
+  },
+  {
+    "level": "中高級",
+    "word": "bitch",
+    "meaning": "母狗；[冒犯]壞女人、潑婦",
+    "example": "Do not call anyone a bitch.（不要用 “bitch” 罵人。）",
+    "id": "中高級-bitch-m75ooh3"
+  },
+  {
+    "level": "中高級",
+    "word": "bitch",
+    "meaning": "說壞話",
+    "example": "She complained that life can be a real bitch sometimes.（她抱怨生活有時真的很難熬。）",
+    "id": "中高級-bitch-mkr1q5"
+  },
+  {
+    "level": "中高級",
+    "word": "bland",
+    "meaning": "清淡的、平淡乏味的",
+    "example": "The soup tasted bland.（這湯味道很淡。）",
+    "id": "中高級-bland-mdge5cp"
+  },
+  {
+    "level": "中高級",
+    "word": "blare",
+    "meaning": "發出響亮刺耳的聲音；響亮刺耳的聲音",
+    "example": "Music began to blare from the speakers.（音樂開始從喇叭大聲響起。）",
+    "id": "中高級-blare-m1hjkbb5"
+  },
+  {
+    "level": "中高級",
+    "word": "bloc",
+    "meaning": "(政治利益類似的)集團、陣營",
+    "example": "The countries formed a political bloc.（這些國家組成政治集團。）",
+    "id": "中高級-bloc-m1ynpo3n"
+  },
+  {
+    "level": "中高級",
+    "word": "blockade",
+    "meaning": "包圍、封鎖",
+    "example": "The navy set up a blockade.（海軍設置了封鎖。）",
+    "id": "中高級-blockade-m1fo2aj2"
+  },
+  {
+    "level": "中高級",
+    "word": "bob",
+    "meaning": "(在水中)快速上下擺動、快速移動；快速點頭或鞠躬",
+    "example": "The boat began to bob on the water.（小船開始在水面上下擺動。）",
+    "id": "中高級-bob-m1emssc3"
+  },
+  {
+    "level": "中高級",
+    "word": "bob",
+    "meaning": "(水中)快速擺動；(女)齊短髮、快速點頭",
+    "example": "She wore a short bob.（她留著鮑伯短髮。）",
+    "id": "中高級-bob-m115mlv"
+  },
+  {
+    "level": "中高級",
+    "word": "boiling",
+    "meaning": "炙熱的",
+    "example": "The water is boiling.（水正在沸騰。）",
+    "id": "中高級-boiling-mh1pos"
+  },
+  {
+    "level": "中高級",
+    "word": "bolster",
+    "meaning": "加強、支撐、改善",
+    "example": "The new evidence bolstered his argument.（新證據支持了他的論點。）",
+    "id": "中高級-bolster-m10yl83l"
+  },
+  {
+    "level": "中高級",
+    "word": "bolster",
+    "meaning": "長靠枕",
+    "example": "She put a bolster behind her back.（她在背後放了一個長枕。）",
+    "id": "中高級-bolster-mmmfvw"
+  },
+  {
+    "level": "中高級",
+    "word": "bomber",
+    "meaning": "轟炸機、轟炸者",
+    "example": "The bomber flew over the city.（轟炸機飛過城市上空。）",
+    "id": "中高級-bomber-m11ss39t"
+  },
+  {
+    "level": "中高級",
+    "word": "borough",
+    "meaning": "自治區、行政區",
+    "example": "Brooklyn is a famous borough of New York City.（布魯克林是紐約市著名的行政區。）",
+    "id": "中高級-borough-m15kdgm3"
+  },
+  {
+    "level": "中高級",
+    "word": "borrowing",
+    "meaning": "借貸、借款額",
+    "example": "Borrowing money from friends can be awkward.（向朋友借錢可能會尷尬。）",
+    "id": "中高級-borrowing-m13kn1xi"
+  },
+  {
+    "level": "中高級",
+    "word": "botanical",
+    "meaning": "植物的、植物學的、和植物有關的",
+    "example": "The garden has many botanical labels.（花園裡有許多植物標籤。）",
+    "id": "中高級-botanical-m1i80rnt"
+  },
+  {
+    "level": "中高級",
+    "word": "bowler",
+    "meaning": "玩保齡球者、(板球)投手",
+    "example": "The bowler threw the ball smoothly.（保齡球手順利地投出球。）",
+    "id": "中高級-bowler-m5gjh0l"
+  },
+  {
+    "level": "中高級",
+    "word": "bracket",
+    "meaning": "括號；用括弧括上",
+    "example": "Put the word in brackets.（把這個字放在括號裡。）",
+    "id": "中高級-bracket-m400855"
+  },
+  {
+    "level": "中高級",
+    "word": "breach",
+    "meaning": "違反、違背；在...打開缺口",
+    "example": "The company admitted a breach of contract.（公司承認違約。）",
+    "id": "中高級-breach-m16fhogy"
+  },
+  {
+    "level": "中高級",
+    "word": "breach",
+    "meaning": "(法規等的)違反、違背；(關係)中斷、終止；缺口",
+    "example": "The waves breached the sea wall.（海浪衝破了海堤。）",
+    "id": "中高級-breach-mbfzydr"
+  },
+  {
+    "level": "中高級",
+    "word": "break-in",
+    "meaning": "闖入、入室偷竊",
+    "example": "There was a break-in at the store last night.（昨晚那家店發生闖入盜竊。）",
+    "id": "中高級-break-in-m1sk72zo"
+  },
+  {
+    "level": "中高級",
+    "word": "breeder",
+    "meaning": "飼養者",
+    "example": "The breeder raises healthy dogs.（那位繁殖者飼養健康的狗。）",
+    "id": "中高級-breeder-mn5f07"
+  },
+  {
+    "level": "中高級",
+    "word": "briefing",
+    "meaning": "簡報、簡報會",
+    "example": "The officer gave a short briefing.（軍官做了簡短簡報。）",
+    "id": "中高級-briefing-m1iaseaq"
+  },
+  {
+    "level": "中高級",
+    "word": "brigade",
+    "meaning": "(軍隊的)旅、(有相同主張或信念的)隊伍或團體",
+    "example": "A fire brigade arrived quickly.（消防隊很快抵達。）",
+    "id": "中高級-brigade-m1xfm8ol"
+  },
+  {
+    "level": "中高級",
+    "word": "brittle",
+    "meaning": "易碎的、脆弱的",
+    "example": "The glass is brittle.（玻璃很脆。）",
+    "id": "中高級-brittle-m1yl8l41"
+  },
+  {
+    "level": "中高級",
+    "word": "broadcaster",
+    "meaning": "廣播員、廣播電台或電視公司",
+    "example": "The broadcaster reported the news live.（播音員現場報導新聞。）",
+    "id": "中高級-broadcaster-mihmyok"
+  },
+  {
+    "level": "中高級",
+    "word": "broker",
+    "meaning": "經紀人、中間人；居中安排",
+    "example": "The broker helped them buy a house.（仲介幫他們買房子。）",
+    "id": "中高級-broker-m1s6l2zw"
+  },
+  {
+    "level": "中高級",
+    "word": "buffer",
+    "meaning": "緩衝物、減震器、(電腦的)緩存區；減緩(傷害)、緩存",
+    "example": "Trees can act as a buffer against strong wind.（樹木可以作為抵擋強風的緩衝。）",
+    "id": "中高級-buffer-m19ykf64"
+  },
+  {
+    "level": "中高級",
+    "word": "build-up",
+    "meaning": "增長、增大",
+    "example": "There was a build-up of traffic near the bridge.（橋附近交通逐漸壅塞。）",
+    "id": "中高級-build-up-mae8uz5"
+  },
+  {
+    "level": "中高級",
+    "word": "build-up",
+    "meaning": "(重要事情的)準備過程、準備期",
+    "example": "The build-up to the final game was exciting.（決賽前的氣氛逐漸升高，很令人興奮。）",
+    "id": "中高級-build-up-mjz7wpi"
+  },
+  {
+    "level": "中高級",
+    "word": "bunker",
+    "meaning": "地堡、(高爾夫球球場上的)沙坑",
+    "example": "The soldiers hid in a bunker.（士兵躲在碉堡裡。）",
+    "id": "中高級-bunker-mw41ts0"
+  },
+  {
+    "level": "中高級",
+    "word": "bureaucrat",
+    "meaning": "官僚、官僚主義者",
+    "example": "The bureaucrat explained the rule.（官員解釋了規定。）",
+    "id": "中高級-bureaucrat-m1mbwzx2"
+  },
+  {
+    "level": "中高級",
+    "word": "bureaucratic",
+    "meaning": "官僚的、繁文縟節的",
+    "example": "The process was slow and bureaucratic.（這個流程緩慢又官僚。）",
+    "id": "中高級-bureaucratic-m19ccvby"
+  },
+  {
+    "level": "中高級",
+    "word": "bust",
+    "meaning": "半身像；胸圍；逮捕、搜捕",
+    "example": "The police made a drug bust.（警方破獲了一起毒品案。）",
+    "id": "中高級-bust-m35wii"
+  },
+  {
+    "level": "中高級",
+    "word": "bust",
+    "meaning": "打破、摔碎；突擊搜捕",
+    "example": "The statue has a marble bust of the president.（那座雕像有總統的大理石半身像。）",
+    "id": "中高級-bust-mtespib"
+  },
+  {
+    "level": "中高級",
+    "word": "bust",
+    "meaning": "破碎的、毀壞的",
+    "example": "The old radio is bust.（那台舊收音機壞了。）",
+    "id": "中高級-bust-m1z0impb"
+  },
+  {
+    "level": "中高級",
+    "word": "bypass",
+    "meaning": "繞過、避開；旁道",
+    "example": "Drivers used a side road to bypass the traffic.（駕駛走小路避開交通。）",
+    "id": "中高級-bypass-m1gvcjjk"
+  },
+  {
+    "level": "中高級",
+    "word": "calculated",
+    "meaning": "預先計畫的、蓄意的",
+    "example": "It was a calculated risk.（那是經過盤算的風險。）",
+    "id": "中高級-calculated-m7l98ap"
+  },
+  {
+    "level": "中高級",
+    "word": "calculating",
+    "meaning": "工於心計的、精明的",
+    "example": "He is too calculating to trust easily.（他太會算計，不容易信任。）",
+    "id": "中高級-calculating-mzugtq3"
+  },
+  {
+    "level": "中高級",
+    "word": "campaigner",
+    "meaning": "從事社會運動者、運動倡導者",
+    "example": "The campaigner spoke for children’s rights.（那位倡議者為兒童權利發聲。）",
+    "id": "中高級-campaigner-morkwvq"
+  },
+  {
+    "level": "中高級",
+    "word": "cardinal",
+    "meaning": "樞機主教；基數；紅衣鳳頭鳥(見於北美，雄鳥為鮮紅色)",
+    "example": "Red is a cardinal color in the design.（紅色是這個設計中的主要顏色。）",
+    "id": "中高級-cardinal-mkgn8sf"
+  },
+  {
+    "level": "中高級",
+    "word": "cardinal",
+    "meaning": "極重要的、基本的",
+    "example": "A cardinal landed on the tree.（一隻紅雀停在樹上。）",
+    "id": "中高級-cardinal-m1on545o"
+  },
+  {
+    "level": "中高級",
+    "word": "cartel",
+    "meaning": "同業聯盟",
+    "example": "The cartel controlled the price of oil.（卡特爾控制了油價。）",
+    "id": "中高級-cartel-mb1owdt"
+  },
+  {
+    "level": "中高級",
+    "word": "casino",
+    "meaning": "賭場",
+    "example": "The casino was full of bright lights.（賭場裡滿是明亮燈光。）",
+    "id": "中高級-casino-mogdj"
+  },
+  {
+    "level": "中高級",
+    "word": "caste",
+    "meaning": "(印度社會的)種姓制度、社會階層",
+    "example": "The caste system divided people by birth.（種姓制度依出生劃分人群。）",
+    "id": "中高級-caste-m16v54yn"
+  },
+  {
+    "level": "中高級",
+    "word": "catering",
+    "meaning": "餐飲業、酒席承辦",
+    "example": "The hotel provides catering for weddings.（飯店提供婚禮餐飲服務。）",
+    "id": "中高級-catering-m15hg8hk"
+  },
+  {
+    "level": "中高級",
+    "word": "ceasefire",
+    "meaning": "停火、停戰",
+    "example": "The two sides agreed to a ceasefire.（雙方同意停火。）",
+    "id": "中高級-ceasefire-m18gqq7a"
+  },
+  {
+    "level": "中高級",
+    "word": "celebrated",
+    "meaning": "著名的、聞名的",
+    "example": "She is a celebrated writer.（她是一位著名作家。）",
+    "id": "中高級-celebrated-m1g4wtfm"
+  },
+  {
+    "level": "中高級",
+    "word": "census",
+    "meaning": "(官方的)調查、人口普查",
+    "example": "The census counts the population.（人口普查統計人口。）",
+    "id": "中高級-census-m1dise5p"
+  },
+  {
+    "level": "中高級",
+    "word": "challenged",
+    "meaning": "[委婉說法]有殘疾的",
+    "example": "The school supports challenged students.（學校支持有特殊需求的學生。）",
+    "id": "中高級-challenged-mpfae5z"
+  },
+  {
+    "level": "中高級",
+    "word": "challenger",
+    "meaning": "挑戰者",
+    "example": "The challenger trained for months.（挑戰者訓練了好幾個月。）",
+    "id": "中高級-challenger-mezs12"
+  },
+  {
+    "level": "中高級",
+    "word": "challenging",
+    "meaning": "有挑戰性的、挑起爭論的",
+    "example": "This is a challenging problem.（這是一個有挑戰性的問題。）",
+    "id": "中高級-challenging-mbi54c9"
+  },
+  {
+    "level": "中高級",
+    "word": "chapel",
+    "meaning": "小教堂",
+    "example": "They got married in a small chapel.（他們在一間小教堂結婚。）",
+    "id": "中高級-chapel-mdz57c"
+  },
+  {
+    "level": "中高級",
+    "word": "chapped",
+    "meaning": "(皮膚或唇)裂開的",
+    "example": "My lips are chapped in winter.（我的嘴唇冬天會乾裂。）",
+    "id": "中高級-chapped-mx6j6qf"
+  },
+  {
+    "level": "中高級",
+    "word": "charter",
+    "meaning": "憲章、章程；許可證；(交通工具的)租賃",
+    "example": "The city gave the school a new charter.（市政府給了學校新的特許狀。）",
+    "id": "中高級-charter-m2v82lo"
+  },
+  {
+    "level": "中高級",
+    "word": "charter",
+    "meaning": "特許設立、發給許可證；包租(交通工具)",
+    "example": "They chartered a bus for the trip.（他們包了一輛巴士去旅行。）",
+    "id": "中高級-charter-m9pe16g"
+  },
+  {
+    "level": "中高級",
+    "word": "checked",
+    "meaning": "格子花紋的",
+    "example": "I wore a checked shirt.（我穿了一件格子襯衫。）",
+    "id": "中高級-checked-m1sgqypi"
+  },
+  {
+    "level": "中高級",
+    "word": "chilli",
+    "meaning": "辣椒",
+    "example": "This chilli sauce is very hot.（這個辣椒醬很辣。）",
+    "id": "中高級-chilli-mp0b3"
+  },
+  {
+    "level": "中高級",
+    "word": "chisel",
+    "meaning": "鑿、雕刻；鑿子",
+    "example": "Use a chisel to shape the wood.（用鑿子修整木頭。）",
+    "id": "中高級-chisel-m1fgr2g4"
+  },
+  {
+    "level": "中高級",
+    "word": "chuck",
+    "meaning": "(固定鑽頭等用的)卡盤、夾盤；牛肩胛肉",
+    "example": "Chuck the broken toy away.（把壞掉的玩具丟掉。）",
+    "id": "中高級-chuck-m1vik6lr"
+  },
+  {
+    "level": "中高級",
+    "word": "chuck",
+    "meaning": "(隨意地)拋、扔、甩；放棄、停止、終止(戀愛關係)",
+    "example": "He gave me a friendly chuck on the shoulder.（他友善地拍了一下我的肩膀。）",
+    "id": "中高級-chuck-m11gxnb1"
+  },
+  {
+    "level": "中高級",
+    "word": "circumference",
+    "meaning": "圓周、周長",
+    "example": "The circumference of the circle is ten centimeters.（這個圓的圓周是十公分。）",
+    "id": "中高級-circumference-m1v6r663"
+  },
+  {
+    "level": "中高級",
+    "word": "cleanup",
+    "meaning": "清掃",
+    "example": "We joined a beach cleanup.（我們參加了海灘清潔活動。）",
+    "id": "中高級-cleanup-mj9cu"
+  },
+  {
+    "level": "中高級",
+    "word": "clearing",
+    "meaning": "清掃、林中空地",
+    "example": "There is a small clearing in the forest.（森林裡有一小片空地。）",
+    "id": "中高級-clearing-m16qjl73"
+  },
+  {
+    "level": "中高級",
+    "word": "clinch",
+    "meaning": "擁抱、扭抱",
+    "example": "The team clinched the victory.（隊伍確定贏得勝利。）",
+    "id": "中高級-clinch-m1fg3t05"
+  },
+  {
+    "level": "中高級",
+    "word": "clinch",
+    "meaning": "贏得、成功取得",
+    "example": "They reached a clinch in the final round.（他們在最後一回合扭抱在一起。）",
+    "id": "中高級-clinch-m1o2b621"
+  },
+  {
+    "level": "中高級",
+    "word": "closed",
+    "meaning": "閉關自守的、不接受新思想的",
+    "example": "The store is closed today.（這家店今天關門。）",
+    "id": "中高級-closed-mua18of"
+  },
+  {
+    "level": "中高級",
+    "word": "coalition",
+    "meaning": "聯合、(政黨或國家)結盟",
+    "example": "Several parties formed a coalition.（幾個政黨組成聯盟。）",
+    "id": "中高級-coalition-m10l0i9s"
+  },
+  {
+    "level": "中高級",
+    "word": "coastal",
+    "meaning": "沿海的",
+    "example": "We visited a coastal village.（我們參觀了一座海邊村莊。）",
+    "id": "中高級-coastal-mggooc"
+  },
+  {
+    "level": "中高級",
+    "word": "cocaine",
+    "meaning": "古柯鹼",
+    "example": "Cocaine is an illegal and dangerous drug.（古柯鹼是非法且危險的毒品。）",
+    "id": "中高級-cocaine-mcswgh"
+  },
+  {
+    "level": "中高級",
+    "word": "cockpit",
+    "meaning": "(飛機或船的)駕駛艙、(賽車的)駕駛座",
+    "example": "The pilot sat in the cockpit.（飛行員坐在駕駛艙裡。）",
+    "id": "中高級-cockpit-m16ouamh"
+  },
+  {
+    "level": "中高級",
+    "word": "collaboration",
+    "meaning": "合作、勾結",
+    "example": "The project required close collaboration.（這個專案需要密切合作。）",
+    "id": "中高級-collaboration-m1ini3gf"
+  },
+  {
+    "level": "中高級",
+    "word": "collected",
+    "meaning": "冷靜的、鎮定的",
+    "example": "She remained collected during the emergency.（她在緊急情況下保持冷靜。）",
+    "id": "中高級-collected-m140m2fq"
+  },
+  {
+    "level": "中高級",
+    "word": "collected",
+    "meaning": "收集成冊的、收集成系列的",
+    "example": "The collected stories were published in one book.（這些收集來的故事被出版成一本書。）",
+    "id": "中高級-collected-m1hhkx5b"
+  },
+  {
+    "level": "中高級",
+    "word": "comeback",
+    "meaning": "復出、再度受歡迎",
+    "example": "The singer made a strong comeback.（那位歌手強勢復出。）",
+    "id": "中高級-comeback-mfqi4d7"
+  },
+  {
+    "level": "中高級",
+    "word": "comedown",
+    "meaning": "衰落、落魄",
+    "example": "After the excitement, there was a quiet comedown.（興奮過後，情緒慢慢平靜下來。）",
+    "id": "中高級-comedown-m1h55z0b"
+  },
+  {
+    "level": "中高級",
+    "word": "commend",
+    "meaning": "稱讚、表揚、推薦",
+    "example": "The teacher commended her for honesty.（老師稱讚她誠實。）",
+    "id": "中高級-commend-m18migl1"
+  },
+  {
+    "level": "中高級",
+    "word": "commissioner",
+    "meaning": "委員、專員、(政府部門的)首長或長官",
+    "example": "The commissioner announced the new policy.（委員宣布新政策。）",
+    "id": "中高級-commissioner-m1x6r1yg"
+  },
+  {
+    "level": "中高級",
+    "word": "commonwealth",
+    "meaning": "聯邦、自治政區",
+    "example": "Canada is part of the Commonwealth.（加拿大是大英國協成員。）",
+    "id": "中高級-commonwealth-m1ib40ak"
+  },
+  {
+    "level": "中高級",
+    "word": "communal",
+    "meaning": "共享的、公共的",
+    "example": "The village has a communal kitchen.（村莊有共用廚房。）",
+    "id": "中高級-communal-m3p5obs"
+  },
+  {
+    "level": "中高級",
+    "word": "compartment",
+    "meaning": "車廂隔間、隔間",
+    "example": "Put your bag in the overhead compartment.（把包包放進上方置物櫃。）",
+    "id": "中高級-compartment-m1dw30h5"
+  },
+  {
+    "level": "中高級",
+    "word": "compelling",
+    "meaning": "(理由或論證等)令人信服的、很有說服力的；引人入勝的、令人信服的",
+    "example": "The evidence was compelling.（證據很有說服力。）",
+    "id": "中高級-compelling-m1v0jppr"
+  },
+  {
+    "level": "中高級",
+    "word": "competing",
+    "meaning": "只能選其一的、不能同時接受的",
+    "example": "Three competing teams joined the contest.（三支競爭隊伍參加比賽。）",
+    "id": "中高級-competing-m1q02qow"
+  },
+  {
+    "level": "中高級",
+    "word": "comply",
+    "meaning": "遵守、服從",
+    "example": "Students must comply with the rules.（學生必須遵守規定。）",
+    "id": "中高級-comply-m8bw6e7"
+  },
+  {
+    "level": "中高級",
+    "word": "composite",
+    "meaning": "合成的、複合的；合成物",
+    "example": "This wall is made of composite material.（這面牆是複合材料做的。）",
+    "id": "中高級-composite-m1fr3hfo"
+  },
+  {
+    "level": "中高級",
+    "word": "compress",
+    "meaning": "(止血消炎用)敷布",
+    "example": "Compress the file before sending it.（寄出前先壓縮檔案。）",
+    "id": "中高級-compress-m1rnejuh"
+  },
+  {
+    "level": "中高級",
+    "word": "compress",
+    "meaning": "壓縮、壓緊、精簡(資訊、文字等)",
+    "example": "Use a cold compress on the bruise.（在瘀青處使用冷敷包。）",
+    "id": "中高級-compress-moweznx"
+  },
+  {
+    "level": "中高級",
+    "word": "compulsory",
+    "meaning": "義務的、必修的、強制的",
+    "example": "Attendance is compulsory.（出席是強制的。）",
+    "id": "中高級-compulsory-m8fhnbm"
+  },
+  {
+    "level": "中高級",
+    "word": "computing",
+    "meaning": "電腦操作、電腦學",
+    "example": "She studies computing at college.（她在大學讀計算機相關科目。）",
+    "id": "中高級-computing-mp43cfa"
+  },
+  {
+    "level": "中高級",
+    "word": "con",
+    "meaning": "騙局；不利條件、弊病",
+    "example": "He tried to con people with fake tickets.（他試圖用假票騙人。）",
+    "id": "中高級-con-m1qveylv"
+  },
+  {
+    "level": "中高級",
+    "word": "con",
+    "meaning": "欺詐、詐騙",
+    "example": "There is one big con to this plan.（這個計畫有一個大缺點。）",
+    "id": "中高級-con-maq6hdg"
+  },
+  {
+    "level": "中高級",
+    "word": "condemnation",
+    "meaning": "譴責、定罪",
+    "example": "The attack received strong condemnation.（這次攻擊受到強烈譴責。）",
+    "id": "中高級-condemnation-m1tzqnfd"
+  },
+  {
+    "level": "中高級",
+    "word": "condom",
+    "meaning": "保險套",
+    "example": "A condom can help prevent some infections.（保險套有助於預防某些感染。）",
+    "id": "中高級-condom-mcf8ga"
+  },
+  {
+    "level": "中高級",
+    "word": "confederation",
+    "meaning": "聯盟、(加拿大)聯邦",
+    "example": "The states formed a confederation.（這些州組成了邦聯。）",
+    "id": "中高級-confederation-m1n8hupb"
+  },
+  {
+    "level": "中高級",
+    "word": "configuration",
+    "meaning": "結構、配置、格局",
+    "example": "Check the computer configuration first.（先檢查電腦設定。）",
+    "id": "中高級-configuration-m1u8bqgu"
+  },
+  {
+    "level": "中高級",
+    "word": "congressional",
+    "meaning": "立法機關的、(美國)國會的",
+    "example": "The congressional committee held a meeting.（國會委員會召開會議。）",
+    "id": "中高級-congressional-m1rieg5g"
+  },
+  {
+    "level": "中高級",
+    "word": "consciousness",
+    "meaning": "知覺、意識",
+    "example": "He lost consciousness after the fall.（他跌倒後失去意識。）",
+    "id": "中高級-consciousness-m1o6ge39"
+  },
+  {
+    "level": "中高級",
+    "word": "consecutive",
+    "meaning": "連續不斷的",
+    "example": "It rained for three consecutive days.（連續下了三天雨。）",
+    "id": "中高級-consecutive-mbm747l"
+  },
+  {
+    "level": "中高級",
+    "word": "considering",
+    "meaning": "考慮到、就...而言、鑒於",
+    "example": "Considering the weather, we should stay home.（考慮到天氣，我們應該待在家。）",
+    "id": "中高級-considering-m14evgym"
+  },
+  {
+    "level": "中高級",
+    "word": "consolidate",
+    "meaning": "鞏固、加強；合併、聯合",
+    "example": "The company wants to consolidate its offices.（公司想整合辦公室。）",
+    "id": "中高級-consolidate-m1aggnvj"
+  },
+  {
+    "level": "中高級",
+    "word": "consortium",
+    "meaning": "財團、聯營企業",
+    "example": "A consortium of companies built the bridge.（多家公司組成的財團建造了這座橋。）",
+    "id": "中高級-consortium-m1btaihy"
+  },
+  {
+    "level": "中高級",
+    "word": "conspicuous",
+    "meaning": "顯眼的、引人注目的",
+    "example": "His red hat was conspicuous in the crowd.（他的紅帽子在人群中很顯眼。）",
+    "id": "中高級-conspicuous-m18x05v3"
+  },
+  {
+    "level": "中高級",
+    "word": "constable",
+    "meaning": "(低階)警察",
+    "example": "The constable guarded the gate.（警員守著大門。）",
+    "id": "中高級-constable-m1rwisxm"
+  },
+  {
+    "level": "中高級",
+    "word": "constituency",
+    "meaning": "選區、選區選民、支持者",
+    "example": "This constituency elected a new representative.（這個選區選出新的代表。）",
+    "id": "中高級-constituency-m10z1los"
+  },
+  {
+    "level": "中高級",
+    "word": "constrain",
+    "meaning": "強迫、限制",
+    "example": "Money problems constrained our choices.（金錢問題限制了我們的選擇。）",
+    "id": "中高級-constrain-mzi147n"
+  },
+  {
+    "level": "中高級",
+    "word": "constraint",
+    "meaning": "限制、約束",
+    "example": "Time is our biggest constraint.（時間是我們最大的限制。）",
+    "id": "中高級-constraint-mu1w16e"
+  },
+  {
+    "level": "中高級",
+    "word": "consuming",
+    "meaning": "消耗(時間或精力)的、(感情)強烈的",
+    "example": "The task was time-consuming.（這項任務很耗時。）",
+    "id": "中高級-consuming-mgiemaj"
+  },
+  {
+    "level": "中高級",
+    "word": "contaminant",
+    "meaning": "污染物",
+    "example": "The water contained a dangerous contaminant.（水中含有危險污染物。）",
+    "id": "中高級-contaminant-mgdrmf"
+  },
+  {
+    "level": "中高級",
+    "word": "contender",
+    "meaning": "競爭者、角逐者",
+    "example": "He is a strong contender for the prize.（他是獎項的有力競爭者。）",
+    "id": "中高級-contender-m11d69as"
+  },
+  {
+    "level": "中高級",
+    "word": "contention",
+    "meaning": "爭論、論點",
+    "example": "His main contention is that the rule is unfair.（他的主要論點是這條規則不公平。）",
+    "id": "中高級-contention-m11yq5cw"
+  },
+  {
+    "level": "中高級",
+    "word": "contentment",
+    "meaning": "滿意、知足",
+    "example": "She smiled with contentment.（她滿足地微笑。）",
+    "id": "中高級-contentment-mk9da9r"
+  },
+  {
+    "level": "中高級",
+    "word": "contingent",
+    "meaning": "(代表某一組織或國家的)代表團、(軍隊的)小分隊；偶然事件",
+    "example": "A contingent of soldiers arrived.（一支士兵分隊抵達。）",
+    "id": "中高級-contingent-mu0zdzq"
+  },
+  {
+    "level": "中高級",
+    "word": "contingent",
+    "meaning": "視...而定的、取決於...的；偶然的、可能的",
+    "example": "The plan is contingent on good weather.（這個計畫取決於好天氣。）",
+    "id": "中高級-contingent-m1ogi6sp"
+  },
+  {
+    "level": "中高級",
+    "word": "contradictory",
+    "meaning": "相互矛盾的、不一致的",
+    "example": "His statements were contradictory.（他的說法互相矛盾。）",
+    "id": "中高級-contradictory-m5zxzct"
+  },
+  {
+    "level": "中高級",
+    "word": "contributor",
+    "meaning": "捐贈者、貢獻者；投稿人",
+    "example": "She is a regular contributor to the magazine.（她是這本雜誌的固定投稿人。）",
+    "id": "中高級-contributor-m1gr2w31"
+  },
+  {
+    "level": "中高級",
+    "word": "contrive",
+    "meaning": "設計、發明；巧妙安排、策畫；設法做到",
+    "example": "They contrived a plan to escape.（他們設計了一個逃脫計畫。）",
+    "id": "中高級-contrive-m5dyphd"
+  },
+  {
+    "level": "中高級",
+    "word": "convene",
+    "meaning": "召開、開會",
+    "example": "The committee will convene tomorrow.（委員會明天開會。）",
+    "id": "中高級-convene-m1r33fa2"
+  },
+  {
+    "level": "中高級",
+    "word": "converge",
+    "meaning": "相交、會合、聚集",
+    "example": "The two roads converge near the station.（這兩條路在車站附近會合。）",
+    "id": "中高級-converge-me870vn"
+  },
+  {
+    "level": "中高級",
+    "word": "conversely",
+    "meaning": "相反地",
+    "example": "He is quiet; conversely, his sister is very talkative.（他很安靜；相反地，他妹妹很健談。）",
+    "id": "中高級-conversely-mhu1vf"
+  },
+  {
+    "level": "中高級",
+    "word": "conversion",
+    "meaning": "改變、轉換、改變信仰或態度",
+    "example": "The conversion of the building took one year.（這棟建築的改建花了一年。）",
+    "id": "中高級-conversion-m1h3cenm"
+  },
+  {
+    "level": "中高級",
+    "word": "convertible",
+    "meaning": "敞篷車；可轉換的、可兌換的",
+    "example": "She drove a red convertible.（她開一輛紅色敞篷車。）",
+    "id": "中高級-convertible-m19xlmwq"
+  },
+  {
+    "level": "中高級",
+    "word": "convoy",
+    "meaning": "(尤指有護衛的)艦隊、車隊；護衛、護送",
+    "example": "A convoy of trucks carried food to the village.（一隊卡車把食物運到村莊。）",
+    "id": "中高級-convoy-mx1myw2"
+  },
+  {
+    "level": "中高級",
+    "word": "correction",
+    "meaning": "修正、改正、懲治",
+    "example": "The teacher made a correction on my paper.（老師在我的作業上做了修正。）",
+    "id": "中高級-correction-mulo4es"
+  },
+  {
+    "level": "中高級",
+    "word": "correlate",
+    "meaning": "相互關聯",
+    "example": "Exercise correlates with better health.（運動和較好的健康有關。）",
+    "id": "中高級-correlate-mfcfeb1"
+  },
+  {
+    "level": "中高級",
+    "word": "correlation",
+    "meaning": "相關性、關聯",
+    "example": "There is a strong correlation between sleep and focus.（睡眠和專注力之間有很強的關聯。）",
+    "id": "中高級-correlation-muvxl4h"
+  },
+  {
+    "level": "中高級",
+    "word": "corrode",
+    "meaning": "侵蝕、腐蝕、損害",
+    "example": "Salt water can corrode metal.（鹽水會腐蝕金屬。）",
+    "id": "中高級-corrode-md7bhs1"
+  },
+  {
+    "level": "中高級",
+    "word": "cosmic",
+    "meaning": "宇宙的",
+    "example": "The telescope captured a cosmic event.（望遠鏡捕捉到一個宇宙事件。）",
+    "id": "中高級-cosmic-mduuoi"
+  },
+  {
+    "level": "中高級",
+    "word": "costing",
+    "meaning": "成本計算",
+    "example": "The costing of the project was too high.（這個專案的成本估算太高。）",
+    "id": "中高級-costing-mct1p63"
+  },
+  {
+    "level": "中高級",
+    "word": "councilor",
+    "meaning": "(州、市、鎮等)議會議員",
+    "example": "The councilor listened to local residents.（議員聽取當地居民的意見。）",
+    "id": "中高級-councilor-m1nieeug"
+  },
+  {
+    "level": "中高級",
+    "word": "countless",
+    "meaning": "無數的、不計其數的",
+    "example": "There are countless stars in the sky.（天空中有無數星星。）",
+    "id": "中高級-countless-m1ektt1v"
+  },
+  {
+    "level": "中高級",
+    "word": "coup",
+    "meaning": "意想不到的成功；政變",
+    "example": "The army attempted a coup.（軍方企圖發動政變。）",
+    "id": "中高級-coup-m1r2q6sa"
+  },
+  {
+    "level": "中高級",
+    "word": "courier",
+    "meaning": "信差、遞送員",
+    "example": "The courier delivered the package.（快遞員送來包裹。）",
+    "id": "中高級-courier-m14mrnje"
+  },
+  {
+    "level": "中高級",
+    "word": "covering",
+    "meaning": "覆蓋物",
+    "example": "The floor has a wooden covering.（地板有木質覆蓋層。）",
+    "id": "中高級-covering-mksdfo"
+  },
+  {
+    "level": "中高級",
+    "word": "crackdown",
+    "meaning": "鎮壓、打擊",
+    "example": "Police launched a crackdown on drunk driving.（警方展開酒駕取締行動。）",
+    "id": "中高級-crackdown-mkl7637"
+  },
+  {
+    "level": "中高級",
+    "word": "crap",
+    "meaning": "[冒犯]廢話、胡扯、垃圾、排泄物",
+    "example": "Do not talk a load of crap about your classmates.（不要亂講同學壞話。）",
+    "id": "中高級-crap-m1k4xu6v"
+  },
+  {
+    "level": "中高級",
+    "word": "crap",
+    "meaning": "[冒犯]劣質的、差勁的",
+    "example": "The old chair was a piece of crap.（那張舊椅子很爛。）",
+    "id": "中高級-crap-m13b2up4"
+  },
+  {
+    "level": "中高級",
+    "word": "crap",
+    "meaning": "[冒犯]拉屎",
+    "example": "I stepped in dog crap.（我踩到狗大便。）",
+    "id": "中高級-crap-mlckqmi"
+  },
+  {
+    "level": "中高級",
+    "word": "creditor",
+    "meaning": "債權人、貸方",
+    "example": "The creditor asked for repayment.（債權人要求還款。）",
+    "id": "中高級-creditor-m1hoqd6l"
+  },
+  {
+    "level": "中高級",
+    "word": "cross-country",
+    "meaning": "越野賽；越野的；橫越全國地",
+    "example": "We went on a cross-country trip.（我們去了一趟橫越全國的旅行。）",
+    "id": "中高級-cross-country-mj2mxxt"
+  },
+  {
+    "level": "中高級",
+    "word": "cubic",
+    "meaning": "立方的",
+    "example": "The box has a cubic shape.（這個盒子是立方體形狀。）",
+    "id": "中高級-cubic-mihfqu"
+  },
+  {
+    "level": "中高級",
+    "word": "culminate",
+    "meaning": "以…告終、結束",
+    "example": "The festival will culminate in a fireworks show.（節慶將以煙火秀達到高潮。）",
+    "id": "中高級-culminate-mdpl6jb"
+  },
+  {
+    "level": "中高級",
+    "word": "cult",
+    "meaning": "狂熱崇拜、邪教",
+    "example": "The book describes an ancient cult.（這本書描述了一個古老的宗教團體。）",
+    "id": "中高級-cult-m1t8v30s"
+  },
+  {
+    "level": "中高級",
+    "word": "cult",
+    "meaning": "受特定群體歡迎的",
+    "example": "Some fans treat the movie like a cult classic.（有些粉絲把這部電影視為邪典經典。）",
+    "id": "中高級-cult-ms4kv4f"
+  },
+  {
+    "level": "中高級",
+    "word": "curfew",
+    "meaning": "宵禁(時間)",
+    "example": "The city set a curfew after the storm.（暴風雨後城市實施宵禁。）",
+    "id": "中高級-curfew-md8mw3g"
+  },
+  {
+    "level": "中高級",
+    "word": "custody",
+    "meaning": "保管、監護(權)、羈押",
+    "example": "The child is in his mother’s custody.（那個孩子由母親監護。）",
+    "id": "中高級-custody-m7jyxb3"
+  },
+  {
+    "level": "中高級",
+    "word": "cutting",
+    "meaning": "剪報、插枝",
+    "example": "The cutting tool is very sharp.（這個切割工具很鋒利。）",
+    "id": "中高級-cutting-m1dg1pwl"
+  },
+  {
+    "level": "中高級",
+    "word": "cutting",
+    "meaning": "刻薄的",
+    "example": "She saved a cutting from the rose plant.（她保存了一段玫瑰插枝。）",
+    "id": "中高級-cutting-mcoykb"
+  },
+  {
+    "level": "中高級",
+    "word": "cylinder",
+    "meaning": "圓柱體；(引擎的)氣缸",
+    "example": "The can is shaped like a cylinder.（這個罐子形狀像圓柱體。）",
+    "id": "中高級-cylinder-m1iww1me"
+  },
+  {
+    "level": "中高級",
+    "word": "cynical",
+    "meaning": "憤世嫉俗的、悲觀的",
+    "example": "He gave a cynical smile.（他露出冷嘲的微笑。）",
+    "id": "中高級-cynical-m1jec2t5"
+  },
+  {
+    "level": "中高級",
+    "word": "dame",
+    "meaning": "女爵士",
+    "example": "The queen was called a great dame.（那位女王被稱為偉大的女士。）",
+    "id": "中高級-dame-mdnksp"
+  },
+  {
+    "level": "中高級",
+    "word": "daring",
+    "meaning": "勇敢的、大膽的；勇敢、膽量",
+    "example": "It was a daring rescue.（那是一次大膽的救援。）",
+    "id": "中高級-daring-mmhver7"
+  },
+  {
+    "level": "中高級",
+    "word": "day-to-day",
+    "meaning": "每天的、例行的",
+    "example": "Day-to-day work can be tiring.（日常工作可能很累人。）",
+    "id": "中高級-day-to-day-m1i7dap8"
+  },
+  {
+    "level": "中高級",
+    "word": "dealing",
+    "meaning": "交易、商業往來",
+    "example": "His dealing with customers is polite.（他和顧客打交道很有禮貌。）",
+    "id": "中高級-dealing-m1ewc9r"
+  },
+  {
+    "level": "中高級",
+    "word": "debris",
+    "meaning": "殘骸、碎片",
+    "example": "Debris covered the street after the storm.（暴風雨後街上滿是碎片。）",
+    "id": "中高級-debris-me89pga"
+  },
+  {
+    "level": "中高級",
+    "word": "debut",
+    "meaning": "初次演出、初次亮相",
+    "example": "The singer made her debut last year.（那位歌手去年首次登台。）",
+    "id": "中高級-debut-m1pengpx"
+  },
+  {
+    "level": "中高級",
+    "word": "decimal",
+    "meaning": "十進位的",
+    "example": "Write the answer as a decimal.（把答案寫成小數。）",
+    "id": "中高級-decimal-mb3jcmg"
+  },
+  {
+    "level": "中高級",
+    "word": "decimal",
+    "meaning": "小數",
+    "example": "The decimal point is in the wrong place.（小數點位置錯了。）",
+    "id": "中高級-decimal-mg7rd"
+  },
+  {
+    "level": "中高級",
+    "word": "decorative",
+    "meaning": "裝飾性的",
+    "example": "The vase is decorative, not useful.（這個花瓶是裝飾用的，不是實用的。）",
+    "id": "中高級-decorative-mhwbpoe"
+  },
+  {
+    "level": "中高級",
+    "word": "decree",
+    "meaning": "法令、判決；頒布",
+    "example": "The king issued a decree.（國王發布了一道命令。）",
+    "id": "中高級-decree-mnohfd0"
+  },
+  {
+    "level": "中高級",
+    "word": "dedicated",
+    "meaning": "盡心盡力的、獻身的",
+    "example": "She is a dedicated teacher.（她是一位敬業的老師。）",
+    "id": "中高級-dedicated-m1gd0ykb"
+  },
+  {
+    "level": "中高級",
+    "word": "deduce",
+    "meaning": "推論、演繹",
+    "example": "We can deduce the answer from the clues.（我們可以從線索推論答案。）",
+    "id": "中高級-deduce-m1g7y1fc"
+  },
+  {
+    "level": "中高級",
+    "word": "deduct",
+    "meaning": "扣除",
+    "example": "The store will deduct ten dollars from the price.（商店會從價格中扣掉十元。）",
+    "id": "中高級-deduct-mhk69"
+  },
+  {
+    "level": "中高級",
+    "word": "deduction",
+    "meaning": "演繹、扣除(額)",
+    "example": "This is a simple deduction.（這是一個簡單的推論。）",
+    "id": "中高級-deduction-m1bigx9j"
+  },
+  {
+    "level": "中高級",
+    "word": "default",
+    "meaning": "違約、不清償債務",
+    "example": "The app uses English as the default language.（這個應用程式預設語言是英文。）",
+    "id": "中高級-default-m1lffc55"
+  },
+  {
+    "level": "中高級",
+    "word": "default",
+    "meaning": "違約；預設值",
+    "example": "He failed to pay and went into default.（他未付款而違約。）",
+    "id": "中高級-default-m196p4sz"
+  },
+  {
+    "level": "中高級",
+    "word": "defendant",
+    "meaning": "被告",
+    "example": "The defendant spoke in court.（被告在法庭上發言。）",
+    "id": "中高級-defendant-mnpj3"
+  },
+  {
+    "level": "中高級",
+    "word": "defender",
+    "meaning": "守衛者、保護人、防守隊員",
+    "example": "The defender blocked the shot.（防守球員擋下了射門。）",
+    "id": "中高級-defender-m1571zj1"
+  },
+  {
+    "level": "中高級",
+    "word": "defiance",
+    "meaning": "違抗、拒絕服從",
+    "example": "She acted in defiance of the rule.（她公然違反規則。）",
+    "id": "中高級-defiance-m9c1ez7"
+  },
+  {
+    "level": "中高級",
+    "word": "defiant",
+    "meaning": "反抗的、挑釁的",
+    "example": "The child gave a defiant look.（那個孩子露出反抗的表情。）",
+    "id": "中高級-defiant-m1oxp10t"
+  },
+  {
+    "level": "中高級",
+    "word": "deficient",
+    "meaning": "缺乏的、有缺陷的",
+    "example": "His diet is deficient in iron.（他的飲食缺乏鐵。）",
+    "id": "中高級-deficient-m1jyv2ts"
+  },
+  {
+    "level": "中高級",
+    "word": "definitive",
+    "meaning": "最後的、決定性的",
+    "example": "This is the definitive answer.（這是最終明確的答案。）",
+    "id": "中高級-definitive-m33zesm"
+  },
+  {
+    "level": "中高級",
+    "word": "defy",
+    "meaning": "違抗、反抗",
+    "example": "He dared to defy the unfair rule.（他敢於反抗不公平的規則。）",
+    "id": "中高級-defy-m8q9bex"
+  },
+  {
+    "level": "中高級",
+    "word": "degenerate",
+    "meaning": "衰退、惡化；墮落的；墮落的人",
+    "example": "The situation began to degenerate.（情況開始惡化。）",
+    "id": "中高級-degenerate-m1cz224g"
+  },
+  {
+    "level": "中高級",
+    "word": "demise",
+    "meaning": "終止、死亡",
+    "example": "The company’s demise surprised everyone.（那家公司的衰亡讓大家驚訝。）",
+    "id": "中高級-demise-m6aj8iv"
+  },
+  {
+    "level": "中高級",
+    "word": "demonstrator",
+    "meaning": "示威者；示範者",
+    "example": "The demonstrator held a sign.（示威者拿著標語。）",
+    "id": "中高級-demonstrator-m1rs0hge"
+  },
+  {
+    "level": "中高級",
+    "word": "denote",
+    "meaning": "象徵、意指",
+    "example": "A red light denotes danger.（紅燈表示危險。）",
+    "id": "中高級-denote-m1rxwlut"
+  },
+  {
+    "level": "中高級",
+    "word": "deplete",
+    "meaning": "消耗、耗盡",
+    "example": "Overuse can deplete natural resources.（過度使用會耗盡自然資源。）",
+    "id": "中高級-deplete-mig458c"
+  },
+  {
+    "level": "中高級",
+    "word": "deploy",
+    "meaning": "部署(軍隊或武器)、有效利用",
+    "example": "The army will deploy more soldiers.（軍方將部署更多士兵。）",
+    "id": "中高級-deploy-m3lkxwz"
+  },
+  {
+    "level": "中高級",
+    "word": "deployment",
+    "meaning": "部署、有效利用",
+    "example": "The deployment took place at dawn.（部署在黎明進行。）",
+    "id": "中高級-deployment-m1hhtq0l"
+  },
+  {
+    "level": "中高級",
+    "word": "deport",
+    "meaning": "驅逐出境",
+    "example": "The government decided to deport the criminal.（政府決定驅逐那名罪犯出境。）",
+    "id": "中高級-deport-mk1zbec"
+  },
+  {
+    "level": "中高級",
+    "word": "detached",
+    "meaning": "分離的；不帶感情的、超然的",
+    "example": "The garage is detached from the house.（車庫和房子是分開的。）",
+    "id": "中高級-detached-m1su420k"
+  },
+  {
+    "level": "中高級",
+    "word": "detection",
+    "meaning": "偵查、探測",
+    "example": "Early detection can save lives.（早期偵測可以救命。）",
+    "id": "中高級-detection-m17rvo1n"
+  },
+  {
+    "level": "中高級",
+    "word": "detention",
+    "meaning": "拘留、扣押、(作為懲罰的)課後留校",
+    "example": "The suspect was held in detention.（嫌疑人被拘留。）",
+    "id": "中高級-detention-mniedur"
+  },
+  {
+    "level": "中高級",
+    "word": "deterioration",
+    "meaning": "惡化",
+    "example": "The deterioration of the road was obvious.（道路惡化很明顯。）",
+    "id": "中高級-deterioration-mgxn9"
+  },
+  {
+    "level": "中高級",
+    "word": "devastate",
+    "meaning": "重創、摧毀、使震驚或悲痛",
+    "example": "The earthquake devastated the town.（地震摧毀了那座城鎮。）",
+    "id": "中高級-devastate-m1nzldzw"
+  },
+  {
+    "level": "中高級",
+    "word": "devastating",
+    "meaning": "毀滅性的、驚人的",
+    "example": "The flood was devastating.（洪水造成毀滅性破壞。）",
+    "id": "中高級-devastating-mpbprnp"
+  },
+  {
+    "level": "中高級",
+    "word": "developed",
+    "meaning": "先進的、已開發的、成熟的",
+    "example": "Japan is a developed country.（日本是已開發國家。）",
+    "id": "中高級-developed-m1nyp73w"
+  },
+  {
+    "level": "中高級",
+    "word": "developer",
+    "meaning": "開發商、開發者",
+    "example": "The developer built new apartments.（建商蓋了新公寓。）",
+    "id": "中高級-developer-m1dkp9zc"
+  },
+  {
+    "level": "中高級",
+    "word": "developing",
+    "meaning": "發展中的、開發中的",
+    "example": "Many developing countries need more schools.（許多開發中國家需要更多學校。）",
+    "id": "中高級-developing-mqncdx5"
+  },
+  {
+    "level": "中高級",
+    "word": "deviate",
+    "meaning": "偏離、脫軌",
+    "example": "Do not deviate from the plan.（不要偏離計畫。）",
+    "id": "中高級-deviate-m1d4hi0f"
+  },
+  {
+    "level": "中高級",
+    "word": "dictatorship",
+    "meaning": "獨裁統治、獨裁國家",
+    "example": "The people suffered under dictatorship.（人民在獨裁統治下受苦。）",
+    "id": "中高級-dictatorship-m5mlrsy"
+  },
+  {
+    "level": "中高級",
+    "word": "diesel",
+    "meaning": "柴油",
+    "example": "The truck uses diesel fuel.（這輛卡車使用柴油。）",
+    "id": "中高級-diesel-mia11"
+  },
+  {
+    "level": "中高級",
+    "word": "diffuse",
+    "meaning": "擴散、散佈、(光)漫射",
+    "example": "The light was diffuse and soft.（光線散開且柔和。）",
+    "id": "中高級-diffuse-m7ucqd3"
+  },
+  {
+    "level": "中高級",
+    "word": "dilute",
+    "meaning": "稀釋、削弱；稀釋的",
+    "example": "Dilute the juice with water.（用水稀釋果汁。）",
+    "id": "中高級-dilute-m1ltae3"
+  },
+  {
+    "level": "中高級",
+    "word": "directive",
+    "meaning": "指令、命令",
+    "example": "The manager gave a clear directive.（經理給了明確指示。）",
+    "id": "中高級-directive-m1673kyz"
+  },
+  {
+    "level": "中高級",
+    "word": "discern",
+    "meaning": "識別、察覺出、分辨出",
+    "example": "It is hard to discern the difference.（很難看出差異。）",
+    "id": "中高級-discern-mq9aozm"
+  },
+  {
+    "level": "中高級",
+    "word": "discredit",
+    "meaning": "名譽受損",
+    "example": "The lie discredited his story.（那個謊言使他的故事失去可信度。）",
+    "id": "中高級-discredit-mb6hgkm"
+  },
+  {
+    "level": "中高級",
+    "word": "discrepancy",
+    "meaning": "差異、不一致",
+    "example": "There is a discrepancy between the two reports.（兩份報告之間有差異。）",
+    "id": "中高級-discrepancy-m1nky1cy"
+  },
+  {
+    "level": "中高級",
+    "word": "discrete",
+    "meaning": "分離的",
+    "example": "The data was divided into discrete groups.（資料被分成獨立群組。）",
+    "id": "中高級-discrete-mcqtm0"
+  },
+  {
+    "level": "中高級",
+    "word": "discretion",
+    "meaning": "決定權、判斷力",
+    "example": "Use your discretion in this matter.（這件事請你自行謹慎判斷。）",
+    "id": "中高級-discretion-m18xrl69"
+  },
+  {
+    "level": "中高級",
+    "word": "disintegrate",
+    "meaning": "碎裂、崩潰瓦解",
+    "example": "The old paper began to disintegrate.（舊紙開始碎裂。）",
+    "id": "中高級-disintegrate-mvntmcx"
+  },
+  {
+    "level": "中高級",
+    "word": "dismissal",
+    "meaning": "解雇、不予考慮、駁回",
+    "example": "His dismissal shocked the staff.（他被解雇讓員工震驚。）",
+    "id": "中高級-dismissal-m1w96r7f"
+  },
+  {
+    "level": "中高級",
+    "word": "disposition",
+    "meaning": "性情、傾向",
+    "example": "She has a cheerful disposition.（她有開朗的性情。）",
+    "id": "中高級-disposition-mx7kxau"
+  },
+  {
+    "level": "中高級",
+    "word": "disrupt",
+    "meaning": "擾亂、中斷",
+    "example": "The noise disrupted the class.（噪音打擾了課堂。）",
+    "id": "中高級-disrupt-m1dtwkkn"
+  },
+  {
+    "level": "中高級",
+    "word": "dissent",
+    "meaning": "異議、持不同意見",
+    "example": "The student expressed dissent.（那名學生表達不同意見。）",
+    "id": "中高級-dissent-m1fff4r"
+  },
+  {
+    "level": "中高級",
+    "word": "dissipate",
+    "meaning": "消散、消磨、揮霍",
+    "example": "The fog began to dissipate.（霧開始消散。）",
+    "id": "中高級-dissipate-m10j8u4a"
+  },
+  {
+    "level": "中高級",
+    "word": "distill",
+    "meaning": "蒸餾、濃縮",
+    "example": "They distill water in the lab.（他們在實驗室蒸餾水。）",
+    "id": "中高級-distill-m158zjgm"
+  },
+  {
+    "level": "中高級",
+    "word": "distributed",
+    "meaning": "[電腦]分散式的、分布的",
+    "example": "The food was distributed to families.（食物被分發給家庭。）",
+    "id": "中高級-distributed-m16uui7j"
+  },
+  {
+    "level": "中高級",
+    "word": "distributor",
+    "meaning": "經銷商",
+    "example": "The distributor supplies books to stores.（經銷商供應書籍給商店。）",
+    "id": "中高級-distributor-mj3kn6"
+  },
+  {
+    "level": "中高級",
+    "word": "disturbed",
+    "meaning": "有精神病的、不幸的、心煩的",
+    "example": "He looked disturbed by the news.（他看起來被這消息困擾。）",
+    "id": "中高級-disturbed-mw71esd"
+  },
+  {
+    "level": "中高級",
+    "word": "disturbing",
+    "meaning": "令人不安的、引起煩惱的",
+    "example": "The movie had a disturbing ending.（這部電影有令人不安的結局。）",
+    "id": "中高級-disturbing-m1xcviq3"
+  },
+  {
+    "level": "中高級",
+    "word": "dividend",
+    "meaning": "股利",
+    "example": "The company paid a dividend to shareholders.（公司向股東支付股利。）",
+    "id": "中高級-dividend-mmbvs"
+  },
+  {
+    "level": "中高級",
+    "word": "domain",
+    "meaning": "領域、範圍",
+    "example": "This website uses a short domain name.（這個網站使用簡短的網域名稱。）",
+    "id": "中高級-domain-m11qb4v7"
+  },
+  {
+    "level": "中高級",
+    "word": "doomed",
+    "meaning": "注定失敗的",
+    "example": "The plan was doomed from the start.（這個計畫從一開始就注定失敗。）",
+    "id": "中高級-doomed-mbkd8gc"
+  },
+  {
+    "level": "中高級",
+    "word": "doubtless",
+    "meaning": "無疑地、必定地",
+    "example": "She is doubtless the best singer here.（她無疑是這裡最好的歌手。）",
+    "id": "中高級-doubtless-m1vqxjdm"
+  },
+  {
+    "level": "中高級",
+    "word": "drainage",
+    "meaning": "排水系統",
+    "example": "Good drainage prevents flooding.（良好的排水可防止淹水。）",
+    "id": "中高級-drainage-md0khmg"
+  },
+  {
+    "level": "中高級",
+    "word": "dub",
+    "meaning": "把…稱為、起綽號；配音",
+    "example": "They dubbed the movie into Chinese.（他們把這部電影配成中文。）",
+    "id": "中高級-dub-md2xoo4"
+  },
+  {
+    "level": "中高級",
+    "word": "duplicate",
+    "meaning": "複製；複製品；複製的",
+    "example": "Please make a duplicate of this key.（請複製這把鑰匙。）",
+    "id": "中高級-duplicate-m1b3whkp"
+  },
+  {
+    "level": "中高級",
+    "word": "dying",
+    "meaning": "臨終的",
+    "example": "The dying plant needed water.（快枯死的植物需要水。）",
+    "id": "中高級-dying-mjmy5m"
+  },
+  {
+    "level": "中高級",
+    "word": "earphones",
+    "meaning": "耳機",
+    "example": "I use earphones when I study.（我讀書時使用耳機。）",
+    "id": "中高級-earphones-mme18"
+  },
+  {
+    "level": "中高級",
+    "word": "ecological",
+    "meaning": "生態學的",
+    "example": "The project focuses on ecological protection.（這個專案重視生態保護。）",
+    "id": "中高級-ecological-mf6i42g"
+  },
+  {
+    "level": "中高級",
+    "word": "ecosystem",
+    "meaning": "生態系統",
+    "example": "A forest is a complex ecosystem.（森林是一個複雜的生態系。）",
+    "id": "中高級-ecosystem-mf6nun6"
+  },
+  {
+    "level": "中高級",
+    "word": "ecstatic",
+    "meaning": "狂喜的",
+    "example": "She was ecstatic about the good news.（她對好消息欣喜若狂。）",
+    "id": "中高級-ecstatic-mh8bsa"
+  },
+  {
+    "level": "中高級",
+    "word": "edged",
+    "meaning": "有稜(邊)的、有刀刃的",
+    "example": "The road was edged with flowers.（道路兩旁種著花。）",
+    "id": "中高級-edged-mnscmnd"
+  },
+  {
+    "level": "中高級",
+    "word": "educated",
+    "meaning": "受過教育的、有教養的",
+    "example": "She is an educated woman.（她是一位受過教育的女性。）",
+    "id": "中高級-educated-m141dbqv"
+  },
+  {
+    "level": "中高級",
+    "word": "eject",
+    "meaning": "逐出、彈出",
+    "example": "The machine will eject the card.（機器會退出卡片。）",
+    "id": "中高級-eject-m5kxqa1"
+  },
+  {
+    "level": "中高級",
+    "word": "elapse",
+    "meaning": "(時間)消逝",
+    "example": "Ten minutes elapsed before he returned.（過了十分鐘他才回來。）",
+    "id": "中高級-elapse-mbgkpb9"
+  },
+  {
+    "level": "中高級",
+    "word": "electoral",
+    "meaning": "選舉的",
+    "example": "The electoral system is complicated.（選舉制度很複雜。）",
+    "id": "中高級-electoral-mlsjrn"
+  },
+  {
+    "level": "中高級",
+    "word": "electorate",
+    "meaning": "全體選民",
+    "example": "The electorate will vote next month.（選民下個月會投票。）",
+    "id": "中高級-electorate-max0f7p"
+  },
+  {
+    "level": "中高級",
+    "word": "elevated",
+    "meaning": "升高的、高尚的",
+    "example": "The train runs on an elevated track.（火車行駛在高架軌道上。）",
+    "id": "中高級-elevated-mbpjij8"
+  },
+  {
+    "level": "中高級",
+    "word": "elevation",
+    "meaning": "海拔、高處、提升",
+    "example": "The elevation of the mountain is high.（這座山的海拔很高。）",
+    "id": "中高級-elevation-m1jum3ef"
+  },
+  {
+    "level": "中高級",
+    "word": "elicit",
+    "meaning": "引起",
+    "example": "The question elicited many answers.（這個問題引出了許多答案。）",
+    "id": "中高級-elicit-mgy6a"
+  },
+  {
+    "level": "中高級",
+    "word": "eligibility",
+    "meaning": "資格、符合條件",
+    "example": "Check your eligibility before applying.（申請前確認你的資格。）",
+    "id": "中高級-eligibility-m1i8ntyf"
+  },
+  {
+    "level": "中高級",
+    "word": "embargo",
+    "meaning": "禁運、禁止",
+    "example": "The country placed an embargo on oil exports.（這個國家對石油出口實施禁運。）",
+    "id": "中高級-embargo-m1vawyvs"
+  },
+  {
+    "level": "中高級",
+    "word": "embed",
+    "meaning": "埋置、嵌入",
+    "example": "The reporter embedded a video in the article.（記者在文章中嵌入了一段影片。）",
+    "id": "中高級-embed-m4e73w7"
+  },
+  {
+    "level": "中高級",
+    "word": "embody",
+    "meaning": "體現、具體化",
+    "example": "The statue embodies freedom.（這座雕像體現了自由。）",
+    "id": "中高級-embody-m1c738n6"
+  },
+  {
+    "level": "中高級",
+    "word": "embryo",
+    "meaning": "胚胎、初期",
+    "example": "The embryo develops inside the body.（胚胎在體內發育。）",
+    "id": "中高級-embryo-mn1jfzj"
+  },
+  {
+    "level": "中高級",
+    "word": "emergence",
+    "meaning": "出現",
+    "example": "The emergence of new technology changed the market.（新科技的出現改變了市場。）",
+    "id": "中高級-emergence-mekw4"
+  },
+  {
+    "level": "中高級",
+    "word": "emission",
+    "meaning": "(氣體、熱、光等)排放或散發、排放物",
+    "example": "Car emissions pollute the air.（汽車排放物污染空氣。）",
+    "id": "中高級-emission-me2cdta"
+  },
+  {
+    "level": "中高級",
+    "word": "emit",
+    "meaning": "排放或散發(氣體、熱、光等)",
+    "example": "Factories emit smoke.（工廠排放煙。）",
+    "id": "中高級-emit-m18qk0oe"
+  },
+  {
+    "level": "中高級",
+    "word": "empirical",
+    "meaning": "實證的、經驗主義的",
+    "example": "The theory is based on empirical evidence.（這個理論基於實證證據。）",
+    "id": "中高級-empirical-m1tpc036"
+  },
+  {
+    "level": "中高級",
+    "word": "endless",
+    "meaning": "無盡的、無休止的",
+    "example": "The road seemed endless.（這條路似乎沒有盡頭。）",
+    "id": "中高級-endless-myljavj"
+  },
+  {
+    "level": "中高級",
+    "word": "endorse",
+    "meaning": "贊同、代言、(簽名)背書",
+    "example": "The coach endorsed the new training plan.（教練支持新的訓練計畫。）",
+    "id": "中高級-endorse-mg20av6"
+  },
+  {
+    "level": "中高級",
+    "word": "endow",
+    "meaning": "捐贈、賦予",
+    "example": "The school will endow a scholarship fund.（學校將捐設獎學金基金。）",
+    "id": "中高級-endow-m1f5nsyz"
+  },
+  {
+    "level": "中高級",
+    "word": "endowment",
+    "meaning": "捐贈、捐款、天賦",
+    "example": "The university received a large endowment.（那所大學收到一筆大型捐贈基金。）",
+    "id": "中高級-endowment-m150z32f"
+  },
+  {
+    "level": "中高級",
+    "word": "energize",
+    "meaning": "使精力充沛、供給能量",
+    "example": "Music can energize the team.（音樂可以讓團隊充滿活力。）",
+    "id": "中高級-energize-mkhn1ak"
+  },
+  {
+    "level": "中高級",
+    "word": "engaged",
+    "meaning": "忙於…的、訂婚的",
+    "example": "She is engaged to a doctor.（她和一位醫生訂婚了。）",
+    "id": "中高級-engaged-m1iwnacs"
+  },
+  {
+    "level": "中高級",
+    "word": "ensue",
+    "meaning": "接著發生",
+    "example": "A long silence ensued after his speech.（他的演說後接著是一陣長時間沉默。）",
+    "id": "中高級-ensue-md4eqr9"
+  },
+  {
+    "level": "中高級",
+    "word": "entail",
+    "meaning": "牽涉、使必要",
+    "example": "The job will entail travel.（這份工作會需要出差。）",
+    "id": "中高級-entail-myi3xnq"
+  },
+  {
+    "level": "中高級",
+    "word": "enthusiast",
+    "meaning": "熱衷…的人",
+    "example": "He is a football enthusiast.（他是足球愛好者。）",
+    "id": "中高級-enthusiast-mzpckom"
+  },
+  {
+    "level": "中高級",
+    "word": "entity",
+    "meaning": "實體、獨立存在體",
+    "example": "The company is a separate legal entity.（這家公司是一個獨立法人實體。）",
+    "id": "中高級-entity-mc17b0u"
+  },
+  {
+    "level": "中高級",
+    "word": "entrepreneur",
+    "meaning": "企業家、創業者",
+    "example": "The entrepreneur started a small business.（那位創業家創立了一家小公司。）",
+    "id": "中高級-entrepreneur-mky1njq"
+  },
+  {
+    "level": "中高級",
+    "word": "environmentalist",
+    "meaning": "環保主義者、環保人士",
+    "example": "The environmentalist spoke about clean water.（環保人士談論乾淨水源。）",
+    "id": "中高級-environmentalist-mo0xo51"
+  },
+  {
+    "level": "中高級",
+    "word": "envisage",
+    "meaning": "想像、設想",
+    "example": "I envisage a better future for the town.（我想像這個城鎮會有更好的未來。）",
+    "id": "中高級-envisage-mybjs6j"
+  },
+  {
+    "level": "中高級",
+    "word": "envoy",
+    "meaning": "外交使節",
+    "example": "The envoy delivered the message.（特使傳達了訊息。）",
+    "id": "中高級-envoy-mbkf27j"
+  },
+  {
+    "level": "中高級",
+    "word": "enzyme",
+    "meaning": "酶、酵素",
+    "example": "An enzyme helps the body digest food.（酵素幫助身體消化食物。）",
+    "id": "中高級-enzyme-mik7xee"
+  },
+  {
+    "level": "中高級",
+    "word": "epic",
+    "meaning": "史詩；史詩的、壯麗的",
+    "example": "The movie tells an epic story.（這部電影講述一個史詩般的故事。）",
+    "id": "中高級-epic-maf4c04"
+  },
+  {
+    "level": "中高級",
+    "word": "epoch",
+    "meaning": "時代、紀元",
+    "example": "The discovery marked a new epoch in science.（這項發現標誌著科學的新時代。）",
+    "id": "中高級-epoch-m1itzp8j"
+  },
+  {
+    "level": "中高級",
+    "word": "equator",
+    "meaning": "赤道",
+    "example": "The equator divides Earth into two halves.（赤道把地球分成兩半。）",
+    "id": "中高級-equator-moub3"
+  },
+  {
+    "level": "中高級",
+    "word": "equilibrium",
+    "meaning": "平衡、均勢",
+    "example": "The system reached equilibrium.（系統達到平衡。）",
+    "id": "中高級-equilibrium-mvjqdda"
+  },
+  {
+    "level": "中高級",
+    "word": "equity",
+    "meaning": "公平、公正",
+    "example": "The company values equity in the workplace.（公司重視職場公平。）",
+    "id": "中高級-equity-m1acps9d"
+  },
+  {
+    "level": "中高級",
+    "word": "erosion",
+    "meaning": "腐蝕、侵蝕",
+    "example": "Soil erosion damaged the farm.（土壤侵蝕損害了農場。）",
+    "id": "中高級-erosion-mpo1wpo"
+  },
+  {
+    "level": "中高級",
+    "word": "erotic",
+    "meaning": "色情的",
+    "example": "The novel contains erotic scenes.（這本小說含有情色場景。）",
+    "id": "中高級-erotic-mjky1d"
+  },
+  {
+    "level": "中高級",
+    "word": "erroneous",
+    "meaning": "錯誤的",
+    "example": "The report was based on erroneous data.（這份報告基於錯誤資料。）",
+    "id": "中高級-erroneous-mm8btb"
+  },
+  {
+    "level": "中高級",
+    "word": "established",
+    "meaning": "已確立的、著名的",
+    "example": "This is an established company.（這是一家有根基的公司。）",
+    "id": "中高級-established-m10a3elq"
+  },
+  {
+    "level": "中高級",
+    "word": "evacuation",
+    "meaning": "撤離、疏散",
+    "example": "The evacuation began before the storm.（撤離在暴風雨前開始。）",
+    "id": "中高級-evacuation-m1ll8d87"
+  },
+  {
+    "level": "中高級",
+    "word": "evaporate",
+    "meaning": "蒸發、消失",
+    "example": "Water will evaporate in the sun.（水在陽光下會蒸發。）",
+    "id": "中高級-evaporate-m10v5d7q"
+  },
+  {
+    "level": "中高級",
+    "word": "evaporation",
+    "meaning": "蒸發、消失",
+    "example": "Evaporation is part of the water cycle.（蒸發是水循環的一部分。）",
+    "id": "中高級-evaporation-m10v5d7q"
+  },
+  {
+    "level": "中高級",
+    "word": "evoke",
+    "meaning": "喚起、引起",
+    "example": "The song evoked memories of home.（這首歌喚起了家的回憶。）",
+    "id": "中高級-evoke-m1wmlfnq"
+  },
+  {
+    "level": "中高級",
+    "word": "exceedingly",
+    "meaning": "極度地",
+    "example": "She was exceedingly kind to us.（她對我們非常友善。）",
+    "id": "中高級-exceedingly-mfwnen"
+  },
+  {
+    "level": "中高級",
+    "word": "exclusion",
+    "meaning": "排除(之事物)",
+    "example": "His exclusion from the team upset him.（他被排除在隊伍外讓他難過。）",
+    "id": "中高級-exclusion-m1y506om"
+  },
+  {
+    "level": "中高級",
+    "word": "exemplify",
+    "meaning": "為…典型、舉例說明",
+    "example": "Her behavior exemplifies courage.（她的行為體現了勇氣。）",
+    "id": "中高級-exemplify-m9vnje0"
+  },
+  {
+    "level": "中高級",
+    "word": "exempt",
+    "meaning": "豁免的、免除的；豁免、免除",
+    "example": "Students under six are exempt from the fee.（六歲以下學生免收費用。）",
+    "id": "中高級-exempt-m3ljsl"
+  },
+  {
+    "level": "中高級",
+    "word": "existing",
+    "meaning": "現行的、現存的",
+    "example": "We need to improve the existing system.（我們需要改善現有系統。）",
+    "id": "中高級-existing-m7mk08v"
+  },
+  {
+    "level": "中高級",
+    "word": "expend",
+    "meaning": "花費、耗費",
+    "example": "The project will expend a lot of money.（這個專案會花費很多錢。）",
+    "id": "中高級-expend-mvqvzdn"
+  },
+  {
+    "level": "中高級",
+    "word": "expenditure",
+    "meaning": "支出、耗費",
+    "example": "Education is a major public expenditure.（教育是主要公共支出。）",
+    "id": "中高級-expenditure-m1f0u7cq"
+  },
+  {
+    "level": "中高級",
+    "word": "experienced",
+    "meaning": "有經驗的",
+    "example": "She is an experienced teacher.（她是一位有經驗的老師。）",
+    "id": "中高級-experienced-mdizewn"
+  },
+  {
+    "level": "中高級",
+    "word": "exposition",
+    "meaning": "闡述；博覽會",
+    "example": "The museum held an exposition of modern art.（博物館舉辦了現代藝術展。）",
+    "id": "中高級-exposition-m9vszuc"
+  },
+  {
+    "level": "中高級",
+    "word": "expulsion",
+    "meaning": "驅逐、排出",
+    "example": "His expulsion from school shocked his parents.（他被學校開除讓父母震驚。）",
+    "id": "中高級-expulsion-m1hblkim"
+  },
+  {
+    "level": "中高級",
+    "word": "externals",
+    "meaning": "外貌、外觀",
+    "example": "Do not judge people only by externals.（不要只憑外表評斷人。）",
+    "id": "中高級-externals-mb3qrlh"
+  },
+  {
+    "level": "中高級",
+    "word": "extinguish",
+    "meaning": "熄滅、使破滅",
+    "example": "The firefighter extinguished the fire.（消防員撲滅了火。）",
+    "id": "中高級-extinguish-m1rhz59s"
+  },
+  {
+    "level": "中高級",
+    "word": "extradite",
+    "meaning": "引渡(逃犯)",
+    "example": "The suspect may be extradited to another country.（嫌疑人可能被引渡到另一個國家。）",
+    "id": "中高級-extradite-mmutfdt"
+  },
+  {
+    "level": "中高級",
+    "word": "extravagant",
+    "meaning": "奢侈浪費的、過度的",
+    "example": "Buying three cars was extravagant.（買三輛車太奢侈了。）",
+    "id": "中高級-extravagant-m1tc1nw8"
+  },
+  {
+    "level": "中高級",
+    "word": "extremist",
+    "meaning": "極端分子(的)",
+    "example": "The extremist group used violence.（那個極端組織使用暴力。）",
+    "id": "中高級-extremist-m4g1i5l"
+  },
+  {
+    "level": "中高級",
+    "word": "fabricate",
+    "meaning": "偽造、杜撰",
+    "example": "Do not fabricate evidence.（不要捏造證據。）",
+    "id": "中高級-fabricate-m1cyyrn6"
+  },
+  {
+    "level": "中高級",
+    "word": "facet",
+    "meaning": "面、方面",
+    "example": "This issue has many facets.（這個議題有許多面向。）",
+    "id": "中高級-facet-mjawmw8"
+  },
+  {
+    "level": "中高級",
+    "word": "fatty",
+    "meaning": "肥胖的、脂肪多的",
+    "example": "This meat is too fatty.（這塊肉太肥。）",
+    "id": "中高級-fatty-m1yp08ww"
+  },
+  {
+    "level": "中高級",
+    "word": "feat",
+    "meaning": "功績、英勇事蹟",
+    "example": "Climbing the mountain was a great feat.（爬上那座山是一項偉大成就。）",
+    "id": "中高級-feat-m1s9oo3w"
+  },
+  {
+    "level": "中高級",
+    "word": "feeder",
+    "meaning": "支流的",
+    "example": "The feeder road connects to the highway.（支線道路連接到高速公路。）",
+    "id": "中高級-feeder-mfcrte"
+  },
+  {
+    "level": "中高級",
+    "word": "feeder",
+    "meaning": "餵食器",
+    "example": "The bird feeder was full of seeds.（餵鳥器裝滿了種子。）",
+    "id": "中高級-feeder-mn6c0u"
+  },
+  {
+    "level": "中高級",
+    "word": "fellowship",
+    "meaning": "交情、合夥關係、團體",
+    "example": "She received a research fellowship.（她獲得研究獎助金。）",
+    "id": "中高級-fellowship-m1wsybbu"
+  },
+  {
+    "level": "中高級",
+    "word": "feminism",
+    "meaning": "女性主義",
+    "example": "Feminism supports equal rights for women.（女性主義支持女性平權。）",
+    "id": "中高級-feminism-mboml7m"
+  },
+  {
+    "level": "中高級",
+    "word": "feminist",
+    "meaning": "女權主義(者的)",
+    "example": "She is a feminist who supports equal rights.（她是一位支持平權的女性主義者。）",
+    "id": "中高級-feminist-m1izdf0n"
+  },
+  {
+    "level": "中高級",
+    "word": "finding",
+    "meaning": "發現、調查結果、研究結果",
+    "example": "The finding surprised the researchers.（這項發現讓研究人員驚訝。）",
+    "id": "中高級-finding-mvrpa9q"
+  },
+  {
+    "level": "中高級",
+    "word": "firefighter",
+    "meaning": "消防員",
+    "example": "The firefighter rescued the child from the fire.（消防員從火中救出孩子。）",
+    "id": "中高級-firefighter-mgrkhj"
+  },
+  {
+    "level": "中高級",
+    "word": "first-class",
+    "meaning": "一流的(地)、頭等的(地)",
+    "example": "We bought first-class train tickets.（我們買了一等車廂的火車票。）",
+    "id": "中高級-first-class-m17psakc"
+  },
+  {
+    "level": "中高級",
+    "word": "fiscal",
+    "meaning": "財政的、會計的",
+    "example": "The government announced a new fiscal policy.（政府宣布了一項新的財政政策。）",
+    "id": "中高級-fiscal-m13v1j8k"
+  },
+  {
+    "level": "中高級",
+    "word": "fitting",
+    "meaning": "試衣服",
+    "example": "The fitting room is next to the counter.（試衣間在櫃台旁邊。）",
+    "id": "中高級-fitting-mkxjao"
+  },
+  {
+    "level": "中高級",
+    "word": "fitting",
+    "meaning": "適合的、恰當的",
+    "example": "The pipe needs a new fitting.（這根水管需要一個新的接頭。）",
+    "id": "中高級-fitting-mey8fr6"
+  },
+  {
+    "level": "中高級",
+    "word": "fixed",
+    "meaning": "固定的、不變的",
+    "example": "The price is fixed.（價格是固定的。）",
+    "id": "中高級-fixed-m1txzle2"
+  },
+  {
+    "level": "中高級",
+    "word": "fixture",
+    "meaning": "(房屋內)固定裝置或裝潢",
+    "example": "The bathroom has new light fixtures.（浴室有新的燈具。）",
+    "id": "中高級-fixture-mqwmkyc"
+  },
+  {
+    "level": "中高級",
+    "word": "flank",
+    "meaning": "側腹、側面；位於側面",
+    "example": "The soldiers protected the left flank.（士兵保護左翼。）",
+    "id": "中高級-flank-miqhg5q"
+  },
+  {
+    "level": "中高級",
+    "word": "flop",
+    "meaning": "重重落下、失敗",
+    "example": "The movie was a flop.（那部電影失敗了。）",
+    "id": "中高級-flop-m1xyklkp"
+  },
+  {
+    "level": "中高級",
+    "word": "flounder",
+    "meaning": "比目魚",
+    "example": "The team began to flounder after losing its captain.（失去隊長後，隊伍開始陷入困境。）",
+    "id": "中高級-flounder-mgdnnk"
+  },
+  {
+    "level": "中高級",
+    "word": "flounder",
+    "meaning": "掙扎、陷入困境",
+    "example": "A flounder lay flat on the sea floor.（一條比目魚平躺在海底。）",
+    "id": "中高級-flounder-mmdgazx"
+  },
+  {
+    "level": "中高級",
+    "word": "fluctuate",
+    "meaning": "波動、變動",
+    "example": "Prices fluctuate during the year.（價格一年中會波動。）",
+    "id": "中高級-fluctuate-ma7e3p5"
+  },
+  {
+    "level": "中高級",
+    "word": "follow-up",
+    "meaning": "後續(行動)",
+    "example": "The doctor scheduled a follow-up visit.（醫生安排了追蹤回診。）",
+    "id": "中高級-follow-up-m1aniqg"
+  },
+  {
+    "level": "中高級",
+    "word": "footage",
+    "meaning": "一段影片",
+    "example": "The news showed footage of the storm.（新聞播放了暴風雨的影片。）",
+    "id": "中高級-footage-maaeusr"
+  },
+  {
+    "level": "中高級",
+    "word": "footstep",
+    "meaning": "腳步(聲)",
+    "example": "I heard footsteps outside the door.（我聽到門外有腳步聲。）",
+    "id": "中高級-footstep-mmhn899"
+  },
+  {
+    "level": "中高級",
+    "word": "forbidden",
+    "meaning": "禁止的",
+    "example": "Smoking is forbidden here.（這裡禁止吸菸。）",
+    "id": "中高級-forbidden-miblpf"
+  },
+  {
+    "level": "中高級",
+    "word": "foremost",
+    "meaning": "最重要的、最佳的",
+    "example": "Safety is our foremost concern.（安全是我們最重要的考量。）",
+    "id": "中高級-foremost-m17za740"
+  },
+  {
+    "level": "中高級",
+    "word": "forge",
+    "meaning": "熔鐵廠",
+    "example": "The blacksmith forged a sword.（鐵匠打造了一把劍。）",
+    "id": "中高級-forge-mhcmhr"
+  },
+  {
+    "level": "中高級",
+    "word": "forge",
+    "meaning": "鍛造、偽造、創造",
+    "example": "Do not forge someone’s signature.（不要偽造別人的簽名。）",
+    "id": "中高級-forge-m1vcj7xp"
+  },
+  {
+    "level": "中高級",
+    "word": "fortnight",
+    "meaning": "兩星期",
+    "example": "We will meet again in a fortnight.（我們兩週後再見。）",
+    "id": "中高級-fortnight-mcf7k9"
+  },
+  {
+    "level": "中高級",
+    "word": "forum",
+    "meaning": "論壇、討論會",
+    "example": "The students discussed the issue in an online forum.（學生們在網路論壇討論這個議題。）",
+    "id": "中高級-forum-m1rida17"
+  },
+  {
+    "level": "中高級",
+    "word": "franc",
+    "meaning": "法郎",
+    "example": "The Swiss franc is used in Switzerland.（瑞士法郎在瑞士使用。）",
+    "id": "中高級-franc-mjb15"
+  },
+  {
+    "level": "中高級",
+    "word": "franchise",
+    "meaning": "加盟權、加盟商店；給予加盟權",
+    "example": "He opened a restaurant franchise.（他開了一家連鎖加盟餐廳。）",
+    "id": "中高級-franchise-m13uvmdw"
+  },
+  {
+    "level": "中高級",
+    "word": "fringe",
+    "meaning": "邊緣；穗狀物",
+    "example": "Her scarf had a long fringe.（她的圍巾有長流蘇。）",
+    "id": "中高級-fringe-m2j4n6m"
+  },
+  {
+    "level": "中高級",
+    "word": "fringe",
+    "meaning": "邊緣有著",
+    "example": "The idea is on the fringe of science.（這個想法在科學的邊緣領域。）",
+    "id": "中高級-fringe-mir8qfb"
+  },
+  {
+    "level": "中高級",
+    "word": "front-page",
+    "meaning": "頭版的、重要的",
+    "example": "The scandal became front-page news.（那件醜聞成了頭版新聞。）",
+    "id": "中高級-front-page-m18p8l2w"
+  },
+  {
+    "level": "中高級",
+    "word": "fruitful",
+    "meaning": "有成果的、富饒多產的",
+    "example": "The meeting was fruitful.（這場會議很有成果。）",
+    "id": "中高級-fruitful-maav0dg"
+  },
+  {
+    "level": "中高級",
+    "word": "fumes",
+    "meaning": "(有害的)煙、廢氣",
+    "example": "Car fumes filled the garage.（汽車廢氣充滿車庫。）",
+    "id": "中高級-fumes-m1dhd4yo"
+  },
+  {
+    "level": "中高級",
+    "word": "fundamentalism",
+    "meaning": "基要主義、基本教義派",
+    "example": "The class discussed religious fundamentalism.（班上討論了宗教基本教義派。）",
+    "id": "中高級-fundamentalism-myttntc"
+  },
+  {
+    "level": "中高級",
+    "word": "fundamentalist",
+    "meaning": "基要主義者、基本教義派人士；基要主義的、基本教義派的",
+    "example": "He is a political fundamentalist.（他是一位政治基本教義派人士。）",
+    "id": "中高級-fundamentalist-m1akr55l"
+  },
+  {
+    "level": "中高級",
+    "word": "funding",
+    "meaning": "基金、經費",
+    "example": "The project needs more funding.（這個專案需要更多資金。）",
+    "id": "中高級-funding-m7foseq"
+  },
+  {
+    "level": "中高級",
+    "word": "furnace",
+    "meaning": "火爐、暖氣爐",
+    "example": "The furnace keeps the house warm.（暖爐讓房子保持溫暖。）",
+    "id": "中高級-furnace-meg9ohz"
+  },
+  {
+    "level": "中高級",
+    "word": "fusion",
+    "meaning": "融合",
+    "example": "The restaurant serves fusion cuisine.（這家餐廳供應融合料理。）",
+    "id": "中高級-fusion-mnimz"
+  },
+  {
+    "level": "中高級",
+    "word": "gaseous",
+    "meaning": "氣體(狀態)的",
+    "example": "Steam is water in a gaseous form.（蒸汽是水的氣態形式。）",
+    "id": "中高級-gaseous-m1jl5qm5"
+  },
+  {
+    "level": "中高級",
+    "word": "gauge",
+    "meaning": "測量、判斷；測量儀器",
+    "example": "This gauge measures pressure.（這個量表測量壓力。）",
+    "id": "中高級-gauge-m1m9h99x"
+  },
+  {
+    "level": "中高級",
+    "word": "gel",
+    "meaning": "膠化、凝膠",
+    "example": "She put gel in her hair.（她在頭髮上抹了髮膠。）",
+    "id": "中高級-gel-mkatipa"
+  },
+  {
+    "level": "中高級",
+    "word": "genre",
+    "meaning": "(文藝作品)類型",
+    "example": "Science fiction is my favorite genre.（科幻是我最喜歡的類型。）",
+    "id": "中高級-genre-m1sixctv"
+  },
+  {
+    "level": "中高級",
+    "word": "geology",
+    "meaning": "地質學",
+    "example": "She studies geology at university.（她在大學讀地質學。）",
+    "id": "中高級-geology-mdg7i6"
+  },
+  {
+    "level": "中高級",
+    "word": "ghetto",
+    "meaning": "貧民區",
+    "example": "The family lived in a poor ghetto.（那個家庭住在貧困的聚居區。）",
+    "id": "中高級-ghetto-ml4hti"
+  },
+  {
+    "level": "中高級",
+    "word": "gilt",
+    "meaning": "鍍金的；鍍金",
+    "example": "The frame had a gilt edge.（框架有鍍金邊。）",
+    "id": "中高級-gilt-m17d3z4v"
+  },
+  {
+    "level": "中高級",
+    "word": "given",
+    "meaning": "規定的、特定的",
+    "example": "Given his age, he did very well.（考慮到他的年紀，他表現得很好。）",
+    "id": "中高級-given-m1crjtbv"
+  },
+  {
+    "level": "中高級",
+    "word": "given",
+    "meaning": "考慮到、鑒於",
+    "example": "The teacher gave us a given number to use.（老師給了我們一個指定數字來使用。）",
+    "id": "中高級-given-m1vuib9i"
+  },
+  {
+    "level": "中高級",
+    "word": "glamor",
+    "meaning": "魅力",
+    "example": "The actress had old Hollywood glamor.（那位女演員有老派好萊塢魅力。）",
+    "id": "中高級-glamor-mqv3q"
+  },
+  {
+    "level": "中高級",
+    "word": "glamorous",
+    "meaning": "富有魅力的、迷人的",
+    "example": "She wore a glamorous dress.（她穿了一件迷人的禮服。）",
+    "id": "中高級-glamorous-m1w7p1u9"
+  },
+  {
+    "level": "中高級",
+    "word": "gland",
+    "meaning": "腺",
+    "example": "The thyroid is an important gland.（甲狀腺是重要的腺體。）",
+    "id": "中高級-gland-mpkq"
+  },
+  {
+    "level": "中高級",
+    "word": "go-ahead",
+    "meaning": "許可",
+    "example": "The manager gave us the go-ahead.（經理准許我們開始。）",
+    "id": "中高級-go-ahead-mnyse"
+  },
+  {
+    "level": "中高級",
+    "word": "go-ahead",
+    "meaning": "有進取心的",
+    "example": "This is a go-ahead company.（這是一家積極進取的公司。）",
+    "id": "中高級-go-ahead-m1u92f7y"
+  },
+  {
+    "level": "中高級",
+    "word": "goalkeeper",
+    "meaning": "守門員",
+    "example": "The goalkeeper stopped the ball.（守門員擋下了球。）",
+    "id": "中高級-goalkeeper-me4jc9"
+  },
+  {
+    "level": "中高級",
+    "word": "going",
+    "meaning": "離去、進展；進行中的",
+    "example": "How is your project going?（你的專案進展如何？）",
+    "id": "中高級-going-m10d5rkx"
+  },
+  {
+    "level": "中高級",
+    "word": "goodwill",
+    "meaning": "親善、友好；商譽",
+    "example": "The visit created goodwill between the two schools.（這次拜訪在兩校之間建立了善意。）",
+    "id": "中高級-goodwill-m1sihgs9"
+  },
+  {
+    "level": "中高級",
+    "word": "gore",
+    "meaning": "(動物)用角牴破；傷口凝血",
+    "example": "The movie showed too much gore.（那部電影有太多血腥畫面。）",
+    "id": "中高級-gore-m14mhgpf"
+  },
+  {
+    "level": "中高級",
+    "word": "governmental",
+    "meaning": "政府的",
+    "example": "The report discussed governmental spending.（報告討論了政府支出。）",
+    "id": "中高級-governmental-mfam07"
+  },
+  {
+    "level": "中高級",
+    "word": "grate",
+    "meaning": "金屬爐架",
+    "example": "Grate some cheese on the pasta.（在義大利麵上刨一些起司。）",
+    "id": "中高級-grate-mis6sgx"
+  },
+  {
+    "level": "中高級",
+    "word": "grate",
+    "meaning": "磨碎、摩擦；使煩躁",
+    "example": "The metal grate covered the drain.（金屬格柵蓋住排水口。）",
+    "id": "中高級-grate-mon5tkk"
+  },
+  {
+    "level": "中高級",
+    "word": "groove",
+    "meaning": "溝、槽",
+    "example": "The needle followed the groove on the record.（唱針沿著唱片凹槽移動。）",
+    "id": "中高級-groove-mgg0ah"
+  },
+  {
+    "level": "中高級",
+    "word": "grove",
+    "meaning": "小樹林、果園",
+    "example": "We walked through a quiet grove of trees.（我們走過一片安靜的小樹林。）",
+    "id": "中高級-grove-m8x7sui"
+  },
+  {
+    "level": "中高級",
+    "word": "guaranteed",
+    "meaning": "必定的、保證的",
+    "example": "This product is guaranteed for one year.（這項產品保固一年。）",
+    "id": "中高級-guaranteed-m50wrd2"
+  },
+  {
+    "level": "中高級",
+    "word": "guild",
+    "meaning": "同業公會、協會",
+    "example": "The guild protected skilled workers.（行會保護熟練工人。）",
+    "id": "中高級-guild-m166npyw"
+  },
+  {
+    "level": "中高級",
+    "word": "guitarist",
+    "meaning": "吉他手",
+    "example": "The guitarist played a beautiful solo.（吉他手彈了一段美麗的獨奏。）",
+    "id": "中高級-guitarist-mcp2bi"
+  },
+  {
+    "level": "中高級",
+    "word": "gunman",
+    "meaning": "持槍歹徒",
+    "example": "The gunman was arrested by police.（持槍男子被警方逮捕。）",
+    "id": "中高級-gunman-mcxk3dx"
+  },
+  {
+    "level": "中高級",
+    "word": "half-time",
+    "meaning": "中場休息",
+    "example": "The score was tied at half-time.（中場時比分平手。）",
+    "id": "中高級-half-time-ma89v1h"
+  },
+  {
+    "level": "中高級",
+    "word": "halve",
+    "meaning": "對分、減半",
+    "example": "Cut the apple in half.（把蘋果切成兩半。）",
+    "id": "中高級-halve-mfbfifr"
+  },
+  {
+    "level": "中高級",
+    "word": "hamper",
+    "meaning": "有蓋的籃子",
+    "example": "Bad weather may hamper our trip.（壞天氣可能妨礙我們的旅行。）",
+    "id": "中高級-hamper-m1syi4sv"
+  },
+  {
+    "level": "中高級",
+    "word": "hamper",
+    "meaning": "妨礙、牽制",
+    "example": "She carried a picnic hamper.（她提著一個野餐籃。）",
+    "id": "中高級-hamper-mavtj49"
+  },
+  {
+    "level": "中高級",
+    "word": "handbook",
+    "meaning": "手冊、指南",
+    "example": "Read the employee handbook carefully.（仔細閱讀員工手冊。）",
+    "id": "中高級-handbook-m13ntofm"
+  },
+  {
+    "level": "中高級",
+    "word": "handout",
+    "meaning": "講義、印刷品；施捨物、救濟款",
+    "example": "The teacher gave us a handout.（老師給了我們講義。）",
+    "id": "中高級-handout-m1fvnba1"
+  },
+  {
+    "level": "中高級",
+    "word": "hardline",
+    "meaning": "強硬的、不妥協的",
+    "example": "The group took a hardline position.（那個團體採取強硬立場。）",
+    "id": "中高級-hardline-ma2vfzu"
+  },
+  {
+    "level": "中高級",
+    "word": "hardliner",
+    "meaning": "強硬派",
+    "example": "The hardliner refused to compromise.（強硬派人士拒絕妥協。）",
+    "id": "中高級-hardliner-mej5c9"
+  },
+  {
+    "level": "中高級",
+    "word": "hardwood",
+    "meaning": "硬木、闊葉木",
+    "example": "The table is made of hardwood.（這張桌子是硬木製成的。）",
+    "id": "中高級-hardwood-miqzy78"
+  },
+  {
+    "level": "中高級",
+    "word": "harmless",
+    "meaning": "無害的、無惡意的",
+    "example": "The small spider is harmless.（這隻小蜘蛛無害。）",
+    "id": "中高級-harmless-m1drahus"
+  },
+  {
+    "level": "中高級",
+    "word": "haven",
+    "meaning": "避風港、避難所",
+    "example": "The island became a safe haven for birds.（這座島成了鳥類的安全棲地。）",
+    "id": "中高級-haven-msqaae9"
+  },
+  {
+    "level": "中高級",
+    "word": "hazardous",
+    "meaning": "危險的",
+    "example": "This chemical is hazardous.（這種化學物質有危險性。）",
+    "id": "中高級-hazardous-mcy9fv"
+  },
+  {
+    "level": "中高級",
+    "word": "heading",
+    "meaning": "標題",
+    "example": "Write the title as the heading.（把標題寫成標頭。）",
+    "id": "中高級-heading-mivrn"
+  },
+  {
+    "level": "中高級",
+    "word": "head-on",
+    "meaning": "迎頭、正面針對地；迎面的",
+    "example": "The two cars had a head-on crash.（兩輛車正面相撞。）",
+    "id": "中高級-head-on-m39yses"
+  },
+  {
+    "level": "中高級",
+    "word": "hearing",
+    "meaning": "聽(力)、聽證會",
+    "example": "His hearing is getting worse.（他的聽力正在變差。）",
+    "id": "中高級-hearing-m19ava7j"
+  },
+  {
+    "level": "中高級",
+    "word": "heated",
+    "meaning": "熱的、激昂的",
+    "example": "They had a heated argument.（他們激烈爭吵。）",
+    "id": "中高級-heated-m186v4gk"
+  },
+  {
+    "level": "中高級",
+    "word": "heating",
+    "meaning": "供暖系統、暖氣設備",
+    "example": "The heating system is broken.（暖氣系統壞了。）",
+    "id": "中高級-heating-m1h2q3t5"
+  },
+  {
+    "level": "中高級",
+    "word": "heave",
+    "meaning": "(用力)舉起、起伏",
+    "example": "He heaved the heavy box onto the truck.（他用力把重箱子搬上卡車。）",
+    "id": "中高級-heave-m1iq4ddp"
+  },
+  {
+    "level": "中高級",
+    "word": "heavyweight",
+    "meaning": "重量級(選手、拳擊手)、重要的人",
+    "example": "The heavyweight boxer won the match.（那位重量級拳擊手贏了比賽。）",
+    "id": "中高級-heavyweight-m1keteoo"
+  },
+  {
+    "level": "中高級",
+    "word": "helpless",
+    "meaning": "無助的、無奈的、徒勞的",
+    "example": "The lost child felt helpless.（迷路的孩子感到無助。）",
+    "id": "中高級-helpless-m1wld73j"
+  },
+  {
+    "level": "中高級",
+    "word": "henceforth",
+    "meaning": "從今以後",
+    "example": "Henceforth, phones are not allowed in class.（從今以後，課堂上不准使用手機。）",
+    "id": "中高級-henceforth-mce3777"
+  },
+  {
+    "level": "中高級",
+    "word": "hierarchy",
+    "meaning": "階級制度",
+    "example": "The company has a clear hierarchy.（公司有清楚的階層制度。）",
+    "id": "中高級-hierarchy-mjic67w"
+  },
+  {
+    "level": "中高級",
+    "word": "hillside",
+    "meaning": "小山坡",
+    "example": "Flowers covered the hillside.（山坡上開滿了花。）",
+    "id": "中高級-hillside-mdxmjj"
+  },
+  {
+    "level": "中高級",
+    "word": "hinder",
+    "meaning": "阻礙",
+    "example": "Heavy rain may hinder traffic.（大雨可能妨礙交通。）",
+    "id": "中高級-hinder-mq7um"
+  },
+  {
+    "level": "中高級",
+    "word": "hinge",
+    "meaning": "安裝鉸鏈、取決於；鉸鏈",
+    "example": "The door hinge needs oil.（門鉸鏈需要上油。）",
+    "id": "中高級-hinge-mx6oxxs"
+  },
+  {
+    "level": "中高級",
+    "word": "holding",
+    "meaning": "持有股份、私有財產",
+    "example": "The company sold its land holdings.（公司出售了土地持有資產。）",
+    "id": "中高級-holding-mni263q"
+  },
+  {
+    "level": "中高級",
+    "word": "homeless",
+    "meaning": "無家的；無家可歸者",
+    "example": "The program helps homeless people.（這個計畫幫助無家可歸的人。）",
+    "id": "中高級-homeless-mn9zkyj"
+  },
+  {
+    "level": "中高級",
+    "word": "homogeneous",
+    "meaning": "同質的、同種的",
+    "example": "The mixture must be homogeneous.（這個混合物必須均勻。）",
+    "id": "中高級-homogeneous-m6zw1uv"
+  },
+  {
+    "level": "中高級",
+    "word": "hopeless",
+    "meaning": "無望的、絕望的",
+    "example": "The situation seemed hopeless.（情況似乎沒有希望。）",
+    "id": "中高級-hopeless-m8pucn"
+  },
+  {
+    "level": "中高級",
+    "word": "horsepower",
+    "meaning": "馬力",
+    "example": "This engine has 200 horsepower.（這台引擎有兩百匹馬力。）",
+    "id": "中高級-horsepower-mqlbj"
+  },
+  {
+    "level": "中高級",
+    "word": "hull",
+    "meaning": "船身、(果實的)殼",
+    "example": "The ship’s hull was damaged.（船身受損了。）",
+    "id": "中高級-hull-m14fnur8"
+  },
+  {
+    "level": "中高級",
+    "word": "hull",
+    "meaning": "除去(水果、蔬菜等的)皮(或莖、葉)",
+    "example": "The farmer removed the corn hull.（農夫去除了玉米外殼。）",
+    "id": "中高級-hull-m1ofygi9"
+  },
+  {
+    "level": "中高級",
+    "word": "humiliation",
+    "meaning": "恥辱",
+    "example": "He felt deep humiliation after the mistake.（犯錯後他感到深深羞辱。）",
+    "id": "中高級-humiliation-mh6ng"
+  },
+  {
+    "level": "中高級",
+    "word": "hybrid",
+    "meaning": "(動植物)雜種、混合物；雜種的、混合的",
+    "example": "This car uses a hybrid engine.（這輛車使用油電混合引擎。）",
+    "id": "中高級-hybrid-m10w6uk2"
+  },
+  {
+    "level": "中高級",
+    "word": "hypothesis",
+    "meaning": "假設",
+    "example": "The scientist tested a new hypothesis.（科學家測試了一個新假設。）",
+    "id": "中高級-hypothesis-meeva"
+  },
+  {
+    "level": "中高級",
+    "word": "ideological",
+    "meaning": "意識形態的",
+    "example": "The debate was deeply ideological.（這場辯論帶有強烈意識形態色彩。）",
+    "id": "中高級-ideological-m16bhaya"
+  },
+  {
+    "level": "中高級",
+    "word": "ideology",
+    "meaning": "思想體系、意識形態",
+    "example": "His ideology shaped his decisions.（他的意識形態影響了他的決定。）",
+    "id": "中高級-ideology-m1s50zrq"
+  },
+  {
+    "level": "中高級",
+    "word": "ignite",
+    "meaning": "點燃、激起",
+    "example": "A small spark can ignite dry leaves.（小火花能點燃乾葉。）",
+    "id": "中高級-ignite-m1vh8rzn"
+  },
+  {
+    "level": "中高級",
+    "word": "immerse",
+    "meaning": "使浸沒、沉浸在",
+    "example": "Immerse the cloth in warm water.（把布浸入溫水中。）",
+    "id": "中高級-immerse-mbcsek1"
+  },
+  {
+    "level": "中高級",
+    "word": "imminent",
+    "meaning": "即將發生的、逼近的",
+    "example": "Danger seemed imminent.（危險似乎迫在眉睫。）",
+    "id": "中高級-imminent-m1j6a81n"
+  },
+  {
+    "level": "中高級",
+    "word": "impair",
+    "meaning": "損害、削弱",
+    "example": "The accident impaired his vision.（事故損害了他的視力。）",
+    "id": "中高級-impair-m1btb46a"
+  },
+  {
+    "level": "中高級",
+    "word": "impart",
+    "meaning": "給予、傳授、透露",
+    "example": "Good teachers impart knowledge.（好老師傳授知識。）",
+    "id": "中高級-impart-m90ye7k"
+  },
+  {
+    "level": "中高級",
+    "word": "impetus",
+    "meaning": "推動力、刺激",
+    "example": "The speech gave new impetus to the movement.（那場演講給運動帶來新的推動力。）",
+    "id": "中高級-impetus-m1idsfcp"
+  },
+  {
+    "level": "中高級",
+    "word": "impulsive",
+    "meaning": "衝動的、易衝動的",
+    "example": "He made an impulsive decision.（他做了一個衝動的決定。）",
+    "id": "中高級-impulsive-mdn8rgu"
+  },
+  {
+    "level": "中高級",
+    "word": "inability",
+    "meaning": "無能(力)",
+    "example": "His inability to focus hurt his grades.（他無法專心影響了成績。）",
+    "id": "中高級-inability-mwfcty2"
+  },
+  {
+    "level": "中高級",
+    "word": "inaugurate",
+    "meaning": "為…舉行就職典禮、開展",
+    "example": "The mayor will inaugurate the new library.（市長將為新圖書館揭幕。）",
+    "id": "中高級-inaugurate-m1r6u4io"
+  },
+  {
+    "level": "中高級",
+    "word": "incidence",
+    "meaning": "發生率、影響範圍",
+    "example": "The incidence of flu rises in winter.（流感發生率在冬天上升。）",
+    "id": "中高級-incidence-m1dj96b8"
+  },
+  {
+    "level": "中高級",
+    "word": "incidentally",
+    "meaning": "順便提一句、偶然地",
+    "example": "Incidentally, I saw your brother yesterday.（順便一提，我昨天看到你哥哥。）",
+    "id": "中高級-incidentally-m1tnk42z"
+  },
+  {
+    "level": "中高級",
+    "word": "incorporate",
+    "meaning": "包含、使併入",
+    "example": "We should incorporate feedback into the plan.（我們應該把回饋納入計畫。）",
+    "id": "中高級-incorporate-mrpklmc"
+  },
+  {
+    "level": "中高級",
+    "word": "incumbent",
+    "meaning": "在職者；現任的",
+    "example": "The incumbent mayor is running again.（現任市長再次參選。）",
+    "id": "中高級-incumbent-mgfii2q"
+  },
+  {
+    "level": "中高級",
+    "word": "incur",
+    "meaning": "招致、引起",
+    "example": "You may incur extra costs.（你可能會產生額外費用。）",
+    "id": "中高級-incur-m1bytkmi"
+  },
+  {
+    "level": "中高級",
+    "word": "indefinite",
+    "meaning": "未確定的、無限期的",
+    "example": "The meeting was postponed for an indefinite period.（會議被無限期延後。）",
+    "id": "中高級-indefinite-m19bfo9n"
+  },
+  {
+    "level": "中高級",
+    "word": "indicative",
+    "meaning": "標示的、表明的；陳述語氣",
+    "example": "Dark clouds are indicative of rain.（烏雲表示可能下雨。）",
+    "id": "中高級-indicative-mq5w6u5"
+  },
+  {
+    "level": "中高級",
+    "word": "indicator",
+    "meaning": "指示物、指標",
+    "example": "This light is a battery indicator.（這個燈是電池指示器。）",
+    "id": "中高級-indicator-m1p9ap19"
+  },
+  {
+    "level": "中高級",
+    "word": "indictment",
+    "meaning": "控告、刑事起訴書、(社會或制度)腐敗",
+    "example": "The indictment accused him of fraud.（起訴書指控他詐欺。）",
+    "id": "中高級-indictment-m1tjfveh"
+  },
+  {
+    "level": "中高級",
+    "word": "indigenous",
+    "meaning": "本土的、土生土長的",
+    "example": "Taiwan has many indigenous cultures.（台灣有許多原住民族文化。）",
+    "id": "中高級-indigenous-mvig5a4"
+  },
+  {
+    "level": "中高級",
+    "word": "inertia",
+    "meaning": "缺乏活力、惰性",
+    "example": "Inertia keeps the object moving.（慣性讓物體持續移動。）",
+    "id": "中高級-inertia-m1ygdhqb"
+  },
+  {
+    "level": "中高級",
+    "word": "infantry",
+    "meaning": "步兵",
+    "example": "The infantry moved across the field.（步兵穿過田野。）",
+    "id": "中高級-infantry-mipps"
+  },
+  {
+    "level": "中高級",
+    "word": "inflict",
+    "meaning": "使遭受(打擊或損傷)、強加",
+    "example": "Do not inflict pain on animals.（不要傷害動物。）",
+    "id": "中高級-inflict-mqskr0r"
+  },
+  {
+    "level": "中高級",
+    "word": "infrastructure",
+    "meaning": "基礎建設(如公路、鐵路等)",
+    "example": "Good infrastructure supports a city.（良好的基礎建設支撐城市。）",
+    "id": "中高級-infrastructure-mfysf5j"
+  },
+  {
+    "level": "中高級",
+    "word": "inhibit",
+    "meaning": "禁止、約束",
+    "example": "Fear can inhibit learning.（恐懼會抑制學習。）",
+    "id": "中高級-inhibit-m1qnc4jf"
+  },
+  {
+    "level": "中高級",
+    "word": "inhibited",
+    "meaning": "約束的、拘謹的",
+    "example": "He felt inhibited in front of strangers.（他在陌生人面前感到拘束。）",
+    "id": "中高級-inhibited-mi3m88b"
+  },
+  {
+    "level": "中高級",
+    "word": "inhibition",
+    "meaning": "抑制、禁止",
+    "example": "Inhibition kept him from speaking.（拘束讓他不敢說話。）",
+    "id": "中高級-inhibition-m14th23h"
+  },
+  {
+    "level": "中高級",
+    "word": "inlet",
+    "meaning": "水灣",
+    "example": "The boat entered a quiet inlet.（小船進入安靜的小海灣。）",
+    "id": "中高級-inlet-mj0rz"
+  },
+  {
+    "level": "中高級",
+    "word": "inmate",
+    "meaning": "(監獄中的)囚犯",
+    "example": "The inmate studied in prison.（那名囚犯在監獄中讀書。）",
+    "id": "中高級-inmate-mx664im"
+  },
+  {
+    "level": "中高級",
+    "word": "inning",
+    "meaning": "(棒球)局、回合",
+    "example": "The team scored in the first inning.（球隊在第一局得分。）",
+    "id": "中高級-inning-ml6g1zv"
+  },
+  {
+    "level": "中高級",
+    "word": "insane",
+    "meaning": "瘋狂的、精神失常的",
+    "example": "His plan sounded insane.（他的計畫聽起來很瘋狂。）",
+    "id": "中高級-insane-mm1k009"
+  },
+  {
+    "level": "中高級",
+    "word": "insecticide",
+    "meaning": "殺蟲劑",
+    "example": "The farmer used insecticide on the plants.（農夫在植物上使用殺蟲劑。）",
+    "id": "中高級-insecticide-mgfm6x"
+  },
+  {
+    "level": "中高級",
+    "word": "insecure",
+    "meaning": "缺乏信心的、不安全的",
+    "example": "She felt insecure about her English.（她對自己的英文沒信心。）",
+    "id": "中高級-insecure-m1u3ntsc"
+  },
+  {
+    "level": "中高級",
+    "word": "insider",
+    "meaning": "知內情者、內部的人",
+    "example": "An insider gave the reporter information.（內部人士給了記者資訊。）",
+    "id": "中高級-insider-m1jcnzme"
+  },
+  {
+    "level": "中高級",
+    "word": "insistent",
+    "meaning": "堅持的、持續不斷的",
+    "example": "The child was insistent about going home.（那個孩子堅持要回家。）",
+    "id": "中高級-insistent-m1rsshkm"
+  },
+  {
+    "level": "中高級",
+    "word": "instability",
+    "meaning": "(形勢)不穩定",
+    "example": "Political instability hurt the economy.（政治不穩傷害了經濟。）",
+    "id": "中高級-instability-m16emzb1"
+  },
+  {
+    "level": "中高級",
+    "word": "instantaneous",
+    "meaning": "立即的、瞬間的",
+    "example": "The response was almost instantaneous.（反應幾乎是即時的。）",
+    "id": "中高級-instantaneous-m1cka1ug"
+  },
+  {
+    "level": "中高級",
+    "word": "instinctive",
+    "meaning": "本能的、直覺的、天生的",
+    "example": "Her instinctive reaction was to run.（她的本能反應是逃跑。）",
+    "id": "中高級-instinctive-m12z5rr1"
+  },
+  {
+    "level": "中高級",
+    "word": "institutional",
+    "meaning": "機構的",
+    "example": "The school faced institutional problems.（學校面臨制度性問題。）",
+    "id": "中高級-institutional-mg3jco"
+  },
+  {
+    "level": "中高級",
+    "word": "instrumental",
+    "meaning": "起重要作用的、用樂器演奏的",
+    "example": "His help was instrumental to our success.（他的幫助對我們成功很關鍵。）",
+    "id": "中高級-instrumental-m1j6op67"
+  },
+  {
+    "level": "中高級",
+    "word": "insulate",
+    "meaning": "使隔熱(音)、隔絕",
+    "example": "Thick walls insulate the house from noise.（厚牆隔絕房子的噪音。）",
+    "id": "中高級-insulate-mzm5w4g"
+  },
+  {
+    "level": "中高級",
+    "word": "insurer",
+    "meaning": "承保人、保險公司",
+    "example": "The insurer paid for the damage.（保險公司支付了損失。）",
+    "id": "中高級-insurer-m15fozy6"
+  },
+  {
+    "level": "中高級",
+    "word": "intake",
+    "meaning": "(食物、飲料的)攝取量",
+    "example": "Reduce your sugar intake.（減少糖分攝取。）",
+    "id": "中高級-intake-md8t7az"
+  },
+  {
+    "level": "中高級",
+    "word": "integral",
+    "meaning": "必需的、完整的",
+    "example": "Trust is an integral part of friendship.（信任是友誼不可或缺的一部分。）",
+    "id": "中高級-integral-mul7hms"
+  },
+  {
+    "level": "中高級",
+    "word": "intelligible",
+    "meaning": "易懂的、容易理解的",
+    "example": "His explanation was intelligible.（他的解釋可以理解。）",
+    "id": "中高級-intelligible-m1pbk5c1"
+  },
+  {
+    "level": "中高級",
+    "word": "inter",
+    "meaning": "埋葬(遺體)",
+    "example": "They will inter the soldier with honor.（他們將以榮譽安葬那名士兵。）",
+    "id": "中高級-inter-m7v6drc"
+  },
+  {
+    "level": "中高級",
+    "word": "intercourse",
+    "meaning": "性交、(人、國家間的)往來",
+    "example": "The novel describes social intercourse in the city.（小說描述城市中的社交往來。）",
+    "id": "中高級-intercourse-m1m5pxmw"
+  },
+  {
+    "level": "中高級",
+    "word": "interim",
+    "meaning": "暫時的、間歇的",
+    "example": "The interim manager will lead the team.（臨時經理將帶領團隊。）",
+    "id": "中高級-interim-mcwgda4"
+  },
+  {
+    "level": "中高級",
+    "word": "interim",
+    "meaning": "過渡期間",
+    "example": "This is only an interim solution.（這只是暫時解決方案。）",
+    "id": "中高級-interim-minvfvr"
+  },
+  {
+    "level": "中高級",
+    "word": "intermittent",
+    "meaning": "間歇的",
+    "example": "There was intermittent rain all day.（整天斷斷續續地下雨。）",
+    "id": "中高級-intermittent-mmflkg"
+  },
+  {
+    "level": "中高級",
+    "word": "intricate",
+    "meaning": "錯綜複雜的",
+    "example": "The design is intricate.（這個設計很精細複雜。）",
+    "id": "中高級-intricate-mnnoqgy"
+  },
+  {
+    "level": "中高級",
+    "word": "intrigue",
+    "meaning": "陰謀詭計、引人入勝的複雜情節",
+    "example": "The mystery will intrigue readers.（這個謎團會引起讀者興趣。）",
+    "id": "中高級-intrigue-macnutd"
+  },
+  {
+    "level": "中高級",
+    "word": "intrigue",
+    "meaning": "激起…的興趣",
+    "example": "The story is full of political intrigue.（這個故事充滿政治陰謀。）",
+    "id": "中高級-intrigue-m12p5568"
+  },
+  {
+    "level": "中高級",
+    "word": "intrinsic",
+    "meaning": "固有的、內在的、本身的",
+    "example": "Respect has intrinsic value.（尊重具有內在價值。）",
+    "id": "中高級-intrinsic-mwqjgor"
+  },
+  {
+    "level": "中高級",
+    "word": "intrusion",
+    "meaning": "侵擾、闖入",
+    "example": "The intrusion upset the family.（這次闖入讓那家人不安。）",
+    "id": "中高級-intrusion-m14hd4lj"
+  },
+  {
+    "level": "中高級",
+    "word": "invalid",
+    "meaning": "病弱者",
+    "example": "Your ticket is invalid.（你的票無效。）",
+    "id": "中高級-invalid-mhpw1l"
+  },
+  {
+    "level": "中高級",
+    "word": "invalid",
+    "meaning": "病弱的、無效的",
+    "example": "The illness left him an invalid for months.（那場病讓他臥病數月。）",
+    "id": "中高級-invalid-m1xvzkhg"
+  },
+  {
+    "level": "中高級",
+    "word": "invariable",
+    "meaning": "始終如一的、永無變化的",
+    "example": "Her answer was invariable.（她的回答始終不變。）",
+    "id": "中高級-invariable-m15rookd"
+  },
+  {
+    "level": "中高級",
+    "word": "invert",
+    "meaning": "使顛倒、使倒轉",
+    "example": "Invert the bottle before use.（使用前把瓶子倒過來。）",
+    "id": "中高級-invert-m1ivgep7"
+  },
+  {
+    "level": "中高級",
+    "word": "inviting",
+    "meaning": "誘人的、吸引人的",
+    "example": "The warm room looked inviting.（溫暖的房間看起來很吸引人。）",
+    "id": "中高級-inviting-m1cez2rq"
+  },
+  {
+    "level": "中高級",
+    "word": "irresistible",
+    "meaning": "不可遏止的、誘人的",
+    "example": "The cake was irresistible.（那塊蛋糕讓人無法抗拒。）",
+    "id": "中高級-irresistible-m3xxfhs"
+  },
+  {
+    "level": "中高級",
+    "word": "irrespective",
+    "meaning": "不考慮的、不管的",
+    "example": "Everyone can join irrespective of age.（不論年齡，每個人都可以加入。）",
+    "id": "中高級-irrespective-mys0vtn"
+  },
+  {
+    "level": "中高級",
+    "word": "irrigation",
+    "meaning": "灌溉",
+    "example": "Irrigation helps crops grow.（灌溉幫助作物生長。）",
+    "id": "中高級-irrigation-mjph9"
+  },
+  {
+    "level": "中高級",
+    "word": "jeopardize",
+    "meaning": "危害、損害",
+    "example": "Careless driving can jeopardize lives.（粗心駕駛可能危及生命。）",
+    "id": "中高級-jeopardize-m1hwkz8l"
+  },
+  {
+    "level": "中高級",
+    "word": "jerk",
+    "meaning": "猛地一拉(推、扔、動)",
+    "example": "The car stopped with a sudden jerk.（車子突然一震停下。）",
+    "id": "中高級-jerk-m1vwto2s"
+  },
+  {
+    "level": "中高級",
+    "word": "jerk",
+    "meaning": "笨蛋",
+    "example": "Do not be a jerk to your classmates.（不要對同學很討厭。）",
+    "id": "中高級-jerk-mlorn"
+  },
+  {
+    "level": "中高級",
+    "word": "jersey",
+    "meaning": "球衣、針織衫",
+    "example": "The team wore blue jerseys.（隊伍穿著藍色球衣。）",
+    "id": "中高級-jersey-m14ap7ir"
+  },
+  {
+    "level": "中高級",
+    "word": "jobless",
+    "meaning": "失業的",
+    "example": "Many jobless workers need support.（許多失業工人需要支持。）",
+    "id": "中高級-jobless-mdkvxk"
+  },
+  {
+    "level": "中高級",
+    "word": "jockey",
+    "meaning": "賽馬騎師、（設備、車輛的）操作者",
+    "example": "The jockey rode the horse fast.（騎師快速騎著馬。）",
+    "id": "中高級-jockey-m1fwj42m"
+  },
+  {
+    "level": "中高級",
+    "word": "jockey",
+    "meaning": "運用各種手段謀利",
+    "example": "Companies jockey for position in the market.（公司在市場中爭取有利位置。）",
+    "id": "中高級-jockey-m1ottl7e"
+  },
+  {
+    "level": "中高級",
+    "word": "judicial",
+    "meaning": "法庭的、審判的、司法的",
+    "example": "The court began a judicial review.（法院開始司法審查。）",
+    "id": "中高級-judicial-m1l835i2"
+  },
+  {
+    "level": "中高級",
+    "word": "judiciary",
+    "meaning": "審判人員、司法系統",
+    "example": "The judiciary must remain independent.（司法機關必須保持獨立。）",
+    "id": "中高級-judiciary-mg7masy"
+  },
+  {
+    "level": "中高級",
+    "word": "jumper",
+    "meaning": "跳躍者、跳躍動物；套頭衫",
+    "example": "She wore a red jumper.（她穿了一件紅色套頭毛衣。）",
+    "id": "中高級-jumper-myje1q6"
+  },
+  {
+    "level": "中高級",
+    "word": "junction",
+    "meaning": "匯合、(公路或鐵路)交叉點",
+    "example": "Turn right at the next junction.（在下一個路口右轉。）",
+    "id": "中高級-junction-m34xa71"
+  },
+  {
+    "level": "中高級",
+    "word": "justification",
+    "meaning": "正當理由、辯護",
+    "example": "There is no justification for cheating.（作弊沒有正當理由。）",
+    "id": "中高級-justification-m1fdsxe3"
+  },
+  {
+    "level": "中高級",
+    "word": "justified",
+    "meaning": "有正當理由的",
+    "example": "Her anger was justified.（她的憤怒是有理由的。）",
+    "id": "中高級-justified-m1veo1tp"
+  },
+  {
+    "level": "中高級",
+    "word": "killer",
+    "meaning": "殺手、導致死亡的人(事物)",
+    "example": "The killer was caught by police.（殺手被警方逮捕。）",
+    "id": "中高級-killer-mp9ptmd"
+  },
+  {
+    "level": "中高級",
+    "word": "killing",
+    "meaning": "謀殺；致命的、使人精疲力盡的、滑稽的",
+    "example": "The killing shocked the town.（這起殺害事件震驚了城鎮。）",
+    "id": "中高級-killing-m1j3wm67"
+  },
+  {
+    "level": "中高級",
+    "word": "know-how",
+    "meaning": "知識、實用技能、竅門",
+    "example": "This job requires technical know-how.（這份工作需要技術知識。）",
+    "id": "中高級-know-how-moyt1v3"
+  },
+  {
+    "level": "中高級",
+    "word": "landing",
+    "meaning": "樓梯平台、降落、著陸",
+    "example": "The plane made a smooth landing.（飛機平穩降落。）",
+    "id": "中高級-landing-m1e8l0q2"
+  },
+  {
+    "level": "中高級",
+    "word": "large-scale",
+    "meaning": "大規模的、大範圍的",
+    "example": "The city began a large-scale project.（城市開始了一項大規模工程。）",
+    "id": "中高級-large-scale-m7hdkve"
+  },
+  {
+    "level": "中高級",
+    "word": "lasting",
+    "meaning": "持久的",
+    "example": "Their friendship had a lasting effect on me.（他們的友誼對我有長久影響。）",
+    "id": "中高級-lasting-mew0bk"
+  },
+  {
+    "level": "中高級",
+    "word": "latent",
+    "meaning": "潛在的、潛伏的",
+    "example": "The disease can stay latent for years.（這種疾病可能潛伏多年。）",
+    "id": "中高級-latent-m1x36xty"
+  },
+  {
+    "level": "中高級",
+    "word": "lavish",
+    "meaning": "奢華的、豪華的；為…提供大量的（金錢）",
+    "example": "They held a lavish wedding.（他們舉辦了一場奢華婚禮。）",
+    "id": "中高級-lavish-m1o1dban"
+  },
+  {
+    "level": "中高級",
+    "word": "lawsuit",
+    "meaning": "訴訟、起訴",
+    "example": "The company faced a lawsuit.（公司面臨訴訟。）",
+    "id": "中高級-lawsuit-m1osg2kz"
+  },
+  {
+    "level": "中高級",
+    "word": "lead-in",
+    "meaning": "(主題、故事的)介紹、開場白",
+    "example": "The lead-in to the lesson was interesting.（這堂課的引導活動很有趣。）",
+    "id": "中高級-lead-in-m1oap578"
+  },
+  {
+    "level": "中高級",
+    "word": "lease",
+    "meaning": "租約；租借、出租",
+    "example": "We signed a one-year lease.（我們簽了一年租約。）",
+    "id": "中高級-lease-mnxvx00"
+  },
+  {
+    "level": "中高級",
+    "word": "lee",
+    "meaning": "背風處、避風處",
+    "example": "The boat rested in the lee of the island.（船停在島的背風處。）",
+    "id": "中高級-lee-mi553us"
+  },
+  {
+    "level": "中高級",
+    "word": "left-wing",
+    "meaning": "左翼、左派",
+    "example": "The left-wing party supported the policy.（左翼政黨支持這項政策。）",
+    "id": "中高級-left-wing-msc4gn7"
+  },
+  {
+    "level": "中高級",
+    "word": "legacy",
+    "meaning": "遺產、遺贈物",
+    "example": "His grandfather left a legacy of kindness.（他的祖父留下了善良的精神遺產。）",
+    "id": "中高級-legacy-m5qbpnm"
+  },
+  {
+    "level": "中高級",
+    "word": "lesbian",
+    "meaning": "女同性戀者的；女同性戀",
+    "example": "She is a lesbian and supports equal rights.（她是女同性戀者，並支持平權。）",
+    "id": "中高級-lesbian-m1y4gbdo"
+  },
+  {
+    "level": "中高級",
+    "word": "lesser",
+    "meaning": "較小的、次要的",
+    "example": "Choose the lesser of two problems.（在兩個問題中選較小的那個。）",
+    "id": "中高級-lesser-m1u9b8xn"
+  },
+  {
+    "level": "中高級",
+    "word": "lethal",
+    "meaning": "致命的、具殺傷力的",
+    "example": "The snake has lethal poison.（那條蛇有致命毒液。）",
+    "id": "中高級-lethal-msogu9j"
+  },
+  {
+    "level": "中高級",
+    "word": "lever",
+    "meaning": "控制桿；（用槓桿）撬動",
+    "example": "Pull this lever to open the gate.（拉這個槓桿打開大門。）",
+    "id": "中高級-lever-mbj2sl7"
+  },
+  {
+    "level": "中高級",
+    "word": "levy",
+    "meaning": "稅款；徵稅",
+    "example": "The government announced a new levy on imported goods to protect local industries.（政府宣布對進口商品徵收新稅，以保護本土產業。）",
+    "id": "中高級-levy-m1thh51u"
+  },
+  {
+    "level": "中高級",
+    "word": "liability",
+    "meaning": "（法律上對某事物的）責任",
+    "example": "The company accepted liability for the accident.（公司承認對事故負責。）",
+    "id": "中高級-liability-mwfs19d"
+  },
+  {
+    "level": "中高級",
+    "word": "libel",
+    "meaning": "（文字）誹謗",
+    "example": "The newspaper was sued for libel.（那家報紙因誹謗被起訴。）",
+    "id": "中高級-libel-m1w3tj7z"
+  },
+  {
+    "level": "中高級",
+    "word": "liberalize",
+    "meaning": "使自由化、放寬對…的限制",
+    "example": "The country decided to liberalize trade.（這個國家決定使貿易自由化。）",
+    "id": "中高級-liberalize-myv10wi"
+  },
+  {
+    "level": "中高級",
+    "word": "lighting",
+    "meaning": "照明設備、光線、燈光",
+    "example": "The lighting in the room is soft.（房間裡的燈光很柔和。）",
+    "id": "中高級-lighting-m1s48c2r"
+  },
+  {
+    "level": "中高級",
+    "word": "lightweight",
+    "meaning": "輕量的；輕量級拳擊手、無影響力的人",
+    "example": "This lightweight bag is easy to carry.（這個輕便包包很容易攜帶。）",
+    "id": "中高級-lightweight-mtxftpa"
+  },
+  {
+    "level": "中高級",
+    "word": "linear",
+    "meaning": "直線的、線性的",
+    "example": "The chart shows a linear pattern.（圖表顯示線性模式。）",
+    "id": "中高級-linear-m1t0r3dg"
+  },
+  {
+    "level": "中高級",
+    "word": "lineup",
+    "meaning": "陣容、節目安排",
+    "example": "The team announced its lineup.（隊伍公布了出場陣容。）",
+    "id": "中高級-lineup-m1gzcg9u"
+  },
+  {
+    "level": "中高級",
+    "word": "lining",
+    "meaning": "內襯、襯裡",
+    "example": "The jacket has a warm lining.（這件外套有溫暖的內襯。）",
+    "id": "中高級-lining-m1fpetrf"
+  },
+  {
+    "level": "中高級",
+    "word": "literally",
+    "meaning": "字面上、確實地",
+    "example": "I was literally speechless.（我真的說不出話來。）",
+    "id": "中高級-literally-m11n1bj6"
+  },
+  {
+    "level": "中高級",
+    "word": "live-in",
+    "meaning": "住在工作場所的、未婚同居者",
+    "example": "They hired a live-in nurse.（他們雇了一位住家護士。）",
+    "id": "中高級-live-in-mlp89z7"
+  },
+  {
+    "level": "中高級",
+    "word": "living",
+    "meaning": "生計、收入；活著的、在使用的",
+    "example": "The cost of living is rising.（生活成本正在上升。）",
+    "id": "中高級-living-m1go3o9s"
+  },
+  {
+    "level": "中高級",
+    "word": "llama",
+    "meaning": "美洲駝",
+    "example": "A llama stood on the farm.（農場裡有一隻羊駝。）",
+    "id": "中高級-llama-mj80e1"
+  },
+  {
+    "level": "中高級",
+    "word": "loaded",
+    "meaning": "滿的、富有的、意味深長的",
+    "example": "The truck was loaded with boxes.（卡車裝滿箱子。）",
+    "id": "中高級-loaded-mvw33l0"
+  },
+  {
+    "level": "中高級",
+    "word": "locality",
+    "meaning": "地區、地點",
+    "example": "This plant grows in this locality.（這種植物生長在這個地區。）",
+    "id": "中高級-locality-m1vhgq5b"
+  },
+  {
+    "level": "中高級",
+    "word": "locked",
+    "meaning": "鎖住的、陷入困境、爭執的",
+    "example": "The door is locked.（門鎖住了。）",
+    "id": "中高級-locked-m1125ahc"
+  },
+  {
+    "level": "中高級",
+    "word": "longtime",
+    "meaning": "為時甚久的",
+    "example": "He is a longtime friend of mine.（他是我的老朋友。）",
+    "id": "中高級-longtime-mryh5td"
+  },
+  {
+    "level": "中高級",
+    "word": "loom",
+    "meaning": "織布機",
+    "example": "Dark clouds loomed over the city.（烏雲籠罩城市。）",
+    "id": "中高級-loom-miyp74"
+  },
+  {
+    "level": "中高級",
+    "word": "loom",
+    "meaning": "赫然聳現、逼近",
+    "example": "Grandma used a loom to weave cloth.（奶奶用織布機織布。）",
+    "id": "中高級-loom-mr91a68"
+  },
+  {
+    "level": "中高級",
+    "word": "loot",
+    "meaning": "（暴動、火災後）打劫；戰利品",
+    "example": "The soldiers took the loot away.（士兵拿走了掠奪品。）",
+    "id": "中高級-loot-m1598lvw"
+  },
+  {
+    "level": "中高級",
+    "word": "lost",
+    "meaning": "迷路的、失去的、不知所措的",
+    "example": "The lost child cried for help.（迷路的孩子哭著求救。）",
+    "id": "中高級-lost-ma6y02u"
+  },
+  {
+    "level": "中高級",
+    "word": "lubricate",
+    "meaning": "給…上潤滑油",
+    "example": "Oil can lubricate the machine.（油可以潤滑機器。）",
+    "id": "中高級-lubricate-m1rtlp5u"
+  },
+  {
+    "level": "中高級",
+    "word": "lucrative",
+    "meaning": "賺大錢的、獲利多的",
+    "example": "The business became lucrative.（這門生意變得有利可圖。）",
+    "id": "中高級-lucrative-m19vewvn"
+  },
+  {
+    "level": "中高級",
+    "word": "luminous",
+    "meaning": "發亮的、鮮豔的",
+    "example": "The watch has luminous hands.（這支錶有夜光指針。）",
+    "id": "中高級-luminous-m18efj9r"
+  },
+  {
+    "level": "中高級",
+    "word": "lunchtime",
+    "meaning": "午餐時間",
+    "example": "We met at lunchtime.（我們午餐時間見面。）",
+    "id": "中高級-lunchtime-mb52nh5"
+  },
+  {
+    "level": "中高級",
+    "word": "lynch",
+    "meaning": "用私刑處死",
+    "example": "The angry crowd tried to lynch the suspect.（憤怒的人群試圖私刑處置嫌疑人。）",
+    "id": "中高級-lynch-m1blngpq"
+  },
+  {
+    "level": "中高級",
+    "word": "made-up",
+    "meaning": "化妝的、不真實的、編造的",
+    "example": "That story sounds made-up.（那個故事聽起來像編造的。）",
+    "id": "中高級-made-up-m3e3dmn"
+  },
+  {
+    "level": "中高級",
+    "word": "mafia",
+    "meaning": "小幫派、社會黑幫",
+    "example": "The mafia controlled the illegal business.（黑手黨控制了非法生意。）",
+    "id": "中高級-mafia-m1ugb2ny"
+  },
+  {
+    "level": "中高級",
+    "word": "magistrate",
+    "meaning": "地方執法官",
+    "example": "The magistrate listened to the case.（地方官／法官聽取了案件。）",
+    "id": "中高級-magistrate-m1xzac1d"
+  },
+  {
+    "level": "中高級",
+    "word": "making",
+    "meaning": "生產、製造",
+    "example": "The making of the movie took two years.（這部電影的製作花了兩年。）",
+    "id": "中高級-making-m1aqqzep"
+  },
+  {
+    "level": "中高級",
+    "word": "mandate",
+    "meaning": "(政府或官員經選舉而獲得的)授權",
+    "example": "The government has a mandate to reform education.（政府有改革教育的授權。）",
+    "id": "中高級-mandate-mxer7m6"
+  },
+  {
+    "level": "中高級",
+    "word": "mandate",
+    "meaning": "強制執行",
+    "example": "The law mandates seat belts.（法律強制規定要繫安全帶。）",
+    "id": "中高級-mandate-mcct8pg"
+  },
+  {
+    "level": "中高級",
+    "word": "maneuver",
+    "meaning": "操縱、控制；策略、花招、軍事演習",
+    "example": "The pilot made a careful maneuver.（飛行員做了一個小心的操作。）",
+    "id": "中高級-maneuver-ms6ozg0"
+  },
+  {
+    "level": "中高級",
+    "word": "manifesto",
+    "meaning": "宣言",
+    "example": "The party published its manifesto.（那個政黨發布了政見宣言。）",
+    "id": "中高級-manifesto-mgce5"
+  },
+  {
+    "level": "中高級",
+    "word": "mare",
+    "meaning": "母馬、母驢",
+    "example": "The mare stood beside her foal.（母馬站在小馬旁邊。）",
+    "id": "中高級-mare-mewlq8n"
+  },
+  {
+    "level": "中高級",
+    "word": "marked",
+    "meaning": "明顯的、顯著的",
+    "example": "There was a marked improvement in her writing.（她的寫作有明顯進步。）",
+    "id": "中高級-marked-mpnhmhq"
+  },
+  {
+    "level": "中高級",
+    "word": "marketing",
+    "meaning": "促銷、銷售",
+    "example": "She works in marketing.（她在行銷部門工作。）",
+    "id": "中高級-marketing-m1agno04"
+  },
+  {
+    "level": "中高級",
+    "word": "marsh",
+    "meaning": "溼地、沼澤",
+    "example": "Frogs live in the marsh.（青蛙住在沼澤裡。）",
+    "id": "中高級-marsh-mhzngdx"
+  },
+  {
+    "level": "中高級",
+    "word": "measurement",
+    "meaning": "測量、尺寸",
+    "example": "The measurement was accurate.（測量結果很準確。）",
+    "id": "中高級-measurement-mn6ki4c"
+  },
+  {
+    "level": "中高級",
+    "word": "mercury",
+    "meaning": "汞、水銀",
+    "example": "Mercury is a metal.（汞是一種金屬。）",
+    "id": "中高級-mercury-mdvma27"
+  },
+  {
+    "level": "中高級",
+    "word": "merger",
+    "meaning": "（公司、組織的）合併",
+    "example": "The merger created a larger company.（合併創造了一家更大的公司。）",
+    "id": "中高級-merger-m1uyh10v"
+  },
+  {
+    "level": "中高級",
+    "word": "metallic",
+    "meaning": "金屬般的",
+    "example": "The box has a metallic surface.（盒子有金屬質感的表面。）",
+    "id": "中高級-metallic-mis9m1f"
+  },
+  {
+    "level": "中高級",
+    "word": "metric",
+    "meaning": "公制的",
+    "example": "Taiwan uses the metric system.（台灣使用公制。）",
+    "id": "中高級-metric-mcbywq"
+  },
+  {
+    "level": "中高級",
+    "word": "militia",
+    "meaning": "民兵隊伍、國民自衛隊",
+    "example": "The militia guarded the village.（民兵守衛村莊。）",
+    "id": "中高級-militia-me220e1"
+  },
+  {
+    "level": "中高級",
+    "word": "millimeter",
+    "meaning": "毫米、千分之ㄧ米",
+    "example": "One millimeter is very small.（一毫米很小。）",
+    "id": "中高級-millimeter-msrko57"
+  },
+  {
+    "level": "中高級",
+    "word": "mining",
+    "meaning": "採礦(業)",
+    "example": "Mining can damage the environment.（採礦可能破壞環境。）",
+    "id": "中高級-mining-m1doqabj"
+  },
+  {
+    "level": "中高級",
+    "word": "ministerial",
+    "meaning": "部長的、大臣的",
+    "example": "The ministerial meeting began early.（部長級會議很早開始。）",
+    "id": "中高級-ministerial-m7vttek"
+  },
+  {
+    "level": "中高級",
+    "word": "miscarriage",
+    "meaning": "流產",
+    "example": "She suffered a miscarriage.（她流產了。）",
+    "id": "中高級-miscarriage-mj85d"
+  },
+  {
+    "level": "中高級",
+    "word": "mistaken",
+    "meaning": "不正確的、被誤解的",
+    "example": "I was mistaken about the time.（我弄錯時間了。）",
+    "id": "中高級-mistaken-mb38nbv"
+  },
+  {
+    "level": "中高級",
+    "word": "monarchy",
+    "meaning": "君主政體",
+    "example": "The country became a monarchy.（這個國家成為君主制國家。）",
+    "id": "中高級-monarchy-maxuned"
+  },
+  {
+    "level": "中高級",
+    "word": "monetary",
+    "meaning": "貨幣的、錢的",
+    "example": "The bank changed its monetary policy.（銀行改變了貨幣政策。）",
+    "id": "中高級-monetary-muhi5y2"
+  },
+  {
+    "level": "中高級",
+    "word": "moody",
+    "meaning": "喜怒無常的、脾氣壞的、感傷的",
+    "example": "He is moody in the morning.（他早上情緒多變。）",
+    "id": "中高級-moody-m16x7c4g"
+  },
+  {
+    "level": "中高級",
+    "word": "moor",
+    "meaning": "曠野、高沼地",
+    "example": "They moored the boat near the dock.（他們把船停泊在碼頭旁。）",
+    "id": "中高級-moor-m1bjjgux"
+  },
+  {
+    "level": "中高級",
+    "word": "moor",
+    "meaning": "使停泊",
+    "example": "The boat was tied to the moor.（船被繫在荒野／沼地邊。）",
+    "id": "中高級-moor-mc1g31"
+  },
+  {
+    "level": "中高級",
+    "word": "mortar",
+    "meaning": "灰泥、砂漿、迫擊炮、研缽",
+    "example": "The wall was built with brick and mortar.（牆是用磚和砂漿建成的。）",
+    "id": "中高級-mortar-m18r7goj"
+  },
+  {
+    "level": "中高級",
+    "word": "mortar",
+    "meaning": "用迫擊砲攻擊",
+    "example": "The soldiers fired a mortar.（士兵發射迫擊砲。）",
+    "id": "中高級-mortar-m1xg7oa"
+  },
+  {
+    "level": "中高級",
+    "word": "mosque",
+    "meaning": "清真寺",
+    "example": "We visited a beautiful mosque.（我們參觀了一座美麗的清真寺。）",
+    "id": "中高級-mosque-mgowao"
+  },
+  {
+    "level": "中高級",
+    "word": "motorist",
+    "meaning": "駕車者、開汽車的人",
+    "example": "The motorist stopped at the red light.（駕駛人在紅燈前停下。）",
+    "id": "中高級-motorist-m18p41st"
+  },
+  {
+    "level": "中高級",
+    "word": "motorway",
+    "meaning": "(英國的)高速公路",
+    "example": "The motorway was busy.（高速公路很繁忙。）",
+    "id": "中高級-motorway-mp2uhox"
+  },
+  {
+    "level": "中高級",
+    "word": "mounted",
+    "meaning": "(尤指士兵或警官)騎馬的、安裝好的",
+    "example": "The mounted police rode through the park.（騎警騎馬穿過公園。）",
+    "id": "中高級-mounted-myxd0ek"
+  },
+  {
+    "level": "中高級",
+    "word": "moving",
+    "meaning": "令人感動的、移動的",
+    "example": "The movie was very moving.（這部電影很感人。）",
+    "id": "中高級-moving-m15w4yv5"
+  },
+  {
+    "level": "中高級",
+    "word": "multinational",
+    "meaning": "跨國的；跨國公司",
+    "example": "She works for a multinational company.（她在一家跨國公司工作。）",
+    "id": "中高級-multinational-mffnjs9"
+  },
+  {
+    "level": "中高級",
+    "word": "multitude",
+    "meaning": "眾多、大量",
+    "example": "A multitude of people filled the square.（大量人群擠滿廣場。）",
+    "id": "中高級-multitude-m1fht359"
+  },
+  {
+    "level": "中高級",
+    "word": "nadir",
+    "meaning": "最糟的時刻、最低點",
+    "example": "The team hit its nadir after five losses.（五連敗後，隊伍跌到最低點。）",
+    "id": "中高級-nadir-m16ws6r1"
+  },
+  {
+    "level": "中高級",
+    "word": "nationalist",
+    "meaning": "民族主義的；民族主義者",
+    "example": "The nationalist party won the election.（民族主義政黨贏得選舉。）",
+    "id": "中高級-nationalist-m2b88ae"
+  },
+  {
+    "level": "中高級",
+    "word": "nationwide",
+    "meaning": "全國性的/地",
+    "example": "The product is sold nationwide.（這項產品在全國販售。）",
+    "id": "中高級-nationwide-m1qpy6f5"
+  },
+  {
+    "level": "中高級",
+    "word": "necessitate",
+    "meaning": "使成為必要",
+    "example": "The illness may necessitate surgery.（這種病可能需要手術。）",
+    "id": "中高級-necessitate-m13jlqit"
+  },
+  {
+    "level": "中高級",
+    "word": "negligible",
+    "meaning": "微不足道的、不值一提的",
+    "example": "The cost is negligible.（成本微不足道。）",
+    "id": "中高級-negligible-mm839ex"
+  },
+  {
+    "level": "中高級",
+    "word": "negotiator",
+    "meaning": "協商者、談判代表",
+    "example": "The negotiator helped both sides reach a deal.（談判代表幫助雙方達成協議。）",
+    "id": "中高級-negotiator-movxsa8"
+  },
+  {
+    "level": "中高級",
+    "word": "neighboring",
+    "meaning": "鄰近的",
+    "example": "We visited a neighboring town.（我們拜訪了鄰近城鎮。）",
+    "id": "中高級-neighboring-mlyolf"
+  },
+  {
+    "level": "中高級",
+    "word": "newly",
+    "meaning": "新當選的、新成立的",
+    "example": "The room was newly painted.（這個房間剛粉刷過。）",
+    "id": "中高級-newly-m6uh1pk"
+  },
+  {
+    "level": "中高級",
+    "word": "newsreel",
+    "meaning": "新聞短片",
+    "example": "The museum showed an old newsreel.（博物館播放了一段舊新聞影片。）",
+    "id": "中高級-newsreel-mdd3z1k"
+  },
+  {
+    "level": "中高級",
+    "word": "nick",
+    "meaning": "使有缺口；刻痕；關鍵時刻",
+    "example": "He cut his finger with a small nick.（他的手指被割了一個小口。）",
+    "id": "中高級-nick-m1sastvv"
+  },
+  {
+    "level": "中高級",
+    "word": "nightclub",
+    "meaning": "夜店",
+    "example": "They danced at a nightclub.（他們在夜店跳舞。）",
+    "id": "中高級-nightclub-mfocb"
+  },
+  {
+    "level": "中高級",
+    "word": "nil",
+    "meaning": "零、(體育比賽)0分、無",
+    "example": "The score was nil to nil.（比分是零比零。）",
+    "id": "中高級-nil-0"
+  },
+  {
+    "level": "中高級",
+    "word": "nitrogen",
+    "meaning": "氮氣",
+    "example": "Nitrogen is a gas in the air.（氮是空氣中的一種氣體。）",
+    "id": "中高級-nitrogen-mizsl"
+  },
+  {
+    "level": "中高級",
+    "word": "nominal",
+    "meaning": "名義上的、象徵性的",
+    "example": "He is the nominal leader, but others make the decisions.（他是名義上的領導者，但其他人做決定。）",
+    "id": "中高級-nominal-m1810anw"
+  },
+  {
+    "level": "中高級",
+    "word": "notably",
+    "meaning": "尤其、特別、非常",
+    "example": "Several students improved, notably Tom.（幾位學生進步了，尤其是 Tom。）",
+    "id": "中高級-notably-m8xxg5c"
+  },
+  {
+    "level": "中高級",
+    "word": "notation",
+    "meaning": "(數學、科學、音樂中的)符號",
+    "example": "Music notation was difficult for me at first.（樂譜記號一開始對我很難。）",
+    "id": "中高級-notation-m238q7v"
+  },
+  {
+    "level": "中高級",
+    "word": "noted",
+    "meaning": "(以…)聞名",
+    "example": "She is a noted scientist.（她是一位著名科學家。）",
+    "id": "中高級-noted-m1bd3j5b"
+  },
+  {
+    "level": "中高級",
+    "word": "notwithstanding",
+    "meaning": "雖然、儘管、儘管如此",
+    "example": "Notwithstanding the rain, we went out.（儘管下雨，我們還是出門了。）",
+    "id": "中高級-notwithstanding-m1suny82"
+  },
+  {
+    "level": "中高級",
+    "word": "novelty",
+    "meaning": "新奇、新奇的事物",
+    "example": "The toy quickly lost its novelty.（這個玩具很快失去新鮮感。）",
+    "id": "中高級-novelty-m19y7r29"
+  },
+  {
+    "level": "中高級",
+    "word": "numerical",
+    "meaning": "數字的、用數字表示的",
+    "example": "The report includes numerical data.（報告包含數字資料。）",
+    "id": "中高級-numerical-m16t4vxj"
+  },
+  {
+    "level": "中高級",
+    "word": "obituary",
+    "meaning": "訃聞",
+    "example": "The newspaper printed his obituary.（報紙刊登了他的訃聞。）",
+    "id": "中高級-obituary-mo6gr"
+  },
+  {
+    "level": "中高級",
+    "word": "obligate",
+    "meaning": "迫使、幫忙",
+    "example": "The contract obligates us to pay on time.（合約要求我們準時付款。）",
+    "id": "中高級-obligate-m4pbt3v"
+  },
+  {
+    "level": "中高級",
+    "word": "obligatory",
+    "meaning": "必須的、強制的",
+    "example": "Attendance is obligatory.（出席是義務性的。）",
+    "id": "中高級-obligatory-mdjbo85"
+  },
+  {
+    "level": "中高級",
+    "word": "obscene",
+    "meaning": "猥褻的、下流的",
+    "example": "Do not use obscene language.（不要使用猥褻語言。）",
+    "id": "中高級-obscene-m1oxpevv"
+  },
+  {
+    "level": "中高級",
+    "word": "obsess",
+    "meaning": "使癡迷、使著迷",
+    "example": "Do not obsess over small mistakes.（不要過度糾結小錯誤。）",
+    "id": "中高級-obsess-mm3m9oz"
+  },
+  {
+    "level": "中高級",
+    "word": "obsession",
+    "meaning": "癡迷、使人癡迷的人(或物)",
+    "example": "His obsession with winning made him unhappy.（他對勝利的執著讓他不快樂。）",
+    "id": "中高級-obsession-m1d45ork"
+  },
+  {
+    "level": "中高級",
+    "word": "offset",
+    "meaning": "補償、抵銷",
+    "example": "The company used savings to offset the loss.（公司用存款抵消損失。）",
+    "id": "中高級-offset-m1cca9q8"
+  },
+  {
+    "level": "中高級",
+    "word": "offset",
+    "meaning": "用膠印法印；平板印刷的",
+    "example": "There is a slight offset in the design.（設計中有一點偏移。）",
+    "id": "中高級-offset-mw2qbmx"
+  },
+  {
+    "level": "中高級",
+    "word": "offshore",
+    "meaning": "海上的、離岸的；(公司或銀行)境外/海外的",
+    "example": "The company drills oil offshore.（公司在近海鑽油。）",
+    "id": "中高級-offshore-m1lrdymf"
+  },
+  {
+    "level": "中高級",
+    "word": "old-fashioned",
+    "meaning": "老式的、過時的",
+    "example": "This phone looks old-fashioned.（這支手機看起來很老派。）",
+    "id": "中高級-old-fashioned-mapj8p1"
+  },
+  {
+    "level": "中高級",
+    "word": "one-time",
+    "meaning": "從前的、一次性的",
+    "example": "He was a one-time champion.（他曾經是冠軍。）",
+    "id": "中高級-one-time-mpdvf0q"
+  },
+  {
+    "level": "中高級",
+    "word": "ongoing",
+    "meaning": "繼續進行的、不斷發展的",
+    "example": "The investigation is ongoing.（調查正在進行中。）",
+    "id": "中高級-ongoing-m9sxvi2"
+  },
+  {
+    "level": "中高級",
+    "word": "opaque",
+    "meaning": "不透明的、難懂、模糊",
+    "example": "The glass is opaque.（這片玻璃是不透明的。）",
+    "id": "中高級-opaque-mba0rtu"
+  },
+  {
+    "level": "中高級",
+    "word": "openly",
+    "meaning": "公開地、毫不隱瞞地",
+    "example": "She spoke openly about her problem.（她公開談論自己的問題。）",
+    "id": "中高級-openly-m1myojtd"
+  },
+  {
+    "level": "中高級",
+    "word": "operative",
+    "meaning": "可使用",
+    "example": "The machine is fully operative.（機器完全可以運作。）",
+    "id": "中高級-operative-mcoqt4"
+  },
+  {
+    "level": "中高級",
+    "word": "operative",
+    "meaning": "操作員",
+    "example": "The spy worked as a secret operative.（那名間諜是秘密特工。）",
+    "id": "中高級-operative-mf5hg2"
+  },
+  {
+    "level": "中高級",
+    "word": "opposed",
+    "meaning": "強烈反對、截然不同的、完全相反的",
+    "example": "I am opposed to the plan.（我反對這個計畫。）",
+    "id": "中高級-opposed-m1ba0117"
+  },
+  {
+    "level": "中高級",
+    "word": "opt",
+    "meaning": "選擇、挑選",
+    "example": "Many students opt for the easier course.（許多學生選擇較簡單的課程。）",
+    "id": "中高級-opt-m9jijdl"
+  },
+  {
+    "level": "中高級",
+    "word": "optical",
+    "meaning": "光學的、視覺的",
+    "example": "The camera uses an optical lens.（相機使用光學鏡頭。）",
+    "id": "中高級-optical-m18zytxw"
+  },
+  {
+    "level": "中高級",
+    "word": "optimum",
+    "meaning": "最佳、最適宜的",
+    "example": "The optimum temperature is twenty degrees.（最佳溫度是二十度。）",
+    "id": "中高級-optimum-m2vmcn3"
+  },
+  {
+    "level": "中高級",
+    "word": "ore",
+    "meaning": "礦石",
+    "example": "Iron ore is used to make steel.（鐵礦石被用來製造鋼。）",
+    "id": "中高級-ore-ml9jh"
+  },
+  {
+    "level": "中高級",
+    "word": "orientation",
+    "meaning": "方向、觀點、(任職前的)培訓",
+    "example": "New students attended orientation.（新生參加入學說明。）",
+    "id": "中高級-orientation-m1ghi602"
+  },
+  {
+    "level": "中高級",
+    "word": "oriented",
+    "meaning": "以…為導向的、以…為目的的",
+    "example": "This course is career-oriented.（這門課以職涯為導向。）",
+    "id": "中高級-oriented-mhq337y"
+  },
+  {
+    "level": "中高級",
+    "word": "orthodox",
+    "meaning": "普遍接受的、正統的、傳統的",
+    "example": "She comes from an orthodox family.（她來自一個傳統正統的家庭。）",
+    "id": "中高級-orthodox-mkoktv1"
+  },
+  {
+    "level": "中高級",
+    "word": "oust",
+    "meaning": "剝奪、免、革職",
+    "example": "The people ousted the corrupt leader.（人民趕走了貪腐領袖。）",
+    "id": "中高級-oust-mnl3vcm"
+  },
+  {
+    "level": "中高級",
+    "word": "oversee",
+    "meaning": "監督、監視",
+    "example": "The manager will oversee the project.（經理會監督這個專案。）",
+    "id": "中高級-oversee-m1hxfawk"
+  },
+  {
+    "level": "中高級",
+    "word": "overt",
+    "meaning": "公開的、明顯的",
+    "example": "His anger was overt.（他的憤怒很明顯。）",
+    "id": "中高級-overt-m1wfnbjb"
+  },
+  {
+    "level": "中高級",
+    "word": "overwhelming",
+    "meaning": "巨大的、無法抗拒的",
+    "example": "The response was overwhelming.（反應非常熱烈。）",
+    "id": "中高級-overwhelming-m5hb8mx"
+  },
+  {
+    "level": "中高級",
+    "word": "oxide",
+    "meaning": "氧化物",
+    "example": "Rust is a type of iron oxide.（鐵鏽是一種氧化鐵。）",
+    "id": "中高級-oxide-mg91mi"
+  },
+  {
+    "level": "中高級",
+    "word": "packaging",
+    "meaning": "包裝材料",
+    "example": "The packaging is simple and recyclable.（包裝簡單且可回收。）",
+    "id": "中高級-packaging-mb1ida9"
+  },
+  {
+    "level": "中高級",
+    "word": "packed",
+    "meaning": "非常擁擠的",
+    "example": "The train was packed.（火車擠滿了人。）",
+    "id": "中高級-packed-mzwhfm3"
+  },
+  {
+    "level": "中高級",
+    "word": "packing",
+    "meaning": "包裝、收拾行李；包裝材料",
+    "example": "Packing took me two hours.（打包花了我兩小時。）",
+    "id": "中高級-packing-m12g8rvt"
+  },
+  {
+    "level": "中高級",
+    "word": "pagan",
+    "meaning": "異教徒的；異教徒",
+    "example": "The festival began as a pagan tradition.（這個節日源於異教傳統。）",
+    "id": "中高級-pagan-m1aa4zzd"
+  },
+  {
+    "level": "中高級",
+    "word": "paid",
+    "meaning": "付費的、有報酬的",
+    "example": "She paid the bill.（她付了帳單。）",
+    "id": "中高級-paid-m1q5ixvk"
+  },
+  {
+    "level": "中高級",
+    "word": "paperback",
+    "meaning": "平裝書",
+    "example": "I bought a paperback novel.（我買了一本平裝小說。）",
+    "id": "中高級-paperback-mehvfy"
+  },
+  {
+    "level": "中高級",
+    "word": "par",
+    "meaning": "標準、平均",
+    "example": "The golfer finished the hole under par.（那位高爾夫球手低於標準桿完成那洞。）",
+    "id": "中高級-par-m2t5v7c"
+  },
+  {
+    "level": "中高級",
+    "word": "paralysis",
+    "meaning": "麻痺、癱瘓",
+    "example": "The injury caused paralysis in his legs.（那次受傷造成他的雙腿癱瘓。）",
+    "id": "中高級-paralysis-m1vh5yf8"
+  },
+  {
+    "level": "中高級",
+    "word": "parameter",
+    "meaning": "決定因素、規範",
+    "example": "Set the correct parameter before running the program.（執行程式前設定正確參數。）",
+    "id": "中高級-parameter-m1apydrq"
+  },
+  {
+    "level": "中高級",
+    "word": "parish",
+    "meaning": "教區、(英國)鄉村的行政小區",
+    "example": "The priest serves a small parish.（那位神父服務一個小教區。）",
+    "id": "中高級-parish-m17925sv"
+  },
+  {
+    "level": "中高級",
+    "word": "parliamentary",
+    "meaning": "議會的、國會的",
+    "example": "The parliamentary debate lasted all day.（國會辯論持續了一整天。）",
+    "id": "中高級-parliamentary-m12yn87w"
+  },
+  {
+    "level": "中高級",
+    "word": "parsley",
+    "meaning": "歐芹、荷蘭芹",
+    "example": "Add parsley to the soup.（在湯裡加入巴西里。）",
+    "id": "中高級-parsley-mt4peej"
+  },
+  {
+    "level": "中高級",
+    "word": "partition",
+    "meaning": "隔牆、隔板；分隔、隔開",
+    "example": "They built a partition between the rooms.（他們在房間之間建了一道隔板。）",
+    "id": "中高級-partition-m1wsqfxl"
+  },
+  {
+    "level": "中高級",
+    "word": "passing",
+    "meaning": "暫時的、瞬間的；(時間)流逝",
+    "example": "His passing made the family sad.（他的去世讓家人悲傷。）",
+    "id": "中高級-passing-m1t0i39a"
+  },
+  {
+    "level": "中高級",
+    "word": "pasture",
+    "meaning": "牧場；放牧",
+    "example": "The cows walked across the pasture.（牛走過牧場。）",
+    "id": "中高級-pasture-mxav2bb"
+  },
+  {
+    "level": "中高級",
+    "word": "patronage",
+    "meaning": "資助、光顧",
+    "example": "The artist depended on royal patronage.（那位藝術家依靠皇室贊助。）",
+    "id": "中高級-patronage-m1ruok59"
+  },
+  {
+    "level": "中高級",
+    "word": "peacekeeping",
+    "meaning": "維護和平",
+    "example": "The country sent peacekeeping troops.（這個國家派出維和部隊。）",
+    "id": "中高級-peacekeeping-mgfhjkh"
+  },
+  {
+    "level": "中高級",
+    "word": "pending",
+    "meaning": "待定、即將發生的；直到…為止",
+    "example": "The decision is still pending.（決定仍在等待中。）",
+    "id": "中高級-pending-mti8y7s"
+  },
+  {
+    "level": "中高級",
+    "word": "pendulum",
+    "meaning": "鐘擺",
+    "example": "The pendulum swung slowly.（鐘擺慢慢擺動。）",
+    "id": "中高級-pendulum-mpqsi"
+  },
+  {
+    "level": "中高級",
+    "word": "penis",
+    "meaning": "陰莖",
+    "example": "The doctor explained the injury to the penis in a medical way.（醫生以醫學方式說明陰莖受傷情況。）",
+    "id": "中高級-penis-mqb6u"
+  },
+  {
+    "level": "中高級",
+    "word": "pensioner",
+    "meaning": "領養老金者、退休人員",
+    "example": "The pensioner lives with his daughter.（那位退休金領取者和女兒同住。）",
+    "id": "中高級-pensioner-ma894fq"
+  },
+  {
+    "level": "中高級",
+    "word": "perennial",
+    "meaning": "長久的、持續的；多年生植物",
+    "example": "Roses are perennial plants.（玫瑰是多年生植物。）",
+    "id": "中高級-perennial-m1ffohro"
+  },
+  {
+    "level": "中高級",
+    "word": "periodic",
+    "meaning": "間歇性的、定期的、週期的",
+    "example": "The machine needs periodic checks.（這台機器需要定期檢查。）",
+    "id": "中高級-periodic-mmvn5ic"
+  },
+  {
+    "level": "中高級",
+    "word": "periodical",
+    "meaning": "(學術)期刊",
+    "example": "This library has many periodicals.（這座圖書館有很多期刊。）",
+    "id": "中高級-periodical-m12mtpe9"
+  },
+  {
+    "level": "中高級",
+    "word": "periodical",
+    "meaning": "週期性的",
+    "example": "She writes for a monthly periodical.（她為一份月刊寫文章。）",
+    "id": "中高級-periodical-mimam6j"
+  },
+  {
+    "level": "中高級",
+    "word": "permeate",
+    "meaning": "滲透、瀰漫、(思想等)傳播",
+    "example": "The smell of bread permeated the room.（麵包香瀰漫整個房間。）",
+    "id": "中高級-permeate-m14yqv4m"
+  },
+  {
+    "level": "中高級",
+    "word": "perpetual",
+    "meaning": "不間斷、持續的",
+    "example": "He lived in perpetual fear.（他一直生活在恐懼中。）",
+    "id": "中高級-perpetual-m1i7bg4p"
+  },
+  {
+    "level": "中高級",
+    "word": "perplex",
+    "meaning": "迷惑、使困惑",
+    "example": "The strange answer perplexed me.（奇怪的答案讓我困惑。）",
+    "id": "中高級-perplex-m625g3d"
+  },
+  {
+    "level": "中高級",
+    "word": "pertain",
+    "meaning": "有關、從屬",
+    "example": "The rules pertain to all students.（這些規則適用於所有學生。）",
+    "id": "中高級-pertain-m1utj69o"
+  },
+  {
+    "level": "中高級",
+    "word": "pertinent",
+    "meaning": "有關的、恰當的",
+    "example": "Please give only pertinent information.（請只提供相關資訊。）",
+    "id": "中高級-pertinent-m1n1tl3i"
+  },
+  {
+    "level": "中高級",
+    "word": "petition",
+    "meaning": "請願書；請求、請願",
+    "example": "The students signed a petition.（學生們簽署了請願書。）",
+    "id": "中高級-petition-m4pnl3"
+  },
+  {
+    "level": "中高級",
+    "word": "pharmaceutical",
+    "meaning": "製藥的、賣藥的；藥物",
+    "example": "She works for a pharmaceutical company.（她在一家製藥公司工作。）",
+    "id": "中高級-pharmaceutical-mpprwde"
+  },
+  {
+    "level": "中高級",
+    "word": "pharmacology",
+    "meaning": "藥物學、藥理學",
+    "example": "He studies pharmacology.（他研究藥理學。）",
+    "id": "中高級-pharmacology-mkuw74a"
+  },
+  {
+    "level": "中高級",
+    "word": "physiological",
+    "meaning": "生理學的",
+    "example": "Exercise causes physiological changes.（運動會造成生理變化。）",
+    "id": "中高級-physiological-mf98vmb"
+  },
+  {
+    "level": "中高級",
+    "word": "physiology",
+    "meaning": "生理學",
+    "example": "She studies human physiology.（她研究人體生理學。）",
+    "id": "中高級-physiology-mhptap"
+  },
+  {
+    "level": "中高級",
+    "word": "pickup",
+    "meaning": "取（貨）、接（人）；好轉",
+    "example": "He drives a pickup truck.（他開一輛小型貨卡。）",
+    "id": "中高級-pickup-m6ipug7"
+  },
+  {
+    "level": "中高級",
+    "word": "piercing",
+    "meaning": "銳利的、刻骨的",
+    "example": "She has a nose piercing.（她有鼻環穿孔。）",
+    "id": "中高級-piercing-m7kytd0"
+  },
+  {
+    "level": "中高級",
+    "word": "plaster",
+    "meaning": "水泥、石膏；用水泥抹牆、貼滿、塗滿",
+    "example": "The doctor put plaster on the broken arm.（醫生在斷臂上打石膏。）",
+    "id": "中高級-plaster-mqzsn0c"
+  },
+  {
+    "level": "中高級",
+    "word": "plateau",
+    "meaning": "高原、(發展增長後的)穩定期",
+    "example": "The village sits on a high plateau.（村莊坐落在高原上。）",
+    "id": "中高級-plateau-m1s27p99"
+  },
+  {
+    "level": "中高級",
+    "word": "plausible",
+    "meaning": "有道理的、可信的、巧言令色的",
+    "example": "His explanation sounds plausible.（他的解釋聽起來合理。）",
+    "id": "中高級-plausible-m1tsw451"
+  },
+  {
+    "level": "中高級",
+    "word": "pointed",
+    "meaning": "尖的、尖銳的、明確的",
+    "example": "The teacher gave a pointed remark.（老師說了一句尖銳的話。）",
+    "id": "中高級-pointed-mgzw6rv"
+  },
+  {
+    "level": "中高級",
+    "word": "poised",
+    "meaning": "準備好(做某事)、泰然自若的",
+    "example": "The runner was poised to start.（跑者準備好起跑。）",
+    "id": "中高級-poised-mp95suc"
+  },
+  {
+    "level": "中高級",
+    "word": "pope",
+    "meaning": "教宗、教皇",
+    "example": "The pope spoke to the crowd.（教宗向群眾說話。）",
+    "id": "中高級-pope-m1gvgaup"
+  },
+  {
+    "level": "中高級",
+    "word": "pore",
+    "meaning": "(皮膚的)毛孔、氣孔；仔細審視",
+    "example": "Sweat came out of every pore.（汗從每個毛孔冒出來。）",
+    "id": "中高級-pore-m1b8nr2c"
+  },
+  {
+    "level": "中高級",
+    "word": "portfolio",
+    "meaning": "文件夾、作品選集",
+    "example": "Her portfolio includes many designs.（她的作品集包含許多設計。）",
+    "id": "中高級-portfolio-m1bx1amd"
+  },
+  {
+    "level": "中高級",
+    "word": "postulate",
+    "meaning": "假定、假設",
+    "example": "Scientists postulate that water once existed there.（科學家假設那裡曾有水。）",
+    "id": "中高級-postulate-m15iok1g"
+  },
+  {
+    "level": "中高級",
+    "word": "postwar",
+    "meaning": "(尤指)第二次世界大戰以後的",
+    "example": "Postwar life was difficult.（戰後生活很困難。）",
+    "id": "中高級-postwar-mnggpdn"
+  },
+  {
+    "level": "中高級",
+    "word": "potent",
+    "meaning": "有強效的、有力的",
+    "example": "This medicine is potent.（這種藥效力強。）",
+    "id": "中高級-potent-mzasd4r"
+  },
+  {
+    "level": "中高級",
+    "word": "potter",
+    "meaning": "陶工",
+    "example": "The potter shaped the clay into a bowl.（陶藝家把黏土做成碗。）",
+    "id": "中高級-potter-mq3vz"
+  },
+  {
+    "level": "中高級",
+    "word": "practicable",
+    "meaning": "可行的",
+    "example": "The plan is practicable.（這個計畫可行。）",
+    "id": "中高級-practicable-mcyew7"
+  },
+  {
+    "level": "中高級",
+    "word": "practitioner",
+    "meaning": "(尤指醫學或法律的)從業人員",
+    "example": "She is a medical practitioner.（她是一位醫療從業人員。）",
+    "id": "中高級-practitioner-mrg7r2n"
+  },
+  {
+    "level": "中高級",
+    "word": "precipitate",
+    "meaning": "使突然降臨、加速；魯莽的",
+    "example": "Stress can precipitate illness.（壓力可能促成疾病。）",
+    "id": "中高級-precipitate-m1bfu0fg"
+  },
+  {
+    "level": "中高級",
+    "word": "precisely",
+    "meaning": "準確地、仔細地、的確如此",
+    "example": "That is precisely what I said.（那正是我說的。）",
+    "id": "中高級-precisely-md65oa"
+  },
+  {
+    "level": "中高級",
+    "word": "preclude",
+    "meaning": "使行不通、防止、排除",
+    "example": "The rule may preclude late applications.（這項規定可能排除逾期申請。）",
+    "id": "中高級-preclude-mprkyak"
+  },
+  {
+    "level": "中高級",
+    "word": "predator",
+    "meaning": "掠食者、食肉動物",
+    "example": "A lion is a predator.（獅子是掠食者。）",
+    "id": "中高級-predator-mbiyz15"
+  },
+  {
+    "level": "中高級",
+    "word": "predictable",
+    "meaning": "可預料的、老套乏味的",
+    "example": "The ending was predictable.（結局很好預測。）",
+    "id": "中高級-predictable-mfq0111"
+  },
+  {
+    "level": "中高級",
+    "word": "predominant",
+    "meaning": "顯著的、盛行的、主導的",
+    "example": "Rice is the predominant crop here.（稻米是這裡的主要作物。）",
+    "id": "中高級-predominant-mudk6wu"
+  },
+  {
+    "level": "中高級",
+    "word": "predominantly",
+    "meaning": "主要地、多數情況下",
+    "example": "The area is predominantly rural.（這個地區主要是鄉村。）",
+    "id": "中高級-predominantly-m2qweey"
+  },
+  {
+    "level": "中高級",
+    "word": "premiere",
+    "meaning": "(電影的)首映、(戲劇的)首演",
+    "example": "The movie premiere is tonight.（電影首映在今晚。）",
+    "id": "中高級-premiere-m67zib0"
+  },
+  {
+    "level": "中高級",
+    "word": "premise",
+    "meaning": "（作為先決條件的）假定、前提; 假定、以…為前提",
+    "example": "The argument is based on a false premise.（這個論點基於錯誤前提。）",
+    "id": "中高級-premise-mqx5f72"
+  },
+  {
+    "level": "中高級",
+    "word": "premise",
+    "meaning": "(法律用語)房屋、土地；經營場地",
+    "example": "The company moved to new premises.（公司搬到新的營業場所。）",
+    "id": "中高級-premise-m17lim9e"
+  },
+  {
+    "level": "中高級",
+    "word": "premium",
+    "meaning": "保險費",
+    "example": "You must pay a premium for better service.（你必須為更好的服務支付額外費用。）",
+    "id": "中高級-premium-mcfilq"
+  },
+  {
+    "level": "中高級",
+    "word": "premium",
+    "meaning": "稀少、優質的",
+    "example": "This is a premium product.（這是高級產品。）",
+    "id": "中高級-premium-mobyxys"
+  },
+  {
+    "level": "中高級",
+    "word": "president-elect",
+    "meaning": "候任總統",
+    "example": "The president-elect gave a short speech.（總統當選人做了簡短演說。）",
+    "id": "中高級-president-elect-mafvkgm"
+  },
+  {
+    "level": "中高級",
+    "word": "prestigious",
+    "meaning": "有威望的",
+    "example": "He graduated from a prestigious university.（他畢業於名校。）",
+    "id": "中高級-prestigious-mddj4yp"
+  },
+  {
+    "level": "中高級",
+    "word": "presumably",
+    "meaning": "很可能、大概",
+    "example": "Presumably, he missed the train.（推測他錯過了火車。）",
+    "id": "中高級-presumably-m1provk6"
+  },
+  {
+    "level": "中高級",
+    "word": "pretext",
+    "meaning": "藉口、託辭",
+    "example": "He used homework as a pretext to avoid the party.（他用作業作為不去派對的藉口。）",
+    "id": "中高級-pretext-m10oay0t"
+  },
+  {
+    "level": "中高級",
+    "word": "prevailing",
+    "meaning": "普遍的、盛行的",
+    "example": "The prevailing wind comes from the north.（盛行風來自北方。）",
+    "id": "中高級-prevailing-mmm71br"
+  },
+  {
+    "level": "中高級",
+    "word": "prevalent",
+    "meaning": "普遍的、流行的",
+    "example": "Flu is prevalent in winter.（流感在冬天很普遍。）",
+    "id": "中高級-prevalent-mmkseot"
+  },
+  {
+    "level": "中高級",
+    "word": "primarily",
+    "meaning": "主要地",
+    "example": "This class is primarily for beginners.（這堂課主要是給初學者的。）",
+    "id": "中高級-primarily-mc4dhm"
+  },
+  {
+    "level": "中高級",
+    "word": "privatize",
+    "meaning": "使私有化、將…私營化",
+    "example": "The government decided to privatize the company.（政府決定將這家公司民營化。）",
+    "id": "中高級-privatize-mx0fnmv"
+  },
+  {
+    "level": "中高級",
+    "word": "pro",
+    "meaning": "職業選手； 職業的、專業的",
+    "example": "He is a pro at fixing bikes.（他是修腳踏車的高手。）",
+    "id": "中高級-pro-m1abmsu6"
+  },
+  {
+    "level": "中高級",
+    "word": "pro",
+    "meaning": "擁護、支持",
+    "example": "We discussed the pros and cons of the plan.（我們討論了這個計畫的優缺點。）",
+    "id": "中高級-pro-m1kl9719"
+  },
+  {
+    "level": "中高級",
+    "word": "probability",
+    "meaning": "可能性、很可能發生的事、機率",
+    "example": "The probability of rain is high today.（今天下雨的機率很高。）",
+    "id": "中高級-probability-mtmqzdd"
+  },
+  {
+    "level": "中高級",
+    "word": "probe",
+    "meaning": "追問、詳盡； 調查、探針",
+    "example": "The police began to probe the case.（警方開始調查這個案件。）",
+    "id": "中高級-probe-m1xj9iyc"
+  },
+  {
+    "level": "中高級",
+    "word": "proceeding",
+    "meaning": "訴訟、事件",
+    "example": "The court proceeding lasted all morning.（法院程序持續了一整個上午。）",
+    "id": "中高級-proceeding-m1os51kx"
+  },
+  {
+    "level": "中高級",
+    "word": "proceeds",
+    "meaning": "收益",
+    "example": "The proceeds from the sale will go to charity.（義賣所得將捐給慈善機構。）",
+    "id": "中高級-proceeds-mhv84"
+  },
+  {
+    "level": "中高級",
+    "word": "processor",
+    "meaning": "加工機、處理器",
+    "example": "This computer has a fast processor.（這台電腦有快速的處理器。）",
+    "id": "中高級-processor-m1xoo3f4"
+  },
+  {
+    "level": "中高級",
+    "word": "proclaim",
+    "meaning": "宣佈、聲明",
+    "example": "The mayor will proclaim a new holiday.（市長將宣布一個新假日。）",
+    "id": "中高級-proclaim-mdcsarc"
+  },
+  {
+    "level": "中高級",
+    "word": "proficient",
+    "meaning": "熟練的、精通的",
+    "example": "She is proficient in English.（她精通英文。）",
+    "id": "中高級-proficient-m1z1dbq"
+  },
+  {
+    "level": "中高級",
+    "word": "proliferate",
+    "meaning": "迅速繁殖、猛增",
+    "example": "Rumors can proliferate quickly online.（謠言會在網路上快速擴散。）",
+    "id": "中高級-proliferate-mrp66ad"
+  },
+  {
+    "level": "中高級",
+    "word": "propagate",
+    "meaning": "宣傳、繁殖",
+    "example": "Plants propagate by seeds.（植物透過種子繁殖。）",
+    "id": "中高級-propagate-mdj7qo6"
+  },
+  {
+    "level": "中高級",
+    "word": "proportional",
+    "meaning": "相稱的、成比例的",
+    "example": "The cost is proportional to the size.（費用和尺寸成比例。）",
+    "id": "中高級-proportional-mnjvuab"
+  },
+  {
+    "level": "中高級",
+    "word": "proposition",
+    "meaning": "提議、主張；求歡",
+    "example": "His proposition sounds reasonable.（他的提議聽起來合理。）",
+    "id": "中高級-proposition-m2rzvxb"
+  },
+  {
+    "level": "中高級",
+    "word": "prosecutor",
+    "meaning": "檢察官、控方律師",
+    "example": "The prosecutor presented strong evidence.（檢察官提出有力證據。）",
+    "id": "中高級-prosecutor-m17muxk"
+  },
+  {
+    "level": "中高級",
+    "word": "prostitute",
+    "meaning": "賣淫者；濫用才能、糟蹋自己",
+    "example": "The story describes a prostitute with sympathy.（這個故事以同情的角度描寫一位性工作者。）",
+    "id": "中高級-prostitute-m1x7zfvt"
+  },
+  {
+    "level": "中高級",
+    "word": "prostitution",
+    "meaning": "賣淫",
+    "example": "Prostitution is illegal in some places.（性交易在某些地方是違法的。）",
+    "id": "中高級-prostitution-mokfc"
+  },
+  {
+    "level": "中高級",
+    "word": "prototype",
+    "meaning": "(新型汽車、機器的)原型",
+    "example": "The company tested a prototype of the new phone.（公司測試了新手機的原型。）",
+    "id": "中高級-prototype-mrgubl7"
+  },
+  {
+    "level": "中高級",
+    "word": "provided",
+    "meaning": "如果、假如、在…條件下",
+    "example": "You can join us provided you finish your work.（只要你完成工作，就可以加入我們。）",
+    "id": "中高級-provided-m1kouehh"
+  },
+  {
+    "level": "中高級",
+    "word": "provision",
+    "meaning": "供給、供應品；為…提供物品",
+    "example": "The contract includes a safety provision.（合約包含一項安全條款。）",
+    "id": "中高級-provision-mw6xugd"
+  },
+  {
+    "level": "中高級",
+    "word": "provisional",
+    "meaning": "臨時的、暫定的",
+    "example": "This is only a provisional agreement.（這只是臨時協議。）",
+    "id": "中高級-provisional-m4oxfq6"
+  },
+  {
+    "level": "中高級",
+    "word": "provocative",
+    "meaning": "挑釁的、煽動性的、引誘的",
+    "example": "His speech was provocative.（他的演講具有挑釁性。）",
+    "id": "中高級-provocative-m1k1djtu"
+  },
+  {
+    "level": "中高級",
+    "word": "proximity",
+    "meaning": "(時間或空間)鄰近",
+    "example": "The school’s proximity to the station is convenient.（學校靠近車站很方便。）",
+    "id": "中高級-proximity-mugejw4"
+  },
+  {
+    "level": "中高級",
+    "word": "psychiatric",
+    "meaning": "精神病學的、精神病治療的",
+    "example": "She received psychiatric care.（她接受精神科治療。）",
+    "id": "中高級-psychiatric-mrwoico"
+  },
+  {
+    "level": "中高級",
+    "word": "psychiatrist",
+    "meaning": "精神科醫生",
+    "example": "The psychiatrist spoke with the patient.（精神科醫師和病人談話。）",
+    "id": "中高級-psychiatrist-m6cg8at"
+  },
+  {
+    "level": "中高級",
+    "word": "psychiatry",
+    "meaning": "精神病學",
+    "example": "He studies psychiatry at medical school.（他在醫學院讀精神醫學。）",
+    "id": "中高級-psychiatry-mg8r54j"
+  },
+  {
+    "level": "中高級",
+    "word": "psychic",
+    "meaning": "超自然的、通靈的；通靈的人",
+    "example": "She claimed to have psychic powers.（她聲稱自己有通靈能力。）",
+    "id": "中高級-psychic-m19u0xx3"
+  },
+  {
+    "level": "中高級",
+    "word": "punk",
+    "meaning": "龐克搖滾樂；龐克的",
+    "example": "He likes punk music.（他喜歡龐克音樂。）",
+    "id": "中高級-punk-m1i65i7h"
+  },
+  {
+    "level": "中高級",
+    "word": "purely",
+    "meaning": "純粹地、僅僅",
+    "example": "This decision was made purely for safety.（這個決定純粹是為了安全。）",
+    "id": "中高級-purely-mwp4ic6"
+  },
+  {
+    "level": "中高級",
+    "word": "put-down",
+    "meaning": "令人難堪的話、貶損的話",
+    "example": "His comment sounded like a put-down.（他的評論聽起來像是在貶低人。）",
+    "id": "中高級-put-down-m1eect7f"
+  },
+  {
+    "level": "中高級",
+    "word": "putt",
+    "meaning": "(高爾夫球的)推球入洞；輕輕擊球",
+    "example": "He missed an easy putt.（他錯過了一個簡單的推桿。）",
+    "id": "中高級-putt-mjbaawl"
+  },
+  {
+    "level": "中高級",
+    "word": "qualifier",
+    "meaning": "合格者、資格賽",
+    "example": "The game is a qualifier for the final.（這場比賽是決賽資格賽。）",
+    "id": "中高級-qualifier-mepau7s"
+  },
+  {
+    "level": "中高級",
+    "word": "qualitative",
+    "meaning": "質量的、定性的",
+    "example": "The study used qualitative interviews.（這項研究使用質性訪談。）",
+    "id": "中高級-qualitative-m1cuwhf9"
+  },
+  {
+    "level": "中高級",
+    "word": "quantify",
+    "meaning": "以數量表示、量化",
+    "example": "It is hard to quantify happiness.（幸福很難量化。）",
+    "id": "中高級-quantify-m1ds4key"
+  },
+  {
+    "level": "中高級",
+    "word": "quantitative",
+    "meaning": "數量的、量化的",
+    "example": "The report includes quantitative data.（報告包含量化資料。）",
+    "id": "中高級-quantitative-m49302x"
+  },
+  {
+    "level": "中高級",
+    "word": "quantum",
+    "meaning": "量子",
+    "example": "Quantum physics is difficult but interesting.（量子物理很難但有趣。）",
+    "id": "中高級-quantum-mpaw1"
+  },
+  {
+    "level": "中高級",
+    "word": "quarter-final",
+    "meaning": "半準決賽",
+    "example": "Our team reached the quarter-final.（我們隊進入了八強賽。）",
+    "id": "中高級-quarter-final-maywymn"
+  },
+  {
+    "level": "中高級",
+    "word": "quarterly",
+    "meaning": "每季的、按季的；季刊",
+    "example": "We have a quarterly meeting.（我們每季開一次會。）",
+    "id": "中高級-quarterly-m1pvabnt"
+  },
+  {
+    "level": "中高級",
+    "word": "quartet",
+    "meaning": "四重奏樂團、四重唱組合",
+    "example": "A string quartet played at the wedding.（弦樂四重奏在婚禮上演奏。）",
+    "id": "中高級-quartet-mcjkhud"
+  },
+  {
+    "level": "中高級",
+    "word": "quartz",
+    "meaning": "石英",
+    "example": "Quartz is used in some watches.（石英被用在一些手錶中。）",
+    "id": "中高級-quartz-ml4da"
+  },
+  {
+    "level": "中高級",
+    "word": "quota",
+    "meaning": "定額、配額",
+    "example": "The school has a quota for new students.（學校有新生名額限制。）",
+    "id": "中高級-quota-mmfh8cu"
+  },
+  {
+    "level": "中高級",
+    "word": "racing",
+    "meaning": "賽馬、速度比賽",
+    "example": "He enjoys racing cars.（他喜歡賽車。）",
+    "id": "中高級-racing-mmubug2"
+  },
+  {
+    "level": "中高級",
+    "word": "racist",
+    "meaning": "種族主義的；種族主義者",
+    "example": "Racist jokes are harmful.（種族歧視笑話是有害的。）",
+    "id": "中高級-racist-md0fsz4"
+  },
+  {
+    "level": "中高級",
+    "word": "radioactive",
+    "meaning": "放射性的、有輻射的",
+    "example": "Radioactive waste must be handled carefully.（放射性廢料必須小心處理。）",
+    "id": "中高級-radioactive-m1tftxbk"
+  },
+  {
+    "level": "中高級",
+    "word": "ranking",
+    "meaning": "地位高的、高級的；排名",
+    "example": "Her ranking improved this year.（她今年的排名進步了。）",
+    "id": "中高級-ranking-m8fslpo"
+  },
+  {
+    "level": "中高級",
+    "word": "rap",
+    "meaning": "饒舌音樂",
+    "example": "He likes to rap with his friends.（他喜歡和朋友饒舌。）",
+    "id": "中高級-rap-mjvy8yx"
+  },
+  {
+    "level": "中高級",
+    "word": "rap",
+    "meaning": "敲擊、批評、指責",
+    "example": "The teacher gave the desk a sharp rap.（老師重敲了一下桌子。）",
+    "id": "中高級-rap-mpd0xdt"
+  },
+  {
+    "level": "中高級",
+    "word": "rape",
+    "meaning": "強暴、強姦； 強姦罪",
+    "example": "Rape is a serious crime.（強暴是嚴重犯罪。）",
+    "id": "中高級-rape-m9pxhdv"
+  },
+  {
+    "level": "中高級",
+    "word": "ratify",
+    "meaning": "正式批准、使正式生效",
+    "example": "The country will ratify the treaty.（這個國家將批准條約。）",
+    "id": "中高級-ratify-m1kn4vak"
+  },
+  {
+    "level": "中高級",
+    "word": "rating",
+    "meaning": "等級、程度",
+    "example": "The movie has a high rating.（這部電影評分很高。）",
+    "id": "中高級-rating-mte1pn"
+  },
+  {
+    "level": "中高級",
+    "word": "rave",
+    "meaning": "極力誇獎；高度稱讚的",
+    "example": "The critic wrote a rave review.（評論家寫了一篇熱烈好評。）",
+    "id": "中高級-rave-md5lzzz"
+  },
+  {
+    "level": "中高級",
+    "word": "rave",
+    "meaning": "狂歡晚會",
+    "example": "They went to a rave last night.（他們昨晚去了一場銳舞派對。）",
+    "id": "中高級-rave-mexar60"
+  },
+  {
+    "level": "中高級",
+    "word": "reactor",
+    "meaning": "核反應堆、反應器",
+    "example": "The nuclear reactor produces energy.（核反應爐產生能源。）",
+    "id": "中高級-reactor-mge7od"
+  },
+  {
+    "level": "中高級",
+    "word": "reassure",
+    "meaning": "使安心、使消除疑慮",
+    "example": "The doctor reassured the patient.（醫生安慰病人，讓他放心。）",
+    "id": "中高級-reassure-m11wuf2o"
+  },
+  {
+    "level": "中高級",
+    "word": "rebellious",
+    "meaning": "反叛的、叛亂的、反對權威的",
+    "example": "The rebellious teenager broke the rules.（那位叛逆的青少年違反規定。）",
+    "id": "中高級-rebellious-m3isszi"
+  },
+  {
+    "level": "中高級",
+    "word": "reciprocal",
+    "meaning": "互惠的、相應的",
+    "example": "Respect should be reciprocal.（尊重應該是相互的。）",
+    "id": "中高級-reciprocal-mhcqsq0"
+  },
+  {
+    "level": "中高級",
+    "word": "reclaim",
+    "meaning": "取回(以付的金錢)、恢復",
+    "example": "The city wants to reclaim the old land.（市政府想收回那片舊土地。）",
+    "id": "中高級-reclaim-mern7oh"
+  },
+  {
+    "level": "中高級",
+    "word": "reconciliation",
+    "meaning": "調解、和解",
+    "example": "The brothers hoped for reconciliation.（兄弟倆希望和解。）",
+    "id": "中高級-reconciliation-m1qvjh90"
+  },
+  {
+    "level": "中高級",
+    "word": "reconstruction",
+    "meaning": "修復、(尤指戰後的)重建",
+    "example": "Reconstruction began after the earthquake.（地震後重建開始了。）",
+    "id": "中高級-reconstruction-m44tk4z"
+  },
+  {
+    "level": "中高級",
+    "word": "recording",
+    "meaning": "(音樂、演說或影像的)錄製品",
+    "example": "The recording sounds clear.（這段錄音聽起來很清楚。）",
+    "id": "中高級-recording-m1bwp7cf"
+  },
+  {
+    "level": "中高級",
+    "word": "rectangular",
+    "meaning": "長方形的、矩形的",
+    "example": "The table is rectangular.（這張桌子是長方形的。）",
+    "id": "中高級-rectangular-m1k0lapa"
+  },
+  {
+    "level": "中高級",
+    "word": "rectify",
+    "meaning": "糾正、矯正",
+    "example": "We must rectify the mistake.（我們必須改正錯誤。）",
+    "id": "中高級-rectify-m59853k"
+  },
+  {
+    "level": "中高級",
+    "word": "redundancy",
+    "meaning": "(因勞動力過剩而造成的)裁員、多餘",
+    "example": "The company announced staff redundancy.（公司宣布裁員。）",
+    "id": "中高級-redundancy-mqha2jp"
+  },
+  {
+    "level": "中高級",
+    "word": "referendum",
+    "meaning": "公民投票",
+    "example": "The issue will be decided by referendum.（這個議題將由公投決定。）",
+    "id": "中高級-referendum-maq0o60"
+  },
+  {
+    "level": "中高級",
+    "word": "reformer",
+    "meaning": "改革者",
+    "example": "The reformer wanted to improve education.（改革者想改善教育。）",
+    "id": "中高級-reformer-mfk791"
+  },
+  {
+    "level": "中高級",
+    "word": "refrain",
+    "meaning": "避免、克制",
+    "example": "Please refrain from smoking here.（請勿在此吸菸。）",
+    "id": "中高級-refrain-m76u1su"
+  },
+  {
+    "level": "中高級",
+    "word": "refrain",
+    "meaning": "疊句、副歌",
+    "example": "The song has a simple refrain.（這首歌有簡單的副歌。）",
+    "id": "中高級-refrain-m186ea6b"
+  },
+  {
+    "level": "中高級",
+    "word": "regain",
+    "meaning": "重新獲得、返回",
+    "example": "She worked hard to regain her confidence.（她努力重新找回自信。）",
+    "id": "中高級-regain-m1lxgqw3"
+  },
+  {
+    "level": "中高級",
+    "word": "reggae",
+    "meaning": "雷鬼(音樂)",
+    "example": "I enjoy listening to reggae.（我喜歡聽雷鬼音樂。）",
+    "id": "中高級-reggae-mbqhzpz"
+  },
+  {
+    "level": "中高級",
+    "word": "regiment",
+    "meaning": "軍團、一大群(人、物)",
+    "example": "The regiment marched through the town.（軍團行進穿過城鎮。）",
+    "id": "中高級-regiment-m1z124o"
+  },
+  {
+    "level": "中高級",
+    "word": "regulator",
+    "meaning": "監督者、自動調節器",
+    "example": "This device works as a temperature regulator.（這個裝置可作為溫度調節器。）",
+    "id": "中高級-regulator-mgadgo0"
+  },
+  {
+    "level": "中高級",
+    "word": "rehabilitate",
+    "meaning": "恢復、重建",
+    "example": "The program helps prisoners rehabilitate.（這個計畫幫助囚犯復健改造。）",
+    "id": "中高級-rehabilitate-mxzakkn"
+  },
+  {
+    "level": "中高級",
+    "word": "relativity",
+    "meaning": "相對論、相對性",
+    "example": "Einstein is famous for the theory of relativity.（愛因斯坦以相對論聞名。）",
+    "id": "中高級-relativity-mcvw5pu"
+  },
+  {
+    "level": "中高級",
+    "word": "relegate",
+    "meaning": "使貶職、使降級",
+    "example": "The team was relegated to a lower league.（這支隊伍被降到較低聯盟。）",
+    "id": "中高級-relegate-m147cwjv"
+  },
+  {
+    "level": "中高級",
+    "word": "relentless",
+    "meaning": "不放棄的、無情的",
+    "example": "The rain was relentless.（雨下個不停。）",
+    "id": "中高級-relentless-m1taohrk"
+  },
+  {
+    "level": "中高級",
+    "word": "reliability",
+    "meaning": "可靠程度、可信賴性",
+    "example": "Reliability is important in a car.（可靠性對車子很重要。）",
+    "id": "中高級-reliability-m1cfu8sa"
+  },
+  {
+    "level": "中高級",
+    "word": "relieved",
+    "meaning": "感到放心的、心情放鬆的",
+    "example": "I felt relieved after the exam.（考試後我感到鬆了一口氣。）",
+    "id": "中高級-relieved-mqg5d53"
+  },
+  {
+    "level": "中高級",
+    "word": "remaining",
+    "meaning": "剩餘的、仍需處理的",
+    "example": "The remaining food is in the fridge.（剩下的食物在冰箱裡。）",
+    "id": "中高級-remaining-m1xdbc44"
+  },
+  {
+    "level": "中高級",
+    "word": "remains",
+    "meaning": "剩餘物、遺跡、遺體",
+    "example": "The remains of the old temple are still there.（古廟的遺跡仍在那裡。）",
+    "id": "中高級-remains-mrzucbx"
+  },
+  {
+    "level": "中高級",
+    "word": "reminiscent",
+    "meaning": "懷舊的、使憶起的",
+    "example": "The smell was reminiscent of my childhood.（那個氣味讓我想起童年。）",
+    "id": "中高級-reminiscent-m13jtbw4"
+  },
+  {
+    "level": "中高級",
+    "word": "remnant",
+    "meaning": "殘餘、遺跡、剩料（零頭布）；剩餘的",
+    "example": "A remnant of cloth lay on the table.（一塊剩布放在桌上。）",
+    "id": "中高級-remnant-m1asr7a"
+  },
+  {
+    "level": "中高級",
+    "word": "renewable",
+    "meaning": "（能源）可再生的；可展期的",
+    "example": "Solar power is renewable energy.（太陽能是再生能源。）",
+    "id": "中高級-renewable-mkumz85"
+  },
+  {
+    "level": "中高級",
+    "word": "renewal",
+    "meaning": "更新、恢復、續訂(契約)",
+    "example": "I need to apply for passport renewal.（我需要申請護照更新。）",
+    "id": "中高級-renewal-m1sqpgop"
+  },
+  {
+    "level": "中高級",
+    "word": "reopen",
+    "meaning": "重新開業、重新處理",
+    "example": "The store will reopen tomorrow.（這家店明天重新開門。）",
+    "id": "中高級-reopen-mjxg78w"
+  },
+  {
+    "level": "中高級",
+    "word": "reorganize",
+    "meaning": "重組、整頓",
+    "example": "The company will reorganize its teams.（公司將重組團隊。）",
+    "id": "中高級-reorganize-mhu7qll"
+  },
+  {
+    "level": "中高級",
+    "word": "repatriate",
+    "meaning": "遣返",
+    "example": "The government helped repatriate the travelers.（政府協助旅客返回本國。）",
+    "id": "中高級-repatriate-mpck1"
+  },
+  {
+    "level": "中高級",
+    "word": "repayment",
+    "meaning": "償還、分期付款額",
+    "example": "The repayment is due next month.（還款下個月到期。）",
+    "id": "中高級-repayment-mg13osy"
+  },
+  {
+    "level": "中高級",
+    "word": "repel",
+    "meaning": "擊退、趕走",
+    "example": "This spray can repel mosquitoes.（這種噴霧可以驅蚊。）",
+    "id": "中高級-repel-m1lazrwm"
+  },
+  {
+    "level": "中高級",
+    "word": "repertoire",
+    "meaning": "可表演曲目、全部才能",
+    "example": "The singer has a large repertoire.（那位歌手有大量曲目。）",
+    "id": "中高級-repertoire-m1ddaixm"
+  },
+  {
+    "level": "中高級",
+    "word": "replay",
+    "meaning": "重新比賽、重播",
+    "example": "Let’s watch the replay.（我們看重播吧。）",
+    "id": "中高級-replay-mxvfa6t"
+  },
+  {
+    "level": "中高級",
+    "word": "reportedly",
+    "meaning": "據說、據傳聞",
+    "example": "The actor reportedly left the show.（據報導，那位演員離開了節目。）",
+    "id": "中高級-reportedly-m1m9ib4k"
+  },
+  {
+    "level": "中高級",
+    "word": "repression",
+    "meaning": "鎮壓、抑制",
+    "example": "The people suffered under repression.（人民在鎮壓下受苦。）",
+    "id": "中高級-repression-mkl73wh"
+  },
+  {
+    "level": "中高級",
+    "word": "reproach",
+    "meaning": "指責；責備(的話)、恥辱",
+    "example": "Her look of reproach made him feel guilty.（她責備的眼神讓他感到內疚。）",
+    "id": "中高級-reproach-m13lk7li"
+  },
+  {
+    "level": "中高級",
+    "word": "reproduction",
+    "meaning": "繁衍、複製",
+    "example": "Reproduction is a basic function of living things.（繁殖是生物的基本功能。）",
+    "id": "中高級-reproduction-mdu746j"
+  },
+  {
+    "level": "中高級",
+    "word": "reserved",
+    "meaning": "預訂的、含蓄寡言的",
+    "example": "This seat is reserved.（這個座位被預訂了。）",
+    "id": "中高級-reserved-mk2gc59"
+  },
+  {
+    "level": "中高級",
+    "word": "resigned",
+    "meaning": "逆來順受的、死心的",
+    "example": "He looked resigned to the result.（他看起來已接受這個結果。）",
+    "id": "中高級-resigned-mw6miry"
+  },
+  {
+    "level": "中高級",
+    "word": "resonance",
+    "meaning": "宏亮、引起共鳴",
+    "example": "The room has good resonance.（這個房間有良好的共鳴。）",
+    "id": "中高級-resonance-mxej0nb"
+  },
+  {
+    "level": "中高級",
+    "word": "resonant",
+    "meaning": "宏亮的、響遍的、產生共鳴的",
+    "example": "His voice was deep and resonant.（他的聲音低沉而洪亮。）",
+    "id": "中高級-resonant-mp96xp"
+  },
+  {
+    "level": "中高級",
+    "word": "respected",
+    "meaning": "受尊敬的、被認為重要的",
+    "example": "She is a respected teacher.（她是一位受尊敬的老師。）",
+    "id": "中高級-respected-mwod90u"
+  },
+  {
+    "level": "中高級",
+    "word": "respectively",
+    "meaning": "分別、各自、依序是",
+    "example": "Tom and May are twelve and ten, respectively.（Tom 和 May 分別是十二歲和十歲。）",
+    "id": "中高級-respectively-m10u0hlw"
+  },
+  {
+    "level": "中高級",
+    "word": "restrained",
+    "meaning": "克制的、樸素的",
+    "example": "His voice was calm and restrained.（他的聲音平靜而克制。）",
+    "id": "中高級-restrained-mhk0e1g"
+  },
+  {
+    "level": "中高級",
+    "word": "restructure",
+    "meaning": "調整結構、改組",
+    "example": "The company plans to restructure its business.（公司計畫重組業務。）",
+    "id": "中高級-restructure-m1k084kc"
+  },
+  {
+    "level": "中高級",
+    "word": "resultant",
+    "meaning": "因而發生的",
+    "example": "The resultant damage was serious.（由此產生的損害很嚴重。）",
+    "id": "中高級-resultant-m1688ph"
+  },
+  {
+    "level": "中高級",
+    "word": "résumé",
+    "meaning": "概述、(求職)簡歷",
+    "example": "Please send your résumé by Friday.（請在星期五前寄出你的履歷。）",
+    "id": "中高級-r-sum-mpg6n3p"
+  },
+  {
+    "level": "中高級",
+    "word": "retailer",
+    "meaning": "零售商、零售店",
+    "example": "The retailer sells shoes online.（這家零售商在網路上賣鞋。）",
+    "id": "中高級-retailer-m1q6laa4"
+  },
+  {
+    "level": "中高級",
+    "word": "retention",
+    "meaning": "保持、維持、記憶力",
+    "example": "Customer retention is important.（留住顧客很重要。）",
+    "id": "中高級-retention-m1x95ibx"
+  },
+  {
+    "level": "中高級",
+    "word": "retrieval",
+    "meaning": "取回、索回",
+    "example": "Data retrieval took a few seconds.（資料擷取花了幾秒鐘。）",
+    "id": "中高級-retrieval-m1iual11"
+  },
+  {
+    "level": "中高級",
+    "word": "retrospect",
+    "meaning": "回顧、回憶",
+    "example": "In retrospect, I should have studied harder.（回想起來，我應該更努力讀書。）",
+    "id": "中高級-retrospect-m3x8y9c"
+  },
+  {
+    "level": "中高級",
+    "word": "retrospection",
+    "meaning": "回顧、回憶",
+    "example": "Retrospection can help us learn from mistakes.（回顧能幫助我們從錯誤中學習。）",
+    "id": "中高級-retrospection-m3x8y9c"
+  },
+  {
+    "level": "中高級",
+    "word": "retrospective",
+    "meaning": "回顧的、溯及既往的",
+    "example": "The museum held a retrospective of the artist’s work.（博物館舉辦了那位藝術家的回顧展。）",
+    "id": "中高級-retrospective-m1802bet"
+  },
+  {
+    "level": "中高級",
+    "word": "revealing",
+    "meaning": "揭露真相的、過分暴露的",
+    "example": "Her smile was revealing.（她的微笑透露了很多。）",
+    "id": "中高級-revealing-m1t0wus3"
+  },
+  {
+    "level": "中高級",
+    "word": "rhetorical",
+    "meaning": "修辭學的、反詰的、誇張的",
+    "example": "That was a rhetorical question.（那是個反問句。）",
+    "id": "中高級-rhetorical-mux4mao"
+  },
+  {
+    "level": "中高級",
+    "word": "rig",
+    "meaning": "(以不正當手段)操縱、裝配；裝備、鑽井設備",
+    "example": "The workers set up an oil rig.（工人架設了一座鑽油平台。）",
+    "id": "中高級-rig-mx7o40v"
+  },
+  {
+    "level": "中高級",
+    "word": "right-wing",
+    "meaning": "右翼的、右派的；右派",
+    "example": "The right-wing party won more seats.（右翼政黨贏得更多席次。）",
+    "id": "中高級-right-wing-m1lvk5ar"
+  },
+  {
+    "level": "中高級",
+    "word": "rigor",
+    "meaning": "嚴酷、艱苦、嚴謹",
+    "example": "The course requires academic rigor.（這門課需要學術嚴謹。）",
+    "id": "中高級-rigor-mr3elv"
+  },
+  {
+    "level": "中高級",
+    "word": "riotous",
+    "meaning": "暴亂的、狂歡的",
+    "example": "The crowd became riotous.（人群變得騷亂。）",
+    "id": "中高級-riotous-m10cdcka"
+  },
+  {
+    "level": "中高級",
+    "word": "risky",
+    "meaning": "有危險的、有風險的",
+    "example": "This plan is risky.（這個計畫有風險。）",
+    "id": "中高級-risky-m1eb7cxk"
+  },
+  {
+    "level": "中高級",
+    "word": "roller",
+    "meaning": "滾筒、捲髮器",
+    "example": "Use a roller to paint the wall.（用滾筒刷牆。）",
+    "id": "中高級-roller-mjvxdpb"
+  },
+  {
+    "level": "中高級",
+    "word": "roommate",
+    "meaning": "室友",
+    "example": "My roommate is very quiet.（我的室友很安靜。）",
+    "id": "中高級-roommate-mg1pj"
+  },
+  {
+    "level": "中高級",
+    "word": "rotary",
+    "meaning": "旋轉的",
+    "example": "The club has a rotary leadership system.（這個社團採輪流領導制度。）",
+    "id": "中高級-rotary-mflrvq"
+  },
+  {
+    "level": "中高級",
+    "word": "rouge",
+    "meaning": "胭脂、口紅；擦胭脂、塗口紅",
+    "example": "She put rouge on her cheeks.（她在臉頰上擦了胭脂。）",
+    "id": "中高級-rouge-md0xdy"
+  },
+  {
+    "level": "中高級",
+    "word": "rouse",
+    "meaning": "喚醒、鼓舞",
+    "example": "The speech roused the crowd.（那場演講激勵了群眾。）",
+    "id": "中高級-rouse-m1x5jchg"
+  }
+]

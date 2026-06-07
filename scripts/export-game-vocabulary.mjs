@@ -9,9 +9,10 @@ const CHUNK_SIZE = 1000;
 const PLACEHOLDER_TRACKS = [
   { id: "toeic", title: "TOEIC" },
   { id: "toefl", title: "TOEFL" },
-  { id: "ielts", title: "IELTS" },
-  { id: "gept", title: "GEPT" }
+  { id: "ielts", title: "IELTS" }
 ];
+const workbookPathCache = new Map();
+let levelExampleLookupCache = null;
 const TRACK_DEFINITIONS = [
   {
     id: "junior-high",
@@ -19,6 +20,7 @@ const TRACK_DEFINITIONS = [
     sourceWorkbookKey: "level-1-level-2-workbook",
     workbookPattern: /L1L2\.xlsx$/i,
     sheets: ["Level 1", "Level 2"],
+    type: "level-workbook",
     available: true
   },
   {
@@ -27,6 +29,7 @@ const TRACK_DEFINITIONS = [
     sourceWorkbookKey: "level-3-level-4-workbook",
     workbookPattern: /L3L6\.xlsx$/i,
     sheets: ["Level 3", "Level 4"],
+    type: "level-workbook",
     available: true
   },
   {
@@ -35,11 +38,48 @@ const TRACK_DEFINITIONS = [
     sourceWorkbookKey: "level-5-level-6-workbook",
     workbookPattern: /L3L6\.xlsx$/i,
     sheets: ["Level 5", "Level 6"],
+    type: "level-workbook",
+    available: true
+  },
+  {
+    id: "gept-elementary",
+    title: "GEPT Elementary",
+    sourceWorkbookKey: "gept-with-levels-kk-workbook",
+    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
+    sheets: ["High"],
+    geptGrade: "初級",
+    type: "gept-workbook",
+    available: true
+  },
+  {
+    id: "gept-intermediate",
+    title: "GEPT Intermediate",
+    sourceWorkbookKey: "gept-with-levels-kk-workbook",
+    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
+    sheets: ["High"],
+    geptGrade: "中級",
+    type: "gept-workbook",
+    available: true
+  },
+  {
+    id: "gept-high-intermediate",
+    title: "GEPT High-Intermediate",
+    sourceWorkbookKey: "gept-with-levels-kk-workbook",
+    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
+    sheets: ["High"],
+    geptGrade: "中高級",
+    type: "gept-workbook",
     available: true
   }
 ];
 
 function findWorkbookPath(workbookPattern) {
+  const cacheKey = workbookPattern.toString();
+
+  if (workbookPathCache.has(cacheKey)) {
+    return workbookPathCache.get(cacheKey);
+  }
+
   const workbookName = fs
     .readdirSync(process.cwd())
     .find((fileName) => workbookPattern.test(fileName) && !/backup|before/i.test(fileName));
@@ -48,46 +88,82 @@ function findWorkbookPath(workbookPattern) {
     throw new Error(`Could not find a workbook matching ${workbookPattern} in the project root.`);
   }
 
-  return path.resolve(workbookName);
+  const resolvedPath = path.resolve(workbookName);
+  workbookPathCache.set(cacheKey, resolvedPath);
+
+  return resolvedPath;
 }
 
-function readVocabularyRows(workbookPath, sheetNames) {
-  const workbook = xlsx.readFile(workbookPath);
-  const vocabulary = [];
+function readSheetRows(workbook, sheetName) {
+  const sheet = workbook.Sheets[sheetName];
 
-  for (const sheetName of sheetNames) {
-    const sheet = workbook.Sheets[sheetName];
-
-    if (!sheet) {
-      throw new Error(`Missing worksheet: ${sheetName}`);
-    }
-
-    const rows = xlsx.utils.sheet_to_json(sheet, {
-      header: 1,
-      defval: "",
-      raw: false
-    });
-
-    rows.slice(1).forEach((row) => {
-      const word = String(row[1] ?? "").trim();
-      const meaning = String(row[2] ?? "").trim();
-      const example = String(row[4] || row[3] || "").trim();
-
-      if (!word || !meaning) {
-        return;
-      }
-
-      const level = sheetName.replace("Level ", "L");
-
-      vocabulary.push({
-        level,
-        word,
-        meaning,
-        example
-      });
-    });
+  if (!sheet) {
+    throw new Error(`Missing worksheet: ${sheetName}`);
   }
 
+  return xlsx.utils.sheet_to_json(sheet, {
+    header: 1,
+    defval: "",
+    raw: false
+  });
+}
+
+function normalizeWord(text) {
+  return String(text ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+function expandWordVariants(text) {
+  const parts = String(text ?? "")
+    .split("/")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const variants = new Set();
+
+  for (const part of parts) {
+    let expanded = new Set([part]);
+
+    while (true) {
+      let changed = false;
+      const nextExpanded = new Set();
+
+      for (const item of expanded) {
+        const match = /\(([^()]+)\)/.exec(item);
+
+        if (!match) {
+          nextExpanded.add(item);
+          continue;
+        }
+
+        changed = true;
+        const prefix = item.slice(0, match.index);
+        const suffix = item.slice(match.index + match[0].length);
+        nextExpanded.add(`${prefix}${suffix}`);
+        nextExpanded.add(`${prefix}${match[1]}${suffix}`);
+      }
+
+      expanded = nextExpanded;
+
+      if (!changed) {
+        break;
+      }
+    }
+
+    for (const item of expanded) {
+      const normalized = normalizeWord(item);
+
+      if (normalized) {
+        variants.add(normalized);
+      }
+    }
+  }
+
+  return variants;
+}
+
+function normalizeVocabularyEntries(vocabulary) {
   const groups = new Map();
 
   for (const entry of vocabulary) {
@@ -129,6 +205,142 @@ function readVocabularyRows(workbookPath, sheetNames) {
   return normalizedVocabulary;
 }
 
+function readLevelVocabularyRows(workbookPath, sheetNames) {
+  const workbook = xlsx.readFile(workbookPath);
+  const vocabulary = [];
+
+  for (const sheetName of sheetNames) {
+    const rows = readSheetRows(workbook, sheetName);
+
+    rows.slice(1).forEach((row) => {
+      const word = String(row[1] ?? "").trim();
+      const meaning = String(row[2] ?? "").trim();
+      const example = String(row[4] || row[3] || "").trim();
+
+      if (!word || !meaning) {
+        return;
+      }
+
+      const level = sheetName.replace("Level ", "L");
+
+      vocabulary.push({
+        level,
+        word,
+        meaning,
+        example
+      });
+    });
+  }
+
+  return normalizeVocabularyEntries(vocabulary);
+}
+
+function buildLevelExampleLookup() {
+  if (levelExampleLookupCache) {
+    return levelExampleLookupCache;
+  }
+
+  const sourceDefinitions = [
+    {
+      workbookPattern: /L1L2\.xlsx$/i,
+      sheets: ["Level 1", "Level 2"]
+    },
+    {
+      workbookPattern: /L3L6\.xlsx$/i,
+      sheets: ["Level 3", "Level 4", "Level 5", "Level 6"]
+    }
+  ];
+  const exampleLookup = new Map();
+
+  for (const source of sourceDefinitions) {
+    const workbook = xlsx.readFile(findWorkbookPath(source.workbookPattern));
+
+    for (const sheetName of source.sheets) {
+      const rows = readSheetRows(workbook, sheetName);
+      const sheetLookup = exampleLookup.get(sheetName) ?? new Map();
+
+      rows.slice(1).forEach((row) => {
+        const word = String(row[1] ?? "").trim();
+        const example = String(row[4] || row[3] || "").trim();
+
+        if (!word || !example) {
+          return;
+        }
+
+        for (const variant of expandWordVariants(word)) {
+          if (!sheetLookup.has(variant)) {
+            sheetLookup.set(variant, example);
+          }
+        }
+      });
+
+      exampleLookup.set(sheetName, sheetLookup);
+    }
+  }
+
+  levelExampleLookupCache = exampleLookup;
+
+  return levelExampleLookupCache;
+}
+
+function formatPrimaryLevel(levelText, fallbackLevel) {
+  const normalizedLevel = String(levelText ?? "").trim();
+  const match = /^Level\s+(\d+)$/i.exec(normalizedLevel);
+
+  if (match) {
+    return `L${match[1]}`;
+  }
+
+  return fallbackLevel;
+}
+
+function resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup) {
+  const normalizedLevel = String(primaryLevel ?? "").trim();
+
+  if (normalizedLevel) {
+    const levelExamples = exampleLookup.get(normalizedLevel);
+
+    if (levelExamples) {
+      for (const variant of expandWordVariants(word)) {
+        const example = levelExamples.get(variant);
+
+        if (example) {
+          return example;
+        }
+      }
+    }
+  }
+
+  return fallbackExample;
+}
+
+function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
+  const workbook = xlsx.readFile(workbookPath);
+  const rows = readSheetRows(workbook, definition.sheets[0]);
+  const vocabulary = [];
+
+  rows.slice(1).forEach((row) => {
+    const word = String(row[0] ?? "").trim();
+    const meaning = String(row[2] ?? "").trim();
+    const geptGrade = String(row[4] ?? "").trim();
+    const primaryLevel = String(row[7] ?? "").trim();
+    const fallbackExample = String(row[8] ?? "").trim();
+
+    if (geptGrade !== definition.geptGrade || !word || !meaning) {
+      return;
+    }
+
+    vocabulary.push({
+      level: formatPrimaryLevel(primaryLevel, definition.geptGrade),
+      word,
+      meaning,
+      example: resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup)
+    });
+  });
+
+  return normalizeVocabularyEntries(vocabulary);
+}
+
 function chunkItems(items, chunkSize) {
   const chunks = [];
 
@@ -158,7 +370,11 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
 
 function buildTrack(definition) {
   const workbookPath = findWorkbookPath(definition.workbookPattern);
-  const vocabulary = readVocabularyRows(workbookPath, definition.sheets);
+  const exampleLookup = definition.type === "gept-workbook" ? buildLevelExampleLookup() : null;
+  const vocabulary =
+    definition.type === "gept-workbook"
+      ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
+      : readLevelVocabularyRows(workbookPath, definition.sheets);
   const chunks = chunkItems(vocabulary, CHUNK_SIZE);
   const trackOutputDir = path.join(TRACKS_ROOT, definition.id);
 
