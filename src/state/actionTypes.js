@@ -6,6 +6,7 @@ export const actionTypes = {
   updateSetting: "UPDATE_SETTING",
   toggleSetting: "TOGGLE_SETTING",
   toggleStarredWord: "TOGGLE_STARRED_WORD",
+  addStarredWords: "ADD_STARRED_WORDS",
   toggleKnownWord: "TOGGLE_KNOWN_WORD",
   markWordSeen: "MARK_WORD_SEEN",
   goHome: "GO_HOME",

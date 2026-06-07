@@ -49,6 +49,8 @@ export const zhTWMessages = {
   reviewAnswer: "題目 / 正確答案 / 你的作答",
   timedOut: "未作答",
   restart: "重新開始",
+  addWrongWordsToWordList: "答錯單字加入生字表",
+  addedWrongWordsToWordList: "已加入生字表",
   remove: "移除",
   emptyWordList: "你的生詞表還沒有單字。",
   emptyKnownWords: "你的已會單詞還沒有單字。",

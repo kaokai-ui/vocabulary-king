@@ -18,8 +18,13 @@ export default function QuizScreen({
     return null;
   }
 
-  const instructionText = question.type === "cloze-choice" ? text.tapCorrectClozeAnswer : text.tapCorrectAnswer;
+  const isClozeQuestion = question.type === "cloze-choice";
+  const instructionText = isClozeQuestion ? null : text.tapCorrectAnswer;
   const showTimer = timeLeftSeconds != null;
+  const quizStageClassName = ["quiz-stage", isClozeQuestion ? "quiz-stage--cloze" : ""].filter(Boolean).join(" ");
+  const wordHeadingClassName = ["word-heading", isClozeQuestion ? "word-heading--left" : "word-heading--center"]
+    .filter(Boolean)
+    .join(" ");
 
   return (
     <main className="game-shell">
@@ -31,18 +36,18 @@ export default function QuizScreen({
         </div>
       </header>
 
-      <section className="quiz-stage">
+      <section className={quizStageClassName}>
         <div className="quiz-heading">
           <span className="pill">{question.level}</span>
           <strong>
             {currentIndex + 1} / {totalQuestions}
           </strong>
         </div>
-        <div className="word-heading word-heading--center">
-          <h1>{question.prompt}</h1>
+        <div className={wordHeadingClassName}>
+          <h1 className="quiz-prompt">{question.prompt}</h1>
           {question.promptVoice ? <SpeakerButton onClick={() => onPronounce(question.promptVoice)} /> : null}
         </div>
-        <p>{instructionText}</p>
+        {instructionText ? <p>{instructionText}</p> : null}
         {pronunciationMessage ? <p className="flashcard-example">{pronunciationMessage}</p> : null}
 
         <div className="quiz-options">

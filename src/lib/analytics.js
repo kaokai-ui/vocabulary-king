@@ -22,13 +22,17 @@ function getGtag() {
   return window.gtag;
 }
 
-export function trackScreenView(screenConfig = DEFAULT_SCREEN, details = {}) {
+export function trackEvent(eventName, details = {}) {
   const gtag = getGtag();
 
   if (!gtag) {
     return;
   }
 
+  gtag("event", eventName, details);
+}
+
+export function trackScreenView(screenConfig = DEFAULT_SCREEN, details = {}) {
   const { pagePath, pageTitle, screenName } = { ...DEFAULT_SCREEN, ...screenConfig };
   const basePath = getBasePath();
   const fullPath = `${basePath}${pagePath}`;
@@ -39,6 +43,6 @@ export function trackScreenView(screenConfig = DEFAULT_SCREEN, details = {}) {
     ...details
   };
 
-  gtag("event", "page_view", payload);
-  gtag("event", "screen_view", payload);
+  trackEvent("page_view", payload);
+  trackEvent("screen_view", payload);
 }

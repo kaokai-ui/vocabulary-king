@@ -28,6 +28,22 @@ describe("progressReducer", () => {
     expect(otherTrack.byTrack["senior-high"].starredWordIds).toEqual(["word-2"]);
   });
 
+  it("adds multiple wrong-answer words to the word list without duplicates", () => {
+    const seededState = reduce(initialState, {
+      type: actionTypes.toggleStarredWord,
+      payload: "word-1",
+      meta: { trackId: "junior-high" }
+    });
+
+    const nextState = reduce(seededState, {
+      type: actionTypes.addStarredWords,
+      payload: ["word-1", "word-2", "word-2", null],
+      meta: { trackId: "junior-high" }
+    });
+
+    expect(nextState.byTrack["junior-high"].starredWordIds).toEqual(["word-1", "word-2"]);
+  });
+
   it("hydrates persisted progress", () => {
     const nextState = reduce(initialState, {
       type: actionTypes.hydratePersistence,

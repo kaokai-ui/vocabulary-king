@@ -57,6 +57,12 @@
   font-size: clamp(3rem, 9vw, 6rem);
 }
 
+.quiz-prompt {
+  margin: 0;
+  white-space: pre-line;
+  text-wrap: balance;
+}
+
 .flashcard-word-lines {
   display: flex;
   flex-direction: column;
@@ -74,6 +80,12 @@
 
 .word-heading--center {
   justify-content: center;
+}
+
+.word-heading--left {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flashcard-meaning {
@@ -107,6 +119,14 @@
   text-align: center;
 }
 
+.quiz-stage--cloze .quiz-prompt {
+  font-size: clamp(2rem, 5vw, 3.7rem);
+  line-height: 1.15;
+  width: 100%;
+  text-align: left;
+  text-wrap: pretty;
+}
+
 .quiz-options {
   width: min(760px, 100%);
   display: grid;
@@ -121,6 +141,10 @@
   align-items: center;
   gap: 14px;
   text-align: left;
+}
+
+.quiz-option strong {
+  line-height: 1.25;
 }
 
 .quiz-option span {

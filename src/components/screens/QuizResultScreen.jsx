@@ -1,11 +1,21 @@
 import StageHeader from "../shared/StageHeader";
 
-export default function QuizResultScreen({ text, quiz, onHome, onRestartQuiz }) {
+export default function QuizResultScreen({
+  text,
+  quiz,
+  wrongWordIds = [],
+  savedWrongWordCount = 0,
+  onSaveWrongWords,
+  onHome,
+  onRestartQuiz
+}) {
   if (!quiz) {
     return null;
   }
 
   const columns = text.reviewAnswer.split(" / ");
+  const hasWrongWords = wrongWordIds.length > 0;
+  const savedAllWrongWords = hasWrongWords && savedWrongWordCount >= wrongWordIds.length;
 
   return (
     <main className="stage-shell">
@@ -53,6 +63,15 @@ export default function QuizResultScreen({ text, quiz, onHome, onRestartQuiz }) 
           <button className="solid-button" type="button" onClick={() => onRestartQuiz(quiz.questionCount, quiz.mode)}>
             {text.restart}
           </button>
+          {hasWrongWords ? (
+            <button
+              className={savedAllWrongWords ? "ghost-button ghost-button--active" : "ghost-button"}
+              type="button"
+              onClick={() => onSaveWrongWords?.(wrongWordIds)}
+            >
+              {savedAllWrongWords ? text.addedWrongWordsToWordList : text.addWrongWordsToWordList}
+            </button>
+          ) : null}
           <button className="ghost-button" type="button" onClick={onHome}>
             {text.home}
           </button>

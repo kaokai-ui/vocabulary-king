@@ -126,6 +126,18 @@ export const screenRegistry = {
     <QuizResultScreen
       text={context.text}
       quiz={context.session.quiz}
+      wrongWordIds={[
+        ...new Set(
+          (context.session.quiz?.answers ?? [])
+            .filter((answer) => !answer.isCorrect)
+            .map((answer) => answer.wordId)
+            .filter(Boolean)
+        )
+      ]}
+      savedWrongWordCount={(context.session.quiz?.answers ?? []).filter(
+        (answer) => !answer.isCorrect && context.progress.starredWordIds.includes(answer.wordId)
+      ).length}
+      onSaveWrongWords={context.actions.addStarredWords}
       onHome={context.actions.goHome}
       onRestartQuiz={context.actions.startQuiz}
     />

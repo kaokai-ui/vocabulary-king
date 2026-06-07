@@ -68,6 +68,45 @@ This migration is handled in:
 - `src/lib/storage.js`
 - `src/state/reducers/settingsReducer.js`
 
+## Build-Time vs Runtime Migration
+
+There are two different migration layers in the project:
+
+### 1. Build-time vocabulary migration
+
+This happens when the data files are regenerated during:
+
+- `npm run build:vocab`
+- `npm run build`
+
+Example responsibilities:
+
+- merging duplicate GEPT rows such as one word split across multiple parts of speech
+- regenerating `public/data/catalog.json`
+- regenerating `public/data/tracks/<track-id>/*.json`
+
+This logic lives primarily in:
+
+- `scripts/export-game-vocabulary.mjs`
+
+Build-time migration changes the shipped vocabulary dataset, but it does not touch each player's saved local progress directly.
+
+### 2. Runtime player-data migration
+
+This happens in the browser when a player opens the app and the active vocabulary track is loaded.
+
+Example responsibilities:
+
+- remapping old saved word ids to current vocabulary ids
+- preserving starred words after vocabulary merges
+- preserving known words and accumulated word stats after id changes
+
+This logic lives primarily in:
+
+- `src/lib/progress.js`
+
+Runtime migration is necessary because each player's saved data lives on their own device, so it cannot be rewritten during the build step.
+
 ## Size Snapshot
 
 Approximate raw JSON size per currently available track:

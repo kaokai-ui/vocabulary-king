@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { trackScreenView } from "./analytics";
+import { trackEvent, trackScreenView } from "./analytics";
 
 describe("trackScreenView", () => {
   afterEach(() => {
@@ -41,6 +41,26 @@ describe("trackScreenView", () => {
         page_path: expect.stringContaining("/stats"),
         screen_name: "stats",
         vocabulary_track: "senior-high"
+      })
+    );
+  });
+
+  it("sends custom events through gtag", () => {
+    globalThis.window = {
+      gtag: vi.fn()
+    };
+
+    trackEvent("select_vocabulary_track", {
+      vocabulary_track: "gept-intermediate",
+      previous_vocabulary_track: "junior-high"
+    });
+
+    expect(globalThis.window.gtag).toHaveBeenCalledWith(
+      "event",
+      "select_vocabulary_track",
+      expect.objectContaining({
+        vocabulary_track: "gept-intermediate",
+        previous_vocabulary_track: "junior-high"
       })
     );
   });

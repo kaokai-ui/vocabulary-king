@@ -8,6 +8,16 @@ function toggleStarredWordIds(starredWordIds, wordId) {
     : [...starredWordIds, wordId];
 }
 
+function addStarredWordIds(starredWordIds, wordIds) {
+  const nextWordIds = Array.isArray(wordIds) ? wordIds.filter(Boolean) : [];
+
+  if (nextWordIds.length === 0) {
+    return starredWordIds;
+  }
+
+  return [...new Set([...starredWordIds, ...nextWordIds])];
+}
+
 function toggleKnownWordIds(knownWordIds, wordId) {
   return knownWordIds.includes(wordId)
     ? knownWordIds.filter((currentWordId) => currentWordId !== wordId)
@@ -33,6 +43,16 @@ export function progressReducer(state, action, fallbackTrackId) {
       return setTrackProgress(state, trackId, {
         ...trackProgress,
         starredWordIds: toggleStarredWordIds(trackProgress.starredWordIds, action.payload)
+      });
+    }
+
+    case actionTypes.addStarredWords: {
+      const trackId = resolveTrackId(action, fallbackTrackId);
+      const trackProgress = getTrackProgress(state, trackId);
+
+      return setTrackProgress(state, trackId, {
+        ...trackProgress,
+        starredWordIds: addStarredWordIds(trackProgress.starredWordIds, action.payload)
       });
     }
 

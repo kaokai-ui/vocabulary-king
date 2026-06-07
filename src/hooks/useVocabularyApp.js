@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { normalizeVocabularyTrack } from "../constants/vocabularyTracks";
 import { messages } from "../i18n/messages";
 import { countProgress, createPracticeDeck, getResumeScreen } from "../lib/appState";
+import { trackEvent } from "../lib/analytics";
 import { loadPersistedAppState, savePersistedAppState } from "../lib/persistence";
 import { getTrackProgress, isTrackProgressEqual, migrateTrackProgress } from "../lib/progress";
 import { isMasteredWord, shuffle } from "../lib/game";
@@ -146,9 +148,20 @@ export function useVocabularyApp(vocabulary) {
   }, []);
 
   function updateSetting(key, value) {
+    const nextValue = key === "vocabularyTrack" ? normalizeVocabularyTrack(value) : value;
+
+    if (key === "vocabularyTrack" && nextValue !== settings.vocabularyTrack) {
+      trackEvent("select_vocabulary_track", {
+        vocabulary_track: nextValue,
+        previous_vocabulary_track: settings.vocabularyTrack,
+        language: settings.locale,
+        screen_name: session.screen
+      });
+    }
+
     dispatch({
       type: actionTypes.updateSetting,
-      payload: { key, value }
+      payload: { key, value: nextValue }
     });
   }
 
@@ -163,6 +176,16 @@ export function useVocabularyApp(vocabulary) {
     dispatch({
       type: actionTypes.toggleStarredWord,
       payload: wordId,
+      meta: {
+        trackId: activeTrackId
+      }
+    });
+  }
+
+  function addStarredWords(wordIds) {
+    dispatch({
+      type: actionTypes.addStarredWords,
+      payload: wordIds,
       meta: {
         trackId: activeTrackId
       }
@@ -250,6 +273,7 @@ export function useVocabularyApp(vocabulary) {
       updateSetting,
       toggleSetting,
       toggleStarredWord,
+      addStarredWords,
       toggleKnownWord,
       pronounce,
       startFlashcards,

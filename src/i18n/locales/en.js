@@ -50,6 +50,8 @@ export const enMessages = {
   reviewAnswer: "Prompt / Correct answer / Your answer",
   timedOut: "No answer",
   restart: "Restart",
+  addWrongWordsToWordList: "Save wrong words",
+  addedWrongWordsToWordList: "Wrong words saved",
   remove: "Remove",
   emptyWordList: "Your word list is empty.",
   emptyKnownWords: "Your known-word list is empty.",
