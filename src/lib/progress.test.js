@@ -19,6 +19,16 @@ const vocabulary = [
   }
 ];
 
+const mergedVocabulary = [
+  {
+    id: buildStableVocabularyId("L5", "stern", "noun 船尾\nadj. 嚴厲的、嚴峻的"),
+    level: "L5",
+    word: "stern",
+    meaning: "noun 船尾\nadj. 嚴厲的、嚴峻的",
+    example: ""
+  }
+];
+
 describe("progress helpers", () => {
   it("returns isolated track progress from the namespaced store", () => {
     const progress = setTrackProgress(
@@ -60,6 +70,45 @@ describe("progress helpers", () => {
       correctCount: 1,
       wrongCount: 0,
       lastSeenAt: 10
+    });
+  });
+
+  it("migrates prior stable ids to a merged entry when the word-level pair is now unique", () => {
+    const migrated = migrateTrackProgress(
+      {
+        starredWordIds: [
+          buildStableVocabularyId("L5", "stern", "船尾"),
+          buildStableVocabularyId("L5", "stern", "嚴厲的、嚴峻的")
+        ],
+        knownWordIds: [buildStableVocabularyId("L5", "stern", "船尾")],
+        wordStats: {
+          [buildStableVocabularyId("L5", "stern", "船尾")]: {
+            seenCount: 2,
+            correctCount: 1,
+            wrongCount: 0,
+            lastSeenAt: 10
+          },
+          [buildStableVocabularyId("L5", "stern", "嚴厲的、嚴峻的")]: {
+            seenCount: 3,
+            correctCount: 2,
+            wrongCount: 1,
+            lastSeenAt: 20
+          }
+        },
+        quizHistory: []
+      },
+      mergedVocabulary
+    );
+
+    const mergedId = buildStableVocabularyId("L5", "stern", "noun 船尾\nadj. 嚴厲的、嚴峻的");
+
+    expect(migrated.starredWordIds).toEqual([mergedId]);
+    expect(migrated.knownWordIds).toEqual([mergedId]);
+    expect(migrated.wordStats[mergedId]).toMatchObject({
+      seenCount: 5,
+      correctCount: 3,
+      wrongCount: 1,
+      lastSeenAt: 20
     });
   });
 });
