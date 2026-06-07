@@ -20,7 +20,7 @@ export default function WordListScreen({ text, words, pronunciationMessage, onHo
                   </div>
                   <span className="pill">{word.level}</span>
                 </div>
-                <p>{word.meaning}</p>
+                <p className="word-row__meaning">{word.meaning}</p>
                 {word.example ? (
                   <div className="word-row__example-wrap">
                     <p className="word-row__example">{word.example}</p>

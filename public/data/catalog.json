@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T04:10:30.113Z",
+  "generatedAt": "2026-06-07T05:31:32.573Z",
   "tracks": {
     "junior-high": {
       "id": "junior-high",
@@ -81,7 +81,7 @@
       "available": true,
       "title": "GEPT Elementary",
       "sourceWorkbookKey": "gept-with-levels-kk-workbook",
-      "totalWords": 2397,
+      "totalWords": 2218,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -97,7 +97,7 @@
         {
           "id": "gept-elementary-chunk-3",
           "path": "data/tracks/gept-elementary/chunk-003.json",
-          "wordCount": 397
+          "wordCount": 218
         }
       ]
     },
@@ -106,7 +106,7 @@
       "available": true,
       "title": "GEPT Intermediate",
       "sourceWorkbookKey": "gept-with-levels-kk-workbook",
-      "totalWords": 2686,
+      "totalWords": 2568,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -122,7 +122,7 @@
         {
           "id": "gept-intermediate-chunk-3",
           "path": "data/tracks/gept-intermediate/chunk-003.json",
-          "wordCount": 686
+          "wordCount": 568
         }
       ]
     },
@@ -131,7 +131,7 @@
       "available": true,
       "title": "GEPT High-Intermediate",
       "sourceWorkbookKey": "gept-with-levels-kk-workbook",
-      "totalWords": 3305,
+      "totalWords": 3093,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -152,7 +152,7 @@
         {
           "id": "gept-high-intermediate-chunk-4",
           "path": "data/tracks/gept-high-intermediate/chunk-004.json",
-          "wordCount": 305
+          "wordCount": 93
         }
       ]
     },

@@ -1,4804 +1,3978 @@
 [
   {
     "level": "L4",
-    "word": "representation",
-    "meaning": "代表、表現",
-    "example": "The chart is a simple representation of the data.（這張圖表是資料的簡單呈現。）",
-    "id": "L4-representation-m15qn3o2"
-  },
-  {
-    "level": "L4",
-    "word": "reputation",
-    "meaning": "名譽、名聲",
-    "example": "The restaurant has a good reputation.（這家餐廳有好名聲。）",
-    "id": "L4-reputation-m1qba2ly"
-  },
-  {
-    "level": "L4",
-    "word": "rescue",
-    "meaning": "援救、營救",
-    "example": "The firefighters came to rescue the child.（消防員來救那個孩子。）",
-    "id": "L4-rescue-m1cndpna"
-  },
-  {
-    "level": "L4",
-    "word": "research",
-    "meaning": "研究、調查",
-    "example": "Students conduct research on various topics. (學生對各種主題進行研究。)",
-    "id": "L4-research-m1mz69id"
-  },
-  {
-    "level": "L4",
-    "word": "researcher",
-    "meaning": "研究人員",
-    "example": "The researcher studied animal behavior.（研究員研究動物行為。）",
-    "id": "L4-researcher-mfnju15"
-  },
-  {
-    "level": "L4",
-    "word": "resemble",
-    "meaning": "看起來像",
-    "example": "The two sisters resemble each other.（這對姊妹彼此很像。）",
-    "id": "L4-resemble-mflmy1h"
-  },
-  {
-    "level": "L4",
-    "word": "reservation",
-    "meaning": "預訂、訂位",
-    "example": "We made a reservation for dinner.（我們預訂了晚餐座位。）",
-    "id": "L4-reservation-m17xmmfu"
-  },
-  {
-    "level": "L4",
-    "word": "resign",
-    "meaning": "辭職",
-    "example": "He decided to resign from his job.（他決定辭職。）",
-    "id": "L4-resign-mp562"
-  },
-  {
-    "level": "L4",
-    "word": "resignation",
-    "meaning": "辭職、辭呈",
-    "example": "Her resignation surprised her coworkers.（她的辭職讓同事驚訝。）",
-    "id": "L4-resignation-m9xtf82"
-  },
-  {
-    "level": "L4",
-    "word": "resistance",
-    "meaning": "抵抗、反抗",
-    "example": "The material has strong resistance to heat.（這種材料有很強的耐熱性。）",
-    "id": "L4-resistance-m17fgiuh"
-  },
-  {
-    "level": "L4",
-    "word": "resolution",
-    "meaning": "決心、決議、解決",
-    "example": "My New Year’s resolution is to read more.（我的新年新希望是多閱讀。）",
-    "id": "L4-resolution-mqa182y"
-  },
-  {
-    "level": "L4",
-    "word": "resolve",
-    "meaning": "解決、決心",
-    "example": "We need to resolve this problem quickly.（我們需要快速解決這個問題。）",
-    "id": "L4-resolve-m1jt54oj"
-  },
-  {
-    "level": "L4",
-    "word": "restore",
-    "meaning": "恢復、復原",
-    "example": "The workers restored the old temple.（工人修復了那座古廟。）",
-    "id": "L4-restore-mxz1zao"
-  },
-  {
-    "level": "L4",
-    "word": "restriction",
-    "meaning": "限制",
-    "example": "There is a restriction on parking here.（這裡有停車限制。）",
-    "id": "L4-restriction-mq0o6"
-  },
-  {
-    "level": "L4",
-    "word": "retain",
-    "meaning": "保留、留住",
-    "example": "Please retain this receipt.（請保留這張收據。）",
-    "id": "L4-retain-m175gv23"
-  },
-  {
-    "level": "L4",
-    "word": "retire",
-    "meaning": "退休、退回",
-    "example": "My grandfather enjoys his retirement.（我祖父享受退休生活。）",
-    "id": "L4-retire-m4z5mum"
-  },
-  {
-    "level": "L4",
-    "word": "retreat",
-    "meaning": "僻靜處；撤退、躲避",
-    "example": "The soldiers had to retreat.（士兵們不得不撤退。）",
-    "id": "L4-retreat-m76ya5n"
-  },
-  {
-    "level": "L4",
-    "word": "revenge",
-    "meaning": "復仇(行動)；替...報仇、報復",
-    "example": "He wanted revenge, but he chose peace.（他想報復，但選擇了和平。）",
-    "id": "L4-revenge-m1vjtwen"
-  },
-  {
-    "level": "L4",
-    "word": "revision",
-    "meaning": "修訂、修正",
-    "example": "The revision made the article clearer.（修改讓文章更清楚。）",
-    "id": "L4-revision-m1a0gb6q"
-  },
-  {
-    "level": "L4",
-    "word": "revolution",
-    "meaning": "革命",
-    "example": "The revolution changed the country.（革命改變了這個國家。）",
-    "id": "L4-revolution-mq7uc"
-  },
-  {
-    "level": "L4",
-    "word": "revolutionary",
-    "meaning": "革命(性)的",
-    "example": "It was a revolutionary idea.（那是一個革命性的想法。）",
-    "id": "L4-revolutionary-m1y5nn2"
-  },
-  {
-    "level": "L4",
-    "word": "reward",
-    "meaning": "報答；酬賞",
-    "example": "She received a reward for finding the lost dog.（她因找到走失的狗而得到獎賞。）",
-    "id": "L4-reward-m6a8wmi"
-  },
-  {
-    "level": "L4",
-    "word": "rhyme",
-    "meaning": "押韻；押韻詞",
-    "example": "“Cat” and “hat” rhyme.（“Cat” 和 “hat” 押韻。）",
-    "id": "L4-rhyme-mlw479f"
-  },
-  {
-    "level": "L4",
-    "word": "rhythm",
-    "meaning": "節奏、律動",
-    "example": "The rhythm of the song is lively.（這首歌的節奏很活潑。）",
-    "id": "L4-rhythm-m1x5a8vw"
-  },
-  {
-    "level": "L4",
-    "word": "romance",
-    "meaning": "浪漫史；虛構(故事)",
-    "example": "The novel is a story of romance and adventure.（這本小說是愛情與冒險的故事。）",
-    "id": "L4-romance-mezbwph"
-  },
-  {
-    "level": "L4",
-    "word": "roughly",
-    "meaning": "大約、大致、粗暴地",
-    "example": "There were roughly fifty people in the room.（房間裡大約有五十個人。）",
-    "id": "L4-roughly-m1e0ufcz"
-  },
-  {
-    "level": "L4",
-    "word": "route",
-    "meaning": "路線；按路線發送",
-    "example": "This is the fastest route to school.（這是去學校最快的路線。）",
-    "id": "L4-route-mzgdlgp"
-  },
-  {
-    "level": "L4",
-    "word": "rural",
-    "meaning": "農村的",
-    "example": "My grandparents live in a rural village.（我的祖父母住在鄉村。）",
-    "id": "L4-rural-mljxc5"
-  },
-  {
-    "level": "L4",
-    "word": "sacrifice",
-    "meaning": "犧牲、奉獻；獻祭品",
-    "example": "Parents often sacrifice time for their children.（父母常為孩子犧牲時間。）",
-    "id": "L4-sacrifice-mjrtp30"
-  },
-  {
-    "level": "L4",
-    "word": "satellite",
-    "meaning": "衛星、人造衛星",
-    "example": "The satellite moved around Earth.（衛星繞著地球運行。）",
-    "id": "L4-satellite-mbx2xwn"
-  },
-  {
-    "level": "L4",
-    "word": "satisfaction",
-    "meaning": "滿意",
-    "example": "She felt satisfaction after finishing the work.（完成工作後她感到滿足。）",
-    "id": "L4-satisfaction-mjeuo"
-  },
-  {
-    "level": "L4",
-    "word": "scarcely",
-    "meaning": "幾乎不",
-    "example": "I could scarcely hear his voice.（我幾乎聽不到他的聲音。）",
-    "id": "L4-scarcely-me803h"
-  },
-  {
-    "level": "L4",
-    "word": "scenery",
-    "meaning": "風景",
-    "example": "The mountain scenery is beautiful.（山景很美。）",
-    "id": "L4-scenery-mqj0n"
-  },
-  {
-    "level": "L4",
-    "word": "scold",
-    "meaning": "訓斥、責罵",
-    "example": "The teacher scolded the students for being late.（老師責備學生遲到。）",
-    "id": "L4-scold-m1joo4ig"
-  },
-  {
-    "level": "L4",
-    "word": "scratch",
-    "meaning": "搔、抓傷；抓痕、劃傷",
-    "example": "The cat left a scratch on the table.（貓在桌上留下了一道抓痕。）",
-    "id": "L4-scratch-m1hi2qsp"
-  },
-  {
-    "level": "L4",
-    "word": "sculpture",
-    "meaning": "雕刻品、雕刻術",
-    "example": "The sculpture was made of stone.（這座雕像是石頭做的。）",
-    "id": "L4-sculpture-m1yoobqf"
-  },
-  {
-    "level": "L4",
-    "word": "seagull",
-    "meaning": "海鷗",
-    "example": "A seagull flew over the beach.（一隻海鷗飛過海灘。）",
-    "id": "L4-seagull-mjhhc"
-  },
-  {
-    "level": "L4",
-    "word": "senior",
-    "meaning": "年長的、資深的；較年長者、前輩",
-    "example": "My senior helped me choose my classes.（我的學長幫我選課。）",
-    "id": "L4-senior-mh0lpwd"
-  },
-  {
-    "level": "L4",
-    "word": "settler",
-    "meaning": "移民",
-    "example": "The first settler built a small house near the river.（第一位移民在河邊建了一間小屋。）",
-    "id": "L4-settler-mlcae"
-  },
-  {
-    "level": "L4",
-    "word": "severe",
-    "meaning": "嚴重的、嚴厲的",
-    "example": "The storm caused severe damage.（暴風雨造成嚴重損害。）",
-    "id": "L4-severe-m1vkloz4"
-  },
-  {
-    "level": "L4",
-    "word": "shameful",
-    "meaning": "可恥的、丟臉的",
-    "example": "Lying to your friend was shameful.（對朋友說謊是可恥的。）",
-    "id": "L4-shameful-m9o9pc7"
-  },
-  {
-    "level": "L4",
-    "word": "shaver",
-    "meaning": "刮鬍刀",
-    "example": "My father uses an electric shaver.（我爸爸使用電動刮鬍刀。）",
-    "id": "L4-shaver-mcs5kx"
-  },
-  {
-    "level": "L4",
-    "word": "shelter",
-    "meaning": "避難所、遮蔽處；躲避、保護、遮蔽",
-    "example": "The hikers found shelter from the rain.（健行者找到了避雨處。）",
-    "id": "L4-shelter-mrkhxmk"
-  },
-  {
-    "level": "L4",
-    "word": "shift",
-    "meaning": "變換、輪班；轉移、變換",
-    "example": "I work the night shift this week.（我這週上夜班。）",
-    "id": "L4-shift-m1qf9ly0"
-  },
-  {
-    "level": "L4",
-    "word": "shrug",
-    "meaning": "聳肩",
-    "example": "He shrugged when he did not know the answer.（他不知道答案時聳了聳肩。）",
-    "id": "L4-shrug-mmjyu"
-  },
-  {
-    "level": "L4",
-    "word": "shuttle",
-    "meaning": "航班、班車、梭；(頻繁)往返",
-    "example": "The hotel has a shuttle to the airport.（這家飯店有到機場的接駁車。）",
-    "id": "L4-shuttle-m18z76o3"
-  },
-  {
-    "level": "L4",
-    "word": "sightseeing",
-    "meaning": "觀光、遊覽",
-    "example": "We went sightseeing in Kyoto.（我們在京都觀光。）",
-    "id": "L4-sightseeing-m1fulvt7"
-  },
-  {
-    "level": "L4",
-    "word": "signature",
-    "meaning": "簽名",
-    "example": "Please put your signature here.（請在這裡簽名。）",
-    "id": "L4-signature-mlldc"
-  },
-  {
-    "level": "L4",
-    "word": "significance",
-    "meaning": "重要性、意義",
-    "example": "The discovery has great significance.（這項發現具有重大意義。）",
-    "id": "L4-significance-m12gyubs"
-  },
-  {
-    "level": "L4",
-    "word": "singular",
-    "meaning": "單數的",
-    "example": "“Child” is singular.（“Child” 是單數。）",
-    "id": "L4-singular-md1p2y"
-  },
-  {
-    "level": "L4",
-    "word": "site",
-    "meaning": "位址、網站",
-    "example": "This is the site of an old castle.（這裡是一座古城堡的遺址。）",
-    "id": "L4-site-m115obed"
-  },
-  {
-    "level": "L4",
-    "word": "sketch",
-    "meaning": "素描、概述",
-    "example": "She made a quick sketch of the tree.（她快速畫了那棵樹的素描。）",
-    "id": "L4-sketch-m4tg5ls"
-  },
-  {
-    "level": "L4",
-    "word": "slight",
-    "meaning": "輕微的；輕視、冷落",
-    "example": "There is a slight difference between the two colors.（這兩種顏色之間有些微差異。）",
-    "id": "L4-slight-ms8ip92"
-  },
-  {
-    "level": "L4",
-    "word": "slogan",
-    "meaning": "標語",
-    "example": "The campaign used a short slogan.（這場活動使用了一句短標語。）",
-    "id": "L4-slogan-mit2d"
-  },
-  {
-    "level": "L4",
-    "word": "smog",
-    "meaning": "煙霧(污染物)",
-    "example": "Smog covered the city in the morning.（早上煙霧籠罩了城市。）",
-    "id": "L4-smog-maz765o"
-  },
-  {
-    "level": "L4",
-    "word": "sneeze",
-    "meaning": "打噴嚏；打噴嚏聲",
-    "example": "Cover your mouth when you sneeze.（打噴嚏時請摀住嘴巴。）",
-    "id": "L4-sneeze-m8mq71t"
-  },
-  {
-    "level": "L4",
-    "word": "sob",
-    "meaning": "嗚咽、啜泣；啜泣(聲)",
-    "example": "The child began to sob quietly.（孩子開始小聲啜泣。）",
-    "id": "L4-sob-m1u8zlhe"
-  },
-  {
-    "level": "L4",
-    "word": "socket",
-    "meaning": "插座",
-    "example": "Plug the charger into the socket.（把充電器插進插座。）",
-    "id": "L4-socket-mhhxx"
-  },
-  {
-    "level": "L4",
-    "word": "software",
-    "meaning": "軟體",
-    "example": "This software helps me edit photos.（這個軟體幫我編輯照片。）",
-    "id": "L4-software-mp5g5"
-  },
-  {
-    "level": "L4",
-    "word": "solar",
-    "meaning": "太陽(能)的",
-    "example": "Solar power comes from the sun.（太陽能來自太陽。）",
-    "id": "L4-solar-mvioopv"
-  },
-  {
-    "level": "L4",
-    "word": "souvenir",
-    "meaning": "紀念品",
-    "example": "I bought a souvenir at the museum.（我在博物館買了一個紀念品。）",
-    "id": "L4-souvenir-mirwq4"
-  },
-  {
-    "level": "L4",
-    "word": "spare",
-    "meaning": "備用的；備用品",
-    "example": "Do you have a spare pencil?（你有備用鉛筆嗎？）",
-    "id": "L4-spare-mwxg7qk"
-  },
-  {
-    "level": "L4",
-    "word": "spare",
-    "meaning": "剩下、(尤指在自己困難的情況下)抽出",
-    "example": "Do you have a spare pencil?（你有備用鉛筆嗎？）",
-    "id": "L4-spare-m1ijwath"
-  },
-  {
-    "level": "L4",
-    "word": "spark",
-    "meaning": "火花；觸發",
-    "example": "A spark flew from the fire.（一點火花從火中飛出。）",
-    "id": "L4-spark-muwn2wp"
-  },
-  {
-    "level": "L4",
-    "word": "sparkle",
-    "meaning": "閃耀、閃爍；閃耀、閃爍、火花",
-    "example": "The stars sparkle at night.（星星在夜晚閃耀。）",
-    "id": "L4-sparkle-mtk8mcm"
-  },
-  {
-    "level": "L4",
-    "word": "sparrow",
-    "meaning": "麻雀",
-    "example": "A sparrow landed on the fence.（一隻麻雀停在圍欄上。）",
-    "id": "L4-sparrow-mrtr9"
-  },
-  {
-    "level": "L4",
-    "word": "spear",
-    "meaning": "矛；用尖物刺穿",
-    "example": "The soldier carried a spear.（士兵拿著一支長矛。）",
-    "id": "L4-spear-mf832ao"
-  },
-  {
-    "level": "L4",
-    "word": "species",
-    "meaning": "物種",
-    "example": "This forest has many species of birds.（這座森林有許多鳥類物種。）",
-    "id": "L4-species-mk4px"
-  },
-  {
-    "level": "L4",
-    "word": "spicy",
-    "meaning": "辛辣的、加有香料的",
-    "example": "The curry is too spicy for me.（這咖哩對我來說太辣了。）",
-    "id": "L4-spicy-m1xa7eae"
-  },
-  {
-    "level": "L4",
-    "word": "spiritual",
-    "meaning": "心靈的、精神的",
-    "example": "Many people seek spiritual peace.（許多人尋求心靈上的平靜。）",
-    "id": "L4-spiritual-mzgm4w2"
-  },
-  {
-    "level": "L4",
-    "word": "splendid",
-    "meaning": "燦爛的、極佳的",
-    "example": "The view from the top was splendid.（頂端的景色非常壯麗。）",
-    "id": "L4-splendid-my53gdw"
-  },
-  {
-    "level": "L4",
-    "word": "split",
-    "meaning": "分攤、分裂；分裂；分裂的",
-    "example": "Let’s split the cake into four pieces.（我們把蛋糕分成四塊吧。）",
-    "id": "L4-split-m1555mjp"
-  },
-  {
-    "level": "L4",
-    "word": "sportsmanship",
-    "meaning": "運動精神",
-    "example": "Good sportsmanship is more important than winning.（良好的運動精神比勝利更重要。）",
-    "id": "L4-sportsmanship-mijx422"
-  },
-  {
-    "level": "L4",
-    "word": "status",
-    "meaning": "地位、狀況",
-    "example": "What is the status of your project?（你的專案目前狀態如何？）",
-    "id": "L4-status-m1uznlad"
-  },
-  {
-    "level": "L4",
-    "word": "stem",
-    "meaning": "起源於",
-    "example": "The flower has a long green stem.（那朵花有一根長長的綠色莖。）",
-    "id": "L4-stem-ml9azn"
-  },
-  {
-    "level": "L4",
-    "word": "stem",
-    "meaning": "莖、梗、樹幹、(工具的)柄",
-    "example": "The flower has a long green stem.（那朵花有一根長長的綠色莖。）",
-    "id": "L4-stem-m1cv1do1"
-  },
-  {
-    "level": "L4",
-    "word": "strengthen",
-    "meaning": "增強、鞏固",
-    "example": "Exercise can strengthen your body.（運動可以強健你的身體。）",
-    "id": "L4-strengthen-m3k7q4z"
-  },
-  {
-    "level": "L4",
-    "word": "strive",
-    "meaning": "努力、奮鬥",
-    "example": "We strive to do our best.（我們努力做到最好。）",
-    "id": "L4-strive-m1dptz6v"
-  },
-  {
-    "level": "L4",
-    "word": "stroke",
-    "meaning": "中風、游泳姿勢；輕撫",
-    "example": "He had a stroke last year.（他去年中風了。）",
-    "id": "L4-stroke-msvdmh9"
-  },
-  {
-    "level": "L4",
-    "word": "submarine",
-    "meaning": "潛水艇；海底的",
-    "example": "The submarine moved under the sea.（潛水艇在海底前進。）",
-    "id": "L4-submarine-m1s4j2ih"
-  },
-  {
-    "level": "L4",
-    "word": "suggestion",
-    "meaning": "建議",
-    "example": "Thank you for your helpful suggestion.（謝謝你有幫助的建議。）",
-    "id": "L4-suggestion-mgx4m"
-  },
-  {
-    "level": "L4",
-    "word": "summarize",
-    "meaning": "摘要",
-    "example": "Can you summarize the story in three sentences?（你能用三句話總結這個故事嗎？）",
-    "id": "L4-summarize-mhtm1"
-  },
-  {
-    "level": "L4",
-    "word": "surgeon",
-    "meaning": "外科醫生",
-    "example": "The surgeon performed the operation carefully.（外科醫生仔細地進行手術。）",
-    "id": "L4-surgeon-mbr1y1b"
-  },
-  {
-    "level": "L4",
-    "word": "surgery",
-    "meaning": "外科手術",
-    "example": "The surgery lasted two hours.（手術持續了兩小時。）",
-    "id": "L4-surgery-mbqtzqb"
-  },
-  {
-    "level": "L4",
-    "word": "surrender",
-    "meaning": "投降、放棄",
-    "example": "The soldiers refused to surrender.（士兵拒絕投降。）",
-    "id": "L4-surrender-m1dgqw8f"
-  },
-  {
-    "level": "L4",
-    "word": "surroundings",
-    "meaning": "周圍事物、環境",
-    "example": "The quiet surroundings helped me relax.（安靜的周遭環境讓我放鬆。）",
-    "id": "L4-surroundings-m7v8r9t"
-  },
-  {
-    "level": "L4",
-    "word": "suspicious",
-    "meaning": "(令人)懷疑的",
-    "example": "The guard noticed a suspicious bag.（警衛注意到一個可疑的包包。）",
-    "id": "L4-suspicious-mg3fegv"
-  },
-  {
-    "level": "L4",
-    "word": "syllable",
-    "meaning": "音節",
-    "example": "“Water” has two syllables.（“Water” 有兩個音節。）",
-    "id": "L4-syllable-mqiwd"
-  },
-  {
-    "level": "L4",
-    "word": "sympathetic",
-    "meaning": "有同情心的、支持的",
-    "example": "She was sympathetic to his problem.（她對他的問題表示同情。）",
-    "id": "L4-sympathetic-m14lnono"
-  },
-  {
-    "level": "L4",
-    "word": "sympathy",
-    "meaning": "同情心、支持",
-    "example": "I felt sympathy for the lost child.（我同情那個迷路的孩子。）",
-    "id": "L4-sympathy-m1tcbpmx"
-  },
-  {
-    "level": "L4",
-    "word": "symphony",
-    "meaning": "交響樂",
-    "example": "We listened to a beautiful symphony.（我們聽了一首美麗的交響曲。）",
-    "id": "L4-symphony-mc93t3"
-  },
-  {
-    "level": "L4",
-    "word": "syrup",
-    "meaning": "糖漿",
-    "example": "I poured maple syrup on my pancakes.（我把楓糖漿倒在鬆餅上。）",
-    "id": "L4-syrup-mlueh"
-  },
-  {
-    "level": "L4",
-    "word": "systematic",
-    "meaning": "有系統的",
-    "example": "We need a systematic way to study.（我們需要有系統的學習方法。）",
-    "id": "L4-systematic-mdird8l"
-  },
-  {
-    "level": "L4",
-    "word": "technician",
-    "meaning": "技術人員",
-    "example": "The technician repaired the computer.（技術人員修好了電腦。）",
-    "id": "L4-technician-mczlq4a"
-  },
-  {
-    "level": "L4",
-    "word": "technological",
-    "meaning": "科技的",
-    "example": "Technological change is very fast.（科技變化非常快速。）",
-    "id": "L4-technological-mibqmt"
-  },
-  {
-    "level": "L4",
-    "word": "telescope",
-    "meaning": "望遠鏡",
-    "example": "We looked at the moon through a telescope.（我們透過望遠鏡看月亮。）",
-    "id": "L4-telescope-mft1i4"
-  },
-  {
-    "level": "L4",
-    "word": "tendency",
-    "meaning": "傾向、趨勢",
-    "example": "He has a tendency to worry too much.（他有過度擔心的傾向。）",
-    "id": "L4-tendency-m16e6hvs"
-  },
-  {
-    "level": "L4",
-    "word": "tense",
-    "meaning": "繃緊的、緊張的；繃緊",
-    "example": "She felt tense before the speech.（演講前她感到緊張。）",
-    "id": "L4-tense-mnrv0y5"
-  },
-  {
-    "level": "L4",
-    "word": "tension",
-    "meaning": "繃緊、緊張",
-    "example": "There was tension between the two teams.（兩隊之間氣氛緊張。）",
-    "id": "L4-tension-mcjialh"
-  },
-  {
-    "level": "L4",
-    "word": "terrify",
-    "meaning": "使恐懼",
-    "example": "The loud thunder terrified the child.（巨大的雷聲嚇壞了孩子。）",
-    "id": "L4-terrify-mc43mz"
-  },
-  {
-    "level": "L4",
     "word": "terror",
-    "meaning": "恐懼、恐怖",
+    "meaning": "noun 恐懼、恐怖",
     "example": "The movie filled us with terror.（這部電影讓我們充滿恐懼。）",
-    "id": "L4-terror-mxzps9n"
+    "id": "L4-terror-noun"
   },
   {
     "level": "L4",
     "word": "theme",
-    "meaning": "主題",
+    "meaning": "noun 主題",
     "example": "The theme of the story is friendship.（這個故事的主題是友誼。）",
-    "id": "L4-theme-me54h"
+    "id": "L4-theme-noun"
   },
   {
     "level": "L4",
     "word": "thorough",
-    "meaning": "徹底的",
+    "meaning": "adj. 徹底的",
     "example": "The teacher gave a thorough explanation.（老師給了完整詳盡的解釋。）",
-    "id": "L4-thorough-mehhc8"
+    "id": "L4-thorough-adj"
   },
   {
     "level": "L4",
     "word": "thoughtful",
-    "meaning": "體貼的、深思熟慮的",
+    "meaning": "adj. 體貼的、深思熟慮的",
     "example": "It was thoughtful of you to bring food.（你帶食物來真貼心。）",
-    "id": "L4-thoughtful-m1tl3des"
+    "id": "L4-thoughtful-adj"
   },
   {
     "level": "L4",
     "word": "timid",
-    "meaning": "膽怯的",
+    "meaning": "adj. 膽怯的",
     "example": "The timid child hid behind his mother.（那個膽小的孩子躲在媽媽後面。）",
-    "id": "L4-timid-mjh48i"
+    "id": "L4-timid-adj"
   },
   {
     "level": "L4",
     "word": "tiresome",
-    "meaning": "令人厭煩的",
+    "meaning": "adj. 令人厭煩的",
     "example": "The long meeting was tiresome.（冗長的會議令人疲倦。）",
-    "id": "L4-tiresome-mymen4i"
+    "id": "L4-tiresome-adj"
   },
   {
     "level": "L4",
     "word": "tolerable",
-    "meaning": "可容忍的、還可以的",
+    "meaning": "adj. 可容忍的、還可以的",
     "example": "The noise was loud but tolerable.（噪音很大，但還能忍受。）",
-    "id": "L4-tolerable-m1b0dxca"
+    "id": "L4-tolerable-adj"
   },
   {
     "level": "L4",
     "word": "tolerance",
-    "meaning": "寬容、忍耐",
+    "meaning": "noun 寬容、忍耐",
     "example": "Tolerance helps people live together peacefully.（包容幫助人們和平相處。）",
-    "id": "L4-tolerance-mg19kjb"
+    "id": "L4-tolerance-noun"
   },
   {
     "level": "L4",
     "word": "tolerant",
-    "meaning": "寬容的、忍耐的",
+    "meaning": "adj. 寬容的、忍耐的",
     "example": "She is tolerant of different opinions.（她能包容不同意見。）",
-    "id": "L4-tolerant-m1gjqnjr"
+    "id": "L4-tolerant-adj"
   },
   {
     "level": "L4",
     "word": "tolerate",
-    "meaning": "寬容、忍耐",
+    "meaning": "verb 寬容、忍耐",
     "example": "I cannot tolerate rude behavior.（我無法容忍無禮的行為。）",
-    "id": "L4-tolerate-mg19kjb"
+    "id": "L4-tolerate-verb"
   },
   {
     "level": "L4",
     "word": "tomb",
-    "meaning": "墳墓",
+    "meaning": "noun 墳墓",
     "example": "The ancient king was buried in a tomb.（古代國王被埋葬在陵墓中。）",
-    "id": "L4-tomb-mfkn4"
+    "id": "L4-tomb-noun"
   },
   {
     "level": "L4",
     "word": "tough",
-    "meaning": "堅強的、困難的、強硬的",
+    "meaning": "adj. 堅強的、困難的、強硬的",
     "example": "This meat is tough and hard to chew.（這塊肉很硬，很難嚼。）",
-    "id": "L4-tough-m1slmks0"
+    "id": "L4-tough-adj"
   },
   {
     "level": "L4",
     "word": "tragedy",
-    "meaning": "悲劇",
+    "meaning": "noun 悲劇",
     "example": "The earthquake was a tragedy for the town.（地震是這座城鎮的悲劇。）",
-    "id": "L4-tragedy-mgwet"
+    "id": "L4-tragedy-noun"
   },
   {
     "level": "L4",
     "word": "tragic",
-    "meaning": "悲劇的、悲慘的",
+    "meaning": "adj. 悲劇的、悲慘的",
     "example": "It was a tragic accident.（那是一場悲慘的事故。）",
-    "id": "L4-tragic-m13sttfw"
+    "id": "L4-tragic-adj"
   },
   {
     "level": "L4",
     "word": "transfer",
-    "meaning": "調動、搬遷",
+    "meaning": "noun/verb 調動、搬遷",
     "example": "I need to transfer money to my bank account.（我需要把錢轉到我的銀行帳戶。）",
-    "id": "L4-transfer-m1jxmt3q"
+    "id": "L4-transfer-noun-verb"
   },
   {
     "level": "L4",
     "word": "transform",
-    "meaning": "改變、改造",
+    "meaning": "verb 改變、改造",
     "example": "The new paint transformed the room.（新的油漆讓房間煥然一新。）",
-    "id": "L4-transform-m1mfkw53"
+    "id": "L4-transform-verb"
   },
   {
     "level": "L4",
     "word": "translate",
-    "meaning": "翻譯",
+    "meaning": "verb 翻譯",
     "example": "Can you translate this sentence into Chinese?（你能把這個句子翻成中文嗎？）",
-    "id": "L4-translate-mmj84"
+    "id": "L4-translate-verb"
   },
   {
     "level": "L4",
     "word": "translation",
-    "meaning": "翻譯",
+    "meaning": "noun 翻譯",
     "example": "The translation is clear and natural.（這個翻譯清楚又自然。）",
-    "id": "L4-translation-mmj84"
+    "id": "L4-translation-noun"
   },
   {
     "level": "L4",
     "word": "translator",
-    "meaning": "翻譯、譯者",
+    "meaning": "noun 翻譯、譯者",
     "example": "The translator helped the visitors communicate.（翻譯員幫助訪客溝通。）",
-    "id": "L4-translator-mkzgmw3"
+    "id": "L4-translator-noun"
   },
   {
     "level": "L4",
     "word": "transportation",
-    "meaning": "運輸",
+    "meaning": "noun 運輸",
     "example": "Public transportation is convenient in Taipei.（台北的大眾運輸很方便。）",
-    "id": "L4-transportation-mpbv1"
+    "id": "L4-transportation-noun"
   },
   {
     "level": "L4",
     "word": "tremendous",
-    "meaning": "巨大的、極大的",
+    "meaning": "adj. 巨大的、極大的",
     "example": "The project required tremendous effort.（這個專案需要巨大的努力。）",
-    "id": "L4-tremendous-mn6icmu"
+    "id": "L4-tremendous-adj"
   },
   {
     "level": "L4",
     "word": "triumph",
-    "meaning": "(大)勝利、成功",
+    "meaning": "noun/verb (大)勝利、成功",
     "example": "The victory was a great triumph.（這場勝利是巨大的成功。）",
-    "id": "L4-triumph-mmd8mca"
+    "id": "L4-triumph-noun-verb"
   },
   {
     "level": "L4",
     "word": "troublesome",
-    "meaning": "令人煩惱的",
+    "meaning": "adj. 令人煩惱的",
     "example": "This old printer is troublesome.（這台舊印表機很麻煩。）",
-    "id": "L4-troublesome-myqomo6"
+    "id": "L4-troublesome-adj"
   },
   {
     "level": "L4",
     "word": "twinkle",
-    "meaning": "閃爍；閃亮",
+    "meaning": "verb/noun 閃爍；閃亮",
     "example": "The stars twinkle in the night sky.（星星在夜空中閃爍。）",
-    "id": "L4-twinkle-mvs6w8s"
+    "id": "L4-twinkle-verb-noun"
   },
   {
     "level": "L4",
     "word": "typist",
-    "meaning": "打字員",
+    "meaning": "noun 打字員",
     "example": "The typist finished the letter quickly.（打字員很快打完那封信。）",
-    "id": "L4-typist-meugot"
+    "id": "L4-typist-noun"
   },
   {
     "level": "L4",
     "word": "universal",
-    "meaning": "普遍的、全體的；普通性、普遍現象",
+    "meaning": "adj./noun 普遍的、全體的；普通性、普遍現象",
     "example": "Love is a universal language.（愛是一種普遍的語言。）",
-    "id": "L4-universal-m1ag75hj"
+    "id": "L4-universal-adj-noun"
   },
   {
     "level": "L4",
     "word": "urban",
-    "meaning": "都市的、城鎮的",
+    "meaning": "adj. 都市的、城鎮的",
     "example": "Urban schools face unique challenges. (城市學校面臨獨特挑戰。)",
-    "id": "L4-urban-m1m0m98i"
+    "id": "L4-urban-adj"
   },
   {
     "level": "L4",
     "word": "urge",
-    "meaning": "敦促、強烈主張；衝動",
+    "meaning": "verb/noun 敦促、強烈主張；衝動",
     "example": "I urge you to study for the test.（我勸你為考試讀書。）",
-    "id": "L4-urge-m1gbl8g4"
+    "id": "L4-urge-verb-noun"
   },
   {
     "level": "L4",
     "word": "urgent",
-    "meaning": "緊急的",
+    "meaning": "adj. 緊急的",
     "example": "This is an urgent message.（這是一則緊急訊息。）",
-    "id": "L4-urgent-miwabt"
+    "id": "L4-urgent-adj"
   },
   {
     "level": "L4",
     "word": "usage",
-    "meaning": "使用、用法",
+    "meaning": "noun 使用、用法",
     "example": "The teacher explained the usage of the word.（老師解釋了這個字的用法。）",
-    "id": "L4-usage-m15ox1l1"
+    "id": "L4-usage-noun"
   },
   {
     "level": "L4",
     "word": "vain",
-    "meaning": "徒勞的、虛榮的",
+    "meaning": "adj. 徒勞的、虛榮的",
     "example": "He is vain about his good looks.（他對自己的外貌很自負。）",
-    "id": "L4-vain-m18soe14"
+    "id": "L4-vain-adj"
   },
   {
     "level": "L4",
     "word": "vast",
-    "meaning": "廣闊的、大量的",
+    "meaning": "adj. 廣闊的、大量的",
     "example": "The desert is vast and quiet.（沙漠遼闊而安靜。）",
-    "id": "L4-vast-m1b5y2uw"
+    "id": "L4-vast-adj"
   },
   {
     "level": "L4",
     "word": "vegetarian",
-    "meaning": "素食主義的；素食主義者",
+    "meaning": "adj./noun 素食主義的；素食主義者",
     "example": "My sister is a vegetarian.（我姊姊是素食者。）",
-    "id": "L4-vegetarian-m1pyr2r8"
+    "id": "L4-vegetarian-adj-noun"
   },
   {
     "level": "L4",
     "word": "verb",
-    "meaning": "動詞",
+    "meaning": "noun 動詞",
     "example": "“Run” is a verb.（“Run” 是一個動詞。）",
-    "id": "L4-verb-meujt"
+    "id": "L4-verb-noun"
   },
   {
     "level": "L4",
     "word": "vessel",
-    "meaning": "船艦",
+    "meaning": "noun 船艦",
     "example": "The vessel carried goods across the sea.（船隻載著貨物橫渡大海。）",
-    "id": "L4-vessel-mmv65"
+    "id": "L4-vessel-noun"
   },
   {
     "level": "L4",
     "word": "violate",
-    "meaning": "違反、侵犯",
+    "meaning": "verb 違反、侵犯",
     "example": "Do not violate the rules.（不要違反規則。）",
-    "id": "L4-violate-m6v396r"
+    "id": "L4-violate-verb"
   },
   {
     "level": "L4",
     "word": "violation",
-    "meaning": "違反、侵犯",
+    "meaning": "noun 違反、侵犯",
     "example": "The violation of safety rules caused the accident.（違反安全規則造成了事故。）",
-    "id": "L4-violation-m6v396r"
+    "id": "L4-violation-noun"
   },
   {
     "level": "L4",
     "word": "virgin",
-    "meaning": "處女；處女的、未開發的",
+    "meaning": "noun/adj. 處女；處女的、未開發的",
     "example": "The story describes a virgin forest untouched by people.（這個故事描述了一片未被人類破壞的原始森林。）",
-    "id": "L4-virgin-mwcldxd"
+    "id": "L4-virgin-noun-adj"
   },
   {
     "level": "L4",
     "word": "virtue",
-    "meaning": "美德、長處",
+    "meaning": "noun 美德、長處",
     "example": "Honesty is an important virtue.（誠實是一項重要美德。）",
-    "id": "L4-virtue-mdt2fp2"
+    "id": "L4-virtue-noun"
   },
   {
     "level": "L4",
     "word": "virus",
-    "meaning": "病毒",
+    "meaning": "noun 病毒",
     "example": "A virus can spread quickly.（病毒可能快速傳播。）",
-    "id": "L4-virus-mkmgd"
+    "id": "L4-virus-noun"
   },
   {
     "level": "L4",
     "word": "visual",
-    "meaning": "視覺的",
+    "meaning": "adj. 視覺的",
     "example": "Charts give students visual support.（圖表給學生視覺上的輔助。）",
-    "id": "L4-visual-mktkbk"
+    "id": "L4-visual-adj"
   },
   {
     "level": "L4",
     "word": "vital",
-    "meaning": "必不可少的、生氣勃勃的",
+    "meaning": "adj. 必不可少的、生氣勃勃的",
     "example": "Water is vital for life.（水對生命至關重要。）",
-    "id": "L4-vital-m17r2vg9"
+    "id": "L4-vital-adj"
   },
   {
     "level": "L4",
     "word": "volcano",
-    "meaning": "火山",
+    "meaning": "noun 火山",
     "example": "The volcano erupted last night.（火山昨晚爆發了。）",
-    "id": "L4-volcano-mjmna"
+    "id": "L4-volcano-noun"
   },
   {
     "level": "L4",
     "word": "voluntary",
-    "meaning": "志願的、自願的",
+    "meaning": "adj. 志願的、自願的",
     "example": "The work is voluntary.（這項工作是自願的。）",
-    "id": "L4-voluntary-mvn186w"
+    "id": "L4-voluntary-adj"
   },
   {
     "level": "L4",
     "word": "volunteer",
-    "meaning": "義工；自願",
+    "meaning": "noun/verb 義工；自願",
     "example": "She works as a volunteer at the hospital.（她在醫院當志工。）",
-    "id": "L4-volunteer-metw565"
+    "id": "L4-volunteer-noun-verb"
   },
   {
     "level": "L4",
     "word": "vowel",
-    "meaning": "母音",
+    "meaning": "noun 母音",
     "example": "“A” is a vowel.（“A” 是一個母音。）",
-    "id": "L4-vowel-mj64m"
+    "id": "L4-vowel-noun"
   },
   {
     "level": "L4",
     "word": "voyage",
-    "meaning": "航行",
+    "meaning": "noun/verb 航行",
     "example": "The voyage across the ocean took weeks.（橫渡海洋的航程花了好幾週。）",
-    "id": "L4-voyage-mmvz6"
+    "id": "L4-voyage-noun-verb"
   },
   {
     "level": "L4",
     "word": "website",
-    "meaning": "網站",
+    "meaning": "noun 網站",
     "example": "This website helps students learn vocabulary.（這個網站幫助學生學單字。）",
-    "id": "L4-website-mm1yf"
+    "id": "L4-website-noun"
   },
   {
     "level": "L4",
     "word": "welfare",
-    "meaning": "幸福、福利；福利的",
+    "meaning": "noun/adj. 幸福、福利；福利的",
     "example": "The program supports child welfare.（這個計畫支持兒童福利。）",
-    "id": "L4-welfare-m1q3n95f"
+    "id": "L4-welfare-noun-adj"
   },
   {
     "level": "L4",
     "word": "wit",
-    "meaning": "機智風趣(的人)",
+    "meaning": "noun 機智風趣(的人)",
     "example": "Her wit made the conversation lively.（她的機智讓談話變得活潑。）",
-    "id": "L4-wit-m238myp"
+    "id": "L4-wit-noun"
   },
   {
     "level": "L4",
     "word": "witch",
-    "meaning": "女巫",
+    "meaning": "noun 女巫",
     "example": "The wizard cast a spell in the story.（故事中的巫師施了魔法。）",
-    "id": "L4-witch-mfqag"
+    "id": "L4-witch-noun"
   },
   {
     "level": "L4",
     "word": "withdraw",
-    "meaning": "提領(錢)、撤回",
+    "meaning": "verb 提領(錢)、撤回",
     "example": "I need to withdraw money from the bank.（我需要從銀行提款。）",
-    "id": "L4-withdraw-m107rsok"
+    "id": "L4-withdraw-verb"
   },
   {
     "level": "L4",
     "word": "witness",
-    "meaning": "目擊者、證人；目擊、見證",
+    "meaning": "noun/verb 目擊者、證人；目擊、見證",
     "example": "The witness saw the accident happen.（目擊者看到事故發生。）",
-    "id": "L4-witness-mjpcntd"
+    "id": "L4-witness-noun-verb"
   },
   {
     "level": "L4",
     "word": "wizard",
-    "meaning": "男巫",
+    "meaning": "noun 男巫",
     "example": "The wizard cast a spell in the story.（故事中的巫師施了魔法。）",
-    "id": "L4-wizard-mkgb8"
+    "id": "L4-wizard-noun"
   },
   {
     "level": "L4",
     "word": "wreck",
-    "meaning": "使(船)失事、毀壞；船難、殘骸",
+    "meaning": "verb/noun 使(船)失事、毀壞；船難、殘骸",
     "example": "The storm left a shipwreck on the shore.（暴風雨在岸邊留下了一艘船難殘骸。）",
-    "id": "L4-wreck-m1cyx6o8"
+    "id": "L4-wreck-verb-noun"
   },
   {
     "level": "L4",
     "word": "wrinkle",
-    "meaning": "皺紋、皺褶；皺起、起皺褶",
+    "meaning": "noun/verb 皺紋、皺褶；皺起、起皺褶",
     "example": "A wrinkle appeared on his forehead.（他的額頭出現了一條皺紋。）",
-    "id": "L4-wrinkle-mo80pcu"
+    "id": "L4-wrinkle-noun-verb"
   },
   {
     "level": "L4",
     "word": "yogurt",
-    "meaning": "優格",
+    "meaning": "noun 優格",
     "example": "I ate yogurt with fruit for breakfast.（我早餐吃了水果優格。）",
-    "id": "L4-yogurt-medle"
+    "id": "L4-yogurt-noun"
   },
   {
     "level": "L4",
     "word": "youthful",
-    "meaning": "青年的、年輕的",
+    "meaning": "adj. 青年的、年輕的",
     "example": "She has a youthful smile.（她有年輕有活力的笑容。）",
-    "id": "L4-youthful-m1261bus"
+    "id": "L4-youthful-adj"
   },
   {
     "level": "L5",
     "word": "academy",
-    "meaning": "學院、學會",
+    "meaning": "noun 學院、學會",
     "example": "She studies music at a famous academy.（她在一所有名的學院學音樂。）",
-    "id": "L5-academy-mlnta8y"
+    "id": "L5-academy-noun"
   },
   {
     "level": "L5",
     "word": "affection",
-    "meaning": "喜愛、鍾愛",
+    "meaning": "noun 喜愛、鍾愛",
     "example": "The child showed deep affection for his dog.（那個孩子對他的狗表現出深厚的感情。）",
-    "id": "L5-affection-m1r2ilz3"
+    "id": "L5-affection-noun"
   },
   {
     "level": "L5",
     "word": "altitude",
-    "meaning": "海拔高度",
+    "meaning": "noun 海拔高度",
     "example": "The plane flew at a high altitude.（飛機在高海拔飛行。）",
-    "id": "L5-altitude-me89cjv"
+    "id": "L5-altitude-noun"
   },
   {
     "level": "L5",
     "word": "applaud",
-    "meaning": "鼓掌、稱讚",
+    "meaning": "verb 鼓掌、稱讚",
     "example": "The audience began to applaud.（觀眾開始鼓掌。）",
-    "id": "L5-applaud-m1uhw1qp"
+    "id": "L5-applaud-verb"
   },
   {
     "level": "L5",
     "word": "applause",
-    "meaning": "鼓掌、喝采",
+    "meaning": "noun 鼓掌、喝采",
     "example": "The singer received loud applause.（那位歌手獲得熱烈掌聲。）",
-    "id": "L5-applause-m1uhpuz6"
+    "id": "L5-applause-noun"
   },
   {
     "level": "L5",
     "word": "architect",
-    "meaning": "建築師",
+    "meaning": "noun 建築師",
     "example": "The famous architect designed many beautiful buildings. (著名建築師設計了許多美麗的建築。)",
-    "id": "L5-architect-meidq4"
+    "id": "L5-architect-noun"
   },
   {
     "level": "L5",
     "word": "architecture",
-    "meaning": "建築學、建築設計",
+    "meaning": "noun 建築學、建築設計",
     "example": "The architecture of the temple is beautiful.（這座寺廟的建築很美。）",
-    "id": "L5-architecture-md0i6jm"
+    "id": "L5-architecture-noun"
   },
   {
     "level": "L5",
     "word": "ascend",
-    "meaning": "上升、登高",
+    "meaning": "verb 上升、登高",
     "example": "The balloon began to ascend into the sky.（氣球開始升上天空。）",
-    "id": "L5-ascend-mvq0c81"
+    "id": "L5-ascend-verb"
   },
   {
     "level": "L5",
     "word": "asset",
-    "meaning": "資產",
+    "meaning": "noun 資產",
     "example": "Good communication skills are a valuable asset. (良好的溝通技巧是寶貴的資產。)",
-    "id": "L5-asset-mol6j"
+    "id": "L5-asset-noun"
   },
   {
     "level": "L5",
     "word": "astonish",
-    "meaning": "使吃驚",
+    "meaning": "verb 使吃驚",
     "example": "The magician's performance will astonish the audience. (魔術師的表演會讓觀眾感到驚訝。)",
-    "id": "L5-astonish-mc2bg6"
+    "id": "L5-astonish-verb"
   },
   {
     "level": "L5",
     "word": "astronaut",
-    "meaning": "太空人",
+    "meaning": "noun 太空人",
     "example": "The astronaut walked on the moon.（太空人在月球上行走。）",
-    "id": "L5-astronaut-mdnfai"
+    "id": "L5-astronaut-noun"
   },
   {
     "level": "L5",
     "word": "auxiliary",
-    "meaning": "助動詞",
+    "meaning": "noun 助動詞\nnoun/adj. 輔助人員；輔助的",
     "example": "This room has auxiliary lights for emergencies.（這個房間有緊急用輔助照明。）",
-    "id": "L5-auxiliary-mcipoy"
-  },
-  {
-    "level": "L5",
-    "word": "auxiliary",
-    "meaning": "輔助人員；輔助的",
-    "example": "This room has auxiliary lights for emergencies.（這個房間有緊急用輔助照明。）",
-    "id": "L5-auxiliary-m2u4fo0"
+    "id": "L5-auxiliary-noun-noun-adj"
   },
   {
     "level": "L5",
     "word": "ban",
-    "meaning": "禁止；禁令",
+    "meaning": "verb/noun 禁止；禁令",
     "example": "The city will ban smoking in all public places. (該市將禁止在所有公共場所吸煙。)",
-    "id": "L5-ban-m1rhnfp9"
+    "id": "L5-ban-verb-noun"
   },
   {
     "level": "L5",
     "word": "barbershop",
-    "meaning": "理髮店",
+    "meaning": "noun 理髮店",
     "example": "My brother works at a barbershop.（我哥哥在理髮店工作。）",
-    "id": "L5-barbershop-mhqnsf"
+    "id": "L5-barbershop-noun"
   },
   {
     "level": "L5",
     "word": "beneficial",
-    "meaning": "有利的、有助的",
+    "meaning": "adj. 有利的、有助的",
     "example": "Exercise is beneficial to health.（運動對健康有益。）",
-    "id": "L5-beneficial-mluos4n"
+    "id": "L5-beneficial-adj"
   },
   {
     "level": "L5",
     "word": "bid",
-    "meaning": "出價、投標、努力爭取",
+    "meaning": "noun/verb 出價、投標、努力爭取",
     "example": "The company bid for the construction contract. (公司為建築合同投標。)",
-    "id": "L5-bid-m1k5quyd"
+    "id": "L5-bid-noun-verb"
   },
   {
     "level": "L5",
     "word": "blonde",
-    "meaning": "金色頭髮的；金髮女郎",
+    "meaning": "adj./noun 金色頭髮的；金髮女郎",
     "example": "The blond boy sat near the window.（那個金髮男孩坐在窗邊。）",
-    "id": "L5-blonde-m1yuy94h"
+    "id": "L5-blonde-adj-noun"
   },
   {
     "level": "L5",
     "word": "bribe",
-    "meaning": "賄賂",
+    "meaning": "noun/verb 賄賂",
     "example": "The official refused to accept a bribe.（那名官員拒絕收賄。）",
-    "id": "L5-bribe-mopry"
+    "id": "L5-bribe-noun-verb"
   },
   {
     "level": "L5",
     "word": "briefcase",
-    "meaning": "公事包",
+    "meaning": "noun 公事包",
     "example": "He carried his papers in a briefcase.（他把文件放在公事包裡。）",
-    "id": "L5-briefcase-mcb5fq"
+    "id": "L5-briefcase-noun"
   },
   {
     "level": "L5",
     "word": "browse",
-    "meaning": "瀏覽",
+    "meaning": "verb/noun 瀏覽",
     "example": "I like to browse books in the library.（我喜歡在圖書館瀏覽書籍。）",
-    "id": "L5-browse-mjte6"
+    "id": "L5-browse-verb-noun"
   },
   {
     "level": "L5",
     "word": "bureau",
-    "meaning": "辦公處、(政府部門的)局",
+    "meaning": "noun 辦公處、(政府部門的)局",
     "example": "She works at a government bureau.（她在政府局處工作。）",
-    "id": "L5-bureau-m9ozwvk"
+    "id": "L5-bureau-noun"
   },
   {
     "level": "L5",
     "word": "butcher",
-    "meaning": "肉商、肉舖；劊子手",
+    "meaning": "noun 肉商、肉舖；劊子手\nverb 屠宰、宰殺；殺戮、屠殺",
     "example": "The butcher cut the meat carefully.（肉販仔細切肉。）",
-    "id": "L5-butcher-m4gfny3"
-  },
-  {
-    "level": "L5",
-    "word": "butcher",
-    "meaning": "屠宰、宰殺；殺戮、屠殺",
-    "example": "The butcher cut the meat carefully.（肉販仔細切肉。）",
-    "id": "L5-butcher-m2qnmcn"
+    "id": "L5-butcher-noun-verb"
   },
   {
     "level": "L5",
     "word": "canal",
-    "meaning": "運河",
+    "meaning": "noun 運河",
     "example": "The canal carries water to the fields.（運河把水送到田裡。）",
-    "id": "L5-canal-mp51k"
+    "id": "L5-canal-noun"
   },
   {
     "level": "L5",
     "word": "carbon",
-    "meaning": "碳",
+    "meaning": "noun 碳",
     "example": "Carbon is found in many living things.（碳存在於許多生物中。）",
-    "id": "L5-carbon-mnub"
+    "id": "L5-carbon-noun"
   },
   {
     "level": "L5",
     "word": "ceremony",
-    "meaning": "典禮",
+    "meaning": "noun 典禮",
     "example": "The graduation ceremony was held outdoors. (畢業典禮在戶外舉行。)",
-    "id": "L5-ceremony-meiwm"
+    "id": "L5-ceremony-noun"
   },
   {
     "level": "L5",
     "word": "certificate",
-    "meaning": "證書、證明、文憑；證明、發給結業證書",
+    "meaning": "noun/verb 證書、證明、文憑；證明、發給結業證書",
     "example": "He received a certificate for completing the course.（他完成課程後得到證書。）",
-    "id": "L5-certificate-m1qcstez"
+    "id": "L5-certificate-noun-verb"
   },
   {
     "level": "L5",
     "word": "check-in",
-    "meaning": "辦理登機手續、入住登記",
+    "meaning": "noun 辦理登機手續、入住登記",
     "example": "Check-in begins at three o’clock.（入住登記三點開始。）",
-    "id": "L5-check-in-mgtsu5f"
+    "id": "L5-check-in-noun"
   },
   {
     "level": "L5",
     "word": "chemist",
-    "meaning": "化學家",
+    "meaning": "noun 化學家",
     "example": "The chemist tested the new material.（化學家測試了新材料。）",
-    "id": "L5-chemist-mcm66s"
+    "id": "L5-chemist-noun"
   },
   {
     "level": "L5",
     "word": "colleague",
-    "meaning": "同事",
+    "meaning": "noun 同事",
     "example": "My colleague helped me finish the report.（我的同事幫我完成報告。）",
-    "id": "L5-colleague-meq67"
+    "id": "L5-colleague-noun"
   },
   {
     "level": "L5",
     "word": "comedian",
-    "meaning": "喜劇演員",
+    "meaning": "noun 喜劇演員",
     "example": "The comedian made everyone laugh.（那位喜劇演員讓大家大笑。）",
-    "id": "L5-comedian-mb5cfeg"
+    "id": "L5-comedian-noun"
   },
   {
     "level": "L5",
     "word": "commission",
-    "meaning": "委任、委員會；委託",
+    "meaning": "noun/verb 委任、委員會；委託\nnoun 佣金、手續費",
     "example": "The artist received a commission to paint a portrait.（那位藝術家接到畫肖像的委託。）",
-    "id": "L5-commission-m143emte"
-  },
-  {
-    "level": "L5",
-    "word": "commission",
-    "meaning": "佣金、手續費",
-    "example": "The artist received a commission to paint a portrait.（那位藝術家接到畫肖像的委託。）",
-    "id": "L5-commission-m15lkpk7"
+    "id": "L5-commission-noun-verb-noun"
   },
   {
     "level": "L5",
     "word": "communist",
-    "meaning": "共產主義的、共產黨的；共產主義者、共產黨員",
+    "meaning": "adj./noun 共產主義的、共產黨的；共產主義者、共產黨員",
     "example": "The communist party controlled the country.（共產黨控制了那個國家。）",
-    "id": "L5-communist-m481ctz"
+    "id": "L5-communist-adj-noun"
   },
   {
     "level": "L5",
     "word": "compliment",
-    "meaning": "稱讚、道賀；讚美、稱讚",
+    "meaning": "noun/verb 稱讚、道賀；讚美、稱讚",
     "example": "He gave me a compliment on my drawing.（他稱讚我的畫。）",
-    "id": "L5-compliment-m1qxglxc"
+    "id": "L5-compliment-noun-verb"
   },
   {
     "level": "L5",
     "word": "compound",
-    "meaning": "化合物、複合物、複合詞；複合的；使混合",
+    "meaning": "noun/adj./verb 化合物、複合物、複合詞；複合的；使混合\nverb 使惡化、使加劇",
     "example": "Water is a chemical compound.（水是一種化合物。）",
-    "id": "L5-compound-m1t5r2t3"
-  },
-  {
-    "level": "L5",
-    "word": "compound",
-    "meaning": "使惡化、使加劇",
-    "example": "Water is a chemical compound.（水是一種化合物。）",
-    "id": "L5-compound-mjamae1"
+    "id": "L5-compound-noun-adj-verb-verb"
   },
   {
     "level": "L5",
     "word": "comprehension",
-    "meaning": "理解力、理解力測試",
+    "meaning": "noun 理解力、理解力測試",
     "example": "Reading improves comprehension.（閱讀能提升理解力。）",
-    "id": "L5-comprehension-muauydx"
+    "id": "L5-comprehension-noun"
   },
   {
     "level": "L5",
     "word": "compute",
-    "meaning": "計算",
+    "meaning": "verb 計算",
     "example": "The computer can compute the answer quickly.（電腦可以快速計算答案。）",
-    "id": "L5-compute-mo5n3"
+    "id": "L5-compute-verb"
   },
   {
     "level": "L5",
     "word": "conceal",
-    "meaning": "隱藏、掩飾",
+    "meaning": "verb 隱藏、掩飾",
     "example": "She tried to conceal the gift behind her back.（她試著把禮物藏在背後。）",
-    "id": "L5-conceal-m121eb08"
+    "id": "L5-conceal-verb"
   },
   {
     "level": "L5",
     "word": "conduct",
-    "meaning": "執行、引導、指揮(合唱團或樂隊)；表現、舉止",
+    "meaning": "verb 執行、引導、指揮(合唱團或樂隊)；表現、舉止\nnoun 行為、舉止",
     "example": "The teacher will conduct the experiment.（老師會進行實驗。）",
-    "id": "L5-conduct-m1m97jni"
-  },
-  {
-    "level": "L5",
-    "word": "conduct",
-    "meaning": "行為、舉止",
-    "example": "The teacher will conduct the experiment.（老師會進行實驗。）",
-    "id": "L5-conduct-m1e4rb7w"
+    "id": "L5-conduct-verb-noun"
   },
   {
     "level": "L5",
     "word": "confront",
-    "meaning": "面臨(困境)、克服、對抗",
+    "meaning": "verb 面臨(困境)、克服、對抗",
     "example": "She had to confront her fear of heights.（她必須面對她的懼高症。）",
-    "id": "L5-confront-m1by4xj0"
+    "id": "L5-confront-verb"
   },
   {
     "level": "L5",
     "word": "considerate",
-    "meaning": "體貼的",
+    "meaning": "adj. 體貼的",
     "example": "It was considerate of you to help.（你幫忙真體貼。）",
-    "id": "L5-considerate-mnczrw"
+    "id": "L5-considerate-adj"
   },
   {
     "level": "L5",
     "word": "contemporary",
-    "meaning": "當代的、同時期的；同時代的人、同輩",
+    "meaning": "adj./noun 當代的、同時期的；同時代的人、同輩",
     "example": "She enjoys contemporary art.（她喜歡當代藝術。）",
-    "id": "L5-contemporary-mfkejxt"
+    "id": "L5-contemporary-adj-noun"
   },
   {
     "level": "L5",
     "word": "continental",
-    "meaning": "洲的、大陸的",
+    "meaning": "adj. 洲的、大陸的",
     "example": "We had a continental breakfast at the hotel.（我們在飯店吃了歐陸式早餐。）",
-    "id": "L5-continental-m1vdtnj8"
+    "id": "L5-continental-adj"
   },
   {
     "level": "L5",
     "word": "corporation",
-    "meaning": "(大)公司",
+    "meaning": "noun (大)公司",
     "example": "The corporation opened a new office.（那家公司開了一間新辦公室。）",
-    "id": "L5-corporation-mbv7yxi"
+    "id": "L5-corporation-noun"
   },
   {
     "level": "L5",
     "word": "corridor",
-    "meaning": "走廊、通道",
+    "meaning": "noun 走廊、通道",
     "example": "The corridor was long and quiet.（走廊又長又安靜。）",
-    "id": "L5-corridor-m1vyz1r4"
+    "id": "L5-corridor-noun"
   },
   {
     "level": "L5",
     "word": "crystal",
-    "meaning": "水晶、結晶；水晶的、清澈的",
+    "meaning": "noun/adj. 水晶、結晶；水晶的、清澈的",
     "example": "She wore a crystal necklace.（她戴著水晶項鍊。）",
-    "id": "L5-crystal-m1sd1aj0"
+    "id": "L5-crystal-noun-adj"
   },
   {
     "level": "L5",
     "word": "customs",
-    "meaning": "海關",
+    "meaning": "noun 海關",
     "example": "We went through customs at the airport.（我們在機場通過海關。）",
-    "id": "L5-customs-mjfwl"
+    "id": "L5-customs-noun"
   },
   {
     "level": "L5",
     "word": "decay",
-    "meaning": "腐爛、衰敗",
+    "meaning": "verb/noun 腐爛、衰敗",
     "example": "Old leaves decay on the ground.（老葉子在地上腐爛。）",
-    "id": "L5-decay-mmzxmnx"
+    "id": "L5-decay-verb-noun"
   },
   {
     "level": "L5",
     "word": "deceive",
-    "meaning": "欺騙",
+    "meaning": "verb 欺騙",
     "example": "Do not deceive your friends.（不要欺騙你的朋友。）",
-    "id": "L5-deceive-mj31b"
+    "id": "L5-deceive-verb"
   },
   {
     "level": "L5",
     "word": "declaration",
-    "meaning": "宣言、聲明、申報",
+    "meaning": "noun 宣言、聲明、申報",
     "example": "The declaration was read aloud.（宣言被大聲朗讀出來。）",
-    "id": "L5-declaration-mwyc1nj"
+    "id": "L5-declaration-noun"
   },
   {
     "level": "L5",
     "word": "delegate",
-    "meaning": "代表；授權、委託",
+    "meaning": "noun/verb 代表；授權、委託",
     "example": "Each class sent a delegate to the meeting.（每班派一名代表參加會議。）",
-    "id": "L5-delegate-m10eb5ik"
+    "id": "L5-delegate-noun-verb"
   },
   {
     "level": "L5",
     "word": "democrat",
-    "meaning": "民主主義者",
+    "meaning": "noun 民主主義者",
     "example": "The democrat supported free elections.（那位民主黨人支持自由選舉。）",
-    "id": "L5-democrat-m6jyj59"
+    "id": "L5-democrat-noun"
   },
   {
     "level": "L5",
     "word": "despair",
-    "meaning": "絕望",
+    "meaning": "noun/verb 絕望",
     "example": "She felt despair after losing everything.（她失去一切後感到絕望。）",
-    "id": "L5-despair-mlvty"
+    "id": "L5-despair-noun-verb"
   },
   {
     "level": "L5",
     "word": "destination",
-    "meaning": "目的地",
+    "meaning": "noun 目的地",
     "example": "Our destination is the museum.（我們的目的地是博物館。）",
-    "id": "L5-destination-mhzr16"
+    "id": "L5-destination-noun"
   },
   {
     "level": "L5",
     "word": "destructive",
-    "meaning": "破壞性的",
+    "meaning": "adj. 破壞性的",
     "example": "The storm was very destructive.（那場暴風雨破壞力很強。）",
-    "id": "L5-destructive-mfja9yf"
+    "id": "L5-destructive-adj"
   },
   {
     "level": "L5",
     "word": "devotion",
-    "meaning": "摯愛、忠誠、奉獻",
+    "meaning": "noun 摯愛、忠誠、奉獻",
     "example": "Her devotion to music is admirable.（她對音樂的投入令人佩服。）",
-    "id": "L5-devotion-miblrpa"
+    "id": "L5-devotion-noun"
   },
   {
     "level": "L5",
     "word": "dialect",
-    "meaning": "方言",
+    "meaning": "noun 方言",
     "example": "My grandparents speak a local dialect.（我的祖父母說一種地方方言。）",
-    "id": "L5-dialect-mi25j"
+    "id": "L5-dialect-noun"
   },
   {
     "level": "L5",
     "word": "discard",
-    "meaning": "丟棄；被拋棄的人或物",
+    "meaning": "verb/noun 丟棄；被拋棄的人或物",
     "example": "Please discard the broken toys.（請丟掉壞掉的玩具。）",
-    "id": "L5-discard-m1gix3tj"
+    "id": "L5-discard-verb-noun"
   },
   {
     "level": "L5",
     "word": "distinction",
-    "meaning": "差別；優秀",
+    "meaning": "noun 差別；優秀",
     "example": "There is a clear distinction between the two words.（這兩個字之間有明顯區別。）",
-    "id": "L5-distinction-mninobe"
+    "id": "L5-distinction-noun"
   },
   {
     "level": "L5",
     "word": "downward",
-    "meaning": "向下",
+    "meaning": "adv. 向下",
     "example": "The elevator moved downward.（電梯往下移動。）",
-    "id": "L5-downward-meq6y"
+    "id": "L5-downward-adv"
   },
   {
     "level": "L5",
     "word": "dreadful",
-    "meaning": "可怕的、糟糕的",
+    "meaning": "adj. 可怕的、糟糕的",
     "example": "The food at that restaurant was dreadful.（那家餐廳的食物很糟糕。）",
-    "id": "L5-dreadful-m170lnuz"
+    "id": "L5-dreadful-adj"
   },
   {
     "level": "L5",
     "word": "duration",
-    "meaning": "持續期間",
+    "meaning": "noun 持續期間",
     "example": "The duration of the movie is two hours.（這部電影的長度是兩小時。）",
-    "id": "L5-duration-md0l1kv"
+    "id": "L5-duration-noun"
   },
   {
     "level": "L5",
     "word": "dusk",
-    "meaning": "黃昏",
+    "meaning": "noun 黃昏",
     "example": "We arrived home at dusk.（我們黃昏時到家。）",
-    "id": "L5-dusk-mrkbw"
+    "id": "L5-dusk-noun"
   },
   {
     "level": "L5",
     "word": "elaborate",
-    "meaning": "詳盡的、精美的；詳盡闡述",
+    "meaning": "adj./verb 詳盡的、精美的；詳盡闡述",
     "example": "She gave an elaborate explanation.（她給了詳細的解釋。）",
-    "id": "L5-elaborate-m1xolkof"
+    "id": "L5-elaborate-adj-verb"
   },
   {
     "level": "L5",
     "word": "enroll",
-    "meaning": "註冊、登記",
+    "meaning": "verb 註冊、登記",
     "example": "Enrollment begins next Monday.（報名下週一開始。）",
-    "id": "L5-enroll-m1hr9oz3"
+    "id": "L5-enroll-verb"
   },
   {
     "level": "L5",
     "word": "ensure",
-    "meaning": "保證、確保",
+    "meaning": "verb 保證、確保",
     "example": "Please ensure that the door is locked.（請確保門已鎖好。）",
-    "id": "L5-ensure-m19x3e6w"
+    "id": "L5-ensure-verb"
   },
   {
     "level": "L5",
     "word": "enterprise",
-    "meaning": "企業、事業",
+    "meaning": "noun 企業、事業",
     "example": "She started a small enterprise with her friends.（她和朋友創立了一家小企業。）",
-    "id": "L5-enterprise-m12a6w3b"
+    "id": "L5-enterprise-noun"
   },
   {
     "level": "L5",
     "word": "enthusiastic",
-    "meaning": "有熱忱的",
+    "meaning": "adj. 有熱忱的",
     "example": "The students were enthusiastic about the trip.（學生們對旅行很熱情。）",
-    "id": "L5-enthusiastic-mdgytmj"
+    "id": "L5-enthusiastic-adj"
   },
   {
     "level": "L5",
     "word": "entitle",
-    "meaning": "使有資格、權利；命名",
+    "meaning": "verb 使有資格、權利；命名",
     "example": "This ticket entitles you to a free drink.（這張票讓你有權獲得一杯免費飲料。）",
-    "id": "L5-entitle-mrpcg2y"
+    "id": "L5-entitle-verb"
   },
   {
     "level": "L5",
     "word": "erect",
-    "meaning": "建造、豎立",
+    "meaning": "verb 建造、豎立",
     "example": "Workers will erect a new sign.（工人會豎立一個新標誌。）",
-    "id": "L5-erect-myle120"
+    "id": "L5-erect-verb"
   },
   {
     "level": "L5",
     "word": "estate",
-    "meaning": "地產、資產、莊園",
+    "meaning": "noun 地產、資產、莊園",
     "example": "The family owns a large estate.（那個家庭擁有一大片莊園。）",
-    "id": "L5-estate-m8ycrjz"
+    "id": "L5-estate-noun"
   },
   {
     "level": "L5",
     "word": "exceptional",
-    "meaning": "卓越的、非比尋常的",
+    "meaning": "adj. 卓越的、非比尋常的",
     "example": "He is an exceptional student.（他是一位出色的學生。）",
-    "id": "L5-exceptional-m8mdnwt"
+    "id": "L5-exceptional-adj"
   },
   {
     "level": "L5",
     "word": "exclaim",
-    "meaning": "驚呼、大聲叫嚷",
+    "meaning": "verb 驚呼、大聲叫嚷",
     "example": "“What a beautiful day!” she exclaimed.（她驚呼：「多美的一天啊！」）",
-    "id": "L5-exclaim-m51jj7a"
+    "id": "L5-exclaim-verb"
   },
   {
     "level": "L5",
     "word": "executive",
-    "meaning": "高層主管、執行委員會",
+    "meaning": "noun 高層主管、執行委員會\nadj. 執行的、行政的",
     "example": "The executive made an important decision.（主管做了一個重要決定。）",
-    "id": "L5-executive-mho7zua"
-  },
-  {
-    "level": "L5",
-    "word": "executive",
-    "meaning": "執行的、行政的",
-    "example": "The executive made an important decision.（主管做了一個重要決定。）",
-    "id": "L5-executive-my4qmnz"
+    "id": "L5-executive-noun-adj"
   },
   {
     "level": "L5",
     "word": "extension",
-    "meaning": "延長、擴大、延伸；電話分機",
+    "meaning": "noun 延長、擴大、延伸；電話分機",
     "example": "We built an extension to the house.（我們在房子旁加蓋了一部分。）",
-    "id": "L5-extension-m9zxuwq"
+    "id": "L5-extension-noun"
   },
   {
     "level": "L5",
     "word": "extensive",
-    "meaning": "廣闊的、廣泛的",
+    "meaning": "adj. 廣闊的、廣泛的",
     "example": "The library has an extensive collection of books.（圖書館有大量藏書。）",
-    "id": "L5-extensive-m1b6m148"
+    "id": "L5-extensive-adj"
   },
   {
     "level": "L5",
     "word": "extinct",
-    "meaning": "絕種的",
+    "meaning": "adj. 絕種的",
     "example": "Dinosaurs are extinct.（恐龍已經滅絕。）",
-    "id": "L5-extinct-miyazv"
+    "id": "L5-extinct-adj"
   },
   {
     "level": "L5",
     "word": "extraordinary",
-    "meaning": "非凡的、異常的",
+    "meaning": "adj. 非凡的、異常的",
     "example": "She has extraordinary talent.（她有非凡的天分。）",
-    "id": "L5-extraordinary-m13v18os"
+    "id": "L5-extraordinary-adj"
   },
   {
     "level": "L5",
     "word": "fascinate",
-    "meaning": "迷住",
+    "meaning": "verb 迷住",
     "example": "Space stories fascinate many children.（太空故事讓許多孩子著迷。）",
-    "id": "L5-fascinate-mox88"
+    "id": "L5-fascinate-verb"
   },
   {
     "level": "L5",
     "word": "federal",
-    "meaning": "聯邦政府的",
+    "meaning": "adj. 聯邦政府的",
     "example": "Federal laws apply to all states. (聯邦法律適用於所有州。)",
-    "id": "L5-federal-mnmi9o0"
+    "id": "L5-federal-adj"
   },
   {
     "level": "L5",
     "word": "fertilizer",
-    "meaning": "肥料",
+    "meaning": "noun 肥料",
     "example": "The farmer put fertilizer on the field.（農夫在田裡施肥。）",
-    "id": "L5-fertilizer-mmftg"
+    "id": "L5-fertilizer-noun"
   },
   {
     "level": "L5",
     "word": "forgetful",
-    "meaning": "健忘的",
+    "meaning": "adj. 健忘的",
     "example": "My grandfather is forgetful sometimes.（我祖父有時很健忘。）",
-    "id": "L5-forgetful-mc8vdd"
+    "id": "L5-forgetful-adj"
   },
   {
     "level": "L5",
     "word": "gay",
-    "meaning": "同性戀的、愉快的",
+    "meaning": "adj. 同性戀的、愉快的",
     "example": "He is proud to be gay.（他為自己是同性戀而自豪。）",
-    "id": "L5-gay-m1yq0r28"
+    "id": "L5-gay-adj"
   },
   {
     "level": "L5",
     "word": "grant",
-    "meaning": "准予、同意",
+    "meaning": "verb 准予、同意\nnoun 補助金",
     "example": "The school granted him a scholarship.（學校給了他獎學金。）",
-    "id": "L5-grant-m19pxo5e"
-  },
-  {
-    "level": "L5",
-    "word": "grant",
-    "meaning": "補助金",
-    "example": "The school granted him a scholarship.（學校給了他獎學金。）",
-    "id": "L5-grant-mkgilg"
+    "id": "L5-grant-verb-noun"
   },
   {
     "level": "L5",
     "word": "gravity",
-    "meaning": "重力、地心引力",
+    "meaning": "noun 重力、地心引力",
     "example": "Gravity pulls objects toward Earth.（重力把物體拉向地球。）",
-    "id": "L5-gravity-m11k132k"
+    "id": "L5-gravity-noun"
   },
   {
     "level": "L5",
     "word": "handicap",
-    "meaning": "殘疾、阻礙",
+    "meaning": "noun 殘疾、阻礙\nverb 阻礙",
     "example": "The ramp helps people with a handicap enter the building.（坡道幫助身障人士進入大樓。）",
-    "id": "L5-handicap-m9kiiop"
-  },
-  {
-    "level": "L5",
-    "word": "handicap",
-    "meaning": "阻礙",
-    "example": "The ramp helps people with a handicap enter the building.（坡道幫助身障人士進入大樓。）",
-    "id": "L5-handicap-mq7um"
+    "id": "L5-handicap-noun-verb"
   },
   {
     "level": "L5",
     "word": "heavenly",
-    "meaning": "天的、天堂般的",
+    "meaning": "adj 天的、天堂般的",
     "example": "The cake had a heavenly smell.（蛋糕有天堂般美好的香味。）",
-    "id": "L5-heavenly-m13njwc7"
+    "id": "L5-heavenly-adj"
   },
   {
     "level": "L5",
     "word": "hence",
-    "meaning": "因此",
+    "meaning": "adv. 因此",
     "example": "He was sick; hence, he stayed home.（他生病了，因此待在家裡。）",
-    "id": "L5-hence-mfd6s"
+    "id": "L5-hence-adv"
   },
   {
     "level": "L5",
     "word": "hijack",
-    "meaning": "劫持、劫機",
+    "meaning": "verb 劫持、劫機",
     "example": "The criminals tried to hijack the plane.（罪犯試圖劫持飛機。）",
-    "id": "L5-hijack-m1fssvof"
+    "id": "L5-hijack-verb"
   },
   {
     "level": "L5",
     "word": "hostage",
-    "meaning": "人質",
+    "meaning": "noun 人質",
     "example": "The robber took the clerk hostage.（搶匪挾持店員當人質。）",
-    "id": "L5-hostage-me5ww"
+    "id": "L5-hostage-noun"
   },
   {
     "level": "L5",
     "word": "housing",
-    "meaning": "住宅",
+    "meaning": "noun 住宅",
     "example": "The city needs more affordable housing.（這座城市需要更多可負擔住宅。）",
-    "id": "L5-housing-mdzpy"
+    "id": "L5-housing-noun"
   },
   {
     "level": "L5",
     "word": "imperial",
-    "meaning": "帝國的",
+    "meaning": "adj. 帝國的",
     "example": "The palace had an imperial garden.（宮殿裡有皇家花園。）",
-    "id": "L5-imperial-me7po6"
+    "id": "L5-imperial-adj"
   },
   {
     "level": "L5",
     "word": "impose",
-    "meaning": "強加、徵(稅)",
+    "meaning": "verb 強加、徵(稅)",
     "example": "Do not impose your opinion on others.（不要把你的意見強加在別人身上。）",
-    "id": "L5-impose-m17977qn"
+    "id": "L5-impose-verb"
   },
   {
     "level": "L5",
     "word": "inherit",
-    "meaning": "繼承、遺傳",
+    "meaning": "verb 繼承、遺傳",
     "example": "She will inherit her grandmother’s house.（她將繼承祖母的房子。）",
-    "id": "L5-inherit-m9z0amv"
+    "id": "L5-inherit-verb"
   },
   {
     "level": "L5",
     "word": "inquire",
-    "meaning": "詢問、調查",
+    "meaning": "verb 詢問、調查",
     "example": "I would like to inquire about the course.（我想詢問這門課程。）",
-    "id": "L5-inquire-m1itx3sq"
+    "id": "L5-inquire-verb"
   },
   {
     "level": "L5",
     "word": "institute",
-    "meaning": "學院、協會",
+    "meaning": "noun 學院、協會",
     "example": "He works at a research institute.（他在研究機構工作。）",
-    "id": "L5-institute-mlnrwee"
+    "id": "L5-institute-noun"
   },
   {
     "level": "L5",
     "word": "interference",
-    "meaning": "干涉、妨礙",
+    "meaning": "noun 干涉、妨礙",
     "example": "The noise caused interference during the call.（噪音干擾了通話。）",
-    "id": "L5-interference-ms5b917"
+    "id": "L5-interference-noun"
   },
   {
     "level": "L5",
     "word": "interpretation",
-    "meaning": "詮釋、理解",
+    "meaning": "noun 詮釋、理解",
     "example": "Your interpretation of the poem is interesting.（你對這首詩的解讀很有趣。）",
-    "id": "L5-interpretation-m1qn1vdt"
+    "id": "L5-interpretation-noun"
   },
   {
     "level": "L5",
     "word": "interpreter",
-    "meaning": "口譯員",
+    "meaning": "noun 口譯員",
     "example": "The interpreter helped the visitors communicate.（口譯員幫助訪客溝通。）",
-    "id": "L5-interpreter-mcyik5"
+    "id": "L5-interpreter-noun"
   },
   {
     "level": "L5",
     "word": "issue",
-    "meaning": "議題、問題",
+    "meaning": "noun 議題、問題\nverb 發行",
     "example": "The magazine published a new issue.（那本雜誌出版了新一期。）",
-    "id": "L5-issue-m1veasea"
-  },
-  {
-    "level": "L5",
-    "word": "issue",
-    "meaning": "發行",
-    "example": "The magazine published a new issue.（那本雜誌出版了新一期。）",
-    "id": "L5-issue-mkwgg"
+    "id": "L5-issue-noun-verb"
   },
   {
     "level": "L5",
     "word": "jury",
-    "meaning": "陪審團",
+    "meaning": "noun 陪審團",
     "example": "The jury listened to the evidence.（陪審團聆聽證據。）",
-    "id": "L5-jury-mmh8op"
+    "id": "L5-jury-noun"
   },
   {
     "level": "L5",
     "word": "knowledgeable",
-    "meaning": "博學的、有見識的",
+    "meaning": "adj. 博學的、有見識的",
     "example": "She is knowledgeable about history.（她很懂歷史。）",
-    "id": "L5-knowledgeable-mgp34bt"
+    "id": "L5-knowledgeable-adj"
   },
   {
     "level": "L5",
     "word": "landlady",
-    "meaning": "女房東、女地主",
+    "meaning": "noun 女房東、女地主",
     "example": "The landlady collected the rent.（女房東收了房租。）",
-    "id": "L5-landlady-mh0dm5e"
+    "id": "L5-landlady-noun"
   },
   {
     "level": "L5",
     "word": "landlord",
-    "meaning": "房東、地主",
+    "meaning": "noun 房東、地主",
     "example": "The landlord fixed the broken door.（房東修好了壞掉的門。）",
-    "id": "L5-landlord-m168mb96"
+    "id": "L5-landlord-noun"
   },
   {
     "level": "L5",
     "word": "laser",
-    "meaning": "雷射",
+    "meaning": "noun 雷射",
     "example": "The doctor used a laser during the surgery.（醫生在手術中使用雷射。）",
-    "id": "L5-laser-mq6lp"
+    "id": "L5-laser-noun"
   },
   {
     "level": "L5",
     "word": "latitude",
-    "meaning": "緯度",
+    "meaning": "noun 緯度",
     "example": "Taipei is north of the Tropic of Cancer in latitude.（從緯度來看，台北位於北回歸線以北。）",
-    "id": "L5-latitude-mlxuf"
+    "id": "L5-latitude-noun"
   },
   {
     "level": "L5",
     "word": "layer",
-    "meaning": "層",
+    "meaning": "noun 層",
     "example": "The cake has a layer of cream.（蛋糕有一層奶油。）",
-    "id": "L5-layer-mi90"
+    "id": "L5-layer-noun"
   },
   {
     "level": "L5",
     "word": "league",
-    "meaning": "聯盟、社團",
+    "meaning": "noun 聯盟、社團",
     "example": "Our team joined the baseball league.（我們隊加入了棒球聯盟。）",
-    "id": "L5-league-mk5s9aj"
+    "id": "L5-league-noun"
   },
   {
     "level": "L5",
     "word": "mainland",
-    "meaning": "大陸、本土",
+    "meaning": "noun 大陸、本土",
     "example": "My uncle works in mainland China.（我叔叔在中國大陸工作。）",
-    "id": "L5-mainland-mcm78mb"
+    "id": "L5-mainland-noun"
   },
   {
     "level": "L5",
     "word": "mansion",
-    "meaning": "大廈、宅第",
+    "meaning": "noun 大廈、宅第",
     "example": "The wealthy family lived in a mansion.（那個富裕家庭住在豪宅裡。）",
-    "id": "L5-mansion-m5landz"
+    "id": "L5-mansion-noun"
   },
   {
     "level": "L5",
     "word": "masterpiece",
-    "meaning": "傑作",
+    "meaning": "noun 傑作",
     "example": "This painting is his masterpiece.（這幅畫是他的傑作。）",
-    "id": "L5-masterpiece-me50r"
+    "id": "L5-masterpiece-noun"
   },
   {
     "level": "L5",
     "word": "meantime",
-    "meaning": "同時",
+    "meaning": "noun 同時",
     "example": "In the meantime, please wait here.（在此期間，請在這裡等。）",
-    "id": "L5-meantime-meuuu"
+    "id": "L5-meantime-noun"
   },
   {
     "level": "L5",
     "word": "mistress",
-    "meaning": "女主人",
+    "meaning": "noun 女主人",
     "example": "The mistress of the house welcomed the guests.（女主人歡迎客人們。）",
-    "id": "L5-mistress-mdhehe"
+    "id": "L5-mistress-noun"
   },
   {
     "level": "L5",
     "word": "nasty",
-    "meaning": "令人不快的、惡意的",
+    "meaning": "adj. 令人不快的、惡意的",
     "example": "The milk had a nasty smell.（牛奶有一股難聞的味道。）",
-    "id": "L5-nasty-m7xgow5"
+    "id": "L5-nasty-adj"
   },
   {
     "level": "L5",
     "word": "nowhere",
-    "meaning": "無處",
+    "meaning": "adv. 無處",
     "example": "My keys are nowhere to be found.（我的鑰匙到處都找不到。）",
-    "id": "L5-nowhere-mjz9w"
+    "id": "L5-nowhere-adv"
   },
   {
     "level": "L5",
     "word": "opponent",
-    "meaning": "對手、反對者",
+    "meaning": "noun 對手、反對者",
     "example": "He shook hands with his opponent after the match.（比賽後他和對手握手。）",
-    "id": "L5-opponent-m154v2oy"
+    "id": "L5-opponent-noun"
   },
   {
     "level": "L5",
     "word": "orphanage",
-    "meaning": "孤兒院",
+    "meaning": "noun 孤兒院",
     "example": "The child grew up in an orphanage.（那個孩子在孤兒院長大。）",
-    "id": "L5-orphanage-mdsk38"
+    "id": "L5-orphanage-noun"
   },
   {
     "level": "L5",
     "word": "ounce",
-    "meaning": "盎司",
+    "meaning": "noun 盎司",
     "example": "The bottle holds eight ounces of juice.（這個瓶子可裝八盎司果汁。）",
-    "id": "L5-ounce-mko2y"
+    "id": "L5-ounce-noun"
   },
   {
     "level": "L5",
     "word": "output",
-    "meaning": "產量、輸出",
+    "meaning": "noun 產量、輸出",
     "example": "The machine’s output increased this month.（這台機器本月產量增加了。）",
-    "id": "L5-output-m1eemhrq"
+    "id": "L5-output-noun"
   },
   {
     "level": "L5",
     "word": "outward",
-    "meaning": "外面的；外面地",
+    "meaning": "adj./adv. 外面的；外面地",
     "example": "The door opens outward.（這扇門向外開。）",
-    "id": "L5-outward-m1rhqkyp"
+    "id": "L5-outward-adj-adv"
   },
   {
     "level": "L5",
     "word": "overall",
-    "meaning": "全面的；全部、大致上",
+    "meaning": "adj./adv. 全面的；全部、大致上\nnoun 工作褲/服",
     "example": "Overall, the trip was successful.（整體來說，這趟旅行很成功。）",
-    "id": "L5-overall-m1odeh7x"
-  },
-  {
-    "level": "L5",
-    "word": "overall",
-    "meaning": "工作褲/服",
-    "example": "Overall, the trip was successful.（整體來說，這趟旅行很成功。）",
-    "id": "L5-overall-mmjen7d"
+    "id": "L5-overall-adj-adv-noun"
   },
   {
     "level": "L5",
     "word": "overflow",
-    "meaning": "溢出、充滿；容納不下的人(或物)、溢出",
+    "meaning": "verb/noun 溢出、充滿；容納不下的人(或物)、溢出",
     "example": "The river began to overflow after the rain.（下雨後河水開始氾濫。）",
-    "id": "L5-overflow-mniy77v"
+    "id": "L5-overflow-verb-noun"
   },
   {
     "level": "L5",
     "word": "Pacific",
-    "meaning": "太平洋(的)",
+    "meaning": "noun/adj. 太平洋(的)",
     "example": "The pacific lake reflected the sky.（平靜的湖面映照著天空。）",
-    "id": "L5-pacific-m12q3f57"
+    "id": "L5-pacific-noun-adj"
   },
   {
     "level": "L5",
     "word": "packet",
-    "meaning": "小包(裹)、小袋",
+    "meaning": "noun 小包(裹)、小袋",
     "example": "I bought a packet of cookies.（我買了一包餅乾。）",
-    "id": "L5-packet-mzbk9a3"
+    "id": "L5-packet-noun"
   },
   {
     "level": "L5",
     "word": "parallel",
-    "meaning": "平行的、同時發生的；相似之處；與…同時發生、與…相似",
+    "meaning": "adj./noun/verb 平行的、同時發生的；相似之處；與…同時發生、與…相似",
     "example": "The two roads run parallel to each other.（這兩條路彼此平行。）",
-    "id": "L5-parallel-m1qx99c5"
+    "id": "L5-parallel-adj-noun-verb"
   },
   {
     "level": "L5",
     "word": "participant",
-    "meaning": "參與者、參加者",
+    "meaning": "noun 參與者、參加者",
     "example": "Each participant received a name tag.（每位參加者都拿到名牌。）",
-    "id": "L5-participant-m1w5pr1k"
+    "id": "L5-participant-noun"
   },
   {
     "level": "L5",
     "word": "peasant",
-    "meaning": "農夫、佃農",
+    "meaning": "noun 農夫、佃農",
     "example": "The peasant worked in the field all day.（農夫整天在田裡工作。）",
-    "id": "L5-peasant-m51u7g7"
+    "id": "L5-peasant-noun"
   },
   {
     "level": "L5",
     "word": "performer",
-    "meaning": "表演者",
+    "meaning": "noun 表演者",
     "example": "The performer bowed to the audience.（表演者向觀眾鞠躬。）",
-    "id": "L5-performer-mkiv2x"
+    "id": "L5-performer-noun"
   },
   {
     "level": "L5",
     "word": "persist",
-    "meaning": "堅持",
+    "meaning": "verb 堅持",
     "example": "If you persist, you will improve.（如果你堅持下去，你會進步。）",
-    "id": "L5-persist-mfijg"
+    "id": "L5-persist-verb"
   },
   {
     "level": "L5",
     "word": "pilgrim",
-    "meaning": "朝聖者",
+    "meaning": "noun 朝聖者",
     "example": "The pilgrim traveled to a holy place.（朝聖者前往聖地。）",
-    "id": "L5-pilgrim-mfq8uk"
+    "id": "L5-pilgrim-noun"
   },
   {
     "level": "L5",
     "word": "potential",
-    "meaning": "潛在的、可能的；潛力、可能性",
+    "meaning": "adj./noun 潛在的、可能的；潛力、可能性",
     "example": "She has great potential as a singer.（她很有成為歌手的潛力。）",
-    "id": "L5-potential-m7rzwvb"
+    "id": "L5-potential-adj-noun"
   },
   {
     "level": "L5",
     "word": "poultry",
-    "meaning": "家禽",
+    "meaning": "noun 家禽",
     "example": "The farm raises poultry.（這座農場飼養家禽。）",
-    "id": "L5-poultry-mg9mv"
+    "id": "L5-poultry-noun"
   },
   {
     "level": "L5",
     "word": "preview",
-    "meaning": "（電影或節目等的）預告；預習",
+    "meaning": "noun/verb （電影或節目等的）預告；預習",
     "example": "We watched a preview of the movie.（我們看了那部電影的預告片。）",
-    "id": "L5-preview-m77x1ff"
+    "id": "L5-preview-noun-verb"
   },
   {
     "level": "L5",
     "word": "proportion",
-    "meaning": "部分、比例",
+    "meaning": "noun 部分、比例",
     "example": "The proportion of water to rice is important.（水和米的比例很重要。）",
-    "id": "L5-proportion-m8vz2my"
+    "id": "L5-proportion-noun"
   },
   {
     "level": "L5",
     "word": "prospect",
-    "meaning": "可能性、前景",
+    "meaning": "noun 可能性、前景",
     "example": "The prospect of travel excited her.（旅行的前景讓她興奮。）",
-    "id": "L5-prospect-mzkka22"
+    "id": "L5-prospect-noun"
   },
   {
     "level": "L5",
     "word": "province",
-    "meaning": "省份",
+    "meaning": "noun 省份",
     "example": "My grandparents live in a southern province.（我的祖父母住在南部的一個省。）",
-    "id": "L5-province-mkobg"
+    "id": "L5-province-noun"
   },
   {
     "level": "L5",
     "word": "qualify",
-    "meaning": "使具有資格",
+    "meaning": "verb 使具有資格",
     "example": "You qualify for the final round.（你符合進入決賽的資格。）",
-    "id": "L5-qualify-m11f10li"
+    "id": "L5-qualify-verb"
   },
   {
     "level": "L5",
     "word": "rear",
-    "meaning": "後面的；後部",
+    "meaning": "adj./noun 後面的；後部\nverb 撫養、飼養",
     "example": "The rear door is locked.（後門鎖住了。）",
-    "id": "L5-rear-m16sc3gp"
-  },
-  {
-    "level": "L5",
-    "word": "rear",
-    "meaning": "撫養、飼養",
-    "example": "The rear door is locked.（後門鎖住了。）",
-    "id": "L5-rear-m1lz1p9s"
+    "id": "L5-rear-adj-noun-verb"
   },
   {
     "level": "L5",
     "word": "recommend",
-    "meaning": "推薦",
+    "meaning": "verb 推薦",
     "example": "I recommend this book to beginners.（我推薦初學者讀這本書。）",
-    "id": "L5-recommend-mhon2"
+    "id": "L5-recommend-verb"
   },
   {
     "level": "L5",
     "word": "reminder",
-    "meaning": "提醒",
+    "meaning": "noun 提醒",
     "example": "This note is a reminder to call Mom.（這張便條提醒我要打電話給媽媽。）",
-    "id": "L5-reminder-mhrya"
+    "id": "L5-reminder-noun"
   },
   {
     "level": "L5",
     "word": "republican",
-    "meaning": "共和主義者；共和主義者的",
+    "meaning": "noun/adj. 共和主義者；共和主義者的",
     "example": "He supports a republican form of government.（他支持共和政體。）",
-    "id": "L5-republican-m1qkn9uv"
+    "id": "L5-republican-noun-adj"
   },
   {
     "level": "L5",
     "word": "residence",
-    "meaning": "居住、住處",
+    "meaning": "noun 居住、住處",
     "example": "This house is his private residence.（這棟房子是他的私人住宅。）",
-    "id": "L5-residence-mftr9a5"
+    "id": "L5-residence-noun"
   },
   {
     "level": "L5",
     "word": "resident",
-    "meaning": "居民、住戶；定居的、常駐的",
+    "meaning": "noun/adj. 居民、住戶；定居的、常駐的",
     "example": "Each resident received a notice.（每位居民都收到通知。）",
-    "id": "L5-resident-m1kcq86d"
+    "id": "L5-resident-noun-adj"
   },
   {
     "level": "L5",
     "word": "ridiculous",
-    "meaning": "荒謬的、可笑的",
+    "meaning": "adj. 荒謬的、可笑的",
     "example": "That idea sounds ridiculous.（那個想法聽起來很荒謬。）",
-    "id": "L5-ridiculous-m1p1bs97"
+    "id": "L5-ridiculous-adj"
   },
   {
     "level": "L5",
     "word": "rifle",
-    "meaning": "來福槍；匆忙翻找",
+    "meaning": "noun/verb 來福槍；匆忙翻找",
     "example": "The soldier carried a rifle.（士兵拿著步槍。）",
-    "id": "L5-rifle-m1wu6eul"
+    "id": "L5-rifle-noun-verb"
   },
   {
     "level": "L5",
     "word": "rival",
-    "meaning": "競爭者；競爭的；與...競爭",
+    "meaning": "noun/adj./verb 競爭者；競爭的；與...競爭",
     "example": "Our team will play against its biggest rival.（我們隊將對上最大的對手。）",
-    "id": "L5-rival-m1uclgah"
+    "id": "L5-rival-noun-adj-verb"
   },
   {
     "level": "L5",
     "word": "rod",
-    "meaning": "竿、棒",
+    "meaning": "noun 竿、棒",
     "example": "He caught the fish with a long rod.（他用長釣竿釣到魚。）",
-    "id": "L5-rod-mi9ank"
+    "id": "L5-rod-noun"
   },
   {
     "level": "L5",
     "word": "rubbish",
-    "meaning": "垃圾；糟透的",
+    "meaning": "noun/adj. 垃圾；糟透的",
     "example": "Please throw the rubbish away.（請把垃圾丟掉。）",
-    "id": "L5-rubbish-m16ajd3o"
+    "id": "L5-rubbish-noun-adj"
   },
   {
     "level": "L5",
     "word": "scan",
-    "meaning": "掃描；審視",
+    "meaning": "verb/noun 掃描；審視",
     "example": "Please scan this document.（請掃描這份文件。）",
-    "id": "L5-scan-m1bkmzuk"
+    "id": "L5-scan-verb-noun"
   },
   {
     "level": "L5",
     "word": "scheme",
-    "meaning": "體制、陰謀；密謀",
+    "meaning": "noun/verb 體制、陰謀；密謀",
     "example": "They made a clever scheme to save money.（他們想出一個聰明的省錢計畫。）",
-    "id": "L5-scheme-m1nzzfly"
+    "id": "L5-scheme-noun-verb"
   },
   {
     "level": "L5",
     "word": "secure",
-    "meaning": "保護、使安全；安心的、安全的",
+    "meaning": "verb/adj. 保護、使安全；安心的、安全的",
     "example": "Make sure the door is secure.（確保門是安全鎖好的。）",
-    "id": "L5-secure-mqdbx8q"
+    "id": "L5-secure-verb-adj"
   },
   {
     "level": "L5",
     "word": "series",
-    "meaning": "系列、連續",
+    "meaning": "noun 系列、連續",
     "example": "This is the first book in the series.（這是這個系列的第一本書。）",
-    "id": "L5-series-m20tw9a"
+    "id": "L5-series-noun"
   },
   {
     "level": "L5",
     "word": "sharpen",
-    "meaning": "使鋒利、加劇、提高",
+    "meaning": "verb 使鋒利、加劇、提高",
     "example": "Sharpen your pencil before class.（上課前把鉛筆削尖。）",
-    "id": "L5-sharpen-m9shs6v"
+    "id": "L5-sharpen-verb"
   },
   {
     "level": "L5",
     "word": "shortage",
-    "meaning": "缺少、不足",
+    "meaning": "noun 缺少、不足",
     "example": "There is a shortage of clean water.（乾淨的水短缺。）",
-    "id": "L5-shortage-mc1z89c"
+    "id": "L5-shortage-noun"
   },
   {
     "level": "L5",
     "word": "shortcoming",
-    "meaning": "缺點",
+    "meaning": "noun 缺點",
     "example": "His main shortcoming is impatience.（他主要的缺點是沒耐心。）",
-    "id": "L5-shortcoming-mmig4"
+    "id": "L5-shortcoming-noun"
   },
   {
     "level": "L5",
     "word": "sneak",
-    "meaning": "偷溜、偷偷地做",
+    "meaning": "verb 偷溜、偷偷地做",
     "example": "The cat tried to sneak into the kitchen.（貓試著偷偷溜進廚房。）",
-    "id": "L5-sneak-m5am0ti"
+    "id": "L5-sneak-verb"
   },
   {
     "level": "L5",
     "word": "sow",
-    "meaning": "播種、散佈",
+    "meaning": "verb 播種、散佈",
     "example": "Farmers sow seeds in spring.（農夫在春天播種。）",
-    "id": "L5-sow-m1i3rrk5"
+    "id": "L5-sow-verb"
   },
   {
     "level": "L5",
     "word": "spacecraft",
-    "meaning": "太空船",
+    "meaning": "noun 太空船",
     "example": "The spacecraft landed safely.（太空船安全著陸。）",
-    "id": "L5-spacecraft-mdnpgp"
+    "id": "L5-spacecraft-noun"
   },
   {
     "level": "L5",
     "word": "spectator",
-    "meaning": "觀眾",
+    "meaning": "noun 觀眾",
     "example": "Each spectator cheered loudly.（每位觀眾都大聲歡呼。）",
-    "id": "L5-spectator-mo326"
+    "id": "L5-spectator-noun"
   },
   {
     "level": "L5",
     "word": "stake",
-    "meaning": "樁、股份、風險；打賭",
+    "meaning": "noun/verb 樁、股份、風險；打賭",
     "example": "He has a stake in the company.（他在這家公司有股份。）",
-    "id": "L5-stake-m1f8e1ji"
+    "id": "L5-stake-noun-verb"
   },
   {
     "level": "L5",
     "word": "steer",
-    "meaning": "駕駛、引導",
+    "meaning": "verb/noun 駕駛、引導",
     "example": "He tried to steer the boat away from the rocks.（他試著把船駛離岩石。）",
-    "id": "L5-steer-m1gugook"
+    "id": "L5-steer-verb-noun"
   },
   {
     "level": "L5",
     "word": "stock",
-    "meaning": "貯存、庫存",
+    "meaning": "verb 貯存、庫存\nnoun 貯存、存貨；股票\nadj. 庫存的、現有的；陳腐的、平凡的",
     "example": "The store has a large stock of notebooks.（這家店有大量筆記本庫存。）",
-    "id": "L5-stock-m1skyvmt"
-  },
-  {
-    "level": "L5",
-    "word": "stock",
-    "meaning": "貯存、存貨；股票",
-    "example": "The store has a large stock of notebooks.（這家店有大量筆記本庫存。）",
-    "id": "L5-stock-mrg8x22"
-  },
-  {
-    "level": "L5",
-    "word": "stock",
-    "meaning": "庫存的、現有的；陳腐的、平凡的",
-    "example": "The store has a large stock of notebooks.（這家店有大量筆記本庫存。）",
-    "id": "L5-stock-m14tg2j4"
+    "id": "L5-stock-verb-noun-adj"
   },
   {
     "level": "L5",
     "word": "substitute",
-    "meaning": "代替的人(物)；代替",
+    "meaning": "noun/verb 代替的人(物)；代替",
     "example": "You can use yogurt as a substitute for cream.（你可以用優格代替鮮奶油。）",
-    "id": "L5-substitute-mwv9dhd"
+    "id": "L5-substitute-noun-verb"
   },
   {
     "level": "L5",
     "word": "suitcase",
-    "meaning": "手提箱",
+    "meaning": "noun 手提箱",
     "example": "I packed my clothes in a suitcase.（我把衣服裝進行李箱。）",
-    "id": "L5-suitcase-mevyb0"
+    "id": "L5-suitcase-noun"
   },
   {
     "level": "L5",
     "word": "supervisor",
-    "meaning": "主管人、指導者",
+    "meaning": "noun 主管人、指導者",
     "example": "My supervisor checked my report.（我的主管檢查了我的報告。）",
-    "id": "L5-supervisor-m1fsdtsh"
+    "id": "L5-supervisor-noun"
   },
   {
     "level": "L5",
     "word": "supreme",
-    "meaning": "最高的、最大的",
+    "meaning": "adj. 最高的、最大的",
     "example": "The court made the supreme decision.（法院做出最高裁決。）",
-    "id": "L5-supreme-mxws6rs"
+    "id": "L5-supreme-adj"
   },
   {
     "level": "L5",
     "word": "suspend",
-    "meaning": "懸掛、中止、暫時取消",
+    "meaning": "verb 懸掛、中止、暫時取消",
     "example": "The school suspended the game because of rain.（學校因下雨暫停比賽。）",
-    "id": "L5-suspend-m1p7tzhz"
+    "id": "L5-suspend-verb"
   },
   {
     "level": "L5",
     "word": "sympathize",
-    "meaning": "同情、支持",
+    "meaning": "verb 同情、支持",
     "example": "I sympathize with your problem.（我同情你的困難。）",
-    "id": "L5-sympathize-m1kwu4ka"
+    "id": "L5-sympathize-verb"
   },
   {
     "level": "L5",
     "word": "tenant",
-    "meaning": "房客、租戶",
+    "meaning": "noun 房客、租戶",
     "example": "The tenant paid rent on time.（房客準時付房租。）",
-    "id": "L5-tenant-m14r628l"
+    "id": "L5-tenant-noun"
   },
   {
     "level": "L5",
     "word": "terminal",
-    "meaning": "終點、(航空或交通運輸的)終站；終點的、末期的",
+    "meaning": "noun/adj. 終點、(航空或交通運輸的)終站；終點的、末期的",
     "example": "Meet me at the bus terminal.（在公車總站和我見面。）",
-    "id": "L5-terminal-m10yhdtq"
+    "id": "L5-terminal-noun-adj"
   },
   {
     "level": "L5",
     "word": "tin",
-    "meaning": "錫、罐",
+    "meaning": "noun 錫、罐",
     "example": "The soup came in a tin can.（湯裝在鐵罐裡。）",
-    "id": "L5-tin-mlsvkq"
+    "id": "L5-tin-noun"
   },
   {
     "level": "L5",
     "word": "tiptoe",
-    "meaning": "踮腳、躡手躡腳",
+    "meaning": "verb/noun 踮腳、躡手躡腳",
     "example": "She walked on tiptoe past the sleeping baby.（她踮著腳走過熟睡的寶寶旁邊。）",
-    "id": "L5-tiptoe-modzo8"
+    "id": "L5-tiptoe-verb-noun"
   },
   {
     "level": "L5",
     "word": "torch",
-    "meaning": "火把；放火燒",
+    "meaning": "noun/verb 火把；放火燒",
     "example": "He carried a torch in the dark cave.（他在黑暗的洞穴裡拿著火把。）",
-    "id": "L5-torch-m1ewia2x"
+    "id": "L5-torch-noun-verb"
   },
   {
     "level": "L5",
     "word": "trademark",
-    "meaning": "商標、特徵",
+    "meaning": "noun 商標、特徵",
     "example": "The company registered its trademark.（公司註冊了商標。）",
-    "id": "L5-trademark-m1qvwka2"
+    "id": "L5-trademark-noun"
   },
   {
     "level": "L5",
     "word": "treaty",
-    "meaning": "條約",
+    "meaning": "noun 條約",
     "example": "The two countries signed a peace treaty.（兩國簽署了和平條約。）",
-    "id": "L5-treaty-mihaf"
+    "id": "L5-treaty-noun"
   },
   {
     "level": "L5",
     "word": "upward",
-    "meaning": "向上的",
+    "meaning": "adj. 向上的",
     "example": "The balloon floated upward.（氣球向上飄。）",
-    "id": "L5-upward-mcp7d7"
+    "id": "L5-upward-adj"
   },
   {
     "level": "L5",
     "word": "vague",
-    "meaning": "模糊的、粗略的",
+    "meaning": "adj. 模糊的、粗略的",
     "example": "His answer was too vague.（他的回答太模糊。）",
-    "id": "L5-vague-m1eedvtc"
+    "id": "L5-vague-adj"
   },
   {
     "level": "L5",
     "word": "vapor",
-    "meaning": "水汽、蒸汽",
+    "meaning": "noun 水汽、蒸汽",
     "example": "Water vapor rose from the hot soup.（水蒸氣從熱湯中升起。）",
-    "id": "L5-vapor-mas6plp"
+    "id": "L5-vapor-noun"
   },
   {
     "level": "L5",
     "word": "venture",
-    "meaning": "冒險",
+    "meaning": "noun/verb 冒險",
     "example": "They decided to venture into the forest.（他們決定冒險進入森林。）",
-    "id": "L5-venture-mep94"
+    "id": "L5-venture-noun-verb"
   },
   {
     "level": "L5",
     "word": "vigor",
-    "meaning": "精力、活力",
+    "meaning": "noun 精力、活力",
     "example": "She worked with vigor all morning.（她整個早上精力充沛地工作。）",
-    "id": "L5-vigor-m15gjwk"
+    "id": "L5-vigor-noun"
   },
   {
     "level": "L5",
     "word": "vigorous",
-    "meaning": "精力充沛的、強健的",
+    "meaning": "adj. 精力充沛的、強健的",
     "example": "He does vigorous exercise every day.（他每天做劇烈運動。）",
-    "id": "L5-vigorous-mied67a"
+    "id": "L5-vigorous-adj"
   },
   {
     "level": "L5",
     "word": "violinist",
-    "meaning": "小提琴手",
+    "meaning": "noun 小提琴手",
     "example": "The violinist played beautifully.（小提琴家演奏得很美。）",
-    "id": "L5-violinist-mc16pyw"
+    "id": "L5-violinist-noun"
   },
   {
     "level": "L5",
     "word": "ward",
-    "meaning": "病房；避免",
+    "meaning": "noun/verb 病房；避免",
     "example": "The nurse works in the children’s ward.（護士在兒童病房工作。）",
-    "id": "L5-ward-m1bqmje7"
+    "id": "L5-ward-noun-verb"
   },
   {
     "level": "L5",
     "word": "widespread",
-    "meaning": "普遍的、廣泛的",
+    "meaning": "adj. 普遍的、廣泛的",
     "example": "The news received widespread attention.（這則新聞受到廣泛關注。）",
-    "id": "L5-widespread-mmijzdc"
+    "id": "L5-widespread-adj"
   },
   {
     "level": "L5",
     "word": "wilderness",
-    "meaning": "荒野",
+    "meaning": "noun 荒野",
     "example": "They explored the wilderness for three days.（他們在荒野中探索了三天。）",
-    "id": "L5-wilderness-mn4xo"
+    "id": "L5-wilderness-noun"
   },
   {
     "level": "L5",
     "word": "wildlife",
-    "meaning": "野生動物",
+    "meaning": "noun 野生動物",
     "example": "We should protect wildlife.（我們應該保護野生動物。）",
-    "id": "L5-wildlife-mivluyt"
+    "id": "L5-wildlife-noun"
   },
   {
     "level": "L5",
     "word": "workshop",
-    "meaning": "專題討論會、工作坊",
+    "meaning": "noun 專題討論會、工作坊",
     "example": "I joined a writing workshop.（我參加了一個寫作工作坊。）",
-    "id": "L5-workshop-mvbc8tl"
+    "id": "L5-workshop-noun"
   },
   {
     "level": "L5",
     "word": "worthwhile",
-    "meaning": "值得(花費時間或金錢)的",
+    "meaning": "adj. 值得(花費時間或金錢)的",
     "example": "The trip was worthwhile.（這趟旅行很值得。）",
-    "id": "L5-worthwhile-m1gsk6sa"
+    "id": "L5-worthwhile-adj"
   },
   {
     "level": "L5",
     "word": "worthy",
-    "meaning": "有價值的、值得的",
+    "meaning": "adj./noun 有價值的、值得的",
     "example": "She is worthy of respect.（她值得尊敬。）",
-    "id": "L5-worthy-mcnylhc"
+    "id": "L5-worthy-adj-noun"
   },
   {
     "level": "L6",
     "word": "abnormal",
-    "meaning": "不正常的",
+    "meaning": "adj. 不正常的",
     "example": "The test result was abnormal.（檢查結果不正常。）",
-    "id": "L6-abnormal-maala6a"
+    "id": "L6-abnormal-adj"
   },
   {
     "level": "L6",
     "word": "abuse",
-    "meaning": "濫用、虐待",
+    "meaning": "noun/verb 濫用、虐待",
     "example": "No one should abuse animals.（沒有人應該虐待動物。）",
-    "id": "L6-abuse-mqeg4zd"
+    "id": "L6-abuse-noun-verb"
   },
   {
     "level": "L6",
     "word": "accommodate",
-    "meaning": "容納",
+    "meaning": "verb 容納",
     "example": "This hotel can accommodate two hundred guests.（這家飯店可容納兩百位客人。）",
-    "id": "L6-accommodate-mgad0"
+    "id": "L6-accommodate-verb"
   },
   {
     "level": "L6",
     "word": "accommodation",
-    "meaning": "住宿、停留處",
+    "meaning": "noun 住宿、停留處",
     "example": "We found cheap accommodation near the station.（我們在車站附近找到便宜的住宿。）",
-    "id": "L6-accommodation-mxqg4dj"
+    "id": "L6-accommodation-noun"
   },
   {
     "level": "L6",
     "word": "accord",
-    "meaning": "贈予、授予、(與...)一致",
+    "meaning": "verb 贈予、授予、(與...)一致\nnoun 協議、條約",
     "example": "The two countries signed a peace accord.（兩國簽署了和平協議。）",
-    "id": "L6-accord-me76nfy"
-  },
-  {
-    "level": "L6",
-    "word": "accord",
-    "meaning": "協議、條約",
-    "example": "The two countries signed a peace accord.（兩國簽署了和平協議。）",
-    "id": "L6-accord-m1nhfb8s"
+    "id": "L6-accord-verb-noun"
   },
   {
     "level": "L6",
     "word": "administration",
-    "meaning": "管理(部門)、行政(部門)；施行、施用",
+    "meaning": "noun 管理(部門)、行政(部門)；施行、施用",
     "example": "The new administration promised to reduce taxes. (新政府承諾減稅。)",
-    "id": "L6-administration-mzdeipd"
+    "id": "L6-administration-noun"
   },
   {
     "level": "L6",
     "word": "alcoholic",
-    "meaning": "酗酒者、酒精中毒者",
+    "meaning": "noun 酗酒者、酒精中毒者\nadj. 酒精的、含酒精的",
     "example": "The packaging of many soft drinks clearly warns that minors are not allowed to purchase alcoholic beverages. (許多碳酸飲料包裝上會特別標示，警告未成年人不得購買含酒精飲品。)",
-    "id": "L6-alcoholic-mhzr8bh"
-  },
-  {
-    "level": "L6",
-    "word": "alcoholic",
-    "meaning": "酒精的、含酒精的",
-    "example": "The packaging of many soft drinks clearly warns that minors are not allowed to purchase alcoholic beverages. (許多碳酸飲料包裝上會特別標示，警告未成年人不得購買含酒精飲品。)",
-    "id": "L6-alcoholic-m18zgvhy"
+    "id": "L6-alcoholic-noun-adj"
   },
   {
     "level": "L6",
     "word": "alongside",
-    "meaning": "在...旁邊、與...一起",
+    "meaning": "prep./adv. 在...旁邊、與...一起",
     "example": "A small road runs alongside the river.（一條小路沿著河邊延伸。）",
-    "id": "L6-alongside-m11vn240"
+    "id": "L6-alongside-prep-adv"
   },
   {
     "level": "L6",
     "word": "alternative",
-    "meaning": "可供選擇的事物",
+    "meaning": "noun 可供選擇的事物\nadj. 可替代的、可供選擇的；非傳統的、另類的",
     "example": "Solar energy is a clean alternative to fossil fuels. (太陽能是化石燃料的清潔替代品。)",
-    "id": "L6-alternative-mt3chz"
-  },
-  {
-    "level": "L6",
-    "word": "alternative",
-    "meaning": "可替代的、可供選擇的；非傳統的、另類的",
-    "example": "Solar energy is a clean alternative to fossil fuels. (太陽能是化石燃料的清潔替代品。)",
-    "id": "L6-alternative-m1sjoaol"
+    "id": "L6-alternative-noun-adj"
   },
   {
     "level": "L6",
     "word": "analyst",
-    "meaning": "分析者、化驗員",
+    "meaning": "noun 分析者、化驗員",
     "example": "The analyst studied the market data.（分析師研究了市場資料。）",
-    "id": "L6-analyst-m1o1jtga"
+    "id": "L6-analyst-noun"
   },
   {
     "level": "L6",
     "word": "assassinate",
-    "meaning": "暗殺",
+    "meaning": "verb 暗殺",
     "example": "The rebels tried to assassinate the leader.（叛軍試圖刺殺領袖。）",
-    "id": "L6-assassinate-mi1hf"
+    "id": "L6-assassinate-verb"
   },
   {
     "level": "L6",
     "word": "boycott",
-    "meaning": "抵制、拒絕購買或使用",
+    "meaning": "verb/noun 抵制、拒絕購買或使用",
     "example": "Students decided to boycott the unfair rule.（學生決定抵制不公平的規定。）",
-    "id": "L6-boycott-m5096ap"
+    "id": "L6-boycott-verb-noun"
   },
   {
     "level": "L6",
     "word": "canvas",
-    "meaning": "帆布",
+    "meaning": "noun 帆布",
     "example": "The artist painted on a large canvas.（藝術家在大畫布上作畫。）",
-    "id": "L6-canvas-mgibh"
+    "id": "L6-canvas-noun"
   },
   {
     "level": "L6",
     "word": "caption",
-    "meaning": "說明文字；在圖片加說明文字",
+    "meaning": "noun/verb 說明文字；在圖片加說明文字",
     "example": "The caption under the photo was funny.（照片下方的說明文字很有趣。）",
-    "id": "L6-caption-mhi8r7m"
+    "id": "L6-caption-noun-verb"
   },
   {
     "level": "L6",
     "word": "cashier",
-    "meaning": "收銀員、出納員",
+    "meaning": "noun 收銀員、出納員",
     "example": "The cashier gave me the receipt.（收銀員給了我收據。）",
-    "id": "L6-cashier-m1h0q6lg"
+    "id": "L6-cashier-noun"
   },
   {
     "level": "L6",
     "word": "casualty",
-    "meaning": "傷亡人員",
+    "meaning": "noun 傷亡人員",
     "example": "The accident caused several casualties.（事故造成數名傷亡者。）",
-    "id": "L6-casualty-maieapd"
+    "id": "L6-casualty-noun"
   },
   {
     "level": "L6",
     "word": "civilize",
-    "meaning": "使文明、教化",
+    "meaning": "verb 使文明、教化",
     "example": "Education can help civilize society.（教育可以幫助社會文明化。）",
-    "id": "L6-civilize-mucwek8"
+    "id": "L6-civilize-verb"
   },
   {
     "level": "L6",
     "word": "coincidence",
-    "meaning": "巧合、同時發生",
+    "meaning": "noun 巧合、同時發生",
     "example": "It was a coincidence that we met there.（我們在那裡相遇真是巧合。）",
-    "id": "L6-coincidence-m140nud5"
+    "id": "L6-coincidence-noun"
   },
   {
     "level": "L6",
     "word": "commitment",
-    "meaning": "承諾、保證、奉獻",
+    "meaning": "noun 承諾、保證、奉獻",
     "example": "Success requires commitment.（成功需要投入。）",
-    "id": "L6-commitment-m1ra2ix1"
+    "id": "L6-commitment-noun"
   },
   {
     "level": "L6",
     "word": "comparative",
-    "meaning": "相對的、比較的；(形容詞或副詞的)比較級",
+    "meaning": "adj./noun 相對的、比較的；(形容詞或副詞的)比較級",
     "example": "We did a comparative study of the two books.（我們對兩本書做了比較研究。）",
-    "id": "L6-comparative-m1btwdg8"
+    "id": "L6-comparative-adj-noun"
   },
   {
     "level": "L6",
     "word": "confrontation",
-    "meaning": "對抗、衝突",
+    "meaning": "noun 對抗、衝突",
     "example": "The confrontation made everyone nervous.（那場對峙讓大家緊張。）",
-    "id": "L6-confrontation-mhes6cb"
+    "id": "L6-confrontation-noun"
   },
   {
     "level": "L6",
     "word": "correspondent",
-    "meaning": "記者、通信者",
+    "meaning": "noun 記者、通信者",
     "example": "The correspondent reported from London.（通訊記者從倫敦報導。）",
-    "id": "L6-correspondent-m1jz05uy"
+    "id": "L6-correspondent-noun"
   },
   {
     "level": "L6",
     "word": "cultivate",
-    "meaning": "耕作、培養",
+    "meaning": "verb 耕作、培養",
     "example": "Farmers cultivate rice in this area.（農夫在這個地區種稻。）",
-    "id": "L6-cultivate-mdsqsvf"
+    "id": "L6-cultivate-verb"
   },
   {
     "level": "L6",
     "word": "decline",
-    "meaning": "減少、衰退；婉拒",
+    "meaning": "verb 減少、衰退；婉拒",
     "example": "Sales began to decline last month.（銷售上個月開始下降。）",
-    "id": "L6-decline-m1auel0p"
+    "id": "L6-decline-verb"
   },
   {
     "level": "L6",
     "word": "deputy",
-    "meaning": "副手、代理人",
+    "meaning": "noun 副手、代理人",
     "example": "The deputy manager handled the meeting.（副理處理了會議。）",
-    "id": "L6-deputy-mbx4bsi"
+    "id": "L6-deputy-noun"
   },
   {
     "level": "L6",
     "word": "detergent",
-    "meaning": "洗衣粉、清潔劑",
+    "meaning": "noun/adj 洗衣粉、清潔劑",
     "example": "This detergent removes stains well.（這款洗衣精很會去污。）",
-    "id": "L6-detergent-mwu485a"
+    "id": "L6-detergent-noun-adj"
   },
   {
     "level": "L6",
     "word": "dictate",
-    "meaning": "口述、命令、支配",
+    "meaning": "verb 口述、命令、支配",
     "example": "The boss dictated a letter to his assistant.（老闆口述一封信給助理。）",
-    "id": "L6-dictate-m1ustd0"
+    "id": "L6-dictate-verb"
   },
   {
     "level": "L6",
     "word": "dictation",
-    "meaning": "口述、聽寫",
+    "meaning": "noun 口述、聽寫",
     "example": "We had English dictation today.（我們今天有英文聽寫。）",
-    "id": "L6-dictation-m1q8lcn6"
+    "id": "L6-dictation-noun"
   },
   {
     "level": "L6",
     "word": "disapprove",
-    "meaning": "不贊成、反對",
+    "meaning": "verb 不贊成、反對",
     "example": "My parents disapprove of smoking.（我父母不贊成吸菸。）",
-    "id": "L6-disapprove-m95noa6"
+    "id": "L6-disapprove-verb"
   },
   {
     "level": "L6",
     "word": "dissolve",
-    "meaning": "溶解；解散、解除",
+    "meaning": "verb 溶解；解散、解除",
     "example": "Sugar will dissolve in hot water.（糖會溶解在熱水中。）",
-    "id": "L6-dissolve-m1lzq46s"
+    "id": "L6-dissolve-verb"
   },
   {
     "level": "L6",
     "word": "distrust",
-    "meaning": "不信任",
+    "meaning": "verb/noun 不信任",
     "example": "Dishonesty creates distrust.（不誠實會造成不信任。）",
-    "id": "L6-distrust-mbtkw7"
+    "id": "L6-distrust-verb-noun"
   },
   {
     "level": "L6",
     "word": "disturbance",
-    "meaning": "干擾、騷動",
+    "meaning": "noun 干擾、騷動",
     "example": "The loud music caused a disturbance.（大聲音樂造成干擾。）",
-    "id": "L6-disturbance-mr2tkhf"
+    "id": "L6-disturbance-noun"
   },
   {
     "level": "L6",
     "word": "donate",
-    "meaning": "捐贈",
+    "meaning": "verb 捐贈",
     "example": "They donate food to poor families.（他們捐食物給貧困家庭。）",
-    "id": "L6-donate-mhnzs"
+    "id": "L6-donate-verb"
   },
   {
     "level": "L6",
     "word": "drought",
-    "meaning": "乾旱",
+    "meaning": "noun 乾旱",
     "example": "The drought damaged the crops.（乾旱損害了農作物。）",
-    "id": "L6-drought-mdws3"
+    "id": "L6-drought-noun"
   },
   {
     "level": "L6",
     "word": "edible",
-    "meaning": "可食用的",
+    "meaning": "adj. 可食用的",
     "example": "These mushrooms are edible.（這些蘑菇可以食用。）",
-    "id": "L6-edible-mb82n1o"
+    "id": "L6-edible-adj"
   },
   {
     "level": "L6",
     "word": "editorial",
-    "meaning": "編輯的；社論、評論",
+    "meaning": "adj./noun 編輯的；社論、評論",
     "example": "The newspaper published an editorial about education.（報紙刊登了一篇關於教育的社論。）",
-    "id": "L6-editorial-mjo8g4s"
+    "id": "L6-editorial-adj-noun"
   },
   {
     "level": "L6",
     "word": "endurance",
-    "meaning": "耐久力",
+    "meaning": "noun 耐久力",
     "example": "Marathon runners need endurance.（馬拉松跑者需要耐力。）",
-    "id": "L6-endurance-mj51c6"
+    "id": "L6-endurance-noun"
   },
   {
     "level": "L6",
     "word": "enhance",
-    "meaning": "提高、增進",
+    "meaning": "verb 提高、增進",
     "example": "The new lights enhance the room.（新的燈光提升了房間質感。）",
-    "id": "L6-enhance-m1iuird9"
+    "id": "L6-enhance-verb"
   },
   {
     "level": "L6",
     "word": "equivalent",
-    "meaning": "相等的；相等物",
+    "meaning": "adj./noun 相等的；相等物",
     "example": "One dollar is not equivalent to one euro.（一美元不等於一歐元。）",
-    "id": "L6-equivalent-m1fukahc"
+    "id": "L6-equivalent-adj-noun"
   },
   {
     "level": "L6",
     "word": "evolution",
-    "meaning": "演化、演變",
+    "meaning": "noun 演化、演變",
     "example": "Evolution takes a very long time.（演化需要非常長的時間。）",
-    "id": "L6-evolution-mitfg8l"
+    "id": "L6-evolution-noun"
   },
   {
     "level": "L6",
     "word": "evolve",
-    "meaning": "演化、演變",
+    "meaning": "verb 演化、演變",
     "example": "Languages evolve over time.（語言會隨時間演變。）",
-    "id": "L6-evolve-mitfg8l"
+    "id": "L6-evolve-verb"
   },
   {
     "level": "L6",
     "word": "exploit",
-    "meaning": "剝削、利用、開採",
+    "meaning": "verb 剝削、利用、開採",
     "example": "Do not exploit other people’s kindness.（不要利用別人的善良。）",
-    "id": "L6-exploit-m132vktg"
+    "id": "L6-exploit-verb"
   },
   {
     "level": "L6",
     "word": "eyesight",
-    "meaning": "視力",
+    "meaning": "noun 視力",
     "example": "My eyesight is getting worse.（我的視力變差了。）",
-    "id": "L6-eyesight-mnuth"
+    "id": "L6-eyesight-noun"
   },
   {
     "level": "L6",
     "word": "feedback",
-    "meaning": "回饋",
+    "meaning": "noun 回饋",
     "example": "The teacher gave useful feedback.（老師給了有用的回饋。）",
-    "id": "L6-feedback-mfm7h"
+    "id": "L6-feedback-noun"
   },
   {
     "level": "L6",
     "word": "foresee",
-    "meaning": "預見",
+    "meaning": "verb 預見",
     "example": "No one could foresee the accident.（沒有人能預見這場事故。）",
-    "id": "L6-foresee-mqmbf"
+    "id": "L6-foresee-verb"
   },
   {
     "level": "L6",
     "word": "implement",
-    "meaning": "實施",
+    "meaning": "verb 實施",
     "example": "We will implement the new plan next week.（我們下週會實施新計畫。）",
-    "id": "L6-implement-mg6tz"
+    "id": "L6-implement-verb"
   },
   {
     "level": "L6",
     "word": "implication",
-    "meaning": "暗指、可能的影響",
+    "meaning": "noun 暗指、可能的影響",
     "example": "His words had a serious implication.（他的話有嚴重含意。）",
-    "id": "L6-implication-mhbk0hf"
+    "id": "L6-implication-noun"
   },
   {
     "level": "L6",
     "word": "inevitable",
-    "meaning": "不可避免的",
+    "meaning": "adj. 不可避免的",
     "example": "Change is inevitable.（改變是不可避免的。）",
-    "id": "L6-inevitable-mw8l9sk"
+    "id": "L6-inevitable-adj"
   },
   {
     "level": "L6",
     "word": "infer",
-    "meaning": "推論",
+    "meaning": "verb 推論",
     "example": "We can infer the answer from the context.（我們可以從上下文推論答案。）",
-    "id": "L6-infer-mhpny"
+    "id": "L6-infer-verb"
   },
   {
     "level": "L6",
     "word": "inference",
-    "meaning": "推論",
+    "meaning": "noun 推論",
     "example": "Your inference is reasonable.（你的推論很合理。）",
-    "id": "L6-inference-mhpny"
+    "id": "L6-inference-noun"
   },
   {
     "level": "L6",
     "word": "inhabitant",
-    "meaning": "居民",
+    "meaning": "noun 居民",
     "example": "Each inhabitant received clean water.（每位居民都拿到乾淨的水。）",
-    "id": "L6-inhabitant-mgacs"
+    "id": "L6-inhabitant-noun"
   },
   {
     "level": "L6",
     "word": "inject",
-    "meaning": "注射",
+    "meaning": "verb 注射",
     "example": "The nurse will inject the medicine.（護士會注射藥物。）",
-    "id": "L6-inject-mj124"
+    "id": "L6-inject-verb"
   },
   {
     "level": "L6",
     "word": "injection",
-    "meaning": "注射",
+    "meaning": "noun 注射",
     "example": "The injection hurt only a little.（那針只痛了一點。）",
-    "id": "L6-injection-mj124"
+    "id": "L6-injection-noun"
   },
   {
     "level": "L6",
     "word": "inquiry",
-    "meaning": "詢問、調查",
+    "meaning": "noun 詢問、調查",
     "example": "I made an inquiry about the course.（我詢問了這門課程。）",
-    "id": "L6-inquiry-m1itx3sq"
+    "id": "L6-inquiry-noun"
   },
   {
     "level": "L6",
     "word": "institution",
-    "meaning": "機構、制度",
+    "meaning": "noun 機構、制度",
     "example": "The museum is an important cultural institution.（博物館是重要的文化機構。）",
-    "id": "L6-institution-m39tycl"
+    "id": "L6-institution-noun"
   },
   {
     "level": "L6",
     "word": "interval",
-    "meaning": "(時間)間隔",
+    "meaning": "noun (時間)間隔",
     "example": "There is a short interval between classes.（課與課之間有短暫間隔。）",
-    "id": "L6-interval-mbgrjsh"
+    "id": "L6-interval-noun"
   },
   {
     "level": "L6",
     "word": "intrude",
-    "meaning": "打擾、侵入",
+    "meaning": "verb 打擾、侵入",
     "example": "Please do not intrude on their conversation.（請不要打擾他們的談話。）",
-    "id": "L6-intrude-m168gl5y"
+    "id": "L6-intrude-verb"
   },
   {
     "level": "L6",
     "word": "intruder",
-    "meaning": "侵入者",
+    "meaning": "noun 侵入者",
     "example": "The intruder entered through the window.（入侵者從窗戶進入。）",
-    "id": "L6-intruder-mc2u9h"
+    "id": "L6-intruder-noun"
   },
   {
     "level": "L6",
     "word": "kidnap",
-    "meaning": "綁架",
+    "meaning": "verb 綁架",
     "example": "The criminals tried to kidnap the businessman.（罪犯試圖綁架那位商人。）",
-    "id": "L6-kidnap-mlx05"
+    "id": "L6-kidnap-verb"
   },
   {
     "level": "L6",
     "word": "legendary",
-    "meaning": "傳奇的",
+    "meaning": "adj. 傳奇的",
     "example": "The legendary hero saved the village.（那位傳奇英雄拯救了村莊。）",
-    "id": "L6-legendary-mc9d00"
+    "id": "L6-legendary-adj"
   },
   {
     "level": "L6",
     "word": "liberate",
-    "meaning": "解放",
+    "meaning": "verb 解放",
     "example": "The soldiers helped liberate the city.（士兵們幫助解放了那座城市。）",
-    "id": "L6-liberate-mo0cb"
+    "id": "L6-liberate-verb"
   },
   {
     "level": "L6",
     "word": "naturalist",
-    "meaning": "博物學家、 自然主義者",
+    "meaning": "noun 博物學家、 自然主義者",
     "example": "The naturalist studied birds in the forest.（自然學家在森林裡研究鳥類。）",
-    "id": "L6-naturalist-m4a7m3j"
+    "id": "L6-naturalist-noun"
   },
   {
     "level": "L6",
     "word": "naval",
-    "meaning": "海軍的",
+    "meaning": "adj. 海軍的",
     "example": "The country built a strong naval force.（這個國家建立了強大的海軍力量。）",
-    "id": "L6-naval-mgq58u"
+    "id": "L6-naval-adj"
   },
   {
     "level": "L6",
     "word": "negotiation",
-    "meaning": "協商、談判",
+    "meaning": "noun 協商、談判",
     "example": "The negotiation lasted for three hours.（談判持續了三小時。）",
-    "id": "L6-negotiation-m1gnn3v0"
+    "id": "L6-negotiation-noun"
   },
   {
     "level": "L6",
     "word": "newscaster",
-    "meaning": "新聞播報員",
+    "meaning": "noun 新聞播報員",
     "example": "The newscaster reported the storm live.（新聞主播現場報導暴風雨。）",
-    "id": "L6-newscaster-m1n1xfbj"
+    "id": "L6-newscaster-noun"
   },
   {
     "level": "L6",
     "word": "nourish",
-    "meaning": "滋養",
+    "meaning": "verb 滋養",
     "example": "Good food provides nourishment.（好的食物提供營養。）",
-    "id": "L6-nourish-mjonz"
+    "id": "L6-nourish-verb"
   },
   {
     "level": "L6",
     "word": "nutrient",
-    "meaning": "營養物、養分",
+    "meaning": "noun 營養物、養分",
     "example": "Milk contains many nutrients.（牛奶含有許多營養素。）",
-    "id": "L6-nutrient-m1v0mkcf"
+    "id": "L6-nutrient-noun"
   },
   {
     "level": "L6",
     "word": "nutrition",
-    "meaning": "營養",
+    "meaning": "noun 營養",
     "example": "Nutrition is important for growth.（營養對成長很重要。）",
-    "id": "L6-nutrition-mk7ij"
+    "id": "L6-nutrition-noun"
   },
   {
     "level": "L6",
     "word": "opposition",
-    "meaning": "反對、對抗",
+    "meaning": "noun 反對、對抗",
     "example": "The opposition criticized the plan.（反對派批評了這個計畫。）",
-    "id": "L6-opposition-m1jcq70r"
+    "id": "L6-opposition-noun"
   },
   {
     "level": "L6",
     "word": "option",
-    "meaning": "選擇",
+    "meaning": "noun 選擇",
     "example": "Students have many course options available. (學生有很多課程選擇。)",
-    "id": "L6-option-mp4jz"
+    "id": "L6-option-noun"
   },
   {
     "level": "L6",
     "word": "orderly",
-    "meaning": "有條理的、整齊的",
+    "meaning": "adj. 有條理的、整齊的\nnoun (醫院)護理員、(軍)勤務兵",
     "example": "Please stand in an orderly line.（請有秩序地排隊。）",
-    "id": "L6-orderly-m1mktbun"
-  },
-  {
-    "level": "L6",
-    "word": "orderly",
-    "meaning": "(醫院)護理員、(軍)勤務兵",
-    "example": "Please stand in an orderly line.（請有秩序地排隊。）",
-    "id": "L6-orderly-mmb3c39"
+    "id": "L6-orderly-adj-noun"
   },
   {
     "level": "L6",
     "word": "overhead",
-    "meaning": "在頭頂上(的)； 在空中(的)",
+    "meaning": "adj./adv. 在頭頂上(的)； 在空中(的)",
     "example": "The overhead light was too bright.（頭上的燈太亮了。）",
-    "id": "L6-overhead-mqt32mv"
+    "id": "L6-overhead-adj-adv"
   },
   {
     "level": "L6",
     "word": "parliament",
-    "meaning": "議會",
+    "meaning": "noun 議會",
     "example": "Parliament debated the new law.（國會辯論新法律。）",
-    "id": "L6-parliament-moa6r"
+    "id": "L6-parliament-noun"
   },
   {
     "level": "L6",
     "word": "patriotic",
-    "meaning": "愛國的",
+    "meaning": "adj. 愛國的",
     "example": "The crowd sang a patriotic song.（人群唱了一首愛國歌曲。）",
-    "id": "L6-patriotic-menho4"
+    "id": "L6-patriotic-adj"
   },
   {
     "level": "L6",
     "word": "photographic",
-    "meaning": "攝影的、逼真的",
+    "meaning": "adj. 攝影的、逼真的",
     "example": "She has a good photographic memory.（她有很好的影像記憶力。）",
-    "id": "L6-photographic-mlurv1s"
+    "id": "L6-photographic-adj"
   },
   {
     "level": "L6",
     "word": "prediction",
-    "meaning": "預言、預測",
+    "meaning": "noun 預言、預測",
     "example": "His prediction came true.（他的預測成真了。）",
-    "id": "L6-prediction-m17xnwml"
+    "id": "L6-prediction-noun"
   },
   {
     "level": "L6",
     "word": "presidential",
-    "meaning": "總統(制)的",
+    "meaning": "adj. 總統(制)的",
     "example": "The presidential election is important.（總統選舉很重要。）",
-    "id": "L6-presidential-mn7wu71"
+    "id": "L6-presidential-adj"
   },
   {
     "level": "L6",
     "word": "progressive",
-    "meaning": "進步的、逐漸的；改革派",
+    "meaning": "adj./noun 進步的、逐漸的；改革派",
     "example": "The school supports progressive ideas.（學校支持進步的想法。）",
-    "id": "L6-progressive-mg8tb"
+    "id": "L6-progressive-adj-noun"
   },
   {
     "level": "L6",
     "word": "prohibit",
-    "meaning": "(以法令)禁止",
+    "meaning": "verb (以法令)禁止",
     "example": "The law prohibits smoking here.（法律禁止在這裡吸菸。）",
-    "id": "L6-prohibit-m1r1mim"
+    "id": "L6-prohibit-verb"
   },
   {
     "level": "L6",
     "word": "punctual",
-    "meaning": "準時的",
+    "meaning": "adj. 準時的",
     "example": "Please be punctual for the meeting.（請準時參加會議。）",
-    "id": "L6-punctual-mgp5so"
+    "id": "L6-punctual-adj"
   },
   {
     "level": "L6",
     "word": "qualification",
-    "meaning": "資格",
+    "meaning": "noun 資格",
     "example": "Her qualifications make her perfect for the job.（她的資格讓她非常適合這份工作。）",
-    "id": "L6-qualification-moimt"
+    "id": "L6-qualification-noun"
   },
   {
     "level": "L6",
     "word": "radiation",
-    "meaning": "輻射",
+    "meaning": "noun 輻射",
     "example": "Too much radiation can be dangerous.（過量輻射可能危險。）",
-    "id": "L6-radiation-mov8p"
+    "id": "L6-radiation-noun"
   },
   {
     "level": "L6",
     "word": "radical",
-    "meaning": "徹底的、激進的；激進份子",
+    "meaning": "adj./noun 徹底的、激進的；激進份子",
     "example": "He suggested a radical change.（他建議一項激進改變。）",
-    "id": "L6-radical-mf1146f"
+    "id": "L6-radical-adj-noun"
   },
   {
     "level": "L6",
     "word": "recession",
-    "meaning": "(經濟)衰退",
+    "meaning": "noun (經濟)衰退",
     "example": "The country entered a recession.（這個國家進入經濟衰退。）",
-    "id": "L6-recession-mque4h1"
+    "id": "L6-recession-noun"
   },
   {
     "level": "L6",
     "word": "regardless",
-    "meaning": "儘管",
+    "meaning": "adv. 儘管",
     "example": "We will go regardless of the weather.（不管天氣如何，我們都會去。）",
-    "id": "L6-regardless-megzt"
+    "id": "L6-regardless-adv"
   },
   {
     "level": "L6",
     "word": "rehearsal",
-    "meaning": "排演、彩排",
+    "meaning": "noun 排演、彩排",
     "example": "We had a rehearsal before the show.（表演前我們彩排了。）",
-    "id": "L6-rehearsal-m1cdqebs"
+    "id": "L6-rehearsal-noun"
   },
   {
     "level": "L6",
     "word": "rehearse",
-    "meaning": "排演",
+    "meaning": "verb 排演",
     "example": "The actors rehearsed all afternoon.（演員們整個下午都在排練。）",
-    "id": "L6-rehearse-mhjnm"
+    "id": "L6-rehearse-verb"
   },
   {
     "level": "L6",
     "word": "resistant",
-    "meaning": "抵抗的、抗…的",
+    "meaning": "adj. 抵抗的、抗…的",
     "example": "This material is resistant to heat.（這種材料耐熱。）",
-    "id": "L6-resistant-mrlbjbq"
+    "id": "L6-resistant-adj"
   },
   {
     "level": "L6",
     "word": "sanction",
-    "meaning": "批准、制裁、強硬措施；批准、贊成",
+    "meaning": "noun/verb 批准、制裁、強硬措施；批准、贊成",
     "example": "The committee gave official sanction to the plan.（委員會正式批准這個計畫。）",
-    "id": "L6-sanction-m1wujgi1"
+    "id": "L6-sanction-noun-verb"
   },
   {
     "level": "L6",
     "word": "sector",
-    "meaning": "部門、分區",
+    "meaning": "noun 部門、分區",
     "example": "The technology sector is growing.（科技產業正在成長。）",
-    "id": "L6-sector-mhe8krn"
+    "id": "L6-sector-noun"
   },
   {
     "level": "L6",
     "word": "session",
-    "meaning": "一節(課程)、會議、開庭",
+    "meaning": "noun 一節(課程)、會議、開庭",
     "example": "The study session lasted two hours.（讀書會持續了兩小時。）",
-    "id": "L6-session-m1sunubh"
+    "id": "L6-session-noun"
   },
   {
     "level": "L6",
     "word": "simplify",
-    "meaning": "簡化",
+    "meaning": "verb 簡化",
     "example": "Can you simplify this sentence?（你能簡化這個句子嗎？）",
-    "id": "L6-simplify-mlkid"
+    "id": "L6-simplify-verb"
   },
   {
     "level": "L6",
     "word": "skim",
-    "meaning": "撇去、掠過、瀏覽",
+    "meaning": "verb/noun 撇去、掠過、瀏覽",
     "example": "Please skim the article first.（請先快速瀏覽文章。）",
-    "id": "L6-skim-m1cme0t0"
+    "id": "L6-skim-verb-noun"
   },
   {
     "level": "L6",
     "word": "slang",
-    "meaning": "俚語",
+    "meaning": "noun 俚語",
     "example": "Do not use slang in formal writing.（正式寫作中不要使用俚語。）",
-    "id": "L6-slang-mecck"
+    "id": "L6-slang-noun"
   },
   {
     "level": "L6",
     "word": "slavery",
-    "meaning": "奴隸制",
+    "meaning": "noun 奴隸制",
     "example": "Slavery was a cruel system.（奴隸制度是殘酷的制度。）",
-    "id": "L6-slavery-mdtrsi"
+    "id": "L6-slavery-noun"
   },
   {
     "level": "L6",
     "word": "sociable",
-    "meaning": "好交際的、友善的",
+    "meaning": "adj. 好交際的、友善的",
     "example": "She is sociable and enjoys meeting people.（她很善於社交，喜歡認識人。）",
-    "id": "L6-sociable-m1aj7h2y"
+    "id": "L6-sociable-adj"
   },
   {
     "level": "L6",
     "word": "sponsor",
-    "meaning": "贊助；贊助者",
+    "meaning": "verb/noun 贊助；贊助者",
     "example": "A local bank will sponsor the race.（一家當地銀行會贊助比賽。）",
-    "id": "L6-sponsor-m1cmtpbe"
+    "id": "L6-sponsor-verb-noun"
   },
   {
     "level": "L6",
     "word": "starvation",
-    "meaning": "飢餓、餓死",
+    "meaning": "noun 飢餓、餓死",
     "example": "The drought caused starvation in the village.（乾旱造成村莊飢荒。）",
-    "id": "L6-starvation-m1d1kxa0"
+    "id": "L6-starvation-noun"
   },
   {
     "level": "L6",
     "word": "stimulate",
-    "meaning": "刺激、激發",
+    "meaning": "verb 刺激、激發",
     "example": "Music can stimulate creativity.（音樂可以刺激創造力。）",
-    "id": "L6-stimulate-m1foonav"
+    "id": "L6-stimulate-verb"
   },
   {
     "level": "L6",
     "word": "superb",
-    "meaning": "極佳的",
+    "meaning": "adj. 極佳的",
     "example": "The meal was superb.（這餐非常棒。）",
-    "id": "L6-superb-mfu8iu"
+    "id": "L6-superb-adj"
   },
   {
     "level": "L6",
     "word": "suspension",
-    "meaning": "暫停、停學(職)",
+    "meaning": "noun 暫停、停學(職)",
     "example": "The bridge’s suspension cables are strong.（這座橋的懸索很堅固。）",
-    "id": "L6-suspension-m147k2a6"
+    "id": "L6-suspension-noun"
   },
   {
     "level": "L6",
     "word": "symbolize",
-    "meaning": "象徵、代表",
+    "meaning": "verb 象徵、代表",
     "example": "The ring symbolizes their love.（這枚戒指象徵他們的愛。）",
-    "id": "L6-symbolize-m1rxtpyq"
+    "id": "L6-symbolize-verb"
   },
   {
     "level": "L6",
     "word": "symptom",
-    "meaning": "症狀",
+    "meaning": "noun 症狀",
     "example": "Fever is a common symptom of the flu.（發燒是流感常見症狀。）",
-    "id": "L6-symptom-mknvd"
+    "id": "L6-symptom-noun"
   },
   {
     "level": "L6",
     "word": "theft",
-    "meaning": "偷竊",
+    "meaning": "noun 偷竊",
     "example": "The theft was reported to police.（竊盜案已向警方報案。）",
-    "id": "L6-theft-mecz7"
+    "id": "L6-theft-noun"
   },
   {
     "level": "L6",
     "word": "therapy",
-    "meaning": "療法",
+    "meaning": "noun 療法",
     "example": "Physical therapy helped her walk again.（物理治療幫助她重新走路。）",
-    "id": "L6-therapy-mkpn7"
+    "id": "L6-therapy-noun"
   },
   {
     "level": "L6",
     "word": "tornado",
-    "meaning": "龍捲風",
+    "meaning": "noun 龍捲風",
     "example": "A tornado destroyed several houses.（龍捲風摧毀了幾棟房子。）",
-    "id": "L6-tornado-mnv26b"
+    "id": "L6-tornado-noun"
   },
   {
     "level": "L6",
     "word": "transplant",
-    "meaning": "移植(器官等)",
+    "meaning": "noun/verb 移植(器官等)",
     "example": "The patient needs a heart transplant.（病人需要心臟移植。）",
-    "id": "L6-transplant-m887qcm"
+    "id": "L6-transplant-noun-verb"
   },
   {
     "level": "L6",
     "word": "undertake",
-    "meaning": "承擔、從事",
+    "meaning": "verb 承擔、從事",
     "example": "We will undertake a new project.（我們將承擔一個新專案。）",
-    "id": "L6-undertake-m16vzeop"
+    "id": "L6-undertake-verb"
   },
   {
     "level": "L6",
     "word": "version",
-    "meaning": "版本、說法",
+    "meaning": "noun 版本、說法",
     "example": "Digital versions of textbooks cost less. (數位版教科書成本較低。)",
-    "id": "L6-version-mxvmk7c"
+    "id": "L6-version-noun"
   },
   {
     "level": "L6",
     "word": "warfare",
-    "meaning": "戰爭",
+    "meaning": "noun 戰爭",
     "example": "Modern warfare uses advanced technology.（現代戰爭使用先進科技。）",
-    "id": "L6-warfare-mhbst"
+    "id": "L6-warfare-noun"
   },
   {
     "level": "L6",
     "word": "waterproof",
-    "meaning": "防水的；防水材料；使防水",
+    "meaning": "adj./noun/verb 防水的；防水材料；使防水",
     "example": "This jacket is waterproof.（這件外套防水。）",
-    "id": "L6-waterproof-mr5i9gq"
+    "id": "L6-waterproof-adj-noun-verb"
   },
   {
     "level": "中級",
     "word": "accepted",
-    "meaning": "公認的",
+    "meaning": "adj. 公認的",
     "example": "Her idea was accepted by the team.（她的想法被團隊接受了。）",
-    "id": "中級-accepted-mcljwj"
+    "id": "中級-accepted-adj"
   },
   {
     "level": "中級",
     "word": "advertise",
-    "meaning": "登廣告、徵聘、宣傳",
+    "meaning": "verb 登廣告、徵聘、宣傳",
     "example": "They advertise their products online.（他們在網路上宣傳產品。）",
-    "id": "中級-advertise-m1mmfq27"
+    "id": "中級-advertise-verb"
   },
   {
     "level": "中級",
     "word": "aged",
-    "meaning": "…歲的、年邁的",
+    "meaning": "adj. …歲的、年邁的",
     "example": "The aged man walked slowly.（那位年老的男子走得很慢。）",
-    "id": "中級-aged-m166ltri"
+    "id": "中級-aged-adj"
   },
   {
     "level": "中級",
     "word": "air-conditioned",
-    "meaning": "有空調的",
+    "meaning": "adj. 有空調的",
     "example": "We stayed in an air-conditioned room.（我們待在有冷氣的房間。）",
-    "id": "中級-air-conditioned-mdigfee"
+    "id": "中級-air-conditioned-adj"
   },
   {
     "level": "中級",
     "word": "aluminium",
-    "meaning": "鋁",
+    "meaning": "noun 鋁",
     "example": "This pot is made of aluminium.（這個鍋子是鋁製的。）",
-    "id": "中級-aluminium-mszl"
+    "id": "中級-aluminium-noun"
   },
   {
     "level": "中級",
     "word": "announcer",
-    "meaning": "廣播員",
+    "meaning": "noun 廣播員",
     "example": "The announcer spoke clearly on the radio.（播音員在廣播中說得很清楚。）",
-    "id": "中級-announcer-medxbr"
+    "id": "中級-announcer-noun"
   },
   {
     "level": "中級",
     "word": "app",
-    "meaning": "應用程式",
+    "meaning": "noun 應用程式",
     "example": "This app helps me learn vocabulary.（這個應用程式幫助我學單字。）",
-    "id": "中級-app-mctr86b"
+    "id": "中級-app-noun"
   },
   {
     "level": "中級",
     "word": "argument",
-    "meaning": "爭吵、論點",
+    "meaning": "noun 爭吵、論點",
     "example": "Their argument lasted for an hour.（他們的爭論持續了一小時。）",
-    "id": "中級-argument-mv2odsx"
+    "id": "中級-argument-noun"
   },
   {
     "level": "中級",
     "word": "baggy",
-    "meaning": "(衣服)寬鬆的、寬大下垂的",
+    "meaning": "adj. (衣服)寬鬆的、寬大下垂的",
     "example": "He wore a baggy T-shirt.（他穿了一件寬鬆的 T 恤。）",
-    "id": "中級-baggy-m195deqs"
+    "id": "中級-baggy-adj"
   },
   {
     "level": "中級",
     "word": "Band-Aid",
-    "meaning": "OK繃",
+    "meaning": "noun OK繃",
     "example": "I put a Band-Aid on the cut.（我在傷口上貼了 OK 繃。）",
-    "id": "中級-band-aid-ok"
+    "id": "中級-band-aid-noun-ok"
   },
   {
     "level": "中級",
     "word": "banking",
-    "meaning": "處理銀行帳戶事宜、銀行業",
+    "meaning": "noun 處理銀行帳戶事宜、銀行業",
     "example": "She works in banking.（她在銀行業工作。）",
-    "id": "中級-banking-m1rl8g35"
+    "id": "中級-banking-noun"
   },
   {
     "level": "中級",
     "word": "BC",
-    "meaning": "西元前",
+    "meaning": "adv. 西元前",
     "example": "This temple was built in 200 BC.（這座寺廟建於西元前 200 年。）",
-    "id": "中級-bc-mkjacp"
+    "id": "中級-bc-adv"
   },
   {
     "level": "中級",
     "word": "bedtime",
-    "meaning": "就寢時間",
+    "meaning": "noun 就寢時間",
     "example": "The child likes a bedtime story.（那個孩子喜歡睡前故事。）",
-    "id": "中級-bedtime-mc0kizm"
+    "id": "中級-bedtime-noun"
   },
   {
     "level": "中級",
     "word": "bin",
-    "meaning": "垃圾箱、容器、箱子",
+    "meaning": "noun 垃圾箱、容器、箱子",
     "example": "Put the paper in the recycling bin.（把紙放進回收桶。）",
-    "id": "中級-bin-m8wgtba"
+    "id": "中級-bin-noun"
   },
   {
     "level": "中級",
     "word": "booking",
-    "meaning": "預約、預訂",
+    "meaning": "noun 預約、預訂",
     "example": "I made a hotel booking online.（我在網路上訂了飯店。）",
-    "id": "中級-booking-m16aplq7"
+    "id": "中級-booking-noun"
   },
   {
     "level": "中級",
     "word": "booklet",
-    "meaning": "小冊子",
+    "meaning": "noun 小冊子",
     "example": "The museum gave us a small booklet.（博物館給了我們一本小冊子。）",
-    "id": "中級-booklet-mdvsk5"
+    "id": "中級-booklet-noun"
   },
   {
     "level": "中級",
     "word": "bookshelf",
-    "meaning": "書架",
+    "meaning": "noun 書架",
     "example": "The dictionary is on the bookshelf.（字典在書架上。）",
-    "id": "中級-bookshelf-mi30e"
+    "id": "中級-bookshelf-noun"
   },
   {
     "level": "中級",
     "word": "boyfriend",
-    "meaning": "男朋友",
+    "meaning": "noun 男朋友",
     "example": "Her boyfriend is kind and funny.（她的男朋友善良又有趣。）",
-    "id": "中級-boyfriend-mho23b"
+    "id": "中級-boyfriend-noun"
   },
   {
     "level": "中級",
     "word": "brand-new",
-    "meaning": "全新的、嶄新的",
+    "meaning": "adj. 全新的、嶄新的",
     "example": "She bought a brand-new bicycle.（她買了一台全新的腳踏車。）",
-    "id": "中級-brand-new-mxot4hf"
+    "id": "中級-brand-new-adj"
   },
   {
     "level": "中級",
     "word": "brownie",
-    "meaning": "布朗尼、巧克力方塊蛋糕",
+    "meaning": "noun 布朗尼、巧克力方塊蛋糕",
     "example": "I ate a chocolate brownie.（我吃了一塊巧克力布朗尼。）",
-    "id": "中級-brownie-mv2d7d"
+    "id": "中級-brownie-noun"
   },
   {
     "level": "中級",
     "word": "checkout",
-    "meaning": "付款處、收銀台、退房結帳",
+    "meaning": "noun 付款處、收銀台、退房結帳",
     "example": "The checkout line was long.（結帳隊伍很長。）",
-    "id": "中級-checkout-m1pz3nan"
+    "id": "中級-checkout-noun"
   },
   {
     "level": "中級",
     "word": "childbirth",
-    "meaning": "分娩、生孩子",
+    "meaning": "noun 分娩、生孩子",
     "example": "Childbirth can be difficult and painful.（分娩可能困難又疼痛。）",
-    "id": "中級-childbirth-m1l7wo8"
+    "id": "中級-childbirth-noun"
   },
   {
     "level": "中級",
     "word": "Christian",
-    "meaning": "基督教的、基督徒的；基督徒",
+    "meaning": "adj./noun 基督教的、基督徒的；基督徒",
     "example": "She goes to a Christian church.（她去基督教教堂。）",
-    "id": "中級-christian-m1g13ugm"
+    "id": "中級-christian-adj-noun"
   },
   {
     "level": "中級",
     "word": "climber",
-    "meaning": "攀登者、登山者",
+    "meaning": "noun 攀登者、登山者",
     "example": "The climber reached the top safely.（登山者安全抵達頂端。）",
-    "id": "中級-climber-mar1ubc"
+    "id": "中級-climber-noun"
   },
   {
     "level": "中級",
     "word": "colored",
-    "meaning": "彩色的、有...色彩的",
+    "meaning": "adj. 彩色的、有...色彩的",
     "example": "The child used colored pencils.（孩子使用彩色鉛筆。）",
-    "id": "中級-colored-mw715sy"
+    "id": "中級-colored-adj"
   },
   {
     "level": "中級",
     "word": "coming",
-    "meaning": "即將到來的、下一個的；到來、來臨",
+    "meaning": "adj./noun 即將到來的、下一個的；到來、來臨",
     "example": "The coming exam makes me nervous.（即將到來的考試讓我緊張。）",
-    "id": "中級-coming-m1oyooav"
+    "id": "中級-coming-adj-noun"
   },
   {
     "level": "中級",
     "word": "crossroad",
-    "meaning": "交叉路口、十字路口",
+    "meaning": "noun 交叉路口、十字路口",
     "example": "Turn left at the next crossroad.（在下一個十字路口左轉。）",
-    "id": "中級-crossroad-m129dnjm"
+    "id": "中級-crossroad-noun"
   },
   {
     "level": "中級",
     "word": "cyclist",
-    "meaning": "騎自行車者",
+    "meaning": "noun 騎自行車者",
     "example": "The cyclist wore a helmet.（騎自行車的人戴著安全帽。）",
-    "id": "中級-cyclist-m1f29bjf"
+    "id": "中級-cyclist-noun"
   },
   {
     "level": "中級",
     "word": "daylight",
-    "meaning": "日光",
+    "meaning": "noun 日光",
     "example": "We left at daylight.（我們天亮時離開。）",
-    "id": "中級-daylight-mhs04"
+    "id": "中級-daylight-noun"
   },
   {
     "level": "中級",
     "word": "deficit",
-    "meaning": "赤字、虧損",
+    "meaning": "noun 赤字、虧損",
     "example": "The country faced a large budget deficit.（這個國家面臨龐大的預算赤字。）",
-    "id": "中級-deficit-m1vcnt2s"
+    "id": "中級-deficit-noun"
   },
   {
     "level": "中級",
     "word": "delete",
-    "meaning": "刪除",
+    "meaning": "verb 刪除",
     "example": "Please delete the old file.（請刪除舊檔案。）",
-    "id": "中級-delete-mesu2"
+    "id": "中級-delete-verb"
   },
   {
     "level": "中級",
     "word": "demanding",
-    "meaning": "高要求的、費時費力的",
+    "meaning": "adj. 高要求的、費時費力的",
     "example": "This job is demanding.（這份工作要求很高。）",
-    "id": "中級-demanding-m1avt4xz"
+    "id": "中級-demanding-adj"
   },
   {
     "level": "中級",
     "word": "detailed",
-    "meaning": "詳細的",
+    "meaning": "adj. 詳細的",
     "example": "She gave a detailed explanation.（她給了詳細的解釋。）",
-    "id": "中級-detailed-mkvzev"
+    "id": "中級-detailed-adj"
   },
   {
     "level": "中級",
     "word": "devoted",
-    "meaning": "摯愛的、忠誠的、專心致志的",
+    "meaning": "adj. 摯愛的、忠誠的、專心致志的",
     "example": "She is devoted to her family.（她全心照顧家人。）",
-    "id": "中級-devoted-m18qy5eo"
+    "id": "中級-devoted-adj"
   },
   {
     "level": "中級",
     "word": "dialog",
-    "meaning": "對話",
+    "meaning": "noun 對話",
     "example": "The students practiced a short dialog.（學生們練習了一段短對話。）",
-    "id": "中級-dialog-mgf0k"
+    "id": "中級-dialog-noun"
   },
   {
     "level": "中級",
     "word": "digit",
-    "meaning": "數字、位數",
+    "meaning": "noun 數字、位數",
     "example": "Write each digit clearly.（請把每個數字寫清楚。）",
-    "id": "中級-digit-m1hb97pp"
+    "id": "中級-digit-noun"
   },
   {
     "level": "中級",
     "word": "disabled",
-    "meaning": "有殘疾的",
+    "meaning": "adj. 有殘疾的",
     "example": "The school supports disabled students.（學校支持身心障礙學生。）",
-    "id": "中級-disabled-mdg6dmd"
+    "id": "中級-disabled-adj"
   },
   {
     "level": "中級",
     "word": "disadvantaged",
-    "meaning": "弱勢的、貧困的",
+    "meaning": "adj. 弱勢的、貧困的",
     "example": "The program helps disadvantaged children.（這個計畫幫助弱勢兒童。）",
-    "id": "中級-disadvantaged-m17lgg19"
+    "id": "中級-disadvantaged-adj"
   },
   {
     "level": "中級",
     "word": "disapproval",
-    "meaning": "不贊成、反對",
+    "meaning": "noun 不贊成、反對",
     "example": "Her disapproval was clear.（她的不贊成很明顯。）",
-    "id": "中級-disapproval-m95noa6"
+    "id": "中級-disapproval-noun"
   },
   {
     "level": "中級",
     "word": "dissatisfaction",
-    "meaning": "不滿",
+    "meaning": "noun 不滿",
     "example": "Customer dissatisfaction increased.（顧客不滿增加了。）",
-    "id": "中級-dissatisfaction-mdvv6"
+    "id": "中級-dissatisfaction-noun"
   },
   {
     "level": "中級",
     "word": "dressed",
-    "meaning": "穿好衣服的、打扮好的",
+    "meaning": "adj. 穿好衣服的、打扮好的",
     "example": "She was dressed in white.（她穿著白色衣服。）",
-    "id": "中級-dressed-m139temf"
+    "id": "中級-dressed-adj"
   },
   {
     "level": "中級",
     "word": "earring",
-    "meaning": "耳環",
+    "meaning": "noun 耳環",
     "example": "She wore a pearl earring.（她戴了一只珍珠耳環。）",
-    "id": "中級-earring-mmg2l"
+    "id": "中級-earring-noun"
   },
   {
     "level": "中級",
     "word": "entertainer",
-    "meaning": "藝人、表演者",
+    "meaning": "noun 藝人、表演者",
     "example": "The entertainer made the children laugh.（表演者逗孩子們笑。）",
-    "id": "中級-entertainer-m1oqwz79"
+    "id": "中級-entertainer-noun"
   },
   {
     "level": "中級",
     "word": "essentially",
-    "meaning": "本質上、基本上",
+    "meaning": "adv. 本質上、基本上",
     "example": "Essentially, the two plans are the same.（基本上，這兩個計畫是一樣的。）",
-    "id": "中級-essentially-m14iw5oj"
+    "id": "中級-essentially-adv"
   },
   {
     "level": "中級",
     "word": "etc.",
-    "meaning": "等等",
+    "meaning": "adv. 等等",
     "example": "Please bring pens, notebooks, etc.（請帶筆、筆記本等等。）",
-    "id": "中級-etc-mlna8"
+    "id": "中級-etc-adv"
   },
   {
     "level": "中級",
     "word": "everyday",
-    "meaning": "每天的、日常的",
+    "meaning": "adj. 每天的、日常的",
     "example": "This is an everyday problem.（這是日常問題。）",
-    "id": "中級-everyday-m1iafzyy"
+    "id": "中級-everyday-adj"
   },
   {
     "level": "中級",
     "word": "exactly",
-    "meaning": "準確地、完全、確實如此",
+    "meaning": "adv. 準確地、完全、確實如此",
     "example": "That is exactly what I meant.（那正是我的意思。）",
-    "id": "中級-exactly-m1ajomhq"
+    "id": "中級-exactly-adv"
   },
   {
     "level": "中級",
     "word": "excursion",
-    "meaning": "遠足、短途旅行",
+    "meaning": "noun 遠足、短途旅行",
     "example": "We went on a school excursion.（我們去了一趟學校遠足。）",
-    "id": "中級-excursion-mfo9j0"
+    "id": "中級-excursion-noun"
   },
   {
     "level": "中級",
     "word": "explorer",
-    "meaning": "探險者",
+    "meaning": "noun 探險者",
     "example": "The explorer crossed the desert.（探險家穿越沙漠。）",
-    "id": "中級-explorer-mfbovx"
+    "id": "中級-explorer-noun"
   },
   {
     "level": "中級",
     "word": "farming",
-    "meaning": "農業、畜牧業、養殖業",
+    "meaning": "noun 農業、畜牧業、養殖業",
     "example": "Farming is hard work.（農耕是辛苦的工作。）",
-    "id": "中級-farming-m3w0xp8"
+    "id": "中級-farming-noun"
   },
   {
     "level": "中級",
     "word": "faulty",
-    "meaning": "有缺陷的",
+    "meaning": "adj. 有缺陷的",
     "example": "The accident was caused by faulty brakes.（事故是由故障煞車造成的。）",
-    "id": "中級-faulty-mdj7gu6"
+    "id": "中級-faulty-adj"
   },
   {
     "level": "中級",
     "word": "flooding",
-    "meaning": "水災",
+    "meaning": "noun 水災",
     "example": "Heavy rain caused flooding in the village.（大雨造成村莊淹水。）",
-    "id": "中級-flooding-mj0sp"
+    "id": "中級-flooding-noun"
   },
   {
     "level": "中級",
     "word": "freezing",
-    "meaning": "極冷的、冰凍的",
+    "meaning": "adj. 極冷的、冰凍的",
     "example": "It was freezing outside.（外面冷得要命。）",
-    "id": "中級-freezing-m1b148y0"
+    "id": "中級-freezing-adj"
   },
   {
     "level": "中級",
     "word": "frosty",
-    "meaning": "結霜的、嚴寒的",
+    "meaning": "adj. 結霜的、嚴寒的",
     "example": "The grass was frosty in the morning.（早上的草地結了霜。）",
-    "id": "中級-frosty-mtvhnb1"
+    "id": "中級-frosty-adj"
   },
   {
     "level": "中級",
     "word": "frozen",
-    "meaning": "冷凍的",
+    "meaning": "adj. 冷凍的",
     "example": "The lake was frozen.（湖結冰了。）",
-    "id": "中級-frozen-mcdg0e"
+    "id": "中級-frozen-adj"
   },
   {
     "level": "中級",
     "word": "full-time",
-    "meaning": "全職的(地)、全日的(地)",
+    "meaning": "adj./adv. 全職的(地)、全日的(地)",
     "example": "She has a full-time job.（她有一份全職工作。）",
-    "id": "中級-full-time-m1sv4b3j"
+    "id": "中級-full-time-adj-adv"
   },
   {
     "level": "中級",
     "word": "fully",
-    "meaning": "完全地、充分地",
+    "meaning": "adv. 完全地、充分地",
     "example": "I fully understand your problem.（我完全了解你的問題。）",
-    "id": "中級-fully-m14oz2jm"
+    "id": "中級-fully-adv"
   },
   {
     "level": "中級",
     "word": "gambler",
-    "meaning": "賭徒",
+    "meaning": "noun 賭徒",
     "example": "The gambler lost all his money.（那名賭徒輸光了錢。）",
-    "id": "中級-gambler-mohtx"
+    "id": "中級-gambler-noun"
   },
   {
     "level": "中級",
     "word": "girlfriend",
-    "meaning": "女朋友",
+    "meaning": "noun 女朋友",
     "example": "His girlfriend is very kind.（他的女朋友很善良。）",
-    "id": "中級-girlfriend-mdlnf7"
+    "id": "中級-girlfriend-noun"
   },
   {
     "level": "中級",
     "word": "goodness",
-    "meaning": "善良、美德",
+    "meaning": "noun 善良、美德",
     "example": "Thank goodness you are safe.（謝天謝地，你安全了。）",
-    "id": "中級-goodness-m1uwk1gf"
+    "id": "中級-goodness-noun"
   },
   {
     "level": "中級",
     "word": "grandparent",
-    "meaning": "祖父母",
+    "meaning": "noun 祖父母",
     "example": "My grandparents live in Tainan.（我的祖父母住在台南。）",
-    "id": "中級-grandparent-mibtil"
+    "id": "中級-grandparent-noun"
   },
   {
     "level": "中級",
     "word": "greatly",
-    "meaning": "非常、大大地",
+    "meaning": "adv. 非常、大大地",
     "example": "Your help is greatly appreciated.（非常感謝你的幫忙。）",
-    "id": "中級-greatly-m14synnt"
+    "id": "中級-greatly-adv"
   },
   {
     "level": "中級",
     "word": "grown-up",
-    "meaning": "成人",
+    "meaning": "noun 成人",
     "example": "Grown-ups should listen to children too.（大人也應該聽孩子說話。）",
-    "id": "中級-grown-up-mh416"
+    "id": "中級-grown-up-noun"
   },
   {
     "level": "中級",
     "word": "halfway",
-    "meaning": "在中途、中途的",
+    "meaning": "adv. 在中途、中途的",
     "example": "We stopped halfway up the hill.（我們在山腰停了下來。）",
-    "id": "中級-halfway-m1u3xcob"
+    "id": "中級-halfway-adv"
   },
   {
     "level": "中級",
     "word": "handbag",
-    "meaning": "手提包",
+    "meaning": "noun 手提包",
     "example": "She put her wallet in her handbag.（她把錢包放進手提包。）",
-    "id": "中級-handbag-mevq9s"
+    "id": "中級-handbag-noun"
   },
   {
     "level": "中級",
     "word": "hardworking",
-    "meaning": "努力工作的",
+    "meaning": "adj. 努力工作的",
     "example": "She is a hardworking student.（她是一位勤奮的學生。）",
-    "id": "中級-hardworking-m1dwi1ks"
+    "id": "中級-hardworking-adj"
   },
   {
     "level": "中級",
     "word": "hassle",
-    "meaning": "麻煩；(不斷)煩擾",
+    "meaning": "noun/verb 麻煩；(不斷)煩擾",
     "example": "Getting a visa can be a hassle.（辦簽證可能很麻煩。）",
-    "id": "中級-hassle-mdzdyih"
+    "id": "中級-hassle-noun-verb"
   },
   {
     "level": "中級",
     "word": "headmaster",
-    "meaning": "(尤指私校)校長",
+    "meaning": "noun (尤指私校)校長",
     "example": "The headmaster welcomed the students.（校長歡迎學生們。）",
-    "id": "中級-headmaster-mjw42lw"
+    "id": "中級-headmaster-noun"
   },
   {
     "level": "中級",
     "word": "headset",
-    "meaning": "耳機",
+    "meaning": "noun 耳機",
     "example": "I use a headset for online meetings.（我開線上會議時使用耳機麥克風。）",
-    "id": "中級-headset-mme18"
+    "id": "中級-headset-noun"
   },
   {
     "level": "中級",
     "word": "heartbreak",
-    "meaning": "心碎",
+    "meaning": "noun 心碎",
     "example": "Her first heartbreak was painful.（她第一次心碎很痛苦。）",
-    "id": "中級-heartbreak-mgy7f"
+    "id": "中級-heartbreak-noun"
   },
   {
     "level": "中級",
     "word": "hidden",
-    "meaning": "隱藏的",
+    "meaning": "adj. 隱藏的",
     "example": "The treasure was hidden under the floor.（寶藏藏在地板下。）",
-    "id": "中級-hidden-mmq03q"
+    "id": "中級-hidden-adj"
   },
   {
     "level": "中級",
     "word": "high-rise",
-    "meaning": "（建築）高層的；高樓建築",
+    "meaning": "adj./noun （建築）高層的；高樓建築",
     "example": "They live in a high-rise apartment.（他們住在高樓公寓。）",
-    "id": "中級-high-rise-m7w343j"
+    "id": "中級-high-rise-adj-noun"
   },
   {
     "level": "中級",
     "word": "hijacker",
-    "meaning": "劫機者",
+    "meaning": "noun 劫機者",
     "example": "The hijacker was caught at the airport.（劫機犯在機場被逮捕。）",
-    "id": "中級-hijacker-mcmp9t"
+    "id": "中級-hijacker-noun"
   },
   {
     "level": "中級",
     "word": "hiker",
-    "meaning": "遠足者、健行者",
+    "meaning": "noun 遠足者、健行者",
     "example": "The hiker carried a large backpack.（健行者背著大背包。）",
-    "id": "中級-hiker-mjuf6j3"
+    "id": "中級-hiker-noun"
   },
   {
     "level": "中級",
     "word": "honestly",
-    "meaning": "誠實地、確實",
+    "meaning": "adv. 誠實地、確實",
     "example": "Honestly, I do not know the answer.（老實說，我不知道答案。）",
-    "id": "中級-honestly-m1ipwd37"
+    "id": "中級-honestly-adv"
   },
   {
     "level": "中級",
     "word": "hopefully",
-    "meaning": "抱希望地、但願",
+    "meaning": "adv. 抱希望地、但願",
     "example": "Hopefully, the weather will be good tomorrow.（希望明天天氣會好。）",
-    "id": "中級-hopefully-m1zykwz"
+    "id": "中級-hopefully-adv"
   },
   {
     "level": "中級",
     "word": "illness",
-    "meaning": "疾病",
+    "meaning": "noun 疾病",
     "example": "She missed school because of illness.（她因生病沒去上學。）",
-    "id": "中級-illness-mko93"
+    "id": "中級-illness-noun"
   },
   {
     "level": "中級",
     "word": "immediately",
-    "meaning": "立即、直接地",
+    "meaning": "adv. 立即、直接地",
     "example": "Please come here immediately.（請立刻過來。）",
-    "id": "中級-immediately-mfve3k6"
+    "id": "中級-immediately-adv"
   },
   {
     "level": "中級",
     "word": "impersonal",
-    "meaning": "無人情味的、客觀的",
+    "meaning": "adj. 無人情味的、客觀的",
     "example": "The letter sounded cold and impersonal.（那封信聽起來冷淡又不帶感情。）",
-    "id": "中級-impersonal-mbyvbdu"
+    "id": "中級-impersonal-adj"
   },
   {
     "level": "中級",
     "word": "increasingly",
-    "meaning": "漸增地",
+    "meaning": "adv. 漸增地",
     "example": "The city is becoming increasingly crowded.（這座城市變得越來越擁擠。）",
-    "id": "中級-increasingly-mgq07e"
+    "id": "中級-increasingly-adv"
   },
   {
     "level": "中級",
     "word": "incredible",
-    "meaning": "難以置信的、極好的",
+    "meaning": "adj. 難以置信的、極好的",
     "example": "The view was incredible.（景色令人難以置信。）",
-    "id": "中級-incredible-m1wxp8lm"
+    "id": "中級-incredible-adj"
   },
   {
     "level": "中級",
     "word": "India",
-    "meaning": "印度",
+    "meaning": "noun 印度",
     "example": "India has a large population.（印度人口眾多。）",
-    "id": "中級-india-mepme"
+    "id": "中級-india-noun"
   },
   {
     "level": "中級",
     "word": "informal",
-    "meaning": "非正式的、不拘禮節的",
+    "meaning": "adj. 非正式的、不拘禮節的",
     "example": "The meeting was informal.（這場會議是非正式的。）",
-    "id": "中級-informal-msetuw0"
+    "id": "中級-informal-adj"
   },
   {
     "level": "中級",
     "word": "informed",
-    "meaning": "消息靈通的、有見識的",
+    "meaning": "adj. 消息靈通的、有見識的",
     "example": "Please keep me informed.（請讓我隨時知道最新情況。）",
-    "id": "中級-informed-m1xrvqbo"
+    "id": "中級-informed-adj"
   },
   {
     "level": "中級",
     "word": "investor",
-    "meaning": "投資者",
+    "meaning": "noun 投資者",
     "example": "The investor bought shares in the company.（投資者買了那家公司的股票。）",
-    "id": "中級-investor-mf4gvn"
+    "id": "中級-investor-noun"
   },
   {
     "level": "中級",
     "word": "invisible",
-    "meaning": "隱形的",
+    "meaning": "adj. 隱形的",
     "example": "The tiny insect was almost invisible.（那隻小昆蟲幾乎看不見。）",
-    "id": "中級-invisible-mmjgsz"
+    "id": "中級-invisible-adj"
   },
   {
     "level": "中級",
     "word": "judgment",
-    "meaning": "判斷、審判",
+    "meaning": "noun 判斷、審判",
     "example": "The judge made a fair judgment.（法官做出公平判決。）",
-    "id": "中級-judgment-m1e2x8a1"
+    "id": "中級-judgment-noun"
   },
   {
     "level": "中級",
     "word": "kindly",
-    "meaning": "親切的；親切地",
+    "meaning": "adj./adv 親切的；親切地",
     "example": "Kindly close the door.（請把門關上。）",
-    "id": "中級-kindly-ml3o4sf"
+    "id": "中級-kindly-adj-adv"
   },
   {
     "level": "中級",
     "word": "kindness",
-    "meaning": "親切、和藹",
+    "meaning": "noun 親切、和藹",
     "example": "Thank you for your kindness.（謝謝你的善意。）",
-    "id": "中級-kindness-m1flljox"
+    "id": "中級-kindness-noun"
   },
   {
     "level": "中級",
     "word": "lavatory",
-    "meaning": "盥洗室、廁所",
+    "meaning": "noun 盥洗室、廁所",
     "example": "The lavatory is at the back of the plane.（廁所在飛機後方。）",
-    "id": "中級-lavatory-m3yv5e6"
+    "id": "中級-lavatory-noun"
   },
   {
     "level": "中級",
     "word": "leading",
-    "meaning": "最重要的、領先的",
+    "meaning": "adj. 最重要的、領先的",
     "example": "She is a leading expert in medicine.（她是醫學領域的頂尖專家。）",
-    "id": "中級-leading-m186hdnn"
+    "id": "中級-leading-adj"
   },
   {
     "level": "中級",
     "word": "leaflet",
-    "meaning": "傳單",
+    "meaning": "noun 傳單",
     "example": "The museum gave us a leaflet.（博物館給了我們一張傳單。）",
-    "id": "中級-leaflet-me72z"
+    "id": "中級-leaflet-noun"
   },
   {
     "level": "中級",
     "word": "learner",
-    "meaning": "學習者",
+    "meaning": "noun 學習者",
     "example": "Every learner needs practice.（每位學習者都需要練習。）",
-    "id": "中級-learner-me0r8r"
+    "id": "中級-learner-noun"
   },
   {
     "level": "中級",
     "word": "lifestyle",
-    "meaning": "生活方式",
+    "meaning": "noun 生活方式",
     "example": "Exercise is part of a healthy lifestyle.（運動是健康生活方式的一部分。）",
-    "id": "中級-lifestyle-mf8aoaa"
+    "id": "中級-lifestyle-noun"
   },
   {
     "level": "中級",
     "word": "loneliness",
-    "meaning": "寂寞",
+    "meaning": "noun 寂寞",
     "example": "Loneliness can affect health.（孤獨會影響健康。）",
-    "id": "中級-loneliness-mg40s"
+    "id": "中級-loneliness-noun"
   },
   {
     "level": "中級",
     "word": "long-standing",
-    "meaning": "存在已久的、悠久的",
+    "meaning": "adj. 存在已久的、悠久的",
     "example": "They solved a long-standing problem.（他們解決了一個長期存在的問題。）",
-    "id": "中級-long-standing-m1psj36n"
+    "id": "中級-long-standing-adj"
   },
   {
     "level": "中級",
     "word": "long-term",
-    "meaning": "長期的",
+    "meaning": "adj. 長期的",
     "example": "This is a long-term plan.（這是一個長期計畫。）",
-    "id": "中級-long-term-mmebcs"
+    "id": "中級-long-term-adj"
   },
   {
     "level": "中級",
     "word": "loop",
-    "meaning": "環、圈、環狀物；繞圈",
+    "meaning": "noun/verb 環、圈、環狀物；繞圈",
     "example": "The road forms a loop around the lake.（道路繞湖形成一個環。）",
-    "id": "中級-loop-muxbuqe"
+    "id": "中級-loop-noun-verb"
   },
   {
     "level": "中級",
     "word": "lorry",
-    "meaning": "卡車",
+    "meaning": "noun 卡車",
     "example": "The lorry carried vegetables to the market.（卡車把蔬菜載到市場。）",
-    "id": "中級-lorry-meyrt"
+    "id": "中級-lorry-noun"
   },
   {
     "level": "中級",
     "word": "lychee",
-    "meaning": "荔枝",
+    "meaning": "noun 荔枝",
     "example": "Lychee is sweet and juicy.（荔枝又甜又多汁。）",
-    "id": "中級-lychee-mmwnd"
+    "id": "中級-lychee-noun"
   },
   {
     "level": "中級",
     "word": "maker",
-    "meaning": "製作者",
+    "meaning": "noun 製作者",
     "example": "The maker of this watch is famous.（這支錶的製造商很有名。）",
-    "id": "中級-maker-mkgjc6"
+    "id": "中級-maker-noun"
   },
   {
     "level": "中級",
     "word": "man-made",
-    "meaning": "人造的",
+    "meaning": "adj. 人造的",
     "example": "The lake is man-made.（這座湖是人工的。）",
-    "id": "中級-man-made-mc8ae6"
+    "id": "中級-man-made-adj"
   },
   {
     "level": "中級",
     "word": "memorandum",
-    "meaning": "備忘錄",
+    "meaning": "noun 備忘錄",
     "example": "The manager wrote a memorandum to the staff.（經理寫了一份備忘錄給員工。）",
-    "id": "中級-memorandum-mca3k5"
+    "id": "中級-memorandum-noun"
   },
   {
     "level": "中級",
     "word": "midday",
-    "meaning": "正午",
+    "meaning": "noun 正午",
     "example": "We arrived at midday.（我們中午抵達。）",
-    "id": "中級-midday-miq11"
+    "id": "中級-midday-noun"
   },
   {
     "level": "中級",
     "word": "middle-aged",
-    "meaning": "中年的、煩人的、過時的",
+    "meaning": "adj. 中年的、煩人的、過時的",
     "example": "The middle-aged man jogs every morning.（那位中年男子每天早上慢跑。）",
-    "id": "中級-middle-aged-mthrem6"
+    "id": "中級-middle-aged-adj"
   },
   {
     "level": "中級",
     "word": "milkshake",
-    "meaning": "奶昔",
+    "meaning": "noun 奶昔",
     "example": "I ordered a chocolate milkshake.（我點了一杯巧克力奶昔。）",
-    "id": "中級-milkshake-mfrz2"
+    "id": "中級-milkshake-noun"
   },
   {
     "level": "中級",
     "word": "moonlight",
-    "meaning": "月光",
+    "meaning": "noun 月光",
     "example": "Moonlight shone through the window.（月光透過窗戶照進來。）",
-    "id": "中級-moonlight-mhyyp"
+    "id": "中級-moonlight-noun"
   },
   {
     "level": "中級",
     "word": "mortgage",
-    "meaning": "貸款；抵押",
+    "meaning": "noun/verb 貸款；抵押",
     "example": "They took out a mortgage to buy a house.（他們貸款買房。）",
-    "id": "中級-mortgage-m1vkgla4"
+    "id": "中級-mortgage-noun-verb"
   },
   {
     "level": "中級",
     "word": "moustache",
-    "meaning": "上唇的鬍子、八字鬍",
+    "meaning": "noun 上唇的鬍子、八字鬍",
     "example": "My uncle has a thick moustache.（我叔叔有濃密的鬍子。）",
-    "id": "中級-moustache-momczvu"
+    "id": "中級-moustache-noun"
   },
   {
     "level": "中級",
     "word": "necessarily",
-    "meaning": "必然地、必要地",
+    "meaning": "adv. 必然地、必要地",
     "example": "Rich people are not necessarily happy.（有錢人不一定快樂。）",
-    "id": "中級-necessarily-mfrtj02"
+    "id": "中級-necessarily-adv"
   },
   {
     "level": "中級",
     "word": "newcomer",
-    "meaning": "新來者",
+    "meaning": "noun 新來者",
     "example": "The newcomer felt nervous at school.（新來的人在學校感到緊張。）",
-    "id": "中級-newcomer-mfafan"
+    "id": "中級-newcomer-noun"
   },
   {
     "level": "中級",
     "word": "nonstop",
-    "meaning": "直達的、不停的；不休息地",
+    "meaning": "adj./adv. 直達的、不停的；不休息地",
     "example": "The bus runs nonstop to Taipei.（這班公車直達台北不停站。）",
-    "id": "中級-nonstop-mei49yg"
+    "id": "中級-nonstop-adj-adv"
   },
   {
     "level": "中級",
     "word": "northeast",
-    "meaning": "東北方",
+    "meaning": "noun/adv./adj. 東北方",
     "example": "The town is northeast of the city.（那個小鎮在城市東北方。）",
-    "id": "中級-northeast-mfk4vn"
+    "id": "中級-northeast-noun-adv-adj"
   },
   {
     "level": "中級",
     "word": "northwest",
-    "meaning": "西北方",
+    "meaning": "noun/adv./adj. 西北方",
     "example": "The mountains are northwest of here.（山在這裡的西北方。）",
-    "id": "中級-northwest-mkjpdt"
+    "id": "中級-northwest-noun-adv-adj"
   },
   {
     "level": "中級",
     "word": "nursing",
-    "meaning": "護理、看護；護理的、哺乳的",
+    "meaning": "noun/adj. 護理、看護；護理的、哺乳的",
     "example": "She is studying nursing.（她正在學護理。）",
-    "id": "中級-nursing-mmh5ssi"
+    "id": "中級-nursing-noun-adj"
   },
   {
     "level": "中級",
     "word": "oh",
-    "meaning": "哦、哎喲",
+    "meaning": "interj. 哦、哎喲",
     "example": "Oh, I forgot my keys.（喔，我忘了鑰匙。）",
-    "id": "中級-oh-mawxpkv"
+    "id": "中級-oh-interj"
   },
   {
     "level": "中級",
     "word": "Olympic",
-    "meaning": "奧林匹克的",
+    "meaning": "adj. 奧林匹克的",
     "example": "The Olympic Games are held every four years.（奧運會每四年舉行一次。）",
-    "id": "中級-olympic-m7tlapu"
+    "id": "中級-olympic-adj"
   },
   {
     "level": "中級",
     "word": "oneself",
-    "meaning": "自己",
+    "meaning": "pron. 自己",
     "example": "One should believe in oneself.（人應該相信自己。）",
-    "id": "中級-oneself-mmm2v"
+    "id": "中級-oneself-pron"
   },
   {
     "level": "中級",
     "word": "one-sided",
-    "meaning": "片面的、一面倒的",
+    "meaning": "adj. 片面的、一面倒的",
     "example": "The report gave a one-sided view.（這份報告只呈現單方面觀點。）",
-    "id": "中級-one-sided-mblh32k"
+    "id": "中級-one-sided-adj"
   },
   {
     "level": "中級",
     "word": "opener",
-    "meaning": "開罐器；開場白",
+    "meaning": "noun 開罐器；開場白",
     "example": "The opener of the show was exciting.（節目的開場很精彩。）",
-    "id": "中級-opener-mdoeosc"
+    "id": "中級-opener-noun"
   },
   {
     "level": "中級",
     "word": "opening",
-    "meaning": "缺口、開幕",
+    "meaning": "noun 缺口、開幕\nadj. 開始的",
     "example": "The opening of the store attracted many people.（商店開幕吸引了很多人。）",
-    "id": "中級-opening-mb1625e"
-  },
-  {
-    "level": "中級",
-    "word": "opening",
-    "meaning": "開始的",
-    "example": "The opening scene was beautiful.（開場畫面很美。）",
-    "id": "中級-opening-mmcgkk"
+    "id": "中級-opening-noun-adj"
   },
   {
     "level": "中級",
     "word": "ought",
-    "meaning": "應當",
+    "meaning": "aux. 應當",
     "example": "You ought to tell the truth.（你應該說實話。）",
-    "id": "中級-ought-mh9zh"
+    "id": "中級-ought-aux"
   },
   {
     "level": "中級",
     "word": "overweight",
-    "meaning": "過重的",
+    "meaning": "adj. 過重的",
     "example": "The doctor said he was overweight.（醫生說他過重。）",
-    "id": "中級-overweight-mlud5x"
+    "id": "中級-overweight-adj"
   },
   {
     "level": "中級",
     "word": "particularly",
-    "meaning": "特別、尤其",
+    "meaning": "adv. 特別、尤其",
     "example": "I particularly like this song.（我特別喜歡這首歌。）",
-    "id": "中級-particularly-mvyv8lj"
+    "id": "中級-particularly-adv"
   },
   {
     "level": "中級",
     "word": "part-time",
-    "meaning": "部分時間的、兼職的、兼職",
+    "meaning": "adj./adv. 部分時間的、兼職的、兼職",
     "example": "She has a part-time job.（她有一份兼職工作。）",
-    "id": "中級-part-time-m1t1blb3"
+    "id": "中級-part-time-adj-adv"
   },
   {
     "level": "中級",
     "word": "payment",
-    "meaning": "付款、款項",
+    "meaning": "noun 付款、款項",
     "example": "The payment is due tomorrow.（款項明天到期。）",
-    "id": "中級-payment-m11w1dlu"
+    "id": "中級-payment-noun"
   },
   {
     "level": "中級",
     "word": "petrol",
-    "meaning": "汽油",
+    "meaning": "noun 汽油",
     "example": "We need more petrol for the car.（我們的車需要更多汽油。）",
-    "id": "中級-petrol-mj1ss"
+    "id": "中級-petrol-noun"
   },
   {
     "level": "中級",
     "word": "postal",
-    "meaning": "郵政的",
+    "meaning": "adj. 郵政的",
     "example": "The postal worker delivered the mail.（郵政人員送了郵件。）",
-    "id": "中級-postal-mlq862"
+    "id": "中級-postal-adj"
   },
   {
     "level": "中級",
     "word": "powerless",
-    "meaning": "無力量的、無權力的",
+    "meaning": "adj. 無力量的、無權力的",
     "example": "The child felt powerless against the bully.（那個孩子面對霸凌者感到無力。）",
-    "id": "中級-powerless-m178qnno"
+    "id": "中級-powerless-adj"
   },
   {
     "level": "中級",
     "word": "presently",
-    "meaning": "此刻、現在",
+    "meaning": "adv. 此刻、現在",
     "example": "She is presently working in Taipei.（她目前在台北工作。）",
-    "id": "中級-presently-m4aidpw"
+    "id": "中級-presently-adv"
   },
   {
     "level": "中級",
     "word": "qualified",
-    "meaning": "合格的、勝任的",
+    "meaning": "adj. 合格的、勝任的",
     "example": "She is qualified for the job.（她符合這份工作的資格。）",
-    "id": "中級-qualified-m1cc1nsl"
+    "id": "中級-qualified-adj"
   },
   {
     "level": "中級",
     "word": "queue",
-    "meaning": "隊伍；排隊",
+    "meaning": "noun/verb 隊伍；排隊",
     "example": "Please wait in the queue.（請排隊等候。）",
-    "id": "中級-queue-mvdni7k"
+    "id": "中級-queue-noun-verb"
   },
   {
     "level": "中級",
     "word": "raincoat",
-    "meaning": "雨衣",
+    "meaning": "noun 雨衣",
     "example": "I wore a raincoat in the storm.（暴風雨中我穿了雨衣。）",
-    "id": "中級-raincoat-mqf0b"
+    "id": "中級-raincoat-noun"
   },
   {
     "level": "中級",
     "word": "rarely",
-    "meaning": "很少、不常",
+    "meaning": "adv. 很少、不常",
     "example": "She rarely eats fast food.（她很少吃速食。）",
-    "id": "中級-rarely-mu6sg9v"
+    "id": "中級-rarely-adv"
   },
   {
     "level": "中級",
     "word": "reader",
-    "meaning": "讀者、簡易讀本",
+    "meaning": "noun 讀者、簡易讀本",
     "example": "This book is good for young readers.（這本書適合年輕讀者。）",
-    "id": "中級-reader-m1jnkod6"
+    "id": "中級-reader-noun"
   },
   {
     "level": "中級",
     "word": "readily",
-    "meaning": "樂意地、迅速地",
+    "meaning": "adv. 樂意地、迅速地",
     "example": "Help is readily available.（幫助很容易取得。）",
-    "id": "中級-readily-mihmlzs"
+    "id": "中級-readily-adv"
   },
   {
     "level": "中級",
     "word": "reading",
-    "meaning": "閱讀、讀物",
+    "meaning": "noun 閱讀、讀物",
     "example": "Reading improves vocabulary.（閱讀能增加字彙量。）",
-    "id": "中級-reading-myunvbv"
+    "id": "中級-reading-noun"
   },
   {
     "level": "中級",
     "word": "rebuild",
-    "meaning": "重組、重建",
+    "meaning": "verb 重組、重建",
     "example": "They will rebuild the bridge.（他們將重建這座橋。）",
-    "id": "中級-rebuild-mhueyvr"
+    "id": "中級-rebuild-verb"
   },
   {
     "level": "中級",
     "word": "related",
-    "meaning": "相關的、有親戚關係的",
+    "meaning": "adj. 相關的、有親戚關係的",
     "example": "These two problems are related.（這兩個問題有關。）",
-    "id": "中級-related-m4no92e"
+    "id": "中級-related-adj"
   },
   {
     "level": "中級",
     "word": "relatively",
-    "meaning": "相對地、相當",
+    "meaning": "adv. 相對地、相當",
     "example": "The test was relatively easy.（這次考試相對簡單。）",
-    "id": "中級-relatively-mgtbrms"
+    "id": "中級-relatively-adv"
   },
   {
     "level": "中級",
     "word": "repeatedly",
-    "meaning": "一再地、重複地",
+    "meaning": "adv. 一再地、重複地",
     "example": "He called me repeatedly.（他一再打電話給我。）",
-    "id": "中級-repeatedly-medz6pk"
+    "id": "中級-repeatedly-adv"
   },
   {
     "level": "中級",
     "word": "restless",
-    "meaning": "煩躁的",
+    "meaning": "adj. 煩躁的",
     "example": "The baby was restless all night.（寶寶整晚不安。）",
-    "id": "中級-restless-mhawcs"
+    "id": "中級-restless-adj"
   },
   {
     "level": "中級",
     "word": "reunite",
-    "meaning": "重逢、再結合",
+    "meaning": "verb 重逢、再結合",
     "example": "The family will reunite next month.（家人下個月會團聚。）",
-    "id": "中級-reunite-m1mggpg9"
+    "id": "中級-reunite-verb"
   },
   {
     "level": "中級",
     "word": "rewrite",
-    "meaning": "重寫、改寫；修改",
+    "meaning": "verb/noun 重寫、改寫；修改",
     "example": "Please rewrite this sentence.（請重寫這個句子。）",
-    "id": "中級-rewrite-m1k632nl"
+    "id": "中級-rewrite-verb-noun"
   },
   {
     "level": "中級",
     "word": "rider",
-    "meaning": "騎士",
+    "meaning": "noun 騎士",
     "example": "The rider wore a helmet.（騎士戴著安全帽。）",
-    "id": "中級-rider-mqowt"
+    "id": "中級-rider-noun"
   },
   {
     "level": "中級",
     "word": "running",
-    "meaning": "連續的",
+    "meaning": "adj. 連續的",
     "example": "Running keeps me healthy.（跑步讓我保持健康。）",
-    "id": "中級-running-mlq7dn"
+    "id": "中級-running-adj"
   },
   {
     "level": "中級",
     "word": "sadden",
-    "meaning": "使難過",
+    "meaning": "verb 使難過",
     "example": "The news saddened me.（這個消息讓我難過。）",
-    "id": "中級-sadden-mcdmyy"
+    "id": "中級-sadden-verb"
   },
   {
     "level": "中級",
     "word": "saying",
-    "meaning": "諺語、格言",
+    "meaning": "noun 諺語、格言",
     "example": "There is a saying that time is money.（有句俗話說時間就是金錢。）",
-    "id": "中級-saying-m1rve3dt"
+    "id": "中級-saying-noun"
   },
   {
     "level": "中級",
     "word": "schoolmate",
-    "meaning": "學校同學",
+    "meaning": "noun 學校同學",
     "example": "My schoolmate helped me carry the books.（我的校友／同學幫我搬書。）",
-    "id": "中級-schoolmate-mbyzk2d"
+    "id": "中級-schoolmate-noun"
   },
   {
     "level": "中級",
     "word": "seafood",
-    "meaning": "海鮮",
+    "meaning": "noun 海鮮",
     "example": "I like seafood noodles.（我喜歡海鮮麵。）",
-    "id": "中級-seafood-mjh1z"
+    "id": "中級-seafood-noun"
   },
   {
     "level": "中級",
     "word": "seaside",
-    "meaning": "海邊",
+    "meaning": "noun 海邊",
     "example": "We stayed at a seaside hotel.（我們住在海邊飯店。）",
-    "id": "中級-seaside-mjeur"
+    "id": "中級-seaside-noun"
   },
   {
     "level": "中級",
     "word": "second-hand",
-    "meaning": "舊的、二手的；二手地、間接地",
+    "meaning": "adj./adv. 舊的、二手的；二手地、間接地",
     "example": "I bought a second-hand bike.（我買了一台二手腳踏車。）",
-    "id": "中級-second-hand-m1s4lpbl"
+    "id": "中級-second-hand-adj-adv"
   },
   {
     "level": "中級",
     "word": "setup",
-    "meaning": "組織、結構",
+    "meaning": "noun 組織、結構",
     "example": "The setup of the computer took an hour.（電腦設定花了一小時。）",
-    "id": "中級-setup-m8pqung"
+    "id": "中級-setup-noun"
   },
   {
     "level": "中級",
     "word": "shining",
-    "meaning": "發光的；明亮而快樂的；出色的",
+    "meaning": "adj. 發光的；明亮而快樂的；出色的",
     "example": "The stars were shining brightly.（星星明亮地閃耀。）",
-    "id": "中級-shining-m31kk6u"
+    "id": "中級-shining-adj"
   },
   {
     "level": "中級",
     "word": "shopkeeper",
-    "meaning": "商店老闆",
+    "meaning": "noun 商店老闆",
     "example": "The shopkeeper opened the store early.（店主很早開店。）",
-    "id": "中級-shopkeeper-mb5ocs6"
+    "id": "中級-shopkeeper-noun"
   },
   {
     "level": "中級",
     "word": "shortcut",
-    "meaning": "捷徑",
+    "meaning": "noun 捷徑",
     "example": "This path is a shortcut to school.（這條路是去學校的捷徑。）",
-    "id": "中級-shortcut-mhfy2"
+    "id": "中級-shortcut-noun"
   },
   {
     "level": "中級",
     "word": "short-sighted",
-    "meaning": "近視的、目光短淺的",
+    "meaning": "adj. 近視的、目光短淺的",
     "example": "A short-sighted person may need glasses.（近視的人可能需要眼鏡。）",
-    "id": "中級-short-sighted-m1aku5ga"
+    "id": "中級-short-sighted-adj"
   },
   {
     "level": "中級",
     "word": "short-term",
-    "meaning": "短期的、近期的",
+    "meaning": "adj. 短期的、近期的",
     "example": "This is only a short-term solution.（這只是短期解決方法。）",
-    "id": "中級-short-term-m15ak7qf"
+    "id": "中級-short-term-adj"
   },
   {
     "level": "中級",
     "word": "sickness",
-    "meaning": "疾病",
+    "meaning": "noun 疾病",
     "example": "Sickness kept him at home.（疾病讓他待在家裡。）",
-    "id": "中級-sickness-mko93"
+    "id": "中級-sickness-noun"
   },
   {
     "level": "中級",
     "word": "smoky",
-    "meaning": "冒煙的、煙霧瀰漫的",
+    "meaning": "adj. 冒煙的、煙霧瀰漫的",
     "example": "The room was smoky.（房間裡煙霧瀰漫。）",
-    "id": "中級-smoky-m12x55rr"
+    "id": "中級-smoky-adj"
   },
   {
     "level": "中級",
     "word": "snowman",
-    "meaning": "雪人",
+    "meaning": "noun 雪人",
     "example": "The children built a snowman.（孩子們堆了一個雪人。）",
-    "id": "中級-snowman-mq3o0"
+    "id": "中級-snowman-noun"
   },
   {
     "level": "中級",
     "word": "softball",
-    "meaning": "壘球",
+    "meaning": "noun 壘球",
     "example": "She plays softball after school.（她放學後打壘球。）",
-    "id": "中級-softball-mfqy3"
+    "id": "中級-softball-noun"
   },
   {
     "level": "中級",
     "word": "south-east",
-    "meaning": "東南方；在東南方；東南方的",
+    "meaning": "noun/adv./adj. 東南方；在東南方；東南方的",
     "example": "The island is southeast of Taiwan.（那座島在台灣東南方。）",
-    "id": "中級-south-east-miygp09"
+    "id": "中級-south-east-noun-adv-adj"
   },
   {
     "level": "中級",
     "word": "south-west",
-    "meaning": "西南方；在西南方；西南方的",
+    "meaning": "noun/adv./adj. 西南方；在西南方；西南方的",
     "example": "The village is southwest of the city.（村莊在城市西南方。）",
-    "id": "中級-south-west-mpk11qj"
+    "id": "中級-south-west-noun-adv-adj"
   },
   {
     "level": "中級",
     "word": "specialized",
-    "meaning": "專用的、專門的、專業的",
+    "meaning": "adj. 專用的、專門的、專業的",
     "example": "She received specialized training.（她接受了專門訓練。）",
-    "id": "中級-specialized-mmdazjh"
+    "id": "中級-specialized-adj"
   },
   {
     "level": "中級",
     "word": "sportsperson",
-    "meaning": "運動員",
+    "meaning": "noun 運動員",
     "example": "A good sportsperson respects others.（好的運動員尊重他人。）",
-    "id": "中級-sportsperson-mljepj"
+    "id": "中級-sportsperson-noun"
   },
   {
     "level": "中級",
     "word": "staircase",
-    "meaning": "樓梯",
+    "meaning": "noun 樓梯",
     "example": "The staircase is made of wood.（樓梯是木頭做的。）",
-    "id": "中級-staircase-mim7w"
+    "id": "中級-staircase-noun"
   },
   {
     "level": "中級",
     "word": "storey",
-    "meaning": "樓層",
+    "meaning": "noun 樓層",
     "example": "They live on the fifth storey.（他們住在五樓。）",
-    "id": "中級-storey-mijsh"
+    "id": "中級-storey-noun"
   },
   {
     "level": "中級",
     "word": "storyteller",
-    "meaning": "說故事者",
+    "meaning": "noun 說故事者",
     "example": "Grandpa is a wonderful storyteller.（爺爺是很棒的說故事者。）",
-    "id": "中級-storyteller-mhwueb9"
+    "id": "中級-storyteller-noun"
   },
   {
     "level": "中級",
     "word": "suffering",
-    "meaning": "痛苦、磨難",
+    "meaning": "noun 痛苦、磨難",
     "example": "The war caused great suffering.（戰爭造成巨大痛苦。）",
-    "id": "中級-suffering-m1fcjrld"
+    "id": "中級-suffering-noun"
   },
   {
     "level": "中級",
     "word": "sunbathe",
-    "meaning": "日光浴",
+    "meaning": "verb 日光浴",
     "example": "She likes to sunbathe on the beach.（她喜歡在海灘曬太陽。）",
-    "id": "中級-sunbathe-mfbpps"
+    "id": "中級-sunbathe-verb"
   },
   {
     "level": "中級",
     "word": "sunlight",
-    "meaning": "日光",
+    "meaning": "noun 日光",
     "example": "Sunlight came through the window.（陽光透過窗戶照進來。）",
-    "id": "中級-sunlight-mhs04"
+    "id": "中級-sunlight-noun"
   },
   {
     "level": "中級",
     "word": "sunrise",
-    "meaning": "日出",
+    "meaning": "noun 日出",
     "example": "We watched the sunrise.（我們看日出。）",
-    "id": "中級-sunrise-mhs51"
+    "id": "中級-sunrise-noun"
   },
   {
     "level": "中級",
     "word": "sunset",
-    "meaning": "日落",
+    "meaning": "noun 日落",
     "example": "The sunset was beautiful.（日落很美。）",
-    "id": "中級-sunset-mi22g"
+    "id": "中級-sunset-noun"
   },
   {
     "level": "中級",
     "word": "supporter",
-    "meaning": "支持者",
+    "meaning": "noun 支持者",
     "example": "He is a loyal supporter of the team.（他是這支隊伍的忠實支持者。）",
-    "id": "中級-supporter-mfb2xf"
+    "id": "中級-supporter-noun"
   },
   {
     "level": "中級",
     "word": "surely",
-    "meaning": "一定、想必",
+    "meaning": "adv. 一定、想必",
     "example": "Surely you remember this song.（你一定記得這首歌。）",
-    "id": "中級-surely-mwm73tl"
+    "id": "中級-surely-adv"
   },
   {
     "level": "中級",
     "word": "tablecloth",
-    "meaning": "桌巾",
+    "meaning": "noun 桌巾",
     "example": "The tablecloth is white.（桌巾是白色的。）",
-    "id": "中級-tablecloth-mi982"
+    "id": "中級-tablecloth-noun"
   },
   {
     "level": "中級",
     "word": "televise",
-    "meaning": "電視播送",
+    "meaning": "verb 電視播送",
     "example": "The game will be televised tonight.（比賽今晚會電視轉播。）",
-    "id": "中級-televise-mjm70hb"
+    "id": "中級-televise-verb"
   },
   {
     "level": "中級",
     "word": "thinking",
-    "meaning": "思想、思考；有思考力的",
+    "meaning": "noun/adj. 思想、思考；有思考力的",
     "example": "Critical thinking is important.（批判性思考很重要。）",
-    "id": "中級-thinking-m14uk9ny"
+    "id": "中級-thinking-noun-adj"
   },
   {
     "level": "中級",
     "word": "thunderstorm",
-    "meaning": "雷雨",
+    "meaning": "noun 雷雨",
     "example": "A thunderstorm arrived at night.（雷雨在夜裡來臨。）",
-    "id": "中級-thunderstorm-mqi8h"
+    "id": "中級-thunderstorm-noun"
   },
   {
     "level": "中級",
     "word": "timetable",
-    "meaning": "時間表；為…安排時間",
+    "meaning": "noun/verb 時間表；為…安排時間",
     "example": "Check the train timetable.（查看火車時刻表。）",
-    "id": "中級-timetable-mhfrh9m"
+    "id": "中級-timetable-noun-verb"
   },
   {
     "level": "中級",
     "word": "toothpaste",
-    "meaning": "牙膏",
+    "meaning": "noun 牙膏",
     "example": "Use toothpaste when you brush your teeth.（刷牙時使用牙膏。）",
-    "id": "中級-toothpaste-mk5sm"
+    "id": "中級-toothpaste-noun"
   },
   {
     "level": "中級",
     "word": "training",
-    "meaning": "訓練",
+    "meaning": "noun 訓練",
     "example": "Training takes time and effort.（訓練需要時間和努力。）",
-    "id": "中級-training-mo6dd"
+    "id": "中級-training-noun"
   },
   {
     "level": "中級",
     "word": "traveling",
-    "meaning": "旅行的、巡迴的",
+    "meaning": "adj. 旅行的、巡迴的",
     "example": "Traveling can broaden your mind.（旅行可以開闊心胸。）",
-    "id": "中級-traveling-m1gcpq6l"
+    "id": "中級-traveling-adj"
   },
   {
     "level": "中級",
     "word": "understanding",
-    "meaning": "理解；體諒的",
+    "meaning": "noun/adj. 理解；體諒的",
     "example": "Thank you for your understanding.（謝謝你的理解。）",
-    "id": "中級-understanding-m2plluw"
+    "id": "中級-understanding-noun-adj"
   },
   {
     "level": "中級",
     "word": "underwater",
-    "meaning": "在水下；水下的",
+    "meaning": "adv./adj. 在水下；水下的",
     "example": "The camera can take underwater photos.（這台相機可以拍水下照片。）",
-    "id": "中級-underwater-m1s99y4x"
+    "id": "中級-underwater-adv-adj"
   },
   {
     "level": "中級",
     "word": "underweight",
-    "meaning": "體重不足的",
+    "meaning": "adj. 體重不足的",
     "example": "The child is underweight.（那個孩子體重過輕。）",
-    "id": "中級-underweight-m1juq3fp"
+    "id": "中級-underweight-adj"
   },
   {
     "level": "中級",
     "word": "unexpected",
-    "meaning": "出乎意料的",
+    "meaning": "adj. 出乎意料的",
     "example": "The news was unexpected.（這個消息出乎意料。）",
-    "id": "中級-unexpected-m1aorpdy"
+    "id": "中級-unexpected-adj"
   },
   {
     "level": "中級",
     "word": "unknown",
-    "meaning": "未知的、無名的",
+    "meaning": "adj. 未知的、無名的",
     "example": "The cause of the illness is unknown.（疾病原因未知。）",
-    "id": "中級-unknown-m10tiuo0"
+    "id": "中級-unknown-adj"
   },
   {
     "level": "中級",
     "word": "unlike",
-    "meaning": "不像",
+    "meaning": "prep. 不像",
     "example": "Unlike his brother, he is quiet.（不像他哥哥，他很安靜。）",
-    "id": "中級-unlike-mdpwi"
+    "id": "中級-unlike-prep"
   },
   {
     "level": "中級",
     "word": "untouched",
-    "meaning": "未動過的、未受影響的",
+    "meaning": "adj. 未動過的、未受影響的",
     "example": "The forest remained untouched.（森林仍未被破壞。）",
-    "id": "中級-untouched-mq905u1"
+    "id": "中級-untouched-adj"
   },
   {
     "level": "中級",
     "word": "unusual",
-    "meaning": "不尋常的、特別的",
+    "meaning": "adj. 不尋常的、特別的",
     "example": "That is an unusual idea.（那是個不尋常的想法。）",
-    "id": "中級-unusual-mkjif41"
+    "id": "中級-unusual-adj"
   },
   {
     "level": "中級",
     "word": "useless",
-    "meaning": "無用的",
+    "meaning": "adj. 無用的",
     "example": "This broken pen is useless.（這支壞筆沒用。）",
-    "id": "中級-useless-mh53r1"
+    "id": "中級-useless-adj"
   },
   {
     "level": "中級",
     "word": "waltz",
-    "meaning": "華爾茲舞；跳華爾茲舞",
+    "meaning": "noun/verb 華爾茲舞；跳華爾茲舞",
     "example": "They danced a waltz.（他們跳華爾滋。）",
-    "id": "中級-waltz-m2bes6m"
+    "id": "中級-waltz-noun-verb"
   },
   {
     "level": "中級",
     "word": "warning",
-    "meaning": "警告的、警戒的",
+    "meaning": "adj. 警告的、警戒的",
     "example": "The sign gave a clear warning.（標誌給了清楚警告。）",
-    "id": "中級-warning-m1236xjr"
+    "id": "中級-warning-adj"
   },
   {
     "level": "中級",
     "word": "warship",
-    "meaning": "軍艦",
+    "meaning": "noun 軍艦",
     "example": "The warship entered the harbor.（軍艦進入港口。）",
-    "id": "中級-warship-mp06x"
+    "id": "中級-warship-noun"
   },
   {
     "level": "中級",
     "word": "washing",
-    "meaning": "洗(或待洗)的衣物",
+    "meaning": "noun 洗(或待洗)的衣物",
     "example": "The washing machine is broken.（洗衣機壞了。）",
-    "id": "中級-washing-mr2gq8o"
+    "id": "中級-washing-noun"
   },
   {
     "level": "中級",
     "word": "watchman",
-    "meaning": "巡夜者、夜間警衛",
+    "meaning": "noun 巡夜者、夜間警衛",
     "example": "The watchman guarded the building at night.（守衛晚上看守大樓。）",
-    "id": "中級-watchman-mdw2g0z"
+    "id": "中級-watchman-noun"
   },
   {
     "level": "中級",
     "word": "well-known",
-    "meaning": "有名的",
+    "meaning": "adj. 有名的",
     "example": "She is a well-known writer.（她是一位知名作家。）",
-    "id": "中級-well-known-mfi8yo"
+    "id": "中級-well-known-adj"
   },
   {
     "level": "中級",
     "word": "westerner",
-    "meaning": "西方人、西部人",
+    "meaning": "noun 西方人、西部人",
     "example": "The westerner learned to use chopsticks.（那位西方人學會使用筷子。）",
-    "id": "中級-westerner-mwujaog"
+    "id": "中級-westerner-noun"
   },
   {
     "level": "中級",
     "word": "whichever",
-    "meaning": "無論哪個、任何一個",
+    "meaning": "determiner/pron. 無論哪個、任何一個",
     "example": "Choose whichever book you like.（選你喜歡的任何一本書。）",
-    "id": "中級-whichever-m1lr8wwg"
+    "id": "中級-whichever-determiner-pron"
   },
   {
     "level": "中級",
     "word": "wildly",
-    "meaning": "瘋狂地、失控地",
+    "meaning": "adv. 瘋狂地、失控地",
     "example": "The crowd cheered wildly.（群眾瘋狂歡呼。）",
-    "id": "中級-wildly-m7wx5bm"
+    "id": "中級-wildly-adv"
   },
   {
     "level": "中級",
     "word": "working",
-    "meaning": "工作的、暫定的；運作",
+    "meaning": "adj./noun 工作的、暫定的；運作",
     "example": "My working hours are from nine to five.（我的工作時間是九點到五點。）",
-    "id": "中級-working-m1kmc06j"
+    "id": "中級-working-adj-noun"
   },
   {
     "level": "中級",
     "word": "workout",
-    "meaning": "(身體)鍛鍊、訓練",
+    "meaning": "noun (身體)鍛鍊、訓練",
     "example": "I do a workout every morning.（我每天早上運動訓練。）",
-    "id": "中級-workout-mt9q857"
+    "id": "中級-workout-noun"
   },
   {
     "level": "中級",
     "word": "worldwide",
-    "meaning": "在世界各地；世界各地的",
+    "meaning": "adv./adj. 在世界各地；世界各地的",
     "example": "The brand is known worldwide.（這個品牌世界聞名。）",
-    "id": "中級-worldwide-maqab01"
+    "id": "中級-worldwide-adv-adj"
   },
   {
     "level": "中級",
     "word": "worn",
-    "meaning": "用舊的、磨壞的、精疲力盡的",
+    "meaning": "adj. 用舊的、磨壞的、精疲力盡的",
     "example": "His shoes are worn.（他的鞋子磨舊了。）",
-    "id": "中級-worn-m1s286e0"
+    "id": "中級-worn-adj"
   },
   {
     "level": "中級",
     "word": "worthless",
-    "meaning": "無用的、無價值的",
+    "meaning": "adj. 無用的、無價值的",
     "example": "The broken watch is worthless.（這隻壞手錶毫無價值。）",
-    "id": "中級-worthless-mpjyhwk"
+    "id": "中級-worthless-adj"
   },
   {
     "level": "中級",
     "word": "wow",
-    "meaning": "哇；使驚嘆",
+    "meaning": "interj./verb 哇；使驚嘆",
     "example": "Wow, this view is amazing!（哇，這景色太棒了！）",
-    "id": "中級-wow-m8uckxj"
+    "id": "中級-wow-interj-verb"
   },
   {
     "level": "中級",
     "word": "wrapping",
-    "meaning": "包裝材料",
+    "meaning": "noun 包裝材料",
     "example": "The wrapping paper is blue.（包裝紙是藍色的。）",
-    "id": "中級-wrapping-mb1ida9"
+    "id": "中級-wrapping-noun"
   },
   {
     "level": "中級",
     "word": "writing",
-    "meaning": "寫、寫作、筆跡、作品",
+    "meaning": "noun 寫、寫作、筆跡、作品",
     "example": "Writing helps me think clearly.（寫作幫助我清楚思考。）",
-    "id": "中級-writing-mcsf6oh"
+    "id": "中級-writing-noun"
   },
   {
     "level": "中級",
     "word": "written",
-    "meaning": "書面的",
+    "meaning": "adj. 書面的",
     "example": "The written test starts at nine.（筆試九點開始。）",
-    "id": "中級-written-mftcnu"
+    "id": "中級-written-adj"
   }
 ]

@@ -314,6 +314,45 @@ function resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup) 
   return fallbackExample;
 }
 
+function consolidateGeptEntries(vocabulary) {
+  const groups = new Map();
+
+  for (const entry of vocabulary) {
+    const groupKey = `${entry.level}\u0000${entry.word}`;
+    const group =
+      groups.get(groupKey) ?? {
+        level: entry.level,
+        word: entry.word,
+        senses: [],
+        examples: []
+      };
+
+    const senseKey = `${entry.pos}\u0000${entry.meaning}`;
+
+    if (!group.senses.some((sense) => `${sense.pos}\u0000${sense.meaning}` === senseKey)) {
+      group.senses.push({
+        pos: entry.pos,
+        meaning: entry.meaning
+      });
+    }
+
+    if (entry.example && !group.examples.includes(entry.example)) {
+      group.examples.push(entry.example);
+    }
+
+    groups.set(groupKey, group);
+  }
+
+  return Array.from(groups.values(), (group) => ({
+    level: group.level,
+    word: group.word,
+    meaning: group.senses
+      .map((sense) => (sense.pos ? `${sense.pos} ${sense.meaning}` : sense.meaning))
+      .join("\n"),
+    example: group.examples[0] ?? ""
+  }));
+}
+
 function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
   const workbook = xlsx.readFile(workbookPath);
   const rows = readSheetRows(workbook, definition.sheets[0]);
@@ -321,6 +360,7 @@ function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
 
   rows.slice(1).forEach((row) => {
     const word = String(row[0] ?? "").trim();
+    const pos = String(row[1] ?? "").trim();
     const meaning = String(row[2] ?? "").trim();
     const geptGrade = String(row[4] ?? "").trim();
     const primaryLevel = String(row[7] ?? "").trim();
@@ -333,12 +373,13 @@ function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
     vocabulary.push({
       level: formatPrimaryLevel(primaryLevel, definition.geptGrade),
       word,
+      pos,
       meaning,
       example: resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup)
     });
   });
 
-  return normalizeVocabularyEntries(vocabulary);
+  return normalizeVocabularyEntries(consolidateGeptEntries(vocabulary));
 }
 
 function chunkItems(items, chunkSize) {

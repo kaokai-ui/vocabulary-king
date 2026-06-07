@@ -79,6 +79,7 @@
 .flashcard-meaning {
   font-size: clamp(1.5rem, 4vw, 2.4rem);
   margin: 0;
+  white-space: pre-line;
 }
 
 .flashcard-example {
@@ -95,6 +96,10 @@
 
 .flashcard-example-row .flashcard-example {
   margin: 0;
+}
+
+.word-row__meaning {
+  white-space: pre-line;
 }
 
 .quiz-stage {
