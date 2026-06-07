@@ -90,6 +90,7 @@ export function sessionReducer(state, action) {
         flashcards: null,
         quiz: {
           mode: action.payload.mode,
+          timerEnabled: action.payload.timerEnabled,
           questionCount: action.payload.questionCount,
           currentIndex: 0,
           correctCount: 0,

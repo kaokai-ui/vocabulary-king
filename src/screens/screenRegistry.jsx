@@ -8,6 +8,7 @@ import SettingsScreen from "../components/screens/SettingsScreen";
 import StatsScreen from "../components/screens/StatsScreen";
 import WordListScreen from "../components/screens/WordListScreen";
 import { vocabularyTracks } from "../constants/vocabularyTracks";
+import { QUIZ_MODES } from "../lib/game";
 import { actionTypes } from "../state/actionTypes";
 
 export const screenAnalytics = {
@@ -25,6 +26,11 @@ export const screenAnalytics = {
     pagePath: "/quiz/setup",
     pageTitle: "Vocabulary King - Quiz Setup",
     screenName: "quiz_setup"
+  },
+  clozeQuizSetup: {
+    pagePath: "/quiz/cloze/setup",
+    pageTitle: "Vocabulary King - Cloze Quiz Setup",
+    screenName: "cloze_quiz_setup"
   },
   quiz: {
     pagePath: "/quiz/play",
@@ -80,7 +86,26 @@ export const screenRegistry = {
       onNext={context.actions.advanceFlashcard}
     />
   ),
-  quizSetup: (context) => <QuizSetupScreen text={context.text} onHome={context.actions.goHome} onStartQuiz={context.actions.startQuiz} />,
+  quizSetup: (context) => (
+    <QuizSetupScreen
+      text={context.text}
+      title={context.text.quiz}
+      subtitle={context.text.chooseQuizCount}
+      startButtonLabel={context.text.startQuiz}
+      onHome={context.actions.goHome}
+      onStartQuiz={(count) => context.actions.startQuiz(count, QUIZ_MODES.meaningChoice)}
+    />
+  ),
+  clozeQuizSetup: (context) => (
+    <QuizSetupScreen
+      text={context.text}
+      title={context.text.clozePractice}
+      subtitle={context.text.chooseClozeQuizCount ?? context.text.chooseQuizCount}
+      startButtonLabel={context.text.startClozePractice ?? context.text.startQuiz}
+      onHome={context.actions.goHome}
+      onStartQuiz={(count) => context.actions.startQuiz(count, QUIZ_MODES.clozeChoice)}
+    />
+  ),
   quiz: (context) => (
     <QuizScreen
       text={context.text}
@@ -164,6 +189,7 @@ export const screenRegistry = {
       onStartRandomFlashcards={() => context.actions.startFlashcards("random")}
       onStartStarredFlashcards={() => context.actions.startFlashcards("starred")}
       onOpenQuizSetup={() => context.actions.openScreen("quizSetup")}
+      onOpenClozeQuizSetup={() => context.actions.openScreen("clozeQuizSetup")}
       onOpenWordList={() => context.actions.openScreen("wordList")}
       onOpenKnownWords={() => context.actions.openScreen("knownWords")}
       onOpenStats={() => context.actions.openScreen("stats")}

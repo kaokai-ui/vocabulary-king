@@ -7,7 +7,9 @@ describe("settingsReducer", () => {
     locale: "zh-TW",
     vocabularyTrack: "junior-high",
     autoShowMeaning: false,
-    autoShowExample: false
+    autoShowExample: false,
+    meaningQuizTimerEnabled: true,
+    clozeQuizTimerEnabled: false
   };
 
   it("updates a specific setting", () => {
@@ -23,10 +25,11 @@ describe("settingsReducer", () => {
   it("toggles boolean settings", () => {
     const nextState = settingsReducer(initialState, {
       type: actionTypes.toggleSetting,
-      payload: "autoShowMeaning"
+      payload: "clozeQuizTimerEnabled"
     });
 
-    expect(nextState.autoShowMeaning).toBe(true);
+    expect(nextState.clozeQuizTimerEnabled).toBe(true);
+    expect(nextState.meaningQuizTimerEnabled).toBe(true);
   });
 
   it("normalizes legacy vocabulary track ids", () => {

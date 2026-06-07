@@ -53,6 +53,7 @@ describe("sessionReducer", () => {
       type: actionTypes.startQuiz,
       payload: {
         mode: QUIZ_MODES.meaningChoice,
+        timerEnabled: true,
         questionCount: 10,
         startedAt: 999,
         questions: [{ wordId: "x" }]
@@ -61,6 +62,7 @@ describe("sessionReducer", () => {
 
     expect(nextState.screen).toBe("quiz");
     expect(nextState.quiz.mode).toBe(QUIZ_MODES.meaningChoice);
+    expect(nextState.quiz.timerEnabled).toBe(true);
     expect(nextState.quiz.questionCount).toBe(10);
     expect(nextState.quiz.questionStartedAt).toBe(999);
   });

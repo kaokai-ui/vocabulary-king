@@ -18,13 +18,16 @@ export default function QuizScreen({
     return null;
   }
 
+  const instructionText = question.type === "cloze-choice" ? text.tapCorrectClozeAnswer : text.tapCorrectAnswer;
+  const showTimer = timeLeftSeconds != null;
+
   return (
     <main className="game-shell">
       <header className="game-topbar">
         <div className="scoreboard">
           <span>{text.correct}: {correctCount}</span>
           <span>{text.wrong}: {wrongCount}</span>
-          <span>{text.timer}: {timeLeftSeconds}</span>
+          {showTimer ? <span>{text.timer}: {timeLeftSeconds}</span> : null}
         </div>
       </header>
 
@@ -39,7 +42,7 @@ export default function QuizScreen({
           <h1>{question.prompt}</h1>
           {question.promptVoice ? <SpeakerButton onClick={() => onPronounce(question.promptVoice)} /> : null}
         </div>
-        <p>{text.tapCorrectAnswer}</p>
+        <p>{instructionText}</p>
         {pronunciationMessage ? <p className="flashcard-example">{pronunciationMessage}</p> : null}
 
         <div className="quiz-options">

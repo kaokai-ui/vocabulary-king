@@ -11,7 +11,9 @@ export const defaultSettings = {
   locale: "zh-TW",
   vocabularyTrack: defaultVocabularyTrack,
   autoShowMeaning: false,
-  autoShowExample: false
+  autoShowExample: false,
+  meaningQuizTimerEnabled: true,
+  clozeQuizTimerEnabled: false
 };
 
 export const defaultProgress = {
@@ -43,6 +45,7 @@ export function readStoredValue(key, fallback) {
 
 export function normalizeSettings(settings) {
   return {
+    ...defaultSettings,
     ...settings,
     vocabularyTrack: normalizeVocabularyTrack(settings?.vocabularyTrack)
   };

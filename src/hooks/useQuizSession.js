@@ -9,7 +9,8 @@ export function useQuizSession({
   sessionRef,
   activeTrackId,
   vocabulary,
-  now
+  now,
+  settings
 }) {
   const quizAdvanceTimeoutRef = useRef(null);
 
@@ -18,14 +19,15 @@ export function useQuizSession({
     [session.quiz]
   );
 
+  const timerEnabled = session.quiz?.timerEnabled ?? true;
   const timeLeftMs =
-    session.screen === "quiz" && session.quiz
+    session.screen === "quiz" && session.quiz && timerEnabled
       ? Math.max(QUIZ_TIME_LIMIT_MS - Math.max(now - session.quiz.questionStartedAt, 0), 0)
-      : QUIZ_TIME_LIMIT_MS;
-  const timeLeftSeconds = Math.ceil(timeLeftMs / 1000);
+      : null;
+  const timeLeftSeconds = timeLeftMs == null ? null : Math.ceil(timeLeftMs / 1000);
 
   useEffect(() => {
-    if (session.screen !== "quiz" || !session.quiz) {
+    if (session.screen !== "quiz" || !session.quiz || !timerEnabled) {
       return undefined;
     }
 
@@ -39,7 +41,7 @@ export function useQuizSession({
     return () => {
       window.clearInterval(intervalId);
     };
-  }, [dispatch, session.screen, session.quiz?.currentIndex]);
+  }, [dispatch, session.screen, session.quiz?.currentIndex, timerEnabled]);
 
   function handleQuizAnswer(selectedChoiceId) {
     const activeSession = sessionRef.current;
@@ -115,12 +117,12 @@ export function useQuizSession({
   }
 
   useEffect(() => {
-    if (session.screen !== "quiz" || !session.quiz || session.quiz.isLocked || timeLeftMs > 0) {
+    if (session.screen !== "quiz" || !session.quiz || !timerEnabled || session.quiz.isLocked || timeLeftMs > 0) {
       return;
     }
 
     handleQuizAnswer(null);
-  }, [session.screen, session.quiz, timeLeftMs]);
+  }, [session.screen, session.quiz, timeLeftMs, timerEnabled]);
 
   useEffect(() => {
     return () => {
@@ -131,10 +133,14 @@ export function useQuizSession({
   }, []);
 
   function startQuiz(questionCount, mode = QUIZ_MODES.meaningChoice) {
+    const isMeaningQuiz = mode === QUIZ_MODES.meaningChoice;
+    const nextTimerEnabled = isMeaningQuiz ? settings.meaningQuizTimerEnabled : settings.clozeQuizTimerEnabled;
+
     dispatch({
       type: actionTypes.startQuiz,
       payload: {
         mode,
+        timerEnabled: nextTimerEnabled,
         questionCount,
         questions: createQuizQuestions(vocabulary, questionCount, { mode }),
         startedAt: Date.now()

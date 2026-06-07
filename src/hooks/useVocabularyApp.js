@@ -48,7 +48,8 @@ export function useVocabularyApp(vocabulary) {
     sessionRef,
     activeTrackId,
     vocabulary,
-    now
+    now,
+    settings
   });
 
   useEffect(() => {

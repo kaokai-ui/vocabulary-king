@@ -112,6 +112,13 @@
     var(--panel);
 }
 
+.feature-card--cloze {
+  grid-column: span 18;
+  background:
+    linear-gradient(140deg, rgba(22, 101, 52, 0.3), rgba(163, 230, 53, 0.12)),
+    var(--panel);
+}
+
 .feature-card--flashcard,
 .feature-card--flashcard-alt {
   grid-column: span 21;

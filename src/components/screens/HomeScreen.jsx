@@ -14,6 +14,7 @@ export default function HomeScreen({
   onStartRandomFlashcards,
   onStartStarredFlashcards,
   onOpenQuizSetup,
+  onOpenClozeQuizSetup,
   onOpenWordList,
   onOpenKnownWords,
   onOpenStats,
@@ -81,6 +82,12 @@ export default function HomeScreen({
           <span className="eyebrow">{text.quiz}</span>
           <h2>{text.quiz}</h2>
           <p>{text.quizExplanation}</p>
+        </button>
+
+        <button className="feature-card feature-card--cloze" type="button" onClick={onOpenClozeQuizSetup}>
+          <span className="eyebrow">{text.quiz}</span>
+          <h2>{text.clozePractice}</h2>
+          <p>{text.clozePracticeExplanation}</p>
         </button>
 
         <button className="feature-card feature-card--word-list" type="button" onClick={onOpenWordList}>

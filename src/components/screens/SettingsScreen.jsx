@@ -58,6 +58,30 @@ export default function SettingsScreen({
           </div>
           <input type="checkbox" checked={settings.autoShowExample} onChange={() => onToggleSetting("autoShowExample")} />
         </label>
+
+        <label className="setting-row setting-row--toggle">
+          <div>
+            <h2>{text.meaningQuizTimer}</h2>
+            <p>{text.meaningQuizTimerHint}</p>
+          </div>
+          <input
+            type="checkbox"
+            checked={settings.meaningQuizTimerEnabled}
+            onChange={() => onToggleSetting("meaningQuizTimerEnabled")}
+          />
+        </label>
+
+        <label className="setting-row setting-row--toggle">
+          <div>
+            <h2>{text.clozeQuizTimer}</h2>
+            <p>{text.clozeQuizTimerHint}</p>
+          </div>
+          <input
+            type="checkbox"
+            checked={settings.clozeQuizTimerEnabled}
+            onChange={() => onToggleSetting("clozeQuizTimerEnabled")}
+          />
+        </label>
       </section>
     </main>
   );

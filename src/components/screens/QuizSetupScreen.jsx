@@ -1,12 +1,12 @@
 import { useState } from "react";
 import StageHeader from "../shared/StageHeader";
 
-export default function QuizSetupScreen({ text, onHome, onStartQuiz }) {
+export default function QuizSetupScreen({ text, title, subtitle, startButtonLabel, onHome, onStartQuiz }) {
   const [selectedCount, setSelectedCount] = useState(10);
 
   return (
     <main className="stage-shell">
-      <StageHeader text={text} title={text.quiz} subtitle={text.chooseQuizCount} onHome={onHome} />
+      <StageHeader text={text} title={title ?? text.quiz} subtitle={subtitle ?? text.chooseQuizCount} onHome={onHome} />
       <section className="choice-grid choice-grid--compact">
         {[10, 25, 50].map((count) => (
           <button
@@ -25,7 +25,7 @@ export default function QuizSetupScreen({ text, onHome, onStartQuiz }) {
           {selectedCount} {text.questionsUnit}
         </h2>
         <button className="solid-button" type="button" onClick={() => onStartQuiz(selectedCount)}>
-          {text.startQuiz}
+          {startButtonLabel ?? text.startQuiz}
         </button>
       </section>
     </main>

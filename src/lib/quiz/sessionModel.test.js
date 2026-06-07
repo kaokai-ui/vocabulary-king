@@ -37,6 +37,7 @@ describe("normalizeQuizSession", () => {
     const normalized = normalizeQuizSession(legacyQuiz);
 
     expect(normalized.mode).toBe(QUIZ_MODES.meaningChoice);
+    expect(normalized.timerEnabled).toBe(true);
     expect(normalized.selectedChoiceId).toBe(normalized.questions[0].choices[1].id);
     expect(normalized.questions[0]).toMatchObject({
       type: QUIZ_MODES.meaningChoice,

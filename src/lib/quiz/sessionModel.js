@@ -74,6 +74,7 @@ export function normalizeQuizSession(quiz) {
   return {
     ...quiz,
     mode: quiz.mode ?? QUIZ_MODES.meaningChoice,
+    timerEnabled: quiz.timerEnabled ?? true,
     selectedChoiceId,
     questions: normalizedQuestions,
     answers: (quiz.answers ?? []).map(normalizeQuizAnswer)
