@@ -1,0 +1,1080 @@
+[
+  {
+    "level": "L6",
+    "word": "subordinate",
+    "meaning": "下級的；隸屬的",
+    "example": "The assistant is subordinate to the manager.（助理隸屬於經理。）",
+    "id": "L6-subordinate-m1qti6yy"
+  },
+  {
+    "level": "L6",
+    "word": "subscribe",
+    "meaning": "認捐；訂閱",
+    "example": "I subscribe to a science magazine.（我訂閱了一本科學雜誌。）",
+    "id": "L6-subscribe-m1m3hjbb"
+  },
+  {
+    "level": "L6",
+    "word": "subscription",
+    "meaning": "認捐；訂閱",
+    "example": "My subscription ends next month.（我的訂閱下個月結束。）",
+    "id": "L6-subscription-m1m3hjbb"
+  },
+  {
+    "level": "L6",
+    "word": "subsequent",
+    "meaning": "隨後的",
+    "example": "Subsequent events proved him right.（後來的事件證明他是對的。）",
+    "id": "L6-subsequent-mmjb4w"
+  },
+  {
+    "level": "L6",
+    "word": "substitution",
+    "meaning": "代替(物)",
+    "example": "The substitution of sugar with honey changed the taste.（用蜂蜜代替糖改變了味道。）",
+    "id": "L6-substitution-m11bt4i4"
+  },
+  {
+    "level": "L6",
+    "word": "subtle",
+    "meaning": "微妙的；隱約的",
+    "example": "There is a subtle difference between the two words.（這兩個字之間有細微差異。）",
+    "id": "L6-subtle-mj78w1b"
+  },
+  {
+    "level": "L6",
+    "word": "suburban",
+    "meaning": "郊區的",
+    "example": "They live in a suburban neighborhood.（他們住在郊區社區。）",
+    "id": "L6-suburban-mlma32"
+  },
+  {
+    "level": "L6",
+    "word": "succession",
+    "meaning": "連續；繼任",
+    "example": "Three kings ruled in succession.（三位國王接連統治。）",
+    "id": "L6-succession-mcc8pv5"
+  },
+  {
+    "level": "L6",
+    "word": "successive",
+    "meaning": "連續的；後繼的",
+    "example": "It rained for three successive days.（連續下了三天雨。）",
+    "id": "L6-successive-m1b4m1ro"
+  },
+  {
+    "level": "L6",
+    "word": "successor",
+    "meaning": "繼承人；接替的事物",
+    "example": "The prince became the king’s successor.（王子成了國王的繼承人。）",
+    "id": "L6-successor-m1lltd44"
+  },
+  {
+    "level": "L6",
+    "word": "suffocate",
+    "meaning": "窒息",
+    "example": "Smoke can suffocate people.（煙可能使人窒息。）",
+    "id": "L6-suffocate-mldlp"
+  },
+  {
+    "level": "L6",
+    "word": "suite",
+    "meaning": "套房；隨員；套(組)",
+    "example": "We stayed in a hotel suite.（我們住在飯店套房。）",
+    "id": "L6-suite-maeaeqt"
+  },
+  {
+    "level": "L6",
+    "word": "superb",
+    "meaning": "堂皇的；極好的",
+    "example": "The meal was superb.（這餐非常棒。）",
+    "id": "L6-superb-m1km3740"
+  },
+  {
+    "level": "L6",
+    "word": "superiority",
+    "meaning": "優越",
+    "example": "He acted with a sense of superiority.（他帶著優越感行事。）",
+    "id": "L6-superiority-mekyo"
+  },
+  {
+    "level": "L6",
+    "word": "supersonic",
+    "meaning": "超音波(的)",
+    "example": "A supersonic plane flies faster than sound.（超音速飛機飛得比聲音快。）",
+    "id": "L6-supersonic-m3mg5yx"
+  },
+  {
+    "level": "L6",
+    "word": "superstitious",
+    "meaning": "迷信的",
+    "example": "She is superstitious about black cats.（她對黑貓很迷信。）",
+    "id": "L6-superstitious-mlhcze"
+  },
+  {
+    "level": "L6",
+    "word": "supervision",
+    "meaning": "監督",
+    "example": "Children need adult supervision.（孩子需要成人監督。）",
+    "id": "L6-supervision-mkvkw"
+  },
+  {
+    "level": "L6",
+    "word": "supplement",
+    "meaning": "增補；補給品",
+    "example": "Vitamins can supplement your diet.（維他命可以補充你的飲食。）",
+    "id": "L6-supplement-mf6gohm"
+  },
+  {
+    "level": "L6",
+    "word": "surpass",
+    "meaning": "勝過",
+    "example": "Her performance surpassed our expectations.（她的表現超越我們的期待。）",
+    "id": "L6-surpass-mevwx"
+  },
+  {
+    "level": "L6",
+    "word": "surplus",
+    "meaning": "過剩(的)；剩餘物",
+    "example": "The farm produced a surplus of rice.（農場生產了過剩的米。）",
+    "id": "L6-surplus-mqivlld"
+  },
+  {
+    "level": "L6",
+    "word": "suspense",
+    "meaning": "懸而不決；暫停",
+    "example": "The movie was full of suspense.（這部電影充滿懸疑。）",
+    "id": "L6-suspense-myr4p7v"
+  },
+  {
+    "level": "L6",
+    "word": "suspension",
+    "meaning": "懸吊；暫停",
+    "example": "The bridge’s suspension cables are strong.（這座橋的懸索很堅固。）",
+    "id": "L6-suspension-m13jw1zu"
+  },
+  {
+    "level": "L6",
+    "word": "swap",
+    "meaning": "交換",
+    "example": "Let’s swap seats.（我們交換座位吧。）",
+    "id": "L6-swap-mdx9z"
+  },
+  {
+    "level": "L6",
+    "word": "symbolic",
+    "meaning": "象徵的",
+    "example": "The dove is symbolic of peace.（鴿子象徵和平。）",
+    "id": "L6-symbolic-ml1574"
+  },
+  {
+    "level": "L6",
+    "word": "symbolize",
+    "meaning": "象徵",
+    "example": "The ring symbolizes their love.（這枚戒指象徵他們的愛。）",
+    "id": "L6-symbolize-moeic"
+  },
+  {
+    "level": "L6",
+    "word": "symmetry",
+    "meaning": "對稱(性)",
+    "example": "The design has perfect symmetry.（這個設計有完美的對稱。）",
+    "id": "L6-symmetry-mk6qbwm"
+  },
+  {
+    "level": "L6",
+    "word": "symptom",
+    "meaning": "症狀",
+    "example": "Fever is a common symptom of the flu.（發燒是流感常見症狀。）",
+    "id": "L6-symptom-mknvd"
+  },
+  {
+    "level": "L6",
+    "word": "synonym",
+    "meaning": "同義字",
+    "example": "“Big” is a synonym of “large.”（“Big” 是 “large” 的同義詞。）",
+    "id": "L6-synonym-mcxe56"
+  },
+  {
+    "level": "L6",
+    "word": "synthetic",
+    "meaning": "合成的",
+    "example": "This jacket is made of synthetic material.（這件外套是合成材料做的。）",
+    "id": "L6-synthetic-mcsfb0"
+  },
+  {
+    "level": "L6",
+    "word": "tact",
+    "meaning": "老練；機智；圓滑",
+    "example": "She handled the problem with tact.（她圓融地處理了問題。）",
+    "id": "L6-tact-mee1z5i"
+  },
+  {
+    "level": "L6",
+    "word": "tactic(s)",
+    "meaning": "戰術；策略",
+    "example": "The coach changed his tactics.（教練改變了戰術。）",
+    "id": "L6-tactic-s-m1b06wiv"
+  },
+  {
+    "level": "L6",
+    "word": "tariff",
+    "meaning": "關稅；稅率",
+    "example": "The government raised the tariff on imports.（政府提高了進口關稅。）",
+    "id": "L6-tariff-my56p84"
+  },
+  {
+    "level": "L6",
+    "word": "tedious",
+    "meaning": "冗長乏味的",
+    "example": "The task was tedious.（這個任務很乏味。）",
+    "id": "L6-tedious-m1i2maf4"
+  },
+  {
+    "level": "L6",
+    "word": "temperament",
+    "meaning": "氣質；性情",
+    "example": "She has a calm temperament.（她性情冷靜。）",
+    "id": "L6-temperament-mfg8cwi"
+  },
+  {
+    "level": "L6",
+    "word": "tempest",
+    "meaning": "暴風雨；騷動",
+    "example": "The tempest damaged many houses.（暴風雨破壞了許多房子。）",
+    "id": "L6-tempest-m1uw49r9"
+  },
+  {
+    "level": "L6",
+    "word": "terminate",
+    "meaning": "終止",
+    "example": "The company decided to terminate the contract.（公司決定終止合約。）",
+    "id": "L6-terminate-mlw80"
+  },
+  {
+    "level": "L6",
+    "word": "textile",
+    "meaning": "紡織品 adj.紡織的",
+    "example": "Taiwan has a strong textile industry.（台灣有強大的紡織產業。）",
+    "id": "L6-textile-adj"
+  },
+  {
+    "level": "L6",
+    "word": "texture",
+    "meaning": "質地；構造",
+    "example": "The texture of the cake is soft.（蛋糕的口感很柔軟。）",
+    "id": "L6-texture-m1tsxkne"
+  },
+  {
+    "level": "L6",
+    "word": "theatrical",
+    "meaning": "戲劇的；誇張的",
+    "example": "His speech sounded theatrical.（他的演說聽起來很戲劇化。）",
+    "id": "L6-theatrical-mjunzd6"
+  },
+  {
+    "level": "L6",
+    "word": "theft",
+    "meaning": "偷竊",
+    "example": "The theft was reported to police.（竊盜案已向警方報案。）",
+    "id": "L6-theft-mecz7"
+  },
+  {
+    "level": "L6",
+    "word": "theoretical",
+    "meaning": "理論的",
+    "example": "This is only a theoretical idea.（這只是理論上的想法。）",
+    "id": "L6-theoretical-mho1ys"
+  },
+  {
+    "level": "L6",
+    "word": "therapist",
+    "meaning": "特定療法技師",
+    "example": "The therapist helped him recover.（治療師幫助他復原。）",
+    "id": "L6-therapist-m16i0txb"
+  },
+  {
+    "level": "L6",
+    "word": "therapy",
+    "meaning": "治療；療法",
+    "example": "Physical therapy helped her walk again.（物理治療幫助她重新走路。）",
+    "id": "L6-therapy-mex1gx3"
+  },
+  {
+    "level": "L6",
+    "word": "thereafter",
+    "meaning": "之後",
+    "example": "Thereafter, he lived in the countryside.（此後，他住在鄉下。）",
+    "id": "L6-thereafter-mduap"
+  },
+  {
+    "level": "L6",
+    "word": "thereby",
+    "meaning": "由此；從而",
+    "example": "He studied hard, thereby improving his grades.（他努力讀書，因而提升了成績。）",
+    "id": "L6-thereby-m1amjpsm"
+  },
+  {
+    "level": "L6",
+    "word": "thermometer",
+    "meaning": "溫度計",
+    "example": "Use a thermometer to check your temperature.（用溫度計量體溫。）",
+    "id": "L6-thermometer-mgoeml"
+  },
+  {
+    "level": "L6",
+    "word": "threshold",
+    "meaning": "門檻；開端",
+    "example": "We stood at the threshold of a new era.（我們站在新時代的門檻上。）",
+    "id": "L6-threshold-mutb5z8"
+  },
+  {
+    "level": "L6",
+    "word": "thrift",
+    "meaning": "節儉",
+    "example": "Thrift helped her save money.（節儉幫助她存錢。）",
+    "id": "L6-thrift-mlhs9"
+  },
+  {
+    "level": "L6",
+    "word": "thrifty",
+    "meaning": "節儉的；茂盛的",
+    "example": "My grandmother is very thrifty.（我奶奶很節儉。）",
+    "id": "L6-thrifty-m13p8ga3"
+  },
+  {
+    "level": "L6",
+    "word": "thrive",
+    "meaning": "興旺；繁榮",
+    "example": "Plants thrive in sunlight.（植物在陽光下茁壯成長。）",
+    "id": "L6-thrive-mp4bhkm"
+  },
+  {
+    "level": "L6",
+    "word": "throb",
+    "meaning": "跳動；悸動",
+    "example": "My head began to throb.（我的頭開始一陣陣痛。）",
+    "id": "L6-throb-m1xat7ue"
+  },
+  {
+    "level": "L6",
+    "word": "toll",
+    "meaning": "通行費；傷亡人數；鐘聲 vt.vi徵稅；(緩慢而反覆地)敲(鐘)",
+    "example": "Drivers must pay a toll on this road.（駕駛在這條路上必須付通行費。）",
+    "id": "L6-toll-vt-vi"
+  },
+  {
+    "level": "L6",
+    "word": "topple",
+    "meaning": "倒塌",
+    "example": "Strong winds may topple trees.（強風可能吹倒樹木。）",
+    "id": "L6-topple-me3qy"
+  },
+  {
+    "level": "L6",
+    "word": "tornado",
+    "meaning": "龍捲風",
+    "example": "A tornado destroyed several houses.（龍捲風摧毀了幾棟房子。）",
+    "id": "L6-tornado-mnv26b"
+  },
+  {
+    "level": "L6",
+    "word": "trait",
+    "meaning": "特徵；少許",
+    "example": "Kindness is an important trait.（善良是一項重要特質。）",
+    "id": "L6-trait-myisjb3"
+  },
+  {
+    "level": "L6",
+    "word": "tranquil",
+    "meaning": "平靜的",
+    "example": "The lake looked tranquil at dawn.（黎明時湖面看起來很寧靜。）",
+    "id": "L6-tranquil-mekfa3"
+  },
+  {
+    "level": "L6",
+    "word": "tranquilizer",
+    "meaning": "鎮定劑",
+    "example": "The doctor gave him a tranquilizer.（醫生給了他鎮定劑。）",
+    "id": "L6-tranquilizer-mm2qud"
+  },
+  {
+    "level": "L6",
+    "word": "transaction",
+    "meaning": "交易；辦理",
+    "example": "The bank recorded the transaction.（銀行記錄了這筆交易。）",
+    "id": "L6-transaction-m11ahcfg"
+  },
+  {
+    "level": "L6",
+    "word": "transcript",
+    "meaning": "抄本；成績單",
+    "example": "Please send me your school transcript.（請寄給我你的成績單。）",
+    "id": "L6-transcript-mhmg1gt"
+  },
+  {
+    "level": "L6",
+    "word": "transformation",
+    "meaning": "轉變；變形",
+    "example": "The city went through a major transformation.（這座城市經歷了重大轉變。）",
+    "id": "L6-transformation-manfm2a"
+  },
+  {
+    "level": "L6",
+    "word": "transistor",
+    "meaning": "電晶體",
+    "example": "The old radio uses a transistor.（這台舊收音機使用電晶體。）",
+    "id": "L6-transistor-mmme6x"
+  },
+  {
+    "level": "L6",
+    "word": "transit",
+    "meaning": "運輸；過渡",
+    "example": "Many passengers use public transit.（許多乘客使用大眾運輸。）",
+    "id": "L6-transit-mf20ww1"
+  },
+  {
+    "level": "L6",
+    "word": "transition",
+    "meaning": "過渡；轉變",
+    "example": "The transition to a new school was difficult.（轉到新學校的過程很困難。）",
+    "id": "L6-transition-maxfccp"
+  },
+  {
+    "level": "L6",
+    "word": "transmission",
+    "meaning": "傳輸；傳送",
+    "example": "The transmission of the virus can be prevented.（病毒傳播可以被預防。）",
+    "id": "L6-transmission-m1eiry10"
+  },
+  {
+    "level": "L6",
+    "word": "transmit",
+    "meaning": "傳送；發報",
+    "example": "Radios transmit signals through the air.（收音機透過空氣傳送訊號。）",
+    "id": "L6-transmit-m1emieqq"
+  },
+  {
+    "level": "L6",
+    "word": "transplant",
+    "meaning": "移植；(使)移居",
+    "example": "The patient needs a heart transplant.（病人需要心臟移植。）",
+    "id": "L6-transplant-m1pnsdjn"
+  },
+  {
+    "level": "L6",
+    "word": "trauma",
+    "meaning": "創傷",
+    "example": "The accident caused deep trauma.（事故造成深層創傷。）",
+    "id": "L6-trauma-megv6"
+  },
+  {
+    "level": "L6",
+    "word": "tread",
+    "meaning": "踩；踏",
+    "example": "Do not tread on the flowers.（不要踩花。）",
+    "id": "L6-tread-mm1s1p"
+  },
+  {
+    "level": "L6",
+    "word": "treason",
+    "meaning": "叛國罪[U]",
+    "example": "Treason is a serious crime.（叛國是嚴重罪行。）",
+    "id": "L6-treason-u"
+  },
+  {
+    "level": "L6",
+    "word": "trek",
+    "meaning": "移居；旅行 vi.艱苦跋涉；移居",
+    "example": "We made a long trek through the mountains.（我們長途跋涉穿越山區。）",
+    "id": "L6-trek-vi"
+  },
+  {
+    "level": "L6",
+    "word": "tremor",
+    "meaning": "顫抖；震動",
+    "example": "A small tremor shook the room.（一陣輕微震動搖晃了房間。）",
+    "id": "L6-tremor-m15726qm"
+  },
+  {
+    "level": "L6",
+    "word": "trespass",
+    "meaning": "擅自進入",
+    "example": "Do not trespass on private land.（不要擅闖私人土地。）",
+    "id": "L6-trespass-md9a0vs"
+  },
+  {
+    "level": "L6",
+    "word": "trigger",
+    "meaning": "扳機 vt.扣扳機；引起",
+    "example": "The smell of smoke triggered the alarm.（煙味觸發了警報。）",
+    "id": "L6-trigger-vt"
+  },
+  {
+    "level": "L6",
+    "word": "triumphant",
+    "meaning": "勝利的",
+    "example": "The team returned home triumphant.（隊伍勝利地回家。）",
+    "id": "L6-triumphant-mcjk7s"
+  },
+  {
+    "level": "L6",
+    "word": "trivial",
+    "meaning": "瑣細的；不重要的",
+    "example": "That is a trivial problem.（那是個小問題。）",
+    "id": "L6-trivial-m1wv4txj"
+  },
+  {
+    "level": "L6",
+    "word": "trophy",
+    "meaning": "戰利品；獎杯",
+    "example": "She won a trophy in the contest.（她在比賽中贏得獎盃。）",
+    "id": "L6-trophy-mgwqu6s"
+  },
+  {
+    "level": "L6",
+    "word": "tropic",
+    "meaning": "回歸線；熱帶[the P] adj.熱帶的",
+    "example": "Taiwan is near the Tropic of Cancer.（台灣靠近北回歸線。）",
+    "id": "L6-tropic-the-p-adj"
+  },
+  {
+    "level": "L6",
+    "word": "truant",
+    "meaning": "逃學者 adj.逃學的 vi.逃學",
+    "example": "The truant student skipped class again.（那名逃課學生又翹課了。）",
+    "id": "L6-truant-adj-vi"
+  },
+  {
+    "level": "L6",
+    "word": "truce",
+    "meaning": "停戰",
+    "example": "The two sides agreed to a truce.（雙方同意停戰。）",
+    "id": "L6-truce-me7h0"
+  },
+  {
+    "level": "L6",
+    "word": "tuberculosis",
+    "meaning": "結核病[U]",
+    "example": "Tuberculosis can affect the lungs.（結核病可能影響肺部。）",
+    "id": "L6-tuberculosis-u"
+  },
+  {
+    "level": "L6",
+    "word": "tumor",
+    "meaning": "腫瘤",
+    "example": "The doctor found a small tumor.（醫生發現一個小腫瘤。）",
+    "id": "L6-tumor-mmntl"
+  },
+  {
+    "level": "L6",
+    "word": "turmoil",
+    "meaning": "騷動；混亂[U][C]",
+    "example": "The country was in political turmoil.（這個國家處於政治動盪中。）",
+    "id": "L6-turmoil-u-c"
+  },
+  {
+    "level": "L6",
+    "word": "twilight",
+    "meaning": "薄暮 adj.昏暗的；暮年的",
+    "example": "We walked home at twilight.（我們在暮色中走回家。）",
+    "id": "L6-twilight-adj"
+  },
+  {
+    "level": "L6",
+    "word": "tyranny",
+    "meaning": "暴政；專橫",
+    "example": "The people suffered under tyranny.（人民在暴政下受苦。）",
+    "id": "L6-tyranny-m1o8dqdv"
+  },
+  {
+    "level": "L6",
+    "word": "ulcer",
+    "meaning": "潰瘍；弊病",
+    "example": "Stress can make an ulcer worse.（壓力可能使潰瘍惡化。）",
+    "id": "L6-ulcer-mph15eh"
+  },
+  {
+    "level": "L6",
+    "word": "ultimate",
+    "meaning": "最終的；極限的",
+    "example": "Our ultimate goal is peace.（我們的最終目標是和平。）",
+    "id": "L6-ultimate-mpi62nk"
+  },
+  {
+    "level": "L6",
+    "word": "unanimous",
+    "meaning": "一致同意的",
+    "example": "The decision was unanimous.（這項決定是全體一致的。）",
+    "id": "L6-unanimous-m11lmc4t"
+  },
+  {
+    "level": "L6",
+    "word": "uncover",
+    "meaning": "揭露",
+    "example": "The police uncovered new evidence.（警方發現了新證據。）",
+    "id": "L6-uncover-mhtr9"
+  },
+  {
+    "level": "L6",
+    "word": "underestimate",
+    "meaning": "低估",
+    "example": "Do not underestimate her ability.（不要低估她的能力。）",
+    "id": "L6-underestimate-mdx9e"
+  },
+  {
+    "level": "L6",
+    "word": "undergo",
+    "meaning": "經歷；接受(治療等)",
+    "example": "She will undergo surgery tomorrow.（她明天將接受手術。）",
+    "id": "L6-undergo-mmg353a"
+  },
+  {
+    "level": "L6",
+    "word": "undermine",
+    "meaning": "暗中破壞",
+    "example": "His lies undermined our trust.（他的謊言削弱了我們的信任。）",
+    "id": "L6-undermine-md9uq00"
+  },
+  {
+    "level": "L6",
+    "word": "undertake",
+    "meaning": "進行；承擔",
+    "example": "We will undertake a new project.（我們將承擔一個新專案。）",
+    "id": "L6-undertake-mdsmqye"
+  },
+  {
+    "level": "L6",
+    "word": "undo",
+    "meaning": "解開；取消；破壞",
+    "example": "Click here to undo the change.（按這裡復原變更。）",
+    "id": "L6-undo-myeqrvk"
+  },
+  {
+    "level": "L6",
+    "word": "unemployment",
+    "meaning": "失業",
+    "example": "Unemployment rose last year.（失業率去年上升。）",
+    "id": "L6-unemployment-mfqzg"
+  },
+  {
+    "level": "L6",
+    "word": "unfold",
+    "meaning": "展開",
+    "example": "The story began to unfold slowly.（故事開始慢慢展開。）",
+    "id": "L6-unfold-mgixi"
+  },
+  {
+    "level": "L6",
+    "word": "unify",
+    "meaning": "統一",
+    "example": "The leader tried to unify the country.（領袖試圖統一國家。）",
+    "id": "L6-unify-mlrjj"
+  },
+  {
+    "level": "L6",
+    "word": "unlock",
+    "meaning": "開…的鎖；解開",
+    "example": "Use this key to unlock the door.（用這把鑰匙開門。）",
+    "id": "L6-unlock-mrb1hme"
+  },
+  {
+    "level": "L6",
+    "word": "unpack",
+    "meaning": "打開包裹；卸下",
+    "example": "I need to unpack my suitcase.（我需要打開行李箱整理。）",
+    "id": "L6-unpack-ml8kqpu"
+  },
+  {
+    "level": "L6",
+    "word": "upbringing",
+    "meaning": "養育；教養",
+    "example": "His strict upbringing shaped his character.（嚴格的教養塑造了他的性格。）",
+    "id": "L6-upbringing-m1bez5ms"
+  },
+  {
+    "level": "L6",
+    "word": "upgrade",
+    "meaning": "升級 adv.上坡",
+    "example": "I want to upgrade my computer.（我想升級我的電腦。）",
+    "id": "L6-upgrade-adv"
+  },
+  {
+    "level": "L6",
+    "word": "uphold",
+    "meaning": "舉起；支撐；維持",
+    "example": "The court upheld the decision.（法院維持了這項決定。）",
+    "id": "L6-uphold-my0gcap"
+  },
+  {
+    "level": "L6",
+    "word": "uranium",
+    "meaning": "鈾",
+    "example": "Uranium is used in nuclear energy.（鈾被用於核能。）",
+    "id": "L6-uranium-msvy"
+  },
+  {
+    "level": "L6",
+    "word": "urgency",
+    "meaning": "緊急；急事",
+    "example": "There is a sense of urgency in his voice.（他的聲音中有急迫感。）",
+    "id": "L6-urgency-m7skc12"
+  },
+  {
+    "level": "L6",
+    "word": "urine",
+    "meaning": "尿",
+    "example": "The doctor tested the patient’s urine.（醫生檢驗病人的尿液。）",
+    "id": "L6-urine-mi7z"
+  },
+  {
+    "level": "L6",
+    "word": "usher",
+    "meaning": "引座員 vt.vi.招待；迎接",
+    "example": "The usher showed us to our seats.（引座員帶我們到座位。）",
+    "id": "L6-usher-vt-vi"
+  },
+  {
+    "level": "L6",
+    "word": "utensil",
+    "meaning": "器皿；厨房用具",
+    "example": "A spoon is a useful kitchen utensil.（湯匙是有用的廚房用具。）",
+    "id": "L6-utensil-m1b2gq16"
+  },
+  {
+    "level": "L6",
+    "word": "utility",
+    "meaning": "效用；公用事業；(水、電、瓦斯類等的)公共設施 adj.實用的",
+    "example": "Monthly utility bills like water and electricity are skyrocketing.（每月的水電等公用事業帳單正在飛漲。",
+    "id": "L6-utility-adj"
+  },
+  {
+    "level": "L6",
+    "word": "utilize",
+    "meaning": "利用",
+    "example": "We should utilize our time wisely.（我們應該善用時間。）",
+    "id": "L6-utilize-mem8v"
+  },
+  {
+    "level": "L6",
+    "word": "utmost",
+    "meaning": "極度的 n.極度",
+    "example": "I will do my utmost to help.（我會盡最大努力幫忙。）",
+    "id": "L6-utmost-n"
+  },
+  {
+    "level": "L6",
+    "word": "vaccine",
+    "meaning": "疫苗的 n.疫苗",
+    "example": "The vaccine protects people from disease.（疫苗保護人們免於疾病。）",
+    "id": "L6-vaccine-n"
+  },
+  {
+    "level": "L6",
+    "word": "valiant",
+    "meaning": "英勇的 n.勇士",
+    "example": "The valiant soldier saved his friend.（勇敢的士兵救了朋友。）",
+    "id": "L6-valiant-n"
+  },
+  {
+    "level": "L6",
+    "word": "valid",
+    "meaning": "有根據的；有效的",
+    "example": "Your ticket is still valid.（你的票仍然有效。）",
+    "id": "L6-valid-m19dn4n8"
+  },
+  {
+    "level": "L6",
+    "word": "validity",
+    "meaning": "正當；有效性；合法性",
+    "example": "The validity of the data is important.（資料的有效性很重要。）",
+    "id": "L6-validity-m7qflb3"
+  },
+  {
+    "level": "L6",
+    "word": "vanilla",
+    "meaning": "香草 adj.香草的；普通的",
+    "example": "I like vanilla ice cream.（我喜歡香草冰淇淋。）",
+    "id": "L6-vanilla-adj"
+  },
+  {
+    "level": "L6",
+    "word": "variable",
+    "meaning": "多變的 n.可變因素",
+    "example": "Price is a variable in this study.（價格是這項研究中的變數。）",
+    "id": "L6-variable-n"
+  },
+  {
+    "level": "L6",
+    "word": "variation",
+    "meaning": "變動；差異",
+    "example": "There is a small variation in color.（顏色有些微差異。）",
+    "id": "L6-variation-m1nvjvhu"
+  },
+  {
+    "level": "L6",
+    "word": "vend",
+    "meaning": "出售",
+    "example": "The machine can vend cold drinks.（這台機器可以販賣冷飲。）",
+    "id": "L6-vend-meet0"
+  },
+  {
+    "level": "L6",
+    "word": "vendor",
+    "meaning": "小販；自動販賣機",
+    "example": "The street vendor sold noodles.（街頭攤販賣麵。）",
+    "id": "L6-vendor-mx1cttl"
+  },
+  {
+    "level": "L6",
+    "word": "verge",
+    "meaning": "邊緣 vi.vt.處在(…)邊緣",
+    "example": "The company was on the verge of success.（公司即將成功。）",
+    "id": "L6-verge-vi-vt"
+  },
+  {
+    "level": "L6",
+    "word": "versatile",
+    "meaning": "多才多藝的；多功能的",
+    "example": "This versatile tool has many uses.（這個多功能工具有很多用途。）",
+    "id": "L6-versatile-m1dag0op"
+  },
+  {
+    "level": "L6",
+    "word": "veteran",
+    "meaning": "老兵；老手 adj.經驗豐富的",
+    "example": "The veteran told stories about the war.（老兵講述戰爭故事。）",
+    "id": "L6-veteran-adj"
+  },
+  {
+    "level": "L6",
+    "word": "veterinarian/vet",
+    "meaning": "獸醫(vet)",
+    "example": "The vet examined my dog.（獸醫檢查了我的狗。）",
+    "id": "L6-veterinarian-vet-vet"
+  },
+  {
+    "level": "L6",
+    "word": "vibration",
+    "meaning": "顫動；共鳴",
+    "example": "The vibration of the phone woke me up.（手機震動把我吵醒。）",
+    "id": "L6-vibration-m1377l6c"
+  },
+  {
+    "level": "L6",
+    "word": "vice",
+    "meaning": "惡 adj.副的",
+    "example": "Greed is a common vice.（貪婪是常見惡習。）",
+    "id": "L6-vice-adj"
+  },
+  {
+    "level": "L6",
+    "word": "vicious",
+    "meaning": "邪惡的；惡性的",
+    "example": "The dog made a vicious attack.（那隻狗發動了兇猛攻擊。）",
+    "id": "L6-vicious-m1ualxsg"
+  },
+  {
+    "level": "L6",
+    "word": "victimize",
+    "meaning": "使受害；欺騙",
+    "example": "The scam victimized many elderly people.（詐騙使許多老人受害。）",
+    "id": "L6-victimize-mvror33"
+  },
+  {
+    "level": "L6",
+    "word": "victor",
+    "meaning": "勝利者",
+    "example": "The victor raised the trophy.（勝利者舉起獎盃。）",
+    "id": "L6-victor-mcjm3d"
+  },
+  {
+    "level": "L6",
+    "word": "victorious",
+    "meaning": "勝利的",
+    "example": "The team was victorious.（這支隊伍勝利了。）",
+    "id": "L6-victorious-mcjk7s"
+  },
+  {
+    "level": "L6",
+    "word": "villa",
+    "meaning": "別墅",
+    "example": "They stayed in a villa by the sea.（他們住在海邊別墅。）",
+    "id": "L6-villa-meghs"
+  },
+  {
+    "level": "L6",
+    "word": "vineyard",
+    "meaning": "葡萄園",
+    "example": "The vineyard produces red wine.（葡萄園生產紅酒。）",
+    "id": "L6-vineyard-mk0ypb"
+  },
+  {
+    "level": "L6",
+    "word": "virtual",
+    "meaning": "實際上的；虛擬的 visualize[`vɪʒʊə͵laɪz] vt.vi. 使視覺化；想像",
+    "example": "We had a virtual meeting.（我們開了一場線上會議。）",
+    "id": "L6-virtual-visualize-v-la-z-vt-vi"
+  },
+  {
+    "level": "L6",
+    "word": "visualize",
+    "meaning": "想像、使具象化",
+    "example": "Try to visualize your goal.（試著想像你的目標。）",
+    "id": "L6-visualize-mgislf6"
+  },
+  {
+    "level": "L6",
+    "word": "vitality",
+    "meaning": "活力；生命力",
+    "example": "She is full of vitality.（她充滿活力。）",
+    "id": "L6-vitality-msht0wy"
+  },
+  {
+    "level": "L6",
+    "word": "vocal",
+    "meaning": "聲音的；歌唱的",
+    "example": "The singer warmed up his vocal muscles.（歌手暖了嗓。）",
+    "id": "L6-vocal-m1v7xq93"
+  },
+  {
+    "level": "L6",
+    "word": "vocation",
+    "meaning": "行業；傾向",
+    "example": "Teaching is her vocation.（教書是她的志業。）",
+    "id": "L6-vocation-m1e1pfsd"
+  },
+  {
+    "level": "L6",
+    "word": "vocational",
+    "meaning": "職業的",
+    "example": "He attends a vocational school.（他就讀職業學校。）",
+    "id": "L6-vocational-mjbz3i"
+  },
+  {
+    "level": "L6",
+    "word": "vogue",
+    "meaning": "流行(物)",
+    "example": "Short hair is in vogue this year.（短髮今年很流行。）",
+    "id": "L6-vogue-mi790jh"
+  },
+  {
+    "level": "L6",
+    "word": "vomit",
+    "meaning": "嘔吐",
+    "example": "The smell made him vomit.（那個味道讓他嘔吐。）",
+    "id": "L6-vomit-mf3p8"
+  },
+  {
+    "level": "L6",
+    "word": "vulgar",
+    "meaning": "粗俗的；通俗的",
+    "example": "Do not use vulgar language.（不要使用粗俗語言。）",
+    "id": "L6-vulgar-m1v9r98w"
+  },
+  {
+    "level": "L6",
+    "word": "vulnerable",
+    "meaning": "易受傷的",
+    "example": "Children are vulnerable to disease.（孩子容易受到疾病影響。）",
+    "id": "L6-vulnerable-md85qz5"
+  },
+  {
+    "level": "L6",
+    "word": "wardrobe",
+    "meaning": "衣櫥",
+    "example": "She keeps her coats in the wardrobe.（她把外套放在衣櫃裡。）",
+    "id": "L6-wardrobe-mns9u"
+  },
+  {
+    "level": "L6",
+    "word": "warfare",
+    "meaning": "戰爭",
+    "example": "Modern warfare uses advanced technology.（現代戰爭使用先進科技。）",
+    "id": "L6-warfare-mhbst"
+  },
+  {
+    "level": "L6",
+    "word": "warranty",
+    "meaning": "保證書；擔保",
+    "example": "This phone comes with a one-year warranty.（這支手機有一年保固。）",
+    "id": "L6-warranty-mad1drs"
+  },
+  {
+    "level": "L6",
+    "word": "waterproof/watertight",
+    "meaning": "防水（防雨）的/不透水的（密封的）",
+    "example": "This jacket is waterproof.（這件外套防水。）",
+    "id": "L6-waterproof-watertight-m1edaizi"
+  },
+  {
+    "level": "L6",
+    "word": "whatsoever",
+    "meaning": "任何事物；無論甚麼(的)",
+    "example": "I have no doubt whatsoever.（我完全沒有疑問。）",
+    "id": "L6-whatsoever-mn28prn"
+  },
+  {
+    "level": "L6",
+    "word": "windshield",
+    "meaning": "擋風玻璃",
+    "example": "The windshield was covered with rain.（擋風玻璃被雨水覆蓋。）",
+    "id": "L6-windshield-mdcl4it"
+  },
+  {
+    "level": "L6",
+    "word": "withstand",
+    "meaning": "反抗；禁得起",
+    "example": "This bridge can withstand strong winds.（這座橋能承受強風。）",
+    "id": "L6-withstand-m1r0z6nk"
+  },
+  {
+    "level": "L6",
+    "word": "witty",
+    "meaning": "機智的；說話風趣的",
+    "example": "She gave a witty answer.（她給了一個機智的回答。）",
+    "id": "L6-witty-md8c3u8"
+  },
+  {
+    "level": "L6",
+    "word": "woo",
+    "meaning": "追求；求愛；爭取",
+    "example": "He tried to woo her with flowers.（他試著用花追求她。）",
+    "id": "L6-woo-m1c2y8k5"
+  },
+  {
+    "level": "L6",
+    "word": "wrench",
+    "meaning": "猛扭；扭傷",
+    "example": "Use a wrench to tighten the bolt.（用扳手鎖緊螺栓。）",
+    "id": "L6-wrench-m11c8dw3"
+  },
+  {
+    "level": "L6",
+    "word": "wrestle",
+    "meaning": "摔(角)；與…搏鬥",
+    "example": "The boys like to wrestle on the grass.（男孩們喜歡在草地上摔角。）",
+    "id": "L6-wrestle-m1ieehmt"
+  },
+  {
+    "level": "L6",
+    "word": "Xerox/xerox",
+    "meaning": "影印（品牌名引申為影印動詞）",
+    "example": "Please xerox this document for me.（請幫我影印這份文件。）",
+    "id": "L6-xerox-xerox-m9z9e3i"
+  },
+  {
+    "level": "L6",
+    "word": "yearn",
+    "meaning": "思念；渴望",
+    "example": "She yearns to travel around the world.（她渴望環遊世界。）",
+    "id": "L6-yearn-mxsvbre"
+  },
+  {
+    "level": "L6",
+    "word": "zeal",
+    "meaning": "熱心；熱誠",
+    "example": "He studied with great zeal.（他以極大的熱忱學習。）",
+    "id": "L6-zeal-mvh6ayg"
+  }
+]

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import xlsx from "xlsx";
-import { buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
+import { buildDisambiguatedVocabularyId, buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
@@ -35,7 +35,7 @@ const TRACK_DEFINITIONS = [
     sourceWorkbookKey: "level-5-level-6-workbook",
     workbookPattern: /L3L6\.xlsx$/i,
     sheets: ["Level 5", "Level 6"],
-    available: false
+    available: true
   }
 ];
 
@@ -80,7 +80,6 @@ function readVocabularyRows(workbookPath, sheetNames) {
       const level = sheetName.replace("Level ", "L");
 
       vocabulary.push({
-        id: buildStableVocabularyId(level, word, meaning),
         level,
         word,
         meaning,
@@ -89,7 +88,45 @@ function readVocabularyRows(workbookPath, sheetNames) {
     });
   }
 
-  return vocabulary;
+  const groups = new Map();
+
+  for (const entry of vocabulary) {
+    const groupKey = `${entry.level}\u0000${entry.word}\u0000${entry.meaning}`;
+    const group = groups.get(groupKey) ?? [];
+
+    group.push(entry);
+    groups.set(groupKey, group);
+  }
+
+  const normalizedVocabulary = [];
+
+  for (const group of groups.values()) {
+    const uniqueEntries = [];
+    const seenExactRows = new Set();
+
+    for (const entry of group) {
+      const exactKey = `${entry.level}\u0000${entry.word}\u0000${entry.meaning}\u0000${entry.example}`;
+
+      if (seenExactRows.has(exactKey)) {
+        continue;
+      }
+
+      seenExactRows.add(exactKey);
+      uniqueEntries.push(entry);
+    }
+
+    for (const entry of uniqueEntries) {
+      normalizedVocabulary.push({
+        ...entry,
+        id:
+          uniqueEntries.length === 1
+            ? buildStableVocabularyId(entry.level, entry.word, entry.meaning)
+            : buildDisambiguatedVocabularyId(entry.level, entry.word, entry.meaning, entry.example)
+      });
+    }
+  }
+
+  return normalizedVocabulary;
 }
 
 function chunkItems(items, chunkSize) {

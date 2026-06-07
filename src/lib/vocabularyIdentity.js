@@ -25,6 +25,13 @@ export function buildStableVocabularyId(level, word, meaning) {
   return `${level}-${wordSlug}-${meaningKey}`;
 }
 
+export function buildDisambiguatedVocabularyId(level, word, meaning, example) {
+  const baseId = buildStableVocabularyId(level, word, meaning);
+  const exampleKey = slugifyVocabularyPart(example, 18) || `e${hashVocabularyPart(example)}`;
+
+  return `${baseId}-${exampleKey}`;
+}
+
 export function buildLegacyVocabularyId(level, rowIndex, word) {
   const wordSlug = slugifyVocabularyPart(word) || "word";
 

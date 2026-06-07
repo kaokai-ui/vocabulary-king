@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T11:08:40.178Z",
+  "generatedAt": "2026-06-07T00:31:53.729Z",
   "tracks": {
     "junior-high": {
       "id": "junior-high",
@@ -31,7 +31,7 @@
       "available": true,
       "title": "Senior High (L3-4)",
       "sourceWorkbookKey": "level-3-level-4-workbook",
-      "totalWords": 2143,
+      "totalWords": 2141,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -47,18 +47,34 @@
         {
           "id": "senior-high-chunk-3",
           "path": "data/tracks/senior-high/chunk-003.json",
-          "wordCount": 143
+          "wordCount": 141
         }
       ]
     },
     "senior-high-5-6": {
       "id": "senior-high-5-6",
-      "available": false,
+      "available": true,
       "title": "Senior High (L5-6)",
       "sourceWorkbookKey": "level-5-level-6-workbook",
-      "totalWords": 0,
+      "totalWords": 2154,
       "chunkSize": 1000,
-      "chunkFiles": []
+      "chunkFiles": [
+        {
+          "id": "senior-high-5-6-chunk-1",
+          "path": "data/tracks/senior-high-5-6/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "senior-high-5-6-chunk-2",
+          "path": "data/tracks/senior-high-5-6/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "senior-high-5-6-chunk-3",
+          "path": "data/tracks/senior-high-5-6/chunk-003.json",
+          "wordCount": 154
+        }
+      ]
     },
     "toeic": {
       "id": "toeic",

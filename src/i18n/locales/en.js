@@ -57,7 +57,7 @@ export const enMessages = {
   language: "Language",
   vocabularyTrack: "Vocabulary Track",
   vocabularyTrackCurrent: "Vocabulary track",
-  vocabularyTrackHint: "Junior High and Senior High (L3-4) are available now. Senior High (L5-6) and other tracks stay disabled for now.",
+  vocabularyTrackHint: "Junior High, Senior High (L3-4), and Senior High (L5-6) are available now. Other tracks stay disabled for now.",
   vocabularyTrackLocked: "Coming soon",
   vocabularyTrackJuniorHigh: "Junior High",
   vocabularyTrackSeniorHigh: "Senior High (L3-4)",

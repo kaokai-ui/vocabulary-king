@@ -44,7 +44,7 @@
 
 .hero-stats {
   width: 100%;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.1fr) repeat(3, minmax(0, 0.9667fr));
   align-items: stretch;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .home-grid {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(60, minmax(0, 1fr));
   margin-top: 18px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .feature-card {
-  grid-column: span 4;
+  grid-column: span 20;
 }
 
 .feature-card--flashcard {
@@ -106,9 +106,15 @@
 }
 
 .feature-card--quiz {
+  grid-column: span 18;
   background:
     linear-gradient(140deg, rgba(42, 157, 143, 0.28), rgba(69, 123, 157, 0.14)),
     var(--panel);
+}
+
+.feature-card--flashcard,
+.feature-card--flashcard-alt {
+  grid-column: span 21;
 }
 
 .feature-card--word-list {
