@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { messages } from "./i18n/messages";
 import { useVocabularyApp } from "./hooks/useVocabularyApp";
 import { trackScreenView } from "./lib/analytics";
+import { warmSpeechVoices } from "./lib/speech";
 import { useVocabularyData } from "./hooks/useVocabularyData";
 import { readStoredSettings } from "./lib/storage";
 import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
@@ -36,6 +37,10 @@ function App() {
       window.scrollTo(0, 0);
     }
   }, [activeScreenKey]);
+
+  useEffect(() => {
+    warmSpeechVoices();
+  }, []);
 
   if (vocabularyError) {
     return (

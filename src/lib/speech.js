@@ -60,6 +60,20 @@ function waitForVoices(synth, timeoutMs = 1200) {
   });
 }
 
+let voicesWarmupPromise = null;
+
+export function warmSpeechVoices() {
+  if (!isSpeechSynthesisSupported()) {
+    return Promise.resolve([]);
+  }
+
+  if (!voicesWarmupPromise) {
+    voicesWarmupPromise = waitForVoices(window.speechSynthesis).catch(() => []);
+  }
+
+  return voicesWarmupPromise;
+}
+
 export async function speakWord(text) {
   if (!text || !isSpeechSynthesisSupported()) {
     return {
@@ -71,7 +85,7 @@ export async function speakWord(text) {
   try {
     const synth = window.speechSynthesis;
     const utterance = new window.SpeechSynthesisUtterance(text);
-    const voices = await waitForVoices(synth);
+    const voices = await warmSpeechVoices();
     const voice = pickEnglishVoice(voices);
 
     utterance.lang = voice?.lang ?? "en-US";
