@@ -44,7 +44,7 @@
 
 .hero-stats {
   width: 100%;
-  grid-template-columns: minmax(0, 1.1fr) repeat(3, minmax(0, 0.9667fr));
+  grid-template-columns: minmax(0, 1.15fr) repeat(3, minmax(0, 0.95fr));
   align-items: stretch;
 }
 
