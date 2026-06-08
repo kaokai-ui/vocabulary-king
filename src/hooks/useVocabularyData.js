@@ -3,6 +3,19 @@ import { useEffect, useState } from "react";
 let cachedCatalog = null;
 const cachedVocabularyByTrack = new Map();
 
+async function fetchJson(url, signal) {
+  const response = await fetch(url, {
+    signal,
+    cache: "no-store"
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  return response.json();
+}
+
 export function useVocabularyData(trackId) {
   const [vocabulary, setVocabulary] = useState([]);
   const [catalog, setCatalog] = useState(null);
@@ -32,19 +45,18 @@ export function useVocabularyData(trackId) {
 
         setVocabulary([]);
 
-        if (!cachedCatalog) {
-          const catalogResponse = await fetch(`${import.meta.env.BASE_URL}data/catalog.json`, {
-            signal: abortController.signal
-          });
+        const catalogUrl = `${import.meta.env.BASE_URL}data/catalog.json`;
 
-          if (!catalogResponse.ok) {
-            throw new Error(`HTTP ${catalogResponse.status}`);
+        async function loadCatalog(forceRefresh = false) {
+          if (!forceRefresh && cachedCatalog) {
+            return cachedCatalog;
           }
 
-          cachedCatalog = await catalogResponse.json();
+          cachedCatalog = await fetchJson(catalogUrl, abortController.signal);
+          return cachedCatalog;
         }
 
-        const nextCatalog = cachedCatalog;
+        let nextCatalog = await loadCatalog();
 
         if (isCancelled) {
           return;
@@ -52,7 +64,20 @@ export function useVocabularyData(trackId) {
 
         setCatalog(nextCatalog);
 
-        const track = nextCatalog.tracks?.[trackId];
+        let track = nextCatalog.tracks?.[trackId];
+
+        // A fresh JS bundle can coexist briefly with a stale cached catalog on GitHub Pages.
+        // Retry once with a forced re-fetch so newly deployed tracks become selectable immediately.
+        if (!track || !track.available) {
+          nextCatalog = await loadCatalog(true);
+
+          if (isCancelled) {
+            return;
+          }
+
+          setCatalog(nextCatalog);
+          track = nextCatalog.tracks?.[trackId];
+        }
 
         if (!track || !track.available) {
           throw new Error(`Track is unavailable: ${trackId}`);
@@ -60,15 +85,7 @@ export function useVocabularyData(trackId) {
 
         const chunkPayloads = await Promise.all(
           track.chunkFiles.map(async (chunkFile) => {
-            const chunkResponse = await fetch(`${import.meta.env.BASE_URL}${chunkFile.path}`, {
-              signal: abortController.signal
-            });
-
-            if (!chunkResponse.ok) {
-              throw new Error(`Failed to load chunk: ${chunkFile.path}`);
-            }
-
-            return chunkResponse.json();
+            return fetchJson(`${import.meta.env.BASE_URL}${chunkFile.path}`, abortController.signal);
           })
         );
 
