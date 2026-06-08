@@ -64,10 +64,10 @@ export const screenAnalytics = {
   }
 };
 
-function getActiveVocabularyTrackLabel(context) {
+function getVocabularyTrackLabel(context, trackId = context.settings.vocabularyTrack) {
   return (
-    context.text[vocabularyTracks.find((track) => track.value === context.settings.vocabularyTrack)?.labelKey] ??
-    context.settings.vocabularyTrack
+    context.text[vocabularyTracks.find((track) => track.value === trackId)?.labelKey] ??
+    trackId
   );
 }
 
@@ -76,11 +76,15 @@ export const screenRegistry = {
     <FlashcardScreen
       text={context.text}
       flashcard={context.currentFlashcard}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={
+        context.session.flashcards?.mode === "starred" && context.currentFlashcard?.sourceTrackId
+          ? getVocabularyTrackLabel(context, context.currentFlashcard.sourceTrackId)
+          : getVocabularyTrackLabel(context)
+      }
       mode={context.session.flashcards?.mode}
       currentIndex={context.session.flashcards?.currentIndex ?? 0}
       totalCount={context.currentFlashcards.length}
-      isStarred={Boolean(context.currentFlashcard && context.progress.starredWordIds.includes(context.currentFlashcard.id))}
+      isStarred={Boolean(context.currentFlashcard && context.starredWords.some((word) => word.id === context.currentFlashcard.id))}
       isKnown={Boolean(context.currentFlashcard && (context.progress.knownWordIds ?? []).includes(context.currentFlashcard.id))}
       showMeaning={Boolean(context.session.flashcards?.showMeaning)}
       showExample={Boolean(context.session.flashcards?.showExample)}
@@ -89,7 +93,13 @@ export const screenRegistry = {
       onPronounce={context.actions.pronounce}
       onToggleMeaning={() => context.dispatch({ type: actionTypes.toggleFlashcardPanel, payload: "showMeaning" })}
       onToggleExample={() => context.dispatch({ type: actionTypes.toggleFlashcardPanel, payload: "showExample" })}
-      onToggleStarred={() => context.currentFlashcard && context.actions.toggleStarredWord(context.currentFlashcard.id)}
+      onToggleStarred={() =>
+        context.currentFlashcard &&
+        context.actions.toggleStarredWord(
+          context.currentFlashcard,
+          context.currentFlashcard.sourceTrackId ?? context.settings.vocabularyTrack
+        )
+      }
       onToggleKnown={() => context.currentFlashcard && context.actions.toggleKnownWord(context.currentFlashcard.id)}
       onNext={context.actions.advanceFlashcard}
     />
@@ -118,7 +128,7 @@ export const screenRegistry = {
     <QuizScreen
       text={context.text}
       question={context.currentQuestion}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       currentIndex={context.session.quiz?.currentIndex ?? 0}
       totalQuestions={context.session.quiz?.questions.length ?? 0}
       correctCount={context.session.quiz?.correctCount ?? 0}
@@ -135,7 +145,7 @@ export const screenRegistry = {
     <QuizResultScreen
       text={context.text}
       quiz={context.session.quiz}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       wrongWordIds={[
         ...new Set(
           (context.session.quiz?.answers ?? [])
@@ -145,7 +155,7 @@ export const screenRegistry = {
         )
       ]}
       savedWrongWordCount={(context.session.quiz?.answers ?? []).filter(
-        (answer) => !answer.isCorrect && context.progress.starredWordIds.includes(answer.wordId)
+        (answer) => !answer.isCorrect && context.starredWords.some((word) => word.id === answer.wordId)
       ).length}
       onSaveWrongWords={context.actions.addStarredWords}
       onHome={context.actions.goHome}
@@ -155,19 +165,21 @@ export const screenRegistry = {
   wordList: (context) => (
     <WordListScreen
       text={context.text}
-      words={context.starredWords}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      words={context.starredWords.map((word) => ({
+        ...word,
+        displayTrackLabel: word.sourceTrackId ? getVocabularyTrackLabel(context, word.sourceTrackId) : word.level
+      }))}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
-      onRemoveWord={context.actions.toggleStarredWord}
+      onRemoveWord={(word) => context.actions.toggleStarredWord(word, word.sourceTrackId ?? context.settings.vocabularyTrack)}
     />
   ),
   knownWords: (context) => (
     <KnownWordListScreen
       text={context.text}
       words={context.knownWords}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
@@ -200,10 +212,10 @@ export const screenRegistry = {
       text={context.text}
       locale={context.settings.locale}
       messages={context.messages}
-      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       vocabularyCount={context.vocabulary.length}
       masteredCount={context.stats.masteredCount}
-      starredCount={context.progress.starredWordIds.length}
+      starredCount={context.starredWords.length}
       knownCount={(context.progress.knownWordIds ?? []).length}
       progressRate={context.stats.progressRate}
       hasSavedSession={context.hasSavedSession}

@@ -17,6 +17,7 @@ export const defaultSettings = {
 };
 
 export const defaultProgress = {
+  savedWords: [],
   byTrack: {}
 };
 

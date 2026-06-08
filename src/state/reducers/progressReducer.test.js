@@ -4,6 +4,7 @@ import { progressReducer } from "./progressReducer";
 
 describe("progressReducer", () => {
   const initialState = {
+    savedWords: [],
     byTrack: {}
   };
 
@@ -11,37 +12,86 @@ describe("progressReducer", () => {
     return progressReducer(state, action, trackId);
   }
 
-  it("toggles starred words within the active track only", () => {
+  it("toggles starred words within the active track and keeps a global saved-word list", () => {
     const added = reduce(initialState, {
       type: actionTypes.toggleStarredWord,
-      payload: "word-1",
+      payload: {
+        id: "word-1",
+        word: "apple",
+        meaning: "fruit",
+        example: "",
+        level: "L1",
+        sourceTrackId: "junior-high"
+      },
       meta: { trackId: "junior-high" }
     });
 
     const otherTrack = reduce(added, {
       type: actionTypes.toggleStarredWord,
-      payload: "word-2",
+      payload: {
+        id: "word-2",
+        word: "book",
+        meaning: "reading",
+        example: "",
+        level: "L3",
+        sourceTrackId: "senior-high"
+      },
       meta: { trackId: "senior-high" }
     });
 
     expect(otherTrack.byTrack["junior-high"].starredWordIds).toEqual(["word-1"]);
     expect(otherTrack.byTrack["senior-high"].starredWordIds).toEqual(["word-2"]);
+    expect(otherTrack.savedWords.map((word) => word.id)).toEqual(["word-1", "word-2"]);
   });
 
   it("adds multiple wrong-answer words to the word list without duplicates", () => {
     const seededState = reduce(initialState, {
       type: actionTypes.toggleStarredWord,
-      payload: "word-1",
+      payload: {
+        id: "word-1",
+        word: "apple",
+        meaning: "fruit",
+        example: "",
+        level: "L1",
+        sourceTrackId: "junior-high"
+      },
       meta: { trackId: "junior-high" }
     });
 
     const nextState = reduce(seededState, {
       type: actionTypes.addStarredWords,
-      payload: ["word-1", "word-2", "word-2", null],
+      payload: [
+        {
+          id: "word-1",
+          word: "apple",
+          meaning: "fruit",
+          example: "",
+          level: "L1",
+          sourceTrackId: "junior-high"
+        },
+        {
+          id: "word-2",
+          word: "book",
+          meaning: "reading",
+          example: "",
+          level: "L1",
+          sourceTrackId: "junior-high"
+        },
+        {
+          id: "word-2",
+          word: "book",
+          meaning: "reading",
+          example: "",
+          level: "L1",
+          sourceTrackId: "junior-high"
+        },
+        null
+      ],
       meta: { trackId: "junior-high" }
     });
 
     expect(nextState.byTrack["junior-high"].starredWordIds).toEqual(["word-1", "word-2"]);
+    expect(nextState.savedWords.map((word) => word.id)).toEqual(["word-1", "word-2"]);
   });
 
   it("hydrates persisted progress", () => {
@@ -49,6 +99,16 @@ describe("progressReducer", () => {
       type: actionTypes.hydratePersistence,
       payload: {
         progress: {
+          savedWords: [
+            {
+              id: "saved-word",
+              word: "apple",
+              meaning: "fruit",
+              example: "",
+              level: "L1",
+              sourceTrackId: "junior-high"
+            }
+          ],
           byTrack: {
             "junior-high": {
               starredWordIds: ["saved-word"],
@@ -69,8 +129,48 @@ describe("progressReducer", () => {
     });
 
     expect(nextState.byTrack["junior-high"].starredWordIds).toEqual(["saved-word"]);
+    expect(nextState.savedWords).toHaveLength(1);
     expect(nextState.byTrack["junior-high"].knownWordIds).toEqual(["known-word"]);
     expect(nextState.byTrack["junior-high"].wordStats["saved-word"].seenCount).toBe(3);
+  });
+
+  it("removes a saved word globally only when the user removes it", () => {
+    const seededState = {
+      savedWords: [
+        {
+          id: "word-1",
+          word: "apple",
+          meaning: "fruit",
+          example: "",
+          level: "L1",
+          sourceTrackId: "junior-high"
+        }
+      ],
+      byTrack: {
+        "junior-high": {
+          starredWordIds: ["word-1"],
+          knownWordIds: [],
+          wordStats: {},
+          quizHistory: []
+        },
+        "senior-high": {
+          starredWordIds: ["word-1"],
+          knownWordIds: [],
+          wordStats: {},
+          quizHistory: []
+        }
+      }
+    };
+
+    const nextState = reduce(seededState, {
+      type: actionTypes.toggleStarredWord,
+      payload: "word-1",
+      meta: { trackId: "junior-high" }
+    });
+
+    expect(nextState.savedWords).toEqual([]);
+    expect(nextState.byTrack["junior-high"].starredWordIds).toEqual([]);
+    expect(nextState.byTrack["senior-high"].starredWordIds).toEqual([]);
   });
 
   it("toggles known words", () => {

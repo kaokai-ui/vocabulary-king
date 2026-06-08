@@ -8,8 +8,24 @@ export const defaultTrackProgress = {
 };
 
 export const defaultProgressState = {
+  savedWords: [],
   byTrack: {}
 };
+
+function cloneSavedWord(savedWord = {}) {
+  return {
+    id: savedWord.id ?? "",
+    word: savedWord.word ?? "",
+    meaning: savedWord.meaning ?? "",
+    example: savedWord.example ?? "",
+    level: savedWord.level ?? "",
+    sourceTrackId: savedWord.sourceTrackId ?? null
+  };
+}
+
+export function cloneSavedWords(savedWords = []) {
+  return savedWords.map((savedWord) => cloneSavedWord(savedWord)).filter((savedWord) => savedWord.id);
+}
 
 function cloneTrackProgress(trackProgress = {}) {
   return {
@@ -36,6 +52,7 @@ export function getTrackProgress(progress, trackId) {
 
 export function setTrackProgress(progress, trackId, trackProgress) {
   return {
+    ...(progress?.savedWords ? { savedWords: cloneSavedWords(progress.savedWords) } : {}),
     byTrack: {
       ...(progress?.byTrack ?? {}),
       [trackId]: {

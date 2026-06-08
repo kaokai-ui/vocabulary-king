@@ -22,16 +22,28 @@ export function useVocabularyApp(vocabulary) {
   const { settings, progress, session, now, pronunciationMessage } = state;
   const activeTrackId = settings.vocabularyTrack;
   const activeProgress = useMemo(() => getTrackProgress(progress, activeTrackId), [progress, activeTrackId]);
+  const savedWords = useMemo(() => progress.savedWords ?? [], [progress.savedWords]);
   const text = messages[settings.locale] ?? messages.en;
 
   const vocabularyById = useMemo(
     () => Object.fromEntries(vocabulary.map((word) => [word.id, word])),
     [vocabulary]
   );
+  const savedWordById = useMemo(
+    () => Object.fromEntries(savedWords.map((word) => [word.id, word])),
+    [savedWords]
+  );
+  const flashcardWordById = useMemo(
+    () => ({
+      ...savedWordById,
+      ...vocabularyById
+    }),
+    [savedWordById, vocabularyById]
+  );
 
   const currentFlashcards = useMemo(
-    () => session.flashcards?.wordIds?.map((wordId) => vocabularyById[wordId]).filter(Boolean) ?? [],
-    [session.flashcards?.wordIds, vocabularyById]
+    () => session.flashcards?.wordIds?.map((wordId) => flashcardWordById[wordId]).filter(Boolean) ?? [],
+    [session.flashcards?.wordIds, flashcardWordById]
   );
 
   const currentFlashcard =
@@ -41,7 +53,7 @@ export function useVocabularyApp(vocabulary) {
 
   const stats = useMemo(() => countProgress(activeProgress, vocabulary, isMasteredWord), [activeProgress, vocabulary]);
   const hasSavedSession = session.screen === "home" && Boolean(session.flashcards || session.quiz);
-  const starredWords = activeProgress.starredWordIds.map((wordId) => vocabularyById[wordId]).filter(Boolean);
+  const starredWords = savedWords;
   const knownWords = (activeProgress.knownWordIds ?? []).map((wordId) => vocabularyById[wordId]).filter(Boolean);
 
   const { currentQuestion, timeLeftSeconds, startQuiz, handleQuizAnswer } = useQuizSession({
@@ -118,6 +130,33 @@ export function useVocabularyApp(vocabulary) {
   }, [activeProgress, activeTrackId, isPersistenceReady, progress.byTrack, vocabulary]);
 
   useEffect(() => {
+    if (!isPersistenceReady || vocabulary.length === 0 || activeProgress.starredWordIds.length === 0) {
+      return;
+    }
+
+    const missingSavedWords = activeProgress.starredWordIds
+      .filter((wordId) => !savedWordById[wordId])
+      .map((wordId) => vocabularyById[wordId])
+      .filter(Boolean)
+      .map((word) => ({
+        ...word,
+        sourceTrackId: activeTrackId
+      }));
+
+    if (missingSavedWords.length === 0) {
+      return;
+    }
+
+    dispatch({
+      type: actionTypes.addStarredWords,
+      payload: missingSavedWords,
+      meta: {
+        trackId: activeTrackId
+      }
+    });
+  }, [activeProgress.starredWordIds, activeTrackId, dispatch, isPersistenceReady, savedWordById, vocabulary, vocabularyById]);
+
+  useEffect(() => {
     if (!currentFlashcard || session.screen !== "flashcards") {
       return;
     }
@@ -172,22 +211,34 @@ export function useVocabularyApp(vocabulary) {
     });
   }
 
-  function toggleStarredWord(wordId) {
+  function toggleStarredWord(wordOrId, trackIdOverride = activeTrackId) {
     dispatch({
       type: actionTypes.toggleStarredWord,
-      payload: wordId,
+      payload:
+        typeof wordOrId === "string"
+          ? wordOrId
+          : {
+              ...wordOrId,
+              sourceTrackId: wordOrId?.sourceTrackId ?? trackIdOverride
+            },
       meta: {
-        trackId: activeTrackId
+        trackId: trackIdOverride
       }
     });
   }
 
-  function addStarredWords(wordIds) {
+  function addStarredWords(wordsOrIds, trackIdOverride = activeTrackId) {
     dispatch({
       type: actionTypes.addStarredWords,
-      payload: wordIds,
+      payload: (Array.isArray(wordsOrIds) ? wordsOrIds : [])
+        .map((wordOrId) => (typeof wordOrId === "string" ? vocabularyById[wordOrId] : wordOrId))
+        .filter(Boolean)
+        .map((word) => ({
+          ...word,
+          sourceTrackId: word.sourceTrackId ?? trackIdOverride
+        })),
       meta: {
-        trackId: activeTrackId
+        trackId: trackIdOverride
       }
     });
   }
@@ -219,7 +270,7 @@ export function useVocabularyApp(vocabulary) {
   }
 
   function startFlashcards(mode) {
-    const deck = createPracticeDeck(mode, activeProgress, vocabulary);
+    const deck = mode === "starred" ? savedWords : createPracticeDeck(mode, activeProgress, vocabulary);
 
     dispatch({
       type: actionTypes.startFlashcards,
