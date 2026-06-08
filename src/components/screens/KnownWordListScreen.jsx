@@ -1,7 +1,15 @@
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
 
-export default function KnownWordListScreen({ text, words, pronunciationMessage, onHome, onPronounce, onRemoveWord }) {
+export default function KnownWordListScreen({
+  text,
+  words,
+  vocabularyTrackLabel,
+  pronunciationMessage,
+  onHome,
+  onPronounce,
+  onRemoveWord
+}) {
   return (
     <main className="stage-shell">
       <StageHeader text={text} title={text.knownWords} subtitle={text.knownWordsExplanation} onHome={onHome} />
@@ -18,7 +26,7 @@ export default function KnownWordListScreen({ text, words, pronunciationMessage,
                     <h2>{word.word}</h2>
                     <SpeakerButton className="speaker-button--inline" onClick={() => onPronounce(word.word)} />
                   </div>
-                  <span className="pill">{word.level}</span>
+                  <span className="pill">{vocabularyTrackLabel ?? word.level}</span>
                 </div>
                 <p className="word-row__meaning">{word.meaning}</p>
                 {word.example ? (

@@ -1,0 +1,254 @@
+[
+  {
+    "level": "L1",
+    "word": "will",
+    "meaning": "aux / n. 將；將要；意志",
+    "example": "The executive board will release the finalized annual financial statement tomorrow afternoon. (執行董事會將於明天下午發布最終的年度財務報表。)",
+    "id": "L1-will-aux-n"
+  },
+  {
+    "level": "TOEIC",
+    "word": "willingness",
+    "meaning": "n. 自願；樂意",
+    "example": "Remote employees demonstrated a strong willingness to adapt to new collaboration tools. (遠距員工展現了適應新協作工具的強烈意願。)",
+    "id": "TOEIC-willingness-n"
+  },
+  {
+    "level": "L2",
+    "word": "wire",
+    "meaning": "n / v. 電纜；電線；發電報；裝電線",
+    "example": "The technician replaced the faulty copper wire inside the main printing press machine. (技術人員更換了主印刷機內故障的銅線。)",
+    "id": "L2-wire-n-v"
+  },
+  {
+    "level": "L4",
+    "word": "withdraw",
+    "meaning": "v. 抽回；拉開；移開",
+    "example": "Investors can withdraw their capital from the investment fund after a six-month period. (六個月後，投資者可以從投資基金提取資金。)",
+    "id": "L4-withdraw-v"
+  },
+  {
+    "level": "中高級",
+    "word": "withdrawal",
+    "meaning": "n. 收回；撤回提款",
+    "example": "The sudden massive fund withdrawal caused a temporary liquidity issue for the small bank. (突如其來的巨額資金提取，導致這家小銀行出現了暫時的流動性問題。)",
+    "id": "中高級-withdrawal-n"
+  },
+  {
+    "level": "L2",
+    "word": "within",
+    "meaning": "prep / ad. 在……範圍內；不超過；在裡面；在內部",
+    "example": "All project phases must be successfully completed within the designated calendar timeline. (所有專案階段必須在指定的日曆時間表內成功完成。)",
+    "id": "L2-within-prep-ad"
+  },
+  {
+    "level": "L6",
+    "word": "withstand",
+    "meaning": "v. 抵擋；反抗",
+    "example": "The new prototype casing is designed to withstand extreme high temperature environments. (新的原型外殼旨在承受極端高溫環境。)",
+    "id": "L6-withstand-v"
+  },
+  {
+    "level": "L4",
+    "word": "witness",
+    "meaning": "n. 目擊者；見證人",
+    "example": "The security guard was called to witness the formal signing of the confidential contract. (保全被叫去見證保密合約的正式簽署。)",
+    "id": "L4-witness-n"
+  },
+  {
+    "level": "TOEIC",
+    "word": "woeful",
+    "meaning": "a. 悲哀的，悲傷的",
+    "example": "The underperforming startup reported a woeful financial performance for the fiscal quarter. (這家表現不佳的新創公司公佈了本財季的財務表現。)",
+    "id": "TOEIC-woeful-a"
+  },
+  {
+    "level": "L2",
+    "word": "wonder",
+    "meaning": "v / n. 納悶；想知道；驚奇；驚異",
+    "example": "Investors wonder if the current technology market bubble will burst anytime soon. (投資人想知道當前的科技市場泡沫是否會很快破裂。)",
+    "id": "L2-wonder-v-n"
+  },
+  {
+    "level": "TOEIC",
+    "word": "woo",
+    "meaning": "v. 向……求愛；吸引",
+    "example": "To woo international investors, the city government streamlined its approval process and offered tax incentives (為了吸引國際投資者，市政府簡化了審核流程並提供稅收優惠)",
+    "id": "TOEIC-woo-v"
+  },
+  {
+    "level": "L1",
+    "word": "work",
+    "meaning": "v / n. 工作；勞動；成果；產品",
+    "example": "The human resources department works hard to maintain a healthy work environment for staff. (人力資源部努力為員工維持健康的工作環境。)",
+    "id": "L1-work-v-n"
+  },
+  {
+    "level": "TOEIC",
+    "word": "workaholic",
+    "meaning": "n. 工作狂；專心工作的人",
+    "example": "The senior manager is a self-proclaimed workaholic who frequently handles projects overnight. (這位高級經理自稱是個工作狂，經常通宵處理專案。)",
+    "id": "TOEIC-workaholic-n"
+  },
+  {
+    "level": "L5",
+    "word": "workshop",
+    "meaning": "n. 工作坊",
+    "example": "The HR department will organize a team-building workshop for all new interns tomorrow. (人力資源部明天將為所有新實習生舉辦團隊建立研討會。)",
+    "id": "L5-workshop-n"
+  },
+  {
+    "level": "L1",
+    "word": "world",
+    "meaning": "n. 世界；地球",
+    "example": "The multinational corporation has established a strong brand presence in the business world. (這家跨國公司在商界建立了強大的品牌影響力。)",
+    "id": "L1-world-n"
+  },
+  {
+    "level": "中級",
+    "word": "worldwide",
+    "meaning": "a. 世界範圍的；遍及全球的",
+    "example": "The retail giant launched a aggressive worldwide advertising campaign for its new product. (這家零售巨頭為其新產品發起了一場積極的全球廣告活動。)",
+    "id": "中級-worldwide-a"
+  },
+  {
+    "level": "L1",
+    "word": "worry",
+    "meaning": "v. 擔心；擔憂",
+    "example": "Entrepreneurs should not worry about short-term market fluctuations if fundamentals are strong. (如果基本面強勁，創業家就不必擔心短期市場波動。)",
+    "id": "L1-worry-v"
+  },
+  {
+    "level": "初級",
+    "word": "would",
+    "meaning": "aux. 將；要",
+    "example": "The CFO stated that upgrading the database infrastructure would boost operational efficiency. (CFO表示，升級資料庫基礎設施將提高營運效率。)",
+    "id": "初級-would-aux"
+  },
+  {
+    "level": "L3",
+    "word": "wrist",
+    "meaning": "n. 腕；腕關節",
+    "example": "The ergonomic keyboard layout helps reduce wrist strain for data entry professionals. (符合人體工學的鍵盤佈局有助於減輕資料輸入專業人員的手腕疲勞。)",
+    "id": "L3-wrist-n"
+  },
+  {
+    "level": "L3",
+    "word": "X-ray",
+    "meaning": "n / v. X射線",
+    "example": "The corporate clinic technician took an X-ray of the worker's injured arm after the accident. (事故發生後，公司診所技術人員對工人受傷的手臂進行了X光檢查。)",
+    "id": "L3-x-ray-n-v-x"
+  },
+  {
+    "level": "L5",
+    "word": "yacht",
+    "meaning": "n. 快艇；遊艇",
+    "example": "The billionaire investor entertained prominent business partners on his private luxury yacht. (這位億萬富翁投資者在他的私人豪華遊艇上招待了著名的商業夥伴。)",
+    "id": "L5-yacht-n"
+  },
+  {
+    "level": "L2",
+    "word": "yard",
+    "meaning": "n. 庭院；後院",
+    "example": "The distribution center features a spacious storage yard for inbound container trucks. (配送中心設有寬敞的堆場，可供入境貨櫃卡車使用。)",
+    "id": "L2-yard-n"
+  },
+  {
+    "level": "L3",
+    "word": "yawn",
+    "meaning": "n / v. 呵欠；打呵欠",
+    "example": "An employee might yawn during a long briefing if the conference room lacks proper ventilation. (如果會議室缺乏適當的通風，員工可能會在長時間的簡報中打哈欠。)",
+    "id": "L3-yawn-n-v"
+  },
+  {
+    "level": "TOEIC",
+    "word": "year-end",
+    "meaning": "n / a. 年終；年終的",
+    "example": "The accountant compiled a comprehensive year-end report for the final board meeting. (會計師為最後一次董事會會議編寫了一份全面的年終報告。)",
+    "id": "TOEIC-year-end-n-a"
+  },
+  {
+    "level": "L4",
+    "word": "yearly",
+    "meaning": "a / ad. 每年的；一年一次的；每年；一年一度",
+    "example": "The company tracks its net retail revenue growth on a yearly basis to measure stability. (該公司每年追蹤其淨零售營收成長以衡量穩定性。)",
+    "id": "L4-yearly-a-ad"
+  },
+  {
+    "level": "L6",
+    "word": "yearn",
+    "meaning": "v. 思念；渴望",
+    "example": "Ambitious young professionals often yearn for leadership opportunities within the firm. (雄心勃勃的年輕專業人士往往渴望在公司內獲得領導機會。)",
+    "id": "L6-yearn-v"
+  },
+  {
+    "level": "TOEIC",
+    "word": "yearningly",
+    "meaning": "ad. 思念地；渴望地",
+    "example": "The intern looked yearningly at the corporate award, hoping to win it next year. (實習生滿懷憧憬地看著公司頒發的獎項，希望明年也能獲獎。)",
+    "id": "TOEIC-yearningly-ad"
+  },
+  {
+    "level": "L5",
+    "word": "yield",
+    "meaning": "v / n. 出產；產生；產量；收穫量",
+    "example": "Long-term investments in semiconductor infrastructure can yield exceptionally high returns. (對半導體基礎設施的長期投資可以產生異常高的回報。)",
+    "id": "L5-yield-v-n"
+  },
+  {
+    "level": "L3",
+    "word": "youngster",
+    "meaning": "n. 小孩；年輕人",
+    "example": "The tech firm launched a gaming application designed to appeal to the modern youngster. (這家科技公司推出了一款遊戲應用程式，旨在吸引現代年輕人。)",
+    "id": "L3-youngster-n"
+  },
+  {
+    "level": "L2",
+    "word": "youth",
+    "meaning": "n. 青少年時期；青年；小伙子",
+    "example": "The startup incubator focuses on supporting the creative youth population in the city. (該創業育成中心致力於支持該市的創意青年群體。)",
+    "id": "L2-youth-n"
+  },
+  {
+    "level": "L4",
+    "word": "youthful",
+    "meaning": "a. 年輕的；青年的",
+    "example": "The new CEO brought a youthful energy and innovative perspective to the traditional firm. (新任執行長為這家傳統公司帶來了年輕的活力和創新的視角。)",
+    "id": "L4-youthful-a"
+  },
+  {
+    "level": "L5",
+    "word": "zip",
+    "meaning": "v / n. 給以速度（或力量）；使增加興趣；拉鍊",
+    "example": "Please remember to input the correct zip code on the outbound shipping label document. (請記得在出境運輸標籤文件上輸入正確的郵遞區號。)",
+    "id": "L5-zip-v-n"
+  },
+  {
+    "level": "L3",
+    "word": "zone",
+    "meaning": "n. 地帶；地區",
+    "example": "The government established a new industrial zone to attract foreign technology investments. (政府建立了一個新的工業區以吸引外國技術投資。)",
+    "id": "L3-zone-n"
+  },
+  {
+    "level": "L5",
+    "word": "zoom",
+    "meaning": "v. 發出嗡嗡聲；使急遽上升",
+    "example": "The camera features an automated zoom function to monitor the factory floor clearly. (該攝影機具有自動變焦功能，可清晰地監控工廠產線。)",
+    "id": "L5-zoom-v"
+  },
+  {
+    "level": "TOEIC",
+    "word": "zoom-in",
+    "meaning": "v. 用變焦距鏡頭使景物放大",
+    "example": "The security operator used a zoom-in view to closely inspect the main entrance gate. (安全操作員使用放大視圖仔細檢查主入口大門。)",
+    "id": "TOEIC-zoom-in-v"
+  },
+  {
+    "level": "TOEIC",
+    "word": "zoom-out",
+    "meaning": "v. 用變焦距鏡頭使景物縮小",
+    "example": "Use the zoom-out feature to display the entire factory layout on the control panel screen. (使用縮小功能可在控制台畫面上顯示整個工廠佈局。)",
+    "id": "TOEIC-zoom-out-v"
+  }
+]

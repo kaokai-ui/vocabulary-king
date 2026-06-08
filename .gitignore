@@ -23,8 +23,16 @@ Source/
 詞彙分級表L1L2.xlsx
 詞彙分級表L3L6.xlsx
 GEPT_with_levels.KK.xlsx
+toeic3000.xlsx
+toeic3000_final.xlsx
+~$*.xlsx
 scripts/fill_gept_levels.py
 scripts/generate-tts-sample.ps1
+scripts/extract_toeic3000.py
+scripts/extract_toeic3000_from_docx.py
+scripts/rebuild_toeic3000_from_docx1.py
+tmp_toeic3000_translate_cache.json
+tmp_toeic_repo/
 *_backup.xlsx
 *_before_refine.xlsx
 test.xlsx

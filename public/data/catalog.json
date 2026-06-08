@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-06-07T23:01:32.725Z",
+  "generatedAt": "2026-06-08T05:31:43.004Z",
   "tracks": {
+    "toeic": {
+      "id": "toeic",
+      "available": true,
+      "title": "TOEIC (核心)",
+      "sourceWorkbookKey": "toeic-core-workbook",
+      "totalWords": 3036,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "toeic-chunk-1",
+          "path": "data/tracks/toeic/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-2",
+          "path": "data/tracks/toeic/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-3",
+          "path": "data/tracks/toeic/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-4",
+          "path": "data/tracks/toeic/chunk-004.json",
+          "wordCount": 36
+        }
+      ]
+    },
     "junior-high": {
       "id": "junior-high",
       "available": true,
@@ -155,14 +185,6 @@
           "wordCount": 93
         }
       ]
-    },
-    "toeic": {
-      "id": "toeic",
-      "available": false,
-      "title": "TOEIC",
-      "totalWords": 0,
-      "chunkSize": 1000,
-      "chunkFiles": []
     },
     "toefl": {
       "id": "toefl",

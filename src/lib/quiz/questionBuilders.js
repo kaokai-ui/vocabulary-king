@@ -187,7 +187,7 @@ function buildClozeChoiceQuestion(word, vocabulary) {
     wordId: word.id,
     prompt,
     promptKind: "cloze",
-    promptVoice: word.word,
+    promptVoice: null,
     level: word.level,
     example: word.example,
     choices,

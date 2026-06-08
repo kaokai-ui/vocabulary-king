@@ -3,6 +3,7 @@ import SpeakerButton from "../shared/SpeakerButton";
 export default function QuizScreen({
   text,
   question,
+  vocabularyTrackLabel,
   currentIndex,
   totalQuestions,
   correctCount,
@@ -21,6 +22,7 @@ export default function QuizScreen({
   const isClozeQuestion = question.type === "cloze-choice";
   const instructionText = isClozeQuestion ? null : text.tapCorrectAnswer;
   const showTimer = timeLeftSeconds != null;
+  const displayedLevel = vocabularyTrackLabel ?? question.level;
   const quizStageClassName = ["quiz-stage", isClozeQuestion ? "quiz-stage--cloze" : ""].filter(Boolean).join(" ");
   const wordHeadingClassName = ["word-heading", isClozeQuestion ? "word-heading--left" : "word-heading--center"]
     .filter(Boolean)
@@ -38,7 +40,7 @@ export default function QuizScreen({
 
       <section className={quizStageClassName}>
         <div className="quiz-heading">
-          <span className="pill">{question.level}</span>
+          <span className="pill">{displayedLevel}</span>
           <strong>
             {currentIndex + 1} / {totalQuestions}
           </strong>

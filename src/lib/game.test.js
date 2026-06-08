@@ -90,6 +90,7 @@ describe("createQuizQuestions", () => {
       expect(question.type).toBe(QUIZ_MODES.clozeChoice);
       expect(question.prompt).toContain("____");
       expect(question.prompt).not.toContain(question.answerWord);
+      expect(question.promptVoice).toBeNull();
       expect(question.choices).toHaveLength(4);
       expect(question.choices.find((choice) => choice.id === question.correctChoiceId)?.text).toBe(question.answerWord);
       const choiceTexts = question.choices.map((choice) => choice.text);

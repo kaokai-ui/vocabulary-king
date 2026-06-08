@@ -17,9 +17,9 @@ describe("normalizeQuizSession", () => {
           wordId: "word-1",
           word: "apple",
           level: "L1",
-          correctMeaning: "蘋果",
+          correctMeaning: "fruit",
           example: "An apple a day.",
-          options: ["香蕉", "蘋果", "橘子"],
+          options: ["dog", "fruit", "book"],
           correctIndex: 1
         }
       ],
@@ -27,8 +27,8 @@ describe("normalizeQuizSession", () => {
         {
           wordId: "word-1",
           word: "apple",
-          correctMeaning: "蘋果",
-          selectedMeaning: "蘋果",
+          correctMeaning: "fruit",
+          selectedMeaning: "fruit",
           isCorrect: true
         }
       ]
@@ -42,7 +42,7 @@ describe("normalizeQuizSession", () => {
     expect(normalized.questions[0]).toMatchObject({
       type: QUIZ_MODES.meaningChoice,
       prompt: "apple",
-      correctText: "蘋果"
+      correctText: "fruit"
     });
     expect(normalized.answers[0]).toEqual({
       questionId: `${QUIZ_MODES.meaningChoice}:word-1`,
@@ -50,9 +50,44 @@ describe("normalizeQuizSession", () => {
       wordId: "word-1",
       prompt: "apple",
       answerWord: "apple",
-      correctText: "蘋果",
-      selectedText: "蘋果",
+      correctText: "fruit",
+      selectedText: "fruit",
       isCorrect: true
     });
+  });
+
+  it("removes prompt voice from persisted cloze questions", () => {
+    const quiz = {
+      mode: QUIZ_MODES.clozeChoice,
+      timerEnabled: false,
+      currentIndex: 0,
+      questions: [
+        {
+          id: `${QUIZ_MODES.clozeChoice}:word-1`,
+          type: QUIZ_MODES.clozeChoice,
+          wordId: "word-1",
+          prompt: "We need to ____ waste at school.",
+          promptKind: "cloze",
+          promptVoice: "reduce",
+          level: "L3",
+          example: "We need to reduce waste at school.",
+          choices: [
+            { id: "1", text: "reduce" },
+            { id: "2", text: "prepare" },
+            { id: "3", text: "borrow" },
+            { id: "4", text: "cancel" }
+          ],
+          correctChoiceId: "1",
+          answerWord: "reduce",
+          correctText: "reduce",
+          reviewPrompt: "We need to ____ waste at school."
+        }
+      ],
+      answers: []
+    };
+
+    const normalized = normalizeQuizSession(quiz);
+
+    expect(normalized.questions[0].promptVoice).toBeNull();
   });
 });

@@ -1,8 +1,10 @@
 import StageHeader from "../shared/StageHeader";
+import { QUIZ_MODES } from "../../lib/game";
 
 export default function QuizResultScreen({
   text,
   quiz,
+  vocabularyTrackLabel,
   wrongWordIds = [],
   savedWrongWordCount = 0,
   onSaveWrongWords,
@@ -16,10 +18,18 @@ export default function QuizResultScreen({
   const columns = text.reviewAnswer.split(" / ");
   const hasWrongWords = wrongWordIds.length > 0;
   const savedAllWrongWords = hasWrongWords && savedWrongWordCount >= wrongWordIds.length;
+  const resultTitle =
+    quiz.mode === QUIZ_MODES.meaningChoice
+      ? vocabularyTrackLabel
+        ? `${text.quiz} ${vocabularyTrackLabel}`
+        : text.quiz
+      : vocabularyTrackLabel
+        ? `${text.clozePractice} ${vocabularyTrackLabel}`
+        : text.clozePractice;
 
   return (
     <main className="stage-shell">
-      <StageHeader text={text} title={text.quiz} subtitle={text.latestScore} onHome={onHome} />
+      <StageHeader text={text} title={resultTitle} subtitle={text.latestScore} onHome={onHome} />
       <section className="results-panel">
         <div className="metric-row">
           <div className="metric-card">

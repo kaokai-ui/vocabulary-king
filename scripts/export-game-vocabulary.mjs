@@ -7,13 +7,21 @@ const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
 const PLACEHOLDER_TRACKS = [
-  { id: "toeic", title: "TOEIC" },
   { id: "toefl", title: "TOEFL" },
   { id: "ielts", title: "IELTS" }
 ];
 const workbookPathCache = new Map();
 let levelExampleLookupCache = null;
 const TRACK_DEFINITIONS = [
+  {
+    id: "toeic",
+    title: "TOEIC (核心)",
+    sourceWorkbookKey: "toeic-core-workbook",
+    workbookPattern: /toeic3000_final\.xlsx$/i,
+    sheets: ["Sheet1"],
+    type: "toeic-workbook",
+    available: true
+  },
   {
     id: "junior-high",
     title: "Junior High",
@@ -235,6 +243,59 @@ function readLevelVocabularyRows(workbookPath, sheetNames) {
   return normalizeVocabularyEntries(vocabulary);
 }
 
+function formatToeicMeaning(pos, meaning) {
+  const normalizedPos = String(pos ?? "").trim();
+  const normalizedMeaning = String(meaning ?? "").trim();
+
+  if (!normalizedPos) {
+    return normalizedMeaning;
+  }
+
+  return `${normalizedPos}. ${normalizedMeaning}`;
+}
+
+function formatToeicExample(englishExample, chineseExample) {
+  const normalizedEnglishExample = String(englishExample ?? "").trim();
+  const normalizedChineseExample = String(chineseExample ?? "").trim();
+
+  if (normalizedEnglishExample && normalizedChineseExample) {
+    return `${normalizedEnglishExample} (${normalizedChineseExample})`;
+  }
+
+  return normalizedEnglishExample || normalizedChineseExample;
+}
+
+function readToeicVocabularyRows(workbookPath, sheetNames) {
+  const workbook = xlsx.readFile(workbookPath);
+  const vocabulary = [];
+
+  for (const sheetName of sheetNames) {
+    const rows = readSheetRows(workbook, sheetName);
+
+    rows.slice(1).forEach((row) => {
+      const word = String(row[1] ?? "").trim();
+      const pos = String(row[2] ?? "").trim();
+      const meaning = String(row[3] ?? "").trim();
+      const level = String(row[4] ?? "").trim() || "TOEIC";
+      const englishExample = String(row[6] ?? "").trim();
+      const chineseExample = String(row[7] ?? "").trim();
+
+      if (!word || !meaning) {
+        return;
+      }
+
+      vocabulary.push({
+        level,
+        word,
+        meaning: formatToeicMeaning(pos, meaning),
+        example: formatToeicExample(englishExample, chineseExample)
+      });
+    });
+  }
+
+  return normalizeVocabularyEntries(vocabulary);
+}
+
 function buildLevelExampleLookup() {
   if (levelExampleLookupCache) {
     return levelExampleLookupCache;
@@ -415,6 +476,8 @@ function buildTrack(definition) {
   const vocabulary =
     definition.type === "gept-workbook"
       ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
+      : definition.type === "toeic-workbook"
+        ? readToeicVocabularyRows(workbookPath, definition.sheets)
       : readLevelVocabularyRows(workbookPath, definition.sheets);
   const chunks = chunkItems(vocabulary, CHUNK_SIZE);
   const trackOutputDir = path.join(TRACKS_ROOT, definition.id);

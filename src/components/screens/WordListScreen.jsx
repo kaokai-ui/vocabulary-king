@@ -1,7 +1,7 @@
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
 
-export default function WordListScreen({ text, words, pronunciationMessage, onHome, onPronounce, onRemoveWord }) {
+export default function WordListScreen({ text, words, vocabularyTrackLabel, pronunciationMessage, onHome, onPronounce, onRemoveWord }) {
   return (
     <main className="stage-shell">
       <StageHeader text={text} title={text.wordList} subtitle={text.wordListExplanation} onHome={onHome} />
@@ -18,7 +18,7 @@ export default function WordListScreen({ text, words, pronunciationMessage, onHo
                     <h2>{word.word}</h2>
                     <SpeakerButton className="speaker-button--inline" onClick={() => onPronounce(word.word)} />
                   </div>
-                  <span className="pill">{word.level}</span>
+                  <span className="pill">{vocabularyTrackLabel ?? word.level}</span>
                 </div>
                 <p className="word-row__meaning">{word.meaning}</p>
                 {word.example ? (

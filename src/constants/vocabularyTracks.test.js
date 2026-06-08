@@ -6,8 +6,8 @@ describe("normalizeVocabularyTrack", () => {
     expect(normalizeVocabularyTrack("gept")).toBe("gept-elementary");
   });
 
-  it("falls back to the default track for unknown or disabled tracks", () => {
-    expect(normalizeVocabularyTrack("toeic")).toBe(defaultVocabularyTrack);
+  it("keeps enabled tracks and falls back for unknown tracks", () => {
+    expect(normalizeVocabularyTrack("toeic")).toBe("toeic");
     expect(normalizeVocabularyTrack("unknown-track")).toBe(defaultVocabularyTrack);
   });
 });

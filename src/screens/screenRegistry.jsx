@@ -64,11 +64,19 @@ export const screenAnalytics = {
   }
 };
 
+function getActiveVocabularyTrackLabel(context) {
+  return (
+    context.text[vocabularyTracks.find((track) => track.value === context.settings.vocabularyTrack)?.labelKey] ??
+    context.settings.vocabularyTrack
+  );
+}
+
 export const screenRegistry = {
   flashcards: (context) => (
     <FlashcardScreen
       text={context.text}
       flashcard={context.currentFlashcard}
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       mode={context.session.flashcards?.mode}
       currentIndex={context.session.flashcards?.currentIndex ?? 0}
       totalCount={context.currentFlashcards.length}
@@ -110,6 +118,7 @@ export const screenRegistry = {
     <QuizScreen
       text={context.text}
       question={context.currentQuestion}
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       currentIndex={context.session.quiz?.currentIndex ?? 0}
       totalQuestions={context.session.quiz?.questions.length ?? 0}
       correctCount={context.session.quiz?.correctCount ?? 0}
@@ -126,6 +135,7 @@ export const screenRegistry = {
     <QuizResultScreen
       text={context.text}
       quiz={context.session.quiz}
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       wrongWordIds={[
         ...new Set(
           (context.session.quiz?.answers ?? [])
@@ -146,6 +156,7 @@ export const screenRegistry = {
     <WordListScreen
       text={context.text}
       words={context.starredWords}
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
@@ -156,6 +167,7 @@ export const screenRegistry = {
     <KnownWordListScreen
       text={context.text}
       words={context.knownWords}
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
@@ -188,10 +200,7 @@ export const screenRegistry = {
       text={context.text}
       locale={context.settings.locale}
       messages={context.messages}
-      vocabularyTrackLabel={
-        context.text[vocabularyTracks.find((track) => track.value === context.settings.vocabularyTrack)?.labelKey] ??
-        context.settings.vocabularyTrack
-      }
+      vocabularyTrackLabel={getActiveVocabularyTrackLabel(context)}
       vocabularyCount={context.vocabulary.length}
       masteredCount={context.stats.masteredCount}
       starredCount={context.progress.starredWordIds.length}

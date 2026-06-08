@@ -4,6 +4,7 @@ import StageHeader from "../shared/StageHeader";
 export default function FlashcardScreen({
   text,
   flashcard,
+  vocabularyTrackLabel,
   mode,
   currentIndex,
   totalCount,
@@ -27,6 +28,7 @@ export default function FlashcardScreen({
         .filter(Boolean)
     : [];
   const pronunciationWord = wordVariants[0] ?? flashcard?.word ?? "";
+  const displayedLevel = vocabularyTrackLabel ?? flashcard?.level ?? "";
 
   if (!flashcard) {
     return (
@@ -50,7 +52,7 @@ export default function FlashcardScreen({
             {currentIndex + 1} / {totalCount}
           </span>
           <span className="pill">
-            {text.levelBadge} {flashcard.level}
+            {text.levelBadge} {displayedLevel}
           </span>
         </div>
       </header>
@@ -65,7 +67,7 @@ export default function FlashcardScreen({
               {showExample ? text.hideExample : text.showExample}
             </button>
           </div>
-          <span className="pill">{flashcard.level}</span>
+          <span className="pill">{displayedLevel}</span>
           <div className="word-heading">
             <h1 className="flashcard-word-lines">
               {wordVariants.length > 1

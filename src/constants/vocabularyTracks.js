@@ -5,9 +5,7 @@ export const vocabularyTracks = [
   { value: "gept-elementary", labelKey: "vocabularyTrackGeptElementary", enabled: true },
   { value: "gept-intermediate", labelKey: "vocabularyTrackGeptIntermediate", enabled: true },
   { value: "gept-high-intermediate", labelKey: "vocabularyTrackGeptHighIntermediate", enabled: true },
-  { value: "toeic", labelKey: "vocabularyTrackToeic", enabled: false },
-  { value: "toefl", labelKey: "vocabularyTrackToefl", enabled: false },
-  { value: "ielts", labelKey: "vocabularyTrackIelts", enabled: false }
+  { value: "toeic", labelKey: "vocabularyTrackToeic", enabled: true }
 ];
 
 const legacyVocabularyTrackAliases = {

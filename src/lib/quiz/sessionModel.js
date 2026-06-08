@@ -13,6 +13,13 @@ export function normalizeQuizQuestion(question) {
   }
 
   if (question.type && Array.isArray(question.choices) && "correctChoiceId" in question) {
+    if (question.type === QUIZ_MODES.clozeChoice) {
+      return {
+        ...question,
+        promptVoice: null
+      };
+    }
+
     return question;
   }
 
