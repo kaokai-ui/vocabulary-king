@@ -8,6 +8,7 @@ describe("normalizeVocabularyTrack", () => {
 
   it("keeps enabled tracks and falls back for unknown tracks", () => {
     expect(normalizeVocabularyTrack("toeic")).toBe("toeic");
+    expect(normalizeVocabularyTrack("toeic-advanced")).toBe("toeic-advanced");
     expect(normalizeVocabularyTrack("unknown-track")).toBe(defaultVocabularyTrack);
   });
 });

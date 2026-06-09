@@ -1,36 +1,6 @@
 {
-  "generatedAt": "2026-06-08T05:31:43.004Z",
+  "generatedAt": "2026-06-09T01:45:40.939Z",
   "tracks": {
-    "toeic": {
-      "id": "toeic",
-      "available": true,
-      "title": "TOEIC (核心)",
-      "sourceWorkbookKey": "toeic-core-workbook",
-      "totalWords": 3036,
-      "chunkSize": 1000,
-      "chunkFiles": [
-        {
-          "id": "toeic-chunk-1",
-          "path": "data/tracks/toeic/chunk-001.json",
-          "wordCount": 1000
-        },
-        {
-          "id": "toeic-chunk-2",
-          "path": "data/tracks/toeic/chunk-002.json",
-          "wordCount": 1000
-        },
-        {
-          "id": "toeic-chunk-3",
-          "path": "data/tracks/toeic/chunk-003.json",
-          "wordCount": 1000
-        },
-        {
-          "id": "toeic-chunk-4",
-          "path": "data/tracks/toeic/chunk-004.json",
-          "wordCount": 36
-        }
-      ]
-    },
     "junior-high": {
       "id": "junior-high",
       "available": true,
@@ -183,6 +153,66 @@
           "id": "gept-high-intermediate-chunk-4",
           "path": "data/tracks/gept-high-intermediate/chunk-004.json",
           "wordCount": 93
+        }
+      ]
+    },
+    "toeic": {
+      "id": "toeic",
+      "available": true,
+      "title": "TOEIC(核心)",
+      "sourceWorkbookKey": "toeic-core-workbook",
+      "totalWords": 3036,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "toeic-chunk-1",
+          "path": "data/tracks/toeic/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-2",
+          "path": "data/tracks/toeic/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-3",
+          "path": "data/tracks/toeic/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-4",
+          "path": "data/tracks/toeic/chunk-004.json",
+          "wordCount": 36
+        }
+      ]
+    },
+    "toeic-advanced": {
+      "id": "toeic-advanced",
+      "available": true,
+      "title": "TOEIC(進階)",
+      "sourceWorkbookKey": "toeic-advanced-workbook",
+      "totalWords": 3475,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "toeic-advanced-chunk-1",
+          "path": "data/tracks/toeic-advanced/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-advanced-chunk-2",
+          "path": "data/tracks/toeic-advanced/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-advanced-chunk-3",
+          "path": "data/tracks/toeic-advanced/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-advanced-chunk-4",
+          "path": "data/tracks/toeic-advanced/chunk-004.json",
+          "wordCount": 475
         }
       ]
     },

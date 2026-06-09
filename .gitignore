@@ -25,6 +25,7 @@ Source/
 GEPT_with_levels.KK.xlsx
 toeic3000.xlsx
 toeic3000_final.xlsx
+Toeic.Advanced.xlsx
 ~$*.xlsx
 scripts/fill_gept_levels.py
 scripts/generate-tts-sample.ps1

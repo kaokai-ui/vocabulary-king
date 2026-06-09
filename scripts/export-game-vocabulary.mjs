@@ -14,15 +14,6 @@ const workbookPathCache = new Map();
 let levelExampleLookupCache = null;
 const TRACK_DEFINITIONS = [
   {
-    id: "toeic",
-    title: "TOEIC (核心)",
-    sourceWorkbookKey: "toeic-core-workbook",
-    workbookPattern: /toeic3000_final\.xlsx$/i,
-    sheets: ["Sheet1"],
-    type: "toeic-workbook",
-    available: true
-  },
-  {
     id: "junior-high",
     title: "Junior High",
     sourceWorkbookKey: "level-1-level-2-workbook",
@@ -77,6 +68,39 @@ const TRACK_DEFINITIONS = [
     sheets: ["High"],
     geptGrade: "中高級",
     type: "gept-workbook",
+    available: true
+  },
+  {
+    id: "toeic",
+    title: "TOEIC(核心)",
+    sourceWorkbookKey: "toeic-core-workbook",
+    workbookPattern: /toeic3000_final\.xlsx$/i,
+    sheets: ["Sheet1"],
+    type: "toeic-workbook",
+    columns: {
+      word: 1,
+      pos: 2,
+      meaning: 3,
+      level: 4,
+      englishExample: 6,
+      chineseExample: 7
+    },
+    available: true
+  },
+  {
+    id: "toeic-advanced",
+    title: "TOEIC(進階)",
+    sourceWorkbookKey: "toeic-advanced-workbook",
+    workbookPattern: /Toeic\.Advanced\.xlsx$/i,
+    sheets: ["KK"],
+    type: "toeic-workbook",
+    columns: {
+      word: 1,
+      meaning: 2,
+      englishExample: 3,
+      chineseExample: 4
+    },
+    fallbackLevel: "TOEIC-ADV",
     available: true
   }
 ];
@@ -265,20 +289,21 @@ function formatToeicExample(englishExample, chineseExample) {
   return normalizedEnglishExample || normalizedChineseExample;
 }
 
-function readToeicVocabularyRows(workbookPath, sheetNames) {
+function readToeicVocabularyRows(workbookPath, definition) {
   const workbook = xlsx.readFile(workbookPath);
   const vocabulary = [];
+  const { sheets, columns, fallbackLevel = "TOEIC" } = definition;
 
-  for (const sheetName of sheetNames) {
+  for (const sheetName of sheets) {
     const rows = readSheetRows(workbook, sheetName);
 
     rows.slice(1).forEach((row) => {
-      const word = String(row[1] ?? "").trim();
-      const pos = String(row[2] ?? "").trim();
-      const meaning = String(row[3] ?? "").trim();
-      const level = String(row[4] ?? "").trim() || "TOEIC";
-      const englishExample = String(row[6] ?? "").trim();
-      const chineseExample = String(row[7] ?? "").trim();
+      const word = String(row[columns.word] ?? "").trim();
+      const pos = columns.pos != null ? String(row[columns.pos] ?? "").trim() : "";
+      const meaning = String(row[columns.meaning] ?? "").trim();
+      const level = columns.level != null ? String(row[columns.level] ?? "").trim() || fallbackLevel : fallbackLevel;
+      const englishExample = columns.englishExample != null ? String(row[columns.englishExample] ?? "").trim() : "";
+      const chineseExample = columns.chineseExample != null ? String(row[columns.chineseExample] ?? "").trim() : "";
 
       if (!word || !meaning) {
         return;
@@ -477,7 +502,7 @@ function buildTrack(definition) {
     definition.type === "gept-workbook"
       ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
       : definition.type === "toeic-workbook"
-        ? readToeicVocabularyRows(workbookPath, definition.sheets)
+        ? readToeicVocabularyRows(workbookPath, definition)
       : readLevelVocabularyRows(workbookPath, definition.sheets);
   const chunks = chunkItems(vocabulary, CHUNK_SIZE);
   const trackOutputDir = path.join(TRACKS_ROOT, definition.id);
