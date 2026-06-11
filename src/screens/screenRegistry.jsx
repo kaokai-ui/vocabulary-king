@@ -213,12 +213,15 @@ export const screenRegistry = {
       locale={context.settings.locale}
       messages={context.messages}
       vocabularyTrackLabel={getVocabularyTrackLabel(context)}
-      vocabularyCount={context.vocabulary.length}
+      vocabularyCount={context.vocabularyCount}
       masteredCount={context.stats.masteredCount}
       starredCount={context.starredWords.length}
       knownCount={(context.progress.knownWordIds ?? []).length}
       progressRate={context.stats.progressRate}
       hasSavedSession={context.hasSavedSession}
+      isVocabularyLoading={context.isVocabularyLoading}
+      isVocabularyReady={context.isVocabularyReady}
+      vocabularyError={context.vocabularyError}
       onStartRandomFlashcards={() => context.actions.startFlashcards("random")}
       onStartStarredFlashcards={() => context.actions.startFlashcards("starred")}
       onOpenQuizSetup={() => context.actions.openScreen("quizSetup")}
@@ -229,6 +232,7 @@ export const screenRegistry = {
       onOpenSettings={() => context.actions.openScreen("settings")}
       onResume={() => context.actions.openScreen(context.helpers.getResumeScreen())}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
+      onRetryVocabulary={context.retryVocabulary}
     />
   )
 };

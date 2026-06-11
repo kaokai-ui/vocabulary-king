@@ -11,6 +11,9 @@ export default function HomeScreen({
   knownCount,
   progressRate,
   hasSavedSession,
+  isVocabularyLoading,
+  isVocabularyReady,
+  vocabularyError,
   onStartRandomFlashcards,
   onStartStarredFlashcards,
   onOpenQuizSetup,
@@ -20,10 +23,12 @@ export default function HomeScreen({
   onOpenStats,
   onOpenSettings,
   onResume,
-  onChangeLocale
+  onChangeLocale,
+  onRetryVocabulary
 }) {
   const heroLogoSrc = `${import.meta.env.BASE_URL}branding/logo-home.png`;
   const heroLogoWebpSrc = `${import.meta.env.BASE_URL}branding/logo-home.webp`;
+  const disableVocabularyActions = !isVocabularyReady;
 
   return (
     <main className="app-shell">
@@ -66,7 +71,12 @@ export default function HomeScreen({
       </section>
 
       <section className="home-grid">
-        <button className="feature-card feature-card--flashcard" type="button" onClick={onStartRandomFlashcards}>
+        <button
+          className="feature-card feature-card--flashcard"
+          type="button"
+          disabled={disableVocabularyActions}
+          onClick={onStartRandomFlashcards}
+        >
           <span className="eyebrow">{text.flashcards}</span>
           <h2>{text.flashcardsRandom}</h2>
           <p>{text.flashcardExplanation}</p>
@@ -78,13 +88,18 @@ export default function HomeScreen({
           <p>{text.starPracticeHint}</p>
         </button>
 
-        <button className="feature-card feature-card--quiz" type="button" onClick={onOpenQuizSetup}>
+        <button className="feature-card feature-card--quiz" type="button" disabled={disableVocabularyActions} onClick={onOpenQuizSetup}>
           <span className="eyebrow">{text.quiz}</span>
           <h2>{text.quiz}</h2>
           <p>{text.quizExplanation}</p>
         </button>
 
-        <button className="feature-card feature-card--cloze" type="button" onClick={onOpenClozeQuizSetup}>
+        <button
+          className="feature-card feature-card--cloze"
+          type="button"
+          disabled={disableVocabularyActions}
+          onClick={onOpenClozeQuizSetup}
+        >
           <span className="eyebrow">{text.quiz}</span>
           <h2>{text.clozePractice}</h2>
           <p>{text.clozePracticeExplanation}</p>
@@ -96,13 +111,13 @@ export default function HomeScreen({
           <p>{text.wordListExplanation}</p>
         </button>
 
-        <button className="feature-card feature-card--known" type="button" onClick={onOpenKnownWords}>
+        <button className="feature-card feature-card--known" type="button" disabled={disableVocabularyActions} onClick={onOpenKnownWords}>
           <span className="eyebrow">{text.knownWords}</span>
           <h2>{knownCount}</h2>
           <p>{text.knownWordsExplanation}</p>
         </button>
 
-        <button className="feature-card" type="button" onClick={onOpenStats}>
+        <button className="feature-card" type="button" disabled={disableVocabularyActions} onClick={onOpenStats}>
           <span className="eyebrow">{text.stats}</span>
           <h2>{progressRate}%</h2>
           <p>{text.statsExplanation}</p>
@@ -124,6 +139,19 @@ export default function HomeScreen({
           <button className="solid-button" type="button" onClick={onResume}>
             {text.resume}
           </button>
+        </section>
+      ) : null}
+
+      {isVocabularyLoading || vocabularyError ? (
+        <section className="resume-banner vocabulary-status-banner">
+          <div>
+            <strong>{vocabularyError ? text.vocabularyLoadFailed : text.loadingVocabulary}</strong>
+          </div>
+          {vocabularyError ? (
+            <button className="solid-button" type="button" onClick={onRetryVocabulary}>
+              {text.retryVocabulary}
+            </button>
+          ) : null}
         </section>
       ) : null}
 

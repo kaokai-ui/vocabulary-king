@@ -1,100 +1,92 @@
-import { useEffect, useState } from "react";
-
-let cachedCatalog = null;
-const cachedVocabularyByTrack = new Map();
-
-async function fetchJson(url, signal) {
-  const response = await fetch(url, {
-    signal,
-    cache: "no-store"
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  return response.json();
-}
+import { useCallback, useEffect, useState } from "react";
+import {
+  getCachedCatalog,
+  getCachedVocabulary,
+  loadVocabularyCatalog,
+  loadVocabularyTrack
+} from "../lib/vocabularyDataClient";
 
 export function useVocabularyData(trackId) {
-  const [vocabulary, setVocabulary] = useState([]);
-  const [catalog, setCatalog] = useState(null);
+  const [catalog, setCatalog] = useState(() => getCachedCatalog());
+  const [vocabulary, setVocabulary] = useState(() => getCachedVocabulary(trackId) ?? []);
+  const [catalogError, setCatalogError] = useState("");
   const [vocabularyError, setVocabularyError] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadedTrackId, setLoadedTrackId] = useState(null);
+  const [isCatalogLoading, setIsCatalogLoading] = useState(() => !getCachedCatalog());
+  const [isVocabularyLoading, setIsVocabularyLoading] = useState(() => !getCachedVocabulary(trackId));
+  const [loadedTrackId, setLoadedTrackId] = useState(() => (getCachedVocabulary(trackId) ? trackId : null));
+  const [retryKey, setRetryKey] = useState(0);
+
+  const retryVocabulary = useCallback(() => {
+    setRetryKey((currentRetryKey) => currentRetryKey + 1);
+  }, []);
 
   useEffect(() => {
     let isCancelled = false;
     const abortController = new AbortController();
+    const cachedCatalog = getCachedCatalog();
+    const cachedVocabulary = getCachedVocabulary(trackId);
+    const forceRefresh = retryKey > 0;
+
+    if (cachedCatalog) {
+      setCatalog(cachedCatalog);
+    }
+
+    if (!forceRefresh && cachedVocabulary) {
+      setVocabulary(cachedVocabulary);
+      setLoadedTrackId(trackId);
+      setIsVocabularyLoading(false);
+    } else {
+      setVocabulary([]);
+      setLoadedTrackId(null);
+      setIsVocabularyLoading(true);
+    }
+
+    setCatalogError("");
+    setVocabularyError("");
+    setIsCatalogLoading(!cachedCatalog || forceRefresh);
 
     async function loadVocabulary() {
       try {
-        setVocabularyError("");
-        setIsLoading(true);
-
-        if (cachedCatalog) {
-          setCatalog(cachedCatalog);
-        }
-
-        if (cachedVocabularyByTrack.has(trackId)) {
-          setVocabulary(cachedVocabularyByTrack.get(trackId));
-          setLoadedTrackId(trackId);
-          setIsLoading(false);
-          return;
-        }
-
-        setVocabulary([]);
-
-        const catalogUrl = `${import.meta.env.BASE_URL}data/catalog.json`;
-
-        async function loadCatalog(forceRefresh = false) {
-          if (!forceRefresh && cachedCatalog) {
-            return cachedCatalog;
-          }
-
-          cachedCatalog = await fetchJson(catalogUrl, abortController.signal);
-          return cachedCatalog;
-        }
-
-        let nextCatalog = await loadCatalog();
+        const nextCatalog = await loadVocabularyCatalog({
+          signal: abortController.signal,
+          forceRefresh
+        });
 
         if (isCancelled) {
           return;
         }
 
         setCatalog(nextCatalog);
+        setIsCatalogLoading(false);
 
-        let track = nextCatalog.tracks?.[trackId];
+        if (!forceRefresh && cachedVocabulary) {
+          return;
+        }
 
-        // A fresh JS bundle can coexist briefly with a stale cached catalog on GitHub Pages.
-        // Retry once with a forced re-fetch so newly deployed tracks become selectable immediately.
-        if (!track || !track.available) {
-          nextCatalog = await loadCatalog(true);
+        try {
+          const result = await loadVocabularyTrack(trackId, {
+            catalog: nextCatalog,
+            signal: abortController.signal,
+            forceRefresh
+          });
 
-          if (isCancelled) {
+          if (!isCancelled) {
+            setCatalog(result.catalog);
+            setVocabulary(result.vocabulary);
+            setLoadedTrackId(trackId);
+            setIsVocabularyLoading(false);
+          }
+        } catch (error) {
+          if (error?.name === "AbortError") {
             return;
           }
 
-          setCatalog(nextCatalog);
-          track = nextCatalog.tracks?.[trackId];
-        }
-
-        if (!track || !track.available) {
-          throw new Error(`Track is unavailable: ${trackId}`);
-        }
-
-        const chunkPayloads = await Promise.all(
-          track.chunkFiles.map(async (chunkFile) => {
-            return fetchJson(`${import.meta.env.BASE_URL}${chunkFile.path}`, abortController.signal);
-          })
-        );
-
-        if (!isCancelled) {
-          const nextVocabulary = chunkPayloads.flat();
-          cachedVocabularyByTrack.set(trackId, nextVocabulary);
-          setVocabulary(nextVocabulary);
-          setLoadedTrackId(trackId);
-          setIsLoading(false);
+          if (!isCancelled) {
+            setVocabulary([]);
+            setLoadedTrackId(null);
+            setVocabularyError("load-failed");
+            setIsVocabularyLoading(false);
+          }
         }
       } catch (error) {
         if (error?.name === "AbortError") {
@@ -102,10 +94,10 @@ export function useVocabularyData(trackId) {
         }
 
         if (!isCancelled) {
-          setVocabulary([]);
-          setLoadedTrackId(null);
+          setCatalogError("load-failed");
           setVocabularyError("load-failed");
-          setIsLoading(false);
+          setIsCatalogLoading(false);
+          setIsVocabularyLoading(false);
         }
       }
     }
@@ -116,12 +108,16 @@ export function useVocabularyData(trackId) {
       isCancelled = true;
       abortController.abort();
     };
-  }, [trackId]);
+  }, [retryKey, trackId]);
 
   return {
-    vocabulary,
     catalog,
+    catalogError,
+    vocabulary,
     vocabularyError,
-    isLoading: isLoading || loadedTrackId !== trackId
+    isCatalogLoading,
+    isVocabularyLoading: isVocabularyLoading || loadedTrackId !== trackId,
+    isVocabularyReady: loadedTrackId === trackId,
+    retryVocabulary
   };
 }

@@ -100,6 +100,7 @@ export const enMessages = {
   selectedLanguage: "Current language",
   masteryRule: "Mastered words include both manually marked known words and quiz mastery. Quiz mastery still requires answering the same word correctly at least twice while keeping correct answers above wrong answers.",
   loadingVocabulary: "Loading vocabulary...",
+  retryVocabulary: "Retry loading",
   vocabularyLoadFailed: "Failed to load vocabulary. Please refresh the page.",
   emptyVocabularyTrack: "This vocabulary track does not have any words yet."
 };

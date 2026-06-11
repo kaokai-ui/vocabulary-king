@@ -87,6 +87,12 @@
   grid-column: span 20;
 }
 
+.feature-card:disabled {
+  cursor: wait;
+  opacity: 0.68;
+  transform: none;
+}
+
 .feature-card--flashcard {
   background:
     linear-gradient(140deg, rgba(239, 131, 84, 0.92), rgba(223, 94, 45, 0.78)),
@@ -148,6 +154,10 @@
 .resume-banner p {
   margin: 4px 0 0;
   color: var(--muted);
+}
+
+.vocabulary-status-banner {
+  align-items: center;
 }
 
 .locale-switcher {

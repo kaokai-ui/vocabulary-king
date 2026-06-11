@@ -98,6 +98,7 @@ export const zhTWMessages = {
   selectedLanguage: "目前語系",
   masteryRule: "已掌握單字包含手動加入的已會單詞，以及測驗累積掌握的單字。測驗掌握仍需同一單字至少答對 2 次，且答對次數必須多於答錯次數。",
   loadingVocabulary: "正在載入題庫...",
+  retryVocabulary: "重新載入",
   vocabularyLoadFailed: "題庫載入失敗，請重新整理頁面。",
   emptyVocabularyTrack: "這個題庫目前還沒有資料。"
 };
