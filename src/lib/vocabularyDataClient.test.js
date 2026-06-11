@@ -15,6 +15,10 @@ function jsonResponse(payload) {
   });
 }
 
+function withBaseUrl(path) {
+  return `${import.meta.env.BASE_URL}${path}`;
+}
+
 describe("vocabularyDataClient", () => {
   beforeEach(() => {
     clearVocabularyDataCache();
@@ -23,7 +27,7 @@ describe("vocabularyDataClient", () => {
 
   it("adds the catalog version to chunk URLs", () => {
     expect(buildVersionedVocabularyUrl("data/tracks/junior-high/chunk-001.json", "2026-06-09T00:00:00.000Z")).toBe(
-      "/data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z"
+      withBaseUrl("data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z")
     );
   });
 
@@ -47,16 +51,16 @@ describe("vocabularyDataClient", () => {
     const fetchMock = vi
       .spyOn(globalThis, "fetch")
       .mockResolvedValueOnce(jsonResponse(catalog))
-      .mockResolvedValueOnce(jsonResponse([{ id: "word-1", word: "apple", meaning: "蘋果" }]));
+      .mockResolvedValueOnce(jsonResponse([{ id: "word-1", word: "apple", meaning: "apple" }]));
 
     const loadedCatalog = await loadVocabularyCatalog();
     const result = await loadVocabularyTrack("junior-high", { catalog: loadedCatalog });
 
     expect(result.vocabulary).toHaveLength(1);
-    expect(fetchMock).toHaveBeenNthCalledWith(1, "/data/catalog.json", expect.objectContaining({ cache: "no-cache" }));
+    expect(fetchMock).toHaveBeenNthCalledWith(1, withBaseUrl("data/catalog.json"), expect.objectContaining({ cache: "no-cache" }));
     expect(fetchMock).toHaveBeenNthCalledWith(
       2,
-      "/data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z",
+      withBaseUrl("data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z"),
       expect.objectContaining({ cache: "force-cache" })
     );
   });
@@ -81,15 +85,15 @@ describe("vocabularyDataClient", () => {
     const fetchMock = vi
       .spyOn(globalThis, "fetch")
       .mockResolvedValueOnce(jsonResponse(catalog))
-      .mockResolvedValueOnce(jsonResponse([{ id: "word-1", word: "apple", meaning: "蘋果" }]));
+      .mockResolvedValueOnce(jsonResponse([{ id: "word-1", word: "apple", meaning: "apple" }]));
 
     const result = await loadVocabularyTrack("junior-high", { forceRefresh: true });
 
     expect(result.vocabulary).toHaveLength(1);
-    expect(fetchMock).toHaveBeenNthCalledWith(1, "/data/catalog.json", expect.objectContaining({ cache: "reload" }));
+    expect(fetchMock).toHaveBeenNthCalledWith(1, withBaseUrl("data/catalog.json"), expect.objectContaining({ cache: "reload" }));
     expect(fetchMock).toHaveBeenNthCalledWith(
       2,
-      "/data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z",
+      withBaseUrl("data/tracks/junior-high/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z"),
       expect.objectContaining({ cache: "reload" })
     );
   });
