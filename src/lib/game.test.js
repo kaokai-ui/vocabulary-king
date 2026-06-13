@@ -97,6 +97,37 @@ describe("createQuizQuestions", () => {
       expect(new Set(choiceTexts).size).toBe(choiceTexts.length);
     }
   });
+  it("returns fewer questions than requested when vocabulary is small for cloze mode", () => {
+    const tinyVocabulary = [
+      { id: "1", word: "cat", meaning: "貓", level: "L1", example: "" }
+    ];
+
+    const questions = createQuizQuestions(tinyVocabulary, 50, { mode: QUIZ_MODES.clozeChoice });
+
+    expect(questions.length).toBeLessThan(50);
+    expect(questions.length).toBeGreaterThanOrEqual(0);
+  });
+
+  it("returns zero questions for cloze mode when no words have valid examples", () => {
+    const noExampleVocabulary = [
+      { id: "1", word: "cat", meaning: "貓", level: "L1", example: "" },
+      { id: "2", word: "dog", meaning: "狗", level: "L1", example: "" }
+    ];
+
+    const questions = createQuizQuestions(noExampleVocabulary, 10, { mode: QUIZ_MODES.clozeChoice });
+
+    expect(questions).toHaveLength(0);
+  });
+
+  it("returns fewer questions than requested when vocabulary is too small for meaning mode", () => {
+    const tinyVocabulary = [
+      { id: "1", word: "cat", meaning: "貓", level: "L1", example: "" }
+    ];
+
+    const questions = createQuizQuestions(tinyVocabulary, 50);
+
+    expect(questions.length).toBeLessThanOrEqual(tinyVocabulary.length);
+  });
 });
 
 describe("isMasteredWord", () => {

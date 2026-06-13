@@ -3,20 +3,10 @@ export const QUIZ_MODES = {
   clozeChoice: "cloze-choice"
 };
 
-function shuffle(items) {
-  const next = [...items];
+import { createClozePrompt, extractEnglishPrompt, buildWholeWordPattern } from "./clozePrompt";
+import { shuffle, sample } from "../random";
 
-  for (let index = next.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [next[index], next[swapIndex]] = [next[swapIndex], next[index]];
-  }
-
-  return next;
-}
-
-function sample(items, count) {
-  return shuffle(items).slice(0, count);
-}
+export { shuffle, sample, createClozePrompt, extractEnglishPrompt, buildWholeWordPattern };
 
 function normalizeOptionText(text) {
   return String(text ?? "")
@@ -27,52 +17,6 @@ function normalizeOptionText(text) {
 
 function buildChoiceId(prefix, text, index) {
   return `${prefix}-${normalizeOptionText(text).replace(/[^a-z0-9]+/g, "-") || "choice"}-${index}`;
-}
-
-function escapeRegex(text) {
-  return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function extractEnglishPrompt(example) {
-  const text = String(example ?? "").trim();
-
-  if (!text) {
-    return "";
-  }
-
-  const chineseParenIndex = text.search(/\s*[\(（][\u4e00-\u9fff]/);
-
-  if (chineseParenIndex > 0) {
-    return text.slice(0, chineseParenIndex).trim();
-  }
-
-  return text;
-}
-
-function buildWholeWordPattern(word) {
-  const normalizedWord = String(word ?? "").trim();
-
-  if (!normalizedWord || normalizedWord.includes("/")) {
-    return null;
-  }
-
-  const escaped = escapeRegex(normalizedWord).replace(/\\\s+/g, "\\s+");
-  return new RegExp(`(?<![A-Za-z])${escaped}(?![A-Za-z])`, "i");
-}
-
-function createClozePrompt(word, example) {
-  const englishPrompt = extractEnglishPrompt(example);
-  const pattern = buildWholeWordPattern(word);
-
-  if (!englishPrompt || !pattern) {
-    return null;
-  }
-
-  if (!pattern.test(englishPrompt)) {
-    return null;
-  }
-
-  return englishPrompt.replace(pattern, "____");
 }
 
 function buildUniqueMeaningChoices(correctWord, vocabulary, choiceCount = 4) {

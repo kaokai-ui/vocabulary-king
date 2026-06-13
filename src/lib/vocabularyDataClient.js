@@ -1,6 +1,10 @@
 let cachedCatalog = null;
 const cachedVocabularyByTrack = new Map();
 
+import { VocabularyDataError, VOCABULARY_ERROR_TYPES } from "./vocabularyDataErrors";
+
+export { VocabularyDataError, VOCABULARY_ERROR_TYPES };
+
 export function buildVersionedVocabularyUrl(path, version) {
   const url = `${import.meta.env.BASE_URL}${path}`;
 
@@ -12,17 +16,29 @@ export function buildVersionedVocabularyUrl(path, version) {
   return `${url}${separator}v=${encodeURIComponent(version)}`;
 }
 
-async function fetchJson(url, { signal, cache } = {}) {
-  const response = await fetch(url, {
-    signal,
-    cache
-  });
+async function fetchJson(url, { signal, cache, errorType } = {}) {
+  try {
+    const response = await fetch(url, {
+      signal,
+      cache
+    });
 
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      throw new VocabularyDataError(errorType, `HTTP ${response.status} from ${url}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new VocabularyDataError(VOCABULARY_ERROR_TYPES.requestAborted, url);
+    }
+
+    if (error instanceof VocabularyDataError) {
+      throw error;
+    }
+
+    throw new VocabularyDataError(errorType, error.message);
   }
-
-  return response.json();
 }
 
 export async function loadVocabularyCatalog({ signal, forceRefresh = false } = {}) {
@@ -33,7 +49,8 @@ export async function loadVocabularyCatalog({ signal, forceRefresh = false } = {
   const catalogUrl = `${import.meta.env.BASE_URL}data/catalog.json`;
   cachedCatalog = await fetchJson(catalogUrl, {
     signal,
-    cache: forceRefresh ? "reload" : "no-cache"
+    cache: forceRefresh ? "reload" : "no-cache",
+    errorType: VOCABULARY_ERROR_TYPES.catalogLoadFailed
   });
 
   return cachedCatalog;
@@ -61,7 +78,7 @@ export async function loadAvailableTrack(catalog, trackId, { signal, forceRefres
   }
 
   if (!track) {
-    throw new Error(`Track is unavailable: ${trackId}`);
+    throw new VocabularyDataError(VOCABULARY_ERROR_TYPES.trackUnavailable, trackId);
   }
 
   return {
@@ -89,7 +106,8 @@ export async function loadVocabularyTrack(trackId, { catalog, signal, forceRefre
     track.chunkFiles.map((chunkFile) =>
       fetchJson(buildVersionedVocabularyUrl(chunkFile.path, version), {
         signal,
-        cache: forceRefresh ? "reload" : "force-cache"
+        cache: forceRefresh ? "reload" : "force-cache",
+        errorType: VOCABULARY_ERROR_TYPES.chunkLoadFailed
       })
     )
   );

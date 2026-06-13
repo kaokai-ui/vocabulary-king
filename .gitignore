@@ -37,6 +37,8 @@ tmp_toeic_repo/
 *_backup.xlsx
 *_before_refine.xlsx
 test.xlsx
+BUG.md
+DEV.md
 
 # Unused duplicate assets kept only for local reference
 public/branding/logo-home - *.png

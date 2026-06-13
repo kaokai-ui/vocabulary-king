@@ -2,21 +2,9 @@ export const QUIZ_TIME_LIMIT_MS = 10000;
 export { QUIZ_MODES } from "./quiz/questionBuilders";
 
 import { buildQuizQuestions } from "./quiz/questionBuilders";
+import { shuffle, sample } from "./random";
 
-export function shuffle(items) {
-  const next = [...items];
-
-  for (let index = next.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [next[index], next[swapIndex]] = [next[swapIndex], next[index]];
-  }
-
-  return next;
-}
-
-export function sample(items, count) {
-  return shuffle(items).slice(0, count);
-}
+export { shuffle, sample };
 
 export function createQuizQuestions(vocabulary, count, options = {}) {
   return buildQuizQuestions(vocabulary, {

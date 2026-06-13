@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import xlsx from "xlsx";
 import { buildDisambiguatedVocabularyId, buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
@@ -483,6 +484,11 @@ function writeJson(filePath, value) {
   fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n", "utf8");
 }
 
+function contentHash(value) {
+  const json = JSON.stringify(value);
+  return createHash("sha256").update(json).digest("hex").slice(0, 12);
+}
+
 function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
   return {
     id: definition.id,
@@ -557,8 +563,12 @@ for (const definition of PLACEHOLDER_TRACKS) {
   };
 }
 
+const catalogPayload = {
+  tracks: catalogTracks
+};
+
 writeJson(path.join(DATA_ROOT, "catalog.json"), {
-  generatedAt: new Date().toISOString(),
+  generatedAt: contentHash(catalogPayload),
   tracks: catalogTracks
 });
 

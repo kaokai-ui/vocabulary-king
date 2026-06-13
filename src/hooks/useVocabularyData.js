@@ -1,9 +1,11 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   getCachedCatalog,
   getCachedVocabulary,
   loadVocabularyCatalog,
-  loadVocabularyTrack
+  loadVocabularyTrack,
+  VocabularyDataError,
+  VOCABULARY_ERROR_TYPES
 } from "../lib/vocabularyDataClient";
 
 export function useVocabularyData(trackId) {
@@ -15,9 +17,11 @@ export function useVocabularyData(trackId) {
   const [isVocabularyLoading, setIsVocabularyLoading] = useState(() => !getCachedVocabulary(trackId));
   const [loadedTrackId, setLoadedTrackId] = useState(() => (getCachedVocabulary(trackId) ? trackId : null));
   const [retryKey, setRetryKey] = useState(0);
+  const retryConsumedRef = useRef(false);
 
   const retryVocabulary = useCallback(() => {
     setRetryKey((currentRetryKey) => currentRetryKey + 1);
+    retryConsumedRef.current = false;
   }, []);
 
   useEffect(() => {
@@ -25,7 +29,11 @@ export function useVocabularyData(trackId) {
     const abortController = new AbortController();
     const cachedCatalog = getCachedCatalog();
     const cachedVocabulary = getCachedVocabulary(trackId);
-    const forceRefresh = retryKey > 0;
+    const forceRefresh = retryKey > 0 && !retryConsumedRef.current;
+
+    if (forceRefresh) {
+      retryConsumedRef.current = true;
+    }
 
     if (cachedCatalog) {
       setCatalog(cachedCatalog);
@@ -77,25 +85,25 @@ export function useVocabularyData(trackId) {
             setIsVocabularyLoading(false);
           }
         } catch (error) {
-          if (error?.name === "AbortError") {
+          if (error instanceof VocabularyDataError && error.type === VOCABULARY_ERROR_TYPES.requestAborted) {
             return;
           }
 
           if (!isCancelled) {
             setVocabulary([]);
             setLoadedTrackId(null);
-            setVocabularyError("load-failed");
+            setVocabularyError(error instanceof VocabularyDataError ? error.type : "load-failed");
             setIsVocabularyLoading(false);
           }
         }
       } catch (error) {
-        if (error?.name === "AbortError") {
+        if (error instanceof VocabularyDataError && error.type === VOCABULARY_ERROR_TYPES.requestAborted) {
           return;
         }
 
         if (!isCancelled) {
-          setCatalogError("load-failed");
-          setVocabularyError("load-failed");
+          setCatalogError(error instanceof VocabularyDataError ? error.type : "load-failed");
+          setVocabularyError(error instanceof VocabularyDataError ? error.type : "load-failed");
           setIsCatalogLoading(false);
           setIsVocabularyLoading(false);
         }

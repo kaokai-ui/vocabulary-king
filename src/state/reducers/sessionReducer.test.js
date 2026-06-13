@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { actionTypes } from "../actionTypes";
 import { sessionReducer } from "./sessionReducer";
-import { QUIZ_MODES } from "../../lib/game";
+import { createQuizQuestions, QUIZ_MODES } from "../../lib/game";
 
 describe("sessionReducer", () => {
   const initialState = {
@@ -181,5 +181,120 @@ describe("sessionReducer", () => {
         isCorrect: true
       }
     ]);
+  });
+});
+
+describe("startQuiz + createQuizQuestions integration", () => {
+  const noExampleVocabulary = [
+    { id: "1", word: "cat", meaning: "貓", level: "L1", example: "" },
+    { id: "2", word: "dog", meaning: "狗", level: "L1", example: "" }
+  ];
+
+  const clozeVocabulary = [
+    { id: "1", word: "announce", meaning: "宣布", level: "L3", example: "They will announce the plan. (他們將宣布計畫。)" },
+    { id: "2", word: "borrow", meaning: "借", level: "L3", example: "I need to borrow a pen. (我需要借一支筆。)" },
+    { id: "3", word: "reduce", meaning: "減少", level: "L3", example: "We need to reduce waste. (我們需要減少浪費。)" },
+    { id: "4", word: "cancel", meaning: "取消", level: "L3", example: "They had to cancel the meeting. (他們必須取消會議。)" },
+    { id: "5", word: "prepare", meaning: "準備", level: "L3", example: "Students prepare for the test. (學生為考試做準備。)" }
+  ];
+
+  const initialState = { screen: "home", flashcards: null, quiz: null };
+
+  it("stores actual question count when cloze returns 0 questions", () => {
+    const questions = createQuizQuestions(noExampleVocabulary, 10, { mode: QUIZ_MODES.clozeChoice });
+    expect(questions).toHaveLength(0);
+
+    const nextState = sessionReducer(initialState, {
+      type: actionTypes.startQuiz,
+      payload: {
+        mode: QUIZ_MODES.clozeChoice,
+        timerEnabled: false,
+        questionCount: 0,
+        startedAt: Date.now(),
+        questions
+      }
+    });
+
+    expect(nextState.quiz.questionCount).toBe(0);
+    expect(nextState.quiz.questions).toHaveLength(0);
+  });
+
+  it("stores actual question count when fewer questions are produced than requested", () => {
+    const questions = createQuizQuestions(noExampleVocabulary, 50, { mode: QUIZ_MODES.meaningChoice });
+    expect(questions.length).toBeLessThan(50);
+
+    const nextState = sessionReducer(initialState, {
+      type: actionTypes.startQuiz,
+      payload: {
+        mode: QUIZ_MODES.meaningChoice,
+        timerEnabled: true,
+        questionCount: questions.length,
+        startedAt: Date.now(),
+        questions
+      }
+    });
+
+    expect(nextState.quiz.questionCount).toBe(questions.length);
+    expect(nextState.quiz.questions).toHaveLength(questions.length);
+  });
+
+  it("computes accuracy with actual question count, not the original requested count", () => {
+    const questions = createQuizQuestions(clozeVocabulary, 3, { mode: QUIZ_MODES.clozeChoice });
+    const actualCount = questions.length;
+
+    const quizState = {
+      screen: "quiz",
+      flashcards: null,
+      quiz: {
+        mode: QUIZ_MODES.clozeChoice,
+        timerEnabled: false,
+        questionCount: actualCount,
+        currentIndex: actualCount - 1,
+        correctCount: actualCount - 1,
+        wrongCount: 1,
+        selectedChoiceId: "choice-x",
+        isLocked: true,
+        questionStartedAt: 1000,
+        answers: questions.map((q) => ({
+          questionId: q.id,
+          questionType: q.type,
+          wordId: q.wordId,
+          prompt: q.reviewPrompt,
+          answerWord: q.answerWord,
+          correctText: q.correctText,
+          selectedText: q.correctText,
+          isCorrect: true
+        })),
+        questions,
+        accuracy: 0
+      }
+    };
+
+    const accuracy = Math.round(((actualCount - 1) / actualCount) * 100);
+
+    const nextState = sessionReducer(quizState, {
+      type: actionTypes.completeQuiz,
+      payload: { accuracy }
+    });
+
+    expect(nextState.quiz.accuracy).toBe(accuracy);
+    expect(nextState.quiz.accuracy).not.toBe(0);
+  });
+
+  it("startQuiz with 0 questions still stores the quiz session", () => {
+    const nextState = sessionReducer(initialState, {
+      type: actionTypes.startQuiz,
+      payload: {
+        mode: QUIZ_MODES.clozeChoice,
+        timerEnabled: false,
+        questionCount: 0,
+        startedAt: Date.now(),
+        questions: []
+      }
+    });
+
+    expect(nextState.screen).toBe("quiz");
+    expect(nextState.quiz.questionCount).toBe(0);
+    expect(nextState.quiz.questions).toEqual([]);
   });
 });

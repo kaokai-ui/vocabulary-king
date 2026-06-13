@@ -102,5 +102,6 @@ export const enMessages = {
   loadingVocabulary: "Loading vocabulary...",
   retryVocabulary: "Retry loading",
   vocabularyLoadFailed: "Failed to load vocabulary. Please refresh the page.",
-  emptyVocabularyTrack: "This vocabulary track does not have any words yet."
+  emptyVocabularyTrack: "This vocabulary track does not have any words yet.",
+  noQuizQuestionsAvailable: "No quiz questions could be created from this vocabulary. Try a different quiz mode or vocabulary track."
 };

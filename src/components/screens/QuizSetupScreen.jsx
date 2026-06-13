@@ -3,6 +3,15 @@ import StageHeader from "../shared/StageHeader";
 
 export default function QuizSetupScreen({ text, title, subtitle, startButtonLabel, onHome, onStartQuiz }) {
   const [selectedCount, setSelectedCount] = useState(10);
+  const [noQuestions, setNoQuestions] = useState(false);
+
+  function handleStartQuiz() {
+    const started = onStartQuiz(selectedCount);
+
+    if (started === false) {
+      setNoQuestions(true);
+    }
+  }
 
   return (
     <main className="stage-shell">
@@ -13,7 +22,10 @@ export default function QuizSetupScreen({ text, title, subtitle, startButtonLabe
             key={count}
             className={selectedCount === count ? "chip chip--active quiz-count-chip" : "chip quiz-count-chip"}
             type="button"
-            onClick={() => setSelectedCount(count)}
+            onClick={() => {
+              setSelectedCount(count);
+              setNoQuestions(false);
+            }}
           >
             {count} {text.questionsUnit}
           </button>
@@ -24,7 +36,8 @@ export default function QuizSetupScreen({ text, title, subtitle, startButtonLabe
         <h2>
           {selectedCount} {text.questionsUnit}
         </h2>
-        <button className="solid-button" type="button" onClick={() => onStartQuiz(selectedCount)}>
+        {noQuestions ? <p className="empty-state">{text.noQuizQuestionsAvailable}</p> : null}
+        <button className="solid-button" type="button" onClick={handleStartQuiz}>
           {startButtonLabel ?? text.startQuiz}
         </button>
       </section>

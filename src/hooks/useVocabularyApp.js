@@ -1,38 +1,45 @@
-import { useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { useEffect, useMemo, useReducer, useRef } from "react";
 import { normalizeVocabularyTrack } from "../constants/vocabularyTracks";
 import { messages } from "../i18n/messages";
 import { countProgress, createPracticeDeck, getResumeScreen } from "../lib/appState";
 import { trackEvent } from "../lib/analytics";
-import { loadPersistedAppState, savePersistedAppState } from "../lib/persistence";
-import { getTrackProgress, isTrackProgressEqual, migrateTrackProgress } from "../lib/progress";
 import { isMasteredWord, shuffle } from "../lib/game";
-import { speakWord, stopSpeaking } from "../lib/speech";
-import { STORAGE_KEYS, writeStoredValue } from "../lib/storage";
 import { actionTypes } from "../state/actionTypes";
 import { appReducer, createInitialAppState } from "../state/appReducer";
+import { useFlashcardSeenTracking } from "./useFlashcardSeenTracking";
+import { usePersistedAppState } from "./usePersistedAppState";
+import { usePronunciation } from "./usePronunciation";
 import { useQuizSession } from "./useQuizSession";
+import { useSavedWords } from "./useSavedWords";
+import { useTrackProgressSync } from "./useTrackProgressSync";
 
 export function useVocabularyApp(vocabulary) {
   const [state, dispatch] = useReducer(appReducer, undefined, createInitialAppState);
-  const [isPersistenceReady, setIsPersistenceReady] = useState(false);
-  const [storageMode, setStorageMode] = useState("localstorage");
   const sessionRef = useRef(state.session);
-  const flashcardSeenRef = useRef(null);
 
   const { settings, progress, session, now, pronunciationMessage } = state;
   const activeTrackId = settings.vocabularyTrack;
-  const activeProgress = useMemo(() => getTrackProgress(progress, activeTrackId), [progress, activeTrackId]);
-  const savedWords = useMemo(() => progress.savedWords ?? [], [progress.savedWords]);
   const text = messages[settings.locale] ?? messages.en;
+
+  const { isPersistenceReady, storageMode } = usePersistedAppState({ dispatch, settings, progress, session });
+
+  const { activeProgress } = useTrackProgressSync({ dispatch, isPersistenceReady, progress, vocabulary, activeTrackId });
 
   const vocabularyById = useMemo(
     () => Object.fromEntries(vocabulary.map((word) => [word.id, word])),
     [vocabulary]
   );
-  const savedWordById = useMemo(
-    () => Object.fromEntries(savedWords.map((word) => [word.id, word])),
-    [savedWords]
-  );
+
+  const { savedWords, savedWordById } = useSavedWords({
+    dispatch,
+    isPersistenceReady,
+    progress,
+    vocabulary,
+    vocabularyById,
+    activeTrackId,
+    activeProgress
+  });
+
   const flashcardWordById = useMemo(
     () => ({
       ...savedWordById,
@@ -50,6 +57,10 @@ export function useVocabularyApp(vocabulary) {
     session.flashcards && currentFlashcards.length > 0
       ? currentFlashcards[session.flashcards.currentIndex % currentFlashcards.length]
       : null;
+
+  useFlashcardSeenTracking({ dispatch, activeTrackId, session, currentFlashcard });
+
+  const { pronounce } = usePronunciation({ dispatch });
 
   const stats = useMemo(() => countProgress(activeProgress, vocabulary, isMasteredWord), [activeProgress, vocabulary]);
   const hasSavedSession = session.screen === "home" && Boolean(session.flashcards || session.quiz);
@@ -69,122 +80,6 @@ export function useVocabularyApp(vocabulary) {
   useEffect(() => {
     sessionRef.current = session;
   }, [session]);
-
-  useEffect(() => {
-    let isCancelled = false;
-
-    loadPersistedAppState().then((persistedState) => {
-      if (isCancelled) {
-        return;
-      }
-
-      dispatch({
-        type: actionTypes.hydratePersistence,
-        payload: {
-          progress: persistedState.progress,
-          session: persistedState.session
-        }
-      });
-
-      setStorageMode(persistedState.storageMode);
-      setIsPersistenceReady(true);
-    });
-
-    return () => {
-      isCancelled = true;
-    };
-  }, []);
-
-  useEffect(() => {
-    writeStoredValue(STORAGE_KEYS.settings, settings);
-  }, [settings]);
-
-  useEffect(() => {
-    if (!isPersistenceReady) {
-      return;
-    }
-
-    savePersistedAppState({ progress, session }).then((mode) => {
-      setStorageMode(mode);
-    });
-  }, [isPersistenceReady, progress, session]);
-
-  useEffect(() => {
-    if (!isPersistenceReady || vocabulary.length === 0) {
-      return;
-    }
-
-    const migratedProgress = migrateTrackProgress(activeProgress, vocabulary);
-
-    if (isTrackProgressEqual(activeProgress, migratedProgress) && progress.byTrack?.[activeTrackId]) {
-      return;
-    }
-
-    dispatch({
-      type: actionTypes.syncTrackProgress,
-      payload: {
-        trackId: activeTrackId,
-        progress: migratedProgress
-      }
-    });
-  }, [activeProgress, activeTrackId, isPersistenceReady, progress.byTrack, vocabulary]);
-
-  useEffect(() => {
-    if (!isPersistenceReady || vocabulary.length === 0 || activeProgress.starredWordIds.length === 0) {
-      return;
-    }
-
-    const missingSavedWords = activeProgress.starredWordIds
-      .filter((wordId) => !savedWordById[wordId])
-      .map((wordId) => vocabularyById[wordId])
-      .filter(Boolean)
-      .map((word) => ({
-        ...word,
-        sourceTrackId: activeTrackId
-      }));
-
-    if (missingSavedWords.length === 0) {
-      return;
-    }
-
-    dispatch({
-      type: actionTypes.addStarredWords,
-      payload: missingSavedWords,
-      meta: {
-        trackId: activeTrackId
-      }
-    });
-  }, [activeProgress.starredWordIds, activeTrackId, dispatch, isPersistenceReady, savedWordById, vocabulary, vocabularyById]);
-
-  useEffect(() => {
-    if (!currentFlashcard || session.screen !== "flashcards") {
-      return;
-    }
-
-    const seenKey = `${session.screen}:${session.flashcards?.currentIndex}:${currentFlashcard.id}`;
-
-    if (flashcardSeenRef.current === seenKey) {
-      return;
-    }
-
-    flashcardSeenRef.current = seenKey;
-    dispatch({
-      type: actionTypes.markWordSeen,
-      payload: {
-        wordId: currentFlashcard.id,
-        seenAt: Date.now()
-      },
-      meta: {
-        trackId: activeTrackId
-      }
-    });
-  }, [activeTrackId, currentFlashcard, session.flashcards?.currentIndex, session.screen]);
-
-  useEffect(() => {
-    return () => {
-      stopSpeaking();
-    };
-  }, []);
 
   function updateSetting(key, value) {
     const nextValue = key === "vocabularyTrack" ? normalizeVocabularyTrack(value) : value;
@@ -253,22 +148,6 @@ export function useVocabularyApp(vocabulary) {
     });
   }
 
-  async function pronounce(textToSpeak) {
-    dispatch({
-      type: actionTypes.setPronunciationMessage,
-      payload: ""
-    });
-
-    const result = await speakWord(textToSpeak);
-
-    if (!result.ok) {
-      dispatch({
-        type: actionTypes.setPronunciationMessage,
-        payload: result.reason === "inAppBrowser" ? text.pronunciationOpenInChrome : text.pronunciationUnavailable
-      });
-    }
-  }
-
   function startFlashcards(mode) {
     const deck = mode === "starred" ? savedWords : createPracticeDeck(mode, activeProgress, vocabulary);
 
@@ -326,7 +205,7 @@ export function useVocabularyApp(vocabulary) {
       toggleStarredWord,
       addStarredWords,
       toggleKnownWord,
-      pronounce,
+      pronounce: (textToSpeak) => pronounce(textToSpeak, text),
       startFlashcards,
       advanceFlashcard,
       startQuiz,

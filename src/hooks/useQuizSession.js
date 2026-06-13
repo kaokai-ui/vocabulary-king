@@ -135,17 +135,25 @@ export function useQuizSession({
   function startQuiz(questionCount, mode = QUIZ_MODES.meaningChoice) {
     const isMeaningQuiz = mode === QUIZ_MODES.meaningChoice;
     const nextTimerEnabled = isMeaningQuiz ? settings.meaningQuizTimerEnabled : settings.clozeQuizTimerEnabled;
+    const questions = createQuizQuestions(vocabulary, questionCount, { mode });
+    const actualQuestionCount = questions.length;
+
+    if (actualQuestionCount === 0) {
+      return false;
+    }
 
     dispatch({
       type: actionTypes.startQuiz,
       payload: {
         mode,
         timerEnabled: nextTimerEnabled,
-        questionCount,
-        questions: createQuizQuestions(vocabulary, questionCount, { mode }),
+        questionCount: actualQuestionCount,
+        questions,
         startedAt: Date.now()
       }
     });
+
+    return true;
   }
 
   return {

@@ -100,5 +100,6 @@ export const zhTWMessages = {
   loadingVocabulary: "正在載入題庫...",
   retryVocabulary: "重新載入",
   vocabularyLoadFailed: "題庫載入失敗，請重新整理頁面。",
-  emptyVocabularyTrack: "這個題庫目前還沒有資料。"
+  emptyVocabularyTrack: "這個題庫目前還沒有資料。",
+  noQuizQuestionsAvailable: "目前詞庫無法產生測驗題目，請嘗試其他測驗模式或詞庫。"
 };
