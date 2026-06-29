@@ -9,7 +9,9 @@ export default function QuizResultScreen({
   savedWrongWordCount = 0,
   onSaveWrongWords,
   onHome,
-  onRestartQuiz
+  onRestartQuiz,
+  starredWordIds = [],
+  onAddWordToWordList
 }) {
   if (!quiz) {
     return null;
@@ -56,15 +58,31 @@ export default function QuizResultScreen({
               </tr>
             </thead>
             <tbody>
-              {quiz.answers.map((answer) => (
-                <tr key={`${answer.questionId}-${answer.wordId}`}>
-                  <td>{answer.prompt}</td>
-                  <td>{answer.correctText}</td>
-                  <td className={answer.isCorrect ? "answer-cell answer-cell--correct" : "answer-cell answer-cell--wrong"}>
-                    {answer.selectedText ?? text.timedOut}
-                  </td>
-                </tr>
-              ))}
+              {quiz.answers.map((answer) => {
+                const isStarred = starredWordIds.includes(answer.wordId);
+                return (
+                  <tr key={`${answer.questionId}-${answer.wordId}`}>
+                    <td>{answer.prompt}</td>
+                    <td>
+                      <div className="result-answer-cell">
+                        <span>{answer.correctText}</span>
+                        <button
+                          className={isStarred ? "add-word-button add-word-button--active" : "add-word-button"}
+                          type="button"
+                          disabled={isStarred}
+                          onClick={() => !isStarred && onAddWordToWordList?.(answer.wordId)}
+                          aria-label={isStarred ? text.wordAddedToList : text.addWordToList}
+                        >
+                          {isStarred ? text.wordAddedToList : text.addWordToList}
+                        </button>
+                      </div>
+                    </td>
+                    <td className={answer.isCorrect ? "answer-cell answer-cell--correct" : "answer-cell answer-cell--wrong"}>
+                      {answer.selectedText ?? text.timedOut}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

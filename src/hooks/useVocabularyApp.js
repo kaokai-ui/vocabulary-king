@@ -197,6 +197,7 @@ export function useVocabularyApp(vocabulary) {
     timeLeftSeconds,
     starredWords,
     knownWords,
+    vocabularyById,
     actions: {
       goHome: () => dispatch({ type: actionTypes.goHome }),
       openScreen: (screen) => dispatch({ type: actionTypes.openScreen, payload: screen }),

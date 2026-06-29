@@ -101,5 +101,11 @@ export const zhTWMessages = {
   retryVocabulary: "重新載入",
   vocabularyLoadFailed: "題庫載入失敗，請重新整理頁面。",
   emptyVocabularyTrack: "這個題庫目前還沒有資料。",
-  noQuizQuestionsAvailable: "目前詞庫無法產生測驗題目，請嘗試其他測驗模式或詞庫。"
+  noQuizQuestionsAvailable: "目前詞庫無法產生測驗題目，請嘗試其他測驗模式或詞庫。",
+  wordSearch: "單字搜尋",
+  wordSearchPlaceholder: "輸入單字",
+  wordSearchHint: "從全域詞彙庫搜尋單字，查看釋義與例句。",
+  wordSearchNotFound: "目前詞彙庫未收錄此單字",
+  addWordToList: "+",
+  wordAddedToList: "✓"
 };

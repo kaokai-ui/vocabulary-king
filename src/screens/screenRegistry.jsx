@@ -7,6 +7,7 @@ import QuizSetupScreen from "../components/screens/QuizSetupScreen";
 import SettingsScreen from "../components/screens/SettingsScreen";
 import StatsScreen from "../components/screens/StatsScreen";
 import WordListScreen from "../components/screens/WordListScreen";
+import WordSearchScreen from "../components/screens/WordSearchScreen";
 import { vocabularyTracks } from "../constants/vocabularyTracks";
 import { QUIZ_MODES } from "../lib/game";
 import { actionTypes } from "../state/actionTypes";
@@ -61,6 +62,11 @@ export const screenAnalytics = {
     pagePath: "/settings",
     pageTitle: "Vocabulary King - Settings",
     screenName: "settings"
+  },
+  wordSearch: {
+    pagePath: "/word-search",
+    pageTitle: "Vocabulary King - Word Search",
+    screenName: "word_search"
   }
 };
 
@@ -160,6 +166,13 @@ export const screenRegistry = {
       onSaveWrongWords={context.actions.addStarredWords}
       onHome={context.actions.goHome}
       onRestartQuiz={context.actions.startQuiz}
+      starredWordIds={context.starredWords.map((w) => w.id)}
+      onAddWordToWordList={(wordId) => {
+        const word = context.vocabularyById?.[wordId];
+        if (word) {
+          context.actions.toggleStarredWord(word, word.sourceTrackId ?? context.settings.vocabularyTrack);
+        }
+      }}
     />
   ),
   wordList: (context) => (
@@ -230,9 +243,21 @@ export const screenRegistry = {
       onOpenKnownWords={() => context.actions.openScreen("knownWords")}
       onOpenStats={() => context.actions.openScreen("stats")}
       onOpenSettings={() => context.actions.openScreen("settings")}
+      onOpenWordSearch={() => context.actions.openScreen("wordSearch")}
       onResume={() => context.actions.openScreen(context.helpers.getResumeScreen())}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
       onRetryVocabulary={context.retryVocabulary}
+    />
+  ),
+  wordSearch: (context) => (
+    <WordSearchScreen
+      text={context.text}
+      vocabulary={context.allVocabulary}
+      starredWordIds={context.starredWords.map((w) => w.id)}
+      isLoadingVocabulary={context.isLoadingAllVocabulary}
+      onHome={context.actions.goHome}
+      onPronounce={context.actions.pronounce}
+      onAddWordToWordList={(word) => context.actions.toggleStarredWord(word, word.sourceTrackId ?? context.settings.vocabularyTrack)}
     />
   )
 };

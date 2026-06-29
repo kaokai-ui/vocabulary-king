@@ -22,6 +22,7 @@ export default function HomeScreen({
   onOpenKnownWords,
   onOpenStats,
   onOpenSettings,
+  onOpenWordSearch,
   onResume,
   onChangeLocale,
   onRetryVocabulary
@@ -121,6 +122,12 @@ export default function HomeScreen({
           <span className="eyebrow">{text.stats}</span>
           <h2>{progressRate}%</h2>
           <p>{text.statsExplanation}</p>
+        </button>
+
+        <button className="feature-card feature-card--search" type="button" onClick={onOpenWordSearch}>
+          <span className="eyebrow">{text.wordSearch}</span>
+          <h2>{text.wordSearch}</h2>
+          <p>{text.wordSearchHint}</p>
         </button>
 
         <button className="feature-card" type="button" onClick={onOpenSettings}>

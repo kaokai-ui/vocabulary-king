@@ -1,14 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { messages } from "./i18n/messages";
 import { useVocabularyApp } from "./hooks/useVocabularyApp";
 import { trackScreenView } from "./lib/analytics";
 import { warmSpeechVoices } from "./lib/speech";
 import { useVocabularyData } from "./hooks/useVocabularyData";
+import { useAllVocabulary } from "./hooks/useAllVocabulary";
 import { readStoredSettings } from "./lib/storage";
 import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
 
 function App() {
   const [activeTrack, setActiveTrack] = useState(() => readStoredSettings().vocabularyTrack);
+  const hasAttemptedWordSearchLoadRef = useRef(false);
   const {
     vocabulary,
     catalog,
@@ -20,10 +22,23 @@ function App() {
     retryVocabulary
   } = useVocabularyData(activeTrack);
   const app = useVocabularyApp(vocabulary);
+  const { allVocabulary, hasLoadedAllVocabulary, isLoadingAllVocabulary, loadAllVocabulary } = useAllVocabulary(vocabulary, activeTrack);
   const activeScreenKey = screenRegistry[app.session.screen] ? app.session.screen : "home";
   const activeCatalogTrack = catalog?.tracks?.[activeTrack] ?? null;
   const vocabularyCount = isVocabularyReady ? vocabulary.length : activeCatalogTrack?.totalWords ?? vocabulary.length;
   const isHomeScreen = activeScreenKey === "home";
+
+  useEffect(() => {
+    if (activeScreenKey !== "wordSearch") {
+      hasAttemptedWordSearchLoadRef.current = false;
+      return;
+    }
+
+    if (!hasAttemptedWordSearchLoadRef.current && !hasLoadedAllVocabulary && !isLoadingAllVocabulary) {
+      hasAttemptedWordSearchLoadRef.current = true;
+      loadAllVocabulary();
+    }
+  }, [activeScreenKey, hasLoadedAllVocabulary, isLoadingAllVocabulary, loadAllVocabulary]);
 
   useEffect(() => {
     if (app.settings.vocabularyTrack !== activeTrack) {
@@ -77,15 +92,17 @@ function App() {
     return renderVocabularyPlaceholder(app.text.loadingVocabulary);
   }
 
-  if (!isHomeScreen && vocabularyError) {
+  const isWordSearchScreen = activeScreenKey === "wordSearch";
+
+  if (!isHomeScreen && !isWordSearchScreen && vocabularyError) {
     return renderVocabularyPlaceholder(app.text.vocabularyLoadFailed, true);
   }
 
-  if (!isHomeScreen && isVocabularyLoading) {
+  if (!isHomeScreen && !isWordSearchScreen && isVocabularyLoading) {
     return renderVocabularyPlaceholder(app.text.loadingVocabulary);
   }
 
-  if (!isHomeScreen && isVocabularyReady && vocabulary.length === 0) {
+  if (!isHomeScreen && !isWordSearchScreen && isVocabularyReady && vocabulary.length === 0) {
     return renderVocabularyPlaceholder(app.text.emptyVocabularyTrack);
   }
 
@@ -95,11 +112,13 @@ function App() {
     catalogTrack: activeCatalogTrack,
     isVocabularyLoading,
     isVocabularyReady,
+    isLoadingAllVocabulary,
     messages,
     retryVocabulary,
     vocabulary,
     vocabularyCount,
-    vocabularyError
+    vocabularyError,
+    allVocabulary
   });
 }
 

@@ -73,7 +73,8 @@ button {
 .word-row,
 .toggle-card,
 .flashcard-stage,
-.quiz-stage {
+.quiz-stage,
+.search-panel {
   backdrop-filter: blur(16px);
   background: var(--panel);
   border: 1px solid var(--border);

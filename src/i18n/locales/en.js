@@ -103,5 +103,11 @@ export const enMessages = {
   retryVocabulary: "Retry loading",
   vocabularyLoadFailed: "Failed to load vocabulary. Please refresh the page.",
   emptyVocabularyTrack: "This vocabulary track does not have any words yet.",
-  noQuizQuestionsAvailable: "No quiz questions could be created from this vocabulary. Try a different quiz mode or vocabulary track."
+  noQuizQuestionsAvailable: "No quiz questions could be created from this vocabulary. Try a different quiz mode or vocabulary track.",
+  wordSearch: "Word Search",
+  wordSearchPlaceholder: "Enter a word",
+  wordSearchHint: "Search words across all vocabulary tracks.",
+  wordSearchNotFound: "This word is not in the vocabulary database.",
+  addWordToList: "+",
+  wordAddedToList: "✓"
 };

@@ -166,3 +166,9 @@
   flex-wrap: wrap;
   margin-top: 24px;
 }
+
+.feature-card--search {
+  background:
+    linear-gradient(140deg, rgba(69, 123, 157, 0.28), rgba(42, 157, 143, 0.12)),
+    var(--panel);
+}
