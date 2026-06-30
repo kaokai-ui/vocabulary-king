@@ -66,7 +66,7 @@ export const zhTWMessages = {
   language: "語系",
   vocabularyTrack: "詞彙量等級",
   vocabularyTrackCurrent: "詞彙等級",
-  vocabularyTrackHint: "目前可使用國中、高中(L3-4)、高中(L5-6)、全民英檢初級 / 中級 / 中高，以及 TOEIC(核心) / TOEIC(進階)題庫。",
+  vocabularyTrackHint: "目前可使用國中、高中(L3-4)、高中(L5-6)、全民英檢初級 / 中級 / 中高，以及 TOEIC(核心) / TOEIC(進階) / TOEFL 題庫。",
   vocabularyTrackLocked: "尚未開放",
   vocabularyTrackJuniorHigh: "國中",
   vocabularyTrackSeniorHigh: "高中(L3-4)",
@@ -76,6 +76,7 @@ export const zhTWMessages = {
   vocabularyTrackGeptHighIntermediate: "全民英檢中高",
   vocabularyTrackToeic: "TOEIC(核心)",
   vocabularyTrackToeicAdvanced: "TOEIC(進階)",
+  vocabularyTrackToefl: "TOEFL",
   vocabularyTrackGept: "GEPT全民英檢",
   autoShowMeaning: "進入閃卡時預設顯示中文意思",
   autoShowExample: "進入閃卡時預設顯示例句",
@@ -106,6 +107,7 @@ export const zhTWMessages = {
   wordSearchPlaceholder: "輸入單字",
   wordSearchHint: "從全域詞彙庫搜尋單字，查看釋義與例句。",
   wordSearchNotFound: "目前詞彙庫未收錄此單字",
+  exportWordListCsv: "匯出 CSV",
   addWordToList: "+",
   wordAddedToList: "✓"
 };

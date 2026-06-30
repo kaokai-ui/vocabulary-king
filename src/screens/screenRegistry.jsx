@@ -106,6 +106,14 @@ export const screenRegistry = {
           context.currentFlashcard.sourceTrackId ?? context.settings.vocabularyTrack
         )
       }
+      onAddToWordList={() =>
+        context.currentFlashcard &&
+        !context.starredWords.some((word) => word.id === context.currentFlashcard.id) &&
+        context.actions.toggleStarredWord(
+          context.currentFlashcard,
+          context.currentFlashcard.sourceTrackId ?? context.settings.vocabularyTrack
+        )
+      }
       onToggleKnown={() => context.currentFlashcard && context.actions.toggleKnownWord(context.currentFlashcard.id)}
       onNext={context.actions.advanceFlashcard}
     />

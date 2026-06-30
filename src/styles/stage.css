@@ -101,6 +101,13 @@
   margin-top: 24px;
 }
 
+.list-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
 .word-row,
 .setting-row,
 .history-row {

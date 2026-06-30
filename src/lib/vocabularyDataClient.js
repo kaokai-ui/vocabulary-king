@@ -5,6 +5,10 @@ import { VocabularyDataError, VOCABULARY_ERROR_TYPES } from "./vocabularyDataErr
 
 export { VocabularyDataError, VOCABULARY_ERROR_TYPES };
 
+function shouldRevalidateCatalogInMemory() {
+  return Boolean(import.meta.env?.DEV);
+}
+
 export function buildVersionedVocabularyUrl(path, version) {
   const url = `${import.meta.env.BASE_URL}${path}`;
 
@@ -42,7 +46,7 @@ async function fetchJson(url, { signal, cache, errorType } = {}) {
 }
 
 export async function loadVocabularyCatalog({ signal, forceRefresh = false } = {}) {
-  if (!forceRefresh && cachedCatalog) {
+  if (!forceRefresh && cachedCatalog && !shouldRevalidateCatalogInMemory()) {
     return cachedCatalog;
   }
 
@@ -88,20 +92,34 @@ export async function loadAvailableTrack(catalog, trackId, { signal, forceRefres
 }
 
 export function getCachedVocabulary(trackId) {
-  return cachedVocabularyByTrack.get(trackId) ?? null;
+  return cachedVocabularyByTrack.get(trackId)?.vocabulary ?? null;
 }
 
 export async function loadVocabularyTrack(trackId, { catalog, signal, forceRefresh = false } = {}) {
-  if (!forceRefresh && cachedVocabularyByTrack.has(trackId)) {
+  const currentCatalog = catalog ?? cachedCatalog;
+  const cachedTrackEntry = cachedVocabularyByTrack.get(trackId);
+  const expectedVersion = currentCatalog?.generatedAt ?? null;
+
+  if (!forceRefresh && cachedTrackEntry && (!expectedVersion || cachedTrackEntry.version === expectedVersion)) {
     return {
-      catalog: catalog ?? cachedCatalog,
-      vocabulary: cachedVocabularyByTrack.get(trackId),
-      track: getTrackFromCatalog(catalog ?? cachedCatalog, trackId)
+      catalog: currentCatalog,
+      vocabulary: cachedTrackEntry.vocabulary,
+      track: getTrackFromCatalog(currentCatalog, trackId)
     };
   }
 
   const { catalog: nextCatalog, track } = await loadAvailableTrack(catalog, trackId, { signal, forceRefresh });
   const version = nextCatalog.generatedAt;
+  const refreshedCachedTrackEntry = cachedVocabularyByTrack.get(trackId);
+
+  if (!forceRefresh && refreshedCachedTrackEntry?.version === version) {
+    return {
+      catalog: nextCatalog,
+      track,
+      vocabulary: refreshedCachedTrackEntry.vocabulary
+    };
+  }
+
   const chunkPayloads = await Promise.all(
     track.chunkFiles.map((chunkFile) =>
       fetchJson(buildVersionedVocabularyUrl(chunkFile.path, version), {
@@ -113,7 +131,10 @@ export async function loadVocabularyTrack(trackId, { catalog, signal, forceRefre
   );
   const vocabulary = chunkPayloads.flat();
 
-  cachedVocabularyByTrack.set(trackId, vocabulary);
+  cachedVocabularyByTrack.set(trackId, {
+    version,
+    vocabulary
+  });
 
   return {
     catalog: nextCatalog,

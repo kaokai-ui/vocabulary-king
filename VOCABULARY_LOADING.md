@@ -2,22 +2,34 @@
 
 ## Current Tracks
 
-The app currently exposes 6 available vocabulary tracks:
+The app currently exposes 9 available vocabulary tracks:
 
+- `toeic`
+- `toeic-advanced`
 - `junior-high`
 - `senior-high`
 - `senior-high-5-6`
 - `gept-elementary`
 - `gept-intermediate`
 - `gept-high-intermediate`
+- `toefl`
 
 Track metadata is stored in `public/data/catalog.json`.
+
+Current TOEFL build source:
+
+- `Source/toefl.final.checked.xlsx`
+- workbook columns:
+  - `Word`
+  - `Chinese Meaning`
+  - `English Example`
+  - `Chinese Translation`
 
 ## Runtime Loading Strategy
 
 Runtime loading happens in `src/hooks/useVocabularyData.js`.
 
-The app does not load all 6 databases at startup.
+The app does not load all 9 databases at startup.
 
 Instead it:
 
@@ -111,18 +123,21 @@ Runtime migration is necessary because each player's saved data lives on their o
 
 Approximate raw JSON size per currently available track:
 
-- `junior-high`: 426 KB
-- `senior-high`: 469 KB
-- `senior-high-5-6`: 449 KB
-- `gept-elementary`: 496 KB
-- `gept-intermediate`: 575 KB
-- `gept-high-intermediate`: 734 KB
+- `toeic`: 843 KB
+- `toeic-advanced`: 1065 KB
+- `junior-high`: 416 KB
+- `senior-high`: 458 KB
+- `senior-high-5-6`: 438 KB
+- `gept-elementary`: 466 KB
+- `gept-intermediate`: 551 KB
+- `gept-high-intermediate`: 689 KB
+- `toefl`: 1361 KB
 
 Even though all track files exist in the repo, only one track is loaded into app memory at a time unless the user switches tracks.
 
 ## Practical Performance Conclusion
 
-At the current dataset size, 6 available tracks do not create a major startup performance problem because:
+At the current dataset size, 9 available tracks do not create a major startup performance problem because:
 
 - the app fetches one active track at a time
 - chunk files are split per track

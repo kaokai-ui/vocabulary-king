@@ -159,6 +159,32 @@ describe("vocabularyDataClient retry/cache behavior", () => {
     expect(fetchMock).toHaveBeenCalledTimes(4);
   });
 
+  it("reloads a cached track when the catalog version changes", async () => {
+    const firstCatalog = buildCatalog();
+    const nextCatalog = {
+      ...buildCatalog(),
+      generatedAt: "2026-06-30T00:00:00.000Z"
+    };
+    const vocab = [{ id: "word-1", word: "apple", meaning: "apple" }];
+    const refreshedVocab = [{ id: "word-1", word: "apple", meaning: "apple (traditional updated)" }];
+
+    const fetchMock = vi.spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(jsonResponse(firstCatalog))
+      .mockResolvedValueOnce(jsonResponse(vocab))
+      .mockResolvedValueOnce(jsonResponse(nextCatalog))
+      .mockResolvedValueOnce(jsonResponse(refreshedVocab));
+
+    await loadVocabularyTrack("junior-high");
+    const refreshedCatalog = await loadVocabularyCatalog({ forceRefresh: true });
+    const refreshed = await loadVocabularyTrack("junior-high", { catalog: refreshedCatalog });
+
+    expect(refreshed.vocabulary).toEqual(refreshedVocab);
+    expect(fetchMock).toHaveBeenCalledWith(
+      withBaseUrl("data/tracks/junior-high/chunk-001.json?v=2026-06-30T00%3A00%3A00.000Z"),
+      expect.objectContaining({ cache: "force-cache" })
+    );
+  });
+
   it("in-memory catalog cache is reused across tracks", async () => {
     const catalog = buildCatalog();
     const juniorHighVocab = [{ id: "word-jh-1", word: "apple", meaning: "apple" }];

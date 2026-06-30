@@ -8,7 +8,6 @@ const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
 const PLACEHOLDER_TRACKS = [
-  { id: "toefl", title: "TOEFL" },
   { id: "ielts", title: "IELTS" }
 ];
 const workbookPathCache = new Map();
@@ -103,6 +102,21 @@ const TRACK_DEFINITIONS = [
     },
     fallbackLevel: "TOEIC-ADV",
     available: true
+  },
+  {
+    id: "toefl",
+    title: "TOEFL",
+    sourceWorkbookKey: "toefl-final-checked-workbook",
+    sourceWorkbookPath: "Source/toefl.final.checked.xlsx",
+    type: "named-column-workbook",
+    columnsByHeader: {
+      word: "Word",
+      meaning: "Chinese Meaning",
+      englishExample: "English Example",
+      chineseExample: "Chinese Translation"
+    },
+    fallbackLevel: "TOEFL",
+    available: true
   }
 ];
 
@@ -139,6 +153,14 @@ function readSheetRows(workbook, sheetName) {
     defval: "",
     raw: false
   });
+}
+
+function findWorkbookPathFromDefinition(definition) {
+  if (definition.sourceWorkbookPath) {
+    return path.resolve(definition.sourceWorkbookPath);
+  }
+
+  return findWorkbookPath(definition.workbookPattern);
 }
 
 function normalizeWord(text) {
@@ -290,6 +312,10 @@ function formatToeicExample(englishExample, chineseExample) {
   return normalizedEnglishExample || normalizedChineseExample;
 }
 
+function formatBilingualExample(englishExample, chineseExample) {
+  return formatToeicExample(englishExample, chineseExample);
+}
+
 function readToeicVocabularyRows(workbookPath, definition) {
   const workbook = xlsx.readFile(workbookPath);
   const vocabulary = [];
@@ -317,6 +343,115 @@ function readToeicVocabularyRows(workbookPath, definition) {
         example: formatToeicExample(englishExample, chineseExample)
       });
     });
+  }
+
+  return normalizeVocabularyEntries(vocabulary);
+}
+
+function formatJsonVocabularyMeaning(translations) {
+  const senses = [];
+  const seen = new Set();
+
+  for (const translation of Array.isArray(translations) ? translations : []) {
+    const pos = String(translation?.pos ?? "").trim();
+    const meaning = String(translation?.tranCn ?? "").trim();
+
+    if (!meaning) {
+      continue;
+    }
+
+    const formatted = pos ? `${pos}. ${meaning}` : meaning;
+
+    if (seen.has(formatted)) {
+      continue;
+    }
+
+    seen.add(formatted);
+    senses.push(formatted);
+  }
+
+  return senses.join("\n");
+}
+
+function formatJsonVocabularyExample(sentences) {
+  for (const sentence of Array.isArray(sentences) ? sentences : []) {
+    const english = String(sentence?.sContent ?? "").trim();
+    const chinese = String(sentence?.sCn ?? "").trim();
+
+    if (english && chinese) {
+      return `${english} (${chinese})`;
+    }
+
+    if (english || chinese) {
+      return english || chinese;
+    }
+  }
+
+  return "";
+}
+
+function readJsonVocabularyRows(sourceJsonPath, definition) {
+  const sourcePath = path.resolve(sourceJsonPath);
+  const entries = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+  const vocabulary = [];
+
+  for (const entry of entries) {
+    const word = String(entry?.headWord ?? entry?.content?.word?.wordHead ?? "").trim();
+    const content = entry?.content?.word?.content ?? {};
+    const meaning = formatJsonVocabularyMeaning(content.trans);
+    const example = formatJsonVocabularyExample(content?.sentence?.sentences);
+    const level = definition.fallbackLevel ?? "CUSTOM";
+
+    if (!word || !meaning) {
+      continue;
+    }
+
+    vocabulary.push({
+      level,
+      word,
+      meaning,
+      example
+    });
+  }
+
+  return normalizeVocabularyEntries(vocabulary);
+}
+
+function readNamedColumnVocabularyRows(workbookPath, definition) {
+  const workbook = xlsx.readFile(workbookPath);
+  const vocabulary = [];
+  const sheetNames = definition.sheets?.length ? definition.sheets : [workbook.SheetNames[0]];
+  const headers = definition.columnsByHeader ?? {};
+
+  for (const sheetName of sheetNames) {
+    const sheet = workbook.Sheets[sheetName];
+
+    if (!sheet) {
+      throw new Error(`Missing worksheet: ${sheetName}`);
+    }
+
+    const rows = xlsx.utils.sheet_to_json(sheet, {
+      defval: "",
+      raw: false
+    });
+
+    for (const row of rows) {
+      const word = String(row[headers.word] ?? "").trim();
+      const meaning = String(row[headers.meaning] ?? "").trim();
+      const englishExample = String(row[headers.englishExample] ?? "").trim();
+      const chineseExample = String(row[headers.chineseExample] ?? "").trim();
+
+      if (!word || !meaning) {
+        continue;
+      }
+
+      vocabulary.push({
+        level: definition.fallbackLevel ?? "CUSTOM",
+        word,
+        meaning,
+        example: formatBilingualExample(englishExample, chineseExample)
+      });
+    }
   }
 
   return normalizeVocabularyEntries(vocabulary);
@@ -502,14 +637,21 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
 }
 
 function buildTrack(definition) {
-  const workbookPath = findWorkbookPath(definition.workbookPattern);
-  const exampleLookup = definition.type === "gept-workbook" ? buildLevelExampleLookup() : null;
   const vocabulary =
-    definition.type === "gept-workbook"
-      ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
-      : definition.type === "toeic-workbook"
-        ? readToeicVocabularyRows(workbookPath, definition)
-      : readLevelVocabularyRows(workbookPath, definition.sheets);
+    definition.type === "json-vocabulary"
+      ? readJsonVocabularyRows(definition.sourceJsonPath, definition)
+      : (() => {
+          const workbookPath = findWorkbookPathFromDefinition(definition);
+          const exampleLookup = definition.type === "gept-workbook" ? buildLevelExampleLookup() : null;
+
+          return definition.type === "gept-workbook"
+            ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
+            : definition.type === "named-column-workbook"
+              ? readNamedColumnVocabularyRows(workbookPath, definition)
+            : definition.type === "toeic-workbook"
+              ? readToeicVocabularyRows(workbookPath, definition)
+              : readLevelVocabularyRows(workbookPath, definition.sheets);
+        })();
   const chunks = chunkItems(vocabulary, CHUNK_SIZE);
   const trackOutputDir = path.join(TRACKS_ROOT, definition.id);
 

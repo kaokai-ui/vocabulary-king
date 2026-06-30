@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
 
@@ -18,6 +19,7 @@ export default function FlashcardScreen({
   onToggleMeaning,
   onToggleExample,
   onToggleStarred,
+  onAddToWordList,
   onToggleKnown,
   onNext
 }) {
@@ -29,6 +31,52 @@ export default function FlashcardScreen({
     : [];
   const pronunciationWord = wordVariants[0] ?? flashcard?.word ?? "";
   const displayedLevel = vocabularyTrackLabel ?? flashcard?.level ?? "";
+  const isRandomMode = mode === "random";
+
+  useEffect(() => {
+    if (!flashcard || !isRandomMode) {
+      return undefined;
+    }
+
+    function handleKeyDown(event) {
+      if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) {
+        return;
+      }
+
+      const target = event.target;
+      const tagName = target?.tagName?.toLowerCase?.() ?? "";
+      const isEditable =
+        tagName === "input" ||
+        tagName === "textarea" ||
+        tagName === "select" ||
+        Boolean(target?.isContentEditable);
+
+      if (isEditable) {
+        return;
+      }
+
+      const key = String(event.key ?? "").toLowerCase();
+
+      if (key === "a") {
+        if (!isStarred) {
+          event.preventDefault();
+          onAddToWordList?.();
+        }
+        return;
+      }
+
+      if (key === "n") {
+        event.preventDefault();
+        onNext?.();
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [flashcard, isRandomMode, isStarred, onAddToWordList, onNext]);
 
   if (!flashcard) {
     return (

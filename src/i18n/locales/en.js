@@ -68,7 +68,7 @@ export const enMessages = {
   vocabularyTrack: "Vocabulary Track",
   vocabularyTrackCurrent: "Vocabulary track",
   vocabularyTrackHint:
-    "Junior High, Senior High (L3-4), Senior High (L5-6), GEPT Elementary / Intermediate / High-Intermediate, TOEIC(Core), and TOEIC(Advanced) are available now.",
+    "Junior High, Senior High (L3-4), Senior High (L5-6), GEPT Elementary / Intermediate / High-Intermediate, TOEIC(Core), TOEIC(Advanced), and TOEFL are available now.",
   vocabularyTrackLocked: "Coming soon",
   vocabularyTrackJuniorHigh: "Junior High",
   vocabularyTrackSeniorHigh: "Senior High (L3-4)",
@@ -78,6 +78,7 @@ export const enMessages = {
   vocabularyTrackGeptHighIntermediate: "GEPT High-Intermediate",
   vocabularyTrackToeic: "TOEIC(Core)",
   vocabularyTrackToeicAdvanced: "TOEIC(Advanced)",
+  vocabularyTrackToefl: "TOEFL",
   vocabularyTrackGept: "GEPT",
   autoShowMeaning: "Show the meaning by default in flashcards",
   autoShowExample: "Show the example by default in flashcards",
@@ -108,6 +109,7 @@ export const enMessages = {
   wordSearchPlaceholder: "Enter a word",
   wordSearchHint: "Search words across all vocabulary tracks.",
   wordSearchNotFound: "This word is not in the vocabulary database.",
+  exportWordListCsv: "Export CSV",
   addWordToList: "+",
   wordAddedToList: "✓"
 };

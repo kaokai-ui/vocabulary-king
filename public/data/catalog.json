@@ -1,5 +1,5 @@
 {
-  "generatedAt": "1880a9320b40",
+  "generatedAt": "dd8f146bd328",
   "tracks": {
     "junior-high": {
       "id": "junior-high",
@@ -218,11 +218,33 @@
     },
     "toefl": {
       "id": "toefl",
-      "available": false,
+      "available": true,
       "title": "TOEFL",
-      "totalWords": 0,
+      "sourceWorkbookKey": "toefl-final-checked-workbook",
+      "totalWords": 3800,
       "chunkSize": 1000,
-      "chunkFiles": []
+      "chunkFiles": [
+        {
+          "id": "toefl-chunk-1",
+          "path": "data/tracks/toefl/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toefl-chunk-2",
+          "path": "data/tracks/toefl/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toefl-chunk-3",
+          "path": "data/tracks/toefl/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toefl-chunk-4",
+          "path": "data/tracks/toefl/chunk-004.json",
+          "wordCount": 800
+        }
+      ]
     },
     "ielts": {
       "id": "ielts",
