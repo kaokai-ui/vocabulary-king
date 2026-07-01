@@ -2405,14 +2405,7 @@
     "word": "favorite",
     "meaning": "最喜愛的",
     "example": "Mango is my favorite fruit in summer. (芒果是我夏天最喜歡的水果。)",
-    "id": "Elementary-favorite-mdcp751-mango-is-my-favori"
-  },
-  {
-    "level": "Elementary",
-    "word": "favorite",
-    "meaning": "最喜愛的",
-    "example": "What is your favorite animal? (你最喜歡的動物是什麼？)",
-    "id": "Elementary-favorite-mdcp751-what-is-your-favor"
+    "id": "Elementary-favorite-mdcp751"
   },
   {
     "level": "Elementary",
@@ -2469,6 +2462,13 @@
     "meaning": "第十五(的)",
     "example": "Today is the fifteenth of October. (今天是十月十五號。)",
     "id": "Elementary-fifteenth-m1serrym"
+  },
+  {
+    "level": "Elementary",
+    "word": "fifth",
+    "meaning": "第五(的)",
+    "example": "Today is my fifth day at school. (今天是我在學校的第五天。)",
+    "id": "Elementary-fifth-m1tc9tnp"
   },
   {
     "level": "Elementary",
@@ -2657,14 +2657,7 @@
     "word": "forty",
     "meaning": "四十",
     "example": "There are forty students in my class. (我們班有四十個學生。)",
-    "id": "Elementary-forty-mf8au-there-are-forty-st"
-  },
-  {
-    "level": "Elementary",
-    "word": "forty",
-    "meaning": "四十",
-    "example": "My dad is forty years old. (我爸爸四十歲。)",
-    "id": "Elementary-forty-mf8au-my-dad-is-forty-ye"
+    "id": "Elementary-forty-mf8au"
   },
   {
     "level": "Elementary",
@@ -2777,6 +2770,13 @@
     "meaning": "水果",
     "example": "Guavas and papayas are my favorite fruit. (芭樂和木瓜是我最喜歡的水果。)",
     "id": "Elementary-fruit-miz1k"
+  },
+  {
+    "level": "Elementary",
+    "word": "fry",
+    "meaning": "油炸",
+    "example": "My dad can fry an egg. (我爸爸會油炸一顆蛋。)",
+    "id": "Elementary-fry-mj40v"
   },
   {
     "level": "Elementary",
@@ -2934,17 +2934,10 @@
   },
   {
     "level": "Elementary",
-    "word": "green",
-    "meaning": "綠色(的)",
-    "example": "The trees in the park are very green. (公園裡的樹木非常翠綠。)",
-    "id": "Elementary-green-mafyw57-the-trees-in-the-p"
-  },
-  {
-    "level": "Elementary",
-    "word": "green",
-    "meaning": "綠色(的)",
-    "example": "The grass in the school yard is very green. (學校操場上的草很綠。)",
-    "id": "Elementary-green-mafyw57-the-grass-in-the-s"
+    "word": "good",
+    "meaning": "好的",
+    "example": "This is a good book. (這是一本好的書。)",
+    "id": "Elementary-good-mfvdz"
   },
   {
     "level": "Elementary",
@@ -3015,6 +3008,13 @@
     "meaning": "很棒的",
     "example": "That is a great idea! (那真是一個棒主意！)",
     "id": "Elementary-great-mei7p6"
+  },
+  {
+    "level": "Elementary",
+    "word": "green",
+    "meaning": "綠色(的)",
+    "example": "The grass in the school yard is very green. (學校操場上的草很綠。)",
+    "id": "Elementary-green-mafyw57"
   },
   {
     "level": "Elementary",
@@ -3158,17 +3158,10 @@
   },
   {
     "level": "Elementary",
-    "word": "have",
-    "meaning": "有",
-    "example": "I have a cute puppy and two fish. (我有一隻可愛的小狗和兩條魚。)",
-    "id": "Elementary-have-mkcp-i-have-a-cute-pupp-x1j9vcly"
-  },
-  {
-    "level": "Elementary",
-    "word": "have",
-    "meaning": "有",
-    "example": "I have a cute puppy and a toy robot. (我有一隻可愛的小狗和一個玩具機器人。)",
-    "id": "Elementary-have-mkcp-i-have-a-cute-pupp-xqjlugx"
+    "word": "hard-working",
+    "meaning": "努力工作的",
+    "example": "My sister is a hard-working student. (我姐姐是一個努力工作的學生。)",
+    "id": "Elementary-hard-working-m1dwi1ks"
   },
   {
     "level": "Elementary",
@@ -3183,6 +3176,13 @@
     "meaning": "討厭",
     "example": "I hate to eat bitter melons. (我討厭吃苦瓜。)",
     "id": "Elementary-hate-mnxwf"
+  },
+  {
+    "level": "Elementary",
+    "word": "have",
+    "meaning": "有",
+    "example": "I have a cute puppy and a toy robot. (我有一隻可愛的小狗和一個玩具機器人。)",
+    "id": "Elementary-have-mkcp"
   },
   {
     "level": "Elementary",
@@ -3375,17 +3375,10 @@
   },
   {
     "level": "Elementary",
-    "word": "how",
-    "meaning": "如何",
-    "example": "How do you spell your name? (你的名字怎麼拼？)",
-    "id": "Elementary-how-mfnrn-how-do-you-spell-y"
-  },
-  {
-    "level": "Elementary",
-    "word": "how",
-    "meaning": "如何",
-    "example": "How do you go to school every morning? (你每天早上怎麼去上學？)",
-    "id": "Elementary-how-mfnrn-how-do-you-go-to-s"
+    "word": "homework",
+    "meaning": "家庭作業",
+    "example": "I do my homework after dinner. (我晚餐後做家庭作業。)",
+    "id": "Elementary-homework-mbyokug"
   },
   {
     "level": "Elementary",
@@ -3417,17 +3410,10 @@
   },
   {
     "level": "Elementary",
-    "word": "hundred",
-    "meaning": "百",
-    "example": "This notebook costs one hundred Taiwan dollars. (這本筆記本要一百元新台幣。)",
-    "id": "Elementary-hundred-mnem-this-notebook-cost"
-  },
-  {
-    "level": "Elementary",
-    "word": "hundred",
-    "meaning": "百",
-    "example": "This beautiful notebook costs one hundred dollars. (這本漂亮的筆記本要一百元。)",
-    "id": "Elementary-hundred-mnem-this-beautiful-not"
+    "word": "horse",
+    "meaning": "馬",
+    "example": "The horse runs very fast. (那匹馬跑得很快。)",
+    "id": "Elementary-horse-mucs"
   },
   {
     "level": "Elementary",
@@ -3480,10 +3466,24 @@
   },
   {
     "level": "Elementary",
+    "word": "how",
+    "meaning": "如何",
+    "example": "How do you go to school every morning? (你每天早上怎麼去上學？)",
+    "id": "Elementary-how-mfnrn"
+  },
+  {
+    "level": "Elementary",
     "word": "however",
     "meaning": "然而",
     "example": "I like tea. However, my sister likes milk. (我喜歡茶。不過，我妹妹喜歡牛奶。)",
     "id": "Elementary-however-mjyja"
+  },
+  {
+    "level": "Elementary",
+    "word": "hundred",
+    "meaning": "百",
+    "example": "This beautiful notebook costs one hundred dollars. (這本漂亮的筆記本要一百元。)",
+    "id": "Elementary-hundred-mnem"
   },
   {
     "level": "Elementary",
@@ -3655,17 +3655,10 @@
   },
   {
     "level": "Elementary",
-    "word": "koala",
-    "meaning": "無尾熊",
-    "example": "We saw a lazy koala at the zoo. (我們在動物園看到一隻懶洋洋的無尾熊。)",
-    "id": "Elementary-koala-mh0u7h-we-saw-a-lazy-koal-x15l1hfu"
-  },
-  {
-    "level": "Elementary",
-    "word": "koala",
-    "meaning": "無尾熊",
-    "example": "We saw a lazy koala sleeping at the zoo. (我們在動物園看到一隻懶洋洋在睡覺的無尾熊。)",
-    "id": "Elementary-koala-mh0u7h-we-saw-a-lazy-koal-x1772sfa"
+    "word": "January",
+    "meaning": "一月",
+    "example": "My birthday is in January. (我的生日在一月。)",
+    "id": "Elementary-january-mdtzc"
   },
   {
     "level": "Elementary",
@@ -3732,10 +3725,10 @@
   },
   {
     "level": "Elementary",
-    "word": "library",
-    "meaning": "圖書館",
-    "example": "We can borrow storybooks from the school library. (我們可以從學校圖書館借故事書。)",
-    "id": "Elementary-library-md9k1y"
+    "word": "junior high school",
+    "meaning": "國中",
+    "example": "My brother is in junior high school. (我哥哥讀國中。)",
+    "id": "Elementary-junior-high-school-mf8g2"
   },
   {
     "level": "Elementary",
@@ -3809,17 +3802,10 @@
   },
   {
     "level": "Elementary",
-    "word": "love",
-    "meaning": "喜愛",
-    "example": "I love my parents and my country. (我愛我的父母和我的國家。)",
-    "id": "Elementary-love-mf3en-i-love-my-parents--xviqiva"
-  },
-  {
-    "level": "Elementary",
-    "word": "love",
-    "meaning": "喜愛",
-    "example": "I love my parents, my family, and my country. (我愛我的父母、我的家人和我的國家。)",
-    "id": "Elementary-love-mf3en-i-love-my-parents--x1lz54h8"
+    "word": "kiss",
+    "meaning": "吻",
+    "example": "Mom gives me a kiss. (媽媽給我一個吻。)",
+    "id": "Elementary-kiss-mgmz"
   },
   {
     "level": "Elementary",
@@ -3869,6 +3855,13 @@
     "meaning": "知識",
     "example": "Reading books can give us a lot of knowledge. (閱讀書籍可以帶給我們很多知識。)",
     "id": "Elementary-knowledge-ml5oz"
+  },
+  {
+    "level": "Elementary",
+    "word": "koala",
+    "meaning": "無尾熊",
+    "example": "We saw a lazy koala sleeping at the zoo. (我們在動物園看到一隻懶洋洋在睡覺的無尾熊。)",
+    "id": "Elementary-koala-mh0u7h"
   },
   {
     "level": "Elementary",
@@ -4054,17 +4047,10 @@
   },
   {
     "level": "Elementary",
-    "word": "must",
-    "meaning": "必須",
-    "example": "We must follow the classroom rules. (我們必須遵守教室守則。)",
-    "id": "Elementary-must-mh4gz-we-must-follow-the"
-  },
-  {
-    "level": "Elementary",
-    "word": "must",
-    "meaning": "必須",
-    "example": "You must look left and right before crossing the street. (過馬路前你必須左右看。)",
-    "id": "Elementary-must-mh4gz-you-must-look-left"
+    "word": "library",
+    "meaning": "圖書館",
+    "example": "We read books in the library. (我們在圖書館看書。)",
+    "id": "Elementary-library-md9k1y"
   },
   {
     "level": "Elementary",
@@ -4194,6 +4180,13 @@
   },
   {
     "level": "Elementary",
+    "word": "love",
+    "meaning": "喜愛",
+    "example": "I love my parents, my family, and my country. (我愛我的父母、我的家人和我的國家。)",
+    "id": "Elementary-love-mf3en"
+  },
+  {
+    "level": "Elementary",
     "word": "lovely",
     "meaning": "可愛的",
     "example": "The white rabbit has lovely pink ears. (白兔有一雙可愛的粉紅色耳朵。)",
@@ -4222,17 +4215,10 @@
   },
   {
     "level": "Elementary",
-    "word": "north",
-    "meaning": "北方",
-    "example": "Keelung is a city in the north of Taiwan. (基隆是台灣北部的一個城市。)",
-    "id": "Elementary-north-meow2-keelung-is-a-city-"
-  },
-  {
-    "level": "Elementary",
-    "word": "north",
-    "meaning": "北方",
-    "example": "The wind blows from the north in winter. (冬天時風從北方吹來。)",
-    "id": "Elementary-north-meow2-the-wind-blows-fro"
+    "word": "machine",
+    "meaning": "機器",
+    "example": "This machine can make juice. (這台機器可以製作果汁。)",
+    "id": "Elementary-machine-mikfd"
   },
   {
     "level": "Elementary",
@@ -4593,17 +4579,10 @@
   },
   {
     "level": "Elementary",
-    "word": "piano",
-    "meaning": "鋼琴",
-    "example": "She plays the piano very beautifully. (她鋼琴彈得非常優美。)",
-    "id": "Elementary-piano-mpn08-she-plays-the-pian"
-  },
-  {
-    "level": "Elementary",
-    "word": "piano",
-    "meaning": "鋼琴",
-    "example": "My sister practices playing the piano every day. (我妹妹每天練習彈鋼琴。)",
-    "id": "Elementary-piano-mpn08-my-sister-practice"
+    "word": "mouth",
+    "meaning": "嘴巴",
+    "example": "Open your mouth, please. (請張開你的嘴巴。)",
+    "id": "Elementary-mouth-mf6f4"
   },
   {
     "level": "Elementary",
@@ -4642,17 +4621,10 @@
   },
   {
     "level": "Elementary",
-    "word": "playground",
-    "meaning": "操場",
-    "example": "We love to play slide and swing on the playground. (我們喜歡在操場玩溜滑梯和鞦韆。)",
-    "id": "Elementary-playground-mhmo7-we-love-to-play-sl"
-  },
-  {
-    "level": "Elementary",
-    "word": "playground",
-    "meaning": "操場",
-    "example": "The kids love to run around on the playground. (孩子們喜歡在操場上跑來跑去。)",
-    "id": "Elementary-playground-mhmo7-the-kids-love-to-r"
+    "word": "Ms.",
+    "meaning": "女士",
+    "example": "Ms. Wang is my English teacher. (王女士是我的英文老師。)",
+    "id": "Elementary-ms-mfpaw"
   },
   {
     "level": "Elementary",
@@ -4684,6 +4656,13 @@
   },
   {
     "level": "Elementary",
+    "word": "must",
+    "meaning": "必須",
+    "example": "You must look left and right before crossing the street. (過馬路前你必須左右看。)",
+    "id": "Elementary-must-mh4gz"
+  },
+  {
+    "level": "Elementary",
     "word": "nail",
     "meaning": "釘子",
     "example": "There is a nail in the wall. (牆上有一根釘子。)",
@@ -4698,17 +4677,10 @@
   },
   {
     "level": "Elementary",
-    "word": "pretty",
-    "meaning": "漂亮的,非常",
-    "example": "The small pink flower is very pretty. (這朵粉紅色的小花非常漂亮。)",
-    "id": "Elementary-pretty-m1wth7e6-the-small-pink-flo"
-  },
-  {
-    "level": "Elementary",
-    "word": "pretty",
-    "meaning": "漂亮的,非常",
-    "example": "The flower on your desk is very pretty. (你書桌上的那朵花非常漂亮。)",
-    "id": "Elementary-pretty-m1wth7e6-the-flower-on-your"
+    "word": "national",
+    "meaning": "國家的",
+    "example": "This is a national park. (這是一座國家公園。)",
+    "id": "Elementary-national-md7849"
   },
   {
     "level": "Elementary",
@@ -4719,17 +4691,10 @@
   },
   {
     "level": "Elementary",
-    "word": "put",
-    "meaning": "放",
-    "example": "Please put your textbooks into your school bag. (請把你的課本放進書包裡。)",
-    "id": "Elementary-put-mjzy-please-put-your-te"
-  },
-  {
-    "level": "Elementary",
-    "word": "put",
-    "meaning": "放",
-    "example": "Please put your eraser back into the pencil case. (請把你的橡皮擦放回鉛筆盒裡。)",
-    "id": "Elementary-put-mjzy-please-put-your-er"
+    "word": "neck",
+    "meaning": "脖子",
+    "example": "The giraffe has a long neck. (長頸鹿有長長的脖子。)",
+    "id": "Elementary-neck-mmghm"
   },
   {
     "level": "Elementary",
@@ -4761,17 +4726,10 @@
   },
   {
     "level": "Elementary",
-    "word": "rabbit",
-    "meaning": "兔子",
-    "example": "The rabbit has long ears and a short tail. (兔子有長耳朵和短尾巴。)",
-    "id": "Elementary-rabbit-mec1o-the-rabbit-has-lon"
-  },
-  {
-    "level": "Elementary",
-    "word": "rabbit",
-    "meaning": "兔子",
-    "example": "The white rabbit has long ears and a short tail. (那隻白兔有長長的耳朵和短短的尾巴。)",
-    "id": "Elementary-rabbit-mec1o-the-white-rabbit-h"
+    "word": "news",
+    "meaning": "消息,新聞",
+    "example": "The news is good today. (今天的消息很好。)",
+    "id": "Elementary-news-me98vwz"
   },
   {
     "level": "Elementary",
@@ -4870,6 +4828,13 @@
     "meaning": "中午",
     "example": "We eat lunch together at noon. (我們在中午一起吃午餐。)",
     "id": "Elementary-noon-mdr5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "north",
+    "meaning": "北方",
+    "example": "The wind blows from the north in winter. (冬天時風從北方吹來。)",
+    "id": "Elementary-north-meow2"
   },
   {
     "level": "Elementary",
@@ -4985,17 +4950,10 @@
   },
   {
     "level": "Elementary",
-    "word": "robot",
-    "meaning": "機器人",
-    "example": "My brother has a cool toy robot. (我哥哥有一個很酷的玩具機器人。)",
-    "id": "Elementary-robot-mg00s1-my-brother-has-a-c"
-  },
-  {
-    "level": "Elementary",
-    "word": "robot",
-    "meaning": "機器人",
-    "example": "My brother loves to play with his toy robot. (我弟弟很喜歡玩他的玩具機器人。)",
-    "id": "Elementary-robot-mg00s1-my-brother-loves-t"
+    "word": "often",
+    "meaning": "時常",
+    "example": "I often play with my dog. (我時常和我的狗玩。)",
+    "id": "Elementary-often-mhws6"
   },
   {
     "level": "Elementary",
@@ -5300,6 +5258,13 @@
   },
   {
     "level": "Elementary",
+    "word": "piano",
+    "meaning": "鋼琴",
+    "example": "My sister practices playing the piano every day. (我妹妹每天練習彈鋼琴。)",
+    "id": "Elementary-piano-mpn08"
+  },
+  {
+    "level": "Elementary",
     "word": "pick",
     "meaning": "撿拾",
     "example": "Let's pick up the garbage on the playground. (我們一起把操場上的垃圾撿起來吧。)",
@@ -5416,6 +5381,13 @@
     "meaning": "球員,玩家",
     "example": "He is the best basketball player in our school. (他是我們學校棒的籃球員。)",
     "id": "Elementary-player-m1250zff"
+  },
+  {
+    "level": "Elementary",
+    "word": "playground",
+    "meaning": "操場",
+    "example": "The kids love to run around on the playground. (孩子們喜歡在操場上跑來跑去。)",
+    "id": "Elementary-playground-mhmo7"
   },
   {
     "level": "Elementary",
@@ -5573,6 +5545,13 @@
   },
   {
     "level": "Elementary",
+    "word": "pretty",
+    "meaning": "漂亮的,非常",
+    "example": "The flower on your desk is very pretty. (你書桌上的那朵花非常漂亮。)",
+    "id": "Elementary-pretty-m1wth7e6"
+  },
+  {
+    "level": "Elementary",
     "word": "price",
     "meaning": "價格",
     "example": "The price of this toy robot is too high. (這個玩具機器人的價格太高了。)",
@@ -5650,6 +5629,13 @@
   },
   {
     "level": "Elementary",
+    "word": "put",
+    "meaning": "放",
+    "example": "Please put your eraser back into the pencil case. (請把你的橡皮擦放回鉛筆盒裡。)",
+    "id": "Elementary-put-mjzy"
+  },
+  {
+    "level": "Elementary",
     "word": "quarter",
     "meaning": "15 分鐘,1/4",
     "example": "It is a quarter past eight. (現在八點十五分。)",
@@ -5696,6 +5682,13 @@
     "meaning": "小考",
     "example": "We have a small English quiz this Friday. (我們這週五有一個英文小測驗。)",
     "id": "Elementary-quiz-mgd04"
+  },
+  {
+    "level": "Elementary",
+    "word": "rabbit",
+    "meaning": "兔子",
+    "example": "The white rabbit has long ears and a short tail. (那隻白兔有長長的耳朵和短短的尾巴。)",
+    "id": "Elementary-rabbit-mec1o"
   },
   {
     "level": "Elementary",
@@ -5892,6 +5885,13 @@
     "meaning": "道路",
     "example": "Be careful when you cross the busy road. (過繁忙的馬路時要小心。)",
     "id": "Elementary-road-mpbss"
+  },
+  {
+    "level": "Elementary",
+    "word": "robot",
+    "meaning": "機器人",
+    "example": "My brother loves to play with his toy robot. (我弟弟很喜歡玩他的玩具機器人。)",
+    "id": "Elementary-robot-mg00s1"
   },
   {
     "level": "Elementary",
