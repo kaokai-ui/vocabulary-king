@@ -1,6 +1,26 @@
 {
-  "generatedAt": "dd8f146bd328",
+  "generatedAt": "ddbdffca977b",
   "tracks": {
+    "elementary": {
+      "id": "elementary",
+      "available": true,
+      "title": "Elementary",
+      "sourceWorkbookKey": "elementary-english-final-workbook",
+      "totalWords": 1200,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "elementary-chunk-1",
+          "path": "data/tracks/elementary/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "elementary-chunk-2",
+          "path": "data/tracks/elementary/chunk-002.json",
+          "wordCount": 200
+        }
+      ]
+    },
     "junior-high": {
       "id": "junior-high",
       "available": true,

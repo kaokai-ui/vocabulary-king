@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
-import { buildDisambiguatedVocabularyId, buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
+import {
+  buildDisambiguatedVocabularyId,
+  buildStableVocabularyId,
+  hashVocabularyPart
+} from "../src/lib/vocabularyIdentity.js";
 
 const dataRoot = path.resolve("public/data");
 const catalogPath = path.join(dataRoot, "catalog.json");
@@ -56,21 +60,36 @@ for (const track of Object.values(catalog.tracks)) {
     }
   }
 
-  const groupCounts = new Map();
+  const groups = new Map();
 
   for (const word of allWords) {
     const groupKey = `${word.level}\u0000${word.word}\u0000${word.meaning}`;
-    groupCounts.set(groupKey, (groupCounts.get(groupKey) ?? 0) + 1);
+    const group = groups.get(groupKey) ?? [];
+    group.push(word);
+    groups.set(groupKey, group);
   }
 
-  for (const word of allWords) {
-    const groupKey = `${word.level}\u0000${word.word}\u0000${word.meaning}`;
-    const expectedId =
-      (groupCounts.get(groupKey) ?? 0) > 1
+  for (const group of groups.values()) {
+    const candidateIds = group.map((word) =>
+      group.length > 1
         ? buildDisambiguatedVocabularyId(word.level, word.word, word.meaning, word.example)
-        : buildStableVocabularyId(word.level, word.word, word.meaning);
+        : buildStableVocabularyId(word.level, word.word, word.meaning)
+    );
+    const candidateIdCounts = new Map();
 
-    assert(word.id === expectedId, `Word id is not stable for ${word.word} in track ${track.id}`);
+    for (const id of candidateIds) {
+      candidateIdCounts.set(id, (candidateIdCounts.get(id) ?? 0) + 1);
+    }
+
+    for (const [index, word] of group.entries()) {
+      const candidateId = candidateIds[index];
+      const expectedId =
+        (candidateIdCounts.get(candidateId) ?? 0) > 1
+          ? `${candidateId}-x${hashVocabularyPart(word.example)}`
+          : candidateId;
+
+      assert(word.id === expectedId, `Word id is not stable for ${word.word} in track ${track.id}`);
+    }
   }
 
   assert(allWords.length === track.totalWords, `Track ${track.id} totalWords mismatch.`);

@@ -6,7 +6,7 @@ export function slugifyVocabularyPart(text, maxLength = 48) {
     .slice(0, maxLength);
 }
 
-function hashVocabularyPart(text) {
+export function hashVocabularyPart(text) {
   const input = String(text ?? "");
   let hash = 0;
 

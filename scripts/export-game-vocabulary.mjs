@@ -2,7 +2,11 @@ import fs from "node:fs";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import xlsx from "xlsx";
-import { buildDisambiguatedVocabularyId, buildStableVocabularyId } from "../src/lib/vocabularyIdentity.js";
+import {
+  buildDisambiguatedVocabularyId,
+  buildStableVocabularyId,
+  hashVocabularyPart
+} from "../src/lib/vocabularyIdentity.js";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
@@ -13,6 +17,23 @@ const PLACEHOLDER_TRACKS = [
 const workbookPathCache = new Map();
 let levelExampleLookupCache = null;
 const TRACK_DEFINITIONS = [
+  {
+    id: "elementary",
+    title: "Elementary",
+    sourceWorkbookKey: "elementary-english-final-workbook",
+    sourceWorkbookPath: "Source/elementary.english_final001.xlsx",
+    sheets: ["elementary.english_word_m.extra"],
+    type: "elementary-workbook",
+    columnsByHeader: {
+      number: "NO.",
+      word: "英文",
+      meaning: "解釋",
+      englishExample: "英文例句",
+      chineseExample: "中文翻譯 (台灣用語)"
+    },
+    fallbackLevel: "Elementary",
+    available: true
+  },
   {
     id: "junior-high",
     title: "Junior High",
@@ -246,13 +267,26 @@ function normalizeVocabularyEntries(vocabulary) {
       uniqueEntries.push(entry);
     }
 
-    for (const entry of uniqueEntries) {
+    const candidateIds = uniqueEntries.map((entry) =>
+      uniqueEntries.length === 1
+        ? buildStableVocabularyId(entry.level, entry.word, entry.meaning)
+        : buildDisambiguatedVocabularyId(entry.level, entry.word, entry.meaning, entry.example)
+    );
+    const candidateIdCounts = new Map();
+
+    for (const id of candidateIds) {
+      candidateIdCounts.set(id, (candidateIdCounts.get(id) ?? 0) + 1);
+    }
+
+    for (const [index, entry] of uniqueEntries.entries()) {
+      const candidateId = candidateIds[index];
+
       normalizedVocabulary.push({
         ...entry,
         id:
-          uniqueEntries.length === 1
-            ? buildStableVocabularyId(entry.level, entry.word, entry.meaning)
-            : buildDisambiguatedVocabularyId(entry.level, entry.word, entry.meaning, entry.example)
+          (candidateIdCounts.get(candidateId) ?? 0) > 1
+            ? `${candidateId}-x${hashVocabularyPart(entry.example)}`
+            : candidateId
       });
     }
   }
@@ -457,6 +491,53 @@ function readNamedColumnVocabularyRows(workbookPath, definition) {
   return normalizeVocabularyEntries(vocabulary);
 }
 
+function readElementaryVocabularyRows(workbookPath, definition) {
+  const workbook = xlsx.readFile(workbookPath);
+  const vocabulary = [];
+  const sheetNames = definition.sheets?.length ? definition.sheets : [workbook.SheetNames[0]];
+  const headers = definition.columnsByHeader ?? {};
+
+  for (const sheetName of sheetNames) {
+    const sheet = workbook.Sheets[sheetName];
+
+    if (!sheet) {
+      throw new Error(`Missing worksheet: ${sheetName}`);
+    }
+
+    const rows = xlsx.utils.sheet_to_json(sheet, {
+      defval: "",
+      raw: false
+    });
+
+    rows.forEach((row, sourceIndex) => {
+      const word = String(row[headers.word] ?? "").trim();
+      const meaning = String(row[headers.meaning] ?? "").trim();
+      const englishExample = String(row[headers.englishExample] ?? "").trim();
+      const chineseExample = String(row[headers.chineseExample] ?? "").trim();
+      const number = Number(String(row[headers.number] ?? "").trim());
+
+      if (!word || !meaning) {
+        return;
+      }
+
+      vocabulary.push({
+        level: definition.fallbackLevel ?? "Elementary",
+        word,
+        meaning,
+        example: formatBilingualExample(englishExample, chineseExample),
+        sourceNumber: Number.isFinite(number) ? number : Number.MAX_SAFE_INTEGER,
+        sourceIndex
+      });
+    });
+  }
+
+  vocabulary.sort((left, right) => left.sourceNumber - right.sourceNumber || left.sourceIndex - right.sourceIndex);
+
+  return normalizeVocabularyEntries(
+    vocabulary.map(({ sourceNumber, sourceIndex, ...entry }) => entry)
+  );
+}
+
 function buildLevelExampleLookup() {
   if (levelExampleLookupCache) {
     return levelExampleLookupCache;
@@ -648,6 +729,8 @@ function buildTrack(definition) {
             ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
             : definition.type === "named-column-workbook"
               ? readNamedColumnVocabularyRows(workbookPath, definition)
+            : definition.type === "elementary-workbook"
+              ? readElementaryVocabularyRows(workbookPath, definition)
             : definition.type === "toeic-workbook"
               ? readToeicVocabularyRows(workbookPath, definition)
               : readLevelVocabularyRows(workbookPath, definition.sheets);

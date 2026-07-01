@@ -1,0 +1,7002 @@
+[
+  {
+    "level": "Elementary",
+    "word": "a (an)",
+    "meaning": "一(個)",
+    "example": "I have a dog and an apple. (我有一隻狗和一顆蘋果。)",
+    "id": "Elementary-a-an-m9ukhwm"
+  },
+  {
+    "level": "Elementary",
+    "word": "a few",
+    "meaning": "一些",
+    "example": "I have a few crayons in my pencil case. (我的鉛筆盒裡有幾枝蠟筆。)",
+    "id": "Elementary-a-few-mdp5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "a little",
+    "meaning": "一些",
+    "example": "Please give me a little water. (請給我一點水。)",
+    "id": "Elementary-a-little-mdp5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "a lot",
+    "meaning": "許多",
+    "example": "I have a lot of pencils. (我有許多鉛筆。)",
+    "id": "Elementary-a-lot-mnzt5"
+  },
+  {
+    "level": "Elementary",
+    "word": "able",
+    "meaning": "能夠…的",
+    "example": "He is able to swim across the pool. (他能夠游過這個游泳池。)",
+    "id": "Elementary-able-mgmwsgx"
+  },
+  {
+    "level": "Elementary",
+    "word": "about",
+    "meaning": "關於",
+    "example": "This story is about a smart rabbit. (這個故事是關於一隻聰明的兔子。)",
+    "id": "Elementary-about-mq1r4"
+  },
+  {
+    "level": "Elementary",
+    "word": "above",
+    "meaning": "在…上方",
+    "example": "The clock is above the blackboard. (時鐘在黑板的上方。)",
+    "id": "Elementary-above-mb4u3xp"
+  },
+  {
+    "level": "Elementary",
+    "word": "abroad",
+    "meaning": "在國外",
+    "example": "My uncle lives abroad. (我叔叔住在國外。)",
+    "id": "Elementary-abroad-md6v83"
+  },
+  {
+    "level": "Elementary",
+    "word": "across",
+    "meaning": "在…對面",
+    "example": "The park is across from my school. (公園在我的學校對面。)",
+    "id": "Elementary-across-mb4wrjn"
+  },
+  {
+    "level": "Elementary",
+    "word": "actress",
+    "meaning": "女演員",
+    "example": "She wants to be a famous actress. (她想要成為一位著名的女演員。)",
+    "id": "Elementary-actress-mdn0u8"
+  },
+  {
+    "level": "Elementary",
+    "word": "afraid",
+    "meaning": "害怕的",
+    "example": "The little girl is afraid of ghosts. (那個小女孩很怕鬼。)",
+    "id": "Elementary-afraid-mdwirm"
+  },
+  {
+    "level": "Elementary",
+    "word": "after",
+    "meaning": "在…之後",
+    "example": "We play basketball after school. (我們放學後會打籃球。)",
+    "id": "Elementary-after-mb4u49r"
+  },
+  {
+    "level": "Elementary",
+    "word": "afternoon",
+    "meaning": "下午",
+    "example": "Good afternoon, teacher. (老師，午安。)",
+    "id": "Elementary-afternoon-mdqcd"
+  },
+  {
+    "level": "Elementary",
+    "word": "again",
+    "meaning": "再一次",
+    "example": "Can you say that again? (你可以再說一次嗎？)",
+    "id": "Elementary-again-mcbvce"
+  },
+  {
+    "level": "Elementary",
+    "word": "age",
+    "meaning": "年齡",
+    "example": "What is your sister's age? (你姊姊/妹妹幾歲？)",
+    "id": "Elementary-age-mgxv1"
+  },
+  {
+    "level": "Elementary",
+    "word": "ago",
+    "meaning": "以前",
+    "example": "I visited Taipei two days ago. (我兩天前去了台北。)",
+    "id": "Elementary-ago-mdvd4"
+  },
+  {
+    "level": "Elementary",
+    "word": "agree",
+    "meaning": "同意",
+    "example": "I agree with your idea. (我同意你的想法。)",
+    "id": "Elementary-agree-mettv"
+  },
+  {
+    "level": "Elementary",
+    "word": "ahead",
+    "meaning": "在前方",
+    "example": "Go straight ahead, and you will see the park. (往前直走，你就會看到公園。)",
+    "id": "Elementary-ahead-md64ok"
+  },
+  {
+    "level": "Elementary",
+    "word": "air",
+    "meaning": "空氣",
+    "example": "The air in the mountains is very fresh. (山上的空氣非常新鮮。)",
+    "id": "Elementary-air-mlfc9"
+  },
+  {
+    "level": "Elementary",
+    "word": "airplane",
+    "meaning": "飛機",
+    "example": "Look! There is an airplane in the sky. (看！天空有一架飛機。)",
+    "id": "Elementary-airplane-mql0k"
+  },
+  {
+    "level": "Elementary",
+    "word": "airport",
+    "meaning": "機場",
+    "example": "We went to the airport to welcome my uncle. (我們去機場接我叔叔。)",
+    "id": "Elementary-airport-miks5"
+  },
+  {
+    "level": "Elementary",
+    "word": "all",
+    "meaning": "全部的",
+    "example": "All the students love the English class. (所有的學生都喜歡英文課。)",
+    "id": "Elementary-all-mcmjus"
+  },
+  {
+    "level": "Elementary",
+    "word": "almost",
+    "meaning": "幾乎",
+    "example": "I am almost finished with my homework. (我的功課快要寫完了。)",
+    "id": "Elementary-almost-mgi34"
+  },
+  {
+    "level": "Elementary",
+    "word": "along",
+    "meaning": "沿著",
+    "example": "Let's walk along the river. (我們沿著河邊散步吧。)",
+    "id": "Elementary-along-mj81k"
+  },
+  {
+    "level": "Elementary",
+    "word": "already",
+    "meaning": "已經",
+    "example": "It is 9 p.m. and I am already in bed. (已經晚上九點了，我已經躺在床上了。)",
+    "id": "Elementary-already-mgo2p"
+  },
+  {
+    "level": "Elementary",
+    "word": "also",
+    "meaning": "也",
+    "example": "I like apples, and I also like bananas. (我喜歡蘋果，我也喜歡香蕉。)",
+    "id": "Elementary-also-mfhb"
+  },
+  {
+    "level": "Elementary",
+    "word": "always",
+    "meaning": "總是",
+    "example": "He always does his homework before dinner. (他總是在晚餐前寫完功課。)",
+    "id": "Elementary-always-mm176"
+  },
+  {
+    "level": "Elementary",
+    "word": "a.m.",
+    "meaning": "上午",
+    "example": "I get up at 6:30 a.m. every morning. (我每天早上六點半起床。)",
+    "id": "Elementary-a-m-mdqbi"
+  },
+  {
+    "level": "Elementary",
+    "word": "America",
+    "meaning": "美國",
+    "example": "My aunt went to America last summer. (我阿姨去年夏天去了美國。)",
+    "id": "Elementary-america-mm69p"
+  },
+  {
+    "level": "Elementary",
+    "word": "American",
+    "meaning": "美國人；美國的",
+    "example": "Our English teacher is American. (我們的英文老師是美國人。)",
+    "id": "Elementary-american-m1qx4cqx"
+  },
+  {
+    "level": "Elementary",
+    "word": "and",
+    "meaning": "和",
+    "example": "I like music and sports. (我喜歡音樂和運動。)",
+    "id": "Elementary-and-mgp8"
+  },
+  {
+    "level": "Elementary",
+    "word": "angry",
+    "meaning": "生氣的",
+    "example": "Mom was angry because I broke the cup. (媽媽很生氣，因為我打破了杯子。)",
+    "id": "Elementary-angry-mhomcg"
+  },
+  {
+    "level": "Elementary",
+    "word": "animal",
+    "meaning": "動物",
+    "example": "The elephant is a big animal. (大象是一種大型動物。)",
+    "id": "Elementary-animal-meptg"
+  },
+  {
+    "level": "Elementary",
+    "word": "another",
+    "meaning": "另一個的",
+    "example": "Can I have another piece of cake? (我可以再吃一塊蛋糕嗎？)",
+    "id": "Elementary-another-mawrsc3"
+  },
+  {
+    "level": "Elementary",
+    "word": "answer",
+    "meaning": "回答",
+    "example": "Please answer my question. (請回答我的問題。)",
+    "id": "Elementary-answer-mfgae"
+  },
+  {
+    "level": "Elementary",
+    "word": "ant",
+    "meaning": "螞蟻",
+    "example": "Look at this small ant on the table. (看桌上的這隻小螞蟻。)",
+    "id": "Elementary-ant-mntb1"
+  },
+  {
+    "level": "Elementary",
+    "word": "any",
+    "meaning": "任何的",
+    "example": "Do you have any questions? (你有任何問題嗎？)",
+    "id": "Elementary-any-mbylu2"
+  },
+  {
+    "level": "Elementary",
+    "word": "anyone",
+    "meaning": "任何人",
+    "example": "Is anyone in the classroom? (教室裡有人嗎？)",
+    "id": "Elementary-anyone-mbydz4"
+  },
+  {
+    "level": "Elementary",
+    "word": "anything",
+    "meaning": "任何事物",
+    "example": "Is there anything to eat in the fridge? (冰箱裡有什麼可以吃的東西嗎？)",
+    "id": "Elementary-anything-maammpk"
+  },
+  {
+    "level": "Elementary",
+    "word": "apartment",
+    "meaning": "公寓",
+    "example": "We live in a nice apartment. (我們住在一間很棒的公寓裡。)",
+    "id": "Elementary-apartment-mecpz"
+  },
+  {
+    "level": "Elementary",
+    "word": "appear",
+    "meaning": "出現",
+    "example": "Stars appear in the sky at night. (晚上星星會出現在天空。)",
+    "id": "Elementary-appear-mekw4"
+  },
+  {
+    "level": "Elementary",
+    "word": "apple",
+    "meaning": "蘋果",
+    "example": "An apple a day keeps the doctor away. (一天一蘋果，醫生遠離我。)",
+    "id": "Elementary-apple-mnd9t"
+  },
+  {
+    "level": "Elementary",
+    "word": "April",
+    "meaning": "四月",
+    "example": "My birthday is in April. (我的生日在四月。)",
+    "id": "Elementary-april-mfc7h"
+  },
+  {
+    "level": "Elementary",
+    "word": "arm",
+    "meaning": "手臂,武裝",
+    "example": "He hurt his left arm during the game. (他在比賽中弄傷了左手臂。)",
+    "id": "Elementary-arm-m19jt4j0"
+  },
+  {
+    "level": "Elementary",
+    "word": "around",
+    "meaning": "在…四周",
+    "example": "We ran around the playground. (我們繞著操場跑。)",
+    "id": "Elementary-around-mb4vii3"
+  },
+  {
+    "level": "Elementary",
+    "word": "arrive",
+    "meaning": "到達",
+    "example": "The train will arrive at ten o'clock. (火車將在十點鐘抵達。)",
+    "id": "Elementary-arrive-mers4"
+  },
+  {
+    "level": "Elementary",
+    "word": "art",
+    "meaning": "美術",
+    "example": "We draw and paint in art class. (我們在美術課畫畫。)",
+    "id": "Elementary-art-mmg05"
+  },
+  {
+    "level": "Elementary",
+    "word": "as",
+    "meaning": "與…一樣",
+    "example": "He runs as fast as a rabbit. (他跑得跟兔子一樣快。)",
+    "id": "Elementary-as-mgjhxlu"
+  },
+  {
+    "level": "Elementary",
+    "word": "ask",
+    "meaning": "問",
+    "example": "You can ask the teacher for help. (你可以向老師尋求幫助。)",
+    "id": "Elementary-ask-mgun"
+  },
+  {
+    "level": "Elementary",
+    "word": "at",
+    "meaning": "在",
+    "example": "I am at school right now. (我現在在學校。)",
+    "id": "Elementary-at-mh7s"
+  },
+  {
+    "level": "Elementary",
+    "word": "August",
+    "meaning": "八月",
+    "example": "Father's Day in Taiwan is in August. (台灣的父親節在八月。)",
+    "id": "Elementary-august-meewt"
+  },
+  {
+    "level": "Elementary",
+    "word": "aunt",
+    "meaning": "伯(叔)母",
+    "example": "My aunt took me to the zoo. (我阿姨/姑姑帶我去動物園。)",
+    "id": "Elementary-aunt-mpudesf"
+  },
+  {
+    "level": "Elementary",
+    "word": "autumn",
+    "meaning": "秋天",
+    "example": "The leaves turn yellow in autumn. (秋天時樹葉會變黃。)",
+    "id": "Elementary-autumn-ml7em"
+  },
+  {
+    "level": "Elementary",
+    "word": "away",
+    "meaning": "遠離",
+    "example": "Stay away from the fire. (遠離火。)",
+    "id": "Elementary-away-mpdvm"
+  },
+  {
+    "level": "Elementary",
+    "word": "baby",
+    "meaning": "嬰兒",
+    "example": "The baby is sleeping in the bed. (小嬰兒正在床上睡覺。)",
+    "id": "Elementary-baby-mfyg2"
+  },
+  {
+    "level": "Elementary",
+    "word": "back",
+    "meaning": "在…後面",
+    "example": "The dog is in back of the house. (那隻狗在房子後面。)",
+    "id": "Elementary-back-mb4xcyc"
+  },
+  {
+    "level": "Elementary",
+    "word": "bad",
+    "meaning": "壞的",
+    "example": "Eating too much candy is bad for your teeth. (吃太多糖果對你的牙齒不好。)",
+    "id": "Elementary-bad-mfrl2"
+  },
+  {
+    "level": "Elementary",
+    "word": "badminton",
+    "meaning": "羽毛球",
+    "example": "I like to play badminton with my friends. (我喜歡和朋友打羽毛球。)",
+    "id": "Elementary-badminton-mj8jk5"
+  },
+  {
+    "level": "Elementary",
+    "word": "bag",
+    "meaning": "袋子",
+    "example": "My school bag is very heavy. (我的書包很重。)",
+    "id": "Elementary-bag-mnq5h"
+  },
+  {
+    "level": "Elementary",
+    "word": "bake",
+    "meaning": "烘烤",
+    "example": "My mom loves to bake cookies. (我媽媽很喜歡烤餅乾。)",
+    "id": "Elementary-bake-mjtak"
+  },
+  {
+    "level": "Elementary",
+    "word": "bakery",
+    "meaning": "麵包店",
+    "example": "The bread from this bakery is delicious. (這家麵包店的麵包很好吃。)",
+    "id": "Elementary-bakery-mnnhyf"
+  },
+  {
+    "level": "Elementary",
+    "word": "balcony",
+    "meaning": "陽台",
+    "example": "There are many flowers on our balcony. (我們的陽台上有許多花。)",
+    "id": "Elementary-balcony-mq237"
+  },
+  {
+    "level": "Elementary",
+    "word": "ball",
+    "meaning": "球",
+    "example": "Catch the ball! (接住這顆球！)",
+    "id": "Elementary-ball-mmwz"
+  },
+  {
+    "level": "Elementary",
+    "word": "banana",
+    "meaning": "香蕉",
+    "example": "Monkeys love to eat bananas. (猴子喜歡吃香蕉。)",
+    "id": "Elementary-banana-mquvk"
+  },
+  {
+    "level": "Elementary",
+    "word": "band",
+    "meaning": "樂團",
+    "example": "My brother plays drums in the school band. (我哥哥在學校樂隊打鼓。)",
+    "id": "Elementary-band-miic6"
+  },
+  {
+    "level": "Elementary",
+    "word": "bank",
+    "meaning": "銀行",
+    "example": "My dad goes to the bank to save money. (我爸爸去銀行存錢。)",
+    "id": "Elementary-bank-mpo0c"
+  },
+  {
+    "level": "Elementary",
+    "word": "barbecue",
+    "meaning": "烤肉",
+    "example": "We have a barbecue on Mid-Autumn Festival. (我們在中秋節吃烤肉。)",
+    "id": "Elementary-barbecue-mjwo5"
+  },
+  {
+    "level": "Elementary",
+    "word": "baseball",
+    "meaning": "棒球",
+    "example": "Baseball is very popular in Taiwan. (棒球在台灣非常受歡迎。)",
+    "id": "Elementary-baseball-migs1"
+  },
+  {
+    "level": "Elementary",
+    "word": "basket",
+    "meaning": "籃子",
+    "example": "Put the apples into the basket. (把蘋果放到籃子裡。)",
+    "id": "Elementary-basket-mlmy5"
+  },
+  {
+    "level": "Elementary",
+    "word": "basketball",
+    "meaning": "籃球",
+    "example": "They are playing basketball on the court. (他們正在球場上打籃球。)",
+    "id": "Elementary-basketball-mlrts"
+  },
+  {
+    "level": "Elementary",
+    "word": "bat",
+    "meaning": "蝙蝠",
+    "example": "A bat flies at night. (蝙蝠在晚上飛。)",
+    "id": "Elementary-bat-mnrjb"
+  },
+  {
+    "level": "Elementary",
+    "word": "bath",
+    "meaning": "洗澡",
+    "example": "I take a hot bath every night. (我每天晚上洗熱水澡。)",
+    "id": "Elementary-bath-mj622"
+  },
+  {
+    "level": "Elementary",
+    "word": "bathroom",
+    "meaning": "浴室",
+    "example": "The bathroom is clean. (浴室很乾淨。)",
+    "id": "Elementary-bathroom-mj4c0"
+  },
+  {
+    "level": "Elementary",
+    "word": "be",
+    "meaning": "是",
+    "example": "This can be my seat. (這可以是我的座位。)",
+    "id": "Elementary-be-mk6n"
+  },
+  {
+    "level": "Elementary",
+    "word": "beach",
+    "meaning": "海灘",
+    "example": "We play on the beach. (我們在海灘上玩。)",
+    "id": "Elementary-beach-mj8ht"
+  },
+  {
+    "level": "Elementary",
+    "word": "bean",
+    "meaning": "豆",
+    "example": "Green bean soup is good in summer. (綠豆湯在夏天很好喝。)",
+    "id": "Elementary-bean-mrpi"
+  },
+  {
+    "level": "Elementary",
+    "word": "bear",
+    "meaning": "熊",
+    "example": "We saw a black bear at the zoo. (我們在動物園看到一隻黑熊。)",
+    "id": "Elementary-bear-mmfe"
+  },
+  {
+    "level": "Elementary",
+    "word": "beautiful",
+    "meaning": "美麗的",
+    "example": "The rainbow in the sky is beautiful. (天空中的彩虹很漂亮。)",
+    "id": "Elementary-beautiful-mjg7vf"
+  },
+  {
+    "level": "Elementary",
+    "word": "because",
+    "meaning": "因為",
+    "example": "I stayed home because it rained. (我待在家裡因為下雨了。)",
+    "id": "Elementary-because-mfe8q"
+  },
+  {
+    "level": "Elementary",
+    "word": "become",
+    "meaning": "變成",
+    "example": "I want to become a teacher. (我想成為老師。)",
+    "id": "Elementary-become-mo9ty"
+  },
+  {
+    "level": "Elementary",
+    "word": "bed",
+    "meaning": "床",
+    "example": "It is time to go to bed. (該上床睡覺了。)",
+    "id": "Elementary-bed-mioa"
+  },
+  {
+    "level": "Elementary",
+    "word": "bedroom",
+    "meaning": "臥室",
+    "example": "My bedroom has a blue wall. (我的臥室有一面藍色的牆。)",
+    "id": "Elementary-bedroom-mmli7"
+  },
+  {
+    "level": "Elementary",
+    "word": "bee",
+    "meaning": "蜜蜂",
+    "example": "A bee is flying around the flowers. (一隻蜜蜂在花叢間飛舞。)",
+    "id": "Elementary-bee-mnq06"
+  },
+  {
+    "level": "Elementary",
+    "word": "beef",
+    "meaning": "牛肉",
+    "example": "Taiwanese beef noodles are very famous. (台灣的牛肉麵非常有名。)",
+    "id": "Elementary-beef-mk5n2"
+  },
+  {
+    "level": "Elementary",
+    "word": "before",
+    "meaning": "在…之前",
+    "example": "Wash your hands before dinner. (晚餐前要洗手。)",
+    "id": "Elementary-before-mb4u1nk"
+  },
+  {
+    "level": "Elementary",
+    "word": "begin",
+    "meaning": "開始",
+    "example": "Let's begin our English lesson. (讓我們開始上英文課吧。)",
+    "id": "Elementary-begin-mpxgg"
+  },
+  {
+    "level": "Elementary",
+    "word": "behind",
+    "meaning": "在…後面",
+    "example": "The cat is hiding behind the door. (貓咪躲在門後面。)",
+    "id": "Elementary-behind-mb4xcyc"
+  },
+  {
+    "level": "Elementary",
+    "word": "believe",
+    "meaning": "相信",
+    "example": "I believe you can do it! (我相信你做得到！)",
+    "id": "Elementary-believe-mkoa1"
+  },
+  {
+    "level": "Elementary",
+    "word": "bell",
+    "meaning": "鈴",
+    "example": "The school bell is ringing. (學校的鐘聲響了。)",
+    "id": "Elementary-bell-msvo"
+  },
+  {
+    "level": "Elementary",
+    "word": "belong",
+    "meaning": "屬於",
+    "example": "This pencil does not belong to me. (這枝鉛筆不是我的。)",
+    "id": "Elementary-belong-mga1c"
+  },
+  {
+    "level": "Elementary",
+    "word": "below",
+    "meaning": "在…下方",
+    "example": "Please write your name below the line. (請在線條下方寫下你的名字。)",
+    "id": "Elementary-below-mb4u3yk"
+  },
+  {
+    "level": "Elementary",
+    "word": "belt",
+    "meaning": "皮帶",
+    "example": "This is my belt. (這是我的皮帶。)",
+    "id": "Elementary-belt-mkpc8"
+  },
+  {
+    "level": "Elementary",
+    "word": "bench",
+    "meaning": "長椅",
+    "example": "An old man is sitting on the park bench. (一位老人坐在公園的長椅上。)",
+    "id": "Elementary-bench-mpzzi"
+  },
+  {
+    "level": "Elementary",
+    "word": "beside",
+    "meaning": "在…旁邊",
+    "example": "Sit beside me, please. (請坐在我旁邊。)",
+    "id": "Elementary-beside-mb4ydlz"
+  },
+  {
+    "level": "Elementary",
+    "word": "between",
+    "meaning": "在…之間",
+    "example": "The library is between the park and the school. (圖書館在公園和學校之間。)",
+    "id": "Elementary-between-mb4uexy"
+  },
+  {
+    "level": "Elementary",
+    "word": "bike",
+    "meaning": "腳踏車",
+    "example": "I ride my bike to school every day. (我每天騎腳踏車上學。)",
+    "id": "Elementary-bike-mjnj2m"
+  },
+  {
+    "level": "Elementary",
+    "word": "big",
+    "meaning": "大的",
+    "example": "The elephant has a very big body. (大象有非常大的身體。)",
+    "id": "Elementary-big-mftbx"
+  },
+  {
+    "level": "Elementary",
+    "word": "bird",
+    "meaning": "鳥",
+    "example": "The small bird is singing on the tree. (小鳥正在樹上唱歌。)",
+    "id": "Elementary-bird-muzp"
+  },
+  {
+    "level": "Elementary",
+    "word": "birthday",
+    "meaning": "生日",
+    "example": "Happy birthday to you! (祝你生日快樂！)",
+    "id": "Elementary-birthday-mkhba"
+  },
+  {
+    "level": "Elementary",
+    "word": "bite",
+    "meaning": "咬",
+    "example": "Don't worry, my dog does not bite. (別擔心，我的狗不會咬人。)",
+    "id": "Elementary-bite-mgq4"
+  },
+  {
+    "level": "Elementary",
+    "word": "black",
+    "meaning": "黑色(的)",
+    "example": "My teacher has long black hair. (我們老師有一頭黑色長髮。)",
+    "id": "Elementary-black-m1x6unzg"
+  },
+  {
+    "level": "Elementary",
+    "word": "blackboard",
+    "meaning": "黑板",
+    "example": "The teacher wrote some words on the blackboard. (老師在黑板上寫了一些單字。)",
+    "id": "Elementary-blackboard-mrky6"
+  },
+  {
+    "level": "Elementary",
+    "word": "blanket",
+    "meaning": "毯子",
+    "example": "It's cold, so I need a warm blanket. (天氣很冷，所以我需要一條溫暖的毛毯。)",
+    "id": "Elementary-blanket-miuyp"
+  },
+  {
+    "level": "Elementary",
+    "word": "blind",
+    "meaning": "瞎的",
+    "example": "The blind man has a dog. (那位盲人有一隻狗。)",
+    "id": "Elementary-blind-mkzhy"
+  },
+  {
+    "level": "Elementary",
+    "word": "block",
+    "meaning": "街區",
+    "example": "My house is just one block away from the school. (我家距離學校只有一個街區。)",
+    "id": "Elementary-block-mnnbd"
+  },
+  {
+    "level": "Elementary",
+    "word": "blow",
+    "meaning": "吹",
+    "example": "Please blow out the candles on the cake. (請吹熄蛋糕上的蠟燭。)",
+    "id": "Elementary-blow-mgmx"
+  },
+  {
+    "level": "Elementary",
+    "word": "blue",
+    "meaning": "藍色(的)",
+    "example": "The sky is clear and blue today. (今天的晴空蔚藍。)",
+    "id": "Elementary-blue-m16esa20"
+  },
+  {
+    "level": "Elementary",
+    "word": "boat",
+    "meaning": "船",
+    "example": "We took a boat tour on Sun Moon Lake. (我們在日月潭搭船遊湖。)",
+    "id": "Elementary-boat-mpq1"
+  },
+  {
+    "level": "Elementary",
+    "word": "body",
+    "meaning": "身體",
+    "example": "Exercise is good for your body. (運動對你的身體有益。)",
+    "id": "Elementary-body-mp47d"
+  },
+  {
+    "level": "Elementary",
+    "word": "boil",
+    "meaning": "煮沸",
+    "example": "We need to boil the water before drinking it. (我們喝水前需要先把水煮沸。)",
+    "id": "Elementary-boil-mjw22"
+  },
+  {
+    "level": "Elementary",
+    "word": "book",
+    "meaning": "書",
+    "example": "This book is very good. (這本書很好。)",
+    "id": "Elementary-book-mkc8"
+  },
+  {
+    "level": "Elementary",
+    "word": "bookstore",
+    "meaning": "書店",
+    "example": "I bought a dictionary at the bookstore. (我在書店買了一本字典。)",
+    "id": "Elementary-bookstore-mi17j"
+  },
+  {
+    "level": "Elementary",
+    "word": "bored",
+    "meaning": "感到厭煩的",
+    "example": "I feel bored when it rains all day. (下了一整天的雨，我覺得很無聊。)",
+    "id": "Elementary-bored-mzb44rb"
+  },
+  {
+    "level": "Elementary",
+    "word": "boring",
+    "meaning": "無聊的",
+    "example": "This movie is long and boring. (這部電影又長又無聊。)",
+    "id": "Elementary-boring-mh6zx7"
+  },
+  {
+    "level": "Elementary",
+    "word": "born",
+    "meaning": "出生",
+    "example": "I was born in Taiwan. (我在台灣出生。)",
+    "id": "Elementary-born-mel45"
+  },
+  {
+    "level": "Elementary",
+    "word": "borrow",
+    "meaning": "借入",
+    "example": "Can I borrow your eraser, please? (請問可以借你的橡皮擦嗎？)",
+    "id": "Elementary-borrow-me2p2"
+  },
+  {
+    "level": "Elementary",
+    "word": "boss",
+    "meaning": "老板",
+    "example": "My dad is the boss of a small company. (我爸爸是一家小公司的老闆。)",
+    "id": "Elementary-boss-mmc9q"
+  },
+  {
+    "level": "Elementary",
+    "word": "both",
+    "meaning": "兩者都",
+    "example": "Both of my hands are clean. (我的雙手都很乾淨。)",
+    "id": "Elementary-both-mcjuf5"
+  },
+  {
+    "level": "Elementary",
+    "word": "bottle",
+    "meaning": "瓶子",
+    "example": "The bottle is on the table. (瓶子在桌上。)",
+    "id": "Elementary-bottle-mke8q"
+  },
+  {
+    "level": "Elementary",
+    "word": "bottom",
+    "meaning": "底部",
+    "example": "The answers are at the bottom of the page. (答案在頁面的底部。)",
+    "id": "Elementary-bottom-mgvsj"
+  },
+  {
+    "level": "Elementary",
+    "word": "bow",
+    "meaning": "敬禮",
+    "example": "We bow to the teacher. (我們向老師鞠躬致敬。)",
+    "id": "Elementary-bow-mhx36"
+  },
+  {
+    "level": "Elementary",
+    "word": "bowl",
+    "meaning": "碗",
+    "example": "I ate a bowl of rice for lunch. (我午餐吃了一碗飯。)",
+    "id": "Elementary-bowl-mntj"
+  },
+  {
+    "level": "Elementary",
+    "word": "box",
+    "meaning": "盒子",
+    "example": "Put your toys back into the box. (把你的玩具放回盒子裡。)",
+    "id": "Elementary-box-mkpmm"
+  },
+  {
+    "level": "Elementary",
+    "word": "boy",
+    "meaning": "男孩",
+    "example": "He is a very polite boy. (他是一個非常有禮貌的男孩。)",
+    "id": "Elementary-boy-mkfte"
+  },
+  {
+    "level": "Elementary",
+    "word": "bread",
+    "meaning": "麵包",
+    "example": "I usually eat bread and eggs for breakfast. (我早餐通常吃麵包和蛋。)",
+    "id": "Elementary-bread-mrg8g"
+  },
+  {
+    "level": "Elementary",
+    "word": "break",
+    "meaning": "打破",
+    "example": "Do not break the cup. (不要打破杯子。)",
+    "id": "Elementary-break-mhdtt"
+  },
+  {
+    "level": "Elementary",
+    "word": "breakfast",
+    "meaning": "早餐",
+    "example": "Don't forget to eat breakfast. (不要忘記吃早餐。)",
+    "id": "Elementary-breakfast-mi69z"
+  },
+  {
+    "level": "Elementary",
+    "word": "bridge",
+    "meaning": "橋",
+    "example": "The bridge goes across the river. (這座橋橫跨這條河。)",
+    "id": "Elementary-bridge-mkzv"
+  },
+  {
+    "level": "Elementary",
+    "word": "bright",
+    "meaning": "明亮的",
+    "example": "The sun is very bright today. (今天的陽光非常明亮。)",
+    "id": "Elementary-bright-mfc5yc"
+  },
+  {
+    "level": "Elementary",
+    "word": "bring",
+    "meaning": "帶來",
+    "example": "Please bring your English textbook tomorrow. (明天請記得帶你的英文課本。)",
+    "id": "Elementary-bring-mggls"
+  },
+  {
+    "level": "Elementary",
+    "word": "brother",
+    "meaning": "兄弟",
+    "example": "My big brother helps me with my homework. (我哥哥輔導我的功課。)",
+    "id": "Elementary-brother-mecez"
+  },
+  {
+    "level": "Elementary",
+    "word": "brown",
+    "meaning": "棕色(的)",
+    "example": "The little teddy bear is brown. (這隻小泰迪熊是咖啡色的。)",
+    "id": "Elementary-brown-m6a3n4"
+  },
+  {
+    "level": "Elementary",
+    "word": "brush",
+    "meaning": "刷",
+    "example": "You should brush your teeth after eating. (吃完東西後你應該要刷牙。)",
+    "id": "Elementary-brush-mg8n"
+  },
+  {
+    "level": "Elementary",
+    "word": "bug",
+    "meaning": "小蟲",
+    "example": "There is a small bug on the leaf. (葉子上有隻小昆蟲。)",
+    "id": "Elementary-bug-mgekj"
+  },
+  {
+    "level": "Elementary",
+    "word": "build",
+    "meaning": "建造",
+    "example": "The birds build their nest in the tree. (鳥兒在樹上築巢。)",
+    "id": "Elementary-build-mgy1y"
+  },
+  {
+    "level": "Elementary",
+    "word": "bun",
+    "meaning": "小圓麵包",
+    "example": "I eat a bun for breakfast. (我早餐吃一個小圓麵包。)",
+    "id": "Elementary-bun-mbzip5g"
+  },
+  {
+    "level": "Elementary",
+    "word": "burn",
+    "meaning": "燃燒",
+    "example": "The fire can burn the paper. (火會燃燒紙張。)",
+    "id": "Elementary-burn-mjz3j"
+  },
+  {
+    "level": "Elementary",
+    "word": "bus",
+    "meaning": "公車",
+    "example": "I take the school bus every morning. (我每天早上搭校車。)",
+    "id": "Elementary-bus-memse"
+  },
+  {
+    "level": "Elementary",
+    "word": "business",
+    "meaning": "生意",
+    "example": "My mom has a small business. (我媽媽有一門小生意。)",
+    "id": "Elementary-business-mkgcw"
+  },
+  {
+    "level": "Elementary",
+    "word": "businessman",
+    "meaning": "商人",
+    "example": "His father is a busy businessman. (他的父親是一位忙碌的商務人士。)",
+    "id": "Elementary-businessman-mexpw"
+  },
+  {
+    "level": "Elementary",
+    "word": "busy",
+    "meaning": "忙碌的",
+    "example": "The teacher is very busy checking homework. (老師正忙著改功課。)",
+    "id": "Elementary-busy-memk29"
+  },
+  {
+    "level": "Elementary",
+    "word": "but",
+    "meaning": "但是",
+    "example": "I like milk, but I don't like coffee. (我喜歡牛奶，但不喜歡咖啡。)",
+    "id": "Elementary-but-me1m1"
+  },
+  {
+    "level": "Elementary",
+    "word": "butter",
+    "meaning": "奶油",
+    "example": "I like to put butter on my bread. (我喜歡在麵包上抹奶油。)",
+    "id": "Elementary-butter-mftab"
+  },
+  {
+    "level": "Elementary",
+    "word": "butterfly",
+    "meaning": "蝴蝶",
+    "example": "A beautiful butterfly landed on the flower. (一隻美麗的蝴蝶停在花朵上。)",
+    "id": "Elementary-butterfly-mns76"
+  },
+  {
+    "level": "Elementary",
+    "word": "buy",
+    "meaning": "買",
+    "example": "I want to buy a new pencil case. (我想買一個新的鉛筆盒。)",
+    "id": "Elementary-buy-mrsn"
+  },
+  {
+    "level": "Elementary",
+    "word": "by",
+    "meaning": "藉著",
+    "example": "I go to school by bus. (我藉著搭公車去上學。)",
+    "id": "Elementary-by-mnhda"
+  },
+  {
+    "level": "Elementary",
+    "word": "cage",
+    "meaning": "籠子",
+    "example": "The bird in the cage is singing. (鳥籠裡的鳥正在唱歌。)",
+    "id": "Elementary-cage-mlnn4"
+  },
+  {
+    "level": "Elementary",
+    "word": "cake",
+    "meaning": "蛋糕",
+    "example": "Mom made a chocolate cake for my birthday. (媽媽為我的生日做了一個巧克力蛋糕。)",
+    "id": "Elementary-cake-mnm22"
+  },
+  {
+    "level": "Elementary",
+    "word": "call",
+    "meaning": "打電話",
+    "example": "Please call me when you get home. (你到家時請打電話給我。)",
+    "id": "Elementary-call-mf4wh5"
+  },
+  {
+    "level": "Elementary",
+    "word": "camera",
+    "meaning": "照相機",
+    "example": "My uncle took a photo of us with his camera. (我叔叔用他的相機幫我們拍了一張照片。)",
+    "id": "Elementary-camera-mh6scu"
+  },
+  {
+    "level": "Elementary",
+    "word": "camp",
+    "meaning": "露營",
+    "example": "We will go to a summer camp this year. (我們今年會去參加夏令營。)",
+    "id": "Elementary-camp-mqcbx"
+  },
+  {
+    "level": "Elementary",
+    "word": "can",
+    "meaning": "能夠",
+    "example": "I can speak English and Chinese. (我會說英文和中文。)",
+    "id": "Elementary-can-mmfgj"
+  },
+  {
+    "level": "Elementary",
+    "word": "candle",
+    "meaning": "蠟燭",
+    "example": "He blew out the candle on his birthday cake. (他吹熄了生日蛋糕上的蠟燭。)",
+    "id": "Elementary-candle-mns1a"
+  },
+  {
+    "level": "Elementary",
+    "word": "candy",
+    "meaning": "糖果",
+    "example": "Eating too much candy is bad for your teeth. (吃太多糖果對你的牙齒不好。)",
+    "id": "Elementary-candy-mlsw6"
+  },
+  {
+    "level": "Elementary",
+    "word": "cap",
+    "meaning": "(無邊)帽",
+    "example": "He is wearing a blue baseball cap. (他戴著一頂藍色的棒球帽。)",
+    "id": "Elementary-cap-mfgurvp"
+  },
+  {
+    "level": "Elementary",
+    "word": "car",
+    "meaning": "車子",
+    "example": "My dad drives a white car. (我爸爸開一輛白色的車。)",
+    "id": "Elementary-car-mosee"
+  },
+  {
+    "level": "Elementary",
+    "word": "card",
+    "meaning": "卡片",
+    "example": "I made a Christmas card for my best friend. (我幫我最好的朋友做了一張聖誕卡片。)",
+    "id": "Elementary-card-met52"
+  },
+  {
+    "level": "Elementary",
+    "word": "care",
+    "meaning": "關心",
+    "example": "I care about my family. (我關心我的家人。)",
+    "id": "Elementary-care-mq0kn"
+  },
+  {
+    "level": "Elementary",
+    "word": "careful",
+    "meaning": "仔細的",
+    "example": "Be careful when you ride your bicycle. (你騎腳踏車時要小心。)",
+    "id": "Elementary-careful-mc5lpk"
+  },
+  {
+    "level": "Elementary",
+    "word": "carry",
+    "meaning": "攜帶",
+    "example": "Please carry your bag. (請攜帶你的書包。)",
+    "id": "Elementary-carry-mhpqy"
+  },
+  {
+    "level": "Elementary",
+    "word": "case",
+    "meaning": "情形",
+    "example": "In this case, we can ask the teacher. (在這種情形下，我們可以問老師。)",
+    "id": "Elementary-case-mgzel"
+  },
+  {
+    "level": "Elementary",
+    "word": "castle",
+    "meaning": "城堡",
+    "example": "The king lives in a big castle. (國王住在一座大城堡裡。)",
+    "id": "Elementary-castle-mff2r"
+  },
+  {
+    "level": "Elementary",
+    "word": "cat",
+    "meaning": "貓",
+    "example": "Our cat likes to sleep on the sofa. (我們的貓喜歡睡在沙發上。)",
+    "id": "Elementary-cat-mrrn"
+  },
+  {
+    "level": "Elementary",
+    "word": "catch",
+    "meaning": "趕上",
+    "example": "Hurry up, or you cannot catch the bus. (快一點，不然你會趕不上公車。)",
+    "id": "Elementary-catch-moidx"
+  },
+  {
+    "level": "Elementary",
+    "word": "celebrate",
+    "meaning": "慶祝",
+    "example": "We gather to celebrate the New Year. (我們聚在一起慶祝新年。)",
+    "id": "Elementary-celebrate-mh8rr"
+  },
+  {
+    "level": "Elementary",
+    "word": "cell phone",
+    "meaning": "手機",
+    "example": "Please turn off your cell phone in class. (上課時請關手機。)",
+    "id": "Elementary-cell-phone-mhawk"
+  },
+  {
+    "level": "Elementary",
+    "word": "cent",
+    "meaning": "〈一〉分錢",
+    "example": "A dollar has one hundred cents. (一元等於一百分。)",
+    "id": "Elementary-cent-m1js87u5"
+  },
+  {
+    "level": "Elementary",
+    "word": "center",
+    "meaning": "中心",
+    "example": "The ball is in the center. (球在中間。)",
+    "id": "Elementary-center-mdtme"
+  },
+  {
+    "level": "Elementary",
+    "word": "centimeter",
+    "meaning": "公分",
+    "example": "My eraser is five centimeters long. (我的橡皮擦有五公分長。)",
+    "id": "Elementary-centimeter-measa"
+  },
+  {
+    "level": "Elementary",
+    "word": "chair",
+    "meaning": "椅子",
+    "example": "Please sit down on the chair. (請在椅子上坐好。)",
+    "id": "Elementary-chair-mid4b"
+  },
+  {
+    "level": "Elementary",
+    "word": "chalk",
+    "meaning": "粉筆",
+    "example": "The teacher used white chalk to write on the board. (老師用白粉筆在黑板上寫字。)",
+    "id": "Elementary-chalk-mluxp"
+  },
+  {
+    "level": "Elementary",
+    "word": "chance",
+    "meaning": "機會",
+    "example": "Please give me one more chance. (請再給我一次機會。)",
+    "id": "Elementary-chance-minpg"
+  },
+  {
+    "level": "Elementary",
+    "word": "change",
+    "meaning": "交換,零錢",
+    "example": "Can I change seats with you? (我可以和你交換座位嗎？)",
+    "id": "Elementary-change-mzz3thd"
+  },
+  {
+    "level": "Elementary",
+    "word": "cheap",
+    "meaning": "便宜的",
+    "example": "This notebook is very cheap. (這本筆記本很便宜。)",
+    "id": "Elementary-cheap-mc4qcn"
+  },
+  {
+    "level": "Elementary",
+    "word": "cheat",
+    "meaning": "欺騙",
+    "example": "Do not cheat on the exam. (考試不可以作弊。)",
+    "id": "Elementary-cheat-mj31b"
+  },
+  {
+    "level": "Elementary",
+    "word": "check",
+    "meaning": "檢查",
+    "example": "Please check your answers again. (請再檢查一次你的答案。)",
+    "id": "Elementary-check-miphf"
+  },
+  {
+    "level": "Elementary",
+    "word": "cheer",
+    "meaning": "歡呼",
+    "example": "We cheer for our team. (我們為我們的隊伍歡呼。)",
+    "id": "Elementary-cheer-miq7v"
+  },
+  {
+    "level": "Elementary",
+    "word": "cheese",
+    "meaning": "乳酪",
+    "example": "I love to eat ham and cheese sandwiches. (我喜歡吃火腿起司三明治。)",
+    "id": "Elementary-cheese-me53r"
+  },
+  {
+    "level": "Elementary",
+    "word": "chess",
+    "meaning": "西洋棋",
+    "example": "My grandfather taught me how to play chess. (我爺爺教我怎麼下西洋棋。)",
+    "id": "Elementary-chess-mko4wv"
+  },
+  {
+    "level": "Elementary",
+    "word": "chicken",
+    "meaning": "雞肉",
+    "example": "We had fried chicken for dinner last night. (我們昨天晚餐吃炸雞。)",
+    "id": "Elementary-chicken-mqd7v"
+  },
+  {
+    "level": "Elementary",
+    "word": "child",
+    "meaning": "小孩",
+    "example": "He is a very smart child. (他是一個非常聰明的孩子。)",
+    "id": "Elementary-child-mg5ru"
+  },
+  {
+    "level": "Elementary",
+    "word": "China",
+    "meaning": "中國",
+    "example": "China is a country in Asia. (中國是亞洲的一個國家。)",
+    "id": "Elementary-china-mdrwe"
+  },
+  {
+    "level": "Elementary",
+    "word": "Chinese",
+    "meaning": "中國人,中文",
+    "example": "We learn Chinese and English at school. (我們在學校學習中文和英文。)",
+    "id": "Elementary-chinese-mnn5vai"
+  },
+  {
+    "level": "Elementary",
+    "word": "chocolate",
+    "meaning": "巧克力",
+    "example": "I like hot chocolate in winter. (我冬天喜歡喝熱巧克力。)",
+    "id": "Elementary-chocolate-me5fbr"
+  },
+  {
+    "level": "Elementary",
+    "word": "choose",
+    "meaning": "選擇",
+    "example": "You can choose your favorite book. (你可以選擇你最喜歡的書。)",
+    "id": "Elementary-choose-mp4jz"
+  },
+  {
+    "level": "Elementary",
+    "word": "chopsticks",
+    "meaning": "筷子",
+    "example": "We use chopsticks to eat noodles. (我們用筷子吃麵。)",
+    "id": "Elementary-chopsticks-mli2h"
+  },
+  {
+    "level": "Elementary",
+    "word": "Christmas",
+    "meaning": "聖誕節",
+    "example": "We get presents on Christmas Day. (我們在聖誕節會拿到禮物。)",
+    "id": "Elementary-christmas-mjgyox"
+  },
+  {
+    "level": "Elementary",
+    "word": "church",
+    "meaning": "教堂",
+    "example": "They go to church every Sunday. (他們每個星期天去教堂。)",
+    "id": "Elementary-church-mhpzd"
+  },
+  {
+    "level": "Elementary",
+    "word": "circle",
+    "meaning": "圓圈",
+    "example": "The students stood in a circle. (學生們站成了一個圈。)",
+    "id": "Elementary-circle-mfadx"
+  },
+  {
+    "level": "Elementary",
+    "word": "city",
+    "meaning": "城市",
+    "example": "Taipei is a very big city. (台北是一個非常大的城市。)",
+    "id": "Elementary-city-mfg8k"
+  },
+  {
+    "level": "Elementary",
+    "word": "clap",
+    "meaning": "拍手",
+    "example": "Everyone, please clap your hands. (各位，請拍拍手。)",
+    "id": "Elementary-clap-mhcf2"
+  },
+  {
+    "level": "Elementary",
+    "word": "class",
+    "meaning": "班級",
+    "example": "My class is very nice. (我的班級很棒。)",
+    "id": "Elementary-class-mkekt"
+  },
+  {
+    "level": "Elementary",
+    "word": "classmate",
+    "meaning": "同班同學",
+    "example": "He is my new classmate, Kevin. (他是我的新同學，凱文。)",
+    "id": "Elementary-classmate-mb30kct"
+  },
+  {
+    "level": "Elementary",
+    "word": "classroom",
+    "meaning": "教室",
+    "example": "Please keep our classroom clean. (請保持我們的教室乾淨。)",
+    "id": "Elementary-classroom-mhqp7"
+  },
+  {
+    "level": "Elementary",
+    "word": "clean",
+    "meaning": "打掃",
+    "example": "Please clean your room before you go out. (出門前請先把房間打掃乾淨。)",
+    "id": "Elementary-clean-mh9qo"
+  },
+  {
+    "level": "Elementary",
+    "word": "clear",
+    "meaning": "清楚的",
+    "example": "The water in the river is very clear. (這條河裡的水非常清澈。)",
+    "id": "Elementary-clear-mgmp7z"
+  },
+  {
+    "level": "Elementary",
+    "word": "clerk",
+    "meaning": "店員",
+    "example": "The clerk at the convenience store is very polite. (超商的店員非常有禮貌。)",
+    "id": "Elementary-clerk-mgjze"
+  },
+  {
+    "level": "Elementary",
+    "word": "climb",
+    "meaning": "爬",
+    "example": "We love to climb mountains on weekends. (我們喜歡在週末去爬山。)",
+    "id": "Elementary-climb-mmjw"
+  },
+  {
+    "level": "Elementary",
+    "word": "clock",
+    "meaning": "時鐘",
+    "example": "The clock on the wall says it is 4 p.m. (牆上的時鐘顯示現在是下午四點。)",
+    "id": "Elementary-clock-mi7fa"
+  },
+  {
+    "level": "Elementary",
+    "word": "close",
+    "meaning": "關上",
+    "example": "Please close the window. (請關上窗戶。)",
+    "id": "Elementary-close-mpx2m"
+  },
+  {
+    "level": "Elementary",
+    "word": "clothes",
+    "meaning": "衣服",
+    "example": "She bought some beautiful new clothes. (她買了一些漂亮的新衣服。)",
+    "id": "Elementary-clothes-mnrii"
+  },
+  {
+    "level": "Elementary",
+    "word": "cloudy",
+    "meaning": "多雲的",
+    "example": "It is cloudy today, so it might rain. (今天陰天，所以可能會下雨。)",
+    "id": "Elementary-cloudy-mds5m4"
+  },
+  {
+    "level": "Elementary",
+    "word": "club",
+    "meaning": "社團",
+    "example": "I am in the art club. (我在美術社。)",
+    "id": "Elementary-club-ml3mi"
+  },
+  {
+    "level": "Elementary",
+    "word": "coat",
+    "meaning": "大衣",
+    "example": "Put on your coat before going outside. (出去外面之前穿上你的外套。)",
+    "id": "Elementary-coat-mfwv0"
+  },
+  {
+    "level": "Elementary",
+    "word": "coffee",
+    "meaning": "咖啡",
+    "example": "My parents drink coffee every morning. (我父母每天早上喝咖啡。)",
+    "id": "Elementary-coffee-meutn"
+  },
+  {
+    "level": "Elementary",
+    "word": "Coke",
+    "meaning": "可樂",
+    "example": "I like to drink cold Coke with pizza. (我喜歡搭配披薩喝冰可樂。)",
+    "id": "Elementary-coke-meuwj"
+  },
+  {
+    "level": "Elementary",
+    "word": "cold",
+    "meaning": "寒冷的",
+    "example": "Remember to wear a sweater on a cold day. (冷天時記得穿毛衣。)",
+    "id": "Elementary-cold-mduprz"
+  },
+  {
+    "level": "Elementary",
+    "word": "collect",
+    "meaning": "收集",
+    "example": "My brother likes to collect stickers. (我哥哥喜歡收集貼紙。)",
+    "id": "Elementary-collect-mi1jk"
+  },
+  {
+    "level": "Elementary",
+    "word": "color",
+    "meaning": "顏色",
+    "example": "What is your favorite color? (你最喜歡什麼顏色？)",
+    "id": "Elementary-color-mqmf7"
+  },
+  {
+    "level": "Elementary",
+    "word": "come",
+    "meaning": "來",
+    "example": "Please come to my birthday party. (請來參加我的生日派對。)",
+    "id": "Elementary-come-mfpi"
+  },
+  {
+    "level": "Elementary",
+    "word": "comb",
+    "meaning": "梳子",
+    "example": "She uses a pink comb to brush her hair. (她用粉紅色的梳子梳頭髮。)",
+    "id": "Elementary-comb-mib5p"
+  },
+  {
+    "level": "Elementary",
+    "word": "comfortable",
+    "meaning": "舒適的",
+    "example": "This bed is very soft and comfortable. (這張床非常柔軟舒服。)",
+    "id": "Elementary-comfortable-mjr2kt"
+  },
+  {
+    "level": "Elementary",
+    "word": "comic",
+    "meaning": "連環漫畫",
+    "example": "I love reading comic books on weekends. (我喜歡在週末看漫畫書。)",
+    "id": "Elementary-comic-mio3rd9"
+  },
+  {
+    "level": "Elementary",
+    "word": "common",
+    "meaning": "共同的",
+    "example": "We have a common dream. (我們有共同的夢想。)",
+    "id": "Elementary-common-mccdux"
+  },
+  {
+    "level": "Elementary",
+    "word": "computer",
+    "meaning": "電腦",
+    "example": "We use the computer to look for information. (我們用電腦來查資料。)",
+    "id": "Elementary-computer-mqe2z"
+  },
+  {
+    "level": "Elementary",
+    "word": "convenient",
+    "meaning": "方便的",
+    "example": "Convenience stores in Taiwan are very convenient. (台灣的便利商店非常方便。)",
+    "id": "Elementary-convenient-mfalge"
+  },
+  {
+    "level": "Elementary",
+    "word": "cook",
+    "meaning": "煮飯",
+    "example": "My father can cook delicious fried rice. (我父親會炒好吃的炒飯。)",
+    "id": "Elementary-cook-mk4sh"
+  },
+  {
+    "level": "Elementary",
+    "word": "cookie",
+    "meaning": "餅乾",
+    "example": "Grandma made chocolate chip cookies for us. (阿嬤幫我們做了巧克力豆餅乾。)",
+    "id": "Elementary-cookie-mqgih"
+  },
+  {
+    "level": "Elementary",
+    "word": "cool",
+    "meaning": "涼爽的",
+    "example": "The weather in autumn is cool and nice. (秋天的天氣涼爽舒適。)",
+    "id": "Elementary-cool-mgmpib"
+  },
+  {
+    "level": "Elementary",
+    "word": "copy",
+    "meaning": "抄寫,複製",
+    "example": "Do not copy your classmate's homework. (不要抄同學的功課。)",
+    "id": "Elementary-copy-m15nh1vf"
+  },
+  {
+    "level": "Elementary",
+    "word": "corner",
+    "meaning": "角落",
+    "example": "The library is at the corner of the street. (圖書館在街道的轉角處。)",
+    "id": "Elementary-corner-mo623"
+  },
+  {
+    "level": "Elementary",
+    "word": "correct",
+    "meaning": "正確的",
+    "example": "Your answer is correct. (你的答案是對的。)",
+    "id": "Elementary-correct-mgbfl9"
+  },
+  {
+    "level": "Elementary",
+    "word": "cost",
+    "meaning": "價值",
+    "example": "This toy costs fifty dollars. (這個玩具價值五十元。)",
+    "id": "Elementary-cost-me7oj"
+  },
+  {
+    "level": "Elementary",
+    "word": "couch",
+    "meaning": "沙發",
+    "example": "Dad is sleeping on the couch. (爸爸正在沙發上睡覺。)",
+    "id": "Elementary-couch-mj4eb"
+  },
+  {
+    "level": "Elementary",
+    "word": "count",
+    "meaning": "計算",
+    "example": "Can you count from one to ten? (你能從一數到十嗎？)",
+    "id": "Elementary-count-mo5n3"
+  },
+  {
+    "level": "Elementary",
+    "word": "country",
+    "meaning": "鄉村",
+    "example": "Taiwan is a beautiful country. (台灣是一個美麗的國家。)",
+    "id": "Elementary-country-mp8iw"
+  },
+  {
+    "level": "Elementary",
+    "word": "course",
+    "meaning": "課程",
+    "example": "I take an art course after school. (我放學後上一門美術課程。)",
+    "id": "Elementary-course-mo9eh"
+  },
+  {
+    "level": "Elementary",
+    "word": "cousin",
+    "meaning": "堂,表兄弟姊妹",
+    "example": "My cousin is coming to play with me today. (我的表哥今天要來跟我玩。)",
+    "id": "Elementary-cousin-m100y614"
+  },
+  {
+    "level": "Elementary",
+    "word": "cover",
+    "meaning": "覆蓋,封面,掩護",
+    "example": "Please cover the food to keep it clean. (請把食物蓋好以保持乾淨。)",
+    "id": "Elementary-cover-mbs09zm"
+  },
+  {
+    "level": "Elementary",
+    "word": "cow",
+    "meaning": "母牛",
+    "example": "The cow gives us fresh milk. (乳牛提供我們新鮮的牛奶。)",
+    "id": "Elementary-cow-miypa"
+  },
+  {
+    "level": "Elementary",
+    "word": "cowboy",
+    "meaning": "牛仔",
+    "example": "The cowboy is riding a big horse. (牛仔正騎著一匹大馬。)",
+    "id": "Elementary-cowboy-mjvtl"
+  },
+  {
+    "level": "Elementary",
+    "word": "crazy",
+    "meaning": "瘋狂的",
+    "example": "He is crazy about playing basketball. (他非常著迷於打籃球。)",
+    "id": "Elementary-crazy-mhulvx"
+  },
+  {
+    "level": "Elementary",
+    "word": "cross",
+    "meaning": "越過",
+    "example": "Look left and right before you cross the street. (過馬路前要左右看。)",
+    "id": "Elementary-cross-mov7o"
+  },
+  {
+    "level": "Elementary",
+    "word": "cry",
+    "meaning": "哭",
+    "example": "The baby started to cry because he was hungry. (小嬰兒因為肚子餓開始哭了。)",
+    "id": "Elementary-cry-mgrx"
+  },
+  {
+    "level": "Elementary",
+    "word": "cup",
+    "meaning": "茶杯",
+    "example": "I drank a cup of warm milk. (我喝了一杯溫牛奶。)",
+    "id": "Elementary-cup-mmvw9"
+  },
+  {
+    "level": "Elementary",
+    "word": "cut",
+    "meaning": "切",
+    "example": "Please use scissors to cut the paper. (請用剪刀剪紙。)",
+    "id": "Elementary-cut-mg7b"
+  },
+  {
+    "level": "Elementary",
+    "word": "cute",
+    "meaning": "可愛的",
+    "example": "The little puppy is very cute. (那隻小狗非常可愛。)",
+    "id": "Elementary-cute-mcrqwo"
+  },
+  {
+    "level": "Elementary",
+    "word": "dance",
+    "meaning": "跳舞",
+    "example": "They love to dance to the music. (他們喜歡隨著音樂跳舞。)",
+    "id": "Elementary-dance-moux7"
+  },
+  {
+    "level": "Elementary",
+    "word": "dangerous",
+    "meaning": "危險的",
+    "example": "It is dangerous to play with fire. (玩火是很危險的。)",
+    "id": "Elementary-dangerous-mcy9fv"
+  },
+  {
+    "level": "Elementary",
+    "word": "dark",
+    "meaning": "黑暗的",
+    "example": "The sky gets dark at 6 p.m. in winter. (冬天晚上六點天空就變黑了。)",
+    "id": "Elementary-dark-mnrja6"
+  },
+  {
+    "level": "Elementary",
+    "word": "date",
+    "meaning": "日期",
+    "example": "What is today's date? (今天是幾月幾號？)",
+    "id": "Elementary-date-mhwbe"
+  },
+  {
+    "level": "Elementary",
+    "word": "daughter",
+    "meaning": "女兒",
+    "example": "She is the only daughter in the family. (她是家裡唯一的女兒。)",
+    "id": "Elementary-daughter-mfnsv"
+  },
+  {
+    "level": "Elementary",
+    "word": "day",
+    "meaning": "日子",
+    "example": "Have a nice day! (祝你有美好的一天！)",
+    "id": "Elementary-day-mhtzf"
+  },
+  {
+    "level": "Elementary",
+    "word": "dead",
+    "meaning": "死的",
+    "example": "The plant is dead because I forgot to water it. (這盆植物枯死了，因為我忘記澆水。)",
+    "id": "Elementary-dead-mixk9"
+  },
+  {
+    "level": "Elementary",
+    "word": "dear",
+    "meaning": "親愛的",
+    "example": "Dear Grandma, I miss you very much. (親愛的阿嬤，我很想您。)",
+    "id": "Elementary-dear-mkn2er"
+  },
+  {
+    "level": "Elementary",
+    "word": "December",
+    "meaning": "十二月",
+    "example": "Christmas is on December 25th. (聖誕節是在十二月二十五日。)",
+    "id": "Elementary-december-mckx6l"
+  },
+  {
+    "level": "Elementary",
+    "word": "decide",
+    "meaning": "決定",
+    "example": "I can't decide which toy to buy. (我無法決定要買哪一個玩具。)",
+    "id": "Elementary-decide-miycg"
+  },
+  {
+    "level": "Elementary",
+    "word": "delicious",
+    "meaning": "美味的",
+    "example": "The beef noodles are very delicious. (這碗牛肉麵非常美味。)",
+    "id": "Elementary-delicious-mj3lvj"
+  },
+  {
+    "level": "Elementary",
+    "word": "dentist",
+    "meaning": "牙醫",
+    "example": "I go to the dentist to check my teeth. (我去牙醫診所檢查牙齒。)",
+    "id": "Elementary-dentist-mk8z6"
+  },
+  {
+    "level": "Elementary",
+    "word": "department store",
+    "meaning": "百貨公司",
+    "example": "We went shopping at the department store. (我們去百貨公司逛街。)",
+    "id": "Elementary-department-store-mfj0zna"
+  },
+  {
+    "level": "Elementary",
+    "word": "desk",
+    "meaning": "書桌",
+    "example": "Please clean your desk before you go home. (回家前請把你的書桌整理乾淨。)",
+    "id": "Elementary-desk-mi34k"
+  },
+  {
+    "level": "Elementary",
+    "word": "dictionary",
+    "meaning": "字典",
+    "example": "We use a dictionary to look up new words. (我們使用字典來查新單字。)",
+    "id": "Elementary-dictionary-mfzep"
+  },
+  {
+    "level": "Elementary",
+    "word": "die",
+    "meaning": "死掉",
+    "example": "Flowers will die without water. (花朵沒有水就會枯死。)",
+    "id": "Elementary-die-mitta"
+  },
+  {
+    "level": "Elementary",
+    "word": "different",
+    "meaning": "不同的",
+    "example": "They go to different elementary schools. (他們就讀不同的國小。)",
+    "id": "Elementary-different-mbui85"
+  },
+  {
+    "level": "Elementary",
+    "word": "difficult",
+    "meaning": "困難的",
+    "example": "This math question is very difficult. (這題數學題目非常難。)",
+    "id": "Elementary-difficult-mdgqgh"
+  },
+  {
+    "level": "Elementary",
+    "word": "dig",
+    "meaning": "挖掘",
+    "example": "The dog loves to dig holes in the yard. (這隻狗喜歡在院子裡挖洞。)",
+    "id": "Elementary-dig-mhef6"
+  },
+  {
+    "level": "Elementary",
+    "word": "dining room",
+    "meaning": "飯廳",
+    "example": "We have dinner together in the dining room. (我們在餐廳一起吃晚餐。)",
+    "id": "Elementary-dining-room-mqj8k"
+  },
+  {
+    "level": "Elementary",
+    "word": "dinner",
+    "meaning": "晚餐",
+    "example": "What are we having for dinner tonight? (我們今天晚餐吃什麼？)",
+    "id": "Elementary-dinner-mi8za"
+  },
+  {
+    "level": "Elementary",
+    "word": "dirty",
+    "meaning": "骯髒的",
+    "example": "Your hands are dirty. (你的手髒了。)",
+    "id": "Elementary-dirty-mnemld"
+  },
+  {
+    "level": "Elementary",
+    "word": "dish",
+    "meaning": "盤子,菜餚",
+    "example": "Mom cooked a delicious dish of fish. (媽媽煮了一盤美味的魚料理。)",
+    "id": "Elementary-dish-m1e7k3ge"
+  },
+  {
+    "level": "Elementary",
+    "word": "do",
+    "meaning": "做",
+    "example": "Did you do your homework? (你寫功課了嗎？)",
+    "id": "Elementary-do-mfve"
+  },
+  {
+    "level": "Elementary",
+    "word": "doctor",
+    "meaning": "醫生",
+    "example": "The doctor told me to drink more water. (醫生叫我多喝水。)",
+    "id": "Elementary-doctor-mpf4k"
+  },
+  {
+    "level": "Elementary",
+    "word": "dodge ball",
+    "meaning": "躲避球",
+    "example": "We love to play dodge ball during PE class. (我們喜歡在體育課打躲避球。)",
+    "id": "Elementary-dodge-ball-mlln6e"
+  },
+  {
+    "level": "Elementary",
+    "word": "dog",
+    "meaning": "狗",
+    "example": "My dog likes to catch a ball. (我的狗喜歡接球。)",
+    "id": "Elementary-dog-mmon"
+  },
+  {
+    "level": "Elementary",
+    "word": "doll",
+    "meaning": "洋娃娃",
+    "example": "The little girl has a beautiful doll. (那個小女孩有一個漂亮的洋娃娃。)",
+    "id": "Elementary-doll-mgesa3"
+  },
+  {
+    "level": "Elementary",
+    "word": "dollar",
+    "meaning": "元",
+    "example": "This pen costs fifty Taiwan dollars. (這枝筆要五十元新台幣。)",
+    "id": "Elementary-dollar-mg1v"
+  },
+  {
+    "level": "Elementary",
+    "word": "door",
+    "meaning": "門",
+    "example": "Please close the door when you leave. (離開時請關門。)",
+    "id": "Elementary-door-mtj4"
+  },
+  {
+    "level": "Elementary",
+    "word": "dot",
+    "meaning": "點",
+    "example": "Connect the dots to draw a picture. (把這些點連起來就可以畫出一幅畫。)",
+    "id": "Elementary-dot-mvdq"
+  },
+  {
+    "level": "Elementary",
+    "word": "down",
+    "meaning": "向下",
+    "example": "Please sit down and open your books. (請坐下並打開書本。)",
+    "id": "Elementary-down-meq6y"
+  },
+  {
+    "level": "Elementary",
+    "word": "dozen",
+    "meaning": "〈一〉打",
+    "example": "My mother bought a dozen eggs. (我媽媽買了一打雞蛋。)",
+    "id": "Elementary-dozen-m6drasi"
+  },
+  {
+    "level": "Elementary",
+    "word": "dragon",
+    "meaning": "龍",
+    "example": "The dragon is big. (龍很大。)",
+    "id": "Elementary-dragon-mvil"
+  },
+  {
+    "level": "Elementary",
+    "word": "draw",
+    "meaning": "畫",
+    "example": "I like to draw pictures of animals. (我喜歡畫動物的圖片。)",
+    "id": "Elementary-draw-mn6z"
+  },
+  {
+    "level": "Elementary",
+    "word": "drawer",
+    "meaning": "抽屜",
+    "example": "The scissors are inside the desk drawer. (剪刀在書桌的抽屜裡。)",
+    "id": "Elementary-drawer-mhav3"
+  },
+  {
+    "level": "Elementary",
+    "word": "dream",
+    "meaning": "〈做〉夢",
+    "example": "I dream about my dog at night. (我晚上夢到我的狗。)",
+    "id": "Elementary-dream-m6e3nd7"
+  },
+  {
+    "level": "Elementary",
+    "word": "dress",
+    "meaning": "洋裝",
+    "example": "She wore a beautiful pink dress today. (她今天穿了一件漂亮的粉紅色連身裙。)",
+    "id": "Elementary-dress-mjar6"
+  },
+  {
+    "level": "Elementary",
+    "word": "drink",
+    "meaning": "喝",
+    "example": "I want to drink some apple juice. (我想喝點蘋果汁。)",
+    "id": "Elementary-drink-mgwt"
+  },
+  {
+    "level": "Elementary",
+    "word": "drive",
+    "meaning": "駕駛",
+    "example": "My dad drives me to school every morning. (我爸爸每天早上開車送我上學。)",
+    "id": "Elementary-drive-mr0di"
+  },
+  {
+    "level": "Elementary",
+    "word": "driver",
+    "meaning": "駕駛人",
+    "example": "The bus driver is very friendly. (這位公車司機非常友善。)",
+    "id": "Elementary-driver-mn9r6c"
+  },
+  {
+    "level": "Elementary",
+    "word": "drop",
+    "meaning": "掉落",
+    "example": "Be careful not to drop the glass. (小心不要把玻璃杯摔落了。)",
+    "id": "Elementary-drop-mhnmc"
+  },
+  {
+    "level": "Elementary",
+    "word": "drum",
+    "meaning": "鼓",
+    "example": "He plays the drum in the school band. (他在學校樂隊敲鼓。)",
+    "id": "Elementary-drum-mvf7"
+  },
+  {
+    "level": "Elementary",
+    "word": "dry",
+    "meaning": "乾的",
+    "example": "Use a towel to wipe your wet hair dry. (用毛巾把濕頭髮擦乾。)",
+    "id": "Elementary-dry-me01y"
+  },
+  {
+    "level": "Elementary",
+    "word": "duck",
+    "meaning": "鴨",
+    "example": "We saw some ducks swimming in the pond. (我們看到幾隻鴨子在池塘裡游泳。)",
+    "id": "Elementary-duck-mv1k"
+  },
+  {
+    "level": "Elementary",
+    "word": "dumpling",
+    "meaning": "包餡食物,餃子",
+    "example": "My family makes dumplings together on weekends. (我們全家週末一起包水餃。)",
+    "id": "Elementary-dumpling-m16o9koj"
+  },
+  {
+    "level": "Elementary",
+    "word": "during",
+    "meaning": "在…期間",
+    "example": "Do not talk during the movie. (看電影期間請勿講話。)",
+    "id": "Elementary-during-mb4ymz6"
+  },
+  {
+    "level": "Elementary",
+    "word": "each",
+    "meaning": "每一〈的〉",
+    "example": "Each student has an English textbook. (每個學生都有一本英文課本。)",
+    "id": "Elementary-each-m5e57bw"
+  },
+  {
+    "level": "Elementary",
+    "word": "ear",
+    "meaning": "耳朵",
+    "example": "Rabbits have long ears. (兔子有長耳朵。)",
+    "id": "Elementary-ear-mmdeq"
+  },
+  {
+    "level": "Elementary",
+    "word": "early",
+    "meaning": "早的",
+    "example": "I woke up early this morning. (我今天早上很早起床。)",
+    "id": "Elementary-early-mhzgb"
+  },
+  {
+    "level": "Elementary",
+    "word": "earth",
+    "meaning": "地球",
+    "example": "We must take care of our planet, Earth. (我們必須愛護地球。)",
+    "id": "Elementary-earth-mfgsz"
+  },
+  {
+    "level": "Elementary",
+    "word": "east",
+    "meaning": "東方",
+    "example": "The sun rises in the east. (太陽從東方升起。)",
+    "id": "Elementary-east-mi5ig"
+  },
+  {
+    "level": "Elementary",
+    "word": "Easter",
+    "meaning": "復活節",
+    "example": "We look for colorful eggs on Easter. (我們在復活節尋找彩蛋。)",
+    "id": "Elementary-easter-mejo7i"
+  },
+  {
+    "level": "Elementary",
+    "word": "easy",
+    "meaning": "容易的",
+    "example": "This English quiz is very easy. (這份英文小考非常簡單。)",
+    "id": "Elementary-easy-mdxnwq"
+  },
+  {
+    "level": "Elementary",
+    "word": "eat",
+    "meaning": "吃",
+    "example": "I like to eat fruit after dinner. (我喜歡在晚餐後吃水果。)",
+    "id": "Elementary-eat-mglf"
+  },
+  {
+    "level": "Elementary",
+    "word": "egg",
+    "meaning": "蛋",
+    "example": "I eat a boiled egg for breakfast. (我早餐吃一顆水煮蛋。)",
+    "id": "Elementary-egg-mqmj"
+  },
+  {
+    "level": "Elementary",
+    "word": "eight",
+    "meaning": "八",
+    "example": "There are eight students in the classroom. (教室裡有八個學生。)",
+    "id": "Elementary-eight-mg2z"
+  },
+  {
+    "level": "Elementary",
+    "word": "eighteen",
+    "meaning": "十八",
+    "example": "My big sister is eighteen years old. (我姐姐十八歲。)",
+    "id": "Elementary-eighteen-melvu"
+  },
+  {
+    "level": "Elementary",
+    "word": "eighth",
+    "meaning": "第八",
+    "example": "August is the eighth month of the year. (八月是一年中的第八個月。)",
+    "id": "Elementary-eighth-mlebj"
+  },
+  {
+    "level": "Elementary",
+    "word": "eighty",
+    "meaning": "八十",
+    "example": "My grandfather is eighty years old. (我爺爺八十歲。)",
+    "id": "Elementary-eighty-meb06"
+  },
+  {
+    "level": "Elementary",
+    "word": "either",
+    "meaning": "也不",
+    "example": "You can choose either apple juice or milk. (你可以選擇蘋果汁或牛奶。)",
+    "id": "Elementary-either-mdrbi"
+  },
+  {
+    "level": "Elementary",
+    "word": "elementary school",
+    "meaning": "小學",
+    "example": "I am a student at an elementary school. (我是國小學生。)",
+    "id": "Elementary-elementary-school-mg5s9"
+  },
+  {
+    "level": "Elementary",
+    "word": "elephant",
+    "meaning": "大象",
+    "example": "The elephant has a very long nose. (大象有很長的鼻子。)",
+    "id": "Elementary-elephant-mfxne"
+  },
+  {
+    "level": "Elementary",
+    "word": "eleven",
+    "meaning": "十一",
+    "example": "We have lunch at eleven o'clock. (我們十一點吃午餐。)",
+    "id": "Elementary-eleven-mel7j"
+  },
+  {
+    "level": "Elementary",
+    "word": "eleventh",
+    "meaning": "第十一(的)",
+    "example": "Today is the eleventh of December. (今天是十二月十一號。)",
+    "id": "Elementary-eleventh-m1sc59wi"
+  },
+  {
+    "level": "Elementary",
+    "word": "else",
+    "meaning": "其他的",
+    "example": "What else do you want to buy? (你還想買其他什麼東西嗎？)",
+    "id": "Elementary-else-mcblno"
+  },
+  {
+    "level": "Elementary",
+    "word": "e-mail",
+    "meaning": "電子郵件",
+    "example": "The teacher sent an e-mail to my parents. (老師寄了一封電子郵件給我父母。)",
+    "id": "Elementary-e-mail-mjfm6ty"
+  },
+  {
+    "level": "Elementary",
+    "word": "end",
+    "meaning": "結束",
+    "example": "The movie has a happy end. (這部電影有一個快樂的結局。)",
+    "id": "Elementary-end-mlvrj"
+  },
+  {
+    "level": "Elementary",
+    "word": "engineer",
+    "meaning": "工程師",
+    "example": "My father is a computer engineer. (我父親是一位電腦工程師。)",
+    "id": "Elementary-engineer-mecdnp"
+  },
+  {
+    "level": "Elementary",
+    "word": "English",
+    "meaning": "英語",
+    "example": "I love learning English very much. (我很喜歡學英文。)",
+    "id": "Elementary-english-mn171"
+  },
+  {
+    "level": "Elementary",
+    "word": "enjoy",
+    "meaning": "喜愛",
+    "example": "We enjoy playing games together. (我們享受一起玩遊戲。)",
+    "id": "Elementary-enjoy-mf3en"
+  },
+  {
+    "level": "Elementary",
+    "word": "enough",
+    "meaning": "足夠的",
+    "example": "Do you have enough pocket money? (你的零用錢夠嗎？)",
+    "id": "Elementary-enough-ml6ziv"
+  },
+  {
+    "level": "Elementary",
+    "word": "enter",
+    "meaning": "進入",
+    "example": "Please knock before you enter the room. (進房間前請先敲門。)",
+    "id": "Elementary-enter-moz1v"
+  },
+  {
+    "level": "Elementary",
+    "word": "envelope",
+    "meaning": "信封",
+    "example": "Put the letter inside the envelope. (把信放到信封裡。)",
+    "id": "Elementary-envelope-me3b4"
+  },
+  {
+    "level": "Elementary",
+    "word": "eraser",
+    "meaning": "橡皮擦",
+    "example": "Can I borrow your eraser for a minute? (可以借用你的橡皮擦一下嗎？)",
+    "id": "Elementary-eraser-mg5o9l"
+  },
+  {
+    "level": "Elementary",
+    "word": "eve",
+    "meaning": "前夕",
+    "example": "We eat a big dinner on New Year's Eve. (我們在除夕夜吃大餐。)",
+    "id": "Elementary-eve-mehk8"
+  },
+  {
+    "level": "Elementary",
+    "word": "even",
+    "meaning": "甚至",
+    "example": "Even a child can do it. (連小孩都做得到。)",
+    "id": "Elementary-even-mkmqh"
+  },
+  {
+    "level": "Elementary",
+    "word": "evening",
+    "meaning": "傍晚",
+    "example": "I usually watch television in the evening. (我通常在傍晚看電視。)",
+    "id": "Elementary-evening-me9gt"
+  },
+  {
+    "level": "Elementary",
+    "word": "ever",
+    "meaning": "曾經",
+    "example": "Have you ever been to Kenting? (你曾經去過墾丁嗎？)",
+    "id": "Elementary-ever-mi7h1"
+  },
+  {
+    "level": "Elementary",
+    "word": "every",
+    "meaning": "每一個(的)",
+    "example": "I wash my hands every time before eating. (我每次吃東西前都會洗手。)",
+    "id": "Elementary-every-msolskz"
+  },
+  {
+    "level": "Elementary",
+    "word": "everyone",
+    "meaning": "每一個人",
+    "example": "Good morning, everyone! (大家早安！)",
+    "id": "Elementary-everyone-mdxbz6o"
+  },
+  {
+    "level": "Elementary",
+    "word": "everything",
+    "meaning": "每件事",
+    "example": "Everything is ready for the party. (派對的一切都準備好了。)",
+    "id": "Elementary-everything-mg6c10"
+  },
+  {
+    "level": "Elementary",
+    "word": "example",
+    "meaning": "例子",
+    "example": "Can you give me an example? (你能給我一個例子嗎？)",
+    "id": "Elementary-example-me145"
+  },
+  {
+    "level": "Elementary",
+    "word": "excellent",
+    "meaning": "極好的",
+    "example": "Your English performance is excellent. (你的英文表現太優秀了。)",
+    "id": "Elementary-excellent-mfvxzw"
+  },
+  {
+    "level": "Elementary",
+    "word": "except",
+    "meaning": "除了…之外",
+    "example": "Everyone went to the park except Tom. (除了湯姆之外，大家都去公園了。)",
+    "id": "Elementary-except-mttlipb"
+  },
+  {
+    "level": "Elementary",
+    "word": "excited",
+    "meaning": "感到興奮的",
+    "example": "We are very excited about the school trip. (我們對校外教學感到非常興奮。)",
+    "id": "Elementary-excited-mzhshfx"
+  },
+  {
+    "level": "Elementary",
+    "word": "exciting",
+    "meaning": "令人興奮的",
+    "example": "The basketball game was very exciting. (這場籃球比賽非常刺激。)",
+    "id": "Elementary-exciting-myt2zt4"
+  },
+  {
+    "level": "Elementary",
+    "word": "excuse",
+    "meaning": "原諒",
+    "example": "Please excuse me for being late. (請原諒我遲到。)",
+    "id": "Elementary-excuse-mezgz"
+  },
+  {
+    "level": "Elementary",
+    "word": "exercise",
+    "meaning": "運動",
+    "example": "We do exercise every morning on the playground. (我們每天早上在操場做運動。)",
+    "id": "Elementary-exercise-mozxm"
+  },
+  {
+    "level": "Elementary",
+    "word": "expensive",
+    "meaning": "昂貴的",
+    "example": "This phone is expensive. (這支手機很貴。)",
+    "id": "Elementary-expensive-mfmguq"
+  },
+  {
+    "level": "Elementary",
+    "word": "experience",
+    "meaning": "經驗",
+    "example": "Camping in the mountains was a great experience. (在山上露營是一個棒的經驗。)",
+    "id": "Elementary-experience-mm7fo"
+  },
+  {
+    "level": "Elementary",
+    "word": "eye",
+    "meaning": "眼睛",
+    "example": "Please close your eyes and make a wish. (請閉上眼睛許個願。)",
+    "id": "Elementary-eye-mkxpb"
+  },
+  {
+    "level": "Elementary",
+    "word": "face",
+    "meaning": "臉孔,面對",
+    "example": "Wash your face before you go to bed. (睡前要洗臉。)",
+    "id": "Elementary-face-mls3rt8"
+  },
+  {
+    "level": "Elementary",
+    "word": "fact",
+    "meaning": "事實",
+    "example": "In fact, he is my cousin. (事實上，他是我的表哥。)",
+    "id": "Elementary-fact-mdv3v"
+  },
+  {
+    "level": "Elementary",
+    "word": "factory",
+    "meaning": "工廠",
+    "example": "My uncle works in a toy factory. (我叔叔在一家玩具工廠工作。)",
+    "id": "Elementary-factory-mghp7"
+  },
+  {
+    "level": "Elementary",
+    "word": "fail",
+    "meaning": "失敗",
+    "example": "I did not fail the test. (我考試沒有不及格。)",
+    "id": "Elementary-fail-mfq6e"
+  },
+  {
+    "level": "Elementary",
+    "word": "fall",
+    "meaning": "秋天",
+    "example": "Fall is cool in Taiwan. (台灣的秋天很涼爽。)",
+    "id": "Elementary-fall-ml7em"
+  },
+  {
+    "level": "Elementary",
+    "word": "family",
+    "meaning": "家庭",
+    "example": "I love my family very much. (我很愛我的家人。)",
+    "id": "Elementary-family-mg4af"
+  },
+  {
+    "level": "Elementary",
+    "word": "famous",
+    "meaning": "有名的",
+    "example": "Taipei 101 is a famous building. (台北101是一棟著名的建築。)",
+    "id": "Elementary-famous-mfi8yo"
+  },
+  {
+    "level": "Elementary",
+    "word": "fan",
+    "meaning": "扇子,擁護者",
+    "example": "I use a fan on hot days. (我在熱天使用扇子。)",
+    "id": "Elementary-fan-m1gaih7w"
+  },
+  {
+    "level": "Elementary",
+    "word": "far",
+    "meaning": "遠的",
+    "example": "Is your home far from the school? (你家離學校很遠嗎？)",
+    "id": "Elementary-far-mp7hg"
+  },
+  {
+    "level": "Elementary",
+    "word": "farm",
+    "meaning": "農田",
+    "example": "There are many cows and sheep on the farm. (農場裡有許多乳牛和綿羊。)",
+    "id": "Elementary-farm-mp326"
+  },
+  {
+    "level": "Elementary",
+    "word": "farmer",
+    "meaning": "農夫",
+    "example": "The farmer grows fresh vegetables. (這位農夫種植新鮮的蔬菜。)",
+    "id": "Elementary-farmer-moxix"
+  },
+  {
+    "level": "Elementary",
+    "word": "fast",
+    "meaning": "快的",
+    "example": "The train runs very fast. (這班火車開得非常快。)",
+    "id": "Elementary-fast-mgyrd"
+  },
+  {
+    "level": "Elementary",
+    "word": "fat",
+    "meaning": "胖的",
+    "example": "The cute cat is a little fat. (那隻可愛的貓咪有點胖。)",
+    "id": "Elementary-fat-mmkby"
+  },
+  {
+    "level": "Elementary",
+    "word": "father",
+    "meaning": "父親",
+    "example": "My father plays baseball with me on Sundays. (我父親星期日會陪我打棒球。)",
+    "id": "Elementary-father-mk6k4"
+  },
+  {
+    "level": "Elementary",
+    "word": "favorite",
+    "meaning": "最喜愛的",
+    "example": "Mango is my favorite fruit in summer. (芒果是我夏天最喜歡的水果。)",
+    "id": "Elementary-favorite-mdcp751-mango-is-my-favori"
+  },
+  {
+    "level": "Elementary",
+    "word": "favorite",
+    "meaning": "最喜愛的",
+    "example": "What is your favorite animal? (你最喜歡的動物是什麼？)",
+    "id": "Elementary-favorite-mdcp751-what-is-your-favor"
+  },
+  {
+    "level": "Elementary",
+    "word": "February",
+    "meaning": "二月",
+    "example": "February is the second month of the year. (二月是一年中的第二個月。)",
+    "id": "Elementary-february-mdxbw"
+  },
+  {
+    "level": "Elementary",
+    "word": "feed",
+    "meaning": "餵",
+    "example": "Don't forget to feed the fish. (不要忘記餵魚。)",
+    "id": "Elementary-feed-mu9h"
+  },
+  {
+    "level": "Elementary",
+    "word": "feel",
+    "meaning": "覺得",
+    "example": "I feel happy when I play with my friends. (和朋友一起玩的時候我覺得很高興。)",
+    "id": "Elementary-feel-mny8t"
+  },
+  {
+    "level": "Elementary",
+    "word": "festival",
+    "meaning": "節慶",
+    "example": "The Moon Festival is an important holiday. (中秋節是一個重要的節日。)",
+    "id": "Elementary-festival-mll12"
+  },
+  {
+    "level": "Elementary",
+    "word": "fever",
+    "meaning": "發燒",
+    "example": "He stayed home because he had a fever. (他因為發燒而待在家。)",
+    "id": "Elementary-fever-mks0m"
+  },
+  {
+    "level": "Elementary",
+    "word": "few",
+    "meaning": "少數的",
+    "example": "There are only a few people in the library. (圖書館裡只有幾個人。)",
+    "id": "Elementary-few-mdzdgd"
+  },
+  {
+    "level": "Elementary",
+    "word": "fifteen",
+    "meaning": "十五",
+    "example": "There are fifteen apples in the box. (盒子裡有十五顆蘋果。)",
+    "id": "Elementary-fifteen-melbn"
+  },
+  {
+    "level": "Elementary",
+    "word": "fifteenth",
+    "meaning": "第十五(的)",
+    "example": "Today is the fifteenth of October. (今天是十月十五號。)",
+    "id": "Elementary-fifteenth-m1serrym"
+  },
+  {
+    "level": "Elementary",
+    "word": "fifty",
+    "meaning": "五十",
+    "example": "My mother bought fifty eggs for the bakery. (我媽媽為麵包店買了五十顆蛋。)",
+    "id": "Elementary-fifty-mdtm5"
+  },
+  {
+    "level": "Elementary",
+    "word": "fight",
+    "meaning": "打架",
+    "example": "Brothers should not fight with each other. (兄弟之間不應該打架。)",
+    "id": "Elementary-fight-mhakj"
+  },
+  {
+    "level": "Elementary",
+    "word": "fill",
+    "meaning": "裝滿",
+    "example": "Please fill the glass with milk. (請把杯子倒滿牛奶。)",
+    "id": "Elementary-fill-mnw02"
+  },
+  {
+    "level": "Elementary",
+    "word": "finally",
+    "meaning": "最後",
+    "example": "Finally, we finish our homework. (最後，我們完成了作業。)",
+    "id": "Elementary-finally-mi1l8"
+  },
+  {
+    "level": "Elementary",
+    "word": "find",
+    "meaning": "找到",
+    "example": "I can't find my pencil case. (我找不到我的鉛筆盒。)",
+    "id": "Elementary-find-mh7ci"
+  },
+  {
+    "level": "Elementary",
+    "word": "fine",
+    "meaning": "很好的",
+    "example": "I am fine, thank you. (我很好，謝謝你。)",
+    "id": "Elementary-fine-mefltb"
+  },
+  {
+    "level": "Elementary",
+    "word": "finger",
+    "meaning": "手指",
+    "example": "I have ten fingers on my hands. (我的手上有十隻手指頭。)",
+    "id": "Elementary-finger-mh9gc"
+  },
+  {
+    "level": "Elementary",
+    "word": "finish",
+    "meaning": "完成",
+    "example": "Please finish your dinner before playing. (玩耍之前請先吃完晚餐。)",
+    "id": "Elementary-finish-mg3yc"
+  },
+  {
+    "level": "Elementary",
+    "word": "fire",
+    "meaning": "火焰,開火",
+    "example": "Be careful not to play with fire. (小心不要玩火。)",
+    "id": "Elementary-fire-mrnvj1j"
+  },
+  {
+    "level": "Elementary",
+    "word": "first",
+    "meaning": "第一(的)",
+    "example": "January is the first month of the year. (一月是一年中的第一個月份。)",
+    "id": "Elementary-first-m1t9nbll"
+  },
+  {
+    "level": "Elementary",
+    "word": "fish",
+    "meaning": "魚",
+    "example": "There are many colorful fish in the pond. (池塘裡有許多色彩繽紛的魚。)",
+    "id": "Elementary-fish-muoq"
+  },
+  {
+    "level": "Elementary",
+    "word": "fisherman",
+    "meaning": "漁夫",
+    "example": "The fisherman caught a big fish today. (這位漁夫今天抓到了一條大魚。)",
+    "id": "Elementary-fisherman-mjdca"
+  },
+  {
+    "level": "Elementary",
+    "word": "five",
+    "meaning": "五",
+    "example": "I have five books. (我有五本書。)",
+    "id": "Elementary-five-mfis"
+  },
+  {
+    "level": "Elementary",
+    "word": "fix",
+    "meaning": "修理",
+    "example": "My dad can fix my broken toy car. (我爸爸會修理我壞掉的玩具汽車。)",
+    "id": "Elementary-fix-me8d4"
+  },
+  {
+    "level": "Elementary",
+    "word": "floor",
+    "meaning": "地板",
+    "example": "Please clean the floor. (請清理地板。)",
+    "id": "Elementary-floor-mfebz"
+  },
+  {
+    "level": "Elementary",
+    "word": "flower",
+    "meaning": "花朵",
+    "example": "There are many beautiful flowers in the garden. (花園裡有許多美麗的花。)",
+    "id": "Elementary-flower-mmso4"
+  },
+  {
+    "level": "Elementary",
+    "word": "flute",
+    "meaning": "笛",
+    "example": "She can play the flute very well. (她長笛吹得非常好。)",
+    "id": "Elementary-flute-mobf"
+  },
+  {
+    "level": "Elementary",
+    "word": "fly",
+    "meaning": "飛",
+    "example": "Birds can fly high in the sky. (鳥兒能在天空中飛得很高。)",
+    "id": "Elementary-fly-mu6z"
+  },
+  {
+    "level": "Elementary",
+    "word": "follow",
+    "meaning": "遵循,跟隨",
+    "example": "Please follow the classroom rules. (請遵守教室守則。)",
+    "id": "Elementary-follow-m8nufa8"
+  },
+  {
+    "level": "Elementary",
+    "word": "food",
+    "meaning": "食物",
+    "example": "Taiwanese night markets have a lot of yummy food. (台灣的夜市有很多好吃的食物。)",
+    "id": "Elementary-food-mqmp6"
+  },
+  {
+    "level": "Elementary",
+    "word": "foot",
+    "meaning": "腳",
+    "example": "We go to the park on foot. (我們走路去公園。)",
+    "id": "Elementary-foot-mpkj"
+  },
+  {
+    "level": "Elementary",
+    "word": "for",
+    "meaning": "為了",
+    "example": "This birthday gift is for you. (這份生日禮物是送給你的。)",
+    "id": "Elementary-for-mjlsc"
+  },
+  {
+    "level": "Elementary",
+    "word": "foreign",
+    "meaning": "外國的",
+    "example": "Learning a foreign language is fun. (學習外國語言很有趣。)",
+    "id": "Elementary-foreign-mdh7cf"
+  },
+  {
+    "level": "Elementary",
+    "word": "foreigner",
+    "meaning": "外國人",
+    "example": "He is a friendly foreigner from Canada. (他是一位來自加拿大、非常友善的外國人。)",
+    "id": "Elementary-foreigner-mdgzhh"
+  },
+  {
+    "level": "Elementary",
+    "word": "forget",
+    "meaning": "忘記",
+    "example": "Don't forget to bring your umbrella. (別忘了帶雨傘。)",
+    "id": "Elementary-forget-mh268"
+  },
+  {
+    "level": "Elementary",
+    "word": "fork",
+    "meaning": "叉子",
+    "example": "We use a fork to eat steak. (我們用叉子吃牛排。)",
+    "id": "Elementary-fork-mer3b"
+  },
+  {
+    "level": "Elementary",
+    "word": "forty",
+    "meaning": "四十",
+    "example": "There are forty students in my class. (我們班有四十個學生。)",
+    "id": "Elementary-forty-mf8au-there-are-forty-st"
+  },
+  {
+    "level": "Elementary",
+    "word": "forty",
+    "meaning": "四十",
+    "example": "My dad is forty years old. (我爸爸四十歲。)",
+    "id": "Elementary-forty-mf8au-my-dad-is-forty-ye"
+  },
+  {
+    "level": "Elementary",
+    "word": "four",
+    "meaning": "四",
+    "example": "A dog has four legs. (狗有四條腿。)",
+    "id": "Elementary-four-mh5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "fourteen",
+    "meaning": "十四",
+    "example": "He is fourteen years old. (他十四歲。)",
+    "id": "Elementary-fourteen-memyi"
+  },
+  {
+    "level": "Elementary",
+    "word": "fourteenth",
+    "meaning": "第十四(的)",
+    "example": "The party is on the fourteenth of May. (派對在五月十四號舉行。)",
+    "id": "Elementary-fourteenth-m1tgct5z"
+  },
+  {
+    "level": "Elementary",
+    "word": "fourth",
+    "meaning": "第四(的)",
+    "example": "Thursday is the fourth day of the school week. (星期四是上學週的第四天。)",
+    "id": "Elementary-fourth-m1uduuv2"
+  },
+  {
+    "level": "Elementary",
+    "word": "fox",
+    "meaning": "狐狸",
+    "example": "The fox in the story is very clever. (故事裡的那隻狐狸非常聰明。)",
+    "id": "Elementary-fox-mk5rc"
+  },
+  {
+    "level": "Elementary",
+    "word": "free",
+    "meaning": "空閒的,免費",
+    "example": "Are you free this afternoon? (你今天下午有空嗎？)",
+    "id": "Elementary-free-mvd8u4u"
+  },
+  {
+    "level": "Elementary",
+    "word": "French fries",
+    "meaning": "炸薯條",
+    "example": "I like to eat French fries with ketchup. (我喜歡沾番茄醬吃薯條。)",
+    "id": "Elementary-french-fries-mh5ocm"
+  },
+  {
+    "level": "Elementary",
+    "word": "fresh",
+    "meaning": "新鮮的",
+    "example": "Mom bought some fresh fruit at the market. (媽媽在市場買了一些新鮮的水果。)",
+    "id": "Elementary-fresh-mfnbra"
+  },
+  {
+    "level": "Elementary",
+    "word": "Friday",
+    "meaning": "星期五",
+    "example": "Friday is my favorite day of the week. (星期五是一週之中我最喜歡的一天。)",
+    "id": "Elementary-friday-mfggc4"
+  },
+  {
+    "level": "Elementary",
+    "word": "friend",
+    "meaning": "朋友",
+    "example": "He is my best friend at school. (他是我在學校最好的朋友。)",
+    "id": "Elementary-friend-mhzj4"
+  },
+  {
+    "level": "Elementary",
+    "word": "friendly",
+    "meaning": "友善的",
+    "example": "The dogs in the park are very friendly. (公園裡的狗都非常友善。)",
+    "id": "Elementary-friendly-mcp18r"
+  },
+  {
+    "level": "Elementary",
+    "word": "frisbee",
+    "meaning": "飛盤",
+    "example": "We like to play frisbee with our dog. (我們喜歡跟我們的狗一起玩飛盤。)",
+    "id": "Elementary-frisbee-mqnhl"
+  },
+  {
+    "level": "Elementary",
+    "word": "frog",
+    "meaning": "青蛙",
+    "example": "There is a green frog splashing in the pond. (有一隻綠色的青蛙在池塘裡玩水。)",
+    "id": "Elementary-frog-mqh8n"
+  },
+  {
+    "level": "Elementary",
+    "word": "from",
+    "meaning": "從",
+    "example": "Where are you from? (你從哪裡來？)",
+    "id": "Elementary-from-mivy"
+  },
+  {
+    "level": "Elementary",
+    "word": "front",
+    "meaning": "前面",
+    "example": "The teacher stands in front of the classroom. (老師站在教室的前面。)",
+    "id": "Elementary-front-metv9"
+  },
+  {
+    "level": "Elementary",
+    "word": "fruit",
+    "meaning": "水果",
+    "example": "Guavas and papayas are my favorite fruit. (芭樂和木瓜是我最喜歡的水果。)",
+    "id": "Elementary-fruit-miz1k"
+  },
+  {
+    "level": "Elementary",
+    "word": "full",
+    "meaning": "滿的",
+    "example": "The bottle is full of water. (瓶子裝滿了水。)",
+    "id": "Elementary-full-mjj39"
+  },
+  {
+    "level": "Elementary",
+    "word": "fun",
+    "meaning": "樂趣",
+    "example": "Playing dodgeball is a lot of fun. (打躲避球很有趣。)",
+    "id": "Elementary-fun-mit41"
+  },
+  {
+    "level": "Elementary",
+    "word": "funny",
+    "meaning": "好笑的",
+    "example": "The clown is telling a funny story. (小丑正在講一個好笑的故事。)",
+    "id": "Elementary-funny-mdpgb4"
+  },
+  {
+    "level": "Elementary",
+    "word": "future",
+    "meaning": "未來",
+    "example": "I want to be a teacher in the future. (我將來想當老師。)",
+    "id": "Elementary-future-mhzfg"
+  },
+  {
+    "level": "Elementary",
+    "word": "game",
+    "meaning": "比賽,遊戲",
+    "example": "Let's play an interesting computer game. (我們來玩一個有趣的電腦遊戲吧。)",
+    "id": "Elementary-game-md80oi3"
+  },
+  {
+    "level": "Elementary",
+    "word": "garbage",
+    "meaning": "垃圾",
+    "example": "Don't throw garbage on the floor. (不要把垃圾丟在地上。)",
+    "id": "Elementary-garbage-mfd3v"
+  },
+  {
+    "level": "Elementary",
+    "word": "garden",
+    "meaning": "花園",
+    "example": "There are many beautiful flowers in our garden. (我們的花園裡有許多美麗的花。)",
+    "id": "Elementary-garden-mmphd"
+  },
+  {
+    "level": "Elementary",
+    "word": "gas",
+    "meaning": "瓦斯",
+    "example": "We use gas to cook dinner. (我們用瓦斯煮晚餐。)",
+    "id": "Elementary-gas-mkfwp"
+  },
+  {
+    "level": "Elementary",
+    "word": "gate",
+    "meaning": "大門",
+    "example": "Please wait for me at the school gate. (請在學校大門口等我。)",
+    "id": "Elementary-gate-mfzg9"
+  },
+  {
+    "level": "Elementary",
+    "word": "get",
+    "meaning": "得到",
+    "example": "I get a new bike for my birthday. (我收到一輛腳踏車當生日禮物。)",
+    "id": "Elementary-get-mgpkp"
+  },
+  {
+    "level": "Elementary",
+    "word": "ghost",
+    "meaning": "鬼",
+    "example": "My little brother is afraid of ghosts. (我弟弟很怕鬼。)",
+    "id": "Elementary-ghost-munw"
+  },
+  {
+    "level": "Elementary",
+    "word": "giant",
+    "meaning": "巨大的,巨人",
+    "example": "The elephant looks like a giant animal. (大象看起來像一隻巨大的動物。)",
+    "id": "Elementary-giant-mpr7we1"
+  },
+  {
+    "level": "Elementary",
+    "word": "gift",
+    "meaning": "禮物",
+    "example": "I bought a beautiful birthday gift for my classmate. (我買了一份美麗的生日禮物要送給同學。)",
+    "id": "Elementary-gift-mlbp7"
+  },
+  {
+    "level": "Elementary",
+    "word": "girl",
+    "meaning": "女孩",
+    "example": "She is a nice and polite girl. (她是一個很好且有禮貌的女孩。)",
+    "id": "Elementary-girl-mfpsm"
+  },
+  {
+    "level": "Elementary",
+    "word": "give",
+    "meaning": "給予",
+    "example": "Please give me an eraser. (請給我一個橡皮擦。)",
+    "id": "Elementary-give-mlrdu"
+  },
+  {
+    "level": "Elementary",
+    "word": "glad",
+    "meaning": "高興的",
+    "example": "I am glad to see you again. (很高興能再次見到你。)",
+    "id": "Elementary-glad-mnb978"
+  },
+  {
+    "level": "Elementary",
+    "word": "glass",
+    "meaning": "玻璃,玻璃杯",
+    "example": "Be careful not to break the glass. (小心不要打破玻璃杯。)",
+    "id": "Elementary-glass-m1sefv0j"
+  },
+  {
+    "level": "Elementary",
+    "word": "glasses",
+    "meaning": "眼鏡",
+    "example": "My grandfather wears glasses to read books. (我爺爺戴眼鏡看書。)",
+    "id": "Elementary-glasses-ml3c5"
+  },
+  {
+    "level": "Elementary",
+    "word": "glove",
+    "meaning": "手套",
+    "example": "It is cold, so I wear warm gloves. (天氣很冷，所以我戴上溫暖的手套。)",
+    "id": "Elementary-glove-mh7jg"
+  },
+  {
+    "level": "Elementary",
+    "word": "glue",
+    "meaning": "膠水",
+    "example": "Use the glue to stick the paper together. (用膠水把這張紙黏起來。)",
+    "id": "Elementary-glue-mmn4k"
+  },
+  {
+    "level": "Elementary",
+    "word": "go",
+    "meaning": "去",
+    "example": "We go to school on foot every day. (我們每天走路去上學。)",
+    "id": "Elementary-go-mgjf"
+  },
+  {
+    "level": "Elementary",
+    "word": "goat",
+    "meaning": "山羊",
+    "example": "The white goat is eating grass on the hill. (白色的山羊正在山丘上吃草。)",
+    "id": "Elementary-goat-mgf95"
+  },
+  {
+    "level": "Elementary",
+    "word": "green",
+    "meaning": "綠色(的)",
+    "example": "The trees in the park are very green. (公園裡的樹木非常翠綠。)",
+    "id": "Elementary-green-mafyw57-the-trees-in-the-p"
+  },
+  {
+    "level": "Elementary",
+    "word": "green",
+    "meaning": "綠色(的)",
+    "example": "The grass in the school yard is very green. (學校操場上的草很綠。)",
+    "id": "Elementary-green-mafyw57-the-grass-in-the-s"
+  },
+  {
+    "level": "Elementary",
+    "word": "goodbye",
+    "meaning": "再見",
+    "example": "Say goodbye to your friends before going home. (回家前跟你的朋友們說再見。)",
+    "id": "Elementary-goodbye-memji"
+  },
+  {
+    "level": "Elementary",
+    "word": "goose",
+    "meaning": "鵝",
+    "example": "We saw a big white goose swimming in the lake. (我們看到一隻大白鵝在湖裡游泳。)",
+    "id": "Elementary-goose-mv31"
+  },
+  {
+    "level": "Elementary",
+    "word": "grade",
+    "meaning": "成績,年級",
+    "example": "I am in the fifth grade this year. (我今年就讀小學五年級。)",
+    "id": "Elementary-grade-m187cbqc"
+  },
+  {
+    "level": "Elementary",
+    "word": "gram",
+    "meaning": "公克",
+    "example": "An apple is about two hundred grams. (一顆蘋果大約兩百公克。)",
+    "id": "Elementary-gram-mean3"
+  },
+  {
+    "level": "Elementary",
+    "word": "grandfather",
+    "meaning": "祖父",
+    "example": "My grandfather loves to watch baseball games. (我爺爺很喜歡看棒球賽。)",
+    "id": "Elementary-grandfather-ml9k0"
+  },
+  {
+    "level": "Elementary",
+    "word": "grandmother",
+    "meaning": "祖母",
+    "example": "My grandmother cooks delicious beef noodles. (我阿嬤會煮美味的牛肉麵。)",
+    "id": "Elementary-grandmother-ml8af"
+  },
+  {
+    "level": "Elementary",
+    "word": "grape",
+    "meaning": "葡萄",
+    "example": "I like to eat sweet purple grapes. (我喜歡吃甜甜的紫葡萄。)",
+    "id": "Elementary-grape-mn8oz"
+  },
+  {
+    "level": "Elementary",
+    "word": "grass",
+    "meaning": "草",
+    "example": "Don't walk on the green grass. (請勿踐踏綠色草皮。)",
+    "id": "Elementary-grass-mpxl"
+  },
+  {
+    "level": "Elementary",
+    "word": "gray",
+    "meaning": "灰色的",
+    "example": "The sky is gray, and it might rain soon. (天空灰灰的，可能快要下雨了。)",
+    "id": "Elementary-gray-mh3pvm"
+  },
+  {
+    "level": "Elementary",
+    "word": "great",
+    "meaning": "很棒的",
+    "example": "That is a great idea! (那真是一個棒主意！)",
+    "id": "Elementary-great-mei7p6"
+  },
+  {
+    "level": "Elementary",
+    "word": "ground",
+    "meaning": "地面",
+    "example": "The fallen leaves are all over the ground. (落葉掉得滿地都是。)",
+    "id": "Elementary-ground-mfnsi"
+  },
+  {
+    "level": "Elementary",
+    "word": "group",
+    "meaning": "團體",
+    "example": "Let's study English in a small group. (我們組成小組來讀英文吧。)",
+    "id": "Elementary-group-mfnwc"
+  },
+  {
+    "level": "Elementary",
+    "word": "grow",
+    "meaning": "種植",
+    "example": "We grow flowers at school. (我們在學校種植花。)",
+    "id": "Elementary-grow-mlcwv"
+  },
+  {
+    "level": "Elementary",
+    "word": "guava",
+    "meaning": "番石榴",
+    "example": "Guava is a very delicious fruit in Taiwan. (芭樂在台灣是一種非常美味的水果。)",
+    "id": "Elementary-guava-mhs3rf"
+  },
+  {
+    "level": "Elementary",
+    "word": "guess",
+    "meaning": "猜想",
+    "example": "Can you guess what is inside the box? (你能猜猜看盒子裡面有什麼嗎？)",
+    "id": "Elementary-guess-mk40n"
+  },
+  {
+    "level": "Elementary",
+    "word": "guitar",
+    "meaning": "吉他",
+    "example": "My big brother is learning to play the guitar. (我哥哥正在學彈吉他。)",
+    "id": "Elementary-guitar-meq5p"
+  },
+  {
+    "level": "Elementary",
+    "word": "guy",
+    "meaning": "傢伙",
+    "example": "Kevin is a nice guy. (凱文是個好人。)",
+    "id": "Elementary-guy-me5dj"
+  },
+  {
+    "level": "Elementary",
+    "word": "gym",
+    "meaning": "體育館",
+    "example": "We play basketball in the gym when it rains. (下雨時我們在體育館打籃球。)",
+    "id": "Elementary-gym-mnb4wa"
+  },
+  {
+    "level": "Elementary",
+    "word": "habit",
+    "meaning": "習慣",
+    "example": "Washing hands before meals is a good habit. (飯前洗手是個好習慣。)",
+    "id": "Elementary-habit-mm9xt"
+  },
+  {
+    "level": "Elementary",
+    "word": "hair",
+    "meaning": "頭髮",
+    "example": "My teacher has long black hair. (我們老師有一頭黑色長髮。)",
+    "id": "Elementary-hair-mqqg1"
+  },
+  {
+    "level": "Elementary",
+    "word": "half",
+    "meaning": "一半",
+    "example": "Can I have half of your apple? (我可以吃你的一半蘋果嗎？)",
+    "id": "Elementary-half-mdq2y"
+  },
+  {
+    "level": "Elementary",
+    "word": "Halloween",
+    "meaning": "萬聖節",
+    "example": "We dress up as ghosts on Halloween. (我們在萬聖節時裝扮成鬼。)",
+    "id": "Elementary-halloween-mjzg46"
+  },
+  {
+    "level": "Elementary",
+    "word": "ham",
+    "meaning": "火腿",
+    "example": "I usually eat ham and egg sandwiches for breakfast. (我早餐通常吃火腿蛋三明治。)",
+    "id": "Elementary-ham-mjtys"
+  },
+  {
+    "level": "Elementary",
+    "word": "hamburger",
+    "meaning": "漢堡",
+    "example": "I love to eat a big hamburger with French fries. (我喜歡吃大漢堡配薯條。)",
+    "id": "Elementary-hamburger-mjdxb"
+  },
+  {
+    "level": "Elementary",
+    "word": "hand",
+    "meaning": "手",
+    "example": "Please wash your hands before dinner. (晚餐前請洗手。)",
+    "id": "Elementary-hand-mjez"
+  },
+  {
+    "level": "Elementary",
+    "word": "handsome",
+    "meaning": "英俊的",
+    "example": "The actor is very tall and handsome. (那位男演員很高而且很帥。)",
+    "id": "Elementary-handsome-mjko8b"
+  },
+  {
+    "level": "Elementary",
+    "word": "hang",
+    "meaning": "懸掛",
+    "example": "Please hang your coat on the wall. (請把你的外套掛在牆上。)",
+    "id": "Elementary-hang-mh7kz"
+  },
+  {
+    "level": "Elementary",
+    "word": "happen",
+    "meaning": "發生",
+    "example": "What happened to your left leg? (你的左腳怎麼了？)",
+    "id": "Elementary-happen-mkso3"
+  },
+  {
+    "level": "Elementary",
+    "word": "happy",
+    "meaning": "快樂的",
+    "example": "Happy birthday to my best friend! (祝我最好的朋友生日快樂！)",
+    "id": "Elementary-happy-mekgdp"
+  },
+  {
+    "level": "Elementary",
+    "word": "hard",
+    "meaning": "困難的,硬的",
+    "example": "The English test is not hard at all. (英文考試一點也不難。)",
+    "id": "Elementary-hard-m1pqnuib"
+  },
+  {
+    "level": "Elementary",
+    "word": "have",
+    "meaning": "有",
+    "example": "I have a cute puppy and two fish. (我有一隻可愛的小狗和兩條魚。)",
+    "id": "Elementary-have-mkcp-i-have-a-cute-pupp-x1j9vcly"
+  },
+  {
+    "level": "Elementary",
+    "word": "have",
+    "meaning": "有",
+    "example": "I have a cute puppy and a toy robot. (我有一隻可愛的小狗和一個玩具機器人。)",
+    "id": "Elementary-have-mkcp-i-have-a-cute-pupp-xqjlugx"
+  },
+  {
+    "level": "Elementary",
+    "word": "hat",
+    "meaning": "帽子",
+    "example": "He wears a white hat on a sunny day. (他在大晴天戴著一頂白帽子。)",
+    "id": "Elementary-hat-mgj3n"
+  },
+  {
+    "level": "Elementary",
+    "word": "hate",
+    "meaning": "討厭",
+    "example": "I hate to eat bitter melons. (我討厭吃苦瓜。)",
+    "id": "Elementary-hate-mnxwf"
+  },
+  {
+    "level": "Elementary",
+    "word": "he",
+    "meaning": "他",
+    "example": "He is my new classmate, Tom. (他是我的新同學，湯姆。)",
+    "id": "Elementary-he-mfkm"
+  },
+  {
+    "level": "Elementary",
+    "word": "head",
+    "meaning": "頭",
+    "example": "Put the baseball cap on your head. (把棒球帽戴在你的頭上。)",
+    "id": "Elementary-head-mu25"
+  },
+  {
+    "level": "Elementary",
+    "word": "headache",
+    "meaning": "頭痛",
+    "example": "I can't go to school because I have a headache. (我因為頭痛不能去上學。)",
+    "id": "Elementary-headache-mqj4e"
+  },
+  {
+    "level": "Elementary",
+    "word": "health",
+    "meaning": "健康",
+    "example": "Eating fruit is good for your health. (吃水果對你的健康有益。)",
+    "id": "Elementary-health-me702"
+  },
+  {
+    "level": "Elementary",
+    "word": "healthy",
+    "meaning": "健康的",
+    "example": "Running every morning keeps me healthy. (每天早上跑步讓我保持健康。)",
+    "id": "Elementary-healthy-mc8ogi"
+  },
+  {
+    "level": "Elementary",
+    "word": "hear",
+    "meaning": "聽",
+    "example": "Can you hear the birds singing? (你有聽到小鳥在唱歌嗎？)",
+    "id": "Elementary-hear-mpdp"
+  },
+  {
+    "level": "Elementary",
+    "word": "heart",
+    "meaning": "心",
+    "example": "Draw a red heart on the card. (在卡片上畫一顆紅心。)",
+    "id": "Elementary-heart-miwz"
+  },
+  {
+    "level": "Elementary",
+    "word": "heat",
+    "meaning": "熱度,加熱",
+    "example": "The heat of the sun makes me thirsty. (太陽的熱度讓我口渴。)",
+    "id": "Elementary-heat-muamn7s"
+  },
+  {
+    "level": "Elementary",
+    "word": "heavy",
+    "meaning": "重的",
+    "example": "My school bag is too heavy to carry. (我的書包太重了，提不動。)",
+    "id": "Elementary-heavy-mpg7r"
+  },
+  {
+    "level": "Elementary",
+    "word": "hello",
+    "meaning": "喂",
+    "example": "Say hello to the new student. (跟新同學打個招呼吧。)",
+    "id": "Elementary-hello-mgw2"
+  },
+  {
+    "level": "Elementary",
+    "word": "help",
+    "meaning": "幫忙",
+    "example": "Can you help me with my math homework? (你可以輔導我的數學功課嗎？)",
+    "id": "Elementary-help-mgl3i"
+  },
+  {
+    "level": "Elementary",
+    "word": "helpful",
+    "meaning": "有幫助的",
+    "example": "The clerk at the bookstore is very helpful. (書店的店員非常樂於助人。)",
+    "id": "Elementary-helpful-mde2xod"
+  },
+  {
+    "level": "Elementary",
+    "word": "hen",
+    "meaning": "母雞",
+    "example": "The hen laid three eggs this morning. (那隻母雞今天早上生了三顆蛋。)",
+    "id": "Elementary-hen-mj5wx"
+  },
+  {
+    "level": "Elementary",
+    "word": "here",
+    "meaning": "這裡",
+    "example": "Please sit here beside me. (請坐在我這裡，我旁邊。)",
+    "id": "Elementary-here-mp9ew"
+  },
+  {
+    "level": "Elementary",
+    "word": "hey",
+    "meaning": "嘿",
+    "example": "Hey! Look at that beautiful butterfly. (嘿！看那隻美麗的蝴蝶。)",
+    "id": "Elementary-hey-mh1b"
+  },
+  {
+    "level": "Elementary",
+    "word": "hi",
+    "meaning": "嗨",
+    "example": "Hi, Kevin! How are you today? (嗨，凱文！你今天好嗎？)",
+    "id": "Elementary-hi-mgyw"
+  },
+  {
+    "level": "Elementary",
+    "word": "hide",
+    "meaning": "隱藏",
+    "example": "Let's play hide-and-seek on the playground. (我們去操場上玩捉迷藏吧。)",
+    "id": "Elementary-hide-mqd6m"
+  },
+  {
+    "level": "Elementary",
+    "word": "high",
+    "meaning": "高的",
+    "example": "The bird is flying high in the sky. (鳥兒在天空高高地飛。)",
+    "id": "Elementary-high-mqzl8"
+  },
+  {
+    "level": "Elementary",
+    "word": "hike",
+    "meaning": "徒步旅行",
+    "example": "We like to hike in the mountains on weekends. (我們喜歡在週末去山上健行。)",
+    "id": "Elementary-hike-mci6hkq"
+  },
+  {
+    "level": "Elementary",
+    "word": "hill",
+    "meaning": "小山",
+    "example": "We ran down the green hill together. (我們一起跑下綠色的山丘。)",
+    "id": "Elementary-hill-mg5z6"
+  },
+  {
+    "level": "Elementary",
+    "word": "hippo",
+    "meaning": "河馬",
+    "example": "The big hippo is sleeping in the water. (大河馬正在水裡睡覺。)",
+    "id": "Elementary-hippo-mjbyx"
+  },
+  {
+    "level": "Elementary",
+    "word": "history",
+    "meaning": "歷史",
+    "example": "We learn about Taiwan's history in class. (我們在課堂上學習台灣的歷史。)",
+    "id": "Elementary-history-miqmz"
+  },
+  {
+    "level": "Elementary",
+    "word": "hit",
+    "meaning": "打擊",
+    "example": "He hit the ball with a baseball bat. (他用棒球棒擊中那顆球。)",
+    "id": "Elementary-hit-mh9zr"
+  },
+  {
+    "level": "Elementary",
+    "word": "hobby",
+    "meaning": "嗜好",
+    "example": "My hobby is collecting stamps. (我的興趣是集郵。)",
+    "id": "Elementary-hobby-mf3fl"
+  },
+  {
+    "level": "Elementary",
+    "word": "hold",
+    "meaning": "拿著",
+    "example": "Please hold my hand when we cross the street. (我們過馬路時請牽著我的手。)",
+    "id": "Elementary-hold-mhkc8"
+  },
+  {
+    "level": "Elementary",
+    "word": "holiday",
+    "meaning": "假日",
+    "example": "Moon Festival is my favorite holiday. (中秋節是我最喜歡的節日。)",
+    "id": "Elementary-holiday-me7pa"
+  },
+  {
+    "level": "Elementary",
+    "word": "home",
+    "meaning": "家",
+    "example": "I usually go home right after school. (我通常放學後就直接回家。)",
+    "id": "Elementary-home-mi46"
+  },
+  {
+    "level": "Elementary",
+    "word": "how",
+    "meaning": "如何",
+    "example": "How do you spell your name? (你的名字怎麼拼？)",
+    "id": "Elementary-how-mfnrn-how-do-you-spell-y"
+  },
+  {
+    "level": "Elementary",
+    "word": "how",
+    "meaning": "如何",
+    "example": "How do you go to school every morning? (你每天早上怎麼去上學？)",
+    "id": "Elementary-how-mfnrn-how-do-you-go-to-s"
+  },
+  {
+    "level": "Elementary",
+    "word": "honest",
+    "meaning": "誠實的",
+    "example": "An honest child does not tell lies. (誠實的孩子不說謊。)",
+    "id": "Elementary-honest-mkr8xq"
+  },
+  {
+    "level": "Elementary",
+    "word": "honey",
+    "meaning": "蜂蜜",
+    "example": "Bees make sweet honey from flowers. (蜜蜂採花粉做成甜甜的蜂蜜。)",
+    "id": "Elementary-honey-mnpei"
+  },
+  {
+    "level": "Elementary",
+    "word": "hop",
+    "meaning": "(單腳)跳",
+    "example": "The little rabbit can hop very fast. (小兔子可以跳得很快。)",
+    "id": "Elementary-hop-mby0k0n"
+  },
+  {
+    "level": "Elementary",
+    "word": "hope",
+    "meaning": "希望",
+    "example": "I hope it will be sunny tomorrow. (我希望明天會是大晴天。)",
+    "id": "Elementary-hope-mgk9b"
+  },
+  {
+    "level": "Elementary",
+    "word": "hundred",
+    "meaning": "百",
+    "example": "This notebook costs one hundred Taiwan dollars. (這本筆記本要一百元新台幣。)",
+    "id": "Elementary-hundred-mnem-this-notebook-cost"
+  },
+  {
+    "level": "Elementary",
+    "word": "hundred",
+    "meaning": "百",
+    "example": "This beautiful notebook costs one hundred dollars. (這本漂亮的筆記本要一百元。)",
+    "id": "Elementary-hundred-mnem-this-beautiful-not"
+  },
+  {
+    "level": "Elementary",
+    "word": "hospital",
+    "meaning": "醫院",
+    "example": "The ambulance took the sick boy to the hospital. (救護車把生病的大男孩送到醫院。)",
+    "id": "Elementary-hospital-mplp3"
+  },
+  {
+    "level": "Elementary",
+    "word": "hot",
+    "meaning": "熱的",
+    "example": "It is very hot in Taiwan in July. (台灣七月的天氣非常熱。)",
+    "id": "Elementary-hot-mjzlf"
+  },
+  {
+    "level": "Elementary",
+    "word": "hotdog",
+    "meaning": "熱狗",
+    "example": "I bought a hotdog at the night market. (我在夜市買了一個熱狗。)",
+    "id": "Elementary-hotdog-mjyva"
+  },
+  {
+    "level": "Elementary",
+    "word": "hotel",
+    "meaning": "旅社",
+    "example": "We stayed in a nice hotel near the beach. (我們住在海灘附近的一家棒旅店。)",
+    "id": "Elementary-hotel-mhz4p"
+  },
+  {
+    "level": "Elementary",
+    "word": "hour",
+    "meaning": "小時",
+    "example": "I spend one hour on my homework every day. (我每天花一個小時寫功課。)",
+    "id": "Elementary-hour-mg7wz"
+  },
+  {
+    "level": "Elementary",
+    "word": "house",
+    "meaning": "房屋",
+    "example": "My grandparents live in a big house with a garden. (我阿公阿嬤住在有一座花園的大房子裡。)",
+    "id": "Elementary-house-mh7u4"
+  },
+  {
+    "level": "Elementary",
+    "word": "housewife",
+    "meaning": "家庭主婦",
+    "example": "My mother is a busy housewife. (我媽媽是一位忙碌的家庭主婦。)",
+    "id": "Elementary-housewife-mbyoayq"
+  },
+  {
+    "level": "Elementary",
+    "word": "however",
+    "meaning": "然而",
+    "example": "I like tea. However, my sister likes milk. (我喜歡茶。不過，我妹妹喜歡牛奶。)",
+    "id": "Elementary-however-mjyja"
+  },
+  {
+    "level": "Elementary",
+    "word": "hungry",
+    "meaning": "飢餓的",
+    "example": "I am hungry. (我餓了。)",
+    "id": "Elementary-hungry-mn4u2b"
+  },
+  {
+    "level": "Elementary",
+    "word": "hunt",
+    "meaning": "打獵",
+    "example": "The cat likes to hunt mice. (那隻貓喜歡獵捕老鼠。)",
+    "id": "Elementary-hunt-mhcw2"
+  },
+  {
+    "level": "Elementary",
+    "word": "hurry",
+    "meaning": "趕忙",
+    "example": "Please hurry to class. (請趕快去上課。)",
+    "id": "Elementary-hurry-molwk"
+  },
+  {
+    "level": "Elementary",
+    "word": "hurt",
+    "meaning": "受傷,疼痛",
+    "example": "I fell down and hurt my right knee. (我摔倒弄傷了我的右膝蓋。)",
+    "id": "Elementary-hurt-m1hvvea3"
+  },
+  {
+    "level": "Elementary",
+    "word": "husband",
+    "meaning": "丈夫",
+    "example": "Mr. Lin is Mrs. Lin's husband. (林先生是林太太的先生（丈夫）。)",
+    "id": "Elementary-husband-mdrfn"
+  },
+  {
+    "level": "Elementary",
+    "word": "I",
+    "meaning": "我",
+    "example": "I am an elementary school student. (我是國小學生。)",
+    "id": "Elementary-i-mjdd"
+  },
+  {
+    "level": "Elementary",
+    "word": "ice",
+    "meaning": "冰",
+    "example": "Please put some ice into my Coke. (請在我的可樂裡加點冰塊。)",
+    "id": "Elementary-ice-mg4w"
+  },
+  {
+    "level": "Elementary",
+    "word": "ice cream",
+    "meaning": "冰淇淋",
+    "example": "I like to eat chocolate ice cream in summer. (我夏天喜歡吃巧克力冰淇淋。)",
+    "id": "Elementary-ice-cream-mci0es"
+  },
+  {
+    "level": "Elementary",
+    "word": "idea",
+    "meaning": "主意",
+    "example": "That is an excellent idea! (那真是一個太棒的主意了！)",
+    "id": "Elementary-idea-mdu7o"
+  },
+  {
+    "level": "Elementary",
+    "word": "if",
+    "meaning": "如果",
+    "example": "If it rains tomorrow, we will stay home. (如果明天下雨，我們就會待在家。)",
+    "id": "Elementary-if-mfska"
+  },
+  {
+    "level": "Elementary",
+    "word": "important",
+    "meaning": "重要的",
+    "example": "It is important to review your lessons. (複習功課是很重要的。)",
+    "id": "Elementary-important-mm0ucw"
+  },
+  {
+    "level": "Elementary",
+    "word": "in",
+    "meaning": "在…裡面",
+    "example": "My pens and erasers are in the pencil case. (我的筆和橡皮擦都在鉛筆盒裡。)",
+    "id": "Elementary-in-mb54e1r"
+  },
+  {
+    "level": "Elementary",
+    "word": "insect",
+    "meaning": "昆蟲",
+    "example": "An ant is a very small insect. (螞蟻是一種非常小的昆蟲。)",
+    "id": "Elementary-insect-mi3l8"
+  },
+  {
+    "level": "Elementary",
+    "word": "inside",
+    "meaning": "在…內部",
+    "example": "The cat is inside the box. (貓在盒子內部。)",
+    "id": "Elementary-inside-mb4ux27"
+  },
+  {
+    "level": "Elementary",
+    "word": "interest",
+    "meaning": "使…感興趣",
+    "example": "Stories about animals interest me. (動物的故事使我感興趣。)",
+    "id": "Elementary-interest-mv66u4z"
+  },
+  {
+    "level": "Elementary",
+    "word": "interested",
+    "meaning": "感興趣的",
+    "example": "I am interested in music. (我對音樂感興趣。)",
+    "id": "Elementary-interested-mcsq11m"
+  },
+  {
+    "level": "Elementary",
+    "word": "interesting",
+    "meaning": "有趣的",
+    "example": "This storybook is very interesting. (這本故事書非常有趣。)",
+    "id": "Elementary-interesting-mfs1l6"
+  },
+  {
+    "level": "Elementary",
+    "word": "interview",
+    "meaning": "訪問,面試",
+    "example": "We interview our teacher after class. (我們下課後訪問老師。)",
+    "id": "Elementary-interview-m1hs6qy3"
+  },
+  {
+    "level": "Elementary",
+    "word": "Internet",
+    "meaning": "網路",
+    "example": "We use the Internet to look for information. (我們用網路來查資料。)",
+    "id": "Elementary-internet-mm5q5"
+  },
+  {
+    "level": "Elementary",
+    "word": "into",
+    "meaning": "到…之內",
+    "example": "The frog jumped into the cool water. (青蛙跳進了涼爽的水裡。)",
+    "id": "Elementary-into-mai9u5u"
+  },
+  {
+    "level": "Elementary",
+    "word": "invite",
+    "meaning": "邀請",
+    "example": "I want to invite Kevin to my birthday party. (我想邀請凱文來參加我的生日派對。)",
+    "id": "Elementary-invite-mpc97"
+  },
+  {
+    "level": "Elementary",
+    "word": "island",
+    "meaning": "島嶼",
+    "example": "Taiwan is a beautiful island. (台灣是一個美麗的島嶼。)",
+    "id": "Elementary-island-mgbra"
+  },
+  {
+    "level": "Elementary",
+    "word": "it",
+    "meaning": "它",
+    "example": "It is so cute! (牠好可愛！)",
+    "id": "Elementary-it-mi2r"
+  },
+  {
+    "level": "Elementary",
+    "word": "jacket",
+    "meaning": "夾克",
+    "example": "Put on your jacket because it is cold outside. (穿上你的夾克/外套，因為外面很冷。)",
+    "id": "Elementary-jacket-mfmj1"
+  },
+  {
+    "level": "Elementary",
+    "word": "koala",
+    "meaning": "無尾熊",
+    "example": "We saw a lazy koala at the zoo. (我們在動物園看到一隻懶洋洋的無尾熊。)",
+    "id": "Elementary-koala-mh0u7h-we-saw-a-lazy-koal-x15l1hfu"
+  },
+  {
+    "level": "Elementary",
+    "word": "koala",
+    "meaning": "無尾熊",
+    "example": "We saw a lazy koala sleeping at the zoo. (我們在動物園看到一隻懶洋洋在睡覺的無尾熊。)",
+    "id": "Elementary-koala-mh0u7h-we-saw-a-lazy-koal-x1772sfa"
+  },
+  {
+    "level": "Elementary",
+    "word": "jeans",
+    "meaning": "牛仔褲",
+    "example": "My dad likes to wear blue jeans on weekends. (我爸爸喜歡在週末穿藍色牛仔褲。)",
+    "id": "Elementary-jeans-mh55kp"
+  },
+  {
+    "level": "Elementary",
+    "word": "job",
+    "meaning": "工作",
+    "example": "My father's job is an English teacher. (我父親的工作是英文老師。)",
+    "id": "Elementary-job-mgemv"
+  },
+  {
+    "level": "Elementary",
+    "word": "jog",
+    "meaning": "慢跑",
+    "example": "My grandfather likes to jog in the morning. (我爺爺喜歡在早上慢跑。)",
+    "id": "Elementary-jog-mhcbz"
+  },
+  {
+    "level": "Elementary",
+    "word": "join",
+    "meaning": "加入",
+    "example": "Would you like to join our dodgeball game? (你想加入我們的躲避球遊戲嗎？)",
+    "id": "Elementary-join-mei11"
+  },
+  {
+    "level": "Elementary",
+    "word": "joy",
+    "meaning": "歡樂",
+    "example": "The game gives me joy. (這個遊戲帶給我快樂。)",
+    "id": "Elementary-joy-miugx"
+  },
+  {
+    "level": "Elementary",
+    "word": "juice",
+    "meaning": "果汁",
+    "example": "I like to drink cold orange juice in summer. (我夏天喜歡喝冰柳橙汁。)",
+    "id": "Elementary-juice-mi7tx"
+  },
+  {
+    "level": "Elementary",
+    "word": "July",
+    "meaning": "七月",
+    "example": "Summer vacation always starts in July. (暑假總是從七月開始。)",
+    "id": "Elementary-july-mdu1x"
+  },
+  {
+    "level": "Elementary",
+    "word": "jump",
+    "meaning": "跳躍",
+    "example": "The smart dog can jump over the low wall. (那隻聰明的狗可以跳過那面矮牆。)",
+    "id": "Elementary-jump-moxdm"
+  },
+  {
+    "level": "Elementary",
+    "word": "June",
+    "meaning": "六月",
+    "example": "We always have final exams in June. (我們總是在六月進行期末考。)",
+    "id": "Elementary-june-meeyj"
+  },
+  {
+    "level": "Elementary",
+    "word": "library",
+    "meaning": "圖書館",
+    "example": "We can borrow storybooks from the school library. (我們可以從學校圖書館借故事書。)",
+    "id": "Elementary-library-md9k1y"
+  },
+  {
+    "level": "Elementary",
+    "word": "just",
+    "meaning": "只是,剛才",
+    "example": "I just want water. (我只是想要水。)",
+    "id": "Elementary-just-m1kvmoyh"
+  },
+  {
+    "level": "Elementary",
+    "word": "kangaroo",
+    "meaning": "袋鼠",
+    "example": "The kangaroo has a pouch to carry its baby. (袋鼠有一個育兒袋可以裝牠的寶寶。)",
+    "id": "Elementary-kangaroo-mo3jp"
+  },
+  {
+    "level": "Elementary",
+    "word": "keep",
+    "meaning": "保持",
+    "example": "Please keep your bedroom clean. (請保持你的臥室乾淨。)",
+    "id": "Elementary-keep-me4lg"
+  },
+  {
+    "level": "Elementary",
+    "word": "key",
+    "meaning": "鑰匙",
+    "example": "Don't forget to bring your house key. (別忘了帶你家的鑰匙。)",
+    "id": "Elementary-key-mppd5"
+  },
+  {
+    "level": "Elementary",
+    "word": "kick",
+    "meaning": "踢",
+    "example": "Don't kick the ball inside the classroom. (不要在教室裡面踢球。)",
+    "id": "Elementary-kick-ms2q"
+  },
+  {
+    "level": "Elementary",
+    "word": "kid",
+    "meaning": "小孩",
+    "example": "The kids are playing happily on the playground. (孩子們正在操場上快樂地玩耍。)",
+    "id": "Elementary-kid-mg5ru"
+  },
+  {
+    "level": "Elementary",
+    "word": "kill",
+    "meaning": "殺",
+    "example": "The winter cold will kill the bugs. (冬天的寒冷會凍死這些昆蟲。)",
+    "id": "Elementary-kill-mla2"
+  },
+  {
+    "level": "Elementary",
+    "word": "kilo(gram)",
+    "meaning": "公斤",
+    "example": "My cat weighs about four kilograms. (我的貓大約四公斤重。)",
+    "id": "Elementary-kilo-gram-meens"
+  },
+  {
+    "level": "Elementary",
+    "word": "kind",
+    "meaning": "種類",
+    "example": "What kind of fruit do you like? (你喜歡哪一種類的水果？)",
+    "id": "Elementary-kind-mlm9c"
+  },
+  {
+    "level": "Elementary",
+    "word": "king",
+    "meaning": "國王",
+    "example": "The lion is the king of the animals. (獅子是萬獸之王。)",
+    "id": "Elementary-king-mffts"
+  },
+  {
+    "level": "Elementary",
+    "word": "love",
+    "meaning": "喜愛",
+    "example": "I love my parents and my country. (我愛我的父母和我的國家。)",
+    "id": "Elementary-love-mf3en-i-love-my-parents--xviqiva"
+  },
+  {
+    "level": "Elementary",
+    "word": "love",
+    "meaning": "喜愛",
+    "example": "I love my parents, my family, and my country. (我愛我的父母、我的家人和我的國家。)",
+    "id": "Elementary-love-mf3en-i-love-my-parents--x1lz54h8"
+  },
+  {
+    "level": "Elementary",
+    "word": "kitchen",
+    "meaning": "廚房",
+    "example": "Mom is cooking pork buns in the kitchen. (媽媽正在廚房蒸肉包。)",
+    "id": "Elementary-kitchen-mgo85"
+  },
+  {
+    "level": "Elementary",
+    "word": "kite",
+    "meaning": "風箏",
+    "example": "Let's fly a kite on the grass this afternoon. (我們今天下午去草地上放風箏吧。)",
+    "id": "Elementary-kite-mqn6v"
+  },
+  {
+    "level": "Elementary",
+    "word": "knee",
+    "meaning": "膝蓋",
+    "example": "He hurt his left knee when he fell down. (他摔倒時弄傷了左膝蓋。)",
+    "id": "Elementary-knee-mmrwu"
+  },
+  {
+    "level": "Elementary",
+    "word": "knife",
+    "meaning": "刀子",
+    "example": "Be careful when you use the fruit knife. (你使用水果刀時要小心。)",
+    "id": "Elementary-knife-meg5s"
+  },
+  {
+    "level": "Elementary",
+    "word": "knock",
+    "meaning": "敲",
+    "example": "Please knock on the door before entering. (進去前請先敲門。)",
+    "id": "Elementary-knock-mk1e"
+  },
+  {
+    "level": "Elementary",
+    "word": "know",
+    "meaning": "知道",
+    "example": "I know the correct answer to this math question. (我知道這題數學題的正確答案。)",
+    "id": "Elementary-know-ml6oe"
+  },
+  {
+    "level": "Elementary",
+    "word": "knowledge",
+    "meaning": "知識",
+    "example": "Reading books can give us a lot of knowledge. (閱讀書籍可以帶給我們很多知識。)",
+    "id": "Elementary-knowledge-ml5oz"
+  },
+  {
+    "level": "Elementary",
+    "word": "lake",
+    "meaning": "湖",
+    "example": "We took a boat tour on Sun Moon Lake. (我們在日月潭搭船遊湖。)",
+    "id": "Elementary-lake-mlsm"
+  },
+  {
+    "level": "Elementary",
+    "word": "lamp",
+    "meaning": "燈",
+    "example": "The desk lamp is very bright. (這盞檯燈非常明亮。)",
+    "id": "Elementary-lamp-mmh4"
+  },
+  {
+    "level": "Elementary",
+    "word": "land",
+    "meaning": "土地",
+    "example": "This land is good for trees. (這片土地適合種樹。)",
+    "id": "Elementary-land-mfapd"
+  },
+  {
+    "level": "Elementary",
+    "word": "language",
+    "meaning": "語言",
+    "example": "English is a very important foreign language. (英文是一種非常重要的外國語言。)",
+    "id": "Elementary-language-moc2q"
+  },
+  {
+    "level": "Elementary",
+    "word": "lantern",
+    "meaning": "燈籠",
+    "example": "We make colorful lanterns for Lantern Festival. (我們為元宵節做色彩繽紛的燈籠。)",
+    "id": "Elementary-lantern-mk1aw"
+  },
+  {
+    "level": "Elementary",
+    "word": "large",
+    "meaning": "大的",
+    "example": "An elephant is a very large animal. (大象是一種非常大型的動物。)",
+    "id": "Elementary-large-mftbx"
+  },
+  {
+    "level": "Elementary",
+    "word": "last",
+    "meaning": "最後的",
+    "example": "This is the last page. (這是最後一頁。)",
+    "id": "Elementary-last-mfk0oo"
+  },
+  {
+    "level": "Elementary",
+    "word": "late",
+    "meaning": "晚的",
+    "example": "Hurry up, or we will be late for school. (快一點，否則我們上學要遲到了。)",
+    "id": "Elementary-late-mi25m"
+  },
+  {
+    "level": "Elementary",
+    "word": "later",
+    "meaning": "稍後",
+    "example": "See you later, my friend! (待會見，我的朋友！)",
+    "id": "Elementary-later-mla8v"
+  },
+  {
+    "level": "Elementary",
+    "word": "laugh",
+    "meaning": "笑",
+    "example": "The funny movie made all of us laugh. (這部好笑的電影讓我們大家都笑了。)",
+    "id": "Elementary-laugh-mob5"
+  },
+  {
+    "level": "Elementary",
+    "word": "lawyer",
+    "meaning": "律師",
+    "example": "His father is a famous lawyer. (他的父親是一位著名的律師。)",
+    "id": "Elementary-lawyer-mgrnk"
+  },
+  {
+    "level": "Elementary",
+    "word": "lazy",
+    "meaning": "懶惰的",
+    "example": "The lazy cat slept on the couch all day. (那隻懶貓整天躺在沙發上睡覺。)",
+    "id": "Elementary-lazy-metone"
+  },
+  {
+    "level": "Elementary",
+    "word": "lead",
+    "meaning": "引導",
+    "example": "The teacher will lead us to the gym. (老師引導我們到體育館)",
+    "id": "Elementary-lead-mgoex"
+  },
+  {
+    "level": "Elementary",
+    "word": "leader",
+    "meaning": "領導者",
+    "example": "Kevin is the team leader of our group. (凱文是我們那一組的小組長。)",
+    "id": "Elementary-leader-mmqci7"
+  },
+  {
+    "level": "Elementary",
+    "word": "learn",
+    "meaning": "學習",
+    "example": "We learn how to speak English at school. (我們在學校學習如何說英文。)",
+    "id": "Elementary-learn-mg9cq"
+  },
+  {
+    "level": "Elementary",
+    "word": "least",
+    "meaning": "最少〈的〉",
+    "example": "Tom has the least candy. (湯姆有最少的糖果。)",
+    "id": "Elementary-least-m1ne9un0"
+  },
+  {
+    "level": "Elementary",
+    "word": "leave",
+    "meaning": "離開",
+    "example": "Please close the door when you leave. (你離開時請關門。)",
+    "id": "Elementary-leave-mqhgp"
+  },
+  {
+    "level": "Elementary",
+    "word": "left",
+    "meaning": "左邊",
+    "example": "Look left and right before crossing the road. (過馬路前要先看左邊和右邊。)",
+    "id": "Elementary-left-mgrj8"
+  },
+  {
+    "level": "Elementary",
+    "word": "leg",
+    "meaning": "腿",
+    "example": "My leg hurts today. (我的腿今天會痛。)",
+    "id": "Elementary-leg-mpkv"
+  },
+  {
+    "level": "Elementary",
+    "word": "lemon",
+    "meaning": "檸檬",
+    "example": "Lemon juice is very sour but good to drink. (檸檬汁很酸但是很好喝。)",
+    "id": "Elementary-lemon-miqk4"
+  },
+  {
+    "level": "Elementary",
+    "word": "lend",
+    "meaning": "借出",
+    "example": "Can you lend me your marker, please? (可以請你借我你的彩色筆嗎？)",
+    "id": "Elementary-lend-me2t7"
+  },
+  {
+    "level": "Elementary",
+    "word": "less",
+    "meaning": "較少的",
+    "example": "You should eat less candy to protect your teeth. (你應該少吃點糖果以保護牙齒。)",
+    "id": "Elementary-less-mleeom"
+  },
+  {
+    "level": "Elementary",
+    "word": "lesson",
+    "meaning": "課",
+    "example": "Let's begin our English lesson. (讓我們開始上英文課吧。)",
+    "id": "Elementary-lesson-mrea"
+  },
+  {
+    "level": "Elementary",
+    "word": "let",
+    "meaning": "讓",
+    "example": "Please let me help you. (請讓我幫你。)",
+    "id": "Elementary-let-mrkj"
+  },
+  {
+    "level": "Elementary",
+    "word": "letter",
+    "meaning": "信",
+    "example": "I wrote a letter to Santa Claus at Christmas. (我在聖誕節寫了一封信給聖誕老人。)",
+    "id": "Elementary-letter-mfs1"
+  },
+  {
+    "level": "Elementary",
+    "word": "lettuce",
+    "meaning": "萵苣",
+    "example": "Mom put fresh lettuce into the salad. (媽媽在沙拉裡放了新鮮的生菜。)",
+    "id": "Elementary-lettuce-mn7f2"
+  },
+  {
+    "level": "Elementary",
+    "word": "must",
+    "meaning": "必須",
+    "example": "We must follow the classroom rules. (我們必須遵守教室守則。)",
+    "id": "Elementary-must-mh4gz-we-must-follow-the"
+  },
+  {
+    "level": "Elementary",
+    "word": "must",
+    "meaning": "必須",
+    "example": "You must look left and right before crossing the street. (過馬路前你必須左右看。)",
+    "id": "Elementary-must-mh4gz-you-must-look-left"
+  },
+  {
+    "level": "Elementary",
+    "word": "lid",
+    "meaning": "蓋子",
+    "example": "Please close the lid of the water bottle tightly. (請把水壺的蓋子蓋緊。)",
+    "id": "Elementary-lid-mn36t"
+  },
+  {
+    "level": "Elementary",
+    "word": "lie",
+    "meaning": "說謊",
+    "example": "Do not tell a lie to your parents. (不要對你的父母說謊。)",
+    "id": "Elementary-lie-mockg"
+  },
+  {
+    "level": "Elementary",
+    "word": "life",
+    "meaning": "生活",
+    "example": "Water is very important for life. (水對生命來說非常重要。)",
+    "id": "Elementary-life-mkirg"
+  },
+  {
+    "level": "Elementary",
+    "word": "light",
+    "meaning": "燈光,輕的",
+    "example": "Turn on the light. (打開電燈。)",
+    "id": "Elementary-light-msyvtwa"
+  },
+  {
+    "level": "Elementary",
+    "word": "like",
+    "meaning": "喜歡",
+    "example": "I like playing basketball very much. (我非常喜歡打籃球。)",
+    "id": "Elementary-like-mf5fp"
+  },
+  {
+    "level": "Elementary",
+    "word": "line",
+    "meaning": "隊伍,線條",
+    "example": "Please stand in a line at the bus stop. (請在公車站排隊。)",
+    "id": "Elementary-line-mucfgr0"
+  },
+  {
+    "level": "Elementary",
+    "word": "lion",
+    "meaning": "獅子",
+    "example": "The big lion has a very loud roar. (大獅子的吼叫聲非常大聲。)",
+    "id": "Elementary-lion-mk3vv"
+  },
+  {
+    "level": "Elementary",
+    "word": "lip",
+    "meaning": "嘴唇",
+    "example": "Her lips are pink and pretty. (她的嘴唇粉紅粉紅的很漂亮。)",
+    "id": "Elementary-lip-mf4nn"
+  },
+  {
+    "level": "Elementary",
+    "word": "list",
+    "meaning": "表,名單",
+    "example": "Mom made a shopping list before going to the market. (媽媽去市場前列了一張購物清單。)",
+    "id": "Elementary-list-mh7sy6d"
+  },
+  {
+    "level": "Elementary",
+    "word": "listen",
+    "meaning": "聽",
+    "example": "Please listen to the teacher carefully. (請專心聽老師說話。)",
+    "id": "Elementary-listen-mpdp"
+  },
+  {
+    "level": "Elementary",
+    "word": "little",
+    "meaning": "小的",
+    "example": "The cute little girl is crying for her mother. (那個可愛的小女孩正在哭著找媽媽。)",
+    "id": "Elementary-little-mgb4l"
+  },
+  {
+    "level": "Elementary",
+    "word": "live",
+    "meaning": "住,活的,實況",
+    "example": "We live in a beautiful country, Taiwan. (我們住在一個美麗的國家——台灣。)",
+    "id": "Elementary-live-m1r5d7mp"
+  },
+  {
+    "level": "Elementary",
+    "word": "living room",
+    "meaning": "客廳",
+    "example": "The whole family watches TV in the living room. (全家人都在客廳看電視。)",
+    "id": "Elementary-living-room-mg3v5"
+  },
+  {
+    "level": "Elementary",
+    "word": "lonely",
+    "meaning": "寂寞的",
+    "example": "I feel lonely when my friends are not here. (朋友不在這裡時我感到很孤單。)",
+    "id": "Elementary-lonely-mdw42w"
+  },
+  {
+    "level": "Elementary",
+    "word": "long",
+    "meaning": "長的",
+    "example": "The elephant has a very long nose. (大象有很長的鼻子。)",
+    "id": "Elementary-long-mq2nh"
+  },
+  {
+    "level": "Elementary",
+    "word": "look",
+    "meaning": "看",
+    "example": "Look at that clear blue sky! (看那片蔚藍的晴空！)",
+    "id": "Elementary-look-mnij"
+  },
+  {
+    "level": "Elementary",
+    "word": "lose",
+    "meaning": "遺失",
+    "example": "Be careful not to lose your MRT card. (小心不要弄丟你的悠遊卡。)",
+    "id": "Elementary-lose-mp2bb"
+  },
+  {
+    "level": "Elementary",
+    "word": "loud",
+    "meaning": "大聲的",
+    "example": "Please don't make loud noises in the library. (請不要在圖書館大聲喧嘩。)",
+    "id": "Elementary-loud-mdolh5"
+  },
+  {
+    "level": "Elementary",
+    "word": "lovely",
+    "meaning": "可愛的",
+    "example": "The white rabbit has lovely pink ears. (白兔有一雙可愛的粉紅色耳朵。)",
+    "id": "Elementary-lovely-mcrqwo"
+  },
+  {
+    "level": "Elementary",
+    "word": "low",
+    "meaning": "低的",
+    "example": "The small dog can jump over the low wall. (那隻小狗可以跳過那面矮牆。)",
+    "id": "Elementary-low-me512"
+  },
+  {
+    "level": "Elementary",
+    "word": "lucky",
+    "meaning": "幸運的",
+    "example": "I am lucky today. (我今天很幸運。)",
+    "id": "Elementary-lucky-mejbpt"
+  },
+  {
+    "level": "Elementary",
+    "word": "lunch",
+    "meaning": "午餐",
+    "example": "We eat lunch at twelve o'clock at school. (我們中午十二點在學校吃午餐。)",
+    "id": "Elementary-lunch-mf07c"
+  },
+  {
+    "level": "Elementary",
+    "word": "north",
+    "meaning": "北方",
+    "example": "Keelung is a city in the north of Taiwan. (基隆是台灣北部的一個城市。)",
+    "id": "Elementary-north-meow2-keelung-is-a-city-"
+  },
+  {
+    "level": "Elementary",
+    "word": "north",
+    "meaning": "北方",
+    "example": "The wind blows from the north in winter. (冬天時風從北方吹來。)",
+    "id": "Elementary-north-meow2-the-wind-blows-fro"
+  },
+  {
+    "level": "Elementary",
+    "word": "mad",
+    "meaning": "瘋狂的",
+    "example": "The mad dog runs fast. (那隻瘋狂的狗跑得很快。)",
+    "id": "Elementary-mad-mhulvx"
+  },
+  {
+    "level": "Elementary",
+    "word": "magic",
+    "meaning": "神奇的,魔術",
+    "example": "The magician showed us an amazing magic trick. (魔術師給我們表演了一個神奇的魔術。)",
+    "id": "Elementary-magic-mgbklw0"
+  },
+  {
+    "level": "Elementary",
+    "word": "mail",
+    "meaning": "信件",
+    "example": "The postman brought a lot of mail today. (郵差今天送來了好多信件。)",
+    "id": "Elementary-mail-me0qd"
+  },
+  {
+    "level": "Elementary",
+    "word": "mailman",
+    "meaning": "郵差",
+    "example": "The mailman comes to our house by motorcycle. (郵差騎摩托車來我家送信。)",
+    "id": "Elementary-mailman-mp66x"
+  },
+  {
+    "level": "Elementary",
+    "word": "make",
+    "meaning": "製作",
+    "example": "Mom can make delicious chocolate cakes. (媽媽會做美味的巧克力蛋糕。)",
+    "id": "Elementary-make-mnqin"
+  },
+  {
+    "level": "Elementary",
+    "word": "man",
+    "meaning": "男人",
+    "example": "The old man is sitting on the park bench. (那位老人坐在公園長椅上。)",
+    "id": "Elementary-man-mkdb7"
+  },
+  {
+    "level": "Elementary",
+    "word": "many",
+    "meaning": "許多的",
+    "example": "There are many mango trees on the farm. (農場裡有許多芒果樹。)",
+    "id": "Elementary-many-mkohi3"
+  },
+  {
+    "level": "Elementary",
+    "word": "map",
+    "meaning": "地圖",
+    "example": "We can look at the map to find the library. (我們可以看地圖來找圖書館。)",
+    "id": "Elementary-map-mfb3a"
+  },
+  {
+    "level": "Elementary",
+    "word": "March",
+    "meaning": "三月",
+    "example": "The weather turns warm in March. (天氣在三月開始轉暖。)",
+    "id": "Elementary-march-mdu73"
+  },
+  {
+    "level": "Elementary",
+    "word": "mark",
+    "meaning": "做記號",
+    "example": "Please mark your name here. (請在這裡做記號寫上你的名字。)",
+    "id": "Elementary-mark-mcfx29"
+  },
+  {
+    "level": "Elementary",
+    "word": "marker",
+    "meaning": "簽字筆",
+    "example": "Use a blue marker to draw a circle. (用藍色麥克筆畫一個圈。)",
+    "id": "Elementary-marker-minbgs"
+  },
+  {
+    "level": "Elementary",
+    "word": "market",
+    "meaning": "市場",
+    "example": "Mom buys fresh vegetables at the morning market. (媽媽在早市買新鮮蔬菜。)",
+    "id": "Elementary-market-mgh2q"
+  },
+  {
+    "level": "Elementary",
+    "word": "married",
+    "meaning": "已婚的",
+    "example": "My uncle and aunt got married last year. (我叔叔和阿姨去年結婚了。)",
+    "id": "Elementary-married-me7e1o"
+  },
+  {
+    "level": "Elementary",
+    "word": "mask",
+    "meaning": "面具",
+    "example": "I wear a mask at the party. (我在派對上戴面具。)",
+    "id": "Elementary-mask-mq72t"
+  },
+  {
+    "level": "Elementary",
+    "word": "mat",
+    "meaning": "墊子",
+    "example": "Please wipe your feet on the door mat. (請在門墊上擦擦腳。)",
+    "id": "Elementary-mat-mfk7a"
+  },
+  {
+    "level": "Elementary",
+    "word": "math",
+    "meaning": "數學",
+    "example": "Can you help me with my math homework? (你可以輔導我的數學功課嗎？)",
+    "id": "Elementary-math-mhreo"
+  },
+  {
+    "level": "Elementary",
+    "word": "matter",
+    "meaning": "事情",
+    "example": "This is an important matter. (這是一件重要的事情。)",
+    "id": "Elementary-matter-mdw2i"
+  },
+  {
+    "level": "Elementary",
+    "word": "may",
+    "meaning": "可能",
+    "example": "It may rain today. (今天可能會下雨。)",
+    "id": "Elementary-may-mezfy"
+  },
+  {
+    "level": "Elementary",
+    "word": "May",
+    "meaning": "五月",
+    "example": "Mother's Day is in May. (母親節在五月。)",
+    "id": "Elementary-may-mdxis"
+  },
+  {
+    "level": "Elementary",
+    "word": "maybe",
+    "meaning": "也許",
+    "example": "Maybe we can go camping this weekend. (也許我們這個週末可以去露營。)",
+    "id": "Elementary-maybe-me376"
+  },
+  {
+    "level": "Elementary",
+    "word": "meal",
+    "meaning": "一餐",
+    "example": "Breakfast is the most important meal of the day. (早餐是一天當中最重要的一餐。)",
+    "id": "Elementary-meal-me3v4"
+  },
+  {
+    "level": "Elementary",
+    "word": "mean",
+    "meaning": "意指",
+    "example": "What does this English word mean? (這個英文單字是什麼意思？)",
+    "id": "Elementary-mean-mh1w8"
+  },
+  {
+    "level": "Elementary",
+    "word": "meat",
+    "meaning": "肉",
+    "example": "I like to eat pork and beef meat. (我喜歡吃豬肉和牛肉。)",
+    "id": "Elementary-meat-mpe1"
+  },
+  {
+    "level": "Elementary",
+    "word": "medicine",
+    "meaning": "藥",
+    "example": "Take the medicine after meals when you are sick. (生病時要在飯後吃藥。)",
+    "id": "Elementary-medicine-mqg5"
+  },
+  {
+    "level": "Elementary",
+    "word": "medium",
+    "meaning": "中號〈的〉",
+    "example": "I want a medium cup of black tea, please. (請給我一杯中杯紅茶。)",
+    "id": "Elementary-medium-m12p8lq3"
+  },
+  {
+    "level": "Elementary",
+    "word": "meet",
+    "meaning": "遇見",
+    "example": "I meet my friend at school. (我在學校遇見我的朋友。)",
+    "id": "Elementary-meet-mpan8"
+  },
+  {
+    "level": "Elementary",
+    "word": "meeting",
+    "meaning": "會議",
+    "example": "The teachers are having a meeting in the office. (老師們正在辦公室開會。)",
+    "id": "Elementary-meeting-miabx"
+  },
+  {
+    "level": "Elementary",
+    "word": "menu",
+    "meaning": "菜單,選單",
+    "example": "Please show me the menu. (請給我菜單。)",
+    "id": "Elementary-menu-mt6e09c"
+  },
+  {
+    "level": "Elementary",
+    "word": "mile",
+    "meaning": "英里,哩",
+    "example": "The park is about one mile away from here. (公園距離這裡大約一英哩。)",
+    "id": "Elementary-mile-mh3x9bs"
+  },
+  {
+    "level": "Elementary",
+    "word": "milk",
+    "meaning": "牛奶",
+    "example": "Drinking milk every day makes your bones strong. (每天喝牛奶可以讓你的骨骼強壯。)",
+    "id": "Elementary-milk-mjxx7"
+  },
+  {
+    "level": "Elementary",
+    "word": "million",
+    "meaning": "百萬",
+    "example": "There are many millions of people living in Taiwan. (有幾千萬人居住在台灣。)",
+    "id": "Elementary-million-mkvou"
+  },
+  {
+    "level": "Elementary",
+    "word": "mind",
+    "meaning": "介意",
+    "example": "Do you mind if I sit here? (你介意我坐這裡嗎？)",
+    "id": "Elementary-mind-mdxno"
+  },
+  {
+    "level": "Elementary",
+    "word": "minute",
+    "meaning": "分鐘",
+    "example": "Please wait a minute. (請等一下。)",
+    "id": "Elementary-minute-meriq"
+  },
+  {
+    "level": "Elementary",
+    "word": "Miss",
+    "meaning": "小姐",
+    "example": "Miss Lin is our new English teacher. (林老師是我們的新英文老師。)",
+    "id": "Elementary-miss-mg5gh"
+  },
+  {
+    "level": "Elementary",
+    "word": "miss",
+    "meaning": "想念",
+    "example": "I miss my grandma very much. (我非常想念我的奶奶。)",
+    "id": "Elementary-miss-mh0ma"
+  },
+  {
+    "level": "Elementary",
+    "word": "mistake",
+    "meaning": "錯誤",
+    "example": "Don't worry about making a mistake in class. (不要擔心在課堂上犯錯。)",
+    "id": "Elementary-mistake-mpsnp"
+  },
+  {
+    "level": "Elementary",
+    "word": "modern",
+    "meaning": "現代化的",
+    "example": "Taipei is a big and modern city. (台北是一個大且現代化的城市。)",
+    "id": "Elementary-modern-meyn3ir"
+  },
+  {
+    "level": "Elementary",
+    "word": "moment",
+    "meaning": "片刻",
+    "example": "Please wait a moment. (請稍等一下。)",
+    "id": "Elementary-moment-mjw0k"
+  },
+  {
+    "level": "Elementary",
+    "word": "Monday",
+    "meaning": "星期一",
+    "example": "Monday is the first school day of the week. (星期一是一週之中的第一個上學日。)",
+    "id": "Elementary-monday-mfgg80"
+  },
+  {
+    "level": "Elementary",
+    "word": "money",
+    "meaning": "錢",
+    "example": "I save my pocket money in a piggy bank. (我把我的零用錢存進撲滿裡。)",
+    "id": "Elementary-money-mt2a"
+  },
+  {
+    "level": "Elementary",
+    "word": "monkey",
+    "meaning": "猴子",
+    "example": "Monkeys love to eat yellow bananas. (猴子喜歡吃黃香蕉。)",
+    "id": "Elementary-monkey-mk3h8"
+  },
+  {
+    "level": "Elementary",
+    "word": "month",
+    "meaning": "月份",
+    "example": "December is the last month of the year. (十二月是一年之中的最後一個月份。)",
+    "id": "Elementary-month-mhyid"
+  },
+  {
+    "level": "Elementary",
+    "word": "moon",
+    "meaning": "月亮",
+    "example": "The moon is very big and round on Moon Festival. (中秋節的月亮非常大又非常圓。)",
+    "id": "Elementary-moon-mhyg6"
+  },
+  {
+    "level": "Elementary",
+    "word": "mop",
+    "meaning": "拖地",
+    "example": "I mop the floor after lunch. (我午餐後拖地。)",
+    "id": "Elementary-mop-mhafu"
+  },
+  {
+    "level": "Elementary",
+    "word": "more",
+    "meaning": "更多的",
+    "example": "Can I have some more beef noodles, please? (可以再給我多一點牛肉麵嗎？)",
+    "id": "Elementary-more-mfiobi"
+  },
+  {
+    "level": "Elementary",
+    "word": "morning",
+    "meaning": "早上",
+    "example": "Good morning! Time to get up for school. (早安！該起床上學了。)",
+    "id": "Elementary-morning-mhrgh"
+  },
+  {
+    "level": "Elementary",
+    "word": "most",
+    "meaning": "大部分的",
+    "example": "Most of my classmates like the art class. (我們班大部分的同學都喜歡美術課。)",
+    "id": "Elementary-most-mbufqfz"
+  },
+  {
+    "level": "Elementary",
+    "word": "mother",
+    "meaning": "母親",
+    "example": "My mother takes good care of our family. (我媽媽非常照顧我們的家庭。)",
+    "id": "Elementary-mother-mj3b1"
+  },
+  {
+    "level": "Elementary",
+    "word": "motorcycle",
+    "meaning": "機車",
+    "example": "My dad rides a motorcycle to work. (我爸爸騎機車去上班。)",
+    "id": "Elementary-motorcycle-mivkb"
+  },
+  {
+    "level": "Elementary",
+    "word": "mountain",
+    "meaning": "山",
+    "example": "We went hiking on Yangmingshan mountain last week. (我們上週去陽明山健行。)",
+    "id": "Elementary-mountain-mi9d"
+  },
+  {
+    "level": "Elementary",
+    "word": "mouse",
+    "meaning": "老鼠",
+    "example": "The cat is chasing a small mouse. (貓正在追一隻小老鼠。)",
+    "id": "Elementary-mouse-mmn9b"
+  },
+  {
+    "level": "Elementary",
+    "word": "piano",
+    "meaning": "鋼琴",
+    "example": "She plays the piano very beautifully. (她鋼琴彈得非常優美。)",
+    "id": "Elementary-piano-mpn08-she-plays-the-pian"
+  },
+  {
+    "level": "Elementary",
+    "word": "piano",
+    "meaning": "鋼琴",
+    "example": "My sister practices playing the piano every day. (我妹妹每天練習彈鋼琴。)",
+    "id": "Elementary-piano-mpn08-my-sister-practice"
+  },
+  {
+    "level": "Elementary",
+    "word": "move",
+    "meaning": "移動",
+    "example": "We will move into a new apartment next month. (我們下個月會搬進一間新公寓。)",
+    "id": "Elementary-move-ml7ay"
+  },
+  {
+    "level": "Elementary",
+    "word": "movie",
+    "meaning": "電影",
+    "example": "We went to the theater to see a fun movie. (我們去電影院看了一部有趣的電影。)",
+    "id": "Elementary-movie-mq7di"
+  },
+  {
+    "level": "Elementary",
+    "word": "Mr.",
+    "meaning": "先生",
+    "example": "Mr. Wang is my teacher. (王老師是我的老師。)",
+    "id": "Elementary-mr-meguv"
+  },
+  {
+    "level": "Elementary",
+    "word": "Mrs.",
+    "meaning": "太太",
+    "example": "Mrs. Chang made some cookies for the kids. (張太太幫孩子們做了一些餅乾。)",
+    "id": "Elementary-mrs-mfnls"
+  },
+  {
+    "level": "Elementary",
+    "word": "MRT",
+    "meaning": "捷運",
+    "example": "Taking the MRT in Taipei is very convenient. (在台北搭捷運非常方便。)",
+    "id": "Elementary-mrt-mhpkk"
+  },
+  {
+    "level": "Elementary",
+    "word": "playground",
+    "meaning": "操場",
+    "example": "We love to play slide and swing on the playground. (我們喜歡在操場玩溜滑梯和鞦韆。)",
+    "id": "Elementary-playground-mhmo7-we-love-to-play-sl"
+  },
+  {
+    "level": "Elementary",
+    "word": "playground",
+    "meaning": "操場",
+    "example": "The kids love to run around on the playground. (孩子們喜歡在操場上跑來跑去。)",
+    "id": "Elementary-playground-mhmo7-the-kids-love-to-r"
+  },
+  {
+    "level": "Elementary",
+    "word": "much",
+    "meaning": "許多(不可數)",
+    "example": "Thank you very much for your help. (非常謝謝你的幫忙。)",
+    "id": "Elementary-much-mup7vqq"
+  },
+  {
+    "level": "Elementary",
+    "word": "mud",
+    "meaning": "泥巴",
+    "example": "The kids played in the mud and got dirty. (孩子們在泥巴裡玩耍，弄得髒兮兮的。)",
+    "id": "Elementary-mud-mj1db"
+  },
+  {
+    "level": "Elementary",
+    "word": "museum",
+    "meaning": "博物館",
+    "example": "We visited the National Palace Museum on our school trip. (我們在校外教學時參觀了故宮博物院。)",
+    "id": "Elementary-museum-mcrt89"
+  },
+  {
+    "level": "Elementary",
+    "word": "music",
+    "meaning": "音樂",
+    "example": "I love listening to music while drawing. (我喜歡在畫畫的時候聽音樂。)",
+    "id": "Elementary-music-mqfe7"
+  },
+  {
+    "level": "Elementary",
+    "word": "nail",
+    "meaning": "釘子",
+    "example": "There is a nail in the wall. (牆上有一根釘子。)",
+    "id": "Elementary-nail-mpb3s"
+  },
+  {
+    "level": "Elementary",
+    "word": "name",
+    "meaning": "名字",
+    "example": "What is your English name? (你的英文名字是什麼？)",
+    "id": "Elementary-name-mesq2"
+  },
+  {
+    "level": "Elementary",
+    "word": "pretty",
+    "meaning": "漂亮的,非常",
+    "example": "The small pink flower is very pretty. (這朵粉紅色的小花非常漂亮。)",
+    "id": "Elementary-pretty-m1wth7e6-the-small-pink-flo"
+  },
+  {
+    "level": "Elementary",
+    "word": "pretty",
+    "meaning": "漂亮的,非常",
+    "example": "The flower on your desk is very pretty. (你書桌上的那朵花非常漂亮。)",
+    "id": "Elementary-pretty-m1wth7e6-the-flower-on-your"
+  },
+  {
+    "level": "Elementary",
+    "word": "near",
+    "meaning": "在…附近",
+    "example": "Our house is very near the elementary school. (我們家離國小非常近。)",
+    "id": "Elementary-near-mb56miz"
+  },
+  {
+    "level": "Elementary",
+    "word": "put",
+    "meaning": "放",
+    "example": "Please put your textbooks into your school bag. (請把你的課本放進書包裡。)",
+    "id": "Elementary-put-mjzy-please-put-your-te"
+  },
+  {
+    "level": "Elementary",
+    "word": "put",
+    "meaning": "放",
+    "example": "Please put your eraser back into the pencil case. (請把你的橡皮擦放回鉛筆盒裡。)",
+    "id": "Elementary-put-mjzy-please-put-your-er"
+  },
+  {
+    "level": "Elementary",
+    "word": "need",
+    "meaning": "需要",
+    "example": "I need a blue pen to write my homework. (我需要一隻藍色原子筆來寫功課。)",
+    "id": "Elementary-need-mqfsx"
+  },
+  {
+    "level": "Elementary",
+    "word": "neighbor",
+    "meaning": "鄰居",
+    "example": "Our neighbor is very kind and gives us guavas. (我們的鄰居人很好，還送我們芭樂。)",
+    "id": "Elementary-neighbor-mp79x"
+  },
+  {
+    "level": "Elementary",
+    "word": "never",
+    "meaning": "從不",
+    "example": "I never stay up late on school nights. (我在上學日晚上從不熬夜。)",
+    "id": "Elementary-never-mgoxb"
+  },
+  {
+    "level": "Elementary",
+    "word": "new",
+    "meaning": "新的",
+    "example": "My mom bought me a pair of new shoes. (我媽媽幫我買了一雙新鞋子。)",
+    "id": "Elementary-new-mhy38"
+  },
+  {
+    "level": "Elementary",
+    "word": "rabbit",
+    "meaning": "兔子",
+    "example": "The rabbit has long ears and a short tail. (兔子有長耳朵和短尾巴。)",
+    "id": "Elementary-rabbit-mec1o-the-rabbit-has-lon"
+  },
+  {
+    "level": "Elementary",
+    "word": "rabbit",
+    "meaning": "兔子",
+    "example": "The white rabbit has long ears and a short tail. (那隻白兔有長長的耳朵和短短的尾巴。)",
+    "id": "Elementary-rabbit-mec1o-the-white-rabbit-h"
+  },
+  {
+    "level": "Elementary",
+    "word": "next",
+    "meaning": "下一個",
+    "example": "Who is the next student? (下一個學生是誰？)",
+    "id": "Elementary-next-mbt846"
+  },
+  {
+    "level": "Elementary",
+    "word": "nice",
+    "meaning": "好的",
+    "example": "Have a nice day at school! (祝你在學校有美好的一天！)",
+    "id": "Elementary-nice-mfvdz"
+  },
+  {
+    "level": "Elementary",
+    "word": "night",
+    "meaning": "晚上",
+    "example": "The stars are shining brightly at night. (星星在夜裡閃閃發光。)",
+    "id": "Elementary-night-mhu5s"
+  },
+  {
+    "level": "Elementary",
+    "word": "nine",
+    "meaning": "九",
+    "example": "I am nine years old. (我九歲。)",
+    "id": "Elementary-nine-mfh9"
+  },
+  {
+    "level": "Elementary",
+    "word": "nineteen",
+    "meaning": "十九",
+    "example": "There are nineteen students on the school bus. (校車上有十九個學生。)",
+    "id": "Elementary-nineteen-mela4"
+  },
+  {
+    "level": "Elementary",
+    "word": "nineteenth",
+    "meaning": "第十九",
+    "example": "Today is the nineteenth of September. (今天是九月十九號。)",
+    "id": "Elementary-nineteenth-mig2nc"
+  },
+  {
+    "level": "Elementary",
+    "word": "ninety",
+    "meaning": "九十",
+    "example": "My great-grandmother is ninety years old. (我曾祖母九十歲。)",
+    "id": "Elementary-ninety-mdsas"
+  },
+  {
+    "level": "Elementary",
+    "word": "ninth",
+    "meaning": "第九",
+    "example": "September is the ninth month of the year. (九月是一年中的第九個月。)",
+    "id": "Elementary-ninth-mldpt"
+  },
+  {
+    "level": "Elementary",
+    "word": "no",
+    "meaning": "沒有,不是",
+    "example": "No, I don't have any questions. (沒有，我沒有任何問題。)",
+    "id": "Elementary-no-mbbufvb"
+  },
+  {
+    "level": "Elementary",
+    "word": "nobody",
+    "meaning": "沒有人",
+    "example": "Nobody is in the classroom during recess. (下課時間教室裡沒有人。)",
+    "id": "Elementary-nobody-mgeg2r"
+  },
+  {
+    "level": "Elementary",
+    "word": "nod",
+    "meaning": "點頭",
+    "example": "The student nodded to say thank you. (學生點點頭表示謝謝。)",
+    "id": "Elementary-nod-mruvj"
+  },
+  {
+    "level": "Elementary",
+    "word": "noise",
+    "meaning": "噪音",
+    "example": "Please don't make too much noise in the library. (請不要在圖書館製造太多噪音。)",
+    "id": "Elementary-noise-mfj61"
+  },
+  {
+    "level": "Elementary",
+    "word": "noodle",
+    "meaning": "麵條",
+    "example": "I want to eat a bowl of hot beef noodles. (我想吃一碗熱騰騰的牛肉麵。)",
+    "id": "Elementary-noodle-mrki0"
+  },
+  {
+    "level": "Elementary",
+    "word": "noon",
+    "meaning": "中午",
+    "example": "We eat lunch together at noon. (我們在中午一起吃午餐。)",
+    "id": "Elementary-noon-mdr5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "nose",
+    "meaning": "鼻子",
+    "example": "The snowman has a carrot nose. (雪人有一個紅蘿蔔鼻子。)",
+    "id": "Elementary-nose-mrl2t"
+  },
+  {
+    "level": "Elementary",
+    "word": "not",
+    "meaning": "不,不是",
+    "example": "This pencil is not mine. (這枝鉛筆不是我的。)",
+    "id": "Elementary-not-m9ut3nl"
+  },
+  {
+    "level": "Elementary",
+    "word": "note",
+    "meaning": "筆記",
+    "example": "I write a note in class. (我在課堂上寫筆記。)",
+    "id": "Elementary-note-mlq4y"
+  },
+  {
+    "level": "Elementary",
+    "word": "notebook",
+    "meaning": "筆記本,筆電",
+    "example": "I write my English homework in this notebook. (我把英文功課寫在這本筆記本上。)",
+    "id": "Elementary-notebook-ma4f7uv"
+  },
+  {
+    "level": "Elementary",
+    "word": "nothing",
+    "meaning": "沒東西,沒事",
+    "example": "There is nothing left in the snack box. (零食盒子裡什麼都不剩了。)",
+    "id": "Elementary-nothing-men06qt"
+  },
+  {
+    "level": "Elementary",
+    "word": "notice",
+    "meaning": "注意到",
+    "example": "Did you notice the new blackboard in our classroom? (你有注意到我們教室的新黑板嗎？)",
+    "id": "Elementary-notice-mgf7xl"
+  },
+  {
+    "level": "Elementary",
+    "word": "November",
+    "meaning": "十一月",
+    "example": "The weather turns cool in November. (天氣在十一月開始變涼。)",
+    "id": "Elementary-november-mcktu1"
+  },
+  {
+    "level": "Elementary",
+    "word": "now",
+    "meaning": "現在",
+    "example": "Please clean your desk right now. (現在立刻把你的書桌整理乾淨。)",
+    "id": "Elementary-now-mk7hm"
+  },
+  {
+    "level": "Elementary",
+    "word": "number",
+    "meaning": "號碼",
+    "example": "What is your lucky number? (你最喜歡的幸運數字是多少？)",
+    "id": "Elementary-number-mninx"
+  },
+  {
+    "level": "Elementary",
+    "word": "nurse",
+    "meaning": "護士",
+    "example": "The kind nurse helped the doctor in the hospital. (那位親切的護理師（護士）在醫院裡協助醫生。)",
+    "id": "Elementary-nurse-mo7kk"
+  },
+  {
+    "level": "Elementary",
+    "word": "o'clock",
+    "meaning": "點鐘",
+    "example": "I get up at six o'clock every morning. (我每天早上六點鐘起床。)",
+    "id": "Elementary-o-clock-mru2i"
+  },
+  {
+    "level": "Elementary",
+    "word": "October",
+    "meaning": "十月",
+    "example": "Double Tenth Day is in October. (雙十節在十月。)",
+    "id": "Elementary-october-meq5j"
+  },
+  {
+    "level": "Elementary",
+    "word": "of",
+    "meaning": "的",
+    "example": "He drank a glass of fresh milk. (他喝了一杯新鮮牛奶。)",
+    "id": "Elementary-of-mnes"
+  },
+  {
+    "level": "Elementary",
+    "word": "off",
+    "meaning": "自…離開",
+    "example": "The bird flies off the tree. (鳥從樹上飛離開。)",
+    "id": "Elementary-off-mgjc1ut"
+  },
+  {
+    "level": "Elementary",
+    "word": "office",
+    "meaning": "辦公室",
+    "example": "My teacher is working in the school office. (我們老師正在學校辦公室工作。)",
+    "id": "Elementary-office-mlft26"
+  },
+  {
+    "level": "Elementary",
+    "word": "officer",
+    "meaning": "官員",
+    "example": "The police officer is helping the little girl. (警察叔叔正在幫助那個小女孩。)",
+    "id": "Elementary-officer-mg1mx"
+  },
+  {
+    "level": "Elementary",
+    "word": "robot",
+    "meaning": "機器人",
+    "example": "My brother has a cool toy robot. (我哥哥有一個很酷的玩具機器人。)",
+    "id": "Elementary-robot-mg00s1-my-brother-has-a-c"
+  },
+  {
+    "level": "Elementary",
+    "word": "robot",
+    "meaning": "機器人",
+    "example": "My brother loves to play with his toy robot. (我弟弟很喜歡玩他的玩具機器人。)",
+    "id": "Elementary-robot-mg00s1-my-brother-loves-t"
+  },
+  {
+    "level": "Elementary",
+    "word": "oil",
+    "meaning": "油",
+    "example": "Mom uses sunflower oil to cook fish. (媽媽用葵花油來煎魚。)",
+    "id": "Elementary-oil-mlh5"
+  },
+  {
+    "level": "Elementary",
+    "word": "OK",
+    "meaning": "可以",
+    "example": "Is it OK if I use your ruler? (我可以用你的直尺嗎？)",
+    "id": "Elementary-ok-mepjq"
+  },
+  {
+    "level": "Elementary",
+    "word": "old",
+    "meaning": "老的",
+    "example": "This storybook is very old but interesting. (這本故事書很舊但是很有趣。)",
+    "id": "Elementary-old-mmf8j"
+  },
+  {
+    "level": "Elementary",
+    "word": "on",
+    "meaning": "在…上面",
+    "example": "The textbook is on the desk. (課本在書桌上。)",
+    "id": "Elementary-on-mb4udqu"
+  },
+  {
+    "level": "Elementary",
+    "word": "once",
+    "meaning": "一次",
+    "example": "I wash my school bag once a month. (我每個月洗一次書包。)",
+    "id": "Elementary-once-mdush"
+  },
+  {
+    "level": "Elementary",
+    "word": "one",
+    "meaning": "一",
+    "example": "Only one student is drawing on the blackboard. (只有一個學生在黑板上畫畫。)",
+    "id": "Elementary-one-mfeo"
+  },
+  {
+    "level": "Elementary",
+    "word": "only",
+    "meaning": "只有",
+    "example": "I have only one eraser in my pencil case. (我的鉛筆盒裡只有一個橡皮擦。)",
+    "id": "Elementary-only-meu73"
+  },
+  {
+    "level": "Elementary",
+    "word": "open",
+    "meaning": "打開,開放",
+    "example": "Please open the window to let the fresh air in. (請打開窗戶讓新鮮空氣進來。)",
+    "id": "Elementary-open-m1c68kvb"
+  },
+  {
+    "level": "Elementary",
+    "word": "or",
+    "meaning": "或",
+    "example": "Do you like apples or bananas? (你喜歡蘋果還是香蕉？)",
+    "id": "Elementary-or-mjdi"
+  },
+  {
+    "level": "Elementary",
+    "word": "orange",
+    "meaning": "柳橙",
+    "example": "I like to drink cold orange juice. (我喜歡喝冰柳橙汁。)",
+    "id": "Elementary-orange-mi9ja"
+  },
+  {
+    "level": "Elementary",
+    "word": "order",
+    "meaning": "點餐,秩序",
+    "example": "May I order a box of dumplings, please? (請問我可以點一份水餃嗎？)",
+    "id": "Elementary-order-m17m668"
+  },
+  {
+    "level": "Elementary",
+    "word": "other",
+    "meaning": "其他的",
+    "example": "Show me your other hand, please. (請讓我看你的另外一隻手。)",
+    "id": "Elementary-other-mcblno"
+  },
+  {
+    "level": "Elementary",
+    "word": "out",
+    "meaning": "在外",
+    "example": "Let's go out to play football on the grass. (我們去外面草地上踢足球吧。)",
+    "id": "Elementary-out-mfbam"
+  },
+  {
+    "level": "Elementary",
+    "word": "outside",
+    "meaning": "在…外部",
+    "example": "It is raining outside. (外面正在下雨。)",
+    "id": "Elementary-outside-mb4w840"
+  },
+  {
+    "level": "Elementary",
+    "word": "over",
+    "meaning": "結束",
+    "example": "The game is over now. (遊戲現在結束了。)",
+    "id": "Elementary-over-mlvrj"
+  },
+  {
+    "level": "Elementary",
+    "word": "own",
+    "meaning": "自己的",
+    "example": "I want to have my own bedroom. (我想要有我自己的臥室。)",
+    "id": "Elementary-own-mjhnvh"
+  },
+  {
+    "level": "Elementary",
+    "word": "ox",
+    "meaning": "公牛",
+    "example": "The ox is working hard on the farm. (公牛正在農場上辛勤工作。)",
+    "id": "Elementary-ox-meh67"
+  },
+  {
+    "level": "Elementary",
+    "word": "pack",
+    "meaning": "包",
+    "example": "Please pack your school bag before bedtime. (請在睡前整理好你的書包。)",
+    "id": "Elementary-pack-mged"
+  },
+  {
+    "level": "Elementary",
+    "word": "package",
+    "meaning": "包裹",
+    "example": "The postman delivered a large package to our house. (郵差送了一個大包裹到我們家。)",
+    "id": "Elementary-package-mevf8"
+  },
+  {
+    "level": "Elementary",
+    "word": "page",
+    "meaning": "頁",
+    "example": "Open your English textbook to page ten. (打開你的英文課本第十頁。)",
+    "id": "Elementary-page-mu0x"
+  },
+  {
+    "level": "Elementary",
+    "word": "paint",
+    "meaning": "繪畫",
+    "example": "We paint beautiful pictures in art class. (我們在美術課畫漂亮的圖畫。)",
+    "id": "Elementary-paint-mm5a9"
+  },
+  {
+    "level": "Elementary",
+    "word": "pair",
+    "meaning": "一雙",
+    "example": "My mother bought me a pair of white socks. (我媽媽幫我買了一雙白襪子。)",
+    "id": "Elementary-pair-me3fd"
+  },
+  {
+    "level": "Elementary",
+    "word": "pants",
+    "meaning": "長褲",
+    "example": "He is wearing a blue t-shirt and gray pants. (他穿著藍色短袖和灰色長褲。)",
+    "id": "Elementary-pants-mq6cb"
+  },
+  {
+    "level": "Elementary",
+    "word": "papaya",
+    "meaning": "木瓜",
+    "example": "Papaya milk is a very popular drink in Taiwan. (木瓜牛奶在台灣是一種非常受歡迎的飲料。)",
+    "id": "Elementary-papaya-mi6r8"
+  },
+  {
+    "level": "Elementary",
+    "word": "paper",
+    "meaning": "紙",
+    "example": "Please draw a tree on this white paper. (請在這張白紙上畫一棵樹。)",
+    "id": "Elementary-paper-mopl"
+  },
+  {
+    "level": "Elementary",
+    "word": "parent(s)",
+    "meaning": "父(母)親",
+    "example": "My parents love me very much. (我的父母非常愛我。)",
+    "id": "Elementary-parent-s-mku303g"
+  },
+  {
+    "level": "Elementary",
+    "word": "park",
+    "meaning": "公園",
+    "example": "We love to ride bikes in the park on holidays. (我們喜歡在假日去公園騎腳踏車。)",
+    "id": "Elementary-park-mebs6"
+  },
+  {
+    "level": "Elementary",
+    "word": "part",
+    "meaning": "部分",
+    "example": "This is the most exciting part of the movie. (這是這部電影最刺激的部分。)",
+    "id": "Elementary-part-mp3j2"
+  },
+  {
+    "level": "Elementary",
+    "word": "party",
+    "meaning": "派對",
+    "example": "Welcome to my Christmas party! (歡迎來到我的聖誕派對！)",
+    "id": "Elementary-party-mj34f"
+  },
+  {
+    "level": "Elementary",
+    "word": "pass",
+    "meaning": "通過",
+    "example": "We pass the library every day. (我們每天通過圖書館。)",
+    "id": "Elementary-pass-mpawk"
+  },
+  {
+    "level": "Elementary",
+    "word": "past",
+    "meaning": "經過",
+    "example": "I walk past the shop. (我走經過那間商店。)",
+    "id": "Elementary-past-mm5gb"
+  },
+  {
+    "level": "Elementary",
+    "word": "paste",
+    "meaning": "黏貼,漿糊",
+    "example": "Use glue to paste the photo on the paper. (用膠水把照片貼在紙上。)",
+    "id": "Elementary-paste-m1ygghbe"
+  },
+  {
+    "level": "Elementary",
+    "word": "pay",
+    "meaning": "付錢",
+    "example": "Dad pays for dinner. (爸爸付晚餐的錢。)",
+    "id": "Elementary-pay-me7uy"
+  },
+  {
+    "level": "Elementary",
+    "word": "PE(physical education)",
+    "meaning": "體育",
+    "example": "I have PE class on Monday. (我星期一有體育課。)",
+    "id": "Elementary-pe-physical-education-mr1i6"
+  },
+  {
+    "level": "Elementary",
+    "word": "peach",
+    "meaning": "桃子",
+    "example": "The pink peach tastes very sweet and juicy. (粉紅色的水蜜桃吃起來又甜又多汁。)",
+    "id": "Elementary-peach-mi8h9"
+  },
+  {
+    "level": "Elementary",
+    "word": "pear",
+    "meaning": "梨子",
+    "example": "Grandma bought some sweet pears at the market. (阿嬤在市場買了一些甜梨子。)",
+    "id": "Elementary-pear-miaw8"
+  },
+  {
+    "level": "Elementary",
+    "word": "pen",
+    "meaning": "筆",
+    "example": "I write my homework with a blue pen. (我用藍色原子筆寫功課。)",
+    "id": "Elementary-pen-mocm"
+  },
+  {
+    "level": "Elementary",
+    "word": "pencil",
+    "meaning": "鉛筆",
+    "example": "Don't forget to sharpen your pencil. (別忘了削你的鉛筆。)",
+    "id": "Elementary-pencil-mpkjv"
+  },
+  {
+    "level": "Elementary",
+    "word": "people",
+    "meaning": "人們,人民",
+    "example": "There are many people waiting for the MRT. (有很多人正在等捷運。)",
+    "id": "Elementary-people-mxt00y4"
+  },
+  {
+    "level": "Elementary",
+    "word": "perhaps",
+    "meaning": "或許",
+    "example": "Perhaps it will stop raining this afternoon. (也許今天下午雨就會停了。)",
+    "id": "Elementary-perhaps-mhfx7"
+  },
+  {
+    "level": "Elementary",
+    "word": "person",
+    "meaning": "人",
+    "example": "He is a very kind and friendly person. (他是一個非常善良且友善的人。)",
+    "id": "Elementary-person-mfju"
+  },
+  {
+    "level": "Elementary",
+    "word": "pet",
+    "meaning": "寵物",
+    "example": "My favorite pet is a small golden hamster. (我最喜歡的寵物是小黃金鼠。)",
+    "id": "Elementary-pet-mg9p0"
+  },
+  {
+    "level": "Elementary",
+    "word": "photo",
+    "meaning": "相片",
+    "example": "Let's take a beautiful family photo together. (我們一起拍一張漂亮的全家福照片吧。)",
+    "id": "Elementary-photo-mkv2n"
+  },
+  {
+    "level": "Elementary",
+    "word": "pick",
+    "meaning": "撿拾",
+    "example": "Let's pick up the garbage on the playground. (我們一起把操場上的垃圾撿起來吧。)",
+    "id": "Elementary-pick-mhogv"
+  },
+  {
+    "level": "Elementary",
+    "word": "picnic",
+    "meaning": "野餐",
+    "example": "We had a wonderful picnic at the park last Saturday. (我們上週六在公園辦了一場超棒的野餐。)",
+    "id": "Elementary-picnic-mpn2a"
+  },
+  {
+    "level": "Elementary",
+    "word": "picture",
+    "meaning": "圖片,照片",
+    "example": "Look at this colorful picture of a dragon. (看這張色彩斑斕的龍的圖片。)",
+    "id": "Elementary-picture-m1yt5vff"
+  },
+  {
+    "level": "Elementary",
+    "word": "pie",
+    "meaning": "派",
+    "example": "My mom baked a delicious apple pie for us. (我媽媽幫我們烤了一個美味的蘋果派。)",
+    "id": "Elementary-pie-mlku"
+  },
+  {
+    "level": "Elementary",
+    "word": "piece",
+    "meaning": "片",
+    "example": "Can I have a piece of chocolate cake? (我可以吃一塊巧克力蛋糕嗎？)",
+    "id": "Elementary-piece-mmkn"
+  },
+  {
+    "level": "Elementary",
+    "word": "pig",
+    "meaning": "豬",
+    "example": "The pink pig is sleeping on the farm. (粉紅色的豬正在農場上睡覺。)",
+    "id": "Elementary-pig-mrqk"
+  },
+  {
+    "level": "Elementary",
+    "word": "pin",
+    "meaning": "大頭針",
+    "example": "Use a pin to fix the picture on the board. (用圖釘把圖片固定在公布欄上。)",
+    "id": "Elementary-pin-mdss6v"
+  },
+  {
+    "level": "Elementary",
+    "word": "pink",
+    "meaning": "粉紅色(的)",
+    "example": "She loves her new pink school bag. (她非常喜歡她那全新粉紅色的書包。)",
+    "id": "Elementary-pink-m18cc5rr"
+  },
+  {
+    "level": "Elementary",
+    "word": "pipe",
+    "meaning": "管",
+    "example": "Water flows through the water pipe into our house. (水透過水管流進我們家。)",
+    "id": "Elementary-pipe-mof5"
+  },
+  {
+    "level": "Elementary",
+    "word": "pizza",
+    "meaning": "披薩",
+    "example": "We ordered a large cheese pizza for dinner. (我們晚餐點了一個大起司披薩。)",
+    "id": "Elementary-pizza-mhila"
+  },
+  {
+    "level": "Elementary",
+    "word": "place",
+    "meaning": "地方",
+    "example": "The night market is a fun place to visit. (夜市是一個好玩值得去的地方。)",
+    "id": "Elementary-place-mfdzd"
+  },
+  {
+    "level": "Elementary",
+    "word": "plan",
+    "meaning": "計畫",
+    "example": "What is your plan for the summer vacation? (你暑假的計畫是什麼？)",
+    "id": "Elementary-plan-mo4f7"
+  },
+  {
+    "level": "Elementary",
+    "word": "planet",
+    "meaning": "行星",
+    "example": "Earth is a beautiful planet in space. (地球是太空中一顆美麗的星球。)",
+    "id": "Elementary-planet-mnqs3"
+  },
+  {
+    "level": "Elementary",
+    "word": "plant",
+    "meaning": "植物",
+    "example": "Don't forget to water the green plants. (不要忘記給綠色植物澆水。)",
+    "id": "Elementary-plant-mihvg"
+  },
+  {
+    "level": "Elementary",
+    "word": "plate",
+    "meaning": "盤子",
+    "example": "Put the pork buns on the white plate. (把肉包放到白色盤子裡。)",
+    "id": "Elementary-plate-mkq24"
+  },
+  {
+    "level": "Elementary",
+    "word": "play",
+    "meaning": "玩",
+    "example": "We play soccer after school. (我們放學後踢足球。)",
+    "id": "Elementary-play-mmuh"
+  },
+  {
+    "level": "Elementary",
+    "word": "player",
+    "meaning": "球員,玩家",
+    "example": "He is the best basketball player in our school. (他是我們學校棒的籃球員。)",
+    "id": "Elementary-player-m1250zff"
+  },
+  {
+    "level": "Elementary",
+    "word": "pleasure",
+    "meaning": "樂趣,使高興",
+    "example": "Reading is a pleasure for me. (閱讀對我來說是一種樂趣。)",
+    "id": "Elementary-pleasure-m1dhfnhg"
+  },
+  {
+    "level": "Elementary",
+    "word": "please",
+    "meaning": "請",
+    "example": "Please line up at the bus stop. (請在公車站排好隊。)",
+    "id": "Elementary-please-mrez"
+  },
+  {
+    "level": "Elementary",
+    "word": "p.m.",
+    "meaning": "下午",
+    "example": "The English club starts at 2:00 p.m. (英文社團在下午兩點開始。)",
+    "id": "Elementary-p-m-mdqcd"
+  },
+  {
+    "level": "Elementary",
+    "word": "pocket",
+    "meaning": "口袋",
+    "example": "I have some change in my pants pocket. (我褲子口袋裡有一些零錢。)",
+    "id": "Elementary-pocket-mf0nc"
+  },
+  {
+    "level": "Elementary",
+    "word": "point",
+    "meaning": "指著,得分",
+    "example": "The teacher pointed to the blackboard. (老師指著黑板。)",
+    "id": "Elementary-point-m1cqu79n"
+  },
+  {
+    "level": "Elementary",
+    "word": "police",
+    "meaning": "警察",
+    "example": "The police caught the thief near the park. (警察在公園附近抓到了小偷。)",
+    "id": "Elementary-police-mo7qx"
+  },
+  {
+    "level": "Elementary",
+    "word": "polite",
+    "meaning": "有禮貌的",
+    "example": "A polite student always says thank you. (有禮貌的學生總是說謝謝。)",
+    "id": "Elementary-polite-mdicj5p"
+  },
+  {
+    "level": "Elementary",
+    "word": "pond",
+    "meaning": "池塘",
+    "example": "There are many small fish swimming in the pond. (有許多小魚在池塘裡游泳。)",
+    "id": "Elementary-pond-mix2w"
+  },
+  {
+    "level": "Elementary",
+    "word": "pool",
+    "meaning": "游泳池",
+    "example": "We love to swim in the cool pool in summer. (我們夏天喜歡在清涼的游泳池裡游泳。)",
+    "id": "Elementary-pool-mgob2d"
+  },
+  {
+    "level": "Elementary",
+    "word": "poor",
+    "meaning": "貧困的,可憐的",
+    "example": "The kind girl gave some bread to the poor man. (那位善良的女孩拿了一些麵包給那個窮人。)",
+    "id": "Elementary-poor-ml6snzm"
+  },
+  {
+    "level": "Elementary",
+    "word": "popcorn",
+    "meaning": "爆米花",
+    "example": "We like to eat sweet popcorn when we watch movies. (我們看電影的時候喜歡吃甜的爆米花。)",
+    "id": "Elementary-popcorn-mhb4mc"
+  },
+  {
+    "level": "Elementary",
+    "word": "popular",
+    "meaning": "受歡迎的",
+    "example": "Dodgeball is very popular in our school. (躲避球在我們學校非常受歡迎。)",
+    "id": "Elementary-popular-mb13yw0"
+  },
+  {
+    "level": "Elementary",
+    "word": "pork",
+    "meaning": "豬肉",
+    "example": "Mom is cooking pork rice in the kitchen. (媽媽正在廚房煮滷肉飯。)",
+    "id": "Elementary-pork-mol99"
+  },
+  {
+    "level": "Elementary",
+    "word": "possible",
+    "meaning": "可能的",
+    "example": "Is it possible to finish the homework before four o'clock? (有可能在四點前寫完功課嗎？)",
+    "id": "Elementary-possible-mcx652"
+  },
+  {
+    "level": "Elementary",
+    "word": "post office",
+    "meaning": "郵局",
+    "example": "I go to the post office. (我去郵局。)",
+    "id": "Elementary-post-office-mp5uz"
+  },
+  {
+    "level": "Elementary",
+    "word": "postcard",
+    "meaning": "明信片",
+    "example": "My sister sent me a beautiful postcard from Japan. (我姊姊從日本寄給我一張漂亮的明信片。)",
+    "id": "Elementary-postcard-mfccgk"
+  },
+  {
+    "level": "Elementary",
+    "word": "pot",
+    "meaning": "罐,壺,鍋子",
+    "example": "Mom put some corn soup into the big pot. (媽媽把玉米濃湯倒進大鍋子裡。)",
+    "id": "Elementary-pot-mto03zn"
+  },
+  {
+    "level": "Elementary",
+    "word": "pound",
+    "meaning": "磅",
+    "example": "The heavy big dog weighs about sixty pounds. (那隻沉重的大狗大約有六十磅重。)",
+    "id": "Elementary-pound-mnut"
+  },
+  {
+    "level": "Elementary",
+    "word": "practice",
+    "meaning": "練習",
+    "example": "We practice speaking English every day. (我們每天練習說英文。)",
+    "id": "Elementary-practice-mm4im"
+  },
+  {
+    "level": "Elementary",
+    "word": "pray",
+    "meaning": "祈禱",
+    "example": "We pray at the temple. (我們在廟裡祈禱。)",
+    "id": "Elementary-pray-mlap5"
+  },
+  {
+    "level": "Elementary",
+    "word": "prepare",
+    "meaning": "準備",
+    "example": "Dad is preparing a delicious breakfast for us. (爸爸正在幫我們準備美味的早餐。)",
+    "id": "Elementary-prepare-mj937"
+  },
+  {
+    "level": "Elementary",
+    "word": "present",
+    "meaning": "禮物",
+    "example": "I got a wonderful birthday present from my parents. (我從父母那裡收到了一份很棒的生日禮物。)",
+    "id": "Elementary-present-mlbp7"
+  },
+  {
+    "level": "Elementary",
+    "word": "price",
+    "meaning": "價格",
+    "example": "The price of this toy robot is too high. (這個玩具機器人的價格太高了。)",
+    "id": "Elementary-price-mecf7"
+  },
+  {
+    "level": "Elementary",
+    "word": "princess",
+    "meaning": "公主",
+    "example": "The little girl wants to dress up as a princess. (那個小女孩想要裝扮成一位公主。)",
+    "id": "Elementary-princess-mea1b"
+  },
+  {
+    "level": "Elementary",
+    "word": "prize",
+    "meaning": "獎品,獎金",
+    "example": "I get a prize in the game. (我在遊戲中得到一個獎品。)",
+    "id": "Elementary-prize-mzcy0yk"
+  },
+  {
+    "level": "Elementary",
+    "word": "problem",
+    "meaning": "問題",
+    "example": "This math problem is too hard for me. (這道數學題目對我來說太難了。)",
+    "id": "Elementary-problem-mfcgt"
+  },
+  {
+    "level": "Elementary",
+    "word": "program",
+    "meaning": "節目",
+    "example": "I watch a TV program after dinner. (我晚餐後看一個電視節目。)",
+    "id": "Elementary-program-mlp9q"
+  },
+  {
+    "level": "Elementary",
+    "word": "proud",
+    "meaning": "驕傲的",
+    "example": "My parents are very proud of my good grades. (我的父母為我的好成績感到很驕傲。)",
+    "id": "Elementary-proud-mn05yf"
+  },
+  {
+    "level": "Elementary",
+    "word": "public",
+    "meaning": "公立的,公眾的",
+    "example": "Don't make loud noises in public places. (不要在公共場所大聲喧嘩。)",
+    "id": "Elementary-public-mgcsq17"
+  },
+  {
+    "level": "Elementary",
+    "word": "pull",
+    "meaning": "拉",
+    "example": "Please pull the door to open it. (請拉開門。)",
+    "id": "Elementary-pull-mjih"
+  },
+  {
+    "level": "Elementary",
+    "word": "pumpkin",
+    "meaning": "南瓜",
+    "example": "We carved a big orange pumpkin for Halloween. (我們在萬聖節雕刻了一個大顆的橘色南瓜。)",
+    "id": "Elementary-pumpkin-metet"
+  },
+  {
+    "level": "Elementary",
+    "word": "purple",
+    "meaning": "紫色的",
+    "example": "I like to eat sweet purple grapes in summer. (我夏天喜歡吃甜甜的紫葡萄。)",
+    "id": "Elementary-purple-miyugt"
+  },
+  {
+    "level": "Elementary",
+    "word": "push",
+    "meaning": "推",
+    "example": "Please push the door. (請推門。)",
+    "id": "Elementary-push-mjoo"
+  },
+  {
+    "level": "Elementary",
+    "word": "quarter",
+    "meaning": "15 分鐘,1/4",
+    "example": "It is a quarter past eight. (現在八點十五分。)",
+    "id": "Elementary-quarter-15-1-4"
+  },
+  {
+    "level": "Elementary",
+    "word": "queen",
+    "meaning": "皇后",
+    "example": "The beautiful queen lives in a big castle. (美麗的皇后住在一座大城堡裡。)",
+    "id": "Elementary-queen-mkmef"
+  },
+  {
+    "level": "Elementary",
+    "word": "question",
+    "meaning": "問題",
+    "example": "If you have any questions, please raise your hand. (如果你有任何問題，請舉手。)",
+    "id": "Elementary-question-mfcgt"
+  },
+  {
+    "level": "Elementary",
+    "word": "quick",
+    "meaning": "迅速的",
+    "example": "Be quick, or we will miss the school bus. (快一點，否則我們會錯過校車。)",
+    "id": "Elementary-quick-mlr9ai"
+  },
+  {
+    "level": "Elementary",
+    "word": "quiet",
+    "meaning": "安靜的",
+    "example": "Please be quiet when you are in the library. (在圖書館裡時請保持安靜。)",
+    "id": "Elementary-quiet-me5241"
+  },
+  {
+    "level": "Elementary",
+    "word": "quite",
+    "meaning": "相當",
+    "example": "The English test today is quite easy; I got a perfect score. (今天的英文考試相當容易，我拿了滿分。)",
+    "id": "Elementary-quite-mkvpa"
+  },
+  {
+    "level": "Elementary",
+    "word": "quiz",
+    "meaning": "小考",
+    "example": "We have a small English quiz this Friday. (我們這週五有一個英文小測驗。)",
+    "id": "Elementary-quiz-mgd04"
+  },
+  {
+    "level": "Elementary",
+    "word": "race",
+    "meaning": "賽跑",
+    "example": "He won first prize in the running race. (他在跑步比賽中獲得了第一名。)",
+    "id": "Elementary-race-morck"
+  },
+  {
+    "level": "Elementary",
+    "word": "radio",
+    "meaning": "收音機",
+    "example": "Grandpa listens to the radio. (爺爺聽收音機。)",
+    "id": "Elementary-radio-mfk41u"
+  },
+  {
+    "level": "Elementary",
+    "word": "railroad",
+    "meaning": "鐵路",
+    "example": "Do not play near the railroad. (不要在鐵路附近玩。)",
+    "id": "Elementary-railroad-mpzkq"
+  },
+  {
+    "level": "Elementary",
+    "word": "rain",
+    "meaning": "下雨",
+    "example": "It started to rain, so we ran into the bookstore. (開始下雨了，所以我們跑進了書店。)",
+    "id": "Elementary-rain-me3p9"
+  },
+  {
+    "level": "Elementary",
+    "word": "rainbow",
+    "meaning": "彩虹",
+    "example": "Look at the rainbow. (看那道彩虹。)",
+    "id": "Elementary-rainbow-mgysw"
+  },
+  {
+    "level": "Elementary",
+    "word": "rainy",
+    "meaning": "下雨的",
+    "example": "I usually stay home and read storybooks on rainy days. (下雨天我通常待在家裡看故事書。)",
+    "id": "Elementary-rainy-mc5u5j"
+  },
+  {
+    "level": "Elementary",
+    "word": "raise",
+    "meaning": "舉起,養育",
+    "example": "Please raise your hand before you speak. (發言前請先舉手。)",
+    "id": "Elementary-raise-mt2yjt2"
+  },
+  {
+    "level": "Elementary",
+    "word": "rat",
+    "meaning": "(大)老鼠,鼠輩",
+    "example": "The cat caught a big rat in the kitchen. (貓在廚房裡抓到了一隻大老鼠。)",
+    "id": "Elementary-rat-m1ubqbws"
+  },
+  {
+    "level": "Elementary",
+    "word": "read",
+    "meaning": "讀",
+    "example": "I like to read interesting English stories before bedtime. (我喜歡在睡前看有趣的英文故事。)",
+    "id": "Elementary-read-mrk0"
+  },
+  {
+    "level": "Elementary",
+    "word": "ready",
+    "meaning": "準備好的",
+    "example": "Are you ready for the sports meet? (你為運動會準備好了嗎？)",
+    "id": "Elementary-ready-meadhnu"
+  },
+  {
+    "level": "Elementary",
+    "word": "real",
+    "meaning": "真的",
+    "example": "Is that flower real or made of paper? (那朵花是真的還是紙做的？)",
+    "id": "Elementary-real-mkwud"
+  },
+  {
+    "level": "Elementary",
+    "word": "really",
+    "meaning": "真地",
+    "example": "The ice cream tastes really delicious. (這個冰淇淋吃起來真的很好吃。)",
+    "id": "Elementary-really-mkqnl"
+  },
+  {
+    "level": "Elementary",
+    "word": "recorder",
+    "meaning": "錄音機",
+    "example": "My recorder is on the desk. (我的錄音機在書桌上。)",
+    "id": "Elementary-recorder-mm9n0w"
+  },
+  {
+    "level": "Elementary",
+    "word": "red",
+    "meaning": "紅色(的)",
+    "example": "She wears a beautiful red skirt today. (她今天穿了一件漂亮的紅裙子。)",
+    "id": "Elementary-red-m82qs68"
+  },
+  {
+    "level": "Elementary",
+    "word": "refrigerator",
+    "meaning": "冰箱",
+    "example": "Please put the fresh milk into the refrigerator. (請把鮮奶放進冰箱裡。)",
+    "id": "Elementary-refrigerator-mekn5"
+  },
+  {
+    "level": "Elementary",
+    "word": "remember",
+    "meaning": "記得",
+    "example": "Please remember to bring your English workbook tomorrow. (請記得明天要帶你的英文習作。)",
+    "id": "Elementary-remember-mo0hr"
+  },
+  {
+    "level": "Elementary",
+    "word": "repeat",
+    "meaning": "重複",
+    "example": "Can you repeat that word again, please? (可以請你把那個單字再重複一遍嗎？)",
+    "id": "Elementary-repeat-mpjve"
+  },
+  {
+    "level": "Elementary",
+    "word": "reporter",
+    "meaning": "記者",
+    "example": "The news reporter is talking on TV. (新聞記者正在電視上播報。)",
+    "id": "Elementary-reporter-mo6wd"
+  },
+  {
+    "level": "Elementary",
+    "word": "rest",
+    "meaning": "休息",
+    "example": "Let's take a short rest under the big tree. (我們在大樹下稍微休息一下吧。)",
+    "id": "Elementary-rest-mdz7i"
+  },
+  {
+    "level": "Elementary",
+    "word": "restaurant",
+    "meaning": "餐館",
+    "example": "Our family had dinner at a nice Taiwanese restaurant. (我們全家在一間很棒的台灣餐廳吃晚餐。)",
+    "id": "Elementary-restaurant-mqviw"
+  },
+  {
+    "level": "Elementary",
+    "word": "restroom",
+    "meaning": "洗手間",
+    "example": "Excuse me, where is the restroom? (請問一下，廁所在哪裡？)",
+    "id": "Elementary-restroom-mggrnj"
+  },
+  {
+    "level": "Elementary",
+    "word": "rice",
+    "meaning": "米飯",
+    "example": "Taiwanese people eat rice for lunch and dinner. (台灣人午餐和晚餐都吃米飯。)",
+    "id": "Elementary-rice-mm09o"
+  },
+  {
+    "level": "Elementary",
+    "word": "rich",
+    "meaning": "有錢的",
+    "example": "The rich man bought many books for the school library. (那位富有的人為學校圖書館買了很多書。)",
+    "id": "Elementary-rich-mfsz8r"
+  },
+  {
+    "level": "Elementary",
+    "word": "ride",
+    "meaning": "騎",
+    "example": "I ride my bike in the park. (我在公園騎腳踏車。)",
+    "id": "Elementary-ride-mufi"
+  },
+  {
+    "level": "Elementary",
+    "word": "right",
+    "meaning": "右邊",
+    "example": "The bank is on your right. (銀行在你的右邊。)",
+    "id": "Elementary-right-mf2lz"
+  },
+  {
+    "level": "Elementary",
+    "word": "ring",
+    "meaning": "戒指",
+    "example": "She wears a beautiful silver ring on her finger. (她的手指上戴著一枚漂亮的銀戒指。)",
+    "id": "Elementary-ring-mh839"
+  },
+  {
+    "level": "Elementary",
+    "word": "river",
+    "meaning": "河",
+    "example": "There are many small fish swimming in the clean river. (乾淨的河流裡有許多小魚在游泳。)",
+    "id": "Elementary-river-mlgz"
+  },
+  {
+    "level": "Elementary",
+    "word": "road",
+    "meaning": "道路",
+    "example": "Be careful when you cross the busy road. (過繁忙的馬路時要小心。)",
+    "id": "Elementary-road-mpbss"
+  },
+  {
+    "level": "Elementary",
+    "word": "ROC",
+    "meaning": "中華民國",
+    "example": "ROC is our country's name. (中華民國是我們國家的名稱。)",
+    "id": "Elementary-roc-maetbzw"
+  },
+  {
+    "level": "Elementary",
+    "word": "rock",
+    "meaning": "岩石",
+    "example": "The kids are throwing small rocks into the pond. (孩子們正在把小石頭丟進池塘裡。)",
+    "id": "Elementary-rock-mgf3e"
+  },
+  {
+    "level": "Elementary",
+    "word": "roll",
+    "meaning": "滾",
+    "example": "The ball rolled under the teacher's desk. (球滾到老師的講桌底下了。)",
+    "id": "Elementary-roll-mlxa"
+  },
+  {
+    "level": "Elementary",
+    "word": "room",
+    "meaning": "房間",
+    "example": "Please clean your own room every Saturday. (請在每週六打掃你自己的臥室。)",
+    "id": "Elementary-room-mhj5g"
+  },
+  {
+    "level": "Elementary",
+    "word": "roller-skate / roller-blade",
+    "meaning": "溜冰",
+    "example": "He can roller-blade very fast on the playground. (他在操場上溜直排輪溜得很快。)",
+    "id": "Elementary-roller-skate-roller-blade-mj9g4"
+  },
+  {
+    "level": "Elementary",
+    "word": "rope",
+    "meaning": "繩子",
+    "example": "We use a long rope to play tug-of-war. (我們用一條長繩子來玩拔河。)",
+    "id": "Elementary-rope-mm03r"
+  },
+  {
+    "level": "Elementary",
+    "word": "rose",
+    "meaning": "玫瑰",
+    "example": "The red rose in the garden smells very sweet. (花園裡的紅玫瑰聞起來很香。)",
+    "id": "Elementary-rose-mkbad"
+  },
+  {
+    "level": "Elementary",
+    "word": "round",
+    "meaning": "圓形的",
+    "example": "The moon is very round on Moon Festival. (中秋節的月亮非常圓。)",
+    "id": "Elementary-round-md80j9"
+  },
+  {
+    "level": "Elementary",
+    "word": "row",
+    "meaning": "划(船)",
+    "example": "We row a boat on the lake. (我們在湖上划船。)",
+    "id": "Elementary-row-madadie"
+  },
+  {
+    "level": "Elementary",
+    "word": "rule",
+    "meaning": "規則",
+    "example": "We must follow the classroom rules. (我們必須遵守教室常規。)",
+    "id": "Elementary-rule-mnul4"
+  },
+  {
+    "level": "Elementary",
+    "word": "ruler",
+    "meaning": "尺",
+    "example": "Can I borrow your ruler to draw a straight line? (我可以借你的直尺來畫一條直線嗎？)",
+    "id": "Elementary-ruler-mi7u"
+  },
+  {
+    "level": "Elementary",
+    "word": "run",
+    "meaning": "跑",
+    "example": "Do not run in the hallway. (不要在走廊奔跑。)",
+    "id": "Elementary-run-ms0h"
+  },
+  {
+    "level": "Elementary",
+    "word": "sad",
+    "meaning": "悲傷的",
+    "example": "The little girl was sad because she lost her eraser. (那個小女孩很傷心，因為她弄丟了橡皮擦。)",
+    "id": "Elementary-sad-mek927"
+  },
+  {
+    "level": "Elementary",
+    "word": "safe",
+    "meaning": "安全的",
+    "example": "It is safe now. (現在安全了。)",
+    "id": "Elementary-safe-mdt5r9"
+  },
+  {
+    "level": "Elementary",
+    "word": "sail",
+    "meaning": "航行",
+    "example": "We saw a beautiful white boat sail on the sea. (我們看到一隻美麗的白船在海上航行。)",
+    "id": "Elementary-sail-mmvz6"
+  },
+  {
+    "level": "Elementary",
+    "word": "salad",
+    "meaning": "沙拉",
+    "example": "Mom made a delicious fruit salad for lunch. (媽媽做了一份美味的水果沙拉當午餐。)",
+    "id": "Elementary-salad-mj0i8"
+  },
+  {
+    "level": "Elementary",
+    "word": "sale",
+    "meaning": "出售",
+    "example": "These English books are on sale this week. (這些英文書這週正在特價出清。)",
+    "id": "Elementary-sale-meet0"
+  },
+  {
+    "level": "Elementary",
+    "word": "salesman",
+    "meaning": "推銷員",
+    "example": "My uncle is a car salesman. (我叔叔是汽車業務員。)",
+    "id": "Elementary-salesman-mfawmq"
+  },
+  {
+    "level": "Elementary",
+    "word": "salt",
+    "meaning": "鹽",
+    "example": "Please add a little salt to the soup. (請在湯裡加一點鹽巴。)",
+    "id": "Elementary-salt-mvb1"
+  },
+  {
+    "level": "Elementary",
+    "word": "same",
+    "meaning": "相同的",
+    "example": "My friend and I wear the same school uniform. (我和我的朋友穿著相同的學校制服。)",
+    "id": "Elementary-same-mhu9kg"
+  },
+  {
+    "level": "Elementary",
+    "word": "sandwich",
+    "meaning": "三明治",
+    "example": "I usually eat a ham and egg sandwich for breakfast. (我早餐通常吃火腿蛋三明治。)",
+    "id": "Elementary-sandwich-mbxfli"
+  },
+  {
+    "level": "Elementary",
+    "word": "Saturday",
+    "meaning": "星期六",
+    "example": "We don't need to go to school on Saturday. (我們星期六不需要上學。)",
+    "id": "Elementary-saturday-mfggwd"
+  },
+  {
+    "level": "Elementary",
+    "word": "sacred",
+    "meaning": "神聖的",
+    "example": "This place is sacred. (這個地方很神聖。)",
+    "id": "Elementary-sacred-mieg24"
+  },
+  {
+    "level": "Elementary",
+    "word": "save",
+    "meaning": "節省,挽救",
+    "example": "We should save water and electricity every day. (我們每天都應該節約用水和用電。)",
+    "id": "Elementary-save-m1o0rnj"
+  },
+  {
+    "level": "Elementary",
+    "word": "say",
+    "meaning": "說",
+    "example": "What did the teacher say about the homework? (老師剛剛說的功課是什麼？)",
+    "id": "Elementary-say-mre2"
+  },
+  {
+    "level": "Elementary",
+    "word": "school",
+    "meaning": "學校",
+    "example": "I go to an elementary school near my house. (我去我家附近的一所國民小學上學。)",
+    "id": "Elementary-school-mg4o9"
+  },
+  {
+    "level": "Elementary",
+    "word": "science",
+    "meaning": "科學",
+    "example": "We did an interesting experiment in science class today. (我們今天在自然科學課上做了一個有趣的實驗。)",
+    "id": "Elementary-science-ml807"
+  },
+  {
+    "level": "Elementary",
+    "word": "scooter",
+    "meaning": "速克達機車",
+    "example": "Many people in Taiwan ride scooters to work. (台灣有很多人騎機車去上班。)",
+    "id": "Elementary-scooter-m6491cj"
+  },
+  {
+    "level": "Elementary",
+    "word": "screen",
+    "meaning": "螢幕",
+    "example": "Don't look at the computer screen for too long. (不要看電腦螢幕太久。)",
+    "id": "Elementary-screen-mnl6b"
+  },
+  {
+    "level": "Elementary",
+    "word": "sea",
+    "meaning": "海",
+    "example": "We can see the blue sea from our hotel window. (我們從旅館的窗戶可以看到藍色的海洋。)",
+    "id": "Elementary-sea-mlmf"
+  },
+  {
+    "level": "Elementary",
+    "word": "season",
+    "meaning": "季節",
+    "example": "Summer is my favorite season because of the long vacation. (夏天是我最喜歡的季節，因為有暑假。)",
+    "id": "Elementary-season-mg81p"
+  },
+  {
+    "level": "Elementary",
+    "word": "seat",
+    "meaning": "座位",
+    "example": "Please take your seat. (請坐到你的座位。)",
+    "id": "Elementary-seat-mgj9i"
+  },
+  {
+    "level": "Elementary",
+    "word": "second",
+    "meaning": "第二(的)",
+    "example": "He won the second prize in the running race. (他在跑步比賽中獲得了第二名。)",
+    "id": "Elementary-second-m1tc4prh"
+  },
+  {
+    "level": "Elementary",
+    "word": "secretary",
+    "meaning": "秘書",
+    "example": "The secretary is typing a letter in the office. (秘書正在辦公室裡打信件。)",
+    "id": "Elementary-secretary-mlag0"
+  },
+  {
+    "level": "Elementary",
+    "word": "see",
+    "meaning": "看",
+    "example": "Can you see that big bird on the tree? (你能看到樹上的那隻大鳥嗎？)",
+    "id": "Elementary-see-mnij"
+  },
+  {
+    "level": "Elementary",
+    "word": "seed",
+    "meaning": "種子",
+    "example": "The small sunflower seed will grow into a tall flower. (這顆小小的向日葵種子會長成一朵高大的花。)",
+    "id": "Elementary-seed-mla76"
+  },
+  {
+    "level": "Elementary",
+    "word": "seesaw",
+    "meaning": "蹺蹺板",
+    "example": "The kids are playing happily on the seesaw. (孩子們正在蹺蹺板上快樂地玩耍。)",
+    "id": "Elementary-seesaw-mlk2tb"
+  },
+  {
+    "level": "Elementary",
+    "word": "seldom",
+    "meaning": "很少",
+    "example": "My dad is very busy, so he seldom watches TV. (我爸爸很忙，所以他很少看電視。)",
+    "id": "Elementary-seldom-mgr61"
+  },
+  {
+    "level": "Elementary",
+    "word": "sell",
+    "meaning": "賣",
+    "example": "The convenience store sells ice cream and drinks. (便利商店有販賣冰淇淋和飲料。)",
+    "id": "Elementary-sell-mrtv"
+  },
+  {
+    "level": "Elementary",
+    "word": "send",
+    "meaning": "寄",
+    "example": "I want to send an email to my English teacher. (我想寄一封電子郵件給我的英文老師。)",
+    "id": "Elementary-send-mi4k"
+  },
+  {
+    "level": "Elementary",
+    "word": "senior high school",
+    "meaning": "高中",
+    "example": "My brother goes to senior high school. (我哥哥讀高中。)",
+    "id": "Elementary-senior-high-school-mqrmd"
+  },
+  {
+    "level": "Elementary",
+    "word": "sentence",
+    "meaning": "句子",
+    "example": "Please read this English sentence out loud. (請大聲朗讀這個英文句子。)",
+    "id": "Elementary-sentence-merrf"
+  },
+  {
+    "level": "Elementary",
+    "word": "September",
+    "meaning": "九月",
+    "example": "School usually starts in September in Taiwan. (台灣的學校通常在九月開學。)",
+    "id": "Elementary-september-mdw7f"
+  },
+  {
+    "level": "Elementary",
+    "word": "serious",
+    "meaning": "嚴重的",
+    "example": "This is a serious problem. (這是一個嚴重的問題。)",
+    "id": "Elementary-serious-mdemtn"
+  },
+  {
+    "level": "Elementary",
+    "word": "(TV)set",
+    "meaning": "(電視)機",
+    "example": "We bought a TV set. (我們買了一台電視。)",
+    "id": "Elementary-tv-set-mk7pha1"
+  },
+  {
+    "level": "Elementary",
+    "word": "seven",
+    "meaning": "七",
+    "example": "There are seven days in a week. (一星期有七天。)",
+    "id": "Elementary-seven-mfer"
+  },
+  {
+    "level": "Elementary",
+    "word": "seventeen",
+    "meaning": "十七",
+    "example": "My big sister is seventeen years old. (我姊姊今年十七歲。)",
+    "id": "Elementary-seventeen-mel7m"
+  },
+  {
+    "level": "Elementary",
+    "word": "seventeenth",
+    "meaning": "第十七(的)",
+    "example": "Today is the seventeenth of October. (今天是十月十七號。)",
+    "id": "Elementary-seventeenth-m1sc76v3"
+  },
+  {
+    "level": "Elementary",
+    "word": "seventh",
+    "meaning": "第七(的)",
+    "example": "Sunday is the seventh day of the week. (星期日是一週之中的第七天。)",
+    "id": "Elementary-seventh-m1t9p8k6"
+  },
+  {
+    "level": "Elementary",
+    "word": "seventy",
+    "meaning": "七十",
+    "example": "This cool toy costs seventy Taiwan dollars. (這個酷玩具要價新台幣七十元。)",
+    "id": "Elementary-seventy-mdq5a"
+  },
+  {
+    "level": "Elementary",
+    "word": "several",
+    "meaning": "幾個的",
+    "example": "There are several birds singing on the tree. (有幾隻小鳥在樹上唱歌。)",
+    "id": "Elementary-several-me8iqf"
+  },
+  {
+    "level": "Elementary",
+    "word": "shake",
+    "meaning": "搖動",
+    "example": "Do not shake the table. (不要搖動桌子。)",
+    "id": "Elementary-shake-mhh8f"
+  },
+  {
+    "level": "Elementary",
+    "word": "shall",
+    "meaning": "將會,好嗎?",
+    "example": "Shall we go to the playground to play dodgeball? (我們去操場打躲避球好嗎？)",
+    "id": "Elementary-shall-m1eqeavy"
+  },
+  {
+    "level": "Elementary",
+    "word": "shape",
+    "meaning": "形狀",
+    "example": "An orange has the shape of a ball. (柳丁的形狀像一顆球。)",
+    "id": "Elementary-shape-mguqm"
+  },
+  {
+    "level": "Elementary",
+    "word": "share",
+    "meaning": "分享",
+    "example": "It is nice to share your snacks with your classmates. (和同學分享你的零食是一件很好的事。)",
+    "id": "Elementary-share-medt1"
+  },
+  {
+    "level": "Elementary",
+    "word": "shark",
+    "meaning": "鯊魚",
+    "example": "Sharks are large and dangerous animals in the sea. (鯊魚是海洋裡大型且危險的動物。)",
+    "id": "Elementary-shark-mrcnk"
+  },
+  {
+    "level": "Elementary",
+    "word": "she",
+    "meaning": "她",
+    "example": "She is my best friend, Amy. (她是我最好的朋友，艾咪。)",
+    "id": "Elementary-she-mho9"
+  },
+  {
+    "level": "Elementary",
+    "word": "sheep",
+    "meaning": "綿羊",
+    "example": "We saw many white sheep eating grass on the farm. (我們在農場看到許多綿羊在吃草。)",
+    "id": "Elementary-sheep-mm36z"
+  },
+  {
+    "level": "Elementary",
+    "word": "ship",
+    "meaning": "船",
+    "example": "The large ship is traveling across the ocean. (那艘大船正在橫跨海洋航行。)",
+    "id": "Elementary-ship-mpq1"
+  },
+  {
+    "level": "Elementary",
+    "word": "shirt",
+    "meaning": "襯衫",
+    "example": "My dad wears a white shirt to work every day. (我爸爸每天穿白襯衫去上班。)",
+    "id": "Elementary-shirt-mo4ik"
+  },
+  {
+    "level": "Elementary",
+    "word": "shoe(s)",
+    "meaning": "鞋子",
+    "example": "Please put on your running shoes before PE class. (上體育課前請穿上你的運動鞋。)",
+    "id": "Elementary-shoe-s-mqa05"
+  },
+  {
+    "level": "Elementary",
+    "word": "shop",
+    "meaning": "商店",
+    "example": "The shop is near my home. (那間商店在我家附近。)",
+    "id": "Elementary-shop-mf0up"
+  },
+  {
+    "level": "Elementary",
+    "word": "shopkeeper",
+    "meaning": "店主",
+    "example": "The shopkeeper at the bookstore is very kind. (書店老闆非常親切。)",
+    "id": "Elementary-shopkeeper-mgio4"
+  },
+  {
+    "level": "Elementary",
+    "word": "short",
+    "meaning": "短的",
+    "example": "My pencil is short. (我的鉛筆很短。)",
+    "id": "Elementary-short-ml1rr"
+  },
+  {
+    "level": "Elementary",
+    "word": "shorts",
+    "meaning": "短褲",
+    "example": "I wear shorts in summer. (我夏天穿短褲。)",
+    "id": "Elementary-shorts-ml5gl"
+  },
+  {
+    "level": "Elementary",
+    "word": "should",
+    "meaning": "應該",
+    "example": "We should brush our teeth after eating candy. (我們吃完糖果後應該要刷牙。)",
+    "id": "Elementary-should-mhe4p"
+  },
+  {
+    "level": "Elementary",
+    "word": "shoulder",
+    "meaning": "肩膀",
+    "example": "My school bag is too heavy for my shoulders. (我的書包太重了，我的肩膀快承受不住。)",
+    "id": "Elementary-shoulder-mmlfb"
+  },
+  {
+    "level": "Elementary",
+    "word": "shout",
+    "meaning": "喊叫",
+    "example": "Don't shout in class. (上課時不要大叫。)",
+    "id": "Elementary-shout-mf0dd"
+  },
+  {
+    "level": "Elementary",
+    "word": "show",
+    "meaning": "指示,表演",
+    "example": "The teacher showed us how to spell the word. (老師示範給我們看怎麼拼這個單字。)",
+    "id": "Elementary-show-m1bckp9h"
+  },
+  {
+    "level": "Elementary",
+    "word": "shy",
+    "meaning": "害羞的",
+    "example": "The new student is shy. (新同學很害羞。)",
+    "id": "Elementary-shy-me1vvd"
+  },
+  {
+    "level": "Elementary",
+    "word": "sick",
+    "meaning": "生病的",
+    "example": "I can't go to school today because I am sick. (我今天因為生病不能去上學。)",
+    "id": "Elementary-sick-mhq9by"
+  },
+  {
+    "level": "Elementary",
+    "word": "side",
+    "meaning": "旁邊,邊,面",
+    "example": "Please stand on the safe side of the road. (請站在馬路安全的那一側。)",
+    "id": "Elementary-side-m16ohit9"
+  },
+  {
+    "level": "Elementary",
+    "word": "sidewalk",
+    "meaning": "人行道",
+    "example": "We should always walk on the sidewalk for safety. (為了安全起見，我們應該一直走在人行道上。)",
+    "id": "Elementary-sidewalk-mc73k1"
+  },
+  {
+    "level": "Elementary",
+    "word": "sight",
+    "meaning": "視力",
+    "example": "My grandfather has very good sight and doesn't wear glasses. (我爺爺的視力非常好，而且不用戴眼鏡。)",
+    "id": "Elementary-sight-mnuth"
+  },
+  {
+    "level": "Elementary",
+    "word": "sign",
+    "meaning": "標誌",
+    "example": "The sign says \"No Food or Drinks\" in the library. (告示牌上寫著「圖書館內禁止飲食」。)",
+    "id": "Elementary-sign-mit1v"
+  },
+  {
+    "level": "Elementary",
+    "word": "simple",
+    "meaning": "簡單的",
+    "example": "This English question is very simple and easy. (這個英文問題非常簡單又容易。)",
+    "id": "Elementary-simple-milr3r"
+  },
+  {
+    "level": "Elementary",
+    "word": "since",
+    "meaning": "自從",
+    "example": "I have lived in Tainan since I was born. (我從出生起就一直住在台南。)",
+    "id": "Elementary-since-mmmes"
+  },
+  {
+    "level": "Elementary",
+    "word": "sing",
+    "meaning": "唱歌",
+    "example": "Our music teacher sings beautifully. (我們的音樂課老師唱歌很好聽。)",
+    "id": "Elementary-sing-mf2uz"
+  },
+  {
+    "level": "Elementary",
+    "word": "singer",
+    "meaning": "歌手",
+    "example": "Jay Chou is a very famous singer in Taiwan. (周杰倫在台灣是一位非常著名的歌手。)",
+    "id": "Elementary-singer-misfz"
+  },
+  {
+    "level": "Elementary",
+    "word": "sir",
+    "meaning": "先生",
+    "example": "Good morning, sir. May I help you? (先生早安，需要我幫忙嗎？)",
+    "id": "Elementary-sir-meguv"
+  },
+  {
+    "level": "Elementary",
+    "word": "sister",
+    "meaning": "姊妹",
+    "example": "I have an elder sister and a younger brother. (我有一個姊姊和一個弟弟。)",
+    "id": "Elementary-sister-mfrjj"
+  },
+  {
+    "level": "Elementary",
+    "word": "sit",
+    "meaning": "坐",
+    "example": "Please sit down and open your textbooks. (請坐下並打開你們的課本。)",
+    "id": "Elementary-sit-mh8w"
+  },
+  {
+    "level": "Elementary",
+    "word": "six",
+    "meaning": "六",
+    "example": "An insect has six legs. (昆蟲有六條腿。)",
+    "id": "Elementary-six-mg31"
+  },
+  {
+    "level": "Elementary",
+    "word": "sixteen",
+    "meaning": "十六",
+    "example": "There are sixteen girls in our class. (我們班上有十六個女生。)",
+    "id": "Elementary-sixteen-melvw"
+  },
+  {
+    "level": "Elementary",
+    "word": "sixteenth",
+    "meaning": "第十六〈的〉",
+    "example": "My birthday is on the sixteenth of May. (我的生日是在五月十六號。)",
+    "id": "Elementary-sixteenth-m1sypytx"
+  },
+  {
+    "level": "Elementary",
+    "word": "sixth",
+    "meaning": "第六〈的〉",
+    "example": "June is the sixth month of the year. (六月是一年之中的第六個月。)",
+    "id": "Elementary-sixth-m1tw80j0"
+  },
+  {
+    "level": "Elementary",
+    "word": "sixty",
+    "meaning": "六十",
+    "example": "An hour has sixty minutes. (一個小時有六十分鐘。)",
+    "id": "Elementary-sixty-meb1w"
+  },
+  {
+    "level": "Elementary",
+    "word": "size",
+    "meaning": "尺寸",
+    "example": "What size of shoes do you wear? (你穿什麼尺寸的鞋子？)",
+    "id": "Elementary-size-mg6wu"
+  },
+  {
+    "level": "Elementary",
+    "word": "skate",
+    "meaning": "溜冰",
+    "example": "We learned how to ice-skate during the winter vacation. (我們在寒假學會了如何溜冰。)",
+    "id": "Elementary-skate-mj9g4"
+  },
+  {
+    "level": "Elementary",
+    "word": "skirt",
+    "meaning": "裙子",
+    "example": "She likes to wear a beautiful pink skirt. (她喜歡穿一條漂亮的粉紅色裙子。)",
+    "id": "Elementary-skirt-mns0n"
+  },
+  {
+    "level": "Elementary",
+    "word": "sky",
+    "meaning": "天空",
+    "example": "The sky is clear and blue today. (今天的天空又晴朗又藍。)",
+    "id": "Elementary-sky-mfu5t"
+  },
+  {
+    "level": "Elementary",
+    "word": "sleep",
+    "meaning": "睡覺",
+    "example": "I usually go to sleep at nine o'clock at night. (我通常在晚上九點上床睡覺。)",
+    "id": "Elementary-sleep-ml27t"
+  },
+  {
+    "level": "Elementary",
+    "word": "slide",
+    "meaning": "滑坡,滑動",
+    "example": "The kids slide down the hill. (孩子們從小山坡滑下來。)",
+    "id": "Elementary-slide-mi52eg0"
+  },
+  {
+    "level": "Elementary",
+    "word": "slim",
+    "meaning": "苗條的",
+    "example": "The girl is tall and slim. (那個女孩長得高高苗條的。)",
+    "id": "Elementary-slim-mjocym"
+  },
+  {
+    "level": "Elementary",
+    "word": "slow",
+    "meaning": "慢的",
+    "example": "The turtle is very slow but hard-working. (烏龜雖然很慢，但是很勤奮。)",
+    "id": "Elementary-slow-mh7qa"
+  },
+  {
+    "level": "Elementary",
+    "word": "small",
+    "meaning": "小的",
+    "example": "An ant is a very small insect. (螞蟻是一種非常小的昆蟲。)",
+    "id": "Elementary-small-mgb4l"
+  },
+  {
+    "level": "Elementary",
+    "word": "smart",
+    "meaning": "聰明的",
+    "example": "The dog is smart. (那隻狗很聰明。)",
+    "id": "Elementary-smart-mjb99i"
+  },
+  {
+    "level": "Elementary",
+    "word": "smell",
+    "meaning": "聞起來",
+    "example": "The chocolate cookies smell very good. (巧克力餅乾聞起來好香。)",
+    "id": "Elementary-smell-mjhdjh"
+  },
+  {
+    "level": "Elementary",
+    "word": "smile",
+    "meaning": "微笑",
+    "example": "A friendly smile makes people happy. (友善的微笑會讓人感到快樂。)",
+    "id": "Elementary-smile-mgy77"
+  },
+  {
+    "level": "Elementary",
+    "word": "smoke",
+    "meaning": "煙霧,抽菸",
+    "example": "Smoking is bad for your health. (吸菸對你的健康有害。)",
+    "id": "Elementary-smoke-m102vujd"
+  },
+  {
+    "level": "Elementary",
+    "word": "snack",
+    "meaning": "點心",
+    "example": "We usually eat some cookies as an afternoon snack. (我們通常吃一些餅乾當作下午茶點心。)",
+    "id": "Elementary-snack-mrjqd"
+  },
+  {
+    "level": "Elementary",
+    "word": "snake",
+    "meaning": "蛇",
+    "example": "Be careful! There is a green snake in the grass. (小心！草叢裡有一條綠色的蛇。)",
+    "id": "Elementary-snake-mqmf"
+  },
+  {
+    "level": "Elementary",
+    "word": "snow",
+    "meaning": "下雪",
+    "example": "It never snows in winter in Taipei. (台北的冬天從不下雪。)",
+    "id": "Elementary-snow-me3pb"
+  },
+  {
+    "level": "Elementary",
+    "word": "snowman",
+    "meaning": "雪人",
+    "example": "The children made a cute snowman in the yard. (孩子們在院子裡做了一個可愛的雪人。)",
+    "id": "Elementary-snowman-mq3o0"
+  },
+  {
+    "level": "Elementary",
+    "word": "snowy",
+    "meaning": "下雪的",
+    "example": "The mountain turned white on snowy days. (下雪天時，那座山變成了白色。)",
+    "id": "Elementary-snowy-mc5u79"
+  },
+  {
+    "level": "Elementary",
+    "word": "so",
+    "meaning": "如此地",
+    "example": "The baby is so cute. (那個寶寶如此可愛。)",
+    "id": "Elementary-so-mdmpu6"
+  },
+  {
+    "level": "Elementary",
+    "word": "soccer",
+    "meaning": "足球",
+    "example": "We like to play soccer on the grass during recess. (我們喜歡在下課時間到草地上踢足球。)",
+    "id": "Elementary-soccer-moqls"
+  },
+  {
+    "level": "Elementary",
+    "word": "socks",
+    "meaning": "襪子",
+    "example": "Please wear clean socks every day. (請每天穿乾淨的襪子。)",
+    "id": "Elementary-socks-mnvhi"
+  },
+  {
+    "level": "Elementary",
+    "word": "sofa",
+    "meaning": "沙發",
+    "example": "My dad is sleeping on the comfortable sofa. (我爸爸正在舒服的沙發上睡覺。)",
+    "id": "Elementary-sofa-mj4eb"
+  },
+  {
+    "level": "Elementary",
+    "word": "soldier",
+    "meaning": "軍人",
+    "example": "My uncle is a brave soldier. (我叔叔是一位勇敢的軍人。)",
+    "id": "Elementary-soldier-mopzh"
+  },
+  {
+    "level": "Elementary",
+    "word": "some",
+    "meaning": "一些",
+    "example": "Can I have some water, please? (可以給我一些水嗎？)",
+    "id": "Elementary-some-mdp5n"
+  },
+  {
+    "level": "Elementary",
+    "word": "someone / somebody",
+    "meaning": "某人",
+    "example": "Someone is knocking on the classroom door. (有人正在敲教室的門。)",
+    "id": "Elementary-someone-somebody-mi38q"
+  },
+  {
+    "level": "Elementary",
+    "word": "something",
+    "meaning": "某事",
+    "example": "There is something wrong with my computer. (我的電腦好像出了點什麼問題。)",
+    "id": "Elementary-something-mi37f"
+  },
+  {
+    "level": "Elementary",
+    "word": "sometimes",
+    "meaning": "有時候",
+    "example": "Sometimes we go to the night market on weekends. (我們週末有時候會去逛夜市。)",
+    "id": "Elementary-sometimes-mfl4v4"
+  },
+  {
+    "level": "Elementary",
+    "word": "somewhere",
+    "meaning": "某處",
+    "example": "I lost my eraser somewhere in the school. (我把橡皮擦弄丟在學校的某個地方了。)",
+    "id": "Elementary-somewhere-mie85"
+  },
+  {
+    "level": "Elementary",
+    "word": "son",
+    "meaning": "兒子",
+    "example": "He is the only son of Mr. Wang. (他是王先生唯一的兒子。)",
+    "id": "Elementary-son-mebzy"
+  },
+  {
+    "level": "Elementary",
+    "word": "song",
+    "meaning": "歌曲",
+    "example": "Let's sing a happy English song together. (我們一起唱一首快樂的英文歌吧。)",
+    "id": "Elementary-song-mitd2"
+  },
+  {
+    "level": "Elementary",
+    "word": "soon",
+    "meaning": "不久,即將",
+    "example": "The school bus will arrive very soon. (校車很快就會抵達了。)",
+    "id": "Elementary-soon-muxqm2w"
+  },
+  {
+    "level": "Elementary",
+    "word": "sore",
+    "meaning": "疼痛的",
+    "example": "My throat is sore. (我的喉嚨痛。)",
+    "id": "Elementary-sore-mhti9x"
+  },
+  {
+    "level": "Elementary",
+    "word": "sorry",
+    "meaning": "抱歉〈的〉",
+    "example": "I am sorry I broke your ruler by mistake. (很抱歉我不小心弄壞了你的直尺。)",
+    "id": "Elementary-sorry-m18gwh1x"
+  },
+  {
+    "level": "Elementary",
+    "word": "sound",
+    "meaning": "聲音,聽起來",
+    "example": "The music sounds very beautiful. (這音樂聽起來非常美妙。)",
+    "id": "Elementary-sound-m13fj9vl"
+  },
+  {
+    "level": "Elementary",
+    "word": "soup",
+    "meaning": "湯",
+    "example": "Mom cooks hot corn soup for dinner. (媽媽晚餐煮了熱騰騰的玉米濃湯。)",
+    "id": "Elementary-soup-mltb"
+  },
+  {
+    "level": "Elementary",
+    "word": "south",
+    "meaning": "南方",
+    "example": "Kaohsiung is a big city in the south of Taiwan. (高雄是台灣南部的一個大城市。)",
+    "id": "Elementary-south-meqf6"
+  },
+  {
+    "level": "Elementary",
+    "word": "space",
+    "meaning": "空間",
+    "example": "There is no space in my bag. (我的書包裡沒有空間。)",
+    "id": "Elementary-space-mlnix"
+  },
+  {
+    "level": "Elementary",
+    "word": "spaghetti",
+    "meaning": "義大利麵",
+    "example": "I love to eat spaghetti with tomato sauce. (我喜歡吃番茄醬義大利麵。)",
+    "id": "Elementary-spaghetti-mgh4kay"
+  },
+  {
+    "level": "Elementary",
+    "word": "speak",
+    "meaning": "說",
+    "example": "We should speak English more often in class. (我們在課堂上應該要更常說英文。)",
+    "id": "Elementary-speak-mre2"
+  },
+  {
+    "level": "Elementary",
+    "word": "special",
+    "meaning": "特別的",
+    "example": "Today is a special day because it is my birthday. (今天是一個特別的日子，因為是我的生日。)",
+    "id": "Elementary-special-mh68fs"
+  },
+  {
+    "level": "Elementary",
+    "word": "spell",
+    "meaning": "拼字",
+    "example": "Can you spell your English name for me? (你能幫我拼出你的英文名字嗎？)",
+    "id": "Elementary-spell-mhc63"
+  },
+  {
+    "level": "Elementary",
+    "word": "spend",
+    "meaning": "花(錢,時間)",
+    "example": "I spend one hour on my homework every day. (我每天花一個小時寫功課。)",
+    "id": "Elementary-spend-m1p6zbp3"
+  },
+  {
+    "level": "Elementary",
+    "word": "spider",
+    "meaning": "蜘蛛",
+    "example": "I see a spider on the wall. (我看到牆上有一隻蜘蛛。)",
+    "id": "Elementary-spider-mnpvn"
+  },
+  {
+    "level": "Elementary",
+    "word": "spoon",
+    "meaning": "湯匙",
+    "example": "Please use a spoon to eat your soup. (請用湯匙喝湯。)",
+    "id": "Elementary-spoon-mj8ne"
+  },
+  {
+    "level": "Elementary",
+    "word": "sport",
+    "meaning": "運動",
+    "example": "Playing basketball is my favorite sport. (打籃球是我最喜歡的運動。)",
+    "id": "Elementary-sport-mozxm"
+  },
+  {
+    "level": "Elementary",
+    "word": "spring",
+    "meaning": "春天",
+    "example": "Flowers bloom and trees turn green in spring. (春天的花朵盛開，樹木變綠。)",
+    "id": "Elementary-spring-mhv38"
+  },
+  {
+    "level": "Elementary",
+    "word": "square",
+    "meaning": "正方形的",
+    "example": "The clock on the wall has a square shape. (牆上的時鐘是方形的。)",
+    "id": "Elementary-square-mdyyxlk"
+  },
+  {
+    "level": "Elementary",
+    "word": "stairs",
+    "meaning": "樓梯",
+    "example": "Please walk slowly when you go down the stairs. (下樓梯時請慢走。)",
+    "id": "Elementary-stairs-mim7w"
+  },
+  {
+    "level": "Elementary",
+    "word": "stamp",
+    "meaning": "郵票",
+    "example": "I bought a cute stamp to mail my letter. (我買了一張可愛的郵票來寄信。)",
+    "id": "Elementary-stamp-mpbmb"
+  },
+  {
+    "level": "Elementary",
+    "word": "stand",
+    "meaning": "站立",
+    "example": "Please stand up when the teacher comes in. (老師進來時請起立。)",
+    "id": "Elementary-stand-mlkia"
+  },
+  {
+    "level": "Elementary",
+    "word": "star",
+    "meaning": "星星",
+    "example": "We can see many shining stars at night. (我們在晚上可以看到許多閃爍的星星。)",
+    "id": "Elementary-star-mhxi8"
+  },
+  {
+    "level": "Elementary",
+    "word": "start",
+    "meaning": "開始",
+    "example": "The baseball game will start at two p.m. (棒球賽將在下午兩點開始。)",
+    "id": "Elementary-start-mpxgg"
+  },
+  {
+    "level": "Elementary",
+    "word": "station",
+    "meaning": "車站,站,局",
+    "example": "We are waiting for the train at the station. (我們正在車站等火車。)",
+    "id": "Elementary-station-muhlaa8"
+  },
+  {
+    "level": "Elementary",
+    "word": "stay",
+    "meaning": "停留",
+    "example": "We decided to stay home because of the typhoon. (因為颱風的關係，我們決定待在家。)",
+    "id": "Elementary-stay-meb99"
+  },
+  {
+    "level": "Elementary",
+    "word": "(beef) steak",
+    "meaning": "(牛)排",
+    "example": "My dad treated us to a delicious beef steak dinner. (我爸爸請我們吃了一頓美味的牛排晚餐。)",
+    "id": "Elementary-beef-steak-mhh3wc"
+  },
+  {
+    "level": "Elementary",
+    "word": "still",
+    "meaning": "仍然",
+    "example": "It is already nine o'clock, but he is still sleeping. (都已經九點了，但他還在睡覺。)",
+    "id": "Elementary-still-me0w9"
+  },
+  {
+    "level": "Elementary",
+    "word": "stomach",
+    "meaning": "胃",
+    "example": "My stomach hurts because I ate too much ice cream. (我肚子痛，因為我吃了太多冰淇淋。)",
+    "id": "Elementary-stomach-mpfn"
+  },
+  {
+    "level": "Elementary",
+    "word": "stop",
+    "meaning": "停",
+    "example": "The bus stopped at the school gate. (公車在學校大門口停了下來。)",
+    "id": "Elementary-stop-mfvg"
+  },
+  {
+    "level": "Elementary",
+    "word": "store",
+    "meaning": "商店",
+    "example": "Let's buy some snacks at the convenience store. (我們去便利商店買些零食吧。)",
+    "id": "Elementary-store-mf0up"
+  },
+  {
+    "level": "Elementary",
+    "word": "straight",
+    "meaning": "直的",
+    "example": "Go straight and you will see the park. (直直走，你就會看到公園了。)",
+    "id": "Elementary-straight-mkvtc"
+  },
+  {
+    "level": "Elementary",
+    "word": "story",
+    "meaning": "故事",
+    "example": "Our teacher told us an interesting story today. (我們老師今天給我們講了一個有趣的故事。)",
+    "id": "Elementary-story-mhnmu"
+  },
+  {
+    "level": "Elementary",
+    "word": "strange",
+    "meaning": "奇怪的",
+    "example": "I heard a strange noise from the backyard. (我聽到後院傳來一陣奇怪的聲音。)",
+    "id": "Elementary-strange-mdjrj5"
+  },
+  {
+    "level": "Elementary",
+    "word": "stranger",
+    "meaning": "陌生人",
+    "example": "Don't talk to strangers when you go home. (回家路上不要和陌生人說話。)",
+    "id": "Elementary-stranger-mmkv5z"
+  },
+  {
+    "level": "Elementary",
+    "word": "strawberry",
+    "meaning": "草莓",
+    "example": "I love to eat red and sweet strawberries in winter. (我冬天喜歡吃紅紅甜甜的草莓。)",
+    "id": "Elementary-strawberry-mn1wq"
+  },
+  {
+    "level": "Elementary",
+    "word": "street",
+    "meaning": "街道",
+    "example": "Be careful when you walk across the busy street. (走過繁忙的街道時要小心。)",
+    "id": "Elementary-street-mnzdo"
+  },
+  {
+    "level": "Elementary",
+    "word": "strong",
+    "meaning": "強壯的",
+    "example": "Drinking milk makes your bones and teeth strong. (喝牛奶能讓你的骨骼和牙齒強壯。)",
+    "id": "Elementary-strong-meducs"
+  },
+  {
+    "level": "Elementary",
+    "word": "student",
+    "meaning": "學生",
+    "example": "I am an elementary school student in the fourth grade. (我是一名就讀小學四年級的學生。)",
+    "id": "Elementary-student-mg78n"
+  },
+  {
+    "level": "Elementary",
+    "word": "study",
+    "meaning": "研讀,學習",
+    "example": "We need to study hard for the math exam. (我們需要為了數學考試努力讀書。)",
+    "id": "Elementary-study-m1oxbdp6"
+  },
+  {
+    "level": "Elementary",
+    "word": "stupid",
+    "meaning": "笨的",
+    "example": "Don't say stupid words to your classmates. (不要對同學說愚蠢的話。)",
+    "id": "Elementary-stupid-mlljw"
+  },
+  {
+    "level": "Elementary",
+    "word": "subject",
+    "meaning": "科目",
+    "example": "English is my favorite school subject. (英文是我在學校最喜歡的科目。)",
+    "id": "Elementary-subject-mldfh"
+  },
+  {
+    "level": "Elementary",
+    "word": "successful",
+    "meaning": "成功的",
+    "example": "The science project was very successful. (這個自然科學專題非常成功。)",
+    "id": "Elementary-successful-mers9h"
+  }
+]

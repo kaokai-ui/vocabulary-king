@@ -1,4 +1,5 @@
 export const vocabularyTracks = [
+  { value: "elementary", labelKey: "vocabularyTrackElementary", enabled: true },
   { value: "junior-high", labelKey: "vocabularyTrackJuniorHigh", enabled: true },
   { value: "senior-high", labelKey: "vocabularyTrackSeniorHigh", enabled: true },
   { value: "senior-high-5-6", labelKey: "vocabularyTrackSeniorHigh56", enabled: true },
