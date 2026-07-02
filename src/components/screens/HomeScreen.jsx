@@ -23,6 +23,7 @@ export default function HomeScreen({
   onOpenStats,
   onOpenSettings,
   onOpenWordSearch,
+  onOpenWordChain,
   onResume,
   onChangeLocale,
   onRetryVocabulary
@@ -128,6 +129,17 @@ export default function HomeScreen({
           <span className="eyebrow">{text.wordSearch}</span>
           <h2>{text.wordSearch}</h2>
           <p>{text.wordSearchHint}</p>
+        </button>
+
+        <button
+          className="feature-card feature-card--word-chain"
+          type="button"
+          disabled={disableVocabularyActions}
+          onClick={onOpenWordChain}
+        >
+          <span className="eyebrow">{text.wordChain}</span>
+          <h2>{text.wordChain}</h2>
+          <p>{text.wordChainHint}</p>
         </button>
 
         <button className="feature-card" type="button" onClick={onOpenSettings}>

@@ -172,3 +172,9 @@
     linear-gradient(140deg, rgba(69, 123, 157, 0.28), rgba(42, 157, 143, 0.12)),
     var(--panel);
 }
+
+.feature-card--word-chain {
+  background:
+    linear-gradient(140deg, rgba(217, 164, 65, 0.32), rgba(239, 131, 84, 0.16)),
+    var(--panel);
+}

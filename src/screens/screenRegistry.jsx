@@ -6,6 +6,7 @@ import QuizScreen from "../components/screens/QuizScreen";
 import QuizSetupScreen from "../components/screens/QuizSetupScreen";
 import SettingsScreen from "../components/screens/SettingsScreen";
 import StatsScreen from "../components/screens/StatsScreen";
+import WordChainScreen from "../components/screens/WordChainScreen";
 import WordListScreen from "../components/screens/WordListScreen";
 import WordSearchScreen from "../components/screens/WordSearchScreen";
 import { vocabularyTracks } from "../constants/vocabularyTracks";
@@ -67,6 +68,11 @@ export const screenAnalytics = {
     pagePath: "/word-search",
     pageTitle: "Vocabulary King - Word Search",
     screenName: "word_search"
+  },
+  wordChain: {
+    pagePath: "/word-chain",
+    pageTitle: "Vocabulary King - Word Chain",
+    screenName: "word_chain"
   }
 };
 
@@ -252,9 +258,26 @@ export const screenRegistry = {
       onOpenStats={() => context.actions.openScreen("stats")}
       onOpenSettings={() => context.actions.openScreen("settings")}
       onOpenWordSearch={() => context.actions.openScreen("wordSearch")}
+      onOpenWordChain={() => context.actions.openScreen("wordChain")}
       onResume={() => context.actions.openScreen(context.helpers.getResumeScreen())}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
       onRetryVocabulary={context.retryVocabulary}
+    />
+  ),
+  wordChain: (context) => (
+    <WordChainScreen
+      text={context.text}
+      vocabulary={context.vocabulary}
+      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
+      starredWordIds={context.starredWords.map((w) => w.id)}
+      onHome={context.actions.goHome}
+      onPronounce={context.actions.pronounce}
+      onToggleStarred={(wordId) => {
+        const word = context.vocabularyById?.[wordId];
+        if (word) {
+          context.actions.toggleStarredWord(word, word.sourceTrackId ?? context.settings.vocabularyTrack);
+        }
+      }}
     />
   ),
   wordSearch: (context) => (

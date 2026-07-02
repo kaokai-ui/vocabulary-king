@@ -5,6 +5,7 @@ import "./styles/base.css";
 import "./styles/home.css";
 import "./styles/stage.css";
 import "./styles/game.css";
+import "./styles/wordChain.css";
 import "./styles/responsive.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
