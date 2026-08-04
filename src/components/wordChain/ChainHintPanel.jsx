@@ -12,6 +12,7 @@ export default function ChainHintPanel({
   answerVisible,
   onToggleHint,
   onRevealAnswer,
+  onHideAnswer,
   onToggleStarred,
   isStarred,
   onPronounce
@@ -43,9 +44,13 @@ export default function ChainHintPanel({
                       {starred ? text.addedToWordList : text.addToWordList}
                     </button>
                   )}
-                  {!answerVisible && (
+                  {!answerVisible ? (
                     <button className="wc-hint-action wc-hint-action--reveal" onClick={onRevealAnswer}>
                       {text.wordChainRevealAnswer}
+                    </button>
+                  ) : (
+                    <button className="wc-hint-action wc-hint-action--reveal" onClick={onHideAnswer}>
+                      {text.wordChainHideAnswer}
                     </button>
                   )}
                 </span>

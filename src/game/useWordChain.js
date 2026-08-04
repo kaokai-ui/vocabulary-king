@@ -219,6 +219,7 @@ export function useWordChain({ db, initialSeed = null, sessionKey = 0 }) {
   }, [state.levelNumber, loadLevel, lastSeedRef]);
   const onToggleHint = useCallback(() => dispatch({ type: "TOGGLE_HINT" }), [dispatch]);
   const onRevealAnswer = useCallback(() => dispatch({ type: "REVEAL_ANSWER" }), [dispatch]);
+  const onHideAnswer = useCallback(() => dispatch({ type: "HIDE_ANSWER" }), [dispatch]);
 
   const canDeleteCell =
     state.selectedCell !== null &&
@@ -250,6 +251,7 @@ export function useWordChain({ db, initialSeed = null, sessionKey = 0 }) {
     onSkipLevel,
     onRestart,
     onToggleHint,
-    onRevealAnswer
+    onRevealAnswer,
+    onHideAnswer
   };
 }

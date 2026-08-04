@@ -20,7 +20,7 @@ const initialState = {
   answerVisible: false
 };
 
-function chainReducer(state, action) {
+export function chainReducer(state, action) {
   switch (action.type) {
     case "START_GENERATING":
       return {
@@ -130,6 +130,9 @@ function chainReducer(state, action) {
 
     case "REVEAL_ANSWER":
       return { ...state, answerVisible: true };
+
+    case "HIDE_ANSWER":
+      return { ...state, answerVisible: false };
 
     default:
       return state;

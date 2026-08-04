@@ -55,7 +55,8 @@ function WordChainScreenInner({
     onSkipLevel,
     onRestart,
     onToggleHint,
-    onRevealAnswer
+    onRevealAnswer,
+    onHideAnswer
   } = useWordChain({ db });
 
   const [footerCompactedForHint, setFooterCompactedForHint] = useState(false);
@@ -148,6 +149,7 @@ function WordChainScreenInner({
         answerVisible={answerVisible}
         onToggleHint={handleToggleHint}
         onRevealAnswer={onRevealAnswer}
+        onHideAnswer={onHideAnswer}
         onToggleStarred={onToggleStarred}
         isStarred={isStarred}
         onPronounce={onPronounce}

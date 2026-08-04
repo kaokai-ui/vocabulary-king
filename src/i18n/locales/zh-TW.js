@@ -122,6 +122,7 @@ export const zhTWMessages = {
   wordChainHintHorizontal: "橫向單字提示",
   wordChainHintVertical: "直向單字提示",
   wordChainRevealAnswer: "看答案",
+  wordChainHideAnswer: "隱藏答案",
   wordChainSelectCellPrompt: "先點選棋盤上的格子，再查看該單字的中文意思提示。",
   wordChainNoMeaning: "這個單字目前沒有中文意思。",
   wordChainDelete: "清除目前選取的格子",

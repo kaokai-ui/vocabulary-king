@@ -124,6 +124,7 @@ export const enMessages = {
   wordChainHintHorizontal: "Across word hint",
   wordChainHintVertical: "Down word hint",
   wordChainRevealAnswer: "Reveal",
+  wordChainHideAnswer: "Hide answer",
   wordChainSelectCellPrompt: "Select a cell on the board to see the meaning hint for that word.",
   wordChainNoMeaning: "No meaning is available for this word.",
   wordChainDelete: "Clear the selected cell",
