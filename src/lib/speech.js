@@ -1,3 +1,12 @@
+export const PRONUNCIATION_ACCENTS = {
+  US: "US",
+  UK: "UK"
+};
+
+export function normalizePronunciationAccent(accent) {
+  return accent === PRONUNCIATION_ACCENTS.UK ? PRONUNCIATION_ACCENTS.UK : PRONUNCIATION_ACCENTS.US;
+}
+
 export function isSpeechSynthesisSupported() {
   return typeof window !== "undefined" && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 }
@@ -15,13 +24,80 @@ export function isLikelyInAppBrowser(userAgent = "") {
   );
 }
 
-function pickEnglishVoice(voices) {
+function pickEnglishVoice(voices, accent) {
+  const preferredLanguage = normalizePronunciationAccent(accent) === PRONUNCIATION_ACCENTS.UK ? "en-gb" : "en-us";
+
   return (
+    voices.find((voice) => voice.lang?.toLowerCase().startsWith(preferredLanguage)) ??
     voices.find((voice) => voice.lang?.toLowerCase().startsWith("en-us")) ??
     voices.find((voice) => voice.lang?.toLowerCase().startsWith("en-gb")) ??
     voices.find((voice) => voice.lang?.toLowerCase().startsWith("en")) ??
     null
   );
+}
+
+export function isShortPronunciationText(text) {
+  const normalizedText = String(text ?? "").trim();
+
+  if (!normalizedText || normalizedText.length > 80) {
+    return false;
+  }
+
+  if (/[.!?;:()[\]{}，。！？；：、（）【】]/u.test(normalizedText)) {
+    return false;
+  }
+
+  if (!/^[A-Za-z0-9][A-Za-z0-9'’/& -]*$/.test(normalizedText)) {
+    return false;
+  }
+
+  return normalizedText.split(/\s+/).filter(Boolean).length <= 6;
+}
+
+export function getYoudaoAudioUrl(text, accent = PRONUNCIATION_ACCENTS.US) {
+  const type = normalizePronunciationAccent(accent) === PRONUNCIATION_ACCENTS.UK ? 1 : 2;
+
+  return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(String(text).trim())}&type=${type}`;
+}
+
+let activeAudio = null;
+
+function playYoudaoAudio(text, accent) {
+  if (typeof window === "undefined" || typeof window.Audio !== "function") {
+    return Promise.resolve({ ok: false, reason: "audioUnavailable" });
+  }
+
+  stopAudio();
+
+  try {
+    const audio = new window.Audio(getYoudaoAudioUrl(text, accent));
+    audio.preload = "auto";
+    activeAudio = audio;
+
+    return Promise.resolve(audio.play()).then(
+      () => ({ ok: true, source: "youdao" }),
+      () => {
+        if (activeAudio === audio) {
+          activeAudio = null;
+        }
+
+        return { ok: false, reason: "audioUnavailable" };
+      }
+    );
+  } catch (error) {
+    activeAudio = null;
+    return Promise.resolve({ ok: false, reason: "audioUnavailable" });
+  }
+}
+
+function stopAudio() {
+  if (!activeAudio) {
+    return;
+  }
+
+  activeAudio.pause?.();
+  activeAudio.currentTime = 0;
+  activeAudio = null;
 }
 
 function waitForVoices(synth, timeoutMs = 1200) {
@@ -61,21 +137,60 @@ function waitForVoices(synth, timeoutMs = 1200) {
 }
 
 let voicesWarmupPromise = null;
+let voicesWarmupSynth = null;
 
 export function warmSpeechVoices() {
   if (!isSpeechSynthesisSupported()) {
     return Promise.resolve([]);
   }
 
-  if (!voicesWarmupPromise) {
-    voicesWarmupPromise = waitForVoices(window.speechSynthesis).catch(() => []);
+  const synth = window.speechSynthesis;
+
+  if (!voicesWarmupPromise || voicesWarmupSynth !== synth) {
+    voicesWarmupSynth = synth;
+    voicesWarmupPromise = waitForVoices(synth).catch(() => []);
   }
 
   return voicesWarmupPromise;
 }
 
-export async function speakWord(text) {
-  if (!text || !isSpeechSynthesisSupported()) {
+async function speakWithBrowser(text, accent) {
+  const synth = window.speechSynthesis;
+  const utterance = new window.SpeechSynthesisUtterance(text);
+  const voices = await warmSpeechVoices();
+  const voice = pickEnglishVoice(voices, accent);
+
+  utterance.lang = voice?.lang ?? (normalizePronunciationAccent(accent) === PRONUNCIATION_ACCENTS.UK ? "en-GB" : "en-US");
+  utterance.rate = 0.92;
+  utterance.pitch = 1;
+
+  if (voice) {
+    utterance.voice = voice;
+  }
+
+  synth.speak(utterance);
+
+  return {
+    ok: true,
+    source: "speechSynthesis"
+  };
+}
+
+export async function speakWord(text, options = {}) {
+  const normalizedText = String(text ?? "").trim();
+
+  if (!normalizedText) {
+    return {
+      ok: false,
+      reason: "unsupported"
+    };
+  }
+
+  const accent = normalizePronunciationAccent(typeof options === "string" ? options : options.accent);
+  const canUseAudio = typeof window !== "undefined" && typeof window.Audio === "function";
+  const canUseSpeechSynthesis = isSpeechSynthesisSupported();
+
+  if (!canUseAudio && !canUseSpeechSynthesis) {
     return {
       ok: false,
       reason: typeof navigator !== "undefined" && isLikelyInAppBrowser(navigator.userAgent) ? "inAppBrowser" : "unsupported"
@@ -83,25 +198,24 @@ export async function speakWord(text) {
   }
 
   try {
-    const synth = window.speechSynthesis;
-    const utterance = new window.SpeechSynthesisUtterance(text);
-    const voices = await warmSpeechVoices();
-    const voice = pickEnglishVoice(voices);
+    stopSpeaking();
 
-    utterance.lang = voice?.lang ?? "en-US";
-    utterance.rate = 0.92;
-    utterance.pitch = 1;
+    if (isShortPronunciationText(normalizedText)) {
+      const audioResult = await playYoudaoAudio(normalizedText, accent);
 
-    if (voice) {
-      utterance.voice = voice;
+      if (audioResult.ok) {
+        return audioResult;
+      }
     }
 
-    synth.cancel();
-    synth.speak(utterance);
+    if (!canUseSpeechSynthesis) {
+      return {
+        ok: false,
+        reason: typeof navigator !== "undefined" && isLikelyInAppBrowser(navigator.userAgent) ? "inAppBrowser" : "unsupported"
+      };
+    }
 
-    return {
-      ok: true
-    };
+    return await speakWithBrowser(normalizedText, accent);
   } catch (error) {
     return {
       ok: false,
@@ -111,6 +225,8 @@ export async function speakWord(text) {
 }
 
 export function stopSpeaking() {
+  stopAudio();
+
   if (!isSpeechSynthesisSupported()) {
     return;
   }

@@ -1,4 +1,8 @@
 export const zhTWMessages = {
+  pronunciationAccent: "發音腔調",
+  pronunciationAccentHint: "單字與短片語使用有道詞典 MP3；例句會使用瀏覽器語音。",
+  pronunciationUs: "🇺🇸 美音",
+  pronunciationUk: "🇬🇧 英音",
   localeLabel: "繁中",
   title: "我是單字王",
   subtitle: "用卡片、測驗與進度追蹤，把目前詞彙等級的單字練成你的主場。",

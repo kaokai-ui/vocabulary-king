@@ -1,4 +1,5 @@
 import { defaultVocabularyTrack, normalizeVocabularyTrack } from "../constants/vocabularyTracks";
+import { normalizePronunciationAccent } from "./speech";
 
 export const STORAGE_KEYS = {
   appState: "vocabulary-king:app-state",
@@ -10,6 +11,7 @@ export const STORAGE_KEYS = {
 export const defaultSettings = {
   locale: "zh-TW",
   vocabularyTrack: defaultVocabularyTrack,
+  pronunciationAccent: "US",
   autoShowMeaning: false,
   autoShowExample: false,
   meaningQuizTimerEnabled: true,
@@ -48,7 +50,8 @@ export function normalizeSettings(settings) {
   return {
     ...defaultSettings,
     ...settings,
-    vocabularyTrack: normalizeVocabularyTrack(settings?.vocabularyTrack)
+    vocabularyTrack: normalizeVocabularyTrack(settings?.vocabularyTrack),
+    pronunciationAccent: normalizePronunciationAccent(settings?.pronunciationAccent)
   };
 }
 

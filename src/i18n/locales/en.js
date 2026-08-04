@@ -1,4 +1,8 @@
 export const enMessages = {
+  pronunciationAccent: "Pronunciation accent",
+  pronunciationAccentHint: "Words and short phrases use Youdao MP3 audio; example sentences use browser speech.",
+  pronunciationUs: "🇺🇸 US",
+  pronunciationUk: "🇬🇧 UK",
   localeLabel: "English",
   title: "Vocabulary King",
   subtitle: "Train each vocabulary track with flashcards, quizzes, and progress tracking.",

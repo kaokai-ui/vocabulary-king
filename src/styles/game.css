@@ -41,6 +41,24 @@
   justify-content: flex-start;
 }
 
+.flashcard-accent-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pronunciation-accent-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pronunciation-accent-switcher .chip {
+  padding: 10px 14px;
+}
+
 .flashcard-stage,
 .quiz-stage {
   flex: 1;

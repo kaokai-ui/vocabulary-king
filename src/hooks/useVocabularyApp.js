@@ -60,7 +60,7 @@ export function useVocabularyApp(vocabulary) {
 
   useFlashcardSeenTracking({ dispatch, activeTrackId, session, currentFlashcard });
 
-  const { pronounce } = usePronunciation({ dispatch });
+  const { pronounce } = usePronunciation({ dispatch, accent: settings.pronunciationAccent });
 
   const stats = useMemo(() => countProgress(activeProgress, vocabulary, isMasteredWord), [activeProgress, vocabulary]);
   const hasSavedSession = session.screen === "home" && Boolean(session.flashcards || session.quiz);

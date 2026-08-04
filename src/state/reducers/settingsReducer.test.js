@@ -6,6 +6,7 @@ describe("settingsReducer", () => {
   const initialState = {
     locale: "zh-TW",
     vocabularyTrack: "junior-high",
+    pronunciationAccent: "US",
     autoShowMeaning: false,
     autoShowExample: false,
     meaningQuizTimerEnabled: true,
@@ -39,5 +40,14 @@ describe("settingsReducer", () => {
     });
 
     expect(nextState.vocabularyTrack).toBe("gept-elementary");
+  });
+
+  it("normalizes pronunciation accents", () => {
+    const nextState = settingsReducer(initialState, {
+      type: actionTypes.updateSetting,
+      payload: { key: "pronunciationAccent", value: "UK" }
+    });
+
+    expect(nextState.pronunciationAccent).toBe("UK");
   });
 });

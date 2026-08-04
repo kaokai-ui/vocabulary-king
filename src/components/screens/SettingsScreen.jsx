@@ -1,5 +1,6 @@
 import { vocabularyTracks } from "../../constants/vocabularyTracks";
 import LocaleSwitcher from "../shared/LocaleSwitcher";
+import PronunciationAccentSwitcher from "../shared/PronunciationAccentSwitcher";
 import StageHeader from "../shared/StageHeader";
 
 export default function SettingsScreen({
@@ -10,6 +11,7 @@ export default function SettingsScreen({
   onHome,
   onChangeLocale,
   onChangeVocabularyTrack,
+  onChangePronunciationAccent,
   onToggleSetting
 }) {
   return (
@@ -43,6 +45,18 @@ export default function SettingsScreen({
             </p>
           </div>
           <LocaleSwitcher locale={locale} messages={messages} onChange={onChangeLocale} />
+        </div>
+
+        <div className="setting-row setting-row--stack">
+          <div>
+            <h2>{text.pronunciationAccent}</h2>
+            <p>{text.pronunciationAccentHint}</p>
+          </div>
+          <PronunciationAccentSwitcher
+            accent={settings.pronunciationAccent}
+            text={text}
+            onChange={onChangePronunciationAccent}
+          />
         </div>
 
         <label className="setting-row setting-row--toggle">

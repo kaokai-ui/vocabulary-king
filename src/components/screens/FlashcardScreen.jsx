@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PronunciationAccentSwitcher from "../shared/PronunciationAccentSwitcher";
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
 
@@ -13,11 +14,13 @@ export default function FlashcardScreen({
   isKnown,
   showMeaning,
   showExample,
+  pronunciationAccent,
   pronunciationMessage,
   onHome,
   onPronounce,
   onToggleMeaning,
   onToggleExample,
+  onChangePronunciationAccent,
   onToggleStarred,
   onAddToWordList,
   onToggleKnown,
@@ -114,6 +117,14 @@ export default function FlashcardScreen({
             <button className="chip" type="button" onClick={onToggleExample}>
               {showExample ? text.hideExample : text.showExample}
             </button>
+          </div>
+          <div className="flashcard-accent-control">
+            <span className="eyebrow">{text.pronunciationAccent}</span>
+            <PronunciationAccentSwitcher
+              accent={pronunciationAccent}
+              text={text}
+              onChange={onChangePronunciationAccent}
+            />
           </div>
           <span className="pill">{displayedLevel}</span>
           <div className="word-heading">

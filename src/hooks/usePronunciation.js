@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { speakWord, stopSpeaking } from "../lib/speech";
 import { actionTypes } from "../state/actionTypes";
 
-export function usePronunciation({ dispatch }) {
+export function usePronunciation({ dispatch, accent }) {
   useEffect(() => {
     return () => {
       stopSpeaking();
@@ -15,7 +15,7 @@ export function usePronunciation({ dispatch }) {
       payload: ""
     });
 
-    const result = await speakWord(textToSpeak);
+    const result = await speakWord(textToSpeak, { accent });
 
     if (!result.ok) {
       dispatch({

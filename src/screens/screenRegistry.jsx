@@ -100,11 +100,13 @@ export const screenRegistry = {
       isKnown={Boolean(context.currentFlashcard && (context.progress.knownWordIds ?? []).includes(context.currentFlashcard.id))}
       showMeaning={Boolean(context.session.flashcards?.showMeaning)}
       showExample={Boolean(context.session.flashcards?.showExample)}
+      pronunciationAccent={context.settings.pronunciationAccent}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
       onToggleMeaning={() => context.dispatch({ type: actionTypes.toggleFlashcardPanel, payload: "showMeaning" })}
       onToggleExample={() => context.dispatch({ type: actionTypes.toggleFlashcardPanel, payload: "showExample" })}
+      onChangePronunciationAccent={(accent) => context.actions.updateSetting("pronunciationAccent", accent)}
       onToggleStarred={() =>
         context.currentFlashcard &&
         context.actions.toggleStarredWord(
@@ -231,6 +233,7 @@ export const screenRegistry = {
       onHome={context.actions.goHome}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
       onChangeVocabularyTrack={(track) => context.actions.updateSetting("vocabularyTrack", track)}
+      onChangePronunciationAccent={(accent) => context.actions.updateSetting("pronunciationAccent", accent)}
       onToggleSetting={context.actions.toggleSetting}
     />
   ),
