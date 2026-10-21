@@ -2878,13 +2878,6 @@
   },
   {
     "level": "TOEFL",
-    "word": "misinterprete",
-    "meaning": "誤解；錯誤解讀 (拼寫同 misinterpret)",
-    "example": "Scholars warn that without empirical referent tracking, historians can easily misinterprete abstract structural inscriptions. (學者警告說，在缺乏經驗性指示物追蹤的情況下，歷史學家很容易誤解（錯誤解讀）抽象的結構銘文。)",
-    "id": "TOEFL-misinterprete-misinterpret"
-  },
-  {
-    "level": "TOEFL",
     "word": "mismanage",
     "meaning": "管理不善",
     "example": "The previous executive team managed to mismanage the company's funds. (前高管團隊對公司的資金管理不善。)",
@@ -6998,5 +6991,12 @@
     "meaning": "雕刻；塑造",
     "example": "The artist spent months trying to sculpt a statue out of marble. (藝術家花了幾個月的時間試圖用大理石雕刻一座雕像。)",
     "id": "TOEFL-sculpt-mwx9vus"
+  },
+  {
+    "level": "TOEFL",
+    "word": "sculptural",
+    "meaning": "雕塑的；雕刻般的",
+    "example": "Greek artists transitioned from rigid geometric profiles to dynamic, sculptural depictions of human anatomy. (希臘藝術家從僵硬的幾何輪廓過渡到對人類解剖結構動態、雕塑般的描繪。)",
+    "id": "TOEFL-sculptural-m1l2km4x"
   }
 ]

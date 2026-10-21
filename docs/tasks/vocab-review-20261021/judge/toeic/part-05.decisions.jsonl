@@ -1,0 +1,52 @@
+{"id":"L3-export-v","word":"export","decision":"accept","final":{"meaning":"n. 出口；出口產品；v. 出口；輸出"},"reason":"primary export 用名詞出口產品義，原詞條僅列動詞。"}
+{"id":"L3-expression-n","word":"expression","decision":"accept","final":{"meaning":"n. 表情；表達；表示"},"reason":"facial expression 是面部表情，原釋義沒有此義。"}
+{"id":"L5-extension-n","word":"extension","decision":"accept","final":{"meaning":"n. 延期；延長；伸展"},"reason":"one-week extension 指期限延長，原詞條僅列伸展、伸長。"}
+{"id":"L5-extensive-a","word":"extensive","decision":"accept","final":{"meaning":"a. 廣泛的；大量的；廣闊的"},"reason":"extensive market analysis 指廣泛的市場分析，不是物理廣大。"}
+{"id":"L6-extract-n","word":"extract","decision":"accept","final":{"meaning":"v. 提取；抽出；n. 萃取物"},"reason":"extract minerals 是提取礦物的動詞用法，現有條目只列名詞。"}
+{"id":"TOEIC-facilitator-n","word":"facilitator","decision":"revise","final":{"meaning":"n. 協調者；引導者"},"reason":"workshop facilitator 是帶領流程的協調者，便利措施不是此單字的名詞義。"}
+{"id":"L2-failure-n","word":"failure","decision":"accept","final":{"meaning":"n. 故障；失敗；挫敗"},"reason":"伺服器 failure 指故障，原釋義只列失敗。"}
+{"id":"L3-fairly-ad","word":"fairly","decision":"accept","final":{"meaning":"ad. 相當地；公平地"},"reason":"fairly high 是相當高，並非公平地高。"}
+{"id":"L5-falter-v-n","word":"falter","decision":"accept","final":{"meaning":"v. 衰退；走弱；動搖；猶豫"},"reason":"sales began to falter 指銷售走弱，原義無此商業用法且錯標名詞。"}
+{"id":"L3-fashion-n","word":"fashion","decision":"revise","final":{"meaning":"n. 方式；時尚","example_zh":"該服裝品牌以用永續方式生產高品質服飾而聞名。"},"reason":"in a sustainable fashion 表示以永續方式進行，不是永續時尚。"}
+{"id":"L4-fatal-a","word":"fatal","decision":"revise","final":{"meaning":"a. 致命的；災難性的；決定命運的"},"reason":"fatal error 是嚴重致命錯誤，原釋義只列決定命運義而未涵蓋常見用法。"}
+{"id":"L1-feed-n-v","word":"feed","decision":"revise","final":{"meaning":"v. 提供；傳送；餵養；n. 飼料；資訊動態"},"reason":"feed updates to consumers 是傳送資訊，原釋義只有餵養而無此商業義。"}
+{"id":"中高級-fellowship-n","word":"fellowship","decision":"revise","final":{"meaning":"n. 研究獎助；研究員職位；情誼"},"reason":"research fellowship 是研究獎助或研究員職位，不能只解作夥伴交情。"}
+{"id":"L2-field-n","word":"field","decision":"accept","final":{"meaning":"n. 領域；原野；田地"},"reason":"in the field of research 指研究領域，原 meaning 未收錄。"}
+{"id":"L2-figure-n-v","word":"figure","decision":"accept","final":{"meaning":"n. 數字；數據；體形；v. 認為；計算"},"reason":"sales figure 是銷售數字，原釋義未列此常見名詞義。"}
+{"id":"L4-finance-n","word":"finance","decision":"revise","final":{"meaning":"n. 融資；資金；金融"},"reason":"external finance 是外部融資或資金，原釋義只有財政、金融。"}
+{"id":"L2-firm-a","word":"firm","decision":"accept","final":{"meaning":"n. 公司；事務所；a. 穩固的；堅定的"},"reason":"law firm 是律師事務所，原 meaning 只列形容詞。"}
+{"id":"TOEIC-fitness-n","word":"fitness","decision":"revise","final":{"meaning":"n. 健身；健康；適合"},"reason":"fitness center 指健身中心，原釋義未列健身用法。"}
+{"id":"TOEIC-fixation-n","word":"fixation","decision":"revise","final":{"meaning":"n. 執著；沉迷；固定"},"reason":"fixation on cutting costs 是對削減成本的執著，不只是注視。"}
+{"id":"L4-formula-n","word":"formula","decision":"accept","final":{"meaning":"n. 配方；公式"},"reason":"chemical formula 在清潔劑語境是化學配方，需補列該義。"}
+{"id":"L6-formulate-v","word":"formulate","decision":"accept","final":{"meaning":"v. 制定；擬定；闡述"},"reason":"formulate a strategy 是制定策略，原釋義只說公式化。"}
+{"id":"L5-fraction-n","word":"fraction","decision":"accept","final":{"meaning":"n. 一小部分；分數；片段"},"reason":"in a fraction of a second 是不到一秒的一小部分，原義未列此量詞用法。"}
+{"id":"L5-framework-n","word":"framework","decision":"accept","final":{"meaning":"n. 架構；框架；體制"},"reason":"regulatory framework 是法規架構，原「構造；機構」不自然且不精確。"}
+{"id":"L6-fraud-n","word":"fraud","decision":"revise","final":{"meaning":"n. 詐欺；詐騙；欺騙"},"reason":"financial fraud 是財務詐欺，應採台灣通用詞而非僅泛稱詭計。"}
+{"id":"L2-frighten-v","word":"frighten","decision":"revise","final":{"meaning":"v. 使害怕；嚇唬"},"reason":"股價下跌 did not frighten investors 表示沒有嚇到投資者，原義把使害怕寫成自身害怕。"}
+{"id":"TOEIC-fueled-a","word":"fueled","decision":"revise","final":{"meaning":"v. 推動；助長（fuel 的過去式）；a. 以…為燃料的"},"reason":"fueled demand 是推動需求的動詞用法，原釋義只列加燃料的形容詞。"}
+{"id":"TOEIC-functioning-a","word":"functioning","decision":"accept","final":{"meaning":"a. 運作中的；v. 運作（function 的現在分詞）"},"reason":"functioning normally 是動詞進行式，原詞條僅列形容詞。"}
+{"id":"TOEIC-fundraiser-n","word":"fundraiser","decision":"revise","final":{"meaning":"n. 募款活動；募款人"},"reason":"annual fundraiser 在此指年度募款活動，不能只譯成籌款人。"}
+{"id":"L2-gentle-a","word":"gentle","decision":"accept","final":{"meaning":"a. 溫和的；輕柔的；和緩的"},"reason":"gentle approach 是溫和的做法，紳士的不是此處意思。"}
+{"id":"TOEIC-getaway-v","word":"getaway","decision":"accept","final":{"meaning":"n. 度假勝地；短假；逃走"},"reason":"weekend getaway 是週末短假或度假行程，原詞條誤標動詞。"}
+{"id":"L3-glance-v","word":"glance","decision":"accept","final":{"meaning":"n. 一瞥；v. 瞥一眼"},"reason":"take a glance 是名詞一瞥，原釋義僅列動詞。"}
+{"id":"中高級-goodwill-n","word":"goodwill","decision":"accept","final":{"meaning":"n. 商譽；好感；善意"},"reason":"企業建立的 goodwill 是商譽，原 meaning 未列商業用法。"}
+{"id":"L3-graduate-v","word":"graduate","decision":"revise","final":{"meaning":"n. 畢業生；a. 研究所的；v. 畢業；授予學位"},"reason":"graduate talent 指畢業生人才，原 meaning 只列授予學位的動詞義。"}
+{"id":"L5-grant-v","word":"grant","decision":"accept","final":{"meaning":"n. 補助款；撥款；v. 授予；同意"},"reason":"government grant 是政府補助款，原條目只列動詞。"}
+{"id":"L5-gravity-n","word":"gravity","decision":"accept","final":{"meaning":"n. 嚴重性；重力；引力"},"reason":"gravity of violating regulations 表示違規的嚴重性，原義僅列物理重力。"}
+{"id":"L3-grin-v","word":"grin","decision":"accept","final":{"meaning":"n. 露齒笑；v. 露齒而笑"},"reason":"a friendly grin 是名詞笑容，原資料只列動詞。"}
+{"id":"L5-grip-n","word":"grip","decision":"accept","final":{"meaning":"n. 掌控；影響力；緊握"},"reason":"brand's grip on a market 是品牌對市場的掌控，原釋義不含抽象用法。"}
+{"id":"L1-ground-n","word":"ground","decision":"revise","final":{"meaning":"n. 理由；依據；地面；土地"},"reason":"legal grounds 指法律依據，原 meaning 只有地面與土地。"}
+{"id":"L1-guide-n-v","word":"guide","decision":"revise","final":{"meaning":"n. 指南；嚮導；v. 引導；指導"},"reason":"員工福利 guide 是指南，原釋義缺少此名詞義且「響導」應作「嚮導」。"}
+{"id":"L4-guilt-n","word":"guilt","decision":"accept","final":{"meaning":"n. 內疚；罪惡感；過失"},"reason":"feel guilt 是感到內疚，原釋義沒有常用的情緒義。"}
+{"id":"L4-guilty-n","word":"guilty","decision":"accept","final":{"meaning":"a. 有罪的；內疚的"},"reason":"guilty 是形容詞，原資料錯標為名詞。"}
+{"id":"L3-gym-n","word":"gym","decision":"revise","final":{"meaning":"n. 健身房；體育館"},"reason":"gym 是場館而不是體操，原釋義混淆 gym 與 gymnastics。"}
+{"id":"L2-habit-n","word":"habit","decision":"accept","final":{"meaning":"n. 習慣；習性"},"reason":"developing a habit 指養成習慣，嗜好與興趣不是此義。"}
+{"id":"L6-hack-v","word":"hack","decision":"revise","final":{"meaning":"v. 駭入；非法入侵；劈；砍"},"reason":"hack a database 是駭入資料庫，原釋義只列實際砍劈。"}
+{"id":"TOEIC-hallmark-n","word":"hallmark","decision":"accept","final":{"meaning":"n. 標誌；特徵；品質證明"},"reason":"服務是品牌的 hallmark，即代表性特徵，原釋義未列抽象用法。"}
+{"id":"L3-hallway-n","word":"hallway","decision":"accept","final":{"meaning":"n. 走廊；通道"},"reason":"emergency exit 前的 hallway 是走廊，不是玄關或門廳。"}
+{"id":"L3-handful-n","word":"handful","decision":"accept","final":{"meaning":"n. 少數；少量；一把"},"reason":"a handful of clients 指少數客戶，原釋義只有一把。"}
+{"id":"L2-handle-v","word":"handle","decision":"accept","final":{"meaning":"v. 處理；應付；操作"},"reason":"handle complaints 是處理客訴，原義只列操作、操縱。"}
+{"id":"中高級-handout-n","word":"handout","decision":"accept","final":{"meaning":"n. 講義；傳單；施捨物"},"reason":"研討會 handout 是講義，原 meaning 未列此義。"}
+{"id":"L4-hardware-n","word":"hardware","decision":"accept","final":{"meaning":"n. 硬體；器械"},"reason":"computer hardware 指電腦硬體，原資料只有泛稱器件、器具。"}
+{"id":"TOEIC-headquarter-n","word":"headquarter","decision":"revise","final":{"word":"headquarters","meaning":"n. 總部","example_en":"The multinational corporation decided to relocate its global headquarters to New York City.","example_zh":"這家跨國公司決定將全球總部遷至紐約市。"},"reason":"將例句改為使用複數詞頭 headquarters，並保留原義與相符的中文翻譯。"}
+{"id":"L6-heritage-n","word":"heritage","decision":"accept","final":{"meaning":"n. 遺產；傳統"},"reason":"cultural heritage 指文化遺產與傳統，命運不是 heritage 的意思。"}

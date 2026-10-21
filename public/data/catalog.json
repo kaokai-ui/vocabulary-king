@@ -1,5 +1,5 @@
 {
-  "generatedAt": "ddbdffca977b",
+  "generatedAt": "c65628e1f1b5",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -241,7 +241,7 @@
       "available": true,
       "title": "TOEFL",
       "sourceWorkbookKey": "toefl-final-checked-workbook",
-      "totalWords": 3800,
+      "totalWords": 3799,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -262,7 +262,7 @@
         {
           "id": "toefl-chunk-4",
           "path": "data/tracks/toefl/chunk-004.json",
-          "wordCount": 800
+          "wordCount": 799
         }
       ]
     },
