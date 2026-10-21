@@ -60,6 +60,15 @@ export function getYoudaoAudioUrl(text, accent = PRONUNCIATION_ACCENTS.US) {
   return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(String(text).trim())}&type=${type}`;
 }
 
+function stripTrailingChineseTranslation(text) {
+  return text
+    .replace(
+      /\s*(?:\([^()]*[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF][^()]*\)|（[^（）]*[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF][^（）]*）)\s*$/u,
+      ""
+    )
+    .trim();
+}
+
 let activeAudio = null;
 
 function playYoudaoAudio(text, accent) {
@@ -177,7 +186,7 @@ async function speakWithBrowser(text, accent) {
 }
 
 export async function speakWord(text, options = {}) {
-  const normalizedText = String(text ?? "").trim();
+  const normalizedText = stripTrailingChineseTranslation(String(text ?? "").trim());
 
   if (!normalizedText) {
     return {
