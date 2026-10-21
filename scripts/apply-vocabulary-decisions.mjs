@@ -17,11 +17,11 @@ const ROOT = process.cwd();
 const TASK_ROOT = path.join(ROOT, "docs", "tasks", "vocab-review-20261021");
 const PARTS_ROOT = path.join(TASK_ROOT, "parts");
 const DECISIONS_ROOT = path.join(TASK_ROOT, "judge");
-const BACKUP_ROOT = path.join(TASK_ROOT, "backup-round3");
-const REPORT_PATH = path.join(TASK_ROOT, "writeback-round3-report.md");
 const XLSX_PATCHER_PATH = path.join(ROOT, "scripts", "patch-xlsx-cell-values.py");
 
-const TRACK_CONFIGS = [
+const DEFAULT_BACKUP_DIR = "backup-round3";
+const DEFAULT_REPORT_PATH = "writeback-round3-report.md";
+const DEFAULT_TRACK_CONFIGS = [
   {
     id: "toeic",
     expected: 469,
@@ -212,9 +212,6 @@ export function mapDecisionsToSources({ track, decisions, partRecords, sourceRec
     }
 
     const matches = sourcesByContent.get(sourceContentKey(part)) ?? [];
-    if (!matches.length) {
-      throw new Error(`Could not map part record to a source workbook row: ${track}/${decision.id} (${part.word}).`);
-    }
     if (matches.length > 1) {
       notWritten.push({
         track,
@@ -225,18 +222,45 @@ export function mapDecisionsToSources({ track, decisions, partRecords, sourceRec
       continue;
     }
 
-    const sourceRecord = matches[0];
-    const parsedPartExample = parseTrailingTranslation(part.example);
-    if (
-      trimText(sourceRecord.word) !== trimText(part.word)
-      || trimText(sourceRecord.meaning) !== trimText(part.meaning)
-      || trimText(sourceRecord.englishExample) !== trimText(parsedPartExample.english)
-      || trimText(sourceRecord.chineseTranslation) !== trimText(parsedPartExample.translation)
-    ) {
-      throw new Error(`Mapped source values diverge from the part record: ${track}/${decision.id}.`);
+    let sourceRecord;
+    let exampleSourceRecords;
+    if (matches.length === 1) {
+      sourceRecord = matches[0];
+      exampleSourceRecords = [sourceRecord];
+      const parsedPartExample = parseTrailingTranslation(part.example);
+      if (
+        trimText(sourceRecord.word) !== trimText(part.word)
+        || trimText(sourceRecord.meaning) !== trimText(part.meaning)
+        || trimText(sourceRecord.englishExample) !== trimText(parsedPartExample.english)
+        || trimText(sourceRecord.chineseTranslation) !== trimText(parsedPartExample.translation)
+      ) {
+        throw new Error(`Mapped source values diverge from the part record: ${track}/${decision.id}.`);
+      }
+    } else if (track === "gept-high-intermediate") {
+      const groupedRecords = sourceRecords
+        .filter((record) =>
+          normalizeWord(record.word) === normalizeWord(part.word)
+          && trimText(record.exportLevel) === trimText(part.level)
+        )
+        .sort((left, right) => left.row - right.row);
+      const groupedMeanings = [...new Set(groupedRecords.map((record) => trimText(record.meaning)))]
+        .join("\n");
+      if (
+        groupedRecords.length < 2
+        || groupedMeanings !== trimText(part.meaning)
+        || trimText(groupedRecords[0].example) !== trimText(part.example)
+        || Object.hasOwn(final, "word")
+        || Object.hasOwn(final, "meaning")
+      ) {
+        throw new Error(`Could not safely map grouped GEPT source rows: ${track}/${decision.id} (${part.word}).`);
+      }
+      sourceRecord = groupedRecords[0];
+      exampleSourceRecords = groupedRecords;
+    } else {
+      throw new Error(`Could not map part record to a source workbook row: ${track}/${decision.id} (${part.word}).`);
     }
 
-    mapped.push({ track, decision, part, sourceRecord, final, writtenFields: [] });
+    mapped.push({ track, decision, part, sourceRecord, exampleSourceRecords, final, writtenFields: [] });
   }
   return { mapped, notWritten };
 }
@@ -339,6 +363,9 @@ function columnForField(definition, sheet, field) {
 }
 
 function combinedExampleColumn(definition, sheet, rowNumber) {
+  if (definition.type === "gept-workbook") {
+    return definition.columns.fallbackExample;
+  }
   if (definition.type !== "level-workbook") {
     throw new Error(`Combined example storage is not supported for ${definition.id}.`);
   }
@@ -407,13 +434,44 @@ function buildCellOperations(items, definitionByTrack, workbookStates) {
       throw new Error(`Missing worksheet ${item.sourceRecord.worksheet} in ${path.basename(workbookPath)}.`);
     }
     const rowNumber = item.sourceRecord.row;
-    const fieldsBefore = new Set(item.writtenFields);
+    let changedAnyCell = false;
 
     for (const field of ["word", "meaning"]) {
       if (!Object.hasOwn(item.final, field)) {
         continue;
       }
       let newValue = item.final[field];
+      if (field === "meaning" && definition.type === "gept-workbook") {
+        const posColumn = columnForField(definition, sheet, "pos");
+        const meaningColumn = columnForField(definition, sheet, "meaning");
+        const posChanged = addCellOperation(
+          operations,
+          item,
+          workbookPath,
+          item.sourceRecord.worksheet,
+          rowNumber,
+          posColumn,
+          "pos",
+          "",
+          sheet
+        );
+        const meaningChanged = addCellOperation(
+          operations,
+          item,
+          workbookPath,
+          item.sourceRecord.worksheet,
+          rowNumber,
+          meaningColumn,
+          field,
+          newValue,
+          sheet
+        );
+        changedAnyCell ||= posChanged || meaningChanged;
+        if (posChanged || meaningChanged) {
+          item.writtenFields.push(field);
+        }
+        continue;
+      }
       if (field === "meaning" && definition.type === "toeic-workbook" && definition.columns.pos != null) {
         const split = splitToeicMeaning(newValue, item.sourceRecord.rawFields?.pos);
         const posColumn = columnForField(definition, sheet, "pos");
@@ -440,13 +498,16 @@ function buildCellOperations(items, definitionByTrack, workbookStates) {
           split.meaning,
           sheet
         );
+        changedAnyCell ||= posChanged || meaningChanged;
         if (posChanged || meaningChanged) {
           item.writtenFields.push(field);
         }
         continue;
       }
       const column = columnForField(definition, sheet, field);
-      if (addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, field, newValue, sheet)) {
+      const changed = addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, field, newValue, sheet);
+      changedAnyCell ||= changed;
+      if (changed) {
         item.writtenFields.push(field);
       }
     }
@@ -461,30 +522,49 @@ function buildCellOperations(items, definitionByTrack, workbookStates) {
           continue;
         }
         const column = columnForField(definition, sheet, field);
-        if (addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, field, item.final[field], sheet)) {
+        const changed = addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, field, item.final[field], sheet);
+        changedAnyCell ||= changed;
+        if (changed) {
           item.writtenFields.push(field);
         }
       }
     } else if (hasExampleUpdate) {
-      const english = item.final.example_en ?? item.sourceRecord.englishExample;
-      const chinese = item.final.example_zh ?? item.sourceRecord.chineseTranslation;
+      const originalExample = parseTrailingTranslation(item.part.example);
+      const english = item.final.example_en ?? originalExample.english;
+      const chinese = item.final.example_zh ?? originalExample.translation;
       const newValue = formatBilingualExample(english, chinese);
       const parsed = parseTrailingTranslation(newValue);
       if (formatBilingualExample(parsed.english, parsed.translation) !== newValue) {
         throw new Error(`Combined example does not round-trip through the source parser for ${item.track}/${item.decision.id}.`);
       }
-      const column = combinedExampleColumn(definition, sheet, rowNumber);
-      if (addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, "example", newValue, sheet)) {
-        for (const field of ["example_en", "example_zh"]) {
-          if (Object.hasOwn(item.final, field) && item.final[field] !== fieldOriginalValue(item, field)) {
-            item.writtenFields.push(field);
-          }
+      for (const exampleRecord of item.exampleSourceRecords ?? [item.sourceRecord]) {
+        const exampleSheet = workbook.Sheets[exampleRecord.worksheet];
+        if (!exampleSheet) {
+          throw new Error(`Missing worksheet ${exampleRecord.worksheet} in ${path.basename(workbookPath)}.`);
+        }
+        const column = combinedExampleColumn(definition, exampleSheet, exampleRecord.row);
+        const changed = addCellOperation(
+          operations,
+          item,
+          workbookPath,
+          exampleRecord.worksheet,
+          exampleRecord.row,
+          column,
+          "example",
+          newValue,
+          exampleSheet
+        );
+        changedAnyCell ||= changed;
+      }
+      for (const field of ["example_en", "example_zh"]) {
+        if (Object.hasOwn(item.final, field) && item.final[field] !== fieldOriginalValue(item, field)) {
+          item.writtenFields.push(field);
         }
       }
     }
 
     item.writtenFields = [...new Set(item.writtenFields)];
-    if (item.writtenFields.length === fieldsBefore.size) {
+    if (!changedAnyCell) {
       noChangeItems.push(item);
     }
   }
@@ -609,7 +689,7 @@ function loadWorkbookStates(workbookPaths) {
   return states;
 }
 
-function buildPlan() {
+function buildPlan(trackConfigs = DEFAULT_TRACK_CONFIGS) {
   const definitionByTrack = new Map(TRACK_DEFINITIONS.map((definition) => [definition.id, definition]));
   const trackPlans = [];
   const sourceRecordsByTrack = new Map();
@@ -617,7 +697,7 @@ function buildPlan() {
   const notWritten = [];
   const sourceWorkbookPaths = new Set();
 
-  for (const config of TRACK_CONFIGS) {
+  for (const config of trackConfigs) {
     const definition = definitionByTrack.get(config.id);
     if (!definition) throw new Error(`No source definition exists for ${config.id}.`);
     const input = loadTrackInputs(config);
@@ -703,15 +783,15 @@ function buildPlan() {
   };
 }
 
-function ensureBackups(workbookPaths) {
-  fs.mkdirSync(BACKUP_ROOT, { recursive: true });
+function ensureBackups(workbookPaths, backupRoot) {
+  fs.mkdirSync(backupRoot, { recursive: true });
   const backups = new Map();
   for (const workbookPath of workbookPaths) {
-    const backupPath = path.join(BACKUP_ROOT, path.basename(workbookPath));
+    const backupPath = path.join(backupRoot, path.basename(workbookPath));
     const sourceHash = fileHash(workbookPath);
     if (fs.existsSync(backupPath)) {
       if (fileHash(backupPath) !== sourceHash) {
-        throw new Error(`Existing round 3 backup does not match ${path.relative(ROOT, workbookPath)}.`);
+        throw new Error(`Existing backup does not match ${path.relative(ROOT, workbookPath)}.`);
       }
     } else {
       fs.copyFileSync(workbookPath, backupPath, fs.constants.COPYFILE_EXCL);
@@ -733,12 +813,13 @@ function verifySourceReadback(plan) {
     byTrack.set(trackPlan.id, new Map(rows.map((record) => [record.id, record])));
   }
   for (const item of plan.items) {
-    const actual = byTrack.get(item.track).get(item.sourceRecord.id);
+    const sourceRows = byTrack.get(item.track);
+    const actual = sourceRows.get(item.sourceRecord.id);
     if (!actual) throw new Error(`Written source row disappeared: ${item.track}/${item.sourceRecord.id}.`);
     const originalExample = parseTrailingTranslation(item.part.example);
     const expected = {
-      word: item.final.word ?? item.part.word,
-      meaning: item.final.meaning ?? item.part.meaning,
+      word: item.final.word ?? item.sourceRecord.word,
+      meaning: item.final.meaning ?? item.sourceRecord.meaning,
       example_en: item.final.example_en ?? originalExample.english,
       example_zh: item.final.example_zh ?? originalExample.translation
     };
@@ -757,8 +838,19 @@ function verifySourceReadback(plan) {
       }
     }
     const expectedExample = formatBilingualExample(expected.example_en, expected.example_zh);
-    if (trimText(actual.example) !== expectedExample) {
-      throw new Error(`Exported source example did not round-trip for ${item.track}/${item.decision.id}.`);
+    const hasExampleUpdate = Object.hasOwn(item.final, "example_en") || Object.hasOwn(item.final, "example_zh");
+    if (hasExampleUpdate) {
+      for (const target of item.exampleSourceRecords ?? [item.sourceRecord]) {
+        const targetActual = sourceRows.get(target.id);
+        if (!targetActual) throw new Error(`Written source row disappeared: ${item.track}/${target.id}.`);
+        if (
+          trimText(targetActual.englishExample) !== trimText(expected.example_en)
+          || trimText(targetActual.chineseTranslation) !== trimText(expected.example_zh)
+          || trimText(targetActual.example) !== expectedExample
+        ) {
+          throw new Error(`Exported source example did not round-trip for ${item.track}/${item.decision.id} at row ${target.row}.`);
+        }
+      }
     }
   }
   return Object.fromEntries(plan.trackPlans.map((trackPlan) => [
@@ -767,12 +859,12 @@ function verifySourceReadback(plan) {
   ]));
 }
 
-function applyPlan(plan) {
+function applyPlan(plan, backupRoot) {
   if (!plan.operations.length) {
     throw new Error("No source cells are eligible for writeback.");
   }
   const affectedPaths = [...new Set(plan.operations.map((operation) => operation.workbookPath))];
-  const backups = ensureBackups(affectedPaths);
+  const backups = ensureBackups(affectedPaths, backupRoot);
   const backupSnapshots = new Map();
   for (const [workbookPath, backup] of backups) {
     const backupWorkbook = xlsx.readFile(backup.path, { cellStyles: true, cellNF: true, cellDates: true });
@@ -800,8 +892,8 @@ function applyPlan(plan) {
   const replaced = [];
   try {
     for (const [workbookPath, operations] of operationsByWorkbook) {
-      const tempPath = path.join(BACKUP_ROOT, `.round3-${process.pid}-${path.basename(workbookPath)}`);
-      const operationPath = path.join(BACKUP_ROOT, `.round3-${process.pid}-${path.basename(workbookPath)}.json`);
+      const tempPath = path.join(backupRoot, `.round-writeback-${process.pid}-${path.basename(workbookPath)}`);
+      const operationPath = path.join(backupRoot, `.round-writeback-${process.pid}-${path.basename(workbookPath)}.json`);
       if (fs.existsSync(tempPath)) throw new Error(`Temporary workbook already exists: ${tempPath}.`);
       if (fs.existsSync(operationPath)) throw new Error(`Temporary operation file already exists: ${operationPath}.`);
       fs.writeFileSync(operationPath, JSON.stringify(operations.map(({ worksheet, address, oldValue, newValue }) => ({
@@ -902,15 +994,106 @@ function summarizePlan(plan, applied = null) {
   };
 }
 
+function parseCliOptions(args) {
+  const recognized = new Set([
+    "--track",
+    "--expected",
+    "--expected-parts",
+    "--accept",
+    "--revise",
+    "--reject",
+    "--backup-dir",
+    "--report"
+  ]);
+  const values = new Map();
+  let apply = false;
+
+  for (let index = 0; index < args.length; index += 1) {
+    const argument = args[index];
+    if (argument === "--apply") {
+      apply = true;
+      continue;
+    }
+    if (!recognized.has(argument)) {
+      throw new Error(`Unknown argument: ${argument}.`);
+    }
+    if (values.has(argument)) {
+      throw new Error(`Argument may only be supplied once: ${argument}.`);
+    }
+    const value = args[index + 1];
+    if (!value || value.startsWith("--")) {
+      throw new Error(`Argument requires a value: ${argument}.`);
+    }
+    values.set(argument, value);
+    index += 1;
+  }
+
+  const countOptions = ["--expected", "--expected-parts", "--accept", "--revise", "--reject"];
+  const hasTrack = values.has("--track");
+  if (!hasTrack && countOptions.some((option) => values.has(option))) {
+    throw new Error("Decision count options require --track.");
+  }
+
+  let trackConfigs = DEFAULT_TRACK_CONFIGS;
+  if (hasTrack) {
+    for (const option of countOptions) {
+      if (!values.has(option)) {
+        throw new Error(`--track requires ${option}.`);
+      }
+    }
+    const readCount = (option, allowZero = true) => {
+      const value = Number(values.get(option));
+      if (!Number.isSafeInteger(value) || value < (allowZero ? 0 : 1)) {
+        throw new Error(`Invalid count for ${option}: ${values.get(option)}.`);
+      }
+      return value;
+    };
+    const expected = readCount("--expected", false);
+    const statuses = {
+      accept: readCount("--accept"),
+      revise: readCount("--revise"),
+      reject: readCount("--reject")
+    };
+    if (Object.values(statuses).reduce((sum, count) => sum + count, 0) !== expected) {
+      throw new Error("Decision status counts must add up to --expected.");
+    }
+    trackConfigs = [{
+      id: values.get("--track"),
+      expected,
+      expectedParts: readCount("--expected-parts", false),
+      statuses
+    }];
+  }
+
+  const resolveTaskPath = (value, label) => {
+    if (path.isAbsolute(value)) {
+      throw new Error(`${label} must be relative to the task directory.`);
+    }
+    const resolved = path.resolve(TASK_ROOT, value);
+    const relative = path.relative(TASK_ROOT, resolved);
+    if (!relative || relative === ".." || relative.startsWith(".." + path.sep) || path.isAbsolute(relative)) {
+      throw new Error(`${label} must stay inside the task directory.`);
+    }
+    return resolved;
+  };
+
+  const backupDir = values.get("--backup-dir") ?? DEFAULT_BACKUP_DIR;
+  const reportFile = values.get("--report") ?? DEFAULT_REPORT_PATH;
+  return {
+    apply,
+    trackConfigs,
+    backupRoot: resolveTaskPath(backupDir, "--backup-dir"),
+    reportPath: resolveTaskPath(reportFile, "--report")
+  };
+}
+
 function main() {
-  const args = process.argv.slice(2);
-  const unknown = args.filter((argument) => argument !== "--apply");
-  if (unknown.length) throw new Error(`Unknown argument(s): ${unknown.join(" ")}.`);
-  const plan = buildPlan();
-  const applied = args.includes("--apply") ? applyPlan(plan) : null;
+  const options = parseCliOptions(process.argv.slice(2));
+  const plan = buildPlan(options.trackConfigs);
+  const applied = options.apply ? applyPlan(plan, options.backupRoot) : null;
   console.log(JSON.stringify(summarizePlan(plan, applied), null, 2));
   if (applied) {
-    console.log(`Writeback verified. Report details belong in ${path.relative(ROOT, REPORT_PATH).replaceAll("\\", "/")}.`);
+    console.log(`Writeback verified. Report target: ${path.relative(ROOT, options.reportPath).replaceAll("\\", "/")}.`);
   }
 }
 

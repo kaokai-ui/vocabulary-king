@@ -450,7 +450,11 @@ function formatPrimaryLevel(levelText, fallbackLevel) {
   return fallbackLevel;
 }
 
-function resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup) {
+function resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup, preferFallback = false) {
+  if (preferFallback && fallbackExample) {
+    return fallbackExample;
+  }
+
   const normalizedLevel = String(primaryLevel ?? "").trim();
 
   if (normalizedLevel) {
@@ -532,7 +536,13 @@ function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
       word,
       pos,
       meaning,
-      example: resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup)
+      example: resolveGeptExample(
+        word,
+        primaryLevel,
+        fallbackExample,
+        exampleLookup,
+        definition.id === "gept-high-intermediate"
+      )
     });
   });
 

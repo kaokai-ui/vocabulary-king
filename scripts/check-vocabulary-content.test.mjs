@@ -9,7 +9,8 @@ import {
   checkDuplicates,
   classifySimplifiedText,
   exampleUsesHeadword,
-  readTrackSourceRows
+  readTrackSourceRows,
+  resolveGeptExample
 } from "./check-vocabulary-content.mjs";
 import { GEPT_WORKBOOK_COLUMNS } from "./vocabulary-source-definitions.mjs";
 
@@ -132,6 +133,21 @@ describe("source workbook mapping", () => {
 
     expect(row.example).toBe("The class bought a book. (全班買了一本書。)");
     expect(row.exampleSource).toMatchObject({ sourceWorkbook: expect.stringContaining("fixture-L1L2.xlsx"), worksheet: "Level 1", row: 2 });
+  });
+
+  it("prefers a high-intermediate GEPT row override over the shared level example", () => {
+    const fallbackSource = { sourceWorkbook: "fixture.xlsx", worksheet: "High", row: 9 };
+    const levelSource = { sourceWorkbook: "levels.xlsx", worksheet: "Level 5", row: 2 };
+    const lookup = new Map([
+      ["Level 5", new Map([
+        ["sample", { example: "The shared-level example.", source: levelSource }]
+      ])]
+    ]);
+
+    expect(resolveGeptExample("sample", "Level 5", "The GEPT override.", fallbackSource, lookup, true))
+      .toEqual({ example: "The GEPT override.", source: fallbackSource });
+    expect(resolveGeptExample("sample", "Level 5", "The GEPT override.", fallbackSource, lookup))
+      .toEqual({ example: "The shared-level example.", source: levelSource });
   });
 });
 

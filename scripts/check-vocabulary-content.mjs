@@ -581,7 +581,11 @@ function buildLevelExampleLookup(root) {
   return lookup;
 }
 
-function resolveGeptExample(word, primaryLevel, fallbackExample, fallbackSource, exampleLookup) {
+export function resolveGeptExample(word, primaryLevel, fallbackExample, fallbackSource, exampleLookup, preferFallback = false) {
+  if (preferFallback && asText(fallbackExample).trim()) {
+    return { example: fallbackExample, source: fallbackSource };
+  }
+
   const normalizedLevel = asText(primaryLevel).trim();
   const levelExamples = exampleLookup.get(normalizedLevel);
 
@@ -637,7 +641,8 @@ function readGeptWorkbookRows(definition, workbookPath, root) {
       cells[columns.primaryLevel],
       fallbackExample,
       fallbackSource,
-      exampleLookup
+      exampleLookup,
+      definition.id === "gept-high-intermediate"
     );
 
     entries.push(makeCombinedRecord(definition, workbookPath, worksheet, sourceRow, {

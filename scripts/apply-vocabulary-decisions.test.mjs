@@ -72,6 +72,51 @@ describe("vocabulary decision writeback planning", () => {
     expect(result.notWritten[0].reason).toContain("無法唯一對應列號");
   });
 
+  it("maps a combined GEPT entry to all of its contributing source rows", () => {
+    const part = {
+      track: "gept-high-intermediate",
+      id: "L5-blot-noun-verb",
+      level: "L5",
+      word: "blot",
+      meaning: "noun/verb 墨水漬、汙點\nverb 用紙吸乾液體",
+      example: "There is a stain. (襯衫上有汙漬。)"
+    };
+    const sourceRecords = [
+      {
+        ...sourceRecord("r2", "blot", "noun/verb 墨水漬、汙點"),
+        track: "gept-high-intermediate",
+        exportLevel: "L5",
+        meaning: "noun/verb 墨水漬、汙點",
+        example: part.example
+      },
+      {
+        ...sourceRecord("r3", "blot", "verb 用紙吸乾液體"),
+        track: "gept-high-intermediate",
+        exportLevel: "L5",
+        meaning: "verb 用紙吸乾液體",
+        example: part.example
+      }
+    ];
+    const result = mapDecisionsToSources({
+      track: "gept-high-intermediate",
+      decisions: [{
+        id: part.id,
+        word: part.word,
+        decision: "accept",
+        final: {
+          example_en: "A blot of ink spread.",
+          example_zh: "一團墨水在紙上暈開。"
+        }
+      }],
+      partRecords: [part],
+      sourceRecords
+    });
+
+    expect(result.mapped).toHaveLength(1);
+    expect(result.mapped[0].exampleSourceRecords.map((record) => record.id)).toEqual(["r2", "r3"]);
+    expect(result.notWritten).toEqual([]);
+  });
+
   it("blocks a word change that creates a duplicate headword", () => {
     const records = [sourceRecord("r2", "cat"), sourceRecord("r3", "dog")];
     const item = {
@@ -138,10 +183,11 @@ describe("vocabulary decision writeback planning", () => {
     try {
       const workbook = xlsx.utils.book_new();
       const sheet = xlsx.utils.aoa_to_sheet([
-        ["Word", "Example", "Merged", ""],
-        ["book", "old & value", "keep", "keep too"],
-        ["lamp", "unchanged", "same", "same"]
+        ["Word", "Example", "Merged", "", "", "", "", "", "Unused"],
+        ["book", "old & value", "keep", "keep too", "", "", "", "", ""],
+        ["lamp", "unchanged", "same", "same", "", "", "", "", ""]
       ]);
+      sheet["!ref"] = "A1:I3";
       sheet["!cols"] = [{ wch: 16 }, { wch: 32 }, { wch: 12 }, { wch: 12 }];
       sheet["!rows"] = [{ hpt: 19 }, { hpt: 25 }, { hpt: 28 }];
       sheet["!merges"] = [{ s: { r: 0, c: 2 }, e: { r: 0, c: 3 } }];
@@ -150,7 +196,8 @@ describe("vocabulary decision writeback planning", () => {
 
       const beforeWorkbook = xlsx.readFile(inputPath, { cellStyles: true, cellNF: true, cellDates: true });
       fs.writeFileSync(operationsPath, JSON.stringify([
-        { worksheet: "Sheet1", address: "B2", oldValue: "old & value", newValue: "new < value" }
+        { worksheet: "Sheet1", address: "B2", oldValue: "old & value", newValue: "new < value" },
+        { worksheet: "Sheet1", address: "E2", oldValue: "", newValue: "added into blank cell" }
       ]), "utf8");
       const result = spawnSync("python", [patcherPath, inputPath, operationsPath, outputPath], {
         encoding: "utf8",
@@ -160,15 +207,19 @@ describe("vocabulary decision writeback planning", () => {
 
       const afterWorkbook = xlsx.readFile(outputPath, { cellStyles: true, cellNF: true, cellDates: true });
       expect(afterWorkbook.Sheets.Sheet1.B2.v).toBe("new < value");
+      expect(afterWorkbook.Sheets.Sheet1.E2.v).toBe("added into blank cell");
       expect(afterWorkbook.Sheets.Sheet1.C2.v).toBe("keep");
       expect(afterWorkbook.Sheets.Sheet1.D3.v).toBe("same");
       expect(verifyAgainstSnapshot(
         workbookSnapshot(beforeWorkbook),
         workbookSnapshot(afterWorkbook),
-        [{ worksheet: "Sheet1", address: "B2", newValue: "new < value" }]
+        [
+          { worksheet: "Sheet1", address: "B2", newValue: "new < value" },
+          { worksheet: "Sheet1", address: "E2", newValue: "added into blank cell" }
+        ]
       )).toMatchObject({
-        expectedCells: 1,
-        changedCells: 1,
+        expectedCells: 2,
+        changedCells: 2,
         otherCells: "通過：其餘所有工作表儲存格值相同",
         structure: "通過：工作表、欄寬、列高與合併儲存格相同"
       });

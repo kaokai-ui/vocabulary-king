@@ -3,49 +3,49 @@
     "level": "L1",
     "word": "buck",
     "meaning": "noun 美元；雄鹿、公兔\nverb (馬)弓背跳躍、尥起後蹄跳躍；反抗、抵制",
-    "example": "This pen costs one dollar.（這支筆要一美元。）",
+    "example": "I only have a few bucks left. (我只剩下幾塊美金。)",
     "id": "L1-buck-noun-verb"
   },
   {
     "level": "L1",
     "word": "cop",
     "meaning": "noun 警察、員警；逮捕、拘捕\nverb 逮捕、拘捕；抓、拿、握",
-    "example": "The policeman stopped the cars for the children.（警察為孩子們攔下車子。）",
+    "example": "A cop stopped the traffic so the children could cross. (一名警察攔下車流，讓孩子們過馬路。)",
     "id": "L1-cop-noun-verb"
   },
   {
     "level": "L1",
     "word": "row",
     "meaning": "noun/verb 吵架、口角；爭吵、吵鬧",
-    "example": "We sat in the front row.（我們坐在第一排。）",
+    "example": "The couple had a row about money last night. (那對夫妻昨晚為了錢吵了一架。)",
     "id": "L1-row-noun-verb"
   },
   {
     "level": "L1",
     "word": "shape",
     "meaning": "verb 塑造",
-    "example": "The cookie is in the shape of a star.（那塊餅乾是星星的形狀。）",
+    "example": "Her years in the countryside shaped her writing. (她在鄉下的那些年塑造了她的寫作風格。)",
     "id": "L1-shape-verb"
   },
   {
     "level": "L1",
     "word": "spring",
     "meaning": "verb 跳躍起、反彈、湧出",
-    "example": "Flowers bloom in spring.（花在春天盛開。）",
+    "example": "Cats spring onto the table when they hear a noise. (貓聽到聲音時會跳上桌子。)",
     "id": "L1-spring-verb"
   },
   {
     "level": "L1",
     "word": "station",
     "meaning": "verb 駐紮、部署、配置",
-    "example": "Students gather at the bus station. (學生在公車站聚集。)",
+    "example": "Guards were stationed at every entrance. (警衛被部署在每個入口。)",
     "id": "L1-station-verb"
   },
   {
     "level": "L1",
     "word": "still",
     "meaning": "noun (電影)劇照；(釀酒用的)蒸餾器",
-    "example": "Students still need guidance from teachers. (學生仍然需要老師的指導。)",
+    "example": "The photographer showed us a still from the movie. (攝影師給我們看了一張那部電影的劇照。)",
     "id": "L1-still-noun"
   },
   {
@@ -87,7 +87,7 @@
     "level": "L2",
     "word": "brow",
     "meaning": "noun 額頭、眉毛",
-    "example": "He raised one eyebrow in surprise.（他驚訝地挑起一邊眉毛。）",
+    "example": "He wiped the sweat from his brow. (他擦掉額頭上的汗。)",
     "id": "L2-brow-noun"
   },
   {
@@ -115,7 +115,7 @@
     "level": "L2",
     "word": "drape",
     "meaning": "verb 披、垂掛\nnoun (窗)簾",
-    "example": "She opened the curtain to let in sunlight.（她拉開窗簾讓陽光進來。）",
+    "example": "She draped a blanket over the sleeping child. (她把毯子披在睡著的孩子身上。)",
     "id": "L2-drape-verb-noun"
   },
   {
@@ -143,7 +143,7 @@
     "level": "L2",
     "word": "holder",
     "meaning": "noun 持有者、保持者",
-    "example": "This cup holder keeps my drink steady.（這個杯架讓我的飲料保持穩定。）",
+    "example": "The holder of the winning ticket will get a prize. (持有中獎彩券的人可以獲得獎品。)",
     "id": "L2-holder-noun"
   },
   {
@@ -164,7 +164,7 @@
     "level": "L2",
     "word": "perfect",
     "meaning": "verb 使完善、使完美",
-    "example": "Perfect pronunciation requires continuous practice. (完美發音需要持續練習。)",
+    "example": "She spent years perfecting her English pronunciation. (她花了好幾年讓自己的英語發音更完美。)",
     "id": "L2-perfect-verb"
   },
   {
@@ -178,28 +178,28 @@
     "level": "L2",
     "word": "present",
     "meaning": "verb 贈送、頒發",
-    "example": "Students present their research findings confidently. (學生自信地呈現研究發現。)",
+    "example": "The principal presented the awards to the students. (校長頒獎給學生。)",
     "id": "L2-present-verb"
   },
   {
     "level": "L2",
     "word": "produce",
     "meaning": "noun (尤指)農產品",
-    "example": "Good teaching produces successful students. (良好的教學培養成功的學生。)",
+    "example": "The market sells fresh local produce. (這個市場賣新鮮的在地農產品。)",
     "id": "L2-produce-noun"
   },
   {
     "level": "L2",
     "word": "project",
     "meaning": "verb 計畫、估計、投射、展現",
-    "example": "Science projects engage student creativity. (科學項目啟發學生創造力。)",
+    "example": "The company projects that sales will grow next year. (公司預估明年銷售會成長。)",
     "id": "L2-project-verb"
   },
   {
     "level": "L2",
     "word": "roach",
     "meaning": "noun 蟑螂",
-    "example": "A cockroach ran under the sink.（一隻蟑螂跑到水槽下面。）",
+    "example": "A roach crawled across the kitchen floor. (一隻蟑螂爬過廚房地板。)",
     "id": "L2-roach-noun"
   },
   {
@@ -220,7 +220,7 @@
     "level": "L2",
     "word": "skirt",
     "meaning": "verb 環繞…的四週、避開(話題)",
-    "example": "She wore a blue skirt to school.（她穿藍色裙子去學校。）",
+    "example": "We skirted the issue of money during dinner. (晚餐時我們避開了錢的話題。)",
     "id": "L2-skirt-verb"
   },
   {
@@ -241,14 +241,14 @@
     "level": "L3",
     "word": "abdomen",
     "meaning": "noun 腹部",
-    "example": "My stomach hurt after I ate too much.（我吃太多後肚子痛。）",
+    "example": "He felt a sharp pain in his abdomen. (他感到腹部一陣劇痛。)",
     "id": "L3-abdomen-noun"
   },
   {
     "level": "L3",
     "word": "auto",
     "meaning": "noun 汽車",
-    "example": "The automobile industry is embracing electric vehicles. (汽車工業正在擁抱電動汽車。)",
+    "example": "She bought a used auto after saving for a year. (她存了一年的錢後買了一輛二手車。)",
     "id": "L3-auto-noun"
   },
   {
@@ -276,7 +276,7 @@
     "level": "L3",
     "word": "complex",
     "meaning": "noun (尤指過去的不快經驗造成的)情結",
-    "example": "This machine is too complex for a beginner.（這台機器對初學者來說太複雜了。）",
+    "example": "He still has a complex about his height. (他對自己的身高仍有情結。)",
     "id": "L3-complex-noun"
   },
   {
@@ -395,7 +395,7 @@
     "level": "L3",
     "word": "pail",
     "meaning": "noun 桶",
-    "example": "She filled the bucket with water.（她把水桶裝滿水。）",
+    "example": "The child carried a small pail of sand. (孩子提著一小桶沙。)",
     "id": "L3-pail-noun"
   },
   {
@@ -409,7 +409,7 @@
     "level": "L3",
     "word": "pavement",
     "meaning": "noun (馬路邊的)人行道",
-    "example": "Workers will pave the road next week.（工人下週會鋪設道路。）",
+    "example": "We walked along the pavement outside the shop. (我們沿著店外的人行道走。)",
     "id": "L3-pavement-noun"
   },
   {
@@ -444,7 +444,7 @@
     "level": "L3",
     "word": "replacement",
     "meaning": "noun 更換、替代品、接替者",
-    "example": "Digital tools replace traditional teaching methods. (數位工具替代傳統教學方法。)",
+    "example": "The school needs a replacement for the retired teacher. (學校需要一位人選來接替退休的老師。)",
     "id": "L3-replacement-noun"
   },
   {
@@ -479,7 +479,7 @@
     "level": "L3",
     "word": "steep",
     "meaning": "verb 浸泡",
-    "example": "The hill is too steep to climb quickly.（這座山坡太陡，無法快速爬上去。）",
+    "example": "Let the tea steep for three minutes. (讓茶泡三分鐘。)",
     "id": "L3-steep-verb"
   },
   {
@@ -493,7 +493,7 @@
     "level": "L3",
     "word": "twig",
     "meaning": "verb 明白、領悟",
-    "example": "A bird landed on a thin twig.（一隻鳥停在細樹枝上。）",
+    "example": "She finally twigged that he was joking. (她終於明白他在開玩笑。)",
     "id": "L3-twig-verb"
   },
   {
@@ -528,7 +528,7 @@
     "level": "L4",
     "word": "assignment",
     "meaning": "noun (學業或工作上的)任務、分派(任務)",
-    "example": "The teacher will assign homework every Friday. (老師每個星期五都會分配作業。)",
+    "example": "The assignment is due next Monday. (這份作業下週一要交。)",
     "id": "L4-assignment-noun"
   },
   {
@@ -633,14 +633,14 @@
     "level": "L4",
     "word": "enforcement",
     "meaning": "noun 執行（法律）",
-    "example": "The police enforce traffic laws.（警方執行交通法規。）",
+    "example": "Strict enforcement of the law has reduced accidents. (嚴格執法減少了交通事故。)",
     "id": "L4-enforcement-noun"
   },
   {
     "level": "L4",
     "word": "establishment",
     "meaning": "noun 建立、機構",
-    "example": "Universities establish research programs. (大學建立研究項目。)",
+    "example": "The establishment of the new hospital took three years. (新醫院的建立花了三年。)",
     "id": "L4-establishment-noun"
   },
   {
@@ -780,7 +780,7 @@
     "level": "L4",
     "word": "involvement",
     "meaning": "noun 參與、捲入",
-    "example": "This project will involve many students from different classes.（這個專案會讓來自不同班級的許多學生參與。）",
+    "example": "Her involvement in the project made a real difference. (她參與這個專案帶來了真正的改變。)",
     "id": "L4-involvement-noun"
   },
   {
@@ -913,7 +913,7 @@
     "level": "L4",
     "word": "sculpture",
     "meaning": "verb 雕塑、雕刻",
-    "example": "The sculpture was made of stone.（這座雕像是石頭做的。）",
+    "example": "The artist will sculpture a horse from a block of stone. (這位藝術家將從一塊石頭雕出一匹馬。)",
     "id": "L4-sculpture-verb"
   },
   {
@@ -1249,7 +1249,7 @@
     "level": "L5",
     "word": "ass",
     "meaning": "noun 傻瓜、笨蛋；屁股",
-    "example": "The farmer used an ass to carry supplies.（農夫用驢子搬運物資。）",
+    "example": "He made an ass of himself at the party. (他在派對上出了洋相。)",
     "id": "L5-ass-noun"
   },
   {
@@ -1494,7 +1494,7 @@
     "level": "L5",
     "word": "blot",
     "meaning": "noun/verb 墨水漬、汙點；把墨水濺到、弄髒\nverb (用軟紙或布)吸乾液體",
-    "example": "There is a stain on my white shirt.（我的白襯衫上有污漬。）",
+    "example": "A blot of ink spread across the page. (一團墨漬在紙上暈開。)",
     "id": "L5-blot-noun-verb-verb"
   },
   {
@@ -1781,7 +1781,7 @@
     "level": "L5",
     "word": "carp",
     "meaning": "verb 不停抱怨、挑剔",
-    "example": "The pond has many carp.（池塘裡有很多鯉魚。）",
+    "example": "She keeps carping about the weather. (她老是抱怨天氣。)",
     "id": "L5-carp-verb"
   },
   {
@@ -2411,7 +2411,7 @@
     "level": "L5",
     "word": "curb",
     "meaning": "verb/noun 抑制、約束",
-    "example": "Please park next to the curb.（請把車停在路緣旁。）",
+    "example": "The government hopes to curb rising food prices. (政府希望能抑制不斷上漲的食品價格。)",
     "id": "L5-curb-verb-noun"
   },
   {
@@ -2677,7 +2677,7 @@
     "level": "L5",
     "word": "ethic",
     "meaning": "noun 倫理準則",
-    "example": "Medical ethics are important for doctors.（醫學倫理對醫生很重要。）",
+    "example": "He has a strong work ethic. (他有很強的職業道德。)",
     "id": "L5-ethic-noun"
   },
   {
@@ -2866,7 +2866,7 @@
     "level": "L5",
     "word": "flake",
     "meaning": "noun/verb 小薄片；(成片)脫落",
-    "example": "A snowflake landed on my glove.（一片雪花落在我的手套上。）",
+    "example": "A flake of paint came off the old wall. (老舊牆面上有一片油漆剝落。)",
     "id": "L5-flake-noun-verb"
   },
   {
@@ -2978,7 +2978,7 @@
     "level": "L5",
     "word": "fume",
     "meaning": "verb 發怒；冒煙",
-    "example": "Fumes from the car filled the garage.（汽車廢氣充滿車庫。）",
+    "example": "She fumed silently at the delay. (她對延誤暗自生氣。)",
     "id": "L5-fume-verb"
   },
   {
@@ -3559,7 +3559,7 @@
     "level": "L5",
     "word": "insure",
     "meaning": "verb 投保、給…保險",
-    "example": "Please ensure that the door is locked.（請確保門已鎖好。）",
+    "example": "You should insure your house against fire. (你應該為房子投保火險。)",
     "id": "L5-insure-verb"
   },
   {
@@ -3713,7 +3713,7 @@
     "level": "L5",
     "word": "lash",
     "meaning": "noun/verb 睫毛、鞭打；鞭打、猛擊、怒斥",
-    "example": "An eyelash fell on her cheek.（一根睫毛掉在她臉頰上。）",
+    "example": "The rain lashed against the window. (雨猛烈地拍打著窗戶。)",
     "id": "L5-lash-noun-verb"
   },
   {
@@ -3916,7 +3916,7 @@
     "level": "L5",
     "word": "majesty",
     "meaning": "noun 雄偉壯觀、莊嚴",
-    "example": "The people bowed to His Majesty.（人民向陛下鞠躬。）",
+    "example": "We admired the majesty of the mountains. (我們讚嘆群山的雄偉。)",
     "id": "L5-majesty-noun"
   },
   {
@@ -3944,7 +3944,7 @@
     "level": "L5",
     "word": "marginal",
     "meaning": "adj./noun 邊緣的；(議會的)邊緣席位",
-    "example": "The profit was only marginal.（利潤只是微小的。）",
+    "example": "They lived in a marginal area of the city. (他們住在城市的邊緣地帶。)",
     "id": "L5-marginal-adj-noun"
   },
   {
@@ -4196,7 +4196,7 @@
     "level": "L5",
     "word": "mount",
     "meaning": "verb/noun 增加、舉辦；山、托架",
-    "example": "He mounted the horse carefully.（他小心地騎上馬。）",
+    "example": "Pressure on the team is mounting. (團隊承受的壓力正在增加。)",
     "id": "L5-mount-verb-noun"
   },
   {
@@ -4497,7 +4497,7 @@
     "level": "L5",
     "word": "Orient",
     "meaning": "noun 東方(尤指中國和日本)",
-    "example": "The map helped us orient ourselves.（地圖幫助我們辨認方向。）",
+    "example": "The book describes the history of the Orient. (這本書介紹東方的歷史。)",
     "id": "L5-orient-noun"
   },
   {
@@ -4510,8 +4510,8 @@
   {
     "level": "L5",
     "word": "Oriental",
-    "meaning": "noun 東方人、東亞國家的人",
-    "example": "The museum has a collection of oriental art.（博物館有一批東方藝術收藏。）",
+    "meaning": "noun 東方人（舊稱，現多被視為過時或冒犯）",
+    "example": "The term Oriental is now considered outdated when used for a person. (Oriental 這個詞現在用來稱呼人時，通常被認為已過時。)",
     "id": "L5-oriental-noun"
   },
   {
@@ -4679,7 +4679,7 @@
     "level": "L5",
     "word": "patch",
     "meaning": "noun/verb 補丁、菜園；縫補、言歸於好",
-    "example": "There is a patch of grass behind the house.（房子後面有一小片草地。）",
+    "example": "She sewed a patch onto the torn jeans. (她在破掉的牛仔褲上縫了一塊補丁。)",
     "id": "L5-patch-noun-verb"
   },
   {
@@ -4728,7 +4728,7 @@
     "level": "L5",
     "word": "peddler",
     "meaning": "noun 毒品販子",
-    "example": "The peddler sold fruit on the street.（小販在街上賣水果。）",
+    "example": "The peddler was arrested for selling drugs. (那名毒品販子因販毒被捕。)",
     "id": "L5-peddler-noun"
   },
   {
@@ -5057,7 +5057,7 @@
     "level": "L5",
     "word": "prospect",
     "meaning": "verb 探礦、勘探",
-    "example": "The prospect of travel excited her.（旅行的前景讓她興奮。）",
+    "example": "The company prospected for gold in the mountains. (公司在山區探勘金礦。)",
     "id": "L5-prospect-verb"
   },
   {
@@ -5302,7 +5302,7 @@
     "level": "L5",
     "word": "resent",
     "meaning": "verb 對…感到憤慨、怨恨",
-    "example": "She felt resentment after being treated unfairly.（受到不公平對待後，她感到怨恨。）",
+    "example": "She resents being treated unfairly. (她對受到不公平對待感到憤恨。)",
     "id": "L5-resent-verb"
   },
   {
@@ -5337,7 +5337,7 @@
     "level": "L5",
     "word": "resume",
     "meaning": "verb (中斷後)繼續、恢復",
-    "example": "Please resume your seat after the break.（休息後請回到座位。）",
+    "example": "Classes will resume after the break. (休息之後課程會繼續。)",
     "id": "L5-resume-verb"
   },
   {
@@ -5505,7 +5505,7 @@
     "level": "L5",
     "word": "sanctuary",
     "meaning": "noun 庇護、避難所、禁獵區",
-    "example": "The cave gave us refuge from the storm.（洞穴讓我們躲避暴風雨。）",
+    "example": "The birds found sanctuary in the forest. (這些鳥在森林裡找到庇護所。)",
     "id": "L5-sanctuary-noun"
   },
   {
@@ -5967,7 +5967,7 @@
     "level": "L5",
     "word": "squash",
     "meaning": "verb/noun 壓扁、塞入；壁球",
-    "example": "I cooked squash for dinner.（我晚餐煮了南瓜。）",
+    "example": "The child squashed the bug with his shoe. (孩子用鞋子把蟲壓扁。)",
     "id": "L5-squash-verb-noun"
   },
   {
@@ -6051,7 +6051,7 @@
     "level": "L5",
     "word": "statistics",
     "meaning": "noun 統計資料、統計學",
-    "example": "This statistic shows a rise in sales.（這項統計顯示銷售上升。）",
+    "example": "The statistics show a rise in sales. (統計資料顯示銷售增加。)",
     "id": "L5-statistics-noun"
   },
   {
@@ -6086,7 +6086,7 @@
     "level": "L5",
     "word": "steward",
     "meaning": "noun (飛機輪船等)服務員、統籌人",
-    "example": "The flight attendant served drinks.（空服員提供飲料。）",
+    "example": "The steward showed the passengers to their seats. (服務員帶乘客到座位上。)",
     "id": "L5-steward-noun"
   },
   {
@@ -6653,7 +6653,7 @@
     "level": "L5",
     "word": "umpire",
     "meaning": "noun/verb 裁判員；當裁判、裁決",
-    "example": "The referee blew the whistle.（裁判吹了哨子。）",
+    "example": "The umpire called the player out. (裁判判定那名球員出局。)",
     "id": "L5-umpire-noun-verb"
   },
   {
@@ -6842,7 +6842,7 @@
     "level": "L5",
     "word": "ware",
     "meaning": "noun 用某材料製造的物品、小販出售的物品",
-    "example": "The shop sells kitchenware.（這家店賣廚具。）",
+    "example": "The stall displayed handmade wares from the region. (攤位展示了這個地區的手工藝品。)",
     "id": "L5-ware-noun"
   },
   {
@@ -6961,7 +6961,7 @@
     "level": "L5",
     "word": "widower",
     "meaning": "noun 鰥夫",
-    "example": "The widow lived alone after her husband died.（丈夫去世後，那位寡婦獨自生活。）",
+    "example": "The widower raised his children alone. (那位鰥夫獨自扶養孩子。)",
     "id": "L5-widower-noun"
   },
   {

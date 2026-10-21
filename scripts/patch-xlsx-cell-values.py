@@ -48,6 +48,64 @@ def cell_map(xml_text):
     }
 
 
+def column_number(address):
+    match = re.fullmatch(r"([A-Z]+)[0-9]+", address)
+    if not match:
+        raise ValueError(f"Invalid cell address: {address}")
+    value = 0
+    for character in match.group(1):
+        value = value * 26 + ord(character) - ord("A") + 1
+    return value
+
+
+def insert_cell(xml_text, address, value, mode, shared_index=None):
+    address_match = re.fullmatch(r"([A-Z]+)([0-9]+)", address)
+    if not address_match:
+        raise ValueError(f"Invalid cell address: {address}")
+    target_column = column_number(address)
+    target_row = address_match.group(2)
+    row_pattern = re.compile(
+        rf"<(?P<tag>(?:[A-Za-z_][\w.-]*:)?row)\b(?=[^>]*\br=\"{re.escape(target_row)}\")(?P<attrs>[^>]*)>(?P<body>.*?)</(?P=tag)>",
+        re.DOTALL,
+    )
+    match = row_pattern.search(xml_text)
+    if not match:
+        raise ValueError(f"Could not locate row {target_row} for missing cell {address}")
+
+    row_tag = match.group("tag")
+    prefix = row_tag[:-3] if row_tag.endswith(":row") else ""
+    if mode == "s":
+        if shared_index is None:
+            raise ValueError(f"Missing shared string index for cell {address}")
+        body = f"<{prefix}v>{shared_index}</{prefix}v>"
+    elif mode == "inlineStr":
+        body = f'<{prefix}is><{prefix}t xml:space="preserve">{escape_text(value)}</{prefix}t></{prefix}is>'
+    else:
+        raise ValueError(f"Unsupported target string mode: {mode}")
+    new_cell = f'<{prefix}c r="{address}" t="{mode}">{body}</{prefix}c>'
+
+    row_body = match.group("body")
+    cell_open_pattern = re.compile(
+        r"<(?P<tag>(?:[A-Za-z_][\w.-]*:)?c)\b(?P<attrs>[^>]*?)(?:/?>)"
+    )
+    insert_at = len(row_body)
+    for cell_match in cell_open_pattern.finditer(row_body):
+        reference = re.search(r'\br="([A-Z]+)([0-9]+)"', cell_match.group("attrs"))
+        if not reference or reference.group(2) != target_row:
+            continue
+        if column_number(reference.group(1) + target_row) > target_column:
+            insert_at = cell_match.start()
+            break
+
+    updated_body = row_body[:insert_at] + new_cell + row_body[insert_at:]
+    replacement = (
+        f"<{row_tag}{match.group('attrs')}>"
+        f"{updated_body}"
+        f"</{row_tag}>"
+    )
+    return xml_text[:match.start()] + replacement + xml_text[match.end():]
+
+
 def cell_value(cell, shared_values):
     if cell is None:
         return ""
@@ -188,9 +246,7 @@ def patch_workbook(input_path, operations_path, output_path):
                 actual_value = cell_value(cell, shared_values)
                 if actual_value != operation["oldValue"]:
                     raise ValueError(f"Source value changed before patch at {part}!{address}")
-                if cell is None:
-                    raise ValueError(f"Target cell is missing at {part}!{address}")
-                if cell.find(f"{{{MAIN_NS}}}f") is not None:
+                if cell is not None and cell.find(f"{{{MAIN_NS}}}f") is not None:
                     raise ValueError(f"Refusing to replace formula cell {part}!{address}")
 
                 if has_shared_strings:
@@ -199,11 +255,17 @@ def patch_workbook(input_path, operations_path, output_path):
                         shared_values.append(operation["newValue"])
                         shared_xml = insert_shared_string(shared_xml, operation["newValue"])
                     new_index = shared_index[operation["newValue"]]
-                    if cell.attrib.get("t") != "s":
+                    if cell is None or cell.attrib.get("t") != "s":
                         net_new_references += 1
-                    current_xml = patch_cell(current_xml, address, operation["newValue"], "s", new_index)
+                    if cell is None:
+                        current_xml = insert_cell(current_xml, address, operation["newValue"], "s", new_index)
+                    else:
+                        current_xml = patch_cell(current_xml, address, operation["newValue"], "s", new_index)
                 else:
-                    current_xml = patch_cell(current_xml, address, operation["newValue"], "inlineStr")
+                    if cell is None:
+                        current_xml = insert_cell(current_xml, address, operation["newValue"], "inlineStr")
+                    else:
+                        current_xml = patch_cell(current_xml, address, operation["newValue"], "inlineStr")
             worksheet_xml[part] = current_xml.encode("utf-8")
 
         if has_shared_strings:

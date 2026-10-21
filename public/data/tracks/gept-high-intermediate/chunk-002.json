@@ -262,7 +262,7 @@
     "level": "L6",
     "word": "advocate",
     "meaning": "noun 提倡者、擁護者",
-    "example": "Many doctors advocate regular exercise.（許多醫生提倡規律運動。）",
+    "example": "She is a strong advocate of regular exercise. (她是規律運動的堅定提倡者。)",
     "id": "L6-advocate-noun"
   },
   {
@@ -514,7 +514,7 @@
     "level": "L6",
     "word": "assessment",
     "meaning": "noun 評價、評定",
-    "example": "Teachers assess students' progress throughout the semester. (老師在整個學期中評估學生的進步。)",
+    "example": "The teacher gave us a written assessment. (老師給我們一份書面評量。)",
     "id": "L6-assessment-noun"
   },
   {
@@ -542,7 +542,7 @@
     "level": "L6",
     "word": "attain",
     "meaning": "verb 獲得、達到",
-    "example": "Her attainment of the goal took years.（她達成目標花了好幾年。）",
+    "example": "She attained her goal after years of effort. (她努力多年後達成了目標。)",
     "id": "L6-attain-verb"
   },
   {
@@ -878,7 +878,7 @@
     "level": "L6",
     "word": "cashier",
     "meaning": "verb 撤銷...的軍職、免除...的軍籍",
-    "example": "The cashier gave me the receipt.（收銀員給了我收據。）",
+    "example": "The officer was cashiered for disobeying orders. (那名軍官因不服從命令被革職。)",
     "id": "L6-cashier-verb"
   },
   {
@@ -1319,7 +1319,7 @@
     "level": "L6",
     "word": "congressman",
     "meaning": "noun 國會議員、(尤指美國的)眾議會議員",
-    "example": "The congresswoman spoke about health care.（那位女國會議員談到醫療照護。）",
+    "example": "The congressman spoke to the crowd after the vote. (那位國會議員在投票後向群眾發表談話。)",
     "id": "L6-congressman-noun"
   },
   {
@@ -1493,9 +1493,9 @@
   {
     "level": "L6",
     "word": "correspondent",
-    "meaning": "adj. 一致的、對應的",
-    "example": "The correspondent reported from London.（通訊記者從倫敦報導。）",
-    "id": "L6-correspondent-adj"
+    "meaning": "noun 通訊記者；adj. 相應的（較少用）",
+    "example": "The correspondent reported from London. (這名通訊記者從倫敦發回報導。)",
+    "id": "L6-correspondent-noun-adj"
   },
   {
     "level": "L6",
@@ -1578,7 +1578,7 @@
     "level": "L6",
     "word": "crook",
     "meaning": "noun 彎曲(部分)、曲柄杖\nverb 使(手指或手臂)彎曲",
-    "example": "The crook was caught by police.（騙子被警方抓住了。）",
+    "example": "The shepherd leaned on his crook and watched the sheep. (牧羊人倚著曲柄杖看著羊群。)",
     "id": "L6-crook-noun-verb"
   },
   {
@@ -1921,7 +1921,7 @@
     "level": "L6",
     "word": "dimension",
     "meaning": "noun 尺寸；方面、面向",
-    "example": "The room has a strange dimensions.（這個房間有奇怪的尺寸。）",
+    "example": "The room has unusual dimensions. (這個房間的尺寸很不尋常。)",
     "id": "L6-dimension-noun"
   },
   {
@@ -2376,7 +2376,7 @@
     "level": "L6",
     "word": "enact",
     "meaning": "verb 制定、頒布",
-    "example": "The enactment of the law took months.（這項法律的制定花了幾個月。）",
+    "example": "Congress enacted the new law last year. (國會去年制定這項新法律。)",
     "id": "L6-enact-verb"
   },
   {
@@ -2775,7 +2775,7 @@
     "level": "L6",
     "word": "foster",
     "meaning": "adj./verb 寄養的；寄養、培養",
-    "example": "The family decided to foster a child.（那個家庭決定寄養一名孩子。）",
+    "example": "The family decided to foster a child for a few months. (這個家庭決定擔任寄養家庭，照顧一名孩子幾個月。)",
     "id": "L6-foster-adj-verb"
   },
   {
@@ -2964,7 +2964,7 @@
     "level": "L6",
     "word": "harass",
     "meaning": "verb 煩擾、騷擾",
-    "example": "The company has rules against workplace harassment.（公司有反職場騷擾的規定。）",
+    "example": "Stop harassing your coworkers. (不要再騷擾你的同事。)",
     "id": "L6-harass-verb"
   },
   {
@@ -3160,7 +3160,7 @@
     "level": "L6",
     "word": "imprison",
     "meaning": "verb 監禁",
-    "example": "His imprisonment lasted ten years.（他的監禁持續了十年。）",
+    "example": "The court imprisoned him for ten years. (法院判他監禁十年。)",
     "id": "L6-imprison-verb"
   },
   {
@@ -3615,7 +3615,7 @@
     "level": "L6",
     "word": "lyric",
     "meaning": "adj./noun 抒情的；抒情詩",
-    "example": "The lyrics of the song is very touching.（這首歌的歌詞很感人。）",
+    "example": "She wrote a lyric poem about the sea. (她寫了一首關於大海的抒情詩。)",
     "id": "L6-lyric-adj-noun"
   },
   {
@@ -4665,7 +4665,7 @@
     "level": "L6",
     "word": "provincial",
     "meaning": "adj./noun 省的、首都外的、心胸狹隘的；鄉巴佬",
-    "example": "He lives in a small provincial town.（他住在一個小省城。）",
+    "example": "Provincial governments are responsible for public schools. (省政府負責公立學校。)",
     "id": "L6-provincial-adj-noun"
   },
   {
@@ -4875,7 +4875,7 @@
     "level": "L6",
     "word": "refine",
     "meaning": "verb 精煉、改進",
-    "example": "Practice brings refinement to your writing.（練習能讓你的寫作更精緻。）",
+    "example": "We need to refine the plan before Friday. (我們需要在週五前改進這項計畫。)",
     "id": "L6-refine-verb"
   },
   {
@@ -5442,7 +5442,7 @@
     "level": "L6",
     "word": "sneer",
     "meaning": "noun/verb 嘲笑、譏笑",
-    "example": "He gave a sneer at the idea.（他對這個想法冷笑。）",
+    "example": "He sneered at the idea. (他對這個想法嗤之以鼻。)",
     "id": "L6-sneer-noun-verb"
   },
   {
@@ -6429,7 +6429,7 @@
     "level": "L6",
     "word": "utility",
     "meaning": "noun 效用、公共事業(水、電、瓦斯等)\nadj. 多用途的、多功能的",
-    "example": "Monthly utility bills like water and electricity are skyrocketing.（每月的水電等公用事業帳單正在飛漲。",
+    "example": "Monthly utility bills for water and electricity are skyrocketing. (每月的水電帳單都在飛漲。)",
     "id": "L6-utility-noun-adj"
   },
   {
@@ -6674,7 +6674,7 @@
     "level": "L6",
     "word": "watertight",
     "meaning": "adj. 防水的、(論點)無懈可擊的",
-    "example": "This jacket is waterproof.（這件外套防水。）",
+    "example": "The roof is watertight even in heavy rain. (即使下大雨，這個屋頂也不會漏水。)",
     "id": "L6-watertight-adj"
   },
   {
@@ -6786,7 +6786,7 @@
     "level": "中高級",
     "word": "acting",
     "meaning": "adj. 臨時代理的",
-    "example": "Her acting in the movie was excellent.（她在電影中的演技很出色。）",
+    "example": "The acting manager approved our request. (代理經理核准了我們的請求。)",
     "id": "中高級-acting-adj"
   },
   {
