@@ -5050,7 +5050,7 @@
     "level": "L2",
     "word": "sort",
     "meaning": "noun 種類\nverb 分類",
-    "example": "Students sort information by importance. (學生按重要性分類信息。)",
+    "example": "Students sort information by importance. (學生按重要性分類資訊。)",
     "id": "L2-sort-noun-verb"
   },
   {
@@ -5939,7 +5939,7 @@
     "level": "L2",
     "word": "video",
     "meaning": "noun/verb 錄影帶、錄影；錄影",
-    "example": "Educational videos enhance understanding. (教育視頻增強理解。)",
+    "example": "Educational videos enhance understanding. (教育影片增強理解。)",
     "id": "L2-video-noun-verb"
   },
   {
@@ -6625,7 +6625,7 @@
     "level": "L3",
     "word": "engineer",
     "meaning": "noun 工程師",
-    "example": "Software engineers create computer programs. (軟件工程師創建計算機程序。)",
+    "example": "Software engineers create computer programs. (軟體工程師創建計算機程序。)",
     "id": "L3-engineer-noun"
   },
   {
