@@ -7,6 +7,11 @@ import {
   buildStableVocabularyId,
   hashVocabularyPart
 } from "../src/lib/vocabularyIdentity.js";
+import {
+  findSourceWorkbookPath,
+  LEVEL_WORKBOOK_COLUMNS,
+  TRACK_DEFINITIONS
+} from "./vocabulary-source-definitions.mjs";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
@@ -14,153 +19,7 @@ const CHUNK_SIZE = 1000;
 const PLACEHOLDER_TRACKS = [
   { id: "ielts", title: "IELTS" }
 ];
-const workbookPathCache = new Map();
 let levelExampleLookupCache = null;
-const TRACK_DEFINITIONS = [
-  {
-    id: "elementary",
-    title: "Elementary",
-    sourceWorkbookKey: "elementary-english-final-workbook",
-    sourceWorkbookPath: "Source/elementary.english_final001.xlsx",
-    sheets: ["elementary.english_word_m.extra"],
-    type: "elementary-workbook",
-    columnsByHeader: {
-      number: "NO.",
-      word: "英文",
-      meaning: "解釋",
-      englishExample: "英文例句",
-      chineseExample: "中文翻譯 (台灣用語)"
-    },
-    fallbackLevel: "Elementary",
-    available: true
-  },
-  {
-    id: "junior-high",
-    title: "Junior High",
-    sourceWorkbookKey: "level-1-level-2-workbook",
-    workbookPattern: /L1L2\.xlsx$/i,
-    sheets: ["Level 1", "Level 2"],
-    type: "level-workbook",
-    available: true
-  },
-  {
-    id: "senior-high",
-    title: "Senior High (L3-4)",
-    sourceWorkbookKey: "level-3-level-4-workbook",
-    workbookPattern: /L3L6\.xlsx$/i,
-    sheets: ["Level 3", "Level 4"],
-    type: "level-workbook",
-    available: true
-  },
-  {
-    id: "senior-high-5-6",
-    title: "Senior High (L5-6)",
-    sourceWorkbookKey: "level-5-level-6-workbook",
-    workbookPattern: /L3L6\.xlsx$/i,
-    sheets: ["Level 5", "Level 6"],
-    type: "level-workbook",
-    available: true
-  },
-  {
-    id: "gept-elementary",
-    title: "GEPT Elementary",
-    sourceWorkbookKey: "gept-with-levels-kk-workbook",
-    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
-    sheets: ["High"],
-    geptGrade: "初級",
-    type: "gept-workbook",
-    available: true
-  },
-  {
-    id: "gept-intermediate",
-    title: "GEPT Intermediate",
-    sourceWorkbookKey: "gept-with-levels-kk-workbook",
-    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
-    sheets: ["High"],
-    geptGrade: "中級",
-    type: "gept-workbook",
-    available: true
-  },
-  {
-    id: "gept-high-intermediate",
-    title: "GEPT High-Intermediate",
-    sourceWorkbookKey: "gept-with-levels-kk-workbook",
-    workbookPattern: /GEPT_with_levels\.KK\.xlsx$/i,
-    sheets: ["High"],
-    geptGrade: "中高級",
-    type: "gept-workbook",
-    available: true
-  },
-  {
-    id: "toeic",
-    title: "TOEIC(核心)",
-    sourceWorkbookKey: "toeic-core-workbook",
-    workbookPattern: /toeic3000_final\.xlsx$/i,
-    sheets: ["Sheet1"],
-    type: "toeic-workbook",
-    columns: {
-      word: 1,
-      pos: 2,
-      meaning: 3,
-      level: 4,
-      englishExample: 6,
-      chineseExample: 7
-    },
-    available: true
-  },
-  {
-    id: "toeic-advanced",
-    title: "TOEIC(進階)",
-    sourceWorkbookKey: "toeic-advanced-workbook",
-    workbookPattern: /Toeic\.Advanced\.xlsx$/i,
-    sheets: ["KK"],
-    type: "toeic-workbook",
-    columns: {
-      word: 1,
-      meaning: 2,
-      englishExample: 3,
-      chineseExample: 4
-    },
-    fallbackLevel: "TOEIC-ADV",
-    available: true
-  },
-  {
-    id: "toefl",
-    title: "TOEFL",
-    sourceWorkbookKey: "toefl-final-checked-workbook",
-    sourceWorkbookPath: "Source/toefl.final.checked.xlsx",
-    type: "named-column-workbook",
-    columnsByHeader: {
-      word: "Word",
-      meaning: "Chinese Meaning",
-      englishExample: "English Example",
-      chineseExample: "Chinese Translation"
-    },
-    fallbackLevel: "TOEFL",
-    available: true
-  }
-];
-
-function findWorkbookPath(workbookPattern) {
-  const cacheKey = workbookPattern.toString();
-
-  if (workbookPathCache.has(cacheKey)) {
-    return workbookPathCache.get(cacheKey);
-  }
-
-  const workbookName = fs
-    .readdirSync(process.cwd())
-    .find((fileName) => workbookPattern.test(fileName) && !/backup|before/i.test(fileName));
-
-  if (!workbookName) {
-    throw new Error(`Could not find a workbook matching ${workbookPattern} in the project root.`);
-  }
-
-  const resolvedPath = path.resolve(workbookName);
-  workbookPathCache.set(cacheKey, resolvedPath);
-
-  return resolvedPath;
-}
 
 function readSheetRows(workbook, sheetName) {
   const sheet = workbook.Sheets[sheetName];
@@ -174,14 +33,6 @@ function readSheetRows(workbook, sheetName) {
     defval: "",
     raw: false
   });
-}
-
-function findWorkbookPathFromDefinition(definition) {
-  if (definition.sourceWorkbookPath) {
-    return path.resolve(definition.sourceWorkbookPath);
-  }
-
-  return findWorkbookPath(definition.workbookPattern);
 }
 
 function normalizeWord(text) {
@@ -294,7 +145,7 @@ function normalizeVocabularyEntries(vocabulary) {
   return normalizedVocabulary;
 }
 
-function readLevelVocabularyRows(workbookPath, sheetNames) {
+function readLevelVocabularyRows(workbookPath, sheetNames, columns) {
   const workbook = xlsx.readFile(workbookPath);
   const vocabulary = [];
 
@@ -302,9 +153,9 @@ function readLevelVocabularyRows(workbookPath, sheetNames) {
     const rows = readSheetRows(workbook, sheetName);
 
     rows.slice(1).forEach((row) => {
-      const word = String(row[1] ?? "").trim();
-      const meaning = String(row[2] ?? "").trim();
-      const example = String(row[4] || row[3] || "").trim();
+      const word = String(row[columns.word] ?? "").trim();
+      const meaning = String(row[columns.meaning] ?? "").trim();
+      const example = String(row[columns.englishExample] || row[columns.fallbackExample] || "").trim();
 
       if (!word || !meaning) {
         return;
@@ -545,26 +396,28 @@ function buildLevelExampleLookup() {
 
   const sourceDefinitions = [
     {
-      workbookPattern: /L1L2\.xlsx$/i,
+      ...TRACK_DEFINITIONS.find((definition) => definition.id === "junior-high"),
       sheets: ["Level 1", "Level 2"]
     },
     {
-      workbookPattern: /L3L6\.xlsx$/i,
+      ...TRACK_DEFINITIONS.find((definition) => definition.id === "senior-high"),
       sheets: ["Level 3", "Level 4", "Level 5", "Level 6"]
     }
   ];
   const exampleLookup = new Map();
 
   for (const source of sourceDefinitions) {
-    const workbook = xlsx.readFile(findWorkbookPath(source.workbookPattern));
+    const workbook = xlsx.readFile(findSourceWorkbookPath(source));
 
     for (const sheetName of source.sheets) {
       const rows = readSheetRows(workbook, sheetName);
       const sheetLookup = exampleLookup.get(sheetName) ?? new Map();
 
       rows.slice(1).forEach((row) => {
-        const word = String(row[1] ?? "").trim();
-        const example = String(row[4] || row[3] || "").trim();
+        const word = String(row[LEVEL_WORKBOOK_COLUMNS.word] ?? "").trim();
+        const example = String(
+          row[LEVEL_WORKBOOK_COLUMNS.englishExample] || row[LEVEL_WORKBOOK_COLUMNS.fallbackExample] || ""
+        ).trim();
 
         if (!word || !example) {
           return;
@@ -660,14 +513,15 @@ function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
   const workbook = xlsx.readFile(workbookPath);
   const rows = readSheetRows(workbook, definition.sheets[0]);
   const vocabulary = [];
+  const columns = definition.columns;
 
   rows.slice(1).forEach((row) => {
-    const word = String(row[0] ?? "").trim();
-    const pos = String(row[1] ?? "").trim();
-    const meaning = String(row[2] ?? "").trim();
-    const geptGrade = String(row[4] ?? "").trim();
-    const primaryLevel = String(row[7] ?? "").trim();
-    const fallbackExample = String(row[8] ?? "").trim();
+    const word = String(row[columns.word] ?? "").trim();
+    const pos = String(row[columns.pos] ?? "").trim();
+    const meaning = String(row[columns.meaning] ?? "").trim();
+    const geptGrade = String(row[columns.grade] ?? "").trim();
+    const primaryLevel = String(row[columns.primaryLevel] ?? "").trim();
+    const fallbackExample = String(row[columns.fallbackExample] ?? "").trim();
 
     if (geptGrade !== definition.geptGrade || !word || !meaning) {
       return;
@@ -722,7 +576,7 @@ function buildTrack(definition) {
     definition.type === "json-vocabulary"
       ? readJsonVocabularyRows(definition.sourceJsonPath, definition)
       : (() => {
-          const workbookPath = findWorkbookPathFromDefinition(definition);
+          const workbookPath = findSourceWorkbookPath(definition);
           const exampleLookup = definition.type === "gept-workbook" ? buildLevelExampleLookup() : null;
 
           return definition.type === "gept-workbook"
@@ -733,7 +587,7 @@ function buildTrack(definition) {
               ? readElementaryVocabularyRows(workbookPath, definition)
             : definition.type === "toeic-workbook"
               ? readToeicVocabularyRows(workbookPath, definition)
-              : readLevelVocabularyRows(workbookPath, definition.sheets);
+            : readLevelVocabularyRows(workbookPath, definition.sheets, definition.columns);
         })();
   const chunks = chunkItems(vocabulary, CHUNK_SIZE);
   const trackOutputDir = path.join(TRACKS_ROOT, definition.id);

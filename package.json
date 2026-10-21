@@ -6,6 +6,7 @@
   "scripts": {
     "build:vocab": "node scripts/export-game-vocabulary.mjs",
     "refresh:vocab": "node scripts/export-game-vocabulary.mjs",
+    "check:content": "node scripts/check-vocabulary-content.mjs",
     "verify:vocab": "node scripts/verify-vocabulary-data.mjs",
     "dev": "vite",
     "predev": "npm run build:vocab",
