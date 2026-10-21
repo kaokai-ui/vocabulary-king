@@ -61,12 +61,17 @@ export function getYoudaoAudioUrl(text, accent = PRONUNCIATION_ACCENTS.US) {
 }
 
 function stripTrailingChineseTranslation(text) {
-  return text
-    .replace(
-      /\s*(?:\([^()]*[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF][^()]*\)|（[^（）]*[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF][^（）]*）)\s*$/u,
-      ""
-    )
-    .trim();
+  const normalizedText = text.trim();
+  const chineseIndex = normalizedText.search(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u);
+
+  if (chineseIndex === -1) {
+    return normalizedText;
+  }
+
+  return normalizedText
+    .slice(0, chineseIndex)
+    .replace(/[\s(\[（【〔〖「『〈《]+$/u, "")
+    .trimEnd();
 }
 
 let activeAudio = null;
