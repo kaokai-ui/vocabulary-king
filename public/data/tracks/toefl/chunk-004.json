@@ -52,7 +52,7 @@
     "level": "TOEFL",
     "word": "seaport",
     "meaning": "海港；港口城市",
-    "example": "The coastal seaport expanded into a massive mercantile metropolis, coordination oversea trade networks using advanced watercraft. (這座沿海海港城市發展成為一個巨大的商業大都市，利用先進的船隻協調海外貿易網路。)",
+    "example": "The seaport expanded into a major mercantile metropolis, coordinating overseas trade networks with advanced watercraft. (這座港口發展成大型商業都會，運用先進船隻串起海外貿易網。)",
     "id": "TOEFL-seaport-m1qncwp7"
   },
   {
@@ -247,15 +247,15 @@
   {
     "level": "TOEFL",
     "word": "sensitively",
-    "meaning": "敏感地；審美向地",
-    "example": "Greek sculptors carved marble character profiles sensitively, capturing detailed anatomical curves and bone lines perfectly. (希臘雕刻家審美向地（敏感地）鑿刻大理石人物輪廓，完美捕捉了精細的解剖曲線與骨骼線條。)",
-    "id": "TOEFL-sensitively-m11muk0v"
+    "meaning": "敏銳地；細膩地",
+    "example": "Greek sculptors carved marble character profiles sensitively, capturing detailed anatomical curves and bone lines perfectly. (希臘雕刻家細膩地鑿刻大理石人物側面像，完美捕捉了精細的解剖曲線與骨骼線條。)",
+    "id": "TOEFL-sensitively-m1h8y0y0"
   },
   {
     "level": "TOEFL",
     "word": "sensory",
     "meaning": "感覺的；感官的",
-    "example": "Nocturnal bats rely on auditory sensory feedback rather than vision to execute precise aerial navigation in total darkness. (夜行性group蝙蝠依賴聽覺感官回饋而非視覺，以在完全的黑暗中執行精確的空中導航。)",
+    "example": "Nocturnal bats rely on auditory sensory feedback rather than vision to execute precise aerial navigation in total darkness. (夜行性蝙蝠依賴聽覺感官回饋而非視覺，以在完全的黑暗中執行精確的空中導航。)",
     "id": "TOEFL-sensory-m19u0aih"
   },
   {
@@ -324,9 +324,9 @@
   {
     "level": "TOEFL",
     "word": "sexually",
-    "meaning": "在性方面地；生殖向地",
-    "example": "Synchronized spawning allows marine invertebrates to reproduce sexually by flooding tidal currents with gamete cells. (同步產卵容許海洋無脊椎動物透過在潮汐洋流中充斥配子細胞，來進行有性生殖（生殖向）。)",
-    "id": "TOEFL-sexually-mqkldft"
+    "meaning": "在性方面；有性地",
+    "example": "Synchronized spawning allows marine invertebrates to reproduce sexually by flooding tidal currents with gamete cells. (同步產卵讓海洋無脊椎動物把大量配子釋入潮汐水流，藉此進行有性生殖。)",
+    "id": "TOEFL-sexually-m11d3av3"
   },
   {
     "level": "TOEFL",
@@ -786,9 +786,9 @@
   {
     "level": "TOEFL",
     "word": "socially",
-    "meaning": "社會向地；社交上地",
-    "example": "Early chiefdom groups were socially stratified, dividing wealth between aristocratic rulers and craftspeople. (早期酋邦群體在社會上是分層的（階級化的），在貴族統治者與手工藝人之間分配財富。)",
-    "id": "TOEFL-socially-mbzg6n7"
+    "meaning": "在社會上；在社交上",
+    "example": "Early chiefdom groups were socially stratified, dividing wealth between aristocratic rulers and craftspeople. (早期酋邦群體在社會上有階級之分，財富分配於貴族統治者與手工藝人之間。)",
+    "id": "TOEFL-socially-m199535m"
   },
   {
     "level": "TOEFL",
@@ -1018,7 +1018,7 @@
     "level": "TOEFL",
     "word": "spew",
     "meaning": "噴出；嘔吐",
-    "example": "Subsurface volcanic vents along the oceanic rift zone can spew massive volumes of molten lava and sulfur dioxide. (沿著海洋裂谷帶的地表下火山噴發口，會噴出大量的熔融岩漿與二氧化碳硫。)",
+    "example": "Subsurface volcanic vents along the oceanic rift zone can spew massive volumes of molten lava and sulfur dioxide. (沿著海洋裂谷帶的海底火山噴口，會噴出大量熔融岩漿與二氧化硫。)",
     "id": "TOEFL-spew-m1tamosx"
   },
   {
@@ -1046,7 +1046,7 @@
     "level": "TOEFL",
     "word": "spinal",
     "meaning": "脊髓的；脊椎的",
-    "example": "The evolution of a rigid spinal column granted early vertebrates the structural agility needed for predatory propulsion. (僵硬脊椎骨的演化，賦予了早期無脊椎動物捕食性推進所需的結構敏捷性。)",
+    "example": "The evolution of a rigid spinal column granted early vertebrates the structural agility needed for predatory propulsion. (僵硬脊椎的演化，賦予早期脊椎動物捕食時所需的結構敏捷度。)",
     "id": "TOEFL-spinal-miniq5c"
   },
   {
@@ -1388,9 +1388,9 @@
   {
     "level": "TOEFL",
     "word": "stoneware",
-    "meaning": "炻器；非 porous 的厚陶器",
+    "meaning": "炻器；粗陶器",
     "example": "Stoneware is a durable type of pottery fired at high temperatures, making it non-porous and vitreous. (炻器是一種在高溫下燒製的耐用陶器，這使其不具多孔性且呈玻璃質。)",
-    "id": "TOEFL-stoneware-porous"
+    "id": "TOEFL-stoneware-m15fwi6z"
   },
   {
     "level": "TOEFL",
@@ -1458,9 +1458,9 @@
   {
     "level": "TOEFL",
     "word": "structurally",
-    "meaning": "結構上地",
-    "example": "Granite is structurally durable due to large, interlocking crystalline silicate mineral arrays cooled deep within the planet's crust. (花崗岩在結構上地非常耐用，這是因為行星地殼深處內部冷卻的巨大、相互鎖緊的結晶矽酸鹽礦物陣列所致。)",
-    "id": "TOEFL-structurally-mg8vgo1"
+    "meaning": "在結構上",
+    "example": "Granite is structurally durable due to large, interlocking crystalline silicate mineral arrays cooled deep within the planet's crust. (花崗岩在結構上相當耐久，因為它由巨大、相互鎖合的結晶矽酸鹽礦物組成，是在地殼深處冷卻形成的。)",
+    "id": "TOEFL-structurally-mbily9z"
   },
   {
     "level": "TOEFL",
@@ -1472,9 +1472,9 @@
   {
     "level": "TOEFL",
     "word": "stubble",
-    "meaning": "（作物收割後留下的）殘茬；落頭打穀殘莖",
-    "example": "The mechanical reaper swept through midwest farmlands, farmlands, leaving a uniform field layer of dense wheat stubble. (機械收割機橫掃中西部農田，留下一層均勻的密集小麥殘茬（殘頁）。)",
-    "id": "TOEFL-stubble-m1m4d8q8"
+    "meaning": "殘稈；收割後留下的殘株",
+    "example": "The mechanical reaper swept through Midwest farmlands, leaving a uniform layer of dense wheat stubble. (機械收割機橫掃中西部農田，留下一層均勻而密集的小麥殘稈。)",
+    "id": "TOEFL-stubble-m9jkjof"
   },
   {
     "level": "TOEFL",
@@ -1563,9 +1563,9 @@
   {
     "level": "TOEFL",
     "word": "subsequently",
-    "meaning": "隨後地；接著",
-    "example": "The volcanic winter blocked sunlight, and global agricultural yields subsequently dropped for consecutive seasons. (火山冬季阻擋了陽光，全球農業產量隨後連續數個季節下降。)",
-    "id": "TOEFL-subsequently-m10h3om9"
+    "meaning": "隨後；接著",
+    "example": "The volcanic winter blocked sunlight, and global agricultural yields subsequently dropped for consecutive seasons. (火山冬季阻擋了陽光，全球農業產量隨後連續數季下降。)",
+    "id": "TOEFL-subsequently-mxx1qh5"
   },
   {
     "level": "TOEFL",
@@ -1780,9 +1780,9 @@
   {
     "level": "TOEFL",
     "word": "supposedly",
-    "meaning": "據推測；假定上地",
+    "meaning": "據推測；一般認為",
     "example": "The archaic text fragment was supposedly inscribed by an early Babylonian mathematician, though verification remains incomplete. (該古老文字碎片據推測是由一位早期巴比倫數學家所雕刻的，儘管查證工作尚未完成。)",
-    "id": "TOEFL-supposedly-mpl4l06"
+    "id": "TOEFL-supposedly-mpgq4xi"
   },
   {
     "level": "TOEFL",
@@ -1990,9 +1990,9 @@
   {
     "level": "TOEFL",
     "word": "technologically",
-    "meaning": "技術上地",
-    "example": "The ancestral pueblo dwellers were technologically sophisticated, building multistory stone dwellings inside defensive alcoves. (祖傳普埃布洛居民在技術上非常先進，在具防禦性的凹處內部建造了多層石造住宅。)",
-    "id": "TOEFL-technologically-mczlmd5"
+    "meaning": "在技術上",
+    "example": "The ancestral pueblo dwellers were technologically sophisticated, building multistory stone dwellings inside defensive alcoves. (祖先普韋布洛人在技術上相當先進，在具有防禦性的岩壁凹處建造多層石造住宅。)",
+    "id": "TOEFL-technologically-mbetrhr"
   },
   {
     "level": "TOEFL",
@@ -2047,7 +2047,7 @@
     "level": "TOEFL",
     "word": "tempera",
     "meaning": "蛋彩畫法；蛋彩顏料",
-    "example": "Before oil mediums expanded, medieval craftspeople combined natural mineral pigments with organic eggshell binders to manufacture tempera paint. (在油性媒介擴張之前，中世紀的手手工藝人將天然礦物顏料與有機蛋殼黏合劑結合，以製造出蛋彩顏料。)",
+    "example": "Before oil mediums expanded, medieval craftspeople combined natural mineral pigments with organic eggshell binders to manufacture tempera paint. (在油性媒材普及之前，中世紀的工匠把天然礦物顏料與蛋黃等有機黏合劑混合，製成蛋彩顏料。)",
     "id": "TOEFL-tempera-m1rlb3sr"
   },
   {
@@ -2256,9 +2256,9 @@
   {
     "level": "TOEFL",
     "word": "topographically",
-    "meaning": "地形上地；地勢上地",
+    "meaning": "在地形上；就地勢而言",
     "example": "Topographically, the region is characterized by steep, rugged mountains and narrow valley floors. (在地形上，該地區的特徵是陡峭崎嶇的山脈與狹窄的谷底。)",
-    "id": "TOEFL-topographically-m159z0uz"
+    "id": "TOEFL-topographically-mk1y6to"
   },
   {
     "level": "TOEFL",
@@ -2726,7 +2726,7 @@
     "level": "TOEFL",
     "word": "undeveloped",
     "meaning": "未開發的；不發育的",
-    "example": "A marsupial neonate is born in an exceptionally undeveloped state, complete its skeletal maturation inside a pouch. (有袋類新生兒出生時處於異常未發育（不發育）的狀態，在育兒袋內部完成其骨骼成熟。)",
+    "example": "A marsupial neonate is born in an exceptionally undeveloped state, completing its skeletal maturation inside a pouch. (有袋類新生兒出生時發育極不成熟，在育兒袋內完成骨骼發育。)",
     "id": "TOEFL-undeveloped-mz2bsfn"
   },
   {
@@ -2999,7 +2999,7 @@
     "level": "TOEFL",
     "word": "unpredictably",
     "meaning": "不可預測地",
-    "example": "Global interglacial weather tracks can oscillate unpredictably oscillation, unpredictably, making long-term agrarian crop yield calculations highly speculative. (全球間冰期的天氣軌跡會發生不可預測地擺動（振盪），使得長期的農業作物產量計算具有高度投機性。)",
+    "example": "Global interglacial weather patterns can oscillate unpredictably, making long-term agrarian crop yield calculations highly speculative. (全球間冰期的天氣型態可能難以預測地擺盪，使長期的農業產量估算充滿推測。)",
     "id": "TOEFL-unpredictably-mw9twpe"
   },
   {
@@ -3020,7 +3020,7 @@
     "level": "TOEFL",
     "word": "unproven",
     "meaning": "未經證實的",
-    "example": "The speculatve hypothesis regarding prehistoric Physical AI tools remains largely unproven. (關於史前物理人工智慧工具的投機性假設，在很大程度上仍然是未經證實的。)",
+    "example": "The speculative hypothesis regarding prehistoric physical tools remains largely unproven. (關於史前實體工具的推測性假設，在很大程度上仍未經證實。)",
     "id": "TOEFL-unproven-m1smrify"
   },
   {
@@ -3034,7 +3034,7 @@
     "level": "TOEFL",
     "word": "unravel",
     "meaning": "解開；闡明；拆散",
-    "example": "Modern molecular genomics analysis helps evolutionary botanists unravel the complex diversification lines separating early angiosperms. (現代分子基因體學分析，有助於演化植物學家闡明（解開）分隔早期被子植物的複雜多樣化分之線。)",
+    "example": "Modern molecular genomics analysis helps evolutionary botanists unravel the complex diversification lines separating early angiosperms. (現代分子基因體學分析，有助於演化植物學家釐清早期被子植物之間複雜的分歧路線。)",
     "id": "TOEFL-unravel-m7keec8"
   },
   {
@@ -3069,7 +3069,7 @@
     "level": "TOEFL",
     "word": "unresolved",
     "meaning": "未解決的；懸而未決的",
-    "example": "The explicit因果因果 mechanism driven the Eocene interglacial warming anomalies remains largely unresolved among climatologists. (驅動始新世間冰期變暖異常的明確因果機制，在氣象學家之間很大程度上仍然是未解決的。)",
+    "example": "The explicit causal mechanism that drove the Eocene interglacial warming anomalies remains largely unresolved among climatologists. (驅動始新世間冰期暖化的明確因果機制，在氣候學家之間仍大致未獲解答。)",
     "id": "TOEFL-unresolved-m149adbc"
   },
   {
@@ -3230,7 +3230,7 @@
     "level": "TOEFL",
     "word": "unwilling",
     "meaning": "不情願的；不願意的",
-    "example": "Egalitarian gatherer tribes were highly unwilling to submit to the legal centralized centralization commandments decreed by chiefdom aristocrats. (平等主義的採集部落非常不情願服從酋邦貴族所頒布的合法集權中央集權法令。)",
+    "example": "Egalitarian gatherer tribes were highly unwilling to submit to the centralized legal decrees imposed by chiefdom aristocrats. (平等主義的採集部落非常不願服從酋邦貴族頒布的中央集權法令。)",
     "id": "TOEFL-unwilling-m54mtxz"
   },
   {
@@ -3678,14 +3678,14 @@
     "level": "TOEFL",
     "word": "watcher",
     "meaning": "觀察者、看守人",
-    "example": "The seasoned bird watcher documented a rare migratory species passing through the wetland reserve. (這位經驗豐富的鳥類觀察者記錄下了一種穿過濕地保護區的稀有候選遷徙物種。)",
+    "example": "The seasoned bird watcher documented a rare migratory species passing through the wetland reserve. (這位經驗豐富的賞鳥者記錄下一種途經濕地保護區的罕見候鳥。)",
     "id": "TOEFL-watcher-m1khaco2"
   },
   {
     "level": "TOEFL",
     "word": "watercolor",
     "meaning": "水彩；水彩畫",
-    "example": "Nineteenth-century landscape artists utilized watercolor to capture the translucent, fleeting qualities of light. (十九世紀的風景藝術家利用水彩來捕捉光線半透明且稍縱即逝quantitative的特質。)",
+    "example": "Nineteenth-century landscape artists utilized watercolor to capture the translucent, fleeting qualities of light. (十九世紀的風景畫家利用水彩，捕捉光線半透明而稍縱即逝的特質。)",
     "id": "TOEFL-watercolor-mp1734g"
   },
   {
@@ -4118,9 +4118,9 @@
   {
     "level": "TOEFL",
     "word": "internationally",
-    "meaning": "在國際間地",
+    "meaning": "在國際上",
     "example": "The scientist became internationally recognized after discovering a new chemical element. (這位科學家在發現一種新的化學元素後，在國際間獲得了認可。)",
-    "id": "TOEFL-internationally-m1w9lm39"
+    "id": "TOEFL-internationally-mbd7s36"
   },
   {
     "level": "TOEFL",
@@ -4175,7 +4175,7 @@
     "level": "TOEFL",
     "word": "sty",
     "meaning": "豬圈；麥粒腫（針眼）",
-    "example": "The laboratory animal facility maintained strict hygiene standards to prevent any bacterial sty. (該實驗室的動物設施保持了嚴格的衛生標準，以防止任何細菌性的針眼發生。)",
+    "example": "The laboratory animal facility maintained strict hygiene standards to prevent any bacterial contamination inside each sty. (該實驗動物設施維持嚴格的衛生標準，防止每個豬圈出現細菌污染。)",
     "id": "TOEFL-sty-m1eidywx"
   },
   {
@@ -5091,9 +5091,9 @@
   {
     "level": "TOEFL",
     "word": "educationally",
-    "meaning": "教育上地",
+    "meaning": "在教育上",
     "example": "The specialized interactive software is educationally beneficial for children diagnosed with speech delays. (這款專門的互動軟體在教育上對被診斷出言語發育遲緩的兒童非常有益。)",
-    "id": "TOEFL-educationally-mdbevmn"
+    "id": "TOEFL-educationally-mbf7hc9"
   },
   {
     "level": "TOEFL",

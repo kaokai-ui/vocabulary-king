@@ -80,14 +80,14 @@
     "level": "TOEFL",
     "word": "officeholder",
     "meaning": "官員、在職者",
-    "example": "The legislative ethics committee conducts rigorous annual audits of every elected public officeholder. (立法道德委員會每年對每位民選的公共官員在職者，進行嚴格的審計。)",
+    "example": "The legislative ethics committee conducts rigorous annual audits of every elected public officeholder. (立法倫理委員會每年對每位民選公職人員進行嚴格的審核。)",
     "id": "TOEFL-officeholder-m4c7qv2"
   },
   {
     "level": "TOEFL",
     "word": "prohibitively",
     "meaning": "價格高得令人望而生畏地",
-    "example": "The advanced laboratory medical equipment was prohibitively expensive for small independent research clinics. (高階的實驗室醫療設備，對於小型獨立research診所來說價格高得令人望而生畏。)",
+    "example": "The advanced laboratory medical equipment was prohibitively expensive for small independent research clinics. (這套高階實驗室醫療設備對小型獨立研究診所來說，價格高得令人卻步。)",
     "id": "TOEFL-prohibitively-m1ypzc3b"
   },
   {
@@ -115,7 +115,7 @@
     "level": "TOEFL",
     "word": "restrictive",
     "meaning": "限制性的、約束的",
-    "example": "The environmental protective agency implemented highly restrictive regulations on industrial carbon emission levels. (環境保護署對工業碳排放水平，實施了高度限制性的法規。)",
+    "example": "The environmental protection agency imposed highly restrictive regulations on industrial carbon emissions. (環保主管機關對工業碳排放量祭出了高度限制性的法規。)",
     "id": "TOEFL-restrictive-m1yz19jf"
   },
   {
@@ -227,7 +227,7 @@
     "level": "TOEFL",
     "word": "infest",
     "meaning": "大批滋生、大批出沒",
-    "example": "Wood-boring termites can easily infest timber residential structures if protective coatings are neglected. (如果忽略了保護性塗層，木白蟻很容易大批滋生於木製住宅結構中。)",
+    "example": "Wood-boring termites can easily infest wooden houses if protective coatings are neglected. (如果忽略防護塗料，蛀木的白蟻很容易大量侵入木造房屋。)",
     "id": "TOEFL-infest-mfjmnvp"
   },
   {
@@ -514,7 +514,7 @@
     "level": "TOEFL",
     "word": "scruple",
     "meaning": "顧忌、良心上的不安",
-    "example": "The corrupt executive demonstrated no scruples whatsoever when embezzling millions from the corporate pension fund. (該名腐敗的高階主管在從公司退休基金中侵占數百萬美元時，表現出毫無任何良心上的顧忌。)",
+    "example": "The corrupt executive demonstrated no scruples whatsoever when embezzling millions from the corporate pension fund. (這名貪腐的高階主管侵吞公司退休基金數百萬美元時，毫無良心上的顧忌。)",
     "id": "TOEFL-scruple-m1ynreue"
   },
   {
@@ -632,9 +632,9 @@
   {
     "level": "TOEFL",
     "word": "ethnographic",
-    "meaning": "民族誌的、人種學的",
-    "example": "The anthropological research team conducted a rigorous, multi-year ethnographic study of the remote Amazonian community. (個人類學研究團隊對偏遠的亞馬遜社區，進行了一項嚴謹且為期多年的民族誌研究。)",
-    "id": "TOEFL-ethnographic-m17w2hwr"
+    "meaning": "民族誌的；民族學的",
+    "example": "The anthropological research team conducted a rigorous, multi-year ethnographic study of the remote Amazonian community. (人類學研究團隊對偏遠的亞馬遜社區進行了一項嚴謹且為期多年的民族誌研究。)",
+    "id": "TOEFL-ethnographic-m4wegof"
   },
   {
     "level": "TOEFL",
@@ -962,7 +962,7 @@
     "level": "TOEFL",
     "word": "precursor",
     "meaning": "先驅、前驅物",
-    "example": "The invention of the basic mechanical telegraph was a critical historical precursor to the modern global internet. (基礎機械電報的發明，是現代全球網際網路至關至關重要的歷史先驅。)",
+    "example": "The invention of the basic mechanical telegraph was a critical historical precursor to the modern global internet. (基礎機械電報的發明，是現代全球網際網路至關重要的歷史先驅。)",
     "id": "TOEFL-precursor-mk3m7ql"
   },
   {
@@ -997,7 +997,7 @@
     "level": "TOEFL",
     "word": "satirist",
     "meaning": "諷刺作家",
-    "example": "The political satirist utilized sharp wit and hyperbole to critique the administrative failures of the ruling party. (執政黨的行政疏失。)",
+    "example": "The political satirist utilized sharp wit and hyperbole to critique the administrative failures of the ruling party. (這位政治諷刺作家以犀利的機鋒與誇張手法，批評執政黨的施政失誤。)",
     "id": "TOEFL-satirist-mhvf399"
   },
   {
@@ -1011,7 +1011,7 @@
     "level": "TOEFL",
     "word": "scowl",
     "meaning": "皺眉、怒容",
-    "example": "The stern magistrate historical portrait depicts him with a permanent scowl that reflected his rigid judicial demeanor. (這位嚴厲法官的歷史肖像描繪了他帶著永恆的皺眉怒容，反映出他僵化的司法風範。)",
+    "example": "The historical portrait of the stern magistrate shows a permanent scowl that reflected his rigid judicial manner. (這位嚴厲法官的歷史肖像畫著他永遠皺著眉，反映出他一板一眼的審案風格。)",
     "id": "TOEFL-scowl-m1h964zd"
   },
   {
@@ -1053,7 +1053,7 @@
     "level": "TOEFL",
     "word": "ambience",
     "meaning": "氣氛、氛圍",
-    "example": "The high-end restaurant designed its indoor seating to evoke the rustic ambience of a vintage Italian villa. (這家高檔餐廳在室內座位設計上，營運出讓人聯想到復古義大利別墅的鄉村氛圍。)",
+    "example": "The high-end restaurant designed its indoor seating to evoke the rustic ambience of a vintage Italian villa. (這家高檔餐廳在室內座位設計上，營造出讓人聯想到復古義大利別墅的鄉村氛圍。)",
     "id": "TOEFL-ambience-magzbuj"
   },
   {
@@ -1095,7 +1095,7 @@
     "level": "TOEFL",
     "word": "foundry",
     "meaning": "鑄造廠",
-    "example": "The industrial iron foundry melted thousands of tons of scrap metal daily to forge structural beams for skyscrapers. (這家工業鐵鑄造廠每天熔化數千噸廢金屬，以鍛造摩天大樓的結構樑。)",
+    "example": "The iron foundry melted scrap metal and cast it into steel beams for skyscrapers. (這家煉鐵鑄造廠熔化廢鐵，再將其澆鑄成摩天大樓用的鋼樑。)",
     "id": "TOEFL-foundry-mmeu4k"
   },
   {
@@ -1165,7 +1165,7 @@
     "level": "TOEFL",
     "word": "forte",
     "meaning": "長處、優點、強項",
-    "example": "While the biological researcher was proficient at data collation, laboratory fieldwork was her true economic forte. (雖然這位生物研究人員精通資料校對，但實驗室的野外工作才是她真正的強項。)",
+    "example": "Although the biologist was proficient at data collation, fieldwork was her true forte. (雖然這位生物學家擅長整理資料，野外調查才是她真正的強項。)",
     "id": "TOEFL-forte-m6glza0"
   },
   {
@@ -1193,14 +1193,14 @@
     "level": "TOEFL",
     "word": "herein",
     "meaning": "於此；在此書中",
-    "example": "The geological Written discourse text compiled herein contains detailed stratigraphic mapping data charts. (在此處（於此）編纂的地質書面論述文字，包含詳細的地層繪圖資料圖表。)",
+    "example": "The geological report compiled herein contains detailed stratigraphic maps and data tables. (本地質報告中收錄了詳細的地層圖與資料表。)",
     "id": "TOEFL-herein-m9xe50k"
   },
   {
     "level": "TOEFL",
     "word": "disrepute",
     "meaning": "聲名狼藉；失去信用",
-    "example": "Speculative hypotheses lacking empirical isotope proxy data tracking tracks will fall swiftly into scientific disrepute. (缺乏經驗性同位素替代資料追蹤的投機性假設，會迅速陷入科學上的聲名狼藉（失去信用）狀態中。)",
+    "example": "Speculative hypotheses that lack empirical isotope data quickly fall into scientific disrepute. (缺乏實證同位素資料的臆測性假設，很快就會在科學界失去信譽。)",
     "id": "TOEFL-disrepute-mzmje84"
   },
   {
@@ -1221,7 +1221,7 @@
     "level": "TOEFL",
     "word": "unsuccessful",
     "meaning": "不成功的；失敗的",
-    "example": "Speculative exploratory drilling setups deep within the fault matrix remain largely unsuccessful without seismic tracking data. (在缺乏地震追蹤資料的情況下，深層斷層基質內部的投機性探索鑽探編制很大程度上仍然是不成功的。)",
+    "example": "Speculative exploratory drilling deep within the fault zone remains largely unsuccessful without seismic data. (在缺乏地震資料的情況下，深入斷層帶的投機性探鑽大多不成功。)",
     "id": "TOEFL-unsuccessful-mkw8yi3"
   },
   {
@@ -1235,7 +1235,7 @@
     "level": "TOEFL",
     "word": "academician",
     "meaning": "院士；學術院會員",
-    "example": "The geological academician presented empirical isotope data that fully substantiated the ice core climate modeling proxy tracks. (這位地質學院士（學術院會員）展示了經驗性的同位素資料，完全證實了冰芯氣候模型替代軌跡。)",
+    "example": "The academician presented isotope data that supported the climate model based on ice cores. (這位院士展示了支持冰芯氣候模型的同位素資料。)",
     "id": "TOEFL-academician-mwcr3n"
   },
   {
@@ -1263,7 +1263,7 @@
     "level": "TOEFL",
     "word": "indeterminate",
     "meaning": "不確定的；模糊的",
-    "example": "Because the fossil bone fragments were highly deforms, deforms, current research data regarding hominid height remains indeterminate. (由於化石骨骼碎片高度變形，目前關於原始人類身高的研究資料仍然是不確定的（模糊的）。)",
+    "example": "Because the fossil bone fragments are highly deformed, current research data on hominid height remains indeterminate. (由於化石骨骼碎片嚴重變形，目前關於原始人類身高的研究資料仍不確定。)",
     "id": "TOEFL-indeterminate-m11wsdjr"
   },
   {
@@ -1276,9 +1276,9 @@
   {
     "level": "TOEFL",
     "word": "legitimately",
-    "meaning": "合法地；正當副地；真正地",
-    "example": "By mapping out tree ring proxy timelines, geochronologists can legitimately calibrate radiocarbon data spanning millennia. (藉由繪製出年輪替代資料時間線，地球年代學家可以真正地（正當合理地）校準跨越數千年的放射性碳資料。)",
-    "id": "TOEFL-legitimately-mk6lpb1"
+    "meaning": "正當地；合法地；確實地",
+    "example": "By mapping tree-ring timelines, geochronologists can legitimately calibrate radiocarbon data spanning millennia. (藉由建立年輪時間軸，地球年代學家可以合理地校正跨越數千年的放射性碳資料。)",
+    "id": "TOEFL-legitimately-m1lvr9ta"
   },
   {
     "level": "TOEFL",
@@ -1298,7 +1298,7 @@
     "level": "TOEFL",
     "word": "objectively",
     "meaning": "客觀地",
-    "example": "By utilizing radiocarbon data, archaeologists can objectively pinpoint the antiquity chronology of a site. (藉由利用放射性碳資料，考古學家可以客觀地精確查明一個遺址的古老年代記。)",
+    "example": "Using radiocarbon data, archaeologists can objectively determine the age of a site. (藉由放射性碳資料，考古學家可以客觀判定遺址的年代。)",
     "id": "TOEFL-objectively-me334i"
   },
   {
@@ -1312,7 +1312,7 @@
     "level": "TOEFL",
     "word": "redefine",
     "meaning": "重新定義",
-    "example": "Molecular DNA sequencing extraction data continues to redefine our classic understandings of hominid deviation maps. (分子DNA序列提取資料持續重新定義我們對原始人類分支圖譜的經典理解。)",
+    "example": "Molecular DNA sequencing data continues to redefine our understanding of hominid evolutionary trees. (分子 DNA 定序資料持續重新定義我們對原始人類演化樹的理解。)",
     "id": "TOEFL-redefine-mitdeky"
   },
   {
@@ -1361,15 +1361,15 @@
     "level": "TOEFL",
     "word": "tabulate",
     "meaning": "列表；把…製成表格",
-    "example": "Ecologists utilize standardized digital worksheets to tabulate species richness data collected across experimental hectares. (生態學家利用標準化的數位工作表，來將在實驗公頃內收集到的物種豐富度資料製成表格（列表）。)",
+    "example": "Ecologists use standardized digital worksheets to tabulate species richness data collected across experimental plots. (生態學家利用標準化的數位工作表，把各實驗樣區收集到的物種豐富度資料整理成表格。)",
     "id": "TOEFL-tabulate-maezvvx"
   },
   {
     "level": "TOEFL",
     "word": "taint",
-    "meaning": "污染、污染、使腐壞",
-    "example": "A single instance of data manipulation can permanently taint the scientific reputation of an entire research facility. (單次的手法資料操弄，就可能永久污染整個研究機構的科學聲譽。)",
-    "id": "TOEFL-taint-mrlcyp9"
+    "meaning": "汙染；使敗壞",
+    "example": "A single instance of data manipulation can permanently taint the scientific reputation of an entire research facility. (只要有一次資料操弄，就可能永久汙損整個研究機構的科學聲譽。)",
+    "id": "TOEFL-taint-m4axd51"
   },
   {
     "level": "TOEFL",
@@ -1396,7 +1396,7 @@
     "level": "TOEFL",
     "word": "fundamentally",
     "meaning": "根本地；從本質上",
-    "example": "The invention of printing fundamentally altered human information networks, democratizing access to historical texts. (印刷術的發明從根本上改變了人類的資訊網路，使獲取歷史文本的管道民主化。)",
+    "example": "The invention of printing fundamentally altered human information networks, democratizing access to historical texts. (印刷術的發明從根本上改變了人類的資訊網，讓取得歷史文本的機會更普及。)",
     "id": "TOEFL-fundamentally-mndismk"
   },
   {
@@ -1410,14 +1410,14 @@
     "level": "TOEFL",
     "word": "vigilance",
     "meaning": "警惕；警覺",
-    "example": "Nocturnal owls possess heightened sound feedback alertness, maintaining constant sensory vigilance to track rodent scurries. (夜行性貓頭鷹具備高度的聲音回饋警覺性，維持著持續的感官警惕以追蹤囓齒動物的碎步急跑。)",
+    "example": "Nocturnal owls maintain extreme vigilance, listening for every rustle made by a rodent. (夜行性貓頭鷹保持高度警覺，留意囓齒動物發出的每一點聲響。)",
     "id": "TOEFL-vigilance-m1p3jlk0"
   },
   {
     "level": "TOEFL",
     "word": "outwit",
     "meaning": "以智取勝；智勝",
-    "example": "Ethologists document how opportunistic predatory coyotes coyote class utilize sound visual feedback to outwit hidden rodents. (動物行為學家記錄了機會主義的捕食性郊狼階級，如何利用聲音與視覺回饋來智勝（以智取勝）隱蔽的囓齒動物。)",
+    "example": "Ethologists study how coyotes use sound and sight to outwit hidden rodents. (動物行為學家研究郊狼如何運用聲音與視覺，智取藏身的囓齒動物。)",
     "id": "TOEFL-outwit-m8588g2"
   },
   {
@@ -1452,7 +1452,7 @@
     "level": "TOEFL",
     "word": "arousal",
     "meaning": "喚起；激起；（生理）覺醒",
-    "example": "Nocturnal predators display heightened sensory arousal immediately following sunset, tracking small steppe rodents via tactile sound links. (夜行性捕食者在日落後立即表現出高度的感官覺醒（興奮），透過觸覺聲音連結追蹤小型大草原囓齒動物。)",
+    "example": "Arousal in nocturnal predators increases after sunset, helping them hunt small rodents by sound. (日落後，夜行性掠食者的覺醒程度提高，因此能靠聲音獵捕小型囓齒動物。)",
     "id": "TOEFL-arousal-m1b1ebyw"
   },
   {
@@ -1466,7 +1466,7 @@
     "level": "TOEFL",
     "word": "coyote",
     "meaning": "郊狼",
-    "example": "The coyote functions as an opportunistic predatory mammal across southwestern semiarid grasslands, tracking rodent groups via sound fields. (郊狼在西南部半乾旱草原上充當機會主義的捕食性哺乳動物，透過聲音場追蹤囓齒動物群。)",
+    "example": "The coyote is an opportunistic predator of the semiarid grasslands of the Southwest, hunting rodents by sound. (郊狼是美國西南部半乾旱草原上的機會主義掠食者，靠聲音獵捕囓齒動物。)",
     "id": "TOEFL-coyote-mp9bm"
   },
   {
@@ -1480,21 +1480,21 @@
     "level": "TOEFL",
     "word": "overrun",
     "meaning": "氾濫；超過（限度）",
-    "example": "Without active predator canine cohorts, invasive rodent groups will quickly overrun fragile island agriculture ecosystems. (在缺乏活躍捕食性犬科群體的情況下，入侵的囓齒動物群會迅速氾濫（佔領）脆弱的島嶼農業生態系統。)",
+    "example": "Without predators such as wild dogs, invasive rodents quickly overrun fragile island farm ecosystems. (少了野犬這類掠食者，入侵的囓齒動物很快就會攻占脆弱的島嶼農業生態系。)",
     "id": "TOEFL-overrun-m15an3tu"
   },
   {
     "level": "TOEFL",
     "word": "scurry",
     "meaning": "碎步急跑；急趕",
-    "example": "Small Paleolithic rodents would scurry inside dense forest understories to avoid predatory avian falcon groups. (小型舊石器時代的囓齒動物會在茂密的森林林下植物層中碎步急跑，以躲避捕食性的鳥類遊隼群。)",
+    "example": "Small rodents scurry through the dense forest undergrowth to escape hunting falcons. (小型囓齒動物在茂密的森林灌木層間竄逃，以躲避獵食的隼。)",
     "id": "TOEFL-scurry-m5yj4a0"
   },
   {
     "level": "TOEFL",
     "word": "stealthy",
     "meaning": "悄悄的；秘密的；鬼鬼祟祟的",
-    "example": "The predatory falcon executed a stealthy high-velocity diving dive sequence to catch defenseless tundra rodents. (捕食性遊隼執行了一次悄悄的（秘密的）高速俯衝序列，以捕捉毫無防備的凍原囓齒動物。)",
+    "example": "The falcon made a stealthy, high-speed dive to catch an unsuspecting tundra rodent. (這隻隼悄悄高速俯衝，捕獲一隻毫無防備的凍原囓齒動物。)",
     "id": "TOEFL-stealthy-mdga494"
   },
   {
@@ -1508,14 +1508,14 @@
     "level": "TOEFL",
     "word": "lethargy",
     "meaning": "無精打采；昏睡（狀態）",
-    "example": "Severe cold polar weather drops trigger dynamic metabolic lethargy inside small burrowing rodents rodent populations underground. (嚴酷的寒冷極地氣溫下降，在地下小型築巢囓齒動物族群內部引發了動態的新陳代謝昏睡。)",
+    "example": "Bitter polar cold triggers a deep metabolic lethargy in rodents that burrow underground. (極地的嚴寒會讓在地下挖洞的囓齒動物陷入深度昏睡。)",
     "id": "TOEFL-lethargy-m1c9mkqa"
   },
   {
     "level": "TOEFL",
     "word": "binge",
     "meaning": "狂熱期；狂鬧；狂飲狂食",
-    "example": "When a bumper acorn mast autumn crop occurs, forest rodents engage in a feeding binge to accumulate rich winter lipids. (當橡實秋季大豐收發生時，森林囓齒動物會投入一場狂熱採食中，以累積豐富的冬季脂質。)",
+    "example": "In a bumper acorn year, forest rodents go on a feeding binge to store fat for winter. (在橡實大豐收的年份，森林裡的囓齒動物會瘋狂進食，為過冬囤積脂肪。)",
     "id": "TOEFL-binge-mpifayg"
   },
   {
@@ -1543,14 +1543,14 @@
     "level": "TOEFL",
     "word": "artiste",
     "meaning": "專業藝人；演藝名家",
-    "example": "The legendary theatrical vaundeville artiste commanded exceptional high wages across metropolitan entertainment arcades. (傳奇的劇場綜藝雜耍專業藝人，在大都市娛樂拱廊街跨度間獲得了異常高昂的薪水。)",
+    "example": "The legendary vaudeville artiste commanded exceptionally high wages across the city's grand entertainment halls. (這位傳奇的雜耍劇場名伶，在各大城市的大型娛樂廳都拿到極高的酬勞。)",
     "id": "TOEFL-artiste-m1cggcy3"
   },
   {
     "level": "TOEFL",
     "word": "dung",
     "meaning": "動物糞便 (常指肥料 manure)",
-    "example": "Subsistence agriculturalist groups combined rich organic livestock dung with decomposing foliage compost matrices. (維持生存的農業群體，將富含有機質的牲畜糞便與分解的葉子堆肥基質相結合。)",
+    "example": "Early farmers mixed livestock dung with decomposing leaves to make compost. (早期農民把牲畜糞便和腐爛的葉子混合製成堆肥。)",
     "id": "TOEFL-dung-manure"
   },
   {
@@ -1564,21 +1564,21 @@
     "level": "TOEFL",
     "word": "infertile",
     "meaning": "貧瘠的；不孕的",
-    "example": "High soil salinization constants transform highly agricultural landmass parcels into infertile alkali flats. (高土壤鹽鹼化常數，將高度可農業的大片陸地地塊轉化為貧瘠的鹼性灘地。)",
+    "example": "Heavy soil salinization can turn productive farmland into infertile alkali flats. (嚴重的土壤鹽化會把良田變成貧瘠的鹼地。)",
     "id": "TOEFL-infertile-m1ww89d8"
   },
   {
     "level": "TOEFL",
     "word": "terylene",
-    "meaning": "特麗綾（特麗綸/一種合成聚酯纖維）",
-    "example": "Modern industrial manufacturing setups utilize petrochemical refinery polymers to produce synthetic terylene textiles. (現代工業製造裝置利用石油化學精煉聚合物，來生產合成的特麗綾織物。)",
-    "id": "TOEFL-terylene-ma6m822"
+    "meaning": "特多龍（一種聚酯纖維）",
+    "example": "Modern factories use petrochemical polymers to produce terylene fabric. (現代工廠利用石化聚合物生產特多龍布料。)",
+    "id": "TOEFL-terylene-mh10kr7"
   },
   {
     "level": "TOEFL",
     "word": "experimenter",
     "meaning": "實驗者",
-    "example": "The psychodynamic experimenter tracked preschool child cognitive developments, metrics objectify via standardized worksheet charts. (心理動力學實驗者追蹤了學齡前兒童的認知發展，指標透過標準化的工作表圖表來客觀化。)",
+    "example": "The experimenter tracked preschool children's cognitive development using standardized worksheets to record the measures objectively. (實驗者追蹤學齡前兒童的認知發展，並以標準化工作表客觀記錄評量結果。)",
     "id": "TOEFL-experimenter-me7j78"
   },
   {
@@ -1592,21 +1592,21 @@
     "level": "TOEFL",
     "word": "horticultural",
     "meaning": "園藝的；園藝學的",
-    "example": "Early Neolithic community residency tracks relied on subsistence horticultural setups before plow mechanization expanded. (在犁作機械化擴張之前，早期新石器時代社區的定居軌跡主要依賴維持生存的園藝的配置。)",
+    "example": "Early Neolithic communities relied on horticultural plots for food before plow mechanization spread. (在犁耕機械化普及之前，新石器時代早期的聚落靠園圃耕作維生。)",
     "id": "TOEFL-horticultural-m136g9mh"
   },
   {
     "level": "TOEFL",
     "word": "loyalist",
-    "meaning": "效忠支持者的；保皇黨人",
-    "example": "During political upheavals across stratified chiefdom confederacies, peripheral loyalist chiefs provided military armory reinforcements. (在分層的酋邦聯盟跨度間發生政治動盪期間，外圍的效忠支持者的酋長提供了軍事武器援助。)",
-    "id": "TOEFL-loyalist-ms001ym"
+    "meaning": "效忠者；保皇黨人",
+    "example": "During political upheavals in stratified chiefdom confederacies, outlying loyalist chiefs supplied military reinforcements. (在階層化的酋邦聯盟發生政治動盪期間，外圍效忠的酋長提供了軍事增援。)",
+    "id": "TOEFL-loyalist-muc3wfe"
   },
   {
     "level": "TOEFL",
     "word": "pantomimic",
     "meaning": "啞劇的；手勢表情的",
-    "example": "The modern theatrical choreographer integrated detailed pantomimic cues gestures into the naturalistic ballet routine. (現代劇場編舞家將精細的啞劇的手勢提示融入到寫實的芭蕾舞常規表演中。)",
+    "example": "The choreographer added detailed pantomimic gestures to the naturalistic ballet. (編舞家在寫實風格的芭蕾中加入細膩的啞劇手勢。)",
     "id": "TOEFL-pantomimic-mp78o8g"
   },
   {
@@ -1627,7 +1627,7 @@
     "level": "TOEFL",
     "word": "belter",
     "meaning": "小行星帶居民（科幻用語）；頂尖好物",
-    "example": "Astrophysicists analyzing interstellar interplanetary cosmic dust models track parameters hypothetically linked with Belter debris. (分析星際行星間宇宙塵埃模型的天體物理學家，追蹤了假定與小行星帶碎屑相聯繫的參數。)",
+    "example": "In the science-fiction novel, the Belter miners depended on supplies shipped from Earth. (在這本科幻小說中，小行星帶居民仰賴從地球運來的物資。)",
     "id": "TOEFL-belter-m1nh8za2"
   },
   {
@@ -1641,56 +1641,56 @@
     "level": "TOEFL",
     "word": "dugout",
     "meaning": "獨木舟；地下掩體；（棒球）球員休息室",
-    "example": "Archaeologists excavated a prehistoric wooden dugout watercraft model trapped inside estuarine silt matrices strata. (考古學家挖掘出了一個被困在河口粉砂基質地層內部的史前木製獨木舟船隻模型。)",
+    "example": "Archaeologists excavated a prehistoric wooden dugout trapped in estuarine silt. (考古學家挖出一艘困在河口淤泥中的史前木製獨木舟。)",
     "id": "TOEFL-dugout-msxam0v"
   },
   {
     "level": "TOEFL",
     "word": "inorganic",
     "meaning": "無機的；非生物的",
-    "example": "Topsoil mineralization converting organic nitrogen elements into inorganic nitrates absorbable by vascular angiosperm roots. (表土礦化作用將有機氮元素，轉化為可由維管束被子植物根部吸收的無機硝酸鹽。)",
+    "example": "Topsoil mineralization converts organic nitrogen into inorganic nitrates that plant roots can absorb. (表土礦化作用把有機氮轉變成植物根部可吸收的無機硝酸鹽。)",
     "id": "TOEFL-inorganic-mlgy581"
   },
   {
     "level": "TOEFL",
     "word": "seedy",
     "meaning": "多種子的；破爛的；骯髒的",
-    "example": "The forager bird regurgitates an indigestible seedy pellet containing processed broadleaf angiosperm husk segments. (這隻採集鳥吐出一個不可消化的、多種子的食繭，內含加工過的被子植物外殼區段。)",
+    "example": "The bird regurgitates a seedy pellet containing seed husks and insect fragments. (這隻鳥會吐出一團含有種子外殼與昆蟲碎片、無法消化的食團。)",
     "id": "TOEFL-seedy-mo8mf00"
   },
   {
     "level": "TOEFL",
     "word": "abnormality",
     "meaning": "異常；畸形",
-    "example": "A severe congenital genetic abnormality can disrupt an angiosperm seedling vascular conductance pathways path. (嚴重的先天性基因異常，會破壞被子植物幼苗維管束導度路徑。)",
+    "example": "A severe congenital abnormality can disrupt the vascular pathways of an angiosperm seedling. (嚴重的先天性異常會破壞被子植物幼苗的維管束通路。)",
     "id": "TOEFL-abnormality-m19xh6rh"
   },
   {
     "level": "TOEFL",
     "word": "anthropologically",
-    "meaning": "人類學向地",
-    "example": "The extraction of ancestral pueblo masonry Kivas delivered anthropologically highly valuable insights tracing kinship institutions. (祖傳普埃布洛石造儀式建築的挖掘，為追蹤親屬制度提供了人類學向地（人類學上）高度珍貴的洞察。)",
-    "id": "TOEFL-anthropologically-m17aoocz"
+    "meaning": "人類學上",
+    "example": "The excavation of ancestral Pueblo kivas provided anthropologically valuable insights into kinship systems. (普埃布洛祖傳儀式建築的挖掘，為親屬制度研究提供了極具人類學價值的洞見。)",
+    "id": "TOEFL-anthropologically-mak88l2"
   },
   {
     "level": "TOEFL",
     "word": "beng",
     "meaning": "繃 (擬聲詞/拼寫成分例人名拼音)",
-    "example": "Linguistic mapping archives tracked the distinct vocal pitch indicators utilized inside the Beng dialect registries. (語言地圖記錄檔案，追蹤了在繃族方言登記冊內部所利用的獨特聲音音高指標。)",
+    "example": "Linguistic archives recorded the distinct tones of the Beng language. (語言檔案記錄了繃語獨特的聲調。)",
     "id": "TOEFL-beng-mqnw6wr"
   },
   {
     "level": "TOEFL",
     "word": "breadfruit",
     "meaning": "麵包果",
-    "example": "Polynesian watercraft farers carried transported vegetative breadfruit plant seedlings during their expansive oversea maritime migrations. (玻里尼西亞船隻航海家，在他們廣闊的海外海洋遷移期間，隨身載運了麵包果植物幼苗。)",
+    "example": "Polynesian voyagers carried breadfruit seedlings with them on their long sea migrations. (玻里尼西亞航海者長途渡海遷徙時，帶著麵包果幼苗同行。)",
     "id": "TOEFL-breadfruit-mnnjqk"
   },
   {
     "level": "TOEFL",
     "word": "colosseum",
     "meaning": "圓形競技場；大體育館",
-    "example": "The Roman citadel featured a monumental stone colosseum amphitheater edifice highlighting flawless neoclassical symmetry rules. (羅馬城堡以一個不朽的石造圓形競技場圓形劇場大廈為特色，突出了無瑕的新古典主義對稱規則。)",
+    "example": "The Roman amphitheater known as the Colosseum is a monumental stone edifice of precise symmetry. (羅馬的圓形競技場「科羅塞姆」是一座對稱精準的宏偉石造建築。)",
     "id": "TOEFL-colosseum-m1ci1z6r"
   },
   {
@@ -1703,9 +1703,9 @@
   {
     "level": "TOEFL",
     "word": "conditioner",
-    "meaning": "調節劑；（空氣/頭髮）調節裝置",
-    "example": "Orchid horticulturists use a specialized compost soil conditioner to optimize topsoil soil mineralization conductance parameters. (蘭花園藝家利用特化的堆肥土壤調節劑，來優化表土的礦化作用導度參數。)",
-    "id": "TOEFL-conditioner-m1pgy1ch"
+    "meaning": "調節劑；土壤改良劑；（空氣/頭髮）調節裝置",
+    "example": "Orchid growers use a compost-based soil conditioner to improve topsoil structure and mineralization. (蘭花栽培者使用堆肥製成的土壤改良劑，改善表土結構與礦化作用。)",
+    "id": "TOEFL-conditioner-m1dpiq4s"
   },
   {
     "level": "TOEFL",
@@ -1753,7 +1753,7 @@
     "level": "TOEFL",
     "word": "lounger",
     "meaning": "懶散的人；長椅；休閒椅",
-    "example": "The vaudeville theatrical plot performance featured a wealthy metropolitan lounger elite mocking rural outwork artisans. (綜藝雜耍劇場的劇情演出，以一個富有的大都市懶散的人精英嘲弄農村家庭代工工匠為特色。)",
+    "example": "The vaudeville sketch featured a wealthy metropolitan lounger mocking rural pieceworkers. (這齣雜耍短劇描寫一名富有的都市閒人嘲弄農村代工工匠。)",
     "id": "TOEFL-lounger-mweuevj"
   },
   {
@@ -1774,7 +1774,7 @@
     "level": "TOEFL",
     "word": "panhandle",
     "meaning": "狹長地帶（如德州西北部）；乞討",
-    "example": "The historical surveyor survey tracked the topographical elevation variables across the semiarid southwestern panhandle plain. (歷史測量員追蹤了橫跨半乾旱西南部狹長地帶平原的地形海拔變數。)",
+    "example": "The surveyor tracked elevation changes across the semiarid plains of the southwestern panhandle. (測量員追蹤了西南部狹長地帶半乾旱平原的海拔變化。)",
     "id": "TOEFL-panhandle-mk6utot"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "TOEFL",
     "word": "stratification",
     "meaning": "分層；層理（地質/社會）",
-    "example": "Sociologists evaluate the intense social stratification metrics monitored inside early centrally chiefdom capital hub setups. (社會學家評估在早期集權的酋邦首府中心編制內部監測到的、強烈的社會分層指標。)",
+    "example": "Sociologists assess the sharp social stratification documented in early centralized chiefdom capitals. (社會學家評估早期集權酋邦首府中明顯的社會階層化。)",
     "id": "TOEFL-stratification-m1oz43iw"
   },
   {
@@ -1816,7 +1816,7 @@
     "level": "TOEFL",
     "word": "bombardment",
     "meaning": "轟炸；（物理）粒子轟擊；大量襲來",
-    "example": "Upper atmospheric molecules experience continuous solar wind particle bombardment, bombardment, triggering Electronic excitation aurora lines. (上層大氣分子經歷持續的太陽風粒子轟擊，引發電子激發的極光線。)",
+    "example": "Molecules in the upper atmosphere undergo constant bombardment by solar wind particles, producing auroral glow. (上層大氣的分子不斷受到太陽風粒子轟擊，因而產生極光。)",
     "id": "TOEFL-bombardment-mhp0qi0"
   },
   {
@@ -1844,21 +1844,21 @@
     "level": "TOEFL",
     "word": "vegetative",
     "meaning": "植物的；營養生長的；植物人狀態的",
-    "example": "Angiosperm seedlings enter a rapid vegetative growth phase once soil mineralization matrix metrics optimize nutrients. (一旦土壤礦化作用基質指標最佳化了營養成分，被子植物幼苗就會進入一個快速的植物營養生長的階段。)",
+    "example": "Angiosperm seedlings enter a phase of rapid vegetative growth once soil nutrients are adequate. (一旦土壤養分充足，被子植物幼苗就會進入快速營養生長的階段。)",
     "id": "TOEFL-vegetative-m1db7olk"
   },
   {
     "level": "TOEFL",
     "word": "aridity",
     "meaning": "乾旱；乾燥",
-    "example": "Persistent polar atmospheric aridity forces tundra plant biomes to adapt prostrate low-growing survival profiles. (持續的極地大氣乾旱，迫使凍原植物生物群系去適應伏地低矮生長的生存輪廓。)",
+    "example": "Persistent polar aridity forces tundra plants to grow low and close to the ground. (極地長期乾燥，迫使凍原植物長得低矮、貼近地面。)",
     "id": "TOEFL-aridity-m10oocxb"
   },
   {
     "level": "TOEFL",
     "word": "affectional",
     "meaning": "情感上的；愛情的",
-    "example": "Developmental psychologists test child imitative behavior landmarks, tracking how mutualistic affectional bonds bond boost cognitive indicators. (發展心理學家測試兒童模仿行為的里程碑，追蹤相互的情感上的紐帶如何提高認知指標。)",
+    "example": "Developmental psychologists study how affectional bonds between caregiver and child support cognitive development. (發展心理學家研究照顧者與孩子之間的情感連結如何支持認知發展。)",
     "id": "TOEFL-affectional-mc7w99v"
   },
   {
@@ -1872,14 +1872,14 @@
     "level": "TOEFL",
     "word": "buddy",
     "meaning": "好朋友；夥伴",
-    "example": "Egalitarian gatherer hunting cohorts relied tightly on the collaborative support framework of an assigned hunting buddy. (平等主義採集狩獵群體，高度依賴指定狩獵夥伴的合作支持框架。)",
+    "example": "Egalitarian hunter-gatherer bands depended heavily on cooperation with an assigned hunting buddy. (平等主義的狩獵採集群體高度仰賴與指定狩獵夥伴合作。)",
     "id": "TOEFL-buddy-m12fxq4t"
   },
   {
     "level": "TOEFL",
     "word": "butte",
     "meaning": "孤山；孤立的陡峭平頂山（西南部常見）",
-    "example": "The historical surveyor survey mapped an isolated sandstone butte monument landmark rising above southwestern prairie plains. (歷史測量員繪製了一座矗立在西南部大草原平原上方的、孤立的砂岩孤山紀念碑地標。)",
+    "example": "The survey mapped an isolated sandstone butte rising above the southwestern prairie. (這份測量繪出一座矗立在西南部草原上的孤立砂岩孤丘。)",
     "id": "TOEFL-butte-mu6egp3"
   },
   {
@@ -1907,28 +1907,28 @@
     "level": "TOEFL",
     "word": "doorknob",
     "meaning": "門把手；圓形門把",
-    "example": "The expert joiner manufactured the Pullman sleeping car interior doors utilizing polished brass doorknob hardware metrics. (專家級細木工匠在不利用金屬釘子的情況下，利用拋光的黃銅門把手五金指標製作了普爾曼臥鋪車廂的內門。)",
+    "example": "The skilled joiner made the Pullman sleeping car's interior doors with polished brass doorknobs. (這位熟練的細木工匠以拋光的黃銅門把，製作普爾曼臥車的車內門板。)",
     "id": "TOEFL-doorknob-m15fv2yb"
   },
   {
     "level": "TOEFL",
     "word": "embryonic",
     "meaning": "胚胎的；萌芽期的",
-    "example": "Molecular DNA sequencing tracking tracks allow biochemists to analyze genomic mutation variations inside embryonic fetus cells. (分子DNA序列追蹤軌跡容許生物化學家分析胚胎的胎兒細胞內部的基因突變變異。)",
+    "example": "DNA sequencing now allows biochemists to analyze genetic mutations in embryonic cells. (DNA 定序讓生物化學家得以分析胚胎細胞中的基因突變。)",
     "id": "TOEFL-embryonic-mi1xiip"
   },
   {
     "level": "TOEFL",
     "word": "ere",
     "meaning": "在…之前 (古英語，同 before)",
-    "example": "Neolithic gatherer tribes practiced small-scale small-scale horticulture setups ere centralized agriculturalist plow tools arose. (在新石器時代，在集中的農業勞動者犁作工具興起之前，部落曾從事小規模的園藝配置。)",
+    "example": "Neolithic gatherers practiced small-scale horticulture ere centralized agriculture with plows arose. (在集中化的犁耕農業興起之前，新石器時代的採集者已從事小規模園圃耕作。)",
     "id": "TOEFL-ere-before"
   },
   {
     "level": "TOEFL",
     "word": "exportation",
     "meaning": "出口",
-    "example": "The coastal seaport metropolis controlled mercantile shipping networks, processing processed wool and potash for oversea exportation. (沿海海港大都市控制著商業航運網路，加工處理過的羊毛與碳酸鉀以用於海外出口。)",
+    "example": "The coastal port city controlled mercantile shipping networks and prepared wool and potash for exportation overseas. (這座沿海港市掌控商業航運網，並將羊毛與鉀鹼加工後出口海外。)",
     "id": "TOEFL-exportation-meejt"
   },
   {
@@ -1963,7 +1963,7 @@
     "level": "TOEFL",
     "word": "keelboat",
     "meaning": "平底貨船（早期美國內河大木船）",
-    "example": "Before steamboats modernized midcontinent transit, merchants manual drove the wooden keelboat across shallow navigable river ways. (在汽船使中部大陸交通現代化之前，商人手工駕駛著木製平底貨船跨越淺淺的可通航河流路徑。)",
+    "example": "Before steamboats modernized travel in the midcontinent, merchants manually poled wooden keelboats along shallow rivers. (在汽船讓中西部交通現代化之前，商人以人力撐篙，讓木造平底貨船航行於淺水河道。)",
     "id": "TOEFL-keelboat-m6leeqt"
   },
   {
@@ -1991,14 +1991,14 @@
     "level": "TOEFL",
     "word": "neurilemmal",
     "meaning": "神經鞘的",
-    "example": "Neurologists evaluate how glial cell neural sheath structures protect cortical networks near neurilemmal cell boundaries paths. (神經學家評估神經膠質細胞的神經鞘構造，如何在神經鞘的細胞邊界路徑附近保護皮質網路。)",
+    "example": "Neurologists study how glial cells protect cortical networks along neurilemmal boundaries. (神經學家研究神經膠細胞如何沿著神經鞘邊界保護皮質網絡。)",
     "id": "TOEFL-neurilemmal-mfu7jj5"
   },
   {
     "level": "TOEFL",
     "word": "oceanographic",
     "meaning": "海洋學的",
-    "example": "The research vessel deployed sensitive sonar tracking grids to complete an expansive oceanographic map mapping profile. (研究船部署了敏感的聲納追蹤網格，以完成一份廣闊的海洋學的地圖繪製特徵。)",
+    "example": "The research vessel deployed sensitive sonar arrays to complete a detailed oceanographic map. (研究船部署靈敏的聲納陣列，完成一幅詳細的海洋學地圖。)",
     "id": "TOEFL-oceanographic-me9gk8w"
   },
   {
@@ -2047,21 +2047,21 @@
     "level": "TOEFL",
     "word": "scraping",
     "meaning": "刮削；刮痕；刮削出的碎屑",
-    "example": "Paleolithic toolmakers produced bone percussion devices explicitly designed for processing hide hides via manual stone scraping. (舊石器時代的工具製造者，生產出專門設計用於透過手工石器刮削來處理皮革的骨製敲擊裝置。)",
+    "example": "Paleolithic toolmakers made bone tools designed for scraping hides. (舊石器時代的工具製造者製作出專門用來刮削獸皮的骨製工具。)",
     "id": "TOEFL-scraping-mgfrtcu"
   },
   {
     "level": "TOEFL",
     "word": "sobriquet",
     "meaning": "綽號；假名",
-    "example": "The historical documentation geographer recorded the colorful local sobriquet applied to the frontier rancher chieftain leader. (歷史地圖繪製地理學家，記錄了應用在邊疆牧場主首領領袖身上的、充滿色彩的本地綽號。)",
+    "example": "A local historian recorded the colorful sobriquet given to the frontier rancher. (一位地方史學家記錄了這位邊疆牧場主人得到的鮮活綽號。)",
     "id": "TOEFL-sobriquet-mcewxvj"
   },
   {
     "level": "TOEFL",
     "word": "sod",
     "meaning": "草皮；草地",
-    "example": "Pioneer western homesteaders homesteader constructed permanent stone homestead structures reinforced with dense thick prairie sod bricks. (拓荒的西部農莊主，建造了用密集肥厚的大草原草皮磚加固的永久性石造農莊構造。)",
+    "example": "Pioneer homesteaders on the western plains built sturdy houses from thick prairie sod bricks. (西部平原的拓荒者用厚實的草原草皮磚蓋起堅固的房屋。)",
     "id": "TOEFL-sod-mw4oj3x"
   },
   {
@@ -2075,14 +2075,14 @@
     "level": "TOEFL",
     "word": "sundial",
     "meaning": "日晷",
-    "example": "Ancient Mayan elite astronomer scribes engineered monumental stone sundial platforms to calculate cyclical solar variables alignments. (古代馬雅精英天文學家書吏，工程建造了宏偉的石造日晷平台，以計算週期的太陽變數對齊。)",
+    "example": "Mayan astronomer-scribes built monumental stone sundials to track the sun's cyclical movements. (馬雅的天文學家兼書吏建造宏偉的石造日晷，以追蹤太陽週期性的運行。)",
     "id": "TOEFL-sundial-mhw6q"
   },
   {
     "level": "TOEFL",
     "word": "tether",
     "meaning": "（拴動物的）繩/鏈；範圍限制；拴住",
-    "example": "Pioneer homesteader farmers would tether their herded pastoral livestock pastoral livestock near subsurface groundwater upwelling wells. (拓荒農莊主農民會將他們放牧的畜牧牲畜，拴在地表下地下水湧出的井附近。)",
+    "example": "Pioneer farmers tethered their livestock near wells fed by groundwater upwelling. (拓荒農民把牲畜拴在地下水湧出的水井附近。)",
     "id": "TOEFL-tether-m14t3nm1"
   },
   {
@@ -2103,63 +2103,63 @@
     "level": "TOEFL",
     "word": "fiddler",
     "meaning": "小提琴手；（生物）招潮蟹",
-    "example": "The specialized marine fiddler crab thrives inside estuarine mudflats, using its enlarged mandible claw for defense. (特化的海洋招潮蟹在河口泥灘內部繁盛生長，利用其擴大的下顎（螯足）進行防禦。)",
+    "example": "The male fiddler crab defends its burrow with one greatly enlarged claw. (公招潮蟹用一隻特別大的螯足保衛洞穴。)",
     "id": "TOEFL-fiddler-m6v7tyk"
   },
   {
     "level": "TOEFL",
     "word": "hydroponically",
     "meaning": "水耕地；無土栽培地",
-    "example": "Modern soilless agricultural setups setup cultivate angiosperm crop varieties hydroponically inside nutrient-rich liquid conductance conduits. (現代無土農業裝置在富含營養的液體導度導管內部，以水耕地耕作被子植物作物變種。)",
+    "example": "Modern soilless farms grow crops hydroponically in nutrient-rich water instead of soil. (現代無土農場以水耕方式在富含營養的水中栽培作物，而不是在土壤裡。)",
     "id": "TOEFL-hydroponically-m1wks7ai"
   },
   {
     "level": "TOEFL",
     "word": "hydrosphere",
     "meaning": "水圈（地球表面水體總稱）",
-    "example": "The dynamic hydrologic cycle coordinates continuous water transfer fluxes linking the atmosphere, lithosphere, and marine hydrosphere. (動態的水文循環協調著連結大氣圈、岩石圈與海洋水圈的持續水分轉移通量。)",
+    "example": "The hydrologic cycle constantly moves water among the atmosphere, the lithosphere, and the hydrosphere. (水文循環不斷在大氣圈、岩石圈與水圈之間輸送水分。)",
     "id": "TOEFL-hydrosphere-mo8bn04"
   },
   {
     "level": "TOEFL",
     "word": "meteoroid",
     "meaning": "流星體",
-    "example": "Most interstellar particles move across cosmic space grids as a meteoroid before vaporizing completely inside atmospheres. (大多數星際顆粒在大氣層內部完全蒸發之前，會作為一個流星體跨越宇宙空間網格移動。)",
+    "example": "Most meteoroids are fragments of asteroids or comets that vaporize when they enter Earth's atmosphere. (大多數流星體是小行星或彗星的碎片，進入地球大氣層時就會汽化。)",
     "id": "TOEFL-meteoroid-mgib9y"
   },
   {
     "level": "TOEFL",
     "word": "needlelike",
     "meaning": "針狀的",
-    "example": "Coniferous timberline spruces spruce tree lines possess specialized thick needlelike foliage configurations to resist atmospheric dryness. (林木線針葉雲杉樹林，具備特化的肥厚針狀的葉片構造，以抵抗大氣乾燥。)",
+    "example": "Spruces at the timberline have thick, needlelike leaves that help them resist dry air. (林木線上的雲杉有厚實的針狀葉，能幫助它們抵抗乾燥的空氣。)",
     "id": "TOEFL-needlelike-mlxaw1"
   },
   {
     "level": "TOEFL",
     "word": "subglacial",
     "meaning": "冰川下的",
-    "example": "Research geologists survey deep subglacial meltwater river watercourses channels trapped beneath polar tundra ice sheet matrices. (研究地質學家調查困在極地凍原冰原基質下方的深層冰川下的融水河流水道通道。)",
+    "example": "Geologists survey the subglacial channels where meltwater flows beneath polar ice sheets. (地質學家調查極地冰層下方融水流動的冰下河道。)",
     "id": "TOEFL-subglacial-map1osm"
   },
   {
     "level": "TOEFL",
     "word": "taro",
     "meaning": "芋頭",
-    "example": "Subsistence agriculturalist home gardening setups in subtropic biomes relied heavily on cultivating fleshy, starchy taro tubers. (亞熱帶生物群系內維持生存的農業家庭園藝配置，高度依賴耕作肥厚、富含澱粉的芋頭塊莖。)",
+    "example": "Farmers in subtropical regions once relied heavily on starchy taro tubers for food. (亞熱帶地區的農民曾高度依賴富含澱粉的芋頭塊莖為食。)",
     "id": "TOEFL-taro-mn1fm"
   },
   {
     "level": "TOEFL",
     "word": "varicolored",
     "meaning": "五顏六色的；雜色的",
-    "example": "The mineral crystallization formations inside the limestone cavern network featured beautifully varicolored and iridescent crystal walls. (石灰岩大溶洞網路內部的礦物結晶構造，以美麗的五顏六色的且具虹彩光澤的晶體牆為特色。)",
+    "example": "The walls of the limestone cave were covered with varicolored crystals. (石灰岩洞穴的牆面覆滿五顏六色的結晶。)",
     "id": "TOEFL-varicolored-mjgvogn"
   },
   {
     "level": "TOEFL",
     "word": "almanac",
     "meaning": "曆書；年鑑",
-    "example": "The pioneer homesteader cross-referenced a commercial agricultural almanac to forecast the seasonal onset of rain drops. (拓荒農莊主交叉比對了一本商業農業年鑑，以預測季節性降雨的開始。)",
+    "example": "The homesteader consulted an almanac to predict when the rainy season would begin. (這位拓荒農場主人查閱曆書，預測雨季何時開始。)",
     "id": "TOEFL-almanac-m1oq49dy"
   },
   {
@@ -2173,105 +2173,105 @@
     "level": "TOEFL",
     "word": "Americanism",
     "meaning": "美國精神；美國向特點",
-    "example": "The expansion of midwest prairie agrarian homestead structures epitomized seventeenth-century seventeenth-century capitalism and individualistic Americanism. (中西部大草原農業農莊構造的擴張，成為了十七世紀資本主義與個人主義美國精神的縮影。)",
+    "example": "The spread of farm homesteads across the Midwest came to symbolize nineteenth-century capitalism and a distinctly American individualism. (農場宅地在中西部的擴張，後來象徵了十九世紀的資本主義與獨特的美國個人主義。)",
     "id": "TOEFL-americanism-mxvnvq3"
   },
   {
     "level": "TOEFL",
     "word": "archipelago",
     "meaning": "群島；列島",
-    "example": "Polynesian watercraft masters completed maritime migration tracking loops across thousands of isolated islands inside the Pacific archipelago. (玻里尼西亞船隻大師，完成了跨越太平洋群島內數千個孤立島嶼的海洋遷移追蹤循環。)",
+    "example": "Polynesian navigators crossed thousands of isolated islands in the Pacific archipelago. (玻里尼西亞航海家橫越太平洋群島中數千座孤立的島嶼。)",
     "id": "TOEFL-archipelago-memo3rc"
   },
   {
     "level": "TOEFL",
     "word": "bureaucratization",
     "meaning": "官僚化",
-    "example": "The historical centralization of state administrative legal guidelines fueled the rapid bureaucratization of mercantile trade tax networks. (國家行政法律方針歷史上的集中化，刺激了商業貿易稅收網路快速的官僚化。)",
+    "example": "The centralization of state administration sped up the bureaucratization of the tax system that governed trade. (國家行政的中央集權，加速了管理貿易的稅務體系官僚化。)",
     "id": "TOEFL-bureaucratization-mdt6hg"
   },
   {
     "level": "TOEFL",
     "word": "bylaw",
     "meaning": "內部章程；地方法規",
-    "example": "The organizational council formalize a specific legal bylaw requiring all guild craftspeople artisans to register tool marks. (組織議會規範了一條特定的合法內部章程，要求所有公會手工藝人登記工具標記。)",
+    "example": "The guild council passed a bylaw requiring every craftsperson to register a personal tool mark. (公會理事會通過一條內部章程，要求每位工匠登記個人的工具刻記。)",
     "id": "TOEFL-bylaw-m14znvqq"
   },
   {
     "level": "TOEFL",
     "word": "classicism",
     "meaning": "古典主義；古典風格",
-    "example": "Classical Egyptian art conformed rigidly to formulas of classicism, classicism, enforcing strict frontality and unchangeable symmetry symbols. (古典埃及藝術嚴格符合古典主義的公式，實施嚴格的正面性與不可改變的對稱符號。)",
+    "example": "Ancient Egyptian art followed the strict rules of classicism, favoring frontal poses and balanced symmetry. (古埃及藝術遵循嚴格的古典主義規則，偏好正面姿態與對稱平衡。)",
     "id": "TOEFL-classicism-m13nxg2p"
   },
   {
     "level": "TOEFL",
     "word": "disorientation",
     "meaning": "迷失方向；迷亂狀態",
-    "example": "Disruptive anomalies inside Earth's paleomagnetic geomagnetic field can cause severe tracking disorientation inside migratory bird groups paths. (地球古地磁場內部的破壞性異常，會在候鳥群體的路徑中引發嚴重的追蹤迷失方向。)",
+    "example": "Anomalies in Earth's magnetic field can cause severe disorientation in migrating birds. (地球磁場的異常，可能讓候鳥嚴重迷失方向。)",
     "id": "TOEFL-disorientation-miwhhj3"
   },
   {
     "level": "TOEFL",
     "word": "douse",
     "meaning": "把…浸入水中；熄滅（火）",
-    "example": "The Bronze Age metalworker would douse the molten liquid copper bullions inside watery pools to accelerate solidification. (青銅時代的金屬工匠，會將熔融的液態銅條塊浸入水中，以加速凝固。)",
+    "example": "The Bronze Age metalworker doused the hot copper in water to speed up cooling. (青銅時代的金屬工匠把高溫的銅浸入水中，加速冷卻。)",
     "id": "TOEFL-douse-m6mrwto"
   },
   {
     "level": "TOEFL",
     "word": "duet",
     "meaning": "二重奏；二重唱",
-    "example": "The silent film projector show featured a live musical accompaniment routine, blending a piano and flute duet. (默片電影放映秀以現場音樂伴奏常規表演為特色，融合了鋼琴與長笛的二重奏。)",
+    "example": "The silent film screening featured a live piano and flute duet. (那場默片放映搭配了鋼琴與長笛的現場二重奏。)",
     "id": "TOEFL-duet-mht3g3n"
   },
   {
     "level": "TOEFL",
     "word": "dyestuff",
     "meaning": "染料",
-    "example": "Metropolitan outwork weavers extracted organic dyestuff minerals to dye raw woolen raw woolen textiles vivid magenta colors. (大都市家庭代工編織工提取有機染料礦物，以將羊毛紡織原料染成鮮豔的洋紅色。)",
+    "example": "Weavers extracted natural dyestuffs from plants to dye raw wool a vivid magenta. (織工從植物中提取天然染料，把原色羊毛染成鮮豔的洋紅色。)",
     "id": "TOEFL-dyestuff-mi7ty"
   },
   {
     "level": "TOEFL",
     "word": "einkorn",
     "meaning": "單粒小麥（最早被馴化的野生小麥一種）",
-    "example": "Neolithic agriculturalists worked to domesticate wild einkorn grain grains by selecting seeds that adhered firmly to stems. (新石器時代的農業勞動者，藉由篩選牢固附著在莖上的種子，來努力馴化野生單粒小麥穀物。)",
+    "example": "Neolithic farmers domesticated wild einkorn by selecting plants whose seeds stayed attached to the stem. (新石器時代的農民挑選種子緊附在莖上的植株，馴化了野生單粒小麥。)",
     "id": "TOEFL-einkorn-mbpf5c6"
   },
   {
     "level": "TOEFL",
     "word": "endpoint",
     "meaning": "終點；結束點",
-    "example": "The terminal debris moraine tracks mark the exact structural endpoint of the retreated glacier's melting snout outline. (末端碎屑冰磧痕跡標記了後退冰河融化前端輪廓的確切結構終點。)",
+    "example": "Terminal moraines mark the endpoint of a glacier's farthest advance. (終磧標記了冰河推進最遠的終點。)",
     "id": "TOEFL-endpoint-m1vf0tcg"
   },
   {
     "level": "TOEFL",
     "word": "eon",
     "meaning": "極漫長的時間；宙（地質最大時間單位）",
-    "example": "The transition from stable multicellular life across the Proterozoic eon consumed hundreds of millions of geological eras. (跨越元古代向穩定多細胞生物的過渡，消耗了數億年的地質時代。)",
+    "example": "The Proterozoic eon lasted nearly two billion years and saw the rise of multicellular life. (元古宙持續將近二十億年，期間出現了多細胞生物。)",
     "id": "TOEFL-eon-m14c108y"
   },
   {
     "level": "TOEFL",
     "word": "extremity",
     "meaning": "極端；末端；手足（四肢末端）",
-    "example": "To resist freezing thermal dissipation, polar marine seals minimize core fluid circulation near each peripheral extremity flipper. (為了抵抗冰凍的熱量耗散，極地海洋海豹將每個周邊鰭狀肢末端附近的內在流體循環降到最低。)",
+    "example": "Polar seals limit blood flow to the extremities of their flippers to conserve heat. (極地海豹限制流向前肢末端的血流，以保住熱量。)",
     "id": "TOEFL-extremity-m16xkoqc"
   },
   {
     "level": "TOEFL",
     "word": "forebear",
     "meaning": "祖先；祖宗",
-    "example": "Evolutionary genomic sequencing tracking tracks confirmed that the primitive eocene theropod was the ancestral forebear of birds. (演化基因體序列追蹤軌跡證實，始新世原始的獸腳類恐龍是鳥類的祖先。)",
+    "example": "Genetic evidence confirms that the theropod dinosaur was the ancient forebear of modern birds. (基因證據證實，獸腳類恐龍是現代鳥類的古老祖先。)",
     "id": "TOEFL-forebear-m1njhpbe"
   },
   {
     "level": "TOEFL",
     "word": "gaslit",
     "meaning": "煤氣燈照明的",
-    "example": "Late Victorian metropolitan metropolises metropolis sectors featured glass-iron commercial arcades lit by dynamic automated gaslit fields. (維多利亞時代晚期的大都市部門，以由動態自動化煤氣燈照明的玻璃-鐵製商業拱廊街為特色。)",
+    "example": "Late Victorian shopping arcades were lit by rows of gaslit lamps. (維多利亞時代晚期的購物拱廊，由一排排煤氣燈照明。)",
     "id": "TOEFL-gaslit-m1ahhrkk"
   },
   {
@@ -2285,238 +2285,238 @@
     "level": "TOEFL",
     "word": "landscapist",
     "meaning": "風景畫家",
-    "example": "Thomas Cole was a prominent American landscapist who founded the school specializing in naturalistic wild wilderness illustration. (湯姆·科爾是一位著名的美國風景畫家，他創立了專精於寫實野生荒野插圖的學派。)",
+    "example": "Thomas Cole was a leading American landscapist and a founder of the Hudson River School. (湯姆·柯爾是美國重要的風景畫家，也是哈德遜河派的創始人之一。)",
     "id": "TOEFL-landscapist-mjoq56a"
   },
   {
     "level": "TOEFL",
     "word": "moat",
     "meaning": "護城河",
-    "example": "The militaristic chieftain ordered laborers to dig a unified deep water moat around the stone masonry citadel. (軍事首領命令勞工，在石造建築城堡周圍挖掘一條統一的深水護城河。)",
+    "example": "The chieftain ordered workers to dig a deep moat around the stone fortress. (首領下令工人繞著石造堡壘挖一條深護城河。)",
     "id": "TOEFL-moat-mkuxcs"
   },
   {
     "level": "TOEFL",
     "word": "outrigger",
     "meaning": "（船隻的）舷外浮體；支撐浮筒",
-    "example": "The invention of the stable outrigger watercraft permitted early seafarers to complete expansive maritime migration tracks successfully. (穩固的支撐浮筒船隻的發明，容許早期的航海家成功完成廣闊的海洋遷移軌跡。)",
+    "example": "The outrigger canoe allowed early seafarers to travel vast distances across the ocean. (舷外浮桿獨木舟讓早期航海家得以橫越廣闊的海洋。)",
     "id": "TOEFL-outrigger-mj6s8vg"
   },
   {
     "level": "TOEFL",
     "word": "overprint",
     "meaning": "加印；套印；套色版",
-    "example": "The nineteenth-century printmaking artisan utilized an intaglio lithograph tool to overprint deep maroon details onto text. (十九世紀的版畫工匠，利用凹雕石版畫工具在文字上套印深栗色細節。)",
+    "example": "The nineteenth-century printer used a second plate to overprint dark red details onto the page. (十九世紀的印刷工使用第二塊版，在頁面上套印深紅色細節。)",
     "id": "TOEFL-overprint-mwcjsxi"
   },
   {
     "level": "TOEFL",
     "word": "pathology",
     "meaning": "病理學；病變",
-    "example": "Research endocrinology coordinates with plant pathology labs to evaluate how viral micro-infestations cause broadleaf foliage necrosis. (研究內分泌學與植物病理學實驗室協調，以評估病毒微生物感染如何引起闊葉樹葉片壞死。)",
+    "example": "Plant pathology examines the causes and effects of disease in plants. (植物病理學研究植物疾病的成因與影響。)",
     "id": "TOEFL-pathology-m11lr06h"
   },
   {
     "level": "TOEFL",
     "word": "perm",
     "meaning": "燙髮；燙髮液",
-    "example": "Cultural sociologists analyzed late Victorian fashion trends, tracking how the expansion of automated perm mechanics shifted aesthetics. (文化社會學家分析了維多利亞時代晚期的時尚趨勢，追蹤了自動化燙髮機制的擴張如何改變審美觀。)",
+    "example": "Sociologists studied how the spread of the home perm changed Victorian ideas of beauty. (社會學家研究家用燙髮的普及如何改變維多利亞時代的審美觀。)",
     "id": "TOEFL-perm-mijv8pj"
   },
   {
     "level": "TOEFL",
     "word": "petiole",
     "meaning": "葉柄",
-    "example": "The research botanist measured stomatal conductance variations metrics across the broadleaf foliage leaf blades and petiole tubes. (研究植物學家測量了跨越闊葉葉片與葉柄管的氣孔導度變異指標。)",
+    "example": "The botanist measured water loss from the leaf blades and petioles of the plant. (植物學家測量這種植物葉片與葉柄的水分散失。)",
     "id": "TOEFL-petiole-mn2jf"
   },
   {
     "level": "TOEFL",
     "word": "planetary",
     "meaning": "行星的",
-    "example": "Periodic adjustments in Earth's planetary cosmic orbital geometry path dictate the predictable recurrence of massive glaciation loops. (地球行星的宇宙軌道幾何路徑的週期性調整，主導了大範圍冰河作用循環的可預測重現。)",
+    "example": "Slow changes in Earth's planetary orbit help explain the regular return of ice ages. (地球行星軌道的緩慢變化，有助於解釋冰河期規律重現。)",
     "id": "TOEFL-planetary-mkgpld"
   },
   {
     "level": "TOEFL",
     "word": "pylon",
     "meaning": "高壓電線塔；高塔門（埃及廟宇結構）",
-    "example": "The ancient Egyptian architectural matrix featured a grandiose stone pylon entrance framework engraved with cuneiform-like reliefs. (古埃及的建築基質以一個宏偉的石造塔門入口框架為特色，上面雕刻著類似楔形文字的浮雕。)",
+    "example": "The temple entrance was framed by a massive stone pylon carved with reliefs. (神廟入口由一座巨大的石造塔門構成，上面刻有浮雕。)",
     "id": "TOEFL-pylon-m1dae7sq"
   },
   {
     "level": "TOEFL",
     "word": "railhead",
     "meaning": "鐵路終點站",
-    "example": "The midwest railhead emerged as a booming commercial metropolis sector, where ranchers brought livestock for exportation trade. (中西部鐵路終點站顯現為一個繁榮的商業大都市部門，牧場主在此將牲畜運來進行出口貿易。)",
+    "example": "The railhead grew into a busy market town where ranchers brought cattle for shipment east. (鐵路終點站發展成熱鬧的市集城鎮，牧場主把牛隻送來以便運往東部。)",
     "id": "TOEFL-railhead-mto6jtv"
   },
   {
     "level": "TOEFL",
     "word": "soloist",
     "meaning": "獨奏者；獨唱者",
-    "example": "The silent Broadway film theater hired an expert piano soloist to deliver live dynamic accompaniments to scenes. (默片百老匯電影院雇用了一位專家級鋼琴獨奏者，以為場景提供現場動態伴奏。)",
+    "example": "The silent-film theater hired a piano soloist to accompany the screen action live. (那家默片戲院請了一位鋼琴獨奏者，現場為銀幕上的情節伴奏。)",
     "id": "TOEFL-soloist-m1m9kcbj"
   },
   {
     "level": "TOEFL",
     "word": "southerly",
     "meaning": "向南的；南方的；來自南方的",
-    "example": "A dynamic thermal regional airstream route flowing along a southerly track pushed warm moist airflow over valleys. (沿著向南的軌道流動的動態熱量區域氣流路徑，將溫暖潮濕的氣流推向山谷上方。)",
+    "example": "A southerly wind carried warm, moist air into the valleys. (一股南風把溫暖潮濕的空氣帶進山谷。)",
     "id": "TOEFL-southerly-m1wjwtoo"
   },
   {
     "level": "TOEFL",
     "word": "southerner",
     "meaning": "南方人",
-    "example": "The historical biographer traced letters from a prominent southerner rancher who established private fencing setups across plains. (歷史傳記作者追蹤了一位著名的南方人牧場主的書信，他在平原跨度間建立了私有圍欄編制。)",
+    "example": "The biographer traced letters written by a prominent Southerner who ran a ranch and fenced off large tracts of prairie. (傳記作者追查一位知名南方人寫的信；此人經營牧場，並在大草原上圍起大片土地。)",
     "id": "TOEFL-southerner-mcp6m0"
   },
   {
     "level": "TOEFL",
     "word": "speechwriter",
     "meaning": "演講稿撰寫人",
-    "example": "The prominent Whig political leader hired an expert speechwriter to draft anti-monopoly subsidies infrastructure bills proposals. (這位著名的輝格黨政治領袖雇用了一位專家級演講稿撰寫人，以起草反壟斷補貼基礎設施法案提案。)",
+    "example": "The Whig leader hired a speechwriter to draft his speeches on infrastructure spending. (這位輝格黨領袖雇用演講稿撰寫人，替他起草基礎建設支出的演講稿。)",
     "id": "TOEFL-speechwriter-mucp7bb"
   },
   {
     "level": "TOEFL",
     "word": "stratosphere",
-    "meaning": "平流層（同平流層）",
-    "example": "High-energy gaseous volcanic soot elements particles can escape into Earth's upper stratosphere, shielding global solar rays. (高能氣態火山煙塵微粒會逸入地球的上平流層，阻擋全球的太陽光線。)",
-    "id": "TOEFL-stratosphere-mr0t9hp"
+    "meaning": "平流層",
+    "example": "Volcanic particles that reach the stratosphere can block sunlight around the world. (進入平流層的火山微粒，可能阻擋全球的陽光。)",
+    "id": "TOEFL-stratosphere-med4ae"
   },
   {
     "level": "TOEFL",
     "word": "tepee",
     "meaning": "（北美原住民的）圓錐帳篷",
-    "example": "Migratory hunter-gatherer tribes engineered portable tepee shelters constructed using rawhide sheets draped over straight timber poles. (遷移的狩獵採集部落工程建造了可攜式的圓錐帳篷庇護所，是利用支撐在筆直木桿上的生牛皮片建造而成的。)",
+    "example": "Plains tribes lived in portable tepees made of rawhide stretched over wooden poles. (平原部落住在可攜帶的圓錐帳篷裡，帳篷是用撐在木桿上的生牛皮搭成的。)",
     "id": "TOEFL-tepee-m13js7wo"
   },
   {
     "level": "TOEFL",
     "word": "tieback",
     "meaning": "（窗簾的）繫帶；拉桿（固牆結構）",
-    "example": "Civil engineers installed a stable horizontal iron tieback structure to reinforce the structural masonry fortress wall fortification. (土木工程師安裝了一個穩固的水平鐵製拉桿結構，以加固結構性的石造城堡牆壁防禦工事。)",
+    "example": "Engineers installed horizontal iron tiebacks to reinforce the old masonry wall. (工程師安裝水平的鐵製拉桿，加固老舊的石造牆體。)",
     "id": "TOEFL-tieback-mx1kwfg"
   },
   {
     "level": "TOEFL",
     "word": "toehold",
     "meaning": "立足點；（攀岩）腳踏處",
-    "example": "Lichen functions as a pioneer colonizer, securing a vital biological toehold inside microscopic fractures of granite rock. (地衣充當先驅的拓殖生物，在花崗岩岩石的微小裂縫內部獲得了一個關鍵的生物立足點。)",
+    "example": "Lichens gain a toehold in tiny cracks in granite and slowly break the rock down. (地衣在花崗岩的細小裂縫中取得立足點，慢慢分解岩石。)",
     "id": "TOEFL-toehold-mjng9z0"
   },
   {
     "level": "TOEFL",
     "word": "verbalizable",
     "meaning": "可用言語表達的",
-    "example": "The complex ritualistic commandments guidelines verbalizable by the shaman were meticulously inscribed onto organic clay mud tablets. (薩滿可用言語表達的複雜宗教儀式誡命方針，被細心地雕刻在有機黏土泥板上。)",
+    "example": "The shaman's verbalizable rules were carefully recorded on clay tablets. (薩滿能以言語表達的規範，被仔細記錄在泥板上。)",
     "id": "TOEFL-verbalizable-m1kxcfgh"
   },
   {
     "level": "TOEFL",
     "word": "waling",
     "meaning": "板樁條；條痕；編條工藝",
-    "example": "Pioneer civil engineers installed thick cedar horizontal waling horizontal waling struts to stabilize the marshy wetland roadbed. (拓荒土木工程師安裝了厚實的雪松水平板樁條支柱，以穩定沼澤濕地的路基。)",
+    "example": "Engineers drove horizontal cedar waling along the roadbed to hold the marshy ground in place. (工程師沿路基施作雪松水平板樁條，固定沼澤地層。)",
     "id": "TOEFL-waling-m12p2r4g"
   },
   {
     "level": "TOEFL",
     "word": "deluge",
     "meaning": "大洪水；暴雨；氾濫",
-    "example": "A sudden winter deluge triggered by atmospheric rain drops caused an onrushing flash flood across the lowlands. (由大氣降雨引發的突然冬季暴雨，在低地跨度間引發了一場洶湧而來的突發洪水。)",
+    "example": "A sudden winter deluge sent a flash flood sweeping across the lowlands. (一場突如其來的冬季暴雨，讓洪水瞬間淹過低地。)",
     "id": "TOEFL-deluge-muc6mve"
   },
   {
     "level": "TOEFL",
     "word": "fray",
     "meaning": "磨損；爭吵；使焦躁",
-    "example": "High-velocity airstreams can fray the structural connective tissues and broadleaf foliage setups of timberline coniferous biomes. (高速的氣流，會磨損林木線針葉生物群系的結構性連接組織與闊葉樹葉配置。)",
+    "example": "Strong winds can fray the needles and twigs of trees at the timberline. (強風會磨損林木線樹木的針葉與細枝。)",
     "id": "TOEFL-fray-m10qdm71"
   },
   {
     "level": "TOEFL",
     "word": "microbe",
     "meaning": "微生物；細菌",
-    "example": "A specialized anaerobic soil microbe can actively decompose organic nitrogen starches inside waterlogged fen wetland till layers. (一種特化的厭氧土壤微生物，能積極分解積水低地沼澤濕地冰磧層內部的有機氮澱粉。)",
+    "example": "Anaerobic microbes in waterlogged fen soil break down plant matter without oxygen. (積水沼澤土中的厭氧微生物，在沒有氧氣的情況下分解植物殘體。)",
     "id": "TOEFL-microbe-m1ugxs4f"
   },
   {
     "level": "TOEFL",
     "word": "mote",
     "meaning": "微塵；微粒",
-    "example": "Under powerful electron microscopy, microscopy, the sediment sample granule appeared no larger than a tiny microscopic mote. (在強大的電子顯微鏡下，沉積物樣本微粒看起來不比一個微小的微塵大。)",
+    "example": "Under the electron microscope, the grain looked no bigger than a mote of dust. (在電子顯微鏡下，那粒砂子看起來不比一顆灰塵大。)",
     "id": "TOEFL-mote-mv5pue0"
   },
   {
     "level": "TOEFL",
     "word": "bedpan",
     "meaning": "（臥床病人用的）便盆",
-    "example": "Industrial geographers mapping late nineteenth-century nineteenth-century metropolitan metropolis hospital facilities cataloged mass-produced ceramic bedpan items. (歷史地理學家在繪製十九世紀晚期大都市醫院設施的地圖時，登記了大量生產的陶瓷便盆品項。)",
+    "example": "Geographers mapping nineteenth-century hospitals cataloged mass-produced ceramic bedpans. (繪製十九世紀醫院分布圖的地理學家，記錄了大量生產的陶瓷便盆。)",
     "id": "TOEFL-bedpan-m11isjn6"
   },
   {
     "level": "TOEFL",
     "word": "condenses",
     "meaning": "凝結；濃縮（動詞第三人稱單數）",
-    "example": "When warm pressurized respiration air meets cold polar air, the gaseous mixture condenses into a vaporous whale spout. (當溫暖受壓的呼吸空氣遇到寒冷的極地空氣時，氣態混合物會凝結成霧狀的鯨魚噴水柱。)",
+    "example": "When warm air from the whale's lungs meets cold air, the moisture condenses into a visible spout. (鯨魚肺部的暖空氣遇上冷空氣時，水氣凝結成看得見的噴水柱。)",
     "id": "TOEFL-condenses-m1izji4t"
   },
   {
     "level": "TOEFL",
     "word": "coniferous",
     "meaning": "針葉樹的；松柏類的",
-    "example": "The black spruce is a highly resilient coniferous tree that marks the northern outermost boundary of the timberline. (黑雲杉是一種高度具恢復力的針葉樹的樹木，標記了林木線北部的最外層邊界。)",
+    "example": "The black spruce is a hardy coniferous tree that marks the northern edge of the timberline. (黑雲杉是一種耐寒的針葉樹，標示出林木線的北界。)",
     "id": "TOEFL-coniferous-m4n4njv"
   },
   {
     "level": "TOEFL",
     "word": "electrify",
     "meaning": "使電氣化；使興奮震驚",
-    "example": "The municipality municipal coalition drafted bills to fully electrify urban tram transit paths across the centrally metropolis matrix. (地方城市聯盟起草法案，以使整個大都市中心的城市路面電車交通線路完全電氣化。)",
+    "example": "The city council drafted a bill to electrify all of the city's tram lines. (市議會起草法案，要讓全市的路面電車路線全面電氣化。)",
     "id": "TOEFL-electrify-m19pxv7w"
   },
   {
     "level": "TOEFL",
     "word": "fiord",
     "meaning": "峽灣 (同 fjord)",
-    "example": "Retreating massive coastal polar ice glaciers carved deep vertical valleys, transforming the seashore into a rugged fiord landform. (後退的巨大沿海極地冰河雕琢出深邃的垂直山谷，將海濱轉化為崎嶇的峽灣地形。)",
+    "example": "Retreating glaciers carved deep valleys along the coast, creating a rugged fiord landscape. (後退的冰河在海岸切出深谷，形成崎嶇的峽灣地形。)",
     "id": "TOEFL-fiord-fjord"
   },
   {
     "level": "TOEFL",
     "word": "floe",
     "meaning": "浮冰（大片海上浮冰）",
-    "example": "A massive Arctic ice floe drifted southward into ocean transit paths, forced directly by dynamic polar airflow currents. (在動態極地氣流的直接驅動下，一片巨大的北極海上浮冰向南漂移進入海洋交通路徑。)",
+    "example": "A huge Arctic ice floe drifted south into the shipping lanes, pushed by polar winds. (一大片北極浮冰在極地氣流推動下，向南漂進航道。)",
     "id": "TOEFL-floe-m19o50q6"
   },
   {
     "level": "TOEFL",
     "word": "harper",
     "meaning": "豎琴師",
-    "example": "The preindustrial theater hired an expert harper to deliver live musical accompaniments to heighten abstract naturalistic dramatic plots. (工業化前的劇院雇用了一位專家級的豎琴師，以提供現場音樂伴奏來增強抽象的自然主義戲劇節奏。)",
+    "example": "The theater hired a harper to play live music during the performance. (那家劇院請了一位豎琴師，在演出時現場演奏。)",
     "id": "TOEFL-harper-ml43t1"
   },
   {
     "level": "TOEFL",
     "word": "hue",
     "meaning": "顏色；色彩；色調",
-    "example": "The artisan applied ground manganese minerals to produce a brilliant cyan hue glaze for finishing the earthenware pot. (工匠塗抹了磨碎的錳礦物，以生產出鮮豔的青色色調釉料，用以完成土器罐子的表面處理。)",
+    "example": "The artisan added ground manganese to the glaze to give the pot a brilliant blue-green hue. (工匠在釉料中加入磨碎的錳，讓陶罐呈現鮮豔的藍綠色調。)",
     "id": "TOEFL-hue-m1sn63tl"
   },
   {
     "level": "TOEFL",
     "word": "indigo",
     "meaning": "靛藍；靛青色顏料",
-    "example": "Artisans ground natural mineral crystals to manufacture an intensive indigo hue glaze for finishing the earthenware earthen pot. (工匠磨碎天然礦物晶體，以製造出一種深濃的靛藍色調釉料，用以完成土罐的表面上色。)",
+    "example": "Artisans extracted indigo dye from plants to create a deep blue glaze for earthenware pots. (工匠從植物提取靛藍染料，製作深藍色釉料，用來裝飾陶罐。)",
     "id": "TOEFL-indigo-m19to2nw"
   },
   {
     "level": "TOEFL",
     "word": "intaglio",
     "meaning": "凹雕；凹版印刷",
-    "example": "Nineteenth-century printmaking artisans utilized intaglio etching methods on flat copper slabs to produce detailed visual blueprint prints. (十九世紀的版畫工匠在平坦的銅板上利用凹雕蝕刻方法，以生產出精細的視覺藍圖印刷畫。)",
+    "example": "Nineteenth-century printmakers used intaglio methods to cut fine detail into copper plates. (十九世紀的版畫家使用凹版方法，在銅板上刻出精細的細節。)",
     "id": "TOEFL-intaglio-m1qf1jf9"
   },
   {
@@ -2530,64 +2530,64 @@
     "level": "TOEFL",
     "word": "loam",
     "meaning": "壤土（含有砂、粉砂與黏土的肥沃土壤）",
-    "example": "The agriculturalist breadbasket plain featured broad hectares rich in loess loam soil matrices, optimized for corn crop growth. (這片農業穀倉平原以富含黃土壤土土壤基質的廣闊公頃土地為特色，高度優化了玉米作物的生長。)",
+    "example": "The fertile breadbasket plain has deep loam soils well suited to growing corn. (這片肥沃的穀倉平原擁有深厚的壤土，非常適合種玉米。)",
     "id": "TOEFL-loam-m1c8beae"
   },
   {
     "level": "TOEFL",
     "word": "mesh",
     "meaning": "網眼；網絲；緊密配合",
-    "example": "The seller relied on a specialized iron wire mesh sieve to standardize grain particle sizes before trade formalization. (賣方在貿易正式化之前，依賴一個特化的鐵絲網眼篩子來使穀物顆粒大小標準化。)",
+    "example": "The seller used an iron mesh sieve to sort grain by size before selling it. (賣方用鐵絲網篩把穀物按大小分級，然後才出售。)",
     "id": "TOEFL-mesh-m4hsuip"
   },
   {
     "level": "TOEFL",
     "word": "monoid",
-    "meaning": "么半群（數學概念）",
-    "example": "Mathematical theorists define a monoid structure based on a set of linear properties conforming strictly to associative regularities. (數學理論家基於一組嚴格符合結合律規律性的線性性質，來定義一個么半群結構。)",
-    "id": "TOEFL-monoid-m198wlcg"
+    "meaning": "單位半群（數學概念）",
+    "example": "Mathematicians define a monoid as a set with an associative operation and an identity element. (數學家把單位半群定義為具有結合運算與單位元素的集合。)",
+    "id": "TOEFL-monoid-mfwkmcn"
   },
   {
     "level": "TOEFL",
     "word": "smelter",
     "meaning": "熔煉廠；熔煉工",
-    "example": "The Bronze Age industrial metalworker brought processed copper ores to the local kiln smelter to forge bullion slabs. (青銅時代的工業金屬工匠將加工過的銅礦石運到當地的窯內熔煉廠，以鍛造出金屬條塊。)",
+    "example": "Bronze Age metalworkers brought copper ore to a local smelter to produce ingots. (青銅時代的金屬工匠把銅礦石送到當地熔煉廠，煉成金屬錠。)",
     "id": "TOEFL-smelter-megbg9s"
   },
   {
     "level": "TOEFL",
     "word": "tambourine",
     "meaning": "鈴鼓",
-    "example": "Early vaudeville performers handcraft unique dynamic rhythms by combining brass cornet notes with a mechanical hand-shaken tambourine. (早期的綜藝雜耍表演者藉由將黃銅短號音符與手搖的鈴鼓相結合，手工演奏出獨特的動態節奏。)",
+    "example": "Early vaudeville acts combined cornet music with a hand-shaken tambourine to create lively rhythms. (早期的綜藝表演把短號音樂與手搖鈴鼓結合，營造熱鬧的節奏。)",
     "id": "TOEFL-tambourine-mpqov"
   },
   {
     "level": "TOEFL",
     "word": "triangular",
     "meaning": "三角形的；三方面的",
-    "example": "The ancestral pueblo stone masonry villages dwellings often feature compact boxlike rooms arranged in precise triangular layout profiles. (祖傳普埃布洛石造村落住宅，經常以排列成精確三角形的緊湊箱形房間為特色。)",
+    "example": "Ancestral Pueblo villages often had compact, boxlike rooms arranged in a triangular layout. (祖先普韋布洛人的村落常有緊湊的箱形房間，排列成三角形布局。)",
     "id": "TOEFL-triangular-m1rkjhcy"
   },
   {
     "level": "TOEFL",
     "word": "vibrato",
     "meaning": "顫音（音樂概念）",
-    "example": "The Broadway theatre orchestra brass cornet notes integrated a dynamic vocal vibrato to expand dynamic range ranges amplification. (百老匯劇院管弦樂團黃銅短號音符融入了動態的聲音顫音，以擴大動態範圍的放大。)",
+    "example": "The singer added a warm vibrato that gave the Broadway orchestra a richer sound. (這位歌手加上溫暖的顫音，讓百老匯管弦樂團的音色更豐富。)",
     "id": "TOEFL-vibrato-m1qmgdzb"
   },
   {
     "level": "TOEFL",
     "word": "woodwind",
     "meaning": "木管樂器",
-    "example": "The early silent film movie theater utilized a live orchestra integration, blending brass cornet notes with woodwind flutes. (早期的默片電影院利用了現場管弦樂團的整合，將黃銅短號音符與木管樂器長笛相融合。)",
+    "example": "Early silent-film theaters used small orchestras that mixed brass and woodwind instruments. (早期的默片戲院使用小編制管弦樂團，結合銅管與木管樂器。)",
     "id": "TOEFL-woodwind-mdj0jxb"
   },
   {
     "level": "TOEFL",
     "word": "cenote",
-    "meaning": "天然井（同 cenotes）",
-    "example": "The ancient Maya choice to situate a ritual platform near the deep subterranean freshwater cenote landmark was strategic. (古代馬雅人選擇在深層地下淡水天然井地標附近安置一個儀式平台，是具備戰略意義的。)",
-    "id": "TOEFL-cenote-cenotes"
+    "meaning": "天然井",
+    "example": "The ancient Maya deliberately built a ritual platform beside a deep freshwater cenote. (古代馬雅人刻意在一個深淡水天然井旁搭建儀式平台。)",
+    "id": "TOEFL-cenote-mdlts8"
   },
   {
     "level": "TOEFL",
@@ -2600,126 +2600,126 @@
     "level": "TOEFL",
     "word": "mite",
     "meaning": "蟎；微小之物；極小錢",
-    "example": "The specialized parasitic mite can crawl inside dense angiosperm bud sepals, sepals, triggering tissue necrosis and foliage loss. (這種特化的寄生蟎能爬入密集的被子植物花蕾萼片內部，引發組織壞死與葉片流失。)",
+    "example": "The parasitic mite crawls into the sepals of flower buds, where it causes tissue damage. (這種寄生蟎會爬進花蕾的萼片，造成組織損傷。)",
     "id": "TOEFL-mite-mxiqyop"
   },
   {
     "level": "TOEFL",
     "word": "afloat",
     "meaning": "漂浮著的；在海上的",
-    "example": "Gas-filled bladder structures function to keep single-celled marine alga colonies afloat near sunlit ocean surface current layers. (充滿氣體的氣囊構造起到使單細胞海洋藻類群落漂浮著的作用，使其保持在陽光充足的海洋表面洋流層附近。)",
+    "example": "Gas-filled bladders keep colonies of single-celled marine algae afloat near the sunlit surface. (充滿氣體的氣囊讓單細胞海藻群體漂浮在受光照的表層附近。)",
     "id": "TOEFL-afloat-mxqfdu3"
   },
   {
     "level": "TOEFL",
     "word": "helper",
     "meaning": "助手；幫手",
-    "example": "The expert joiner cabinetmaker hired a young immigrant laborer helper to clean the wood split slat remnants inside workshop. (專家級細木工匠雇用了一名年輕的移民勞工助手，來清理工作坊內部分裂的木板條殘留物。)",
+    "example": "The master cabinetmaker hired a young immigrant as a helper to clean up wood scraps in the shop. (這位細木工匠師傅雇用一名年輕移民當助手，清理工作坊裡的木屑。)",
     "id": "TOEFL-helper-m1giv2qh"
   },
   {
     "level": "TOEFL",
     "word": "oily",
     "meaning": "油膩的；油質的",
-    "example": "Chemical analysis revealed that the seed matrix layers of the processed taro plant were rich in oily lipid compounds. (化學分析顯示，加工過的芋頭植物的種子基質層富含油質的脂質化合物。)",
+    "example": "Chemical analysis showed that the seeds of the taro plant are rich in oily compounds. (化學分析顯示，芋頭的種子富含油脂成分。)",
     "id": "TOEFL-oily-m16cqrpo"
   },
   {
     "level": "TOEFL",
     "word": "spillage",
     "meaning": "溢出；漏出量",
-    "example": "High-velocity ocean current waves wave induced a severe fluid spillage inside watercraft hulls, damaging fragile raw flax cargoes. (高速的洋流波浪在船隻船體內部引發了嚴重的液體溢出，損壞了脆弱的亞麻原料貨物。)",
+    "example": "A leak in the hull caused a serious spillage of oil that soaked the cargo of raw flax. (船體裂縫造成大量漏油，浸濕了亞麻原料貨物。)",
     "id": "TOEFL-spillage-m1hxcb9d"
   },
   {
     "level": "TOEFL",
     "word": "gild",
     "meaning": "鍍金；粉飾",
-    "example": "Ancient Mediterranean artisans utilized gold bullion leaf sheets leaf sheets to gild the stone facade of the centralized ancestral palace. (古代地中海工匠利用金條箔片來鍍金集中的祖先宮殿的石造正面。)",
+    "example": "Ancient Mediterranean artisans used thin sheets of gold leaf to gild the stone facade of the palace. (古代地中海的工匠用薄金箔為宮殿的石造正面鍍金。)",
     "id": "TOEFL-gild-mr53zgs"
   },
   {
     "level": "TOEFL",
     "word": "alluvial",
     "meaning": "沖積的",
-    "example": "Post-glacial river meltwater streams deposited highly fertile layers of alluvial silt across the lowland basin. (冰河期後的河流融水溪流，在低地盆地跨度上沉積了高度肥沃的沖積粉砂層。)",
+    "example": "Post-glacial river meltwater streams deposited highly fertile layers of alluvial silt across the lowland basin. (冰河期後，河流融水在低地盆地沉積了深厚肥沃的沖積粉砂層。)",
     "id": "TOEFL-alluvial-mgi0vh"
   },
   {
     "level": "TOEFL",
     "word": "dorsal",
     "meaning": "背部的；背向的",
-    "example": "The hydrodynamical hydrodynamic anatomy profile of the prehistoric ichthyosaur included an enlarged rigid dorsal pectoral fin. (史前魚龍的流體動力學解剖特徵，包括一個擴大的硬質背部的胸鰭。)",
+    "example": "The ichthyosaur had a large, stiff dorsal fin that helped stabilize it in the water. (魚龍有一個大型堅硬的背鰭，幫助牠在水中保持穩定。)",
     "id": "TOEFL-dorsal-m11erhzg"
   },
   {
     "level": "TOEFL",
     "word": "grotto",
     "meaning": "洞穴；人工岩洞",
-    "example": "Acidic groundwater erosion completely hollowed out the limestone bedrock layer, generating a spectacular subterranean grotto network. (酸性地下水侵蝕完全掏空了石灰岩基岩層，產生了一個壯觀的地下洞穴網路。)",
+    "example": "Acidic groundwater erosion completely hollowed out the limestone bedrock layer, generating a spectacular subterranean grotto network. (酸性地下水侵蝕石灰岩基岩層，逐漸掏空岩石，形成壯觀的地下洞穴群。)",
     "id": "TOEFL-grotto-mqhw0hx"
   },
   {
     "level": "TOEFL",
     "word": "alpha",
     "meaning": "阿爾法 (第一個字母/首要的/領頭的)",
-    "example": "The alpha wolf coordinates vocal communication howling across the valley to direct group defense lines against invaders. (領頭狼協調跨越山谷的聲音溝通嚎叫，以指導群體防線對抗入侵者。)",
+    "example": "The alpha wolf howled across the valley to coordinate the pack's defense against intruders. (領頭狼隔著山谷嚎叫，協調狼群防禦入侵者。)",
     "id": "TOEFL-alpha-mw237cg"
   },
   {
     "level": "TOEFL",
     "word": "ancestral",
     "meaning": "祖傳的；祖先的",
-    "example": "The ancestral pueblo villagers engineered multi-story stone kivas deep within naturalistic sandstone alcoves. (祖傳普埃布洛村民在寫實的砂岩凹處深處，工程建造了多層石造儀式建築。)",
+    "example": "Ancestral Pueblo villagers built multi-story stone kivas deep inside sandstone alcoves. (祖先普韋布洛人在砂岩壁龕深處建造多層的石造儀式建築。)",
     "id": "TOEFL-ancestral-mk2z3by"
   },
   {
     "level": "TOEFL",
     "word": "Andromeda",
     "meaning": "仙女座；仙女座星系",
-    "example": "Astronomers theorize that the massive Andromeda galaxy is moving along a gravitational trajectory destined to merge with our solar cosmos. (天文學家推論，龐大的仙女座星系正沿著一條重力軌道移動，注定與我們的太陽宇宙合併。)",
+    "example": "Astronomers expect the Andromeda galaxy to merge with our own Milky Way in several billion years. (天文學家預期仙女座星系會在數十億年後與我們的銀河系合併。)",
     "id": "TOEFL-andromeda-moutwij"
   },
   {
     "level": "TOEFL",
     "word": "ashcan",
     "meaning": "垃圾桶；垃圾箱",
-    "example": "The Ashcan School of painters rejected traditional naturalism, choosing instead to portray gritty urban tenement backdrops. (垃圾箱畫派的畫家拒絕了傳統的自然主義，轉而選擇描繪真實的都市廉租公寓背景。)",
+    "example": "The Ashcan School painters turned away from polished academic subjects and painted gritty scenes of city life. (垃圾箱畫派的畫家揚棄學院派精緻題材，改畫粗礪的城市生活場景。)",
     "id": "TOEFL-ashcan-mrxvos6"
   },
   {
     "level": "TOEFL",
     "word": "atlas",
     "meaning": "地圖集；（解剖）寰椎（第一頸椎）",
-    "example": "The historical geographer cross-referenced an archaic colonial atlas to chart preindustrial turnpike transit networks. (歷史地理學家交叉比對了一本古老的殖民地地圖集，以繪製工業化前的收費公路交通網路。)",
+    "example": "The historical geographer cross-referenced an archaic colonial atlas to chart preindustrial turnpike transit networks. (歷史地理學家對照一本古老的殖民地地圖集，繪製工業化前的收費公路網。)",
     "id": "TOEFL-atlas-m1tinn7i"
   },
   {
     "level": "TOEFL",
     "word": "attacker",
     "meaning": "攻擊者",
-    "example": "The stone fortification wall fortification setup acted to deter any aggressive border boundary attacker from invading pueblos. (石造防禦牆工事的配置，起到嚇阻任何激進的邊境攻擊者入侵普埃布洛的作用。)",
+    "example": "The stone walls were built to deter attackers from the border. (這些石牆是為了嚇阻來自邊界的攻擊者而建。)",
     "id": "TOEFL-attacker-mfbmra"
   },
   {
     "level": "TOEFL",
     "word": "baedeker",
     "meaning": "旅遊指南；導遊手冊",
-    "example": "The nineteenth-century oversea voyager carried a compact Baedeker handbook to navigate the commercial seaports of the Mediterranean Basin. (十九世紀的海外旅人隨身攜帶一本精簡的柯里爾旅遊指南，以在地中海盆地的商業海港中航行。)",
+    "example": "In the nineteenth century, travelers carried a compact Baedeker to find their way around Mediterranean ports. (十九世紀的旅人會帶一本精簡的貝德克爾指南，在地中海各港口間找路。)",
     "id": "TOEFL-baedeker-m1d9yc75"
   },
   {
     "level": "TOEFL",
     "word": "bandanna",
     "meaning": "大印花手帕；方巾",
-    "example": "The frontier rancher wore a thick cotton bandanna to shield their respiratory tract against airborne steppe topsoil dust. (拓荒牧場主佩戴厚棉質方巾，以保護其呼吸道免受空氣中大草原表土塵埃的傷害。)",
+    "example": "The rancher wore a cotton bandanna over his face to keep the prairie dust out. (這位牧場主人用棉質方巾遮住口鼻，擋住草原的塵土。)",
     "id": "TOEFL-bandanna-mzy75pq"
   },
   {
     "level": "TOEFL",
     "word": "berg",
     "meaning": "冰山（同 iceberg）",
-    "example": "As polar temperatures escalate, a massive coastal glacier will calve an immense crystalline berg directly into the ocean seaway. (隨著極地氣溫攀升，巨大的沿海冰河會直接將一座巨大的結晶冰山崩解落入海洋航道中。)",
+    "example": "As polar temperatures rise, a coastal glacier may calve a huge berg into the sea. (隨著極地氣溫上升，沿海冰河可能崩解出一座巨大的冰山落入海中。)",
     "id": "TOEFL-berg-iceberg"
   },
   {
@@ -2732,9 +2732,9 @@
   {
     "level": "TOEFL",
     "word": "boule",
-    "meaning": "梨形人造寶石單晶；古代希臘議會",
-    "example": "In modern semiconductor fabrication, a large silicon boule is sliced meticulously into thin wafers to encode microchips. (在現代半導體製造中，一個大型的矽單晶柱被精細地切成薄片，以對微晶片進行編碼。)",
-    "id": "TOEFL-boule-m3kz9kk"
+    "meaning": "矽晶柱（半導體單晶錠）；古希臘議會",
+    "example": "In semiconductor manufacturing, a large silicon boule is sliced into thin wafers that become microchips. (在半導體製造中，大型矽晶柱會被切成薄晶圓，再製成微晶片。)",
+    "id": "TOEFL-boule-m1lo7r7d"
   },
   {
     "level": "TOEFL",
@@ -2747,70 +2747,70 @@
     "level": "TOEFL",
     "word": "caput",
     "meaning": "頭；首要部分 (解剖學常用)",
-    "example": "Cranial evolutionary science analyzes the structural parameters of the hominid caput skeleton to track ancestral brain enlargement. (顱骨演化科學分析原始人類頭部骨骼的結構參數，以追蹤祖先大腦的擴大。)",
+    "example": "Paleoanthropologists study the hominid caput to track the evolution of a larger brain. (古人類學家研究原始人類的頭部，追蹤腦容量變大的演化。)",
     "id": "TOEFL-caput-myx5ewj"
   },
   {
     "level": "TOEFL",
     "word": "catechism",
     "meaning": "教義問答；核心問答手冊",
-    "example": "Literate clergy inside medieval metropolitan schools utilized a formal Latin catechism to guide student intellectual codes. (中世紀大都市學校內部的具備文化素養的神職人員，利用正式的拉丁文教義問答來指導學生的知識規範。)",
+    "example": "Literate clergy in medieval schools used a Latin catechism to teach students the basics of the faith. (中世紀學校裡識字的神職人員用拉丁文教義問答，教導學生信仰的基本道理。)",
     "id": "TOEFL-catechism-m18ob3ud"
   },
   {
     "level": "TOEFL",
     "word": "cerebral",
     "meaning": "大腦的；理智的",
-    "example": "Cognitive psychologists theorize that the cerebral cortex dictates complex language generalization achievements inside primates. (認知心理學家推論，大腦皮質主導著靈長類內複雜語言概括成就。)",
+    "example": "Cognitive psychologists believe the cerebral cortex controls complex language abilities in primates. (認知心理學家認為，大腦皮質掌管靈長類複雜的語言能力。)",
     "id": "TOEFL-cerebral-m1rgg716"
   },
   {
     "level": "TOEFL",
     "word": "chafe",
     "meaning": "擦傷；摩擦受熱；激怒",
-    "example": "Rigid structural rawhide ropes can chafe and warp delicate cedar woodcraft planks unless fluid lubricants are added. (僵硬的結構性生牛皮繩索會摩擦並扭曲精緻的雪松木船板，除非添加流體潤滑劑。)",
+    "example": "Stiff rawhide ropes can chafe and warp delicate cedar planks unless they are lubricated. (僵硬的生牛皮繩會磨損、扭彎精細的雪松木板，除非先上潤滑油。)",
     "id": "TOEFL-chafe-muh1t1o"
   },
   {
     "level": "TOEFL",
     "word": "chondritic",
     "meaning": "球粒隕石的",
-    "example": "The chemical parameters tracked inside primitive chondritic stony meteorites preserve sample fragments of Earth's primordial solar nebula. (在原始球粒隕石石質隕石內部追蹤的化學參數，保存了地球原始太陽星雲的樣本碎片。)",
+    "example": "Primitive chondritic meteorites preserve chemical traces of the solar nebula from which the planets formed. (原始球粒隕石保存了行星形成時太陽星雲的化學痕跡。)",
     "id": "TOEFL-chondritic-m17rb0mv"
   },
   {
     "level": "TOEFL",
     "word": "cleanly",
     "meaning": "乾淨俐落地；乾淨的",
-    "example": "Under extreme plate compact stresses, brittle horizontal sandstone rock units will fracture cleanly along vertical fault lines. (在極端的板塊壓實應力下，脆性的水平砂岩岩石單元會沿著垂直斷層線乾淨俐落地發生斷裂。)",
+    "example": "Under extreme tectonic stress, brittle sandstone layers fracture cleanly along vertical faults. (在極大的板塊應力下，脆性的砂岩層會沿著垂直斷層俐落地斷裂。)",
     "id": "TOEFL-cleanly-m1jnttlk"
   },
   {
     "level": "TOEFL",
     "word": "cole",
     "meaning": "油菜類植物；科爾 (人名例：湯姆·科爾)",
-    "example": "Thomas Cole founded the Hudson River School, specializing in naturalistic paintings that captured wild American wilderness expanses. (湯姆·科爾創立了哈德遜河派，專精於捕捉原始美國荒野廣闊空間的自然主義畫作。)",
+    "example": "Thomas Cole founded the Hudson River School, specializing in naturalistic paintings that captured wild American wilderness expanses. (湯姆·柯爾創立了哈德遜河派，專門描繪美國荒野的自然景觀。)",
     "id": "TOEFL-cole-m5scepj"
   },
   {
     "level": "TOEFL",
     "word": "contamination",
     "meaning": "污染；弄髒",
-    "example": "Excessive phosphorus runoff creates toxic contamination, triggering catastrophic alga blooms inside freshwater river basins. (過量的磷逕流造成有毒污染，在淡水河流盆地內部引發了毀滅性的藻類大量增殖。)",
+    "example": "Excess phosphorus in runoff can contaminate rivers and trigger massive algal blooms. (逕流中的磷過量會污染河川，並引發大規模藻華。)",
     "id": "TOEFL-contamination-mbpwxqv"
   },
   {
     "level": "TOEFL",
     "word": "currier",
     "meaning": "皮革製革匠；（人名例：柯里爾）",
-    "example": "The Currier printmaking workshop manufactured highly popular lithograph profiles capturing historical midwest agrarian homestead scenes. (柯里爾版畫工作坊製造了非常受歡迎的石版畫輪廓，捕捉了歷史上的中西部農業農莊場景。)",
+    "example": "The Currier print workshop produced popular lithographs of farm life in the Midwest. (柯里爾版畫工坊製作了一批受歡迎的石版畫，描繪中西部的農場生活。)",
     "id": "TOEFL-currier-m1dln85s"
   },
   {
     "level": "TOEFL",
     "word": "cuspidor",
     "meaning": "痰盂",
-    "example": "The historical geographer mapping nineteenth-century nineteenth-century metropolis tavern transit sectors cataloged iron cuspidor artifacts. (繪製十九世紀大都市小酒館交通部門地圖的歷史地理學家，登記了鐵製痰盂文物。)",
+    "example": "A geographer mapping nineteenth-century taverns cataloged the iron cuspidors found in them. (一位地理學家在繪製十九世紀酒館分布圖時，記錄了店裡的鐵製痰盂。)",
     "id": "TOEFL-cuspidor-mkpn6"
   },
   {
@@ -2838,7 +2838,7 @@
     "level": "TOEFL",
     "word": "duchenne",
     "meaning": "杜氏 (常指真實笑容 Duchenne smile)；杜氏肌營養不良症",
-    "example": "Experimental psychologists monitor personal spatial expressions, tracking the activation of eye muscle orbits inside a true Duchenne smile. (實驗心理學家監測個人的空間表情，追蹤真實杜氏笑容內部眼部肌肉軌道的活化狀態。)",
+    "example": "Psychologists can identify a genuine Duchenne smile by the contraction of muscles around the eyes. (心理學家能藉由眼周肌肉的收縮，辨認出真正的杜氏笑容。)",
     "id": "TOEFL-duchenne-duchenne-smile"
   },
   {
@@ -2873,14 +2873,14 @@
     "level": "TOEFL",
     "word": "escutcheon",
     "meaning": "（器物上的）裝飾盾牌；銘牌；紋章盾",
-    "example": "Archaeologists uncovered a Bronze Age bronze blade, blade, noting that the ornate metal escutcheon featured etched bands. (考古學家挖掘出了一把青銅時代的青銅刃，注意到華麗的金屬裝飾盾牌以蝕刻條帶為特色。)",
+    "example": "Archaeologists found a Bronze Age blade whose metal escutcheon was decorated with etched bands. (考古學家找到一把青銅時代的刀刃，上面的金屬裝飾牌飾有蝕刻條紋。)",
     "id": "TOEFL-escutcheon-m118rai0"
   },
   {
     "level": "TOEFL",
     "word": "facelift",
     "meaning": "面部拉皮手術；（建築）翻新",
-    "example": "The municipal coalition funded an architectural facelift for the metropolitan arcade sector, converting lofts into artisan labs. (地方聯盟資助了對大都市拱廊街部門的建築翻新，將閣樓轉化為工匠實驗室。)",
+    "example": "The city funded a facelift for the old shopping arcade, turning its lofts into artists' studios. (市府出資翻新舊拱廊街，把閣樓改成藝術家工作室。)",
     "id": "TOEFL-facelift-mo1fe9b"
   },
   {
@@ -2894,7 +2894,7 @@
     "level": "TOEFL",
     "word": "fanwise",
     "meaning": "扇形地；呈扇形展開地",
-    "example": "When a sediment-laden river exits a steep mountain canyon, its velocity drops, and it deposits silt fanwise across the delta. (當載滿沉積物的河流駛出一座陡峭的山區峽谷時，其流速下降，並將粉砂呈扇形展開地沉積在三角洲跨度上。)",
+    "example": "When a sediment-laden river exits a steep mountain canyon, its velocity drops, and it deposits silt fanwise across the delta. (當滿載泥沙的河流流出陡峭的山谷時，流速下降，泥沙呈扇形堆積在三角洲上。)",
     "id": "TOEFL-fanwise-mnzpuvx"
   },
   {
@@ -2907,43 +2907,43 @@
   {
     "level": "TOEFL",
     "word": "flier",
-    "meaning": "傳單；飛行物（鳥/昆蟲）",
-    "example": "The prehistoric Mesozoic pterosaur was an exceptionally agile aerial flier, utilizing aerodynamic wings to glide over oceans. (史前中生代的翼龍是一種異常敏捷的空中飛行生物，利用空氣動力學翅膀在海洋上空滑翔。)",
-    "id": "TOEFL-flier-m1uvz9z7"
+    "meaning": "飛行者；飛行生物；飛機",
+    "example": "The pterosaur was an agile flier that could glide over the ocean on its long wings. (翼龍是敏捷的飛行生物，能靠長翼在海上滑翔。)",
+    "id": "TOEFL-flier-miwmc8t"
   },
   {
     "level": "TOEFL",
     "word": "foreleg",
     "meaning": "（四足動物的）前肢",
-    "example": "The evolutionary transition to upright bipedal locomotion freed the hominid foreleg to shape rudimentary tool blanks. (向直立雙足移動的演化過渡，釋放了原始人類的前肢，使其能加工基本的工具胚料。)",
+    "example": "In horses and other quadrupeds, the foreleg carries much of the body's weight. (在馬等四足動物身上，前肢承受了身體大半的重量。)",
     "id": "TOEFL-foreleg-m1xb2hbi"
   },
   {
     "level": "TOEFL",
     "word": "genu",
     "meaning": "膝部；（解剖）彎曲件",
-    "example": "Cranial and skeletal micro-dissections analyze the mammalian primate skeleton profile, documenting how joint bones link near the genu. (顱骨與骨骼的微觀解剖分析了哺乳動物靈長類的骨骼特徵，記錄了關節骨在膝部附近如何連接。)",
+    "example": "Dissections of the primate skeleton show how the bones of the knee joint meet at the genu. (靈長類骨骼的解剖顯示膝關節的骨頭如何在膝部相接。)",
     "id": "TOEFL-genu-meqb5mc"
   },
   {
     "level": "TOEFL",
     "word": "gesso",
     "meaning": "石膏底料（用於繪畫基底）",
-    "example": "Before coating the wooden slab with tempera paint, the Renaissance artisan applied a smooth mineral layer of gesso canvas. (在木板上塗抹蛋彩顏料之前，文藝復興時期的工匠會先塗上一層平滑的石膏底料礦物層。)",
+    "example": "Before applying tempera paint, the Renaissance artist covered the wooden panel with a smooth layer of gesso. (在上蛋彩顏料之前，文藝復興畫家先在木板上塗一層平滑的石膏底料。)",
     "id": "TOEFL-gesso-m1p69bu9"
   },
   {
     "level": "TOEFL",
     "word": "grande",
     "meaning": "大的；格蘭德 (如 Rio Grande 里奧格蘭德河)",
-    "example": "Ancestral pueblo agrarian communities engineered sophisticated canal networks along the Rio Grande lowlands for crop reuse. (祖傳普埃布洛農業社區沿著里奧格蘭德低地工程建造了精密的運河網路，以供作物再利用。)",
+    "example": "Ancestral Pueblo farming communities built elaborate canals along the Rio Grande to irrigate their crops. (祖先普韋布洛農業社群在里奧格蘭德河沿岸建造精密的運河網，灌溉作物。)",
     "id": "TOEFL-grande-rio-grande"
   },
   {
     "level": "TOEFL",
     "word": "homeotherm",
     "meaning": "恆溫動物 (同 endotherm)",
-    "example": "An active avian homeotherm must maintain heavy metabolic actions to sustain constant internal core heat inside frigid Arctic tundras. (一隻活躍的鳥類恆溫動物必須維持強烈的新陳代謝活動，以在寒冷的北極凍原內部保持恆定的內部核心熱量。)",
+    "example": "An active bird, as a homeotherm, must keep a high metabolic rate to stay warm in the Arctic. (活躍的鳥類是恆溫動物，必須維持高代謝率才能在北極保暖。)",
     "id": "TOEFL-homeotherm-endotherm"
   },
   {
@@ -2964,35 +2964,35 @@
     "level": "TOEFL",
     "word": "ironwork",
     "meaning": "鐵器製品；鐵作",
-    "example": "The Art Deco urban metropolis skyscrapers featured streamlined architectural ironwork and bold geometric motifs. (裝飾藝術城市大都市摩天大樓，以流線型的建築鐵器製品與前衛的幾何主題為特色。)",
+    "example": "The Art Deco urban metropolis skyscrapers featured streamlined architectural ironwork and bold geometric motifs. (裝飾藝術風格的城市摩天大樓，以流線型的鐵作與大膽的幾何圖樣為特色。)",
     "id": "TOEFL-ironwork-meojbyj"
   },
   {
     "level": "TOEFL",
     "word": "keel",
     "meaning": "（船隻的）龍骨；鳥類的龍骨突",
-    "example": "The avian skeleton features an enlarged pectoral keel wall structure that anchors the powerful muscle fibers required for propulsion. (鳥類骨骼以一個擴大的胸部龍骨突牆壁構造為特色，該構造錨定了動力推進所需的強壯肌肉纖維。)",
+    "example": "The bird's skeleton has a large keel that anchors the powerful flight muscles. (鳥類骨骼有大型龍骨突，用來附著強而有力的飛行肌肉。)",
     "id": "TOEFL-keel-mlqwy7g"
   },
   {
     "level": "TOEFL",
     "word": "kinglet",
     "meaning": "戴菊鳥（一種微小型鳥類）；小國王",
-    "example": "The golden-crowned kinglet is a tiny endothermic broadleaf forest bird capable of surviving polar winter weather drops. (金冠戴菊鳥是一種微小的內溫性闊葉林鳥類，能夠在極端的冬季氣溫下降中存活下來。)",
+    "example": "The golden-crowned kinglet is a tiny bird that can survive extremely cold winters. (金冠戴菊是小型鳥類，能度過極寒冷的冬天。)",
     "id": "TOEFL-kinglet-mz0tb0h"
   },
   {
     "level": "TOEFL",
     "word": "knap",
     "meaning": "敲擊（燧石等以製作石器）",
-    "example": "A skilled Paleolithic artisan could knap a crude stone slab into a symmetrical scraper using targeted bone percussion. (一位熟練的舊石器時代工匠，能利用定向的骨頭敲擊將一塊粗糙的石頭厚板敲擊成對稱的刮削器。)",
+    "example": "A skilled Paleolithic artisan could knap a rough stone slab into a symmetrical scraper. (熟練的舊石器時代工匠能把粗糙的石片敲打成對稱的刮削器。)",
     "id": "TOEFL-knap-mtg8o65"
   },
   {
     "level": "TOEFL",
     "word": "lacuna",
     "meaning": "（書稿等）空白；漏字；（生物）空隙/腔洞",
-    "example": "The extensive fragmentation of the organic mudmud tablet left a severe historical lacuna inside the cuneiform corpus archive. (有機泥板廣泛的碎片化，在楔形文字全集檔案內部留下了一個嚴重的歷史空白。)",
+    "example": "The damaged tablet left a major lacuna in the cuneiform archive. (這塊泥板破損嚴重，在楔形文字檔案中留下了一大段空白。)",
     "id": "TOEFL-lacuna-m1rselqx"
   },
   {
@@ -3006,21 +3006,21 @@
     "level": "TOEFL",
     "word": "lipid",
     "meaning": "脂質；脂肪",
-    "example": "The thick layer of subsurface subcutaneous mammalian blubber consists heavily of rich chemical lipid tissue configurations. (厚實的皮下哺乳動物鯨脂層，主要由豐富的化學脂質組織構造所組成。)",
+    "example": "The thick layer of blubber under a whale's skin is made up largely of lipids. (鯨魚皮膚下厚厚的一層鯨脂，主要由脂質組成。)",
     "id": "TOEFL-lipid-mq12srf"
   },
   {
     "level": "TOEFL",
     "word": "lira",
     "meaning": "里拉 (舊時貨幣單位)",
-    "example": "The historical geographer analyzed early mercantile registries, tracking commodity trade transactions compiled inside Italian lira values. (歷史地理學家分析了早期的商業登記冊，追蹤了以義大利里拉價值編纂的商品貿易交易。)",
+    "example": "The geographer studied early merchant ledgers to track trade recorded in Italian lira. (這位地理學家研究早期的商人帳冊，追蹤以義大利里拉記錄的貿易。)",
     "id": "TOEFL-lira-migejle"
   },
   {
     "level": "TOEFL",
     "word": "loess",
     "meaning": "黃土",
-    "example": "The flat midwest plains feature thick, highly fertile layers of loess topsoil deposited by historic post-glacial wind streams. (平坦的中西部平原以厚實、高度肥沃的黃土表土層為特色，是由歷史上冰河期後的風流沉積而成的。)",
+    "example": "The flat plains of the Midwest are covered with thick, fertile loess deposited by wind after the ice age. (中西部平坦的平原覆蓋著厚實肥沃的黃土，是冰河期後由風吹積而成。)",
     "id": "TOEFL-loess-mrhdo"
   },
   {
@@ -3034,21 +3034,21 @@
     "level": "TOEFL",
     "word": "magnetism",
     "meaning": "磁性；磁學；吸引力",
-    "example": "Geophysicists analyze how internal planetary core iron convection loops loop generate Earth's permanent paleomagnetic magnetism patterns. (地球物理學家分析行星內部核心鐵對流循環，如何產生地球永久的古地磁磁性型態。)",
+    "example": "Geophysicists study how convection in the iron core generates Earth's magnetic field. (地球物理學家研究鐵質地核的對流如何產生地球磁場。)",
     "id": "TOEFL-magnetism-m15nsrwv"
   },
   {
     "level": "TOEFL",
     "word": "maize",
     "meaning": "玉米",
-    "example": "The systematic diffusion of maize agriculture permitted migratory hunter-gatherer tribes to settle into large permanent pueblos. (玉米農業的系統化傳播，容許遷移的狩獵採集部落定居在大型永久的普埃布洛中。)",
+    "example": "As maize farming spread, nomadic hunter-gatherers settled into large permanent pueblos. (隨著玉米農業傳播，游獵採集者定居在大型的永久村落。)",
     "id": "TOEFL-maize-mkc22"
   },
   {
     "level": "TOEFL",
     "word": "mantel",
     "meaning": "壁爐架；壁爐正面裝飾",
-    "example": "The wealthy metropolitan burgher embellished his formal parlor chamber with a carved cedar wood fireplace mantel frame. (富有的城市大都市市民用一個雕刻的雪松木壁爐架框架，裝飾了他正式的客廳大廳。)",
+    "example": "The wealthy merchant decorated his parlor with a carved cedar mantel. (這位富商以雕刻的雪松壁爐架裝飾客廳。)",
     "id": "TOEFL-mantel-mvtb2n7"
   },
   {
@@ -3062,14 +3062,14 @@
     "level": "TOEFL",
     "word": "microscopy",
     "meaning": "顯微鏡檢查；顯微鏡學",
-    "example": "Advanced electron microscopy allows biochemists to analyze the pristine atomic structure of eukaryotic cell membranes. (先進的電子顯微鏡學容許生物化學家分析真核細胞膜的原始原子結構。)",
+    "example": "Advanced electron microscopy allows biochemists to analyze the pristine atomic structure of eukaryotic cell membranes. (先進的電子顯微鏡讓生物化學家能分析真核細胞膜完整的原子結構。)",
     "id": "TOEFL-microscopy-m1ek288c"
   },
   {
     "level": "TOEFL",
     "word": "monolithic",
     "meaning": "單塊巨石的；大一統的；僵化的",
-    "example": "The ancient palace facade was constructed from unshaped monolithic fieldstone blocks fieldstone blocks extracted from local quarries. (古代宮殿的正面是由從當地採石場開採出來的、未塑形的單塊巨石的野石塊建造而成的。)",
+    "example": "The palace facade was built from massive fieldstone blocks taken from local quarries. (宮殿正面是用當地採石場開採的巨型原石砌成的。)",
     "id": "TOEFL-monolithic-memc6s2"
   },
   {
@@ -3090,7 +3090,7 @@
     "level": "TOEFL",
     "word": "outcrop",
     "meaning": "（岩石/地層的）露頭；露出地面",
-    "example": "The geologist extracted primitive crystalline basalt samples directly from an exposed volcanic bedrock outcrop landmark. (地質學家直接從一個裸露的火山基岩露頭地標中，提取出原始的結晶玄武岩樣本。)",
+    "example": "The geologist took samples of crystalline basalt from a nearby rock outcrop. (地質學家從附近的岩石露頭採集結晶玄武岩樣本。)",
     "id": "TOEFL-outcrop-mtww938"
   },
   {
@@ -3111,14 +3111,14 @@
     "level": "TOEFL",
     "word": "photogrammetry",
     "meaning": "航空攝影測量學",
-    "example": "Archaeologists utilize advanced aerial photogrammetry mapping grids to delineate the massive layout of ancestral pueblo earthworks. (考古學家利用先進的航空攝影測量學地圖繪製網格，來描繪祖傳普埃布洛土方工程的宏大佈局。)",
+    "example": "Archaeologists use aerial photogrammetry to map the layout of Ancestral Pueblo earthworks. (考古學家利用航空攝影測量，繪製祖先普韋布洛人土方工程的布局。)",
     "id": "TOEFL-photogrammetry-mnn8ur5"
   },
   {
     "level": "TOEFL",
     "word": "pinhole",
     "meaning": "針孔；小孔",
-    "example": "The early documentarian utilized a rudimentary pinhole camera setup tool to capture monochrome pictorial prints of landmarks. (早期紀錄片工作者利用一個基本的針孔相機配置工具，來捕捉地標的單色圖片印刷畫。)",
+    "example": "The early photographer used a simple pinhole camera to take black-and-white pictures of landmarks. (早期的攝影師用簡單的針孔相機拍攝地標的黑白照片。)",
     "id": "TOEFL-pinhole-men7215"
   },
   {
@@ -3132,49 +3132,49 @@
     "level": "TOEFL",
     "word": "quasar",
     "meaning": "類星體",
-    "example": "A quasar represents an exceptionally luminous interstellar cosmic formation powered by a massive centralized black hole. (類星體代表了一種由巨大集中化黑洞驅動的、異常明亮的星際宇宙構造。)",
+    "example": "A quasar is an extremely bright object powered by a massive black hole at the center of a galaxy. (類星體是極明亮的天體，由星系中心的超大質量黑洞提供能量。)",
     "id": "TOEFL-quasar-mmtncj"
   },
   {
     "level": "TOEFL",
     "word": "quill",
     "meaning": "（鳥類的）羽毛筆；大羽毛；豪豬刺",
-    "example": "Scribes inside medieval metropolitan scriptoriums processed avian quill stems to transcribe royal legal inscriptions onto sheets. (中世紀大都市抄經室內部的書吏，處理鳥類的羽毛莖，以將皇家法律銘文抄寫到紙張上。)",
+    "example": "Medieval scribes trimmed goose quills to copy royal documents onto parchment. (中世紀的書吏修整鵝毛筆，把皇家文件抄寫到羊皮紙上。)",
     "id": "TOEFL-quill-m1p1lyix"
   },
   {
     "level": "TOEFL",
     "word": "rake",
     "meaning": "耙子；傾斜度；（用耙子）耙平",
-    "example": "The Neolithic home gardening practitioner used a handheld bone rake tool to smooth loose granular topsoil loam. (新石器時代的家庭園藝從業者，利用手持的骨製耙子工具來撫平鬆散的顆粒狀表土壤土。)",
+    "example": "Neolithic farmers used a handheld bone rake to smooth loose topsoil. (新石器時代的農民用骨製手持耙子整平鬆動的表土。)",
     "id": "TOEFL-rake-mkpsgwl"
   },
   {
     "level": "TOEFL",
     "word": "recital",
     "meaning": "獨奏會；朗誦；背誦",
-    "example": "The grand commercial arcade palace became the centerpiece center sectors for high-society piano recital entertainment routines. (宏偉的商業拱廊街宮殿，成為了上流社會鋼琴獨奏會娛樂常規表演的核心部門。)",
+    "example": "The grand arcade became the favorite venue for piano recitals among the city's elite. (這座宏偉的拱廊成為上流社會舉辦鋼琴獨奏會的首選場所。)",
     "id": "TOEFL-recital-m1mgjzxj"
   },
   {
     "level": "TOEFL",
     "word": "reradiate",
     "meaning": "重新輻射出",
-    "example": "Volatile greenhouse gas clouds trap atmospheric warmth, causing the planet to reradiate thermal energy back onto surfaces. (揮發性溫室氣體雲鎖住了大氣的溫暖，導致該行星將熱能重新輻射出回到地表上。)",
+    "example": "Greenhouse gases trap heat in the atmosphere, and the planet reradiates some of it toward the surface. (溫室氣體把熱困在大氣中，行星再把部分熱能輻射回地表。)",
     "id": "TOEFL-reradiate-mf91qq6"
   },
   {
     "level": "TOEFL",
     "word": "rime",
     "meaning": "（地質/氣候）霧凇；白霜",
-    "example": "During freezing subfreezing polar tundra polar tundra nights, water vapor condenses directly into a brittle layer of rime ice. (在冰凍低於冰點的極地凍原夜晚，水蒸氣會直接凝結成一層脆性的霧凇冰。)",
+    "example": "On freezing nights, water vapor turns directly into a brittle layer of rime ice. (在冰凍的夜晚，水氣會直接凝結成一層脆薄的霧凇。)",
     "id": "TOEFL-rime-mzlidkk"
   },
   {
     "level": "TOEFL",
     "word": "riverbed",
     "meaning": "河床 (同 streambed)",
-    "example": "Relentless stream erosion hollowed out coarse boulders and gravel layers along the rugged horizontal riverbed channel surface. (無休止的溪流侵蝕，沿著崎嶇不平的水平河床通道表面掏空了粗糙的巨石與礫石層。)",
+    "example": "The stream eroded the riverbed, exposing layers of gravel and boulders. (溪流侵蝕河床，露出礫石與巨石的層次。)",
     "id": "TOEFL-riverbed-streambed"
   },
   {
@@ -3188,35 +3188,35 @@
     "level": "TOEFL",
     "word": "secretin",
     "meaning": "促胰液素",
-    "example": "Biochemists isolated secretin, a specialized hormonal fluid secreted by mammalian upper intestinal glands to stimulate regulatory tracking. (生物化學家分離出了促胰液素，這是一種由哺乳動物上腸道腺體分泌的特化荷爾蒙流體，用以刺激調節追蹤。)",
+    "example": "Biochemists isolated secretin, a hormone released by the small intestine that helps regulate digestion. (生物化學家分離出促胰液素，這是小腸分泌、有助調節消化的荷爾蒙。)",
     "id": "TOEFL-secretin-mall9ff"
   },
   {
     "level": "TOEFL",
     "word": "semicircular",
     "meaning": "半圓形的",
-    "example": "The ancestral pueblo people engineered semi-subterranean kivas constructed in a precise, stone-masonry semicircular profile. (祖傳普埃布洛人工程建造了半地下的儀式建築，其構造呈精確的石造半圓形輪廓。)",
+    "example": "Ancestral Pueblo people built semi-subterranean kivas with a precise semicircular stone wall. (祖先普韋布洛人建造半地下的儀式建築，牆體是精確的半圓形石造結構。)",
     "id": "TOEFL-semicircular-mavemuj"
   },
   {
     "level": "TOEFL",
     "word": "shipwreck",
     "meaning": "船隻失事；海難化石沉積",
-    "example": "Marine archaeologists excavated a historical mercantile steamship shipwreck site located along the navigation waterfront canal. (海洋考古學家挖掘了一個位於導航濱水運河沿線的歷史商業蒸汽船船隻失事遺址。)",
+    "example": "Marine archaeologists excavated a nineteenth-century steamship shipwreck in the harbor. (海洋考古學家在港區挖掘一艘十九世紀蒸汽船的沉船遺址。)",
     "id": "TOEFL-shipwreck-m7yo3m4"
   },
   {
     "level": "TOEFL",
     "word": "singleton",
     "meaning": "獨生子；單個物；單子（數學/生物）",
-    "example": "Unlike altricial avian hatchlings born in clusters, clusters, the polar pinniped mammal regularly gives birth to a single singleton neonate. (與成群出生的晚熟性鳥類雛鳥不同，極地鰭足類哺乳動物定期只產下一隻單個的新生兒。)",
+    "example": "A singleton seal pup is the only offspring born to a female during one breeding season. (單胎海豹幼獸是雌海豹在一個繁殖季中唯一產下的後代。)",
     "id": "TOEFL-singleton-movsjad"
   },
   {
     "level": "TOEFL",
     "word": "sleeper",
     "meaning": "臥鋪；臥鋪車廂；睡眠者",
-    "example": "The luxurious Pullman sleeper car modernized overland intercity rail travel across nineteenth-century America. (奢華的普爾曼臥鋪車廂，使十九世紀美國的大陸陸路城市間鐵路旅行現代化。)",
+    "example": "The luxurious Pullman sleeper made long-distance rail travel across America more comfortable. (豪華的普爾曼臥鋪車廂讓橫越美國的長途鐵路旅行更舒適。)",
     "id": "TOEFL-sleeper-m1kop932"
   },
   {
@@ -3230,28 +3230,28 @@
     "level": "TOEFL",
     "word": "somerset",
     "meaning": "索美塞特 (英格蘭地名)；翻筋斗",
-    "example": "Archaeologists inside Somerset excavated exceptionally preserved woodcut remnants dating back to late Neolithic settlements. (索美塞特內部的考古學家，挖掘出可追溯到新石器時代晚期定居點的保存格外的木刻版畫殘留物。)",
+    "example": "Archaeologists in Somerset found remarkably well-preserved wooden objects from late Neolithic settlements. (考古學家在索美塞特發現保存得異常完好的新石器時代晚期木器。)",
     "id": "TOEFL-somerset-mpkglmt"
   },
   {
     "level": "TOEFL",
     "word": "sonar",
     "meaning": "聲納",
-    "example": "Modern marine oceanographers rely on sophisticated side-scan sonar arrays to plum the geometric contours of underwater rift canyons. (現代海洋學家依賴精密的側掃聲納陣列，來探測水下裂谷峽谷的幾何輪廓。)",
+    "example": "Modern oceanographers use side-scan sonar to map the contours of underwater canyons. (現代海洋學家利用側掃聲納，繪製海底峽谷的輪廓。)",
     "id": "TOEFL-sonar-mmj8b"
   },
   {
     "level": "TOEFL",
     "word": "spatter",
     "meaning": "濺；灑；（濺落的）水星/污點",
-    "example": "Low-viscosity subsurface liquid basalt magma can explode through vertical crustal fault lines, creating a wide volcanic ash spatter zone. (低黏度的地表下液態玄武岩岩漿會穿過垂直的地殼斷層線發生爆炸，創造出一個廣闊的火山灰噴濺帶。)",
+    "example": "Low-viscosity basaltic magma can burst through faults and scatter volcanic spatter over a wide area. (低黏度的玄武岩岩漿會衝破斷層，把火山噴濺物散落到廣大區域。)",
     "id": "TOEFL-spatter-m1t96m9o"
   },
   {
     "level": "TOEFL",
     "word": "stonework",
     "meaning": "石造建築；石作製品",
-    "example": "The detailed stone masonry architectural structures showcase the exceptional technical durability of ancestral pueblo stonework. (精細的石造建築結構，展現了祖傳普埃布洛石作製品優異的技術耐久性。)",
+    "example": "The finely built masonry walls show the remarkable durability of Ancestral Pueblo stonework. (這些精細砌築的石牆，展現了祖先普韋布洛人石作的高度耐久性。)",
     "id": "TOEFL-stonework-m1qs32cs"
   },
   {
@@ -3279,7 +3279,7 @@
     "level": "TOEFL",
     "word": "thimble",
     "meaning": "頂針（針線活工具）",
-    "example": "Archaeologists uncovered an ancient bone thimble tool, tool, confirming the presence of intricate geometric needlework alignment practices. (考古學家挖掘出了一個古代骨製頂針工具，證實了複雜幾何刺繡排列實踐的存在。)",
+    "example": "Archaeologists found a bone thimble, evidence that people there did fine needlework. (考古學家找到一枚骨製頂針，證明當地人從事精細的縫紉。)",
     "id": "TOEFL-thimble-m1w8fqe"
   },
   {
@@ -3314,21 +3314,21 @@
     "level": "TOEFL",
     "word": "vas",
     "meaning": "脈管；導管（常與 deferens 連用）",
-    "example": "Biological micro-dissections yield insights into mammalian reproductive tracts, outlining fluid transfer tubes like the vas pathways. (生物微觀解剖為哺乳動物繁殖道提供了洞察，勾勒出了像輸精管路徑這樣的流體轉移導管。)",
+    "example": "Micro-dissections of the reproductive tract reveal the path of the vas deferens. (生殖道的顯微解剖揭示了輸精管的走向。)",
     "id": "TOEFL-vas-deferens"
   },
   {
     "level": "TOEFL",
     "word": "virgo",
     "meaning": "處女座；室女座星系團",
-    "example": "Astronomers coordinate telescope grids to analyze the dynamic galactic velocities monitored inside the massive Virgo cluster cosmos. (天文學家協調望遠鏡網格，以分析在龐大的室女座星系團宇宙內部監測到的動態星系速度。)",
+    "example": "Astronomers use telescope networks to measure the velocities of galaxies in the Virgo cluster. (天文學家利用望遠鏡網，測量室女座星系團中星系的速度。)",
     "id": "TOEFL-virgo-m1jn6pbq"
   },
   {
     "level": "TOEFL",
     "word": "viscera",
     "meaning": "內臟（複數）",
-    "example": "Anaerobic gut bacteria microbes micro-infestations residing inside the herbivore's viscera actively decompose complex plant starches. (居住在食草動物內臟內部的厭氧腸道細菌微生物，積極地分解複雜的植物澱粉。)",
+    "example": "Anaerobic bacteria in the herbivore's viscera break down complex plant starches. (食草動物內臟中的厭氧細菌會分解複雜的植物澱粉。)",
     "id": "TOEFL-viscera-m10qn4mg"
   },
   {
@@ -3370,7 +3370,7 @@
     "level": "TOEFL",
     "word": "cheater",
     "meaning": "騙子；欺詐者",
-    "example": "Centralized mercantile market guild guidelines enforced net weight sieves to penalize any opportunistic crop cheater. (集中的商業市場公會方針實施了淨重篩網監管，以懲罰任何機會主義的農作物欺詐者（騙子）。)",
+    "example": "Market guilds checked weights closely to punish any cheater who tampered with the scales. (市場公會嚴格檢查重量，懲罰動過秤的騙子。)",
     "id": "TOEFL-cheater-mvg2gjv"
   },
   {
@@ -3391,14 +3391,14 @@
     "level": "TOEFL",
     "word": "northward",
     "meaning": "向北地；北方的",
-    "example": "During post-glacial thawing warming cycles, migratory herds began extensive northward expansion across prairies. (在冰河期後融化變暖循環期間，遷徙的獸群開始跨越草原進行廣泛的向北地擴張。)",
+    "example": "After the ice age, migratory herds expanded northward across the prairies. (冰河期結束後，遷徙的獸群向北跨越草原擴展。)",
     "id": "TOEFL-northward-m78gaoh"
   },
   {
     "level": "TOEFL",
     "word": "politically",
     "meaning": "政治上地",
-    "example": "The five separate tribes of the Iroquois Confederacy were politically centralized, coordinating external defenses via main council. (易洛魁聯盟的五個獨立部落在政治上是集權的（集中的），透過一個核心議會協調外部防禦。)",
+    "example": "The five separate tribes of the Iroquois Confederacy were politically centralized, coordinating external defenses via main council. (易洛魁聯盟的五個部落在政治上中央集權，透過大議會協調對外防禦。)",
     "id": "TOEFL-politically-md8103m"
   },
   {
@@ -3419,7 +3419,7 @@
     "level": "TOEFL",
     "word": "centrally",
     "meaning": "在中心地；中央集權地",
-    "example": "The five tribes of the Iroquois Confederacy were centrally administered, coordinating military defenses via main council. (易洛魁聯盟的五個部落是在中心地（中央集權地）受到管轄的，透過一個核心議會協調軍事防禦。)",
+    "example": "The five tribes of the Iroquois Confederacy were centrally administered, coordinating military defenses via main council. (易洛魁聯盟的五個部落由大議會集中管理，並協調軍事防禦。)",
     "id": "TOEFL-centrally-m1cfdv0i"
   },
   {
@@ -3433,70 +3433,70 @@
     "level": "TOEFL",
     "word": "supplementation",
     "meaning": "補充；增補",
-    "example": "Topsoil compost fertilization supplementation accelerates angiosperm seedling vegetative maturation cycles significantly. (表土堆肥施肥的補充（增補），顯著加速了被子植物幼苗植物營養生長的成熟週期。)",
+    "example": "Compost supplementation of the soil can speed up the growth of young plants. (在土壤中補充堆肥，能加快幼苗生長。)",
     "id": "TOEFL-supplementation-m1d78t00"
   },
   {
     "level": "TOEFL",
     "word": "flout",
     "meaning": "公然蔑視；輕視；嘲笑",
-    "example": "Opportunistic land speculators would occasionally flout centralized state turnpike extraction regulatory boundaries. (機會主義的土地投機者，有時會公然蔑視中央集權國家的收費公路開採監管邊界。)",
+    "example": "Land speculators sometimes flouted state regulations on toll roads. (土地投機者有時候會公然無視州政府對收費公路的規定。)",
     "id": "TOEFL-flout-mmwiox9"
   },
   {
     "level": "TOEFL",
     "word": "snugly",
     "meaning": "舒適地；緊湊地；貼向地",
-    "example": "Ancestral pueblo dwellings nestle snugly deep within protective defensive sandstone cliff alcoves. (祖傳普埃布洛住宅，舒適地（緊湊地）依偎在具防禦性的砂岩懸崖凹處深處內部。)",
+    "example": "Ancestral Pueblo dwellings nestle snugly in sheltered sandstone alcoves high on the cliffs. (祖先普韋布洛人的住所緊貼在懸崖上避風的砂岩壁龕裡。)",
     "id": "TOEFL-snugly-m2uht9q"
   },
   {
     "level": "TOEFL",
     "word": "industrialist",
     "meaning": "工業家；企業家",
-    "example": "The entrepreneurial metropolitan industrialist invested heavily in establishing automated piecework manufacturing spinning mills. (這位具創業精神的大都市工業家，高度投資於建立自動化計件工作製造紡紗廠。)",
+    "example": "The industrialist invested heavily in building automated spinning mills. (這位工業家大量投資興建自動化紡紗廠。)",
     "id": "TOEFL-industrialist-mq1nsxp"
   },
   {
     "level": "TOEFL",
     "word": "insightful",
     "meaning": "具洞察力的；有深刻見解的",
-    "example": "Analyzing tree ring proxy archives delivered highly insightful insights charting historical precipitation fluctuations. (分析年輪替代檔案，為繪製歷史降雨量波動圖表提供了高度具洞察力的深刻見解。)",
+    "example": "Tree-ring records give researchers insightful evidence about past rainfall. (年輪紀錄為研究者提供關於過去降雨的深入見解。)",
     "id": "TOEFL-insightful-mzbwfzn"
   },
   {
     "level": "TOEFL",
     "word": "internally",
-    "meaning": "內部地；內在向地",
-    "example": "Endogenous biological patterns operate internally, dictating metabolic fluctuations without reliance on light cues. (內源性的生物模式在內部運作，主導著新陳代謝的波動，而不需要依賴光線提示。)",
-    "id": "TOEFL-internally-mwlvf70"
+    "meaning": "在內部；內在地",
+    "example": "Endogenous biological rhythms operate internally, driving metabolic changes without any cue from light. (內源性的生理節律在體內運作，不需要光線提示就能驅動代謝變化。)",
+    "id": "TOEFL-internally-m1odlol9"
   },
   {
     "level": "TOEFL",
     "word": "methodically",
     "meaning": "有條不紊地；系統化地",
-    "example": "The museum curator cataloged methodically every single excavated Neolithic pottery fragment shard artifact. (博物館館長有條不紊地（系統化地）登記了每一個挖掘出的新石器時代陶器碎片文物。)",
+    "example": "The curator methodically cataloged every pottery shard from the Neolithic site. (館長有條不紊地登錄了新石器時代遺址出土的每一片陶片。)",
     "id": "TOEFL-methodically-mkc9oa4"
   },
   {
     "level": "TOEFL",
     "word": "nationalistic",
     "meaning": "國家主義的；民族主義的",
-    "example": "The Whig centralized federalist political administration deployed nationalistic economic bills to fund infrastructure鉄道. (輝格黨集權的聯邦政府行政當局，部署了國家主義的經濟法案來資助鐵路基礎設施。)",
+    "example": "The Whig administration pushed nationalistic economic bills to fund railroad construction. (輝格黨政府推動國家主義的經濟法案，為鐵路建設籌措經費。)",
     "id": "TOEFL-nationalistic-m430eso"
   },
   {
     "level": "TOEFL",
     "word": "stringent",
     "meaning": "嚴格的；嚴厲的；（資金）緊縮的",
-    "example": "Centralized state administrations enforced stringent regulatory parameters to govern private turnpike extraction rates. (中央集權的國家行政當局實施了嚴格的監管參數，以管理私營收費公路的開採率。)",
+    "example": "State governments set stringent rules to control the tolls charged on private turnpikes. (州政府訂下嚴格規定，管制民營收費公路的通行費。)",
     "id": "TOEFL-stringent-me8b4ol"
   },
   {
     "level": "TOEFL",
     "word": "untraditional",
     "meaning": "非傳統的",
-    "example": "The modernist choreographer integrated untraditional naturalistic gestures and structural pantomime gestures into ballet. (這位現代主義編舞家將非傳統的寫實身體姿勢與結構性啞劇手勢融入到芭蕾舞中。)",
+    "example": "The modernist choreographer brought untraditional, naturalistic gestures into ballet. (這位現代主義編舞家把非傳統、自然的身體動作帶進芭蕾。)",
     "id": "TOEFL-untraditional-mjfqc5k"
   },
   {
@@ -3517,42 +3517,42 @@
     "level": "TOEFL",
     "word": "alkaline",
     "meaning": "鹼性的",
-    "example": "Persistent overirrigation constants leave toxic alkaline mineral crust arrays on fragile semiarid agricultural soils. (持續的過度灌溉常數，在脆弱的半乾旱農業土壤上留下了有毒的鹼性礦物地殼陣列。)",
+    "example": "Constant overirrigation leaves a toxic alkaline crust on fragile semiarid farmland. (持續過度灌溉，會在脆弱的半乾旱農地上留下一層有毒的鹼性硬殼。)",
     "id": "TOEFL-alkaline-mnoou1"
   },
   {
     "level": "TOEFL",
     "word": "confinement",
     "meaning": "監禁；限制；分娩",
-    "example": "Destitute factory weavers endured strict temporal confinement inside overcrowded tenement factory quarters during workdays. (在工作日期間，貧困的工廠編織工在擁擠的廉租公寓工廠宿舍內忍受著嚴格的時間限制（監禁/限制）。)",
+    "example": "Poor weavers experienced confinement to crowded factory quarters during working hours. (貧困的織工在工作時間被限制在擁擠的工廠宿舍裡。)",
     "id": "TOEFL-confinement-m9l35jv"
   },
   {
     "level": "TOEFL",
     "word": "continuum",
     "meaning": "連續體",
-    "example": "Evolutionary science views species diversification as a continuous genomic continuum rather than static categories. (演化科學將物種多樣化視為一個連續的基因體連續體，而非靜態的固定類別。)",
+    "example": "Evolutionary biologists see species as a genomic continuum rather than as fixed categories. (演化生物學家把物種視為基因體譜系上的連續變化，而不是固定的類別。)",
     "id": "TOEFL-continuum-mlqejv"
   },
   {
     "level": "TOEFL",
     "word": "everlasting",
     "meaning": "永恆的；長久的",
-    "example": "Monumental masonry stone inscriptions granted ancient political agreements a sense of historical, everlasting permanence. (宏偉不朽的石造建築石刻銘文，賦予了古代政治協議一種歷史性的、永恆的持久感。)",
+    "example": "Monumental stone inscriptions gave ancient treaties an everlasting quality. (宏偉的石刻銘文讓古代條約顯得永恆長存。)",
     "id": "TOEFL-everlasting-m1wwl58x"
   },
   {
     "level": "TOEFL",
     "word": "faultfinding",
     "meaning": "吹毛求疵；挑剔的",
-    "example": "Traditional academic critics engaged in constant faultfinding against the impressionistic techniques formulated by Seurat. (傳統的學術評論家，對秀拉所闡明的點描派印象主義技術進行了持續的吹毛求疵（挑剔）。)",
+    "example": "Traditional critics engaged in constant faultfinding over Seurat's pointillist technique. (傳統評論家不斷挑剔秀拉的點描技法。)",
     "id": "TOEFL-faultfinding-mc52ol7"
   },
   {
     "level": "TOEFL",
     "word": "fleshy",
     "meaning": "多肉的；肥厚的 (同 meaty)",
-    "example": "Xerophytic succulent desert plants develop wide fleshy tissue matrices to store rainwater resources internally. (旱生多肉沙漠植物長出寬大、肥厚的（多肉的）組織基質，以便在內部儲存雨水資源。)",
+    "example": "Succulent desert plants have thick, fleshy tissues that store water. (多肉的沙漠植物有肥厚的組織，可以儲存水分。)",
     "id": "TOEFL-fleshy-meaty"
   },
   {
@@ -3566,42 +3566,42 @@
     "level": "TOEFL",
     "word": "generically",
     "meaning": "一般地；普通地；通向地",
-    "example": "Ecological generalist feeders are generically termed opportunistic foragers due to their flexible dietary parameters. (全能型覓食生物，由於其彈性的飲食參數，一般地（普通地）被稱為機會主義的覓食者。)",
+    "example": "Ecologists generically classify animals with flexible diets as opportunistic foragers. (生態學家通常將食性彈性的動物統稱為機會主義覓食者。)",
     "id": "TOEFL-generically-m1rjqu5n"
   },
   {
     "level": "TOEFL",
     "word": "hugely",
     "meaning": "極大地；非常地",
-    "example": "The output value metrics of midwest prairie farmlands expanded hugely following mechanical reaper integration. (在中西部大草原農田整合了機械收割機之後，其產值指標極大地（非常地）擴張了。)",
+    "example": "Farm output on the Midwest prairies grew hugely after mechanical reapers were introduced. (中西部大草原的農業產量在機械收割機引進後大幅成長。)",
     "id": "TOEFL-hugely-m2goop"
   },
   {
     "level": "TOEFL",
     "word": "idiomatic",
     "meaning": "道地的；符合語言習慣的",
-    "example": "Linguists studying oral epic registries tracked idiomatic vocal indicators used by ancient tribespeople storytellers. (研究口頭史詩登記冊的語言學家，追蹤了古代部落說故事者所使用的符合語言習慣的（道地的）聲音指標。)",
+    "example": "Linguists studying oral epics track the idiomatic phrases that storytellers rely on. (研究口頭史詩的語言學家，追蹤說書人慣用的道地詞語。)",
     "id": "TOEFL-idiomatic-m1bs3drv"
   },
   {
     "level": "TOEFL",
     "word": "illiterate",
     "meaning": "文盲的；未受教育的；文盲",
-    "example": "Vaudeville theatrical showmen designed basic physical improvisation acts to entertain illiterate urban factory laborers. (綜藝雜耍劇場演藝企業家設計了基礎的肢體即興表演，以娛樂未受教育的（文盲的）城市工廠勞工。)",
+    "example": "Vaudeville performers used simple physical comedy to entertain illiterate factory workers. (綜藝表演者用簡單的肢體喜劇娛樂不識字的工廠勞工。)",
     "id": "TOEFL-illiterate-m1rdogh6"
   },
   {
     "level": "TOEFL",
     "word": "joinery",
     "meaning": "細木工工藝；細木工製品",
-    "example": "The expert joiner engineered Pullman sleeping car woodwork interiors showcasing impeccable, screwless mortise joinery. (專家級細木工匠工程建造了普爾曼臥鋪車廂的木工內部，展現出無可挑剔、不用螺絲的細木工工藝（榫接製品）。)",
+    "example": "The Pullman car's wooden interior featured precise screwless mortise joinery. (普爾曼車廂的木製內裝採用精細的無螺絲榫接工藝。)",
     "id": "TOEFL-joinery-me81h7f"
   },
   {
     "level": "TOEFL",
     "word": "loyally",
     "meaning": "忠實地；忠誠地",
-    "example": "The artisan journeyman worked loyally inside the mercantile market guild workshop for consecutive decades. (工匠合格工匠，在接連的數個十年中忠實地（忠誠地）在商業市場公會工作坊內部工作。)",
+    "example": "The journeyman worked loyally in the guild workshop for decades. (這位出師的工匠在公會工作坊忠實工作了數十年。)",
     "id": "TOEFL-loyally-m1kvkyfz"
   },
   {
@@ -3615,7 +3615,7 @@
     "level": "TOEFL",
     "word": "multivolume",
     "meaning": "多卷的；多冊的",
-    "example": "The academician published an extensive multivolume written discourse evaluating the democratization of text literacy. (這名院士出版了一部廣泛的多卷的（多冊的）書面論述著作，評估文字讀寫能力的普及化。)",
+    "example": "The scholar published a multivolume work on the spread of literacy. (這位學者出版了一部多卷著作，探討識字能力的普及。)",
     "id": "TOEFL-multivolume-m1mgjkyo"
   },
   {
@@ -3636,140 +3636,140 @@
     "level": "TOEFL",
     "word": "onslaught",
     "meaning": "猛攻；大批襲來",
-    "example": "A severe winter snowstorm onslaught can multiplying altricial nestling vulnerability to coastal marshland predators. (一場嚴酷的冬季暴風雪猛攻（大批襲來），會乘倍增加晚熟性雛鳥對沿海沼澤地捕食者的脆弱性。)",
+    "example": "The onslaught of a severe winter storm makes nestlings in coastal marshes more vulnerable to predators. (嚴酷冬季風暴的侵襲，會讓沿海沼澤的雛鳥更容易遭到掠食者捕食。)",
     "id": "TOEFL-onslaught-m1vp14ip"
   },
   {
     "level": "TOEFL",
     "word": "optimization",
     "meaning": "最佳化；優化",
-    "example": "The physical optimization of powered flight mechanics allowed Mesozoic pterosaurs to rule equatorial skies. (動力飛行力學在物理上的最佳化（優化），容許中生代翼龍統治了赤道天空。)",
+    "example": "The physical optimization of powered flight mechanics allowed Mesozoic pterosaurs to rule equatorial skies. (動力飛行機制在物理上的最佳化，讓中生代的翼龍稱霸赤道天空。)",
     "id": "TOEFL-optimization-ml60zvo"
   },
   {
     "level": "TOEFL",
     "word": "overload",
     "meaning": "超載；使負擔過重",
-    "example": "Inefficient preindustrial steam machinery could easily overload automated spinning mills, triggering mechanical engine fractures. (無效率的工業化前蒸汽機械能輕易使自動化紡紗廠超載，引發機械引擎斷裂。)",
+    "example": "Early steam engines could easily overload the spinning mills and crack their machinery. (早期的蒸汽機很容易讓紡紗廠超載，造成機械斷裂。)",
     "id": "TOEFL-overload-mszer17"
   },
   {
     "level": "TOEFL",
     "word": "pluralism",
     "meaning": "多元主義；多元化",
-    "example": "Cultural anthropologists highlight the social pluralism of early confederacies, coordinating separate independent tribal guidelines. (文化人類學家強調了早期同盟的社會多元化（多元主義），協調了各個獨立的部落方針。)",
+    "example": "Anthropologists stress the social pluralism of early confederacies made up of independent tribes. (人類學家強調早期聯盟由獨立部落組成，具有社會多元性。)",
     "id": "TOEFL-pluralism-mzwtjyh"
   },
   {
     "level": "TOEFL",
     "word": "preferably",
     "meaning": "更適宜地；最好是",
-    "example": "Orchid growers priority establish rich compost planting matrices, preferably inside high-air conductance greenhouses. (蘭花種植者優先建立起豐富的堆肥種植基質，更適宜地（最好是）設在高空氣導度的溫室內部。)",
+    "example": "Orchid growers prefer to plant in rich compost, preferably in greenhouses with good airflow. (蘭花種植者喜歡用富含有機質的堆肥栽培，最好是在通風良好的溫室裡。)",
     "id": "TOEFL-preferably-m10inelc"
   },
   {
     "level": "TOEFL",
     "word": "religiously",
     "meaning": "虔誠地；嚴格遵守地",
-    "example": "The isolation puritan religious sect religiously adhered to every moral commandment enacted by elders. (孤立的清教徒宗教派別，嚴格遵守地（虔誠地）遵守長老所頒布的每一條道德誡命。)",
+    "example": "The isolated Puritan sect religiously followed every moral rule laid down by its elders. (這個孤立的清教徒教派嚴格遵守長老訂下的每一條道德規範。)",
     "id": "TOEFL-religiously-mg36wzi"
   },
   {
     "level": "TOEFL",
     "word": "repute",
     "meaning": "聲譽；名聲；稱讚",
-    "example": "The expert cabinetmaker gained widespread mercantile repute for handcrafting Pullman woodworks without using nails. (專家級家具細木工匠因不用釘子手工製作普爾曼木工製品，而獲得了廣泛的商業聲譽（名聲）。)",
+    "example": "The cabinetmaker gained wide repute for building Pullman car interiors without nails. (這位細木工匠因不用釘子製作普爾曼車廂內裝而聲名遠播。)",
     "id": "TOEFL-repute-m1q34fin"
   },
   {
     "level": "TOEFL",
     "word": "resourcefulness",
     "meaning": "足智多謀；資源豐富的特性",
-    "example": "The maritime watercraft navigation success of Polynesians demonstrated exceptional resourcefulness centered on celestial maps. (玻里尼西亞人海上船隻航行的成功，展現出以天體地圖為核心的卓越足智多謀（資源豐富的特性）。)",
+    "example": "Polynesians' success in navigating the ocean showed exceptional resourcefulness built on knowledge of the stars. (玻里尼西亞人航海的成就，展現出以星象知識為基礎的卓越機智。)",
     "id": "TOEFL-resourcefulness-m19rtsgv"
   },
   {
     "level": "TOEFL",
     "word": "restlessness",
     "meaning": "焦躁不安；動盪狀態",
-    "example": "Hazardous piecework conditions inside overcrowded urban factories triggered sweeping labor restlessness throughout the territory. (擁擠城市工廠內危險的計件工作條件，在整個領地內引發了全面的勞工焦躁不安（動盪狀態）。)",
+    "example": "Dangerous piecework conditions in crowded city factories fueled labor restlessness across the region. (擁擠城市工廠裡危險的計件工作條件，在整個地區引發勞工不安。)",
     "id": "TOEFL-restlessness-m1d7x4sk"
   },
   {
     "level": "TOEFL",
     "word": "rhythmically",
     "meaning": "有節奏地；律動地",
-    "example": "Tidal waves ocean current currents pounded rhythmically against the horizontal uneven bedrock cliff landforms. (潮汐波海洋洋流，有節奏地（律動地）敲擊著水平崎嶇不平的基岩懸崖地形。)",
+    "example": "Ocean waves pounded rhythmically against the uneven bedrock cliffs. (海浪有節奏地拍打著崎嶇的基岩崖壁。)",
     "id": "TOEFL-rhythmically-me83737"
   },
   {
     "level": "TOEFL",
     "word": "uncooperative",
     "meaning": "不合作的",
-    "example": "Outwork cottage guild artisan sectors remained uncooperative regarding centralized state legal factory registration decrees. (家庭代工家庭公會工匠部門，對於中央集權國家的合法工廠登記法令仍然是不合作的。)",
+    "example": "Cottage artisans remained uncooperative with state factory registration rules. (家庭代工的工匠仍不配合州政府的工廠登記規定。)",
     "id": "TOEFL-uncooperative-ma73loj"
   },
   {
     "level": "TOEFL",
     "word": "unfavorably",
     "meaning": "不利地；反對地；不和善地",
-    "example": "Traditional academic art historians reviewed impressionistic painting formats unfavorably, labeling them chaotic and unrefined. (傳統的學術藝術歷史學家對印象派繪畫形式給予了不利的（反對的）評論，將其標記為混亂且粗糙。)",
+    "example": "Traditional art historians reviewed the impressionists unfavorably, calling their work chaotic and crude. (傳統藝術史學家對印象派評價很差，說他們的作品混亂粗糙。)",
     "id": "TOEFL-unfavorably-m1ih2yyl"
   },
   {
     "level": "TOEFL",
     "word": "unselective",
     "meaning": "不加選擇的；非選擇性的",
-    "example": "An unselective predatory adaptation allows the opportunistic coyote class to exploit diverse human foodstuffs. (一種不加選擇的捕食適應性，容許機會主義的郊狼階級去利用多樣的人類食品。)",
+    "example": "As unselective predators, coyotes can feed on a wide range of human foods. (郊狼是不挑食的掠食者，能吃各種人類食物。)",
     "id": "TOEFL-unselective-mwuq44x"
   },
   {
     "level": "TOEFL",
     "word": "untold",
     "meaning": "無數的；不可言語的；未透露的",
-    "example": "The catastrophic mass extinction boundary anomaly brought untold ecological devastation and faunal collapse globally. (毀滅性的大規模滅絕邊界異常現象，在全球範圍內帶來了無數的（不可言語的）生態破壞與動物群崩潰。)",
+    "example": "The mass extinction at the end of the Permian brought untold ecological devastation worldwide. (二疊紀末的大滅絕在全球造成難以估計的生態浩劫。)",
     "id": "TOEFL-untold-m1q4yvwc"
   },
   {
     "level": "TOEFL",
     "word": "incapacitated",
     "meaning": "使失去能力的；傷殘的",
-    "example": "The virulent fungal vascular necrosis disease left the host angiosperm canopy trees completely incapacitated. (具毒性的真菌維管束壞死疾病，使宿主被子植物樹冠樹木完全失去能力（枯萎死亡）。)",
+    "example": "The fungal disease left the host trees completely incapacitated and eventually killed them. (這種真菌病害讓宿主樹木完全失去生機，最後枯死。)",
     "id": "TOEFL-incapacitated-mhld65h"
   },
   {
     "level": "TOEFL",
     "word": "qualitatively",
     "meaning": "在性質上地；質地向地",
-    "example": "Molecular sequence extraction tracking confirmed that flowering angiosperms are qualitatively separate from primitive gymnosperms. (分子序列提取追蹤證實，顯花的被子植物在性質上地與原始的裸子植物分開開來。)",
+    "example": "Molecular evidence shows that flowering plants are qualitatively different from gymnosperms. (分子證據顯示，開花植物與裸子植物在性質上不同。)",
     "id": "TOEFL-qualitatively-m1ifliq7"
   },
   {
     "level": "TOEFL",
     "word": "sewerage",
     "meaning": "污水管網；排水系統；污水處理",
-    "example": "The ancient Roman metropolis engineered stone aqueduct systems alongside unified subterranean sewerage canal routes. (古代羅馬大都市工程建造了石造導水渠系統，以及統一的地下污水管網（排水系統）管道。)",
+    "example": "The ancient Romans built an underground sewerage system alongside their stone aqueducts. (古羅馬人在石造導水渠旁建造了地下污水系統。)",
     "id": "TOEFL-sewerage-m1xvh8r4"
   },
   {
     "level": "TOEFL",
     "word": "stabilization",
     "meaning": "穩定；穩定化",
-    "example": "Pioneer broadleaf root mat stabilization networks prevent severe topsoil erosion along marshy estuarine floodplains. (先驅闊葉植物根墊穩定化網路，阻止了沿著沼澤河口洪泛平原發生的嚴重表土侵蝕。)",
+    "example": "The dense root mats of pioneer plants provide soil stabilization and prevent erosion on marshy floodplains. (先驅植物的密集根墊能穩定土壤，防止沼澤洪泛平原受到侵蝕。)",
     "id": "TOEFL-stabilization-mrhbvzv"
   },
   {
     "level": "TOEFL",
     "word": "unfocused",
     "meaning": "無焦點的；散漫的；未聚焦的",
-    "example": "Without a precise digital grid tracking overlay, planetarium star projections appear blurry and unfocused. (如果沒有精確的數位網格追蹤疊加，天文館的星空投影會顯得模糊且未聚焦的（無焦點的）。)",
+    "example": "Without a precise digital grid tracking overlay, planetarium star projections appear blurry and unfocused. (如果沒有精準校準，天文館的星空投影會顯得模糊、失焦。)",
     "id": "TOEFL-unfocused-mfeuxrx"
   },
   {
     "level": "TOEFL",
     "word": "predate",
     "meaning": "早於…存在；（地質）先於",
-    "example": "Empirical microfossil stratigraphic strata records confirm that primitive gymnosperms fundamentally predate Cretaceous angiosperm radiations. (經驗性的微體化石地層記錄證實，原始的裸子植物在根本上早於（先於）白堊紀被子植物的輻射擴張。)",
+    "example": "Microfossil evidence confirms that gymnosperms predate the Cretaceous spread of flowering plants. (微體化石證據證實，裸子植物比白堊紀擴散的開花植物更早出現。)",
     "id": "TOEFL-predate-mmrndoz"
   },
   {
@@ -3783,91 +3783,91 @@
     "level": "TOEFL",
     "word": "anathema",
     "meaning": "令人極其反感的事物；詛咒",
-    "example": "The commercial mercantile commercialism championed by the duke was an absolute anathema to puritanical sects. (由公爵所擁護的商業重商主義，對清教徒派別來說是完全令人極其反感的事物。)",
+    "example": "The commercialism the duke championed was anathema to the Puritan sects. (公爵所提倡的商業主義，對清教徒教派來說極度令人生厭。)",
     "id": "TOEFL-anathema-mfh647t"
   },
   {
     "level": "TOEFL",
     "word": "anthropomorphism",
     "meaning": "擬人化；神格化",
-    "example": "Speculative tribal lore frequently engaged in anthropomorphism, attributing human individuality metrics to predatory avian falcons. (投機性的部落傳說經常進行擬人化，將人類的個性指標歸因於捕食性的鳥類遊隼。)",
+    "example": "Tribal stories often used anthropomorphism, giving falcons human traits. (部落故事常用擬人法，把人類的特質加在獵鷹身上。)",
     "id": "TOEFL-anthropomorphism-m5dxdqd"
   },
   {
     "level": "TOEFL",
     "word": "aqueduct",
     "meaning": "導水渠；渡槽",
-    "example": "The ancient metropolis engineered a stone aqueduct channel to funnel freshwater from highland mountain springs. (這座古代大都市工程建造了一條石造導水渠通道，以匯集來自高山山泉的淡水。)",
+    "example": "The ancient city built a stone aqueduct to carry fresh water from mountain springs. (這座古城建造石造導水渠，把山泉的淡水引進來。)",
     "id": "TOEFL-aqueduct-mhuzdi5"
   },
   {
     "level": "TOEFL",
     "word": "belie",
     "meaning": "掩飾；與…不符；證明…為假",
-    "example": "The gritty, drab naturalistic painting layers formulated by Cole act to belie romanticized generalities profiles. (由科爾所闡明的真實、單調的自然主義繪畫層，起到掩飾了（與…不符）浪漫化籠統特徵的作用。)",
+    "example": "Cole's gritty, unsentimental realism belies the romantic image of the American wilderness. (柯爾粗礪而不濫情的寫實風格，與美國荒野的浪漫形象並不相符。)",
     "id": "TOEFL-belie-m1l9v20h"
   },
   {
     "level": "TOEFL",
     "word": "brusquely",
     "meaning": "唐突地；直率地；粗暴地",
-    "example": "The protectionist state administration brusquely rejected the mercantile trade reform proposals drafted by outwork guilds. (保護主義國家行政當局，粗暴地（唐突地）拒絕了家庭代工公會所起草的商業貿易改革提案。)",
+    "example": "The protectionist state government brusquely rejected the trade reforms proposed by the cottage guilds. (保護主義的州政府粗暴地否決了家庭代工公會提出的貿易改革。)",
     "id": "TOEFL-brusquely-m15qxx6h"
   },
   {
     "level": "TOEFL",
     "word": "bustle",
     "meaning": "忙亂；喧囂；奔忙",
-    "example": "The continuous daily business bustle monitored inside centrally centralized mercantile metropolis seaport markets was spectacular. (在集中的商業大都市海港市場內部監測到的、持續的每日商業忙亂（喧囂）是極其壯觀的。)",
+    "example": "The daily bustle of the port market was a spectacular sight. (港口市場每天忙碌的景象十分壯觀。)",
     "id": "TOEFL-bustle-m1mz6ssz"
   },
   {
     "level": "TOEFL",
     "word": "categorically",
-    "meaning": "斷然地；絕對地；分類向地",
-    "example": "The geological academician categorically rejected the asteroid impact mass extinction theory before crater evidence arose. (在隕石坑證據出現之前，地質學院士斷然地（絕對地）拒絕了小行星撞擊大規模滅絕理論。)",
-    "id": "TOEFL-categorically-moz8jok"
+    "meaning": "斷然地；明確地",
+    "example": "Geologists categorically rejected the asteroid impact theory until crater evidence emerged. (在隕石坑證據出現之前，地質學家斷然否定小行星撞擊說。)",
+    "id": "TOEFL-categorically-m6mg12y"
   },
   {
     "level": "TOEFL",
     "word": "clamor",
     "meaning": "喧嚷；大聲要求；大聲喧嘩",
-    "example": "Overcrowded tenement dwellers organized collective strikes, raising an immediate political clamor for legal unionization rights. (擁擠的廉租公寓居民組織了集體罷工，立即發起要求合法工會化權利的政治大聲要求（喧嚷）。)",
+    "example": "Tenement dwellers organized strikes and raised a political clamor for the right to unionize. (廉租公寓居民組織罷工，大聲要求取得組織工會的權利。)",
     "id": "TOEFL-clamor-mfp0m35"
   },
   {
     "level": "TOEFL",
     "word": "cleverness",
     "meaning": "聰明；機智",
-    "example": "Ethologists documented the exceptional technical cleverness displayed by foraging crows manipulating wire tools inside centers. (行為學家記錄了在中心內部操縱鐵絲工具的覓食烏鴉，所展現出的卓越技術聰明（機智）。)",
+    "example": "Ethologists documented the technical cleverness of crows that use wire tools to get food. (動物行為學家記錄了烏鴉用鐵絲工具取食的機智。)",
     "id": "TOEFL-cleverness-miw8su0"
   },
   {
     "level": "TOEFL",
     "word": "closeness",
     "meaning": "接近；親密；（空間）狹小",
-    "example": "The extreme industrial closeness monitored inside tenement blocks generated psychologically harmful conditions for immigrant families. (在廉租公寓宿舍區內部監測到的極端工業空間狹小（接近度），為移民家庭產生了心理上有害的條件。)",
+    "example": "The extreme closeness of tenement blocks created psychologically harmful conditions for immigrant families. (廉租公寓大樓彼此距離過近，對移民家庭造成心理上的傷害。)",
     "id": "TOEFL-closeness-my2x8ge"
   },
   {
     "level": "TOEFL",
     "word": "cloudlike",
     "meaning": "像雲一樣的；雲狀的",
-    "example": "Massive injected ash clouds created a thick cloudlike canopy that completely blocked solar light wavelengths. (大量注入的火山灰雲創造了一層厚實的、像雲一樣的（雲狀的）遮罩，完全阻擋了太陽光線波長。)",
+    "example": "The volcanic ash formed a thick, cloudlike canopy that blocked sunlight completely. (火山灰形成厚厚的雲狀遮蔽層，完全擋住陽光。)",
     "id": "TOEFL-cloudlike-m1avxli1"
   },
   {
     "level": "TOEFL",
     "word": "cobble",
     "meaning": "鵝卵石；圓石；粗糙地製作",
-    "example": "The swift mountain streams transport gravel layers, depositing coarse granite cobble profiles along rugged streambeds. (急促的山區溪流運送著礫石層，沿著崎嶇的河床沉積下粗糙的花崗岩鵝卵石（圓石）輪廓。)",
+    "example": "Swift mountain streams carry gravel and deposit coarse granite cobbles along the streambed. (湍急的山溪搬運礫石，在河床沿線堆積粗大的花崗岩鵝卵石。)",
     "id": "TOEFL-cobble-m19a6zv6"
   },
   {
     "level": "TOEFL",
     "word": "commercialize",
     "meaning": "使商業化",
-    "example": "Nineteenth-century entrepreneurial capitalists worked legally to commercialize automated outwork textile crafts into factory formats. (外圍十九世紀的企業家資本家，合法地致力於將自動化的家庭代工紡織工藝轉化為工廠形式（使商業化）。)",
+    "example": "In the nineteenth century, entrepreneurs worked to commercialize cottage textile crafts and move them into factories. (十九世紀的企業家致力於把家庭代工的紡織工藝商業化，並移入工廠生產。)",
     "id": "TOEFL-commercialize-madyn8w"
   },
   {
@@ -3881,14 +3881,14 @@
     "level": "TOEFL",
     "word": "conservatism",
     "meaning": "保守主義；保守傾向",
-    "example": "Traditional classical art academies displayed rigid aesthetic conservatism, rejecting the naturalistic transitions of impressionist painters. (傳統的古典藝術學院展現出僵硬的審美保守主義，拒絕了印象派畫家的寫實（自然主義）過渡。)",
+    "example": "Traditional art academies showed rigid aesthetic conservatism and rejected the impressionists' new approach. (傳統藝術學院展現僵化的審美保守主義，排斥印象派的新做法。)",
     "id": "TOEFL-conservatism-m1ewi3r4"
   },
   {
     "level": "TOEFL",
     "word": "correspondingly",
     "meaning": "相應地；成比例地",
-    "example": "As industrial centralized factory centralize metrics scaled upward, urban metropolitan tenement population clusters grew correspondingly. (隨著工業集中的工廠集中化指標的按比例放大，城市大都市廉租公寓人口集群也相應地（成比例地）增長。)",
+    "example": "As factory output grew, the population of city tenements grew correspondingly. (隨著工廠產量增加，城市廉租公寓的人口也相應成長。)",
     "id": "TOEFL-correspondingly-me21op1"
   },
   {
@@ -3902,7 +3902,7 @@
     "level": "TOEFL",
     "word": "enigmatic",
     "meaning": "神秘的；謎一般的",
-    "example": "The abstract asymmetric motifs etched into the archaic slab remain entirely enigmatic to modern geographers. (雕刻在古老厚板上的抽象不對稱圖案，對現代地理學家來說仍然完全是謎一般的（神秘的）。)",
+    "example": "The abstract asymmetric motifs etched into the archaic slab remain entirely enigmatic to modern geographers. (雕刻在古老石板上的抽象不對稱圖案，對現代地理學家來說仍然是個謎。)",
     "id": "TOEFL-enigmatic-m13u2d0b"
   },
   {
@@ -3923,7 +3923,7 @@
     "level": "TOEFL",
     "word": "fallout",
     "meaning": "放射性落塵；伴隨結果；副作用",
-    "example": "The environmental fallout driven by synthetic phosphorus fertilizer agricultural runoff triggered widespread lake alga blooms. (由人工合成磷肥農業逕流所引發的環境副作用（伴隨結果），觸發了廣泛的湖泊藻類大量增殖。)",
+    "example": "Environmental fallout from synthetic fertilizer runoff triggered widespread algal blooms in lakes. (合成肥料逕流造成的環境副作用，在湖泊引發大範圍藻華。)",
     "id": "TOEFL-fallout-m7nb5aa"
   },
   {
@@ -3937,14 +3937,14 @@
     "level": "TOEFL",
     "word": "glasswork",
     "meaning": "玻璃製品工藝；玻璃工廠",
-    "example": "Archaeological extraction of the metropolitan market uncovered exceptionally refined Roman glasswork shards and glazed pots. (大都市市場的考古挖掘，發現了保存格外完好的羅馬玻璃製品碎片與塗釉罐子。)",
+    "example": "Excavations at the city market uncovered finely made Roman glasswork and glazed pottery. (在城市市場的考古挖掘中，發現了做工精細的羅馬玻璃器與釉陶。)",
     "id": "TOEFL-glasswork-m109c8u2"
   },
   {
     "level": "TOEFL",
     "word": "hesitant",
     "meaning": "猶豫的；遲疑的",
-    "example": "Speculator capitalists were highly hesitant to fund private automated turnpike infrastructure expansions during monetary crises. (在資金危機期間，投機資本家對於資助私營自動化收費公路基礎設施的擴張是非常猶豫的。)",
+    "example": "Speculators were hesitant to fund private toll road projects during financial crises. (投機客在金融危機期間不願出資興建民營收費公路。)",
     "id": "TOEFL-hesitant-mcw852x"
   },
   {
@@ -3958,21 +3958,21 @@
     "level": "TOEFL",
     "word": "hurtle",
     "meaning": "猛衝；飛馳",
-    "example": "High-velocity winter snowstorm avalanche sequences can hurtle downhill along step alp cliff faces violently. (高速的冬季暴風雪雪崩序列，會沿著陡峭的高山懸崖表面劇烈地向山下猛衝（飛馳）。)",
+    "example": "Avalanches can hurtle down steep alpine cliffs at high speed. (雪崩會以高速沿陡峭的高山崖壁猛衝而下。)",
     "id": "TOEFL-hurtle-m164re7l"
   },
   {
     "level": "TOEFL",
     "word": "impermanence",
     "meaning": "短暫性；暫時性；無常",
-    "example": "The ephemeral nature of desert meltwater streams underscores the ecological impermanence of semiarid wetland ecosystems. (沙漠融水溪流短暫的本質，強調了半乾旱濕地生態系統在生態上的短暫性（暫時性）。)",
+    "example": "The ephemeral nature of desert meltwater streams underscores the ecological impermanence of semiarid wetland ecosystems. (沙漠融水溪流很快就乾涸，說明半乾旱濕地多麼短暫。)",
     "id": "TOEFL-impermanence-m1jxc8tw"
   },
   {
     "level": "TOEFL",
     "word": "inanimate",
     "meaning": "無生命的；無生氣的",
-    "example": "Speculative animism models theorize that archaic tribes treated inanimate river boulders as sacred supernatural deities. (投機性的萬物有靈論模型推論，古老部落將無生命的（無生氣的）河流巨石視為神聖的超自然神明。)",
+    "example": "Anthropologists suggest that early tribes treated inanimate boulders as sacred beings. (人類學家認為早期部落把無生命的巨石視為神聖的存在。)",
     "id": "TOEFL-inanimate-m1bwillh"
   },
   {
@@ -3986,28 +3986,28 @@
     "level": "TOEFL",
     "word": "interdependence",
     "meaning": "相互依存；互相依賴",
-    "example": "The intricate biological interdependence binding legumes with nitrogen-fixing bacteria optimizes soil topsoil mineralization metrics. (結合豆科植物與固氮細菌之間複雜的生物相互依存（互相依賴），最佳化了土壤表土的礦化作用指標。)",
+    "example": "The interdependence between legumes and nitrogen-fixing bacteria improves soil quality. (豆科植物與固氮細菌之間的相互依存，能改善土壤品質。)",
     "id": "TOEFL-interdependence-m158c7kz"
   },
   {
     "level": "TOEFL",
     "word": "intuitive",
     "meaning": "直覺的；憑直覺獲知的",
-    "example": "Egalitarian gatherer hunting tribes possessed an intuitive botanical knowledge system tailored for identifying edible tubers. (平等主義的採集狩獵部落，具備一套專為識別可食塊莖而量身定制的直覺的植物學知識系統。)",
+    "example": "Egalitarian foraging tribes had an intuitive knowledge of plants and could identify edible tubers. (平等主義的採集部落對植物有直覺式的認識，能辨認可食的塊莖。)",
     "id": "TOEFL-intuitive-m1618qxj"
   },
   {
     "level": "TOEFL",
     "word": "ironically",
     "meaning": "諷刺地；具有諷刺意味地",
-    "example": "Ironically, persistent overirrigation meant to boost crop yield transforms fertile topsoil into sterile land units. (諷刺地是，旨在提高作物產量的持續過度灌溉，反而將肥沃的表土轉化成了貧瘠的土地單元。)",
+    "example": "Ironically, overirrigation meant to raise yields turns fertile topsoil into sterile land. (諷刺的是，原本想提高產量的過度灌溉，反而把肥沃的表土變成貧瘠的土地。)",
     "id": "TOEFL-ironically-mcubga1"
   },
   {
     "level": "TOEFL",
     "word": "lethargic",
     "meaning": "無精打采的；昏睡的；行動遲緩的",
-    "example": "Small tundra burrowing mammals become completely lethargic during winter hibernation months, dropping metabolic core expenditures. (小型凍原築巢哺乳動物在冬季冬眠月份期間變得完全行動遲緩（昏睡/無精打采），降低了新陳代謝的核心支出。)",
+    "example": "Small burrowing mammals in the tundra become lethargic during hibernation and have a lower metabolic rate. (凍原上的小型穴居哺乳動物在冬眠時會變得昏沉，代謝率也會下降。)",
     "id": "TOEFL-lethargic-m430k37"
   },
   {
@@ -4021,42 +4021,42 @@
     "level": "TOEFL",
     "word": "neatness",
     "meaning": "整潔；乾淨；工整",
-    "example": "The exceptional structural neatness of ancient cuneiform characters inscribed on mud tablets puzzle historical historians. (雕刻在泥板上的古代楔形文字文字異常的結構工整（整潔），讓歷史學家感到困惑。)",
+    "example": "The unusual neatness of the cuneiform signs on the clay tablets puzzles historians. (泥板上楔形文字異常工整，讓歷史學家感到困惑。)",
     "id": "TOEFL-neatness-m1v1xft1"
   },
   {
     "level": "TOEFL",
     "word": "nonproductive",
     "meaning": "非生產性的；無成效的",
-    "example": "Persistent land salinization transforms rich midwest plains into nonproductive alkali flats unusable for legume agriculture. (持續的土地鹽鹼化，將肥沃的中西部平原轉化為無法用於豆科植物農業的非生產性的（無成效的）鹼性灘地。)",
+    "example": "Continuing salinization turns rich prairie into nonproductive alkali flats where legumes cannot grow. (持續的鹽鹼化把肥沃的草原變成無法種豆科作物的非生產性鹼地。)",
     "id": "TOEFL-nonproductive-m1nqubs8"
   },
   {
     "level": "TOEFL",
     "word": "overconfident",
     "meaning": "過於自信的；自負的",
-    "example": "Speculator capitalists who became overconfident regarding midwest railway acreage investments faced catastrophic monetary collapses afterwards. (對中西部鐵路土地英畝投資變得過於自信的（自負的）投機資本家，後來地面臨了毀滅性的資金崩潰。)",
+    "example": "Speculators who grew overconfident about railway land in the Midwest later faced ruinous losses. (對中西部鐵路用地過於自信的投機客，後來遭受毀滅性的損失。)",
     "id": "TOEFL-overconfident-mwbmdjm"
   },
   {
     "level": "TOEFL",
     "word": "overproduction",
     "meaning": "過度生產；生產過剩",
-    "example": "Industrial overproduction of outwork piecework commodities without market subsidies triggered severe monetary crises inside cities. (沒有市場補貼的家庭代工計件商品工業過度生產（生產過剩），在城市內部引發了嚴重的資金危機。)",
+    "example": "Industrial overproduction of piecework goods, with no market support, triggered severe financial crises in the cities. (計件商品工業生產過剩，又沒有市場支撐，在城市引發嚴重金融危機。)",
     "id": "TOEFL-overproduction-mxrhmke"
   },
   {
     "level": "TOEFL",
     "word": "patriarch",
     "meaning": "（家族/部落的）族長；家長",
-    "example": "Within hierarchical chiefdoms, the elite aristocratic patriarch controlled the storage repository silos containing grain surpluses. (在階級化的酋邦內部，精英貴族族長（家長）控制着包含剩餘穀物的中央儲藏集裝箱糧倉。)",
+    "example": "In ranked chiefdoms, the aristocratic patriarch controlled the storehouses that held surplus grain. (在階層化的酋邦裡，貴族族長掌管儲存剩餘穀物的糧倉。)",
     "id": "TOEFL-patriarch-mif4wcs"
   },
   {
     "level": "TOEFL",
     "word": "peculiarly",
     "meaning": "獨特地；格外地；古怪地",
-    "example": "The granular sandstone textural profile renders it peculiarly buoyant, peculiarly porous for absorbing fluid groundwater. (顆粒狀砂岩的紋理特徵使其具備格外地（獨特地）多孔性，利於吸收流體地下水。)",
+    "example": "The granular texture of the sandstone makes it peculiarly porous and good at absorbing groundwater. (砂岩的顆粒質地使它格外多孔，容易吸收地下水。)",
     "id": "TOEFL-peculiarly-m1sdvua1"
   },
   {
@@ -4070,49 +4070,49 @@
     "level": "TOEFL",
     "word": "propriety",
     "meaning": "得體；適當；禮節",
-    "example": "Scholarly Latin clergy inside medieval metropolitan centers enforced strict protocols to preserve institutional moral propriety. (中世紀大都市中心內部的有文化素養的拉丁文神職人員，實施了嚴格的草案以維護體制的道德得體（適當/禮節）。)",
+    "example": "Learned Latin clergy in medieval centers enforced strict rules to preserve moral propriety. (中世紀中心裡懂拉丁文的神職人員嚴格執行規範，以維護道德上的得體。)",
     "id": "TOEFL-propriety-m18wd8n6"
   },
   {
     "level": "TOEFL",
     "word": "purge",
     "meaning": "清除；整肅；（政治）清洗",
-    "example": "Hierarchical chiefdom confederacy elites would politically purge peripheral chiefs who displayed signs of territorial disloyalty. (階級化的酋邦聯盟精英，會政治清除（整肅）表現出領土不忠跡象的外圍酋長。)",
+    "example": "Elites in ranked chiefdoms would purge outlying chiefs who showed signs of disloyalty. (階層化酋邦的精英會整肅表現出不忠跡象的外圍酋長。)",
     "id": "TOEFL-purge-mdkvgw5"
   },
   {
     "level": "TOEFL",
     "word": "quitter",
     "meaning": "輕易放棄的人；逃避者",
-    "example": "Within egalitarian gatherer groups, any individual labeled a quitter during hunting tracks faced social ostracism. (在平等主義採集群體內部，任何在狩獵過程中被標記為輕易放棄的人（逃避者）都會面臨社會排斥。)",
+    "example": "In egalitarian foraging bands, anyone called a quitter faced social ostracism. (在平等主義的採集群體裡，被稱為輕易放棄的人會遭到排擠。)",
     "id": "TOEFL-quitter-ms8aw94"
   },
   {
     "level": "TOEFL",
     "word": "replenishment",
     "meaning": "補充；補給",
-    "example": "Continuous rainwater infiltration actions are necessary for the geological replenishment of deep underground sandstone aquifers. (持續的雨水滲透作用，對於深層地下砂岩含水層的地質補充（補給）是必不可少的。)",
+    "example": "Steady rainwater infiltration is necessary for the replenishment of deep sandstone aquifers. (持續的雨水滲透，是深層砂岩含水層補注水量的必要條件。)",
     "id": "TOEFL-replenishment-m1d7gy58"
   },
   {
     "level": "TOEFL",
     "word": "restatement",
     "meaning": "重新敘述；重申",
-    "example": "The written discourse text served as an academic restatement validating Darwinian evolutionary science continuum mechanics. (該書面論述文字，充當了驗證達爾文演化科學連續體力學的學術重新敘述（重申）。)",
+    "example": "The essay was essentially a restatement of Darwin's theory of evolution. (這篇文章基本上是達爾文演化論的重述。)",
     "id": "TOEFL-restatement-m9qf12e"
   },
   {
     "level": "TOEFL",
     "word": "severity",
     "meaning": "嚴重性；嚴厲",
-    "example": "The immense economic severity of topsoil groundwater salinization anomalies prompted immediate federal canal regulation bills. (表土地下水鹽鹼化異常在經濟上的巨大嚴重性，促成了緊急的聯邦運河監管法案。)",
+    "example": "The severity of the economic losses caused by soil and groundwater salinization prompted immediate federal action on irrigation canals. (土壤與地下水鹽鹼化造成嚴重的經濟損失，促使聯邦立即就灌溉運河採取行動。)",
     "id": "TOEFL-severity-mbnp6cr"
   },
   {
     "level": "TOEFL",
     "word": "silvery",
     "meaning": "銀白色的；清脆的",
-    "example": "The isolated compound glowed with a distinct silvery fluorescent coloration when placed inside electron chambers. (當放置在電子艙內部時，這種隔離的化合物發出獨特的銀白色的螢光色彩。)",
+    "example": "The compound gave off a distinct silvery glow inside the electron chamber. (這種化合物在電子腔內發出獨特的銀白色光。)",
     "id": "TOEFL-silvery-m1rb9uhj"
   },
   {
@@ -4126,77 +4126,77 @@
     "level": "TOEFL",
     "word": "sugarlike",
     "meaning": "似糖的；甜的",
-    "example": "LEGUME host plant roots regularly reciprocate by transferring sugarlike starches back to symbiotic bacteria colonies. (豆科宿主植物根部定期做出回報，將似糖的（甜的）澱粉轉移回共生細菌群落中。)",
+    "example": "Legume roots return the favor by sending sugarlike starches back to the bacteria. (豆科植物的根部會回饋共生細菌，把似糖的澱粉送回它們那裡。)",
     "id": "TOEFL-sugarlike-mlntoih"
   },
   {
     "level": "TOEFL",
     "word": "symbolically",
     "meaning": "象徵性地",
-    "example": "Ancient Maya scribes utilized detailed cuneiform hieroglyphs to symbolically map seasonal calendar alignments inside caverns. (古代馬雅書吏利用詳細的楔形文字象形文字，來在溶洞內部象徵性地（象徵性地）繪製季節性曆法對齊圖表。)",
+    "example": "Maya scribes used hieroglyphs to map the calendar's seasonal alignments symbolically. (馬雅書吏用象形文字象徵性地標示曆法的季節對應。)",
     "id": "TOEFL-symbolically-mi3w5el"
   },
   {
     "level": "TOEFL",
     "word": "theological",
     "meaning": "神學的",
-    "example": "The scholarly clergy class inside universities drafted extensive written discourses addressing abstract theological concepts values. (大學內部有文化素養的神職人員階層，起草了廣泛的書面論述，闡述抽象的神學的（神學的）概念與價值觀。)",
+    "example": "University clergy wrote long treatises on abstract theological questions. (大學裡的神職人員撰寫長篇論述，討論抽象的神學問題。)",
     "id": "TOEFL-theological-mi86ay"
   },
   {
     "level": "TOEFL",
     "word": "thoughtless",
     "meaning": "輕率的；粗心的；不顧及他人的",
-    "example": "Ranchers who engage in the thoughtless overgrazing of fragile steppe grasslands trigger immediate severe desertification. (不顧及後果地輕率（粗心）過度放牧脆弱大草原的牧場主，會引發即時嚴重的沙漠化。)",
+    "example": "Thoughtless overgrazing of fragile steppe grassland speeds up severe desertification. (輕率地過度放牧脆弱的草原，會加速嚴重的沙漠化。)",
     "id": "TOEFL-thoughtless-mszdgv0"
   },
   {
     "level": "TOEFL",
     "word": "threadlike",
     "meaning": "線狀的；絲狀的",
-    "example": "Mycorrhizal fungal networks consist of dynamic threadlike filaments that exchange soil minerals for plant glucose. (菌根真菌網路包含動態的線狀的（絲狀的）菌絲，用以用土壤礦物質交換植物的葡萄糖。)",
+    "example": "Mycorrhizal fungi form threadlike filaments that trade soil minerals for sugar from plants. (菌根真菌形成絲狀菌絲，以土壤礦物質交換植物提供的糖分。)",
     "id": "TOEFL-threadlike-milpyhl"
   },
   {
     "level": "TOEFL",
     "word": "townspeople",
     "meaning": "市民；鎮民總稱",
-    "example": "Rapid urbanization inside the metropolis forced thousands of rural landsmen to relocate alongside urban townspeople. (大都市內部的快速城市化，迫使數千名農村土地居民與城市鎮民（市民）住在一起。)",
+    "example": "Rapid urbanization drew thousands of rural people into the city to live alongside townspeople. (快速的都市化把數千名鄉村人口帶進城市，與市民比鄰而居。)",
     "id": "TOEFL-townspeople-m1bmciar"
   },
   {
     "level": "TOEFL",
     "word": "uncarved",
     "meaning": "未雕刻的；天然質樸的",
-    "example": "Paleolithic toolmakers pounded raw uncarved flint blocks against granite boulders to extract sharp scraper shards. (舊石器時代的工具製造者，將原始未雕刻的（天然質樸的）燧石塊撞擊花崗岩巨石，以提取出鋒利的刮削器碎片。)",
+    "example": "Paleolithic toolmakers struck raw uncarved flint blocks against granite boulders to produce sharp flakes. (舊石器時代的工具製造者把未加工的燧石塊敲向花崗岩巨石，打出鋒利的石片。)",
     "id": "TOEFL-uncarved-m1ye34zm"
   },
   {
     "level": "TOEFL",
     "word": "undernutrition",
     "meaning": "營養不良",
-    "example": "Severe winter monsoon rain droughts provoked massive grain crop failures, inducing severe population undernutrition constraints. (嚴重的冬季季風降雨乾旱引發了大規模的穀物作物歉收，導致了嚴重的族群營養不良限制。)",
+    "example": "Severe winter droughts caused widespread crop failures and left the population suffering from undernutrition. (嚴重的冬季乾旱造成大範圍歉收，讓居民營養不良。)",
     "id": "TOEFL-undernutrition-mezulal"
   },
   {
     "level": "TOEFL",
     "word": "uneducated",
     "meaning": "未受教育的；無知的",
-    "example": "Early manufacturing centralized factory owners replaced skilled artisan outwork weavers with cheap uneducated immigrant laborers. (早期製造業集權的工廠主，利用廉價未受教育的移民勞工取代了熟練的工匠家庭代工編織工。)",
+    "example": "Early factory owners replaced skilled artisan weavers with cheap uneducated immigrant labor. (早期的工廠主用廉價、未受教育的移民勞工取代熟練的工匠織工。)",
     "id": "TOEFL-uneducated-m1tpdohv"
   },
   {
     "level": "TOEFL",
     "word": "deformity",
     "meaning": "畸形；傷殘",
-    "example": "A rare genetic abnormality disease deforms seedling structures, inducing systemic anatomical deformity inside angiosperms stems. (一種罕見的基因異常疾病使幼苗結構變形，在被子植物莖部內部引發系統了解剖學上的畸形。)",
+    "example": "A rare genetic disease deforms seedlings and causes anatomical deformity in their stems. (一種罕見的基因疾病會使幼苗變形，造成莖部解剖上的畸形。)",
     "id": "TOEFL-deformity-m1a6zmya"
   },
   {
     "level": "TOEFL",
     "word": "dismember",
     "meaning": "肢解；瓜分；切斷",
-    "example": "Intense tectonic compression can rend the continental bedrock crust, acting to dismember ancient cohesive landmasses. (強烈的板塊壓縮會撕裂大陸基岩地殼，起到瓜分（撕裂）古代凝聚陸塊的作用。)",
+    "example": "Intense tectonic compression can tear the continental crust apart and dismember ancient landmasses. (強烈的板塊擠壓會撕裂大陸地殼，把古老的陸塊分割開來。)",
     "id": "TOEFL-dismember-mp3mxl3"
   },
   {
@@ -4322,7 +4322,7 @@
     "level": "TOEFL",
     "word": "hydrodynamic",
     "meaning": "流體動力學的；水力動態的",
-    "example": "The hydrodynamic anatomy of the marine ichthyosaur minimized ocean fluid resistance during fast predatory propulsion. (海洋魚類流體動力學的解剖結構，在快速捕食性推進過程中將海洋流體阻力降到了最低。)",
+    "example": "The ichthyosaur's hydrodynamic body minimized water resistance during fast predatory swimming. (魚龍流線型的身體結構，在快速捕食游動時把水的阻力降到最低。)",
     "id": "TOEFL-hydrodynamic-mzpwr9t"
   },
   {
@@ -4336,14 +4336,14 @@
     "level": "TOEFL",
     "word": "chronologically",
     "meaning": "依時間順序地",
-    "example": "Stratigraphic survey profiles sequence sequential rock units chronologically based on sequential sediment layers accumulation laws. (地層調查剖面根據順序沉積層累積規律，依時間順序地（依時間順序地）排列順序岩石單元。)",
+    "example": "Stratigraphic profiles arrange rock units chronologically according to the law of superposition. (地層剖面依據疊覆律，將岩層單位按時間順序排列。)",
     "id": "TOEFL-chronologically-m1hu1lqx"
   },
   {
     "level": "TOEFL",
     "word": "interstitial",
     "meaning": "（地質/生物）間隙的；裂縫的",
-    "example": "Anaerobic chemosynthetic micro-infestations bacteria thrive inside the interstitial water zones of subterranean rift rifts. (厭氧化能合成細菌，在地下裂谷的間隙（裂縫的）水域內部繁盛生長。)",
+    "example": "Anaerobic chemosynthetic bacteria thrive in the interstitial water of subterranean rift zones. (厭氧的化能合成細菌在地下裂谷的間隙水中繁盛。)",
     "id": "TOEFL-interstitial-mxtgqx8"
   },
   {
@@ -4398,9 +4398,9 @@
   {
     "level": "TOEFL",
     "word": "commonsense",
-    "meaning": "常識；常識向的",
-    "example": "A commonsense approach to hydrological conservation dictates that groundwater extraction rates must match annual rain recharges. (水文保育的常識方法（常識）表明，地下水的開採率必須與每年的雨水補給相匹配。)",
-    "id": "TOEFL-commonsense-m7ov0vi"
+    "meaning": "常識；常識性的",
+    "example": "A commonsense approach to hydrological conservation dictates that groundwater extraction rates must match annual rain recharges. (用常識的方法處理問題。)",
+    "id": "TOEFL-commonsense-m7ox2vs"
   },
   {
     "level": "TOEFL",
@@ -4434,21 +4434,21 @@
     "level": "TOEFL",
     "word": "disruptive",
     "meaning": "破壞性的；引發混亂的",
-    "example": "Invasive biological invader weeds function as a disruptive force, altering regional nitrogen mineralization table guidelines metrics. (入侵的生物外來雜草充當了一種破壞性的力，改變了區域的氮礦化作用指標。)",
+    "example": "Invasive weeds act as a disruptive force, altering regional nitrogen mineralization. (入侵雜草形成一股破壞力量，改變了區域的氮礦化作用。)",
     "id": "TOEFL-disruptive-m15apym6"
   },
   {
     "level": "TOEFL",
     "word": "eclectic",
-    "meaning": "折衷的；相容並蓄的；多種多樣組合的",
-    "example": "The pointillist painter developed an eclectic aesthetic framework, blending classical symmetry logic with pure pigment dots. (點描派畫家發展出了一種折衷的（兼收並蓄的）審美框架，將古典的對稱邏輯與純顏料斑點相融合。)",
-    "id": "TOEFL-eclectic-m14uur9z"
+    "meaning": "折衷的；兼容並蓄的；多元組合的",
+    "example": "The pointillist painter developed an eclectic aesthetic framework, blending classical symmetry logic with pure pigment dots. (他的收藏風格兼容並蓄，融合了多種藝術流派。)",
+    "id": "TOEFL-eclectic-m1du2dhr"
   },
   {
     "level": "TOEFL",
     "word": "expansionist",
     "meaning": "擴張主義的；擴張主義者",
-    "example": "The militaristic centralized empire imperial government pursued an aggressive expansionist policy, policy, engulfing peripheral tribal territories. (軍事主義的中央集權帝國政府奉行激進的擴張主義的政策，吞併了外圍的部落領土。)",
+    "example": "The militaristic imperial government pursued an aggressive expansionist policy, annexing peripheral tribal territories. (軍事化的帝國政府推行激進的擴張政策，吞併外圍部落領土。)",
     "id": "TOEFL-expansionist-m1n8950w"
   },
   {
@@ -4490,7 +4490,7 @@
     "level": "TOEFL",
     "word": "humorously",
     "meaning": "幽默地；滑稽地",
-    "example": "The vaudeville showman theater performers humorously satirized the rigid commercial greed of metropolitan duke elite classes. (綜藝雜耍演藝企業家劇場表演者，幽默地（滑稽地）諷刺了大都市公爵精英階層刻板的商業貪婪。)",
+    "example": "Vaudeville performers humorously satirized the commercial greed of the metropolitan elite. (雜耍劇場的表演者幽默地諷刺了大都市精英階層的商業貪婪。)",
     "id": "TOEFL-humorously-m1chetku"
   },
   {
@@ -4518,7 +4518,7 @@
     "level": "TOEFL",
     "word": "inflexibly",
     "meaning": "僵硬地；缺乏彈性地",
-    "example": "Classical art institutions aligned inflexibly with traditional formulas of frontality, frontality, deprecating the impressionistic art movement. (傳統的藝術機構僵硬地（缺乏彈性地）與傳統的正面性公式保持一致，貶低了印象派藝術運動。)",
+    "example": "Classical art institutions adhered inflexibly to traditional formulas of frontality, disparaging the impressionist movement. (古典藝術機構僵化地固守正面性的傳統公式，貶低印象派運動。)",
     "id": "TOEFL-inflexibly-mkbrg6y"
   },
   {
@@ -4532,7 +4532,7 @@
     "level": "TOEFL",
     "word": "intolerant",
     "meaning": "無法忍受的；偏狹的",
-    "example": "Coniferous trees line spruces near timberlines are highly intolerant of the hyper-velocity alpine wind streams. (林木線附近的針葉樹雲杉，對高速的高山風流是高度無法忍受的。)",
+    "example": "Spruces near the timberline are highly intolerant of strong alpine winds. (林木線附近的雲杉很難耐受強勁的高山風。)",
     "id": "TOEFL-intolerant-m164zapx"
   },
   {
@@ -4574,7 +4574,7 @@
     "level": "TOEFL",
     "word": "melodic",
     "meaning": "旋律優美的；曲調的",
-    "example": "The preindustrial minstrel handcraft handcrafted a highly refined, melodic ballad narrative addressing ancestral legends guidelines history. (工業化前的吟游詩人，手工創作了一首高度精緻、旋律優美的民謠敘事詩，講述祖先傳說的歷史。)",
+    "example": "The preindustrial minstrel composed a refined, melodic ballad recounting ancestral legends. (工業化前的吟遊詩人創作了一首精緻優美的民謠，傳唱祖先的傳說。)",
     "id": "TOEFL-melodic-m1e73of0"
   },
   {
@@ -4609,7 +4609,7 @@
     "level": "TOEFL",
     "word": "overbalance",
     "meaning": "失去平衡；使失去平衡",
-    "example": "Turbulent marine currents current tracks can easily overbalance unshaped primitive wooden flatboat watercraft models lacking keels. (湍急的海洋洋流軌跡，能輕易使缺乏龍骨的未塑形原始木製平底船船隻模型失去平衡。)",
+    "example": "Turbulent currents can easily overbalance primitive flatboats that lack a keel. (湍急的洋流很容易讓沒有龍骨的原始平底船失去平衡。)",
     "id": "TOEFL-overbalance-mob6t9w"
   },
   {
@@ -4636,9 +4636,9 @@
   {
     "level": "TOEFL",
     "word": "physiologically",
-    "meaning": "生理學上地",
-    "example": "Avian endotherms are physiologically adapted to tolerate polar weather drops via countercurrent heat exchanger leg networks. (鳥類內溫動物在生理學上地適應了透過雙腿內部的逆流熱交換器網路，來忍受極地氣溫的下降。)",
-    "id": "TOEFL-physiologically-m1arshpz"
+    "meaning": "生理上；在生理方面",
+    "example": "Avian endotherms are physiologically adapted to tolerate polar weather drops via countercurrent heat exchanger leg networks. (鳥類這類內溫動物在生理上適應了極地低溫，靠的是腿部的逆流熱交換網路。)",
+    "id": "TOEFL-physiologically-mhect5s"
   },
   {
     "level": "TOEFL",
@@ -4665,14 +4665,14 @@
     "level": "TOEFL",
     "word": "pulp",
     "meaning": "果肉；漿狀物；紙漿",
-    "example": "Agriculturalists ground processed salmonberry fruits to squeeze out fresh fruit pulp nutrients inside earthen earthenware pots. (農業勞動者研磨加工過的鮭魚莓果實，以便在土罐內部擠出新鮮的果肉（漿狀物）營養成分。)",
+    "example": "Agriculturalists ground salmonberries to squeeze out the fresh pulp in earthenware pots. (農人把鮭魚莓磨碎，在陶罐裡擠出新鮮果肉。)",
     "id": "TOEFL-pulp-modublz"
   },
   {
     "level": "TOEFL",
     "word": "recount",
     "meaning": "敘述；描寫；重新清點",
-    "example": "Oral epic storytelling narratives compile compiled by tribal informants recount ancestral migrations across the gateway bridge. (由部落受訪者所編纂的口頭史詩說故事敘事，描寫了（敘述）跨越通道陸橋的祖先遷移。)",
+    "example": "Oral epic narratives compiled by tribal informants recount ancestral migrations across the land bridge. (部落受訪者整理的長篇口傳史詩，講述祖先跨越陸橋的遷徙。)",
     "id": "TOEFL-recount-ms3t9q0"
   },
   {
@@ -4693,7 +4693,7 @@
     "level": "TOEFL",
     "word": "ritualize",
     "meaning": "使儀式化；使程式化",
-    "example": "Sedentary agriculturalist agrarian chiefs worked to ritualize seasonal rainfall monsoon recharges via cavern ceremonial platform platforms. (定居的農業酋長，致力於透過溶洞儀式平台，將季節性季風降雨補給使儀式化。)",
+    "example": "Sedentary agrarian chiefs worked to ritualize seasonal monsoon recharges on cavern platforms. (定居的農業酋長致力在洞穴平台上把季節性季風補給儀式化。)",
     "id": "TOEFL-ritualize-mue0xra"
   },
   {
@@ -4721,7 +4721,7 @@
     "level": "TOEFL",
     "word": "slat",
     "meaning": "板條（如百葉窗板條）",
-    "example": "The cabinetmaker utilized flat split cedar slat components to assemble structural storage receptacles for grain grains. (高級家具細木工匠利用平坦的分裂雪松板條組件，來組裝穀物結構性的儲藏容器。)",
+    "example": "The cabinetmaker used flat cedar slats to assemble storage bins for grain. (櫥櫃工匠用平整的雪松板條組裝儲藏穀物的箱子。)",
     "id": "TOEFL-slat-m17zqmdz"
   },
   {
@@ -4735,7 +4735,7 @@
     "level": "TOEFL",
     "word": "superbly",
     "meaning": "極好地；傑出地；極其",
-    "example": "The Neolithic stone masonry villages dwellings were superbly engineered, engineered, featuring durable structures inside secure alcoves. (新石器時代的石造建築村落住宅被工程建造得極好地（傑出地），在安全的凹處內部以耐用的構造為特色。)",
+    "example": "The Neolithic stone dwellings were superbly engineered, with durable structures set inside secure alcoves. (新石器時代的石造住宅建造工藝極佳，耐久的結構藏在安全的凹處。)",
     "id": "TOEFL-superbly-m2ctxyg"
   },
   {
@@ -4791,7 +4791,7 @@
     "level": "TOEFL",
     "word": "tribespeople",
     "meaning": "部落住民；族人",
-    "example": "The cultural anthropologist interviewed elder tribespeople to record cuneiform-like oral epic legends before they putrefied. (文化人類學家訪問了年長的部落住民（族人），以在口頭史詩傳說消失（腐爛）之前將其記錄下來。)",
+    "example": "The cultural anthropologist interviewed elder tribespeople to record oral epic legends before they were lost. (文化人類學家訪問年長的部落族人，趁口頭史詩傳說尚未失傳時記錄下來。)",
     "id": "TOEFL-tribespeople-m1bsvb4f"
   },
   {
@@ -4840,7 +4840,7 @@
     "level": "TOEFL",
     "word": "verbally",
     "meaning": "言語上地；口頭地",
-    "example": "Before writing systems system systems arose, historical lore metrics were transmitted verbally via oral rote sequencing. (在文字系統興起之前，歷史傳說指標是透過口頭死記硬背的串聯在言語上地（口頭地）傳遞的。)",
+    "example": "Before writing systems arose, historical lore was transmitted verbally through oral recitation. (在文字系統出現之前，歷史傳說靠口頭吟誦傳遞。)",
     "id": "TOEFL-verbally-m14a9bgv"
   },
   {
@@ -4861,7 +4861,7 @@
     "level": "TOEFL",
     "word": "clarification",
     "meaning": "澄清；闡明；淨化",
-    "example": "The geological geochronologists presented empirical radiocarbon dates mapping, offering vital clarification addressing the extinct timeline boundaries. (地質年代學家展示了經驗性的放射性碳日期繪圖，為解決滅絕時間線邊界提供了至關重要的澄清（闡明）。)",
+    "example": "Geochronologists presented radiocarbon dates that offered vital clarification of the extinction timeline boundaries. (地質年代學家提出放射性碳定年資料，為滅絕時間線的邊界提供了關鍵澄清。)",
     "id": "TOEFL-clarification-m1tnimua"
   },
   {
@@ -4889,7 +4889,7 @@
     "level": "TOEFL",
     "word": "flaming",
     "meaning": "燃燒的；火紅的",
-    "example": "The luminous interstellar meteoric fireball cast a bright flaming trajectory sequence across the nighttime sky grid. (發光的星際隕石火球，在夜空網格跨度間投射出了一條明亮燃記燃燒的（火紅的）軌跡序列。)",
+    "example": "The luminous meteoric fireball left a bright flaming trail across the night sky. (發光的隕石火球在夜空中留下一道明亮的燃燒軌跡。)",
     "id": "TOEFL-flaming-m98b8lg"
   },
   {
@@ -4903,7 +4903,7 @@
     "level": "TOEFL",
     "word": "intelligently",
     "meaning": "聰明地；理智地",
-    "example": "Egalitarian gatherer groups shared foodstuff resources intelligently, intelligently, optimizing collective survival thresholds inside harsh tundra biomes. (平等主義的採集群體聰明地（理智地）共享食品資源，優化了惡劣凍原生物群系內部的集體生存門檻。)",
+    "example": "Egalitarian gatherer groups shared food intelligently, raising the group's chances of surviving harsh tundra winters. (平等主義的採集群體聰明地共享食物，提高了群體度過嚴酷凍原冬季的機會。)",
     "id": "TOEFL-intelligently-m1bf24sz"
   },
   {
@@ -4944,16 +4944,16 @@
   {
     "level": "TOEFL",
     "word": "earthward",
-    "meaning": "向地球地；朝向地面地",
-    "example": "A falling atmospheric raindrop accelerates earthward, reacting with carbonic acid elements to dissolve limestone calcite bedrocks. (落下的大氣雨滴向地球地（朝向地面地）加速下落，與碳酸元素發生反應以溶解石灰岩方解石基岩。)",
-    "id": "TOEFL-earthward-m1uo89vf"
+    "meaning": "向地面；朝地球方向",
+    "example": "A falling atmospheric raindrop accelerates earthward, reacting with carbonic acid elements to dissolve limestone calcite bedrocks. (隕石碎片向地面加速下墜。)",
+    "id": "TOEFL-earthward-m10alx9s"
   },
   {
     "level": "TOEFL",
     "word": "usefully",
-    "meaning": "實用向地；有益地",
-    "example": "Advanced digital filters allow planetarium projects to usefully model stellar trajectories tracking grids across the cosmos. (先進的數位濾鏡容許天文館計畫項目，實用向地（有益地）模擬跨越宇宙的恆星軌道追蹤網格。)",
-    "id": "TOEFL-usefully-m14nynqt"
+    "meaning": "有用地；有效地",
+    "example": "Advanced digital filters allow planetarium projects to usefully model stellar trajectories tracking grids across the cosmos. (先進的數位濾鏡讓天文館專案能有效地模擬宇宙中的恆星軌道網格。)",
+    "id": "TOEFL-usefully-m1bjjzlz"
   },
   {
     "level": "TOEFL",
@@ -5021,9 +5021,9 @@
   {
     "level": "TOEFL",
     "word": "climatically",
-    "meaning": "在氣候上地；氣候向地",
-    "example": "The midwest prairie plains are climatically stable, featuring fertile topsoil matrix layers optimized for grain agriculture crops. (中西部大草原平原在氣候上地是穩定的，以優化了穀物農業作物的肥沃表土基質層為特色。)",
-    "id": "TOEFL-climatically-m13k2bw"
+    "meaning": "在氣候上；就氣候而言",
+    "example": "The midwest prairie plains are climatically stable, featuring fertile topsoil matrix layers optimized for grain agriculture crops. (這一地區在氣候上相當穩定。)",
+    "id": "TOEFL-climatically-m15rsv0s"
   },
   {
     "level": "TOEFL",
@@ -5043,7 +5043,7 @@
     "level": "TOEFL",
     "word": "controllable",
     "meaning": "可控制的；可管理的",
-    "example": "Phytoremediation root hyper-accumulatorhyper-accumulator systems offer a highly controllable tool for neutralizing heavy metal topsoil toxins. (植物修復根部超累積系統，為中和重金屬表土毒素提供了一種高度可控制的工具。)",
+    "example": "Hyper-accumulating roots used in phytoremediation offer a highly controllable tool for removing heavy metals from topsoil. (植物修復所用的超累積根系，是清除表土重金屬相當可控的工具。)",
     "id": "TOEFL-controllable-m1kiki6d"
   },
   {
@@ -5057,7 +5057,7 @@
     "level": "TOEFL",
     "word": "crease",
     "meaning": "摺痕；皺褶",
-    "example": "A minor structural crease deforms the fine negative paper Negative منفی negatives generated via the early calotype process. (一個微小的結構摺痕（皺褶），使早期卡羅法攝影工藝所產生的細緻負片紙張發生了變形。)",
+    "example": "A minor crease deformed the fine paper negatives produced by the early calotype process. (一道輕微的摺痕使早期卡羅法製作的精細紙質負片變形。)",
     "id": "TOEFL-crease-m1hmew0s"
   },
   {
@@ -5071,7 +5071,7 @@
     "level": "TOEFL",
     "word": "disadvantageous",
     "meaning": "不利的；處於劣勢的",
-    "example": "An uncompetitive piecework format formats format was highly disadvantageous for destitute outwork families inside industrial metropolitan tenements. (缺乏競爭力的計件工作形式，對於工業大都市廉租公寓內部的貧困家庭代工家庭來說是非常不利的（處於劣勢的）。)",
+    "example": "An uncompetitive piecework system was highly disadvantageous for destitute outwork families in industrial tenements. (缺乏競爭力的計件制度，對工業區廉租公寓裡的貧困家庭代工非常不利。)",
     "id": "TOEFL-disadvantageous-mvdlenf"
   },
   {
@@ -5113,15 +5113,15 @@
     "level": "TOEFL",
     "word": "exertion",
     "meaning": "努力；費力；（力量的）行使發揮",
-    "example": "The physical exertion required to manual split splitter cedar logs into flat planks exhausted preindustrial homesteaders woodworkers. (手工將雪松原木劈成平坦木板所需的體力行使（費力），讓工業化前的拓荒木工精疲力竭。)",
+    "example": "The physical exertion of splitting cedar logs into planks exhausted preindustrial homesteaders. (手工把雪松原木劈成木板所需的體力，讓工業化前的拓荒者精疲力竭。)",
     "id": "TOEFL-exertion-m2nrogl"
   },
   {
     "level": "TOEFL",
     "word": "geothermally",
-    "meaning": "地熱向地；利用地熱地",
-    "example": "The metropolitan core sectors segments were geothermally supplied with clean mechanical power harvested from underground hotspot rifts. (大都市核心部門，由從地下熱點裂谷中收穫的乾淨地熱向地（利用地熱地）供應機械動力。)",
-    "id": "TOEFL-geothermally-mybxklx"
+    "meaning": "利用地熱；以地熱方式",
+    "example": "The metropolitan core sectors segments were geothermally supplied with clean mechanical power harvested from underground hotspot rifts. (工廠利用地熱供應機械所需的動力。)",
+    "id": "TOEFL-geothermally-m8dltxd"
   },
   {
     "level": "TOEFL",
@@ -5288,7 +5288,7 @@
     "level": "TOEFL",
     "word": "publicly",
     "meaning": "公開地；公眾向地",
-    "example": "The Whig centralized federalist administration leaders publicly endorsed Endor endorsed the infrastructure subsidies railways railway bills proposals. (輝格黨集權的聯邦政府行政領導人，公開地（公眾向地）背書支持了鐵路基礎設施補貼法案提案。)",
+    "example": "Whig leaders in the federal administration publicly endorsed the railway infrastructure subsidy bills. (輝格黨的聯邦行政領導人公開支持鐵路基礎設施補貼法案。)",
     "id": "TOEFL-publicly-m1imxp0b"
   },
   {
@@ -5400,14 +5400,14 @@
     "level": "TOEFL",
     "word": "unconsciously",
     "meaning": "無意識地；不知不覺地",
-    "example": "The mammalian primate infant responds unconsciously to sensory feedback pathways, tracking model models via autonomic tracking codes. (哺乳動物靈長類嬰兒對感官回饋通路做出無意識地（不知不覺地）反應，透過自主追蹤規範來追蹤模型。)",
+    "example": "The infant primate responds unconsciously to sensory feedback, tracking objects through autonomic routines. (靈長類嬰兒會不知不覺地回應感官回饋，靠自主機制追蹤物體。)",
     "id": "TOEFL-unconsciously-myydlti"
   },
   {
     "level": "TOEFL",
     "word": "underscore",
     "meaning": "強調；在…下方劃線",
-    "example": "Empirical DNA molecular tracking extraction tools serve to underscore the complex genomic continuum linking early vertebrate lines. (經驗性的DNA分子追蹤提取工具，起到強調（突出）連結早期無脊椎動物譜系的複雜基因體連續體的作用。)",
+    "example": "DNA extraction tools underscore the complex genomic continuum linking early vertebrates. (DNA 萃取工具凸顯了連結早期脊椎動物的複雜基因體連續性。)",
     "id": "TOEFL-underscore-m1cx1nsm"
   },
   {
@@ -5462,9 +5462,9 @@
   {
     "level": "TOEFL",
     "word": "downhill",
-    "meaning": "向山下地；每況愈下地",
-    "example": "Post-glacial meltwater channels stream channels flowed downhill along steep alp ridges, carving out rich dale valleys. (冰河期後的融水溪流通道沿著陡峭的高山山脊向山下地（向低處）流動，雕琢出肥沃的山谷。)",
-    "id": "TOEFL-downhill-m38zc79"
+    "meaning": "向山下；往下坡；每況愈下",
+    "example": "Post-glacial meltwater channels stream channels flowed downhill along steep alp ridges, carving out rich dale valleys. (水流沿著山坡向下流動。)",
+    "id": "TOEFL-downhill-m1arf1wq"
   },
   {
     "level": "TOEFL",
@@ -5596,7 +5596,7 @@
     "level": "TOEFL",
     "word": "engender",
     "meaning": "產生；引發",
-    "example": "Persistent groundwater over-extraction over-extraction over aquifers will invariably engender severe land subsidence and structural cracking anomalies. (對含水層持續的地下水過度開採，總是會引發（產生）嚴重的地盤下陷與結構龜裂異常。)",
+    "example": "Persistent over-extraction of groundwater will invariably engender severe land subsidence and structural cracking. (持續超抽地下水，必然引發嚴重的地層下陷與結構龜裂。)",
     "id": "TOEFL-engender-m1bmh81x"
   },
   {
@@ -5610,7 +5610,7 @@
     "level": "TOEFL",
     "word": "flashy",
     "meaning": "閃光的；俗麗的；浮華的",
-    "example": "The itinerant showman vaudeville theater performers wore flashy homespun cotton suspender outfits to gather crowd crowds inside arcades. (巡迴的演藝企業家綜藝雜耍劇場表演者，穿著俗麗的（浮華的）手織棉質吊帶服裝，以在大都市拱廊街內部聚集人群。)",
+    "example": "Itinerant vaudeville performers wore flashy homespun suspender outfits to draw crowds in the arcades. (巡迴的雜耍藝人穿著俗麗的手織棉吊帶裝，在大都市拱廊街吸引人潮。)",
     "id": "TOEFL-flashy-m11axjan"
   },
   {
@@ -5659,14 +5659,14 @@
     "level": "TOEFL",
     "word": "malleable",
     "meaning": "具延展性的；可塑的；易受影響的",
-    "example": "Copper is a highly malleable metallic ore, ore, allowing Bronze Age metalworkers to forge ornate ornamental chalices easily. (銅是一種高度具延展性的金屬礦石，容許青銅時代的金屬工匠能輕易鍛造出華麗的裝飾性聖杯。)",
+    "example": "Copper is a highly malleable metal, allowing Bronze Age metalworkers to forge ornate chalices easily. (銅是延展性極高的金屬，讓青銅時代的工匠能輕易鍛造華麗的聖杯。)",
     "id": "TOEFL-malleable-mg1upch"
   },
   {
     "level": "TOEFL",
     "word": "moisten",
     "meaning": "弄濕；使濕潤",
-    "example": "Seasonal rainwater pulses will slowly moisten the hyper-arid core topsoil layers, layers, prompting dormant seeds to sprout. (季節性的雨水脈衝會緩慢地濕潤（弄濕）極度乾旱的核心表土層，促使休眠的種子發芽。)",
+    "example": "Seasonal rain will slowly moisten the arid topsoil, prompting dormant seeds to sprout. (季節性降雨會慢慢濕潤乾旱的表土，促使休眠的種子發芽。)",
     "id": "TOEFL-moisten-m1hcynyc"
   },
   {
@@ -5693,15 +5693,15 @@
   {
     "level": "TOEFL",
     "word": "visually",
-    "meaning": "視覺上地",
-    "example": "The naturalistic Greek statues were visually spectacular, capturing fluid human movement human movement curves with perfect anatomical logic. (寫實的希臘雕像在視覺上地非常壯觀，以完美的解剖邏輯捕捉了流暢的人類運動曲線。)",
-    "id": "TOEFL-visually-mhxa3be"
+    "meaning": "視覺上；在外觀上",
+    "example": "The naturalistic Greek statues were visually spectacular, capturing fluid human movement with perfect anatomical logic. (寫實的希臘雕像在視覺上極為壯觀，以精準的解剖邏輯捕捉流暢的人體動態。)",
+    "id": "TOEFL-visually-mrfu6wd"
   },
   {
     "level": "TOEFL",
     "word": "discernible",
     "meaning": "可辨別的；看清的",
-    "example": "A sudden shift in soil conductance indicators is discernible inside stratigraphic strata immediately following catastrophic meteoric impact events. (在毀滅性隕石撞擊事件發生後，地層內部地層內部的土壤導度指標突然發生的轉變是可辨別的。)",
+    "example": "A sudden shift in soil conductance is discernible in the strata immediately after a catastrophic meteorite impact. (毀滅性隕石撞擊後，地層中的土壤導度會出現明顯的突然變化。)",
     "id": "TOEFL-discernible-mx44ddz"
   },
   {
@@ -5757,7 +5757,7 @@
     "level": "TOEFL",
     "word": "glider",
     "meaning": "滑翔機；滑翔生物",
-    "example": "Early aerodynamic scientists analyzed the winged profiles profile of the prehistoric pterosaur, modeling it as an agile glider flier. (早期空氣動力學科學家分析了史前翼龍的翅膀輪廓，將其模擬為一隻敏捷的滑翔生物（滑翔機/飛行員）。)",
+    "example": "Early aerodynamic scientists analyzed the wing profile of the prehistoric pterosaur and modeled it as an agile glider. (早期空氣動力學家分析史前翼龍的翅膀剖面，把牠模擬成靈活的滑翔生物。)",
     "id": "TOEFL-glider-moqsv7w"
   },
   {
@@ -5799,15 +5799,15 @@
     "level": "TOEFL",
     "word": "windswept",
     "meaning": "被風吹颳的；暴露在風中的",
-    "example": "The rugged upland plains are windswept deserts windswept deserts, where high-velocity polar airstreams exclude large woody forests entirely. (崎嶇的高地平原是暴露在風中的（被風吹颳的）沙漠，那裡高速的極地氣流完全排除了大型木本森林。)",
+    "example": "The rugged upland plains are windswept deserts, where high-speed polar winds prevent large woody forests from growing. (崎嶇的高地平原是受風吹襲的荒漠，高速極地氣流讓大型森林無法生長。)",
     "id": "TOEFL-windswept-m1lzzy83"
   },
   {
     "level": "TOEFL",
     "word": "globally",
-    "meaning": "全球地",
-    "example": "Cretaceous mass extinction mass extinction mass extinction anomalies altered climate indicators indicator metrics globally, obliterating terrestrial dinosaurs dinosaur populations. (白堊紀大規模滅絕異常現象在全球地改變了氣候指標，抹去了陸地恐龍族群。)",
-    "id": "TOEFL-globally-mchgqd"
+    "meaning": "在全球範圍內",
+    "example": "Cretaceous mass extinction events altered climate indicators globally, wiping out terrestrial dinosaur populations. (白堊紀的大規模滅絕事件改變了全球氣候指標，消滅了陸地恐龍族群。)",
+    "id": "TOEFL-globally-mtv2viz"
   },
   {
     "level": "TOEFL",
@@ -5841,7 +5841,7 @@
     "level": "TOEFL",
     "word": "circumstantially",
     "meaning": "依情況地；依附帶情節地",
-    "example": "The theory linking asteroid impacts with Cretaceous extinctions was circumferentially verified before craters were unearthed. (在小行星隕石坑被挖掘出來之前，將小行星撞擊與白堊紀滅絕相聯繫的理論，是以附帶情節地（間接地）得到驗證的。)",
+    "example": "Before the craters were unearthed, circumstantial evidence only tentatively supported the theory linking asteroid impacts with Cretaceous extinctions. (在隕石坑被發現之前，只有間接證據暫時支持小行星撞擊與白堊紀滅絕相關的理論。)",
     "id": "TOEFL-circumstantially-mjqhf8q"
   },
   {
@@ -5875,9 +5875,9 @@
   {
     "level": "TOEFL",
     "word": "physically",
-    "meaning": "身體上地；物理上地",
-    "example": "Tectonic stresses physically deform sedimentary strata, crumpling uniform bedrock layers into mountainous ridges. (板塊壓力在物理上使沉積地層變形，將均勻的基岩層褶皺成山脊。)",
-    "id": "TOEFL-physically-m1fllesv"
+    "meaning": "身體上；物理上；在物理層面",
+    "example": "Tectonic stresses physically deform sedimentary strata, crumpling uniform bedrock layers into mountainous ridges. (這種材料在物理層面上具有明顯差異。)",
+    "id": "TOEFL-physically-m1va7ykb"
   },
   {
     "level": "TOEFL",
@@ -5981,7 +5981,7 @@
     "level": "TOEFL",
     "word": "swiftness",
     "meaning": "迅速；快捷",
-    "example": "The anatomical hydrodynamic adaptations of the marine ichthyosaur minimized fluid resistance, enhancing its predatory swiftness. (海洋魚類流體動力學的解剖適應將流體阻力降到了最低，增強了牠在捕食時的迅速（快捷）。)",
+    "example": "The hydrodynamic adaptations of the marine ichthyosaur minimized water resistance, enhancing its predatory swiftness. (魚龍的流體力學適應把水的阻力降到最低，提升了牠捕食時的速度。)",
     "id": "TOEFL-swiftness-md47oy5"
   },
   {
@@ -6148,9 +6148,9 @@
   {
     "level": "TOEFL",
     "word": "lengthwise",
-    "meaning": "縱向地；長度向地",
-    "example": "The fine-grained sedimentary shale bedrocks split lengthwise smoothly, exposing leaf imprints trapped millions of years ago. (細顆粒的沉積頁岩基岩能流暢地縱向地裂開，露出數百萬年前被困住的葉片印記。)",
-    "id": "TOEFL-lengthwise-m1p8my2h"
+    "meaning": "縱向地；沿著長度方向",
+    "example": "The fine-grained sedimentary shale bedrocks split lengthwise smoothly, exposing leaf imprints trapped millions of years ago. (木料沿著長度方向裂開。)",
+    "id": "TOEFL-lengthwise-mh83e96"
   },
   {
     "level": "TOEFL",
@@ -6295,9 +6295,9 @@
   {
     "level": "TOEFL",
     "word": "acquiesce",
-    "meaning": "默許；預設",
+    "meaning": "默許；默認；勉強同意",
     "example": "The director decided to acquiesce to the committee's recommendations. (主管決定默許委員會的建議。)",
-    "id": "TOEFL-acquiesce-maa64f"
+    "id": "TOEFL-acquiesce-mmkhhf9"
   },
   {
     "level": "TOEFL",
@@ -6491,9 +6491,9 @@
   {
     "level": "TOEFL",
     "word": "outrageously",
-    "meaning": "令人不容忍地；極其",
+    "meaning": "離譜地；驚人地；極其",
     "example": "The prices at the airport restaurants are outrageously high. (機場餐廳的價格高得令人咋舌。)",
-    "id": "TOEFL-outrageously-m1jgw20n"
+    "id": "TOEFL-outrageously-m1uq02c1"
   },
   {
     "level": "TOEFL",
@@ -6588,17 +6588,17 @@
   },
   {
     "level": "TOEFL",
-    "word": "chronical",
+    "word": "chronic",
     "meaning": "慢性的；長期的",
-    "example": "He suffered from a chronic back injury that limited his movement. (他遭受了長期的背部受傷，限制了他的行動。)",
-    "id": "TOEFL-chronical-m1316sgw"
+    "example": "He suffered from chronic back pain that limited his movement. (他長期背痛，行動受限。)",
+    "id": "TOEFL-chronic-m1316sgw"
   },
   {
     "level": "TOEFL",
     "word": "lithographic",
-    "meaning": "石印的、平版印刷的",
-    "example": "Modern semiconductor manufacturing relies heavily on advanced photolithographic processes to print microchips. (現代半導體製造極大地依賴先進的光學平版印刷製程來印刷微晶圓。)",
-    "id": "TOEFL-lithographic-m1fdc73i"
+    "meaning": "平版印刷的；（半導體）微影的",
+    "example": "Modern semiconductor manufacturing relies on advanced lithographic processes to print microchips. (現代半導體製造依賴先進的微影製程來印製微晶片。)",
+    "id": "TOEFL-lithographic-m1dhltxv"
   },
   {
     "level": "TOEFL",
@@ -6708,9 +6708,9 @@
   {
     "level": "TOEFL",
     "word": "academically",
-    "meaning": "學術上地",
+    "meaning": "學術上；在學業方面",
     "example": "The university admission board seeks candidates who are not only academically proficient but also socially engaged. (大學招生委員會尋找的候選人不僅要在學術上表現優秀，還要積極參與社會。)",
-    "id": "TOEFL-academically-mc3o9z5"
+    "id": "TOEFL-academically-m18ulcca"
   },
   {
     "level": "TOEFL",
@@ -6793,7 +6793,7 @@
     "level": "TOEFL",
     "word": "actively",
     "meaning": "積極地；主動地",
-    "example": "Forager ants actively search the forest understory, secreting trail pheromones once foodstuffs are localized. (覓食蟻積極地搜尋森林林下植物層，一旦食品糧食位置被局部化，就會分泌足跡費洛蒙。)",
+    "example": "Foraging ants actively search the forest understory and secrete trail pheromones once they locate food. (覓食的螞蟻積極搜索森林下層，一旦找到食物就分泌路徑費洛蒙。)",
     "id": "TOEFL-actively-m1nv9plv"
   },
   {
@@ -6918,9 +6918,9 @@
   {
     "level": "TOEFL",
     "word": "aesthetically",
-    "meaning": "美學上地；審美向地",
+    "meaning": "在美學上；審美上",
     "example": "Greek statuary artists transitioned to naturalism, producing anatomically balanced and aesthetically refined profiles. (希臘雕像藝術家過渡到自然主義，製作出解剖結構平衡且在美學上精緻的輪廓。)",
-    "id": "TOEFL-aesthetically-m9mj173"
+    "id": "TOEFL-aesthetically-maxhun6"
   },
   {
     "level": "TOEFL",

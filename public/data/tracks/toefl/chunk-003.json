@@ -332,7 +332,7 @@
     "level": "TOEFL",
     "word": "hypocritical",
     "meaning": "虛偽的；偽善的",
-    "example": "It is hypocritical of him to lecture others about saving environment. (他對別人演講關於保護環境的事是很虛偽的。)",
+    "example": "It is hypocritical of him to lecture others about protecting the environment. (他自己做不到，卻愛對別人說教要保護環境，實在虛偽。)",
     "id": "TOEFL-hypocritical-m19tjk78"
   },
   {
@@ -556,7 +556,7 @@
     "level": "TOEFL",
     "word": "imperfect",
     "meaning": "有瑕疵的；不完美的",
-    "example": "Early mechanical phonographs delivered an imperfect sound reproduction format, carrying chaotic background crackles across cylinders. (早期的機械留聲機提供了一種不完美的聲音重現形式，在圓柱體跨度間夾雜著混沌的背景爆裂聲。)",
+    "example": "Early mechanical phonographs delivered an imperfect sound reproduction format, carrying chaotic background crackles across cylinders. (早期的機械留聲機音質並不完美，圓柱唱片上還會夾雜混亂的背景爆裂聲。)",
     "id": "TOEFL-imperfect-mmq5bjp"
   },
   {
@@ -626,7 +626,7 @@
     "level": "TOEFL",
     "word": "impressionistic",
     "meaning": "印象派的；印象主義的",
-    "example": "The impressionistic art movement prioritized the fleeting Play of light wavelengths, rejecting the rigid outlines of classical naturalism. (印象派藝術運動優先考慮光波長稍縱即逝的遊戲，拒絕了古典自然主義僵硬的輪廓。)",
+    "example": "The impressionistic movement prioritized the fleeting play of light, rejecting the rigid outlines of classical naturalism. (印象派運動重視光影稍縱即逝的變化，揚棄古典自然主義僵硬的輪廓。)",
     "id": "TOEFL-impressionistic-m1r72dcx"
   },
   {
@@ -682,7 +682,7 @@
     "level": "TOEFL",
     "word": "incandescent",
     "meaning": "白熾的；發白熱光的",
-    "example": "The stellar coma expanding around the comet's core contains volatile gases glowing with an incandescent light under solar rays. (在彗星核心周圍膨脹的恆星彗髮含有揮發性氣體，在太陽光線下發出白熾的光芒。)",
+    "example": "The stellar coma expanding around the comet's core contains volatile gases glowing with an incandescent light under solar rays. (彗核周圍膨脹的彗髮含有揮發性氣體，在陽光照射下發出白熾的光芒。)",
     "id": "TOEFL-incandescent-m1r5jx83"
   },
   {
@@ -892,7 +892,7 @@
     "level": "TOEFL",
     "word": "inducement",
     "meaning": "誘因；動機；引誘",
-    "example": "The availability of free acreage hectares functioned as a powerful economic inducement for western pioneer homesteaders. (免費英畝（面積公頃）土地的提供，對西部拓荒農莊主來說充當了一項強大的經濟誘因。)",
+    "example": "The availability of free acreage functioned as a powerful economic inducement for western pioneer homesteaders. (免費土地的提供，對西部拓荒的農莊主人來說是一項強大的經濟誘因。)",
     "id": "TOEFL-inducement-m1j2mzhd"
   },
   {
@@ -1102,7 +1102,7 @@
     "level": "TOEFL",
     "word": "instinctively",
     "meaning": "本能地",
-    "example": "The newborn marsupial crawls instinctively toward the mother's pouch immediately following its birth timeline. (新生有袋類動物在其出生時間線之後，會立即本能地爬向母親的育兒袋。)",
+    "example": "The newborn marsupial crawls instinctively toward the mother's pouch shortly after birth. (新生有袋類動物出生後不久，就會本能地爬向母親的育兒袋。)",
     "id": "TOEFL-instinctively-mfqfwf"
   },
   {
@@ -1305,7 +1305,7 @@
     "level": "TOEFL",
     "word": "intestinal",
     "meaning": "腸的；腸道的",
-    "example": "Bovine ruminants harbor specialized intestinal microbes inside their large gut cells to metabolize rigid plant cellulose components. (牛科反芻動物在牠們的大腸細胞內部，窩藏著特化的腸道微生物，以新陳代謝僵硬的植物纖維素成分。)",
+    "example": "Ruminants harbor specialized intestinal microbes that break down tough plant cellulose in the gut. (反芻動物的腸道裡共生著特化的腸道微生物，負責分解堅韌的植物纖維素。)",
     "id": "TOEFL-intestinal-m1swz2u2"
   },
   {
@@ -1332,9 +1332,9 @@
   {
     "level": "TOEFL",
     "word": "intrinsically",
-    "meaning": "本質上地；內在向地",
-    "example": "Atmospheric weather patterns are intrinsically chaotic, preventing perfectly accurate long-term climate modeling. (大氣天氣型態在本質上是混沌的，阻礙了完美準確的長期氣候模型的建立。)",
-    "id": "TOEFL-intrinsically-ml8y45z"
+    "meaning": "本質上；內在地",
+    "example": "Atmospheric weather patterns are intrinsically chaotic, preventing perfectly accurate long-term climate modeling. (這些模型在本質上完全準確。)",
+    "id": "TOEFL-intrinsically-m1um8400"
   },
   {
     "level": "TOEFL",
@@ -1836,9 +1836,9 @@
   {
     "level": "TOEFL",
     "word": "legally",
-    "meaning": "法律上地；合法地",
-    "example": "The centralized state decreed that all local guild craftspeople must be legally registered to standardizes mercantile taxes. (中央集權國家法令規定，所有本地公會手工藝人都必須在法律上進行登記，以使商業稅收標準化。)",
-    "id": "TOEFL-legally-mw7vb8"
+    "meaning": "法律上；依法",
+    "example": "The centralized state decreed that all local guild craftspeople must be legally registered to standardize mercantile taxes. (中央集權的國家下令，所有本地公會工匠都必須依法登記，以便統一商業稅收。)",
+    "id": "TOEFL-legally-m90he0v"
   },
   {
     "level": "TOEFL",
@@ -2012,7 +2012,7 @@
     "level": "TOEFL",
     "word": "localization",
     "meaning": "局部化；地方化；定位",
-    "example": "The historical localization of industrial factories was strictly dictated by the geographical proximity of mechanical hydraulic waterpower rapids. (工業工廠歷史上的定位（局部化），受到機械水力（液壓）水能急流地理接近程度的嚴格主導。)",
+    "example": "The historical localization of industrial factories was dictated by their proximity to waterpower rapids. (工業工廠在歷史上的區位，取決於是否鄰近水力急流。)",
     "id": "TOEFL-localization-m1ek23vy"
   },
   {
@@ -2117,7 +2117,7 @@
     "level": "TOEFL",
     "word": "lug",
     "meaning": "用力拖拉；手柄；耳朵",
-    "example": "Early mining laborers had to lug heavy slabs of granite out of deep quarries using rudimentary ropes. (早期的採礦勞工必須利用基本的繩索，將沉的花崗岩厚板用力拖拉出深層採石場。)",
+    "example": "Early mining laborers had to lug heavy slabs of granite out of deep quarries using rudimentary ropes. (早期的採礦勞工必須用簡陋的繩索，把沉重的花崗岩厚板從深處的採石場拖出來。)",
     "id": "TOEFL-lug-m4fjq3z"
   },
   {
@@ -2166,7 +2166,7 @@
     "level": "TOEFL",
     "word": "lyrical",
     "meaning": "抒情的；熱情奔放的",
-    "example": "The imagist poets rejected romanticized lyrical flows, prioritizing clear word choices and exact spatial visual focus parameters. (意象派詩人拒絕浪漫化的抒情流暢，優先考慮清晰的字詞選擇與精確的空間視覺焦點參數。)",
+    "example": "The imagist poets rejected romantic lyrical flow, prioritizing clear wording and precise visual focus. (意象派詩人拒絕浪漫化的抒情語流，講究用字清晰、視覺焦點精確。)",
     "id": "TOEFL-lyrical-mkiupzw"
   },
   {
@@ -2466,9 +2466,9 @@
   {
     "level": "TOEFL",
     "word": "mechanically",
-    "meaning": "機械地；機械向地",
-    "example": "The mechanical reaper cuts wheat stubble mechanically, eliminating the slow, laborious manual threshing steps. (機械收割機機械地（機械向地）切割小麥殘茬，消除了緩慢、費力的手工打穀步驟。)",
-    "id": "TOEFL-mechanically-m1dwh8gc"
+    "meaning": "機械地；用機械方式",
+    "example": "The mechanical reaper cuts wheat stubble mechanically, eliminating the slow, laborious manual threshing steps. (機械收割機以機械方式割下麥稈，省去緩慢費力的手工打穀步驟。)",
+    "id": "TOEFL-mechanically-mqr7ygj"
   },
   {
     "level": "TOEFL",
@@ -2529,9 +2529,9 @@
   {
     "level": "TOEFL",
     "word": "mentally",
-    "meaning": "心理上地；精神上地",
-    "example": "Psychodynamic theorists analyze how adults process suppressed childhood amnesia triggers mentally inside conscious behavior channels. (心理動力學理論家分析成年人如何在意識行為管道內部，心理上地處理被壓抑的童年失憶症觸發因素。)",
-    "id": "TOEFL-mentally-m4p1rqw"
+    "meaning": "心理上；精神上",
+    "example": "Psychodynamic theorists study how adults mentally process repressed childhood memories. (心理動力學理論家研究成年人如何在心理上處理被壓抑的童年記憶。)",
+    "id": "TOEFL-mentally-mxntqly"
   },
   {
     "level": "TOEFL",
@@ -2606,9 +2606,9 @@
   {
     "level": "TOEFL",
     "word": "metabolize",
-    "meaning": "新陳代謝；轉化",
-    "example": "Ruminants harbor specialized intestinal microbes that actively metabolize rigid plant cellulose into digestible glucose starches. (反芻動物體內具有特化的腸道微生物，能積極將僵硬的植物纖維素新陳代謝為可消化的葡萄糖澱粉。)",
-    "id": "TOEFL-metabolize-m125rix7"
+    "meaning": "代謝；分解",
+    "example": "Ruminants harbor specialized intestinal microbes that actively metabolize rigid plant cellulose into digestible glucose starches. (反芻動物體內有特化的腸道微生物，能把堅韌的植物纖維素分解成可消化的葡萄糖。)",
+    "id": "TOEFL-metabolize-m16x0ie6"
   },
   {
     "level": "TOEFL",
@@ -2663,7 +2663,7 @@
     "level": "TOEFL",
     "word": "meteoritic",
     "meaning": "隕石的",
-    "example": "Chemical analysis of the crater matrix substantiated a high trace concentration of nickel minerals tied to a meteoritic explosion. (對隕石坑基質的化學分析，證實了與隕石的爆炸相聯繫的鎳礦物的高痕量濃度。)",
+    "example": "Chemical analysis of the crater matrix substantiated a high trace concentration of nickel minerals tied to a meteoritic explosion. (對隕石坑基質的化學分析，證實其中鎳的含量偏高，與隕石爆炸有關。)",
     "id": "TOEFL-meteoritic-mmn2h2"
   },
   {
@@ -2684,7 +2684,7 @@
     "level": "TOEFL",
     "word": "methanol",
     "meaning": "甲醇",
-    "example": "Methanol is commonly used as an industrial solvent and alternative fuel. (甲醇通常用作工業溶劑and替代燃料。)",
+    "example": "Methanol is commonly used as an industrial solvent and alternative fuel. (甲醇通常用作工業溶劑與替代燃料。)",
     "id": "TOEFL-methanol-mkqdx"
   },
   {
@@ -2809,9 +2809,9 @@
   {
     "level": "TOEFL",
     "word": "militarily",
-    "meaning": "在軍事上地",
-    "example": "The centralized chiefdom empire was militarily dominant, erecting massive fieldstone wall fortifications around its peripheral seports. (中央集權的酋邦帝國在軍事上佔據主導地位，在其周邊海港周圍豎立了巨大的野石牆防禦工事。)",
-    "id": "TOEFL-militarily-m3yrpf0"
+    "meaning": "在軍事上",
+    "example": "The centralized chiefdom empire was militarily dominant, erecting massive fieldstone wall fortifications around its peripheral seports. (中央集權的酋邦帝國在軍事上佔優勢，在其外圍海港四周築起巨大的粗石防禦牆。)",
+    "id": "TOEFL-militarily-mbl1j5w"
   },
   {
     "level": "TOEFL",
@@ -2900,9 +2900,9 @@
   {
     "level": "TOEFL",
     "word": "modal",
-    "meaning": "形態的、語態的、形式的",
-    "example": "The linguistic research focused on the semantic functions of modal verbs across different European languages. (語言學研究聚焦於不同歐洲語言中語態動詞的語義功能。)",
-    "id": "TOEFL-modal-mjtwvtz"
+    "meaning": "情態的；形式的",
+    "example": "The linguistic research focused on the semantic functions of modal verbs across different European languages. (這項語言學研究聚焦於不同歐洲語言中情態動詞的語義功能。)",
+    "id": "TOEFL-modal-m3lgy8q"
   },
   {
     "level": "TOEFL",
@@ -2992,7 +2992,7 @@
     "level": "TOEFL",
     "word": "monogamous",
     "meaning": "一夫一妻制的；單配偶制的",
-    "example": "Ethological studies demonstrate that specific migratory bird species bird species maintain strictly monogamous mating systems during nesting. (動物行為學研究顯示，特定的遷徙鳥類物種在築巢期間維持著嚴格的一夫一妻制（單配偶制）交配系統。)",
+    "example": "Ethological studies show that certain migratory bird species maintain strictly monogamous mating systems during nesting. (動物行為學研究顯示，某些遷徙鳥類在築巢期間維持嚴格的一夫一妻制。)",
     "id": "TOEFL-monogamous-m1olfgzi"
   },
   {
@@ -3040,9 +3040,9 @@
   {
     "level": "TOEFL",
     "word": "morally",
-    "meaning": "道德上地",
-    "example": "The puritanical religious sect viewed the commercial commercialism of the metropolitan elite as morally bankrupt and corrupt. (這個清教徒宗教派別將大都市精英的商業重商主義，視為在道德上破產與腐敗。)",
-    "id": "TOEFL-morally-milq0q2"
+    "meaning": "道德上",
+    "example": "The Puritanical sect regarded the commercialism of the metropolitan elite as morally bankrupt. (這個清教徒派別認為大都市菁英的重商主義在道德上已經敗壞。)",
+    "id": "TOEFL-morally-mllq6e"
   },
   {
     "level": "TOEFL",
@@ -3083,7 +3083,7 @@
     "level": "TOEFL",
     "word": "mortise",
     "meaning": "榫眼；榫接",
-    "example": "Expert joiners engineered Pullman sleeping car woodworks using stable mortise and tenon links without metal screws. (專家級的細木工匠利用穩固的榫眼與榫頭連結來工程製造普爾曼臥鋪車廂的木工，而不用金屬螺絲。)",
+    "example": "Expert joiners engineered Pullman sleeping car woodworks using stable mortise and tenon links without metal screws. (專業的細木工匠以穩固的榫眼與榫頭接合，製作出普爾曼臥鋪車廂的木作，全程不用金屬螺絲。)",
     "id": "TOEFL-mortise-m32c7j8"
   },
   {
@@ -3188,7 +3188,7 @@
     "level": "TOEFL",
     "word": "mysteriously",
     "meaning": "神秘地",
-    "example": "The ancient civilization mysteriously vanished from historical records, leaving behind only ruins. (這個古老文明神秘地從歷史記錄中消失了，只留下遺心。)",
+    "example": "The ancient civilization mysteriously vanished from historical records, leaving behind only ruins. (這個古老文明神秘地從歷史紀錄中消失了，只留下遺跡。)",
     "id": "TOEFL-mysteriously-mid646"
   },
   {
@@ -3243,9 +3243,9 @@
   {
     "level": "TOEFL",
     "word": "nationally",
-    "meaning": "全國性地",
-    "example": "The innovative educational program was nationally recognized for improving secondary literacy standards. (這項創新的教育計畫因提升了中學讀寫能力標準，而獲得了全國性地認可。)",
-    "id": "TOEFL-nationally-mamunrg"
+    "meaning": "在全國；全國性",
+    "example": "The innovative educational program was nationally recognized for improving secondary literacy standards. (這項創新的教育計畫因提升中學讀寫能力標準，而獲得全國性的認可。)",
+    "id": "TOEFL-nationally-m1bp7584"
   },
   {
     "level": "TOEFL",
@@ -3405,7 +3405,7 @@
     "level": "TOEFL",
     "word": "newborn",
     "meaning": "新生兒；剛出生的",
-    "example": "The maternal investment in a newborn seal is immense, with the mother providing nutrient-rich milk to maximize growth. (對一隻剛出生的海豹的新生兒投入是巨大的，母海豹提供富含營養的乳汁以最大化其生長速度。)",
+    "example": "The maternal investment in a newborn seal is immense, with the mother providing nutrient-rich milk to maximize growth. (母海豹對新生幼豹投入大量照護，提供富含營養的乳汁，讓幼豹盡快長大。)",
     "id": "TOEFL-newborn-m1o2w3zw"
   },
   {
@@ -3559,7 +3559,7 @@
     "level": "TOEFL",
     "word": "nonporous",
     "meaning": "無孔的；不透水的",
-    "example": "Unlike sandstone bedrock structures, obsidian is a highly nonporous, nonporous, glassy volcanic rock that blocks fluid infiltration metrics. (與砂岩基岩構造不同，黑曜石是一種高度無孔的（不透水的）、玻璃質火山岩，能阻斷流體滲透指標。)",
+    "example": "Unlike sandstone bedrock, obsidian is a highly nonporous glassy volcanic rock that blocks fluid infiltration. (與砂岩基岩不同，黑曜石是幾乎不透水的玻璃質火山岩，能阻擋液體滲入。)",
     "id": "TOEFL-nonporous-mt5mrh8"
   },
   {
@@ -3664,7 +3664,7 @@
     "level": "TOEFL",
     "word": "numeral",
     "meaning": "數字、數碼",
-    "example": "The ancient codex utilized a unique system of dot-and-bar numerals to record astronomical events. (這本古代法典利用了一套獨特的點條數字系統，來記錄天文事件。)",
+    "example": "The ancient codex utilized a unique system of dot-and-bar numerals to record astronomical events. (這部古抄本使用一套獨特的點與橫線數字系統，用來記錄天文事件。)",
     "id": "TOEFL-numeral-m1hbd39i"
   },
   {
@@ -3677,9 +3677,9 @@
   {
     "level": "TOEFL",
     "word": "nutritionally",
-    "meaning": "營養上地",
-    "example": "The wild tubers gathered by the forager groups were nutritionally dense, providing vital caloric resources during winters. (採集群體所採集的野生塊莖在營養上非常密集，在冬季提供了至關重要的熱量資源。)",
-    "id": "TOEFL-nutritionally-mezucoh"
+    "meaning": "在營養上",
+    "example": "The wild tubers gathered by the forager groups were nutritionally dense, providing vital caloric resources during winters. (採集群體採集的野生塊莖營養密度很高，在冬季提供了重要的熱量來源。)",
+    "id": "TOEFL-nutritionally-mbh5np3"
   },
   {
     "level": "TOEFL",
@@ -3692,7 +3692,7 @@
     "level": "TOEFL",
     "word": "nutritive",
     "meaning": "營養的；有營養價值的",
-    "example": "Acorn flour possessed high nutritive dense assets, functioning as a staple historical foodstuff for Californian tribes. (橡實粉具備高度的營養價值（營養密集的資產），充當加州原住民部落的歷史主食食品。)",
+    "example": "Acorn flour had high nutritive value and served as a staple food for California tribes. (橡實粉的營養價值很高，是加州原住民部落的主食。)",
     "id": "TOEFL-nutritive-m12a6wi7"
   },
   {
@@ -3971,9 +3971,9 @@
   {
     "level": "TOEFL",
     "word": "organically",
-    "meaning": "有機地；自然向地",
-    "example": "Early Neolithic home gardening networks expanded organically, shifting localized tribes into permanent sedentary lifestyles. (早期新石器時代的家庭園藝網路自然地（有機地）擴張，將地方部落轉向永久的定居生活方式。)",
-    "id": "TOEFL-organically-mj6gc30"
+    "meaning": "有機地；自然而然地",
+    "example": "The early Neolithic community expanded organically as local tribes adopted a settled way of life. (隨著地方部落轉向定居生活，新石器時代早期的社群自然而然地擴大。)",
+    "id": "TOEFL-organically-mqhqs1l"
   },
   {
     "level": "TOEFL",
@@ -4392,7 +4392,7 @@
     "level": "TOEFL",
     "word": "peacefully",
     "meaning": "和平地；平靜地",
-    "example": "The five separate indigenous tribes agreed to trade peacefully, peacefully, formalize council guidelines to solve territorial disputes legal legally. (這五個獨立的原住民部落同意和平地（平靜地）進行貿易，使議會方針正式化以合法解決領土糾紛。)",
+    "example": "The five separate Indigenous tribes agreed to trade peacefully and formalized council guidelines to settle territorial disputes legally. (五個各自獨立的原住民族同意和平貿易，並把議會規範正式化，以合法解決領土糾紛。)",
     "id": "TOEFL-peacefully-m1s57xv9"
   },
   {
@@ -4651,7 +4651,7 @@
     "level": "TOEFL",
     "word": "peruvian",
     "meaning": "秘魯的；秘魯人",
-    "example": "The ancient Peruvian Inca empire constructed monumental stone citadels across the rugged highland slopes of the Andes. (古代秘魯的馬雅安地斯印加帝國，跨越安地斯山脈崎嶇的高地山坡建造了宏偉的石造城堡。)",
+    "example": "The Peruvian Inca empire built monumental stone citadels across the rugged highland slopes of the Andes. (古代秘魯印加帝國在安地斯山脈崎嶇的高地山坡上建造了宏偉的石造堡壘。)",
     "id": "TOEFL-peruvian-m1bxnyad"
   },
   {
@@ -4938,7 +4938,7 @@
     "level": "TOEFL",
     "word": "pliable",
     "meaning": "易彎曲的；柔韌的；順從的",
-    "example": "Preindustrial ranchers selected pliable rawhide strips to strip to fashion reliable livestock ropes and clothing items. (工業化前的牧場主挑選了柔韌的（易彎曲的）生牛皮條，來製作可靠的牲畜繩索與服裝製品。)",
+    "example": "Preindustrial ranchers selected pliable rawhide strips to fashion reliable livestock ropes and clothing items. (工業化前的牧場主挑選柔韌的生牛皮條，用來製作可靠的牲畜繩索與衣物。)",
     "id": "TOEFL-pliable-mxwq5pr"
   },
   {
@@ -5056,9 +5056,9 @@
   {
     "level": "TOEFL",
     "word": "polyphony",
-    "meaning": "複音音樂；多音向",
-    "example": "Music historians trace how early metropolitan theatrical accompaniments transitioned toward complex vocal polyphony formats. (音樂歷史學家追蹤了早期的城市大都市劇場伴奏，如何向複雜的聲樂複音音樂形式過渡。)",
-    "id": "TOEFL-polyphony-m1uy3niw"
+    "meaning": "複音音樂；多聲部",
+    "example": "Music historians trace how early metropolitan theatrical accompaniments transitioned toward complex vocal polyphony formats. (音樂史學者追蹤早期都市劇場伴奏如何過渡到複雜的聲樂複音形式。)",
+    "id": "TOEFL-polyphony-m1uxzzm8"
   },
   {
     "level": "TOEFL",
@@ -5161,9 +5161,9 @@
   {
     "level": "TOEFL",
     "word": "posthumously",
-    "meaning": "在死後地",
-    "example": "The heroic soldier was posthumously awarded the Medal of Honor for his extraordinary bravery during the battle. (這位英勇的士兵因其在戰鬥中非凡的勇氣而被追授榮譽勳章。)",
-    "id": "TOEFL-posthumously-mbfy8c7"
+    "meaning": "死後；在死後",
+    "example": "The heroic soldier was posthumously awarded the Medal of Honor for his extraordinary bravery during the battle. (這位英勇的士兵因在戰鬥中表現非凡的勇氣，死後被追授榮譽勳章。)",
+    "id": "TOEFL-posthumously-m8x6t8v"
   },
   {
     "level": "TOEFL",
@@ -5330,7 +5330,7 @@
     "level": "TOEFL",
     "word": "preindustrial",
     "meaning": "工業化前的",
-    "example": "In preindustrial societies, mercantile trade depended heavily on animal transport watercraft and horse stagecoaches. (在工業化前的社會中，商業貿易高度依賴動物運輸、水上船隻與馬車驛馬車。)",
+    "example": "In preindustrial societies, mercantile trade depended heavily on animal transport, watercraft, and horse-drawn stagecoaches. (在工業化前的社會中，商業貿易高度依賴動物運輸、船運與馬拉的驛站馬車。)",
     "id": "TOEFL-preindustrial-mpm8951"
   },
   {
@@ -5351,7 +5351,7 @@
     "level": "TOEFL",
     "word": "preoccupation",
     "meaning": "全神貫注；成見；專注的事物",
-    "example": "The continuous historic preoccupation of ancient Egyptian art with strict frontality reflected rigid spiritual values regarding the afterlife. (古埃及藝術對嚴格正面性的持續歷史專注的事物，反映了關於來世的僵硬精神價值觀。)",
+    "example": "The continuous historic preoccupation of ancient Egyptian art with strict frontality reflected rigid spiritual values regarding the afterlife. (古埃及藝術長久以來對嚴格正面律的執著，反映了他們對來世僵化的精神價值觀。)",
     "id": "TOEFL-preoccupation-m3oe9my"
   },
   {
@@ -5658,15 +5658,15 @@
   {
     "level": "TOEFL",
     "word": "psychologically",
-    "meaning": "心理上地",
-    "example": "Sociologists argue that crowding inside industrial tenements was psychologically harmful to child development. (社會學家認為，擁擠在工業廉租公寓內部對於兒童發展在心理上是有害的。)",
-    "id": "TOEFL-psychologically-mck6yx5"
+    "meaning": "心理上",
+    "example": "Sociologists argue that crowding inside industrial tenements was psychologically harmful to child development. (社會學家認為，住在擁擠的工業廉租公寓裡，對兒童發展在心理上有害。)",
+    "id": "TOEFL-psychologically-mel41z"
   },
   {
     "level": "TOEFL",
     "word": "pterosaur",
     "meaning": "翼龍",
-    "example": "The pterosaur was the first vertebrate group to evolve powered flight, ruling Mesozoic skies. (翼龍是第一個演化出動力飛行的無脊椎動物群，統治著中生代的天空。)",
+    "example": "The pterosaur was the first vertebrate group to evolve powered flight, ruling Mesozoic skies. (翼龍是最早演化出動力飛行的脊椎動物類群，統治著中生代的天空。)",
     "id": "TOEFL-pterosaur-mmn81"
   },
   {
@@ -5911,7 +5911,7 @@
     "level": "TOEFL",
     "word": "reactive",
     "meaning": "反應性的；活潑的",
-    "example": "Volatile chemical pheromones traveltravel through regional airflow, triggering instant reactive alertness inside insect receptors. (具有揮發性的化學費洛蒙通過區域氣流傳播，在昆蟲受體內部引發即時的反應性警覺。)",
+    "example": "Volatile chemical pheromones travel through regional airflow, triggering instant reactive alertness in insect receptors. (揮發性的化學費洛蒙隨著周圍氣流傳送，在昆蟲的受體中引發即時的反應性警戒。)",
     "id": "TOEFL-reactive-m1jtc8c"
   },
   {
@@ -6051,7 +6051,7 @@
     "level": "TOEFL",
     "word": "recurrent",
     "meaning": "週期性發生的；反覆出現的",
-    "example": "The predictable recurrent cycles of Pleistocene ice sheet sheets buildup are tightly synchronized with Earth's cosmic orbital adjustments. (更新世冰原累積的可預測的週期性發生的（反覆出現的）週期，與地球宇宙軌道的調整高度同步。)",
+    "example": "The recurrent cycles of Pleistocene ice sheet buildup are tightly synchronized with Earth's orbital adjustments. (更新世冰原累積的反覆週期，與地球軌道的變動高度同步。)",
     "id": "TOEFL-recurrent-m18x1rys"
   },
   {
@@ -6169,9 +6169,9 @@
   {
     "level": "TOEFL",
     "word": "refrigeration",
-    "meaning": "冷凍；冷藏 (同 refrigeration)",
-    "example": "Before mechanical industrial refrigeration expanded, urban metropolis dealers preserved foodstuffs inside deep snow block lofts. (在機械工業冷藏（冷凍）擴張之前，城市大都市經銷商將食品糧食保存在深層雪塊閣樓內部。)",
-    "id": "TOEFL-refrigeration-refrigeration"
+    "meaning": "冷凍；冷藏",
+    "example": "Before mechanical industrial refrigeration expanded, urban metropolis dealers preserved foodstuffs inside deep snow block lofts. (在機械冷藏普及之前，都市的經銷商把食品保存在深層雪塊儲藏室裡。)",
+    "id": "TOEFL-refrigeration-m1aqv1r1"
   },
   {
     "level": "TOEFL",
@@ -6638,9 +6638,9 @@
   {
     "level": "TOEFL",
     "word": "rote",
-    "meaning": "死記硬背；機械向重複",
-    "example": "Linguistic training before writing systems arose relied on oral rote sequencing to perpetuate historical epic narratives. (文字系統興起之前的語言訓練依賴口頭死記硬背的串聯，以使歷史史詩敘事永存。)",
-    "id": "TOEFL-rote-m1prxuv0"
+    "meaning": "死記硬背；機械式重複",
+    "example": "Linguistic training before writing systems arose relied on oral rote sequencing to perpetuate historical epic narratives. (文字系統出現之前的語言訓練，靠口頭反覆背誦來傳承歷史史詩。)",
+    "id": "TOEFL-rote-m1ptjth6"
   },
   {
     "level": "TOEFL",
@@ -6674,7 +6674,7 @@
     "level": "TOEFL",
     "word": "ruminate",
     "meaning": "反芻；沉思",
-    "example": "Bovine mammals rely on symbiotic microbes micro-infestations to ruminate steppe grasses rich in cellulose. (牛科哺乳動物依賴共生微生物的感染，來反芻富含纖維素的大草原牧草。)",
+    "example": "Bovine mammals rely on symbiotic microbes micro-infestations to ruminate steppe grasses rich in cellulose. (牛科哺乳動物靠瘤胃裡的共生微生物，消化富含纖維素的大草原牧草。)",
     "id": "TOEFL-ruminate-m1p2rp35"
   },
   {
@@ -6730,7 +6730,7 @@
     "level": "TOEFL",
     "word": "sahara",
     "meaning": "撒哈拉沙漠",
-    "example": "The Sahara was not always a desert; geological evidence shows it experienced lush green periods in the past. (撒哈拉並不總是沙漠；地質證據顯示它過去曾祖經歷過綠意盎然的時期。)",
+    "example": "The Sahara was not always a desert; geological evidence shows it experienced lush green periods in the past. (撒哈拉並不總是沙漠；地質證據顯示，它過去曾有過綠意盎然的時期。)",
     "id": "TOEFL-sahara-m1d6l98a"
   },
   {
@@ -6805,10 +6805,10 @@
   },
   {
     "level": "TOEFL",
-    "word": "sargeant",
-    "meaning": "中士；警官（通常拼作 sergeant）",
-    "example": "The police sargeant instructed his team to secure the perimeter before allowing the investigators inside. (警官指示他的團隊在允許調查人員進入之前先封鎖周邊區域。)",
-    "id": "TOEFL-sargeant-sergeant"
+    "word": "sergeant",
+    "meaning": "中士；警官",
+    "example": "The police sergeant instructed his team to secure the perimeter before allowing the investigators inside. (警官指示他的團隊在允許調查人員進入之前先封鎖周邊區域。)",
+    "id": "TOEFL-sergeant-mxtaf5b"
   },
   {
     "level": "TOEFL",

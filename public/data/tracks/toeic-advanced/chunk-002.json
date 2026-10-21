@@ -38,7 +38,7 @@
     "level": "TOEIC-ADV",
     "word": "empty a trash can",
     "meaning": "倒垃圾桶",
-    "example": "The cleaning staff is responsible to empty a trash can in every workstation at the end of each workday. (清潔人員負責在每個工作日結束時，倒掉每個工作站的垃圾桶。)",
+    "example": "The cleaning staff is responsible for emptying the trash cans at every workstation at the end of each workday. (清潔人員負責在每個工作日結束時，倒掉每個工作站的垃圾桶。)",
     "id": "TOEIC-ADV-empty-a-trash-can-magtc2x"
   },
   {
@@ -794,14 +794,14 @@
     "level": "TOEIC-ADV",
     "word": "familiarize oneself with",
     "meaning": "熟悉",
-    "example": "Please take some time to familiarize oneself with the company's new internal software before the training session. (在培訓課程前，請花些時間熟悉公司的新內部軟體。)",
+    "example": "Please take some time to familiarize yourself with the company's new internal software before the training session. (在培訓課程前，請花些時間熟悉公司的新內部軟體。)",
     "id": "TOEIC-ADV-familiarize-oneself-with-mjutm"
   },
   {
     "level": "TOEIC-ADV",
     "word": "family-run",
     "meaning": "家族經營的",
-    "example": "Our firm is proud of its history as a family-run business that values long-term relationships with our clients. (我們公司以身為價值與客戶建立長期關係的家族經營企業之歷史為榮。)",
+    "example": "Our firm is proud of its history as a family-run business that values long-term relationships with our clients. (我們以身為家族經營企業為榮，並長期重視與客戶建立良好關係。)",
     "id": "TOEIC-ADV-family-run-mgstecf"
   },
   {
@@ -1443,10 +1443,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "for change",
-    "meaning": "為了改變",
-    "example": "We decided to rotate the seating arrangement for change and to foster better communication among teams. (我們決定為了改變而輪換座位安排，以促進團隊間更好的溝通。)",
-    "id": "TOEIC-ADV-for-change-mejukql"
+    "word": "for a change",
+    "meaning": "這次換個方式；換換口味",
+    "example": "For a change, we decided to rotate the seating arrangement to foster better communication among teams. (這次換個方式，我們決定調整座位安排，促進團隊之間更好的溝通。)",
+    "id": "TOEIC-ADV-for-a-change-m3bsl9"
   },
   {
     "level": "TOEIC-ADV",
@@ -1723,10 +1723,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "from now",
+    "word": "from now on",
     "meaning": "從現在起",
-    "example": "The office will be strictly non-smoking from now as part of our new workplace wellness policy. (作為我們新職場健康政策的一部分，從現在起辦公室將嚴格禁菸。)",
-    "id": "TOEIC-ADV-from-now-mcjl10v"
+    "example": "The office will be strictly non-smoking from now on as part of our new workplace wellness policy. (作為我們新職場健康政策的一部分，從現在起辦公室將嚴格禁菸。)",
+    "id": "TOEIC-ADV-from-now-on-mcjl10v"
   },
   {
     "level": "TOEIC-ADV",
@@ -1816,7 +1816,7 @@
     "level": "TOEIC-ADV",
     "word": "full time work",
     "meaning": "全職工作",
-    "example": "We are offering a full time work position for an experienced project coordinator in our local branch. (我們正在當地分部為一位有經驗的專案協調員提供全職工作職缺。)",
+    "example": "Our local branch is offering full-time work to an experienced project coordinator. (我們當地分部正在招募一名有經驗的專案協調員，提供全職工作。)",
     "id": "TOEIC-ADV-full-time-work-maswndy"
   },
   {
@@ -2432,7 +2432,7 @@
     "level": "TOEIC-ADV",
     "word": "go wrong with",
     "meaning": "出錯",
-    "example": "Could you check the equipment to see what might have go wrong with the power settings? (你能檢查一下設備，看看電源設定出了什麼錯嗎？)",
+    "example": "Could you check the equipment to see what might have gone wrong with the power settings? (你能檢查一下設備，看看電源設定出了什麼錯嗎？)",
     "id": "TOEIC-ADV-go-wrong-with-mer1x"
   },
   {
@@ -2649,7 +2649,7 @@
     "level": "TOEIC-ADV",
     "word": "hand in",
     "meaning": "繳交",
-    "example": "All project proposals must be hand in to the department head by the end of the week. (所有專案提案皆必須在本週結束前繳交給部門主管。)",
+    "example": "All project proposals must be handed in to the department head by the end of the week. (所有專案提案皆必須在本週結束前繳交給部門主管。)",
     "id": "TOEIC-ADV-hand-in-mlxu9"
   },
   {
@@ -3776,7 +3776,7 @@
     "level": "TOEIC-ADV",
     "word": "in the distance past",
     "meaning": "在遙遠的過去",
-    "example": "The history of the company is rooted in the distance past, starting from a small family business. (公司的歷史根植於遙遠的過去，始於一家小型家族企業。)",
+    "example": "The company's history is rooted in the distant past, beginning as a small family business. (公司的歷史可追溯至遙遠的過去，起初是一家小型家族企業。)",
     "id": "TOEIC-ADV-in-the-distance-past-m1ufm0oy"
   },
   {
@@ -4014,7 +4014,7 @@
     "level": "TOEIC-ADV",
     "word": "inexpensive",
     "meaning": "不貴的",
-    "example": "We are looking for inexpensive alternatives to our current office supplies without compromising quality. (我們正在尋找不犧牲品質的前提下，目前辦公用品的不貴替代方案。)",
+    "example": "We are looking for inexpensive alternatives to our current office supplies without compromising quality. (我們正在尋找更便宜的辦公用品替代方案，同時不犧牲品質。)",
     "id": "TOEIC-ADV-inexpensive-mc455p"
   },
   {
@@ -5993,10 +5993,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "make on outside call",
+    "word": "make an outside call",
     "meaning": "撥打外線",
     "example": "You must dial 9 before you can make an outside call from the office phone. (您必須先撥 9 才能從辦公室電話撥打外線。)",
-    "id": "TOEIC-ADV-make-on-outside-call-md3tw0i"
+    "id": "TOEIC-ADV-make-an-outside-call-md3tw0i"
   },
   {
     "level": "TOEIC-ADV",
@@ -6366,7 +6366,7 @@
     "level": "TOEIC-ADV",
     "word": "meet the requirements",
     "meaning": "符合要求",
-    "example": "The proposed solution was carefully reviewed to ensure that it meet the requirements of the client. (提出的解決方案經過仔細審閱，以確保其符合客戶的要求。)",
+    "example": "The proposed solution was carefully reviewed to ensure that it meets the requirements of the client. (提出的解決方案經過仔細審閱，以確保其符合客戶的要求。)",
     "id": "TOEIC-ADV-meet-the-requirements-mfw579f"
   },
   {

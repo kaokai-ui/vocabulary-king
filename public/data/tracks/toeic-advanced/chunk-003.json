@@ -988,10 +988,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "over the lnternet",
+    "word": "over the Internet",
     "meaning": "透過網路",
     "example": "You can now complete your application over the Internet using our new portal. (您現在可以透過網路，使用我們新的入口網站完成您的申請。)",
-    "id": "TOEIC-ADV-over-the-lnternet-mirv7x8"
+    "id": "TOEIC-ADV-over-the-internet-mirv7x8"
   },
   {
     "level": "TOEIC-ADV",
@@ -1746,7 +1746,7 @@
     "level": "TOEIC-ADV",
     "word": "personal",
     "meaning": "個人的",
-    "example": "Please refrain from using office computers for your personal emails. (請避免在個人電子郵件上使用辦公電腦。)",
+    "example": "Please refrain from using office computers for your personal emails. (請避免用辦公室電腦處理私人電子郵件。)",
     "id": "TOEIC-ADV-personal-mc43th"
   },
   {
@@ -2248,10 +2248,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "post an notice on",
+    "word": "post a notice on",
     "meaning": "在...張貼通知",
     "example": "Please post a notice on the office bulletin board regarding the upcoming holiday closure. (請在辦公室佈告欄上張貼關於即將到來的假日關閉通知。)",
-    "id": "TOEIC-ADV-post-an-notice-on-m1hm8y48"
+    "id": "TOEIC-ADV-post-a-notice-on-m1hm8y48"
   },
   {
     "level": "TOEIC-ADV",
@@ -2382,9 +2382,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "preciously",
-    "meaning": "珍貴地",
-    "example": "The antique vase was handled preciously by the museum staff. (古董花瓶被博物館工作人員珍貴地對待。)",
-    "id": "TOEIC-ADV-preciously-mhn0y1"
+    "meaning": "過分講究地；做作地",
+    "example": "The curator spoke preciously about the antique vase, insisting that only a true connoisseur could appreciate it. (策展人談起那只古董花瓶時語氣做作，還堅稱只有真正的鑑賞家才懂得欣賞。)",
+    "id": "TOEIC-ADV-preciously-m39v5lc"
   },
   {
     "level": "TOEIC-ADV",
@@ -6674,7 +6674,7 @@
     "level": "TOEIC-ADV",
     "word": "stand in line",
     "meaning": "排隊",
-    "example": "There is a long stand in line at the registration desk. (報到櫃檯前有很長的排隊人潮。)",
+    "example": "People are standing in line at the registration desk. (許多人正在報到櫃檯前排隊。)",
     "id": "TOEIC-ADV-stand-in-line-mhrg8"
   },
   {

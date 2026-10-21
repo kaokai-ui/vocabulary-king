@@ -178,7 +178,7 @@
     "level": "TOEIC-ADV",
     "word": "accept and award",
     "meaning": "接受並頒發（獎項）",
-    "example": "The committee will accept the final nominations and award the contract to the lowest bidder. (委員會將受理最終提名，並將合約頒給出價最低的投標廠商。)",
+    "example": "The committee will accept the nominations and award a prize to the top candidate. (委員會將受理提名，並把獎項頒給最優秀的人選。)",
     "id": "TOEIC-ADV-accept-and-award-m1hpyw14"
   },
   {
@@ -710,7 +710,7 @@
     "level": "TOEIC-ADV",
     "word": "alluring",
     "meaning": "誘人的／迷人的",
-    "example": "The recruiter presented a highly alluring compensation package to poach the top-tier executive. (獵人頭開出了一份極具吸引力的薪資福利來挖角這位頂尖高管。)",
+    "example": "The recruiter presented a highly alluring compensation package to poach the top-tier executive. (獵人頭開出了一份極具吸引力的薪資福利來挖角這位頂尖的高階主管。)",
     "id": "TOEIC-ADV-alluring-m1nzvvxw"
   },
   {
@@ -1193,7 +1193,7 @@
     "level": "TOEIC-ADV",
     "word": "as if",
     "meaning": "彷彿／好像",
-    "example": "The charismatic CEO spoke with such conviction, as if the company's unprecedented success was a guaranteed certainty. (這位充滿魅力的執行長講話非常篤定，彷彿公司史無前例的成功已經是板上釘釘的事。)",
+    "example": "The charismatic CEO spoke with such conviction, as if the company's unprecedented success was a guaranteed certainty. (這位充滿魅力的執行長講話非常篤定，彷彿公司史無前例的成功已經十拿九穩。)",
     "id": "TOEIC-ADV-as-if-mv7e8nt"
   },
   {
@@ -1431,7 +1431,7 @@
     "level": "TOEIC-ADV",
     "word": "at one's disposal",
     "meaning": "任憑某人使用／供某人差遣",
-    "example": "The expatriate executive has a dedicated corporate vehicle and a chauffeur at his disposal. (這位外派高管有一輛專屬的公務車和一名司機供他隨時差遣。)",
+    "example": "The expatriate executive has a dedicated corporate vehicle and a chauffeur at his disposal. (這位外派的高階主管有一輛專屬公務車和一名司機供他隨時差遣。)",
     "id": "TOEIC-ADV-at-one-s-disposal-m15tgfg4"
   },
   {
@@ -1675,9 +1675,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "automotive repair shop",
-    "meaning": "汽車保修廠",
-    "example": "The logistics company contracts a local automotive repair shop to maintain its fleet of delivery trucks. (這家物流公司與當地的一間汽車保修廠簽約，負責維護其送貨車隊。)",
-    "id": "TOEIC-ADV-automotive-repair-shop-mgchiki"
+    "meaning": "汽車修護廠",
+    "example": "The logistics company contracts a local automotive repair shop to maintain its fleet of delivery trucks. (這家物流公司與當地一間汽車修護廠簽約，負責維護其送貨車隊。)",
+    "id": "TOEIC-ADV-automotive-repair-shop-mgcrzqi"
   },
   {
     "level": "TOEIC-ADV",
@@ -2005,7 +2005,7 @@
     "level": "TOEIC-ADV",
     "word": "be full of",
     "meaning": "充滿",
-    "example": "The executive's keynote speech was full of inspiring anecdotes but severely lacked actionable strategic advice. (這位高管的專題演講充滿了激勵人心的故事，但嚴重缺乏具體可行的策略建議。)",
+    "example": "The executive's keynote speech was full of inspiring anecdotes but severely lacked actionable strategic advice. (這位高階主管的專題演講充滿激勵人心的故事，但嚴重缺乏具體可行的策略建議。)",
     "id": "TOEIC-ADV-be-full-of-mefkq"
   },
   {
@@ -2614,7 +2614,7 @@
     "level": "TOEIC-ADV",
     "word": "booking",
     "meaning": "預約／訂房",
-    "example": "We received a massive surge in online bookings immediately following the release of the favorable influencer review. (在網紅發布了好萊評測之後，我們的線上訂房量瞬間暴增。)",
+    "example": "We received a massive surge in online bookings immediately following the release of the favorable influencer review. (在網紅發布正面評價之後，我們的線上訂房量瞬間暴增。)",
     "id": "TOEIC-ADV-booking-m174ysew"
   },
   {
@@ -3109,10 +3109,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "call on urgent meeting",
+    "word": "call an urgent meeting",
     "meaning": "召開緊急會議",
     "example": "The CEO had to call an urgent meeting to address the sudden, devastating plunge in the company's stock price. (執行長不得不召開一場緊急會議，以應對公司股價突然崩盤的狀況。)",
-    "id": "TOEIC-ADV-call-on-urgent-meeting-m1bfat6v"
+    "id": "TOEIC-ADV-call-an-urgent-meeting-m1bfat6v"
   },
   {
     "level": "TOEIC-ADV",
@@ -3146,7 +3146,7 @@
     "level": "TOEIC-ADV",
     "word": "captivate",
     "meaning": "迷住／吸引",
-    "example": "The visionary's keynote address managed to completely captivate the audience of seasoned industry veterans. (這位科技大佬的專題演講成功吸引了全場那些見多識廣的業界老鳥的目光。)",
+    "example": "The visionary's keynote address managed to completely captivate the audience of seasoned industry veterans. (這位科技界領袖的專題演講完全吸引了全場資深業界人士。)",
     "id": "TOEIC-ADV-captivate-m5pcqus"
   },
   {
@@ -3244,7 +3244,7 @@
     "level": "TOEIC-ADV",
     "word": "cash reserves",
     "meaning": "現金儲備",
-    "example": "Thanks to a highly profitable fiscal year, the company boasts sufficient cash reserves to weather the impending economic downturn. (多虧了上個會計年度獲利豐厚，公司目前擁有充足的現金流，足以安然度過即將到來的經濟寒冬。)",
+    "example": "Thanks to a highly profitable fiscal year, the company boasts sufficient cash reserves to weather the impending economic downturn. (多虧上個會計年度獲利豐厚，公司目前擁有充足的現金儲備，足以安然度過即將到來的經濟寒冬。)",
     "id": "TOEIC-ADV-cash-reserves-mf8fhiy"
   },
   {
@@ -3279,7 +3279,7 @@
     "level": "TOEIC-ADV",
     "word": "casually",
     "meaning": "隨便地／漫不經心地",
-    "example": "During the informal networking event, the venture capitalist casually mentioned a potential multi-million dollar investment opportunity. (在那場非正式的交流活動中，那位創投大佬漫不經心地提到了一個潛在的數百萬美元投資機會。)",
+    "example": "During the informal networking event, the venture capitalist casually mentioned a potential multi-million dollar investment opportunity. (在那場非正式的交流活動中，那位創投界大老漫不經心地提到一個潛在的數百萬美元投資機會。)",
     "id": "TOEIC-ADV-casually-m3zv354"
   },
   {
@@ -3566,7 +3566,7 @@
     "level": "TOEIC-ADV",
     "word": "chief financial officer(CEO)",
     "meaning": "財務長(註:應為CFO)",
-    "example": "The visionary Chief Financial Officer expertly successfully navigated the corporation through an exceptionally turbulent economic recession. (這位具備遠見的財務長（CFO），非常專業地帶領著公司成功度過了這場極度動盪的經濟衰退。)",
+    "example": "The Chief Financial Officer successfully guided the corporation through an exceptionally turbulent economic recession. (這位財務長成功帶領公司度過極為動盪的經濟衰退。)",
     "id": "TOEIC-ADV-chief-financial-officer-ceo-cfo"
   },
   {
@@ -3769,7 +3769,7 @@
     "level": "TOEIC-ADV",
     "word": "climb a mountain",
     "meaning": "爬山",
-    "example": "The ambitious corporate retreat involved an intense team-building exercise where the executives literally had to collectively climb a mountain. (這場具挑戰性的主管共識營包含了一個高強度的團隊建立活動，高管們真的必須齊心協力一起去爬一座山。)",
+    "example": "The ambitious corporate retreat involved an intense team-building exercise where the executives literally had to collectively climb a mountain. (這場具挑戰性的主管共識營包含高強度的團隊建立活動，高階主管們真的必須齊心協力一起爬山。)",
     "id": "TOEIC-ADV-climb-a-mountain-mjxdx"
   },
   {
@@ -4105,21 +4105,21 @@
     "level": "TOEIC-ADV",
     "word": "compact",
     "meaning": "緊湊的／小型的／契約",
-    "example": "To drastically vastly reduce severe urban congestion, the progressive city heavily deeply incentivizes the widespread use of highly efficient compact vehicles. (為了大幅度減少嚴重的都市交通壅塞，這座進步的城市強力祭出重金誘因，鼓勵民眾廣泛使用高效率的小型車。)",
+    "example": "To reduce urban congestion, the city offers incentives for the widespread use of fuel-efficient compact cars. (為了減少都市交通壅塞，這座城市提供誘因，鼓勵民眾廣泛使用省油的小型車。)",
     "id": "TOEIC-ADV-compact-m1l2r30l"
   },
   {
     "level": "TOEIC-ADV",
     "word": "compact car",
     "meaning": "小型車",
-    "example": "Renting a highly fuel-efficient compact car is indisputably significantly more practical for seamlessly navigating the notoriously narrow, winding streets of the historic district. (要在歷史城區那些出了名狹窄又蜿蜒的街道中穿梭自如，租一台超省油的小型車絕對是實用太多了。)",
+    "example": "Renting a fuel-efficient compact car is far more practical for navigating the notoriously narrow, winding streets of the historic district. (要在歷史城區出了名狹窄又蜿蜒的街道中穿梭，租一台省油的小型車實用多了。)",
     "id": "TOEIC-ADV-compact-car-mdx3hq"
   },
   {
     "level": "TOEIC-ADV",
     "word": "company regulations",
     "meaning": "公司規定",
-    "example": "Explicitly strictly abiding by all mandated company regulations regarding sensitive data privacy is considered an absolute non-negotiable condition of continued employment. (明確且嚴格遵守公司所有關於敏感資料隱私的硬性規定，被視為能繼續受僱的絕對且不可妥協的條件。)",
+    "example": "Strictly following all company regulations on sensitive data privacy is a non-negotiable condition of continued employment. (嚴格遵守公司所有關於敏感資料隱私的規定，是繼續受僱的必要條件。)",
     "id": "TOEIC-ADV-company-regulations-mamo2k7"
   },
   {
@@ -4133,21 +4133,21 @@
     "level": "TOEIC-ADV",
     "word": "compartment",
     "meaning": "隔間／置物廂",
-    "example": "Please securely safely stow all your heavy, bulky items strictly entirely within the precisely designated overhead compartment before the aircraft initiates its rapid takeoff sequence. (在飛機啟動快速起飛程序前，請務必將您所有沉重、龐大的物品安全且穩固地完全收納在指定的上方置物櫃中。)",
+    "example": "Please stow all heavy, bulky items in the designated overhead compartment before the aircraft begins its takeoff sequence. (飛機開始起飛前，請將所有沉重、龐大的物品收進指定的上方置物櫃。)",
     "id": "TOEIC-ADV-compartment-m19tb5kn"
   },
   {
     "level": "TOEIC-ADV",
     "word": "compelling",
     "meaning": "引人入勝的／令人信服的",
-    "example": "The brilliant defense attorney expertly presented a profoundly compelling argument that ultimately conclusively resulted in the immediate outright dismissal of all devastating charges. (這位頂尖的辯護律師非常專業地提出了一個極度強而有力的論點，最終導致所有毀滅性的指控被立即且徹底地撤銷。)",
+    "example": "The defense attorney presented a compelling argument that ultimately led to the dismissal of all charges. (辯護律師提出有力的論點，最終促使所有指控撤銷。)",
     "id": "TOEIC-ADV-compelling-m1x5i9m"
   },
   {
     "level": "TOEIC-ADV",
     "word": "competitiveness",
     "meaning": "競爭力",
-    "example": "To successfully aggressively maintain our global dominant competitiveness, we must continuously strategically invest exceedingly heavily in disruptive groundbreaking research and advanced development. (為了成功且積極地維持我們在全球的壓倒性競爭力，我們必須持續在具顛覆性的突破研究與進階開發上，策略性地投入極度龐大的資金。)",
+    "example": "To maintain our global competitiveness, we must keep investing heavily in groundbreaking research and development. (為了維持全球競爭力，我們必須持續投入大量資金進行創新研發。)",
     "id": "TOEIC-ADV-competitiveness-mik8sk"
   },
   {
@@ -4175,7 +4175,7 @@
     "level": "TOEIC-ADV",
     "word": "completely",
     "meaning": "完全地",
-    "example": "The system upgrade was completely overhauled to eliminate the lingering latency issues that plagued our legacy infrastructure. (系統升級經過徹底翻新，以消除困擾我們舊有基礎設施的延遲問題。)",
+    "example": "The system was completely overhauled to eliminate the lingering latency issues that plagued our legacy infrastructure. (系統經過徹底翻新，以消除困擾舊有基礎設施的延遲問題。)",
     "id": "TOEIC-ADV-completely-mdt1sk"
   },
   {
@@ -4420,7 +4420,7 @@
     "level": "TOEIC-ADV",
     "word": "congestion",
     "meaning": "擁擠／堵塞",
-    "example": "The city has proposed a new infrastructure project to alleviate chronic traffic congestion during peak commuting hours. (市府提出了一項新的基礎建設案，旨在緩解尖峰通勤時間的長期交通擁堵。)",
+    "example": "The city has proposed a new infrastructure project to alleviate chronic traffic congestion during peak commuting hours. (市府提出一項新的基礎建設案，旨在緩解尖峰通勤時段長期的交通壅塞。)",
     "id": "TOEIC-ADV-congestion-m1gkaqnt"
   },
   {
@@ -4868,7 +4868,7 @@
     "level": "TOEIC-ADV",
     "word": "correction",
     "meaning": "更正",
-    "example": "Please submit any necessary corrections to the document by the end of the day to ensure it is ready for publication. (請於今日下班前提交任何必要的文檔更正，以確保其能如期發布。)",
+    "example": "Please submit any necessary corrections to the document by the end of the day to ensure it is ready for publication. (請於今天下班前提交任何必要的文件更正，確保文件能如期刊出。)",
     "id": "TOEIC-ADV-correction-mi3n3"
   },
   {
@@ -5099,7 +5099,7 @@
     "level": "TOEIC-ADV",
     "word": "credit A with B",
     "meaning": "將B歸功於A",
-    "example": "The management team credited the successful product launch with the innovative marketing strategies developed by the team. (管理團隊將產品發布的成功，歸功於團隊所開發的創新行銷策略。)",
+    "example": "The management team credited the marketing department with the successful product launch, citing its innovative strategies. (管理團隊將產品成功上市歸功於行銷部提出的創新策略。)",
     "id": "TOEIC-ADV-credit-a-with-b-b-a"
   },
   {
@@ -5687,7 +5687,7 @@
     "level": "TOEIC-ADV",
     "word": "desert",
     "meaning": "沙漠／遺棄",
-    "example": "The abandoned project was left like a desert, with no further resources or attention directed toward its completion. (該遭遺棄的專案就像沙漠一樣，再也沒有資源或關注投入其完工。)",
+    "example": "Several long-term suppliers deserted the company after repeated payment delays. (多次延遲付款後，幾家長期供應商紛紛棄公司而去。)",
     "id": "TOEIC-ADV-desert-mdi2pjm"
   },
   {
@@ -6455,10 +6455,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "don't have nerve to do",
+    "word": "don't have the nerve to do",
     "meaning": "沒膽量做",
     "example": "I don't have the nerve to ask the CEO for a raise right after such a challenging quarter. (在經歷如此具挑戰性的一季後，我沒膽量向執行長提出加薪要求。)",
-    "id": "TOEIC-ADV-don-t-have-nerve-to-do-me8ohzq"
+    "id": "TOEIC-ADV-don-t-have-the-nerve-to-do-me8ohzq"
   },
   {
     "level": "TOEIC-ADV",
@@ -6660,7 +6660,7 @@
     "level": "TOEIC-ADV",
     "word": "dressed in suit",
     "meaning": "穿著西裝",
-    "example": "The CEO appeared at the press conference dressed in suit, projecting a professional and confident image. (執行長身著西裝出現在記者會上，展現出專業且自信的形象。)",
+    "example": "The CEO appeared at the press conference dressed in a suit, projecting a professional and confident image. (執行長身著西裝出現在記者會上，展現出專業且自信的形象。)",
     "id": "TOEIC-ADV-dressed-in-suit-mg09gc6"
   },
   {
