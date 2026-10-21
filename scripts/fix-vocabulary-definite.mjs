@@ -230,6 +230,10 @@ function preparePlan() {
       if (!originalValue.includes(phrase)) {
         throw new Error(`The flagged phrase ${phrase} is absent from ${finding.sourceWorkbook}/${finding.worksheet}/${address}.`);
       }
+      if (phrase === "複印件" && originalValue.includes("紙本複印件")) {
+        // The Taiwan term "影本" already means a paper copy; keep the correction concise.
+        phrase = "紙本複印件";
+      }
       if (phrase === "視頻" && originalValue.includes("電視頻道") && !originalValue.replaceAll("電視頻道", "").includes("視頻")) {
         unmodifiedItems.push({
           finding,
