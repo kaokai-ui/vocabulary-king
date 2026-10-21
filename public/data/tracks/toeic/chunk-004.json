@@ -23,7 +23,7 @@
   {
     "level": "L4",
     "word": "withdraw",
-    "meaning": "v. 抽回；拉開；移開",
+    "meaning": "v. 提取；領出；退出；抽回；移開",
     "example": "Investors can withdraw their capital from the investment fund after a six-month period. (六個月後，投資者可以從投資基金提取資金。)",
     "id": "L4-withdraw-v"
   },
@@ -51,15 +51,15 @@
   {
     "level": "L4",
     "word": "witness",
-    "meaning": "n. 目擊者；見證人",
+    "meaning": "n. 目擊者；證人；v. 見證；目睹",
     "example": "The security guard was called to witness the formal signing of the confidential contract. (保全被叫去見證保密合約的正式簽署。)",
-    "id": "L4-witness-n"
+    "id": "L4-witness-n-v"
   },
   {
     "level": "TOEIC",
     "word": "woeful",
-    "meaning": "a. 悲哀的，悲傷的",
-    "example": "The underperforming startup reported a woeful financial performance for the fiscal quarter. (這家表現不佳的新創公司公佈了本財季的財務表現。)",
+    "meaning": "a. 糟糕的；慘淡的；悲哀的",
+    "example": "The underperforming startup reported a woeful financial performance for the fiscal quarter. (這家表現不佳的新創公司公布了本季慘淡的財務表現。)",
     "id": "TOEIC-woeful-a"
   },
   {
@@ -73,7 +73,7 @@
     "level": "TOEIC",
     "word": "woo",
     "meaning": "v. 向……求愛；吸引",
-    "example": "To woo international investors, the city government streamlined its approval process and offered tax incentives (為了吸引國際投資者，市政府簡化了審核流程並提供稅收優惠)",
+    "example": "To woo international investors, the city government streamlined its approval process and offered tax incentives. (為了吸引國際投資人，市政府簡化核准流程並提供稅賦優惠。)",
     "id": "TOEIC-woo-v"
   },
   {
@@ -108,7 +108,7 @@
     "level": "中級",
     "word": "worldwide",
     "meaning": "a. 世界範圍的；遍及全球的",
-    "example": "The retail giant launched a aggressive worldwide advertising campaign for its new product. (這家零售巨頭為其新產品發起了一場積極的全球廣告活動。)",
+    "example": "The retail giant launched an aggressive worldwide advertising campaign for its new product. (這家零售巨頭為新產品發起積極的全球廣告活動。)",
     "id": "中級-worldwide-a"
   },
   {
@@ -219,9 +219,9 @@
   {
     "level": "L5",
     "word": "zip",
-    "meaning": "v / n. 給以速度（或力量）；使增加興趣；拉鍊",
+    "meaning": "n. 郵遞區號；拉鍊；v. 拉上拉鍊；快速移動",
     "example": "Please remember to input the correct zip code on the outbound shipping label document. (請記得在出境運輸標籤文件上輸入正確的郵遞區號。)",
-    "id": "L5-zip-v-n"
+    "id": "L5-zip-n-v"
   },
   {
     "level": "L3",
@@ -233,7 +233,7 @@
   {
     "level": "L5",
     "word": "zoom",
-    "meaning": "v. 發出嗡嗡聲；使急遽上升",
+    "meaning": "v. 變焦；調整焦距；發出嗡嗡聲；急遽上升",
     "example": "The camera features an automated zoom function to monitor the factory floor clearly. (該攝影機具有自動變焦功能，可清晰地監控工廠產線。)",
     "id": "L5-zoom-v"
   },

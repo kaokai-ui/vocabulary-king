@@ -9,6 +9,7 @@ import {
   formatBilingualExample,
   mapDecisionsToSources,
   normalizeWord,
+  splitToeicMeaning,
   verifyAgainstSnapshot,
   workbookSnapshot
 } from "./apply-vocabulary-decisions.mjs";
@@ -86,6 +87,21 @@ describe("vocabulary decision writeback planning", () => {
     expect(result.blockedItems[0].reason).toContain("dog (Sheet1!3)");
   });
 
+  it("blocks a word change that matches an existing headword after normalization", () => {
+    const records = [sourceRecord("r2", "headquarter"), sourceRecord("r3", "Head quarters")];
+    const item = {
+      track: "fixture",
+      decision: { id: "export-headquarter" },
+      part: { word: "headquarter" },
+      sourceRecord: records[0],
+      final: { word: "  HEAD   QUARTERS " }
+    };
+    const result = findWordCollisionBlocks(records, [item]);
+
+    expect(result.blockedItems).toHaveLength(1);
+    expect(result.blockedItems[0].reason).toContain("Head quarters (Sheet1!3)");
+  });
+
   it("allows coordinated word changes when the resulting dictionary has no duplicate", () => {
     const records = [sourceRecord("r2", "cat"), sourceRecord("r3", "dog")];
     const items = [
@@ -100,6 +116,18 @@ describe("vocabulary decision writeback planning", () => {
     expect(normalizeWord("  From   Now On ")).toBe("from now on");
     expect(formatBilingualExample(" An example. ", " 中文。 ")).toBe("An example. (中文。)");
     expect(formatBilingualExample("An example.", "")).toBe("An example.");
+  });
+
+  it("splits TOEIC meaning text into its part-of-speech and description columns", () => {
+    expect(splitToeicMeaning("a. 大量的；充足的", "n")).toEqual({
+      pos: "a",
+      meaning: "大量的；充足的"
+    });
+    expect(splitToeicMeaning("n / a. 基礎；基本的", "n / a")).toEqual({
+      pos: "n / a",
+      meaning: "基礎；基本的"
+    });
+    expect(() => splitToeicMeaning("沒有詞性標記的內容", "n")).toThrow(/part-of-speech prefix/u);
   });
 
   it("patches only the requested OOXML cell and preserves dimensions and merges", () => {

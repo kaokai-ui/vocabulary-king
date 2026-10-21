@@ -17,22 +17,16 @@ const ROOT = process.cwd();
 const TASK_ROOT = path.join(ROOT, "docs", "tasks", "vocab-review-20261021");
 const PARTS_ROOT = path.join(TASK_ROOT, "parts");
 const DECISIONS_ROOT = path.join(TASK_ROOT, "judge");
-const BACKUP_ROOT = path.join(TASK_ROOT, "backup-round2");
-const REPORT_PATH = path.join(TASK_ROOT, "writeback-round2-report.md");
+const BACKUP_ROOT = path.join(TASK_ROOT, "backup-round3");
+const REPORT_PATH = path.join(TASK_ROOT, "writeback-round3-report.md");
 const XLSX_PATCHER_PATH = path.join(ROOT, "scripts", "patch-xlsx-cell-values.py");
 
 const TRACK_CONFIGS = [
   {
-    id: "toefl",
-    expected: 496,
-    expectedParts: 13,
-    statuses: { accept: 419, revise: 77, reject: 0 }
-  },
-  {
-    id: "toeic-advanced",
-    expected: 45,
-    expectedParts: 12,
-    statuses: { accept: 17, revise: 28, reject: 0 }
+    id: "toeic",
+    expected: 469,
+    expectedParts: 11,
+    statuses: { accept: 309, revise: 160, reject: 0 }
   }
 ];
 
@@ -57,6 +51,23 @@ export function formatBilingualExample(english, chinese) {
     return `${normalizedEnglish} (${normalizedChinese})`;
   }
   return normalizedEnglish || normalizedChinese;
+}
+
+export function splitToeicMeaning(value, currentPos = "") {
+  const match = /^([A-Za-z]+(?:\s*\/\s*[A-Za-z]+)*)\.\s+([\s\S]*)$/u.exec(value);
+  if (!match) {
+    if (trimText(currentPos)) {
+      throw new Error("TOEIC meaning updates must include a part-of-speech prefix.");
+    }
+    return { pos: "", meaning: value };
+  }
+
+  const pos = match[1].replace(/\s+/gu, " ").trim();
+  const meaning = match[2];
+  if (`${pos}. ${meaning}` !== value) {
+    throw new Error("TOEIC meaning updates must use one space after the part-of-speech prefix.");
+  }
+  return { pos, meaning };
 }
 
 function fileHash(filePath) {
@@ -404,13 +415,35 @@ function buildCellOperations(items, definitionByTrack, workbookStates) {
       }
       let newValue = item.final[field];
       if (field === "meaning" && definition.type === "toeic-workbook" && definition.columns.pos != null) {
-        const pos = trimText(item.sourceRecord.rawFields?.pos);
-        const prefix = pos ? `${pos}. ` : "";
-        if (prefix && newValue.startsWith(prefix)) {
-          newValue = newValue.slice(prefix.length);
-        } else if (prefix) {
-          throw new Error(`Meaning update must preserve the ${pos} part-of-speech prefix for ${item.track}/${item.decision.id}.`);
+        const split = splitToeicMeaning(newValue, item.sourceRecord.rawFields?.pos);
+        const posColumn = columnForField(definition, sheet, "pos");
+        const meaningColumn = columnForField(definition, sheet, field);
+        const posChanged = addCellOperation(
+          operations,
+          item,
+          workbookPath,
+          item.sourceRecord.worksheet,
+          rowNumber,
+          posColumn,
+          "pos",
+          split.pos,
+          sheet
+        );
+        const meaningChanged = addCellOperation(
+          operations,
+          item,
+          workbookPath,
+          item.sourceRecord.worksheet,
+          rowNumber,
+          meaningColumn,
+          field,
+          split.meaning,
+          sheet
+        );
+        if (posChanged || meaningChanged) {
+          item.writtenFields.push(field);
         }
+        continue;
       }
       const column = columnForField(definition, sheet, field);
       if (addCellOperation(operations, item, workbookPath, item.sourceRecord.worksheet, rowNumber, column, field, newValue, sheet)) {
@@ -678,7 +711,7 @@ function ensureBackups(workbookPaths) {
     const sourceHash = fileHash(workbookPath);
     if (fs.existsSync(backupPath)) {
       if (fileHash(backupPath) !== sourceHash) {
-        throw new Error(`Existing round 2 backup does not match ${path.relative(ROOT, workbookPath)}.`);
+        throw new Error(`Existing round 3 backup does not match ${path.relative(ROOT, workbookPath)}.`);
       }
     } else {
       fs.copyFileSync(workbookPath, backupPath, fs.constants.COPYFILE_EXCL);
@@ -767,8 +800,8 @@ function applyPlan(plan) {
   const replaced = [];
   try {
     for (const [workbookPath, operations] of operationsByWorkbook) {
-      const tempPath = path.join(BACKUP_ROOT, `.round2-${process.pid}-${path.basename(workbookPath)}`);
-      const operationPath = path.join(BACKUP_ROOT, `.round2-${process.pid}-${path.basename(workbookPath)}.json`);
+      const tempPath = path.join(BACKUP_ROOT, `.round3-${process.pid}-${path.basename(workbookPath)}`);
+      const operationPath = path.join(BACKUP_ROOT, `.round3-${process.pid}-${path.basename(workbookPath)}.json`);
       if (fs.existsSync(tempPath)) throw new Error(`Temporary workbook already exists: ${tempPath}.`);
       if (fs.existsSync(operationPath)) throw new Error(`Temporary operation file already exists: ${operationPath}.`);
       fs.writeFileSync(operationPath, JSON.stringify(operations.map(({ worksheet, address, oldValue, newValue }) => ({
@@ -836,6 +869,7 @@ function applyPlan(plan) {
 }
 
 function summarizePlan(plan, applied = null) {
+  const cellFieldNames = ["word", "pos", "meaning", "example_en", "example_zh", "example"];
   return {
     tracks: plan.trackPlans.map((trackPlan) => ({
       track: trackPlan.id,
@@ -849,6 +883,10 @@ function summarizePlan(plan, applied = null) {
       wordChanges: trackPlan.wordChanges
     })),
     cellCount: plan.operations.length,
+    changedCellsByField: Object.fromEntries(cellFieldNames.map((field) => [
+      field,
+      plan.operations.filter((operation) => operation.field === field).length
+    ]).filter(([, count]) => count > 0)),
     notWritten: plan.notWritten,
     backups: applied ? [...applied.backups.entries()].map(([workbookPath, backup]) => ({
       workbook: path.relative(ROOT, workbookPath).replaceAll("\\", "/"),
