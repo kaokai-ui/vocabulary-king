@@ -11,14 +11,59 @@ import {
 const CONVERT_TO_TAIWAN_TRADITIONAL = OpenCC.Converter({ from: "cn", to: "tw" });
 const HAN_CHARACTER = /\p{Script=Han}/u;
 const HAN_CHARACTERS = /\p{Script=Han}/gu;
-const AMBIGUOUS_SIMPLIFIED_CHARACTERS = new Set([
-  "后", "台", "干", "里", "余", "范", "只", "面", "发", "着", "游", "伙", "划", "布",
-  "托", "准", "念", "了", "占", "家", "具", "污", "雇", "岩", "克", "斗", "卷", "么",
-  "祕", "蒙", "注", "回", "霉", "采", "搜", "制", "弦", "杰", "征", "癡", "夸", "泄", "脣", "郁", "凶", "咸"
+// These common OpenCC collisions need context to choose the Taiwan Traditional form.
+const HIGH_RISK_SIMPLIFIED_CHARACTERS = new Set([
+  "干", "后", "里", "发", "着", "表", "余", "范", "只", "面", "斗", "准", "托", "板", "制", "征", "凶", "咸", "泄", "夸"
+]);
+const HIGH_RISK_CHARACTER_RATIONALES = [
+  ["干", "乾／幹", "干涉、乾燥、幹部須依詞義選字。"],
+  ["后", "後", "皇后與前後的「后」字形不同。"],
+  ["里", "裡", "距離單位「里」與方位「裡」不同。"],
+  ["发", "發／髮", "發生與頭髮的用字不同。"],
+  ["着", "著", "助詞、著作等詞組在臺灣常用「著」，需看詞義確認。"],
+  ["表", "錶", "表面、表演與計時器具用字不同。"],
+  ["余", "餘", "姓氏／代詞與剩餘義不同。"],
+  ["范", "範", "姓氏與範圍、典範義不同。"],
+  ["只", "隻", "限定副詞與量詞不同。"],
+  ["面", "麵", "表面、方面與麵食不同。"],
+  ["斗", "鬥", "容量單位與競鬥義不同。"],
+  ["准", "準", "准許、準確等詞的標準字形不同。"],
+  ["托", "託", "托住與託付義不同。"],
+  ["板", "闆", "板材與店家負責人不同。"],
+  ["制", "製", "制度、限制與製作義不同。"],
+  ["征", "徵", "遠征與徵求義不同。"],
+  ["凶", "兇", "凶兆與兇惡義不同。"],
+  ["咸", "鹹", "皆、全義與鹹味不同。"],
+  ["泄", "洩", "排泄、泄洪與洩漏等詞須依詞義選字。"],
+  ["夸", "誇", "誇獎與專有量詞「夸脫」的字形選擇不同。"]
+];
+// Common Taiwan characters in the old review list are valid in ordinary use and
+// should not be reported just because OpenCC has a one-character alternative.
+const COMMON_TAIWAN_CHARACTER_VARIANTS = new Set([
+  "台", "游", "伙", "划", "布", "念", "了", "占", "家", "具", "污", "雇", "岩", "克", "卷", "么",
+  "祕", "蒙", "注", "回", "霉", "采", "搜", "弦", "癡", "脣", "郁", "局", "拐"
 ]);
 const SEPARABLE_PHRASAL_PARTICLES = new Set([
   "about", "across", "along", "around", "away", "back", "down", "in", "off", "on", "out", "over", "through", "up"
 ]);
+const HEADWORD_PLACEHOLDERS = new Set([
+  "__slot_a__", "__slot_b__", "sb", "sth", "someone", "something", "__slot_possessive__", "oneself", "..."
+]);
+const ARTICLE_DETERMINERS = new Set([
+  "a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "our", "their",
+  "some", "any", "each", "every", "either", "neither", "one"
+]);
+const POSSESSIVE_PRONOUNS = new Set(["one's", "my", "your", "his", "her", "its", "our", "their"]);
+const REFLEXIVE_PRONOUNS = new Set([
+  "oneself", "myself", "yourself", "yourselves", "himself", "herself", "itself", "ourselves", "themselves"
+]);
+const BE_FORM_SEQUENCES = [
+  ["will", "have", "been"], ["would", "have", "been"], ["could", "have", "been"], ["should", "have", "been"],
+  ["might", "have", "been"], ["may", "have", "been"], ["must", "have", "been"], ["shall", "have", "been"],
+  ["has", "been"], ["have", "been"], ["had", "been"], ["is", "being"], ["are", "being"], ["was", "being"], ["were", "being"],
+  ["will", "be"], ["would", "be"], ["could", "be"], ["should", "be"], ["might", "be"], ["may", "be"], ["must", "be"], ["shall", "be"],
+  ["am"], ["is"], ["are"], ["was"], ["were"], ["be"], ["been"], ["being"]
+];
 const POS_CODES = ["interj", "modal", "prep", "pron", "conj", "abbr", "aux", "art", "det", "num", "phr", "adj", "adv", "vt", "vi", "int", "ad", "n", "v", "a"];
 const POS_PREFIX = new RegExp(
   `^(?:\\s*(?:${POS_CODES.join("|")})\\.?(?=\\s|\\/|,|;|&|$)\\s*(?:(?:\\/|,|;|&|\\band\\b)\\s*)?)+`,
@@ -126,7 +171,7 @@ const REPORT_CATEGORIES = [
   ["conversion-term-review", "疑似轉換錯誤／大陸用語：需人工確認"],
   ["example-word-missing", "例句未出現單字或變化形"],
   ["format", "格式"],
-  ["duplicate-word-pos", "同單字同詞性重複"],
+  ["duplicate-word-pos", "匯出後同單字同詞性重複"],
   ["duplicate-example", "不同單字重複使用例句"],
   ["translation-suspect", "中文翻譯太短或疑似沒翻"]
 ];
@@ -334,6 +379,7 @@ function buildRecord(definition, workbookPath, worksheet, sourceRow, fields) {
     word: asText(fields.word),
     meaning: asText(fields.meaning),
     pos: asText(fields.pos),
+    exportLevel: asText(fields.exportLevel ?? definition.fallbackLevel ?? worksheet),
     englishExample: asText(fields.englishExample),
     chineseTranslation: asText(fields.chineseTranslation),
     example: asText(fields.example),
@@ -401,6 +447,7 @@ function readIndexedWorkbookRows(definition, workbookPath) {
         entries.push(makeCombinedRecord(definition, workbookPath, worksheet, sourceRow, {
           word,
           meaning,
+          exportLevel: worksheet.replace(/^Level\s+/u, "L"),
           example,
           rawFields: { word, meaning, example }
         }));
@@ -427,6 +474,7 @@ function readIndexedWorkbookRows(definition, workbookPath) {
       entries.push(makeSeparateTranslationRecord(definition, workbookPath, worksheet, sourceRow, {
         word,
         meaning,
+        exportLevel: definition.fallbackLevel ?? worksheet,
         englishExample,
         chineseTranslation,
         rawFields: { word, meaning, englishExample, chineseTranslation }
@@ -462,10 +510,14 @@ function readToeicWorkbookRows(definition, workbookPath) {
       }
 
       const meaning = pos ? `${pos}. ${rawMeaning}` : rawMeaning;
+      const exportLevel = columns.level != null
+        ? asText(cells[columns.level]).trim() || definition.fallbackLevel || definition.id
+        : definition.fallbackLevel || definition.id;
       entries.push(makeSeparateTranslationRecord(definition, workbookPath, worksheet, sourceRow, {
         word,
         meaning,
         pos,
+        exportLevel,
         englishExample,
         chineseTranslation,
         rawFields: { word, meaning: rawMeaning, pos, englishExample, chineseTranslation }
@@ -545,6 +597,11 @@ function resolveGeptExample(word, primaryLevel, fallbackExample, fallbackSource,
   return { example: fallbackExample, source: fallbackSource };
 }
 
+function exportedGeptLevel(primaryLevel, fallbackLevel) {
+  const match = /^Level\s+(\d+)$/iu.exec(asText(primaryLevel).trim());
+  return match ? `L${match[1]}` : fallbackLevel;
+}
+
 function readGeptWorkbookRows(definition, workbookPath, root) {
   const workbook = xlsx.readFile(workbookPath);
   const exampleLookup = buildLevelExampleLookup(root);
@@ -587,6 +644,7 @@ function readGeptWorkbookRows(definition, workbookPath, root) {
       word,
       meaning: pos ? `${pos} ${rawMeaning}` : rawMeaning,
       pos,
+      exportLevel: exportedGeptLevel(cells[columns.primaryLevel], definition.geptGrade),
       example: resolvedExample.example,
       exampleSource: resolvedExample.source,
       rawFields: { word, meaning: rawMeaning, pos, example: resolvedExample.example }
@@ -688,14 +746,14 @@ function editChangedSourceCharacters(original, converted) {
     }
 
     if (i < sourceChars.length && j < convertedChars.length && rows[i][j] === rows[i + 1][j + 1] + 1) {
-      changed.push(sourceChars[i]);
+      changed.push({ character: sourceChars[i], index: i });
       i += 1;
       j += 1;
       continue;
     }
 
     if (i < sourceChars.length && rows[i][j] === rows[i + 1][j] + 1) {
-      changed.push(sourceChars[i]);
+      changed.push({ character: sourceChars[i], index: i });
       i += 1;
       continue;
     }
@@ -704,6 +762,25 @@ function editChangedSourceCharacters(original, converted) {
   }
 
   return changed;
+}
+
+function isCommonTaiwanContextVariant(original, index, character) {
+  if (COMMON_TAIWAN_CHARACTER_VARIANTS.has(character)) {
+    return true;
+  }
+  if (character === "征" && original[index - 1] === "遠") {
+    return true;
+  }
+  if (character === "夸" && original[index + 1] === "脫") {
+    return true;
+  }
+  if (character === "采" && original[index - 1] === "打") {
+    return true;
+  }
+  if (character === "郁" && original[index - 1] === "濃") {
+    return true;
+  }
+  return false;
 }
 
 export function classifySimplifiedText(text) {
@@ -717,24 +794,18 @@ export function classifySimplifiedText(text) {
     return { definite: [], manualReview: [] };
   }
 
-  const individuallyConverted = new Set(
-    Array.from(original).filter((character) =>
-      HAN_CHARACTER.test(character) && CONVERT_TO_TAIWAN_TRADITIONAL(character) !== character
-    )
-  );
-  const alignedChanges = editChangedSourceCharacters(original, converted)
-    .filter((character) => HAN_CHARACTER.test(character));
-  const requiresContextReview = individuallyConverted.size === 0;
-  const changed = individuallyConverted.size > 0
-    ? Array.from(individuallyConverted)
-    : alignedChanges;
+  const changed = editChangedSourceCharacters(original, converted)
+    .filter(({ character }) => HAN_CHARACTER.test(character));
   const definite = new Set();
   const manualReview = new Set();
 
-  for (const character of changed) {
-    if (requiresContextReview || AMBIGUOUS_SIMPLIFIED_CHARACTERS.has(character)) {
+  for (const { character, index } of changed) {
+    if (isCommonTaiwanContextVariant(original, index, character)) {
+      continue;
+    }
+    if (HIGH_RISK_SIMPLIFIED_CHARACTERS.has(character)) {
       manualReview.add(character);
-    } else {
+    } else if (CONVERT_TO_TAIWAN_TRADITIONAL(character) !== character) {
       definite.add(character);
     }
   }
@@ -854,7 +925,7 @@ function regularInflections(word) {
   } else {
     const pluralEnding = /(?:s|x|z|ch|sh|o)$/u.test(word) ? "es" : "s";
     forms.add(`${word}${pluralEnding}`);
-    forms.add(`${word}${word.endsWith("e") ? "d" : "ed"}`);
+    forms.add(`${word}${word.endsWith("e") ? "d" : `${doubleFinal ? word.slice(-1) : ""}ed`}`);
     forms.add(`${word.endsWith("e") ? word.slice(0, -1) : word}${doubleFinal ? word.slice(-1) : ""}ing`);
 
     if (word.endsWith("ie")) {
@@ -879,25 +950,117 @@ function inflectionsForFirstToken(word) {
   return irregular ? new Set([base, ...irregular]) : regularInflections(base);
 }
 
+function normalizeHeadwordTokens(text) {
+  const tokens = asText(text)
+    .replace(/[’‘]/gu, "'")
+    .replace(/[‐‑‒–—-]/gu, " ")
+    .match(/[A-Za-z]+(?:'[A-Za-z]+)?|\.{3,}/gu) ?? [];
+
+  return tokens.map((token) => {
+    if (token === "A") {
+      return "__slot_a__";
+    }
+    if (token === "B") {
+      return "__slot_b__";
+    }
+
+    const lower = token.toLocaleLowerCase();
+    if (["one's", "sb's", "sth's", "someone's", "something's"].includes(lower)) {
+      return "__slot_possessive__";
+    }
+    return lower;
+  });
+}
+
 function formsForHeadword(word) {
   const forms = [];
 
   for (const alternative of expandOptionalWordForms(word)) {
-    const tokens = normalizeEnglishTokens(alternative);
+    const tokens = normalizeHeadwordTokens(alternative);
     if (!tokens.length) {
       continue;
     }
 
-    for (const firstToken of inflectionsForFirstToken(tokens[0])) {
-      forms.push([firstToken, ...tokens.slice(1)]);
+    const firstToken = tokens[0];
+    const firstTokenForms = HEADWORD_PLACEHOLDERS.has(firstToken) || firstToken === "be" || ["a", "an", "the"].includes(firstToken)
+      ? [firstToken]
+      : inflectionsForFirstToken(firstToken);
+    for (const inflectedFirstToken of firstTokenForms) {
+      forms.push([inflectedFirstToken, ...tokens.slice(1)]);
     }
   }
 
   return forms;
 }
 
-function hasContiguousTokenSequence(sentenceTokens, sequence, startIndex) {
-  return sequence.every((token, offset) => sentenceTokens[startIndex + offset] === token);
+function placeholderLengths(token, sentenceTokens, sentenceIndex) {
+  if (token === "...") {
+    const maxLength = Math.min(6, sentenceTokens.length - sentenceIndex);
+    return Array.from({ length: maxLength + 1 }, (_, index) => index);
+  }
+
+  if (token === "__slot_possessive__") {
+    const candidate = sentenceTokens[sentenceIndex];
+    return candidate && (POSSESSIVE_PRONOUNS.has(candidate) || /[a-z]+'s$/u.test(candidate)) ? [1] : [];
+  }
+
+  if (token === "oneself") {
+    return REFLEXIVE_PRONOUNS.has(sentenceTokens[sentenceIndex]) ? [1] : [];
+  }
+
+  const maxLength = Math.min(6, sentenceTokens.length - sentenceIndex);
+  return Array.from({ length: maxLength }, (_, index) => index + 1);
+}
+
+function matchesHeadwordFormAt(sentenceTokens, form, startIndex) {
+  const memo = new Map();
+
+  function visit(formIndex, sentenceIndex) {
+    if (formIndex === form.length) {
+      return true;
+    }
+    if (sentenceIndex >= sentenceTokens.length) {
+      return false;
+    }
+
+    const stateKey = `${formIndex}:${sentenceIndex}`;
+    if (memo.has(stateKey)) {
+      return memo.get(stateKey);
+    }
+
+    const token = form[formIndex];
+    let matched = false;
+
+    if (HEADWORD_PLACEHOLDERS.has(token)) {
+      for (const length of placeholderLengths(token, sentenceTokens, sentenceIndex)) {
+        if (visit(formIndex + 1, sentenceIndex + length)) {
+          matched = true;
+          break;
+        }
+      }
+    } else if (token === "be") {
+      matched = BE_FORM_SEQUENCES.some((sequence) =>
+        sequence.every((part, offset) => sentenceTokens[sentenceIndex + offset] === part)
+        && visit(formIndex + 1, sentenceIndex + sequence.length)
+      );
+    } else if (formIndex === 0 && form.length > 1 && ["a", "an", "the"].includes(token)) {
+      if (ARTICLE_DETERMINERS.has(sentenceTokens[sentenceIndex])) {
+        for (let modifierCount = 0; modifierCount <= 3; modifierCount += 1) {
+          if (visit(formIndex + 1, sentenceIndex + 1 + modifierCount)) {
+            matched = true;
+            break;
+          }
+        }
+      }
+    } else if (sentenceTokens[sentenceIndex] === token) {
+      matched = visit(formIndex + 1, sentenceIndex + 1);
+    }
+
+    memo.set(stateKey, matched);
+    return matched;
+  }
+
+  return visit(0, startIndex);
 }
 
 export function exampleUsesHeadword(word, englishExample) {
@@ -907,8 +1070,8 @@ export function exampleUsesHeadword(word, englishExample) {
   }
 
   for (const form of formsForHeadword(word)) {
-    for (let index = 0; index <= sentenceTokens.length - form.length; index += 1) {
-      if (hasContiguousTokenSequence(sentenceTokens, form, index)) {
+    for (let index = 0; index < sentenceTokens.length; index += 1) {
+      if (matchesHeadwordFormAt(sentenceTokens, form, index)) {
         return true;
       }
     }
@@ -1113,6 +1276,34 @@ function normalizedExample(example) {
   return normalizeEnglishTokens(example).join(" ");
 }
 
+function exportedLevel(record) {
+  return asText(record.exportLevel || record.worksheet || record.track).trim();
+}
+
+function exporterEntryKey(record) {
+  const prefix = `${record.track}\u0000${exportedLevel(record)}\u0000${asText(record.word).trim()}`;
+  if (record.track.startsWith("gept-")) {
+    // consolidateGeptEntries merges all senses for one word and level.
+    return prefix;
+  }
+  // normalizeVocabularyEntries removes exact level/word/meaning/example duplicates.
+  return `${prefix}\u0000${asText(record.meaning).trim()}\u0000${asText(record.example).trim()}`;
+}
+
+function exportedDuplicateCandidates(records) {
+  const unique = new Map();
+  for (const record of records) {
+    if (!normalizedHeadword(record.word)) {
+      continue;
+    }
+    const key = exporterEntryKey(record);
+    if (!unique.has(key)) {
+      unique.set(key, record);
+    }
+  }
+  return Array.from(unique.values());
+}
+
 function formatLocation(record, useExampleSource = false) {
   const source = useExampleSource ? exampleSource(record) : record;
   return `${source.sourceWorkbook ? `\`${source.sourceWorkbook}\` / ` : ""}${source.worksheet} 第 ${source.row} 列`;
@@ -1126,18 +1317,22 @@ export function checkDuplicates(records) {
   const findings = [];
   const byWordAndPos = new Map();
   const byExample = new Map();
+  const exportedRecords = exportedDuplicateCandidates(records);
 
-  for (const record of records) {
+  for (const record of exportedRecords) {
     const normalizedWord = normalizedHeadword(record.word);
     if (normalizedWord) {
       for (const pos of extractPartOfSpeech(record)) {
-        const key = `${record.track}\u0000${normalizedWord}\u0000${pos}`;
+        const key = `${record.track}\u0000${exportedLevel(record)}\u0000${normalizedWord}\u0000${pos}`;
         const group = byWordAndPos.get(key) ?? [];
         group.push(record);
         byWordAndPos.set(key, group);
       }
     }
+  }
 
+  for (const record of records) {
+    const normalizedWord = normalizedHeadword(record.word);
     const english = normalizedExample(record.englishExample);
     if (normalizedWord && english) {
       const key = `${record.track}\u0000${english}`;
@@ -1152,11 +1347,11 @@ export function checkDuplicates(records) {
     if (group.length < 2) {
       continue;
     }
-    const pos = key.split("\u0000")[2];
+    const pos = key.split("\u0000")[3];
     for (const record of group) {
       const related = group.filter((candidate) => candidate.id !== record.id);
       const issue = `同一單字與詞性（${pos === "unknown" ? "未標詞性" : pos}）也出現在：${relatedLocations(related)}`;
-      wordPosFindings.set(record.id, { record, issue });
+      wordPosFindings.set(`${record.id}\u0000${pos}`, { record, issue });
     }
   }
   for (const { record, issue } of wordPosFindings.values()) {
@@ -1219,9 +1414,15 @@ export function createContentReport(records, findings, generatedAt = new Date().
     "",
     "## 檢查範圍",
     "",
-    "本檢查直接讀取 `scripts/vocabulary-source-definitions.mjs` 與匯出器共用設定所指定的原始來源工作簿；工作表和欄位定義不另維護。直接讀來源列可保留重複列和原始列號，避免匯出流程的合併、去重讓問題失去回溯位置。這次只讀 xlsx，報告位置以工作簿相對路徑、工作表及 Excel 列號標示。",
+    "本檢查直接讀取 `scripts/vocabulary-source-definitions.mjs` 與匯出器共用設定所指定的原始來源工作簿；工作表和欄位定義不另維護。一般內容檢查保留來源列號；同單字同詞性重複則依匯出器的合併和去重規則折算，只報匯出後仍然重複的詞條。這次只讀 xlsx，報告位置以工作簿相對路徑、工作表及 Excel 列號標示。",
     "",
-    "簡體字規則以 OpenCC 簡轉臺灣繁體比較整句，再逐字定位可確認的轉換；一字多義字與只能從整句看出差異的情況列為需人工確認，避免將未改變的相鄰字誤報。",
+    "簡體字規則以 OpenCC 簡轉臺灣繁體比較整句，只檢查轉換後確實改變的原字。一字多義需人工確認的高風險字限於：干、后、里、发、着、表、余、范、只、面、斗、准、托、板、制、征、凶、咸、泄、夸；這些字可能因詞義選錯繁體字，需看詞組確認。台、岩、污、布、了、家、雇、伙、具、克、占等台灣常用字及詞組不列入此項。",
+    "",
+    "高風險清單來源是本專案使用的 `opencc-js` `cn`→`tw` 轉換器；只把常見且需要按詞義選字的轉換列為人工確認。程式判定另要求原字單獨轉換時也會改變，並排除已知台灣常用異體及詞組例外。",
+    "",
+    "| 原字 | 常見轉換分歧 | 判斷理由 |",
+    "|---|---|---|",
+    ...HIGH_RISK_CHARACTER_RATIONALES.map(([character, variants, rationale]) => `| ${character} | ${variants} | ${rationale} |`),
     "",
     "## 疑似轉換錯誤與大陸用語規則",
     "",

@@ -136,16 +136,21 @@ describe("source workbook mapping", () => {
 });
 
 describe("simplified Chinese checks", () => {
-  it("finds clear simplified characters and routes ambiguous characters to review", () => {
+  it("reports actual OpenCC changes, limits one-character review to high-risk forms, and ignores valid Taiwan usage", () => {
     expect(classifySimplifiedText("遗弃")).toEqual({ definite: ["遗", "弃"], manualReview: [] });
     expect(classifySimplifiedText("后面站着皇后")).toEqual({ definite: [], manualReview: ["后", "着"] });
     expect(classifySimplifiedText("後面站著皇后")).toEqual({ definite: [], manualReview: [] });
+    expect(classifySimplifiedText("老板")).toEqual({ definite: [], manualReview: ["板"] });
+    expect(classifySimplifiedText("周杰倫")).toEqual({ definite: [], manualReview: [] });
+    expect(classifySimplifiedText("杰出")).toEqual({ definite: ["杰"], manualReview: [] });
+    expect(classifySimplifiedText("這台機器裡有岩石、布料、污染，家人雇員走了。"))
+      .toEqual({ definite: [], manualReview: [] });
     for (const traditionalUsage of ["游泳", "傢伙", "公布欄", "划船"]) {
       expect(classifySimplifiedText(traditionalUsage).definite).toEqual([]);
     }
     for (const traditionalUsage of [
       "了解家具污染", "准許雇用並克制占地", "煙斗和弦管弦樂團", "局限與拐杖",
-      "卷髮祕密注定回音無精打采搜集", "老板", "周杰倫遠征白癡夸脫宣泄脣瓣濃郁", "凶惡凶險葛咸"
+      "卷髮祕密注定回音無精打采搜集", "老闆", "周杰倫遠征白癡夸脫宣泄脣瓣濃郁", "凶惡凶險葛咸"
     ]) {
       expect(classifySimplifiedText(traditionalUsage).definite).toEqual([]);
     }
@@ -172,6 +177,33 @@ describe("headword use in examples", () => {
     expect(exampleUsesHeadword("take off", "He hung his wet coat in the closet.")).toBe(false);
     const missing = record({ word: "abandon", englishExample: "The family packed the house.", example: "The family packed the house. (一家人打包了房子。)" });
     expect(checkContentRecord(missing).some((finding) => finding.check === "example-word-missing")).toBe(true);
+  });
+
+  it("matches example phrase substitution slots and rejects sentences without the phrase", () => {
+    expect(exampleUsesHeadword("A as well as B", "The policy applies to employees as well as contractors." )).toBe(true);
+    expect(exampleUsesHeadword("A and B alike", "The museum welcomes children and adults alike." )).toBe(true);
+    expect(exampleUsesHeadword("A be followed by B", "The ceremony will be followed by a short reception." )).toBe(true);
+    expect(exampleUsesHeadword("ask sb", "The teacher asked Maria to wait." )).toBe(true);
+    expect(exampleUsesHeadword("find sth", "He found a small package." )).toBe(true);
+    expect(exampleUsesHeadword("give someone something", "She gave a child a book." )).toBe(true);
+    expect(exampleUsesHeadword("use one's hands", "He used his hands to move the box." )).toBe(true);
+    expect(exampleUsesHeadword("prepare oneself", "She prepared herself for the exam." )).toBe(true);
+    expect(exampleUsesHeadword("stop ... suddenly", "The car stopped quite suddenly." )).toBe(true);
+
+    expect(exampleUsesHeadword("A as well as B", "The book was left in the bag." )).toBe(false);
+    expect(exampleUsesHeadword("A and B alike", "The museum welcomes children and adults." )).toBe(false);
+    expect(exampleUsesHeadword("A be followed by B", "The ceremony ended before the guests arrived." )).toBe(false);
+    expect(exampleUsesHeadword("ask sb", "The teacher told Maria to wait." )).toBe(false);
+  });
+
+  it("allows phrase-opening articles and inflected or future forms of be", () => {
+    expect(exampleUsesHeadword("a loaf of", "They ordered a perfect loaf of sourdough." )).toBe(true);
+    expect(exampleUsesHeadword("a piece of equipment", "This specific piece of equipment is new." )).toBe(true);
+    expect(exampleUsesHeadword("be followed by", "One result will be followed by another." )).toBe(true);
+    expect(exampleUsesHeadword("be followed by", "The first item was followed by a short break." )).toBe(true);
+
+    expect(exampleUsesHeadword("a piece of equipment", "The equipment arrived this morning." )).toBe(false);
+    expect(exampleUsesHeadword("be followed by", "The path follows the river." )).toBe(false);
   });
 });
 
@@ -220,7 +252,7 @@ describe("format checks", () => {
 });
 
 describe("duplicate checks", () => {
-  it("flags repeated word and part of speech plus examples shared by different words", () => {
+  it("flags exported same-level word and part-of-speech duplicates plus reused examples", () => {
     const first = record({ id: "r1", word: "book", pos: "n", englishExample: "A book changes hands.", example: "A book changes hands. (書本易手。)" });
     const repeatedSamePos = record({ id: "r2", row: 3, word: "book", pos: "n", englishExample: "Every book has a cover.", example: "Every book has a cover. (每本書都有封面。)" });
     const differentPos = record({ id: "r3", row: 4, word: "book", pos: "v", meaning: "v. 預訂", englishExample: "Please book a room.", example: "Please book a room. (請預訂房間。)" });
@@ -235,6 +267,65 @@ describe("duplicate checks", () => {
       record({ id: "u2", word: "read", pos: "v", englishExample: "She reads every day." })
     ]);
     expect(unique).toEqual([]);
+  });
+
+  it("does not flag rows the exporter coalesces or copies placed in separate levels", () => {
+    const exactSourceCopy = record({
+      id: "copy",
+      row: 8,
+      exportLevel: "Sheet1",
+      word: "book",
+      pos: "n",
+      meaning: "n. 書本",
+      englishExample: "A book changes hands.",
+      example: "A book changes hands. (書本易手。)"
+    });
+    const first = record({
+      id: "original",
+      exportLevel: "Sheet1",
+      word: "book",
+      pos: "n",
+      meaning: "n. 書本",
+      englishExample: "A book changes hands.",
+      example: "A book changes hands. (書本易手。)"
+    });
+    expect(checkDuplicates([first, exactSourceCopy]).filter((finding) => finding.check === "duplicate-word-pos")).toEqual([]);
+
+    const anotherLevel = record({
+      id: "another-level",
+      exportLevel: "Level 2",
+      word: "book",
+      pos: "n",
+      meaning: "n. 書本",
+      englishExample: "A book is on the shelf.",
+      example: "A book is on the shelf. (書本在架上。)"
+    });
+    expect(checkDuplicates([
+      { ...first, exportLevel: "Level 1" },
+      anotherLevel
+    ]).filter((finding) => finding.check === "duplicate-word-pos")).toEqual([]);
+
+    const geptFirst = record({
+      id: "gept-1",
+      track: "gept-high-intermediate",
+      exportLevel: "L3",
+      word: "bank",
+      pos: "n.",
+      meaning: "銀行",
+      englishExample: "She visited a bank.",
+      example: "She visited a bank. (她去了銀行。)"
+    });
+    const geptSecondSense = record({
+      id: "gept-2",
+      track: "gept-high-intermediate",
+      exportLevel: "L3",
+      word: "bank",
+      pos: "n.",
+      meaning: "河岸",
+      englishExample: "They sat on the bank.",
+      example: "They sat on the bank. (他們坐在河岸。)"
+    });
+    expect(checkDuplicates([geptFirst, geptSecondSense]).filter((finding) => finding.check === "duplicate-word-pos")).toEqual([]);
   });
 });
 
