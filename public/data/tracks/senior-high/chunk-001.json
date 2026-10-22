@@ -198,9 +198,9 @@
   {
     "level": "L3",
     "word": "channel",
-    "meaning": "頻道、渠道",
+    "meaning": "頻道、管道",
     "example": "The news channel broadcasts updates every hour. (新聞頻道每小時播放更新。)",
-    "id": "L3-channel-m19dtvuk"
+    "id": "L3-channel-m19dw6jf"
   },
   {
     "level": "L3",
@@ -269,7 +269,7 @@
     "level": "L3",
     "word": "available",
     "meaning": "可得到的、有空的",
-    "example": "The doctor is available for appointments on weekdays. (醫生在工作日可以預約。)",
+    "example": "The doctor is available for appointments on weekdays. (醫生平日在門診接受預約。)",
     "id": "L3-available-mys1w0e"
   },
   {
@@ -290,7 +290,7 @@
     "level": "L3",
     "word": "adopt",
     "meaning": "採用、收養",
-    "example": "The company decided to adopt a new marketing strategy. (公司決定採用新的營銷策略。)",
+    "example": "The company decided to adopt a new marketing strategy. (公司決定採用新的行銷策略。)",
     "id": "L3-adopt-m1ddm4we"
   },
   {
@@ -416,7 +416,7 @@
     "level": "L3",
     "word": "specific",
     "meaning": "具體的、特定的",
-    "example": "Teachers provide specific feedback on assignments. (老師對作業提供具體反饋。)",
+    "example": "Teachers provide specific feedback on assignments. (老師對作業提供具體的回饋。)",
     "id": "L3-specific-mi65kix"
   },
   {
@@ -437,7 +437,7 @@
     "level": "L3",
     "word": "response",
     "meaning": "回應、反應",
-    "example": "Teacher feedback elicits student responses. (老師反饋引發學生回應。)",
+    "example": "Teacher feedback elicits student responses. (老師的回饋會引發學生回應。)",
     "id": "L3-response-m1w2cmvm"
   },
   {
@@ -521,7 +521,7 @@
     "level": "L3",
     "word": "stuff",
     "meaning": "東西、填充",
-    "example": "Students organize their school supplies neatly. (學生整齊地組織學校用品。)",
+    "example": "Students put their stuff in the lockers. (學生把東西放進置物櫃。)",
     "id": "L3-stuff-m1uujk7h"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L3",
     "word": "original",
     "meaning": "原始的、原創的",
-    "example": "Students create original research projects. (學生創建原創研究項目。)",
+    "example": "Students create original research projects. (學生製作原創的研究專案。)",
     "id": "L3-original-mo646p1"
   },
   {
@@ -563,7 +563,7 @@
     "level": "L3",
     "word": "product",
     "meaning": "產品、結果",
-    "example": "Student projects are products of learning. (學生項目是學習的成果。)",
+    "example": "Student projects are products of learning. (學生的專案是學習的成果。)",
     "id": "L3-product-m16pbff2"
   },
   {
@@ -591,7 +591,7 @@
     "level": "L3",
     "word": "engineer",
     "meaning": "工程師、設計",
-    "example": "Software engineers create computer programs. (軟體工程師創建計算機程序。)",
+    "example": "Software engineers create computer programs. (軟體工程師撰寫電腦程式。)",
     "id": "L3-engineer-m806qrb"
   },
   {
@@ -604,9 +604,9 @@
   {
     "level": "L3",
     "word": "cigarette",
-    "meaning": "香煙",
-    "example": "Smoking cigarettes causes serious health problems. (吸煙會導致嚴重的健康問題。)",
-    "id": "L3-cigarette-mqqxs"
+    "meaning": "香菸",
+    "example": "Smoking cigarettes causes serious health problems. (吸菸會導致嚴重的健康問題。)",
+    "id": "L3-cigarette-mqum7"
   },
   {
     "level": "L3",
@@ -857,7 +857,7 @@
     "level": "L3",
     "word": "appreciate",
     "meaning": "欣賞、感激",
-    "example": "I appreciate your help with this difficult project. (我感激你在這個困難項目上的幫助。)",
+    "example": "I appreciate your help with this difficult project. (我很感激你在這個困難專案上的協助。)",
     "id": "L3-appreciate-maoxkjr"
   },
   {
@@ -1046,15 +1046,15 @@
     "level": "L3",
     "word": "scale(s)",
     "meaning": "規模、稱重",
-    "example": "Educational programs operate on different scales. (教育項目以不同規模運作。)",
+    "example": "Educational programs operate on different scales. (教育專案以不同的規模運作。)",
     "id": "L3-scale-s-m1i8d9l7"
   },
   {
     "level": "L3",
     "word": "program",
-    "meaning": "程序、項目",
+    "meaning": "計畫；節目；程式；程序、項目",
     "example": "Educational programs cater to diverse learning needs. (教育項目滿足多樣化學習需求。)",
-    "id": "L3-program-m1r544x2"
+    "id": "L3-program-m1k5laqs"
   },
   {
     "level": "L3",
@@ -1144,7 +1144,7 @@
     "level": "L3",
     "word": "employ(ment)",
     "meaning": "雇用、使用",
-    "example": "Companies employ skilled workers for projects. (公司雇用技術工人參與項目。)",
+    "example": "Companies employ skilled workers for projects. (公司雇用技術人員參與專案。)",
     "id": "L3-employ-ment-m109s4fd"
   },
   {
@@ -1500,9 +1500,9 @@
   {
     "level": "L3",
     "word": "bore",
-    "meaning": "鑽孔；挖井(或通道)",
+    "meaning": "使無聊；鑽孔；挖井、挖通道",
     "example": "The long speech began to bore the students.（那場冗長的演講開始讓學生感到無聊。）",
-    "id": "L3-bore-m1n926nz"
+    "id": "L3-bore-m1wyu326"
   },
   {
     "level": "L3",
@@ -1837,7 +1837,7 @@
     "level": "L3",
     "word": "click",
     "meaning": "卡嗒聲 vt.vi.發出卡嗒聲",
-    "example": "Click the button to open the file.（點擊按鈕打開檔案。）",
+    "example": "Click the button to open the file. (點選按鈕以開啟檔案。)",
     "id": "L3-click-vt-vi"
   },
   {
@@ -1857,9 +1857,9 @@
   {
     "level": "L3",
     "word": "clip",
-    "meaning": "剪；修剪n.剪；修剪；短片",
+    "meaning": "n. 迴紋針、夾子、短片；v. 剪、修剪",
     "example": "Use a paper clip to hold the pages together.（用迴紋針把紙張夾在一起。）",
-    "id": "L3-clip-n"
+    "id": "L3-clip-n-v"
   },
   {
     "level": "L3",
@@ -3587,7 +3587,7 @@
     "level": "L3",
     "word": "imagination",
     "meaning": "想像力",
-    "example": "Children have wonderful imagination.（孩子有很棒的想像力。）",
+    "example": "Children have a wonderful imagination. (孩子有很棒的想像力。)",
     "id": "L3-imagination-meleqn"
   },
   {
@@ -3915,9 +3915,9 @@
   {
     "level": "L3",
     "word": "kit",
-    "meaning": "成套工具；工具箱[",
+    "meaning": "成套工具、工具箱；一套用品",
     "example": "She keeps a sewing kit in her drawer.（她在抽屜裡放了一組縫紉工具。）",
-    "id": "L3-kit-mgvej9a"
+    "id": "L3-kit-mnp3yz8"
   },
   {
     "level": "L3",
@@ -4615,9 +4615,9 @@
   {
     "level": "L3",
     "word": "moral",
-    "meaning": "道德(上)的",
+    "meaning": "adj. 道德的；n. 寓意、道德教訓",
     "example": "The story teaches a simple moral.（這個故事教導一個簡單的寓意。）",
-    "id": "L3-moral-m139d31d"
+    "id": "L3-moral-adj-n"
   },
   {
     "level": "L3",
@@ -5070,9 +5070,9 @@
   {
     "level": "L3",
     "word": "pickle",
-    "meaning": "醃製 n.(醃魚，蔬菜等的)鹽滷",
+    "meaning": "n. 醃黃瓜、醃製品、鹽滷；v. 醃製",
     "example": "He added a pickle to his sandwich.（他在三明治裡加了一片酸黃瓜。）",
-    "id": "L3-pickle-n"
+    "id": "L3-pickle-n-v"
   },
   {
     "level": "L3",
@@ -5105,9 +5105,9 @@
   {
     "level": "L3",
     "word": "pit",
-    "meaning": "窪坑，凹處",
+    "meaning": "果核；窪坑、凹處",
     "example": "The peach pit was hard.（桃子的果核很硬。）",
-    "id": "L3-pit-m1thni2p"
+    "id": "L3-pit-mgitejb"
   },
   {
     "level": "L3",
@@ -5203,9 +5203,9 @@
   {
     "level": "L3",
     "word": "porcelain/china",
-    "meaning": "「瓷器」材質",
+    "meaning": "瓷器、瓷製品",
     "example": "Grandma keeps her tea in a porcelain cup.（奶奶用瓷杯裝茶。）",
-    "id": "L3-porcelain-china-m15g1yp6"
+    "id": "L3-porcelain-china-mvbemyz"
   },
   {
     "level": "L3",
@@ -5644,9 +5644,9 @@
   {
     "level": "L3",
     "word": "representative",
-    "meaning": "典型，代表物",
+    "meaning": "代表、代理人；典型的",
     "example": "A student representative spoke at the meeting.（學生代表在會議上發言。）",
-    "id": "L3-representative-ml49d0r"
+    "id": "L3-representative-m2qfzch"
   },
   {
     "level": "L3",
@@ -5987,9 +5987,9 @@
   {
     "level": "L3",
     "word": "seize",
-    "meaning": "抓住；捉住",
+    "meaning": "抓住、捉住；奪取、扣押、沒收",
     "example": "The police tried to seize the stolen goods.（警方試圖扣押贓物。）",
-    "id": "L3-seize-m15bmbxh"
+    "id": "L3-seize-msdti9z"
   },
   {
     "level": "L3",
@@ -6001,9 +6001,9 @@
   {
     "level": "L3",
     "word": "sensible",
-    "meaning": "明智的；可注意到的，",
+    "meaning": "明智的、合情理的、實用的",
     "example": "That was a sensible decision.（那是一個明智的決定。）",
-    "id": "L3-sensible-mf1106d"
+    "id": "L3-sensible-mjwz7np"
   },
   {
     "level": "L3",
@@ -6106,9 +6106,9 @@
   {
     "level": "L3",
     "word": "shiny",
-    "meaning": "發光的；晴朗的；擦亮的",
+    "meaning": "閃亮的、有光澤的；擦亮的",
     "example": "Her shiny shoes looked brand new.（她亮亮的鞋子看起來像全新的。）",
-    "id": "L3-shiny-mjwegf2"
+    "id": "L3-shiny-m7qk4uh"
   },
   {
     "level": "L3",
@@ -6414,9 +6414,9 @@
   {
     "level": "L3",
     "word": "stable",
-    "meaning": "馬棚；畜舍",
+    "meaning": "n. 馬廄；adj. 穩定的、牢固的",
     "example": "The horse slept in the stable.（馬睡在馬廄裡。）",
-    "id": "L3-stable-m1avuvby"
+    "id": "L3-stable-n-adj"
   },
   {
     "level": "L3",
@@ -6743,9 +6743,9 @@
   {
     "level": "L3",
     "word": "tablet",
-    "meaning": "刻寫板；匾；碑",
+    "meaning": "藥錠、錠劑；平板電腦；刻寫板、碑、匾",
     "example": "She takes a vitamin tablet every morning.（她每天早上吃一顆維他命錠。）",
-    "id": "L3-tablet-m1v3d4so"
+    "id": "L3-tablet-m1op10e4"
   },
   {
     "level": "L3",

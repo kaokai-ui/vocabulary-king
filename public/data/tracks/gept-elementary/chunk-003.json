@@ -52,7 +52,7 @@
     "level": "L3",
     "word": "scale",
     "meaning": "noun 規模、刻度、等級",
-    "example": "Educational programs operate on different scales. (教育項目以不同規模運作。)",
+    "example": "Please weigh it on the scale. (請用磅秤秤一下。)",
     "id": "L3-scale-noun"
   },
   {
@@ -66,7 +66,7 @@
     "level": "L3",
     "word": "seek",
     "meaning": "verb 尋找",
-    "example": "Students seek knowledge and understanding. (學生尋求知識和理解。)",
+    "example": "We seek a place to sit. (我們在找一個地方坐。)",
     "id": "L3-seek-verb"
   },
   {
@@ -136,7 +136,7 @@
     "level": "L3",
     "word": "system",
     "meaning": "noun 系統",
-    "example": "Educational systems must adapt to changing needs. (教育系統必須適應變化的需求。)",
+    "example": "My computer has a new system. (我的電腦有一套新系統。)",
     "id": "L3-system-noun"
   },
   {
@@ -255,7 +255,7 @@
     "level": "L4",
     "word": "comic",
     "meaning": "adj. 滑稽的、好笑的\nnoun 漫畫",
-    "example": "His comic timing made everyone laugh.（他的喜劇節奏讓大家大笑。）",
+    "example": "This comic book is funny. (這本漫畫很好笑。)",
     "id": "L4-comic-adj-noun"
   },
   {
@@ -304,7 +304,7 @@
     "level": "L4",
     "word": "embarrass",
     "meaning": "verb 使尷尬",
-    "example": "His mistake caused great embarrassment.（他的錯誤造成很大的尷尬。）",
+    "example": "Don't embarrass me. (不要讓我難堪。)",
     "id": "L4-embarrass-verb"
   },
   {
@@ -401,7 +401,7 @@
   {
     "level": "L4",
     "word": "operation",
-    "meaning": "noun 運作",
+    "meaning": "noun 手術、運作、操作",
     "example": "The operation lasted three hours.（手術持續了三小時。）",
     "id": "L4-operation-noun"
   },
@@ -507,7 +507,7 @@
     "level": "L4",
     "word": "university",
     "meaning": "noun 大學",
-    "example": "Universities provide advanced education and research opportunities. (大學提供高等教育和研究機會。)",
+    "example": "My sister goes to a university in Taipei. (我姊姊在台北讀大學。)",
     "id": "L4-university-noun"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L5",
     "word": "chairperson",
     "meaning": "noun 主席、董事長",
-    "example": "The comfortable chair supports good posture. (舒適的椅子支撐良好的姿勢。)",
+    "example": "The chairperson opened the meeting. (主席宣布會議開始。)",
     "id": "L5-chairperson-noun"
   },
   {

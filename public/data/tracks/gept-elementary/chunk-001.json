@@ -37,9 +37,9 @@
   {
     "level": "L1",
     "word": "act",
-    "meaning": "noun/verb 表演者、(戲劇的)幕；演出、扮演\nnoun/verb 行為、作為；行事、表現",
+    "meaning": "noun/verb 行為、作為、(戲劇的)幕；演出、扮演、行事、表現",
     "example": "He likes to act in school plays. (他喜歡在學校戲劇裡表演。)",
-    "id": "L1-act-noun-verb-noun-verb"
+    "id": "L1-act-noun-verb"
   },
   {
     "level": "L1",
@@ -59,7 +59,7 @@
     "level": "L1",
     "word": "actress",
     "meaning": "noun 女演員",
-    "example": "The actor smiled at everyone. (那位男演員對大家微笑。)",
+    "example": "The actress smiled at everyone. (那位女演員對大家微笑。)",
     "id": "L1-actress-noun"
   },
   {
@@ -157,7 +157,7 @@
     "level": "L1",
     "word": "airplane",
     "meaning": "noun 飛機",
-    "example": "The plane landed safely in Taipei.（那架飛機安全降落在台北。）",
+    "example": "The airplane landed safely in Taipei. (那架飛機安全降落在台北。)",
     "id": "L1-airplane-noun"
   },
   {
@@ -185,7 +185,7 @@
     "level": "L1",
     "word": "almost",
     "meaning": "adv. 幾乎、差不多",
-    "example": "We are almost finished with the project. (我們的項目差不多完成了。)",
+    "example": "We are almost finished with the project. (我們的專案差不多完成了。)",
     "id": "L1-almost-adv"
   },
   {
@@ -262,7 +262,7 @@
     "level": "L1",
     "word": "animal",
     "meaning": "noun 動物",
-    "example": "Wild animals need protection from habitat destruction. (野生動物需要保護免受棲息地破壞。)",
+    "example": "Wild animals need a safe place to live. (野生動物需要安全的地方生活。)",
     "id": "L1-animal-noun"
   },
   {
@@ -346,7 +346,7 @@
     "level": "L1",
     "word": "army",
     "meaning": "noun 軍隊、陸軍；大批、大群",
-    "example": "The army was deployed to help with disaster relief. (軍隊被派遣幫助救災。)",
+    "example": "The army helped the people after the flood. (軍隊在洪水後幫助災民。)",
     "id": "L1-army-noun"
   },
   {
@@ -395,7 +395,7 @@
     "level": "L1",
     "word": "aunt",
     "meaning": "noun 姑姑、阿姨、舅媽",
-    "example": "My auntie makes delicious soup.（我的阿姨會煮好喝的湯。）",
+    "example": "My aunt makes delicious soup. (我阿姨煮的湯很好喝。)",
     "id": "L1-aunt-noun"
   },
   {
@@ -472,7 +472,7 @@
     "level": "L1",
     "word": "bank",
     "meaning": "noun 銀行；堤、岸",
-    "example": "She deposited her paycheck at the bank. (她在銀行存了薪水。)",
+    "example": "She put her money in the bank. (她把錢存進銀行。)",
     "id": "L1-bank-noun"
   },
   {
@@ -507,7 +507,7 @@
     "level": "L1",
     "word": "basic",
     "meaning": "adj. 基本的",
-    "example": "Learning basic grammar is essential for language study. (學習基本語法對語言學習至關重要。)",
+    "example": "This is a basic English book. (這是一本基礎英文書。)",
     "id": "L1-basic-adj"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L1",
     "word": "bathroom",
     "meaning": "noun 浴室、廁所",
-    "example": "The hotel bathroom was clean and modern. (酒店浴室乾淨且現代化。)",
+    "example": "The hotel bathroom was clean and modern. (飯店的浴室乾淨又現代。)",
     "id": "L1-bathroom-noun"
   },
   {
@@ -1004,7 +1004,7 @@
     "level": "L1",
     "word": "can",
     "meaning": "aux. (助動詞)能、會、可以",
-    "example": "You can achieve anything with hard work. (通過努力工作你可以實現任何事情。)",
+    "example": "You can achieve anything with hard work. (只要努力，你什麼都能做到。)",
     "id": "L1-can-aux"
   },
   {
@@ -1144,14 +1144,14 @@
     "level": "L1",
     "word": "chicken",
     "meaning": "noun 雞肉、雞",
-    "example": "Free-range chicken tastes better than factory-farmed. (散養雞比工廠飼養的雞肉味道更好。)",
+    "example": "My mother cooks chicken soup on cold days. (我媽媽在天冷時煮雞湯。)",
     "id": "L1-chicken-noun"
   },
   {
     "level": "L1",
     "word": "chief",
     "meaning": "adj./noun 首要的、最主要的、首席的；領導人、首領",
-    "example": "The chief executive announced the company's expansion. (首席執行官宣布公司擴張。)",
+    "example": "The chief said hello to the people. (首領向大家問好。)",
     "id": "L1-chief-adj-noun"
   },
   {
@@ -1179,7 +1179,7 @@
     "level": "L1",
     "word": "city",
     "meaning": "noun 城市",
-    "example": "The city offers many cultural attractions to visitors. (城市為遊客提供許多文化景點。)",
+    "example": "The city has many interesting places. (這座城市有很多有趣的地方。)",
     "id": "L1-city-noun"
   },
   {
@@ -1249,7 +1249,7 @@
     "level": "L1",
     "word": "Coke",
     "meaning": "noun 可口可樂",
-    "example": "She ordered a cola with her lunch.（她午餐時點了一杯可樂。）",
+    "example": "She ordered a Coke with her lunch. (她午餐時點了一杯可口可樂。)",
     "id": "L1-coke-noun"
   },
   {
@@ -1333,7 +1333,7 @@
     "level": "L1",
     "word": "cost",
     "meaning": "noun/verb 費用、成本；花費",
-    "example": "This notebook costs thirty dollars.（這本筆記本要三十元。）",
+    "example": "This notebook costs thirty dollars. (這本筆記本要三十美元。)",
     "id": "L1-cost-noun-verb"
   },
   {
@@ -1697,7 +1697,7 @@
     "level": "L1",
     "word": "each",
     "meaning": "pron./adj./adv. 每個",
-    "example": "Each student must complete the assignment individually. (每個學生都必須單獨完成作業。)",
+    "example": "Each student has a new book. (每個學生都有一本新書。)",
     "id": "L1-each-pron-adj-adv"
   },
   {
@@ -1718,7 +1718,7 @@
     "level": "L1",
     "word": "early",
     "meaning": "adj./adv. 早的；早",
-    "example": "Early morning exercise energizes the body. (清晨運動為身體注入活力。)",
+    "example": "I get up early every morning. (我每天早上很早起床。)",
     "id": "L1-early-adj-adv"
   },
   {
@@ -1746,7 +1746,7 @@
     "level": "L1",
     "word": "eat",
     "meaning": "verb 吃",
-    "example": "Athletes eat nutritious foods for energy. (運動員吃營養食物獲取能量。)",
+    "example": "We eat rice for dinner. (我們晚餐吃飯。)",
     "id": "L1-eat-verb"
   },
   {
@@ -1809,7 +1809,7 @@
     "level": "L1",
     "word": "else",
     "meaning": "adv./adj. 其他",
-    "example": "Nobody else volunteered for the project. (沒有其他人自願參加這個項目。)",
+    "example": "Nobody else wanted to join the game. (沒有其他人想參加這個遊戲。)",
     "id": "L1-else-adv-adj"
   },
   {
@@ -1907,7 +1907,7 @@
     "level": "L1",
     "word": "eye",
     "meaning": "noun 眼睛",
-    "example": "Reading in dim light strains the eyes. (在昏暗光線下閱讀使眼睛疲勞。)",
+    "example": "Close your eyes and take a rest. (閉上眼睛休息一下。)",
     "id": "L1-eye-noun"
   },
   {
@@ -1921,21 +1921,21 @@
     "level": "L1",
     "word": "fact",
     "meaning": "noun 事實",
-    "example": "Scientists base theories on proven facts. (科學家基於已證實的事實建立理論。)",
+    "example": "It is a fact that the earth is round. (地球是圓的，這是事實。)",
     "id": "L1-fact-noun"
   },
   {
     "level": "L1",
     "word": "factory",
     "meaning": "noun 工廠",
-    "example": "The factory produces automobiles efficiently. (工廠高效生產汽車。)",
+    "example": "My father works in a car factory. (我爸爸在汽車工廠工作。)",
     "id": "L1-factory-noun"
   },
   {
     "level": "L1",
     "word": "fall",
     "meaning": "noun 秋天\nverb 跌倒、掉落、下降",
-    "example": "The leaves change color in autumn. (樹葉在秋天變色。)",
+    "example": "The leaves change color in the fall. (樹葉在秋天變色。)",
     "id": "L1-fall-noun-verb"
   },
   {
@@ -1977,14 +1977,14 @@
     "level": "L1",
     "word": "fast",
     "meaning": "adj./adv. 快的；快速地",
-    "example": "Fast internet connections improve productivity. (快速網路連接提高生產力。)",
+    "example": "He is a fast runner. (他是個跑得很快的人。)",
     "id": "L1-fast-adj-adv"
   },
   {
     "level": "L1",
     "word": "fat",
     "meaning": "adj./noun 肥胖的；脂肪",
-    "example": "Healthy diets limit saturated fat intake. (健康飲食限制飽和脂肪攝入。)",
+    "example": "This meat has a lot of fat. (這塊肉有很多脂肪。)",
     "id": "L1-fat-adj-noun"
   },
   {
@@ -1998,7 +1998,7 @@
     "level": "L1",
     "word": "fear",
     "meaning": "noun/verb 恐懼、害怕",
-    "example": "Public speaking creates fear in many people. (公眾演講讓許多人感到恐懼。)",
+    "example": "She has a fear of the dark. (她怕黑。)",
     "id": "L1-fear-noun-verb"
   },
   {
@@ -2026,7 +2026,7 @@
     "level": "L1",
     "word": "feeling",
     "meaning": "noun 感覺、感情",
-    "example": "Happy feelings improve mental health. (快樂的感覺改善心理健康。)",
+    "example": "I have a happy feeling today. (我今天心情很好。)",
     "id": "L1-feeling-noun"
   },
   {
@@ -2047,14 +2047,14 @@
     "level": "L1",
     "word": "fifty",
     "meaning": "number/pron./noun/adj. 五十",
-    "example": "She celebrated her fiftieth birthday. (她慶祝了五十歲生日。)",
+    "example": "There are fifty people in the room. (房間裡有五十個人。)",
     "id": "L1-fifty-number-pron-noun-adj"
   },
   {
     "level": "L1",
     "word": "fight",
     "meaning": "verb/noun 打架、爭吵、抗爭",
-    "example": "Nations must fight against poverty. (國家必須與貧困作鬥爭。)",
+    "example": "The two brothers sometimes fight over toys. (兩兄弟有時會為玩具吵架。)",
     "id": "L1-fight-verb-noun"
   },
   {
@@ -2068,14 +2068,14 @@
     "level": "L1",
     "word": "film",
     "meaning": "noun 電影",
-    "example": "Visual pictures help memorize vocabulary effectively. (視覺圖片有助於有效記憶詞彙。)",
+    "example": "We watched a funny film last night. (我們昨晚看了一部好笑的電影。)",
     "id": "L1-film-noun"
   },
   {
     "level": "L1",
     "word": "final",
     "meaning": "adj. 最後的\nnoun 期末考",
-    "example": "The final decision rests with management. (最終決定由管理層決定。)",
+    "example": "This is my final answer. (這是我的最後答案。)",
     "id": "L1-final-adj-noun"
   },
   {
@@ -2103,21 +2103,21 @@
     "level": "L1",
     "word": "finish",
     "meaning": "verb/noun 結束",
-    "example": "Students finish assignments before deadlines. (學生在截止日期前完成作業。)",
+    "example": "I finish my homework before dinner. (我在晚餐前寫完作業。)",
     "id": "L1-finish-verb-noun"
   },
   {
     "level": "L1",
     "word": "fire",
     "meaning": "noun 火\nverb 開火、發射；開除",
-    "example": "The campfire provided warmth and light. (營火提供了溫暖和光亮。)",
+    "example": "The fire kept us warm. (火讓我們感到溫暖。)",
     "id": "L1-fire-noun-verb"
   },
   {
     "level": "L1",
     "word": "first",
     "meaning": "adj./adv./pron. 首先",
-    "example": "First impressions often influence opinions. (第一印象經常影響觀點。)",
+    "example": "First, wash your hands. (首先，洗洗手。)",
     "id": "L1-first-adj-adv-pron"
   },
   {
@@ -2152,7 +2152,7 @@
     "level": "L1",
     "word": "fly",
     "meaning": "verb 飛\nnoun 蒼蠅",
-    "example": "Birds fly south during winter migration. (鳥類在冬季遷徙時向南飛。)",
+    "example": "Birds fly south in winter. (鳥類冬天往南飛。)",
     "id": "L1-fly-verb-noun"
   },
   {
@@ -2173,14 +2173,14 @@
     "level": "L1",
     "word": "food",
     "meaning": "noun 食物",
-    "example": "Nutritious food supports healthy growth. (營養食物支持健康成長。)",
+    "example": "Healthy food helps you grow. (健康的食物能幫助你長大。)",
     "id": "L1-food-noun"
   },
   {
     "level": "L1",
     "word": "foot",
     "meaning": "noun 腳",
-    "example": "She walked barefoot on the sand. (她赤腳走在沙灘上。)",
+    "example": "My left foot hurts. (我的左腳很痛。)",
     "id": "L1-foot-noun"
   },
   {
@@ -2201,7 +2201,7 @@
     "level": "L1",
     "word": "foreign",
     "meaning": "adj. 外國的",
-    "example": "Foreign languages open career opportunities. (外語開啟職業機會。)",
+    "example": "She is learning a foreign language. (她正在學一種外語。)",
     "id": "L1-foreign-adj"
   },
   {
@@ -2285,7 +2285,7 @@
     "level": "L1",
     "word": "from",
     "meaning": "prep. 從",
-    "example": "She graduated from a prestigious university. (她從名牌大學畢業。)",
+    "example": "I come from Taiwan. (我來自台灣。)",
     "id": "L1-from-prep"
   },
   {
@@ -2299,14 +2299,14 @@
     "level": "L1",
     "word": "fruit",
     "meaning": "noun 水果",
-    "example": "Fruit provides essential vitamins. (水果提供必需的維生素。)",
+    "example": "I eat fruit every day. (我每天吃水果。)",
     "id": "L1-fruit-noun"
   },
   {
     "level": "L1",
     "word": "full",
     "meaning": "adj. 滿的、充滿的",
-    "example": "The full moon illuminated the night. (滿月照亮了夜晚。)",
+    "example": "The glass is full of water. (杯子裡裝滿了水。)",
     "id": "L1-full-adj"
   },
   {
@@ -2341,7 +2341,7 @@
     "level": "L1",
     "word": "gas",
     "meaning": "noun 瓦斯、氣體",
-    "example": "Natural gas provides energy for cooking. (天然氣為烹飪提供能源。)",
+    "example": "We use gas to cook. (我們用瓦斯煮飯。)",
     "id": "L1-gas-noun"
   },
   {
@@ -2369,7 +2369,7 @@
     "level": "L1",
     "word": "gift",
     "meaning": "noun 禮物",
-    "example": "Music is her natural gift. (音樂是她的天賦。)",
+    "example": "She gave me a birthday gift. (她送我一份生日禮物。)",
     "id": "L1-gift-noun"
   },
   {
@@ -2418,21 +2418,21 @@
     "level": "L1",
     "word": "God",
     "meaning": "noun 神、上帝",
-    "example": "The museum has a statue of an ancient goddess.（博物館裡有一尊古代女神的雕像。）",
+    "example": "Many people believe in God. (很多人相信上帝。)",
     "id": "L1-god-noun"
   },
   {
     "level": "L1",
     "word": "gold",
     "meaning": "noun 金、金子、金色",
-    "example": "The gold medal represents excellence. (金牌代表卓越。)",
+    "example": "She won a gold medal. (她贏得一面金牌。)",
     "id": "L1-gold-noun"
   },
   {
     "level": "L1",
     "word": "good",
     "meaning": "adj./noun 好的；好處",
-    "example": "Good study habits improve academic performance. (良好的學習習慣提升學術表現。)",
+    "example": "She is a good student. (她是個好學生。)",
     "id": "L1-good-adj-noun"
   },
   {
@@ -2474,7 +2474,7 @@
     "level": "L1",
     "word": "grandmother",
     "meaning": "noun 祖母",
-    "example": "Grandma grows flowers in her garden.（奶奶在她的花園裡種花。）",
+    "example": "My grandmother lives in Tainan. (我祖母住在台南。)",
     "id": "L1-grandmother-noun"
   },
   {
@@ -2502,7 +2502,7 @@
     "level": "L1",
     "word": "great",
     "meaning": "adj. 極好的",
-    "example": "Great teachers inspire lifelong learning. (偉大的老師啟發終身學習。)",
+    "example": "The party was great. (派對很棒。)",
     "id": "L1-great-adj"
   },
   {
@@ -2516,21 +2516,21 @@
     "level": "L1",
     "word": "ground",
     "meaning": "noun 地面",
-    "example": "The playground was covered with grass. (操場地面覆蓋著草。)",
+    "example": "The ground is wet after the rain. (下雨後地面是濕的。)",
     "id": "L1-ground-noun"
   },
   {
     "level": "L1",
     "word": "group",
     "meaning": "noun 團體",
-    "example": "Study groups enhance collaborative learning. (學習小組增強協作學習。)",
+    "example": "Our group has five students. (我們這一組有五個學生。)",
     "id": "L1-group-noun"
   },
   {
     "level": "L1",
     "word": "grow",
     "meaning": "verb 生長",
-    "example": "Children grow physically and intellectually. (孩子在身體和智力上成長。)",
+    "example": "Children grow very fast. (孩子長得很快。)",
     "id": "L1-grow-verb"
   },
   {
@@ -2600,7 +2600,7 @@
     "level": "L1",
     "word": "happen",
     "meaning": "verb 發生",
-    "example": "Learning breakthroughs happen with persistence. (學習突破在堅持下發生。)",
+    "example": "What happened to your bike? (你的腳踏車怎麼了？)",
     "id": "L1-happen-verb"
   },
   {
@@ -2614,14 +2614,14 @@
     "level": "L1",
     "word": "hard",
     "meaning": "adj. 難的、硬的\nadv. 努力地、猛烈地",
-    "example": "Hard work leads to academic success. (努力工作導致學術成功。)",
+    "example": "He works hard every day. (他每天都努力工作。)",
     "id": "L1-hard-adj-adv"
   },
   {
     "level": "L1",
     "word": "hat",
     "meaning": "noun 帽子",
-    "example": "She wore a hat to protect from sun. (她戴帽子防曬。)",
+    "example": "She wore a hat to protect herself from the sun. (她戴帽子防曬。)",
     "id": "L1-hat-noun"
   },
   {
@@ -2649,7 +2649,7 @@
     "level": "L1",
     "word": "head",
     "meaning": "noun 頭\nverb 前往",
-    "example": "The department head supervised new teachers. (系主任監督新教師。)",
+    "example": "My head hurts. (我頭痛。)",
     "id": "L1-head-noun-verb"
   },
   {
@@ -2712,21 +2712,21 @@
     "level": "L1",
     "word": "here",
     "meaning": "adv. 這裡",
-    "example": "Here is where learning happens daily. (這裡是每天學習發生的地方。)",
+    "example": "Come here, please. (請到這裡來。)",
     "id": "L1-here-adv"
   },
   {
     "level": "L1",
     "word": "hers",
     "meaning": "pron. 她的",
-    "example": "Her dedication inspired fellow students. (她的奉獻精神啟發了同學們。)",
+    "example": "This book is hers. (這本書是她的。)",
     "id": "L1-hers-pron"
   },
   {
     "level": "L1",
     "word": "high",
     "meaning": "adj./adv. 高(級)的；高地",
-    "example": "High standards ensure quality education. (高標準確保優質教育。)",
+    "example": "The wall is very high. (這道牆很高。)",
     "id": "L1-high-adj-adv"
   },
   {
@@ -2929,7 +2929,7 @@
     "level": "L1",
     "word": "inch",
     "meaning": "noun 英吋",
-    "example": "The ruler is twelve inches long.（這把尺有十二英寸長。）",
+    "example": "The ruler is twelve inches long. (這把尺有十二英吋長。)",
     "id": "L1-inch-noun"
   },
   {
@@ -3083,28 +3083,28 @@
     "level": "L1",
     "word": "kid",
     "meaning": "noun 小孩",
-    "example": "Every kid deserves quality education. (每個孩子都應得到優質教育。)",
+    "example": "The kid is playing in the park. (那個小孩正在公園玩。)",
     "id": "L1-kid-noun"
   },
   {
     "level": "L1",
     "word": "kill",
     "meaning": "verb 殺、使痛苦",
-    "example": "Stress can kill motivation and creativity. (壓力會扼殺動機和創造力。)",
+    "example": "The cold weather killed the flowers. (寒冷的天氣把花凍死了。)",
     "id": "L1-kill-verb"
   },
   {
     "level": "L1",
     "word": "kind",
     "meaning": "adj. 仁慈、親切的\nnoun 種類",
-    "example": "Kind teachers create supportive learning environments. (善良的老師創造支持性學習環境。)",
+    "example": "She is kind to everyone. (她對每個人都很親切。)",
     "id": "L1-kind-adj-noun"
   },
   {
     "level": "L1",
     "word": "king",
     "meaning": "noun 國王",
-    "example": "The chess king is the most important piece. (國際象棋中國王是最重要的棋子。)",
+    "example": "The chess king is the most important piece. (西洋棋中的國王是最重要的棋子。)",
     "id": "L1-king-noun"
   },
   {
@@ -3118,7 +3118,7 @@
     "level": "L1",
     "word": "kitchen",
     "meaning": "noun 廚房",
-    "example": "The school kitchen serves nutritious meals. (學校廚房提供營養餐點。)",
+    "example": "My mother is cooking in the kitchen. (我媽媽正在廚房煮飯。)",
     "id": "L1-kitchen-noun"
   },
   {
@@ -3160,7 +3160,7 @@
     "level": "L1",
     "word": "lack",
     "meaning": "noun/verb 欠缺",
-    "example": "Students should not lack access to resources. (學生不應該缺乏資源。)",
+    "example": "The plant died from a lack of water. (這株植物因為缺水而枯死。)",
     "id": "L1-lack-noun-verb"
   },
   {
@@ -3174,7 +3174,7 @@
     "level": "L1",
     "word": "lake",
     "meaning": "noun 湖",
-    "example": "The school trip visited a beautiful lake. (學校旅行參觀了美麗的湖泊。)",
+    "example": "We visited a beautiful lake on our trip. (我們旅行時去了一座美麗的湖。)",
     "id": "L1-lake-noun"
   },
   {
@@ -3195,14 +3195,14 @@
     "level": "L1",
     "word": "land",
     "meaning": "noun 土地\nverb 登陸",
-    "example": "Agricultural land produces food for society. (農業用地為社會生產糧食。)",
+    "example": "They bought a piece of land. (他們買了一塊地。)",
     "id": "L1-land-noun-verb"
   },
   {
     "level": "L1",
     "word": "large",
     "meaning": "adj. 大的",
-    "example": "Large vocabularies improve communication skills. (豐富的詞彙提升溝通技巧。)",
+    "example": "They live in a large house. (他們住在一棟大房子裡。)",
     "id": "L1-large-adj"
   },
   {
@@ -3216,21 +3216,21 @@
     "level": "L1",
     "word": "late",
     "meaning": "adj./adv. 遲的",
-    "example": "Late study sessions affect concentration. (深夜學習影響注意力。)",
+    "example": "I was late for school. (我上學遲到了。)",
     "id": "L1-late-adj-adv"
   },
   {
     "level": "L1",
     "word": "laugh",
     "meaning": "verb/noun 笑",
-    "example": "Students laugh during enjoyable lessons. (學生在有趣的課程中大笑。)",
+    "example": "The joke made everyone laugh. (那個笑話讓大家都笑了。)",
     "id": "L1-laugh-verb-noun"
   },
   {
     "level": "L1",
     "word": "law",
     "meaning": "noun 法律",
-    "example": "Educational laws protect student rights. (教育法律保護學生權利。)",
+    "example": "Everyone must follow the law. (每個人都必須遵守法律。)",
     "id": "L1-law-noun"
   },
   {
@@ -3272,14 +3272,14 @@
     "level": "L1",
     "word": "learn",
     "meaning": "verb 學習",
-    "example": "Children learn best through active engagement. (孩子通過積極參與學得最好。)",
+    "example": "We learn English at school. (我們在學校學英文。)",
     "id": "L1-learn-verb"
   },
   {
     "level": "L1",
     "word": "least",
     "meaning": "adv./adj./pron./noun 最少、最小",
-    "example": "Every student needs at least basic education. (每個學生至少需要基礎教育。)",
+    "example": "This is the least expensive one. (這是最便宜的一個。)",
     "id": "L1-least-adv-adj-pron-noun"
   },
   {
@@ -3314,7 +3314,7 @@
     "level": "L1",
     "word": "lesson",
     "meaning": "noun 課程",
-    "example": "Each lesson builds upon previous knowledge. (每堂課都建立在先前知識之上。)",
+    "example": "We have five lessons today. (我們今天有五堂課。)",
     "id": "L1-lesson-noun"
   },
   {
@@ -3328,14 +3328,14 @@
     "level": "L1",
     "word": "letter",
     "meaning": "noun 信",
-    "example": "Each letter has a specific sound. (每個字母都有特定的聲音。)",
+    "example": "I got a letter from my friend. (我收到朋友寄來的一封信。)",
     "id": "L1-letter-noun"
   },
   {
     "level": "L1",
     "word": "level",
     "meaning": "noun 水準\nadj. 水平的",
-    "example": "Advanced level courses challenge students. (高級課程挑戰學生。)",
+    "example": "Her English level is high. (她的英文程度很高。)",
     "id": "L1-level-noun-adj"
   },
   {
@@ -3356,7 +3356,7 @@
     "level": "L1",
     "word": "lift",
     "meaning": "verb 舉起\nnoun 舉、順道搭載",
-    "example": "Education lifts people out of poverty. (教育使人們擺脫貧困。)",
+    "example": "Can you help me lift this box? (你可以幫我抬起這個箱子嗎？)",
     "id": "L1-lift-verb-noun"
   },
   {
@@ -3384,7 +3384,7 @@
     "level": "L1",
     "word": "line",
     "meaning": "noun/verb 行列；排隊",
-    "example": "Students form a line for library check-out. (學生排隊借閱圖書館書籍。)",
+    "example": "Please stand in line. (請排隊。)",
     "id": "L1-line-noun-verb"
   },
   {
@@ -3426,14 +3426,14 @@
     "level": "L1",
     "word": "live",
     "meaning": "verb 活",
-    "example": "Students live in diverse communities. (學生生活在多樣化社區中。)",
+    "example": "I live in Taipei. (我住在台北。)",
     "id": "L1-live-verb"
   },
   {
     "level": "L1",
     "word": "long",
     "meaning": "adj./adv. 長的、久的；長久地",
-    "example": "Long-term memory requires regular review. (長期記憶需要定期複習。)",
+    "example": "She has long hair. (她留著長頭髮。)",
     "id": "L1-long-adj-adv"
   },
   {
@@ -3454,7 +3454,7 @@
     "level": "L1",
     "word": "loud",
     "meaning": "adj./adv. 大聲的；大聲地",
-    "example": "Please do not speak so loud in the library.（請不要在圖書館裡說話那麼大聲。）",
+    "example": "The music is too loud. (音樂聲太大了。)",
     "id": "L1-loud-adj-adv"
   },
   {
@@ -3475,7 +3475,7 @@
     "level": "L1",
     "word": "lucky",
     "meaning": "adj. 幸運的",
-    "example": "You are lucky to find your lost watch.（你很幸運找到了遺失的手錶。）",
+    "example": "I am lucky today. (我今天很幸運。)",
     "id": "L1-lucky-adj"
   },
   {
@@ -3580,7 +3580,7 @@
     "level": "L1",
     "word": "may",
     "meaning": "aux. 可能",
-    "example": "My birthday is in May.（我的生日在五月。）",
+    "example": "It may rain this afternoon. (今天下午可能會下雨。)",
     "id": "L1-may-aux"
   },
   {
@@ -3664,7 +3664,7 @@
     "level": "L1",
     "word": "miss",
     "meaning": "verb 錯過；想念",
-    "example": "Miss Lin is our music teacher.（林小姐是我們的音樂老師。）",
+    "example": "I miss my grandmother. (我想念我的奶奶。)",
     "id": "L1-miss-verb"
   },
   {
@@ -3783,14 +3783,14 @@
     "level": "L1",
     "word": "movement",
     "meaning": "noun 動作；活動",
-    "example": "Please move your chair closer to the table.（請把你的椅子移近桌子一點。）",
+    "example": "The bird made a quick movement. (那隻鳥快速動了一下。)",
     "id": "L1-movement-noun"
   },
   {
     "level": "L1",
     "word": "movie",
     "meaning": "noun 電影",
-    "example": "Visual pictures help memorize vocabulary effectively. (視覺圖片有助於有效記憶詞彙。)",
+    "example": "We watched a funny movie last night. (我們昨晚看了一部好笑的電影。)",
     "id": "L1-movie-noun"
   },
   {
@@ -3860,14 +3860,14 @@
     "level": "L1",
     "word": "nation",
     "meaning": "noun 國家",
-    "example": "Education strengthens the nation's future. (教育強化國家的未來。)",
+    "example": "Our nation has a long history. (我們的國家有悠久的歷史。)",
     "id": "L1-nation-noun"
   },
   {
     "level": "L1",
     "word": "nature",
     "meaning": "noun 自然",
-    "example": "Understanding human nature helps teachers connect with students. (理解人性幫助教師與學生建立聯繫。)",
+    "example": "I love nature. (我喜歡大自然。)",
     "id": "L1-nature-noun"
   },
   {
@@ -3888,7 +3888,7 @@
     "level": "L1",
     "word": "need",
     "meaning": "verb/noun/aux. 需要",
-    "example": "Students need supportive learning environments. (學生需要支持性學習環境。)",
+    "example": "I need a new pen. (我需要一支新筆。)",
     "id": "L1-need-verb-noun-aux"
   },
   {
@@ -3902,14 +3902,14 @@
     "level": "L1",
     "word": "new",
     "meaning": "adj. 新的",
-    "example": "New technologies transform education methods. (新技術改變教育方法。)",
+    "example": "I have a new bike. (我有一輛新腳踏車。)",
     "id": "L1-new-adj"
   },
   {
     "level": "L1",
     "word": "news",
     "meaning": "noun 消息、新聞",
-    "example": "Current news connects classroom learning to the real world. (時事新聞將課堂學習與現實世界聯繫起來。)",
+    "example": "I watch the news with my father. (我和爸爸一起看新聞。)",
     "id": "L1-news-noun"
   },
   {
@@ -3923,14 +3923,14 @@
     "level": "L1",
     "word": "next",
     "meaning": "adj./adv. 隔壁的、緊接著的；接下去、然後",
-    "example": "Next semester offers advanced courses. (下學期提供高級課程。)",
+    "example": "See you next Monday. (下週一見。)",
     "id": "L1-next-adj-adv"
   },
   {
     "level": "L1",
     "word": "nice",
     "meaning": "adj. 美好的、宜人的",
-    "example": "Nice weather encourages outdoor learning. (好天氣鼓勵戶外學習。)",
+    "example": "The weather is nice today. (今天天氣很好。)",
     "id": "L1-nice-adj"
   },
   {
@@ -3972,7 +3972,7 @@
     "level": "L1",
     "word": "noise",
     "meaning": "noun 噪音",
-    "example": "Excessive noise disrupts concentration. (過多噪音干擾專注力。)",
+    "example": "The noise woke me up. (噪音把我吵醒了。)",
     "id": "L1-noise-noun"
   },
   {
@@ -4000,7 +4000,7 @@
     "level": "L1",
     "word": "north",
     "meaning": "noun/adj./adv. 北方(的)；向北",
-    "example": "The north campus has new facilities. (北校區有新設施。)",
+    "example": "The wind comes from the north. (風從北方吹來。)",
     "id": "L1-north-noun-adj-adv"
   },
   {
@@ -4014,21 +4014,21 @@
     "level": "L1",
     "word": "not",
     "meaning": "adv. 不是",
-    "example": "Students should not plagiarize work. (學生不應該抄襲作業。)",
+    "example": "I am not hungry. (我不餓。)",
     "id": "L1-not-adv"
   },
   {
     "level": "L1",
     "word": "note",
     "meaning": "noun/verb 筆記；記錄、注意",
-    "example": "Taking detailed notes improves information retention. (做詳細筆記提高資訊保持。)",
+    "example": "I take notes in class. (我上課時做筆記。)",
     "id": "L1-note-noun-verb"
   },
   {
     "level": "L1",
     "word": "nothing",
     "meaning": "pron./noun 沒什麼",
-    "example": "Nothing replaces dedicated study time. (沒有什麼能替代專注的學習時間。)",
+    "example": "There is nothing in the box. (盒子裡什麼都沒有。)",
     "id": "L1-nothing-pron-noun"
   },
   {
@@ -4070,7 +4070,7 @@
     "level": "L1",
     "word": "ocean",
     "meaning": "noun 海洋",
-    "example": "Marine biology students study ocean ecosystems. (海洋生物學學生研究海洋生態系統。)",
+    "example": "We swam in the ocean. (我們在海裡游泳。)",
     "id": "L1-ocean-noun"
   },
   {
@@ -4084,14 +4084,14 @@
     "level": "L1",
     "word": "of",
     "meaning": "prep. ...的、屬於、關於",
-    "example": "Education is the key to success. (教育是成功的關鍵。)",
+    "example": "She is a friend of mine. (她是我的一位朋友。)",
     "id": "L1-of-prep"
   },
   {
     "level": "L1",
     "word": "off",
     "meaning": "adv./prep./adj. (離)開",
-    "example": "Students turn off phones during class. (學生上課時關閉手機。)",
+    "example": "Turn off the light, please. (請把燈關掉。)",
     "id": "L1-off-adv-prep-adj"
   },
   {
@@ -4147,7 +4147,7 @@
     "level": "L1",
     "word": "once",
     "meaning": "adv./conj./pron. 一次、曾經；一旦…就…",
-    "example": "Once students master basics, advanced topics follow. (學生一旦掌握基礎， 高級主題就會跟上。)",
+    "example": "I go swimming once a week. (我每週游泳一次。)",
     "id": "L1-once-adv-conj-pron"
   },
   {
@@ -4161,14 +4161,14 @@
     "level": "L1",
     "word": "only",
     "meaning": "adv./adj./conj. 僅、只；唯一的",
-    "example": "Only persistent effort leads to mastery. (只有持續努力才能達到精通。)",
+    "example": "I only have one pen. (我只有一支筆。)",
     "id": "L1-only-adv-adj-conj"
   },
   {
     "level": "L1",
     "word": "open",
     "meaning": "verb/adj. 打開；開著的",
-    "example": "Open communication enhances teacher-student relationships. (開放的溝通增強師生關係。)",
+    "example": "Please open the window. (請打開窗戶。)",
     "id": "L1-open-verb-adj"
   },
   {
@@ -4189,7 +4189,7 @@
     "level": "L1",
     "word": "order",
     "meaning": "noun 訂單、順序、命令\nverb 點菜、訂購、命令",
-    "example": "Learning complex concepts requires proper order. (學習複雜概念需要適當的順序。)",
+    "example": "I ordered a bowl of noodles. (我點了一碗麵。)",
     "id": "L1-order-noun-verb"
   },
   {
@@ -4203,49 +4203,49 @@
     "level": "L1",
     "word": "our",
     "meaning": "determiner 我們的",
-    "example": "Our school promotes inclusive education. (我們的學校促進包容性教育。)",
+    "example": "Our school is near the park. (我們的學校在公園附近。)",
     "id": "L1-our-determiner"
   },
   {
     "level": "L1",
     "word": "ours",
     "meaning": "pron. 我們的",
-    "example": "Our school promotes inclusive education. (我們的學校促進包容性教育。)",
+    "example": "This classroom is ours. (這間教室是我們的。)",
     "id": "L1-ours-pron"
   },
   {
     "level": "L1",
     "word": "out",
     "meaning": "adv./adj./prep. 在外；之外；缺",
-    "example": "Students learn out in the real world. (學生在現實世界中學習。)",
+    "example": "She went out for a walk. (她出去散步了。)",
     "id": "L1-out-adv-adj-prep"
   },
   {
     "level": "L1",
     "word": "outside",
     "meaning": "prep./adv./adj./noun 在外地；外面(的)",
-    "example": "Outside activities enhance classroom learning. (戶外活動增強課堂學習。)",
+    "example": "The children are playing outside. (孩子們在外面玩。)",
     "id": "L1-outside-prep-adv-adj-noun"
   },
   {
     "level": "L1",
     "word": "over",
     "meaning": "prep./adv./adj. 在…上面；越過；過去的",
-    "example": "The semester is over in two weeks. (學期兩週後結束。)",
+    "example": "The game is over. (比賽結束了。)",
     "id": "L1-over-prep-adv-adj"
   },
   {
     "level": "L1",
     "word": "own",
     "meaning": "pron./adj. 自己的\nverb 擁有",
-    "example": "Students own responsibility for their learning. (學生擁有學習的責任。)",
+    "example": "This is my own room. (這是我自己的房間。)",
     "id": "L1-own-pron-adj-verb"
   },
   {
     "level": "L1",
     "word": "page",
     "meaning": "noun 頁",
-    "example": "Students read every page of the assignment. (學生閱讀作業的每一頁。)",
+    "example": "Open your book to page ten. (把書翻到第十頁。)",
     "id": "L1-page-noun"
   },
   {
@@ -4259,7 +4259,7 @@
     "level": "L1",
     "word": "pair",
     "meaning": "noun 對",
-    "example": "Students work in pairs for projects. (學生成對進行項目工作。)",
+    "example": "Students work in pairs for projects. (學生兩人一組進行專案。)",
     "id": "L1-pair-noun"
   },
   {
@@ -4273,7 +4273,7 @@
     "level": "L1",
     "word": "paper",
     "meaning": "noun 紙",
-    "example": "Students write research papers carefully. (學生仔細撰寫研究論文。)",
+    "example": "I need a piece of paper. (我需要一張紙。)",
     "id": "L1-paper-noun"
   },
   {
@@ -4294,14 +4294,14 @@
     "level": "L1",
     "word": "part",
     "meaning": "noun 部分",
-    "example": "Each student plays a part in class success. (每個學生在班級成功中扮演角色。)",
+    "example": "This is the best part of the story. (這是故事中最精彩的部分。)",
     "id": "L1-part-noun"
   },
   {
     "level": "L1",
     "word": "party",
     "meaning": "noun 宴會",
-    "example": "The graduation party celebrated achievements. (畢業聚會慶祝成就。)",
+    "example": "We had a party for her birthday. (我們為她的生日辦了一場派對。)",
     "id": "L1-party-noun"
   },
   {
@@ -4322,7 +4322,7 @@
     "level": "L1",
     "word": "pay",
     "meaning": "verb/noun 支付；薪水",
-    "example": "Hard work pays off in education. (在教育中努力工作會有回報。)",
+    "example": "I will pay for the tickets. (我會付門票錢。)",
     "id": "L1-pay-verb-noun"
   },
   {
@@ -4343,21 +4343,21 @@
     "level": "L1",
     "word": "people",
     "meaning": "noun 人、人們、民族",
-    "example": "Education empowers people to improve their lives. (教育使人們能夠改善生活。)",
+    "example": "Many people came to the party. (很多人來參加派對。)",
     "id": "L1-people-noun"
   },
   {
     "level": "L1",
     "word": "perhaps",
     "meaning": "adv. 或許",
-    "example": "Perhaps the most important skill is learning how to learn. (也許最重要的技能是學會如何學習。)",
+    "example": "Perhaps it will rain tomorrow. (明天也許會下雨。)",
     "id": "L1-perhaps-adv"
   },
   {
     "level": "L1",
     "word": "person",
     "meaning": "noun 人",
-    "example": "Each person has unique learning preferences. (每個人都有獨特的學習偏好。)",
+    "example": "Only one person can sit here. (這裡只能坐一個人。)",
     "id": "L1-person-noun"
   },
   {
@@ -4378,7 +4378,7 @@
     "level": "L1",
     "word": "picture",
     "meaning": "noun/verb 圖片、照片；拍攝、描繪",
-    "example": "Visual pictures help memorize vocabulary effectively. (視覺圖片有助於有效記憶詞彙。)",
+    "example": "Look at the picture on the wall. (看牆上的圖。)",
     "id": "L1-picture-noun-verb"
   },
   {
@@ -4406,14 +4406,14 @@
     "level": "L1",
     "word": "place",
     "meaning": "noun 廣場、地方、位置\nverb 放置",
-    "example": "A quiet place improves concentration during study. (安靜的地方提高學習時的專注力。)",
+    "example": "This is a good place to rest. (這是個休息的好地方。)",
     "id": "L1-place-noun-verb"
   },
   {
     "level": "L1",
     "word": "plan",
     "meaning": "noun/verb 計畫、方案、平面圖；計劃、打算",
-    "example": "Study plans organize learning goals systematically. (學習計劃系統地組織學習目標。)",
+    "example": "What is your plan for Sunday? (你星期天有什麼計畫？)",
     "id": "L1-plan-noun-verb"
   },
   {
@@ -4427,7 +4427,7 @@
     "level": "L1",
     "word": "plant",
     "meaning": "verb 種植\nnoun 植物",
-    "example": "Science students study plant biology. (科學學生研究植物生物學。)",
+    "example": "I water the plants every day. (我每天幫植物澆水。)",
     "id": "L1-plant-verb-noun"
   },
   {
@@ -4455,7 +4455,7 @@
     "level": "L1",
     "word": "please",
     "meaning": "verb 使高興、取悅\nadv. 請",
-    "example": "Please complete assignments on time. (請按時完成作業。)",
+    "example": "Please close the door. (請關門。)",
     "id": "L1-please-verb-adv"
   },
   {
@@ -4469,14 +4469,14 @@
     "level": "L1",
     "word": "point",
     "meaning": "verb 指向、瞄準\nnoun 點、觀點、要點、(特定)時刻",
-    "example": "Teachers point out important concepts. (老師指出重要概念。)",
+    "example": "He pointed at the map. (他指著地圖。)",
     "id": "L1-point-verb-noun"
   },
   {
     "level": "L1",
     "word": "police",
     "meaning": "noun 警方",
-    "example": "Police officers visit schools for safety talks. (警察訪問學校進行安全講座。)",
+    "example": "The police came quickly. (警察很快就來了。)",
     "id": "L1-police-noun"
   },
   {
@@ -4504,7 +4504,7 @@
     "level": "L1",
     "word": "poor",
     "meaning": "adj. 貧窮的、粗劣的、可憐的",
-    "example": "Education helps poor families improve circumstances. (教育幫助貧困家庭改善環境。)",
+    "example": "The poor man has no home. (那位窮人沒有家。)",
     "id": "L1-poor-adj"
   },
   {
@@ -4518,7 +4518,7 @@
     "level": "L1",
     "word": "position",
     "meaning": "noun/verb 位置；定位",
-    "example": "Teachers hold important positions in society. (老師在社會中佔據重要地位。)",
+    "example": "Please put the chair back in its position. (請把椅子放回原來的位置。)",
     "id": "L1-position-noun-verb"
   },
   {
@@ -4539,21 +4539,21 @@
     "level": "L1",
     "word": "practice",
     "meaning": "noun/verb 練習、慣例；練習、訓練",
-    "example": "Regular practice transforms knowledge into skills. (定期練習將知識轉化為技能。)",
+    "example": "I practice the piano every day. (我每天練習彈鋼琴。)",
     "id": "L1-practice-noun-verb"
   },
   {
     "level": "L1",
     "word": "prepare",
     "meaning": "verb 準備",
-    "example": "Students prepare thoroughly for examinations. (學生為考試做充分準備。)",
+    "example": "I prepare breakfast for my family. (我為家人準備早餐。)",
     "id": "L1-prepare-verb"
   },
   {
     "level": "L1",
     "word": "pretty",
     "meaning": "adj. 漂亮的\nadv. 相當、頗",
-    "example": "The art display looks pretty impressive. (藝術展示看起來相當令人印象深刻。)",
+    "example": "She has a pretty dress. (她有一件漂亮的洋裝。)",
     "id": "L1-pretty-adj-adv"
   },
   {
@@ -4567,14 +4567,14 @@
     "level": "L1",
     "word": "print",
     "meaning": "verb/noun 印刷、用印刷體寫；印刷字體、印刷品",
-    "example": "Students print their final reports. (學生列印最終報告。)",
+    "example": "Please print your name here. (請在這裡用印刷體寫名字。)",
     "id": "L1-print-verb-noun"
   },
   {
     "level": "L1",
     "word": "problem",
     "meaning": "noun 問題",
-    "example": "Critical thinking solves complex problems. (批判性思維解決複雜問題。)",
+    "example": "Can you help me with this math problem? (你可以幫我解這道數學題嗎？)",
     "id": "L1-problem-noun"
   },
   {
@@ -4588,7 +4588,7 @@
     "level": "L1",
     "word": "public",
     "meaning": "adj./noun 公眾(的)",
-    "example": "Public education serves all children. (公立教育為所有兒童服務。)",
+    "example": "This is a public library. (這是一間公立圖書館。)",
     "id": "L1-public-adj-noun"
   },
   {
@@ -4609,21 +4609,21 @@
     "level": "L1",
     "word": "purpose",
     "meaning": "noun 目的",
-    "example": "Education's purpose is developing minds. (教育的目的是發展心智。)",
+    "example": "What is the purpose of this game? (這個遊戲的目的是什麼？)",
     "id": "L1-purpose-noun"
   },
   {
     "level": "L1",
     "word": "push",
     "meaning": "verb/noun 推、逼迫；推動",
-    "example": "Motivation pushes students to excel. (動機推動學生追求卓越。)",
+    "example": "Please push the door. (請推門。)",
     "id": "L1-push-verb-noun"
   },
   {
     "level": "L1",
     "word": "put",
     "meaning": "verb 放",
-    "example": "Students put effort into their studies. (學生在學習上投入努力。)",
+    "example": "Put the book on the desk. (把書放在書桌上。)",
     "id": "L1-put-verb"
   },
   {
@@ -4637,42 +4637,42 @@
     "level": "L1",
     "word": "question",
     "meaning": "noun/verb (問)問題；懷疑",
-    "example": "Asking good questions deepens understanding. (提出好問題加深理解。)",
+    "example": "May I ask a question? (我可以問一個問題嗎？)",
     "id": "L1-question-noun-verb"
   },
   {
     "level": "L1",
     "word": "quick",
     "meaning": "adj. 快速的",
-    "example": "Quick learners often use effective study strategies. (快速學習者通常使用有效的學習策略。)",
+    "example": "He is a quick runner. (他跑得很快。)",
     "id": "L1-quick-adj"
   },
   {
     "level": "L1",
     "word": "quiet",
     "meaning": "adj. 安靜的",
-    "example": "Quiet environments enhance concentration. (安靜的環境增強專注力。)",
+    "example": "Please be quiet in the library. (在圖書館裡請保持安靜。)",
     "id": "L1-quiet-adj"
   },
   {
     "level": "L1",
     "word": "quite",
     "meaning": "adv. 相當",
-    "example": "Mastering vocabulary is quite challenging but rewarding. (掌握詞彙相當具有挑戰性但很有回報。)",
+    "example": "The test was quite easy. (這次考試相當簡單。)",
     "id": "L1-quite-adv"
   },
   {
     "level": "L1",
     "word": "race",
     "meaning": "verb/noun 賽跑、參加比賽；競爭\nnoun 種族",
-    "example": "Students of every race deserve equal opportunities. (每個種族的學生都應得到平等機會。)",
+    "example": "He won the race. (他贏了賽跑。)",
     "id": "L1-race-verb-noun-noun"
   },
   {
     "level": "L1",
     "word": "radio",
     "meaning": "noun 收音機、廣播節目",
-    "example": "Educational radio programs reach remote areas. (教育廣播節目到達偏遠地區。)",
+    "example": "My grandfather listens to the radio. (我爺爺聽收音機。)",
     "id": "L1-radio-noun"
   },
   {
@@ -4700,7 +4700,7 @@
     "level": "L1",
     "word": "raise",
     "meaning": "verb/noun 舉高、提升、養育；提高\nnoun 加薪、加薪額",
-    "example": "Good teachers raise student expectations. (好老師提高學生期望。)",
+    "example": "Raise your hand, please. (請舉手。)",
     "id": "L1-raise-verb-noun-noun"
   },
   {
@@ -4714,14 +4714,14 @@
     "level": "L1",
     "word": "reach",
     "meaning": "verb 伸出(手)、抵達、 取得聯繫\nnoun （手、能力、影響等）可及範圍",
-    "example": "Persistent effort helps students reach their goals. (持續努力幫助學生達到目標。)",
+    "example": "I can't reach the book. (我拿不到那本書。)",
     "id": "L1-reach-verb-noun"
   },
   {
     "level": "L1",
     "word": "read",
     "meaning": "verb 讀、朗讀",
-    "example": "Students who read extensively develop better vocabulary. (廣泛閱讀的學生發展更好的詞彙。)",
+    "example": "I read a story every night. (我每天晚上讀一個故事。)",
     "id": "L1-read-verb"
   },
   {
@@ -4735,21 +4735,21 @@
     "level": "L1",
     "word": "real",
     "meaning": "adj. 真實的",
-    "example": "Real applications make abstract concepts concrete. (實際應用使抽象概念具體化。)",
+    "example": "Is this a real diamond? (這是真的鑽石嗎？)",
     "id": "L1-real-adj"
   },
   {
     "level": "L1",
     "word": "reason",
     "meaning": "noun 原因、理由、理性",
-    "example": "Understanding the reason behind rules improves compliance. (理解規則背後的原因提高遵守性。)",
+    "example": "I don't know the reason. (我不知道原因。)",
     "id": "L1-reason-noun"
   },
   {
     "level": "L1",
     "word": "receive",
     "meaning": "verb 收到、歡迎",
-    "example": "Students receive feedback to improve their performance. (學生接受反饋以提升表現。)",
+    "example": "I received a letter from my friend. (我收到朋友寄來的信。)",
     "id": "L1-receive-verb"
   },
   {
@@ -4763,21 +4763,21 @@
     "level": "L1",
     "word": "remember",
     "meaning": "verb 記住",
-    "example": "Students remember information better through active engagement. (學生通過積極參與更好地記住資訊。)",
+    "example": "I remember your name. (我記得你的名字。)",
     "id": "L1-remember-verb"
   },
   {
     "level": "L1",
     "word": "report",
     "meaning": "noun/verb 報告、報導",
-    "example": "Students report their research findings. (學生報告研究發現。)",
+    "example": "He wrote a report about the trip. (他寫了一篇關於這趟旅行的報告。)",
     "id": "L1-report-noun-verb"
   },
   {
     "level": "L1",
     "word": "rest",
     "meaning": "verb/noun 剩下；剩餘部分、其餘\nnoun 休息",
-    "example": "Adequate rest improves learning capacity. (充分休息提高學習能力。)",
+    "example": "You look tired; take a rest. (你看起來很累，休息一下吧。)",
     "id": "L1-rest-verb-noun-noun"
   },
   {
@@ -4798,7 +4798,7 @@
     "level": "L1",
     "word": "rich",
     "meaning": "adj./noun 富有的；富人",
-    "example": "Education provides rich life experiences. (教育提供豐富的人生經驗。)",
+    "example": "That man is rich. (那個男人很有錢。)",
     "id": "L1-rich-adj-noun"
   },
   {
@@ -4819,14 +4819,14 @@
     "level": "L1",
     "word": "ring",
     "meaning": "verb 打電話、按門鈴、(鈴聲)響起\nnoun 戒指、環；鈴聲",
-    "example": "School bells ring to signal class changes. (學校鈴聲響起表示換課。)",
+    "example": "The phone is ringing. (電話正在響。)",
     "id": "L1-ring-verb-noun"
   },
   {
     "level": "L1",
     "word": "rise",
     "meaning": "verb/noun 上升",
-    "example": "Test scores rise with consistent study. (考試成績隨著持續學習而上升。)",
+    "example": "The sun rises in the east. (太陽從東邊升起。)",
     "id": "L1-rise-verb-noun"
   },
   {
@@ -4854,7 +4854,7 @@
     "level": "L1",
     "word": "rock",
     "meaning": "noun 石頭、岩石、搖滾樂\nverb 搖晃、震動、跳舞(搖滾樂)",
-    "example": "Geology students study different rock formations. (地質學學生研究不同的岩石形成。)",
+    "example": "The children sat on a big rock. (孩子們坐在一塊大石頭上。)",
     "id": "L1-rock-noun-verb"
   },
   {
@@ -4875,7 +4875,7 @@
     "level": "L1",
     "word": "room",
     "meaning": "noun 房間",
-    "example": "The classroom accommodates thirty students. (教室容納三十名學生。)",
+    "example": "My room is small but clean. (我的房間很小，但很乾淨。)",
     "id": "L1-room-noun"
   },
   {
@@ -4938,7 +4938,7 @@
     "level": "L1",
     "word": "run",
     "meaning": "verb/noun 跑、行駛、運轉",
-    "example": "Students run the school newspaper. (學生經營校報。)",
+    "example": "I run in the park every morning. (我每天早上在公園跑步。)",
     "id": "L1-run-verb-noun"
   },
   {
@@ -5001,7 +5001,7 @@
     "level": "L1",
     "word": "save",
     "meaning": "verb 節省",
-    "example": "Education saves people from ignorance. (教育拯救人們免於無知。)",
+    "example": "We save water by taking short showers. (我們用短時間淋浴來節省用水。)",
     "id": "L1-save-verb"
   },
   {
@@ -5015,28 +5015,28 @@
     "level": "L1",
     "word": "scene",
     "meaning": "noun 現場、景色",
-    "example": "The graduation scene moved parents to tears. (畢業場景讓父母感動落淚。)",
+    "example": "The scene in the movie was beautiful. (電影裡的場景很美。)",
     "id": "L1-scene-noun"
   },
   {
     "level": "L1",
     "word": "school",
     "meaning": "noun 學校",
-    "example": "Modern schools integrate technology into learning. (現代學校將技術融入學習。)",
+    "example": "Our school is near the station. (我們的學校在車站附近。)",
     "id": "L1-school-noun"
   },
   {
     "level": "L1",
     "word": "sea",
     "meaning": "noun 海洋",
-    "example": "Marine biology explores sea life diversity. (海洋生物學探索海洋生物多樣性。)",
+    "example": "We swam in the sea. (我們在海裡游泳。)",
     "id": "L1-sea-noun"
   },
   {
     "level": "L1",
     "word": "season",
     "meaning": "noun 季節",
-    "example": "Each season brings different learning opportunities. (每個季節都帶來不同的學習機會。)",
+    "example": "Spring is my favorite season. (春天是我最喜歡的季節。)",
     "id": "L1-season-noun"
   },
   {
@@ -5050,14 +5050,14 @@
     "level": "L1",
     "word": "second",
     "meaning": "noun 第二位；秒\nadj./adv. 第二的；居第二位",
-    "example": "The second semester focuses on advanced topics. (第二學期專注於高級主題。)",
+    "example": "This is my second cup of tea. (這是我的第二杯茶。)",
     "id": "L1-second-noun-adj-adv"
   },
   {
     "level": "L1",
     "word": "see",
     "meaning": "verb 看、拜訪、明白",
-    "example": "Students see improvement through consistent effort. (學生通過持續努力看到進步。)",
+    "example": "I can see a bird in the tree. (我看到樹上有一隻鳥。)",
     "id": "L1-see-verb"
   },
   {
@@ -5071,7 +5071,7 @@
     "level": "L1",
     "word": "seem",
     "meaning": "verb 看起來、似乎",
-    "example": "Difficult concepts seem easier with practice. (困難的概念通過練習看起來更容易。)",
+    "example": "You seem tired today. (你今天看起來很累。)",
     "id": "L1-seem-verb"
   },
   {
@@ -5099,14 +5099,14 @@
     "level": "L1",
     "word": "send",
     "meaning": "verb 寄",
-    "example": "Teachers send assignments via email. (老師通過電子郵件發送作業。)",
+    "example": "I will send you a postcard. (我會寄一張明信片給你。)",
     "id": "L1-send-verb"
   },
   {
     "level": "L1",
     "word": "sense",
     "meaning": "noun/verb 感官、觀念、意義；意識到、感覺到",
-    "example": "Students develop a sense of responsibility. (學生發展責任感。)",
+    "example": "I have a good sense of smell. (我的嗅覺很好。)",
     "id": "L1-sense-noun-verb"
   },
   {
@@ -5120,21 +5120,21 @@
     "level": "L1",
     "word": "serve",
     "meaning": "verb 服務",
-    "example": "Education serves society's long-term needs. (教育服務社會的長期需求。)",
+    "example": "This restaurant serves good noodles. (這家餐廳的麵很好吃。)",
     "id": "L1-serve-verb"
   },
   {
     "level": "L1",
     "word": "service",
     "meaning": "noun 服務",
-    "example": "School service programs benefit communities. (學校服務項目造福社區。)",
+    "example": "The food is good, and the service is fast. (這裡的餐點好吃，服務也很快。)",
     "id": "L1-service-noun"
   },
   {
     "level": "L1",
     "word": "set",
     "meaning": "verb 放、裝設\nadj. 準備好的\nnoun 一套(組、副)",
-    "example": "Teachers set clear expectations for students. (老師為學生設定明確期望。)",
+    "example": "Please set the table for dinner. (請擺好餐桌準備吃晚餐。)",
     "id": "L1-set-verb-adj-noun"
   },
   {
@@ -5162,7 +5162,7 @@
     "level": "L1",
     "word": "several",
     "meaning": "adj./pron. 一些的；幾個",
-    "example": "Several methods improve learning effectiveness. (幾種方法提高學習效果。)",
+    "example": "I visited several friends yesterday. (我昨天拜訪了幾位朋友。)",
     "id": "L1-several-adj-pron"
   },
   {
@@ -5232,7 +5232,7 @@
     "level": "L1",
     "word": "ship",
     "meaning": "noun (航海的)大船、艦\nverb 用船運、運送",
-    "example": "History classes study ancient ship designs. (歷史課研究古代船隻設計。)",
+    "example": "The ship sailed across the sea. (那艘船航行過海。)",
     "id": "L1-ship-noun-verb"
   },
   {
@@ -5253,7 +5253,7 @@
     "level": "L1",
     "word": "shop",
     "meaning": "noun 店舖\nverb 買、購物",
-    "example": "Students shop for school supplies carefully. (學生仔細購買學校用品。)",
+    "example": "We shop at the market on Sundays. (我們星期天在市場買東西。)",
     "id": "L1-shop-noun-verb"
   },
   {
@@ -5267,14 +5267,14 @@
     "level": "L1",
     "word": "short",
     "meaning": "adj. 矮的、短的、缺乏的",
-    "example": "Short breaks refresh student attention. (短暫休息刷新學生注意力。)",
+    "example": "He is short but strong. (他個子矮，但很強壯。)",
     "id": "L1-short-adj"
   },
   {
     "level": "L1",
     "word": "shot",
     "meaning": "noun 射擊、(藥品)一次注射量",
-    "example": "The yearbook shot captured student spirit. (年鑑照片捕捉學生精神。)",
+    "example": "The soldier heard a shot. (士兵聽到一聲槍響。)",
     "id": "L1-shot-noun"
   },
   {
@@ -5295,7 +5295,7 @@
     "level": "L1",
     "word": "show",
     "meaning": "verb/noun 給…看；展覽",
-    "example": "Science experiments show natural phenomena. (科學實驗展示自然現象。)",
+    "example": "Please show me your new bike. (請讓我看看你的新腳踏車。)",
     "id": "L1-show-verb-noun"
   },
   {
@@ -5351,14 +5351,14 @@
     "level": "L1",
     "word": "simple",
     "meaning": "adj. 簡單的",
-    "example": "Simple explanations help student understanding. (簡單的解釋有助於學生理解。)",
+    "example": "This book is written in simple English. (這本書是用簡單英文寫的。)",
     "id": "L1-simple-adj"
   },
   {
     "level": "L1",
     "word": "since",
     "meaning": "conj./prep./adv. 從...以來；自從；從此、此後",
-    "example": "Students have improved since starting the new program. (學生自從開始新項目後有所改善。)",
+    "example": "I have been here since Monday. (我從星期一就一直在這裡。)",
     "id": "L1-since-conj-prep-adv"
   },
   {
@@ -5393,14 +5393,14 @@
     "level": "L1",
     "word": "sit",
     "meaning": "verb 坐",
-    "example": "Students sit quietly during examinations. (學生在考試期間安靜地坐著。)",
+    "example": "Please sit down. (請坐下。)",
     "id": "L1-sit-verb"
   },
   {
     "level": "L1",
     "word": "six",
     "meaning": "number/pron./noun/adj. 六",
-    "example": "The project team has six members. (項目團隊有六名成員。)",
+    "example": "There are six eggs in the box. (盒子裡有六顆蛋。)",
     "id": "L1-six-number-pron-noun-adj"
   },
   {
@@ -5421,21 +5421,21 @@
     "level": "L1",
     "word": "size",
     "meaning": "noun 尺寸",
-    "example": "Class size affects learning quality. (班級規模影響學習質量。)",
+    "example": "What size shoes do you wear? (你穿幾號的鞋？)",
     "id": "L1-size-noun"
   },
   {
     "level": "L1",
     "word": "skill",
     "meaning": "noun 技術",
-    "example": "Communication skills benefit all areas of life. (溝通技能有益於生活的各個方面。)",
+    "example": "Reading is an important skill. (閱讀是一項重要的技能。)",
     "id": "L1-skill-noun"
   },
   {
     "level": "L1",
     "word": "skin",
     "meaning": "noun 皮膚",
-    "example": "Biology students study skin cell structure. (生物學學生研究皮膚細胞結構。)",
+    "example": "The baby has soft skin. (嬰兒的皮膚很柔軟。)",
     "id": "L1-skin-noun"
   },
   {
@@ -5449,7 +5449,7 @@
     "level": "L1",
     "word": "sleep",
     "meaning": "verb/noun 睡覺；睡覺、睡眠",
-    "example": "Adequate sleep improves academic performance. (充足睡眠提高學術表現。)",
+    "example": "I sleep eight hours every night. (我每晚睡八小時。)",
     "id": "L1-sleep-verb-noun"
   },
   {
@@ -5463,7 +5463,7 @@
     "level": "L1",
     "word": "small",
     "meaning": "adj. 小的",
-    "example": "Small group discussions encourage participation. (小組討論鼓勵參與。)",
+    "example": "She lives in a small house. (她住在一間小房子裡。)",
     "id": "L1-small-adj"
   },
   {
@@ -5484,7 +5484,7 @@
     "level": "L1",
     "word": "smile",
     "meaning": "verb/noun 微笑；笑容",
-    "example": "Teachers smile to create welcoming environments. (老師微笑創造歡迎的環境。)",
+    "example": "She smiled at me. (她對我微笑。)",
     "id": "L1-smile-verb-noun"
   },
   {
@@ -5540,21 +5540,21 @@
     "level": "L1",
     "word": "soft",
     "meaning": "adj. 軟的",
-    "example": "Soft skills complement technical knowledge. (軟技能補充技術知識。)",
+    "example": "The pillow is very soft. (這個枕頭很軟。)",
     "id": "L1-soft-adj"
   },
   {
     "level": "L1",
     "word": "some",
     "meaning": "pron./determiner 有些；一些",
-    "example": "Some students excel in mathematics. (一些學生在數學方面表現出色。)",
+    "example": "Some boys like cats. (有些男孩喜歡貓。)",
     "id": "L1-some-pron-determiner"
   },
   {
     "level": "L1",
     "word": "someone",
     "meaning": "pron. 某人",
-    "example": "Someone needs to organize the field trip. (有人需要組織實地考察。)",
+    "example": "Someone is knocking at the door. (有人在敲門。)",
     "id": "L1-someone-pron"
   },
   {
@@ -5568,14 +5568,14 @@
     "level": "L1",
     "word": "sometimes",
     "meaning": "adv. 有時候",
-    "example": "Sometimes difficult lessons become clearer later. (有時困難的課程後來變得更清楚。)",
+    "example": "Sometimes I walk to school. (有時候我走路上學。)",
     "id": "L1-sometimes-adv"
   },
   {
     "level": "L1",
     "word": "son",
     "meaning": "noun 兒子",
-    "example": "Her son excels in science subjects. (她的兒子在科學科目上表現出色。)",
+    "example": "Her son is ten years old. (她兒子十歲。)",
     "id": "L1-son-noun"
   },
   {
@@ -5589,7 +5589,7 @@
     "level": "L1",
     "word": "soon",
     "meaning": "adv. 不久、很快地、快、早",
-    "example": "Students will soon master these concepts. (學生很快就會掌握這些概念。)",
+    "example": "Dinner will be ready soon. (晚餐很快就好了。)",
     "id": "L1-soon-adv"
   },
   {
@@ -5610,7 +5610,7 @@
     "level": "L1",
     "word": "sound",
     "meaning": "noun/verb 聲音；聽起來",
-    "example": "The school bell sounds at class times. (學校鈴聲在上課時間響起。)",
+    "example": "I heard a strange sound. (我聽到一個奇怪的聲音。)",
     "id": "L1-sound-noun-verb"
   },
   {
@@ -5631,28 +5631,28 @@
     "level": "L1",
     "word": "south",
     "meaning": "noun/adv./adj. 南方；在南方；南方的",
-    "example": "The south wing houses science laboratories. (南翼設有科學實驗室。)",
+    "example": "Birds fly south in winter. (鳥類冬天飛往南方。)",
     "id": "L1-south-noun-adv-adj"
   },
   {
     "level": "L1",
     "word": "space",
     "meaning": "noun 空間",
-    "example": "Learning spaces should inspire creativity. (學習空間應該激發創造力。)",
+    "example": "There is no space for another chair. (沒有空間再放一張椅子了。)",
     "id": "L1-space-noun"
   },
   {
     "level": "L1",
     "word": "speak",
     "meaning": "verb 講",
-    "example": "Students speak confidently in presentations. (學生在演講中自信地說話。)",
+    "example": "Please speak more slowly. (請說慢一點。)",
     "id": "L1-speak-verb"
   },
   {
     "level": "L1",
     "word": "special",
     "meaning": "adj./noun 特別的；特製菜餚、特別節目",
-    "example": "Special attention helps struggling students succeed. (特別關注幫助有困難的學生成功。)",
+    "example": "Today is a special day. (今天是特別的日子。)",
     "id": "L1-special-adj-noun"
   },
   {
@@ -5673,7 +5673,7 @@
     "level": "L1",
     "word": "spend",
     "meaning": "verb 度過",
-    "example": "Students spend hours on research projects. (學生在研究項目上花費數小時。)",
+    "example": "I spend an hour reading every day. (我每天花一小時閱讀。)",
     "id": "L1-spend-verb"
   },
   {
@@ -5715,14 +5715,14 @@
     "level": "L1",
     "word": "star",
     "meaning": "noun/verb 星星、明星；主演、擔任主角",
-    "example": "Top students become stars in their fields. (優秀學生在各自領域成為明星。)",
+    "example": "There are many stars in the sky. (天空中有很多星星。)",
     "id": "L1-star-noun-verb"
   },
   {
     "level": "L1",
     "word": "start",
     "meaning": "verb/noun 開始；開始、開端",
-    "example": "The new semester starts with orientation week. (新學期從迎新週開始。)",
+    "example": "The class starts at eight. (課程八點開始。)",
     "id": "L1-start-verb-noun"
   },
   {
@@ -5736,14 +5736,14 @@
     "level": "L1",
     "word": "stay",
     "meaning": "verb/noun 停留；停留時間",
-    "example": "Students stay focused during lectures. (學生在講座期間保持專注。)",
+    "example": "Please stay here and wait. (請留在這裡等。)",
     "id": "L1-stay-verb-noun"
   },
   {
     "level": "L1",
     "word": "step",
     "meaning": "noun/verb 步伐；踏",
-    "example": "Learning follows logical steps. (學習遵循邏輯步驟。)",
+    "example": "He took a step. (他走了一步。)",
     "id": "L1-step-noun-verb"
   },
   {
@@ -5771,14 +5771,14 @@
     "level": "L1",
     "word": "store",
     "meaning": "noun 商店\nverb 貯藏",
-    "example": "Students shop for school supplies carefully. (學生仔細購買學校用品。)",
+    "example": "I bought milk at the store. (我在商店買了牛奶。)",
     "id": "L1-store-noun-verb"
   },
   {
     "level": "L1",
     "word": "story",
     "meaning": "noun 故事；樓層",
-    "example": "English class analyzes classic stories. (英語課分析經典故事。)",
+    "example": "Grandma tells me a story every night. (奶奶每晚說故事給我聽。)",
     "id": "L1-story-noun"
   },
   {
@@ -5799,21 +5799,21 @@
     "level": "L1",
     "word": "strong",
     "meaning": "adj. 強勁的",
-    "example": "Strong foundations support advanced learning. (堅實的基礎支持高級學習。)",
+    "example": "He is strong. (他很強壯。)",
     "id": "L1-strong-adj"
   },
   {
     "level": "L1",
     "word": "student",
     "meaning": "noun 學生",
-    "example": "Motivated students achieve better academic outcomes. (有動機的學生獲得更好的學術成果。)",
+    "example": "She is a good student. (她是個好學生。)",
     "id": "L1-student-noun"
   },
   {
     "level": "L1",
     "word": "study",
     "meaning": "noun/verb 研究、調查；學習、研讀",
-    "example": "Consistent study habits lead to long-term success. (持續的學習習慣導致長期成功。)",
+    "example": "I study English every day. (我每天讀英文。)",
     "id": "L1-study-noun-verb"
   },
   {
@@ -5827,7 +5827,7 @@
     "level": "L1",
     "word": "such",
     "meaning": "adj./pron. 如此的；這樣的人(或事物)",
-    "example": "Such dedication inspires other students. (這樣的奉獻激勵其他學生。)",
+    "example": "This is such a big dog! (這真是一隻好大的狗！)",
     "id": "L1-such-adj-pron"
   },
   {
@@ -5841,14 +5841,14 @@
     "level": "L1",
     "word": "summer",
     "meaning": "noun 夏天",
-    "example": "Summer programs offer enrichment opportunities. (夏季項目提供充實機會。)",
+    "example": "We go swimming every summer. (我們每年夏天都去游泳。)",
     "id": "L1-summer-noun"
   },
   {
     "level": "L1",
     "word": "sun",
     "meaning": "noun 太陽",
-    "example": "Solar energy from the sun powers schools. (來自太陽的太陽能為學校供電。)",
+    "example": "The sun is bright today. (今天的太陽很耀眼。)",
     "id": "L1-sun-noun"
   },
   {
@@ -5876,7 +5876,7 @@
     "level": "L1",
     "word": "sure",
     "meaning": "adj. 確定的\nadv. 當然",
-    "example": "Students feel sure about their progress. (學生對進步感到確信。)",
+    "example": "Are you sure about the answer? (你確定答案嗎？)",
     "id": "L1-sure-adj-adv"
   },
   {
@@ -5890,7 +5890,7 @@
     "level": "L1",
     "word": "sweet",
     "meaning": "adj./noun 甜(蜜)的；甜食",
-    "example": "She shared her candy with her friends.（她把糖果分給朋友們。）",
+    "example": "This cake is too sweet. (這個蛋糕太甜了。)",
     "id": "L1-sweet-adj-noun"
   },
   {
@@ -5904,7 +5904,7 @@
     "level": "L1",
     "word": "table",
     "meaning": "noun 桌子",
-    "example": "Students gather around the discussion table. (學生圍坐在討論桌旁。)",
+    "example": "The book is on the table. (書在桌上。)",
     "id": "L1-table-noun"
   },
   {
@@ -5918,7 +5918,7 @@
     "level": "L1",
     "word": "take",
     "meaning": "verb 搭、帶、做",
-    "example": "Students take notes during lectures. (學生在講座期間做筆記。)",
+    "example": "Take an umbrella with you. (帶把傘。)",
     "id": "L1-take-verb"
   },
   {
@@ -5960,14 +5960,14 @@
     "level": "L1",
     "word": "teach",
     "meaning": "verb 教導",
-    "example": "Experienced teachers teach with passion and expertise. (經驗豐富的教師以熱情和專業知識教學。)",
+    "example": "My mother teaches English. (我媽媽教英文。)",
     "id": "L1-teach-verb"
   },
   {
     "level": "L1",
     "word": "teacher",
     "meaning": "noun 老師",
-    "example": "Great teachers inspire students to reach their potential. (偉大的教師激勵學生發揮潛力。)",
+    "example": "Our teacher is very kind. (我們的老師很親切。)",
     "id": "L1-teacher-noun"
   },
   {
@@ -6030,21 +6030,21 @@
     "level": "L1",
     "word": "then",
     "meaning": "adv./adj. 然後、那時候；在那時的",
-    "example": "Students learn the basics, then move on to advanced topics. (學生學習基礎， 然後是高級主題。)",
+    "example": "We ate dinner, then watched TV. (我們吃完晚餐，然後看電視。)",
     "id": "L1-then-adv-adj"
   },
   {
     "level": "L1",
     "word": "there",
     "meaning": "adv./noun 在那裡；那裡",
-    "example": "There are many learning opportunities available. (有許多可用的學習機會。)",
+    "example": "There is a cat under the table. (桌子底下有一隻貓。)",
     "id": "L1-there-adv-noun"
   },
   {
     "level": "L1",
     "word": "these",
     "meaning": "pron./adj. 這些；這些的",
-    "example": "These skills will benefit future careers. (這些技能將有益於未來職業。)",
+    "example": "These apples are fresh. (這些蘋果很新鮮。)",
     "id": "L1-these-pron-adj"
   },
   {
@@ -6177,7 +6177,7 @@
     "level": "L1",
     "word": "till",
     "meaning": "prep./conj. 直到",
-    "example": "Study until you master the material. (學習直到你掌握材料。)",
+    "example": "Wait till I come back. (等我回來。)",
     "id": "L1-till-prep-conj"
   },
   {
@@ -6233,7 +6233,7 @@
     "level": "L1",
     "word": "too",
     "meaning": "adv. 也",
-    "example": "This box is too heavy for me.（這個箱子對我來說太重了。）",
+    "example": "I am happy, and he is, too. (我很開心，他也是。)",
     "id": "L1-too-adv"
   },
   {
@@ -6254,7 +6254,7 @@
     "level": "L1",
     "word": "total",
     "meaning": "adj./noun/verb 總數的；總數；合計",
-    "example": "The total cost is five hundred dollars.（總費用是五百元。）",
+    "example": "The total cost is five hundred dollars. (總費用是五百美元。)",
     "id": "L1-total-adj-noun-verb"
   },
   {
@@ -6317,7 +6317,7 @@
     "level": "L1",
     "word": "trousers",
     "meaning": "noun 褲子",
-    "example": "I bought a new pair of pants yesterday.（我昨天買了一條新褲子。）",
+    "example": "He wore black trousers to work. (他穿黑色長褲去上班。)",
     "id": "L1-trousers-noun"
   },
   {
@@ -6387,35 +6387,35 @@
     "level": "L1",
     "word": "under",
     "meaning": "prep./adv. 在…下、低於；在下面",
-    "example": "Students work under teacher supervision. (學生在老師監督下工作。)",
+    "example": "The cat is under the table. (貓在桌子底下。)",
     "id": "L1-under-prep-adv"
   },
   {
     "level": "L1",
     "word": "understand",
     "meaning": "verb 懂、 了解",
-    "example": "Students must understand concepts before applying them. (學生必須理解概念才能應用它們。)",
+    "example": "I don't understand this question. (我不懂這個問題。)",
     "id": "L1-understand-verb"
   },
   {
     "level": "L1",
     "word": "unit",
     "meaning": "noun 單位",
-    "example": "Each curriculum unit builds on previous knowledge. (每個課程單元都建立在先前知識之上。)",
+    "example": "This book has ten units. (這本書有十個單元。)",
     "id": "L1-unit-noun"
   },
   {
     "level": "L1",
     "word": "until",
     "meaning": "conj./prep. 直到",
-    "example": "Study until you master the material. (學習直到你掌握材料。)",
+    "example": "We played until it got dark. (我們玩到天黑。)",
     "id": "L1-until-conj-prep"
   },
   {
     "level": "L1",
     "word": "up",
     "meaning": "adv./prep./adj. 向上；在…上面；向上的",
-    "example": "Test scores went up after extra practice. (額外練習後考試成績上升。)",
+    "example": "Please stand up. (請站起來。)",
     "id": "L1-up-adv-prep-adj"
   },
   {
@@ -6436,14 +6436,14 @@
     "level": "L1",
     "word": "use",
     "meaning": "verb/noun 使用",
-    "example": "Effective teachers use diverse teaching methods. (有效的教師使用多樣化的教學方法。)",
+    "example": "May I use your pen? (我可以用你的筆嗎？)",
     "id": "L1-use-verb-noun"
   },
   {
     "level": "L1",
     "word": "useful",
     "meaning": "adj. 有用的",
-    "example": "Useful skills prepare students for future careers. (有用的技能為學生未來職業做準備。)",
+    "example": "This dictionary is very useful. (這本字典很有用。)",
     "id": "L1-useful-adj"
   },
   {
@@ -6457,35 +6457,35 @@
     "level": "L1",
     "word": "very",
     "meaning": "adv. 非常、很\nadj. (加強語氣)正是、完全的",
-    "example": "Very dedicated students achieve excellence. (非常專心的學生達到卓越。)",
+    "example": "She is very kind. (她非常親切。)",
     "id": "L1-very-adv-adj"
   },
   {
     "level": "L1",
     "word": "view",
     "meaning": "noun/verb 視野；觀看",
-    "example": "Students develop their own views through critical thinking. (學生通過批判性思考發展自己的觀點。)",
+    "example": "The view from the hill is beautiful. (從山上看到的景色很美。)",
     "id": "L1-view-noun-verb"
   },
   {
     "level": "L1",
     "word": "visit",
     "meaning": "verb/noun 拜訪",
-    "example": "Students visit museums for cultural education. (學生參觀博物館進行文化教育。)",
+    "example": "We will visit our grandparents this weekend. (我們這個週末會去看祖父母。)",
     "id": "L1-visit-verb-noun"
   },
   {
     "level": "L1",
     "word": "voice",
     "meaning": "noun 聲音",
-    "example": "Every student deserves a voice in their education. (每個學生都應在教育中有發言權。)",
+    "example": "She has a beautiful voice. (她的聲音很美。)",
     "id": "L1-voice-noun"
   },
   {
     "level": "L1",
     "word": "wait",
     "meaning": "verb 等待",
-    "example": "Patience means learning to wait for results. (耐心意味著學會等待結果。)",
+    "example": "Please wait for me here. (請在這裡等我。)",
     "id": "L1-wait-verb"
   },
   {
@@ -6506,21 +6506,21 @@
     "level": "L1",
     "word": "want",
     "meaning": "verb 想要",
-    "example": "Students want meaningful learning experiences. (學生想要有意義的學習經驗。)",
+    "example": "I want a glass of water. (我想要一杯水。)",
     "id": "L1-want-verb"
   },
   {
     "level": "L1",
     "word": "war",
     "meaning": "noun 戰爭",
-    "example": "History lessons examine causes of war. (歷史課檢查戰爭原因。)",
+    "example": "The war was long. (那場戰爭很漫長。)",
     "id": "L1-war-noun"
   },
   {
     "level": "L1",
     "word": "warm",
     "meaning": "adj./verb 溫暖的；加熱",
-    "example": "Warm classrooms create comfortable learning environments. (溫暖的教室創造舒適的學習環境。)",
+    "example": "The soup is still warm. (湯還是溫的。)",
     "id": "L1-warm-adj-verb"
   },
   {
@@ -6541,7 +6541,7 @@
     "level": "L1",
     "word": "watch",
     "meaning": "noun 錶\nverb 看、注意",
-    "example": "Students watch educational documentaries. (學生觀看教育紀錄片。)",
+    "example": "We watch TV after dinner. (我們晚餐後看電視。)",
     "id": "L1-watch-noun-verb"
   },
   {
@@ -6555,7 +6555,7 @@
     "level": "L1",
     "word": "way",
     "meaning": "noun 道路、路程；方法",
-    "example": "There are many ways to approach learning challenges. (有許多方法來應對學習挑戰。)",
+    "example": "This is the way home. (這是回家的路。)",
     "id": "L1-way-noun"
   },
   {
@@ -6569,7 +6569,7 @@
     "level": "L1",
     "word": "weak",
     "meaning": "adj. 虛弱的",
-    "example": "Weak foundations lead to learning difficulties. (薄弱的基礎導致學習困難。)",
+    "example": "He is weak today. (他今天身體很虛弱。)",
     "id": "L1-weak-adj"
   },
   {
@@ -6583,7 +6583,7 @@
     "level": "L1",
     "word": "weather",
     "meaning": "noun 天氣",
-    "example": "Good weather encourages outdoor classes. (好天氣鼓勵戶外課程。)",
+    "example": "The weather is nice today. (今天天氣很好。)",
     "id": "L1-weather-noun"
   },
   {
@@ -6618,63 +6618,63 @@
     "level": "L1",
     "word": "weight",
     "meaning": "noun 體重",
-    "example": "Teachers give equal weight to all assignments. (老師給所有作業同等重要性。)",
+    "example": "My weight is fifty kilograms. (我的體重是五十公斤。)",
     "id": "L1-weight-noun"
   },
   {
     "level": "L1",
     "word": "welcome",
     "meaning": "verb/noun 歡迎、迎接、接待\nadj. 受歡迎的",
-    "example": "Schools welcome students from all backgrounds. (學校歡迎來自各種背景的學生。)",
+    "example": "Welcome to our school. (歡迎來到我們的學校。)",
     "id": "L1-welcome-verb-noun-adj"
   },
   {
     "level": "L1",
     "word": "well",
     "meaning": "adv./adj. 很好地；健康的",
-    "example": "Students perform well with proper guidance. (學生在適當指導下表現良好。)",
+    "example": "She sings very well. (她唱得很好。)",
     "id": "L1-well-adv-adj"
   },
   {
     "level": "L1",
     "word": "west",
     "meaning": "noun/adv./adj. 西方；向西方；西方的、向西方的",
-    "example": "The west wing houses the library. (西翼設有圖書館。)",
+    "example": "The sun sets in the west. (太陽在西邊落下。)",
     "id": "L1-west-noun-adv-adj"
   },
   {
     "level": "L1",
     "word": "what",
     "meaning": "pron./adj. 什麼",
-    "example": "What students learn shapes their future. (學生學習的內容塑造他們的未來。)",
+    "example": "What is your name? (你叫什麼名字？)",
     "id": "L1-what-pron-adj"
   },
   {
     "level": "L1",
     "word": "when",
     "meaning": "conj./adv./pron. 當；何時；當時",
-    "example": "Learning happens when students engage actively. (學生積極參與時學習就會發生。)",
+    "example": "Call me when you get home. (你到家時打電話給我。)",
     "id": "L1-when-conj-adv-pron"
   },
   {
     "level": "L1",
     "word": "where",
     "meaning": "adv./conj. 在哪裡；在…的地方",
-    "example": "Classrooms are where knowledge transfers occur. (教室是知識轉移發生的地方。)",
+    "example": "Where is my bag? (我的包包在哪裡？)",
     "id": "L1-where-adv-conj"
   },
   {
     "level": "L1",
     "word": "whether",
     "meaning": "conj. 是否",
-    "example": "Success depends on whether students apply themselves. (成功取決於學生是否努力。)",
+    "example": "I don't know whether he will come. (我不知道他會不會來。)",
     "id": "L1-whether-conj"
   },
   {
     "level": "L1",
     "word": "which",
     "meaning": "pron./conj./adj. 哪一個",
-    "example": "Students choose which subjects interest them most. (學生選擇最感興趣的科目。)",
+    "example": "Which color do you like? (你喜歡哪個顏色？)",
     "id": "L1-which-pron-conj-adj"
   },
   {
@@ -6688,7 +6688,7 @@
     "level": "L1",
     "word": "white",
     "meaning": "adj./noun 白色的；白色",
-    "example": "White boards replaced traditional blackboards. (白板取代了傳統黑板。)",
+    "example": "She wore a white shirt. (她穿了一件白襯衫。)",
     "id": "L1-white-adj-noun"
   },
   {
@@ -6702,7 +6702,7 @@
     "level": "L1",
     "word": "whole",
     "meaning": "adj./noun 整體的；整體",
-    "example": "The whole class participated in the project. (整個班級都參與了項目。)",
+    "example": "The whole class went to the zoo. (全班都去了動物園。)",
     "id": "L1-whole-adj-noun"
   },
   {
@@ -6723,14 +6723,14 @@
     "level": "L1",
     "word": "why",
     "meaning": "adv./conj. 為什麼",
-    "example": "Teachers explain why concepts are important. (老師解釋概念為什麼重要。)",
+    "example": "Why are you late? (你為什麼遲到？)",
     "id": "L1-why-adv-conj"
   },
   {
     "level": "L1",
     "word": "wide",
     "meaning": "adj. 寬的",
-    "example": "Education opens wide career opportunities. (教育開啟廣泛的職業機會。)",
+    "example": "The river is very wide. (這條河很寬。)",
     "id": "L1-wide-adj"
   },
   {
@@ -6751,7 +6751,7 @@
     "level": "L1",
     "word": "win",
     "meaning": "verb/noun 贏；勝利",
-    "example": "Hard work helps students win academic awards. (努力工作幫助學生贏得學術獎項。)",
+    "example": "Our team will win the game. (我們隊會贏得比賽。)",
     "id": "L1-win-verb-noun"
   },
   {
@@ -6786,7 +6786,7 @@
     "level": "L1",
     "word": "wish",
     "meaning": "verb/noun 希望；希望、願望",
-    "example": "Students wish to succeed in their studies. (學生希望在學習中成功。)",
+    "example": "I wish you good luck. (祝你好運。)",
     "id": "L1-wish-verb-noun"
   },
   {
@@ -6800,42 +6800,42 @@
     "level": "L1",
     "word": "woman",
     "meaning": "noun 女人",
-    "example": "Every woman deserves equal educational opportunities. (每個女性都應得到平等的教育機會。)",
+    "example": "The woman is my mother. (這位女士是我媽媽。)",
     "id": "L1-woman-noun"
   },
   {
     "level": "L1",
     "word": "wood",
     "meaning": "noun 木頭",
-    "example": "Art students carve sculptures from wood. (藝術學生用木頭雕刻雕塑。)",
+    "example": "The table is made of wood. (這張桌子是木頭做的。)",
     "id": "L1-wood-noun"
   },
   {
     "level": "L1",
     "word": "word",
     "meaning": "noun 字彙",
-    "example": "Learning new words expands communication abilities. (學習新單字擴展溝通能力。)",
+    "example": "I learn ten new words every day. (我每天學十個新單字。)",
     "id": "L1-word-noun"
   },
   {
     "level": "L1",
     "word": "work",
     "meaning": "noun/verb 工作",
-    "example": "Hard work and persistence lead to mastery. (努力工作和堅持導致精通。)",
+    "example": "My father works in a bank. (我爸爸在銀行工作。)",
     "id": "L1-work-noun-verb"
   },
   {
     "level": "L1",
     "word": "worker",
     "meaning": "noun 工人",
-    "example": "Education workers dedicate themselves to learning. (教育工作者致力於學習。)",
+    "example": "The worker is building a house. (那名工人正在蓋房子。)",
     "id": "L1-worker-noun"
   },
   {
     "level": "L1",
     "word": "world",
     "meaning": "noun 世界",
-    "example": "Education opens doors to the world of opportunities. (教育為機會的世界打開大門。)",
+    "example": "The world is very big. (世界很大。)",
     "id": "L1-world-noun"
   },
   {
@@ -6863,7 +6863,7 @@
     "level": "L1",
     "word": "write",
     "meaning": "verb 寫",
-    "example": "Students learn to write clearly and persuasively. (學生學會清晰有說服力地寫作。)",
+    "example": "Please write your name here. (請在這裡寫下你的名字。)",
     "id": "L1-write-verb"
   },
   {
@@ -6877,21 +6877,21 @@
     "level": "L1",
     "word": "wrong",
     "meaning": "adj./adv./noun 錯誤的；錯誤地；錯誤",
-    "example": "Learning from wrong answers improves understanding. (從錯誤答案中學習提高理解。)",
+    "example": "This is the wrong answer. (這是錯誤的答案。)",
     "id": "L1-wrong-adj-adv-noun"
   },
   {
     "level": "L1",
     "word": "yeah",
     "meaning": "interj./adv. 是啊",
-    "example": "Yes, consistent effort produces remarkable results. (是的， 持續努力產生顯著結果。)",
+    "example": "Yeah, I like this song. (是啊，我喜歡這首歌。)",
     "id": "L1-yeah-interj-adv"
   },
   {
     "level": "L1",
     "word": "year",
     "meaning": "noun 年",
-    "example": "Each year brings new learning opportunities. (每年都帶來新的學習機會。)",
+    "example": "I am twelve years old. (我十二歲。)",
     "id": "L1-year-noun"
   },
   {
@@ -6905,14 +6905,14 @@
     "level": "L1",
     "word": "yes",
     "meaning": "interj./adv. 是的",
-    "example": "Yes, consistent effort produces remarkable results. (是的， 持續努力產生顯著結果。)",
+    "example": "Yes, I can help you. (是的，我可以幫你。)",
     "id": "L1-yes-interj-adv"
   },
   {
     "level": "L1",
     "word": "yesterday",
     "meaning": "adv./noun 昨天",
-    "example": "Yesterday's lesson prepared students for today's test. (昨天的課程為學生今天的測試做準備。)",
+    "example": "I saw him yesterday. (我昨天看到他。)",
     "id": "L1-yesterday-adv-noun"
   },
   {
@@ -6926,28 +6926,28 @@
     "level": "L1",
     "word": "you",
     "meaning": "pron. 你",
-    "example": "You can achieve anything with dedication. (你可以通過奉獻實現任何事情。)",
+    "example": "You are my best friend. (你是我最好的朋友。)",
     "id": "L1-you-pron"
   },
   {
     "level": "L1",
     "word": "young",
     "meaning": "adj./noun 年輕的；年輕人",
-    "example": "Young minds are particularly receptive to language learning. (年輕的頭腦特別容易接受語言學習。)",
+    "example": "My brother is young. (我弟弟還年輕。)",
     "id": "L1-young-adj-noun"
   },
   {
     "level": "L1",
     "word": "your",
     "meaning": "determiner 你的",
-    "example": "Your education is an investment in the future. (你的教育是對未來的投資。)",
+    "example": "Is this your bag? (這是你的包包嗎？)",
     "id": "L1-your-determiner"
   },
   {
     "level": "L1",
     "word": "yours",
     "meaning": "pron. 你的",
-    "example": "Your education is an investment in the future. (你的教育是對未來的投資。)",
+    "example": "This pen is yours. (這支筆是你的。)",
     "id": "L1-yours-pron"
   },
   {

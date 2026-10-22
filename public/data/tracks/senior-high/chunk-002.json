@@ -268,9 +268,9 @@
   {
     "level": "L3",
     "word": "violet",
-    "meaning": "紫蘿蘭",
+    "meaning": "紫羅蘭；紫羅蘭色、紫色",
     "example": "She painted the flower violet.（她把花塗成紫羅蘭色。）",
-    "id": "L3-violet-mizku1"
+    "id": "L3-violet-m1cy5fz5"
   },
   {
     "level": "L3",
@@ -535,7 +535,7 @@
     "level": "L4",
     "word": "artificial",
     "meaning": "人工的、人造的",
-    "example": "Artificial intelligence is changing many industries. (人工智能正在改變許多行業。)",
+    "example": "Artificial intelligence is changing many industries. (人工智慧正在改變許多產業。)",
     "id": "L4-artificial-mty81km"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L4",
     "word": "acquire",
     "meaning": "獲得、學會",
-    "example": "Children acquire language naturally through exposure. (兒童通過接觸自然地習得語言。)",
+    "example": "Children acquire language naturally through exposure. (兒童透過接觸自然地習得語言。)",
     "id": "L4-acquire-m11gttc7"
   },
   {
@@ -570,7 +570,7 @@
     "level": "L4",
     "word": "estimate",
     "meaning": "估計、估算",
-    "example": "Contractors estimate project costs carefully. (承包商仔細估算項目成本。)",
+    "example": "Contractors estimate project costs carefully. (承包商仔細估算專案成本。)",
     "id": "L4-estimate-m174370w"
   },
   {
@@ -591,7 +591,7 @@
     "level": "L4",
     "word": "economic",
     "meaning": "經濟的、經濟學的",
-    "example": "Economic growth benefits entire nations. (經濟增長造福整個國家。)",
+    "example": "Economic growth benefits entire nations. (經濟成長造福整個國家。)",
     "id": "L4-economic-m17s1rs1"
   },
   {
@@ -668,7 +668,7 @@
     "level": "L4",
     "word": "article",
     "meaning": "文章、論文、冠詞（文法）、條款",
-    "example": "I read an interesting article about climate change. (我讀了一篇關於氣候變化的有趣文章。)",
+    "example": "I read an interesting article about climate change. (我讀了一篇關於氣候變遷的有趣文章。)",
     "id": "L4-article-m1x2dkqx"
   },
   {
@@ -738,7 +738,7 @@
     "level": "L4",
     "word": "physical",
     "meaning": "身體的、物理的",
-    "example": "Physical exercise enhances cognitive function. (體育鍛煉增強認知功能。)",
+    "example": "Physical exercise enhances cognitive function. (體能運動能增強認知功能。)",
     "id": "L4-physical-m1p5d201"
   },
   {
@@ -766,7 +766,7 @@
     "level": "L4",
     "word": "professional",
     "meaning": "專業的、專業人士",
-    "example": "Professional development improves teaching quality. (專業發展提高教學質量。)",
+    "example": "Professional development improves teaching quality. (專業發展能提升教學品質。)",
     "id": "L4-professional-mcc8988"
   },
   {
@@ -850,7 +850,7 @@
     "level": "L4",
     "word": "obtain",
     "meaning": "獲得、取得",
-    "example": "Students obtain knowledge through various methods. (學生通過各種方法獲得知識。)",
+    "example": "Students obtain knowledge through various methods. (學生透過各種方法獲得知識。)",
     "id": "L4-obtain-m11gsh4t"
   },
   {
@@ -899,14 +899,14 @@
     "level": "L4",
     "word": "appoint(ment)",
     "meaning": "任命、約定",
-    "example": "The board will appoint a new CEO next month. (董事會將在下個月任命新的首席執行官。)",
+    "example": "The board will appoint a new CEO next month. (董事會將在下個月任命新的執行長。)",
     "id": "L4-appoint-ment-mzk1gol"
   },
   {
     "level": "L4",
     "word": "candidate",
     "meaning": "候選人、應徵者",
-    "example": "The candidate impressed everyone during the interview. (候選人在面試中給每個人留下了深刻印象。)",
+    "example": "The candidate impressed everyone during the interview. (那位應徵者在面試時讓大家印象深刻。)",
     "id": "L4-candidate-m4j1xtf"
   },
   {
@@ -941,7 +941,7 @@
     "level": "L4",
     "word": "campaign",
     "meaning": "活動、競選",
-    "example": "The environmental campaign raised awareness about pollution. (環保活動提高了對污染的認識。)",
+    "example": "The environmental campaign raised awareness about pollution. (環保活動提升了民眾對污染的意識。)",
     "id": "L4-campaign-mbk9b61"
   },
   {
@@ -1074,7 +1074,7 @@
     "level": "L4",
     "word": "establish(ment)",
     "meaning": "建立、確立",
-    "example": "Universities establish research programs. (大學建立研究項目。)",
+    "example": "Universities establish research programs. (大學建立研究專案。)",
     "id": "L4-establish-ment-mvwfpsx"
   },
   {
@@ -1276,9 +1276,9 @@
   {
     "level": "L4",
     "word": "allowance/pocket money",
-    "meaning": "零用錢；津貼，補貼同：pocket",
+    "meaning": "零用錢；津貼、補助",
     "example": "My parents give me a small allowance every week.（我父母每週給我一點零用錢。）",
-    "id": "L4-allowance-pocket-money-pocket"
+    "id": "L4-allowance-pocket-money-m11dsvjg"
   },
   {
     "level": "L4",
@@ -1332,7 +1332,7 @@
   {
     "level": "L4",
     "word": "apology",
-    "meaning": "道歉；陪罪[(+to/for)]",
+    "meaning": "道歉；賠罪[(+to/for)]",
     "example": "He apologized for arriving late.（他為遲到道歉。）",
     "id": "L4-apology-to-for"
   },
@@ -1521,9 +1521,9 @@
   {
     "level": "L4",
     "word": "beam",
-    "meaning": "笑容，喜色 vt.流露；發出 vi.眉開眼笑",
+    "meaning": "n. 光束、光線；笑容、喜色；v. 發出（光）；眉開眼笑",
     "example": "A beam of light shone through the window.（一道光從窗戶照進來。）",
-    "id": "L4-beam-vt-vi"
+    "id": "L4-beam-n-v"
   },
   {
     "level": "L4",
@@ -1598,9 +1598,9 @@
   {
     "level": "L4",
     "word": "brassiere/bra",
-    "meaning": "胸罩 =",
+    "meaning": "胸罩",
     "example": "She bought a new bra at the department store.（她在百貨公司買了一件新胸罩。）",
-    "id": "L4-brassiere-bra-mgs9dn2"
+    "id": "L4-brassiere-bra-mmmwh"
   },
   {
     "level": "L4",
@@ -1626,9 +1626,9 @@
   {
     "level": "L4",
     "word": "broke",
-    "meaning": "破產的 vt.使破產 n. 破產者",
+    "meaning": "adj. 沒錢的、身無分文的、破產的；break 的過去式",
     "example": "I am broke, so I cannot buy a new phone.（我沒錢了，所以不能買新手機。）",
-    "id": "L4-broke-vt-n"
+    "id": "L4-broke-adj-break"
   },
   {
     "level": "L4",
@@ -2025,9 +2025,9 @@
   {
     "level": "L4",
     "word": "composition",
-    "meaning": "寫作；作曲 [U]；作品；作文；(大型)樂曲 [C]",
+    "meaning": "成分、組成；寫作、作曲；作品、作文、樂曲",
     "example": "Please check the composition of this medicine.（請檢查這種藥的成分。）",
-    "id": "L4-composition-u-c"
+    "id": "L4-composition-m1gq6lab"
   },
   {
     "level": "L4",
@@ -2067,9 +2067,9 @@
   {
     "level": "L4",
     "word": "conductor",
-    "meaning": "管理人；指揮；車掌；避雷針",
+    "meaning": "指揮；車掌；導體；管理人；避雷針",
     "example": "The conductor led the orchestra.（指揮帶領管弦樂團。）",
-    "id": "L4-conductor-m70k8t6"
+    "id": "L4-conductor-m18pm7nz"
   },
   {
     "level": "L4",
@@ -2109,9 +2109,9 @@
   {
     "level": "L4",
     "word": "congratulate",
-    "meaning": "祝賀；恭禧",
+    "meaning": "祝賀；恭喜",
     "example": "I want to congratulate you on your success.（我想祝賀你的成功。）",
-    "id": "L4-congratulate-m1v5936a"
+    "id": "L4-congratulate-m1v58w1z"
   },
   {
     "level": "L4",
@@ -2123,9 +2123,9 @@
   {
     "level": "L4",
     "word": "conjunction",
-    "meaning": "連接",
+    "meaning": "連接詞；連接；同時發生",
     "example": "“And” is a conjunction.（“And” 是一個連接詞。）",
-    "id": "L4-conjunction-mp2aq"
+    "id": "L4-conjunction-msvx8yb"
   },
   {
     "level": "L4",
@@ -2262,10 +2262,10 @@
   },
   {
     "level": "L4",
-    "word": "contentment)",
-    "meaning": "名詞「滿足、滿意」",
+    "word": "contentment",
+    "meaning": "滿足、滿意",
     "example": "She smiled with contentment.（她滿足地微笑。）",
-    "id": "L4-contentment-mwiim8b"
+    "id": "L4-contentment-mpw0l25"
   },
   {
     "level": "L4",
@@ -2347,9 +2347,9 @@
   {
     "level": "L4",
     "word": "conventional",
-    "meaning": "會議的；慣例的",
+    "meaning": "傳統的、慣例的、常規的",
     "example": "This is a conventional way to solve the problem.（這是解決問題的傳統方法。）",
-    "id": "L4-conventional-mcfl1w8"
+    "id": "L4-conventional-m1u1z5nx"
   },
   {
     "level": "L4",
@@ -2382,9 +2382,9 @@
   {
     "level": "L4",
     "word": "cooperation",
-    "meaning": "合作，協力 [U]；合作社[C]",
+    "meaning": "合作、協力[U]",
     "example": "Good cooperation makes the team stronger.（良好的合作讓團隊更強。）",
-    "id": "L4-cooperation-u-c"
+    "id": "L4-cooperation-u"
   },
   {
     "level": "L4",
@@ -2816,9 +2816,9 @@
   {
     "level": "L4",
     "word": "despite",
-    "meaning": "惡意；怨恨 prep.不管，儘管",
+    "meaning": "n. 惡意、怨恨；prep. 儘管、不管",
     "example": "Despite the rain, we went hiking.（儘管下雨，我們還是去健行。）",
-    "id": "L4-despite-prep"
+    "id": "L4-despite-n-prep"
   },
   {
     "level": "L4",
@@ -3194,9 +3194,9 @@
   {
     "level": "L4",
     "word": "economist",
-    "meaning": "經濟學者；節儉的人",
+    "meaning": "經濟學家、經濟學者；節儉的人",
     "example": "The economist explained the rise in prices.（經濟學家解釋了物價上漲。）",
-    "id": "L4-economist-m2l5ght"
+    "id": "L4-economist-mgl07yi"
   },
   {
     "level": "L4",
@@ -3243,9 +3243,9 @@
   {
     "level": "L4",
     "word": "eliminate",
-    "meaning": "排除]；(比賽中)淘汰",
+    "meaning": "消除、排除、刪除；（比賽中）淘汰",
     "example": "We need to eliminate unnecessary steps.（我們需要刪除不必要的步驟。）",
-    "id": "L4-eliminate-m6sk1w5"
+    "id": "L4-eliminate-m6ufjfy"
   },
   {
     "level": "L4",
@@ -3348,9 +3348,9 @@
   {
     "level": "L4",
     "word": "enthusiasm",
-    "meaning": "熱情，熱忱 envious[ˋɛnvɪəs] a.嫉妒的；羨慕的[(+of)]",
+    "meaning": "熱情、熱忱",
     "example": "He spoke with great enthusiasm.（他說話時充滿熱情。）",
-    "id": "L4-enthusiasm-envious-nv-s-a-of"
+    "id": "L4-enthusiasm-murern1"
   },
   {
     "level": "L4",
@@ -3817,9 +3817,9 @@
   {
     "level": "L4",
     "word": "fulfill(ment)",
-    "meaning": "執行(命令等)；履行(諾言等)；完成(任務等)；實現；完成，履行；實現",
+    "meaning": "履行；完成；實現；成就感",
     "example": "Helping others gives her a sense of fulfillment.（幫助別人給她成就感。）",
-    "id": "L4-fulfill-ment-m1xjt1ud"
+    "id": "L4-fulfill-ment-mc4krxa"
   },
   {
     "level": "L4",
@@ -4202,9 +4202,9 @@
   {
     "level": "L4",
     "word": "hatred",
-    "meaning": "憎恨，增惡；敵意",
+    "meaning": "憎恨、憎惡；敵意",
     "example": "Hatred only creates more problems.（仇恨只會製造更多問題。）",
-    "id": "L4-hatred-m3qzby8"
+    "id": "L4-hatred-mh2lqaj"
   },
   {
     "level": "L4",
@@ -4496,9 +4496,9 @@
   {
     "level": "L4",
     "word": "impact",
-    "meaning": "衝擊，撞擊 [ˋɪmpæ kt] n.衝擊，撞擊，碰撞[U]",
+    "meaning": "n. 影響；衝擊、撞擊、碰撞",
     "example": "The speech had a strong impact on the students.（這場演講對學生有很大影響。）",
-    "id": "L4-impact-mp-kt-n-u"
+    "id": "L4-impact-n"
   },
   {
     "level": "L4",
@@ -5462,9 +5462,9 @@
   {
     "level": "L4",
     "word": "mow",
-    "meaning": "刈(草等) MTV n. 音樂電視 (=",
+    "meaning": "割（草）；修剪（草坪）",
     "example": "Dad will mow the lawn this afternoon.（爸爸今天下午會割草坪。）",
-    "id": "L4-mow-mtv-n"
+    "id": "L4-mow-m1rowx6p"
   },
   {
     "level": "L4",
@@ -6267,9 +6267,9 @@
   {
     "level": "L4",
     "word": "privilege",
-    "meaning": "特權；優特",
+    "meaning": "特權；殊榮、優待",
     "example": "Education is a privilege in some places.（在某些地方，教育是一種特權。）",
-    "id": "L4-privilege-mzy6wt5"
+    "id": "L4-privilege-m6zyasu"
   },
   {
     "level": "L4",

@@ -492,9 +492,9 @@
   {
     "level": "L4",
     "word": "telegraph",
-    "meaning": "電報",
+    "meaning": "電報機；電報（通訊方式）",
     "example": "People used the telegraph before telephones became common.（電話普及前，人們使用電報機。）",
-    "id": "L4-telegraph-mq5xy"
+    "id": "L4-telegraph-m3cclwj"
   },
   {
     "level": "L4",
@@ -681,9 +681,9 @@
   {
     "level": "L4",
     "word": "tribal",
-    "meaning": "部落的，種族的[C]",
+    "meaning": "部落的、部族的",
     "example": "The museum displayed tribal art.（博物館展示了部落藝術。）",
-    "id": "L4-tribal-c"
+    "id": "L4-tribal-m1f0jdij"
   },
   {
     "level": "L4",
@@ -828,9 +828,9 @@
   {
     "level": "L4",
     "word": "virgin",
-    "meaning": "處女,未婚女子 a.處女的，貞潔的",
+    "meaning": "n. 處女、未婚女子；adj. 處女的、貞潔的、未開發的、原始的",
     "example": "The story describes a virgin forest untouched by people.（這個故事描述了一片未被人類破壞的原始森林。）",
-    "id": "L4-virgin-a"
+    "id": "L4-virgin-n-adj"
   },
   {
     "level": "L4",
@@ -954,9 +954,9 @@
   {
     "level": "L4",
     "word": "wreck",
-    "meaning": "失事，遇難[U]；船難事故[C] vt.vi.(使)失事，(使)遇難",
-    "example": "The storm left a shipwreck on the shore.（暴風雨在岸邊留下了一艘船難殘骸。）",
-    "id": "L4-wreck-u-c-vt-vi"
+    "meaning": "n. 失事、遇難；船難事故、殘骸；v.（使）失事、遇難",
+    "example": "The divers explored the wreck near the island. (潛水員探索島嶼附近的沉船殘骸。)",
+    "id": "L4-wreck-n-v"
   },
   {
     "level": "L4",
@@ -975,9 +975,9 @@
   {
     "level": "L4",
     "word": "yogurt",
-    "meaning": "酸奶酪；酵母乳",
+    "meaning": "優格、優酪乳",
     "example": "I ate yogurt with fruit for breakfast.（我早餐吃了水果優格。）",
-    "id": "L4-yogurt-mn5jkj0"
+    "id": "L4-yogurt-mnchcbo"
   },
   {
     "level": "L4",

@@ -100,9 +100,9 @@
   {
     "level": "L6",
     "word": "supersonic",
-    "meaning": "超音波(的)",
+    "meaning": "超音速的",
     "example": "A supersonic plane flies faster than sound.（超音速飛機飛得比聲音快。）",
-    "id": "L6-supersonic-m3mg5yx"
+    "id": "L6-supersonic-mihjhsj"
   },
   {
     "level": "L6",
@@ -142,9 +142,9 @@
   {
     "level": "L6",
     "word": "suspense",
-    "meaning": "懸而不決；暫停",
+    "meaning": "懸疑、焦慮；懸而未決",
     "example": "The movie was full of suspense.（這部電影充滿懸疑。）",
-    "id": "L6-suspense-myr4p7v"
+    "id": "L6-suspense-mmtsp0v"
   },
   {
     "level": "L6",
@@ -338,9 +338,9 @@
   {
     "level": "L6",
     "word": "thrifty",
-    "meaning": "節儉的；茂盛的",
+    "meaning": "節儉的、節約的；茂盛的",
     "example": "My grandmother is very thrifty.（我奶奶很節儉。）",
-    "id": "L6-thrifty-m13p8ga3"
+    "id": "L6-thrifty-m173dk7e"
   },
   {
     "level": "L6",
@@ -380,9 +380,9 @@
   {
     "level": "L6",
     "word": "trait",
-    "meaning": "特徵；少許",
+    "meaning": "特徵、特質",
     "example": "Kindness is an important trait.（善良是一項重要特質。）",
-    "id": "L6-trait-myisjb3"
+    "id": "L6-trait-mxokbjq"
   },
   {
     "level": "L6",
@@ -695,9 +695,9 @@
   {
     "level": "L6",
     "word": "upgrade",
-    "meaning": "升級 adv.上坡",
+    "meaning": "v. 升級、提升、改良",
     "example": "I want to upgrade my computer.（我想升級我的電腦。）",
-    "id": "L6-upgrade-adv"
+    "id": "L6-upgrade-v"
   },
   {
     "level": "L6",
@@ -745,7 +745,7 @@
     "level": "L6",
     "word": "utility",
     "meaning": "效用；公用事業；(水、電、瓦斯類等的)公共設施 adj.實用的",
-    "example": "Monthly utility bills like water and electricity are skyrocketing.（每月的水電等公用事業帳單正在飛漲。",
+    "example": "Monthly utility bills for water and electricity are skyrocketing. (每月的水電帳單都在飛漲。)",
     "id": "L6-utility-adj"
   },
   {
@@ -772,9 +772,9 @@
   {
     "level": "L6",
     "word": "valiant",
-    "meaning": "英勇的 n.勇士",
+    "meaning": "英勇的、勇敢的；勇士",
     "example": "The valiant soldier saved his friend.（勇敢的士兵救了朋友。）",
-    "id": "L6-valiant-n"
+    "id": "L6-valiant-mghk1ah"
   },
   {
     "level": "L6",
@@ -821,9 +821,9 @@
   {
     "level": "L6",
     "word": "vendor",
-    "meaning": "小販；自動販賣機",
+    "meaning": "攤販；賣方、供應商",
     "example": "The street vendor sold noodles.（街頭攤販賣麵。）",
-    "id": "L6-vendor-mx1cttl"
+    "id": "L6-vendor-m15em1j7"
   },
   {
     "level": "L6",
@@ -912,9 +912,9 @@
   {
     "level": "L6",
     "word": "virtual",
-    "meaning": "實際上的；虛擬的 visualize[`vɪʒʊə͵laɪz] vt.vi. 使視覺化；想像",
+    "meaning": "實際上的；虛擬的",
     "example": "We had a virtual meeting.（我們開了一場線上會議。）",
-    "id": "L6-virtual-visualize-v-la-z-vt-vi"
+    "id": "L6-virtual-mwbx3c7"
   },
   {
     "level": "L6",
@@ -1045,9 +1045,9 @@
   {
     "level": "L6",
     "word": "wrench",
-    "meaning": "猛扭；扭傷",
+    "meaning": "n. 扳手；v. 猛扭、扭傷",
     "example": "Use a wrench to tighten the bolt.（用扳手鎖緊螺栓。）",
-    "id": "L6-wrench-m11c8dw3"
+    "id": "L6-wrench-n-v"
   },
   {
     "level": "L6",

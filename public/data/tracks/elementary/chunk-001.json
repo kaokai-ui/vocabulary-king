@@ -143,7 +143,7 @@
     "level": "Elementary",
     "word": "airport",
     "meaning": "機場",
-    "example": "We went to the airport to welcome my uncle. (我們去機場接我叔叔。)",
+    "example": "We met my uncle at the airport. (我們在機場接到叔叔。)",
     "id": "Elementary-airport-miks5"
   },
   {
@@ -1577,9 +1577,9 @@
   {
     "level": "Elementary",
     "word": "country",
-    "meaning": "鄉村",
+    "meaning": "國家；鄉村",
     "example": "Taiwan is a beautiful country. (台灣是一個美麗的國家。)",
-    "id": "Elementary-country-mp8iw"
+    "id": "Elementary-country-m1wu4yjc"
   },
   {
     "level": "Elementary",
@@ -2081,9 +2081,9 @@
   {
     "level": "Elementary",
     "word": "either",
-    "meaning": "也不",
+    "meaning": "（兩者中）任一的；也不；either...or 或者",
     "example": "You can choose either apple juice or milk. (你可以選擇蘋果汁或牛奶。)",
-    "id": "Elementary-either-mdrbi"
+    "id": "Elementary-either-either-or"
   },
   {
     "level": "Elementary",
@@ -2774,9 +2774,9 @@
   {
     "level": "Elementary",
     "word": "fry",
-    "meaning": "油炸",
-    "example": "My dad can fry an egg. (我爸爸會油炸一顆蛋。)",
-    "id": "Elementary-fry-mj40v"
+    "meaning": "煎、炒、油炸",
+    "example": "My dad can fry an egg. (我爸爸會煎蛋。)",
+    "id": "Elementary-fry-mdmjpxd"
   },
   {
     "level": "Elementary",
@@ -3160,7 +3160,7 @@
     "level": "Elementary",
     "word": "hard-working",
     "meaning": "努力工作的",
-    "example": "My sister is a hard-working student. (我姐姐是一個努力工作的學生。)",
+    "example": "My sister is a hard-working student. (我姐姐是一個用功的學生。)",
     "id": "Elementary-hard-working-m1dwi1ks"
   },
   {
@@ -3391,7 +3391,7 @@
     "level": "Elementary",
     "word": "honey",
     "meaning": "蜂蜜",
-    "example": "Bees make sweet honey from flowers. (蜜蜂採花粉做成甜甜的蜂蜜。)",
+    "example": "Bees make honey. (蜜蜂會製造蜂蜜。)",
     "id": "Elementary-honey-mnpei"
   },
   {
@@ -3439,9 +3439,9 @@
   {
     "level": "Elementary",
     "word": "hotel",
-    "meaning": "旅社",
-    "example": "We stayed in a nice hotel near the beach. (我們住在海灘附近的一家棒旅店。)",
-    "id": "Elementary-hotel-mhz4p"
+    "meaning": "旅館、飯店",
+    "example": "We stayed in a nice hotel near the beach. (我們住在海灘附近的一家很棒的旅館。)",
+    "id": "Elementary-hotel-m1qamicm"
   },
   {
     "level": "Elementary",
@@ -3671,7 +3671,7 @@
     "level": "Elementary",
     "word": "job",
     "meaning": "工作",
-    "example": "My father's job is an English teacher. (我父親的工作是英文老師。)",
+    "example": "My father has a job. (我爸爸有一份工作。)",
     "id": "Elementary-job-mgemv"
   },
   {
@@ -5897,7 +5897,7 @@
     "level": "Elementary",
     "word": "ROC",
     "meaning": "中華民國",
-    "example": "ROC is our country's name. (中華民國是我們國家的名稱。)",
+    "example": "ROC stands for the Republic of China. (ROC 是中華民國的英文縮寫。)",
     "id": "Elementary-roc-maetbzw"
   },
   {

@@ -254,9 +254,9 @@
   {
     "level": "L5",
     "word": "ward",
-    "meaning": "病房  vt.躲開 ward off 避開、防禦」",
+    "meaning": "n. 病房；ward off 避開、防禦",
     "example": "The nurse works in the children’s ward.（護士在兒童病房工作。）",
-    "id": "L5-ward-vt-ward-off"
+    "id": "L5-ward-n-ward-off"
   },
   {
     "level": "L5",
@@ -345,9 +345,9 @@
   {
     "level": "L5",
     "word": "whisk",
-    "meaning": "拂去；飛奔",
+    "meaning": "攪打；拂去；飛奔",
     "example": "Whisk the eggs before cooking.（烹煮前先攪打雞蛋。）",
-    "id": "L5-whisk-m16lsmzf"
+    "id": "L5-whisk-m67i56x"
   },
   {
     "level": "L5",
@@ -373,16 +373,16 @@
   {
     "level": "L5",
     "word": "widespread",
-    "meaning": "廣布的 widow[`wɪdo] n. 寡婦 widower[`wɪdoɚ] n. 鰥夫",
+    "meaning": "廣泛的、普遍的",
     "example": "The news received widespread attention.（這則新聞受到廣泛關注。）",
-    "id": "L5-widespread-widow-w-do-n-widower-w-d"
+    "id": "L5-widespread-m1lum2j4"
   },
   {
     "level": "L5",
     "word": "widow/widower",
-    "meaning": "widow：寡婦（喪偶的女性）\r\n\r\nwidower：鰥夫（喪偶的男性",
+    "meaning": "寡婦；鰥夫（喪偶的女性；喪偶的男性）",
     "example": "The widow lived alone after her husband died.（丈夫去世後，那位寡婦獨自生活。）",
-    "id": "L5-widow-widower-widow-widower"
+    "id": "L5-widow-widower-m1c5c2qk"
   },
   {
     "level": "L5",
@@ -464,9 +464,9 @@
   {
     "level": "L5",
     "word": "wring",
-    "meaning": "擰 vi.蠕動",
+    "meaning": "v. 擰、絞；蠕動",
     "example": "Wring the water out of the towel.（把毛巾裡的水擰乾。）",
-    "id": "L5-wring-vi"
+    "id": "L5-wring-v"
   },
   {
     "level": "L5",
@@ -625,9 +625,9 @@
   {
     "level": "L6",
     "word": "aboriginal",
-    "meaning": "原生的",
+    "meaning": "原住民的；原生的",
     "example": "We learned about aboriginal culture in class.（我們在課堂上學習原住民文化。）",
-    "id": "L6-aboriginal-mcti5g"
+    "id": "L6-aboriginal-mkdz5cc"
   },
   {
     "level": "L6",
@@ -716,9 +716,9 @@
   {
     "level": "L6",
     "word": "accord",
-    "meaning": "一致",
+    "meaning": "協議；一致",
     "example": "The two countries signed a peace accord.（兩國簽署了和平協議。）",
-    "id": "L6-accord-mdzas"
+    "id": "L6-accord-m1obmur7"
   },
   {
     "level": "L6",
@@ -779,9 +779,9 @@
   {
     "level": "L6",
     "word": "activist",
-    "meaning": "激進份子；活動家",
+    "meaning": "社會運動者、行動者；活動家",
     "example": "The activist spoke about environmental protection.（那位行動者談論環境保護。）",
-    "id": "L6-activist-m1aje7vq"
+    "id": "L6-activist-m1sl10aa"
   },
   {
     "level": "L6",
@@ -793,9 +793,9 @@
   {
     "level": "L6",
     "word": "adaptation",
-    "meaning": "適應",
+    "meaning": "改編；適應",
     "example": "The movie is an adaptation of a famous novel.（這部電影改編自一本著名小說。）",
-    "id": "L6-adaptation-mp3ls"
+    "id": "L6-adaptation-m1lk7kq4"
   },
   {
     "level": "L6",
@@ -884,9 +884,9 @@
   {
     "level": "L6",
     "word": "allocate",
-    "meaning": "分配 alongside[ə`lɔŋ`saɪd] adv.prep. 並排(地)",
+    "meaning": "分配；撥出",
     "example": "The teacher will allocate ten minutes for discussion.（老師會分配十分鐘討論。）",
-    "id": "L6-allocate-alongside-l-sa-d-adv-pre"
+    "id": "L6-allocate-m1jypl2h"
   },
   {
     "level": "L6",
@@ -898,9 +898,9 @@
   {
     "level": "L6",
     "word": "ambiguity",
-    "meaning": "模稜兩可 ambiguous[æ m`bɪgjʊəs] adj. 模稜兩可的",
+    "meaning": "模稜兩可；歧義",
     "example": "The sentence has some ambiguity.（這個句子有些歧義。）",
-    "id": "L6-ambiguity-ambiguous-m-b-gj-s-adj"
+    "id": "L6-ambiguity-mbrfi70"
   },
   {
     "level": "L6",
@@ -940,9 +940,9 @@
   {
     "level": "L6",
     "word": "analogy",
-    "meaning": "相似之處",
+    "meaning": "類比、比喻；相似之處",
     "example": "The teacher used an analogy to explain the idea.（老師用類比來解釋這個概念。）",
-    "id": "L6-analogy-mfc6ram"
+    "id": "L6-analogy-m1senfbr"
   },
   {
     "level": "L6",
@@ -1046,7 +1046,7 @@
     "level": "L6",
     "word": "approximate",
     "meaning": "大約的",
-    "example": "The approximate cost is one thousand dollars.（大約費用是一千元。）",
+    "example": "The approximate cost is one thousand dollars. (大約費用是一千美元。)",
     "id": "L6-approximate-mdo0h3"
   },
   {
@@ -1073,9 +1073,9 @@
   {
     "level": "L6",
     "word": "artery",
-    "meaning": "動脈；幹線 articulate[ɑr`tɪkjə͵let] adj. 口齒清晰的 vt.vi.發音清晰",
+    "meaning": "動脈；幹線",
     "example": "An artery carries blood away from the heart.（動脈把血液從心臟送出去。）",
-    "id": "L6-artery-articulate-r-t-kj-let-ad"
+    "id": "L6-artery-m1l2mqeh"
   },
   {
     "level": "L6",
@@ -1458,9 +1458,9 @@
   {
     "level": "L6",
     "word": "captivity",
-    "meaning": "囚禁 carbohydrate[͵kɑrbə`haɪdret] n. 碳水化合物",
+    "meaning": "囚禁；圈養",
     "example": "The animal lived in captivity for years.（那隻動物被圈養多年。）",
-    "id": "L6-captivity-carbohydrate-k-rb-ha-dre"
+    "id": "L6-captivity-mt3f2u"
   },
   {
     "level": "L6",
@@ -1668,9 +1668,9 @@
   {
     "level": "L6",
     "word": "clone",
-    "meaning": "複製品/人",
+    "meaning": "v. 複製；n. 複製品",
     "example": "Scientists cloned the plant in the lab.（科學家在實驗室複製了這種植物。）",
-    "id": "L6-clone-m1k6i91y"
+    "id": "L6-clone-v-n"
   },
   {
     "level": "L6",
@@ -1780,9 +1780,9 @@
   {
     "level": "L6",
     "word": "communicative",
-    "meaning": "暢談的",
+    "meaning": "善於溝通的；樂於表達的",
     "example": "She is very communicative and friendly.（她很善於溝通且友善。）",
-    "id": "L6-communicative-mfpfpb"
+    "id": "L6-communicative-mq9e2eq"
   },
   {
     "level": "L6",
@@ -1850,9 +1850,9 @@
   {
     "level": "L6",
     "word": "complement",
-    "meaning": "補充物",
+    "meaning": "v. 襯托、搭配；n. 補充物",
     "example": "The sauce complements the fish well.（這個醬很適合搭配魚。）",
-    "id": "L6-complement-mkg3vk"
+    "id": "L6-complement-v-n"
   },
   {
     "level": "L6",
@@ -1885,9 +1885,9 @@
   {
     "level": "L6",
     "word": "comprehensive",
-    "meaning": "無所不包的；有理解力的",
+    "meaning": "全面的、綜合的",
     "example": "The report gives a comprehensive explanation.（這份報告提供全面的解釋。）",
-    "id": "L6-comprehensive-moo7ipt"
+    "id": "L6-comprehensive-mjq2kw1"
   },
   {
     "level": "L6",
@@ -1941,9 +1941,9 @@
   {
     "level": "L6",
     "word": "confer",
-    "meaning": "授予(學位等)",
+    "meaning": "商議；授予（學位等）",
     "example": "The teacher will confer with the parents.（老師會和家長商量。）",
-    "id": "L6-confer-mmu3wzh"
+    "id": "L6-confer-m1li7y7g"
   },
   {
     "level": "L6",
@@ -2074,9 +2074,9 @@
   {
     "level": "L6",
     "word": "controversial",
-    "meaning": "可疑的",
+    "meaning": "有爭議的",
     "example": "This is a controversial topic.（這是一個有爭議的話題。）",
-    "id": "L6-controversial-mcv876"
+    "id": "L6-controversial-mdh8rx4"
   },
   {
     "level": "L6",
@@ -2137,9 +2137,9 @@
   {
     "level": "L6",
     "word": "correspondent",
-    "meaning": "通信者 adj.一致的；符合的",
+    "meaning": "n. 通訊記者、通信者；adj. 相應的、一致的",
     "example": "The correspondent reported from London.（通訊記者從倫敦報導。）",
-    "id": "L6-correspondent-adj"
+    "id": "L6-correspondent-n-adj"
   },
   {
     "level": "L6",
@@ -2221,9 +2221,9 @@
   {
     "level": "L6",
     "word": "crook",
-    "meaning": "彎曲；成鉤形",
+    "meaning": "n. 騙子、罪犯；彎曲部分、鉤形物",
     "example": "The crook was caught by police.（騙子被警方抓住了。）",
-    "id": "L6-crook-m1hqag3b"
+    "id": "L6-crook-n"
   },
   {
     "level": "L6",
@@ -2389,9 +2389,9 @@
   {
     "level": "L6",
     "word": "degrade",
-    "meaning": "使降級",
+    "meaning": "貶低；使降級",
     "example": "Do not degrade others with cruel words.（不要用殘酷的話貶低別人。）",
-    "id": "L6-degrade-mcdfl8"
+    "id": "L6-degrade-m1uj57k9"
   },
   {
     "level": "L6",
@@ -2607,7 +2607,7 @@
     "level": "L6",
     "word": "dimension",
     "meaning": "尺寸；面積；面向",
-    "example": "The room has a strange dimensions.（這個房間有奇怪的尺寸。）",
+    "example": "The room has strange dimensions. (這個房間的尺寸很奇怪。)",
     "id": "L6-dimension-mugbtz6"
   },
   {
@@ -2711,9 +2711,9 @@
   {
     "level": "L6",
     "word": "discrimination",
-    "meaning": "辨別",
+    "meaning": "歧視；辨別",
     "example": "Discrimination is unfair and harmful.（歧視是不公平且有害的。）",
-    "id": "L6-discrimination-movwd"
+    "id": "L6-discrimination-mc5z0ix"
   },
   {
     "level": "L6",
@@ -2767,9 +2767,9 @@
   {
     "level": "L6",
     "word": "displace",
-    "meaning": "移開",
+    "meaning": "使流離失所；取代、移開",
     "example": "The flood displaced many families.（洪水使許多家庭流離失所。）",
-    "id": "L6-displace-mlkhc"
+    "id": "L6-displace-mni18u0"
   },
   {
     "level": "L6",
@@ -3061,9 +3061,9 @@
   {
     "level": "L6",
     "word": "elite",
-    "meaning": "精英",
+    "meaning": "菁英、精英（少數優秀分子）",
     "example": "The elite team trained every day.（菁英隊伍每天訓練。）",
-    "id": "L6-elite-mlxpv"
+    "id": "L6-elite-m18berj2"
   },
   {
     "level": "L6",
@@ -3089,9 +3089,9 @@
   {
     "level": "L6",
     "word": "emigrant",
-    "meaning": "移民(的) emigrate[`ɛmə͵gret] vi. 移居外國(或外地)",
+    "meaning": "移民（移居國外者）；移民的",
     "example": "The emigrant left his country for a better life.（移民離開祖國追求更好的生活。）",
-    "id": "L6-emigrant-emigrate-m-gret-vi"
+    "id": "L6-emigrant-mtt0ke"
   },
   {
     "level": "L6",
@@ -3173,9 +3173,9 @@
   {
     "level": "L6",
     "word": "episode",
-    "meaning": "一個事件；插曲；一集 EQ / emotional quotient phr. 情感商數 [ɪ`moʃən!] [`kwoʃənt] emotional intelligence (phr.) 情緒智商 [ɪ`moʃən!] [ ɪn`tɛlədʒəns]",
+    "meaning": "一集；插曲、事件",
     "example": "This episode of the show is funny.（這一集節目很好笑。）",
-    "id": "L6-episode-eq-emotional-quotient-ph"
+    "id": "L6-episode-mu3qq7r"
   },
   {
     "level": "L6",
@@ -3348,9 +3348,9 @@
   {
     "level": "L6",
     "word": "exploit",
-    "meaning": "功績；功勳",
+    "meaning": "v. 利用、剝削；n. 功績",
     "example": "Do not exploit other people’s kindness.（不要利用別人的善良。）",
-    "id": "L6-exploit-m1jw7oog"
+    "id": "L6-exploit-v-n"
   },
   {
     "level": "L6",
@@ -3453,9 +3453,9 @@
   {
     "level": "L6",
     "word": "feedback",
-    "meaning": "反饋；回饋",
+    "meaning": "回饋、意見反應",
     "example": "The teacher gave useful feedback.（老師給了有用的回饋。）",
-    "id": "L6-feedback-m1rx4fxm"
+    "id": "L6-feedback-m18ao4to"
   },
   {
     "level": "L6",
@@ -3544,9 +3544,9 @@
   {
     "level": "L6",
     "word": "formulate",
-    "meaning": "使公式化",
+    "meaning": "制定、構想；使公式化",
     "example": "We need to formulate a clear plan.（我們需要制定清楚的計畫。）",
-    "id": "L6-formulate-madckms"
+    "id": "L6-formulate-mec9jm2"
   },
   {
     "level": "L6",
@@ -3614,9 +3614,9 @@
   {
     "level": "L6",
     "word": "freak",
-    "meaning": "怪誕的行動；畸形的人",
+    "meaning": "n. 怪人；adj. 怪異的、罕見的",
     "example": "The sudden storm was a freak event.（突如其來的暴風雨是罕見事件。）",
-    "id": "L6-freak-m1jbe48p"
+    "id": "L6-freak-n-adj"
   },
   {
     "level": "L6",
@@ -3768,9 +3768,9 @@
   {
     "level": "L6",
     "word": "hack",
-    "meaning": "劈；砍",
+    "meaning": "v. 駭入；劈、砍",
     "example": "Someone tried to hack the website.（有人試圖駭入網站。）",
-    "id": "L6-hack-mdb8ii"
+    "id": "L6-hack-v"
   },
   {
     "level": "L6",
@@ -3782,9 +3782,9 @@
   {
     "level": "L6",
     "word": "hail",
-    "meaning": "冰雹",
+    "meaning": "n. 冰雹；v. 來自（hail from）",
     "example": "They hail from a small village.（他們來自一個小村莊。）",
-    "id": "L6-hail-meq15"
+    "id": "L6-hail-n-v-hail-from"
   },
   {
     "level": "L6",
@@ -3831,9 +3831,9 @@
   {
     "level": "L6",
     "word": "highlight",
-    "meaning": "照亮 n.最突出(或最精彩)的部分",
+    "meaning": "v. 標示、強調；n. 最突出或最精彩的部分",
     "example": "Please highlight the key points.（請標示重點。）",
-    "id": "L6-highlight-n"
+    "id": "L6-highlight-v-n"
   },
   {
     "level": "L6",
@@ -4020,9 +4020,9 @@
   {
     "level": "L6",
     "word": "inclusive",
-    "meaning": "包含的 indignation[͵ɪndɪg`neʃən] n. 憤慨",
+    "meaning": "包含的；包容的",
     "example": "The school wants an inclusive classroom.（學校想要包容性的教室。）",
-    "id": "L6-inclusive-indignation-nd-g-ne-n-n"
+    "id": "L6-inclusive-mke2mnn"
   },
   {
     "level": "L6",
@@ -4083,9 +4083,9 @@
   {
     "level": "L6",
     "word": "inhabitant",
-    "meaning": "居民；居住者 inherent[ɪn`hɪrənt] adj. 固有的；與生俱來的",
+    "meaning": "居民、居住者",
     "example": "Each inhabitant received clean water.（每位居民都拿到乾淨的水。）",
-    "id": "L6-inhabitant-inherent-n-h-r-nt-adj"
+    "id": "L6-inhabitant-myv5kyu"
   },
   {
     "level": "L6",
@@ -4153,9 +4153,9 @@
   {
     "level": "L6",
     "word": "insistence",
-    "meaning": "堅持 installation[͵ɪnstə`leʃən] n. 就任；安裝裝置",
+    "meaning": "堅持；堅決主張",
     "example": "His insistence on quality impressed us.（他對品質的堅持讓我們印象深刻。）",
-    "id": "L6-insistence-installation-nst-le-n-n"
+    "id": "L6-insistence-mmzvve6"
   },
   {
     "level": "L6",
@@ -4328,9 +4328,9 @@
   {
     "level": "L6",
     "word": "irritation",
-    "meaning": "惱怒",
+    "meaning": "刺激、發炎；惱怒",
     "example": "The soap caused skin irritation.（這塊肥皂造成皮膚刺激。）",
-    "id": "L6-irritation-mh0ld"
+    "id": "L6-irritation-m1lwjlin"
   },
   {
     "level": "L6",
@@ -4468,9 +4468,9 @@
   {
     "level": "L6",
     "word": "liner",
-    "meaning": "班機",
+    "meaning": "遠洋客輪；班機",
     "example": "The ocean liner carried passengers across the sea.（遠洋客輪載著乘客橫渡大海。）",
-    "id": "L6-liner-mkavm"
+    "id": "L6-liner-m1fu34yi"
   },
   {
     "level": "L6",
@@ -4546,7 +4546,7 @@
     "level": "L6",
     "word": "lyric",
     "meaning": "抒情的 n.抒情詩；歌詞",
-    "example": "The lyrics of the song is very touching.（這首歌的歌詞很感人。）",
+    "example": "The lyrics of the song are very touching. (這首歌的歌詞很感人。)",
     "id": "L6-lyric-n"
   },
   {
@@ -4580,9 +4580,9 @@
   {
     "level": "L6",
     "word": "mar",
-    "meaning": "污點",
+    "meaning": "v. 破壞、損毀；n. 汙點",
     "example": "One mistake can mar a perfect plan.（一個錯誤可能破壞完美的計畫。）",
-    "id": "L6-mar-mjb19"
+    "id": "L6-mar-v-n"
   },
   {
     "level": "L6",
@@ -4636,9 +4636,9 @@
   {
     "level": "L6",
     "word": "meditate",
-    "meaning": "計劃；沈思",
+    "meaning": "冥想、沉思",
     "example": "She likes to meditate every morning.（她喜歡每天早上冥想。）",
-    "id": "L6-meditate-m1hxxaqd"
+    "id": "L6-meditate-m1bjj9hj"
   },
   {
     "level": "L6",
@@ -4664,9 +4664,9 @@
   {
     "level": "L6",
     "word": "mentality",
-    "meaning": "智力",
+    "meaning": "心態、思維方式",
     "example": "A positive mentality helps you face problems.（正向心態幫助你面對問題。）",
-    "id": "L6-mentality-mhvtt"
+    "id": "L6-mentality-m14x06yn"
   },
   {
     "level": "L6",
@@ -4783,9 +4783,9 @@
   {
     "level": "L6",
     "word": "mold",
-    "meaning": "模型",
+    "meaning": "n. 黴菌、模型；v. 塑造",
     "example": "Mold grew on the old bread.（舊麵包上長了霉。）",
-    "id": "L6-mold-mij62"
+    "id": "L6-mold-n-v"
   },
   {
     "level": "L6",
@@ -4818,9 +4818,9 @@
   {
     "level": "L6",
     "word": "morale",
-    "meaning": "道德；士氣",
+    "meaning": "士氣、鬥志",
     "example": "The victory raised the team’s morale.（勝利提升了隊伍士氣。）",
-    "id": "L6-morale-m96gqlr"
+    "id": "L6-morale-m6d8s57"
   },
   {
     "level": "L6",
@@ -5161,16 +5161,16 @@
   {
     "level": "L6",
     "word": "outlet",
-    "meaning": "出口；銷路",
+    "meaning": "插座；出口；銷路",
     "example": "This room has only one electrical outlet.（這個房間只有一個插座。）",
-    "id": "L6-outlet-m1c1hc4q"
+    "id": "L6-outlet-mnv37ic"
   },
   {
     "level": "L6",
     "word": "outlook",
-    "meaning": "觀點；景色 vt.比…好看 vi.朝外看",
+    "meaning": "觀點、展望；景色",
     "example": "Her outlook on life is positive.（她的人生觀很正面。）",
-    "id": "L6-outlook-vt-vi"
+    "id": "L6-outlook-m154lw7p"
   },
   {
     "level": "L6",
@@ -5203,9 +5203,9 @@
   {
     "level": "L6",
     "word": "outset",
-    "meaning": "最初 overhead[`ovɚ`hɛd] adj. 在頭頂上的",
+    "meaning": "開始、開端",
     "example": "At the outset, the project seemed easy.（一開始，這個專案看起來很簡單。）",
-    "id": "L6-outset-overhead-ov-h-d-adj"
+    "id": "L6-outset-ms047vp"
   },
   {
     "level": "L6",
@@ -5266,9 +5266,9 @@
   {
     "level": "L6",
     "word": "patriotic",
-    "meaning": "愛國的 personal digital assistant n.個人數位助理(PDA) [`pɝsn!] [`dɪdʒɪt!] [ə`sɪstənt]",
+    "meaning": "愛國的",
     "example": "The crowd sang a patriotic song.（人群唱了一首愛國歌曲。）",
-    "id": "L6-patriotic-personal-digital-assista"
+    "id": "L6-patriotic-menho4"
   },
   {
     "level": "L6",
@@ -5462,9 +5462,9 @@
   {
     "level": "L6",
     "word": "poacher",
-    "meaning": "盜獵者；蒸鍋",
+    "meaning": "盜獵者、偷獵者；（烹飪）水煮鍋",
     "example": "The poacher was caught by forest guards.（盜獵者被森林警衛抓住。）",
-    "id": "L6-poacher-mu1ejj6"
+    "id": "L6-poacher-m3n1riw"
   },
   {
     "level": "L6",
@@ -5539,9 +5539,9 @@
   {
     "level": "L6",
     "word": "prejudice",
-    "meaning": "偏見 preliminary[prɪ`lɪmə͵nɛrɪ] adj.預備的 n.初步 premature[͵primə`tjʊr] adj.過早的；不成熟的",
+    "meaning": "偏見、成見",
     "example": "Prejudice can hurt innocent people.（偏見會傷害無辜的人。）",
-    "id": "L6-prejudice-preliminary-pr-l-m-n-r-a"
+    "id": "L6-prejudice-m1bfrmao"
   },
   {
     "level": "L6",
@@ -5833,9 +5833,9 @@
   {
     "level": "L6",
     "word": "radiator",
-    "meaning": "散熱器；輻射體",
-    "example": "The radiator keeps the room warm.（暖氣片讓房間保持溫暖。）",
-    "id": "L6-radiator-m10kidl6"
+    "meaning": "散熱器；暖氣機",
+    "example": "The radiator keeps the room warm. (暖氣機讓房間保持溫暖。)",
+    "id": "L6-radiator-m10emjap"
   },
   {
     "level": "L6",
@@ -5882,9 +5882,9 @@
   {
     "level": "L6",
     "word": "rational",
-    "meaning": "理性的 n.有理數 ravage[`ræ vɪdʒ] vt. 使荒蕪 vi.n.毀滅；蹂躪",
+    "meaning": "adj. 理性的、合理的；n. 有理數",
     "example": "We need a rational solution.（我們需要理性的解決方法。）",
-    "id": "L6-rational-n-ravage-r-v-d-vt-vi-n"
+    "id": "L6-rational-adj-n"
   },
   {
     "level": "L6",
@@ -5896,9 +5896,9 @@
   {
     "level": "L6",
     "word": "realism",
-    "meaning": "現實性",
+    "meaning": "寫實主義、現實主義；現實性",
     "example": "The painting shows a style of realism.（這幅畫展現寫實主義風格。）",
-    "id": "L6-realism-mhfs73"
+    "id": "L6-realism-mihy8qa"
   },
   {
     "level": "L6",
@@ -5924,9 +5924,9 @@
   {
     "level": "L6",
     "word": "recipient",
-    "meaning": "接受者 adj.接受的",
+    "meaning": "接受者、收件人",
     "example": "The recipient smiled when she received the gift.（收禮者收到禮物時微笑了。）",
-    "id": "L6-recipient-adj"
+    "id": "L6-recipient-mnsyemk"
   },
   {
     "level": "L6",
@@ -6001,9 +6001,9 @@
   {
     "level": "L6",
     "word": "regardless",
-    "meaning": "不關心(注意)的",
+    "meaning": "不管怎樣、無論如何；regardless of 不管……",
     "example": "We will go regardless of the weather.（不管天氣如何，我們都會去。）",
-    "id": "L6-regardless-m1wgg0nq"
+    "id": "L6-regardless-regardless-of"
   },
   {
     "level": "L6",
@@ -6092,9 +6092,9 @@
   {
     "level": "L6",
     "word": "render",
-    "meaning": "使成為；付給；提出",
+    "meaning": "使成為；呈現、描繪；付給、提出",
     "example": "The artist rendered the scene beautifully.（藝術家美麗地描繪了那個場景。）",
-    "id": "L6-render-mu29g2t"
+    "id": "L6-render-m14df7o6"
   },
   {
     "level": "L6",
@@ -6141,16 +6141,16 @@
   {
     "level": "L6",
     "word": "resistant",
-    "meaning": "抵抗的 n.抵抗者",
+    "meaning": "adj. 抵抗的；耐……的",
     "example": "This material is resistant to heat.（這種材料耐熱。）",
-    "id": "L6-resistant-n"
+    "id": "L6-resistant-adj"
   },
   {
     "level": "L6",
     "word": "resolute",
-    "meaning": "堅決的 n.堅定的人",
+    "meaning": "堅決的、果斷的",
     "example": "She remained resolute under pressure.（她在壓力下仍很堅定。）",
-    "id": "L6-resolute-n"
+    "id": "L6-resolute-m1rsogfr"
   },
   {
     "level": "L6",
@@ -6288,9 +6288,9 @@
   {
     "level": "L6",
     "word": "royalty",
-    "meaning": "王位；皇族",
+    "meaning": "版稅；王位；皇族",
     "example": "The author receives royalty payments.（作者收到版稅。）",
-    "id": "L6-royalty-m10n2ntt"
+    "id": "L6-royalty-m5jam03"
   },
   {
     "level": "L6",
@@ -6414,9 +6414,9 @@
   {
     "level": "L6",
     "word": "sequence",
-    "meaning": "連續；後果",
+    "meaning": "順序、一連串；連續、後果",
     "example": "Put the events in the correct sequence.（把事件按正確順序排列。）",
-    "id": "L6-sequence-mcc3laa"
+    "id": "L6-sequence-mej5uro"
   },
   {
     "level": "L6",
@@ -6428,9 +6428,9 @@
   {
     "level": "L6",
     "word": "serenity",
-    "meaning": "晴朗；平靜",
+    "meaning": "寧靜、平靜",
     "example": "I enjoyed the serenity of the mountains.（我享受山中的寧靜。）",
-    "id": "L6-serenity-m1nhkxwh"
+    "id": "L6-serenity-mnhaumt"
   },
   {
     "level": "L6",
@@ -6792,9 +6792,9 @@
   {
     "level": "L6",
     "word": "spike",
-    "meaning": "大釘；釘鞋 vt.用尖物刺穿；扣殺 【排球】",
+    "meaning": "驟增、尖峰；大釘；v. 用尖物刺穿、扣殺（排球）",
     "example": "There was a sudden spike in prices.（價格突然飆升。）",
-    "id": "L6-spike-vt"
+    "id": "L6-spike-v"
   },
   {
     "level": "L6",
@@ -6897,9 +6897,9 @@
   {
     "level": "L6",
     "word": "stapler",
-    "meaning": "主要產品經營商；釘書機",
+    "meaning": "釘書機",
     "example": "I need a stapler for these papers.（我需要釘書機把這些紙釘起來。）",
-    "id": "L6-stapler-m1mutf3t"
+    "id": "L6-stapler-mlv4n3"
   },
   {
     "level": "L6",

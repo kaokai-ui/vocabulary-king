@@ -3,7 +3,7 @@
     "level": "L1",
     "word": "wish",
     "meaning": "希望、願望",
-    "example": "Students wish to succeed in their studies. (學生希望在學習中成功。)",
+    "example": "I wish you good luck. (祝你好運。)",
     "id": "L1-wish-mpsbset"
   },
   {
@@ -17,7 +17,7 @@
     "level": "L1",
     "word": "woman",
     "meaning": "女人、婦女",
-    "example": "Every woman deserves equal educational opportunities. (每個女性都應得到平等的教育機會。)",
+    "example": "The woman is my teacher. (那位女士是我的老師。)",
     "id": "L1-woman-m4q6avb"
   },
   {
@@ -31,28 +31,28 @@
     "level": "L1",
     "word": "word",
     "meaning": "單字、話語",
-    "example": "Learning new words expands communication abilities. (學習新單字擴展溝通能力。)",
+    "example": "I don't know this word. (我不認識這個單字。)",
     "id": "L1-word-m1qm74sl"
   },
   {
     "level": "L1",
     "word": "work",
     "meaning": "工作、起作用",
-    "example": "Hard work and persistence lead to mastery. (努力工作和堅持導致精通。)",
+    "example": "My father works in a bank. (我爸爸在銀行工作。)",
     "id": "L1-work-m1cr7n5l"
   },
   {
     "level": "L1",
     "word": "worker",
     "meaning": "工人、員工",
-    "example": "Education workers dedicate themselves to learning. (教育工作者致力於學習。)",
+    "example": "The worker is fixing the road. (工人正在修路。)",
     "id": "L1-worker-mm3v974"
   },
   {
     "level": "L1",
     "word": "world",
     "meaning": "世界、領域",
-    "example": "Education opens doors to the world of opportunities. (教育為機會的世界打開大門。)",
+    "example": "I want to travel around the world. (我想環遊世界。)",
     "id": "L1-world-m10784pe"
   },
   {
@@ -87,7 +87,7 @@
     "level": "L1",
     "word": "write",
     "meaning": "寫、書寫",
-    "example": "Students learn to write clearly and persuasively. (學生學會清晰有說服力地寫作。)",
+    "example": "Please write your name here. (請在這裡寫下你的名字。)",
     "id": "L1-write-mbsw9gp"
   },
   {
@@ -129,7 +129,7 @@
     "level": "L1",
     "word": "yes/yeah",
     "meaning": "是的、同意",
-    "example": "Yes, consistent effort produces remarkable results. (是的， 持續努力產生顯著結果。)",
+    "example": "Yes, I like it. (是的，我喜歡。)",
     "id": "L1-yes-yeah-m1njak8f"
   },
   {
@@ -157,7 +157,7 @@
     "level": "L1",
     "word": "young",
     "meaning": "年輕的、幼小的",
-    "example": "Young minds are particularly receptive to language learning. (年輕的頭腦特別容易接受語言學習。)",
+    "example": "My brother is too young to drive. (我弟弟太年輕，還不能開車。)",
     "id": "L1-young-mk1wbar"
   },
   {
@@ -269,7 +269,7 @@
     "level": "L2",
     "word": "aim",
     "meaning": "瞄準、目標",
-    "example": "Students should aim for excellence in their studies. (學生應該在學習中追求卓越。)",
+    "example": "He aimed at the target. (他瞄準了目標。)",
     "id": "L2-aim-m1j9zf16"
   },
   {
@@ -402,7 +402,7 @@
     "level": "L2",
     "word": "anywhere/anyplace",
     "meaning": "任何地方",
-    "example": "You can find this book anywhere online. (你可以在網上任何地方找到這本書。)",
+    "example": "You can find this book anywhere. (你到處都找得到這本書。)",
     "id": "L2-anywhere-anyplace-maao14z"
   },
   {
@@ -625,9 +625,9 @@
   {
     "level": "L2",
     "word": "basics",
-    "meaning": "基礎的",
+    "meaning": "基礎；基本知識",
     "example": "You need to learn the basics before playing the song.（彈這首歌前，你需要先學會基礎。）",
-    "id": "L2-basics-mdh50w"
+    "id": "L2-basics-m1c75pl8"
   },
   {
     "level": "L2",
@@ -786,9 +786,9 @@
   {
     "level": "L2",
     "word": "bind",
-    "meaning": "綁定、裝訂",
-    "example": "The contract will bind both parties to the agreement. (合同將約束雙方遵守協議。)",
-    "id": "L2-bind-m59nyjx"
+    "meaning": "綁定、裝訂、約束",
+    "example": "The contract will bind both parties to the agreement. (這份合約將約束雙方遵守協議。)",
+    "id": "L2-bind-m1ag8ij3"
   },
   {
     "level": "L2",
@@ -891,9 +891,9 @@
   {
     "level": "L2",
     "word": "bow",
-    "meaning": "鞠躬",
+    "meaning": "鞠躬；蝴蝶結",
     "example": "She tied a bow on the gift box.（她在禮物盒上綁了一個蝴蝶結。）",
-    "id": "L2-bow-mqkng"
+    "id": "L2-bow-m3p30nz"
   },
   {
     "level": "L2",
@@ -920,7 +920,7 @@
     "level": "L2",
     "word": "brand",
     "meaning": "品牌、商標",
-    "example": "This brand is known for high quality products. (這個品牌以高質量產品而聞名。)",
+    "example": "This brand is known for high quality products. (這個品牌以高品質的產品聞名。)",
     "id": "L2-brand-m1pvva2x"
   },
   {
@@ -1010,9 +1010,9 @@
   {
     "level": "L2",
     "word": "cabbage",
-    "meaning": "捲心菜",
+    "meaning": "高麗菜",
     "example": "Mom added cabbage to the soup.（媽媽把高麗菜加進湯裡。）",
-    "id": "L2-cabbage-mf1duz"
+    "id": "L2-cabbage-mng6pp"
   },
   {
     "level": "L2",
@@ -1675,9 +1675,9 @@
   {
     "level": "L2",
     "word": "crane",
-    "meaning": "鶴",
+    "meaning": "鶴；起重機",
     "example": "A crane lifted the heavy steel beam.（起重機吊起了沉重的鋼樑。）",
-    "id": "L2-crane-mv5g"
+    "id": "L2-crane-ma3wtk2"
   },
   {
     "level": "L2",
@@ -2221,9 +2221,9 @@
   {
     "level": "L2",
     "word": "drawing",
-    "meaning": "描繪；素描；製圖；抽籤；提款",
+    "meaning": "描繪；素描；圖畫",
     "example": "His drawing of the tiger is excellent.（他畫的老虎很棒。）",
-    "id": "L2-drawing-mz7h8h8"
+    "id": "L2-drawing-m1dfm9up"
   },
   {
     "level": "L2",
@@ -2277,9 +2277,9 @@
   {
     "level": "L2",
     "word": "dumb",
-    "meaning": "啞的",
+    "meaning": "啞的；笨的",
     "example": "It was a dumb idea to go out without an umbrella.（沒帶傘就出門是個笨主意。）",
-    "id": "L2-dumb-mf65i"
+    "id": "L2-dumb-m1tnv501"
   },
   {
     "level": "L2",
@@ -2299,7 +2299,7 @@
     "level": "L2",
     "word": "earn",
     "meaning": "賺取、獲得",
-    "example": "Hard work helps earn success and respect. (努力工作有助於獲得成功和尊重。)",
+    "example": "She earns money by walking dogs. (她靠遛狗賺錢。)",
     "id": "L2-earn-m1ss7rey"
   },
   {
@@ -2313,35 +2313,35 @@
     "level": "L2",
     "word": "eastern",
     "meaning": "東方的、東部的",
-    "example": "Eastern philosophy emphasizes inner peace. (東方哲學強調內心平靜。)",
+    "example": "I live in the eastern part of Taiwan. (我住在台灣東部。)",
     "id": "L2-eastern-mcsrbk8"
   },
   {
     "level": "L2",
     "word": "education",
     "meaning": "教育、教養",
-    "example": "Quality education opens doors to opportunities. (優質教育為機會打開大門。)",
+    "example": "Education helps children learn. (教育幫助孩子學習。)",
     "id": "L2-education-m1ljxu2h"
   },
   {
     "level": "L2",
     "word": "effect",
     "meaning": "效果、影響",
-    "example": "Exercise has positive effects on health. (運動對健康有積極影響。)",
+    "example": "The medicine had a good effect. (這種藥有很好的效果。)",
     "id": "L2-effect-m1i4npuj"
   },
   {
     "level": "L2",
     "word": "effective",
     "meaning": "有效的、起作用的",
-    "example": "Effective communication prevents misunderstandings. (有效溝通防止誤解。)",
+    "example": "This is an effective way to learn English. (這是學英文的有效方法。)",
     "id": "L2-effective-m6zl27x"
   },
   {
     "level": "L2",
     "word": "effort",
     "meaning": "努力、嘗試",
-    "example": "Success requires consistent effort and patience. (成功需要持續的努力和耐心。)",
+    "example": "Thank you for your effort. (謝謝你的努力。)",
     "id": "L2-effort-m1dptbfj"
   },
   {
@@ -2376,7 +2376,7 @@
     "level": "L2",
     "word": "emotion",
     "meaning": "情感、情緒",
-    "example": "Strong emotions influence decision-making. (強烈情感影響決策。)",
+    "example": "She showed no emotion. (她沒有表現出任何情緒。)",
     "id": "L2-emotion-mzo4u9g"
   },
   {
@@ -2397,7 +2397,7 @@
     "level": "L2",
     "word": "enemy",
     "meaning": "敵人、仇敵",
-    "example": "Ignorance is education's greatest enemy. (無知是教育最大的敵人。)",
+    "example": "He saw his enemy and ran away. (他看見敵人後就跑開了。)",
     "id": "L2-enemy-m1foby2y"
   },
   {
@@ -2467,7 +2467,7 @@
     "level": "L2",
     "word": "event",
     "meaning": "事件、活動",
-    "example": "The charity event raised significant funds. (慈善活動籌集了大量資金。)",
+    "example": "The school event starts at nine. (學校活動九點開始。)",
     "id": "L2-event-mx5a9e8"
   },
   {
@@ -2523,7 +2523,7 @@
     "level": "L2",
     "word": "expensive",
     "meaning": "昂貴的、花費大的",
-    "example": "Expensive cars require costly maintenance. (昂貴的汽車需要高成本維護。)",
+    "example": "This watch is too expensive. (這支手錶太貴了。)",
     "id": "L2-expensive-m1hjtj2u"
   },
   {
@@ -2551,14 +2551,14 @@
     "level": "L2",
     "word": "express",
     "meaning": "表達、快速的",
-    "example": "Artists express emotions through their work. (藝術家通過作品表達情感。)",
+    "example": "I don't know how to express my feelings. (我不知道該怎麼表達我的感受。)",
     "id": "L2-express-m1l2ldq3"
   },
   {
     "level": "L2",
     "word": "extra",
     "meaning": "額外的、特別的",
-    "example": "Students receive extra credit for projects. (學生因項目獲得額外學分。)",
+    "example": "We have an extra class today. (我們今天多上一堂課。)",
     "id": "L2-extra-mhgiq8i"
   },
   {
@@ -2586,14 +2586,14 @@
     "level": "L2",
     "word": "fair",
     "meaning": "公平的、集市",
-    "example": "Everyone deserves fair treatment under law. (每個人都應在法律下得到公平對待。)",
+    "example": "The game was not fair. (這場比賽不公平。)",
     "id": "L2-fair-mp3fxds"
   },
   {
     "level": "L2",
     "word": "famous",
     "meaning": "著名的、出名的",
-    "example": "Famous artists inspire future generations. (著名藝術家啟發後代。)",
+    "example": "He is a famous singer. (他是位有名的歌手。)",
     "id": "L2-famous-m1fy478e"
   },
   {
@@ -2683,9 +2683,9 @@
   {
     "level": "L2",
     "word": "figure",
-    "meaning": "數字、人物、認為",
+    "meaning": "數字、人物、認為；figure out 想出；弄懂",
     "example": "Scientists figure out complex equations. (科學家解出複雜方程式。)",
-    "id": "L2-figure-m1l6ahdp"
+    "id": "L2-figure-figure-out"
   },
   {
     "level": "L2",
@@ -2803,7 +2803,7 @@
     "level": "L2",
     "word": "focus",
     "meaning": "專注、焦點",
-    "example": "Students focus better in quiet environments. (學生在安靜環境中專注度更好。)",
+    "example": "Please focus on your homework. (請專心寫作業。)",
     "id": "L2-focus-mimrsrd"
   },
   {
@@ -2866,7 +2866,7 @@
     "level": "L2",
     "word": "formal",
     "meaning": "正式的、正規的",
-    "example": "Formal education develops critical thinking. (正規教育發展批判性思維。)",
+    "example": "He wore formal clothes to the party. (他穿正式服裝去參加派對。)",
     "id": "L2-formal-m10fzmxb"
   },
   {
@@ -2901,7 +2901,7 @@
     "level": "L2",
     "word": "freedom",
     "meaning": "自由、自主",
-    "example": "Democracy guarantees individual freedom. (民主保證個人自由。)",
+    "example": "Everyone wants freedom. (每個人都想要自由。)",
     "id": "L2-freedom-mpql563"
   },
   {
@@ -3062,7 +3062,7 @@
     "level": "L2",
     "word": "goal",
     "meaning": "目標、進球",
-    "example": "Setting clear goals motivates students. (設定明確目標激勵學生。)",
+    "example": "My goal is to pass the exam. (我的目標是通過考試。)",
     "id": "L2-goal-m1gf8yrr"
   },
   {
@@ -3174,7 +3174,7 @@
     "level": "L2",
     "word": "habit",
     "meaning": "習慣、嗜好",
-    "example": "Good study habits improve academic performance. (良好的學習習慣提升學術表現。)",
+    "example": "Reading before bed is a good habit. (睡前閱讀是個好習慣。)",
     "id": "L2-habit-mf1qo35"
   },
   {
@@ -3209,7 +3209,7 @@
     "level": "L2",
     "word": "handle",
     "meaning": "處理、把手",
-    "example": "Students learn to handle stress effectively. (學生學會有效地處理壓力。)",
+    "example": "Please hold the handle. (請握住把手。)",
     "id": "L2-handle-m16v0b0x"
   },
   {
@@ -3286,14 +3286,14 @@
     "level": "L2",
     "word": "hero/heroine",
     "meaning": "英雄、主角",
-    "example": "Teachers are unsung heroes of society. (老師是社會的無名英雄。)",
+    "example": "The hero saved the child. (那位英雄救了孩子。)",
     "id": "L2-hero-heroine-mxzeorp"
   },
   {
     "level": "L2",
     "word": "hide",
     "meaning": "隱藏、躲藏",
-    "example": "Students cannot hide from their responsibilities. (學生無法逃避責任。)",
+    "example": "The cat is hiding under the bed. (貓躲在床底下。)",
     "id": "L2-hide-m121liqo"
   },
   {
@@ -3734,7 +3734,7 @@
     "level": "L2",
     "word": "knowledge",
     "meaning": "知識、學問",
-    "example": "Knowledge empowers individuals to make better choices. (知識使個人能夠做出更好的選擇。)",
+    "example": "She has good knowledge of history. (她對歷史很了解。)",
     "id": "L2-knowledge-m1odrhr9"
   },
   {
@@ -3762,7 +3762,7 @@
     "level": "L2",
     "word": "language",
     "meaning": "語言",
-    "example": "Language connects people across cultures. (語言連接跨文化的人們。)",
+    "example": "English is an important language. (英文是一種重要的語言。)",
     "id": "L2-language-moc2q"
   },
   {
@@ -3775,9 +3775,9 @@
   {
     "level": "L2",
     "word": "lap",
-    "meaning": "重疊部分",
+    "meaning": "大腿部；（跑道的）一圈",
     "example": "The child sat on her mother’s lap.（孩子坐在媽媽的大腿上。）",
-    "id": "L2-lap-mivxt17"
+    "id": "L2-lap-m1alhnzg"
   },
   {
     "level": "L2",
@@ -3804,7 +3804,7 @@
     "level": "L2",
     "word": "legal",
     "meaning": "法律的、合法的",
-    "example": "Legal education teaches about rights and duties. (法學教育教授權利和義務。)",
+    "example": "It is legal to drive at eighteen here. (在這裡，滿十八歲可以合法開車。)",
     "id": "L2-legal-m1kf5ktg"
   },
   {
@@ -3888,7 +3888,7 @@
     "level": "L2",
     "word": "link",
     "meaning": "連結、聯繫",
-    "example": "Education links theory with practice. (教育將理論與實踐聯繫起來。)",
+    "example": "Click the link to open the page. (點選連結開啟網頁。)",
     "id": "L2-link-mbcbhtc"
   },
   {
@@ -3916,7 +3916,7 @@
     "level": "L2",
     "word": "local",
     "meaning": "當地的、本地的",
-    "example": "Local schools serve community needs. (當地學校服務社區需求。)",
+    "example": "We shop at the local market. (我們在當地市場買東西。)",
     "id": "L2-local-m227u1"
   },
   {
@@ -3992,9 +3992,9 @@
   {
     "level": "L2",
     "word": "lower",
-    "meaning": "較低的",
+    "meaning": "較低的；降低",
     "example": "Please lower your voice in the hospital.（在醫院裡請降低音量。）",
-    "id": "L2-lower-mlc8jd"
+    "id": "L2-lower-m18rqtyb"
   },
   {
     "level": "L2",
@@ -4406,7 +4406,7 @@
     "level": "L2",
     "word": "natural",
     "meaning": "自然的、天然的",
-    "example": "Natural curiosity drives effective learning. (天生的好奇心驅動有效學習。)",
+    "example": "This juice is made from natural fruit. (這果汁是用天然水果做的。)",
     "id": "L2-natural-mc11oem"
   },
   {
@@ -4469,7 +4469,7 @@
     "level": "L2",
     "word": "neighbor",
     "meaning": "鄰居、鄰近的",
-    "example": "School neighbors support educational activities. (學校鄰居支持教育活動。)",
+    "example": "My neighbor is a kind teacher. (我的鄰居是一位親切的老師。)",
     "id": "L2-neighbor-m1tq0rg7"
   },
   {
@@ -4497,7 +4497,7 @@
     "level": "L2",
     "word": "net",
     "meaning": "網、網路的",
-    "example": "The internet connects global learners. (網際網路連接全球學習者。)",
+    "example": "The ball hit the net. (球打到網子。)",
     "id": "L2-net-mu1q60"
   },
   {
@@ -4511,7 +4511,7 @@
     "level": "L2",
     "word": "nobody",
     "meaning": "沒有人、無人",
-    "example": "Nobody should be denied education. (沒有人應該被剝奪教育。)",
+    "example": "Nobody was at home. (家裡沒有人。)",
     "id": "L2-nobody-m5tzz5j"
   },
   {
@@ -4574,21 +4574,21 @@
     "level": "L2",
     "word": "object",
     "meaning": "物體、目標",
-    "example": "Learning objects should engage multiple senses. (學習物件應該運用多種感官。)",
+    "example": "What is that object on the table? (桌上那個物品是什麼？)",
     "id": "L2-object-m14w88xt"
   },
   {
     "level": "L2",
     "word": "occur",
     "meaning": "發生、出現",
-    "example": "Learning breakthroughs occur through persistent effort. (學習突破通過持續努力而發生。)",
+    "example": "Accidents occur at night. (意外常在夜間發生。)",
     "id": "L2-occur-m1g2br42"
   },
   {
     "level": "L2",
     "word": "offer",
     "meaning": "提供、提議",
-    "example": "Universities offer diverse academic programs. (大學提供多樣化的學術項目。)",
+    "example": "They offered me a cup of tea. (他們端了一杯茶給我。)",
     "id": "L2-offer-m19cy0mu"
   },
   {
@@ -4616,7 +4616,7 @@
     "level": "L2",
     "word": "operate",
     "meaning": "操作、運行",
-    "example": "Students learn to operate laboratory equipment. (學生學會操作實驗室設備。)",
+    "example": "Can you operate this machine? (你會操作這台機器嗎？)",
     "id": "L2-operate-m1d75ac3"
   },
   {
@@ -4630,7 +4630,7 @@
     "level": "L2",
     "word": "ordinary",
     "meaning": "普通的、平常的",
-    "example": "Ordinary students can achieve extraordinary results. (普通學生可以取得非凡成果。)",
+    "example": "It was just an ordinary day. (那只是平常的一天。)",
     "id": "L2-ordinary-m1xe8ik6"
   },
   {
@@ -4644,7 +4644,7 @@
     "level": "L2",
     "word": "organization",
     "meaning": "組織、機構",
-    "example": "Student organizations promote leadership skills. (學生組織促進領導技能。)",
+    "example": "She works for a health organization. (她在一家健康組織工作。)",
     "id": "L2-organization-m8pnmnx"
   },
   {
@@ -4714,7 +4714,7 @@
     "level": "L2",
     "word": "pain",
     "meaning": "疼痛、痛苦",
-    "example": "Growing pains are part of learning. (成長的陣痛是學習的一部分。)",
+    "example": "I have a pain in my back. (我背部疼痛。)",
     "id": "L2-pain-m1d89hd9"
   },
   {
@@ -4826,21 +4826,21 @@
     "level": "L2",
     "word": "path",
     "meaning": "道路、路徑",
-    "example": "Education opens many career paths. (教育開啟許多職業道路。)",
+    "example": "Follow this path to the lake. (沿著這條小路走到湖邊。)",
     "id": "L2-path-me68o1z"
   },
   {
     "level": "L2",
     "word": "patient",
     "meaning": "耐心的、病人",
-    "example": "Patient teachers help struggling students. (耐心的老師幫助有困難的學生。)",
+    "example": "Please be patient with the children. (請對孩子有耐心。)",
     "id": "L2-patient-m1105fp"
   },
   {
     "level": "L2",
     "word": "pattern",
     "meaning": "模式、圖案",
-    "example": "Recognizing patterns accelerates language learning. (識別模式加速語言學習。)",
+    "example": "I like the pattern on your shirt. (我喜歡你襯衫上的圖案。)",
     "id": "L2-pattern-mz0xd1"
   },
   {
@@ -4903,7 +4903,7 @@
     "level": "L2",
     "word": "perfect",
     "meaning": "完美的、理想的",
-    "example": "Perfect pronunciation requires continuous practice. (完美發音需要持續練習。)",
+    "example": "Her English is almost perfect. (她的英文幾乎完美。)",
     "id": "L2-perfect-m3g1mag"
   },
   {
@@ -4917,7 +4917,7 @@
     "level": "L2",
     "word": "personal",
     "meaning": "個人的、私人的",
-    "example": "Personal growth happens through education. (個人成長通過教育實現。)",
+    "example": "This is my personal opinion. (這是我個人的看法。)",
     "id": "L2-personal-mcn0m2n"
   },
   {
@@ -5014,9 +5014,9 @@
   {
     "level": "L2",
     "word": "pitch",
-    "meaning": "音高 vt. vi. 扔",
+    "meaning": "音高；球場；投、扔",
     "example": "The player ran onto the soccer pitch.（球員跑上足球場。）",
-    "id": "L2-pitch-vt-vi"
+    "id": "L2-pitch-msel710"
   },
   {
     "level": "L2",
@@ -5078,7 +5078,7 @@
     "level": "L2",
     "word": "plus",
     "meaning": "加上、優勢",
-    "example": "Math plus science equals STEM education. (數學加科學等於 STEM 教育。)",
+    "example": "Two plus three is five. (二加三等於五。)",
     "id": "L2-plus-m1czjspb"
   },
   {
@@ -5120,14 +5120,14 @@
     "level": "L2",
     "word": "popular",
     "meaning": "受歡迎的、流行的",
-    "example": "Popular teachers engage students effectively. (受歡迎的老師有效地吸引學生。)",
+    "example": "This song is popular with students. (這首歌很受學生歡迎。)",
     "id": "L2-popular-m11o9ny0"
   },
   {
     "level": "L2",
     "word": "population",
     "meaning": "人口、族群",
-    "example": "The school serves a diverse population. (學校為多元化人口服務。)",
+    "example": "The city has a large population. (這座城市人口很多。)",
     "id": "L2-population-myhgr59"
   },
   {
@@ -5155,7 +5155,7 @@
     "level": "L2",
     "word": "positive",
     "meaning": "積極的、正面的",
-    "example": "Positive attitudes improve learning outcomes. (積極的態度改善學習成果。)",
+    "example": "She has a positive attitude. (她的態度很積極。)",
     "id": "L2-positive-meazuhs"
   },
   {
@@ -5169,7 +5169,7 @@
     "level": "L2",
     "word": "post",
     "meaning": "郵件、張貼",
-    "example": "Students post achievements on bulletin boards. (學生在佈告欄張貼成就。)",
+    "example": "Please post the notice on the door. (請把公告貼在門上。)",
     "id": "L2-post-m8p5zfr"
   },
   {
@@ -5239,7 +5239,7 @@
     "level": "L2",
     "word": "present",
     "meaning": "現在的、呈現。亦有「禮物」之意 (發音不同，需注意)。",
-    "example": "Students present their research findings confidently. (學生自信地呈現研究發現。)",
+    "example": "She will present her idea to the class. (她會向全班發表自己的想法。)",
     "id": "L2-present-minugdg"
   },
   {
@@ -5316,7 +5316,7 @@
     "level": "L2",
     "word": "private",
     "meaning": "私人的、私立的",
-    "example": "Private study time helps concentration. (私人學習時間有助於專注。)",
+    "example": "This is a private room. (這是一間私人房間。)",
     "id": "L2-private-m1atjbic"
   },
   {
@@ -5351,7 +5351,7 @@
     "level": "L2",
     "word": "project",
     "meaning": "項目、投射",
-    "example": "Science projects engage student creativity. (科學項目啟發學生創造力。)",
+    "example": "Our group finished the science project. (我們這組完成了科學專題。)",
     "id": "L2-project-m15crp2f"
   },
   {
@@ -5386,14 +5386,14 @@
     "level": "L2",
     "word": "proud",
     "meaning": "自豪的、驕傲的",
-    "example": "Parents feel proud of student achievements. (父母為學生成就感到自豪。)",
+    "example": "I am proud of my brother. (我以弟弟為榮。)",
     "id": "L2-proud-m1651bnu"
   },
   {
     "level": "L2",
     "word": "provide",
     "meaning": "提供、供應",
-    "example": "Libraries provide resources for research. (圖書館為研究提供資源。)",
+    "example": "The school provides free lunch. (學校提供免費午餐。)",
     "id": "L2-provide-m19cuco4"
   },
   {
@@ -5462,9 +5462,9 @@
   {
     "level": "L2",
     "word": "quality",
-    "meaning": "質量、品質",
-    "example": "Quality education requires skilled teachers and resources. (優質教育需要技能嫻熟的教師和資源。)",
-    "id": "L2-quality-m1bk7ut"
+    "meaning": "品質；特質",
+    "example": "This shop sells good-quality clothes. (這家店賣品質很好的衣服。)",
+    "id": "L2-quality-m1u37dvn"
   },
   {
     "level": "L2",
@@ -5512,7 +5512,7 @@
     "level": "L2",
     "word": "range",
     "meaning": "範圍、變化",
-    "example": "Vocabulary ranges from basic to advanced levels. (詞彙從基礎到高級水平都有。)",
+    "example": "The shop has a wide range of shoes. (這家店有各式各樣的鞋子。)",
     "id": "L2-range-m1wxfuas"
   },
   {
@@ -5533,7 +5533,7 @@
     "level": "L2",
     "word": "rather",
     "meaning": "相當、寧可",
-    "example": "Students prefer interactive rather than passive learning. (學生更喜歡互動而非被動學習。)",
+    "example": "I would rather stay home. (我寧可待在家裡。)",
     "id": "L2-rather-m1i03azv"
   },
   {
@@ -5554,14 +5554,14 @@
     "level": "L2",
     "word": "recent",
     "meaning": "最近的、近期的",
-    "example": "Recent research supports new teaching methods. (最近的研究支持新的教學方法。)",
+    "example": "This is a recent photo. (這是一張最近拍的照片。)",
     "id": "L2-recent-m1b1rqtk"
   },
   {
     "level": "L2",
     "word": "record",
     "meaning": "記錄、錄音",
-    "example": "Keeping learning records helps track progress over time. (保持學習記錄追蹤長期進步。)",
+    "example": "Please record the song. (請把這首歌錄下來。)",
     "id": "L2-record-m1phgrt0"
   },
   {
@@ -5588,15 +5588,15 @@
   {
     "level": "L2",
     "word": "regard",
-    "meaning": "關心 vt. vi. 注重",
+    "meaning": "關心；注重；視為；看待",
     "example": "I regard him as a close friend.（我把他視為親密朋友。）",
-    "id": "L2-regard-vt-vi"
+    "id": "L2-regard-meyq2bz"
   },
   {
     "level": "L2",
     "word": "region",
     "meaning": "地區、區域",
-    "example": "Each region has different educational needs. (每個地區都有不同的教育需求。)",
+    "example": "This region is famous for tea. (這個地區以茶聞名。)",
     "id": "L2-region-m1vhfo0g"
   },
   {
@@ -5624,14 +5624,14 @@
     "level": "L2",
     "word": "relationship",
     "meaning": "關係、關聯",
-    "example": "Teacher-student relationships affect learning outcomes. (師生關係影響學習成果。)",
+    "example": "They have a good relationship. (他們的關係很好。)",
     "id": "L2-relationship-mrz39ny"
   },
   {
     "level": "L2",
     "word": "repeat",
     "meaning": "重複、重說",
-    "example": "Students repeat difficult concepts until mastered. (學生重複困難概念直到掌握。)",
+    "example": "Please repeat the question. (請再說一次這個問題。)",
     "id": "L2-repeat-mjbtt0k"
   },
   {
@@ -5652,7 +5652,7 @@
     "level": "L2",
     "word": "require(ment)",
     "meaning": "需要、要求",
-    "example": "Advanced courses require prerequisite knowledge. (高級課程需要先修知識。)",
+    "example": "This job requires patience. (這份工作需要耐心。)",
     "id": "L2-require-ment-m13psadd"
   },
   {
@@ -5687,14 +5687,14 @@
     "level": "L2",
     "word": "result",
     "meaning": "結果、導致",
-    "example": "Good study habits result in academic success. (良好的學習習慣導致學術成功。)",
+    "example": "The test result will come out tomorrow. (考試結果明天會公布。)",
     "id": "L2-result-m61176j"
   },
   {
     "level": "L2",
     "word": "review",
     "meaning": "複習、評論",
-    "example": "Regular review prevents forgetting learned material. (定期複習防止遺忘已學材料。)",
+    "example": "Let's review the lesson. (我們來複習這一課。)",
     "id": "L2-review-m1iw5oif"
   },
   {
@@ -5708,7 +5708,7 @@
     "level": "L2",
     "word": "rock",
     "meaning": "岩石、搖擺",
-    "example": "Geology students study different rock formations. (地質學學生研究不同的岩石形成。)",
+    "example": "The rock is very heavy. (這塊石頭很重。)",
     "id": "L2-rock-mmhd8sb"
   },
   {
@@ -5722,7 +5722,7 @@
     "level": "L2",
     "word": "role",
     "meaning": "角色、作用",
-    "example": "Teachers play a crucial role in development. (老師在發展中扮演關鍵角色。)",
+    "example": "She played the role of a queen. (她扮演女王。)",
     "id": "L2-role-m1mbeur1"
   },
   {
@@ -5820,7 +5820,7 @@
     "level": "L2",
     "word": "science",
     "meaning": "科學、學科",
-    "example": "Science education develops analytical thinking skills. (科學教育發展分析思維技能。)",
+    "example": "Science is my favorite subject. (科學是我最喜歡的科目。)",
     "id": "L2-science-m1puwpo3"
   },
   {
@@ -5841,7 +5841,7 @@
     "level": "L2",
     "word": "score",
     "meaning": "分數、得分",
-    "example": "Students score higher with proper preparation. (學生通過適當準備獲得更高分數。)",
+    "example": "What is your score? (你的分數是多少？)",
     "id": "L2-score-m1dlbsta"
   },
   {
@@ -5876,7 +5876,7 @@
     "level": "L2",
     "word": "section",
     "meaning": "部分、章節",
-    "example": "Each textbook section covers specific concepts. (教科書的每個章節涵蓋特定概念。)",
+    "example": "Please read the first section. (請讀第一部分。)",
     "id": "L2-section-m8w1vib"
   },
   {
@@ -5911,7 +5911,7 @@
     "level": "L2",
     "word": "serious",
     "meaning": "嚴重的、認真的",
-    "example": "Serious students achieve better results. (認真的學生取得更好的結果。)",
+    "example": "He is a serious student. (他是個認真的學生。)",
     "id": "L2-serious-m1vsd3zw"
   },
   {
@@ -5952,15 +5952,15 @@
   {
     "level": "L2",
     "word": "shock",
-    "meaning": "衝撞",
+    "meaning": "震驚；衝擊",
     "example": "The news came as a shock to everyone.（這個消息讓大家震驚。）",
-    "id": "L2-shock-mnqw1"
+    "id": "L2-shock-m16sglzp"
   },
   {
     "level": "L2",
     "word": "shoot",
     "meaning": "射擊、拍攝",
-    "example": "Photography students shoot artistic images. (攝影學生拍攝藝術照片。)",
+    "example": "We shoot a video in the park. (我們在公園拍一段影片。)",
     "id": "L2-shoot-mhjn0dn"
   },
   {
@@ -5973,9 +5973,9 @@
   {
     "level": "L2",
     "word": "shower",
-    "meaning": "陣雨",
+    "meaning": "淋浴；陣雨",
     "example": "I took a shower after basketball practice.（籃球練習後我洗了澡。）",
-    "id": "L2-shower-mqep1"
+    "id": "L2-shower-mhyryxj"
   },
   {
     "level": "L2",
@@ -6023,7 +6023,7 @@
     "level": "L2",
     "word": "similar",
     "meaning": "相似的、類似的",
-    "example": "Similar teaching methods work across cultures. (類似的教學方法在各種文化中都有效。)",
+    "example": "We have similar shoes. (我們有類似的鞋子。)",
     "id": "L2-similar-mdt7qo5"
   },
   {
@@ -6043,9 +6043,9 @@
   {
     "level": "L2",
     "word": "sink",
-    "meaning": "沉沒；沉入",
+    "meaning": "洗手台；沉沒",
     "example": "Wash your hands at the sink.（在洗手台洗手。）",
-    "id": "L2-sink-mcxietq"
+    "id": "L2-sink-m1frgp0o"
   },
   {
     "level": "L2",
@@ -6142,14 +6142,14 @@
     "level": "L2",
     "word": "social",
     "meaning": "社會的、社交的",
-    "example": "Social interaction enhances collaborative learning. (社交互動增強協作學習。)",
+    "example": "She enjoys social events. (她喜歡社交活動。)",
     "id": "L2-social-m25pggs"
   },
   {
     "level": "L2",
     "word": "society",
     "meaning": "社會、社團",
-    "example": "Education shapes society for future generations. (教育為後代塑造社會。)",
+    "example": "We live in a busy society. (我們生活在忙碌的社會中。)",
     "id": "L2-society-m1p2mo52"
   },
   {
@@ -6163,7 +6163,7 @@
     "level": "L2",
     "word": "soldier",
     "meaning": "士兵、軍人",
-    "example": "History honors brave soldiers of past wars. (歷史紀念過去戰爭的勇敢士兵。)",
+    "example": "The soldier was very brave. (那位士兵非常勇敢。)",
     "id": "L2-soldier-m301gro"
   },
   {
@@ -6177,14 +6177,14 @@
     "level": "L2",
     "word": "solve",
     "meaning": "解決、解答",
-    "example": "Critical thinking helps solve complex problems. (批判性思維幫助解決複雜問題。)",
+    "example": "Can you solve this math problem? (你會解這道數學題嗎？)",
     "id": "L2-solve-m1jtaa7v"
   },
   {
     "level": "L2",
     "word": "somebody",
     "meaning": "某人、有人",
-    "example": "Somebody always helps struggling students. (總有人幫助有困難的學生。)",
+    "example": "Somebody left a bag here. (有人把袋子留在這裡。)",
     "id": "L2-somebody-m1ovzvxk"
   },
   {
@@ -6267,9 +6267,9 @@
   {
     "level": "L2",
     "word": "spot",
-    "meaning": "污點",
+    "meaning": "地點；斑點；污點",
     "example": "I found a quiet spot to read.（我找到一個安靜的地方看書。）",
-    "id": "L2-spot-mjb19"
+    "id": "L2-spot-mcpkl7i"
   },
   {
     "level": "L2",
@@ -6317,7 +6317,7 @@
     "level": "L2",
     "word": "standard",
     "meaning": "標準、標準的",
-    "example": "High standards ensure quality education. (高標準確保優質教育。)",
+    "example": "This product meets the standard. (這項產品符合標準。)",
     "id": "L2-standard-mg4ruo3"
   },
   {
@@ -6485,7 +6485,7 @@
     "level": "L2",
     "word": "success",
     "meaning": "成功、成就",
-    "example": "Success requires dedication and perseverance. (成功需要奉獻和毅力。)",
+    "example": "Hard work leads to success. (努力會帶來成功。)",
     "id": "L2-success-m12wakmr"
   },
   {
@@ -6534,14 +6534,14 @@
     "level": "L2",
     "word": "support",
     "meaning": "支持、支撐",
-    "example": "Family support enhances student motivation. (家庭支持增強學生動機。)",
+    "example": "My family supports my dream. (我的家人支持我的夢想。)",
     "id": "L2-support-m1h60qhc"
   },
   {
     "level": "L2",
     "word": "surface",
     "meaning": "表面、表層",
-    "example": "Chemistry explores molecular surfaces. (化學探索分子表面。)",
+    "example": "The table has a smooth surface. (這張桌子的表面很光滑。)",
     "id": "L2-surface-m1jfpe2r"
   },
   {
@@ -6617,9 +6617,9 @@
   {
     "level": "L2",
     "word": "tank",
-    "meaning": "坦克車",
+    "meaning": "坦克車；水槽；魚缸",
     "example": "The fish tank needs clean water.（魚缸需要乾淨的水。）",
-    "id": "L2-tank-md7glh"
+    "id": "L2-tank-m1uofivu"
   },
   {
     "level": "L2",
@@ -6639,7 +6639,7 @@
     "level": "L2",
     "word": "task",
     "meaning": "任務、工作",
-    "example": "Each task builds essential skills. (每個任務都建立基本技能。)",
+    "example": "This task is easy. (這項任務很簡單。)",
     "id": "L2-task-mzcfx7e"
   },
   {
@@ -6653,15 +6653,15 @@
     "level": "L2",
     "word": "team",
     "meaning": "團隊、小組",
-    "example": "Project teams collaborate effectively. (項目團隊有效合作。)",
+    "example": "Our team won the game. (我們的隊伍贏了比賽。)",
     "id": "L2-team-m4kph5w"
   },
   {
     "level": "L2",
     "word": "tear",
-    "meaning": "撕開；（被）撕掉；撕裂",
+    "meaning": "眼淚；撕裂；撕開",
     "example": "A tear ran down her cheek.（一滴眼淚滑下她的臉頰。）",
-    "id": "L2-tear-mld1h03"
+    "id": "L2-tear-meqhch3"
   },
   {
     "level": "L2",
@@ -6688,14 +6688,14 @@
     "level": "L2",
     "word": "telephone/phone",
     "meaning": "電話、打電話",
-    "example": "Students phone parents about achievements. (學生打電話告訴父母成就。)",
+    "example": "I phone my mother every night. (我每天晚上打電話給媽媽。)",
     "id": "L2-telephone-phone-motnxy6"
   },
   {
     "level": "L2",
     "word": "television/TV",
     "meaning": "電視、電視機",
-    "example": "Educational television programs supplement classroom learning. (教育電視節目補充課堂學習。)",
+    "example": "We watch television after dinner. (我們晚餐後看電視。)",
     "id": "L2-television-tv-mlow78e"
   },
   {
@@ -6723,14 +6723,14 @@
     "level": "L2",
     "word": "term",
     "meaning": "學期、術語",
-    "example": "Spring term focuses on practical applications. (春季學期專注於實際應用。)",
+    "example": "The new term starts in September. (新學期九月開始。)",
     "id": "L2-term-mfpflnp"
   },
   {
     "level": "L2",
     "word": "test",
     "meaning": "測試、考試",
-    "example": "Regular tests assess student understanding. (定期測試評估學生理解程度。)",
+    "example": "We have a math test today. (我們今天有數學考試。)",
     "id": "L2-test-mm93kay"
   },
   {

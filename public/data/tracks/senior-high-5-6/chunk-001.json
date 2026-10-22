@@ -52,7 +52,7 @@
     "level": "L5",
     "word": "bid",
     "meaning": "出價、投標",
-    "example": "The company bid for the construction contract. (公司為建築合同投標。)",
+    "example": "The company bid for the construction contract. (公司為建築合約投標。)",
     "id": "L5-bid-m1atokli"
   },
   {
@@ -87,15 +87,15 @@
     "level": "L5",
     "word": "boom",
     "meaning": "繁榮、轟鳴",
-    "example": "The technology industry experienced a boom last decade. (科技行業在過去十年經歷了繁榮。)",
+    "example": "The tech industry boomed last year. (科技產業去年蓬勃發展。)",
     "id": "L5-boom-m9z6wsp"
   },
   {
     "level": "L5",
     "word": "bound",
-    "meaning": "束縛的、跳躍",
+    "meaning": "adj. 開往……的；受束縛的；n./v. 跳躍",
     "example": "The train is bound for the capital city. (火車開往首都。)",
-    "id": "L5-bound-m1343m1f"
+    "id": "L5-bound-adj-n-v"
   },
   {
     "level": "L5",
@@ -163,16 +163,16 @@
   {
     "level": "L5",
     "word": "acknowledge(ment)",
-    "meaning": "承認",
+    "meaning": "承認；確認收到",
     "example": "Please acknowledge my message when you receive it.（收到訊息後請回覆確認。）",
-    "id": "L5-acknowledge-ment-mhii6"
+    "id": "L5-acknowledge-ment-m515wu2"
   },
   {
     "level": "L5",
     "word": "acne",
-    "meaning": "粉刺",
+    "meaning": "青春痘、痤瘡",
     "example": "Many teenagers worry about acne.（許多青少年擔心青春痘。）",
-    "id": "L5-acne-mlmtt"
+    "id": "L5-acne-m3q5yd5"
   },
   {
     "level": "L5",
@@ -318,7 +318,7 @@
     "level": "L5",
     "word": "altitude",
     "meaning": "海拔",
-    "example": "The plane flew at a high altitude.（飛機在高海拔飛行。）",
+    "example": "The plane flew at a high altitude. (飛機在高空飛行。)",
     "id": "L5-altitude-mj5tp"
   },
   {
@@ -569,9 +569,9 @@
   {
     "level": "L5",
     "word": "batter",
-    "meaning": "猛擊",
+    "meaning": "n. 麵糊；v. 猛擊",
     "example": "Mix the batter until it is smooth.（把麵糊攪拌到平滑。）",
-    "id": "L5-batter-mk4r3"
+    "id": "L5-batter-n-v"
   },
   {
     "level": "L5",
@@ -604,9 +604,9 @@
   {
     "level": "L5",
     "word": "belongings",
-    "meaning": "財產",
+    "meaning": "隨身物品、財物",
     "example": "Keep your belongings with you.（請隨身保管你的物品。）",
-    "id": "L5-belongings-mok9t"
+    "id": "L5-belongings-m10zlpn2"
   },
   {
     "level": "L5",
@@ -674,9 +674,9 @@
   {
     "level": "L5",
     "word": "blot/stain",
-    "meaning": "汙漬(同；沾汙；汙點",
+    "meaning": "n. 汙漬、汙點；v. 沾汙",
     "example": "There is a stain on my white shirt.（我的白襯衫上有污漬。）",
-    "id": "L5-blot-stain-m1nby6ap"
+    "id": "L5-blot-stain-n-v"
   },
   {
     "level": "L5",
@@ -716,16 +716,16 @@
   {
     "level": "L5",
     "word": "bolt",
-    "meaning": "門閂；閃電 vt.vi.閂住",
+    "meaning": "n. 螺栓、門閂、閃電；v. 閂住",
     "example": "Tighten the bolt with a tool.（用工具把螺栓鎖緊。）",
-    "id": "L5-bolt-vt-vi"
+    "id": "L5-bolt-n-v"
   },
   {
     "level": "L5",
     "word": "bonus",
-    "meaning": "紅利",
+    "meaning": "獎金、紅利",
     "example": "The workers received a year-end bonus.（員工拿到了年終獎金。）",
-    "id": "L5-bonus-mlps4"
+    "id": "L5-bonus-m1798yn6"
   },
   {
     "level": "L5",
@@ -800,9 +800,9 @@
   {
     "level": "L5",
     "word": "brace",
-    "meaning": "支撐物；矯正器；大括號",
+    "meaning": "n. 支撐物、矯正器、大括號；v. 使做好準備、支撐",
     "example": "Brace yourself for the cold wind.（準備好迎接冷風吧。）",
-    "id": "L5-brace-m58e30g"
+    "id": "L5-brace-n-v"
   },
   {
     "level": "L5",
@@ -933,9 +933,9 @@
   {
     "level": "L5",
     "word": "calf",
-    "meaning": "小牛 (複:",
+    "meaning": "n. 小牛、小腿（複數：calves）",
     "example": "The calf stayed close to its mother.（小牛待在母牛身邊。）",
-    "id": "L5-calf-mrhbrd3"
+    "id": "L5-calf-n-calves"
   },
   {
     "level": "L5",
@@ -961,9 +961,9 @@
   {
     "level": "L5",
     "word": "carbon",
-    "meaning": "炭",
+    "meaning": "碳",
     "example": "Carbon is found in many living things.（碳存在於許多生物中。）",
-    "id": "L5-carbon-mm99"
+    "id": "L5-carbon-mnub"
   },
   {
     "level": "L5",
@@ -982,9 +982,9 @@
   {
     "level": "L5",
     "word": "caretaker",
-    "meaning": "照顧者",
+    "meaning": "管理員、照顧者",
     "example": "The caretaker opened the building in the morning.（管理員早上打開大樓。）",
-    "id": "L5-caretaker-mhcld1"
+    "id": "L5-caretaker-m19baxkw"
   },
   {
     "level": "L5",
@@ -1206,9 +1206,9 @@
   {
     "level": "L5",
     "word": "clam",
-    "meaning": "蛤；鉗子",
+    "meaning": "蛤蜊、蚌",
     "example": "We found a clam on the beach.（我們在海灘上找到一顆蛤蜊。）",
-    "id": "L5-clam-mi2k34g"
+    "id": "L5-clam-mhkihn5"
   },
   {
     "level": "L5",
@@ -1430,9 +1430,9 @@
   {
     "level": "L5",
     "word": "compound",
-    "meaning": "混合物 [kɑm`paʊnd] vt. 合成",
+    "meaning": "n. 化合物、混合物；v. 合成、加重",
     "example": "Water is a chemical compound.（水是一種化合物。）",
-    "id": "L5-compound-k-m-pa-nd-vt"
+    "id": "L5-compound-n-v"
   },
   {
     "level": "L5",
@@ -1724,9 +1724,9 @@
   {
     "level": "L5",
     "word": "crater",
-    "meaning": "火山口",
+    "meaning": "坑洞、火山口、隕石坑",
     "example": "The moon has many craters.（月球上有許多隕石坑。）",
-    "id": "L5-crater-mgwym5"
+    "id": "L5-crater-m1cmwkxn"
   },
   {
     "level": "L5",
@@ -1878,9 +1878,9 @@
   {
     "level": "L5",
     "word": "democrat",
-    "meaning": "民主主義者",
+    "meaning": "民主主義者；民主黨員",
     "example": "The democrat supported free elections.（那位民主黨人支持自由選舉。）",
-    "id": "L5-democrat-m6jyj59"
+    "id": "L5-democrat-m17ckrv5"
   },
   {
     "level": "L5",
@@ -2081,9 +2081,9 @@
   {
     "level": "L5",
     "word": "dresser",
-    "meaning": "梳妝台；(劇場)服裝員",
+    "meaning": "衣櫃、梳妝台；（劇場）服裝員",
     "example": "She keeps her clothes in a dresser.（她把衣服放在衣櫃裡。）",
-    "id": "L5-dresser-m1i1vlu0"
+    "id": "L5-dresser-mqmtduv"
   },
   {
     "level": "L5",
@@ -2249,9 +2249,9 @@
   {
     "level": "L5",
     "word": "estate",
-    "meaning": "財產",
+    "meaning": "地產、莊園、財產",
     "example": "The family owns a large estate.（那個家庭擁有一大片莊園。）",
-    "id": "L5-estate-mok9t"
+    "id": "L5-estate-m142n0rv"
   },
   {
     "level": "L5",
@@ -2508,9 +2508,9 @@
   {
     "level": "L5",
     "word": "fishery",
-    "meaning": "魚場",
+    "meaning": "漁業、漁場",
     "example": "The town depends on the fishery.（這個城鎮依靠漁業。）",
-    "id": "L5-fishery-mqwpm"
+    "id": "L5-fishery-mlcesco"
   },
   {
     "level": "L5",
@@ -2852,7 +2852,7 @@
     "level": "L5",
     "word": "grim",
     "meaning": "嚴厲的；無情的",
-    "example": "The news gave him a grim look.（這個消息讓他表情嚴肅。）",
+    "example": "He looked grim after hearing the news. (聽到消息後，他神情嚴肅。)",
     "id": "L5-grim-moad4i3"
   },
   {
@@ -2977,16 +2977,16 @@
   {
     "level": "L5",
     "word": "haunt",
-    "meaning": "不斷糾纏；困擾",
+    "meaning": "v. 鬧鬼；不斷糾纏、困擾",
     "example": "The old house is said to be haunted.（據說那棟老房子鬧鬼。）",
-    "id": "L5-haunt-m1185bou"
+    "id": "L5-haunt-v"
   },
   {
     "level": "L5",
     "word": "hearty",
-    "meaning": "真誠的",
+    "meaning": "adj. 豐盛的；真誠的、熱烈的",
     "example": "We ate a hearty breakfast.（我們吃了一頓豐盛的早餐。）",
-    "id": "L5-hearty-mi4coz"
+    "id": "L5-hearty-adj"
   },
   {
     "level": "L5",
@@ -3243,9 +3243,9 @@
   {
     "level": "L5",
     "word": "indifference",
-    "meaning": "冷淡；不重要",
+    "meaning": "冷漠、不在乎",
     "example": "His indifference hurt her feelings.（他的冷漠傷害了她的感情。）",
-    "id": "L5-indifference-m1v95yy8"
+    "id": "L5-indifference-m19zwqvv"
   },
   {
     "level": "L5",
@@ -3418,23 +3418,23 @@
   {
     "level": "L5",
     "word": "jack",
-    "meaning": "男人；侍者；水手",
+    "meaning": "n. 千斤頂；男人、侍者、水手",
     "example": "Use a jack to lift the car.（用千斤頂把車頂起來。）",
-    "id": "L5-jack-m1hkhxhe"
+    "id": "L5-jack-n"
   },
   {
     "level": "L5",
     "word": "jade",
     "meaning": "玉",
-    "example": "She wore a jade bracelet.（她戴著一只玉手鐲。）",
+    "example": "She wore a jade bracelet. (她戴著一只玉鐲。)",
     "id": "L5-jade-mmtl"
   },
   {
     "level": "L5",
     "word": "janitor",
-    "meaning": "管理員；看門人",
+    "meaning": "清潔工、管理員、看門人",
     "example": "The janitor cleaned the hallway.（清潔工打掃了走廊。）",
-    "id": "L5-janitor-mfd5dy"
+    "id": "L5-janitor-m1u7tn6d"
   },
   {
     "level": "L5",
@@ -3481,9 +3481,9 @@
   {
     "level": "L5",
     "word": "journalist",
-    "meaning": "新聞\\撰稿記者",
+    "meaning": "新聞記者、記者",
     "example": "The journalist interviewed the mayor.（記者採訪了市長。）",
-    "id": "L5-journalist-mwhdxd6"
+    "id": "L5-journalist-m5x3dmb"
   },
   {
     "level": "L5",
@@ -3558,9 +3558,9 @@
   {
     "level": "L5",
     "word": "landlord",
-    "meaning": "地主",
+    "meaning": "房東、地主",
     "example": "The landlord fixed the broken door.（房東修好了壞掉的門。）",
-    "id": "L5-landlord-mf9cb"
+    "id": "L5-landlord-m168mb96"
   },
   {
     "level": "L5",
@@ -3579,9 +3579,9 @@
   {
     "level": "L5",
     "word": "lawmaker",
-    "meaning": "立法之人",
+    "meaning": "立法者",
     "example": "The lawmaker proposed a new bill.（立法者提出了一項新法案。）",
-    "id": "L5-lawmaker-mfxvmwp"
+    "id": "L5-lawmaker-miip5n"
   },
   {
     "level": "L5",
@@ -3600,9 +3600,9 @@
   {
     "level": "L5",
     "word": "legislation",
-    "meaning": "制定法律",
+    "meaning": "法律、法規；立法",
     "example": "New legislation will protect the forest.（新法規將保護森林。）",
-    "id": "L5-legislation-mar8fp6"
+    "id": "L5-legislation-m1hfkp7k"
   },
   {
     "level": "L5",
@@ -3635,16 +3635,16 @@
   {
     "level": "L5",
     "word": "likelihood",
-    "meaning": "相似之處",
+    "meaning": "可能性",
     "example": "There is little likelihood of snow today.（今天下雪的可能性很小。）",
-    "id": "L5-likelihood-mfc6ram"
+    "id": "L5-likelihood-mcx1q1"
   },
   {
     "level": "L5",
     "word": "lime",
-    "meaning": "石灰",
+    "meaning": "萊姆、石灰",
     "example": "She added lime juice to the drink.（她把萊姆汁加進飲料。）",
-    "id": "L5-lime-ml0pp"
+    "id": "L5-lime-mul5wrm"
   },
   {
     "level": "L5",
@@ -3810,9 +3810,9 @@
   {
     "level": "L5",
     "word": "manifest",
-    "meaning": "顯然的；明白的",
+    "meaning": "adj. 明顯的；v. 顯現、顯示",
     "example": "Her fear began to manifest in her voice.（她的害怕開始在聲音中顯現。）",
-    "id": "L5-manifest-m1l9llyv"
+    "id": "L5-manifest-adj-v"
   },
   {
     "level": "L5",
@@ -3873,9 +3873,9 @@
   {
     "level": "L5",
     "word": "mash",
-    "meaning": "糊狀物",
+    "meaning": "v. 搗碎；n. 糊狀物",
     "example": "Mash the potatoes before adding butter.（加入奶油前先把馬鈴薯搗碎。）",
-    "id": "L5-mash-miu5mb"
+    "id": "L5-mash-v-n"
   },
   {
     "level": "L5",
@@ -3971,9 +3971,9 @@
   {
     "level": "L5",
     "word": "mingle",
-    "meaning": "混合",
+    "meaning": "v. 交際、互動；混合",
     "example": "The guests began to mingle at the party.（客人們在派對上開始交談互動。）",
-    "id": "L5-mingle-mj5yp"
+    "id": "L5-mingle-v"
   },
   {
     "level": "L5",
@@ -4041,9 +4041,9 @@
   {
     "level": "L5",
     "word": "mold",
-    "meaning": "模型；模式；鑄模",
+    "meaning": "n. 黴菌、模型、模式、鑄模；v. 塑造",
     "example": "The bread grew mold after a week.（麵包一週後發霉了。）",
-    "id": "L5-mold-m1un0jp5"
+    "id": "L5-mold-n-v"
   },
   {
     "level": "L5",
@@ -4139,9 +4139,9 @@
   {
     "level": "L5",
     "word": "muse",
-    "meaning": "沉思",
+    "meaning": "n. 繆思女神、靈感；v. 沉思",
     "example": "The poet waited for his muse.（詩人等待他的靈感女神。）",
-    "id": "L5-muse-mizlg"
+    "id": "L5-muse-n-v"
   },
   {
     "level": "L5",
@@ -4216,9 +4216,9 @@
   {
     "level": "L5",
     "word": "nickel",
-    "meaning": "鎳",
+    "meaning": "鎳；五分鎳幣",
     "example": "A nickel is worth five cents.（一枚五分鎳幣值五美分。）",
-    "id": "L5-nickel-mt6b"
+    "id": "L5-nickel-mg0npe2"
   },
   {
     "level": "L5",
@@ -4258,9 +4258,9 @@
   {
     "level": "L5",
     "word": "notable",
-    "meaning": "著名的",
+    "meaning": "顯著的；著名的",
     "example": "She made a notable improvement in English.（她的英文有顯著進步。）",
-    "id": "L5-notable-mjsrse"
+    "id": "L5-notable-mvysvov"
   },
   {
     "level": "L5",
@@ -4293,9 +4293,9 @@
   {
     "level": "L5",
     "word": "nowhere",
-    "meaning": "不知名的地方",
+    "meaning": "無處、哪裡都不；不知名的地方",
     "example": "My keys are nowhere to be found.（我的鑰匙到處都找不到。）",
-    "id": "L5-nowhere-m1v2bi3c"
+    "id": "L5-nowhere-m1hh300v"
   },
   {
     "level": "L5",
@@ -4426,9 +4426,9 @@
   {
     "level": "L5",
     "word": "orient",
-    "meaning": "東方",
+    "meaning": "v. 確定方向、使適應；（the Orient）東方",
     "example": "The map helped us orient ourselves.（地圖幫助我們辨認方向。）",
-    "id": "L5-orient-mi5ig"
+    "id": "L5-orient-v-the-orient"
   },
   {
     "level": "L5",
@@ -4447,9 +4447,9 @@
   {
     "level": "L5",
     "word": "orphanage",
-    "meaning": "orphanage 「孤兒院」。orphan 是「孤兒」",
+    "meaning": "孤兒院",
     "example": "The child grew up in an orphanage.（那個孩子在孤兒院長大。）",
-    "id": "L5-orphanage-orphanage-orphan"
+    "id": "L5-orphanage-mdsk38"
   },
   {
     "level": "L5",
@@ -4482,9 +4482,9 @@
   {
     "level": "L5",
     "word": "output",
-    "meaning": "出產；生產",
+    "meaning": "產量、輸出；出產、生產",
     "example": "The machine’s output increased this month.（這台機器本月產量增加了。）",
-    "id": "L5-output-m1g8andi"
+    "id": "L5-output-m1r53oc7"
   },
   {
     "level": "L5",
@@ -4559,9 +4559,9 @@
   {
     "level": "L5",
     "word": "overwhelm",
-    "meaning": "戰勝；淹沒",
+    "meaning": "使不知所措；淹沒；擊敗",
     "example": "The amount of homework overwhelmed him.（大量作業讓他不知所措。）",
-    "id": "L5-overwhelm-m149dqh3"
+    "id": "L5-overwhelm-m14yfdth"
   },
   {
     "level": "L5",
@@ -4573,9 +4573,9 @@
   {
     "level": "L5",
     "word": "oyster",
-    "meaning": "蛤蠣",
+    "meaning": "牡蠣、生蠔",
     "example": "We ate fresh oysters at the seaside restaurant.（我們在海邊餐廳吃了新鮮牡蠣。）",
-    "id": "L5-oyster-mnovz"
+    "id": "L5-oyster-m12eyet0"
   },
   {
     "level": "L5",
@@ -4594,9 +4594,9 @@
   {
     "level": "L5",
     "word": "packet",
-    "meaning": "小包裹",
+    "meaning": "小包、小袋、小包裹",
     "example": "I bought a packet of cookies.（我買了一包餅乾。）",
-    "id": "L5-packet-mdwan7"
+    "id": "L5-packet-mrneert"
   },
   {
     "level": "L5",
@@ -4678,9 +4678,9 @@
   {
     "level": "L5",
     "word": "patch",
-    "meaning": "補釘；貼片",
+    "meaning": "小片；補丁、貼片",
     "example": "There is a patch of grass behind the house.（房子後面有一小片草地。）",
-    "id": "L5-patch-m1lcozu2"
+    "id": "L5-patch-me7rug4"
   },
   {
     "level": "L5",
@@ -4846,9 +4846,9 @@
   {
     "level": "L5",
     "word": "pimple",
-    "meaning": "面匏",
+    "meaning": "面皰、痘痘",
     "example": "He had a pimple on his nose.（他的鼻子上長了一顆痘痘。）",
-    "id": "L5-pimple-mq7e5"
+    "id": "L5-pimple-m12u527n"
   },
   {
     "level": "L5",
@@ -4902,9 +4902,9 @@
   {
     "level": "L5",
     "word": "plead",
-    "meaning": "辯護；承認",
+    "meaning": "懇求；辯護；認罪、承認",
     "example": "The child began to plead for another chance.（那個孩子開始懇求再一次機會。）",
-    "id": "L5-plead-mc6zr1d"
+    "id": "L5-plead-m1fwti1r"
   },
   {
     "level": "L5",
@@ -4937,9 +4937,9 @@
   {
     "level": "L5",
     "word": "pocketbook",
-    "meaning": "袖珍書",
+    "meaning": "皮夾、錢包；袖珍本",
     "example": "She kept her money in a small pocketbook.（她把錢放在小皮夾裡。）",
-    "id": "L5-pocketbook-mkkh5t"
+    "id": "L5-pocketbook-mgyssry"
   },
   {
     "level": "L5",
@@ -4979,9 +4979,9 @@
   {
     "level": "L5",
     "word": "potential",
-    "meaning": "潛在的",
+    "meaning": "adj. 潛在的；n. 潛力",
     "example": "She has great potential as a singer.（她很有成為歌手的潛力。）",
-    "id": "L5-potential-mgqnef"
+    "id": "L5-potential-adj-n"
   },
   {
     "level": "L5",
@@ -5028,9 +5028,9 @@
   {
     "level": "L5",
     "word": "preview",
-    "meaning": "預習",
+    "meaning": "預告、預覽；預習",
     "example": "We watched a preview of the movie.（我們看了那部電影的預告片。）",
-    "id": "L5-preview-mqkea"
+    "id": "L5-preview-m14lb1rd"
   },
   {
     "level": "L5",
@@ -5056,9 +5056,9 @@
   {
     "level": "L5",
     "word": "prior",
-    "meaning": "優先的",
+    "meaning": "adj. 在前的、先前的；prior to 在……之前",
     "example": "Please tell me prior to the meeting.（請在會議前告訴我。）",
-    "id": "L5-prior-mcag9y"
+    "id": "L5-prior-adj-prior-to"
   },
   {
     "level": "L5",
@@ -5140,9 +5140,9 @@
   {
     "level": "L5",
     "word": "puff",
-    "meaning": "泡芙",
+    "meaning": "一股（煙、氣）；喘息；泡芙",
     "example": "A puff of smoke came from the chimney.（一股煙從煙囪冒出來。）",
-    "id": "L5-puff-mj8ig"
+    "id": "L5-puff-msr15w6"
   },
   {
     "level": "L5",
@@ -5266,9 +5266,9 @@
   {
     "level": "L5",
     "word": "rattle",
-    "meaning": "喀喀聲 realm[rɛlm] n. 王國",
+    "meaning": "喀喀聲；搖鈴",
     "example": "The baby shook the rattle.（寶寶搖著搖鈴。）",
-    "id": "L5-rattle-realm-r-lm-n"
+    "id": "L5-rattle-m1obb7uv"
   },
   {
     "level": "L5",
@@ -5322,9 +5322,9 @@
   {
     "level": "L5",
     "word": "reel",
-    "meaning": "捲、捆",
+    "meaning": "捲軸；捲、捆",
     "example": "He wound the fishing line onto the reel.（他把釣魚線繞到捲軸上。）",
-    "id": "L5-reel-met2zb"
+    "id": "L5-reel-m1sbuoy"
   },
   {
     "level": "L5",
@@ -5378,9 +5378,9 @@
   {
     "level": "L5",
     "word": "repay",
-    "meaning": "回報",
+    "meaning": "償還；回報",
     "example": "I will repay you next week.（我下週會還你錢。）",
-    "id": "L5-repay-mf9cj"
+    "id": "L5-repay-m1gc2gi1"
   },
   {
     "level": "L5",
@@ -5910,16 +5910,16 @@
   {
     "level": "L5",
     "word": "shutter",
-    "meaning": "百葉窗；快門 silkworm[`sɪlk͵wɝm] n. 蠶",
+    "meaning": "百葉窗；快門",
     "example": "Close the shutter before the storm.（暴風雨前把百葉窗關上。）",
-    "id": "L5-shutter-silkworm-s-lk-w-m-n"
+    "id": "L5-shutter-m1en1y04"
   },
   {
     "level": "L5",
     "word": "silkworm",
-    "meaning": "蠶（會吐絲的幼蟲",
+    "meaning": "蠶（會吐絲的幼蟲）",
     "example": "Silkworms eat mulberry leaves.（蠶吃桑葉。）",
-    "id": "L5-silkworm-mbfu407"
+    "id": "L5-silkworm-m1yiimn6"
   },
   {
     "level": "L5",
@@ -6225,9 +6225,9 @@
   {
     "level": "L5",
     "word": "stake",
-    "meaning": "樁；賭注；危險",
+    "meaning": "股份、利害關係；樁；賭注；危險",
     "example": "He has a stake in the company.（他在這家公司有股份。）",
-    "id": "L5-stake-m1mec2f3"
+    "id": "L5-stake-mk2gjix"
   },
   {
     "level": "L5",
@@ -6351,9 +6351,9 @@
   {
     "level": "L5",
     "word": "stout",
-    "meaning": "堅固的",
+    "meaning": "壯碩的、結實的；堅固的",
     "example": "The stout man carried the heavy box easily.（那位壯碩的男人輕鬆搬起重箱子。）",
-    "id": "L5-stout-mdbki7"
+    "id": "L5-stout-m1cjqa8b"
   },
   {
     "level": "L5",
@@ -6372,9 +6372,9 @@
   {
     "level": "L5",
     "word": "strain",
-    "meaning": "拉緊",
+    "meaning": "使勞損、使疲勞；拉緊；扭傷",
     "example": "Too much work can strain your eyes.（工作太多會使眼睛疲勞。）",
-    "id": "L5-strain-mhhr5"
+    "id": "L5-strain-mr4hqpt"
   },
   {
     "level": "L5",
@@ -6456,9 +6456,9 @@
   {
     "level": "L5",
     "word": "stun",
-    "meaning": "使昏厥",
+    "meaning": "使震驚；使昏厥",
     "example": "The news stunned everyone.（這個消息震驚了所有人。）",
-    "id": "L5-stun-mc4zzp"
+    "id": "L5-stun-m1we55ik"
   },
   {
     "level": "L5",
@@ -6827,9 +6827,9 @@
   {
     "level": "L5",
     "word": "torment",
-    "meaning": "痛苦",
+    "meaning": "v. 折磨；n. 痛苦",
     "example": "The memory continued to torment him.（那段記憶一直折磨著他。）",
-    "id": "L5-torment-mkrjf"
+    "id": "L5-torment-v-n"
   },
   {
     "level": "L5",
@@ -6841,9 +6841,9 @@
   {
     "level": "L5",
     "word": "torture",
-    "meaning": "痛苦",
+    "meaning": "折磨、酷刑；痛苦",
     "example": "The prisoner suffered torture.（囚犯遭受折磨。）",
-    "id": "L5-torture-mkrjf"
+    "id": "L5-torture-m1mfi0aj"
   },
   {
     "level": "L5",
