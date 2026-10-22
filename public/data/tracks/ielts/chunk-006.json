@@ -1,20 +1,6 @@
 [
   {
     "level": "IELTS",
-    "word": "battle",
-    "meaning": "n. 戰鬥；戰役 v. 與……戰鬥",
-    "example": "The long battle for control of the coastal city lasted almost three weeks. (爭奪這座沿海城市控制權的漫長戰役持續了將近三週。)",
-    "id": "IELTS-battle-n-v"
-  },
-  {
-    "level": "IELTS",
-    "word": "struggle",
-    "meaning": "v. 掙扎；奮鬥 n. 掙扎；奮鬥",
-    "example": "Many low-income families struggle to pay their rent and heating bills in winter. (許多低收入家庭在冬天苦苦掙扎，才能付得出房租和暖氣費。)",
-    "id": "IELTS-struggle-v-n"
-  },
-  {
-    "level": "IELTS",
     "word": "explosion",
     "meaning": "n. 爆發；爆炸；激增",
     "example": "The gas explosion damaged several nearby buildings but caused no serious injuries at all. (這起瓦斯爆炸損壞了幾棟附近的建築，但完全沒有造成重傷。)",
@@ -2724,10 +2710,10 @@
   },
   {
     "level": "IELTS",
-    "word": "flu/influenze",
+    "word": "flu/influenza",
     "meaning": "n. 流行性感冒；流感",
     "example": "She caught the flu and stayed in bed for most of the week. (她得了流感，那個星期大部分時間都躺在床上。)",
-    "id": "IELTS-flu-influenze-n"
+    "id": "IELTS-flu-influenza-n"
   },
   {
     "level": "IELTS",
@@ -3995,13 +3981,6 @@
     "meaning": "adj. 現在的；出席的 n. 目前；禮物",
     "example": "The present transport system cannot cope with the growing number of daily visitors. (現在的運輸系統無法應付日益增加的每日訪客。)",
     "id": "IELTS-present-adj-n"
-  },
-  {
-    "level": "IELTS",
-    "word": "contemporary",
-    "meaning": "adj. 當代的；同時代的",
-    "example": "The new gallery displays contemporary art from several countries in Asia and Latin America. (新藝廊展出亞洲和拉丁美洲好幾個國家的當代藝術。)",
-    "id": "IELTS-contemporary-adj"
   },
   {
     "level": "IELTS",

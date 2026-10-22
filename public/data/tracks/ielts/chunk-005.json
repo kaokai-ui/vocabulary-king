@@ -1,13 +1,6 @@
 [
   {
     "level": "IELTS",
-    "word": "chapter",
-    "meaning": "n. （書的）章；（人生或歷史的）重要時刻",
-    "example": "The final chapter of the report discusses how the findings should be used. (報告的最後一章討論這些研究結果應如何應用。)",
-    "id": "IELTS-chapter-n"
-  },
-  {
-    "level": "IELTS",
     "word": "minor",
     "meaning": "n. 輔修科目 adj. 不嚴重的；次要的",
     "example": "He suffered only minor injuries and was released from hospital the same day. (他只受了不嚴重的傷，當天就出院了。)",
@@ -2602,13 +2595,6 @@
     "meaning": "n. 無用的東西；廢物",
     "example": "The garage was full of old junk that nobody had used for years. (車庫裡塞滿了多年來沒人用過的舊雜物。)",
     "id": "IELTS-junk-n"
-  },
-  {
-    "level": "IELTS",
-    "word": "landfill",
-    "meaning": "n. 垃圾掩埋場；垃圾掩埋",
-    "example": "The city plans to close the landfill and turn the site into a public park. (市政府計劃關閉垃圾掩埋場，並把該處改建成公園。)",
-    "id": "IELTS-landfill-n"
   },
   {
     "level": "IELTS",
@@ -6998,5 +6984,19 @@
     "meaning": "n. 巨大；滔天大罪",
     "example": "She did not fully understand the enormity of the decision until several years later. (直到好幾年後，她才完全理解這個決定有多重大。)",
     "id": "IELTS-enormity-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "battle",
+    "meaning": "n. 戰鬥；戰役 v. 與……戰鬥",
+    "example": "The long battle for control of the coastal city lasted almost three weeks. (爭奪這座沿海城市控制權的漫長戰役持續了將近三週。)",
+    "id": "IELTS-battle-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "struggle",
+    "meaning": "v. 掙扎；奮鬥 n. 掙扎；奮鬥",
+    "example": "Many low-income families struggle to pay their rent and heating bills in winter. (許多低收入家庭在冬天苦苦掙扎，才能付得出房租和暖氣費。)",
+    "id": "IELTS-struggle-v-n"
   }
 ]

@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import xlsx from "xlsx";
 
-export const IELTS_EXPECTED_WORD_COUNT = 5597;
+export const IELTS_EXPECTED_WORD_COUNT = 5594;
 
 const IELTS_TASK_DIRECTORY = "docs/tasks/ielts-merge-20261022";
 const PART_FILE_PATTERN = /^part-(\d{2})\.jsonl$/u;

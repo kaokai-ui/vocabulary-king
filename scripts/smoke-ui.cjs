@@ -24,10 +24,10 @@ async function run() {
 
   await desktop.getByRole("button", { name: /功能設定|Feature Settings/i }).click();
   await desktop.locator(".settings-select").first().selectOption("ielts");
-  await desktop.getByText("5597", { exact: true }).waitFor({ state: "visible" });
+  await desktop.getByText("5594", { exact: true }).waitFor({ state: "visible" });
   await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
   await capture(desktop, "home-desktop.png");
-  console.log("IELTS selected; 5597 words loaded");
+  console.log("IELTS selected; 5594 words loaded");
 
   await desktop.getByRole("button", { name: /閃卡練習[（(]隨機[）)]|Flashcards \\(Random\\)/i }).click();
   await desktop.locator(".flashcard-word-lines").waitFor({ state: "visible" });

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "a02a00e4e0a0",
+  "generatedAt": "e8d346796624",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -271,7 +271,7 @@
       "available": true,
       "title": "IELTS",
       "sourceWorkbookKey": "ielts-final-workbook",
-      "totalWords": 5597,
+      "totalWords": 5594,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -302,7 +302,7 @@
         {
           "id": "ielts-chunk-6",
           "path": "data/tracks/ielts/chunk-006.json",
-          "wordCount": 597
+          "wordCount": 594
         }
       ]
     }
