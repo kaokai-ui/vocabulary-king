@@ -18,6 +18,25 @@ export function getVocabularyDataRepoPath(env = process.env) {
   return path.resolve(env.VOCABULARY_DATA_REPO || DEFAULT_DATA_REPO);
 }
 
+function normalizeExtraLocales(value) {
+  const requested = (Array.isArray(value) ? value : [value])
+    .flatMap((item) => String(item ?? "").split(","))
+    .map((locale) => locale.trim().toLowerCase())
+    .filter(Boolean);
+  const unsupported = [...new Set(requested)].filter((locale) => !Object.hasOwn(EXTRA_LOCALES, locale));
+
+  if (unsupported.length > 0) {
+    throw new Error(`Unsupported vocabulary export locale(s): ${unsupported.join(", ")}. Supported locales: ja, ko.`);
+  }
+
+  const requestedSet = new Set(requested);
+  return Object.keys(EXTRA_LOCALES).filter((locale) => requestedSet.has(locale));
+}
+
+export function getVocabularyExportExtraLocales(env = process.env) {
+  return normalizeExtraLocales(env.VOCAB_EXPORT_EXTRA_LOCALES ?? "");
+}
+
 function readTrackSourceRows(dataRepoRoot, trackId) {
   const filePath = path.join(dataRepoRoot, "data", `${trackId}.jsonl`);
 
@@ -85,7 +104,7 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
   };
 }
 
-function prepareTracks(dataRepoRoot) {
+function prepareTracks(dataRepoRoot, extraLocales) {
   const prepared = new Map();
 
   for (const definition of TRACK_DEFINITIONS) {
@@ -109,16 +128,18 @@ function prepareTracks(dataRepoRoot) {
     }
 
     const translationsByLocale = Object.fromEntries(
-      Object.entries(EXTRA_LOCALES).map(([locale, fields]) => [
-        locale,
-        exportRecords
+      extraLocales.map((locale) => {
+        const fields = EXTRA_LOCALES[locale];
+        const translatedRecords = exportRecords
           .map((record) => ({
             id: record.id,
             meaning: String(sourceRows[record.sourceIndex]?.[fields.meaningField] ?? "").trim(),
             example: String(sourceRows[record.sourceIndex]?.[fields.exampleField] ?? "").trim()
           }))
-          .filter((record) => record.meaning || record.example)
-      ])
+          .filter((record) => record.meaning || record.example);
+
+        return [locale, translatedRecords];
+      })
     );
 
     prepared.set(definition.id, { records, translationsByLocale });
@@ -127,9 +148,14 @@ function prepareTracks(dataRepoRoot) {
   return prepared;
 }
 
-export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(), dataRoot = DATA_ROOT } = {}) {
+export function exportGameVocabulary({
+  dataRepoRoot = getVocabularyDataRepoPath(),
+  dataRoot = DATA_ROOT,
+  extraLocales = getVocabularyExportExtraLocales()
+} = {}) {
   const resolvedDataRepoRoot = path.resolve(dataRepoRoot);
   const resolvedDataRoot = path.resolve(dataRoot);
+  const localesToExport = normalizeExtraLocales(extraLocales);
 
   if (!fs.existsSync(resolvedDataRepoRoot)) {
     console.log(
@@ -145,7 +171,7 @@ export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(
 
   // Read and validate every track before touching public/data so an incomplete
   // local source repo cannot leave a partially refreshed public bundle.
-  const preparedTracks = prepareTracks(resolvedDataRepoRoot);
+  const preparedTracks = prepareTracks(resolvedDataRepoRoot, localesToExport);
   const tracksRoot = path.join(resolvedDataRoot, "tracks");
   const catalogTracks = {};
   const summaries = [];
@@ -177,7 +203,7 @@ export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(
 
       const localeCatalog = {};
 
-      for (const locale of Object.keys(EXTRA_LOCALES)) {
+      for (const locale of localesToExport) {
         const translatedRecords = prepared.translationsByLocale[locale] ?? [];
         if (translatedRecords.length === 0) {
           continue;

@@ -5,6 +5,7 @@ import {
   buildStableVocabularyId,
   hashVocabularyPart
 } from "../src/lib/vocabularyIdentity.js";
+import { assertNoPublicLocaleArtifacts } from "./vocabulary-locale-safety.mjs";
 
 const dataRoot = path.resolve("public/data");
 const catalogPath = path.join(dataRoot, "catalog.json");
@@ -20,6 +21,7 @@ function assert(condition, message) {
 }
 
 const catalog = readJson(catalogPath);
+assertNoPublicLocaleArtifacts(dataRoot, catalog);
 
 assert(catalog && typeof catalog === "object", "Catalog must be a JSON object.");
 assert(catalog.tracks && typeof catalog.tracks === "object", "Catalog must contain tracks.");

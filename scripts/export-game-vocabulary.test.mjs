@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { exportGameVocabulary } from "./export-game-vocabulary.mjs";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 
@@ -41,6 +41,7 @@ function createSourceRepo(translationsByTrack = {}) {
 }
 
 afterEach(() => {
+  vi.unstubAllEnvs();
   for (const directory of temporaryDirectories.splice(0)) {
     fs.rmSync(directory, { recursive: true, force: true });
   }
@@ -48,6 +49,7 @@ afterEach(() => {
 
 describe("exportGameVocabulary locale overlays", () => {
   it("exports per-language id, meaning, and example chunks with catalog counts", () => {
+    vi.stubEnv("VOCAB_EXPORT_EXTRA_LOCALES", "ja,ko");
     const dataRepoRoot = createSourceRepo({
       "junior-high": {
         meaning_ja: "豊富な",
@@ -91,6 +93,7 @@ describe("exportGameVocabulary locale overlays", () => {
   });
 
   it("creates no locale files or catalog metadata when translation fields are blank", () => {
+    vi.stubEnv("VOCAB_EXPORT_EXTRA_LOCALES", "");
     const dataRepoRoot = createSourceRepo();
     const dataRoot = path.join(createTempDirectory(), "public", "data");
 
@@ -101,5 +104,30 @@ describe("exportGameVocabulary locale overlays", () => {
     expect(catalog.tracks["junior-high"]).not.toHaveProperty("locales");
     expect(fs.existsSync(path.join(dataRoot, "tracks", "junior-high", "ja"))).toBe(false);
     expect(fs.existsSync(path.join(dataRoot, "tracks", "junior-high", "ko"))).toBe(false);
+  });
+
+  it("omits locale files and metadata by default even when source translations exist", () => {
+    vi.stubEnv("VOCAB_EXPORT_EXTRA_LOCALES", "");
+    const dataRepoRoot = createSourceRepo({
+      "junior-high": { meaning_ja: "豊富な", meaning_ko: "풍부한" }
+    });
+    const dataRoot = path.join(createTempDirectory(), "public", "data");
+
+    exportGameVocabulary({ dataRepoRoot, dataRoot });
+
+    const catalog = JSON.parse(fs.readFileSync(path.join(dataRoot, "catalog.json"), "utf8"));
+
+    expect(catalog.tracks["junior-high"]).not.toHaveProperty("locales");
+    expect(fs.existsSync(path.join(dataRoot, "tracks", "junior-high", "ja"))).toBe(false);
+    expect(fs.existsSync(path.join(dataRoot, "tracks", "junior-high", "ko"))).toBe(false);
+  });
+
+  it("rejects unsupported locale values instead of silently ignoring typos", () => {
+    vi.stubEnv("VOCAB_EXPORT_EXTRA_LOCALES", "jp");
+    const dataRepoRoot = createSourceRepo();
+    const dataRoot = path.join(createTempDirectory(), "public", "data");
+
+    expect(() => exportGameVocabulary({ dataRepoRoot, dataRoot })).toThrow(/Unsupported vocabulary export locale/);
+    expect(fs.existsSync(dataRoot)).toBe(false);
   });
 });

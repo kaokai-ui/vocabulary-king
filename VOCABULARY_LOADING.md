@@ -63,6 +63,29 @@ Instead it:
 
 This keeps initial network and parse cost bounded to a single active track.
 
+## Japanese and Korean Export
+
+`npm run build:vocab` exports the public web dataset without Japanese or Korean overlay files, even when the source data repository contains translations. The public `catalog.json` therefore has no `locales` metadata.
+
+To opt into locale overlays for a deliberate PowerShell build, set `VOCAB_EXPORT_EXTRA_LOCALES` to `ja`, `ko`, or `ja,ko` before running `rtk npm run build:vocab`. For example:
+
+```powershell
+$env:VOCAB_EXPORT_EXTRA_LOCALES = "ja,ko"
+rtk npm run build:vocab
+```
+
+Only those requested locales are included in the generated catalog and track folders.
+
+For a local iOS data bundle, export both locales to an empty folder outside the VocabularyKing repo and the vocabulary data repo:
+
+```powershell
+rtk npm run export:ios-locales -- --out "D:\Game\VocabularyKing-ios-export"
+```
+
+The output contains `catalog.json`, the base track chunks, and available locale overlays under `tracks/<track-id>/ja/` and `tracks/<track-id>/ko/`. The command requires an explicit `--out` folder and rejects targets inside either repo or non-empty folders.
+
+`rtk npm run verify:vocab` fails if `public/data` contains any `ja` or `ko` path or any `locales` catalog property.
+
 ## Cache Behavior
 
 The runtime keeps two in-memory caches:
