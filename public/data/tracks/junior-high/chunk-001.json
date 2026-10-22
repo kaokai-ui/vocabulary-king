@@ -44,9 +44,9 @@
   {
     "level": "L1",
     "word": "act",
-    "meaning": "行動",
+    "meaning": "行動；表演、演戲",
     "example": "He likes to act in school plays. (他喜歡在學校戲劇裡表演。)",
-    "id": "L1-act-mnmyx"
+    "id": "L1-act-mhwn7ep"
   },
   {
     "level": "L1",
@@ -58,9 +58,9 @@
   {
     "level": "L1",
     "word": "actor/actress",
-    "meaning": "男演員",
+    "meaning": "男演員、女演員",
     "example": "The actor smiled at everyone. (那位男演員對大家微笑。)",
-    "id": "L1-actor-actress-mhpfic"
+    "id": "L1-actor-actress-m1rs8n4z"
   },
   {
     "level": "L1",
@@ -72,9 +72,9 @@
   {
     "level": "L1",
     "word": "address",
-    "meaning": "演說；演講；向…講話；寫信給…。地址",
+    "meaning": "n. 地址、演說；v. 向……講話、致詞；寫信給……",
     "example": "Please write your address clearly on the form.（請在表格上清楚寫下你的地址。）",
-    "id": "L1-address-mkwlqd7"
+    "id": "L1-address-n-v"
   },
   {
     "level": "L1",
@@ -114,9 +114,9 @@
   {
     "level": "L1",
     "word": "against",
-    "meaning": "反對",
+    "meaning": "反對、靠著、倚著",
     "example": "The ladder is leaning against the wall.（梯子靠在牆上。）",
-    "id": "L1-against-merc0"
+    "id": "L1-against-m79xo4m"
   },
   {
     "level": "L1",
@@ -143,7 +143,7 @@
     "level": "L1",
     "word": "ahead",
     "meaning": "在前面、提前",
-    "example": "Look ahead and plan for the future. (向前看，為未來做計劃。)",
+    "example": "Look ahead and plan for the future. (向前看，為未來做計畫。)",
     "id": "L1-ahead-m11ikabl"
   },
   {
@@ -192,7 +192,7 @@
     "level": "L1",
     "word": "almost",
     "meaning": "幾乎、差不多",
-    "example": "We are almost finished with the project. (我們的項目差不多完成了。)",
+    "example": "We are almost finished with the project. (我們的專案差不多完成了。)",
     "id": "L1-almost-m19ukaa2"
   },
   {
@@ -436,15 +436,15 @@
   {
     "level": "L1",
     "word": "back",
-    "meaning": "背部、返回、支持",
-    "example": "Please sit back and relax during the flight. (飛行期間請坐好並放鬆。)",
-    "id": "L1-back-m1kxt4v8"
+    "meaning": "背部、返回、支持、向後；往後",
+    "example": "Please sit back and relax during the flight. (飛行期間請往後靠並放鬆。)",
+    "id": "L1-back-m1tyexyn"
   },
   {
     "level": "L1",
     "word": "bad",
     "meaning": "壞的、糟糕的",
-    "example": "Smoking is bad for your health. (吸煙對健康有害。)",
+    "example": "Smoking is bad for your health. (吸菸對健康有害。)",
     "id": "L1-bad-mimaa7n"
   },
   {
@@ -563,7 +563,7 @@
     "level": "L1",
     "word": "bathroom",
     "meaning": "浴室、洗手間",
-    "example": "The hotel bathroom was clean and modern. (酒店浴室乾淨且現代化。)",
+    "example": "The hotel bathroom was clean and modern. (飯店的浴室乾淨又現代。)",
     "id": "L1-bathroom-m1snooi6"
   },
   {
@@ -577,7 +577,7 @@
     "level": "L1",
     "word": "beach",
     "meaning": "海灘、沙灘",
-    "example": "Families enjoyed swimming at the sandy beach. (家庭在沙灘上享受游泳。)",
+    "example": "Families enjoyed swimming at the sandy beach. (一家人在沙灘上享受游泳的樂趣。)",
     "id": "L1-beach-mg76edb"
   },
   {
@@ -612,7 +612,7 @@
     "level": "L1",
     "word": "because",
     "meaning": "因為、由於",
-    "example": "She stayed home because she was feeling sick. (她待在家裡因為感覺不舒服。)",
+    "example": "She stayed home because she was feeling sick. (她因為不舒服而待在家裡。)",
     "id": "L1-because-m1xzga4y"
   },
   {
@@ -731,7 +731,7 @@
     "level": "L1",
     "word": "bird",
     "meaning": "鳥類",
-    "example": "Many birds migrate south during winter. (許多鳥類在冬季向南遷徙。)",
+    "example": "Many birds fly south in winter. (許多鳥在冬天飛向南方。)",
     "id": "L1-bird-mriu1"
   },
   {
@@ -751,9 +751,9 @@
   {
     "level": "L1",
     "word": "bite",
-    "meaning": "咬、叮",
+    "meaning": "咬、叮；咬傷、叮咬",
     "example": "The mosquito bite made her arm itchy. (蚊子叮咬讓她的手臂發癢。)",
-    "id": "L1-bite-mcn3jt"
+    "id": "L1-bite-m1a69ggi"
   },
   {
     "level": "L1",
@@ -864,7 +864,7 @@
     "level": "L1",
     "word": "brave",
     "meaning": "勇敢的、英勇的",
-    "example": "The brave firefighter rescued the trapped family. (勇敢的消防員救出了被困的家庭。)",
+    "example": "The brave firefighter rescued the trapped family. (勇敢的消防員救出受困的一家人。)",
     "id": "L1-brave-myjugeu"
   },
   {
@@ -899,7 +899,7 @@
     "level": "L1",
     "word": "bright",
     "meaning": "明亮的、聰明的",
-    "example": "The bright student always asks thoughtful questions. (聰明的學生總是問深思熟慮的問題。)",
+    "example": "The bright student always asks thoughtful questions. (聰明的學生總是提出有深度的問題。)",
     "id": "L1-bright-mzsao89"
   },
   {
@@ -955,7 +955,7 @@
     "level": "L1",
     "word": "busy",
     "meaning": "忙碌的、繁忙的",
-    "example": "The busy intersection has traffic lights. (繁忙的十字路口有交通燈。)",
+    "example": "The busy intersection has traffic lights. (繁忙的十字路口有紅綠燈。)",
     "id": "L1-busy-m16kc918"
   },
   {
@@ -989,9 +989,9 @@
   {
     "level": "L1",
     "word": "by",
-    "meaning": "被、通過、在...旁邊",
+    "meaning": "被、藉由、透過、在……旁邊",
     "example": "The book was written by a famous author. (這本書是由著名作者寫的。)",
-    "id": "L1-by-m1ac8l52"
+    "id": "L1-by-m1p6l8b6"
   },
   {
     "level": "L1",
@@ -1039,7 +1039,7 @@
     "level": "L1",
     "word": "can",
     "meaning": "能夠、罐頭",
-    "example": "You can achieve anything with hard work. (通過努力工作你可以實現任何事情。)",
+    "example": "You can achieve anything with hard work. (透過努力，你可以實現任何事。)",
     "id": "L1-can-miku2gr"
   },
   {
@@ -1060,7 +1060,7 @@
     "level": "L1",
     "word": "car",
     "meaning": "汽車、車廂",
-    "example": "The electric car is environmentally friendly. (電動汽車對環境友好。)",
+    "example": "The electric car is environmentally friendly. (電動車很環保。)",
     "id": "L1-car-mg847os"
   },
   {
@@ -1102,7 +1102,7 @@
     "level": "L1",
     "word": "cat",
     "meaning": "貓",
-    "example": "The friendly cat purrs when petted gently. (友善的貓被輕撫時會發出呼嚕聲。)",
+    "example": "The friendly cat purrs softly. (友善的貓輕輕發出呼嚕聲。)",
     "id": "L1-cat-mrrn"
   },
   {
@@ -1144,7 +1144,7 @@
     "level": "L1",
     "word": "chair",
     "meaning": "椅子、主席",
-    "example": "The comfortable chair supports good posture. (舒適的椅子支撐良好的姿勢。)",
+    "example": "This chair is very comfortable. (這張椅子很舒服。)",
     "id": "L1-chair-m1v6xi6g"
   },
   {
@@ -1158,7 +1158,7 @@
     "level": "L1",
     "word": "chart",
     "meaning": "圖表、海圖",
-    "example": "The chart shows population growth over time. (圖表顯示人口隨時間的增長。)",
+    "example": "The chart shows population growth over time. (圖表顯示人口隨著時間增加。)",
     "id": "L1-chart-m2righa"
   },
   {
@@ -1172,7 +1172,7 @@
     "level": "L1",
     "word": "check",
     "meaning": "檢查、支票",
-    "example": "Please check your answers before submitting the test. (提交考試前請檢查你的答案。)",
+    "example": "Please check your answers before submitting the test. (交卷前請檢查你的答案。)",
     "id": "L1-check-m4257xz"
   },
   {
@@ -1221,7 +1221,7 @@
     "level": "L1",
     "word": "city",
     "meaning": "城市",
-    "example": "The city offers many cultural attractions to visitors. (城市為遊客提供許多文化景點。)",
+    "example": "The city has many museums and parks. (這座城市有許多博物館和公園。)",
     "id": "L1-city-mfg8k"
   },
   {
@@ -1290,9 +1290,9 @@
   {
     "level": "L1",
     "word": "cocoa",
-    "meaning": "可可豆",
+    "meaning": "可可豆、可可飲料",
     "example": "I drank hot cocoa on a cold night.（我在寒冷的夜晚喝了熱可可。）",
-    "id": "L1-cocoa-mcpmjq"
+    "id": "L1-cocoa-mcz2ile"
   },
   {
     "level": "L1",
@@ -1332,9 +1332,9 @@
   {
     "level": "L1",
     "word": "common",
-    "meaning": "普通的",
+    "meaning": "普通的、常見的",
     "example": "This is a common mistake in English.（這是英文中常見的錯誤。）",
-    "id": "L1-common-mfp9qw"
+    "id": "L1-common-m1xeeo3s"
   },
   {
     "level": "L1",
@@ -1731,9 +1731,9 @@
   {
     "level": "L1",
     "word": "dream",
-    "meaning": "夢想",
+    "meaning": "夢想、夢、夢境",
     "example": "I had a funny dream last night.（我昨晚做了一個有趣的夢。）",
-    "id": "L1-dream-mfoy9"
+    "id": "L1-dream-mlv4100"
   },
   {
     "level": "L1",
@@ -1788,7 +1788,7 @@
     "level": "L1",
     "word": "each",
     "meaning": "每個、各自",
-    "example": "Each student must complete the assignment individually. (每個學生都必須單獨完成作業。)",
+    "example": "Each student must finish the work alone. (每個學生都必須獨自完成作業。)",
     "id": "L1-each-m5n9l6z"
   },
   {
@@ -1844,21 +1844,21 @@
     "level": "L1",
     "word": "eat",
     "meaning": "吃、進食",
-    "example": "Athletes eat nutritious foods for energy. (運動員吃營養食物獲取能量。)",
+    "example": "Athletes eat healthy food for energy. (運動員吃健康的食物補充能量。)",
     "id": "L1-eat-mat78i3"
   },
   {
     "level": "L1",
     "word": "edge",
-    "meaning": "邊緣、優勢",
+    "meaning": "邊緣、優勢、刀刃、刀口",
     "example": "Sharp knives have a dangerous edge. (鋒利的刀有危險的刀刃。)",
-    "id": "L1-edge-mczbvy8"
+    "id": "L1-edge-m7cv8io"
   },
   {
     "level": "L1",
     "word": "egg",
     "meaning": "雞蛋、卵",
-    "example": "Fresh eggs provide excellent protein. (新鮮雞蛋提供優質蛋白質。)",
+    "example": "Eggs are good for your health. (雞蛋對健康有益。)",
     "id": "L1-egg-mjl0h6p"
   },
   {
@@ -1907,7 +1907,7 @@
     "level": "L1",
     "word": "else",
     "meaning": "其他、否則",
-    "example": "Nobody else volunteered for the project. (沒有其他人自願參加這個項目。)",
+    "example": "Nobody else volunteered for the project. (沒有其他人自願參加這個專案。)",
     "id": "L1-else-m18jbvcy"
   },
   {
@@ -1956,7 +1956,7 @@
     "level": "L1",
     "word": "evening",
     "meaning": "傍晚、晚上",
-    "example": "Family dinner happens every evening. (家庭晚餐每晚都有。)",
+    "example": "Family dinner happens every evening. (我們家每天晚上一起吃晚餐。)",
     "id": "L1-evening-m17y2sro"
   },
   {
@@ -1970,7 +1970,7 @@
     "level": "L1",
     "word": "every",
     "meaning": "每個、所有的",
-    "example": "Every student must attend orientation. (每個學生都必須參加迎新會。)",
+    "example": "Every student must come to the meeting. (每個學生都必須參加會議。)",
     "id": "L1-every-mx109xy"
   },
   {
@@ -2040,14 +2040,14 @@
     "level": "L1",
     "word": "false",
     "meaning": "假的、錯誤的",
-    "example": "False information spreads quickly online. (虛假資訊在網上傳播很快。)",
+    "example": "False information spreads quickly online. (虛假資訊在網路上傳播得很快。)",
     "id": "L1-false-m17086vf"
   },
   {
     "level": "L1",
     "word": "family",
     "meaning": "家庭、家族",
-    "example": "Strong families support each other. (強大的家庭互相支持。)",
+    "example": "Strong families support each other. (感情緊密的一家人會互相扶持。)",
     "id": "L1-family-mfkykcj"
   },
   {
@@ -2117,7 +2117,7 @@
     "level": "L1",
     "word": "feed",
     "meaning": "餵食、飼料",
-    "example": "Parents feed babies nutritious food. (父母給嬰兒餵營養食物。)",
+    "example": "Parents feed babies milk. (父母餵嬰兒喝奶。)",
     "id": "L1-feed-m1eaalhw"
   },
   {
@@ -2152,7 +2152,7 @@
     "level": "L1",
     "word": "fifteen",
     "meaning": "十五",
-    "example": "The class has fifteen enthusiastic students. (班級有十五名熱情的學生。)",
+    "example": "The class has fifteen students. (班上有十五位學生。)",
     "id": "L1-fifteen-melbn"
   },
   {
@@ -2173,7 +2173,7 @@
     "level": "L1",
     "word": "fill",
     "meaning": "裝滿、填充",
-    "example": "Fill the glass with fresh water. (用新鮮水裝滿玻璃杯。)",
+    "example": "Fill the glass with fresh water. (用清水裝滿玻璃杯。)",
     "id": "L1-fill-m1g4fe2h"
   },
   {
@@ -2187,7 +2187,7 @@
     "level": "L1",
     "word": "find",
     "meaning": "找到、發現",
-    "example": "Researchers find solutions to problems. (研究人員找到問題的解決方案。)",
+    "example": "I cannot find my keys. (我找不到鑰匙。)",
     "id": "L1-find-m14iwo41"
   },
   {
@@ -2208,7 +2208,7 @@
     "level": "L1",
     "word": "finish",
     "meaning": "完成、結束",
-    "example": "Students finish assignments before deadlines. (學生在截止日期前完成作業。)",
+    "example": "I finish my homework before dinner. (我在晚餐前完成作業。)",
     "id": "L1-finish-mfdej4c"
   },
   {
@@ -2222,14 +2222,14 @@
     "level": "L1",
     "word": "first",
     "meaning": "第一的、首先",
-    "example": "First impressions often influence opinions. (第一印象經常影響觀點。)",
+    "example": "This is my first day at school. (這是我上學的第一天。)",
     "id": "L1-first-m1d3rhc3"
   },
   {
     "level": "L1",
     "word": "fish",
     "meaning": "魚、釣魚",
-    "example": "Fresh fish provides healthy protein. (新鮮魚類提供健康蛋白質。)",
+    "example": "I eat fish every Friday. (我每個星期五吃魚。)",
     "id": "L1-fish-mjt4wse"
   },
   {
@@ -2257,7 +2257,7 @@
     "level": "L1",
     "word": "fly",
     "meaning": "飛、蒼蠅",
-    "example": "Birds fly south during winter migration. (鳥類在冬季遷徙時向南飛。)",
+    "example": "Birds fly south in winter. (鳥在冬天飛向南方。)",
     "id": "L1-fly-mjhqjtb"
   },
   {
@@ -2278,7 +2278,7 @@
     "level": "L1",
     "word": "food",
     "meaning": "食物、食品",
-    "example": "Nutritious food supports healthy growth. (營養食物支持健康成長。)",
+    "example": "We need food and water every day. (我們每天都需要食物和水。)",
     "id": "L1-food-m184d9ll"
   },
   {
@@ -2299,14 +2299,14 @@
     "level": "L1",
     "word": "force",
     "meaning": "力量、強迫",
-    "example": "Physical force can move heavy objects. (物理力可以移動重物。)",
+    "example": "Physical force can move heavy objects. (物理上的力可以移動重物。)",
     "id": "L1-force-m1lglb9d"
   },
   {
     "level": "L1",
     "word": "foreign",
     "meaning": "外國的、外來的",
-    "example": "Foreign languages open career opportunities. (外語開啟職業機會。)",
+    "example": "She likes learning foreign languages. (她喜歡學外語。)",
     "id": "L1-foreign-m1g6a9ia"
   },
   {
@@ -2362,7 +2362,7 @@
     "level": "L1",
     "word": "fresh",
     "meaning": "新鮮的、清新的",
-    "example": "Fresh air improves concentration. (新鮮空氣提高注意力。)",
+    "example": "I like fresh air. (我喜歡新鮮空氣。)",
     "id": "L1-fresh-mxnursu"
   },
   {
@@ -2404,35 +2404,35 @@
     "level": "L1",
     "word": "fruit",
     "meaning": "水果、果實",
-    "example": "Fruit provides essential vitamins. (水果提供必需的維生素。)",
+    "example": "I eat fruit after lunch. (我午餐後吃水果。)",
     "id": "L1-fruit-ma5w5gj"
   },
   {
     "level": "L1",
     "word": "full",
     "meaning": "滿的、完整的",
-    "example": "The full moon illuminated the night. (滿月照亮了夜晚。)",
+    "example": "The glass is full of water. (杯子裝滿了水。)",
     "id": "L1-full-m1j9hsw"
   },
   {
     "level": "L1",
     "word": "fun",
     "meaning": "樂趣、有趣的",
-    "example": "Learning can be both educational and fun. (學習既可以有教育意義又可以有趣。)",
+    "example": "The game is fun. (這個遊戲很有趣。)",
     "id": "L1-fun-m1jm072i"
   },
   {
     "level": "L1",
     "word": "funny",
     "meaning": "有趣的、奇怪的",
-    "example": "The comedian told funny jokes. (喜劇演員講了有趣的笑話。)",
+    "example": "His joke is very funny. (他的笑話很好笑。)",
     "id": "L1-funny-m1ksej62"
   },
   {
     "level": "L1",
     "word": "game",
     "meaning": "遊戲、比賽",
-    "example": "Educational games make learning enjoyable. (教育遊戲讓學習變得有趣。)",
+    "example": "Let us play a game. (我們來玩一個遊戲。)",
     "id": "L1-game-m8ijepu"
   },
   {
@@ -2481,14 +2481,14 @@
     "level": "L1",
     "word": "girl",
     "meaning": "女孩、姑娘",
-    "example": "The young girl excelled in mathematics. (年輕女孩在數學方面表現出色。)",
+    "example": "The girl is my sister. (那個女孩是我妹妹。)",
     "id": "L1-girl-m6brhua"
   },
   {
     "level": "L1",
     "word": "give",
     "meaning": "給予、提供",
-    "example": "Teachers give students valuable feedback. (老師給學生寶貴的反饋。)",
+    "example": "Teachers give students valuable feedback. (老師給學生寶貴的回饋。)",
     "id": "L1-give-m37ae0a"
   },
   {
@@ -2621,7 +2621,7 @@
     "level": "L1",
     "word": "green",
     "meaning": "綠色的、綠色",
-    "example": "Green plants purify the air naturally. (綠色植物自然地淨化空氣。)",
+    "example": "The leaves are green. (葉子是綠色的。)",
     "id": "L1-green-m1iab04h"
   },
   {
@@ -2663,14 +2663,14 @@
     "level": "L1",
     "word": "guide",
     "meaning": "指南、指導",
-    "example": "Teachers guide students through complex topics. (老師指導學生學習複雜主題。)",
+    "example": "The teacher will guide us. (老師會指導我們。)",
     "id": "L1-guide-m16rdens"
   },
   {
     "level": "L1",
     "word": "gun",
     "meaning": "槍、槍支",
-    "example": "Police officers carry guns for protection. (警察攜帶槍支進行保護。)",
+    "example": "Police officers carry guns for protection. (警察帶槍自衛。)",
     "id": "L1-gun-mdjy40m"
   },
   {
@@ -2719,7 +2719,7 @@
     "level": "L1",
     "word": "happy",
     "meaning": "快樂的、高興的",
-    "example": "Happy students learn more effectively. (快樂的學生學習更有效。)",
+    "example": "The children are happy. (孩子們很快樂。)",
     "id": "L1-happy-m109hrfk"
   },
   {
@@ -2733,7 +2733,7 @@
     "level": "L1",
     "word": "hat",
     "meaning": "帽子",
-    "example": "She wore a hat to protect from sun. (她戴帽子防曬。)",
+    "example": "She wore a hat to protect herself from the sun. (她戴帽子防曬。)",
     "id": "L1-hat-mgj3n"
   },
   {
@@ -2761,7 +2761,7 @@
     "level": "L1",
     "word": "head",
     "meaning": "頭、領導",
-    "example": "The department head supervised new teachers. (系主任監督新教師。)",
+    "example": "She turned her head. (她轉過頭。)",
     "id": "L1-head-mjeqhyi"
   },
   {
@@ -2782,7 +2782,7 @@
     "level": "L1",
     "word": "heart",
     "meaning": "心臟、心",
-    "example": "A healthy heart pumps blood efficiently. (健康的心臟有效地泵血。)",
+    "example": "My heart is beating fast. (我的心跳得很快。)",
     "id": "L1-heart-mcm2xcu"
   },
   {
@@ -2796,7 +2796,7 @@
     "level": "L1",
     "word": "heavy",
     "meaning": "重的、嚴重的",
-    "example": "Heavy textbooks strain students' backs. (沉重的教科書讓學生背部拉傷。)",
+    "example": "Heavy textbooks strain students' backs. (沉重的教科書讓學生背得很吃力。)",
     "id": "L1-heavy-mtckugx"
   },
   {
@@ -2817,7 +2817,7 @@
     "level": "L1",
     "word": "her(s)",
     "meaning": "她的、她",
-    "example": "Her dedication inspired fellow students. (她的奉獻精神啟發了同學們。)",
+    "example": "Her bag is blue. (她的包包是藍色的。)",
     "id": "L1-her-s-mbruznn"
   },
   {
@@ -3167,21 +3167,21 @@
     "level": "L1",
     "word": "keep",
     "meaning": "保持、維持",
-    "example": "Students keep learning throughout their lives. (學生終生保持學習。)",
+    "example": "Keep your room clean. (保持你的房間乾淨。)",
     "id": "L1-keep-m14u7vjl"
   },
   {
     "level": "L1",
     "word": "keeper",
     "meaning": "看守人；管理員",
-    "example": "The zoo keeper fed the animals.（動物園管理員餵了動物。）",
+    "example": "The zookeeper fed the animals. (動物園管理員餵了動物。)",
     "id": "L1-keeper-mjwnmke"
   },
   {
     "level": "L1",
     "word": "key",
     "meaning": "鑰匙、關鍵的",
-    "example": "Understanding is the key to effective learning. (理解是有效學習的關鍵。)",
+    "example": "This is the key to my room. (這是我房間的鑰匙。)",
     "id": "L1-key-m1wnmdjn"
   },
   {
@@ -3195,14 +3195,14 @@
     "level": "L1",
     "word": "kid",
     "meaning": "小孩、孩子",
-    "example": "Every kid deserves quality education. (每個孩子都應得到優質教育。)",
+    "example": "The kid is playing outside. (那個小孩在外面玩。)",
     "id": "L1-kid-mgj2c7i"
   },
   {
     "level": "L1",
     "word": "kill",
     "meaning": "殺死、消除",
-    "example": "Stress can kill motivation and creativity. (壓力會扼殺動機和創造力。)",
+    "example": "The cold weather killed the plants. (寒冷的天氣凍死了植物。)",
     "id": "L1-kill-m8sfcvw"
   },
   {
@@ -3230,7 +3230,7 @@
     "level": "L1",
     "word": "kitchen",
     "meaning": "廚房",
-    "example": "The school kitchen serves nutritious meals. (學校廚房提供營養餐點。)",
+    "example": "My mother is in the kitchen. (我媽媽在廚房裡。)",
     "id": "L1-kitchen-mgo85"
   },
   {
@@ -3412,7 +3412,7 @@
     "level": "L1",
     "word": "leg",
     "meaning": "腿、支柱",
-    "example": "Athletes strengthen their legs through training. (運動員通過訓練強化腿部。)",
+    "example": "My leg hurts. (我的腿痛。)",
     "id": "L1-leg-mgjimpw"
   },
   {
@@ -3461,7 +3461,7 @@
     "level": "L1",
     "word": "life",
     "meaning": "生活、生命",
-    "example": "Education enriches life experiences. (教育豐富人生經歷。)",
+    "example": "My life is happy. (我的生活很快樂。)",
     "id": "L1-life-m19qrjib"
   },
   {
@@ -3503,7 +3503,7 @@
     "level": "L1",
     "word": "line",
     "meaning": "線、排隊",
-    "example": "Students form a line for library check-out. (學生排隊借閱圖書館書籍。)",
+    "example": "Students form a line for library check-out. (學生排隊辦理借書。)",
     "id": "L1-line-mg2yva7"
   },
   {
@@ -3531,7 +3531,7 @@
     "level": "L1",
     "word": "listen",
     "meaning": "聽、傾聽",
-    "example": "Good students listen actively in class. (好學生在課堂上積極傾聽。)",
+    "example": "Please listen to the teacher. (請聽老師說話。)",
     "id": "L1-listen-mgeujs3"
   },
   {
@@ -3545,7 +3545,7 @@
     "level": "L1",
     "word": "live",
     "meaning": "生活、居住",
-    "example": "Students live in diverse communities. (學生生活在多樣化社區中。)",
+    "example": "I live in Taipei. (我住在台北。)",
     "id": "L1-live-m19qnab3"
   },
   {
@@ -3979,7 +3979,7 @@
     "level": "L1",
     "word": "name",
     "meaning": "名字、命名",
-    "example": "Each student has a unique name and identity. (每個學生都有獨特的姓名和身分。)",
+    "example": "My name is Amy. (我的名字是艾美。)",
     "id": "L1-name-m1k8ng7b"
   },
   {
@@ -4007,7 +4007,7 @@
     "level": "L1",
     "word": "neck",
     "meaning": "脖子、頸部",
-    "example": "Students stretch their necks during breaks. (學生在休息時伸展脖子。)",
+    "example": "My neck hurts. (我的脖子痛。)",
     "id": "L1-neck-mj8mp13"
   },
   {
@@ -4126,7 +4126,7 @@
     "level": "L1",
     "word": "north",
     "meaning": "北方、北部的",
-    "example": "The north campus has new facilities. (北校區有新設施。)",
+    "example": "The north is colder in winter. (北方冬天比較冷。)",
     "id": "L1-north-mxv3fmc"
   },
   {
@@ -4161,7 +4161,7 @@
     "level": "L1",
     "word": "notice",
     "meaning": "注意到、通知",
-    "example": "Students notice improvements in their skills. (學生注意到技能的提升。)",
+    "example": "I notice a bird in the tree. (我注意到樹上有一隻鳥。)",
     "id": "L1-notice-mnmhhdv"
   },
   {
@@ -4182,7 +4182,7 @@
     "level": "L1",
     "word": "number",
     "meaning": "數字、號碼",
-    "example": "Each student has an identification number. (每個學生都有識別號碼。)",
+    "example": "What is your phone number? (你的電話號碼是多少？)",
     "id": "L1-number-m1hbioqn"
   },
   {
@@ -4238,15 +4238,15 @@
     "level": "L1",
     "word": "office",
     "meaning": "辦公室、職務",
-    "example": "The principal's office handles student issues. (校長辦公室處理學生問題。)",
+    "example": "The teacher is in the office. (老師在辦公室裡。)",
     "id": "L1-office-m1iyivl1"
   },
   {
     "level": "L1",
     "word": "officer",
-    "meaning": "官員",
+    "meaning": "官員、警官、警察",
     "example": "The police officer helped the lost child.（警察幫助了那個迷路的孩子。）",
-    "id": "L1-officer-mg1mx"
+    "id": "L1-officer-m10i0flc"
   },
   {
     "level": "L1",
@@ -4259,7 +4259,7 @@
     "level": "L1",
     "word": "oil",
     "meaning": "油、石油",
-    "example": "Art students use oil paints for portraits. (藝術學生使用油畫顏料畫肖像。)",
+    "example": "Put some oil in the pan. (在鍋裡放一些油。)",
     "id": "L1-oil-mdxa6by"
   },
   {
@@ -4385,7 +4385,7 @@
     "level": "L1",
     "word": "pair",
     "meaning": "一對、配對",
-    "example": "Students work in pairs for projects. (學生成對進行項目工作。)",
+    "example": "Students work in pairs for projects. (學生分成兩人一組做專案。)",
     "id": "L1-pair-mwogqno"
   },
   {
@@ -4406,7 +4406,7 @@
     "level": "L1",
     "word": "paper",
     "meaning": "紙張、論文",
-    "example": "Students write research papers carefully. (學生仔細撰寫研究論文。)",
+    "example": "I need a piece of paper. (我需要一張紙。)",
     "id": "L1-paper-m44uuly"
   },
   {
@@ -4427,14 +4427,14 @@
     "level": "L1",
     "word": "part",
     "meaning": "部分、角色",
-    "example": "Each student plays a part in class success. (每個學生在班級成功中扮演角色。)",
+    "example": "This is my favorite part. (這是我最喜歡的部分。)",
     "id": "L1-part-m8w4gcj"
   },
   {
     "level": "L1",
     "word": "party",
     "meaning": "聚會、政黨",
-    "example": "The graduation party celebrated achievements. (畢業聚會慶祝成就。)",
+    "example": "We had a party last night. (我們昨晚辦了一場派對。)",
     "id": "L1-party-mhu55tt"
   },
   {
@@ -4686,7 +4686,7 @@
     "level": "L1",
     "word": "pretty",
     "meaning": "漂亮的、相當",
-    "example": "The art display looks pretty impressive. (藝術展示看起來相當令人印象深刻。)",
+    "example": "The flower is pretty. (這朵花很漂亮。)",
     "id": "L1-pretty-m1x0c1ev"
   },
   {
@@ -4903,7 +4903,7 @@
     "level": "L1",
     "word": "report",
     "meaning": "報告、報導",
-    "example": "Students report their research findings. (學生報告研究發現。)",
+    "example": "Please write a short report. (請寫一份簡短報告。)",
     "id": "L1-report-midg4l"
   },
   {
@@ -4931,7 +4931,7 @@
     "level": "L1",
     "word": "rich",
     "meaning": "富有的、豐富的",
-    "example": "Education provides rich life experiences. (教育提供豐富的人生經驗。)",
+    "example": "He is a rich man. (他是有錢人。)",
     "id": "L1-rich-mutew26"
   },
   {
@@ -4952,7 +4952,7 @@
     "level": "L1",
     "word": "ring",
     "meaning": "響、戒指",
-    "example": "School bells ring to signal class changes. (學校鈴聲響起表示換課。)",
+    "example": "The phone is ringing. (電話正在響。)",
     "id": "L1-ring-mjdnz4n"
   },
   {
@@ -5071,14 +5071,14 @@
     "level": "L1",
     "word": "rule",
     "meaning": "規則、統治",
-    "example": "School rules maintain order and safety. (學校規則維持秩序和安全。)",
+    "example": "We must follow the school rules. (我們必須遵守校規。)",
     "id": "L1-rule-m1f82s9f"
   },
   {
     "level": "L1",
     "word": "run",
     "meaning": "跑、經營",
-    "example": "Students run the school newspaper. (學生經營校報。)",
+    "example": "I run every morning. (我每天早上跑步。)",
     "id": "L1-run-mi3kqnw"
   },
   {
@@ -5092,7 +5092,7 @@
     "level": "L1",
     "word": "safe",
     "meaning": "安全的、保險箱",
-    "example": "Schools ensure students feel safe and protected. (學校確保學生感到安全和受保護。)",
+    "example": "The children are safe at home. (孩子們在家很安全。)",
     "id": "L1-safe-m1c4il9k"
   },
   {
@@ -5105,9 +5105,9 @@
   {
     "level": "L1",
     "word": "sale",
-    "meaning": "拍賣；銷售",
+    "meaning": "拍賣、銷售、特價、廉售",
     "example": "These shoes are on sale today.（這些鞋子今天特價。）",
-    "id": "L1-sale-m1dzc75o"
+    "id": "L1-sale-m1w1mwdj"
   },
   {
     "level": "L1",
@@ -5169,7 +5169,7 @@
     "level": "L1",
     "word": "scene",
     "meaning": "場景、景象",
-    "example": "The graduation scene moved parents to tears. (畢業場景讓父母感動落淚。)",
+    "example": "The last scene was very sad. (最後一幕很悲傷。)",
     "id": "L1-scene-m2uhgqg"
   },
   {
@@ -5190,7 +5190,7 @@
     "level": "L1",
     "word": "season",
     "meaning": "季節、賽季",
-    "example": "Each season brings different learning opportunities. (每個季節都帶來不同的學習機會。)",
+    "example": "Summer is my favorite season. (夏天是我最喜歡的季節。)",
     "id": "L1-season-mhzki5m"
   },
   {
@@ -5225,7 +5225,7 @@
     "level": "L1",
     "word": "seem",
     "meaning": "似乎、看起來",
-    "example": "Difficult concepts seem easier with practice. (困難的概念通過練習看起來更容易。)",
+    "example": "You seem tired today. (你今天看起來很累。)",
     "id": "L1-seem-m17dh357"
   },
   {
@@ -5267,7 +5267,7 @@
     "level": "L1",
     "word": "sense",
     "meaning": "感覺、理解",
-    "example": "Students develop a sense of responsibility. (學生發展責任感。)",
+    "example": "I have a good sense of humor. (我很有幽默感。)",
     "id": "L1-sense-m16634lf"
   },
   {
@@ -5295,14 +5295,14 @@
     "level": "L1",
     "word": "service",
     "meaning": "服務、服務業",
-    "example": "School service programs benefit communities. (學校服務項目造福社區。)",
+    "example": "School service programs benefit communities. (學校的服務計畫造福社區。)",
     "id": "L1-service-mzkf4ng"
   },
   {
     "level": "L1",
     "word": "set",
     "meaning": "設置、一套",
-    "example": "Teachers set clear expectations for students. (老師為學生設定明確期望。)",
+    "example": "Please set the cup on the table. (請把杯子放在桌上。)",
     "id": "L1-set-m1nbqt1z"
   },
   {
@@ -5400,7 +5400,7 @@
     "level": "L1",
     "word": "ship",
     "meaning": "船、運送",
-    "example": "History classes study ancient ship designs. (歷史課研究古代船隻設計。)",
+    "example": "The ship is very big. (這艘船很大。)",
     "id": "L1-ship-mgn0y66"
   },
   {
@@ -5519,7 +5519,7 @@
     "level": "L1",
     "word": "simple",
     "meaning": "簡單的、樸素的",
-    "example": "Simple explanations help student understanding. (簡單的解釋有助於學生理解。)",
+    "example": "This question is simple. (這個問題很簡單。)",
     "id": "L1-simple-mbb65ma"
   },
   {
@@ -5568,7 +5568,7 @@
     "level": "L1",
     "word": "six",
     "meaning": "六、六個",
-    "example": "The project team has six members. (項目團隊有六名成員。)",
+    "example": "The project team has six members. (專案團隊有六名成員。)",
     "id": "L1-six-mah5gfm"
   },
   {
@@ -5596,7 +5596,7 @@
     "level": "L1",
     "word": "skill",
     "meaning": "技能、技巧",
-    "example": "Communication skills benefit all areas of life. (溝通技能有益於生活的各個方面。)",
+    "example": "Reading is an important skill. (閱讀是一項重要技能。)",
     "id": "L1-skill-m1agewej"
   },
   {
@@ -5631,7 +5631,7 @@
     "level": "L1",
     "word": "small",
     "meaning": "小的、少量的",
-    "example": "Small group discussions encourage participation. (小組討論鼓勵參與。)",
+    "example": "The box is small. (這個盒子很小。)",
     "id": "L1-small-m1e5ttp6"
   },
   {
@@ -5722,7 +5722,7 @@
     "level": "L1",
     "word": "some",
     "meaning": "一些、某些",
-    "example": "Some students excel in mathematics. (一些學生在數學方面表現出色。)",
+    "example": "Some students are in the library. (有些學生在圖書館。)",
     "id": "L1-some-muz7t3l"
   },
   {
@@ -5743,14 +5743,14 @@
     "level": "L1",
     "word": "sometimes",
     "meaning": "有時、偶爾",
-    "example": "Sometimes difficult lessons become clearer later. (有時困難的課程後來變得更清楚。)",
+    "example": "Sometimes I walk to school. (有時我走路上學。)",
     "id": "L1-sometimes-m1otbnm8"
   },
   {
     "level": "L1",
     "word": "son",
     "meaning": "兒子",
-    "example": "Her son excels in science subjects. (她的兒子在科學科目上表現出色。)",
+    "example": "Her son is ten years old. (她的兒子十歲。)",
     "id": "L1-son-mebzy"
   },
   {
@@ -5764,7 +5764,7 @@
     "level": "L1",
     "word": "soon",
     "meaning": "很快、不久",
-    "example": "Students will soon master these concepts. (學生很快就會掌握這些概念。)",
+    "example": "Dinner will be ready soon. (晚餐很快就好了。)",
     "id": "L1-soon-muo9y6u"
   },
   {
@@ -5820,14 +5820,14 @@
     "level": "L1",
     "word": "speak",
     "meaning": "說話、講",
-    "example": "Students speak confidently in presentations. (學生在演講中自信地說話。)",
+    "example": "Please speak slowly. (請說慢一點。)",
     "id": "L1-speak-mi259q9"
   },
   {
     "level": "L1",
     "word": "special",
     "meaning": "特殊的、專門的",
-    "example": "Special attention helps struggling students succeed. (特別關注幫助有困難的學生成功。)",
+    "example": "Today is a special day. (今天是特別的日子。)",
     "id": "L1-special-m1a7wl7i"
   },
   {
@@ -5904,7 +5904,7 @@
     "level": "L1",
     "word": "state",
     "meaning": "州、陳述",
-    "example": "Each state has different education policies. (每個州都有不同的教育政策。)",
+    "example": "Texas is a large state. (德州是一個大州。)",
     "id": "L1-state-mc1z8xs"
   },
   {
@@ -5925,7 +5925,7 @@
     "level": "L1",
     "word": "stay",
     "meaning": "停留、保持",
-    "example": "Students stay focused during lectures. (學生在講座期間保持專注。)",
+    "example": "Please stay here. (請留在這裡。)",
     "id": "L1-stay-m1934grs"
   },
   {
@@ -5960,14 +5960,14 @@
     "level": "L1",
     "word": "store",
     "meaning": "商店、儲存",
-    "example": "Students store notes in organized binders. (學生將筆記儲存在有序的文件夾中。)",
+    "example": "We store food in the fridge. (我們把食物存放在冰箱裡。)",
     "id": "L1-store-m1pfhsae"
   },
   {
     "level": "L1",
     "word": "story",
     "meaning": "故事、樓層",
-    "example": "English class analyzes classic stories. (英語課分析經典故事。)",
+    "example": "Grandma told me a story. (奶奶說了一個故事給我聽。)",
     "id": "L1-story-m1ex8eks"
   },
   {
@@ -6065,7 +6065,7 @@
     "level": "L1",
     "word": "sure",
     "meaning": "確信的、當然",
-    "example": "Students feel sure about their progress. (學生對進步感到確信。)",
+    "example": "Are you sure? (你確定嗎？)",
     "id": "L1-sure-m186bcx0"
   },
   {
@@ -6107,7 +6107,7 @@
     "level": "L1",
     "word": "take",
     "meaning": "拿、服用",
-    "example": "Students take notes during lectures. (學生在講座期間做筆記。)",
+    "example": "Please take one. (請拿一個。)",
     "id": "L1-take-mcp1f6l"
   },
   {
@@ -6170,7 +6170,7 @@
     "level": "L1",
     "word": "tell",
     "meaning": "告訴、說",
-    "example": "Teachers tell inspiring stories to students. (老師向學生講述鼓舞人心的故事。)",
+    "example": "Tell me a story. (說個故事給我聽。)",
     "id": "L1-tell-mb77r03"
   },
   {
@@ -6184,7 +6184,7 @@
     "level": "L1",
     "word": "than",
     "meaning": "比、超過",
-    "example": "Practice matters more than natural talent. (練習比天賦更重要。)",
+    "example": "My brother is taller than me. (我哥哥比我高。)",
     "id": "L1-than-mdtbtg6"
   },
   {
@@ -6205,7 +6205,7 @@
     "level": "L1",
     "word": "the",
     "meaning": "定冠詞",
-    "example": "The education system serves all children. (教育系統為所有兒童服務。)",
+    "example": "The book is on the desk. (書在桌上。)",
     "id": "L1-the-mdtnmg"
   },
   {
@@ -6226,14 +6226,14 @@
     "level": "L1",
     "word": "then",
     "meaning": "然後、那時",
-    "example": "Students learn the basics, then move on to advanced topics. (學生學習基礎， 然後是高級主題。)",
+    "example": "I finished my homework, then I watched TV. (我寫完作業，然後看電視。)",
     "id": "L1-then-msqdii2"
   },
   {
     "level": "L1",
     "word": "there",
     "meaning": "那裡、在那裡",
-    "example": "There are many learning opportunities available. (有許多可用的學習機會。)",
+    "example": "There is a cat on the sofa. (沙發上有一隻貓。)",
     "id": "L1-there-mv34mv7"
   },
   {
@@ -6359,7 +6359,7 @@
     "level": "L1",
     "word": "tie",
     "meaning": "領帶",
-    "example": "He wore a red tie to the wedding.（他戴了一條紅領帶去參加婚禮。）",
+    "example": "He wore a red tie to the wedding. (他打了一條紅領帶去參加婚禮。)",
     "id": "L1-tie-mqdy6"
   },
   {
@@ -6386,9 +6386,9 @@
   {
     "level": "L1",
     "word": "tire",
-    "meaning": "輪胎 (2) vt.使疲倦",
+    "meaning": "輪胎；使疲倦",
     "example": "The car has a flat tire.（這輛車有一個輪胎沒氣了。）",
-    "id": "L1-tire-2-vt"
+    "id": "L1-tire-m1o72jx8"
   },
   {
     "level": "L1",
@@ -6421,9 +6421,9 @@
   {
     "level": "L1",
     "word": "tone",
-    "meaning": "音調",
+    "meaning": "音調、語氣",
     "example": "His tone sounded friendly.（他的語氣聽起來很友善。）",
-    "id": "L1-tone-mqlv0"
+    "id": "L1-tone-m17l1j6i"
   },
   {
     "level": "L1",
@@ -6702,14 +6702,14 @@
     "level": "L1",
     "word": "walk",
     "meaning": "走、散步",
-    "example": "Students walk to nearby libraries. (學生步行到附近圖書館。)",
+    "example": "I walk to school every day. (我每天走路去學校。)",
     "id": "L1-walk-mi1qnjn"
   },
   {
     "level": "L1",
     "word": "wall",
     "meaning": "牆、圍牆",
-    "example": "Classroom walls display student artwork. (教室牆壁展示學生藝術作品。)",
+    "example": "There is a clock on the wall. (牆上有一個時鐘。)",
     "id": "L1-wall-membyc4"
   },
   {
@@ -6751,14 +6751,14 @@
     "level": "L1",
     "word": "watch",
     "meaning": "觀看、手錶",
-    "example": "Students watch educational documentaries. (學生觀看教育紀錄片。)",
+    "example": "We watch TV after dinner. (我們晚餐後看電視。)",
     "id": "L1-watch-m1klu38h"
   },
   {
     "level": "L1",
     "word": "water",
     "meaning": "水、澆水",
-    "example": "Clean water is essential for health. (清潔的水對健康至關重要。)",
+    "example": "Please drink more water. (請多喝水。)",
     "id": "L1-water-mduvtdn"
   },
   {
@@ -6786,14 +6786,14 @@
     "level": "L1",
     "word": "wear",
     "meaning": "穿、戴",
-    "example": "Students wear uniforms with pride. (學生自豪地穿校服。)",
+    "example": "She wears a red coat. (她穿著紅色外套。)",
     "id": "L1-wear-mi6mfm"
   },
   {
     "level": "L1",
     "word": "weather",
     "meaning": "天氣、氣候",
-    "example": "Good weather encourages outdoor classes. (好天氣鼓勵戶外課程。)",
+    "example": "The weather is nice today. (今天天氣很好。)",
     "id": "L1-weather-m7b3xz1"
   },
   {
@@ -6814,7 +6814,7 @@
     "level": "L1",
     "word": "week",
     "meaning": "週、星期",
-    "example": "Students attend classes five days per week. (學生每週上課五天。)",
+    "example": "I have a test next week. (我下週有考試。)",
     "id": "L1-week-mie8wy8"
   },
   {
@@ -6842,28 +6842,28 @@
     "level": "L1",
     "word": "welcome",
     "meaning": "歡迎、受歡迎的",
-    "example": "Schools welcome students from all backgrounds. (學校歡迎來自各種背景的學生。)",
+    "example": "Welcome to our school! (歡迎來到我們學校！)",
     "id": "L1-welcome-mwy54dw"
   },
   {
     "level": "L1",
     "word": "well",
     "meaning": "好地、健康的",
-    "example": "Students perform well with proper guidance. (學生在適當指導下表現良好。)",
+    "example": "She sings very well. (她唱得很好。)",
     "id": "L1-well-m1696mtg"
   },
   {
     "level": "L1",
     "word": "west",
     "meaning": "西方、西部的",
-    "example": "The west wing houses the library. (西翼設有圖書館。)",
+    "example": "The sun sets in the west. (太陽從西方落下。)",
     "id": "L1-west-mmr5bdg"
   },
   {
     "level": "L1",
     "word": "what",
     "meaning": "什麼、哪個",
-    "example": "What students learn shapes their future. (學生學習的內容塑造他們的未來。)",
+    "example": "What is your name? (你叫什麼名字？)",
     "id": "L1-what-m180j5ie"
   },
   {
@@ -6884,7 +6884,7 @@
     "level": "L1",
     "word": "whether",
     "meaning": "是否、無論",
-    "example": "Success depends on whether students apply themselves. (成功取決於學生是否努力。)",
+    "example": "I do not know whether he will come. (我不知道他會不會來。)",
     "id": "L1-whether-m1j7dzz3"
   },
   {
@@ -6905,7 +6905,7 @@
     "level": "L1",
     "word": "white",
     "meaning": "白色的、白色",
-    "example": "White boards replaced traditional blackboards. (白板取代了傳統黑板。)",
+    "example": "Whiteboards replaced traditional blackboards. (白板取代了傳統黑板。)",
     "id": "L1-white-m15maxrb"
   },
   {
@@ -6940,7 +6940,7 @@
     "level": "L1",
     "word": "why",
     "meaning": "為什麼",
-    "example": "Teachers explain why concepts are important. (老師解釋概念為什麼重要。)",
+    "example": "Why are you late? (你為什麼遲到？)",
     "id": "L1-why-mgwo52"
   },
   {
@@ -6968,29 +6968,29 @@
     "level": "L1",
     "word": "win",
     "meaning": "贏、獲勝",
-    "example": "Hard work helps students win academic awards. (努力工作幫助學生贏得學術獎項。)",
+    "example": "Our team won the game. (我們隊贏了比賽。)",
     "id": "L1-win-mi02z25"
   },
   {
     "level": "L1",
     "word": "wind",
     "meaning": "風、纏繞",
-    "example": "Strong wind cancelled outdoor activities. (強風取消了戶外活動。)",
+    "example": "The strong wind blew my hat away. (強風把我的帽子吹走了。)",
     "id": "L1-wind-mjgsvrc"
   },
   {
     "level": "L1",
     "word": "window",
     "meaning": "窗戶、視窗",
-    "example": "Classroom windows provide natural light. (教室窗戶提供自然光。)",
+    "example": "Please open the window. (請打開窗戶。)",
     "id": "L1-window-m1tqlx2b"
   },
   {
     "level": "L1",
     "word": "wine",
-    "meaning": "紅酒",
+    "meaning": "酒、葡萄酒、紅酒",
     "example": "The chef added a little wine to the sauce.（廚師在醬汁裡加了一點酒。）",
-    "id": "L1-wine-mm299"
+    "id": "L1-wine-m17jkff2"
   },
   {
     "level": "L1",

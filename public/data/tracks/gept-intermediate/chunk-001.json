@@ -598,7 +598,7 @@
     "level": "L2",
     "word": "clothe",
     "meaning": "verb 給...穿衣、為...提供衣服",
-    "example": "The charity helps clothe children in need.（這個慈善團體幫助有需要的孩子添衣。）",
+    "example": "The charity helps clothe children in need. (這個慈善團體幫助有需要的孩子取得衣物。)",
     "id": "L2-clothe-verb"
   },
   {
@@ -948,7 +948,7 @@
     "level": "L2",
     "word": "mate",
     "meaning": "noun/verb 夥伴、伴侶；交配",
-    "example": "My desk mate shared his eraser with me.（我的同桌同學把橡皮擦借給我。）",
+    "example": "My desk mate shared his eraser with me. (坐我隔壁的同學把橡皮擦借給我。)",
     "id": "L2-mate-noun-verb"
   },
   {
@@ -1591,7 +1591,7 @@
   {
     "level": "L3",
     "word": "ambition",
-    "meaning": "noun 野心",
+    "meaning": "noun 野心、抱負、志向",
     "example": "Her ambition is to become a successful doctor. (她的抱負是成為一名成功的醫生。)",
     "id": "L3-ambition-noun"
   },
@@ -1781,7 +1781,7 @@
     "level": "L3",
     "word": "award",
     "meaning": "noun/verb 獎、獎金、獎品；獎勵、授予",
-    "example": "She received an award for her outstanding research. (她因出色的研究獲得了獎勵。)",
+    "example": "She received an award for her outstanding research. (她因出色的研究獲得了獎項。)",
     "id": "L3-award-noun-verb"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "L3",
     "word": "ax",
     "meaning": "verb 用斧頭劈、砍掉；裁減、撤銷、開除\nnoun 斧頭；裁減、解雇",
-    "example": "The farmer used an axe to cut the wood.（農夫用斧頭砍木頭。）",
+    "example": "The farmer used an ax to cut the wood. (農夫用斧頭砍木頭。)",
     "id": "L3-ax-verb-noun"
   },
   {
@@ -1983,7 +1983,7 @@
   {
     "level": "L3",
     "word": "bless",
-    "meaning": "verb 為…祝福",
+    "meaning": "verb 為……祝福、保佑",
     "example": "May God bless you and your family.（願上帝保佑你和你的家人。）",
     "id": "L3-bless-verb"
   },
@@ -2397,7 +2397,7 @@
     "level": "L3",
     "word": "cigarette",
     "meaning": "noun 香菸",
-    "example": "Smoking cigarettes causes serious health problems. (吸煙會導致嚴重的健康問題。)",
+    "example": "Smoking cigarettes causes serious health problems. (吸菸會導致嚴重的健康問題。)",
     "id": "L3-cigarette-noun"
   },
   {
@@ -2445,7 +2445,7 @@
   {
     "level": "L3",
     "word": "cocktail",
-    "meaning": "noun 雞尾酒",
+    "meaning": "noun 雞尾酒；水果調飲、水果切丁",
     "example": "She ordered a fruit cocktail at the restaurant.（她在餐廳點了一杯水果調飲。）",
     "id": "L3-cocktail-noun"
   },
@@ -2676,7 +2676,7 @@
   {
     "level": "L3",
     "word": "credit",
-    "meaning": "noun 讚許；(經濟上的)信用、賒帳、信用貸款；學分\nverb 把錢存進帳戶；歸功於",
+    "meaning": "noun 讚許；（經濟上的）信用、賒帳、信用貸款；學分；信用卡\nverb 把錢存進帳戶；歸功於",
     "example": "He paid for the meal with a credit card.（他用信用卡付餐費。）",
     "id": "L3-credit-noun-verb"
   },
@@ -2732,7 +2732,7 @@
   {
     "level": "L3",
     "word": "crutch",
-    "meaning": "noun 柺杖",
+    "meaning": "noun 拐杖",
     "example": "He used a crutch after hurting his leg.（他腿受傷後使用拐杖。）",
     "id": "L3-crutch-noun"
   },
@@ -2830,8 +2830,8 @@
   {
     "level": "L3",
     "word": "delivery",
-    "meaning": "noun 運送",
-    "example": "The delivery arrived before noon.（配送在中午前送到了。）",
+    "meaning": "noun 運送、配送；送達的貨物",
+    "example": "The delivery arrived before noon. (貨物在中午前送到了。)",
     "id": "L3-delivery-noun"
   },
   {
@@ -2859,7 +2859,7 @@
     "level": "L3",
     "word": "desirable",
     "meaning": "adj. 令人嚮往的",
-    "example": "Good manners are desirable in any classroom.（良好的禮貌在任何教室裡都是受歡迎的。）",
+    "example": "Good manners are desirable in any classroom. (良好的禮貌在任何教室裡都是合宜的。)",
     "id": "L3-desirable-adj"
   },
   {
@@ -3209,7 +3209,7 @@
     "level": "L3",
     "word": "enable",
     "meaning": "verb 使能夠",
-    "example": "Technology enables global communication. (科技使全球通信成為可能。)",
+    "example": "Technology enables global communication. (科技讓全球通訊成為可能。)",
     "id": "L3-enable-verb"
   },
   {
@@ -3237,7 +3237,7 @@
     "level": "L3",
     "word": "entry",
     "meaning": "noun 進入、入口；條目",
-    "example": "Please write your name at the entry.（請在入口處寫下你的名字。）",
+    "example": "Please write your name at the entrance. (請在入口處寫下你的名字。)",
     "id": "L3-entry-noun"
   },
   {
@@ -3516,7 +3516,7 @@
   {
     "level": "L3",
     "word": "follower",
-    "meaning": "noun 追隨者",
+    "meaning": "noun 追隨者；（社群媒體的）追蹤者",
     "example": "The singer thanked every follower online.（那位歌手感謝網路上的每位追蹤者。）",
     "id": "L3-follower-noun"
   },
@@ -3678,7 +3678,7 @@
     "level": "L3",
     "word": "governor",
     "meaning": "noun 州長、總督",
-    "example": "The governor visited the small town.（州長／省長拜訪了那個小鎮。）",
+    "example": "The governor visited the small town. (州長拜訪了那個小鎮。)",
     "id": "L3-governor-noun"
   },
   {
@@ -4049,7 +4049,7 @@
     "level": "L3",
     "word": "imagination",
     "meaning": "noun 想像(力)",
-    "example": "Children have wonderful imagination.（孩子有很棒的想像力。）",
+    "example": "Children have a wonderful imagination. (孩子有很棒的想像力。)",
     "id": "L3-imagination-noun"
   },
   {
@@ -4167,7 +4167,7 @@
   {
     "level": "L3",
     "word": "instruction",
-    "meaning": "noun 指示、命令",
+    "meaning": "noun 指示、命令；說明、操作說明",
     "example": "Read the instructions before you start.（開始前請閱讀說明。）",
     "id": "L3-instruction-noun"
   },
@@ -4223,7 +4223,7 @@
   {
     "level": "L3",
     "word": "jelly",
-    "meaning": "noun 膠狀物、果凍",
+    "meaning": "noun 膠狀物、果凍、果醬",
     "example": "She spread jelly on her toast.（她把果醬抹在吐司上。）",
     "id": "L3-jelly-noun"
   },
@@ -4440,7 +4440,7 @@
   {
     "level": "L3",
     "word": "lens",
-    "meaning": "noun 鏡片",
+    "meaning": "noun 鏡片、（相機的）鏡頭",
     "example": "The camera lens is dirty.（相機鏡頭髒了。）",
     "id": "L3-lens-noun"
   },
@@ -4496,7 +4496,7 @@
   {
     "level": "L3",
     "word": "linen",
-    "meaning": "noun 亞麻布",
+    "meaning": "noun 亞麻布、亞麻製床單等寢具",
     "example": "The hotel uses clean linen for every guest.（飯店為每位客人使用乾淨的床單。）",
     "id": "L3-linen-noun"
   },
@@ -4875,7 +4875,7 @@
     "level": "L3",
     "word": "mob",
     "meaning": "noun/verb 暴民；(圍攻)襲擊",
-    "example": "An angry mob gathered outside the building.（一群憤怒的群眾聚集在建築外。）",
+    "example": "An angry mob gathered outside the building. (一群憤怒失控的暴民聚集在建築外。)",
     "id": "L3-mob-noun-verb"
   },
   {
@@ -5008,7 +5008,7 @@
     "level": "L3",
     "word": "nerve",
     "meaning": "noun/verb 神經、緊張、勇氣、厚顏無恥；鼓足勇氣",
-    "example": "The loud noise touched a nerve and made him upset.（那個巨大的聲音觸動了他的神經，讓他很不高興。）",
+    "example": "The loud noise touched a nerve and made him upset. (那陣噪音踩到他的痛處，讓他很不高興。)",
     "id": "L3-nerve-noun-verb"
   },
   {
@@ -5267,7 +5267,7 @@
     "level": "L3",
     "word": "passport",
     "meaning": "noun 護照",
-    "example": "Do not forget your passport at the airport.（在機場不要忘記你的護照。）",
+    "example": "Do not forget to bring your passport to the airport. (不要忘記帶護照去機場。)",
     "id": "L3-passport-noun"
   },
   {
@@ -5329,7 +5329,7 @@
   {
     "level": "L3",
     "word": "penny",
-    "meaning": "noun 便士(貨幣單位)",
+    "meaning": "noun 便士（英國貨幣單位）；一分錢（美國貨幣單位）",
     "example": "He found a penny on the sidewalk.（他在人行道上找到一枚一分錢硬幣。）",
     "id": "L3-penny-noun"
   },
@@ -5463,7 +5463,7 @@
     "level": "L3",
     "word": "pole",
     "meaning": "noun 杆子、地極",
-    "example": "A flag hung from the tall pole.（一面旗子掛在高高的杆子上。）",
+    "example": "A flag hung from the tall pole. (一面旗子掛在高高的旗桿上。)",
     "id": "L3-pole-noun"
   },
   {
@@ -5687,7 +5687,7 @@
     "level": "L3",
     "word": "punch",
     "meaning": "noun/verb 拳打；用拳猛擊",
-    "example": "He gave the punching bag a hard punch.（他用力打了拳擊袋一拳。）",
+    "example": "He gave the punching bag a hard punch. (他用力朝沙包打了一拳。)",
     "id": "L3-punch-noun-verb"
   },
   {
@@ -5701,7 +5701,7 @@
     "level": "L3",
     "word": "pursue",
     "meaning": "verb 追趕、追求",
-    "example": "She wants to pursue a career in medicine.（她想追求醫學方面的職業。）",
+    "example": "She wants to pursue a career in medicine. (她想在醫學領域發展。)",
     "id": "L3-pursue-verb"
   },
   {
@@ -5805,7 +5805,7 @@
   {
     "level": "L3",
     "word": "receiver",
-    "meaning": "noun 聽筒、接收者",
+    "meaning": "noun 聽筒、接收者、接收器",
     "example": "The receiver picked up the signal clearly.（接收器清楚地接收到訊號。）",
     "id": "L3-receiver-noun"
   },
@@ -5813,7 +5813,7 @@
     "level": "L3",
     "word": "recognize",
     "meaning": "verb 認出、認可",
-    "example": "Teachers recognize each student's unique talents. (老師認識到每個學生的獨特才能。)",
+    "example": "Teachers recognize each student's unique talents. (老師肯定每個學生的獨特才能。)",
     "id": "L3-recognize-verb"
   },
   {
@@ -5883,7 +5883,7 @@
     "level": "L3",
     "word": "religious",
     "meaning": "adj. 宗教的、虔誠的",
-    "example": "They visited a religious temple.（他們參觀了一座宗教寺廟。）",
+    "example": "They visited a religious temple. (他們參觀了一座寺廟。)",
     "id": "L3-religious-adj"
   },
   {
@@ -5918,7 +5918,7 @@
     "level": "L3",
     "word": "renew",
     "meaning": "verb 延長期限、重新開始",
-    "example": "I need to renew my passport.（我需要更新護照。）",
+    "example": "I need to renew my passport. (我需要換發護照。)",
     "id": "L3-renew-verb"
   },
   {
@@ -6295,8 +6295,8 @@
   {
     "level": "L3",
     "word": "security",
-    "meaning": "noun 安全(工作)",
-    "example": "The guard checked security at the gate.（警衛在大門檢查安全。）",
+    "meaning": "noun 安全、保全（工作）、保全措施",
+    "example": "The guard performed a security check at the gate. (警衛在大門進行安全檢查。)",
     "id": "L3-security-noun"
   },
   {
@@ -6352,7 +6352,7 @@
     "level": "L3",
     "word": "sexy",
     "meaning": "adj. 性感迷人的",
-    "example": "The word “sexy” should be used carefully.（“sexy” 這個字應該謹慎使用。）",
+    "example": "He thinks the dress looks sexy. (他覺得那件洋裝看起來很性感。)",
     "id": "L3-sexy-adj"
   },
   {
@@ -6506,7 +6506,7 @@
     "level": "L3",
     "word": "skyscraper",
     "meaning": "noun 摩天大樓",
-    "example": "The skyscraper stood above the city.（摩天大樓矗立在城市上方。）",
+    "example": "The skyscraper stood above the city. (摩天大樓高聳於城市之中。)",
     "id": "L3-skyscraper-noun"
   },
   {
@@ -6709,7 +6709,7 @@
     "level": "L3",
     "word": "staff",
     "meaning": "noun/verb 全體員工；成為員工、(為機構)提供人員",
-    "example": "School staff support student success. (學校員工支持學生成功。)",
+    "example": "School staff support student success. (學校全體員工都協助學生成功。)",
     "id": "L3-staff-noun-verb"
   },
   {
@@ -6842,7 +6842,7 @@
     "level": "L3",
     "word": "structure",
     "meaning": "noun/verb 結構、建築物；構成、組織",
-    "example": "Clear lesson structure improves comprehension. (清晰的課程結構改善理解。)",
+    "example": "Clear lesson structure improves comprehension. (清楚的課程架構有助於理解。)",
     "id": "L3-structure-noun-verb"
   },
   {

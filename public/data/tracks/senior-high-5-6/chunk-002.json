@@ -65,16 +65,16 @@
   {
     "level": "L5",
     "word": "vacancy",
-    "meaning": "空缺",
+    "meaning": "空房；空缺",
     "example": "There is a vacancy at the hotel.（這家飯店有空房。）",
-    "id": "L5-vacancy-mlj40"
+    "id": "L5-vacancy-m1u534mu"
   },
   {
     "level": "L5",
     "word": "vacuum",
-    "meaning": "真空",
+    "meaning": "真空；吸塵器",
     "example": "Use a vacuum to clean the carpet.（用吸塵器清潔地毯。）",
-    "id": "L5-vacuum-mkxmj"
+    "id": "L5-vacuum-mxi69hn"
   },
   {
     "level": "L5",
@@ -520,9 +520,9 @@
   {
     "level": "L5",
     "word": "zoom",
-    "meaning": "zoom 動詞「快速移動」或「變焦」",
+    "meaning": "快速移動；變焦",
     "example": "The camera can zoom in on distant objects.（這台相機可以拉近遠處的物體。）",
-    "id": "L5-zoom-zoom"
+    "id": "L5-zoom-m1ladj1l"
   },
   {
     "level": "L6",
@@ -583,9 +583,9 @@
   {
     "level": "L6",
     "word": "administration",
-    "meaning": "管理、行政",
+    "meaning": "行政；管理；政府",
     "example": "The new administration promised to reduce taxes. (新政府承諾減稅。)",
-    "id": "L6-administration-m10mgzz"
+    "id": "L6-administration-m1ayo5pn"
   },
   {
     "level": "L6",
@@ -786,9 +786,9 @@
   {
     "level": "L6",
     "word": "acute",
-    "meaning": "急性的 (chronic)",
+    "meaning": "劇烈的；急性的",
     "example": "She felt an acute pain in her ankle.（她腳踝感到劇烈疼痛。）",
-    "id": "L6-acute-chronic"
+    "id": "L6-acute-m5jh5wq"
   },
   {
     "level": "L6",
@@ -849,16 +849,16 @@
   {
     "level": "L6",
     "word": "affirm",
-    "meaning": "斷言",
+    "meaning": "肯定；斷言",
     "example": "The teacher affirmed my effort.（老師肯定了我的努力。）",
-    "id": "L6-affirm-mi23t"
+    "id": "L6-affirm-mijejtl"
   },
   {
     "level": "L6",
     "word": "aggression",
-    "meaning": "侵略",
+    "meaning": "攻擊性；侵略",
     "example": "Aggression is not the right way to solve conflict.（攻擊性不是解決衝突的正確方式。）",
-    "id": "L6-aggression-me79s"
+    "id": "L6-aggression-mxty5qr"
   },
   {
     "level": "L6",
@@ -975,9 +975,9 @@
   {
     "level": "L6",
     "word": "annoyance",
-    "meaning": "惱怒",
+    "meaning": "惱人的事；惱怒",
     "example": "The noise became a daily annoyance.（那個噪音成了每天的困擾。）",
-    "id": "L6-annoyance-mh0ld"
+    "id": "L6-annoyance-mb3254c"
   },
   {
     "level": "L6",
@@ -1136,9 +1136,9 @@
   {
     "level": "L6",
     "word": "attendant",
-    "meaning": "接待員",
+    "meaning": "服務員；空服員；接待員",
     "example": "The flight attendant served drinks.（空服員提供飲料。）",
-    "id": "L6-attendant-mf24wx"
+    "id": "L6-attendant-m76qsem"
   },
   {
     "level": "L6",
@@ -1150,9 +1150,9 @@
   {
     "level": "L6",
     "word": "authentic",
-    "meaning": "真實的",
+    "meaning": "正宗的；真實的",
     "example": "This is an authentic Japanese dish.（這是一道正宗的日本料理。）",
-    "id": "L6-authentic-mhwekd"
+    "id": "L6-authentic-m1wciz3m"
   },
   {
     "level": "L6",
@@ -1178,16 +1178,16 @@
   {
     "level": "L6",
     "word": "aviation",
-    "meaning": "飛行",
+    "meaning": "航空；飛行",
     "example": "He works in the aviation industry.（他在航空業工作。）",
-    "id": "L6-aviation-mqqxd"
+    "id": "L6-aviation-ms885uk"
   },
   {
     "level": "L6",
     "word": "awesome",
-    "meaning": "令人敬畏的",
+    "meaning": "很棒的；令人敬畏的",
     "example": "The view from the mountain was awesome.（山上的景色棒極了。）",
-    "id": "L6-awesome-myp0vor"
+    "id": "L6-awesome-m49wuui"
   },
   {
     "level": "L6",
@@ -1262,16 +1262,16 @@
   {
     "level": "L6",
     "word": "bleak",
-    "meaning": "荒涼的",
+    "meaning": "黯淡的；荒涼的",
     "example": "The future looked bleak after the storm.（暴風雨後未來看起來很黯淡。）",
-    "id": "L6-bleak-mjrriy"
+    "id": "L6-bleak-m1wqksup"
   },
   {
     "level": "L6",
     "word": "blunder",
-    "meaning": "犯錯",
+    "meaning": "大錯；犯大錯",
     "example": "Forgetting the date was a serious blunder.（忘記日期是一個嚴重錯誤。）",
-    "id": "L6-blunder-mkbc0"
+    "id": "L6-blunder-m1dacblw"
   },
   {
     "level": "L6",
@@ -1304,9 +1304,9 @@
   {
     "level": "L6",
     "word": "bout",
-    "meaning": "回合",
+    "meaning": "一陣；回合",
     "example": "He had a bout of fever last night.（他昨晚發了一陣燒。）",
-    "id": "L6-bout-mf8iy"
+    "id": "L6-bout-m14veiv6"
   },
   {
     "level": "L6",
@@ -1353,9 +1353,9 @@
   {
     "level": "L6",
     "word": "brisk",
-    "meaning": "活潑的",
+    "meaning": "輕快的；活潑的",
     "example": "We took a brisk walk after dinner.（我們晚餐後快步散步。）",
-    "id": "L6-brisk-mgjjym"
+    "id": "L6-brisk-m171a9wh"
   },
   {
     "level": "L6",
@@ -1388,9 +1388,9 @@
   {
     "level": "L6",
     "word": "bureaucracy",
-    "meaning": "官僚",
+    "meaning": "官僚制度；繁瑣的手續",
     "example": "Bureaucracy slowed the project down.（官僚程序拖慢了專案。）",
-    "id": "L6-bureaucracy-mg0ua"
+    "id": "L6-bureaucracy-mb7f5ju"
   },
   {
     "level": "L6",
@@ -1423,9 +1423,9 @@
   {
     "level": "L6",
     "word": "canvas",
-    "meaning": "帆布",
+    "meaning": "畫布；帆布",
     "example": "The artist painted on a large canvas.（藝術家在大畫布上作畫。）",
-    "id": "L6-canvas-mgibh"
+    "id": "L6-canvas-m19todnk"
   },
   {
     "level": "L6",
@@ -1444,16 +1444,16 @@
   {
     "level": "L6",
     "word": "caption",
-    "meaning": "標題；字幕",
+    "meaning": "說明文字；字幕；標題",
     "example": "The caption under the photo was funny.（照片下方的說明文字很有趣。）",
-    "id": "L6-caption-m8wvkzq"
+    "id": "L6-caption-mauyjah"
   },
   {
     "level": "L6",
     "word": "captive",
-    "meaning": "俘虜",
+    "meaning": "被囚禁的；俘虜",
     "example": "The soldiers kept the prisoner captive.（士兵把囚犯囚禁起來。）",
-    "id": "L6-captive-mebgk"
+    "id": "L6-captive-m1ictwvh"
   },
   {
     "level": "L6",
@@ -1626,9 +1626,9 @@
   {
     "level": "L6",
     "word": "clamp",
-    "meaning": "鉗緊",
+    "meaning": "夾具；夾緊",
     "example": "Use a clamp to hold the wood.（用夾具固定木頭。）",
-    "id": "L6-clamp-mpkyb"
+    "id": "L6-clamp-m53sutq"
   },
   {
     "level": "L6",
@@ -1647,9 +1647,9 @@
   {
     "level": "L6",
     "word": "clearance",
-    "meaning": "清除；空地",
+    "meaning": "清倉；清除；空地",
     "example": "The store is having a clearance sale.（這家店正在清倉特賣。）",
-    "id": "L6-clearance-mo0eodu"
+    "id": "L6-clearance-mho1mjf"
   },
   {
     "level": "L6",
@@ -1773,9 +1773,9 @@
   {
     "level": "L6",
     "word": "commitment",
-    "meaning": "承諾",
+    "meaning": "投入；奉獻；承諾",
     "example": "Success requires commitment.（成功需要投入。）",
-    "id": "L6-commitment-mhilb"
+    "id": "L6-commitment-m1n4zy3h"
   },
   {
     "level": "L6",
@@ -1787,9 +1787,9 @@
   {
     "level": "L6",
     "word": "companionship",
-    "meaning": "伴侶關係",
+    "meaning": "陪伴；友誼",
     "example": "Pets can provide companionship.（寵物能提供陪伴。）",
-    "id": "L6-companionship-mac0yqw"
+    "id": "L6-companionship-muwo8rm"
   },
   {
     "level": "L6",
@@ -2039,9 +2039,9 @@
   {
     "level": "L6",
     "word": "contemplation",
-    "meaning": "沈思",
+    "meaning": "沉思；冥想",
     "example": "He spent an hour in quiet contemplation.（他安靜沉思了一小時。）",
-    "id": "L6-contemplation-mizkl"
+    "id": "L6-contemplation-mbcto2d"
   },
   {
     "level": "L6",
@@ -2179,9 +2179,9 @@
   {
     "level": "L6",
     "word": "coverage",
-    "meaning": "覆蓋範圍",
+    "meaning": "報導；覆蓋範圍",
     "example": "The news coverage was extensive.（新聞報導範圍很廣。）",
-    "id": "L6-coverage-mhwhmz2"
+    "id": "L6-coverage-m19y2tl8"
   },
   {
     "level": "L6",
@@ -2256,9 +2256,9 @@
   {
     "level": "L6",
     "word": "cruiser",
-    "meaning": "遊艇",
+    "meaning": "巡洋艦；遊艇",
     "example": "The cruiser sailed near the island.（巡洋艦航行在島附近。）",
-    "id": "L6-cruiser-mp9a5"
+    "id": "L6-cruiser-mvq4d6k"
   },
   {
     "level": "L6",
@@ -2641,9 +2641,9 @@
   {
     "level": "L6",
     "word": "disability",
-    "meaning": "無能；殘障",
+    "meaning": "身心障礙；無能為力",
     "example": "The school supports students with disabilities.（學校支持身心障礙學生。）",
-    "id": "L6-disability-mxgu8yr"
+    "id": "L6-disability-m1eztrab"
   },
   {
     "level": "L6",
@@ -3110,9 +3110,9 @@
   {
     "level": "L6",
     "word": "emphatic",
-    "meaning": "強調的",
+    "meaning": "強調的；斷然的",
     "example": "She gave an emphatic answer.（她給了強而有力的回答。）",
-    "id": "L6-emphatic-membdo"
+    "id": "L6-emphatic-m12s2ejq"
   },
   {
     "level": "L6",
@@ -3124,9 +3124,9 @@
   {
     "level": "L6",
     "word": "enclosure",
-    "meaning": "圍住；圈地",
+    "meaning": "圍欄；圈地；圍住",
     "example": "The animals live in a large enclosure.（動物住在一個大型圍欄中。）",
-    "id": "L6-enclosure-m1vana01"
+    "id": "L6-enclosure-m9n0gfl"
   },
   {
     "level": "L6",
@@ -3383,9 +3383,9 @@
   {
     "level": "L6",
     "word": "eyesight",
-    "meaning": "視力；視野",
+    "meaning": "視力",
     "example": "My eyesight is getting worse.（我的視力變差了。）",
-    "id": "L6-eyesight-m1g7tai6"
+    "id": "L6-eyesight-mnuth"
   },
   {
     "level": "L6",
@@ -3488,9 +3488,9 @@
   {
     "level": "L6",
     "word": "flare",
-    "meaning": "閃耀",
+    "meaning": "信號彈；閃耀",
     "example": "A flare lit up the night sky.（信號火光照亮夜空。）",
-    "id": "L6-flare-mq4t9"
+    "id": "L6-flare-m1r3yob2"
   },
   {
     "level": "L6",
@@ -3572,9 +3572,9 @@
   {
     "level": "L6",
     "word": "foster",
-    "meaning": "養育；收養的",
+    "meaning": "寄養；培養；促進；收養的",
     "example": "The family decided to foster a child.（那個家庭決定寄養一名孩子。）",
-    "id": "L6-foster-m1da0okd"
+    "id": "L6-foster-m1xg2bbt"
   },
   {
     "level": "L6",
@@ -3656,9 +3656,9 @@
   {
     "level": "L6",
     "word": "genetic",
-    "meaning": "起源的；基因的",
+    "meaning": "基因的；遺傳的",
     "example": "The disease has a genetic cause.（這種疾病有遺傳原因。）",
-    "id": "L6-genetic-m3agw26"
+    "id": "L6-genetic-m9hom6m"
   },
   {
     "level": "L6",
@@ -3782,9 +3782,9 @@
   {
     "level": "L6",
     "word": "harass(ment)",
-    "meaning": "使…煩惱；騷擾；煩惱；騷擾",
+    "meaning": "騷擾；使煩惱",
     "example": "The company has rules against workplace harassment.（公司有反職場騷擾的規定。）",
-    "id": "L6-harass-ment-mrg8k5u"
+    "id": "L6-harass-ment-mccmm4z"
   },
   {
     "level": "L6",
@@ -3978,9 +3978,9 @@
   {
     "level": "L6",
     "word": "imposing",
-    "meaning": "壯觀的；",
+    "meaning": "壯觀的；雄偉的",
     "example": "The building looked imposing.（那棟建築看起來很壯觀。）",
-    "id": "L6-imposing-mbsl760"
+    "id": "L6-imposing-m14u7iqf"
   },
   {
     "level": "L6",
@@ -4293,9 +4293,9 @@
   {
     "level": "L6",
     "word": "ironic",
-    "meaning": "冷嘲的",
+    "meaning": "諷刺的；冷嘲的",
     "example": "It is ironic that the fire station burned down.（消防站被燒毀，這很諷刺。）",
-    "id": "L6-ironic-mce6x5"
+    "id": "L6-ironic-mvk5hvz"
   },
   {
     "level": "L6",
@@ -4412,9 +4412,9 @@
   {
     "level": "L6",
     "word": "legitimate",
-    "meaning": "合法的；正統的",
+    "meaning": "合理的；合法的；正統的",
     "example": "That is a legitimate question.（那是一個合理的問題。）",
-    "id": "L6-legitimate-m1rlcwc2"
+    "id": "L6-legitimate-m1nma8hp"
   },
   {
     "level": "L6",
@@ -4517,9 +4517,9 @@
   {
     "level": "L6",
     "word": "lunatic",
-    "meaning": "瘋的",
+    "meaning": "瘋子；瘋狂的",
     "example": "Only a lunatic would drive that fast in a storm.（只有瘋子才會在暴風雨中開那麼快。）",
-    "id": "L6-lunatic-mkq8p"
+    "id": "L6-lunatic-m1t8n6uv"
   },
   {
     "level": "L6",
@@ -4636,9 +4636,9 @@
   {
     "level": "L6",
     "word": "meditation",
-    "meaning": "沈思；冥想",
+    "meaning": "冥想；沉思",
     "example": "Meditation helps me relax.（冥想幫助我放鬆。）",
-    "id": "L6-meditation-mbc9vh0"
+    "id": "L6-meditation-m1cdvazl"
   },
   {
     "level": "L6",
@@ -4980,7 +4980,7 @@
     "level": "L6",
     "word": "notorious",
     "meaning": "惡名昭彰的",
-    "example": "The area was notorious for heavy traffic.（這個地區以交通壅塞出名。）",
+    "example": "The area was notorious for heavy traffic. (這個地區以交通壅塞惡名昭彰。)",
     "id": "L6-notorious-myo3ygl"
   },
   {
@@ -5063,9 +5063,9 @@
   {
     "level": "L6",
     "word": "operational",
-    "meaning": "操作上的",
+    "meaning": "可運作的；操作上的",
     "example": "The new system is now operational.（新系統現在可以運作了。）",
-    "id": "L6-operational-md1picp"
+    "id": "L6-operational-mg4o600"
   },
   {
     "level": "L6",
@@ -5497,9 +5497,9 @@
   {
     "level": "L6",
     "word": "precedent",
-    "meaning": "先例 adj.在前的",
+    "meaning": "先例；前例",
     "example": "This case set an important precedent.（這個案件立下重要先例。）",
-    "id": "L6-precedent-adj"
+    "id": "L6-precedent-m18rkmc6"
   },
   {
     "level": "L6",
@@ -5707,16 +5707,16 @@
   {
     "level": "L6",
     "word": "prosecution",
-    "meaning": "起訴",
+    "meaning": "起訴；檢方",
     "example": "The prosecution presented new evidence.（檢方提出新證據。）",
-    "id": "L6-prosecution-motjx"
+    "id": "L6-prosecution-m3czjsl"
   },
   {
     "level": "L6",
     "word": "prospective",
-    "meaning": "預期的",
+    "meaning": "未來的；可能成為的",
     "example": "Prospective students visited the campus.（未來可能入學的學生參觀了校園。）",
-    "id": "L6-prospective-mms0gl"
+    "id": "L6-prospective-mkwy109"
   },
   {
     "level": "L6",
@@ -5728,16 +5728,16 @@
   {
     "level": "L6",
     "word": "provoke",
-    "meaning": "對...挑釁；煽動",
+    "meaning": "挑釁；煽動；激起",
     "example": "His rude words provoked anger.（他無禮的話激起憤怒。）",
-    "id": "L6-provoke-mn8rh7m"
+    "id": "L6-provoke-m1yh2isv"
   },
   {
     "level": "L6",
     "word": "prowl",
-    "meaning": "潛行(於)。「為了捕獵或偷竊而悄悄潛行」",
-    "example": "The cat began to prowl around the garden.（貓開始在花園裡徘徊。）",
-    "id": "L6-prowl-m11mdza7"
+    "meaning": "潛行；悄悄徘徊（伺機捕獵或行竊）",
+    "example": "The cat began to prowl around the garden. (貓開始在花園裡悄悄潛行。)",
+    "id": "L6-prowl-mavc1hi"
   },
   {
     "level": "L6",
@@ -5777,16 +5777,16 @@
   {
     "level": "L6",
     "word": "quench",
-    "meaning": "熄滅 vt.解(渴)；壓制",
+    "meaning": "解（渴）；熄滅；壓制",
     "example": "Cold water can quench your thirst.（冷水可以解渴。）",
-    "id": "L6-quench-vt"
+    "id": "L6-quench-m12lqmcc"
   },
   {
     "level": "L6",
     "word": "query",
-    "meaning": "詢問",
+    "meaning": "疑問；問題；詢問",
     "example": "I have a query about the schedule.（我有一個關於行程的問題。）",
-    "id": "L6-query-mo08d"
+    "id": "L6-query-m1m7q6jy"
   },
   {
     "level": "L6",
@@ -5854,9 +5854,9 @@
   {
     "level": "L6",
     "word": "random",
-    "meaning": "任意行動 adj.隨機的",
+    "meaning": "隨機的；任意的",
     "example": "Choose a random number.（選一個隨機數字。）",
-    "id": "L6-random-adj"
+    "id": "L6-random-m80im6a"
   },
   {
     "level": "L6",
@@ -5924,9 +5924,9 @@
   {
     "level": "L6",
     "word": "recommendation",
-    "meaning": "推薦",
+    "meaning": "推薦；推薦信",
     "example": "I wrote a recommendation for my student.（我為學生寫了一封推薦信。）",
-    "id": "L6-recommendation-mhon2"
+    "id": "L6-recommendation-m1pydyue"
   },
   {
     "level": "L6",
@@ -5960,7 +5960,7 @@
     "level": "L6",
     "word": "redundant",
     "meaning": "多餘的",
-    "example": "The extra words are redundant.（多餘的字是累贅的。）",
+    "example": "The extra words are redundant. (這些多出來的字是多餘的。)",
     "id": "L6-redundant-mdsirq"
   },
   {
@@ -5973,9 +5973,9 @@
   {
     "level": "L6",
     "word": "reflective",
-    "meaning": "反射的",
+    "meaning": "反射的；能映照的；沉思的",
     "example": "The lake looked calm and reflective.（湖面平靜且能映照景物。）",
-    "id": "L6-reflective-mcq6j1"
+    "id": "L6-reflective-m1xmfon7"
   },
   {
     "level": "L6",
@@ -5987,9 +5987,9 @@
   {
     "level": "L6",
     "word": "refund",
-    "meaning": "退款；償還 [rɪ`fʌnd] vt.vi. 退款；償還",
+    "meaning": "退款；償還 v.退款；償還",
     "example": "I asked for a refund.（我要求退款。）",
-    "id": "L6-refund-r-f-nd-vt-vi"
+    "id": "L6-refund-v"
   },
   {
     "level": "L6",
@@ -6212,7 +6212,7 @@
     "level": "L6",
     "word": "rhetoric",
     "meaning": "修辭",
-    "example": "His speech was full of strong rhetoric.（他的演講充滿強烈修辭。）",
+    "example": "His speech was full of strong rhetoric. (他的演講充滿強而有力的修辭。)",
     "id": "L6-rhetoric-medtr"
   },
   {
@@ -6338,7 +6338,7 @@
     "level": "L6",
     "word": "sanitation",
     "meaning": "公共衛生",
-    "example": "Good sanitation prevents disease.（良好衛生設施能預防疾病。）",
+    "example": "Good sanitation prevents disease. (良好的公共衛生能預防疾病。)",
     "id": "L6-sanitation-mamaoh5"
   },
   {
@@ -6365,9 +6365,9 @@
   {
     "level": "L6",
     "word": "sector",
-    "meaning": "扇形；部分",
+    "meaning": "部門；產業；扇形",
     "example": "The technology sector is growing.（科技產業正在成長。）",
-    "id": "L6-sector-m16719r2"
+    "id": "L6-sector-mfu6rm0"
   },
   {
     "level": "L6",
@@ -6463,9 +6463,9 @@
   {
     "level": "L6",
     "word": "sheer",
-    "meaning": "全然的 adv.十足地",
+    "meaning": "完全的；純粹的；陡峭的",
     "example": "The sheer size of the building amazed me.（那棟建築巨大的規模讓我驚訝。）",
-    "id": "L6-sheer-adv"
+    "id": "L6-sheer-m1lpidc9"
   },
   {
     "level": "L6",
@@ -6533,9 +6533,9 @@
   {
     "level": "L6",
     "word": "simultaneous",
-    "meaning": "同步的",
+    "meaning": "同時發生的；同時的",
     "example": "The two events were simultaneous.（這兩件事同時發生。）",
-    "id": "L6-simultaneous-mcu3ez"
+    "id": "L6-simultaneous-myv03fi"
   },
   {
     "level": "L6",
@@ -6568,9 +6568,9 @@
   {
     "level": "L6",
     "word": "slavery",
-    "meaning": "奴隸身分；奴役",
+    "meaning": "奴隸制度；奴役；奴隸身分",
     "example": "Slavery was a cruel system.（奴隸制度是殘酷的制度。）",
-    "id": "L6-slavery-mfcwvsx"
+    "id": "L6-slavery-m1xnjeb2"
   },
   {
     "level": "L6",
@@ -6589,9 +6589,9 @@
   {
     "level": "L6",
     "word": "smack",
-    "meaning": "摑巴掌；響吻",
+    "meaning": "掌擊（聲）；拍打；摑巴掌",
     "example": "He gave the table a hard smack.（他用力拍了一下桌子。）",
-    "id": "L6-smack-m12t5qr2"
+    "id": "L6-smack-m646v1q"
   },
   {
     "level": "L6",
@@ -6603,9 +6603,9 @@
   {
     "level": "L6",
     "word": "smother",
-    "meaning": "窒息。或是形容「過度保護 / 限制」，使人無法呼吸。",
+    "meaning": "使窒息；悶熄；過度保護",
     "example": "Do not smother the baby with too many blankets.（不要用太多毯子把寶寶悶住。）",
-    "id": "L6-smother-mcprnka"
+    "id": "L6-smother-m1t5tbi8"
   },
   {
     "level": "L6",
@@ -6631,9 +6631,9 @@
   {
     "level": "L6",
     "word": "sneer",
-    "meaning": "嘲諷,冷笑",
-    "example": "He gave a sneer at the idea.（他對這個想法冷笑。）",
-    "id": "L6-sneer-m1yfqwxt"
+    "meaning": "嘲諷；冷笑 v./n.",
+    "example": "He sneered at the idea. (他對這個想法嗤之以鼻。)",
+    "id": "L6-sneer-v-n"
   },
   {
     "level": "L6",
@@ -6736,9 +6736,9 @@
   {
     "level": "L6",
     "word": "specialize",
-    "meaning": "專攻 vt.使專門化",
+    "meaning": "專攻；專門研究（specialize in）",
     "example": "She specializes in children’s medicine.（她專攻兒童醫學。）",
-    "id": "L6-specialize-vt"
+    "id": "L6-specialize-specialize-in"
   },
   {
     "level": "L6",
@@ -6771,9 +6771,9 @@
   {
     "level": "L6",
     "word": "speculate",
-    "meaning": "思索 vt.推測",
+    "meaning": "推測；思索（speculate about）",
     "example": "Do not speculate without facts.（沒有事實不要猜測。）",
-    "id": "L6-speculate-vt"
+    "id": "L6-speculate-speculate-about"
   },
   {
     "level": "L6",
@@ -6918,9 +6918,9 @@
   {
     "level": "L6",
     "word": "stature",
-    "meaning": "身高；身材；高度境界",
+    "meaning": "身高；身材；聲望；地位",
     "example": "He is short in stature but strong.（他身材矮小但很強壯。）",
-    "id": "L6-stature-m6ltdtr"
+    "id": "L6-stature-mwa1elj"
   },
   {
     "level": "L6",

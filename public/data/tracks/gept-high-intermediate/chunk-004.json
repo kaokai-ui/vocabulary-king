@@ -17,7 +17,7 @@
     "level": "中高級",
     "word": "transcription",
     "meaning": "noun 抄寫、謄寫",
-    "example": "The transcription took three hours.（逐字稿花了三小時。）",
+    "example": "The transcription took three hours. (打逐字稿花了三個小時。)",
     "id": "中高級-transcription-noun"
   },
   {
@@ -45,7 +45,7 @@
     "level": "中高級",
     "word": "traumatic",
     "meaning": "adj. 痛苦難忘的、造成精神創傷的",
-    "example": "The accident was traumatic.（那場事故令人創傷。）",
+    "example": "The accident was traumatic. (那場事故讓人留下創傷。)",
     "id": "中高級-traumatic-adj"
   },
   {
@@ -93,7 +93,7 @@
   {
     "level": "中高級",
     "word": "truly",
-    "meaning": "adv. 真誠的、確實",
+    "meaning": "adv. 真誠地、確實地、真正地",
     "example": "I truly appreciate your help.（我真的感謝你的幫助。）",
     "id": "中高級-truly-adv"
   },
@@ -394,7 +394,7 @@
   {
     "level": "中高級",
     "word": "vicinity",
-    "meaning": "noun 週圍地區、附近",
+    "meaning": "noun 周圍地區、附近",
     "example": "There is a school in the vicinity.（附近有一所學校。）",
     "id": "中高級-vicinity-noun"
   },
@@ -415,7 +415,7 @@
   {
     "level": "中高級",
     "word": "vintage",
-    "meaning": "noun (特定年分或地方)釀造的酒、釀造年分\nadj. (尤指過去某個時期)最典型的、優質的",
+    "meaning": "noun （特定年份或地方）釀造的酒、釀造年份\nadj. 復古的、（尤指過去某個時期）最典型的、優質的",
     "example": "She wore a vintage dress.（她穿了一件復古洋裝。）",
     "id": "中高級-vintage-noun-adj"
   },
@@ -577,7 +577,7 @@
     "level": "中高級",
     "word": "withdrawal",
     "meaning": "noun 撤走、退出、提款",
-    "example": "The withdrawal of troops began at dawn.（軍隊撤離在黎明開始。）",
+    "example": "The withdrawal of troops began at dawn. (軍隊在黎明開始撤離。)",
     "id": "中高級-withdrawal-noun"
   },
   {

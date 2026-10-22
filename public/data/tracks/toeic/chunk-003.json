@@ -220,14 +220,14 @@
     "level": "TOEIC",
     "word": "naturally",
     "meaning": "ad. 自然地；天然地",
-    "example": "Naturally, the sudden increase in raw material costs will lead to higher wholesale prices. (自然，原物料成本的突然上漲會導致批發價格上漲。)",
+    "example": "Naturally, the sudden increase in raw material costs will lead to higher wholesale prices. (理所當然，原物料成本突然上漲會帶動批發價格上升。)",
     "id": "TOEIC-naturally-ad"
   },
   {
     "level": "L2",
     "word": "nearby",
     "meaning": "a / ad. 附近的；附近的",
-    "example": "The distribution hub is conveniently located nearby a major highway junction. (配送中心位於主要高速公路交會處附近，交通便利。)",
+    "example": "The distribution center is conveniently located near a major highway interchange. (配送中心位於主要高速公路交會處附近，交通便利。)",
     "id": "L2-nearby-a-ad"
   },
   {
@@ -311,7 +311,7 @@
     "level": "L1",
     "word": "news",
     "meaning": "n. 新聞；消息",
-    "example": "The financial news network reported a sudden drop in international crude oil prices. (財經新聞網報道稱，國際原油價格突然下跌。)",
+    "example": "The financial news network reported a sudden drop in international crude oil prices. (財經新聞網報導，國際原油價格突然下跌。)",
     "id": "L1-news-n"
   },
   {
@@ -408,9 +408,9 @@
   {
     "level": "L6",
     "word": "nutrient",
-    "meaning": "a / n. 營養的；滋養的；營養物",
+    "meaning": "n. 營養素；養分",
     "example": "The agrotech company developed a fertilizer that maximizes nutrient absorption in crops. (這家農業科技公司開發了一種肥料，可以最大限度地提高農作物的養分吸收。)",
-    "id": "L6-nutrient-a-n"
+    "id": "L6-nutrient-n"
   },
   {
     "level": "L6",
@@ -499,7 +499,7 @@
   {
     "level": "TOEIC",
     "word": "occupancy",
-    "meaning": "n. 佔有；入住",
+    "meaning": "n. 佔用；進駐率",
     "example": "The luxury office building boasts a ninety percent occupancy rate this calendar year. (這棟豪華辦公大樓今年的入住率高達百分之九十。)",
     "id": "TOEIC-occupancy-n"
   },
@@ -702,7 +702,7 @@
   {
     "level": "L3",
     "word": "original",
-    "meaning": "a. 本來的；最初的",
+    "meaning": "a. 原始的；本來的；最初的",
     "example": "Please keep the original receipt in your files for future reimbursement claims. (請將原始收據保存在您的檔案中，以備將來報帳時使用。)",
     "id": "L3-original-a"
   },
@@ -730,7 +730,7 @@
   {
     "level": "TOEIC",
     "word": "outbound",
-    "meaning": "a / ad. 向外去的；駛向外國的",
+    "meaning": "a. 對外發出的；外運的；ad. 向外",
     "example": "The logistics center handles a high volume of outbound shipments every afternoon. (物流中心每天下午處理大量出境貨物。)",
     "id": "TOEIC-outbound-a-ad"
   },
@@ -738,14 +738,14 @@
     "level": "L5",
     "word": "outdo",
     "meaning": "v. 勝過；超越",
-    "example": "The ambitious young startup aims to outdo its established rivals in innovation. (這家雄心勃勃的年輕新創公司旨在創新方面超越老牌競爭對手。)",
+    "example": "The ambitious young startup aims to outdo its established rivals in innovation. (這家雄心勃勃的新創公司力求在創新方面超越老牌競爭對手。)",
     "id": "L5-outdo-v"
   },
   {
     "level": "L3",
     "word": "outdoor",
     "meaning": "a. 戶外的，露天的",
-    "example": "The corporate retreat features a variety of outdoor team-building activities. (企業休養所設有各種戶外團隊建立活動。)",
+    "example": "The corporate retreat features a variety of outdoor team-building activities. (這座企業度假中心設有各式戶外團隊合作活動。)",
     "id": "L3-outdoor-a"
   },
   {
@@ -758,14 +758,14 @@
   {
     "level": "L5",
     "word": "outgoing",
-    "meaning": "a. 友好的;外向的",
+    "meaning": "a. 友好的；外向的",
     "example": "The new sales representative has an outgoing personality that clients appreciate. (這位新銷售代表性格開朗，深受客戶讚賞。)",
     "id": "L5-outgoing-a"
   },
   {
     "level": "TOEIC",
     "word": "outgun",
-    "meaning": "v. 火力壓過；武器多於",
+    "meaning": "v. 火力壓過；武器多於；勝過；壓制",
     "example": "Smaller firms can easily be outgunned by competitors with massive marketing budgets. (小公司很容易被擁有大量行銷預算的競爭對手擊敗。)",
     "id": "TOEIC-outgun-v"
   },
@@ -779,7 +779,7 @@
   {
     "level": "L6",
     "word": "outlet",
-    "meaning": "n. 銷路；商店",
+    "meaning": "n. 銷路；商店；直銷店；暢貨中心",
     "example": "The factory opened a factory outlet store to sell surplus inventory directly to consumers. (該工廠開設了工廠直銷店，將剩餘庫存直接出售給消費者。)",
     "id": "L6-outlet-n"
   },
@@ -807,14 +807,14 @@
   {
     "level": "TOEIC",
     "word": "out-of-date",
-    "meaning": "a. 不流行的",
+    "meaning": "a. 過時的；不流行的",
     "example": "Operating with out-of-date software leaves the corporate network vulnerable to hacks. (使用過時的軟體操作會使公司網路容易受到駭客攻擊。)",
     "id": "TOEIC-out-of-date-a"
   },
   {
     "level": "L5",
     "word": "output",
-    "meaning": "v / n. 出產；生產；出產；生產",
+    "meaning": "v. 產出；生產；n. 產量；產出",
     "example": "The factory increased its daily output of semiconductor chips by fifteen percent. (該工廠的半導體晶片日產量增加了百分之十五。)",
     "id": "L5-output-v-n"
   },
@@ -828,7 +828,7 @@
   {
     "level": "L6",
     "word": "outrageous",
-    "meaning": "a. 可憎的；可恥的",
+    "meaning": "a. 離譜的；荒謬的；令人憤慨的",
     "example": "The vendor's request for a fifty percent price increase was deemed completely outrageous. (供應商提出的漲價百分之五十的要求被認為是完全無理的。)",
     "id": "L6-outrageous-a"
   },
@@ -850,7 +850,7 @@
     "level": "TOEIC",
     "word": "outsmart",
     "meaning": "v. 用計謀打敗",
-    "example": "The startup managed to outsmart its competitors by filing for a patent early. (這家新創公司透過儘早申請專利，成功地超越了競爭對手。)",
+    "example": "The startup managed to outsmart its competitors by filing for a patent early. (這家新創公司透過及早申請專利，成功智取競爭對手。)",
     "id": "TOEIC-outsmart-v"
   },
   {
@@ -863,7 +863,7 @@
   {
     "level": "L5",
     "word": "outward",
-    "meaning": "a / ad. 向外的；往外去的；向外的；往外去的",
+    "meaning": "a. 向外的；外表的；ad. 向外",
     "example": "The company's outward appearance of financial stability masked deep internal debts. (該公司財務穩定的外表掩蓋了沉重的內部債務。)",
     "id": "L5-outward-a-ad"
   },
@@ -877,8 +877,8 @@
   {
     "level": "L5",
     "word": "overall",
-    "meaning": "a / n. 總的，全部的；工作褲",
-    "example": "The overall performance of the investment portfolio exceeded our expectations this year. (今年投資組合的整體表現超出了我們的預期。)",
+    "meaning": "a. 整體的；全部的；n. 工作服",
+    "example": "The overall performance of the investment portfolio exceeded our expectations this year. (今年投資組合的整體表現超出預期。)",
     "id": "L5-overall-a-n"
   },
   {
@@ -898,9 +898,9 @@
   {
     "level": "L6",
     "word": "overlap",
-    "meaning": "v. 部分重疊",
+    "meaning": "v. 部分重疊；n. 重疊部分",
     "example": "There is a significant overlap between the duties of the two marketing roles. (這兩個行銷角色的職責有很大的重疊。)",
-    "id": "L6-overlap-v"
+    "id": "L6-overlap-v-n"
   },
   {
     "level": "L4",
@@ -920,7 +920,7 @@
     "level": "中高級",
     "word": "oversee",
     "meaning": "v. 監視；監督",
-    "example": "The director was appointed to oversee the implementation of the new IT infrastructure. (該總監被任命負責監督新 IT 基礎設施的實施。)",
+    "example": "The director was appointed to oversee the implementation of the new IT infrastructure. (該總監獲任命負責監督新 IT 基礎設施的建置。)",
     "id": "中高級-oversee-v"
   },
   {
@@ -940,8 +940,8 @@
   {
     "level": "L5",
     "word": "overwhelm",
-    "meaning": "v. 戰勝；征服",
-    "example": "The customer service center was overwhelmed with calls after the system outage. (系統中斷後，客戶服務中心接獲大量電話。)",
+    "meaning": "v. 戰勝；征服；使不堪負荷；使應接不暇",
+    "example": "The customer service center was overwhelmed with calls after the system outage. (系統中斷後，客戶服務中心接獲大量來電，應接不暇。)",
     "id": "L5-overwhelm-v"
   },
   {
@@ -989,7 +989,7 @@
   {
     "level": "L1",
     "word": "part",
-    "meaning": "n / v / a / ad. 部分；本分；分開；使分離；部分；部分地",
+    "meaning": "n. 部分；本分；v. 分開；使分離；a. 部分的；ad. 部分地",
     "example": "The company decided to sell a part of its logistics division to cut operational debts. (該公司決定出售部分物流部門以削減營運債務。)",
     "id": "L1-part-n-v-a-ad"
   },
@@ -1017,7 +1017,7 @@
   {
     "level": "L2",
     "word": "particular",
-    "meaning": "a. 特有的，獨特的",
+    "meaning": "a. 特別的；特定的；特有的；獨特的",
     "example": "The manager paid particular attention to the quality control metrics this month. (經理本月特別關注品質控制指標。)",
     "id": "L2-particular-a"
   },
@@ -1067,7 +1067,7 @@
     "level": "L3",
     "word": "passage",
     "meaning": "n. 通行；走廊",
-    "example": "The narrow passage between the two warehouses must be kept clear of all inventory pallets. (兩個倉庫之間的狹窄通道必須清除所有庫存託盤。)",
+    "example": "The narrow passage between the two warehouses must be kept clear of all inventory pallets. (兩座倉庫之間的狹窄通道必須清空所有棧板。)",
     "id": "L3-passage-n"
   },
   {
@@ -1094,7 +1094,7 @@
   {
     "level": "L2",
     "word": "path",
-    "meaning": "n. 小徑",
+    "meaning": "n. 小徑；路徑；路線",
     "example": "The delivery truck followed a specific path to avoid traffic jams in the city center. (送貨卡車沿著特定的路徑行駛，以避免市中心的交通擁堵。)",
     "id": "L2-path-n"
   },
@@ -1137,13 +1137,13 @@
     "level": "中級",
     "word": "payment",
     "meaning": "n. 支付；付款",
-    "example": "Please submit the final payment before the due date listed on the statement. (請在帳單上列出的到期日之前提交最終付款。)",
+    "example": "Please submit the final payment before the due date listed on the statement. (請在帳單所列的到期日前支付尾款。)",
     "id": "中級-payment-n"
   },
   {
     "level": "TOEIC",
     "word": "payroll",
-    "meaning": "n. 薪金總額；發薪名單",
+    "meaning": "n. 薪資總額；發薪名單",
     "example": "The HR department manages the monthly payroll for over five hundred employees. (人力資源部門管理五百多名員工的每月薪資。)",
     "id": "TOEIC-payroll-n"
   },
@@ -1164,7 +1164,7 @@
   {
     "level": "L4",
     "word": "peculiar",
-    "meaning": "a. 奇怪的；乖癖的",
+    "meaning": "a. 奇怪的；古怪的；不尋常的",
     "example": "The auditor noticed a peculiar discrepancy in the third-quarter travel expenses. (稽核員注意到第三季差旅費用有特殊差異。)",
     "id": "L4-peculiar-a"
   },
@@ -1227,7 +1227,7 @@
   {
     "level": "L3",
     "word": "performance",
-    "meaning": "n. 表演；成效",
+    "meaning": "n. 表演；成效；效能",
     "example": "The impressive performance of the new software reduced processing times by half. (新軟體令人印象深刻的性能將處理時間縮短了一半。)",
     "id": "L3-performance-n"
   },
@@ -1255,7 +1255,7 @@
   {
     "level": "L4",
     "word": "permanent",
-    "meaning": "a. 永恆的；永遠的",
+    "meaning": "a. 永久的；長期的",
     "example": "The firm offered her a permanent position as a senior data analyst after her internship. (實習結束後，該公司為她提供了高級資料分析師的永久職務。)",
     "id": "L4-permanent-a"
   },
@@ -1318,7 +1318,7 @@
   {
     "level": "中高級",
     "word": "pertinent",
-    "meaning": "a. 恰當的；貼切的",
+    "meaning": "a. 相關的；切題的；恰當的",
     "example": "The analyst provided pertinent data regarding consumer trends in the retail sector. (該分析師提供了有關零售業消費者趨勢的相關資料。)",
     "id": "中高級-pertinent-a"
   },
@@ -1353,7 +1353,7 @@
   {
     "level": "L2",
     "word": "photograph",
-    "meaning": "n. 攝影照",
+    "meaning": "n. 照片",
     "example": "The marketing team hired a professional to take a photograph of the new product. (行銷團隊聘請了專業人士為新產品拍攝照片。)",
     "id": "L2-photograph-n"
   },
@@ -1361,14 +1361,14 @@
     "level": "L2",
     "word": "photographer",
     "meaning": "n. 攝影師",
-    "example": "The experienced photographer captured high-quality images for the corporate brochure. (這位經驗豐富的攝影師為企業宣傳冊拍攝了高品質的圖像。)",
+    "example": "The experienced photographer captured high-quality images for the corporate brochure. (這位資深攝影師為企業型錄拍攝高品質照片。)",
     "id": "L2-photographer-n"
   },
   {
     "level": "L2",
     "word": "pile",
     "meaning": "n / v. 堆；一堆；堆積；疊",
-    "example": "Workers stacked a neat pile of lumber next to the construction site entrance. (工人在工地入口處整齊地堆放著一堆木材。)",
+    "example": "Workers stacked a neat pile of lumber next to the construction site entrance. (工人在工地入口整齊堆放一批木材。)",
     "id": "L2-pile-n-v"
   },
   {
@@ -1388,8 +1388,8 @@
   {
     "level": "L6",
     "word": "pipeline",
-    "meaning": "n. 渠道；路線",
-    "example": "The company has several innovative projects in its development pipeline for 2027. (該公司有多個 2027 年開發計畫中的創新專案。)",
+    "meaning": "n. 管道；路線；（專案）儲備；開發中",
+    "example": "The company has several innovative projects in its development pipeline for 2027. (該公司有多項預計於 2027 年開發的創新專案。)",
     "id": "L6-pipeline-n"
   },
   {
@@ -1403,7 +1403,7 @@
     "level": "L1",
     "word": "place",
     "meaning": "n / v. 地點；地區；身分；放置；安置",
-    "example": "Please place the inbound shipping containers in the designated storage area. (請將進境貨櫃放置在指定存放區域。)",
+    "example": "Please place the inbound shipping containers in the designated storage area. (請將進口貨櫃放置在指定的存放區。)",
     "id": "L1-place-n-v"
   },
   {
@@ -1417,7 +1417,7 @@
     "level": "TOEIC",
     "word": "placid",
     "meaning": "a. 平靜的；寧靜的",
-    "example": "The lakeside resort offers a placid setting for the executive board retreat. (湖畔度假村為執行董事會靜修提供了寧靜的環境。)",
+    "example": "The lakeside resort offers a placid setting for the executive board retreat. (湖畔度假村為董事會共識營提供寧靜的環境。)",
     "id": "TOEIC-placid-a"
   },
   {
@@ -1430,7 +1430,7 @@
   {
     "level": "L1",
     "word": "plan",
-    "meaning": "n / v. 計畫；方案；計畫；打算",
+    "meaning": "n. 計畫；方案；v. 計畫；打算",
     "example": "The executive board met to discuss the strategic plan for the upcoming fiscal year. (執行董事會開會討論下一會計年度的策略計畫。)",
     "id": "L1-plan-n-v"
   },
@@ -1529,7 +1529,7 @@
     "level": "L4",
     "word": "pollution",
     "meaning": "n. 汙染",
-    "example": "Stricter environmental laws were introduced to curb industrial air pollution. (推出了更嚴格的環境法來遏制工業空氣污染。)",
+    "example": "Stricter environmental laws were introduced to curb industrial air pollution. (該公司制定更嚴格的環境法規，以抑制工業空氣污染。)",
     "id": "L4-pollution-n"
   },
   {
@@ -1550,7 +1550,7 @@
     "level": "L4",
     "word": "portable",
     "meaning": "a. 手提式的；輕便的",
-    "example": "The lightweight laptop is highly portable, making it ideal for remote workers. (這款輕便的筆記型電腦非常便攜，非常適合遠端工作人員。)",
+    "example": "The lightweight laptop is highly portable, making it ideal for remote workers. (這款輕巧的筆記型電腦方便攜帶，非常適合遠距工作者。)",
     "id": "L4-portable-a"
   },
   {
@@ -1592,7 +1592,7 @@
     "level": "L2",
     "word": "possibility",
     "meaning": "n. 可能性",
-    "example": "Analysts are exploring the possibility of expanding our retail chain into Europe. (分析師正在探索將我們的零售鏈擴展到歐洲的可能性。)",
+    "example": "Analysts are exploring the possibility of expanding our retail chain into Europe. (分析師正探討將零售連鎖拓展至歐洲的可能性。)",
     "id": "L2-possibility-n"
   },
   {
@@ -1605,7 +1605,7 @@
   {
     "level": "L2",
     "word": "post",
-    "meaning": "n / v. 發布 ; 職位",
+    "meaning": "n. 職位；v. 發布；張貼",
     "example": "The human resources department will post the job opening on the corporate website. (人力資源部將在公司網站上發布職缺資訊。)",
     "id": "L2-post-n-v"
   },
@@ -1613,7 +1613,7 @@
     "level": "L3",
     "word": "postage",
     "meaning": "n. 郵資；郵費",
-    "example": "Please include the correct amount for postage on the outbound international mail. (請在出境國際郵件中註明正確的郵資金額。)",
+    "example": "Please include the correct amount for postage on the outbound international mail. (請在寄往國外的郵件上註明正確郵資。)",
     "id": "L3-postage-n"
   },
   {
@@ -1711,7 +1711,7 @@
     "level": "TOEIC",
     "word": "precondition",
     "meaning": "n / v. 先決條件；使⋯預先適應",
-    "example": "Achieving financial stability is a vital precondition for business expansion. (實現金融穩定是業務擴張的重要前提。)",
+    "example": "Achieving financial stability is a vital precondition for business expansion. (達成財務穩定是業務擴張的重要前提。)",
     "id": "TOEIC-precondition-n-v"
   },
   {
@@ -1739,14 +1739,14 @@
     "level": "TOEIC",
     "word": "predisposition",
     "meaning": "n. 傾向；素質",
-    "example": "Some consumers have a strong predisposition to purchase familiar corporate brands. (有些消費者有強烈的傾向購買熟悉的企業品牌。)",
+    "example": "Some consumers have a strong predisposition to purchase familiar corporate brands. (有些消費者有強烈的購買傾向，偏好熟悉的企業品牌。)",
     "id": "TOEIC-predisposition-n"
   },
   {
     "level": "TOEIC",
     "word": "predominate",
     "meaning": "v. 主宰；支配",
-    "example": "Small retail stores continue to predominate the local commercial landscape. (小型零售店繼續在當地商業格局中佔據主導地位。)",
+    "example": "Small retail stores continue to predominate in the local business landscape. (小型零售店繼續在當地商業格局中佔據主導地位。)",
     "id": "TOEIC-predominate-v"
   },
   {
@@ -1760,7 +1760,7 @@
     "level": "L2",
     "word": "prefer",
     "meaning": "v. 偏好",
-    "example": "Many remote employees prefer a flexible schedule over a traditional office routine. (與傳統的辦公室慣例相比，許多遠距員工更喜歡靈活的日程安排。)",
+    "example": "Many remote employees prefer a flexible schedule over a traditional office routine. (相較於傳統辦公室慣例，許多遠距員工更喜歡彈性的時程安排。)",
     "id": "L2-prefer-v"
   },
   {
@@ -1773,15 +1773,15 @@
   {
     "level": "L6",
     "word": "prejudice",
-    "meaning": "n / v. 偏見；歧視；損害；偏見",
+    "meaning": "n. 偏見；歧視；v. 損害；使有偏見",
     "example": "Corporate compliance policies aim to eliminate any form of workplace prejudice. (公司法遵政策旨在消除任何形式的工作場所偏見。)",
     "id": "L6-prejudice-n-v"
   },
   {
     "level": "TOEIC",
     "word": "premises",
-    "meaning": "n. 生產場所；經營場址",
-    "example": "Smoking is strictly prohibited anywhere on the corporate premises or grounds. (公司場所或場地內的任何地方嚴禁吸煙。)",
+    "meaning": "n. 生產場所；營業場所",
+    "example": "Smoking is strictly prohibited anywhere on the corporate premises or grounds. (本公司營業場所內全面禁止吸菸。)",
     "id": "TOEIC-premises-n"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "TOEIC",
     "word": "prepaid",
     "meaning": "a. 預先付的",
-    "example": "The corporate travel coordinator purchased a prepaid phone card for the international trip. (商務旅行協調員為國際旅行購買了一張預付費電話卡。)",
+    "example": "The corporate travel coordinator purchased a prepaid phone card for the international trip. (商務旅行協調人為國際旅程購買了一張儲值電話卡。)",
     "id": "TOEIC-prepaid-a"
   },
   {
@@ -1893,7 +1893,7 @@
     "level": "L3",
     "word": "prevent",
     "meaning": "v. 防止；預防",
-    "example": "The factory installed safety guards on all machinery to prevent workplace injuries. (工廠在所有機械上安裝了安全防護裝置，以防止工傷。)",
+    "example": "The factory installed safety guards on all machinery to prevent workplace injuries. (工廠在所有機器上安裝安全防護裝置，以避免職業傷害。)",
     "id": "L3-prevent-v"
   },
   {
@@ -1914,7 +1914,7 @@
     "level": "TOEIC",
     "word": "previously",
     "meaning": "ad. 事先；以前",
-    "example": "Previously, the corporation operated solely as a domestic shipping firm. (此前，該公司僅作為國內航運公司運作。)",
+    "example": "Previously, the corporation operated solely as a domestic shipping firm. (先前，該公司只經營國內航運。)",
     "id": "TOEIC-previously-ad"
   },
   {
@@ -1928,14 +1928,14 @@
     "level": "L5",
     "word": "priceless",
     "meaning": "a. 貴重的；無價的",
-    "example": "The unique antique clock is an item of priceless historical value to the museum. (這座獨特的古董鐘對於博物館來說是無價的歷史價值的物品。)",
+    "example": "The unique antique clock is an item of priceless historical value to the museum. (這座獨特的古董鐘對博物館而言具有無價的歷史價值。)",
     "id": "L5-priceless-a"
   },
   {
     "level": "中高級",
     "word": "primarily",
     "meaning": "ad. 首先；起初；主要地",
-    "example": "The logistics manager is primarily responsible for coordinating outbound shipments. (物流經理主要負責協調出境貨運。)",
+    "example": "The logistics manager is primarily responsible for coordinating outbound shipments. (物流經理主要負責協調對外出貨。)",
     "id": "中高級-primarily-ad"
   },
   {
@@ -1963,7 +1963,7 @@
     "level": "L5",
     "word": "prior",
     "meaning": "a. 在前的；居先的",
-    "example": "The legal department reviewed all contracts signed prior to the current calendar year. (法律部門審查了本日曆年之前簽署的所有合約。)",
+    "example": "The legal department reviewed all contracts signed prior to the current calendar year. (法務部門審查了本年度之前簽訂的所有合約。)",
     "id": "L5-prior-a"
   },
   {
@@ -2075,14 +2075,14 @@
     "level": "L6",
     "word": "productivity",
     "meaning": "n. 生產力；生產率",
-    "example": "Introducing automated workflows significantly boosted employee productivity this quarter. (本季引入自動化工作流程顯著提高了員工的工作效率。)",
+    "example": "Introducing automated workflows significantly boosted employee productivity this quarter. (本季導入自動化流程，顯著提升了員工的生產力。)",
     "id": "L6-productivity-n"
   },
   {
     "level": "L4",
     "word": "profession",
     "meaning": "n. 職業；同業",
-    "example": "Choosing a career in corporate law is a respectable and lucrative profession. (選擇公司法職業是一個受人尊敬且利潤豐厚的職業。)",
+    "example": "Choosing a career in corporate law is a respectable and lucrative profession. (從事公司法工作是一份受人尊敬且收入豐厚的職業。)",
     "id": "L4-profession-n"
   },
   {
@@ -2103,14 +2103,14 @@
     "level": "L3",
     "word": "profit",
     "meaning": "v / n. 得益；獲益；利潤；盈利",
-    "example": "The company reported a substantial net profit for the third fiscal quarter. (該公司公佈第三財季淨利可觀。)",
+    "example": "The company reported a substantial net profit for the third fiscal quarter. (該公司公布第三會計季度的淨利可觀。)",
     "id": "L3-profit-v-n"
   },
   {
     "level": "L4",
     "word": "profitable",
     "meaning": "a. 有利的；贏利的",
-    "example": "Investing in semiconductor technology proved to be a highly profitable venture for the firm. (事實證明，投資半導體技術對公司來說是一項高利潤的投資。)",
+    "example": "Investing in semiconductor technology proved to be a highly profitable venture for the firm. (投資半導體技術證明是公司一項獲利豐厚的投資。)",
     "id": "L4-profitable-a"
   },
   {
@@ -2124,7 +2124,7 @@
     "level": "L3",
     "word": "program",
     "meaning": "n. 計畫；方案；節目",
-    "example": "The human resources department introduced a new training program for junior managers. (人力資源部推出了新的初級管理人員訓練計畫。)",
+    "example": "The human resources department introduced a new training program for junior managers. (人力資源部推出新的初階主管訓練計畫。)",
     "id": "L3-program-n"
   },
   {
@@ -2137,14 +2137,14 @@
   {
     "level": "L2",
     "word": "progress",
-    "meaning": "v / n. 前進；進行；前進；進行",
+    "meaning": "v. 前進；進行；n. 進展；進度",
     "example": "The development team is making steady progress on the new database system. (開發團隊正在新資料庫系統上穩步推進。)",
     "id": "L2-progress-v-n"
   },
   {
     "level": "TOEIC",
     "word": "progression",
-    "meaning": "n. 前進",
+    "meaning": "n. 前進；進展；演進過程",
     "example": "The project shows a logical progression from initial research to prototype testing. (該專案展示了從初步研究到原型測試的邏輯進展。)",
     "id": "TOEIC-progression-n"
   },
@@ -2180,13 +2180,13 @@
     "level": "L5",
     "word": "prolong",
     "meaning": "v. 延長；拖延",
-    "example": "We should avoid temporary fixes that only prolong the resolution of the core problem. (我們應該避免臨時修復只會延長核心問題的解決時間。)",
+    "example": "We should avoid temporary fixes that only prolong the resolution of the core problem. (我們應避免臨時修補，免得拖延核心問題的解決。)",
     "id": "L5-prolong-v"
   },
   {
     "level": "L2",
     "word": "promise",
-    "meaning": "v / n. 承諾；允諾；承諾；允諾",
+    "meaning": "v. 承諾；允諾；n. 承諾；允諾",
     "example": "The vendor gave a formal promise to deliver the raw materials before the weekend. (供應商正式承諾在週末前交付原料。)",
     "id": "L2-promise-v-n"
   },
@@ -2242,7 +2242,7 @@
   {
     "level": "L5",
     "word": "prospect",
-    "meaning": "n / v. 指望；預期；勘探",
+    "meaning": "n. 前景；商機；v. 勘探；探勘",
     "example": "The commercial prospect of expanding into the Asian market looks highly promising. (進軍亞洲市場的商業前景十分廣闊。)",
     "id": "L5-prospect-n-v"
   },
@@ -2257,14 +2257,14 @@
     "level": "L3",
     "word": "protection",
     "meaning": "n. 保護；防護",
-    "example": "Wearing safety helmets provides vital protection for workers on the construction site. (佩戴安全帽為施工現場的工人提供了重要的保護。)",
+    "example": "Wearing safety helmets provides vital protection for workers on the construction site. (配戴安全帽能為施工現場的工人提供重要保護。)",
     "id": "L3-protection-n"
   },
   {
     "level": "L2",
     "word": "proud",
     "meaning": "a. 驕傲的；有自尊心的",
-    "example": "The company is proud to announce that it received an award for environmental sustainability. (該公司自豪地宣布獲得環境永續發展獎。)",
+    "example": "The company is proud to announce that it received an award for environmental sustainability. (該公司榮幸地宣布獲得環境永續發展獎。)",
     "id": "L2-proud-a"
   },
   {
@@ -2306,7 +2306,7 @@
     "level": "L5",
     "word": "publicize",
     "meaning": "v. 宣傳；公布",
-    "example": "The marketing agency launched a massive campaign to publicize the new electric vehicle. (該行銷機構發起了一場大規模的宣傳活動來宣傳這款新型電動車。)",
+    "example": "The marketing agency launched a massive campaign to publicize the new electric vehicle. (該行銷機構發起大型宣傳活動，推廣這款新型電動車。)",
     "id": "L5-publicize-v"
   },
   {
@@ -2319,7 +2319,7 @@
   {
     "level": "L4",
     "word": "publisher",
-    "meaning": "n. 出版社",
+    "meaning": "n. 出版商；發行者",
     "example": "The prominent publisher released a comprehensive manual on modern business ethics. (這家著名出版商出版了一本關於現代商業道德的綜合手冊。)",
     "id": "L4-publisher-n"
   },
@@ -2417,7 +2417,7 @@
   {
     "level": "L3",
     "word": "quarrel",
-    "meaning": "n / v. 爭吵；不和；爭吵；不和",
+    "meaning": "n. 爭吵；不和；v. 爭吵；不和",
     "example": "Management stepped in quickly to resolve a bitter quarrel between two department heads. (管理層迅速介入，解決了兩位部門主管之間的激烈爭吵。)",
     "id": "L3-quarrel-n-v"
   },
@@ -2425,7 +2425,7 @@
     "level": "L2",
     "word": "quarter",
     "meaning": "n. 四分之一；當季",
-    "example": "The financial audit must be completed before the end of the current fiscal quarter. (財務稽核必須在當前財政當季結束前完成。)",
+    "example": "The financial audit must be completed before the end of the current fiscal quarter. (財務稽核必須在本會計季度結束前完成。)",
     "id": "L2-quarter-n"
   },
   {
@@ -2522,7 +2522,7 @@
   {
     "level": "L6",
     "word": "radical",
-    "meaning": "a / n. 根本的；基本的；根部；基礎",
+    "meaning": "a. 根本的；基本的；徹底的；激進的；n. 根部；基礎",
     "example": "The new CEO proposed a radical restructuring plan to save the failing company. (新任執行長提出了一項徹底的重整計畫，以拯救瀕臨破產的公司。)",
     "id": "L6-radical-a-n"
   },
@@ -2551,14 +2551,14 @@
     "level": "L1",
     "word": "railroad",
     "meaning": "n. 鐵路",
-    "example": "The shipping firm relies heavily on the national railroad network to transport bulk goods. (該航運公司嚴重依賴國家鐵路網路來運輸大宗貨物。)",
+    "example": "The shipping firm relies heavily on the national railroad network to transport bulk goods. (該貨運公司高度仰賴國家鐵路網運輸大宗貨物。)",
     "id": "L1-railroad-n"
   },
   {
     "level": "L1",
     "word": "raise",
     "meaning": "v / n. 舉起；抬起；加薪；提高",
-    "example": "The executive board voted to raise the minimum wage for all hourly factory workers. (執行委員會投票決定提高所有工廠時薪員工的最低工資。)",
+    "example": "The executive board voted to raise the minimum wage for all hourly factory workers. (執行董事會投票決定提高所有工廠時薪員工的最低工資。)",
     "id": "L1-raise-v-n"
   },
   {
@@ -2571,21 +2571,21 @@
   {
     "level": "TOEIC",
     "word": "randomly",
-    "meaning": "ad. 任意地；隨便地",
+    "meaning": "ad. 隨機地；任意地",
     "example": "Quality control inspectors select samples randomly from the assembly line for testing. (品管檢驗員從裝配線上隨機抽取樣本進行測試。)",
     "id": "TOEIC-randomly-ad"
   },
   {
     "level": "L2",
     "word": "range",
-    "meaning": "n. 排，行；一系列",
+    "meaning": "n. 排；行；範圍；一系列",
     "example": "Our product catalog features a wide range of affordable office furniture options. (我們的產品目錄提供各種經濟實惠的辦公家具選擇。)",
     "id": "L2-range-n"
   },
   {
     "level": "L3",
     "word": "rank",
-    "meaning": "n. 等級；地位",
+    "meaning": "n. 等級；地位；排名；名次",
     "example": "The university optical firm holds a top rank among precision lens manufacturers in the region. (這家大學光學公司在該地區的精密鏡片製造商中名列前茅。)",
     "id": "L3-rank-n"
   },
@@ -2599,7 +2599,7 @@
   {
     "level": "TOEIC",
     "word": "rapidly",
-    "meaning": "ad. 很快地；立即",
+    "meaning": "ad. 很快地；迅速地",
     "example": "The technical support team responded rapidly to resolve the critical server outage. (技術支援團隊迅速回應，解決了嚴重的伺服器中斷問題。)",
     "id": "TOEIC-rapidly-ad"
   },
@@ -2635,7 +2635,7 @@
     "level": "L6",
     "word": "rational",
     "meaning": "a. 理性的；有理性的",
-    "example": "The executive delivered a rational and data-driven defense of his investment strategy. (這位高層對其投資策略進行了理性且以資料為基礎的辯護。)",
+    "example": "The executive delivered a rational and data-driven defense of his investment strategy. (這位高階主管以理性且有資料為依據的方式，為其投資策略辯護。)",
     "id": "L6-rational-a"
   },
   {
@@ -2662,7 +2662,7 @@
   {
     "level": "TOEIC",
     "word": "readership",
-    "meaning": "n. 讀者們",
+    "meaning": "n. 讀者群；讀者人數",
     "example": "The prominent trade magazine boasts an impressive readership across Asia. (這本著名的貿易雜誌在亞洲擁有令人印象深刻的讀者群。)",
     "id": "TOEIC-readership-n"
   },
@@ -2677,14 +2677,14 @@
     "level": "L1",
     "word": "ready",
     "meaning": "a. 準備好的；願意的",
-    "example": "The technical crew is ready to implement the software upgrade over the weekend. (技術人員準備週末實施軟體升級。)",
+    "example": "The technical crew is ready to implement the software upgrade over the weekend. (技術人員準備在週末執行軟體升級。)",
     "id": "L1-ready-a"
   },
   {
     "level": "L6",
     "word": "realization",
     "meaning": "n. 領悟；認識",
-    "example": "The sudden profitability of the project was a welcome realization for the team. (該專案的突然盈利對於團隊來說是一個可喜的認識。)",
+    "example": "The sudden profitability of the project was a welcome realization for the team. (專案突然獲利，讓團隊欣慰地體認到成果。)",
     "id": "L6-realization-n"
   },
   {
@@ -2725,7 +2725,7 @@
   {
     "level": "TOEIC",
     "word": "rebound",
-    "meaning": "v. 彈回；跳回",
+    "meaning": "v. 彈回；反彈；回升",
     "example": "The stock market experienced a strong rebound after a week of consistent losses. (股市在連續一週下跌後出現強勁反彈。)",
     "id": "TOEIC-rebound-v"
   },
@@ -2754,7 +2754,7 @@
     "level": "L1",
     "word": "receive",
     "meaning": "v. 收到；接到",
-    "example": "The front desk clerk will receive all incoming mail and packages for the department. (櫃台職員將接收該部門所有收到的郵件和包裹。)",
+    "example": "The front desk clerk will receive all incoming mail and packages for the department. (櫃檯人員將收取該部門所有郵件和包裹。)",
     "id": "L1-receive-v"
   },
   {
@@ -2788,8 +2788,8 @@
   {
     "level": "TOEIC",
     "word": "recharge",
-    "meaning": "v. 再充電於；再裝填彈藥於",
-    "example": "Remember to recharge the battery of the handheld barcode scanner after your shift. (請記得在下班後為手持式條碼掃描器的電池充電。)",
+    "meaning": "v. 充電；再充電",
+    "example": "Remember to recharge the battery of the handheld barcode scanner after your shift. (請記得下班後為手持條碼掃描器充電。)",
     "id": "TOEIC-recharge-v"
   },
   {
@@ -2823,7 +2823,7 @@
   {
     "level": "L3",
     "word": "recognize",
-    "meaning": "v. 認出；識別",
+    "meaning": "v. 認出；識別；肯定；表揚",
     "example": "We recognize the extreme dedication and hard work displayed by our engineering team. (我們認可我們的工程團隊所表現出的極大奉獻和辛勤工作。)",
     "id": "L3-recognize-v"
   },
@@ -2831,7 +2831,7 @@
     "level": "L5",
     "word": "recommend",
     "meaning": "v. 推薦",
-    "example": "The consultant chose to recommend a complete overhaul of our logistics network. (顧問選擇建議對我們的物流網路進行徹底檢修。)",
+    "example": "The consultant chose to recommend a complete overhaul of our logistics network. (顧問建議徹底檢修我們的物流網路。)",
     "id": "L5-recommend-v"
   },
   {
@@ -2865,7 +2865,7 @@
   {
     "level": "L4",
     "word": "recovery",
-    "meaning": "n. 復原恢復",
+    "meaning": "n. 復原；恢復",
     "example": "The economic recovery of the retail sector has driven an increase in consumer spending. (零售業經濟復甦帶動消費支出增加。)",
     "id": "L4-recovery-n"
   },
@@ -2880,14 +2880,14 @@
     "level": "TOEIC",
     "word": "recruitment",
     "meaning": "n. 徵募；僱用",
-    "example": "The agency specializes in corporate recruitment for high-level executive positions. (該機構專門招募企業高階管理職務。)",
+    "example": "The agency specializes in corporate recruitment for high-level executive positions. (該機構專門為企業高階主管職務招募人才。)",
     "id": "TOEIC-recruitment-n"
   },
   {
     "level": "L2",
     "word": "rectangle",
     "meaning": "n. 矩形；長方形",
-    "example": "The designer selected a sleek rectangle layout for the new corporate business cards. (設計師為新的公司名片選擇了時尚的矩形佈局。)",
+    "example": "The designer selected a sleek rectangle layout for the new corporate business cards. (設計師為新的公司名片選擇了俐落的矩形版面設計。)",
     "id": "L2-rectangle-n"
   },
   {
@@ -2957,13 +2957,13 @@
     "level": "L2",
     "word": "refuse",
     "meaning": "v. 拒絕",
-    "example": "The procurement manager chose to refuse the delivery due to severe packaging damage. (由於包裝損壞嚴重，採購經理選擇拒絕出貨。)",
+    "example": "The procurement manager chose to refuse the delivery due to severe packaging damage. (由於包裝嚴重受損，採購經理決定拒收貨物。)",
     "id": "L2-refuse-v"
   },
   {
     "level": "L2",
     "word": "regard",
-    "meaning": "n / v. 注重；問候；把⋯認為",
+    "meaning": "n. 注重；問候；v. 認為；看待",
     "example": "Management holds the senior engineering team in high regard for their innovation. (管理階層高度評價高階工程團隊的創新能力。)",
     "id": "L2-regard-n-v"
   },
@@ -2998,7 +2998,7 @@
   {
     "level": "L2",
     "word": "regular",
-    "meaning": "a. 規則的；有規律的",
+    "meaning": "a. 規則的；有規律的；定期的",
     "example": "Regular machinery maintenance is essential for preventing costly factory breakdowns. (定期的機械維護對於防止工廠發生代價高昂的故障至關重要。)",
     "id": "L2-regular-a"
   },
@@ -3019,7 +3019,7 @@
   {
     "level": "L4",
     "word": "regulation",
-    "meaning": "n / a. 規章；規則；標準的；正規的",
+    "meaning": "n. 規章；規則；a. 規定的",
     "example": "The new data privacy regulation carries heavy financial penalties for non-compliance. (新的資料隱私法規將對違規者處以嚴厲的經濟處罰。)",
     "id": "L4-regulation-n-a"
   },
@@ -3047,7 +3047,7 @@
   {
     "level": "TOEIC",
     "word": "reimbursement",
-    "meaning": "n. 償還；退款",
+    "meaning": "n. 償還；退款；費用核銷；報帳",
     "example": "Please submit all your receipts to the accounting office for prompt reimbursement. (請將所有收據提交給會計部門，以便核銷。)",
     "id": "TOEIC-reimbursement-n"
   },
@@ -3062,7 +3062,7 @@
     "level": "TOEIC",
     "word": "reinforcement",
     "meaning": "n. 增援；加強",
-    "example": "The installation of safety guards served as a vital reinforcement on the factory floor. (安全防護裝置的安裝是工廠產線的重要加固措施。)",
+    "example": "The installation of safety guards served as a vital reinforcement on the factory floor. (安裝安全防護裝置是強化工廠產線安全的重要措施。)",
     "id": "TOEIC-reinforcement-n"
   },
   {
@@ -3097,20 +3097,20 @@
     "level": "L2",
     "word": "relation",
     "meaning": "n. 關係；關聯",
-    "example": "The public relation department issued an official press release regarding the merger. (公共關係部門發布了有關合併的官方新聞稿。)",
+    "example": "The public relations department issued an official press release about the merger. (公共關係部門發布了有關合併的官方新聞稿。)",
     "id": "L2-relation-n"
   },
   {
     "level": "L2",
     "word": "relationship",
-    "meaning": "n. 人際關係；戀愛關係",
+    "meaning": "n. 人際關係；戀愛關係；（客戶、商業）關係",
     "example": "Building a strong relationship with clients is crucial for long-term business success. (與客戶建立牢固的關係對於長期業務成功至關重要。)",
     "id": "L2-relationship-n"
   },
   {
     "level": "L3",
     "word": "release",
-    "meaning": "v / n. 釋放；發行；釋放；解放",
+    "meaning": "v. 釋放；發行；n. 釋放；解放；發行",
     "example": "The development team is ready to release the final version of the software application. (開發團隊已準備好發布該軟體應用程式的最終版本。)",
     "id": "L3-release-v-n"
   },
@@ -3131,14 +3131,14 @@
   {
     "level": "L3",
     "word": "relief",
-    "meaning": "n. 緩和；減輕",
+    "meaning": "n. 緩和；減輕；減免（稅等）",
     "example": "The government introduced a tax relief program to support struggling small businesses. (政府推出了一項稅收減免計畫來支持陷入困境的小型企業。)",
     "id": "L3-relief-n"
   },
   {
     "level": "TOEIC",
     "word": "relocate",
-    "meaning": "v. 重新安置",
+    "meaning": "v. 重新安置；搬遷",
     "example": "The corporation decided to relocate its headquarters to a prominent tech hub city. (該公司決定將總部遷至一個著名的科技中心城市。)",
     "id": "TOEIC-relocate-v"
   },
@@ -3167,14 +3167,14 @@
     "level": "L4",
     "word": "remark",
     "meaning": "v / n. 談到；評論；言辭；談論",
-    "example": "The director made a brief remark regarding the impressive growth in retail sales. (該主任對零售銷售的令人印象深刻的成長做了簡短的評論。)",
+    "example": "The director made a brief remark regarding the impressive growth in retail sales. (該主管簡短評論了零售業令人印象深刻的成長。)",
     "id": "L4-remark-v-n"
   },
   {
     "level": "L4",
     "word": "remarkable",
     "meaning": "a. 非凡的；卓越的",
-    "example": "The startup achieved remarkable growth during its first calendar year of operation. (該新創公司在營運的第一個日曆年中取得了顯著的成長。)",
+    "example": "The startup achieved remarkable growth during its first calendar year of operation. (這家新創公司在第一個完整營運年度中取得顯著成長。)",
     "id": "L4-remarkable-a"
   },
   {
@@ -3208,14 +3208,14 @@
   {
     "level": "L6",
     "word": "removal",
-    "meaning": "n. 移動；調動；免職",
+    "meaning": "n. 移動；調動；免職；拆除",
     "example": "The city council ordered the removal of the outdated billboard from the business district. (市議會下令拆除商業區過時的廣告看板。)",
     "id": "L6-removal-n"
   },
   {
     "level": "L3",
     "word": "remove",
-    "meaning": "v. 移動；調動",
+    "meaning": "v. 移動；調動；移走；清除",
     "example": "The maintenance crew will remove the broken furniture from the conference room. (維修人員將把損壞的家具移出會議室。)",
     "id": "L3-remove-v"
   },
@@ -3229,21 +3229,21 @@
   {
     "level": "L3",
     "word": "renew",
-    "meaning": "v. 使更新；使復原",
+    "meaning": "v. 使更新；使復原；續約",
     "example": "The retail store signed an agreement to renew its commercial lease for three years. (該零售店簽署了一份協議，將其商業租約續約三年。)",
     "id": "L3-renew-v"
   },
   {
     "level": "中高級",
     "word": "renewal",
-    "meaning": "n. 更新；復原",
+    "meaning": "n. 更新；復原；續約",
     "example": "The annual renewal fee for the design software license must be paid this month. (設計軟體授權的年度續約費用必須在本月繳納。)",
     "id": "中高級-renewal-n"
   },
   {
     "level": "TOEIC",
     "word": "renovation",
-    "meaning": "n. 更新；修理",
+    "meaning": "n. 翻修；整修",
     "example": "The office building will undergo extensive renovation over the summer months. (該辦公大樓將在夏季進行大規模翻修。)",
     "id": "TOEIC-renovation-n"
   },
@@ -3251,7 +3251,7 @@
     "level": "L6",
     "word": "renowned",
     "meaning": "a. 有名的；有聲譽的",
-    "example": "The university optical firm is renowned for producing precision manufacturing lenses. (這家大學光學公司以生產精密製造鏡片而聞名。)",
+    "example": "The university optical firm is renowned for producing precision manufacturing lenses. (這家大學光學公司以生產精密鏡片聞名。)",
     "id": "L6-renowned-a"
   },
   {
@@ -3271,14 +3271,14 @@
   {
     "level": "L3",
     "word": "repair",
-    "meaning": "v / n. 修理；修補；修理；修補",
+    "meaning": "v. 修理；修補；n. 修理；修補",
     "example": "The maintenance crew arrived quickly to repair the broken conveyor belt in the plant. (維修人員迅速趕到，修復廠內破損的輸送帶。)",
     "id": "L3-repair-v-n"
   },
   {
     "level": "L2",
     "word": "repeat",
-    "meaning": "v / n. 重複；重做；重複；複寫",
+    "meaning": "v. 重複；重做；n. 重複；複寫",
     "example": "Please do not repeat the same data entry errors on the weekly shipping manifest. (請不要在每週運送清單上重複相同的資料輸入錯誤。)",
     "id": "L2-repeat-v-n"
   },
@@ -3293,7 +3293,7 @@
     "level": "TOEIC",
     "word": "repetitive",
     "meaning": "a. 重複的",
-    "example": "Data entry can become a highly repetitive task if it is not automated. (如果不實現自動化，資料輸入可能會成為一項高度重複的任務。)",
+    "example": "Data entry can become a highly repetitive task if it is not automated. (若未導入自動化，資料輸入可能會變成高度重複的工作。)",
     "id": "TOEIC-repetitive-a"
   },
   {
@@ -3313,7 +3313,7 @@
   {
     "level": "中高級",
     "word": "replay",
-    "meaning": "v / n. 重演；重播；重演；重播",
+    "meaning": "v. 重演；重播；n. 重演；重播",
     "example": "The training coordinator played a replay of the safety video during the orientation. (訓練協調員在訓練期間播放了安全影片的重播。)",
     "id": "中高級-replay-v-n"
   },
@@ -3327,7 +3327,7 @@
   {
     "level": "L1",
     "word": "report",
-    "meaning": "v / n. 報導；記述；告發；報告；報導",
+    "meaning": "v. 報導；記述；告發；n. 報告；報導",
     "example": "The financial analyst compiled a comprehensive report on current market trends. (金融分析師編寫了一份有關當前市場趨勢的綜合報告。)",
     "id": "L1-report-v-n"
   },
@@ -3355,7 +3355,7 @@
   {
     "level": "L3",
     "word": "request",
-    "meaning": "v / n. 要求；請求；要求；請求",
+    "meaning": "v. 要求；請求；n. 要求；請求",
     "example": "The procurement team submitted a formal request for additional material samples. (採購團隊提交了額外材料樣品的正式請求。)",
     "id": "L3-request-v-n"
   },
@@ -3383,7 +3383,7 @@
   {
     "level": "L4",
     "word": "research",
-    "meaning": "v / n. 研究；調查；研究",
+    "meaning": "v. 研究；調查；n. 研究",
     "example": "The laboratory is dedicated to conducting cutting-edge research in biotechnology. (該實驗室致力於進行生物技術領域的前沿研究。)",
     "id": "L4-research-v-n"
   },
@@ -3391,14 +3391,14 @@
     "level": "L6",
     "word": "resemblance",
     "meaning": "n. 相似；相貌相似",
-    "example": "The analyst noted a striking resemblance between the current market trend and the 2008 recession. (這位分析師指出，當前的市場趨勢與 2008 年的經濟衰退有著驚人的相似之處。)",
+    "example": "The analyst noted a striking resemblance between the current market trend and the 2008 recession. (這位分析師指出，目前的市場趨勢與 2008 年經濟衰退有驚人的相似之處。)",
     "id": "L6-resemblance-n"
   },
   {
     "level": "L4",
     "word": "resemble",
     "meaning": "v. 像；類似",
-    "example": "The prototype models resemble each other closely in terms of external layout. (原型模型在外部佈局方面非常相似。)",
+    "example": "The prototype models resemble each other closely in terms of external layout. (原型在外觀設計上非常相似。)",
     "id": "L4-resemble-v"
   },
   {
@@ -3426,7 +3426,7 @@
     "level": "L5",
     "word": "resident",
     "meaning": "n / a. 居民；居住的；定居的",
-    "example": "The local resident group voiced concerns regarding noise from the new factory plant. (當地居民團體對新工廠的噪音表示擔憂。)",
+    "example": "Local residents' groups expressed concern about noise from the new factory. (當地居民團體對新工廠的噪音表示擔憂。)",
     "id": "L5-resident-n-a"
   },
   {
@@ -3468,7 +3468,7 @@
     "level": "L3",
     "word": "resist",
     "meaning": "v. 抵抗；反抗",
-    "example": "Small retail business owners continue to resist the transition to purely online sales. (小型零售企業主繼續抵制向純粹線上銷售的轉變。)",
+    "example": "Small retail business owners continue to resist the transition to purely online sales. (小型零售業者持續抗拒轉型為純線上銷售。)",
     "id": "L3-resist-v"
   },
   {
@@ -3482,13 +3482,13 @@
     "level": "L6",
     "word": "resolute",
     "meaning": "a. 堅決的；堅定的",
-    "example": "The project manager remained resolute in her determination to meet the tight deadline. (專案經理仍然堅定地決心在緊迫的期限內完成任務。)",
+    "example": "The project manager remained resolute in her determination to meet the tight deadline. (專案經理依然堅定，決心在緊迫期限內完成任務。)",
     "id": "L6-resolute-a"
   },
   {
     "level": "L4",
     "word": "resolve",
-    "meaning": "v / n. 解決；決心；決心；決意",
+    "meaning": "v. 解決；決心；n. 決心；決意",
     "example": "The compliance committee met to resolve the ongoing contract dispute with the vendor. (法遵委員會開會解決與供應商之間持續存在的合約糾紛。)",
     "id": "L4-resolve-v-n"
   },
@@ -3524,13 +3524,13 @@
     "level": "L2",
     "word": "responsible",
     "meaning": "a. 需負責任的；承擔責任的",
-    "example": "The logistics manager is responsible for coordinating outbound shipments. (物流經理負責協調出境貨運。)",
+    "example": "The logistics manager is responsible for coordinating outbound shipments. (物流經理負責協調對外出貨。)",
     "id": "L2-responsible-a"
   },
   {
     "level": "TOEIC",
     "word": "responsive",
-    "meaning": "a. 回答的；應答的",
+    "meaning": "a. 回答的；應答的；響應式的",
     "example": "The company introduced a responsive web design to improve the mobile shopping experience. (該公司推出了響應式網頁設計來改善行動購物體驗。)",
     "id": "TOEIC-responsive-a"
   },
@@ -3538,7 +3538,7 @@
     "level": "L4",
     "word": "restriction",
     "meaning": "n. 限制；約束",
-    "example": "The government imposed a temporary trade restriction on imported electronic parts. (政府對進口電子零件實施臨時貿易限制。)",
+    "example": "The government imposed a temporary trade restriction on imported electronic parts. (政府對進口電子零件施加臨時貿易限制。)",
     "id": "L4-restriction-n"
   },
   {
@@ -3551,7 +3551,7 @@
   {
     "level": "L6",
     "word": "retail",
-    "meaning": "n / v / a. 零售；零售；零售的",
+    "meaning": "n. 零售；零售業；v. 零售；a. 零售的",
     "example": "The technology giant expanded its retail operations by opening five new flagship stores. (這家科技巨頭開設了五家新旗艦店，擴大了零售業務。)",
     "id": "L6-retail-n-v-a"
   },
@@ -3559,7 +3559,7 @@
     "level": "中高級",
     "word": "retailer",
     "meaning": "n. 零售商；零售店",
-    "example": "Online retailer firms have experienced a massive surge in sales this calendar year. (線上零售商公司今年的銷售額大幅成長。)",
+    "example": "Online retailer firms have experienced a massive surge in sales this calendar year. (這家線上零售業者今年銷售額大幅成長。)",
     "id": "中高級-retailer-n"
   },
   {
@@ -3600,7 +3600,7 @@
   {
     "level": "L6",
     "word": "retrieve",
-    "meaning": "v. 重新得到；收回",
+    "meaning": "v. 重新得到；收回；檢索；調閱（資料）",
     "example": "The data analyst used a Python script to retrieve transaction records from the database. (資料分析師使用 Python 腳本從資料庫中檢索交易記錄。)",
     "id": "L6-retrieve-v"
   },
@@ -3635,7 +3635,7 @@
   {
     "level": "L2",
     "word": "review",
-    "meaning": "v. 批評，評論；檢閱",
+    "meaning": "v. 審查；審閱；評論；檢閱",
     "example": "The compliance officer will review the vendor contract before the final signing. (法遵人員將在最終簽署之前審查供應商合約。)",
     "id": "L2-review-v"
   },
@@ -3656,21 +3656,21 @@
   {
     "level": "L5",
     "word": "revive",
-    "meaning": "v. 甦醒；復甦",
+    "meaning": "v. 甦醒；復甦；重振；振興",
     "example": "The marketing team launched a creative campaign to revive the underperforming brand. (行銷團隊發起了一項創意活動，以重振表現不佳的品牌。)",
     "id": "L5-revive-v"
   },
   {
     "level": "L5",
     "word": "revolve",
-    "meaning": "v. 旋轉；自轉",
+    "meaning": "v. 旋轉；自轉；圍繞；以……為中心",
     "example": "The company's core business model continues to revolve around digital innovation. (公司的核心業務模式繼續圍繞數位創新。)",
     "id": "L5-revolve-v"
   },
   {
     "level": "L4",
     "word": "reward",
-    "meaning": "n / v. 報答；報償；報答；報償",
+    "meaning": "n. 報酬；獎勵；v. 報答；獎勵",
     "example": "The corporation offers a financial reward to employees who exceed their monthly targets. (公司為超出每月目標的員工提供經濟獎勵。)",
     "id": "L4-reward-n-v"
   },
@@ -3796,7 +3796,7 @@
   {
     "level": "L6",
     "word": "safeguard",
-    "meaning": "v / n. 保護；防衛；保護；防衛",
+    "meaning": "v. 保護；防衛；n. 保護措施；防衛措施",
     "example": "The new cybersecurity protocol serves to safeguard sensitive customer information. (新的網路安全協定旨在保護敏感的客戶資訊。)",
     "id": "L6-safeguard-v-n"
   },
@@ -3804,7 +3804,7 @@
     "level": "L2",
     "word": "safety",
     "meaning": "n. 安全；平安",
-    "example": "Wearing safety helmets provides vital protection for workers on the production floor. (佩戴安全頭盔可為生產線上的工人提供重要保護。)",
+    "example": "Wearing safety helmets provides vital protection for workers on the production floor. (配戴安全帽能為生產線工人提供重要保護。)",
     "id": "L2-safety-n"
   },
   {
@@ -3853,7 +3853,7 @@
     "level": "L2",
     "word": "satisfy",
     "meaning": "v. 使滿意；使高興",
-    "example": "The software must satisfy all regulatory requirements before it can be launched. (該軟體必須滿足所有監管要求才能啟動。)",
+    "example": "The software must satisfy all regulatory requirements before it can be launched. (該軟體必須符合所有法規要求，才能正式推出。)",
     "id": "L2-satisfy-v"
   },
   {
@@ -3873,14 +3873,14 @@
   {
     "level": "L5",
     "word": "scan",
-    "meaning": "v / n. 細看；審視；掃描；細看",
+    "meaning": "v. 細看；審視；掃描；n. 掃描；掃描結果",
     "example": "Security personnel will scan your identification badge at the main entrance. (保全人員將在主入口掃描您的身分證。)",
     "id": "L5-scan-v-n"
   },
   {
     "level": "TOEIC",
     "word": "scanner",
-    "meaning": "n. 掃描機",
+    "meaning": "n. 掃描器",
     "example": "The warehouse manager uses a digital barcode scanner to track incoming inventory. (倉庫經理使用數位條碼掃描器來追蹤進貨庫存。)",
     "id": "TOEIC-scanner-n"
   },
@@ -3895,14 +3895,14 @@
     "level": "L4",
     "word": "scenery",
     "meaning": "n. 景色；風景",
-    "example": "The lakeside resort offers beautiful scenery for the executive board retreat. (湖畔度假村為執行董事會休憩提供美麗的風景。)",
+    "example": "The lakeside resort offers beautiful scenery for the executive board retreat. (湖畔度假村為董事會共識營提供優美景色。)",
     "id": "L4-scenery-n"
   },
   {
     "level": "L3",
     "word": "schedule",
-    "meaning": "n / v. 時間表；安排；預定",
-    "example": "The project manager presented a clear development schedule for the next fiscal year. (專案經理提出了下一會計年度的明確開發計畫。)",
+    "meaning": "n. 時間表；時程；v. 安排；預定",
+    "example": "The project manager presented a clear development schedule for the next fiscal year. (專案經理提出下一會計年度明確的開發時程。)",
     "id": "L3-schedule-n-v"
   },
   {
@@ -3915,7 +3915,7 @@
   {
     "level": "L4",
     "word": "scratch",
-    "meaning": "v / n / a. 抓；搔劃出；刮痕；抓痕；湊合的",
+    "meaning": "v. 抓；搔；劃出；n. 刮痕；抓痕；a. 湊合的；片語：從頭開始",
     "example": "The creative team had to start from scratch after the client rejected the initial design. (在客戶拒絕了最初的設計後，創意團隊不得不從頭開始。)",
     "id": "L4-scratch-v-n-a"
   },
@@ -3950,7 +3950,7 @@
   {
     "level": "L2",
     "word": "search",
-    "meaning": "v / n. 搜查；探究；搜查；搜尋",
+    "meaning": "v. 搜查；探究；n. 搜查；搜尋",
     "example": "Click the magnifying glass icon to launch the database search function. (點選放大鏡圖示可啟動資料庫搜尋功能。)",
     "id": "L2-search-v-n"
   },
@@ -3964,9 +3964,9 @@
   {
     "level": "L2",
     "word": "secret",
-    "meaning": "n. 秘密",
+    "meaning": "n. 秘密；a. 保密的",
     "example": "The terms of the corporate merger agreement were kept secret until the official press event. (公司合併協議的條款在正式記者會之前一直保密。)",
-    "id": "L2-secret-n"
+    "id": "L2-secret-n-a"
   },
   {
     "level": "L2",
@@ -3978,14 +3978,14 @@
   {
     "level": "L5",
     "word": "secure",
-    "meaning": "a / v. 安全的，無危險的；使安全；掩護",
+    "meaning": "a. 安全的；無危險的；v. 使安全；確保；取得",
     "example": "The IT team works hard to secure the corporate network against cyber attacks. (IT 團隊致力於保護企業網路免受網路攻擊。)",
     "id": "L5-secure-a-v"
   },
   {
     "level": "L3",
     "word": "security",
-    "meaning": "n. 安全感；防備；保全",
+    "meaning": "n. 安全性；安全感；防備；保全",
     "example": "Upgrading data security protocols is a top priority for the firm this quarter. (升級資料安全協議是該公司本季的首要任務。)",
     "id": "L3-security-n"
   },
@@ -4028,7 +4028,7 @@
     "level": "L6",
     "word": "selective",
     "meaning": "a. 有選擇性的",
-    "example": "The luxury car manufacturer is highly selective when choosing its regional dealers. (這家豪華汽車製造商在選擇區域經銷商時非常挑剔。)",
+    "example": "The luxury car manufacturer is highly selective when choosing its regional dealers. (這家豪華汽車製造商精挑細選各地的經銷商。)",
     "id": "L6-selective-a"
   },
   {
@@ -4049,7 +4049,7 @@
     "level": "L2",
     "word": "semester",
     "meaning": "n. 半學年；一學期",
-    "example": "The university optical research project will begin its second phase next semester. (大學光學研究計畫將於下學期開始第二階段。)",
+    "example": "The university optical research project will begin its second phase next semester. (大學的光學研究計畫將於下學期進入第二階段。)",
     "id": "L2-semester-n"
   },
   {
@@ -4062,8 +4062,8 @@
   {
     "level": "L4",
     "word": "senior",
-    "meaning": "a / n. 年長的；前輩的；前輩；上司；學長",
-    "example": "A senior data analyst was appointed to oversee the cloud migration project. (任命了一名高級資料分析師來監督雲端遷移專案。)",
+    "meaning": "a. 年長的；資深的；前輩的；n. 前輩；上司；學長",
+    "example": "A senior data analyst was appointed to oversee the cloud migration project. (該公司任命一位資深資料分析師，負責監督雲端遷移專案。)",
     "id": "L4-senior-a-n"
   },
   {
@@ -4132,7 +4132,7 @@
   {
     "level": "L1",
     "word": "service",
-    "meaning": "n / v. 服務；效勞；服務；效勞",
+    "meaning": "n. 服務；效勞；v. 維修；保養",
     "example": "Exceptional customer service helps build a base of loyal and satisfied clients. (卓越的客戶服務有助於建立忠誠且滿意的客戶群。)",
     "id": "L1-service-n-v"
   },
@@ -4140,14 +4140,14 @@
     "level": "L6",
     "word": "session",
     "meaning": "n. 會議；集會",
-    "example": "The business seminar lasted for an hour and was followed by a Q&A session. (商務研討會持續了一個小時，隨後進行了問答環節。)",
+    "example": "The business seminar lasted for an hour and was followed by a Q&A session. (商務研討會持續一小時，接著進行問答時間。)",
     "id": "L6-session-n"
   },
   {
     "level": "L1",
     "word": "set",
     "meaning": "v / a / n. 放；置；開始；固定的；不變的；一套；一部",
-    "example": "The technical crew arrived early to set up the audio equipment for the presentation. (技術人員提前到達，為示範設置音頻設備。)",
+    "example": "The technical crew arrived early to set up the audio equipment for the presentation. (技術人員提早抵達，為簡報設定音響設備。)",
     "id": "L1-set-v-a-n"
   },
   {
@@ -4175,7 +4175,7 @@
     "level": "L4",
     "word": "severe",
     "meaning": "a. 嚴重的；劇烈的",
-    "example": "The factory suffered severe financial losses following the massive fire incident. (在特大火災事件後，該工廠遭受了嚴重的經濟損失。)",
+    "example": "The factory suffered severe financial losses following the massive fire incident. (大火發生後，該工廠遭受嚴重的經濟損失。)",
     "id": "L4-severe-a"
   },
   {
@@ -4209,7 +4209,7 @@
   {
     "level": "L1",
     "word": "sharp",
-    "meaning": "a / ad. 尖銳的；苛刻的；幾點整",
+    "meaning": "a. 尖銳的；苛刻的；急遽的；大幅的；ad. 幾點整",
     "example": "The analyst noted a sharp increase in online retail traffic during the black Friday sale. (分析師指出，黑色星期五促銷期間線上零售流量大幅增加。)",
     "id": "L1-sharp-a-ad"
   },
@@ -4230,7 +4230,7 @@
   {
     "level": "中高級",
     "word": "shipment",
-    "meaning": "n. 運輸；運送",
+    "meaning": "n. 運輸；運送；一批待運貨物",
     "example": "The warehouse manager is preparing a large shipment for an international client. (倉庫經理正在為一位國際客戶準備大量貨物。)",
     "id": "中高級-shipment-n"
   },
@@ -4251,7 +4251,7 @@
   {
     "level": "初級",
     "word": "should",
-    "meaning": "aux. 可能；該",
+    "meaning": "aux. 可能；應該",
     "example": "Supervisors should always prioritize workplace safety compliance on the floor. (主管應始終優先考慮產線的工作場所安全法規遵循。)",
     "id": "初級-should-aux"
   },
@@ -4279,14 +4279,14 @@
   {
     "level": "L4",
     "word": "significance",
-    "meaning": "n. 重要性；重要",
+    "meaning": "n. 重要性；意義",
     "example": "The analyst explained the economic significance of the central bank's announcement. (分析師解釋了央行公告的經濟意義。)",
     "id": "L4-significance-n"
   },
   {
     "level": "L3",
     "word": "significant",
-    "meaning": "a. 有意義的；重要的",
+    "meaning": "a. 有意義的；重要的；顯著的；大幅的",
     "example": "The tech giant reported a significant increase in its quarterly net revenue. (這家科技巨頭報告稱，其當季淨營收大幅成長。)",
     "id": "L3-significant-a"
   },
@@ -4329,14 +4329,14 @@
     "level": "TOEIC",
     "word": "sincerely",
     "meaning": "ad. 真誠地；誠懇地",
-    "example": "Please accept our sincerely written apologies for the unexpected delivery delays. (對於意外的交貨延遲，請接受我們誠摯的書面歉意。)",
+    "example": "Please accept our sincere written apologies for the unexpected delivery delay. (對於意外的交貨延遲，請接受我們誠摯的書面歉意。)",
     "id": "TOEIC-sincerely-ad"
   },
   {
     "level": "TOEIC",
     "word": "sinful",
     "meaning": "a. 罪孽深重的；有罪的",
-    "example": "Deceptive advertising that targets vulnerable consumers is considered a sinful practice. (針對弱勢消費者的欺騙性廣告被視為一種犯罪行為。)",
+    "example": "Deceptive advertising that targets vulnerable consumers is considered a sinful practice. (針對弱勢消費者的欺騙性廣告被視為不道德的做法。)",
     "id": "TOEIC-sinful-a"
   },
   {
@@ -4371,7 +4371,7 @@
     "level": "L1",
     "word": "skill",
     "meaning": "n. 技巧；技術",
-    "example": "Data analysis is a highly required skill for modern business consulting roles. (資料分析是現代商業諮詢角色非常需要的技能。)",
+    "example": "Data analysis is a highly required skill for modern business consulting roles. (資料分析是現代商業顧問工作不可或缺的技能。)",
     "id": "L1-skill-n"
   },
   {
@@ -4391,7 +4391,7 @@
   {
     "level": "L6",
     "word": "slash",
-    "meaning": "v / n. 減低；砍傷；抨擊；砍傷；砍痕",
+    "meaning": "v. 大幅削減；砍傷；n. 大幅削減；砍痕",
     "example": "The board decided to slash operational expenditures by twenty percent next quarter. (董事會決定下一季將營運支出削減百分之二十。)",
     "id": "L6-slash-v-n"
   },
@@ -4427,13 +4427,13 @@
     "level": "L3",
     "word": "slope",
     "meaning": "n / v. 傾斜；坡度；傾斜",
-    "example": "The construction site is located on a gentle slope near the industrial zone. (建設地點位於工業區附近的緩坡上。)",
+    "example": "The construction site is located on a gentle slope near the industrial zone. (工地位於工業區附近的一處緩坡上。)",
     "id": "L3-slope-n-v"
   },
   {
     "level": "L5",
     "word": "sloppy",
-    "meaning": "a. 稀薄的；邋遢的",
+    "meaning": "a. 草率的；馬虎的；邋遢的",
     "example": "The supervisor rejected the report because the formatting looked highly sloppy. (主管拒絕了該報告，因為格式看起來非常草率。)",
     "id": "L5-sloppy-a"
   },
@@ -4461,7 +4461,7 @@
   {
     "level": "L6",
     "word": "soar",
-    "meaning": "v / n. 往上飛舞，升；高飛；高聳",
+    "meaning": "v. 高飛；高聳；暴增；飆升；n. 高飛；飆升",
     "example": "Demand for semiconductor chips is expected to soar over the next calendar decade. (預計未來十年對半導體晶片的需求將激增。)",
     "id": "L6-soar-v-n"
   },
@@ -4469,7 +4469,7 @@
     "level": "L2",
     "word": "society",
     "meaning": "n. 社會；交際",
-    "example": "The non-profit corporation works to support social welfare programs in society. (該非營利公司致力於支持社會的社會福利計畫。)",
+    "example": "The non-profit corporation works to support social welfare programs in society. (該非營利組織致力於推動社會福利計畫。)",
     "id": "L2-society-n"
   },
   {
@@ -4483,7 +4483,7 @@
     "level": "TOEIC",
     "word": "solace",
     "meaning": "n / v. 安慰；慰藉；安慰",
-    "example": "The manager found a small solace in the fact that the secondary project succeeded. (二級專案的成功讓經理感到一絲安慰。)",
+    "example": "The manager found a small solace in the fact that the secondary project succeeded. (次要專案成功，讓經理感到一絲安慰。)",
     "id": "TOEIC-solace-n-v"
   },
   {
@@ -4517,7 +4517,7 @@
   {
     "level": "L6",
     "word": "sophisticated",
-    "meaning": "a. 世故的；精緻的",
+    "meaning": "a. 世故的；精緻的；精密的；複雜的",
     "example": "The new watch model features a highly sophisticated mechanical design. (新款腕錶採用高度精密的機械設計。)",
     "id": "L6-sophisticated-a"
   },
@@ -4602,7 +4602,7 @@
     "level": "L2",
     "word": "speed",
     "meaning": "n / v. 快速；迅速；促進；加快",
-    "example": "Automated package sorting systems can handle shipments with incredible speed. (自動包裹分揀系統可以以令人難以置信的速度處理貨運。)",
+    "example": "Automated package sorting systems can handle shipments with incredible speed. (自動包裹分類系統能以驚人的速度處理貨運。)",
     "id": "L2-speed-n-v"
   },
   {
@@ -4679,7 +4679,7 @@
     "level": "L2",
     "word": "square",
     "meaning": "n / a. 正方形；廣場；正直的公正的",
-    "example": "The designer selected a sleek square layout for the new brand logo emblem. (設計師為新的品牌標誌選擇了圓滑的方形佈局。)",
+    "example": "The designer selected a sleek square layout for the new brand logo emblem. (設計師為新的品牌標誌選擇俐落的方形版面。)",
     "id": "L2-square-n-a"
   },
   {
@@ -4700,7 +4700,7 @@
     "level": "L5",
     "word": "stack",
     "meaning": "n / v. 一堆，一疊；乾草堆；堆放",
-    "example": "Workers used a forklift to stack the heavy shipping pallets in the warehouse. (工人們用堆高機將沉重的運輸托盤堆放在倉庫裡。)",
+    "example": "Workers used a forklift to stack the heavy shipping pallets in the warehouse. (工人使用堆高機，將沉重的棧板堆放在倉庫中。)",
     "id": "L5-stack-n-v"
   },
   {
@@ -4763,7 +4763,7 @@
     "level": "L1",
     "word": "state",
     "meaning": "n / v. 狀況，形態；國家；州；陳述；聲明",
-    "example": "The company released an official state of affairs report regarding the merger. (該公司發布了有關合併的官方事態報告。)",
+    "example": "The company released an official state of affairs report regarding the merger. (該公司發布了有關合併的官方狀況報告。)",
     "id": "L1-state-n-v"
   },
   {
@@ -4790,7 +4790,7 @@
   {
     "level": "L6",
     "word": "stationery",
-    "meaning": "n. 文具；信",
+    "meaning": "n. 文具；信紙",
     "example": "The administrative assistant ordered extra printed stationery for the office staff. (行政助理為辦公室工作人員訂購了額外的印刷文具。)",
     "id": "L6-stationery-n"
   },
@@ -4812,7 +4812,7 @@
     "level": "TOEIC",
     "word": "steadfast",
     "meaning": "a. 堅定的；不動搖的",
-    "example": "The manager remained steadfast in her determination to enforce safety protocols. (經理仍然堅定執行安全協議的決心。)",
+    "example": "The manager remained steadfast in her determination to enforce safety protocols. (經理執行安全規範的決心依然堅定。)",
     "id": "TOEIC-steadfast-a"
   },
   {
@@ -4825,7 +4825,7 @@
   {
     "level": "L2",
     "word": "steam",
-    "meaning": "n / v. 蒸汽；水蒸汽；蒸發；冒熱氣",
+    "meaning": "n. 蒸汽；水蒸氣；v. 蒸發；冒熱氣",
     "example": "The industrial plant uses high-pressure steam to power its massive turbines. (該工廠使用高壓蒸汽為其大型渦輪機提供動力。)",
     "id": "L2-steam-n-v"
   },
@@ -4860,7 +4860,7 @@
   {
     "level": "L1",
     "word": "store",
-    "meaning": "n / v. 店舖；貯存；貯存",
+    "meaning": "n. 店家；商店；v. 儲存",
     "example": "The retail chain opened a new flagship store in the downtown business district. (該零售連鎖店在市中心商業區開設了一家新旗艦店。)",
     "id": "L1-store-n-v"
   },
@@ -4889,7 +4889,7 @@
     "level": "L5",
     "word": "stout",
     "meaning": "a. 頑強的；牢固的；粗壯的",
-    "example": "The warehouse manager used a stout iron lock to secure the main inventory vault. (倉庫經理使用堅固的鐵鎖來保護主庫存庫的安全。)",
+    "example": "The warehouse manager used a stout iron lock to secure the main inventory vault. (倉庫經理使用堅固的鐵鎖保護主要庫存區。)",
     "id": "L5-stout-a"
   },
   {
@@ -4930,7 +4930,7 @@
   {
     "level": "L3",
     "word": "strength",
-    "meaning": "n. 力氣；實力強度",
+    "meaning": "n. 力氣；實力；強度",
     "example": "The analytical data showcases the inherent financial strength of the corporation. (分析資料顯示了公司固有的財務實力。)",
     "id": "L3-strength-n"
   },
@@ -4944,21 +4944,21 @@
   {
     "level": "L2",
     "word": "stress",
-    "meaning": "n / v. 壓力；緊張；著重；強調；著重",
+    "meaning": "n. 壓力；緊張；v. 著重；強調",
     "example": "Deadlines can cause a significant amount of workplace stress for developers. (截止期限可能會給開發人員帶來巨大的工作壓力。)",
     "id": "L2-stress-n-v"
   },
   {
     "level": "L2",
     "word": "stretch",
-    "meaning": "n / v. 伸直；展開，曲解；伸縮；延續；吹牛",
+    "meaning": "n. 伸展；延續；v. 伸直；展開；延伸；擴大；曲解",
     "example": "The retail brand plans to stretch its market reach by expanding into European cities. (該零售品牌計畫透過擴展到歐洲城市來擴大其市場覆蓋範圍。)",
     "id": "L2-stretch-n-v"
   },
   {
     "level": "L2",
     "word": "strike",
-    "meaning": "v / n. 打擊；攻擊；罷工；打擊",
+    "meaning": "v. 打擊；攻擊；罷工；n. 打擊；罷工",
     "example": "The labor union voted to launch a formal strike following a wage dispute. (因薪資糾紛，工會投票決定發起正式罷工。)",
     "id": "L2-strike-v-n"
   },
@@ -4972,14 +4972,14 @@
   {
     "level": "L3",
     "word": "structure",
-    "meaning": "n / v. 結構；構造",
+    "meaning": "n. 結構；構造；建築物",
     "example": "The architect designed a beautiful modern structure for the corporate headquarters. (建築師為總公司設計了一座美麗的現代建築。)",
-    "id": "L3-structure-n-v"
+    "id": "L3-structure-n"
   },
   {
     "level": "L1",
     "word": "study",
-    "meaning": "n / v. 學習；研究；學；習；研究",
+    "meaning": "n. 學習；研究；v. 學習；研究",
     "example": "The consulting firm conducted an in-depth study on consumer retail habits. (該諮詢公司對消費者的零售習慣進行了深入研究。)",
     "id": "L1-study-n-v"
   },
@@ -4987,7 +4987,7 @@
     "level": "L3",
     "word": "style",
     "meaning": "n. 風格；作風",
-    "example": "The graphic designer updated the website layout to give it a modern style. (平面設計師更新了網站佈局，賦予其現代風格。)",
+    "example": "The graphic designer updated the website layout to give it a modern style. (平面設計師更新了網站版面配置，讓網站呈現現代風格。)",
     "id": "L3-style-n"
   },
   {
@@ -5007,7 +5007,7 @@
   {
     "level": "L5",
     "word": "submit",
-    "meaning": "v. 屈從；忍受；提交；呈遞；主張",
+    "meaning": "v. 屈從；提交；呈遞；主張",
     "example": "Remember to submit your quarterly travel reimbursement claims before Friday afternoon. (請記得在週五下午之前提交您的當季旅行報帳申請。)",
     "id": "L5-submit-v"
   },
@@ -5015,14 +5015,14 @@
     "level": "L6",
     "word": "subordinate",
     "meaning": "a / n. 次要的；隸屬的；部下；部屬",
-    "example": "A professional manager knows how to guide and support every subordinate team member. (職業經理人懂得如何指導和支持每個下屬團隊成員。)",
+    "example": "A professional manager knows how to guide and support every subordinate team member. (專業經理人懂得如何指導並支持團隊中的每位部屬。)",
     "id": "L6-subordinate-a-n"
   },
   {
     "level": "L6",
     "word": "subscribe",
     "meaning": "v. 訂閱；同意",
-    "example": "Click the button below to subscribe to our weekly financial market newsletter. (點擊下面的按鈕訂閱我們的每週金融市場通訊。)",
+    "example": "Click the button below to subscribe to our weekly financial market newsletter. (請點選下方按鈕，訂閱我們每週寄送的金融市場電子報。)",
     "id": "L6-subscribe-v"
   },
   {
@@ -5091,8 +5091,8 @@
   {
     "level": "L2",
     "word": "subway",
-    "meaning": "n. 地下鐵",
-    "example": "The corporate office is conveniently located right next to the central subway station. (公司辦公室位於捷運站旁邊，交通便利。)",
+    "meaning": "n. 捷運；地鐵",
+    "example": "The corporate office is conveniently located right next to the central subway station. (公司辦公室位於捷運站旁，交通便利。)",
     "id": "L2-subway-n"
   },
   {
@@ -5148,7 +5148,7 @@
     "level": "L5",
     "word": "suitcase",
     "meaning": "n. 小型旅行箱；手提箱",
-    "example": "The international delegate packed his formal attire into a leather suitcase. (國際代表把他的正裝進了一個皮箱裡。)",
+    "example": "The international delegate packed his formal attire into a leather suitcase. (這位國際代表把正式服裝裝進皮箱。)",
     "id": "L5-suitcase-n"
   },
   {
@@ -5190,7 +5190,7 @@
     "level": "L5",
     "word": "supervise",
     "meaning": "v. 監督；管理",
-    "example": "A senior manager was appointed to supervise the daily factory plant operations. (任命一名高級經理來監督工廠的日常運作。)",
+    "example": "A senior manager was appointed to supervise the factory's daily operations. (任命一名高級經理來監督工廠的日常運作。)",
     "id": "L5-supervise-v"
   },
   {
@@ -5231,14 +5231,14 @@
   {
     "level": "L2",
     "word": "supply",
-    "meaning": "n / v. 供給；供應；供給；供應",
+    "meaning": "n. 供給；供應；v. 供給；供應",
     "example": "The smooth operation of the supply chain is essential for meeting retail demands. (供應鏈的順暢運作對於滿足零售需求至關重要。)",
     "id": "L2-supply-n-v"
   },
   {
     "level": "L2",
     "word": "support",
-    "meaning": "v / n. 支持；擁護；支持；擁護",
+    "meaning": "v. 支持；擁護；n. 支持；擁護",
     "example": "Institutional investors continue to support the CEO's international expansion plan. (機構投資者繼續支持首席執行官的國際擴張計畫。)",
     "id": "L2-support-v-n"
   },
@@ -5273,7 +5273,7 @@
   {
     "level": "TOEIC",
     "word": "surmise",
-    "meaning": "v / n. 推測；猜測；推測；猜測",
+    "meaning": "v. 推測；猜測；n. 推測；猜測",
     "example": "Analysts surmise that the market index will experience a strong recovery next month. (分析師推測，下個月市場指數將出現強勁復甦。)",
     "id": "TOEIC-surmise-v-n"
   },
@@ -5287,7 +5287,7 @@
   {
     "level": "L1",
     "word": "surprise",
-    "meaning": "v / n. 驚喜；驚訝；驚喜；意外",
+    "meaning": "v. 使驚喜；使驚訝；n. 驚喜；意外",
     "example": "The sudden turnaround in quarterly net revenue was a welcome surprise to the board. (當季淨營收的突然改善令董事會感到意外。)",
     "id": "L1-surprise-v-n"
   },
@@ -5406,7 +5406,7 @@
   {
     "level": "L5",
     "word": "tackle",
-    "meaning": "v. 著手；交涉",
+    "meaning": "v. 著手處理；交涉；解決",
     "example": "The project manager introduced a new strategy to tackle supply chain disruptions. (專案經理引入了一項新策略來解決供應鏈中斷問題。)",
     "id": "L5-tackle-v"
   },
@@ -5428,7 +5428,7 @@
     "level": "L3",
     "word": "tag",
     "meaning": "n / v. 牌子；標籤；添加；附加",
-    "example": "Please attach a clear price tag to each item on the retail showroom floor. (請在零售陳列室地板上的每件商品上貼上清晰的價格標籤。)",
+    "example": "Please attach a clear price tag to each item on the retail showroom floor. (請在展示間內每件商品上貼上清楚的價格標籤。)",
     "id": "L3-tag-n-v"
   },
   {
@@ -5462,8 +5462,8 @@
   {
     "level": "L1",
     "word": "talk",
-    "meaning": "v / n. 講話；談話；講話；談話",
-    "example": "The director called a general meeting to talk about the upcoming budget revisions. (董事召開股東大會討論即將進行的預算修訂。)",
+    "meaning": "v. 講話；談話；n. 講話；談話",
+    "example": "The director called a general meeting to talk about the upcoming budget revisions. (董事召開全體會議，討論即將進行的預算修訂。)",
     "id": "L1-talk-v-n"
   },
   {
@@ -5484,7 +5484,7 @@
     "level": "L2",
     "word": "tank",
     "meaning": "n. 貯水池；坦克",
-    "example": "Workers cleaned the chemical storage tank thoroughly after the production run. (生產結束後，工人們對化學品儲罐進行了徹底清洗。)",
+    "example": "Workers cleaned the chemical storage tank thoroughly after the production run. (生產結束後，工人徹底清洗化學品儲槽。)",
     "id": "L2-tank-n"
   },
   {
@@ -5497,7 +5497,7 @@
   {
     "level": "L2",
     "word": "tape",
-    "meaning": "n / v. 膠布；錄音帶；錄音",
+    "meaning": "n. 膠帶；錄音帶；v. 錄音",
     "example": "The administrative assistant used heavy adhesive tape to seal the shipping boxes. (行政助理用厚膠帶密封運輸箱。)",
     "id": "L2-tape-n-v"
   },
@@ -5505,7 +5505,7 @@
     "level": "L2",
     "word": "target",
     "meaning": "n / v. 靶子；目標；對準",
-    "example": "The marketing campaign is designed to hit a specific demographic target audience. (該行銷活動旨在針對特定的人口目標受眾。)",
+    "example": "The marketing campaign is designed to hit a specific demographic target audience. (該行銷活動旨在鎖定特定目標客群。)",
     "id": "L2-target-n-v"
   },
   {
@@ -5526,7 +5526,7 @@
     "level": "L3",
     "word": "tax",
     "meaning": "n / v. 稅金；課稅",
-    "example": "The government introduces a new corporate tax regulation starting next fiscal year. (從下一個財政年度開始，政府將推出新的企業稅法規。)",
+    "example": "The government introduces a new corporate tax regulation starting next fiscal year. (政府將從下一會計年度起制定新的企業稅法規。)",
     "id": "L3-tax-n-v"
   },
   {
@@ -5540,7 +5540,7 @@
     "level": "L3",
     "word": "tease",
     "meaning": "v / n. 戲弄；逗弄",
-    "example": "Colleagues should maintain professional boundaries and never tease each other at work. (同事之間應保持職業界限，切勿在工作中互相取笑。)",
+    "example": "Colleagues should maintain professional boundaries and never tease each other at work. (同事之間應保持專業分際，切勿在工作中互相取笑。)",
     "id": "L3-tease-v-n"
   },
   {
@@ -5561,13 +5561,13 @@
     "level": "L3",
     "word": "technique",
     "meaning": "n. 技巧；技術；技法",
-    "example": "Implementing a new data entry technique significantly reduced administrative errors. (實施新的資料輸入技術顯著減少了管理錯誤。)",
+    "example": "Implementing a new data entry technique significantly reduced administrative errors. (採用新的資料輸入方法，顯著減少了管理錯誤。)",
     "id": "L3-technique-n"
   },
   {
     "level": "L4",
     "word": "technological",
-    "meaning": "a. 技術；（學）的",
+    "meaning": "a. 技術的；科技的",
     "example": "The tech giant continues to lead the way in technological innovation worldwide. (這家科技巨頭持續引領全球技術創新。)",
     "id": "L4-technological-a"
   },
@@ -5616,7 +5616,7 @@
   {
     "level": "L4",
     "word": "tension",
-    "meaning": "n / v. 拉緊；繃緊；拉緊；繃緊",
+    "meaning": "n. 拉緊；繃緊；緊張；v. 拉緊；繃緊",
     "example": "The sudden market pullback created a state of financial tension among local investors. (市場的突然回調造成了當地投資者的財務緊張。)",
     "id": "L4-tension-n-v"
   },
@@ -5652,13 +5652,13 @@
     "level": "中高級",
     "word": "terminology",
     "meaning": "n. 術語，專門用語",
-    "example": "The technical manual uses advanced terminology that requires special training to understand. (此技術手冊使用高級術語，需要經過特殊訓練才能理解。)",
+    "example": "The technical manual uses advanced terminology that requires special training to understand. (這本技術手冊使用進階術語，需要受過專門訓練才能理解。)",
     "id": "中高級-terminology-n"
   },
   {
     "level": "L2",
     "word": "terrible",
-    "meaning": "a. 可怕的；嚇人的",
+    "meaning": "a. 可怕的；嚇人的；糟糕的；沉重的（打擊等）",
     "example": "The temporary system outage was a terrible blow to daily distribution operations. (這次系統的臨時中斷對日常配送業務造成了沉重打擊。)",
     "id": "L2-terrible-a"
   },
@@ -5694,7 +5694,7 @@
     "level": "TOEIC",
     "word": "thoroughness",
     "meaning": "n. 徹底；完全",
-    "example": "Maintaining complete thoroughness during data entry prevents costly calculation errors. (在資料輸入過程中保持完整的徹底性可以防止代價高昂的計算錯誤。)",
+    "example": "Maintaining complete thoroughness during data entry prevents costly calculation errors. (資料輸入時保持仔細徹底，能避免代價高昂的計算錯誤。)",
     "id": "TOEIC-thoroughness-n"
   },
   {
@@ -5708,7 +5708,7 @@
     "level": "L1",
     "word": "thought",
     "meaning": "n. 思維；思考",
-    "example": "The director shared a valuable thought regarding the future of AI market expansions. (這位總監分享了關於人工智慧市場擴張的未來的寶貴想法。)",
+    "example": "The director shared a valuable thought regarding the future of AI market expansions. (這位總監分享了對人工智慧市場未來發展的寶貴想法。)",
     "id": "L1-thought-n"
   },
   {
@@ -5722,7 +5722,7 @@
     "level": "L3",
     "word": "threat",
     "meaning": "n. 威脅；恐嚇",
-    "example": "Rising raw material costs loom as a significant threat to our profit margins. (原材料成本上漲對我們的利潤率構成重大威脅。)",
+    "example": "Rising raw material costs loom as a significant threat to our profit margins. (原物料成本上漲對我們的利潤率構成重大威脅。)",
     "id": "L3-threat-n"
   },
   {
@@ -5736,14 +5736,14 @@
     "level": "L2",
     "word": "throughout",
     "meaning": "prep / ad. 遍及",
-    "example": "High quality control compliance is maintained throughout the entire assembly line. (整個裝配線都保持高品質控制法規遵循。)",
+    "example": "High quality control compliance is maintained throughout the entire assembly line. (整條生產線都維持嚴格的品管規範。)",
     "id": "L2-throughout-prep-ad"
   },
   {
     "level": "L1",
     "word": "thus",
     "meaning": "ad. 如此；這樣",
-    "example": "Implementing automated workflows thus reduced our total administrative expenditures. (實施自動化工作流程從而減少了我們的總管理支出。)",
+    "example": "Implementing automated workflows thus reduced our total administrative expenditures. (導入自動化流程，因而減少了整體管理支出。)",
     "id": "L1-thus-ad"
   },
   {
@@ -5756,15 +5756,15 @@
   {
     "level": "L1",
     "word": "tie",
-    "meaning": "v. 束縛；約束；平手",
+    "meaning": "v. 束縛；約束；整合；n. 平手",
     "example": "The two engineering firms entered into a joint venture to tie their operations together. (兩家工程公司成立了一家合資企業，將業務整合在一起。)",
-    "id": "L1-tie-v"
+    "id": "L1-tie-v-n"
   },
   {
     "level": "L3",
     "word": "tight",
     "meaning": "a / ad. 牢固的；緊身的；緊緊地",
-    "example": "The project manager maintained a tight schedule to ensure an on-time product launch. (專案經理保持著緊張的日程安排，以確保產品按時推出。)",
+    "example": "The project manager maintained a tight schedule to ensure an on-time product launch. (專案經理維持緊湊的時程，確保產品如期推出。)",
     "id": "L3-tight-a-ad"
   },
   {
@@ -5778,7 +5778,7 @@
     "level": "TOEIC",
     "word": "timeliness",
     "meaning": "n. 及時；適時",
-    "example": "The timeliness of your response is essential for securing the client contract. (您的回覆的及時性對於確保客戶合約至關重要。)",
+    "example": "The timeliness of your response is essential for securing the client contract. (您回覆得是否及時，對確保客戶合約至關重要。)",
     "id": "TOEIC-timeliness-n"
   },
   {
@@ -5806,7 +5806,7 @@
     "level": "L1",
     "word": "tool",
     "meaning": "n. 工具；器具",
-    "example": "The digital spreadsheet is an indispensable tool for modern financial analysis. (數位電子表格是現代財務分析不可或缺的工具。)",
+    "example": "The digital spreadsheet is an indispensable tool for modern financial analysis. (數位試算表是現代財務分析不可或缺的工具。)",
     "id": "L1-tool-n"
   },
   {
@@ -5820,7 +5820,7 @@
     "level": "L2",
     "word": "topic",
     "meaning": "n. 主題；要旨",
-    "example": "The main topic of discussion at the general briefing was the upcoming corporate merger. (發表會上討論的主要議題是即將進行的企業合併。)",
+    "example": "The main topic of discussion at the general briefing was the upcoming corporate merger. (簡報會議上討論的主要議題是即將進行的企業合併。)",
     "id": "L2-topic-n"
   },
   {
@@ -5833,14 +5833,14 @@
   {
     "level": "L2",
     "word": "tour",
-    "meaning": "n / v. 旅遊；遊覽；旅遊；遊覽",
+    "meaning": "n. 旅遊；遊覽；導覽；v. 旅遊；遊覽",
     "example": "The travel coordinator arranged a guided tour of the new manufacturing plant. (旅行協調員安排了新製造工廠的導覽。)",
     "id": "L2-tour-n-v"
   },
   {
     "level": "L3",
     "word": "tow",
-    "meaning": "v / n. 拖；拉；牽引；拖；拉；牽引",
+    "meaning": "v. 拖；拉；牽引；n. 拖曳；牽引",
     "example": "The logistics company hired a specialized truck to tow the broken delivery van. (物流公司雇了一輛專門的卡車來拖走破損的送貨車。)",
     "id": "L3-tow-v-n"
   },
@@ -5848,7 +5848,7 @@
     "level": "L1",
     "word": "town",
     "meaning": "n. 鎮；市鎮",
-    "example": "The corporate retreat center is located in a quiet rural town outside the city. (企業休養中心位於城外一個安靜的鄉村小鎮。)",
+    "example": "The corporate retreat center is located in a quiet rural town outside the city. (企業共識營園區位於城外一處安靜的鄉村小鎮。)",
     "id": "L1-town-n"
   },
   {
@@ -5868,7 +5868,7 @@
   {
     "level": "L2",
     "word": "tradition",
-    "meaning": "n. 傳統習俗",
+    "meaning": "n. 傳統；慣例",
     "example": "The company follows a long-standing tradition of hosting an annual employee gala. (該公司遵循舉辦年度員工晚會的悠久傳統。)",
     "id": "L2-tradition-n"
   },
@@ -5910,7 +5910,7 @@
   {
     "level": "L4",
     "word": "transfer",
-    "meaning": "v. 轉換；調動",
+    "meaning": "v. 轉換；調動；轉帳；匯款",
     "example": "The accounting department will transfer the required funds to the vendor's bank account. (會計部門將所需資金轉入供應商的銀行帳戶。)",
     "id": "L4-transfer-v"
   },
@@ -5918,7 +5918,7 @@
     "level": "L3",
     "word": "trash",
     "meaning": "n. 廢物；垃圾",
-    "example": "The building manager hired a service to remove industrial trash from the facility. (大樓經理聘請了一項服務來清除設施中的工業垃圾。)",
+    "example": "The building manager hired a service to remove industrial trash from the facility. (大樓經理委外清除設施中的工業垃圾。)",
     "id": "L3-trash-n"
   },
   {
@@ -5974,14 +5974,14 @@
     "level": "L2",
     "word": "trial",
     "meaning": "n / a. 試驗；審問；試驗的；審訊的",
-    "example": "The engineering team completed a successful prototype trial run at the factory plant. (工程團隊在工廠成功完成了原型機試運作。)",
+    "example": "The engineering team successfully completed a prototype trial at the factory. (工程團隊在工廠成功完成了原型機試運作。)",
     "id": "L2-trial-n-a"
   },
   {
     "level": "L2",
     "word": "triangle",
     "meaning": "n. 三角形",
-    "example": "The designer selected a modern triangle layout for the engineering firm's logo. (設計師為工程公司的標誌選擇了現代的三角形佈局。)",
+    "example": "The designer selected a modern triangle layout for the engineering firm's logo. (設計師為工程公司的標誌選擇了現代的三角形版面配置。)",
     "id": "L2-triangle-n"
   },
   {
@@ -6015,7 +6015,7 @@
   {
     "level": "L2",
     "word": "trust",
-    "meaning": "n / v. 信任；信賴；信任；信賴",
+    "meaning": "n. 信任；信賴；v. 信任；信賴",
     "example": "Professional integrity is essential for building a relationship of trust with clients. (職業誠信對於與客戶建立信任關係至關重要。)",
     "id": "L2-trust-n-v"
   },
@@ -6044,7 +6044,7 @@
     "level": "TOEIC",
     "word": "two-sided",
     "meaning": "a. 兩邊的；兩面的",
-    "example": "The contract agreement outlines a two-sided obligation for both business partners. (合約協議概述了雙方業務合作夥伴的雙邊義務。)",
+    "example": "The contract agreement outlines a two-sided obligation for both business partners. (合約協議概述雙方合作夥伴的雙邊義務。)",
     "id": "TOEIC-two-sided-a"
   },
   {
@@ -6078,7 +6078,7 @@
   {
     "level": "中高級",
     "word": "ultimately",
-    "meaning": "ad. 終極地",
+    "meaning": "ad. 最終；最後",
     "example": "Ultimately, long-term investments in renewable infrastructure will yield high returns. (最終，對再生能源基礎設施的長期投資將產生高回報。)",
     "id": "中高級-ultimately-ad"
   },
@@ -6141,8 +6141,8 @@
   {
     "level": "TOEIC",
     "word": "unbeatable",
-    "meaning": "a. 打不垮的",
-    "example": "The leading manufacturer offers an unbeatable warranty on all precision hardware parts. (這家領先的製造商為所有精密硬體零件提供無與倫比的保固。)",
+    "meaning": "a. 無可匹敵的；難以超越的",
+    "example": "The leading manufacturer offers an unbeatable warranty on all precision hardware parts. (這家領先的製造商為所有精密硬體零件提供無可匹敵的保固。)",
     "id": "TOEIC-unbeatable-a"
   },
   {
@@ -6240,7 +6240,7 @@
     "level": "中高級",
     "word": "unidentified",
     "meaning": "a. 未辨別出的；身分不明的",
-    "example": "The security desk flagged an unidentified vehicle entering the corporate park. (保全台標示了一輛身份不明的車輛進入公司園區。)",
+    "example": "The security desk flagged an unidentified vehicle entering the corporate park. (保全人員回報有一輛身分不明的車進入公司園區。)",
     "id": "中高級-unidentified-a"
   },
   {
@@ -6275,7 +6275,7 @@
     "level": "L4",
     "word": "unique",
     "meaning": "a. 獨特的",
-    "example": "The university optical firm features a highly unique lens manufacturing technology. (這家大學光學公司擁有非常獨特的鏡片製造技術。)",
+    "example": "The university optical firm features a highly unique lens manufacturing technology. (這家大學光學公司擁有獨特的鏡片製造技術。)",
     "id": "L4-unique-a"
   },
   {
@@ -6288,7 +6288,7 @@
   {
     "level": "TOEIC",
     "word": "uniqueness",
-    "meaning": "n. 獨特",
+    "meaning": "n. 獨特性",
     "example": "The exceptional uniqueness of the prototype design helped secure a global patent. (原型設計的獨特性有助於獲得全球專利。)",
     "id": "TOEIC-uniqueness-n"
   },
@@ -6296,7 +6296,7 @@
     "level": "L1",
     "word": "unit",
     "meaning": "n. 單元",
-    "example": "The factory measured its daily output of semiconductor chips by the unit. (該工廠以單位測量其半導體晶片的日產量。)",
+    "example": "The factory measured its daily output of semiconductor chips by the unit. (該工廠以件計算半導體晶片的每日產量。)",
     "id": "L1-unit-n"
   },
   {
@@ -6351,15 +6351,15 @@
   {
     "level": "TOEIC",
     "word": "unsatisfactory",
-    "meaning": "a. 不滿意的",
-    "example": "The underperforming product line delivered highly unsatisfactory financial results. (表現不佳的產品線帶來的財務表現極不理想。)",
+    "meaning": "a. 不令人滿意的",
+    "example": "The underperforming product line delivered highly unsatisfactory financial results. (表現不佳的產品線造成財務表現令人不滿意。)",
     "id": "TOEIC-unsatisfactory-a"
   },
   {
     "level": "TOEIC",
     "word": "upcoming",
     "meaning": "a. 即將來臨的",
-    "example": "The project manager presented a comprehensive summary of upcoming construction projects. (專案經理對即將展開的建設專案進行了全面總結。)",
+    "example": "The project manager presented a comprehensive summary of upcoming construction projects. (專案經理全面簡介即將展開的營建專案。)",
     "id": "TOEIC-upcoming-a"
   },
   {
@@ -6372,8 +6372,8 @@
   {
     "level": "L6",
     "word": "upgrade",
-    "meaning": "v / n. 提高；提升；升級；上坡",
-    "example": "Upgrading our IT infrastructure is essential for supporting the new software application. (升級我們的 IT 基礎架構對於支援新的軟體應用程式至關重要。)",
+    "meaning": "v. 提高；提升；升級；n. 升級",
+    "example": "Upgrading our IT infrastructure is essential for supporting the new software application. (升級 IT 基礎架構，對支援新的軟體應用程式至關重要。)",
     "id": "L6-upgrade-v-n"
   },
   {
@@ -6401,13 +6401,13 @@
     "level": "TOEIC",
     "word": "urbanize",
     "meaning": "v. 使都市化",
-    "example": "The government introduced a master plan to urbanize the rural northern provinces. (政府推出了北部農村省份城市化總體規劃。)",
+    "example": "The government introduced a master plan to urbanize the rural northern provinces. (政府推出了北部農村省份的都市化總體計畫。)",
     "id": "TOEIC-urbanize-v"
   },
   {
     "level": "L4",
     "word": "urgent",
-    "meaning": "a. 急促的；急的",
+    "meaning": "a. 緊急的；迫切的",
     "example": "The human resources department issued an urgent notice regarding cybersecurity training. (人力資源部發布關於網路安全訓練的緊急通知。)",
     "id": "L4-urgent-a"
   },
@@ -6421,7 +6421,7 @@
   {
     "level": "L1",
     "word": "useful",
-    "meaning": "a. 有用的；有價值",
+    "meaning": "a. 有用的；有價值的",
     "example": "The digital spreadsheet is a highly useful tool for tracking daily warehouse inventory. (數位試算表是追蹤每日倉庫庫存的實用工具。)",
     "id": "L1-useful-a"
   },
@@ -6442,7 +6442,7 @@
   {
     "level": "初級",
     "word": "usually",
-    "meaning": "ad. 通常地；慣常",
+    "meaning": "ad. 通常；慣常地",
     "example": "The administrative assistant usually sorts and distributes incoming mail before noon. (行政助理通常在中午之前對收到的郵件進行分類和分發。)",
     "id": "初級-usually-ad"
   },
@@ -6464,7 +6464,7 @@
     "level": "L5",
     "word": "vacancy",
     "meaning": "n. 空白；空缺",
-    "example": "The human resources department posted a job vacancy for a senior data analyst. (人力資源部門發布了高級資料分析師的職缺。)",
+    "example": "The human resources department posted a job vacancy for a senior data analyst. (人力資源部發布了資深資料分析師的職缺。)",
     "id": "L5-vacancy-n"
   },
   {
@@ -6639,7 +6639,7 @@
     "level": "中高級",
     "word": "verify",
     "meaning": "v. 證明；證實",
-    "example": "Auditors will continuously cross-check data to verify absolute transaction financial accuracy. (稽核師將持續交叉檢查資料，以驗證交易財務的絕對準確性。)",
+    "example": "Auditors will continuously cross-check data to verify absolute transaction financial accuracy. (稽核師將持續交叉核對資料，以驗證交易財務資料的正確性。)",
     "id": "中高級-verify-v"
   },
   {
@@ -6660,14 +6660,14 @@
     "level": "L4",
     "word": "vessel",
     "meaning": "n. 船；艦；血管",
-    "example": "The container vessel arrived safely at the port to deliver bulk raw materials. (貨櫃船安全抵達港口，運送散裝原材料。)",
+    "example": "The container vessel arrived safely at the port to deliver bulk raw materials. (貨櫃船安全抵達港口，運送散裝原物料。)",
     "id": "L4-vessel-n"
   },
   {
     "level": "L5",
     "word": "via",
     "meaning": "prep. 透過；憑藉",
-    "example": "Click the link below to access the online registration form via your browser. (點擊下面的連結，透過瀏覽器開啟線上報名表。)",
+    "example": "Click the link below to access the online registration form via your browser. (點選下方連結，即可透過瀏覽器開啟線上報名表。)",
     "id": "L5-via-prep"
   },
   {
@@ -6744,14 +6744,14 @@
     "level": "L2",
     "word": "visitor",
     "meaning": "n. 參觀者；訪視者",
-    "example": "The front desk receptionist welcomed every visitor to the corporate headquarters warmly. (櫃台接待員熱情地歡迎每一位來到總公司的訪客。)",
+    "example": "The front desk receptionist welcomed every visitor to the corporate headquarters warmly. (櫃檯接待員熱情歡迎每位到訪總公司的訪客。)",
     "id": "L2-visitor-n"
   },
   {
     "level": "L4",
     "word": "visual",
     "meaning": "a. 可被看見的；視覺的",
-    "example": "The designer used a brilliant visual layout to enhance the corporate presentation slides. (設計師使用了出色的視覺佈局來增強企業簡報投影片的效果。)",
+    "example": "The designer used a brilliant visual layout to enhance the corporate presentation slides. (設計師運用出色的視覺版面配置，提升企業簡報投影片的效果。)",
     "id": "L4-visual-a"
   },
   {
@@ -6779,7 +6779,7 @@
     "level": "L1",
     "word": "voice",
     "meaning": "n. 聲音",
-    "example": "The executive board represents the leading voice of authority within the corporation. (執行董事會代表公司內部最高權威的聲音。)",
+    "example": "The executive board represents the leading voice of authority within the corporation. (執行董事會代表公司內部的最高權威。)",
     "id": "L1-voice-n"
   },
   {
@@ -6828,13 +6828,13 @@
     "level": "L2",
     "word": "waist",
     "meaning": "n. 腰；腰部",
-    "example": "The ergonomic executive chair features a comfortable adjustable waist support band. (符合人體工學的大班椅配有舒適的可調式腰部支撐帶。)",
+    "example": "The ergonomic executive chair features a comfortable adjustable waist support band. (符合人體工學的主管椅配有舒適的可調式腰部支撐。)",
     "id": "L2-waist-n"
   },
   {
     "level": "L1",
     "word": "wait",
-    "meaning": "v / n. 等；等待；等待",
+    "meaning": "v. 等；等待；n. 等待",
     "example": "Clients had to wait in a long queue outside the retail storefront during the black Friday sale. (黑色星期五促銷期間，顧客不得不在零售店外排隊等待。)",
     "id": "L1-wait-v-n"
   },
@@ -6855,7 +6855,7 @@
   {
     "level": "TOEIC",
     "word": "waive",
-    "meaning": "v. 放棄；撤回",
+    "meaning": "v. 放棄；免除",
     "example": "The supplier agreed to waive the late shipping fee as a gesture of goodwill to our firm. (供應商同意免除滯納金，以示對我們公司的善意。)",
     "id": "TOEIC-waive-v"
   },
@@ -6863,7 +6863,7 @@
     "level": "L2",
     "word": "wallet",
     "meaning": "n. 皮夾",
-    "example": "The designer misplaced his leather wallet containing his corporate identification cards. (設計師放錯了裝有公司身分證的皮錢包。)",
+    "example": "The designer misplaced his leather wallet containing his corporate identification cards. (設計師把裝有公司識別證的皮夾放錯了地方。)",
     "id": "L2-wallet-n"
   },
   {
@@ -6884,7 +6884,7 @@
     "level": "L1",
     "word": "warm",
     "meaning": "a / v. 溫暖的；暖和的；變暖和",
-    "example": "A mild winter season helped reduce the total warm heating expenses for the factory plant. (溫和的冬季有助於減少工廠的總暖氣費用。)",
+    "example": "A warm winter helped reduce the factory's overall heating costs. (溫和的冬季有助於減少工廠的總暖氣費用。)",
     "id": "L1-warm-a-v"
   },
   {
@@ -6932,7 +6932,7 @@
   {
     "level": "TOEIC",
     "word": "waver",
-    "meaning": "v. 搖擺；搖晃動搖",
+    "meaning": "v. 搖擺；動搖",
     "example": "The executive board did not waver in its determination to proceed with the corporate merger. (執行董事會並沒有動搖進行公司合併的決心。)",
     "id": "TOEIC-waver-v"
   },
@@ -6953,7 +6953,7 @@
   {
     "level": "L3",
     "word": "wealth",
-    "meaning": "n. 財產；資源",
+    "meaning": "n. 財產；資源；財富",
     "example": "The successful entrepreneur accumulated a great deal of wealth through tech innovations. (這位成功的企業家透過技術創新累積了大量財富。)",
     "id": "L3-wealth-n"
   },
@@ -6961,7 +6961,7 @@
     "level": "L1",
     "word": "weight",
     "meaning": "n. 重量；體重",
-    "example": "The digital scale tracks the exact weight of each outbound shipping container item. (數位秤追蹤每個出境貨櫃物品的準確重量。)",
+    "example": "The digital scale tracks the exact weight of each outbound shipping container item. (數位秤會追蹤每個對外出貨貨櫃的準確重量。)",
     "id": "L1-weight-n"
   },
   {
@@ -6996,7 +6996,7 @@
     "level": "L2",
     "word": "width",
     "meaning": "n. 寬度；闊度",
-    "example": "The technician measured the exact width of the steel component using a digital caliper. (技術人員使用數位卡尺測量了鋼部件的精確寬度。)",
+    "example": "The technician measured the exact width of the steel component using a digital caliper. (技術人員使用數位卡尺測量鋼製零件的精確寬度。)",
     "id": "L2-width-n"
   }
 ]

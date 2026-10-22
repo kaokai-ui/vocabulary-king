@@ -1,23 +1,30 @@
 [
   {
     "level": "TOEIC-ADV",
+    "word": "neutrality",
+    "meaning": "中立",
+    "example": "Our company maintains strict neutrality regarding political issues. (我們公司對政治議題嚴守中立。)",
+    "id": "TOEIC-ADV-neutrality-mdyym"
+  },
+  {
+    "level": "TOEIC-ADV",
     "word": "new appointment",
     "meaning": "新任命",
-    "example": "We are pleased to announce the new appointment of Mr. Chen as the Marketing Director. (我們很高興宣布陳先生為行銷總監的新任命。)",
+    "example": "We are pleased to announce the new appointment of Mr. Chen as the Marketing Director. (我們很高興宣布新的人事任命：由陳先生出任行銷總監。)",
     "id": "TOEIC-ADV-new-appointment-mfa3de"
   },
   {
     "level": "TOEIC-ADV",
     "word": "newcomer",
     "meaning": "新進者／新手",
-    "example": "We have a structured orientation program to help every newcomer adjust to the office culture. (我們有結構化的入職培訓計畫，幫助每位新進者適應辦公室文化。)",
+    "example": "We have a structured orientation program to help every newcomer adjust to the office culture. (我們有完善的新人訓練計畫，幫助每位新進員工適應辦公室文化。)",
     "id": "TOEIC-ADV-newcomer-m1dvi2br"
   },
   {
     "level": "TOEIC-ADV",
     "word": "newly arrived",
     "meaning": "新抵達的",
-    "example": "The newly arrived shipments of raw materials are currently being inspected. (新抵達的原物料貨物目前正在接受檢驗。)",
+    "example": "The newly arrived shipments of raw materials are currently being inspected. (剛到貨的原物料目前正在檢驗。)",
     "id": "TOEIC-ADV-newly-arrived-md8vr05"
   },
   {
@@ -66,15 +73,15 @@
     "level": "TOEIC-ADV",
     "word": "night shift",
     "meaning": "夜班",
-    "example": "Employees working the night shift receive a special compensation allowance. (上夜班的員工可獲得特別的津貼補助。)",
+    "example": "Employees working the night shift receive a special compensation allowance. (夜班員工可領取夜班津貼。)",
     "id": "TOEIC-ADV-night-shift-mfsk1"
   },
   {
     "level": "TOEIC-ADV",
     "word": "nightfall",
-    "meaning": "黃昏／入夜",
-    "example": "The outdoor event will conclude at nightfall to ensure everyone can get home safely. (戶外活動將於黃昏時結束，以確保每個人都能安全回家。)",
-    "id": "TOEIC-ADV-nightfall-m1uffnne"
+    "meaning": "入夜",
+    "example": "The outdoor event will conclude at nightfall to ensure everyone can get home safely. (戶外活動將在入夜前結束，確保每個人都能安全回家。)",
+    "id": "TOEIC-ADV-nightfall-mec0n"
   },
   {
     "level": "TOEIC-ADV",
@@ -87,7 +94,7 @@
     "level": "TOEIC-ADV",
     "word": "no later than",
     "meaning": "不晚於",
-    "example": "Please submit your expense reports no later than Friday afternoon. (請不晚於週五下午提交您的費用報銷單。)",
+    "example": "Please submit your expense reports no later than Friday afternoon. (請於週五下午前提交費用請款單。)",
     "id": "TOEIC-ADV-no-later-than-mbxizz"
   },
   {
@@ -108,14 +115,14 @@
     "level": "TOEIC-ADV",
     "word": "nonstop flight",
     "meaning": "直飛航班",
-    "example": "I booked a nonstop flight to Tokyo to save time on my upcoming business trip. (我預訂了一班飛往東京的直飛航班，以節省即將到來的商務旅行時間。)",
+    "example": "I booked a nonstop flight to Tokyo to save time on my upcoming business trip. (為了節省這趟商務旅行的時間，我預訂了飛往東京的直飛航班。)",
     "id": "TOEIC-ADV-nonstop-flight-mfn54mi"
   },
   {
     "level": "TOEIC-ADV",
     "word": "nontransferable",
     "meaning": "不可轉讓的",
-    "example": "Your conference pass is nontransferable and must be presented for entry. (您的研討會入場證不可轉讓，且入場時必須出示。)",
+    "example": "Your conference pass is nontransferable and must be presented for entry. (您的會議通行證不得轉讓，入場時必須出示。)",
     "id": "TOEIC-ADV-nontransferable-mw8osrc"
   },
   {
@@ -213,7 +220,7 @@
     "level": "TOEIC-ADV",
     "word": "novice",
     "meaning": "新手",
-    "example": "The workshop provides a great introduction for the novice interested in learning data analysis. (該工作坊為對學習數據分析感興趣的新手提供了一個很棒的入門。)",
+    "example": "The workshop provides a great introduction for the novice interested in learning data analysis. (這場工作坊很適合想學資料分析的新手入門。)",
     "id": "TOEIC-ADV-novice-mhu3f"
   },
   {
@@ -227,14 +234,14 @@
     "level": "TOEIC-ADV",
     "word": "nursery",
     "meaning": "托兒所／苗圃",
-    "example": "The company offers a workplace nursery to support employees with young children. (公司提供一個職場托兒所，以支持有年幼子女的員工。)",
+    "example": "The company offers a workplace nursery to support employees with young children. (公司設有附設托兒所，方便有年幼子女的員工。)",
     "id": "TOEIC-ADV-nursery-my9od1x"
   },
   {
     "level": "TOEIC-ADV",
     "word": "oar",
     "meaning": "槳",
-    "example": "The boat is equipped with a pair of oars for manual navigation. (這艘船配備了一對槳以進行手動導航。)",
+    "example": "The boat is equipped with a pair of oars for manual navigation. (這艘船配有一對槳，供人划船前進。)",
     "id": "TOEIC-ADV-oar-mkxf"
   },
   {
@@ -248,7 +255,7 @@
     "level": "TOEIC-ADV",
     "word": "obfuscate",
     "meaning": "使困惑／混淆",
-    "example": "The technical jargon only served to obfuscate the meaning of the proposal. (這些專業術語只會讓提案的意義變得混淆。)",
+    "example": "The technical jargon only served to obfuscate the meaning of the proposal. (這些專業術語只會模糊提案的重點。)",
     "id": "TOEIC-ADV-obfuscate-m18iy1jy"
   },
   {
@@ -262,14 +269,14 @@
     "level": "TOEIC-ADV",
     "word": "observably",
     "meaning": "顯而易見地",
-    "example": "The efficiency of the team has improved observably since the new manager took over. (自從新經理上任後，團隊的效率有了顯著的（顯而易見的）提升。)",
+    "example": "The efficiency of the team has improved observably since the new manager took over. (新經理上任後，團隊效率明顯提升。)",
     "id": "TOEIC-ADV-observably-m18cjwzf"
   },
   {
     "level": "TOEIC-ADV",
     "word": "observance",
     "meaning": "遵守／慶祝",
-    "example": "The holiday was celebrated in strict observance of local traditions. (該節日是嚴格遵守當地傳統進行慶祝的。)",
+    "example": "The holiday was celebrated in strict observance of local traditions. (這個節日完全依照當地傳統慶祝。)",
     "id": "TOEIC-ADV-observance-m9675ur"
   },
   {
@@ -311,7 +318,7 @@
     "level": "TOEIC-ADV",
     "word": "occasionally",
     "meaning": "偶爾",
-    "example": "We occasionally hold team building lunches to encourage communication between departments. (我們偶爾會舉辦團隊建設午餐，以鼓勵部門間的交流。)",
+    "example": "We occasionally hold team building lunches to encourage communication between departments. (我們偶爾會舉辦團隊交流午餐，促進各部門之間的互動。)",
     "id": "TOEIC-ADV-occasionally-meb9k"
   },
   {
@@ -353,15 +360,15 @@
     "level": "TOEIC-ADV",
     "word": "offer an apology to A",
     "meaning": "向A道歉",
-    "example": "The manager decided to offer an apology to the client for the misunderstanding. (經理決定為了誤解向客戶道歉。)",
+    "example": "The manager decided to offer an apology to the client for the misunderstanding. (經理決定針對這次誤會向客戶道歉。)",
     "id": "TOEIC-ADV-offer-an-apology-to-a-a"
   },
   {
     "level": "TOEIC-ADV",
     "word": "offering",
-    "meaning": "提供的產品／祭品",
-    "example": "Our new product offering is designed to appeal to the younger demographic. (我們的新產品（提供的產品）旨在吸引年輕族群。)",
-    "id": "TOEIC-ADV-offering-mt53c7f"
+    "meaning": "提供的產品／服務項目",
+    "example": "Our new product offering is designed to appeal to the younger demographic. (我們的新產品旨在吸引年輕族群。)",
+    "id": "TOEIC-ADV-offering-mggs1xo"
   },
   {
     "level": "TOEIC-ADV",
@@ -374,7 +381,7 @@
     "level": "TOEIC-ADV",
     "word": "official arrangement",
     "meaning": "正式安排",
-    "example": "We are currently finalizing the official arrangement for the visit of the visiting delegation. (我們目前正在敲定訪問代表團參訪的正式安排。)",
+    "example": "We are currently finalizing the official arrangement for the visit of the visiting delegation. (我們目前正在敲定代表團來訪的正式安排。)",
     "id": "TOEIC-ADV-official-arrangement-mdxz19x"
   },
   {
@@ -388,7 +395,7 @@
     "level": "TOEIC-ADV",
     "word": "officially",
     "meaning": "正式地",
-    "example": "The merger was officially announced during the shareholders' meeting this morning. (合併案已在今早的股東大會中正式宣布。)",
+    "example": "The merger was officially announced during the shareholders' meeting this morning. (合併案已於今早的股東會正式宣布。)",
     "id": "TOEIC-ADV-officially-mg6w84"
   },
   {
@@ -442,7 +449,7 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "OJT(on-the-job training)",
+    "word": "OJT (on-the-job training)",
     "meaning": "在職訓練",
     "example": "All new recruits will undergo two weeks of OJT to familiarize themselves with company procedures. (所有新進人員將進行兩週的在職訓練，以熟悉公司流程。)",
     "id": "TOEIC-ADV-ojt-on-the-job-training-mbj8btc"
@@ -549,14 +556,14 @@
     "level": "TOEIC-ADV",
     "word": "on loan",
     "meaning": "出借中",
-    "example": "The painting is currently on loan to the city museum for their special exhibition. (這幅畫目前正出借給市博物館進行其特展。)",
+    "example": "The painting is currently on loan to the city museum for their special exhibition. (這幅畫目前正借給市立博物館舉辦特展。)",
     "id": "TOEIC-ADV-on-loan-mcebfs"
   },
   {
     "level": "TOEIC-ADV",
     "word": "on occasion",
     "meaning": "偶爾",
-    "example": "On occasion, the management team will organize a town hall meeting to address employee concerns. (管理團隊偶爾會舉辦大會來解決員工的擔憂。)",
+    "example": "On occasion, the management team will organize a town hall meeting to address employee concerns. (管理團隊偶爾會召開全員會議，回應員工的疑慮。)",
     "id": "TOEIC-ADV-on-occasion-meb9k"
   },
   {
@@ -569,9 +576,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "on one's own account",
-    "meaning": "自行承擔責任／自費",
-    "example": "He decided to start the research project on his own account. (他決定自行承擔責任發起該研究專案。)",
-    "id": "TOEIC-ADV-on-one-s-own-account-m1lai2be"
+    "meaning": "自行／自費",
+    "example": "He decided to start the research project on his own account. (他決定自費推動這項研究計畫。)",
+    "id": "TOEIC-ADV-on-one-s-own-account-mszoaym"
   },
   {
     "level": "TOEIC-ADV",
@@ -619,7 +626,7 @@
     "level": "TOEIC-ADV",
     "word": "on the edge of",
     "meaning": "在...邊緣",
-    "example": "The company is on the edge of a major breakthrough in renewable energy technology. (公司正處於再生能源技術重大突破的邊緣。)",
+    "example": "The company is on the edge of a major breakthrough in renewable energy technology. (公司即將在再生能源技術上取得重大突破。)",
     "id": "TOEIC-ADV-on-the-edge-of-m1gbhhsv"
   },
   {
@@ -640,7 +647,7 @@
     "level": "TOEIC-ADV",
     "word": "on the rise",
     "meaning": "上升中",
-    "example": "The demand for skilled software engineers is currently on the rise. (對技能熟練的軟體工程師的需求目前正處於上升中。)",
+    "example": "The demand for skilled software engineers is currently on the rise. (對熟練軟體工程師的需求正持續攀升。)",
     "id": "TOEIC-ADV-on-the-rise-mbu3bk"
   },
   {
@@ -724,14 +731,14 @@
     "level": "TOEIC-ADV",
     "word": "operating",
     "meaning": "營運中的",
-    "example": "The new facility is fully operating and currently producing at full capacity. (新設施已全面營運中，目前正全產能生產。)",
+    "example": "The new facility is fully operating and currently producing at full capacity. (新設施已全面運轉，目前正以滿載產能生產。)",
     "id": "TOEIC-ADV-operating-meykfgj"
   },
   {
     "level": "TOEIC-ADV",
     "word": "operation budget",
     "meaning": "營運預算",
-    "example": "The finance department is finalizing the operation budget for the next fiscal year. (財務部門正在敲定下個財政年度的營運預算。)",
+    "example": "The finance department is finalizing the operation budget for the next fiscal year. (財務部門正在敲定下一會計年度的營運預算。)",
     "id": "TOEIC-ADV-operation-budget-meyx0wj"
   },
   {
@@ -780,7 +787,7 @@
     "level": "TOEIC-ADV",
     "word": "ordered",
     "meaning": "有序的／已訂購的",
-    "example": "Please keep your files ordered so that they are easy to locate. (請將您的文件保持有序，以便輕鬆找到。)",
+    "example": "Please keep your files ordered so that they are easy to locate. (請把文件整理好，方便日後查找。)",
     "id": "TOEIC-ADV-ordered-m1k6dhc9"
   },
   {
@@ -814,16 +821,16 @@
   {
     "level": "TOEIC-ADV",
     "word": "organize a picnic",
-    "meaning": "組織野餐",
-    "example": "The company will organize a picnic this weekend to encourage team bonding. (公司將於本週末組織一次野餐，以鼓勵團隊建立情誼。)",
-    "id": "TOEIC-ADV-organize-a-picnic-mgbzyxe"
+    "meaning": "舉辦野餐",
+    "example": "The company will organize a picnic this weekend to encourage team bonding. (公司本週末將舉辦野餐，促進團隊情誼。)",
+    "id": "TOEIC-ADV-organize-a-picnic-mh06xrz"
   },
   {
     "level": "TOEIC-ADV",
     "word": "organizer",
-    "meaning": "組織者",
-    "example": "The event organizer ensured that all preparations were completed well in advance. (活動組織者確保所有準備工作皆提前妥善完成。)",
-    "id": "TOEIC-ADV-organizer-miypo5"
+    "meaning": "主辦人／主辦單位",
+    "example": "The event organizer ensured that all preparations were completed well in advance. (活動主辦單位確保所有準備工作都提前妥善完成。)",
+    "id": "TOEIC-ADV-organizer-m1y06fbe"
   },
   {
     "level": "TOEIC-ADV",
@@ -884,9 +891,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "out of town",
-    "meaning": "出城／不在本地",
-    "example": "The director is currently out of town and will return on Friday. (總監目前出城（不在本地），將於週五返回。)",
-    "id": "TOEIC-ADV-out-of-town-m1147fy2"
+    "meaning": "不在本地",
+    "example": "The director is currently out of town and will return on Friday. (總監目前不在市內，週五返回。)",
+    "id": "TOEIC-ADV-out-of-town-ma7nyin"
   },
   {
     "level": "TOEIC-ADV",
@@ -905,9 +912,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "outdoor wall",
-    "meaning": "戶外牆",
-    "example": "The outdoor wall of the building will be painted next week as part of the maintenance plan. (作為維修計畫的一部分，建築的戶外牆將於下週粉刷。)",
-    "id": "TOEIC-ADV-outdoor-wall-metn6u"
+    "meaning": "外牆",
+    "example": "The outdoor wall of the building will be painted next week as part of the maintenance plan. (配合維修計畫，建築物外牆將於下週粉刷。)",
+    "id": "TOEIC-ADV-outdoor-wall-mfs34"
   },
   {
     "level": "TOEIC-ADV",
@@ -920,7 +927,7 @@
     "level": "TOEIC-ADV",
     "word": "outlast",
     "meaning": "比...持久",
-    "example": "The high-quality materials ensure that this equipment will outlast any of our competitors' models. (高品質材料確保了該設備的使用壽命將比我們任何競爭對手的機型更持久。)",
+    "example": "The high-quality materials ensure that this equipment will outlast any of our competitors' models. (高品質材料能讓這款設備的使用年限比競爭對手的任何機型都長。)",
     "id": "TOEIC-ADV-outlast-mtnh1a"
   },
   {
@@ -933,9 +940,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "outlying",
-    "meaning": "邊遠的",
-    "example": "We have distribution centers in major cities and several outlying regions. (我們在主要城市及幾個邊遠地區設有配送中心。)",
-    "id": "TOEIC-ADV-outlying-mlvcxa"
+    "meaning": "偏遠的",
+    "example": "We have distribution centers in major cities and several outlying regions. (我們在主要城市及幾個偏遠地區設有配送中心。)",
+    "id": "TOEIC-ADV-outlying-mcgo8j"
   },
   {
     "level": "TOEIC-ADV",
@@ -969,7 +976,7 @@
     "level": "TOEIC-ADV",
     "word": "outside provider",
     "meaning": "外部供應商",
-    "example": "We hire an outside provider to handle our payroll and benefits administration. (我們雇用了一家外部供應商來處理我們的薪資與福利行政。)",
+    "example": "We hire an outside provider to handle our payroll and benefits administration. (我們聘請外部供應商處理薪資與福利相關的行政作業。)",
     "id": "TOEIC-ADV-outside-provider-mbs76p2"
   },
   {
@@ -1004,7 +1011,7 @@
     "level": "TOEIC-ADV",
     "word": "overcharge",
     "meaning": "索價過高",
-    "example": "I believe I was overcharged for this service; please check the invoice again. (我相信這項服務被索價過高了；請再檢查一下發票。)",
+    "example": "I believe I was overcharged for this service; please check the invoice again. (我覺得這項服務被多收了費用，請再核對發票。)",
     "id": "TOEIC-ADV-overcharge-mg4quu9"
   },
   {
@@ -1046,7 +1053,7 @@
     "level": "TOEIC-ADV",
     "word": "overflow",
     "meaning": "溢出",
-    "example": "The trash bin in the lobby began to overflow; please empty it immediately. (大廳的垃圾桶開始溢出；請立即清空它。)",
+    "example": "The trash bin in the lobby began to overflow; please empty it immediately. (大廳的垃圾桶快滿出來了，請立刻清理。)",
     "id": "TOEIC-ADV-overflow-mj9nc"
   },
   {
@@ -1067,14 +1074,14 @@
     "level": "TOEIC-ADV",
     "word": "overlook the water",
     "meaning": "俯瞰水景",
-    "example": "Our hotel rooms are designed to overlook the water, offering a scenic view. (我們的飯店房間設計為可俯瞰水景，提供優美的風景。)",
+    "example": "Our hotel rooms are designed to overlook the water, offering a scenic view. (我們的飯店房間都能看到水景，視野很好。)",
     "id": "TOEIC-ADV-overlook-the-water-mal07bw"
   },
   {
     "level": "TOEIC-ADV",
     "word": "overly",
     "meaning": "過度地",
-    "example": "The report was overly critical and did not focus enough on the positive results. (該報告過度批評，且未能足夠聚焦於正面結果。)",
+    "example": "The report was overly critical and did not focus enough on the positive results. (該報告批評過多，沒有充分著墨正面的結果。)",
     "id": "TOEIC-ADV-overly-mllhqw"
   },
   {
@@ -1102,7 +1109,7 @@
     "level": "TOEIC-ADV",
     "word": "overpass",
     "meaning": "天橋／陸橋",
-    "example": "The truck could not pass under the overpass due to its height. (那輛卡車因其高度而無法通過陸橋下方。)",
+    "example": "The truck could not pass under the overpass due to its height. (那輛卡車太高，過不了陸橋。)",
     "id": "TOEIC-ADV-overpass-m7x9p5s"
   },
   {
@@ -1115,9 +1122,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "overqualified",
-    "meaning": "學歷/資歷過高",
-    "example": "He is overqualified for this junior position, but he is interested in our company culture. (他對於這個基層職位而言資歷過高，但他對我們的公司文化很感興趣。)",
-    "id": "TOEIC-ADV-overqualified-mk7cp2i"
+    "meaning": "資歷過高",
+    "example": "He is overqualified for this junior position, but he is interested in our company culture. (他的資歷遠超這個基層職位的要求，但他對我們的公司文化很感興趣。)",
+    "id": "TOEIC-ADV-overqualified-mi7nu8q"
   },
   {
     "level": "TOEIC-ADV",
@@ -1129,15 +1136,15 @@
   {
     "level": "TOEIC-ADV",
     "word": "oversized",
-    "meaning": "過大的",
-    "example": "Please use the oversized shipping container for these large equipment parts. (請使用過大的運輸容器來裝載這些大型設備零件。)",
-    "id": "TOEIC-ADV-oversized-mlkqa3"
+    "meaning": "加大尺寸的",
+    "example": "Please use the oversized shipping container for these large equipment parts. (請使用加大尺寸的貨櫃裝載這些大型設備零件。)",
+    "id": "TOEIC-ADV-oversized-m1ekjm8v"
   },
   {
     "level": "TOEIC-ADV",
     "word": "overstaffed",
     "meaning": "人員過剩的",
-    "example": "The department was found to be overstaffed, leading to a restructuring of the team. (該部門被發現人員過剩，導致了團隊的重組。)",
+    "example": "The department was found to be overstaffed, leading to a restructuring of the team. (該部門被查出人力過剩，因此進行了組織調整。)",
     "id": "TOEIC-ADV-overstaffed-myzzdqa"
   },
   {
@@ -1165,14 +1172,14 @@
     "level": "TOEIC-ADV",
     "word": "overtime rate",
     "meaning": "加班費率",
-    "example": "Employees are paid at a higher overtime rate for work performed on public holidays. (員工在國定假日期間的工作可獲得較高的加班費率。)",
+    "example": "Employees are paid at a higher overtime rate for work performed on public holidays. (員工在國定假日上班，適用較高的加班費率。)",
     "id": "TOEIC-ADV-overtime-rate-mawtwzd"
   },
   {
     "level": "TOEIC-ADV",
     "word": "overwhelming",
     "meaning": "壓倒性的",
-    "example": "The positive feedback from our clients was overwhelming after the new service launch. (新服務發布後，我們從客戶那裡收到的正面回饋是壓倒性的。)",
+    "example": "The positive feedback from our clients was overwhelming after the new service launch. (新服務推出後，客戶給予大量正面回饋。)",
     "id": "TOEIC-ADV-overwhelming-mbjimfw"
   },
   {
@@ -1186,14 +1193,14 @@
     "level": "TOEIC-ADV",
     "word": "owed",
     "meaning": "欠款",
-    "example": "The company has several outstanding debts that are currently owed to our suppliers. (公司有幾筆未結清的債務目前積欠我們的供應商。)",
+    "example": "The company has several outstanding debts that are currently owed to our suppliers. (公司有幾筆款項尚未結清，目前仍積欠供應商。)",
     "id": "TOEIC-ADV-owed-mit5q"
   },
   {
     "level": "TOEIC-ADV",
     "word": "owing to",
     "meaning": "由於",
-    "example": "The flight was delayed owing to severe weather conditions at the airport. (由於機場嚴重的氣候條件，該航班延誤了。)",
+    "example": "The flight was delayed owing to severe weather conditions at the airport. (由於機場天候惡劣，該航班延誤了。)",
     "id": "TOEIC-ADV-owing-to-mkhpn"
   },
   {
@@ -1228,14 +1235,14 @@
     "level": "TOEIC-ADV",
     "word": "packing tape",
     "meaning": "打包膠帶",
-    "example": "We are out of packing tape; could you please request some from the supply room? (我們沒有打包膠帶了；能不能請您向補給室請求一些？)",
+    "example": "We are out of packing tape; could you please request some from the supply room? (我們的膠帶用完了，能不能向補給室申請一些？)",
     "id": "TOEIC-ADV-packing-tape-mcr8mjs"
   },
   {
     "level": "TOEIC-ADV",
     "word": "paddle",
     "meaning": "槳／划槳",
-    "example": "The canoeist used a paddle to navigate through the river. (獨木舟手使用槳在河中航行。)",
+    "example": "The canoeist used a paddle to navigate through the river. (划獨木舟的人用槳在河上前進。)",
     "id": "TOEIC-ADV-paddle-meeu5r1"
   },
   {
@@ -1270,7 +1277,7 @@
     "level": "TOEIC-ADV",
     "word": "paint",
     "meaning": "油漆／塗料",
-    "example": "We need to buy more white paint to finish the renovation of the reception area. (我們需要購買更多的白色油漆來完成接待區的翻新。)",
+    "example": "We need to buy more white paint to finish the renovation of the reception area. (我們需要再買一些白色油漆，完成接待區的整修。)",
     "id": "TOEIC-ADV-paint-mdyxyhw"
   },
   {
@@ -1290,15 +1297,15 @@
   {
     "level": "TOEIC-ADV",
     "word": "pair up with",
-    "meaning": "與...配對",
-    "example": "Please pair up with a colleague to complete the safety inspection checklist. (請與一位同事配對，共同完成安全檢查清單。)",
-    "id": "TOEIC-ADV-pair-up-with-m1rfrkx3"
+    "meaning": "與…搭檔",
+    "example": "Please pair up with a colleague to complete the safety inspection checklist. (請和一位同事兩人一組，共同完成安全檢查表。)",
+    "id": "TOEIC-ADV-pair-up-with-mgjlphi"
   },
   {
     "level": "TOEIC-ADV",
     "word": "palate",
     "meaning": "味覺／品味",
-    "example": "The menu is designed to suit a sophisticated palate, featuring gourmet ingredients. (該菜單旨在滿足精緻的味覺，特色在於使用高品質的食材。)",
+    "example": "The menu is designed to suit a sophisticated palate, featuring gourmet ingredients. (這份菜單專為挑剔的味蕾設計，採用的食材也十分講究。)",
     "id": "TOEIC-ADV-palate-m1shos9m"
   },
   {
@@ -1319,7 +1326,7 @@
     "level": "TOEIC-ADV",
     "word": "paper",
     "meaning": "紙張",
-    "example": "The printer is out of paper; please replenish the supply from the storage room. (印表機沒紙了；請從儲藏室補充供應。)",
+    "example": "The printer is out of paper; please replenish the supply from the storage room. (印表機沒紙了，請到儲藏室補紙。)",
     "id": "TOEIC-ADV-paper-mlsu4"
   },
   {
@@ -1333,7 +1340,7 @@
     "level": "TOEIC-ADV",
     "word": "papers",
     "meaning": "文件",
-    "example": "Please organize these papers before filing them in the cabinet. (在將這些文件歸檔進櫃子前，請先整理它們。)",
+    "example": "Please organize these papers before filing them in the cabinet. (請先把這些文件整理好，再歸檔到櫃子裡。)",
     "id": "TOEIC-ADV-papers-mhpan"
   },
   {
@@ -1361,7 +1368,7 @@
     "level": "TOEIC-ADV",
     "word": "parcel",
     "meaning": "包裹",
-    "example": "The parcel was delivered to the wrong address, and we are currently tracking it. (該包裹被送到了錯誤的地址，我們目前正在追蹤它。)",
+    "example": "The parcel was delivered to the wrong address, and we are currently tracking it. (包裹寄錯地址了，我們正在追蹤處理。)",
     "id": "TOEIC-ADV-parcel-mevf8"
   },
   {
@@ -1388,15 +1395,15 @@
   {
     "level": "TOEIC-ADV",
     "word": "parking garage",
-    "meaning": "停車庫",
-    "example": "I parked my car in the parking garage attached to the office building. (我將車停在辦公大樓附設的停車庫中。)",
-    "id": "TOEIC-ADV-parking-garage-mcgjgd"
+    "meaning": "停車場／立體停車場",
+    "example": "I parked my car in the parking garage attached to the office building. (我把車停在辦公大樓附設的停車場。)",
+    "id": "TOEIC-ADV-parking-garage-m1e1jpas"
   },
   {
     "level": "TOEIC-ADV",
     "word": "parking pass",
     "meaning": "停車證",
-    "example": "Please display your parking pass clearly on the dashboard of your vehicle. (請將您的停車證清晰地展示在車輛儀表板上。)",
+    "example": "Please display your parking pass clearly on the dashboard of your vehicle. (請把停車證放在儀表板上明顯的位置。)",
     "id": "TOEIC-ADV-parking-pass-mcgs9n"
   },
   {
@@ -1417,7 +1424,7 @@
     "level": "TOEIC-ADV",
     "word": "partially",
     "meaning": "部分地",
-    "example": "The project is partially funded by a government grant for sustainable technology. (該專案由一項永續技術政府補助金部分資助。)",
+    "example": "The project is partially funded by a government grant for sustainable technology. (這項專案的部分經費來自政府的永續技術補助。)",
     "id": "TOEIC-ADV-partially-mlmimq"
   },
   {
@@ -1431,21 +1438,21 @@
     "level": "TOEIC-ADV",
     "word": "participation",
     "meaning": "參與",
-    "example": "High participation from all departments is crucial to the success of this initiative. (所有部門的高度參與對於此倡議的成功至關重要。)",
+    "example": "High participation from all departments is crucial to the success of this initiative. (這項計畫能否成功，關鍵在各部門踴躍參與。)",
     "id": "TOEIC-ADV-participation-meylg"
   },
   {
     "level": "TOEIC-ADV",
     "word": "partition",
-    "meaning": "隔板",
-    "example": "We installed glass partitions to create private office spaces within the open floor plan. (我們安裝了玻璃隔板，以在開放式平面圖中創造私人辦公空間。)",
-    "id": "TOEIC-ADV-partition-mq6i3"
+    "meaning": "隔間／隔板",
+    "example": "We installed glass partitions to create private office spaces within the open floor plan. (我們在開放式辦公空間安裝玻璃隔間，劃出獨立辦公區。)",
+    "id": "TOEIC-ADV-partition-m14fljh7"
   },
   {
     "level": "TOEIC-ADV",
     "word": "pass around",
     "meaning": "分發／傳閱",
-    "example": "Please pass around the handouts so everyone can follow the presentation. (請將講義分發（傳閱）下去，讓每個人都能跟上簡報進度。)",
+    "example": "Please pass around the handouts so everyone can follow the presentation. (請把講義傳下去，讓大家都能跟上簡報進度。)",
     "id": "TOEIC-ADV-pass-around-m1gkuugn"
   },
   {
@@ -1465,9 +1472,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "pass over",
-    "meaning": "忽略／忽略不計",
-    "example": "He was disappointed to be passed over for the promotion despite his hard work. (儘管他努力工作，卻在升遷時被忽略，他感到很失望。)",
-    "id": "TOEIC-ADV-pass-over-migba5m"
+    "meaning": "略過／未予升遷",
+    "example": "He was disappointed to be passed over for the promotion despite his hard work. (儘管他工作努力，升遷時卻沒被選上，讓他很失望。)",
+    "id": "TOEIC-ADV-pass-over-m14aa6dw"
   },
   {
     "level": "TOEIC-ADV",
@@ -1508,7 +1515,7 @@
     "level": "TOEIC-ADV",
     "word": "patent",
     "meaning": "專利",
-    "example": "The company has filed a patent for its new energy-efficient heating technology. (公司已為其新的高效能加熱技術申請了專利。)",
+    "example": "The company has filed a patent for its new energy-efficient heating technology. (公司已為新的節能加熱技術申請專利。)",
     "id": "TOEIC-ADV-patent-mg3s1"
   },
   {
@@ -1536,7 +1543,7 @@
     "level": "TOEIC-ADV",
     "word": "patio",
     "meaning": "露台",
-    "example": "The office cafeteria has an outdoor patio for employees to use during lunch breaks. (公司食堂設有一個戶外露台，供員工在午休期間使用。)",
+    "example": "The office cafeteria has an outdoor patio for employees to use during lunch breaks. (公司員工餐廳設有戶外露台，供員工午休時使用。)",
     "id": "TOEIC-ADV-patio-mq6f2"
   },
   {
@@ -1550,7 +1557,7 @@
     "level": "TOEIC-ADV",
     "word": "patronize",
     "meaning": "光顧",
-    "example": "Please continue to patronize our business as we strive to improve our services. (在我們努力提升服務品質的同時，請繼續光顧我們的生意。)",
+    "example": "Please continue to patronize our business as we strive to improve our services. (我們持續提升服務品質，也感謝您繼續惠顧。)",
     "id": "TOEIC-ADV-patronize-menum"
   },
   {
@@ -1578,7 +1585,7 @@
     "level": "TOEIC-ADV",
     "word": "pay in cash",
     "meaning": "用現金支付",
-    "example": "The vendor prefers that customers pay in cash for smaller purchases. (賣方偏好客戶對小額購買使用現金支付。)",
+    "example": "The vendor prefers that customers pay in cash for smaller purchases. (賣方偏好客戶以現金支付小額款項。)",
     "id": "TOEIC-ADV-pay-in-cash-m1b4nzwk"
   },
   {
@@ -1606,15 +1613,15 @@
     "level": "TOEIC-ADV",
     "word": "pay raise",
     "meaning": "加薪",
-    "example": "He requested a pay raise based on his increased responsibilities over the past year. (他根據過去一年增加的責任請求加薪。)",
+    "example": "He requested a pay raise based on his increased responsibilities over the past year. (他因過去一年職責增加而要求加薪。)",
     "id": "TOEIC-ADV-pay-raise-mescq"
   },
   {
     "level": "TOEIC-ADV",
     "word": "paycheck",
-    "meaning": "薪水支票",
-    "example": "Please ensure your direct deposit information is correct for your next paycheck. (請確保您的直接存款資訊對於您的下一份薪水支票是正確的。)",
-    "id": "TOEIC-ADV-paycheck-mhb9gmb"
+    "meaning": "薪水／薪資支票",
+    "example": "Please ensure your direct deposit information is correct for your next paycheck. (請確認直接存款資料正確，確保下一次薪水能順利入帳。)",
+    "id": "TOEIC-ADV-paycheck-m1bf4piz"
   },
   {
     "level": "TOEIC-ADV",
@@ -1655,7 +1662,7 @@
     "level": "TOEIC-ADV",
     "word": "pending",
     "meaning": "未決的／待處理的",
-    "example": "There are several pending applications for the department's open positions. (目前有幾個部門職缺的申請正處於待處理狀態。)",
+    "example": "There are several pending applications for the department's open positions. (目前有幾份部門職缺的申請仍待處理。)",
     "id": "TOEIC-ADV-pending-muxpgi1"
   },
   {
@@ -1690,7 +1697,7 @@
     "level": "TOEIC-ADV",
     "word": "perceptible",
     "meaning": "可感知的",
-    "example": "There was a perceptible improvement in the software speed after the update. (更新後，軟體速度有著可感知的提升。)",
+    "example": "There was a perceptible improvement in the software speed after the update. (更新後，軟體速度有明顯提升。)",
     "id": "TOEIC-ADV-perceptible-mazx4y7"
   },
   {
@@ -1753,7 +1760,7 @@
     "level": "TOEIC-ADV",
     "word": "personal effects",
     "meaning": "個人物品",
-    "example": "Please ensure you have collected all your personal effects before you leave the office. (離開辦公室前，請確保您已收集了所有個人物品。)",
+    "example": "Please ensure you have collected all your personal effects before you leave the office. (離開辦公室前，請確認已帶走所有個人物品。)",
     "id": "TOEIC-ADV-personal-effects-mafj1zb"
   },
   {
@@ -1837,7 +1844,7 @@
     "level": "TOEIC-ADV",
     "word": "photocopy",
     "meaning": "影印件／影印",
-    "example": "I need a photocopy of your identification card for your personnel file. (我需要您的身分證影印件作為您的個人檔案。)",
+    "example": "I need a photocopy of your identification card for your personnel file. (我需要您的身分證影本，放進個人檔案裡。)",
     "id": "TOEIC-ADV-photocopy-m17h0uvr"
   },
   {
@@ -1851,7 +1858,7 @@
     "level": "TOEIC-ADV",
     "word": "physical examination",
     "meaning": "健康檢查",
-    "example": "All employees are required to undergo a physical examination annually. (所有員工皆被要求每年進行一次健康檢查。)",
+    "example": "All employees are required to undergo a physical examination annually. (所有員工每年都必須接受一次健康檢查。)",
     "id": "TOEIC-ADV-physical-examination-majflyt"
   },
   {
@@ -1914,14 +1921,14 @@
     "level": "TOEIC-ADV",
     "word": "picture",
     "meaning": "照片／圖畫",
-    "example": "Please hang the picture in the lobby once it has been framed. (請在圖片裝裱好後，將其掛在大廳中。)",
+    "example": "Please hang the picture in the lobby once it has been framed. (照片裱框後，請把它掛在大廳裡。)",
     "id": "TOEIC-ADV-picture-mwof8v8"
   },
   {
     "level": "TOEIC-ADV",
     "word": "piece by piece",
     "meaning": "一點一滴地／逐件地",
-    "example": "We analyzed the complex problem piece by piece to find the root cause. (我們將複雜問題逐件分析以找出根本原因。)",
+    "example": "We analyzed the complex problem piece by piece to find the root cause. (我們逐步分析這個複雜問題，找出根本原因。)",
     "id": "TOEIC-ADV-piece-by-piece-m1ac869l"
   },
   {
@@ -1947,9 +1954,9 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "PIN(personal identification number)",
+    "word": "PIN (personal identification number)",
     "meaning": "個人識別碼",
-    "example": "Never write down your PIN and keep it confidential. (永遠不要寫下您的個人識別碼（PIN）並確保其機密性。)",
+    "example": "Never write down your PIN and keep it confidential. (切勿記下個人識別碼（PIN），並請妥善保密。)",
     "id": "TOEIC-ADV-pin-personal-identification-numb-m13cm6g0"
   },
   {
@@ -2005,14 +2012,14 @@
     "level": "TOEIC-ADV",
     "word": "plausible",
     "meaning": "合理的",
-    "example": "The explanation provided by the contractor seemed plausible, so we accepted it. (承包商提供的解釋看起來很合理，所以我們接受了它。)",
+    "example": "The explanation provided by the contractor seemed plausible, so we accepted it. (承包商提出的解釋聽起來合理，因此我們接受了。)",
     "id": "TOEIC-ADV-plausible-mcvhae"
   },
   {
     "level": "TOEIC-ADV",
     "word": "play a role in",
     "meaning": "參與／扮演角色",
-    "example": "The marketing department will play a role in promoting our new product launch. (行銷部門將在推廣我們的新產品發布中扮演角色。)",
+    "example": "The marketing department will play a role in promoting our new product launch. (行銷部門將參與推廣我們的新產品上市。)",
     "id": "TOEIC-ADV-play-a-role-in-m33ye5t"
   },
   {
@@ -2068,7 +2075,7 @@
     "level": "TOEIC-ADV",
     "word": "plug in",
     "meaning": "插入電源",
-    "example": "Please remember to plug in your laptop to charge it overnight. (請記得插入您的筆記型電腦電源以在過夜時充電。)",
+    "example": "Please remember to plug in your laptop to charge it overnight. (請記得把筆記型電腦插上電源，充電一整晚。)",
     "id": "TOEIC-ADV-plug-in-mcxwc20"
   },
   {
@@ -2131,7 +2138,7 @@
     "level": "TOEIC-ADV",
     "word": "polish",
     "meaning": "擦亮／改善",
-    "example": "We need to polish the presentation slides before the client meeting tomorrow. (在明天的客戶會議前，我們需要潤飾（擦亮）簡報投影片。)",
+    "example": "We need to polish the presentation slides before the client meeting tomorrow. (明天與客戶開會前，我們需要潤飾簡報投影片。)",
     "id": "TOEIC-ADV-polish-m1ebx8aa"
   },
   {
@@ -2180,7 +2187,7 @@
     "level": "TOEIC-ADV",
     "word": "pop up",
     "meaning": "彈出／突然出現",
-    "example": "The alert will pop up on your screen when you receive a new email. (當您收到新電子郵件時，通知會彈出在您的螢幕上。)",
+    "example": "The alert will pop up on your screen when you receive a new email. (收到新電子郵件時，通知會出現在螢幕上。)",
     "id": "TOEIC-ADV-pop-up-mx5ssty"
   },
   {
@@ -2229,7 +2236,7 @@
     "level": "TOEIC-ADV",
     "word": "portrait",
     "meaning": "肖像畫",
-    "example": "A portrait of the founder hangs prominently in the main lobby. (創辦人的肖像畫顯著地掛在主大廳中。)",
+    "example": "A portrait of the founder hangs prominently in the main lobby. (創辦人的肖像畫掛在大廳的顯眼位置。)",
     "id": "TOEIC-ADV-portrait-mj8f4i"
   },
   {
@@ -2257,15 +2264,15 @@
     "level": "TOEIC-ADV",
     "word": "postal",
     "meaning": "郵政的",
-    "example": "Please verify the postal code for your shipping address to ensure timely delivery. (請驗證您寄送地址的郵遞區號以確保準時送達。)",
+    "example": "Please verify the postal code for your shipping address to ensure timely delivery. (請確認郵寄地址的郵遞區號正確，以確保準時送達。)",
     "id": "TOEIC-ADV-postal-mlq862"
   },
   {
     "level": "TOEIC-ADV",
     "word": "postpone until",
-    "meaning": "延遲至...",
-    "example": "The meeting has been postponed until next Wednesday due to the director's absence. (因總監缺席，會議已延遲至下週三。)",
-    "id": "TOEIC-ADV-postpone-until-mg29yon"
+    "meaning": "延至…",
+    "example": "The meeting has been postponed until next Wednesday due to the director's absence. (因總監缺席，會議延至下週三。)",
+    "id": "TOEIC-ADV-postpone-until-mej095"
   },
   {
     "level": "TOEIC-ADV",
@@ -2278,14 +2285,14 @@
     "level": "TOEIC-ADV",
     "word": "potential customer",
     "meaning": "潛在客戶",
-    "example": "We are attending the trade fair to connect with potential customers and partners. (我們正參加貿易展以與潛在客戶與合作夥伴連結。)",
+    "example": "We are attending the trade fair to connect with potential customers and partners. (我們參加貿易展，與潛在客戶及合作夥伴建立聯繫。)",
     "id": "TOEIC-ADV-potential-customer-meeu475"
   },
   {
     "level": "TOEIC-ADV",
     "word": "potentially",
     "meaning": "潛在地",
-    "example": "The new regulations could potentially affect our operations in the coming year. (新法規可能在來年潛在地影響我們的營運。)",
+    "example": "The new regulations could potentially affect our operations in the coming year. (新法規可能在明年影響我們的營運。)",
     "id": "TOEIC-ADV-potentially-mgqh7n"
   },
   {
@@ -2299,14 +2306,14 @@
     "level": "TOEIC-ADV",
     "word": "potted",
     "meaning": "盆栽的",
-    "example": "The office lobby is decorated with several beautiful potted plants. (辦公室大廳裝飾著幾盆漂亮的盆栽植物。)",
+    "example": "The office lobby is decorated with several beautiful potted plants. (辦公室大廳擺著幾盆漂亮的盆栽。)",
     "id": "TOEIC-ADV-potted-mhwo4t"
   },
   {
     "level": "TOEIC-ADV",
     "word": "pottery",
     "meaning": "陶器",
-    "example": "The local artist specializes in handcrafted pottery that is sold in the city gallery. (當地藝術家專精於在城市畫廊販售的手工陶器。)",
+    "example": "The local artist specializes in handcrafted pottery that is sold in the city gallery. (當地藝術家專門製作手工陶器，並在市區藝廊販售。)",
     "id": "TOEIC-ADV-pottery-mq2eq"
   },
   {
@@ -2376,7 +2383,7 @@
     "level": "TOEIC-ADV",
     "word": "precious",
     "meaning": "寶貴的",
-    "example": "Time is a precious resource that should be managed efficiently. (時間是一種應被有效管理的寶貴資源。)",
+    "example": "Time is a precious resource that should be managed efficiently. (時間是寶貴的資源，應妥善運用。)",
     "id": "TOEIC-ADV-precious-me5hom"
   },
   {
@@ -2390,14 +2397,14 @@
     "level": "TOEIC-ADV",
     "word": "precipitation",
     "meaning": "降水",
-    "example": "The weather forecast predicts heavy precipitation for the entire weekend. (氣象預報預測整個週末會有強降水。)",
+    "example": "The weather forecast predicts heavy precipitation for the entire weekend. (氣象預報指出，整個週末都會有強降雨。)",
     "id": "TOEIC-ADV-precipitation-mq5qf"
   },
   {
     "level": "TOEIC-ADV",
     "word": "preclude",
     "meaning": "排除／阻止",
-    "example": "Strict company policy precludes employees from accepting gifts from clients. (嚴格的公司政策禁止（排除）員工接受客戶的禮物。)",
+    "example": "Strict company policy precludes employees from accepting gifts from clients. (公司政策嚴禁員工收受客戶禮物。)",
     "id": "TOEIC-ADV-preclude-m1i6to5g"
   },
   {
@@ -2425,7 +2432,7 @@
     "level": "TOEIC-ADV",
     "word": "predominantly",
     "meaning": "主要地",
-    "example": "Our target audience is predominantly based in the urban metropolitan area. (我們的目標受眾主要位於城市都會區。)",
+    "example": "Our target audience is predominantly based in the urban metropolitan area. (我們的目標受眾主要來自都會區。)",
     "id": "TOEIC-ADV-predominantly-mc4dhm"
   },
   {
@@ -2446,7 +2453,7 @@
     "level": "TOEIC-ADV",
     "word": "preferred",
     "meaning": "首選的",
-    "example": "Please let us know your preferred method of payment for the invoice. (請告知我們您發票的首選付款方式。)",
+    "example": "Please let us know your preferred method of payment for the invoice. (請告知您偏好的發票付款方式。)",
     "id": "TOEIC-ADV-preferred-mn72ua"
   },
   {
@@ -2516,28 +2523,28 @@
     "level": "TOEIC-ADV",
     "word": "presently",
     "meaning": "目前／不久地",
-    "example": "The office is presently undergoing renovations, so please excuse the noise. (辦公室目前正在翻新，請見諒噪音。)",
+    "example": "The office is presently undergoing renovations, so please excuse the noise. (辦公室目前正在整修，施工噪音還請見諒。)",
     "id": "TOEIC-ADV-presently-m1ua12fc"
   },
   {
     "level": "TOEIC-ADV",
     "word": "preservation area",
     "meaning": "保護區",
-    "example": "The park is a designated preservation area to protect the local wildlife. (該公園是一個指定的保護區，以保護當地野生動物。)",
+    "example": "The park is a designated preservation area to protect the local wildlife. (該公園是指定的保護區，用來維護當地野生動物棲地。)",
     "id": "TOEIC-ADV-preservation-area-mcdao6"
   },
   {
     "level": "TOEIC-ADV",
     "word": "preside",
     "meaning": "主持",
-    "example": "The CEO will preside over the annual general meeting of shareholders. (執行長將主持年度股東大會。)",
+    "example": "The CEO will preside over the annual general meeting of shareholders. (執行長將主持年度股東會。)",
     "id": "TOEIC-ADV-preside-mduli"
   },
   {
     "level": "TOEIC-ADV",
     "word": "presiding",
     "meaning": "主持的",
-    "example": "The presiding officer maintained order during the heated debate. (主持官員在激烈的辯論中維持了秩序。)",
+    "example": "The presiding officer maintained order during the heated debate. (主持人員在激烈辯論中維持秩序。)",
     "id": "TOEIC-ADV-presiding-mbxzxa"
   },
   {
@@ -2565,14 +2572,14 @@
     "level": "TOEIC-ADV",
     "word": "presumably",
     "meaning": "推測地",
-    "example": "He is presumably still at the office, as he has not yet left for the day. (他推測仍還在辦公室，因為他今天尚未離開。)",
+    "example": "He is presumably still at the office, as he has not yet left for the day. (他今天還沒離開，想必還在辦公室。)",
     "id": "TOEIC-ADV-presumably-mf4pbg"
   },
   {
     "level": "TOEIC-ADV",
     "word": "pretax",
     "meaning": "稅前的",
-    "example": "The company reported a record-breaking pretax profit for the fiscal year. (公司報告該財政年度獲得破紀錄的稅前利潤。)",
+    "example": "The company reported a record-breaking pretax profit for the fiscal year. (公司報告該會計年度創下稅前獲利新高。)",
     "id": "TOEIC-ADV-pretax-mia1zw"
   },
   {
@@ -2586,7 +2593,7 @@
     "level": "TOEIC-ADV",
     "word": "preview",
     "meaning": "預覽",
-    "example": "I would like a preview of the website design before it goes live. (我希望在網站上線前進行設計預覽。)",
+    "example": "I would like a preview of the website design before it goes live. (網站上線前，我想先預覽設計。)",
     "id": "TOEIC-ADV-preview-mqmct"
   },
   {
@@ -2600,21 +2607,21 @@
     "level": "TOEIC-ADV",
     "word": "price quote",
     "meaning": "報價",
-    "example": "Please provide a formal price quote for the requested printing services. (請為請求的印刷服務提供正式報價。)",
+    "example": "Please provide a formal price quote for the requested printing services. (請提供所申請印刷服務的正式報價。)",
     "id": "TOEIC-ADV-price-quote-mfg14"
   },
   {
     "level": "TOEIC-ADV",
     "word": "priced",
     "meaning": "定價的",
-    "example": "The new product is competitively priced to attract a wider range of customers. (新產品具有競爭力的定價，以吸引更廣泛的客戶。)",
+    "example": "The new product is competitively priced to attract a wider range of customers. (新產品價格具競爭力，能吸引更多客戶。)",
     "id": "TOEIC-ADV-priced-mdtfph"
   },
   {
     "level": "TOEIC-ADV",
     "word": "principal(=primary)",
     "meaning": "主要的",
-    "example": "Our principal objective this year is to expand our market share in the region. (我們今年的主要目標是在該地區擴張我們的市場佔有率。)",
+    "example": "Our principal objective this year is to expand our market share in the region. (我們今年的主要目標是在該地區擴大市占率。)",
     "id": "TOEIC-ADV-principal-primary-mc4joe"
   },
   {
@@ -2684,7 +2691,7 @@
     "level": "TOEIC-ADV",
     "word": "procrastinate",
     "meaning": "拖延",
-    "example": "Do not procrastinate when it comes to submitting your monthly expense reports. (提交每月費用報銷單時，請不要拖延。)",
+    "example": "Do not procrastinate when it comes to submitting your monthly expense reports. (請不要拖到最後一刻才提交每月費用申請單。)",
     "id": "TOEIC-ADV-procrastinate-mhbz4"
   },
   {
@@ -2711,9 +2718,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "product logo",
-    "meaning": "產品商標",
-    "example": "Please ensure the product logo is visible on all marketing materials. (請確保產品商標在所有行銷材料上都是清晰可見的。)",
-    "id": "TOEIC-ADV-product-logo-mf4osdu"
+    "meaning": "產品標誌",
+    "example": "Please ensure the product logo is visible on all marketing materials. (請確保產品標誌在所有行銷素材上都清晰可見。)",
+    "id": "TOEIC-ADV-product-logo-mf4sib6"
   },
   {
     "level": "TOEIC-ADV",
@@ -2726,7 +2733,7 @@
     "level": "TOEIC-ADV",
     "word": "productively",
     "meaning": "生產性地",
-    "example": "The team worked productively to finalize the report before the deadline. (團隊有效率地（生產性地）工作，在截止日期前完成了報告。)",
+    "example": "The team worked productively to finalize the report before the deadline. (團隊有效率地完成工作，在期限前交出報告。)",
     "id": "TOEIC-ADV-productively-mf9fcp8"
   },
   {
@@ -2754,7 +2761,7 @@
     "level": "TOEIC-ADV",
     "word": "profitable",
     "meaning": "有盈利的",
-    "example": "The new retail strategy has proven to be highly profitable for the company. (新的零售策略已被證實對公司非常有盈利。)",
+    "example": "The new retail strategy has proven to be highly profitable for the company. (新的零售策略證明能為公司帶來可觀獲利。)",
     "id": "TOEIC-ADV-profitable-mdhnbfe"
   },
   {
@@ -2775,14 +2782,14 @@
     "level": "TOEIC-ADV",
     "word": "progressive",
     "meaning": "進步的",
-    "example": "The company has a progressive policy regarding work-from-home arrangements. (公司對於居家辦公安排有著進步的政策。)",
+    "example": "The company has a progressive policy regarding work-from-home arrangements. (公司在居家辦公安排方面採取了相當開放的政策。)",
     "id": "TOEIC-ADV-progressive-mln981"
   },
   {
     "level": "TOEIC-ADV",
     "word": "progressively",
     "meaning": "漸進地",
-    "example": "The system performance will be upgraded progressively over the next six months. (系統效能將在未來六個月內漸進地升級。)",
+    "example": "The system performance will be upgraded progressively over the next six months. (系統效能將在未來六個月內逐步提升。)",
     "id": "TOEIC-ADV-progressively-mgzgja"
   },
   {
@@ -2817,14 +2824,14 @@
     "level": "TOEIC-ADV",
     "word": "prominent",
     "meaning": "顯著的／傑出的",
-    "example": "The building features a prominent entrance that is easy to find. (該建築有一個容易找到的顯著入口。)",
+    "example": "The building features a prominent entrance that is easy to find. (這棟建築有個顯眼的入口，很容易找到。)",
     "id": "TOEIC-ADV-prominent-mvqzv54"
   },
   {
     "level": "TOEIC-ADV",
     "word": "prominently",
     "meaning": "顯著地",
-    "example": "The company’s mission statement is displayed prominently in the main lobby. (公司的任務聲明顯著地展示在主大廳中。)",
+    "example": "The company’s mission statement is displayed prominently in the main lobby. (公司的使命宣言醒目地展示在大廳裡。)",
     "id": "TOEIC-ADV-prominently-mmyrmw"
   },
   {
@@ -2858,9 +2865,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "promptness",
-    "meaning": "敏捷／準時",
-    "example": "The manager appreciated the assistant’s promptness in preparing the meeting agenda. (經理讚賞助手在準備會議議程時的敏捷。)",
-    "id": "TOEIC-ADV-promptness-m1ik2wfn"
+    "meaning": "迅速／準時",
+    "example": "The manager appreciated the assistant’s promptness in preparing the meeting agenda. (經理稱讚助理迅速準備好會議議程。)",
+    "id": "TOEIC-ADV-promptness-md49yf5"
   },
   {
     "level": "TOEIC-ADV",
@@ -2873,14 +2880,14 @@
     "level": "TOEIC-ADV",
     "word": "proofread",
     "meaning": "校對",
-    "example": "Please proofread the final document for any grammatical errors before printing. (在列印前，請校對最終文件的任何文法錯誤。)",
+    "example": "Please proofread the final document for any grammatical errors before printing. (列印前，請校對最終文件，檢查是否有文法錯誤。)",
     "id": "TOEIC-ADV-proofread-mi7t8"
   },
   {
     "level": "TOEIC-ADV",
     "word": "prop against",
     "meaning": "靠在...上",
-    "example": "Please do not prop the door against the wall with heavy objects. (請勿用重物將門靠在牆上。)",
+    "example": "Please do not prop the door against the wall with heavy objects. (請勿用重物把門撐開，讓它靠在牆上。)",
     "id": "TOEIC-ADV-prop-against-m7qc36s"
   },
   {
@@ -2908,7 +2915,7 @@
     "level": "TOEIC-ADV",
     "word": "proponent",
     "meaning": "支持者",
-    "example": "She is a strong proponent of using renewable energy in all our buildings. (她是我們所有建築中使用再生能源的強烈支持者。)",
+    "example": "She is a strong proponent of using renewable energy in all our buildings. (她強烈支持所有建築使用再生能源。)",
     "id": "TOEIC-ADV-proponent-mfb2xf"
   },
   {
@@ -2929,7 +2936,7 @@
     "level": "TOEIC-ADV",
     "word": "proposed",
     "meaning": "提議的／建議的",
-    "example": "The proposed budget for the project has been sent to the board for review. (該專案的提議預算已發送給董事會審查。)",
+    "example": "The proposed budget for the project has been sent to the board for review. (專案的預算提案已送交董事會審查。)",
     "id": "TOEIC-ADV-proposed-m1unhmgz"
   },
   {
@@ -2957,7 +2964,7 @@
     "level": "TOEIC-ADV",
     "word": "prosperity",
     "meaning": "繁榮",
-    "example": "Economic prosperity has led to an increase in demand for our services. (經濟繁榮導致了對我們服務需求的增加。)",
+    "example": "Economic prosperity has led to an increase in demand for our services. (經濟繁榮帶動了我們服務的需求增加。)",
     "id": "TOEIC-ADV-prosperity-mm1zh"
   },
   {
@@ -2971,7 +2978,7 @@
     "level": "TOEIC-ADV",
     "word": "protocol",
     "meaning": "協定／禮節",
-    "example": "Please follow the standard safety protocol when dealing with hazardous materials. (處理危險物質時，請遵循標準安全協定。)",
+    "example": "Please follow the standard safety protocol when dealing with hazardous materials. (處理危險物質時，請遵守標準安全規範。)",
     "id": "TOEIC-ADV-protocol-m1iammqj"
   },
   {
@@ -2983,9 +2990,9 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "provided(that)",
+    "word": "provided (that)",
     "meaning": "倘若／只要",
-    "example": "We will proceed with the plan, provided that we secure the necessary funding. (倘若我們能取得必要的資金，我們將繼續進行該計畫。)",
+    "example": "We will proceed with the plan, provided that we secure the necessary funding. (只要取得所需資金，我們就會繼續執行這項計畫。)",
     "id": "TOEIC-ADV-provided-that-m1alljy1"
   },
   {
@@ -2998,22 +3005,22 @@
   {
     "level": "TOEIC-ADV",
     "word": "province",
-    "meaning": "省分",
-    "example": "The company has expanded its operations to every province in the country. (公司已將其營運擴張至全國的每一個省分。)",
-    "id": "TOEIC-ADV-province-mkox1"
+    "meaning": "省",
+    "example": "The company has expanded its operations to every province in the country. (公司已將業務拓展至全國各省。)",
+    "id": "TOEIC-ADV-province-mni9"
   },
   {
     "level": "TOEIC-ADV",
     "word": "provincial",
     "meaning": "省級的",
-    "example": "The provincial government has announced new tax incentives for small businesses. (省政府已宣布針對小型企業的新稅收優惠。)",
+    "example": "The provincial government has announced new tax incentives for small businesses. (省政府宣布將為小型企業提供新的租稅優惠。)",
     "id": "TOEIC-ADV-provincial-mi1fmz"
   },
   {
     "level": "TOEIC-ADV",
     "word": "provision",
     "meaning": "規定／條款／供應",
-    "example": "The lease contract includes a provision for early termination by either party. (租賃合約包含了一項由任何一方提前終止的條款。)",
+    "example": "The lease contract includes a provision for early termination by either party. (租賃合約包含一項條款，允許任一方提前終止合約。)",
     "id": "TOEIC-ADV-provision-ms5bpx4"
   },
   {
@@ -3034,7 +3041,7 @@
     "level": "TOEIC-ADV",
     "word": "public display",
     "meaning": "公開展示",
-    "example": "The artwork was placed on public display in the city park. (該藝術品被放置在城市公園中進行公開展示。)",
+    "example": "The artwork was placed on public display in the city park. (這件藝術品放在市區公園公開展出。)",
     "id": "TOEIC-ADV-public-display-maw2b8k"
   },
   {
@@ -3062,15 +3069,15 @@
     "level": "TOEIC-ADV",
     "word": "public park",
     "meaning": "公園",
-    "example": "Our company organizes a volunteer cleaning day at the local public park. (我們公司在當地公園組織了一場志願清理日。)",
+    "example": "Our company organizes a volunteer cleaning day at the local public park. (我們公司在當地公園舉辦了一場志工清潔活動。)",
     "id": "TOEIC-ADV-public-park-mebs6"
   },
   {
     "level": "TOEIC-ADV",
     "word": "public profile",
-    "meaning": "大眾形象／個人檔案",
-    "example": "He maintains a professional public profile on various career networking sites. (他在多個職業社交網站上保持著專業的大眾形象。)",
-    "id": "TOEIC-ADV-public-profile-m18rp36k"
+    "meaning": "公眾形象／公開個人檔案",
+    "example": "He maintains a professional public profile on various career networking sites. (他在多個職業社群網站上維持專業形象。)",
+    "id": "TOEIC-ADV-public-profile-m1qyr3nk"
   },
   {
     "level": "TOEIC-ADV",
@@ -3104,7 +3111,7 @@
     "level": "TOEIC-ADV",
     "word": "publicity",
     "meaning": "宣傳／知名度",
-    "example": "The new marketing campaign has generated a lot of publicity for the brand. (新的行銷活動為品牌帶來了大量的宣傳。)",
+    "example": "The new marketing campaign has generated a lot of publicity for the brand. (新的行銷活動大幅提升了品牌知名度。)",
     "id": "TOEIC-ADV-publicity-mjg4927"
   },
   {
@@ -3125,7 +3132,7 @@
     "level": "TOEIC-ADV",
     "word": "pull up",
     "meaning": "停下／拉起",
-    "example": "The driver will pull up in front of the lobby to pick up the guests. (駕駛將會在大廳前停車以搭載賓客。)",
+    "example": "The driver will pull up in front of the lobby to pick up the guests. (駕駛會把車停在大廳前接送賓客。)",
     "id": "TOEIC-ADV-pull-up-m14z2vm6"
   },
   {
@@ -3160,7 +3167,7 @@
     "level": "TOEIC-ADV",
     "word": "purchase order",
     "meaning": "採購單",
-    "example": "Please issue a purchase order for the materials before placing the shipment request. (在發送發貨請求前，請先開立採購單以購買材料。)",
+    "example": "Please issue a purchase order for the materials before placing the shipment request. (寄出出貨申請前，請先開立材料採購單。)",
     "id": "TOEIC-ADV-purchase-order-mf9sib"
   },
   {
@@ -3195,7 +3202,7 @@
     "level": "TOEIC-ADV",
     "word": "put a rush",
     "meaning": "加急",
-    "example": "Could you put a rush on this order for our most important client? (能否請您為我們最重要的客戶加急這筆訂單？)",
+    "example": "Could you put a rush on this order for our most important client? (能否請您優先處理這筆重要客戶的訂單？)",
     "id": "TOEIC-ADV-put-a-rush-mekxx"
   },
   {
@@ -3279,35 +3286,35 @@
     "level": "TOEIC-ADV",
     "word": "put off",
     "meaning": "拖延",
-    "example": "Never put off until tomorrow what you can do today. (今日事今日畢（不要拖延到明天）。)",
+    "example": "Never put off until tomorrow what you can do today. (今天的事今天做，別拖到明天。)",
     "id": "TOEIC-ADV-put-off-mhbz4"
   },
   {
     "level": "TOEIC-ADV",
     "word": "put on",
     "meaning": "穿上／上演",
-    "example": "Please put on your name tag before you enter the conference area. (進入會議區前，請穿戴（配戴）您的名牌。)",
+    "example": "Please put on your name tag before you enter the conference area. (進入會議區前，請戴上名牌。)",
     "id": "TOEIC-ADV-put-on-m1rnv49a"
   },
   {
     "level": "TOEIC-ADV",
     "word": "put out for display",
     "meaning": "公開展出",
-    "example": "The historical artifacts were put out for display in the city museum. (歷史文物被公開展出在市博物館中。)",
+    "example": "The historical artifacts were put out for display in the city museum. (這些歷史文物在市立博物館公開展出。)",
     "id": "TOEIC-ADV-put-out-for-display-maw23hg"
   },
   {
     "level": "TOEIC-ADV",
     "word": "put up with",
     "meaning": "忍受",
-    "example": "We have to put up with some noise during the office renovations. (辦公室翻新期間，我們必須忍受一些噪音。)",
+    "example": "We have to put up with some noise during the office renovations. (辦公室整修期間，我們必須忍受一些噪音。)",
     "id": "TOEIC-ADV-put-up-with-mgr6y"
   },
   {
     "level": "TOEIC-ADV",
     "word": "qualified",
     "meaning": "合格的",
-    "example": "She is highly qualified for the position, with ten years of relevant experience. (她非常具備該職位的資格，且有十年的相關經驗。)",
+    "example": "She is highly qualified for the position, with ten years of relevant experience. (她完全符合這個職位的資格要求，並有十年相關經驗。)",
     "id": "TOEIC-ADV-qualified-mcth3k"
   },
   {
@@ -3349,7 +3356,7 @@
     "level": "TOEIC-ADV",
     "word": "questionably",
     "meaning": "可疑地",
-    "example": "The company’s recent financial results are questionably positive, given the market trends. (鑑於市場趨勢，公司近期的財務結果呈現可疑的正面。)",
+    "example": "The company’s recent financial results are questionably positive, given the market trends. (考量市場趨勢，公司近期的財務結果竟然呈現正成長，令人質疑。)",
     "id": "TOEIC-ADV-questionably-mcv20e"
   },
   {
@@ -3363,7 +3370,7 @@
     "level": "TOEIC-ADV",
     "word": "quietly",
     "meaning": "安靜地",
-    "example": "The office library is a place to work quietly. (辦公室圖書館是一個安靜工作的地方。)",
+    "example": "The office library is a place to work quietly. (辦公室圖書館是個可以安靜工作的地方。)",
     "id": "TOEIC-ADV-quietly-me4vx9"
   },
   {
@@ -3454,7 +3461,7 @@
     "level": "TOEIC-ADV",
     "word": "ramp",
     "meaning": "斜坡",
-    "example": "The warehouse is equipped with a ramp to facilitate easier loading and unloading. (倉庫配備了一個斜坡，以利更輕鬆的裝卸貨物。)",
+    "example": "The warehouse is equipped with a ramp to facilitate easier loading and unloading. (倉庫設有斜坡，方便裝卸貨物。)",
     "id": "TOEIC-ADV-ramp-mhrgl"
   },
   {
@@ -3537,9 +3544,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "reach unanimous agreement",
-    "meaning": "達成一致共識",
-    "example": "The committee reached unanimous agreement on the new project direction. (委員會對新的專案方向達成了一致共識。)",
-    "id": "TOEIC-ADV-reach-unanimous-agreement-m1myb96f"
+    "meaning": "達成一致",
+    "example": "The committee reached unanimous agreement on the new project direction. (委員會對新的專案方向達成共識。)",
+    "id": "TOEIC-ADV-reach-unanimous-agreement-mim39kg"
   },
   {
     "level": "TOEIC-ADV",
@@ -3559,7 +3566,7 @@
     "level": "TOEIC-ADV",
     "word": "readily",
     "meaning": "容易地／樂意地",
-    "example": "The software is readily available for download on our company portal. (該軟體可在我們的公司入口網站上容易地下載。)",
+    "example": "The software is readily available for download on our company portal. (該軟體可從公司入口網站輕鬆下載。)",
     "id": "TOEIC-ADV-readily-m1060cne"
   },
   {
@@ -3601,7 +3608,7 @@
     "level": "TOEIC-ADV",
     "word": "rear",
     "meaning": "後部",
-    "example": "Please load the supplies through the rear entrance of the building. (請經由建築的後部入口卸下補給品。)",
+    "example": "Please load the supplies through the rear entrance of the building. (請從建築物後方的入口卸下補給品。)",
     "id": "TOEIC-ADV-rear-mh1p8"
   },
   {
@@ -3636,7 +3643,7 @@
     "level": "TOEIC-ADV",
     "word": "reassure",
     "meaning": "使安心",
-    "example": "The director met with the staff to reassure them about the company's future. (總監與員工會面以使他們對公司的未來感到安心。)",
+    "example": "The director met with the staff to reassure them about the company's future. (總監與員工會面，讓他們對公司的未來安心。)",
     "id": "TOEIC-ADV-reassure-mc39y1"
   },
   {
@@ -3657,7 +3664,7 @@
     "level": "TOEIC-ADV",
     "word": "receptive",
     "meaning": "樂於接受的",
-    "example": "The client was receptive to our new proposal and asked for more details. (客戶對我們的提議樂於接受，並請求更多細節。)",
+    "example": "The client was receptive to our new proposal and asked for more details. (客戶樂於接受我們的提案，並要求提供更多細節。)",
     "id": "TOEIC-ADV-receptive-m1juda0"
   },
   {
@@ -3678,7 +3685,7 @@
     "level": "TOEIC-ADV",
     "word": "recipe",
     "meaning": "食譜",
-    "example": "The company cafeteria uses a secret recipe for its popular soup. (公司食堂為其熱門的湯品使用了一份祕密食譜。)",
+    "example": "The company cafeteria uses a secret recipe for its popular soup. (公司員工餐廳用一份祕密食譜製作熱賣的湯品。)",
     "id": "TOEIC-ADV-recipe-mqrml"
   },
   {
@@ -3692,7 +3699,7 @@
     "level": "TOEIC-ADV",
     "word": "recline",
     "meaning": "斜倚",
-    "example": "The office chairs are designed to recline for better comfort. (辦公椅設計為可斜倚以獲得更好的舒適度。)",
+    "example": "The office chairs are designed to recline for better comfort. (這張辦公椅可以向後傾斜，坐起來更舒適。)",
     "id": "TOEIC-ADV-recline-mhq0u"
   },
   {
@@ -3706,7 +3713,7 @@
     "level": "TOEIC-ADV",
     "word": "recollection",
     "meaning": "回憶",
-    "example": "I have no recollection of meeting him at the conference last year. (我對去年在研討會上見過他毫無回憶。)",
+    "example": "I have no recollection of meeting him at the conference last year. (我完全不記得去年在研討會上見過他。)",
     "id": "TOEIC-ADV-recollection-mfb88"
   },
   {
@@ -3741,7 +3748,7 @@
     "level": "TOEIC-ADV",
     "word": "reconfiguration",
     "meaning": "重新配置",
-    "example": "The reconfiguration of the office floor plan has improved team communication. (辦公室平面圖的重新配置改善了團隊溝通。)",
+    "example": "The reconfiguration of the office floor plan has improved team communication. (重新配置辦公室格局後，團隊溝通有所改善。)",
     "id": "TOEIC-ADV-reconfiguration-mitmjd0"
   },
   {
@@ -3755,7 +3762,7 @@
     "level": "TOEIC-ADV",
     "word": "recreational activity",
     "meaning": "娛樂活動",
-    "example": "We offer a variety of recreational activities for employees during company retreats. (我們在公司進修活動期間提供各種娛樂活動供員工參與。)",
+    "example": "We offer a variety of recreational activities for employees during company retreats. (公司舉辦員工訓練活動時，也安排了多種休閒活動供員工參加。)",
     "id": "TOEIC-ADV-recreational-activity-mbt6utd"
   },
   {
@@ -3776,7 +3783,7 @@
     "level": "TOEIC-ADV",
     "word": "recyclable",
     "meaning": "可回收的",
-    "example": "Please ensure all waste materials are disposed of in the appropriate recyclable bins. (請確保所有的廢棄物皆依照適當的可回收分類桶進行棄置。)",
+    "example": "Please ensure all waste materials are disposed of in the appropriate recyclable bins. (請將所有廢棄物分類，並丟入相應的回收桶。)",
     "id": "TOEIC-ADV-recyclable-maybw2l"
   },
   {
@@ -3790,7 +3797,7 @@
     "level": "TOEIC-ADV",
     "word": "redeem",
     "meaning": "兌換",
-    "example": "You can redeem your loyalty points for discounts on future purchases. (您可以將您的會員積點兌換成未來購買的折扣。)",
+    "example": "You can redeem your loyalty points for discounts on future purchases. (您可以用會員點數折抵未來購物的費用。)",
     "id": "TOEIC-ADV-redeem-medjj"
   },
   {
@@ -3804,7 +3811,7 @@
     "level": "TOEIC-ADV",
     "word": "redemption",
     "meaning": "兌換／贖回",
-    "example": "Please visit the service center for the redemption of your rewards. (請前往服務中心進行您的獎勵兌換。)",
+    "example": "Please visit the service center for the redemption of your rewards. (請前往服務中心兌換獎勵。)",
     "id": "TOEIC-ADV-redemption-m1be9x0o"
   },
   {
@@ -3818,14 +3825,14 @@
     "level": "TOEIC-ADV",
     "word": "redo",
     "meaning": "重做",
-    "example": "The client requested that we redo the cover slide for the presentation. (客戶請求我們重做簡報的封面投影片。)",
+    "example": "The client requested that we redo the cover slide for the presentation. (客戶要求我們重做簡報封面。)",
     "id": "TOEIC-ADV-redo-mp8od"
   },
   {
     "level": "TOEIC-ADV",
     "word": "reduced",
     "meaning": "減少的",
-    "example": "We are offering a reduced price for early registrations. (我們為提早報名提供折扣價格（減少的價格）。)",
+    "example": "We are offering a reduced price for early registrations. (我們為提早報名者提供優惠價格。)",
     "id": "TOEIC-ADV-reduced-mgkw6m"
   },
   {
@@ -3846,7 +3853,7 @@
     "level": "TOEIC-ADV",
     "word": "reference letter",
     "meaning": "推薦信",
-    "example": "The candidate provided a strong reference letter from her professor. (候選人提供了一份來自她教授的強而有力的推薦信。)",
+    "example": "The candidate provided a strong reference letter from her professor. (候選人提供了一封教授撰寫的有力推薦信。)",
     "id": "TOEIC-ADV-reference-letter-mf8nmr"
   },
   {
@@ -3860,7 +3867,7 @@
     "level": "TOEIC-ADV",
     "word": "refill",
     "meaning": "重新填滿",
-    "example": "Please refill the coffee machine when you notice it is running low. (發現咖啡機快沒了時，請將其重新填滿。)",
+    "example": "Please refill the coffee machine when you notice it is running low. (發現咖啡機快沒咖啡時，請重新補充。)",
     "id": "TOEIC-ADV-refill-mitcrsn"
   },
   {
@@ -3888,7 +3895,7 @@
     "level": "TOEIC-ADV",
     "word": "refrain",
     "meaning": "克制",
-    "example": "Please refrain from using mobile phones during the meeting. (會議期間請克制使用手機。)",
+    "example": "Please refrain from using mobile phones during the meeting. (會議期間請避免使用手機。)",
     "id": "TOEIC-ADV-refrain-mea17"
   },
   {
@@ -3902,14 +3909,14 @@
     "level": "TOEIC-ADV",
     "word": "refrigerator",
     "meaning": "冰箱",
-    "example": "Please label your food items before storing them in the shared refrigerator. (在存放食物進入共享冰箱前，請為您的食品貼上標籤。)",
+    "example": "Please label your food items before storing them in the shared refrigerator. (食物放進共用冰箱前，請先貼上姓名標籤。)",
     "id": "TOEIC-ADV-refrigerator-mekn5"
   },
   {
     "level": "TOEIC-ADV",
     "word": "refundable",
     "meaning": "可退款的",
-    "example": "The deposit is fully refundable if the cancellation is made two weeks in advance. (如果取消於兩週前完成，該押金可全額退還。)",
+    "example": "The deposit is fully refundable if the cancellation is made two weeks in advance. (如果提前兩週取消，押金可全額退還。)",
     "id": "TOEIC-ADV-refundable-mb6q6d3"
   },
   {
@@ -3958,14 +3965,14 @@
     "level": "TOEIC-ADV",
     "word": "register for",
     "meaning": "登記註冊",
-    "example": "Employees are required to register for the mandatory fire safety training. (員工被要求登記註冊強制性的消防安全培訓。)",
+    "example": "Employees are required to register for the mandatory fire safety training. (員工必須報名參加消防安全訓練。)",
     "id": "TOEIC-ADV-register-for-mfiv7n0"
   },
   {
     "level": "TOEIC-ADV",
     "word": "registered mail",
     "meaning": "掛號信",
-    "example": "We sent the legal documents via registered mail to ensure they are tracked. (我們透過掛號信寄送法律文件以確保它們是被追蹤的。)",
+    "example": "We sent the legal documents via registered mail to ensure they are tracked. (我們以掛號寄送法律文件，方便追蹤。)",
     "id": "TOEIC-ADV-registered-mail-mf8if1"
   },
   {
@@ -4014,7 +4021,7 @@
     "level": "TOEIC-ADV",
     "word": "reinstate",
     "meaning": "恢復",
-    "example": "The company has decided to reinstate the old policy due to employee feedback. (公司已決定因員工回饋而恢復舊政策。)",
+    "example": "The company has decided to reinstate the old policy due to employee feedback. (公司根據員工回饋，決定恢復舊政策。)",
     "id": "TOEIC-ADV-reinstate-mgx3b"
   },
   {
@@ -4111,9 +4118,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "relocation",
-    "meaning": "遷徙／調職",
-    "example": "The company offers a relocation package for employees transferring to the overseas branch. (公司為調職至海外分部的員工提供搬遷補貼。)",
-    "id": "TOEIC-ADV-relocation-m9pyilh"
+    "meaning": "搬遷／調職",
+    "example": "The company offers a relocation package for employees transferring to the overseas branch. (公司為調派至海外分公司的員工提供搬遷補助。)",
+    "id": "TOEIC-ADV-relocation-m1jsji9o"
   },
   {
     "level": "TOEIC-ADV",
@@ -4126,7 +4133,7 @@
     "level": "TOEIC-ADV",
     "word": "reluctant",
     "meaning": "不情願的",
-    "example": "The director was reluctant to approve the budget increase without further justification. (總監對於在沒有進一步理由下批准增加預算感到不情願。)",
+    "example": "The director was reluctant to approve the budget increase without further justification. (總監不太願意在沒有更多理由的情況下核准增加預算。)",
     "id": "TOEIC-ADV-reluctant-ma9b6o4"
   },
   {
@@ -4161,14 +4168,14 @@
     "level": "TOEIC-ADV",
     "word": "remains",
     "meaning": "遺跡／剩餘物",
-    "example": "The remains of the old building were cleared to make room for the new office. (舊建築的遺跡被清除以騰出空間給新辦公室。)",
+    "example": "The remains of the old building were cleared to make room for the new office. (舊建築的遺跡已清除，騰出空間興建新辦公室。)",
     "id": "TOEIC-ADV-remains-m1lbkpbm"
   },
   {
     "level": "TOEIC-ADV",
     "word": "remarkably",
     "meaning": "顯著地／非凡地",
-    "example": "The team's performance this quarter was remarkably consistent. (團隊本季的績效顯著地穩定。)",
+    "example": "The team's performance this quarter was remarkably consistent. (團隊本季的績效穩定得令人驚訝。)",
     "id": "TOEIC-ADV-remarkably-m1flv5fq"
   },
   {
@@ -4231,7 +4238,7 @@
     "level": "TOEIC-ADV",
     "word": "renown",
     "meaning": "聲望／名聲",
-    "example": "The university has gained international renown for its research programs. (該大學因其研究計畫獲得了國際聲望。)",
+    "example": "The university has gained international renown for its research programs. (該大學因研究計畫而享有國際聲譽。)",
     "id": "TOEIC-ADV-renown-mj2091n"
   },
   {
@@ -4265,22 +4272,22 @@
   {
     "level": "TOEIC-ADV",
     "word": "repairperson",
-    "meaning": "修理人員",
-    "example": "We called a repairperson to fix the malfunctioning air conditioning system. (我們叫了一位修理人員來修復故障的空調系統。)",
-    "id": "TOEIC-ADV-repairperson-makb4u7"
+    "meaning": "維修人員",
+    "example": "We called a repairperson to fix the malfunctioning air conditioning system. (我們請維修人員來修理故障的空調。)",
+    "id": "TOEIC-ADV-repairperson-mg6qknc"
   },
   {
     "level": "TOEIC-ADV",
     "word": "repave",
     "meaning": "重新鋪設",
-    "example": "The city will repave the parking lot area next month. (城市下個月將重新鋪設停車場區域。)",
+    "example": "The city will repave the parking lot area next month. (市府下個月將重新鋪設停車場。)",
     "id": "TOEIC-ADV-repave-mitmvd2"
   },
   {
     "level": "TOEIC-ADV",
     "word": "repeatedly",
     "meaning": "反覆地",
-    "example": "He repeatedly requested more information regarding the project budget. (他反覆請求獲得更多關於專案預算的資訊。)",
+    "example": "He repeatedly requested more information regarding the project budget. (他一再要求提供更多專案預算資訊。)",
     "id": "TOEIC-ADV-repeatedly-mcxr07"
   },
   {
@@ -4343,7 +4350,7 @@
     "level": "TOEIC-ADV",
     "word": "reprimand",
     "meaning": "譴責／訓斥",
-    "example": "The manager had to reprimand the employee for violating safety rules. (經理因員工違反安全規則而必須訓斥他。)",
+    "example": "The manager had to reprimand the employee for violating safety rules. (員工違反安全規定，經理不得不訓斥他。)",
     "id": "TOEIC-ADV-reprimand-m1uua7ih"
   },
   {
@@ -4357,7 +4364,7 @@
     "level": "TOEIC-ADV",
     "word": "reputable",
     "meaning": "有聲望的",
-    "example": "We only work with reputable vendors who meet our quality standards. (我們只與符合我們品質標準的有聲望的供應商合作。)",
+    "example": "We only work with reputable vendors who meet our quality standards. (我們只和符合品質標準且信譽良好的供應商合作。)",
     "id": "TOEIC-ADV-reputable-mdj5u6q"
   },
   {
@@ -4406,7 +4413,7 @@
     "level": "TOEIC-ADV",
     "word": "resort",
     "meaning": "度假村／訴諸",
-    "example": "We stayed at a resort for the company's annual team building retreat. (我們住在一家度假村以進行公司年度團隊建設進修活動。)",
+    "example": "We stayed at a resort for the company's annual team building retreat. (我們入住度假村，舉辦公司年度團隊交流活動。)",
     "id": "TOEIC-ADV-resort-m93yutf"
   },
   {
@@ -4420,7 +4427,7 @@
     "level": "TOEIC-ADV",
     "word": "respectfully",
     "meaning": "恭敬地",
-    "example": "He respectfully disagreed with the manager's proposal during the meeting. (他在會議中恭敬地反對了經理的提案。)",
+    "example": "He respectfully disagreed with the manager's proposal during the meeting. (他在會議中禮貌地對經理的提案提出異議。)",
     "id": "TOEIC-ADV-respectfully-mem6i9"
   },
   {
@@ -4448,7 +4455,7 @@
     "level": "TOEIC-ADV",
     "word": "respire",
     "meaning": "呼吸",
-    "example": "Proper ventilation is necessary to allow employees to respire comfortably. (適當的通風對於讓員工舒適地呼吸是必要的。)",
+    "example": "Proper ventilation is necessary to allow employees to respire comfortably. (良好的通風能讓員工呼吸舒適。)",
     "id": "TOEIC-ADV-respire-metz0"
   },
   {
@@ -4539,7 +4546,7 @@
     "level": "TOEIC-ADV",
     "word": "result in",
     "meaning": "導致",
-    "example": "The software update might result in temporary downtime. (軟體更新可能會導致暫時的系統離線（停機）。)",
+    "example": "The software update might result in temporary downtime. (軟體更新可能導致系統暫時停機。)",
     "id": "TOEIC-ADV-result-in-mgdd2"
   },
   {
@@ -4573,9 +4580,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "retreat",
-    "meaning": "撤退／進修活動",
-    "example": "The leadership team held a retreat to plan the company's long-term goals. (領導團隊舉行了一場進修活動以規劃公司的長期目標。)",
-    "id": "TOEIC-ADV-retreat-m1ocivqh"
+    "meaning": "退避／團隊研習活動",
+    "example": "The leadership team held a retreat to plan the company's long-term goals. (領導團隊舉辦研習活動，規劃公司的長期目標。)",
+    "id": "TOEIC-ADV-retreat-mhksy3e"
   },
   {
     "level": "TOEIC-ADV",
@@ -4616,7 +4623,7 @@
     "level": "TOEIC-ADV",
     "word": "revert",
     "meaning": "回覆／恢復",
-    "example": "Please revert to me if you have any further questions. (若您有任何進一步的問題，請回覆我。)",
+    "example": "Please revert to me if you have any further questions. (如有其他問題，請再與我聯絡。)",
     "id": "TOEIC-ADV-revert-m2w27ou"
   },
   {
@@ -4665,14 +4672,14 @@
     "level": "TOEIC-ADV",
     "word": "ridiculous",
     "meaning": "荒謬的",
-    "example": "The proposal was so ridiculous that the board immediately rejected it. (這項提案太荒謬了，董事會隨即拒絕了它。)",
+    "example": "The proposal was so ridiculous that the board immediately rejected it. (這項提案太荒謬，董事會立即否決。)",
     "id": "TOEIC-ADV-ridiculous-mjwrsa"
   },
   {
     "level": "TOEIC-ADV",
     "word": "ridiculously",
     "meaning": "荒謬地",
-    "example": "The office is ridiculously cold; we need to adjust the thermostat. (辦公室冷得荒謬；我們需要調整恆溫器。)",
+    "example": "The office is ridiculously cold; we need to adjust the thermostat. (辦公室冷得離譜，我們得調高恆溫器。)",
     "id": "TOEIC-ADV-ridiculously-mjwlli"
   },
   {
@@ -4693,7 +4700,7 @@
     "level": "TOEIC-ADV",
     "word": "rightly",
     "meaning": "正確地",
-    "example": "The team was rightly praised for their hard work on the project. (團隊因其對專案的辛勤工作而受到正確的讚揚。)",
+    "example": "The team was rightly praised for their hard work on the project. (團隊因為在專案上的辛勤付出而獲得應有的肯定。)",
     "id": "TOEIC-ADV-rightly-mgb9eh"
   },
   {
@@ -4714,7 +4721,7 @@
     "level": "TOEIC-ADV",
     "word": "rinse",
     "meaning": "沖洗",
-    "example": "Please rinse the coffee mug before putting it back in the cupboard. (將咖啡杯放回櫃子前，請先沖洗它。)",
+    "example": "Please rinse the coffee mug before putting it back in the cupboard. (咖啡杯放回櫃子前，請先沖洗乾淨。)",
     "id": "TOEIC-ADV-rinse-mj2gx"
   },
   {
@@ -4770,7 +4777,7 @@
     "level": "TOEIC-ADV",
     "word": "roam around",
     "meaning": "閒逛",
-    "example": "Please do not roam around the factory floor without a guide. (沒有導覽時，請勿在工廠現場閒逛。)",
+    "example": "Please do not roam around the factory floor without a guide. (沒有導覽人員陪同時，請勿在工廠區域走動。)",
     "id": "TOEIC-ADV-roam-around-mq8cp"
   },
   {
@@ -4826,7 +4833,7 @@
     "level": "TOEIC-ADV",
     "word": "rough",
     "meaning": "粗糙的／粗略的",
-    "example": "We have a rough estimate of the total costs for the renovation. (我們對於翻新的總成本有一個粗略的預估。)",
+    "example": "We have a rough estimate of the total costs for the renovation. (我們粗估了整修的總成本。)",
     "id": "TOEIC-ADV-rough-m1h6cafd"
   },
   {
@@ -4861,7 +4868,7 @@
     "level": "TOEIC-ADV",
     "word": "rugged",
     "meaning": "崎嶇的／耐用的",
-    "example": "The equipment is designed to be rugged and perform well in tough environments. (該設備設計為耐用的，並能在艱難環境中表現良好。)",
+    "example": "The equipment is designed to be rugged and perform well in tough environments. (這款設備經久耐用，即使在嚴苛環境下也能正常運作。)",
     "id": "TOEIC-ADV-rugged-m838s14"
   },
   {
@@ -4875,15 +4882,15 @@
     "level": "TOEIC-ADV",
     "word": "ruler",
     "meaning": "尺",
-    "example": "Please use a ruler to ensure the document alignment is correct. (請使用尺以確保文件對齊是正確的。)",
+    "example": "Please use a ruler to ensure the document alignment is correct. (請用尺確認文件排列整齊。)",
     "id": "TOEIC-ADV-ruler-mi7u"
   },
   {
     "level": "TOEIC-ADV",
     "word": "run a campaign",
-    "meaning": "經營一場活動",
-    "example": "The marketing team is currently running a campaign to promote our new services. (行銷團隊目前正經營一場活動以推廣我們的新服務。)",
-    "id": "TOEIC-ADV-run-a-campaign-m1dep2hm"
+    "meaning": "發起／執行一項活動",
+    "example": "The marketing team is currently running a campaign to promote our new services. (行銷團隊目前正執行一項活動，推廣我們的新服務。)",
+    "id": "TOEIC-ADV-run-a-campaign-m1oys4fc"
   },
   {
     "level": "TOEIC-ADV",
@@ -4896,7 +4903,7 @@
     "level": "TOEIC-ADV",
     "word": "run an article",
     "meaning": "刊登一篇文章",
-    "example": "The industry journal will run an article about our latest technological advancement. (產業期刊將刊登一篇關於我們最新技術突破的文章。)",
+    "example": "The industry journal will run an article about our latest technological advancement. (產業期刊將刊登一篇介紹我們最新技術突破的文章。)",
     "id": "TOEIC-ADV-run-an-article-m1azuy5t"
   },
   {
@@ -4917,7 +4924,7 @@
     "level": "TOEIC-ADV",
     "word": "run late",
     "meaning": "延遲",
-    "example": "I am running late for the meeting due to heavy traffic. (由於交通擁塞，我參加會議會遲到。)",
+    "example": "I am running late for the meeting due to heavy traffic. (因為交通壅塞，我會開會遲到。)",
     "id": "TOEIC-ADV-run-late-mgy0s"
   },
   {
@@ -4994,14 +5001,14 @@
     "level": "TOEIC-ADV",
     "word": "sail a boat",
     "meaning": "駕駛帆船",
-    "example": "The team learned how to sail a boat during the team building activity. (團隊在團隊建設活動中學會了如何駕駛帆船。)",
+    "example": "The team learned how to sail a boat during the team building activity. (團隊在團隊活動中學會如何駕駛帆船。)",
     "id": "TOEIC-ADV-sail-a-boat-mk1hpuh"
   },
   {
     "level": "TOEIC-ADV",
     "word": "salary and benefits",
     "meaning": "薪資與福利",
-    "example": "The offer package includes a competitive salary and benefits. (該提議方案包含了具競爭力的薪資與福利。)",
+    "example": "The offer package includes a competitive salary and benefits. (這份提案包含具競爭力的薪資與福利。)",
     "id": "TOEIC-ADV-salary-and-benefits-m17pi5hg"
   },
   {
@@ -5057,7 +5064,7 @@
     "level": "TOEIC-ADV",
     "word": "sales trend",
     "meaning": "銷售趨勢",
-    "example": "We have analyzed the recent sales trend to inform our future planning. (我們已分析了近期的銷售趨勢以告知我們未來的規劃。)",
+    "example": "We have analyzed the recent sales trend to inform our future planning. (我們分析近期銷售趨勢，作為未來規劃的參考。)",
     "id": "TOEIC-ADV-sales-trend-mivc1jl"
   },
   {
@@ -5071,7 +5078,7 @@
     "level": "TOEIC-ADV",
     "word": "salon",
     "meaning": "沙龍",
-    "example": "She visited the salon before the professional company event. (她在專業公司活動前去了沙龍。)",
+    "example": "She visited the salon before the professional company event. (參加公司活動前，她先去了美容院。)",
     "id": "TOEIC-ADV-salon-mjcic"
   },
   {
@@ -5092,7 +5099,7 @@
     "level": "TOEIC-ADV",
     "word": "satisfactory",
     "meaning": "令人滿意的",
-    "example": "The quality of the work provided by the contractor was satisfactory. (承包商提供的作品品質令人滿意。)",
+    "example": "The quality of the work provided by the contractor was satisfactory. (承包商提供的工程品質令人滿意。)",
     "id": "TOEIC-ADV-satisfactory-myqbx4u"
   },
   {
@@ -5106,14 +5113,14 @@
     "level": "TOEIC-ADV",
     "word": "save",
     "meaning": "節省／保存",
-    "example": "Please save your document frequently to avoid losing your progress. (請經常儲存您的文件以避免失去進度。)",
+    "example": "Please save your document frequently to avoid losing your progress. (請定期儲存文件，以免遺失進度。)",
     "id": "TOEIC-ADV-save-m2p9fgp"
   },
   {
     "level": "TOEIC-ADV",
     "word": "savings",
     "meaning": "積蓄／節省",
-    "example": "The new energy policy resulted in significant savings for the company. (新的能源政策為公司帶來了顯著的節省。)",
+    "example": "The new energy policy resulted in significant savings for the company. (新的能源政策為公司節省了不少成本。)",
     "id": "TOEIC-ADV-savings-m1xt2yah"
   },
   {
@@ -5162,21 +5169,21 @@
     "level": "TOEIC-ADV",
     "word": "scare",
     "meaning": "驚嚇",
-    "example": "The loud noise gave everyone in the room a sudden scare. (巨大的噪音給房間裡的每個人帶來了突然的驚嚇。)",
+    "example": "The loud noise gave everyone in the room a sudden scare. (巨大的聲響突然嚇了房間裡的所有人一跳。)",
     "id": "TOEIC-ADV-scare-mqq99"
   },
   {
     "level": "TOEIC-ADV",
     "word": "scatter",
     "meaning": "散佈",
-    "example": "Please do not scatter documents across your desk; keep them organized. (請勿將文件散佈在您的桌面上；保持它們井然有序。)",
+    "example": "Please do not scatter documents across your desk; keep them organized. (請勿把文件散放在桌面上，請保持整齊。)",
     "id": "TOEIC-ADV-scatter-mhohx"
   },
   {
     "level": "TOEIC-ADV",
     "word": "scenic",
     "meaning": "風景優美的",
-    "example": "The office window offers a scenic view of the nearby mountain range. (辦公室窗戶提供了附近山脈風景優美的視野。)",
+    "example": "The office window offers a scenic view of the nearby mountain range. (辦公室窗外可欣賞附近山脈的優美景色。)",
     "id": "TOEIC-ADV-scenic-m15whlix"
   },
   {
@@ -5302,7 +5309,7 @@
     "level": "TOEIC-ADV",
     "word": "seating capacity",
     "meaning": "座位容量",
-    "example": "The theater has a seating capacity of 500 people. (該劇院擁有 500 人的座位容量。)",
+    "example": "The theater has a seating capacity of 500 people. (該劇院可容納 500 人。)",
     "id": "TOEIC-ADV-seating-capacity-mc9un24"
   },
   {
@@ -5337,7 +5344,7 @@
     "level": "TOEIC-ADV",
     "word": "secretarial",
     "meaning": "秘書的",
-    "example": "She is responsible for all secretarial tasks, including managing the calendar. (她負責所有秘書任務，包含管理行事曆。)",
+    "example": "She is responsible for all secretarial tasks, including managing the calendar. (她負責所有秘書工作，包括管理行事曆。)",
     "id": "TOEIC-ADV-secretarial-micn6s"
   },
   {
@@ -5351,7 +5358,7 @@
     "level": "TOEIC-ADV",
     "word": "sector",
     "meaning": "部門／行業",
-    "example": "The technology sector is experiencing rapid growth this year. (科技行業今年正經歷快速成長。)",
+    "example": "The technology sector is experiencing rapid growth this year. (科技產業今年正快速成長。)",
     "id": "TOEIC-ADV-sector-mi8tq3c"
   },
   {
@@ -5386,14 +5393,14 @@
     "level": "TOEIC-ADV",
     "word": "seed",
     "meaning": "種子",
-    "example": "The company is sponsoring a project to plant trees from local seeds. (公司正在贊助一個種植來自當地種子樹木的專案。)",
+    "example": "The company is sponsoring a project to plant trees from local seeds. (公司正贊助一項計畫，在當地種植樹木。)",
     "id": "TOEIC-ADV-seed-mla76"
   },
   {
     "level": "TOEIC-ADV",
     "word": "seek to do",
     "meaning": "試圖做...",
-    "example": "We seek to provide the best service to our clients at all times. (我們隨時試圖為我們的客戶提供最好的服務。)",
+    "example": "We seek to provide the best service to our clients at all times. (我們一直努力為客戶提供最好的服務。)",
     "id": "TOEIC-ADV-seek-to-do-m7d95j8"
   },
   {
@@ -5483,15 +5490,15 @@
   {
     "level": "TOEIC-ADV",
     "word": "sensation",
-    "meaning": "感覺",
-    "example": "The new product created a sensation in the tech industry. (該新產品在科技業造成了一股轟動（感覺）。)",
-    "id": "TOEIC-ADV-sensation-mh9x7"
+    "meaning": "轟動／感覺",
+    "example": "The new product created a sensation in the tech industry. (這項新產品在科技業引起轟動。)",
+    "id": "TOEIC-ADV-sensation-m3tue9g"
   },
   {
     "level": "TOEIC-ADV",
     "word": "sensitivity",
     "meaning": "敏感度",
-    "example": "Please handle the customer's data with extreme sensitivity. (請以極度的敏感度（謹慎）處理客戶資料。)",
+    "example": "Please handle the customer's data with extreme sensitivity. (處理客戶資料時請格外謹慎。)",
     "id": "TOEIC-ADV-sensitivity-mfb8ja"
   },
   {
@@ -5512,7 +5519,7 @@
     "level": "TOEIC-ADV",
     "word": "sequel",
     "meaning": "續集",
-    "example": "The company is planning a sequel to their successful marketing campaign. (公司正計畫對其成功的行銷活動進行續作。)",
+    "example": "The company is planning a sequel to their successful marketing campaign. (公司正計畫延續這項成功的行銷活動。)",
     "id": "TOEIC-ADV-sequel-mmcoq"
   },
   {
@@ -5603,7 +5610,7 @@
     "level": "TOEIC-ADV",
     "word": "set up",
     "meaning": "建立／安裝",
-    "example": "We need to set up the equipment for the presentation. (我們需要為簡報安裝（設置）設備。)",
+    "example": "We need to set up the equipment for the presentation. (我們需要為簡報架設設備。)",
     "id": "TOEIC-ADV-set-up-mwqmmfm"
   },
   {
@@ -5666,7 +5673,7 @@
     "level": "TOEIC-ADV",
     "word": "shade",
     "meaning": "陰影／遮陽",
-    "example": "Please sit in the shade to avoid direct sunlight. (請坐在陰影處以避免直接日曬。)",
+    "example": "Please sit in the shade to avoid direct sunlight. (請坐在陰涼處，避免直接曝曬。)",
     "id": "TOEIC-ADV-shade-mx1zhj1"
   },
   {
@@ -5701,15 +5708,15 @@
     "level": "TOEIC-ADV",
     "word": "sheer",
     "meaning": "純粹的／極薄的",
-    "example": "The success of the project was due to sheer hard work. (專案的成功歸功於純粹的努力工作。)",
+    "example": "The success of the project was due to sheer hard work. (這項專案的成功全靠團隊努力。)",
     "id": "TOEIC-ADV-sheer-mpuub45"
   },
   {
     "level": "TOEIC-ADV",
     "word": "sheet",
-    "meaning": "床單／表格",
-    "example": "Please fill out the information sheet and return it to the office. (請填寫資訊表格並將其交回辦公室。)",
-    "id": "TOEIC-ADV-sheet-mqcqhxb"
+    "meaning": "床單／表單",
+    "example": "Please fill out the information sheet and return it to the office. (請填寫資料表，並交回辦公室。)",
+    "id": "TOEIC-ADV-sheet-mqcqe9d"
   },
   {
     "level": "TOEIC-ADV",
@@ -5771,7 +5778,7 @@
     "level": "TOEIC-ADV",
     "word": "shore",
     "meaning": "海岸",
-    "example": "The company retreat was held on the shore of the lake. (公司進修活動在湖岸邊舉行。)",
+    "example": "The company retreat was held on the shore of the lake. (公司團隊活動在湖畔舉行。)",
     "id": "TOEIC-ADV-shore-mj4m9"
   },
   {
@@ -5855,7 +5862,7 @@
     "level": "TOEIC-ADV",
     "word": "showcase",
     "meaning": "展示櫃／展示",
-    "example": "The event is an opportunity to showcase our latest innovations. (此活動是一個展示我們最新創新的機會。)",
+    "example": "The event is an opportunity to showcase our latest innovations. (這場活動是展示我們最新創新的好機會。)",
     "id": "TOEIC-ADV-showcase-muxvl86"
   },
   {
@@ -5918,7 +5925,7 @@
     "level": "TOEIC-ADV",
     "word": "side by side",
     "meaning": "並排",
-    "example": "The two new machines are placed side by side in the workshop. (這兩台新機器並排放在工作坊內。)",
+    "example": "The two new machines are placed side by side in the workshop. (這兩台新機器並排放在工作區裡。)",
     "id": "TOEIC-ADV-side-by-side-mdu7g"
   },
   {
@@ -5953,7 +5960,7 @@
     "level": "TOEIC-ADV",
     "word": "sign a contract",
     "meaning": "簽約",
-    "example": "Both parties met to sign a contract yesterday. (雙方昨天會面進行簽約。)",
+    "example": "Both parties met to sign a contract yesterday. (雙方昨天會面並簽訂合約。)",
     "id": "TOEIC-ADV-sign-a-contract-mltgn"
   },
   {
@@ -6002,7 +6009,7 @@
     "level": "TOEIC-ADV",
     "word": "simplicity",
     "meaning": "簡單性",
-    "example": "We appreciate the simplicity of the new ordering process. (我們欣賞新訂購流程的簡單性。)",
+    "example": "We appreciate the simplicity of the new ordering process. (我們很欣賞新訂購流程簡單方便。)",
     "id": "TOEIC-ADV-simplicity-milmoq"
   },
   {
@@ -6079,14 +6086,14 @@
     "level": "TOEIC-ADV",
     "word": "sizable",
     "meaning": "相當大的",
-    "example": "We received a sizable order from a new international client. (我們收到了一筆來自新國際客戶的相當大的訂單。)",
+    "example": "We received a sizable order from a new international client. (我們接到一位新國際客戶的大筆訂單。)",
     "id": "TOEIC-ADV-sizable-mfhu33v"
   },
   {
     "level": "TOEIC-ADV",
     "word": "sketch",
     "meaning": "草圖",
-    "example": "The architect showed us a quick sketch of the proposed building. (建築師向我們展示了擬建建築的快速草圖。)",
+    "example": "The architect showed us a quick sketch of the proposed building. (建築師向我們展示了擬建建築的簡略草圖。)",
     "id": "TOEIC-ADV-sketch-mmt4d"
   },
   {
@@ -6121,7 +6128,7 @@
     "level": "TOEIC-ADV",
     "word": "sleeve",
     "meaning": "袖子",
-    "example": "He rolled up his sleeve to prepare for the manual work. (他捲起袖子準備進行手工工作。)",
+    "example": "He rolled up his sleeve to prepare for the manual work. (他捲起袖子，準備動手工作。)",
     "id": "TOEIC-ADV-sleeve-mnqey"
   },
   {
@@ -6135,7 +6142,7 @@
     "level": "TOEIC-ADV",
     "word": "slight chance",
     "meaning": "輕微的可能性",
-    "example": "There is a slight chance that the deadline will be moved up. (截止日期提前有輕微的可能性。)",
+    "example": "There is a slight chance that the deadline will be moved up. (期限有可能提前，但機率不高。)",
     "id": "TOEIC-ADV-slight-chance-m19l7e7i"
   },
   {
@@ -6163,7 +6170,7 @@
     "level": "TOEIC-ADV",
     "word": "slurp",
     "meaning": "出聲地吃/喝",
-    "example": "Please try not to slurp your soup during the business lunch. (商務午餐期間請嘗試不要發出喝湯的聲音。)",
+    "example": "Please try not to slurp your soup during the business lunch. (商務午餐時請盡量不要喝湯發出聲音。)",
     "id": "TOEIC-ADV-slurp-m8c2s61"
   },
   {
@@ -6191,7 +6198,7 @@
     "level": "TOEIC-ADV",
     "word": "snack shop",
     "meaning": "點心店",
-    "example": "We stopped by the snack shop for a quick coffee break. (我們停在點心店進行了快速的咖啡休息。)",
+    "example": "We stopped by the snack shop for a quick coffee break. (我們在點心店停下來，喝杯咖啡休息一下。)",
     "id": "TOEIC-ADV-snack-shop-mnqidu"
   },
   {
@@ -6233,7 +6240,7 @@
     "level": "TOEIC-ADV",
     "word": "solitary",
     "meaning": "獨自的",
-    "example": "He prefers working in a solitary environment to focus better. (他偏好在獨自的環境中工作以更專注。)",
+    "example": "He prefers working in a solitary environment to focus better. (他偏好獨自工作，這樣比較能專心。)",
     "id": "TOEIC-ADV-solitary-mhja6a"
   },
   {
@@ -6380,7 +6387,7 @@
     "level": "TOEIC-ADV",
     "word": "specifically",
     "meaning": "特別地／明確地",
-    "example": "This policy was specifically created to support work-life balance. (這項政策是特別為支持工作與生活平衡而創立的。)",
+    "example": "This policy was specifically created to support work-life balance. (這項政策是為了支持工作與生活平衡而制定的。)",
     "id": "TOEIC-ADV-specifically-m1w7th2x"
   },
   {
@@ -6492,7 +6499,7 @@
     "level": "TOEIC-ADV",
     "word": "spoke",
     "meaning": "發言",
-    "example": "He spoke to the staff about the new company policy. (他向員工發言談論新的公司政策。)",
+    "example": "He spoke to the staff about the new company policy. (他向員工說明新的公司政策。)",
     "id": "TOEIC-ADV-spoke-mkwsk"
   },
   {
@@ -6534,7 +6541,7 @@
     "level": "TOEIC-ADV",
     "word": "spouse",
     "meaning": "配偶",
-    "example": "Employees may add their spouse to the health insurance plan. (員工可以將他們的配偶加入健康保險計畫。)",
+    "example": "Employees may add their spouse to the health insurance plan. (員工可以將配偶納入健康保險計畫。)",
     "id": "TOEIC-ADV-spouse-mp5mx"
   },
   {
@@ -6562,7 +6569,7 @@
     "level": "TOEIC-ADV",
     "word": "spurious",
     "meaning": "虛假的",
-    "example": "The report was based on spurious data, so we rejected it. (該報告基於虛假的數據，因此我們拒絕了它。)",
+    "example": "The report was based on spurious data, so we rejected it. (該報告根據的是錯誤資料，因此我們不予採納。)",
     "id": "TOEIC-ADV-spurious-mk2raw"
   },
   {
@@ -6576,7 +6583,7 @@
     "level": "TOEIC-ADV",
     "word": "squeaky",
     "meaning": "尖銳的",
-    "example": "The chair has a squeaky noise whenever someone sits on it. (椅子每次有人坐上去時都會發出尖銳的聲音。)",
+    "example": "The chair has a squeaky noise whenever someone sits on it. (每次有人坐下，椅子都會發出尖銳的吱嘎聲。)",
     "id": "TOEIC-ADV-squeaky-me764n"
   },
   {
@@ -6639,7 +6646,7 @@
     "level": "TOEIC-ADV",
     "word": "stall",
     "meaning": "攤位／隔間",
-    "example": "There are many food stalls at the local market. (當地市場有許多食物攤位。)",
+    "example": "There are many food stalls at the local market. (當地市場有許多食品攤位。)",
     "id": "TOEIC-ADV-stall-m1fd2qv9"
   },
   {
@@ -6660,7 +6667,7 @@
     "level": "TOEIC-ADV",
     "word": "stand in a line",
     "meaning": "排隊",
-    "example": "Please stand in a line while waiting for your turn. (輪到您時請排隊等待。)",
+    "example": "Please stand in a line while waiting for your turn. (請排隊等候，輪到您時再辦理。)",
     "id": "TOEIC-ADV-stand-in-a-line-mhrg8"
   },
   {
@@ -6793,7 +6800,7 @@
     "level": "TOEIC-ADV",
     "word": "stay tuned",
     "meaning": "保持關注",
-    "example": "Stay tuned for more updates on our upcoming product launch. (保持關注以獲取關於我們即將發布之產品的更多更新。)",
+    "example": "Stay tuned for more updates on our upcoming product launch. (敬請期待我們即將推出的產品資訊。)",
     "id": "TOEIC-ADV-stay-tuned-mahurm8"
   },
   {
@@ -6807,7 +6814,7 @@
     "level": "TOEIC-ADV",
     "word": "steadily",
     "meaning": "穩定地",
-    "example": "Our company's revenue has been growing steadily over the past year. (我們公司的營收在過去一年中穩定增長。)",
+    "example": "Our company's revenue has been growing steadily over the past year. (我們公司的營收在過去一年穩定成長。)",
     "id": "TOEIC-ADV-steadily-midiwv"
   },
   {
@@ -6842,7 +6849,7 @@
     "level": "TOEIC-ADV",
     "word": "stellar",
     "meaning": "傑出的",
-    "example": "The team received stellar reviews for their work on the new project. (團隊因他們在該新專案上的表現獲得了傑出的評價。)",
+    "example": "The team received stellar reviews for their work on the new project. (團隊因在新專案上的表現傑出而受到好評。)",
     "id": "TOEIC-ADV-stellar-mc7f2z"
   },
   {
@@ -6870,7 +6877,7 @@
     "level": "TOEIC-ADV",
     "word": "sternly",
     "meaning": "嚴格地",
-    "example": "The supervisor spoke sternly about the importance of following safety rules. (主管嚴格地談論了遵守安全規則的重要性。)",
+    "example": "The supervisor spoke sternly about the importance of following safety rules. (主管嚴正說明遵守安全規定的重要性。)",
     "id": "TOEIC-ADV-sternly-md7e3s"
   },
   {
@@ -6967,9 +6974,9 @@
   {
     "level": "TOEIC-ADV",
     "word": "storage cabinet",
-    "meaning": "儲存櫃",
-    "example": "Please place your personal belongings in the storage cabinet. (請將您的個人物品放置在儲存櫃中。)",
-    "id": "TOEIC-ADV-storage-cabinet-mcc9i5"
+    "meaning": "收納櫃",
+    "example": "Please place your personal belongings in the storage cabinet. (請將個人物品收在收納櫃裡。)",
+    "id": "TOEIC-ADV-storage-cabinet-mffjf0"
   },
   {
     "level": "TOEIC-ADV",
@@ -6991,12 +6998,5 @@
     "meaning": "商店開幕",
     "example": "The store opening is scheduled for next Saturday morning. (商店開幕定於下週六上午。)",
     "id": "TOEIC-ADV-store-opening-mb5rpq3"
-  },
-  {
-    "level": "TOEIC-ADV",
-    "word": "storefront",
-    "meaning": "店面",
-    "example": "The company recently renovated its storefront to attract more customers. (公司最近翻新了其店面以吸引更多客戶。)",
-    "id": "TOEIC-ADV-storefront-mgx4b"
   }
 ]

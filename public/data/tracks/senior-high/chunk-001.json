@@ -157,7 +157,7 @@
     "level": "L3",
     "word": "fund",
     "meaning": "資金、資助",
-    "example": "The scholarship fund helps students in need. (獎學金基金幫助有需要的學生。)",
+    "example": "The scholarship fund helps students in need. (獎學基金幫助有需要的學生。)",
     "id": "L3-fund-mslwm1"
   },
   {
@@ -339,7 +339,7 @@
     "level": "L3",
     "word": "automobile/auto",
     "meaning": "汽車",
-    "example": "The automobile industry is embracing electric vehicles. (汽車工業正在擁抱電動汽車。)",
+    "example": "The automobile industry is embracing electric vehicles. (汽車工業正逐漸轉向電動車。)",
     "id": "L3-automobile-auto-mj8j1"
   },
   {
@@ -381,7 +381,7 @@
     "level": "L3",
     "word": "reveal",
     "meaning": "揭示、顯示",
-    "example": "Tests reveal student understanding levels. (測試揭示學生理解水平。)",
+    "example": "Tests reveal student understanding levels. (測驗可以顯示學生的理解程度。)",
     "id": "L3-reveal-m1f24dpb"
   },
   {
@@ -409,7 +409,7 @@
     "level": "L3",
     "word": "recognize",
     "meaning": "認出、承認",
-    "example": "Teachers recognize each student's unique talents. (老師認識到每個學生的獨特才能。)",
+    "example": "Teachers recognize each student's unique talents. (老師能看出每個學生獨特的才能。)",
     "id": "L3-recognize-m1j28xvm"
   },
   {
@@ -430,7 +430,7 @@
     "level": "L3",
     "word": "union",
     "meaning": "聯盟、工會",
-    "example": "Teacher's unions advocate for education funding. (教師工會為教育資金倡議。)",
+    "example": "Teacher's unions advocate for education funding. (教師工會為教育經費發聲。)",
     "id": "L3-union-mk5noz3"
   },
   {
@@ -451,7 +451,7 @@
     "level": "L3",
     "word": "reduce",
     "meaning": "減少、降低",
-    "example": "Study groups reduce individual workload stress. (學習小組減少個人工作負荷壓力。)",
+    "example": "Study groups reduce individual workload stress. (學習小組可以減輕個人的課業壓力。)",
     "id": "L3-reduce-mg5gzm4"
   },
   {
@@ -465,7 +465,7 @@
     "level": "L3",
     "word": "politics",
     "meaning": "政治",
-    "example": "Students study politics in social studies. (學生在社會學科中學習政治。)",
+    "example": "Students study politics in social studies. (學生在社會課上學習政治。)",
     "id": "L3-politics-mhtgc"
   },
   {
@@ -493,7 +493,7 @@
     "level": "L3",
     "word": "respond",
     "meaning": "回應、反應",
-    "example": "Students respond positively to encouragement. (學生對鼓勵積極回應。)",
+    "example": "Students respond positively to encouragement. (學生對鼓勵會有正面的回應。)",
     "id": "L3-respond-m1w2cmvm"
   },
   {
@@ -598,7 +598,7 @@
     "level": "L3",
     "word": "network",
     "meaning": "網路、建立關係",
-    "example": "Social networks enhance learning opportunities. (社交網路增強學習機會。)",
+    "example": "Social networks enhance learning opportunities. (社群網路增加了學習機會。)",
     "id": "L3-network-mfg380r"
   },
   {
@@ -619,7 +619,7 @@
     "level": "L3",
     "word": "award",
     "meaning": "獎勵、頒獎",
-    "example": "She received an award for her outstanding research. (她因出色的研究獲得了獎勵。)",
+    "example": "She received an award for her outstanding research. (她因出色的研究獲得獎項。)",
     "id": "L3-award-mzbylx2"
   },
   {
@@ -675,7 +675,7 @@
     "level": "L3",
     "word": "experiment",
     "meaning": "實驗、試驗",
-    "example": "Scientists experiment to test hypotheses. (科學家實驗來測試假設。)",
+    "example": "Scientists experiment with new ideas to test hypotheses. (科學家用新想法做實驗來驗證假設。)",
     "id": "L3-experiment-mnuhqqp"
   },
   {
@@ -689,7 +689,7 @@
     "level": "L3",
     "word": "staff",
     "meaning": "員工、職員",
-    "example": "School staff support student success. (學校員工支持學生成功。)",
+    "example": "School staff support student success. (學校教職員協助學生順利學習。)",
     "id": "L3-staff-m1nt0wvb"
   },
   {
@@ -745,7 +745,7 @@
     "level": "L3",
     "word": "baggage",
     "meaning": "行李",
-    "example": "Passengers must check their baggage before boarding. (乘客登機前必須檢查行李。)",
+    "example": "Passengers must check their baggage before boarding. (乘客登機前必須託運行李。)",
     "id": "L3-baggage-mnr0i"
   },
   {
@@ -766,7 +766,7 @@
     "level": "L3",
     "word": "odd",
     "meaning": "奇怪的、奇數的",
-    "example": "Odd numbers include 1, 3, and 5. (奇數包括 1 、 3和 5 。)",
+    "example": "Odd numbers include 1, 3, and 5. (奇數包括 1、3 和 5。)",
     "id": "L3-odd-mu550gj"
   },
   {
@@ -927,7 +927,7 @@
     "level": "L3",
     "word": "prevent",
     "meaning": "預防、阻止",
-    "example": "Good habits prevent academic problems. (良好習慣預防學術問題。)",
+    "example": "Good habits prevent academic problems. (良好的習慣可以避免學業問題。)",
     "id": "L3-prevent-m19h11wm"
   },
   {
@@ -1018,14 +1018,14 @@
     "level": "L3",
     "word": "strategy",
     "meaning": "策略、戰略",
-    "example": "Effective learning strategies maximize study time. (有效的學習策略最大化學習時間。)",
+    "example": "Effective learning strategies maximize study time. (有效的學習策略能充分利用讀書時間。)",
     "id": "L3-strategy-m1fmpz"
   },
   {
     "level": "L3",
     "word": "technology",
     "meaning": "技術、科技",
-    "example": "Educational technology transforms traditional learning methods. (教育技術改變傳統學習方法。)",
+    "example": "Educational technology transforms traditional learning methods. (教育科技改變了傳統的學習方式。)",
     "id": "L3-technology-m1bdu1gd"
   },
   {
@@ -1130,7 +1130,7 @@
     "level": "L3",
     "word": "zone",
     "meaning": "地區、區域",
-    "example": "Creating a comfortable study zone enhances concentration. (創造舒適的學習區域增強專注力。)",
+    "example": "Creating a comfortable study zone enhances concentration. (打造舒適的讀書空間能提升專注力。)",
     "id": "L3-zone-m1vhfo0g"
   },
   {
@@ -1186,7 +1186,7 @@
     "level": "L3",
     "word": "emergency",
     "meaning": "緊急情況、急救",
-    "example": "Call 911 in case of emergency. (緊急情況下撥打 911 。)",
+    "example": "Call 911 in case of emergency. (遇到緊急情況請撥打 911。)",
     "id": "L3-emergency-m1gy0cdy"
   },
   {
@@ -1200,7 +1200,7 @@
     "level": "L3",
     "word": "breast",
     "meaning": "胸部、乳房",
-    "example": "Breast cancer awareness campaigns save many lives. (乳癌意識宣傳活動拯救了許多生命。)",
+    "example": "Breast cancer awareness campaigns save many lives. (乳癌防治宣導拯救了許多生命。)",
     "id": "L3-breast-mpj4mbh"
   },
   {
@@ -1325,9 +1325,9 @@
   {
     "level": "L3",
     "word": "aquarium",
-    "meaning": "魚缸；水族箱",
+    "meaning": "魚缸；水族箱；水族館",
     "example": "We saw colorful fish at the aquarium.（我們在水族館看到色彩繽紛的魚。）",
-    "id": "L3-aquarium-m13p6oex"
+    "id": "L3-aquarium-m1oqff9n"
   },
   {
     "level": "L3",
@@ -1486,9 +1486,9 @@
   {
     "level": "L3",
     "word": "blouse",
-    "meaning": "短上衣",
+    "meaning": "女用襯衫；上衣",
     "example": "She wore a white blouse to the meeting.（她穿了一件白色襯衫去開會。）",
-    "id": "L3-blouse-mhydza"
+    "id": "L3-blouse-m12s2ftv"
   },
   {
     "level": "L3",
@@ -1507,9 +1507,9 @@
   {
     "level": "L3",
     "word": "brake",
-    "meaning": "煞車 n.煞車",
+    "meaning": "煞車；制動器",
     "example": "Press the brake before you turn.（轉彎前先踩煞車。）",
-    "id": "L3-brake-n"
+    "id": "L3-brake-m1iro2e2"
   },
   {
     "level": "L3",
@@ -1612,9 +1612,9 @@
   {
     "level": "L3",
     "word": "bump",
-    "meaning": "碰，撞",
+    "meaning": "碰撞；腫塊；顛簸",
     "example": "I got a bump on my head when I fell.（我跌倒時頭上腫了一塊。）",
-    "id": "L3-bump-miwbeq"
+    "id": "L3-bump-mbtnup8"
   },
   {
     "level": "L3",
@@ -1801,9 +1801,9 @@
   {
     "level": "L3",
     "word": "chip",
-    "meaning": "碎片；薯條；晶片",
+    "meaning": "碎片；缺口；薯條；晶片",
     "example": "There is a small chip on the edge of the cup.（杯子邊緣有一個小缺口。）",
-    "id": "L3-chip-mhjf2l8"
+    "id": "L3-chip-m1fkg26m"
   },
   {
     "level": "L3",
@@ -1906,9 +1906,9 @@
   {
     "level": "L3",
     "word": "colony",
-    "meaning": "殖民地",
+    "meaning": "殖民地；群體；聚落",
     "example": "A colony of ants lived under the rock.（一群螞蟻住在石頭下。）",
-    "id": "L3-colony-mga5p1"
+    "id": "L3-colony-mc1jiug"
   },
   {
     "level": "L3",
@@ -1997,9 +1997,9 @@
   {
     "level": "L3",
     "word": "concern",
-    "meaning": "關於；關心 n.關心",
+    "meaning": "關心；擔心；涉及",
     "example": "Her main concern is her child’s safety.（她最關心的是孩子的安全。）",
-    "id": "L3-concern-n"
+    "id": "L3-concern-m8brs2h"
   },
   {
     "level": "L3",
@@ -2082,15 +2082,15 @@
     "level": "L3",
     "word": "consideration",
     "meaning": "考慮；體貼",
-    "example": "Thank you for your consideration.（謝謝你的考慮。）",
+    "example": "Thank you for your consideration. (謝謝你的費心。)",
     "id": "L3-consideration-mgnjnyw"
   },
   {
     "level": "L3",
     "word": "constant",
-    "meaning": "固定的，不變的",
+    "meaning": "固定的；不變的；持續的",
     "example": "The baby needs constant care.（嬰兒需要持續的照顧。）",
-    "id": "L3-constant-ml0z95r"
+    "id": "L3-constant-mxbp0j2"
   },
   {
     "level": "L3",
@@ -2207,9 +2207,9 @@
   {
     "level": "L3",
     "word": "crisp/crispy",
-    "meaning": "脆的同：crispy",
+    "meaning": "脆的；酥脆的",
     "example": "The fried chicken was hot and crispy.（炸雞又熱又酥脆。）",
-    "id": "L3-crisp-crispy-crispy"
+    "id": "L3-crisp-crispy-mb03jc6"
   },
   {
     "level": "L3",
@@ -2228,9 +2228,9 @@
   {
     "level": "L3",
     "word": "crutch",
-    "meaning": "撐拐",
+    "meaning": "拐杖；撐拐",
     "example": "He used a crutch after hurting his leg.（他腿受傷後使用拐杖。）",
-    "id": "L3-crutch-mhnb4"
+    "id": "L3-crutch-m19a9o45"
   },
   {
     "level": "L3",
@@ -2256,16 +2256,16 @@
   {
     "level": "L3",
     "word": "cycle",
-    "meaning": "週期",
+    "meaning": "循環；週期",
     "example": "Water changes form during its natural cycle.（水在自然循環中會改變形態。）",
-    "id": "L3-cycle-mp3bi"
+    "id": "L3-cycle-mynxf1f"
   },
   {
     "level": "L3",
     "word": "dairy",
-    "meaning": "乳品場",
+    "meaning": "乳製品的；乳品場",
     "example": "Milk and cheese are dairy products.（牛奶和起司是乳製品。）",
-    "id": "L3-dairy-mbwk7a"
+    "id": "L3-dairy-mxfrndk"
   },
   {
     "level": "L3",
@@ -2313,7 +2313,7 @@
     "level": "L3",
     "word": "decade",
     "meaning": "十年",
-    "example": "A decade is a period of ten years.（十年是一個 decade。）",
+    "example": "A decade is a period of ten years. (十年就是十個年頭。)",
     "id": "L3-decade-meogj"
   },
   {
@@ -2397,7 +2397,7 @@
     "level": "L3",
     "word": "desirable",
     "meaning": "值得嚮往(擁有)的",
-    "example": "Good manners are desirable in any classroom.（良好的禮貌在任何教室裡都是受歡迎的。）",
+    "example": "Good manners are desirable in any classroom. (在任何教室裡，良好的禮貌都值得培養。)",
     "id": "L3-desirable-mu7whvi"
   },
   {
@@ -2417,9 +2417,9 @@
   {
     "level": "L3",
     "word": "determine",
-    "meaning": "決定",
+    "meaning": "決定；判定；查明",
     "example": "We must determine the cause of the problem.（我們必須找出問題的原因。）",
-    "id": "L3-determine-miycg"
+    "id": "L3-determine-mcxe2kz"
   },
   {
     "level": "L3",
@@ -2494,9 +2494,9 @@
   {
     "level": "L3",
     "word": "disco/discotheque",
-    "meaning": "迪斯科舞廳同：discotheque [͵dɪskəˋtɛk]",
+    "meaning": "迪斯可舞廳",
     "example": "They danced at a disco in the city.（他們在市區的迪斯可舞廳跳舞。）",
-    "id": "L3-disco-discotheque-discotheque-d-sk-t-k"
+    "id": "L3-disco-discotheque-m7mycv3"
   },
   {
     "level": "L3",
@@ -2522,9 +2522,9 @@
   {
     "level": "L3",
     "word": "disk/disc",
-    "meaning": "圓盤；唱片；碟片；鐵餅",
+    "meaning": "圓盤；唱片；碟片；鐵餅；磁碟",
     "example": "Save the file on this disk.（把檔案存在這張磁碟裡。）",
-    "id": "L3-disk-disc-m1aqbig"
+    "id": "L3-disk-disc-mvj1axd"
   },
   {
     "level": "L3",
@@ -2928,9 +2928,9 @@
   {
     "level": "L3",
     "word": "faucet/tap",
-    "meaning": "水龍頭同：tap1",
+    "meaning": "水龍頭",
     "example": "Turn off the faucet after washing your hands.（洗完手後關掉水龍頭。）",
-    "id": "L3-faucet-tap-tap1"
+    "id": "L3-faucet-tap-mgmiyc"
   },
   {
     "level": "L3",
@@ -3026,9 +3026,9 @@
   {
     "level": "L3",
     "word": "forehead/brow",
-    "meaning": "額頭同：brow [braʊ]",
+    "meaning": "額頭；眉毛",
     "example": "He touched his forehead to check for a fever.（他摸了摸額頭確認有沒有發燒。）",
-    "id": "L3-forehead-brow-brow-bra"
+    "id": "L3-forehead-brow-m1bhqz0t"
   },
   {
     "level": "L3",
@@ -3068,9 +3068,9 @@
   {
     "level": "L3",
     "word": "fry",
-    "meaning": "油炸，油炒 n.炒菜；炸薯條",
+    "meaning": "煎；油炸；炒；炒菜；炸薯條",
     "example": "Fry the fish until it is golden.（把魚煎到金黃色。）",
-    "id": "L3-fry-n"
+    "id": "L3-fry-mopv4ul"
   },
   {
     "level": "L3",
@@ -3250,9 +3250,9 @@
   {
     "level": "L3",
     "word": "gum/chewing gum",
-    "meaning": "口香糖[U] 同：chewing",
+    "meaning": "口香糖",
     "example": "He was chewing gum during the game.（比賽時他在嚼口香糖。）",
-    "id": "L3-gum-chewing-gum-u-chewing"
+    "id": "L3-gum-chewing-gum-md156o"
   },
   {
     "level": "L3",
@@ -3285,9 +3285,9 @@
   {
     "level": "L3",
     "word": "handy",
-    "meaning": "方便",
+    "meaning": "方便的；好用的；手巧的",
     "example": "This small tool is very handy.（這個小工具很方便。）",
-    "id": "L3-handy-mhqna"
+    "id": "L3-handy-m1iq0ceh"
   },
   {
     "level": "L3",
@@ -3488,9 +3488,9 @@
   {
     "level": "L3",
     "word": "horn",
-    "meaning": "角；小號，號角",
+    "meaning": "角；號角；喇叭",
     "example": "The car horn was very loud.（汽車喇叭聲很大。）",
-    "id": "L3-horn-mhd3ex2"
+    "id": "L3-horn-m1566939"
   },
   {
     "level": "L3",
@@ -3579,9 +3579,9 @@
   {
     "level": "L3",
     "word": "image",
-    "meaning": "形象；印象",
+    "meaning": "影像；圖像；形象；印象",
     "example": "The image on the screen was clear.（螢幕上的影像很清楚。）",
-    "id": "L3-image-m10jmr3h"
+    "id": "L3-image-m1qlxdhk"
   },
   {
     "level": "L3",
@@ -3607,9 +3607,9 @@
   {
     "level": "L3",
     "word": "impress",
-    "meaning": "印象深刻",
+    "meaning": "使印象深刻；使欽佩",
     "example": "Her speech impressed the audience.（她的演講讓觀眾印象深刻。）",
-    "id": "L3-impress-mb3y90b"
+    "id": "L3-impress-m1bjjzqi"
   },
   {
     "level": "L3",
@@ -3803,9 +3803,9 @@
   {
     "level": "L3",
     "word": "jelly",
-    "meaning": "果凍",
+    "meaning": "果凍；果醬",
     "example": "She spread jelly on her toast.（她把果醬抹在吐司上。）",
-    "id": "L3-jelly-mi2lt"
+    "id": "L3-jelly-m1pbplzu"
   },
   {
     "level": "L3",
@@ -4041,9 +4041,9 @@
   {
     "level": "L3",
     "word": "lens",
-    "meaning": "透鏡；鏡片",
+    "meaning": "鏡頭；透鏡；鏡片",
     "example": "The camera lens is dirty.（相機鏡頭髒了。）",
-    "id": "L3-lens-meq7ncf"
+    "id": "L3-lens-m8y6zvk"
   },
   {
     "level": "L3",
@@ -4104,16 +4104,16 @@
   {
     "level": "L3",
     "word": "limb",
-    "meaning": "肢；臂；腳；翼；四肢",
+    "meaning": "樹枝；肢體；四肢",
     "example": "The monkey hung from a tree limb.（猴子掛在樹枝上。）",
-    "id": "L3-limb-mrx8880"
+    "id": "L3-limb-m99zcwp"
   },
   {
     "level": "L3",
     "word": "linen",
-    "meaning": "床單",
+    "meaning": "亞麻布；亞麻製品；床單、布巾",
     "example": "The hotel uses clean linen for every guest.（飯店為每位客人使用乾淨的床單。）",
-    "id": "L3-linen-mgjtw"
+    "id": "L3-linen-m1xhxl3n"
   },
   {
     "level": "L3",
@@ -4188,16 +4188,16 @@
   {
     "level": "L3",
     "word": "lord",
-    "meaning": "統治者；君主；上帝；閣下",
+    "meaning": "領主；貴族；君主；上帝；閣下",
     "example": "The lord owned a large castle.（那位貴族擁有一座大城堡。）",
-    "id": "L3-lord-m1annlqt"
+    "id": "L3-lord-m140v3jx"
   },
   {
     "level": "L3",
     "word": "loudspeaker",
-    "meaning": "擴聲器，喇叭",
+    "meaning": "擴音器；喇叭",
     "example": "The announcement came through the loudspeaker.（廣播從擴音器傳出。）",
-    "id": "L3-loudspeaker-m1039ofc"
+    "id": "L3-loudspeaker-m1kyjzug"
   },
   {
     "level": "L3",
@@ -4265,9 +4265,9 @@
   {
     "level": "L3",
     "word": "manage(ment)",
-    "meaning": "管理；經營；設法做到 [+to-v]；管理；經營[U]",
+    "meaning": "管理；經營；設法做到",
     "example": "Good management keeps a company strong.（良好的管理讓公司保持強健。）",
-    "id": "L3-manage-ment-to-v-u"
+    "id": "L3-manage-ment-m410wk7"
   },
   {
     "level": "L3",
@@ -4363,9 +4363,9 @@
   {
     "level": "L3",
     "word": "meanwhile",
-    "meaning": "其時 adv.在此同時",
+    "meaning": "同時；在此期間",
     "example": "I cooked dinner; meanwhile, my brother set the table.（我煮晚餐；同時，我弟弟擺桌。）",
-    "id": "L3-meanwhile-adv"
+    "id": "L3-meanwhile-m1ff16wl"
   },
   {
     "level": "L3",
@@ -4384,9 +4384,9 @@
   {
     "level": "L3",
     "word": "medium/media",
-    "meaning": "中間，中庸；媒體 (複數media[`midɪə] n.新聞媒體)",
+    "meaning": "媒介；媒體；中間的",
     "example": "Television is a powerful medium.（電視是一種有影響力的媒體。）",
-    "id": "L3-medium-media-media-mid-n"
+    "id": "L3-medium-media-m30m29z"
   },
   {
     "level": "L3",
@@ -4524,9 +4524,9 @@
   {
     "level": "L3",
     "word": "misery",
-    "meaning": "不幸；悲",
+    "meaning": "悲慘；痛苦；不幸",
     "example": "The long illness brought him great misery.（長期疾病帶給他很大的痛苦。）",
-    "id": "L3-misery-ma9gev6"
+    "id": "L3-misery-ma8qlae"
   },
   {
     "level": "L3",
@@ -4951,9 +4951,9 @@
   {
     "level": "L3",
     "word": "password",
-    "meaning": "密碼：口令；暗語",
+    "meaning": "密碼；口令；暗語",
     "example": "Please enter your password to open the file.（請輸入密碼來開啟檔案。）",
-    "id": "L3-password-mh60qzh"
+    "id": "L3-password-mhn2ddo"
   },
   {
     "level": "L3",
@@ -5155,7 +5155,7 @@
     "level": "L3",
     "word": "pole",
     "meaning": "柱；竿",
-    "example": "A flag hung from the tall pole.（一面旗子掛在高高的杆子上。）",
+    "example": "A flag hung from the tall pole. (一面旗子掛在高高的桿子上。)",
     "id": "L3-pole-mgg5bp"
   },
   {
@@ -5238,16 +5238,16 @@
   {
     "level": "L3",
     "word": "postpone(ment)",
-    "meaning": "延遲，延緩；延期；延緩",
+    "meaning": "延後；延期",
     "example": "The game was postponed because of heavy rain.（比賽因為大雨延期了。）",
-    "id": "L3-postpone-ment-m5f3y19"
+    "id": "L3-postpone-ment-mt8qdri"
   },
   {
     "level": "L3",
     "word": "pottery/ceramic(s)",
-    "meaning": "陶器[U]；陶器 a.陶器的",
+    "meaning": "陶器；陶瓷製品",
     "example": "She learned to make pottery in art class.（她在美術課學做陶器。）",
-    "id": "L3-pottery-ceramic-s-u-a"
+    "id": "L3-pottery-ceramic-s-m3dffri"
   },
   {
     "level": "L3",
@@ -5343,9 +5343,9 @@
   {
     "level": "L3",
     "word": "promote",
-    "meaning": "晉升；宣傳，推銷",
+    "meaning": "推廣；促進；晉升；宣傳",
     "example": "The school wants to promote healthy eating.（學校想推廣健康飲食。）",
-    "id": "L3-promote-mcpi4um"
+    "id": "L3-promote-m79nkht"
   },
   {
     "level": "L3",
@@ -5414,7 +5414,7 @@
     "level": "L3",
     "word": "pursue",
     "meaning": "追趕；追求",
-    "example": "She wants to pursue a career in medicine.（她想追求醫學方面的職業。）",
+    "example": "She wants to pursue a career in medicine. (她想從事醫學相關的工作。)",
     "id": "L3-pursue-mdnpcso"
   },
   {
@@ -5525,9 +5525,9 @@
   {
     "level": "L3",
     "word": "receiver",
-    "meaning": "收件人；接待人；電話聽筒",
+    "meaning": "接收器；聽筒；收件人",
     "example": "The receiver picked up the signal clearly.（接收器清楚地接收到訊號。）",
-    "id": "L3-receiver-m1hghqx9"
+    "id": "L3-receiver-mrhmymw"
   },
   {
     "level": "L3",
@@ -5567,9 +5567,9 @@
   {
     "level": "L3",
     "word": "release",
-    "meaning": "釋放，鬆開",
+    "meaning": "發布；發行；釋放；鬆開",
     "example": "The company will release a new phone next month.（這家公司下個月會發布新手機。）",
-    "id": "L3-release-mfmm1zy"
+    "id": "L3-release-m1n4p4ae"
   },
   {
     "level": "L3",
@@ -5623,9 +5623,9 @@
   {
     "level": "L3",
     "word": "renew",
-    "meaning": "更新；復原",
+    "meaning": "更新；換發；續約",
     "example": "I need to renew my passport.（我需要更新護照。）",
-    "id": "L3-renew-m1p9l7lh"
+    "id": "L3-renew-m1x1cn1v"
   },
   {
     "level": "L3",
@@ -5672,9 +5672,9 @@
   {
     "level": "L3",
     "word": "resist",
-    "meaning": "抵抗，反抗",
+    "meaning": "抵抗；忍住；抗拒",
     "example": "I could not resist eating the cake.（我忍不住吃了那塊蛋糕。）",
-    "id": "L3-resist-m189s984"
+    "id": "L3-resist-m1g1ieaj"
   },
   {
     "level": "L3",
@@ -5784,9 +5784,9 @@
   {
     "level": "L3",
     "word": "rough",
-    "meaning": "粗糙的；粗略的；粗野的",
+    "meaning": "崎嶇的；粗糙的；粗略的；粗野的",
     "example": "The road was rough after the storm.（暴風雨後道路很崎嶇。）",
-    "id": "L3-rough-m10yw173"
+    "id": "L3-rough-m1wjton3"
   },
   {
     "level": "L3",
@@ -5981,7 +5981,7 @@
     "level": "L3",
     "word": "security",
     "meaning": "安全；保安；證券",
-    "example": "The guard checked security at the gate.（警衛在大門檢查安全。）",
+    "example": "The guard is responsible for security at the gate. (警衛負責大門的安全。)",
     "id": "L3-security-m1pfoqhu"
   },
   {
@@ -6071,9 +6071,9 @@
   {
     "level": "L3",
     "word": "shallow",
-    "meaning": "淺的膚淺的",
+    "meaning": "淺的；膚淺的",
     "example": "The water is shallow near the shore.（岸邊的水很淺。）",
-    "id": "L3-shallow-mjb6uhm"
+    "id": "L3-shallow-m1aapneb"
   },
   {
     "level": "L3",
@@ -6176,9 +6176,9 @@
   {
     "level": "L3",
     "word": "sip",
-    "meaning": "啜飲",
+    "meaning": "啜飲；一小口",
     "example": "He took a sip of hot tea.（他啜了一口熱茶。）",
-    "id": "L3-sip-mfcwm"
+    "id": "L3-sip-m123wvkf"
   },
   {
     "level": "L3",
@@ -6253,9 +6253,9 @@
   {
     "level": "L3",
     "word": "snap",
-    "meaning": "猛咬；突然折斷；快照拍攝",
+    "meaning": "啪嚓聲；猛咬；突然折斷",
     "example": "The branch broke with a loud snap.（樹枝啪的一聲斷了。）",
-    "id": "L3-snap-m1505ueh"
+    "id": "L3-snap-m1jlxz8s"
   },
   {
     "level": "L3",
@@ -6295,9 +6295,9 @@
   {
     "level": "L3",
     "word": "sore",
-    "meaning": "痛的；疼痛發炎的",
+    "meaning": "痠痛的；疼痛的；發炎的",
     "example": "My legs are sore after running.（跑步後我的腿很痠。）",
-    "id": "L3-sore-mdq4t35"
+    "id": "L3-sore-m1i3cwru"
   },
   {
     "level": "L3",
@@ -6337,9 +6337,9 @@
   {
     "level": "L3",
     "word": "spin",
-    "meaning": "紡；作(繭)，結(網)；使(陀螺等)旋轉",
+    "meaning": "旋轉；紡；結網；使……旋轉",
     "example": "The top began to spin quickly.（陀螺開始快速旋轉。）",
-    "id": "L3-spin-mzcu69v"
+    "id": "L3-spin-mjw12cb"
   },
   {
     "level": "L3",
@@ -6351,9 +6351,9 @@
   {
     "level": "L3",
     "word": "spite",
-    "meaning": "惡意；怨恨",
+    "meaning": "惡意；怨恨；in spite of：儘管",
     "example": "He helped me in spite of the rain.（儘管下雨，他還是幫了我。）",
-    "id": "L3-spite-m10xkn0t"
+    "id": "L3-spite-in-spite-of"
   },
   {
     "level": "L3",
@@ -6470,9 +6470,9 @@
   {
     "level": "L3",
     "word": "stepchild",
-    "meaning": "前配偶所生的孩子",
+    "meaning": "繼子女；配偶前段婚姻所生的孩子",
     "example": "He treats his stepchild with love.（他用愛對待他的繼子／繼女。）",
-    "id": "L3-stepchild-m17fbj92"
+    "id": "L3-stepchild-m3zyyda"
   },
   {
     "level": "L3",
@@ -6491,9 +6491,9 @@
   {
     "level": "L3",
     "word": "stereo",
-    "meaning": "立體音響裝置 a.立體聲的",
+    "meaning": "立體音響；音響；立體聲的",
     "example": "The music sounded clear on the new stereo.（音樂在新的音響上聽起來很清楚。）",
-    "id": "L3-stereo-a"
+    "id": "L3-stereo-m1krftqc"
   },
   {
     "level": "L3",
@@ -6526,9 +6526,9 @@
   {
     "level": "L3",
     "word": "stitch",
-    "meaning": "一針；針腳；(縫合傷口的)針線",
+    "meaning": "一針；針腳；縫線",
     "example": "The doctor put a stitch in the cut.（醫生在傷口上縫了一針。）",
-    "id": "L3-stitch-m19qu3gs"
+    "id": "L3-stitch-mjetlxy"
   },
   {
     "level": "L3",
@@ -6673,9 +6673,9 @@
   {
     "level": "L3",
     "word": "survival",
-    "meaning": "倖存[U]",
+    "meaning": "生存；存活；幸存",
     "example": "Water is necessary for survival.（水是生存所必需的。）",
-    "id": "L3-survival-u"
+    "id": "L3-survival-m54gtjq"
   },
   {
     "level": "L3",
@@ -6827,9 +6827,9 @@
   {
     "level": "L3",
     "word": "tend",
-    "meaning": "照管，照料 vi.服侍；【口】 注意，關心[(+to)]；傾向；易於[+to-V]",
+    "meaning": "傾向；易於；照管；照料",
     "example": "Cats tend to sleep a lot.（貓通常睡很多。）",
-    "id": "L3-tend-vi-to-to-v"
+    "id": "L3-tend-md3vk9"
   },
   {
     "level": "L3",
@@ -6876,9 +6876,9 @@
   {
     "level": "L3",
     "word": "threaten",
-    "meaning": "威脅，恐嚇",
+    "meaning": "威脅；恐嚇；預示（壞事可能發生）",
     "example": "Dark clouds threatened rain.（烏雲預示著要下雨。）",
-    "id": "L3-threaten-me2yt9b"
+    "id": "L3-threaten-mrtwzkq"
   },
   {
     "level": "L3",
@@ -6911,9 +6911,9 @@
   {
     "level": "L3",
     "word": "tighten",
-    "meaning": "變緊，(使)繃緊",
+    "meaning": "（使）變緊；擰緊；轉緊",
     "example": "Tighten the lid before you shake the bottle.（搖瓶子前先把蓋子轉緊。）",
-    "id": "L3-tighten-m1k1qjgt"
+    "id": "L3-tighten-mfucpll"
   },
   {
     "level": "L3",
@@ -6932,9 +6932,9 @@
   {
     "level": "L3",
     "word": "tobacco",
-    "meaning": "菸草；煙葉",
+    "meaning": "菸草；菸葉",
     "example": "Tobacco is harmful to health.（菸草對健康有害。）",
-    "id": "L3-tobacco-m10e28oq"
+    "id": "L3-tobacco-m10e5epn"
   },
   {
     "level": "L3",
@@ -6967,9 +6967,9 @@
   {
     "level": "L3",
     "word": "tourist",
-    "meaning": "旅遊者，觀光者",
+    "meaning": "遊客；觀光客",
     "example": "The tourist took photos of the temple.（遊客拍了那座寺廟的照片。）",
-    "id": "L3-tourist-mj27iq8"
+    "id": "L3-tourist-m1fg4kie"
   },
   {
     "level": "L3",
@@ -6988,9 +6988,9 @@
   {
     "level": "L3",
     "word": "trader",
-    "meaning": "商人；交易人",
+    "meaning": "商人；貿易商",
     "example": "The trader sold tea and silk.（商人販賣茶和絲綢。）",
-    "id": "L3-trader-mlmjisk"
+    "id": "L3-trader-mlvn1e3"
   },
   {
     "level": "L3",

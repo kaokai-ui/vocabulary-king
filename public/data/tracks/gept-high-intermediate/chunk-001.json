@@ -51,9 +51,9 @@
   {
     "level": "L1",
     "word": "up",
-    "meaning": "verb 增加、起身離開",
+    "meaning": "adv. 向上；上升",
     "example": "Test scores went up after extra practice. (額外練習後考試成績上升。)",
-    "id": "L1-up-verb"
+    "id": "L1-up-adv"
   },
   {
     "level": "L1",
@@ -346,7 +346,7 @@
     "level": "L3",
     "word": "gymnasium",
     "meaning": "noun 體育館",
-    "example": "We played basketball in the gym.（我們在體育館打籃球。）",
+    "example": "We played basketball in the gymnasium. (我們在體育館打籃球。)",
     "id": "L3-gymnasium-noun"
   },
   {
@@ -549,14 +549,14 @@
     "level": "L4",
     "word": "blade",
     "meaning": "noun 刀片、刀刃；(機器上旋轉的)槳片、槳葉；(草的)葉片",
-    "example": "The knife blade was very sharp. (刀片非常鋒利。)",
+    "example": "The knife blade was very sharp. (刀刃非常鋒利。)",
     "id": "L4-blade-noun"
   },
   {
     "level": "L4",
     "word": "brassiere",
     "meaning": "noun 胸罩",
-    "example": "She bought a new bra at the department store.（她在百貨公司買了一件新胸罩。）",
+    "example": "She bought a new brassiere at the department store. (她在百貨公司買了一件新胸罩。)",
     "id": "L4-brassiere-noun"
   },
   {
@@ -835,7 +835,7 @@
   {
     "level": "L4",
     "word": "preposition",
-    "meaning": "noun 介係詞",
+    "meaning": "noun 介系詞",
     "example": "“In” is a preposition.（“In” 是一個介系詞。）",
     "id": "L4-preposition-noun"
   },
@@ -1192,7 +1192,7 @@
   {
     "level": "L5",
     "word": "alternate",
-    "meaning": "verb/adj. 輪流(的)、交替(的)",
+    "meaning": "verb/adj. 輪流（的）、交替（的）、替代的",
     "example": "We take alternate routes when the main road is busy.（主幹道塞車時，我們走替代路線。）",
     "id": "L5-alternate-verb-adj"
   },
@@ -1291,7 +1291,7 @@
     "level": "L5",
     "word": "attendant",
     "meaning": "noun 服務員、侍者\nadj. 伴隨的、隨之而來的",
-    "example": "The flight attendant served drinks.（空服員提供飲料。）",
+    "example": "The museum attendant kindly pointed us to the exhibition hall. (博物館服務員親切地指引我們到展覽廳。)",
     "id": "L5-attendant-noun-adj"
   },
   {
@@ -1437,7 +1437,7 @@
   {
     "level": "L5",
     "word": "belongings",
-    "meaning": "noun 財務、擁有物、行李",
+    "meaning": "noun 財物、所有物、行李",
     "example": "Keep your belongings with you.（請隨身保管你的物品。）",
     "id": "L5-belongings-noun"
   },
@@ -1508,14 +1508,14 @@
     "level": "L5",
     "word": "blur",
     "meaning": "noun/verb 模糊；使模糊不清",
-    "example": "Tears made my vision blur.（眼淚讓我的視線變模糊。）",
+    "example": "Tears blurred my vision. (眼淚模糊了我的視線。)",
     "id": "L5-blur-noun-verb"
   },
   {
     "level": "L5",
     "word": "bodily",
     "meaning": "adj. 人體的、身體的\nadv. 移動全身地；親身地；全體地、整體地",
-    "example": "Athletes should be extremely careful during training to avoid suffering bodily harm.(運動員在訓練時應特別小心，避免遭受身體的傷害)",
+    "example": "Athletes should be extremely careful during training to avoid suffering bodily harm. (運動員在訓練時應特別小心，避免遭受身體的傷害。)",
     "id": "L5-bodily-adj-adv"
   },
   {
@@ -1550,14 +1550,14 @@
     "level": "L5",
     "word": "boom",
     "meaning": "noun/verb 繁榮、增長、迅速發展\nnoun/verb 隆隆聲；發出隆隆聲、轟鳴",
-    "example": "The technology industry experienced a boom last decade. (科技行業在過去十年經歷了繁榮。)",
+    "example": "The technology industry experienced a boom last decade. (科技業在過去十年經歷了一波繁榮。)",
     "id": "L5-boom-noun-verb-noun-verb"
   },
   {
     "level": "L5",
     "word": "booth",
     "meaning": "noun 小亭、(有棚的)臨時貨攤、(餐廳裡的)隔間",
-    "example": "We bought tickets at the booth.（我們在攤位買票。）",
+    "example": "We bought tickets at the booth. (我們在售票亭買票。)",
     "id": "L5-booth-noun"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "L5",
     "word": "category",
     "meaning": "noun 種類、類別",
-    "example": "Books are organized by category in the library. (圖書館中的書按類別組織。)",
+    "example": "Books are organized by category in the library. (圖書館的書依類別排列。)",
     "id": "L5-category-noun"
   },
   {
@@ -1872,7 +1872,7 @@
     "level": "L5",
     "word": "checkbook",
     "meaning": "noun 支票簿",
-    "example": "She wrote the payment in her checkbook.（她把付款記在支票簿裡。）",
+    "example": "She recorded the payment in her checkbook. (她把這筆付款記在支票簿裡。)",
     "id": "L5-checkbook-noun"
   },
   {
@@ -2075,7 +2075,7 @@
     "level": "L5",
     "word": "communism",
     "meaning": "noun 共產主義",
-    "example": "The class discussed communism in history.（班上在歷史課討論共產主義。）",
+    "example": "The class discussed communism in history class. (班上在歷史課討論共產主義。)",
     "id": "L5-communism-noun"
   },
   {
@@ -2201,7 +2201,7 @@
     "level": "L5",
     "word": "constitutional",
     "meaning": "adj. 符合憲法的、憲法准許的；體質的",
-    "example": "The court discussed constitutional rights.（法院討論憲法權利。）",
+    "example": "The court discussed constitutional rights. (法院討論憲法保障的權利。)",
     "id": "L5-constitutional-adj"
   },
   {
@@ -2467,7 +2467,7 @@
     "level": "L5",
     "word": "descriptive",
     "meaning": "adj. 描寫的、敘述的",
-    "example": "Please write a descriptive paragraph.（請寫一段描述性的文章。）",
+    "example": "Please write a descriptive paragraph. (請寫一段描寫性的文字。)",
     "id": "L5-descriptive-adj"
   },
   {
@@ -2543,8 +2543,8 @@
   {
     "level": "L5",
     "word": "doorstep",
-    "meaning": "noun 門階",
-    "example": "A package was left on the doorstep.（包裹被放在門階上。）",
+    "meaning": "noun 門口台階",
+    "example": "A package was left on the doorstep. (包裹被放在門口台階上。)",
     "id": "L5-doorstep-noun"
   },
   {
@@ -2557,7 +2557,7 @@
   {
     "level": "L5",
     "word": "dough",
-    "meaning": "noun 麵糰",
+    "meaning": "noun 麵團",
     "example": "Knead the dough before baking the bread.（烤麵包前先揉麵團。）",
     "id": "L5-dough-noun"
   },
@@ -2599,7 +2599,7 @@
   {
     "level": "L5",
     "word": "eclipse",
-    "meaning": "noun 日蝕、月蝕；衰落\nverb 遮蔽、使黯然失色",
+    "meaning": "noun 日食、月食；衰落\nverb 遮蔽、使黯然失色",
     "example": "We watched the solar eclipse with special glasses.（我們戴著特殊眼鏡觀看日食。）",
     "id": "L5-eclipse-noun-verb"
   },
@@ -2796,7 +2796,7 @@
     "level": "L5",
     "word": "falter",
     "meaning": "verb 動搖、猶豫；蹣跚；結巴",
-    "example": "Her voice began to falter.（她的聲音開始顫抖。）",
+    "example": "Her voice began to falter. (她的聲音開始變得斷斷續續。)",
     "id": "L5-falter-verb"
   },
   {
@@ -2845,7 +2845,7 @@
     "level": "L5",
     "word": "filter",
     "meaning": "verb 過濾；穿透、滲入\nnoun 過濾器",
-    "example": "Use a filter to clean the water.（用濾器淨化水。）",
+    "example": "Use a filter to clean the water. (用過濾器淨化水。)",
     "id": "L5-filter-verb-noun"
   },
   {
@@ -2872,7 +2872,7 @@
   {
     "level": "L5",
     "word": "flap",
-    "meaning": "verb 拍打\nnoun 拍打聲；",
+    "meaning": "verb 拍打\nnoun 拍打聲；拍動",
     "example": "The bird began to flap its wings.（鳥開始拍動翅膀。）",
     "id": "L5-flap-verb-noun"
   },
@@ -3026,7 +3026,7 @@
   {
     "level": "L5",
     "word": "gathering",
-    "meaning": "noun 集會; 收集\nadj. 增加的",
+    "meaning": "noun 集會；收集\nadj. 增加的",
     "example": "The family gathering was warm and joyful.（家庭聚會溫馨又快樂。）",
     "id": "L5-gathering-noun-adj"
   },
@@ -3160,7 +3160,7 @@
     "level": "L5",
     "word": "grim",
     "meaning": "adj. 令人沮喪的、憂愁嚴肅的",
-    "example": "The news gave him a grim look.（這個消息讓他表情嚴肅。）",
+    "example": "The news made him look grim. (這個消息讓他表情嚴肅。)",
     "id": "L5-grim-adj"
   },
   {
@@ -3411,7 +3411,7 @@
   {
     "level": "L5",
     "word": "hostile",
-    "meaning": "adj 敵方的、懷敵意的",
+    "meaning": "adj. 敵方的、懷敵意的",
     "example": "The dog looked hostile at first.（那隻狗一開始看起來有敵意。）",
     "id": "L5-hostile-adj"
   },
@@ -3615,13 +3615,13 @@
     "level": "L5",
     "word": "jade",
     "meaning": "noun 玉、翡翠、玉器",
-    "example": "She wore a jade bracelet.（她戴著一只玉手鐲。）",
+    "example": "She wore a jade bracelet. (她戴著一個玉手鐲。)",
     "id": "L5-jade-noun"
   },
   {
     "level": "L5",
     "word": "janitor",
-    "meaning": "noun 門房、管理員",
+    "meaning": "noun 門房、管理員；清潔工、工友",
     "example": "The janitor cleaned the hallway.（清潔工打掃了走廊。）",
     "id": "L5-janitor-noun"
   },
@@ -3852,7 +3852,7 @@
   {
     "level": "L5",
     "word": "lottery",
-    "meaning": "noun 彩票抽獎",
+    "meaning": "noun 彩券；抽獎",
     "example": "He bought a lottery ticket.（他買了一張彩券。）",
     "id": "L5-lottery-noun"
   },
@@ -3895,7 +3895,7 @@
     "level": "L5",
     "word": "mainstream",
     "meaning": "noun (思想或行為的)主流",
-    "example": "This song became popular in mainstream music.（這首歌在主流音樂中變得流行。）",
+    "example": "This song became popular with mainstream audiences. (這首歌在主流聽眾間流行起來。)",
     "id": "L5-mainstream-noun"
   },
   {
@@ -4119,7 +4119,7 @@
     "level": "L5",
     "word": "modernize",
     "meaning": "verb 使(系統、建築等)現代化",
-    "example": "The city plans to modernize the old train station.（市政府計畫使舊火車站現代化。）",
+    "example": "The city plans to modernize the old train station. (市政府計畫把舊火車站現代化。)",
     "id": "L5-modernize-verb"
   },
   {
@@ -4294,7 +4294,7 @@
     "level": "L5",
     "word": "nibble",
     "meaning": "verb/noun 小口咬；一小口、(聚會中)點心",
-    "example": "The rabbit began to nibble the carrot.（兔子開始啃胡蘿蔔。）",
+    "example": "The rabbit began to nibble the carrot. (兔子開始小口咬胡蘿蔔。)",
     "id": "L5-nibble-verb-noun"
   },
   {
@@ -4762,7 +4762,7 @@
   {
     "level": "L5",
     "word": "perch",
-    "meaning": "verb/noun 棲息、坐在…(的邊緣)；(鳥)棲息地",
+    "meaning": "verb/noun 棲息、坐在…（的邊緣）；棲木、棲息地",
     "example": "A bird rested on the perch.（一隻鳥停在棲木上。）",
     "id": "L5-perch-verb-noun"
   },
@@ -4909,21 +4909,21 @@
   {
     "level": "L5",
     "word": "pocketbook",
-    "meaning": "noun （女用）手提包；財力；筆記本",
+    "meaning": "noun （女用）手提包、皮夾；財力；筆記本",
     "example": "She kept her money in a small pocketbook.（她把錢放在小皮夾裡。）",
     "id": "L5-pocketbook-noun"
   },
   {
     "level": "L5",
     "word": "poetic",
-    "meaning": "adj. 詩歌的、像詩ㄧ般的",
+    "meaning": "adj. 詩歌的、像詩一般的",
     "example": "The poem has a poetic feeling.（這首詩有詩意的感覺。）",
     "id": "L5-poetic-adj"
   },
   {
     "level": "L5",
     "word": "poke",
-    "meaning": "verb/noun 戳、探出、搜查、戳",
+    "meaning": "verb/noun 戳、探出、搜查",
     "example": "Do not poke the dog with a stick.（不要用棍子戳狗。）",
     "id": "L5-poke-verb-noun"
   },
@@ -5036,7 +5036,7 @@
     "level": "L5",
     "word": "prolong",
     "meaning": "verb 延長",
-    "example": "Do not prolong the argument.（不要延長爭論。）",
+    "example": "Do not prolong the argument. (不要讓爭論拖下去。)",
     "id": "L5-prolong-verb"
   },
   {
@@ -5239,14 +5239,14 @@
     "level": "L5",
     "word": "referee",
     "meaning": "noun/verb 裁判、調解人；擔任裁判",
-    "example": "The referee blew the whistle.（裁判吹了哨子。）",
+    "example": "The referee made a fair call during the match. (裁判在比賽中做出公正的判決。)",
     "id": "L5-referee-noun-verb"
   },
   {
     "level": "L5",
     "word": "refuge",
     "meaning": "noun 庇護、收容所",
-    "example": "The cave gave us refuge from the storm.（洞穴讓我們躲避暴風雨。）",
+    "example": "The travelers took refuge in a small inn during the storm. (旅客在暴風雨期間到一間小旅館避難。)",
     "id": "L5-refuge-noun"
   },
   {
@@ -5701,7 +5701,7 @@
     "level": "L5",
     "word": "shrine",
     "meaning": "noun 聖地、神廟",
-    "example": "We visited a mountain shrine.（我們參觀了一座山中神社。）",
+    "example": "We visited a mountain shrine. (我們參觀了一座山中神廟。)",
     "id": "L5-shrine-noun"
   },
   {
@@ -5918,7 +5918,7 @@
     "level": "L5",
     "word": "spectacle",
     "meaning": "noun 精彩的表演、壯觀的景象、眼鏡(複數)",
-    "example": "The fireworks were a beautiful spectacle.（煙火是一場美麗的壯觀景象。）",
+    "example": "The fireworks were a beautiful spectacle. (煙火是美麗的奇觀。)",
     "id": "L5-spectacle-noun"
   },
   {
@@ -6064,7 +6064,7 @@
   {
     "level": "L5",
     "word": "stereotype",
-    "meaning": "noun/verb 刻版印象；使…成為定型",
+    "meaning": "noun/verb 刻板印象；使…成為定型",
     "example": "It is unfair to judge people by a stereotype.（用刻板印象評斷人是不公平的。）",
     "id": "L5-stereotype-noun-verb"
   },
@@ -6275,7 +6275,7 @@
     "level": "L5",
     "word": "superstition",
     "meaning": "noun 迷信、迷信觀念",
-    "example": "Some people believe that breaking a mirror is a superstition.（有些人相信打破鏡子是不吉利的迷信。）",
+    "example": "Some people believe that breaking a mirror is a superstition. (有些人迷信打破鏡子會帶來厄運。)",
     "id": "L5-superstition-noun"
   },
   {
@@ -6471,7 +6471,7 @@
     "level": "L5",
     "word": "tile",
     "meaning": "noun/verb 磁磚、地磚、瓦片；鋪瓦、貼磁磚",
-    "example": "The bathroom floor is covered with tile.（浴室地板鋪著瓷磚。）",
+    "example": "The bathroom floor is covered with tile. (浴室地板鋪著磁磚。)",
     "id": "L5-tile-noun-verb"
   },
   {
@@ -6645,7 +6645,7 @@
   {
     "level": "L5",
     "word": "tyrant",
-    "meaning": "noun 暴君、君主專制",
+    "meaning": "noun 暴君、專制君主",
     "example": "The tyrant ruled the country cruelly.（暴君殘酷地統治國家。）",
     "id": "L5-tyrant-noun"
   },

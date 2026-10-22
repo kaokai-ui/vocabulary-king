@@ -338,7 +338,7 @@
   {
     "level": "L4",
     "word": "helicopter",
-    "meaning": "noun 直昇機",
+    "meaning": "noun 直升機",
     "example": "The helicopter landed on the hospital roof.（直升機降落在醫院屋頂。）",
     "id": "L4-helicopter-noun"
   },
@@ -388,7 +388,7 @@
     "level": "L4",
     "word": "mechanic",
     "meaning": "noun 機械工、修理工",
-    "example": "The mechanic fixed our car.（機械師修好了我們的車。）",
+    "example": "The mechanic fixed our car. (修車師傅修好了我們的車。)",
     "id": "L4-mechanic-noun"
   },
   {
@@ -619,14 +619,14 @@
     "level": "L6",
     "word": "sneaky",
     "meaning": "adj. 偷偷摸摸的",
-    "example": "That was a sneaky trick.（那是個鬼鬼祟祟的把戲。）",
+    "example": "That was a sneaky trick. (那是個狡猾的伎倆。)",
     "id": "L6-sneaky-adj"
   },
   {
     "level": "L6",
     "word": "stationery",
     "meaning": "noun 文具",
-    "example": "I bought stationery for school.（我買了學校用品。）",
+    "example": "I bought stationery for school. (我買了上學用的文具。)",
     "id": "L6-stationery-noun"
   },
   {
@@ -709,7 +709,7 @@
   {
     "level": "初級",
     "word": "babysitter",
-    "meaning": "noun 保姆",
+    "meaning": "noun 保母",
     "example": "The babysitter read a story to the children.（保母讀故事給孩子們聽。）",
     "id": "初級-babysitter-noun"
   },
@@ -794,7 +794,7 @@
     "level": "初級",
     "word": "classmate",
     "meaning": "noun 同班同學",
-    "example": "My classmate helped me with math.（我的同學幫我學數學。）",
+    "example": "My classmate helped me with math. (我的同班同學幫我學數學。)",
     "id": "初級-classmate-noun"
   },
   {
@@ -821,7 +821,7 @@
   {
     "level": "初級",
     "word": "could",
-    "meaning": "aux. can的過去式",
+    "meaning": "aux. can 的過去式\n（婉轉請求）可以",
     "example": "Could you open the window?（你可以打開窗戶嗎？）",
     "id": "初級-could-aux-can"
   },
@@ -850,7 +850,7 @@
     "level": "初級",
     "word": "dining room",
     "meaning": "noun 餐廳、飯廳",
-    "example": "We ate dinner in the dining room.（我們在餐廳吃晚餐。）",
+    "example": "We ate dinner in the dining room. (我們在飯廳吃晚餐。)",
     "id": "初級-dining-room-noun"
   },
   {
@@ -941,7 +941,7 @@
     "level": "初級",
     "word": "flat tire",
     "meaning": "noun 沒氣的輪胎",
-    "example": "We got a flat tire on the highway.（我們在高速公路上爆胎了。）",
+    "example": "We got a flat tire on the highway. (我們在高速公路上輪胎沒氣了。)",
     "id": "初級-flat-tire-noun"
   },
   {
@@ -983,7 +983,7 @@
     "level": "初級",
     "word": "Halloween",
     "meaning": "noun 萬聖節",
-    "example": "Children wear costumes on Halloween.（孩子們在萬聖節穿裝扮服。）",
+    "example": "Children wear costumes on Halloween. (孩子們在萬聖節會穿上特別的服裝。)",
     "id": "初級-halloween-noun"
   },
   {
@@ -1037,10 +1037,10 @@
   },
   {
     "level": "初級",
-    "word": "Hualian",
+    "word": "Hualien",
     "meaning": "noun 花蓮",
-    "example": "Hualian is famous for beautiful scenery.（花蓮以美麗風景聞名。）",
-    "id": "初級-hualian-noun"
+    "example": "Hualien is famous for its beautiful scenery. (花蓮以美麗的風景聞名。)",
+    "id": "初級-hualien-noun"
   },
   {
     "level": "初級",
@@ -1303,17 +1303,17 @@
   },
   {
     "level": "初級",
-    "word": "roller blade",
-    "meaning": "noun 直排輪鞋",
-    "example": "She learned to roller blade in the park.（她在公園學直排輪。）",
-    "id": "初級-roller-blade-noun"
+    "word": "rollerblade",
+    "meaning": "noun/verb 直排輪鞋；溜直排輪",
+    "example": "She learned to rollerblade in the park. (她在公園學溜直排輪。)",
+    "id": "初級-rollerblade-noun-verb"
   },
   {
     "level": "初級",
     "word": "roller skate",
-    "meaning": "noun 輪式溜冰鞋",
+    "meaning": "noun/verb 輪式溜冰鞋；溜輪鞋",
     "example": "The children roller skate after school.（孩子們放學後溜輪鞋。）",
-    "id": "初級-roller-skate-noun"
+    "id": "初級-roller-skate-noun-verb"
   },
   {
     "level": "初級",
@@ -1354,7 +1354,7 @@
     "level": "初級",
     "word": "soft drink",
     "meaning": "noun (不含酒精的)軟性飲料",
-    "example": "I ordered a soft drink.（我點了一杯汽水。）",
+    "example": "I ordered a soft drink. (我點了一杯軟性飲料。)",
     "id": "初級-soft-drink-noun"
   },
   {

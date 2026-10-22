@@ -3,7 +3,7 @@
     "level": "L5",
     "word": "category",
     "meaning": "類別、範疇",
-    "example": "Books are organized by category in the library. (圖書館中的書按類別組織。)",
+    "example": "Books are organized by category in the library. (圖書館的書按類別分類排列。)",
     "id": "L5-category-m122stnh"
   },
   {
@@ -156,9 +156,9 @@
   {
     "level": "L5",
     "word": "ace",
-    "meaning": "么點；王牌 ; 拿高分",
+    "meaning": "王牌；一分；考試拿高分",
     "example": "He aced the math test.（他數學考試拿了滿分。）",
-    "id": "L5-ace-m1314ia6"
+    "id": "L5-ace-m1mgjqr3"
   },
   {
     "level": "L5",
@@ -380,9 +380,9 @@
   {
     "level": "L5",
     "word": "arena",
-    "meaning": "競技場",
+    "meaning": "競技場；大型場館",
     "example": "The concert will be held in a large arena.（演唱會將在大型場館舉行。）",
-    "id": "L5-arena-mihlwq"
+    "id": "L5-arena-muxv7u1"
   },
   {
     "level": "L5",
@@ -408,9 +408,9 @@
   {
     "level": "L5",
     "word": "assault",
-    "meaning": "攻擊 vi.動武",
+    "meaning": "攻擊 n.攻擊；v.攻擊；動武",
     "example": "The victim reported the assault to the police.（受害者向警方報告了攻擊事件。）",
-    "id": "L5-assault-vi"
+    "id": "L5-assault-n-v"
   },
   {
     "level": "L5",
@@ -696,7 +696,7 @@
     "level": "L5",
     "word": "bodily",
     "meaning": "身體的",
-    "example": "Athletes should be extremely careful during training to avoid suffering bodily harm.(運動員在訓練時應特別小心，避免遭受身體的傷害)",
+    "example": "Athletes should be extremely careful during training to avoid suffering bodily harm. (運動員訓練時應特別小心，避免受到身體傷害。)",
     "id": "L5-bodily-mln9qz"
   },
   {
@@ -730,9 +730,9 @@
   {
     "level": "L5",
     "word": "booth",
-    "meaning": "小亭",
+    "meaning": "攤位；小亭；隔間",
     "example": "We bought tickets at the booth.（我們在攤位買票。）",
-    "id": "L5-booth-mg39a"
+    "id": "L5-booth-m1vbab7u"
   },
   {
     "level": "L5",
@@ -794,7 +794,7 @@
     "level": "L5",
     "word": "boyhood",
     "meaning": "少年時期",
-    "example": "He spent his boyhood in a small village.（他的童年在小村莊度過。）",
+    "example": "He spent his boyhood in a small village. (他在小村莊度過了自己的少年時期。)",
     "id": "L5-boyhood-mc0de5c"
   },
   {
@@ -1067,7 +1067,7 @@
     "level": "L5",
     "word": "cello",
     "meaning": "大提琴",
-    "example": "She plays the cello beautifully.（她大提琴拉得很美。）",
+    "example": "She plays the cello beautifully. (她的大提琴拉得很好聽。)",
     "id": "L5-cello-mdjpor"
   },
   {
@@ -1087,9 +1087,9 @@
   {
     "level": "L5",
     "word": "chant",
-    "meaning": "反覆地唱；吟誦",
+    "meaning": "反覆唱；吟誦；反覆呼喊",
     "example": "The fans began to chant the team’s name.（球迷開始高喊隊名。）",
-    "id": "L5-chant-m19v5rvs"
+    "id": "L5-chant-m1a0z1ko"
   },
   {
     "level": "L5",
@@ -1164,9 +1164,9 @@
   {
     "level": "L5",
     "word": "choir",
-    "meaning": "唱詩班",
+    "meaning": "合唱團；唱詩班",
     "example": "The choir sang at the church.（合唱團在教堂唱歌。）",
-    "id": "L5-choir-md5e39"
+    "id": "L5-choir-m1mhalnt"
   },
   {
     "level": "L5",
@@ -1332,9 +1332,9 @@
   {
     "level": "L5",
     "word": "commentator",
-    "meaning": "評論家",
+    "meaning": "評論家；解說員",
     "example": "The commentator explained the game clearly.（評論員清楚地解說比賽。）",
-    "id": "L5-commentator-mkxjg5"
+    "id": "L5-commentator-m6vbr9w"
   },
   {
     "level": "L5",
@@ -1760,7 +1760,7 @@
     "level": "L5",
     "word": "crossing",
     "meaning": "交叉點；十字路口",
-    "example": "Use the crossing to cross the street safely.（請走斑馬線安全過馬路。）",
+    "example": "Use the crossing to cross the street safely. (請走行人穿越道，安全過馬路。)",
     "id": "L5-crossing-m18jywvg"
   },
   {
@@ -2074,9 +2074,9 @@
   {
     "level": "L5",
     "word": "dreadful",
-    "meaning": "畏懼的；可怕的",
+    "meaning": "可怕的；令人畏懼的；糟糕的",
     "example": "The food at that restaurant was dreadful.（那家餐廳的食物很糟糕。）",
-    "id": "L5-dreadful-m1g1lc9m"
+    "id": "L5-dreadful-mgd9a47"
   },
   {
     "level": "L5",
@@ -2116,7 +2116,7 @@
   {
     "level": "L5",
     "word": "dwarf",
-    "meaning": "矮子 adj.矮小的",
+    "meaning": "小矮人；矮子 adj.矮小的",
     "example": "The story is about a brave dwarf.（這個故事是關於一位勇敢的矮人。）",
     "id": "L5-dwarf-adj"
   },
@@ -2158,9 +2158,9 @@
   {
     "level": "L5",
     "word": "elaborate",
-    "meaning": "精巧的 vi.vt.詳述",
+    "meaning": "詳盡的；精巧的 v.詳述",
     "example": "She gave an elaborate explanation.（她給了詳細的解釋。）",
-    "id": "L5-elaborate-vi-vt"
+    "id": "L5-elaborate-v"
   },
   {
     "level": "L5",
@@ -2417,9 +2417,9 @@
   {
     "level": "L5",
     "word": "fad",
-    "meaning": "時尚",
+    "meaning": "一時的風潮；短暫的流行",
     "example": "The toy became a short-lived fad.（那個玩具成了一時流行。）",
-    "id": "L5-fad-mhwd4"
+    "id": "L5-fad-mw9268u"
   },
   {
     "level": "L5",
@@ -2431,9 +2431,9 @@
   {
     "level": "L5",
     "word": "falter",
-    "meaning": "蹣跚；搖晃",
+    "meaning": "顫抖；變弱；蹣跚",
     "example": "Her voice began to falter.（她的聲音開始顫抖。）",
-    "id": "L5-falter-m7fa9ld"
+    "id": "L5-falter-mup2faz"
   },
   {
     "level": "L5",
@@ -2900,9 +2900,9 @@
   {
     "level": "L5",
     "word": "gulp",
-    "meaning": "狼吞虎嚥",
+    "meaning": "狼吞虎嚥；大口喝 v.；一大口 n.",
     "example": "He took a big gulp of water.（他大口喝了一口水。）",
-    "id": "L5-gulp-mev2h4p"
+    "id": "L5-gulp-v-n"
   },
   {
     "level": "L5",
@@ -2914,9 +2914,9 @@
   {
     "level": "L5",
     "word": "gut",
-    "meaning": "腸子；內臟；勇氣",
+    "meaning": "腸子；內臟；勇氣；直覺",
     "example": "Trust your gut feeling.（相信你的直覺。）",
-    "id": "L5-gut-m151s1cs"
+    "id": "L5-gut-mzzqrlx"
   },
   {
     "level": "L5",
@@ -3069,7 +3069,7 @@
     "level": "L5",
     "word": "hi-fi/high fidelity",
     "meaning": "高保真（指音響設備重現聲音的高度忠實性）",
-    "example": "The old stereo has hi-fi sound.（那台舊音響有高傳真的音質。）",
+    "example": "The old stereo has hi-fi sound. (那台舊音響有高保真的音質。)",
     "id": "L5-hi-fi-high-fidelity-m1nwcoc7"
   },
   {
@@ -3173,9 +3173,9 @@
   {
     "level": "L5",
     "word": "howl",
-    "meaning": "號叫",
+    "meaning": "嚎叫；咆哮 v./n.",
     "example": "The wolf began to howl at night.（狼在夜裡開始嚎叫。）",
-    "id": "L5-howl-mnbe4"
+    "id": "L5-howl-v-n"
   },
   {
     "level": "L5",
@@ -3208,9 +3208,9 @@
   {
     "level": "L5",
     "word": "imperial",
-    "meaning": "帝國的",
+    "meaning": "帝國的；皇家的",
     "example": "The palace had an imperial garden.（宮殿裡有皇家花園。）",
-    "id": "L5-imperial-me7po6"
+    "id": "L5-imperial-m3clp1s"
   },
   {
     "level": "L5",
@@ -3341,9 +3341,9 @@
   {
     "level": "L5",
     "word": "intent",
-    "meaning": "意圖 adj.熱切的",
+    "meaning": "意圖 n.；專注的；熱切的 adj.",
     "example": "She listened with an intent expression.（她專注地聽著。）",
-    "id": "L5-intent-adj"
+    "id": "L5-intent-n-adj"
   },
   {
     "level": "L5",
@@ -3362,9 +3362,9 @@
   {
     "level": "L5",
     "word": "interpretation",
-    "meaning": "闡明；翻譯",
+    "meaning": "解讀；詮釋；翻譯",
     "example": "Your interpretation of the poem is interesting.（你對這首詩的解讀很有趣。）",
-    "id": "L5-interpretation-mvpbbgi"
+    "id": "L5-interpretation-mkfd984"
   },
   {
     "level": "L5",
@@ -3517,7 +3517,7 @@
     "level": "L5",
     "word": "kin",
     "meaning": "親屬",
-    "example": "All my kin gathered for the wedding.（我的親族都聚集來參加婚禮。）",
+    "example": "All my kin gathered for the wedding. (我的親戚都聚集來參加婚禮。)",
     "id": "L5-kin-mnx8i"
   },
   {
@@ -3782,9 +3782,9 @@
   {
     "level": "L5",
     "word": "maintenance",
-    "meaning": "維持；保持",
+    "meaning": "保養；維持",
     "example": "Regular maintenance keeps the machine working.（定期保養能讓機器保持運作。）",
-    "id": "L5-maintenance-m7pj1kb"
+    "id": "L5-maintenance-m1chwmle"
   },
   {
     "level": "L5",
@@ -3831,9 +3831,9 @@
   {
     "level": "L5",
     "word": "marginal",
-    "meaning": "邊緣的",
+    "meaning": "邊緣的；微小的",
     "example": "The profit was only marginal.（利潤只是微小的。）",
-    "id": "L5-marginal-mls7pn"
+    "id": "L5-marginal-m1magx03"
   },
   {
     "level": "L5",
@@ -3845,9 +3845,9 @@
   {
     "level": "L5",
     "word": "marshal",
-    "meaning": "元帥；高級將官",
+    "meaning": "元帥；高級將官；典禮官",
     "example": "The marshal led the parade through the town.（典禮官帶領遊行隊伍穿過城鎮。）",
-    "id": "L5-marshal-m1bek2bw"
+    "id": "L5-marshal-m1nrfenn"
   },
   {
     "level": "L5",
@@ -3958,7 +3958,7 @@
     "level": "L5",
     "word": "mileage",
     "meaning": "里程數",
-    "example": "This car gets good mileage.（這輛車很省油。）",
+    "example": "This car gets good mileage. (這輛車的油耗表現很好。)",
     "id": "L5-mileage-mly3kp"
   },
   {
@@ -4062,9 +4062,9 @@
   {
     "level": "L5",
     "word": "monstrous",
-    "meaning": "似怪物的",
+    "meaning": "巨大的；似怪物的；可怕的",
     "example": "The storm caused monstrous waves.（暴風雨造成巨大的海浪。）",
-    "id": "L5-monstrous-maef0h5"
+    "id": "L5-monstrous-mr1dtvm"
   },
   {
     "level": "L5",
@@ -4104,9 +4104,9 @@
   {
     "level": "L5",
     "word": "mount",
-    "meaning": "登上 n.底座",
+    "meaning": "登上；騎上；安裝 v.；底座 n.",
     "example": "He mounted the horse carefully.（他小心地騎上馬。）",
-    "id": "L5-mount-n"
+    "id": "L5-mount-v-n"
   },
   {
     "level": "L5",
@@ -4188,9 +4188,9 @@
   {
     "level": "L5",
     "word": "nasty",
-    "meaning": "猥褻的；險惡的",
+    "meaning": "討厭的；難聞的；險惡的；猥褻的",
     "example": "The milk had a nasty smell.（牛奶有一股難聞的味道。）",
-    "id": "L5-nasty-mgbjh4w"
+    "id": "L5-nasty-m1s4g3ko"
   },
   {
     "level": "L5",
@@ -4349,9 +4349,9 @@
   {
     "level": "L5",
     "word": "observer",
-    "meaning": "觀測員",
+    "meaning": "觀察者；觀測員",
     "example": "The observer wrote down what he saw.（觀察者記下他所看到的事。）",
-    "id": "L5-observer-mkpk39"
+    "id": "L5-observer-mbndfpc"
   },
   {
     "level": "L5",
@@ -4377,9 +4377,9 @@
   {
     "level": "L5",
     "word": "odds",
-    "meaning": "機會",
+    "meaning": "機率；可能性",
     "example": "The odds of winning are very low.（獲勝的機率很低。）",
-    "id": "L5-odds-minpg"
+    "id": "L5-odds-mnlkidi"
   },
   {
     "level": "L5",
@@ -4405,9 +4405,9 @@
   {
     "level": "L5",
     "word": "optimism",
-    "meaning": "樂觀主義",
+    "meaning": "樂觀；樂觀主義",
     "example": "Her optimism helped the team stay hopeful.（她的樂觀幫助團隊保持希望。）",
-    "id": "L5-optimism-mdxwmz0"
+    "id": "L5-optimism-m329wa1"
   },
   {
     "level": "L5",
@@ -4503,16 +4503,16 @@
   {
     "level": "L5",
     "word": "outward",
-    "meaning": "往外去的(地)",
+    "meaning": "向外的；向外",
     "example": "The door opens outward.（這扇門向外開。）",
-    "id": "L5-outward-m1fjs0w2"
+    "id": "L5-outward-m15dkzs1"
   },
   {
     "level": "L5",
     "word": "outward(s)",
-    "meaning": "往外去；往外去的(地)",
+    "meaning": "向外；往外",
     "example": "The smoke spread outwards from the fire.（煙從火源向外擴散。）",
-    "id": "L5-outward-s-mm2ffn0"
+    "id": "L5-outward-s-m1kv052k"
   },
   {
     "level": "L5",
@@ -4587,9 +4587,9 @@
   {
     "level": "L5",
     "word": "pacific",
-    "meaning": "和平的",
+    "meaning": "和平的；平靜的",
     "example": "The pacific lake reflected the sky.（平靜的湖面映照著天空。）",
-    "id": "L5-pacific-mcuj25"
+    "id": "L5-pacific-m18kpyvx"
   },
   {
     "level": "L5",
@@ -4748,9 +4748,9 @@
   {
     "level": "L5",
     "word": "peg",
-    "meaning": "栓；樁",
+    "meaning": "掛釘；栓；樁",
     "example": "Hang your coat on the wooden peg.（把外套掛在木釘上。）",
-    "id": "L5-peg-mggr6h"
+    "id": "L5-peg-mwhilrv"
   },
   {
     "level": "L5",
@@ -4783,16 +4783,16 @@
   {
     "level": "L5",
     "word": "peril",
-    "meaning": "危險的事物",
+    "meaning": "危險；險境",
     "example": "The hikers were in great peril during the storm.（健行者在暴風雨中處於極大危險。）",
-    "id": "L5-peril-m1pmjs21"
+    "id": "L5-peril-m1q6w517"
   },
   {
     "level": "L5",
     "word": "perish",
-    "meaning": "消滅；枯萎",
+    "meaning": "死亡；枯萎；毀滅",
     "example": "Many plants will perish without water.（許多植物沒有水會死去。）",
-    "id": "L5-perish-mh3ow1p"
+    "id": "L5-perish-m1f7g1vw"
   },
   {
     "level": "L5",
@@ -4804,9 +4804,9 @@
   {
     "level": "L5",
     "word": "persist",
-    "meaning": "堅持(說)",
+    "meaning": "堅持；持續",
     "example": "If you persist, you will improve.（如果你堅持下去，你會進步。）",
-    "id": "L5-persist-m1i7lqj"
+    "id": "L5-persist-m2jdw4q"
   },
   {
     "level": "L5",
@@ -4881,9 +4881,9 @@
   {
     "level": "L5",
     "word": "plantation",
-    "meaning": "農園；造林地",
+    "meaning": "種植園；大農場",
     "example": "The plantation grew sugarcane.（那座種植園種甘蔗。）",
-    "id": "L5-plantation-mwp7rcu"
+    "id": "L5-plantation-m1gfgpvl"
   },
   {
     "level": "L5",
@@ -5085,7 +5085,7 @@
     "level": "L5",
     "word": "prolong",
     "meaning": "延長；拖長",
-    "example": "Do not prolong the argument.（不要延長爭論。）",
+    "example": "Do not prolong the argument. (不要拖延爭論。)",
     "id": "L5-prolong-m101kul7"
   },
   {
@@ -5126,9 +5126,9 @@
   {
     "level": "L5",
     "word": "prune",
-    "meaning": "梅乾 (2) vt.vi.修剪",
+    "meaning": "梅乾；修剪",
     "example": "She pruned the rose bushes in spring.（她春天修剪玫瑰叢。）",
-    "id": "L5-prune-2-vt-vi"
+    "id": "L5-prune-m1sgogv2"
   },
   {
     "level": "L5",
@@ -5203,9 +5203,9 @@
   {
     "level": "L5",
     "word": "rack",
-    "meaning": "架子 vt.把…放架子上 (2) vt.折磨；過度使用",
+    "meaning": "架子；把……放上架子；折磨；過度使用",
     "example": "Put the dishes on the rack.（把盤子放在架子上。）",
-    "id": "L5-rack-vt-2-vt"
+    "id": "L5-rack-mntf8xs"
   },
   {
     "level": "L5",
@@ -5252,9 +5252,9 @@
   {
     "level": "L5",
     "word": "rascal",
-    "meaning": "流氓；無賴",
+    "meaning": "小淘氣；流氓；無賴",
     "example": "That little rascal hid my shoes.（那個小淘氣藏了我的鞋。）",
-    "id": "L5-rascal-mfogkkc"
+    "id": "L5-rascal-m1e69zwb"
   },
   {
     "level": "L5",
@@ -5434,9 +5434,9 @@
   {
     "level": "L5",
     "word": "resort",
-    "meaning": "訴諸於… n.渡假勝地",
+    "meaning": "訴諸（resort to）；度假勝地",
     "example": "We stayed at a beach resort.（我們住在海邊度假村。）",
-    "id": "L5-resort-n"
+    "id": "L5-resort-resort-to"
   },
   {
     "level": "L5",
@@ -5525,9 +5525,9 @@
   {
     "level": "L5",
     "word": "rigid",
-    "meaning": "嚴苛的",
+    "meaning": "僵硬的；嚴格的；不靈活的",
     "example": "The rules are too rigid.（這些規則太僵化。）",
-    "id": "L5-rigid-mdc3b1"
+    "id": "L5-rigid-m13dtpld"
   },
   {
     "level": "L5",
@@ -5581,9 +5581,9 @@
   {
     "level": "L5",
     "word": "rod",
-    "meaning": "棍子",
+    "meaning": "棒子；桿；釣竿",
     "example": "He caught the fish with a long rod.（他用長釣竿釣到魚。）",
-    "id": "L5-rod-mibs3"
+    "id": "L5-rod-m1y3ric5"
   },
   {
     "level": "L5",
@@ -5707,9 +5707,9 @@
   {
     "level": "L5",
     "word": "scramble",
-    "meaning": "爬行 vt.倉促湊成",
+    "meaning": "攀爬；倉促湊成",
     "example": "The children scrambled up the hill.（孩子們匆忙爬上山丘。）",
-    "id": "L5-scramble-vt"
+    "id": "L5-scramble-m1obttu7"
   },
   {
     "level": "L5",
@@ -5889,9 +5889,9 @@
   {
     "level": "L5",
     "word": "shrine",
-    "meaning": "聖壇",
+    "meaning": "神殿；神社；聖地",
     "example": "We visited a mountain shrine.（我們參觀了一座山中神社。）",
-    "id": "L5-shrine-mmbe9"
+    "id": "L5-shrine-mzncdbv"
   },
   {
     "level": "L5",
@@ -5973,9 +5973,9 @@
   {
     "level": "L5",
     "word": "sloppy",
-    "meaning": "草率的",
+    "meaning": "潦草的；草率的；邋遢的",
     "example": "His handwriting is sloppy.（他的字跡很潦草。）",
-    "id": "L5-sloppy-mjskbq"
+    "id": "L5-sloppy-m1ytprz2"
   },
   {
     "level": "L5",
@@ -6064,16 +6064,16 @@
   {
     "level": "L5",
     "word": "soften",
-    "meaning": "變柔軟",
+    "meaning": "（使）變軟；緩和",
     "example": "Heat will soften the butter.（加熱會使奶油變軟。）",
-    "id": "L5-soften-mky8b9"
+    "id": "L5-soften-m1xrw0mv"
   },
   {
     "level": "L5",
     "word": "sole",
-    "meaning": "鞋底 (2) adj.單獨的",
+    "meaning": "鞋底；單獨的；唯一的",
     "example": "The sole of my shoe is worn out.（我的鞋底磨壞了。）",
-    "id": "L5-sole-2-adj"
+    "id": "L5-sole-m1veimnl"
   },
   {
     "level": "L5",
@@ -6190,9 +6190,9 @@
   {
     "level": "L5",
     "word": "squash",
-    "meaning": "南瓜；回力球 vt.vi.n. 擠壓",
+    "meaning": "南瓜；回力球；擠壓",
     "example": "I cooked squash for dinner.（我晚餐煮了南瓜。）",
-    "id": "L5-squash-vt-vi-n"
+    "id": "L5-squash-m1k7hzjy"
   },
   {
     "level": "L5",
@@ -6491,9 +6491,9 @@
   {
     "level": "L5",
     "word": "substantial",
-    "meaning": "真實的；大量的",
+    "meaning": "大量的；實質的；堅固的",
     "example": "The project needs a substantial amount of money.（這個專案需要相當多的錢。）",
-    "id": "L5-substantial-mg6t6pq"
+    "id": "L5-substantial-mqh3vpx"
   },
   {
     "level": "L5",
@@ -6554,9 +6554,9 @@
   {
     "level": "L5",
     "word": "suppress",
-    "meaning": "鎮壓",
+    "meaning": "壓抑；鎮壓",
     "example": "He tried to suppress his anger.（他試著壓抑怒氣。）",
-    "id": "L5-suppress-mplut"
+    "id": "L5-suppress-m5mw2g2"
   },
   {
     "level": "L5",
@@ -6582,9 +6582,9 @@
   {
     "level": "L5",
     "word": "sustain",
-    "meaning": "支撐",
+    "meaning": "維持；支撐",
     "example": "Good food can sustain your energy.（好的食物能維持你的能量。）",
-    "id": "L5-sustain-mhrgh"
+    "id": "L5-sustain-m7pmofc"
   },
   {
     "level": "L5",
@@ -6785,9 +6785,9 @@
   {
     "level": "L5",
     "word": "tin",
-    "meaning": "錫",
+    "meaning": "錫；罐頭；鐵罐",
     "example": "The soup came in a tin can.（湯裝在鐵罐裡。）",
-    "id": "L5-tin-mt2j"
+    "id": "L5-tin-m1dtxxvt"
   },
   {
     "level": "L5",
@@ -6897,9 +6897,9 @@
   {
     "level": "L5",
     "word": "treasury",
-    "meaning": "寶庫",
+    "meaning": "國庫；寶庫",
     "example": "The money was kept in the treasury.（錢被存放在國庫裡。）",
-    "id": "L5-treasury-mg5th"
+    "id": "L5-treasury-m1x7b8wg"
   },
   {
     "level": "L5",

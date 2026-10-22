@@ -23,7 +23,7 @@
   {
     "level": "中高級",
     "word": "alloy",
-    "meaning": "noun/verb 合金；把...鑄成合金\nverb 把(價值)降低、損壞",
+    "meaning": "noun/verb 合金；把……鑄成合金\nverb 把（價值）降低、損壞",
     "example": "Bronze is an alloy of copper and tin.（青銅是銅和錫的合金。）",
     "id": "中高級-alloy-noun-verb-verb"
   },
@@ -191,7 +191,7 @@
   {
     "level": "中高級",
     "word": "ascribe",
-    "meaning": "verb 把...歸因於、認為...具有",
+    "meaning": "verb 把……歸因於、認為……具有",
     "example": "He ascribed his success to hard work.（他把成功歸因於努力。）",
     "id": "中高級-ascribe-verb"
   },
@@ -241,7 +241,7 @@
     "level": "中高級",
     "word": "attempted",
     "meaning": "adj. (犯罪)未遂的",
-    "example": "The attempted robbery failed.（那起搶劫未遂失敗了。）",
+    "example": "The attempted robbery failed. (那起搶劫未遂案失敗了。)",
     "id": "中高級-attempted-adj"
   },
   {
@@ -332,7 +332,7 @@
     "level": "中高級",
     "word": "bail",
     "meaning": "noun/verb 保釋金；獲得保釋",
-    "example": "The judge set bail at ten thousand dollars.（法官把保釋金訂為一萬元。）",
+    "example": "The judge set bail at ten thousand dollars. (法官把保釋金訂為一萬美元。)",
     "id": "中高級-bail-noun-verb"
   },
   {
@@ -443,7 +443,7 @@
   {
     "level": "中高級",
     "word": "binding",
-    "meaning": "adj. 必須遵守的，有法律約束力的\nnoun (書籍的)封皮、鑲邊",
+    "meaning": "adj. 必須遵守的、有法律約束力的\nnoun （書籍的）封皮、鑲邊、裝訂",
     "example": "The binding of this book is strong.（這本書的裝訂很牢固。）",
     "id": "中高級-binding-adj-noun"
   },
@@ -492,7 +492,7 @@
   {
     "level": "中高級",
     "word": "bob",
-    "meaning": "verb/noun (在水中)快速上下擺動、快速移動；快速點頭或鞠躬\nverb/noun (水中)快速擺動；(女)齊短髮、快速點頭",
+    "meaning": "verb/noun （在水中）快速上下浮動、快速移動；快速點頭或鞠躬\nverb/noun （水中）快速浮動；（女式）齊短髮、快速點頭",
     "example": "The boat began to bob on the water.（小船開始在水面上下擺動。）",
     "id": "中高級-bob-verb-noun-verb-noun"
   },
@@ -500,7 +500,7 @@
     "level": "中高級",
     "word": "boiling",
     "meaning": "adj. 炙熱的",
-    "example": "The water is boiling.（水正在沸騰。）",
+    "example": "The boiling water burned his hand. (沸水燙傷了他的手。)",
     "id": "中高級-boiling-adj"
   },
   {
@@ -563,7 +563,7 @@
     "level": "中高級",
     "word": "break-in",
     "meaning": "noun 闖入、入室偷竊",
-    "example": "There was a break-in at the store last night.（昨晚那家店發生闖入盜竊。）",
+    "example": "There was a break-in at the store last night. (昨晚那家店發生闖空門竊案。)",
     "id": "中高級-break-in-noun"
   },
   {
@@ -640,7 +640,7 @@
     "level": "中高級",
     "word": "bureaucratic",
     "meaning": "adj. 官僚的、繁文縟節的",
-    "example": "The process was slow and bureaucratic.（這個流程緩慢又官僚。）",
+    "example": "The process was slow and bureaucratic. (這個流程緩慢又充滿官僚作風。)",
     "id": "中高級-bureaucratic-adj"
   },
   {
@@ -654,7 +654,7 @@
     "level": "中高級",
     "word": "bypass",
     "meaning": "verb/noun 繞過、避開；旁道",
-    "example": "Drivers used a side road to bypass the traffic.（駕駛走小路避開交通。）",
+    "example": "Drivers used a side road to bypass the traffic. (駕駛走小路避開車潮。)",
     "id": "中高級-bypass-verb-noun"
   },
   {
@@ -737,8 +737,8 @@
   {
     "level": "中高級",
     "word": "challenged",
-    "meaning": "adj. [委婉說法]有殘疾的",
-    "example": "The school supports challenged students.（學校支持有特殊需求的學生。）",
+    "meaning": "adj. [委婉說法] 有身心障礙的",
+    "example": "The school supports challenged students. (學校支持有身心障礙的學生。)",
     "id": "中高級-challenged-adj"
   },
   {
@@ -835,7 +835,7 @@
   {
     "level": "中高級",
     "word": "closed",
-    "meaning": "adj. 閉關自守的、不接受新思想的",
+    "meaning": "adj. 關閉的、閉關自守的、不接受新思想的",
     "example": "The store is closed today.（這家店今天關門。）",
     "id": "中高級-closed-adj"
   },
@@ -892,7 +892,7 @@
     "level": "中高級",
     "word": "comedown",
     "meaning": "noun 衰落、落魄",
-    "example": "After the excitement, there was a quiet comedown.（興奮過後，情緒慢慢平靜下來。）",
+    "example": "After the excitement, there was a quiet comedown. (興奮過後，是一陣淡淡的失落。)",
     "id": "中高級-comedown-noun"
   },
   {
@@ -933,14 +933,14 @@
   {
     "level": "中高級",
     "word": "compelling",
-    "meaning": "adj. (理由或論證等)令人信服的、很有說服力的；引人入勝的、令人信服的",
+    "meaning": "adj. （理由或論證等）令人信服的、很有說服力的；引人入勝的",
     "example": "The evidence was compelling.（證據很有說服力。）",
     "id": "中高級-compelling-adj"
   },
   {
     "level": "中高級",
     "word": "competing",
-    "meaning": "adj. 只能選其一的、不能同時接受的",
+    "meaning": "adj. 互相競爭的、只能擇一的、不能同時接受的",
     "example": "Three competing teams joined the contest.（三支競爭隊伍參加比賽。）",
     "id": "中高級-competing-adj"
   },
@@ -969,14 +969,14 @@
     "level": "中高級",
     "word": "compulsory",
     "meaning": "adj. 義務的、必修的、強制的",
-    "example": "Attendance is compulsory.（出席是強制的。）",
+    "example": "Attendance is compulsory. (每個人都必須出席。)",
     "id": "中高級-compulsory-adj"
   },
   {
     "level": "中高級",
     "word": "computing",
     "meaning": "noun 電腦操作、電腦學",
-    "example": "She studies computing at college.（她在大學讀計算機相關科目。）",
+    "example": "She studies computing at college. (她在大學讀資訊相關科系。)",
     "id": "中高級-computing-noun"
   },
   {
@@ -1038,7 +1038,7 @@
   {
     "level": "中高級",
     "word": "considering",
-    "meaning": "prep./conj./adv. 考慮到、就...而言、鑒於",
+    "meaning": "prep./conj./adv. 考慮到、就……而言、鑑於",
     "example": "Considering the weather, we should stay home.（考慮到天氣，我們應該待在家。）",
     "id": "中高級-considering-prep-conj-adv"
   },
@@ -1129,7 +1129,7 @@
   {
     "level": "中高級",
     "word": "contingent",
-    "meaning": "noun (代表某一組織或國家的)代表團、(軍隊的)小分隊；偶然事件\nadj. 視...而定的、取決於...的；偶然的、可能的",
+    "meaning": "noun （代表某一組織或國家的）代表團、（軍隊的）小分隊；偶然事件\nadj. 視……而定的、取決於……的；偶然的、可能的",
     "example": "A contingent of soldiers arrived.（一支士兵分隊抵達。）",
     "id": "中高級-contingent-noun-adj"
   },
@@ -1319,7 +1319,7 @@
     "level": "中高級",
     "word": "cult",
     "meaning": "noun 狂熱崇拜、邪教\nadj. 受特定群體歡迎的",
-    "example": "The book describes an ancient cult.（這本書描述了一個古老的宗教團體。）",
+    "example": "The book describes an ancient cult. (這本書描述了一個古老的宗教團體。)",
     "id": "中高級-cult-noun-adj"
   },
   {
@@ -1339,7 +1339,7 @@
   {
     "level": "中高級",
     "word": "cutting",
-    "meaning": "noun 剪報、插枝\nadj. 刻薄的",
+    "meaning": "noun 剪報、插枝\nadj. 刻薄的、切割用的",
     "example": "The cutting tool is very sharp.（這個切割工具很鋒利。）",
     "id": "中高級-cutting-noun-adj"
   },
@@ -1381,8 +1381,8 @@
   {
     "level": "中高級",
     "word": "dealing",
-    "meaning": "noun 交易、商業往來",
-    "example": "His dealing with customers is polite.（他和顧客打交道很有禮貌。）",
+    "meaning": "noun 交易、商業往來、人際應對",
+    "example": "His dealings with customers are polite. (他和顧客往來時很有禮貌。)",
     "id": "中高級-dealing-noun"
   },
   {
@@ -1438,7 +1438,7 @@
     "level": "中高級",
     "word": "deduct",
     "meaning": "verb 扣除",
-    "example": "The store will deduct ten dollars from the price.（商店會從價格中扣掉十元。）",
+    "example": "The store will deduct ten dollars from the price. (商店會從價格中扣掉十美元。)",
     "id": "中高級-deduct-verb"
   },
   {
@@ -1585,7 +1585,7 @@
     "level": "中高級",
     "word": "deterioration",
     "meaning": "noun 惡化",
-    "example": "The deterioration of the road was obvious.（道路惡化很明顯。）",
+    "example": "The deterioration of the road was obvious. (道路狀況明顯變差。)",
     "id": "中高級-deterioration-noun"
   },
   {
@@ -1647,9 +1647,9 @@
   {
     "level": "中高級",
     "word": "diffuse",
-    "meaning": "verb 擴散、散佈、(光)漫射",
-    "example": "The light was diffuse and soft.（光線散開且柔和。）",
-    "id": "中高級-diffuse-verb"
+    "meaning": "verb 擴散、散布、（光）漫射\nadj. （光線）漫射的、柔和分散的",
+    "example": "The light was diffuse and soft. (光線漫射而柔和。)",
+    "id": "中高級-diffuse-verb-adj"
   },
   {
     "level": "中高級",
@@ -1753,7 +1753,7 @@
     "level": "中高級",
     "word": "distributed",
     "meaning": "adj. [電腦]分散式的、分布的",
-    "example": "The food was distributed to families.（食物被分發給家庭。）",
+    "example": "The company has a distributed network of offices. (這家公司在各地設有分散的辦公室。)",
     "id": "中高級-distributed-adj"
   },
   {
@@ -1787,7 +1787,7 @@
   {
     "level": "中高級",
     "word": "domain",
-    "meaning": "noun 領域、範圍",
+    "meaning": "noun 領域、範圍、網域",
     "example": "This website uses a short domain name.（這個網站使用簡短的網域名稱。）",
     "id": "中高級-domain-noun"
   },
@@ -1864,7 +1864,7 @@
   {
     "level": "中高級",
     "word": "edged",
-    "meaning": "adj. 有稜(邊)的、有刀刃的",
+    "meaning": "adj. 有稜（邊）的、有刀刃的；邊緣鑲有……的",
     "example": "The road was edged with flowers.（道路兩旁種著花。）",
     "id": "中高級-edged-adj"
   },
@@ -2326,7 +2326,7 @@
   {
     "level": "中高級",
     "word": "fellowship",
-    "meaning": "noun 交情、合夥關係、團體",
+    "meaning": "noun 交情、合夥關係、團體；研究獎助金",
     "example": "She received a research fellowship.（她獲得研究獎助金。）",
     "id": "中高級-fellowship-noun"
   },
@@ -2593,7 +2593,7 @@
     "level": "中高級",
     "word": "ghetto",
     "meaning": "noun 貧民區",
-    "example": "The family lived in a poor ghetto.（那個家庭住在貧困的聚居區。）",
+    "example": "The family lived in a poor ghetto. (那個家庭住在貧民區。)",
     "id": "中高級-ghetto-noun"
   },
   {
@@ -2649,7 +2649,7 @@
     "level": "中高級",
     "word": "going",
     "meaning": "noun/adj. 離去、進展；進行中的",
-    "example": "How is your project going?（你的專案進展如何？）",
+    "example": "The going was slow on the steep path. (在陡峭的山路上走起來很慢。)",
     "id": "中高級-going-noun-adj"
   },
   {
@@ -2662,7 +2662,7 @@
   {
     "level": "中高級",
     "word": "gore",
-    "meaning": "verb/noun (動物)用角牴破；傷口凝血",
+    "meaning": "verb/noun （動物）用角抵破；傷口凝血；（電影中的）血腥暴力畫面",
     "example": "The movie showed too much gore.（那部電影有太多血腥畫面。）",
     "id": "中高級-gore-verb-noun"
   },
@@ -2698,7 +2698,7 @@
     "level": "中高級",
     "word": "guaranteed",
     "meaning": "adj. 必定的、保證的",
-    "example": "This product is guaranteed for one year.（這項產品保固一年。）",
+    "example": "This product has a guaranteed one-year warranty. (這項產品保證享有一年保固。)",
     "id": "中高級-guaranteed-adj"
   },
   {
@@ -2789,7 +2789,7 @@
     "level": "中高級",
     "word": "haven",
     "meaning": "noun 避風港、避難所",
-    "example": "The island became a safe haven for birds.（這座島成了鳥類的安全棲地。）",
+    "example": "The island became a safe haven for birds. (這座島成了鳥類安全的庇護所。)",
     "id": "中高級-haven-noun"
   },
   {
@@ -2803,7 +2803,7 @@
     "level": "中高級",
     "word": "heading",
     "meaning": "noun 標題",
-    "example": "Write the title as the heading.（把標題寫成標頭。）",
+    "example": "Use the title as the heading. (將標題作為章節標題。)",
     "id": "中高級-heading-noun"
   },
   {
@@ -2894,7 +2894,7 @@
     "level": "中高級",
     "word": "holding",
     "meaning": "noun 持有股份、私有財產",
-    "example": "The company sold its land holdings.（公司出售了土地持有資產。）",
+    "example": "The company sold its land holdings. (公司出售了其持有的土地。)",
     "id": "中高級-holding-noun"
   },
   {
@@ -3251,7 +3251,7 @@
     "level": "中高級",
     "word": "insurer",
     "meaning": "noun 承保人、保險公司",
-    "example": "The insurer paid for the damage.（保險公司支付了損失。）",
+    "example": "The insurer paid for the damage. (保險公司賠償了損失。)",
     "id": "中高級-insurer-noun"
   },
   {
@@ -3279,7 +3279,7 @@
     "level": "中高級",
     "word": "inter",
     "meaning": "verb 埋葬(遺體)",
-    "example": "They will inter the soldier with honor.（他們將以榮譽安葬那名士兵。）",
+    "example": "They will inter the soldier with honor. (他們將隆重安葬那名士兵。)",
     "id": "中高級-inter-verb"
   },
   {
@@ -3342,7 +3342,7 @@
     "level": "中高級",
     "word": "invariable",
     "meaning": "adj. 始終如一的、永無變化的",
-    "example": "Her answer was invariable.（她的回答始終不變。）",
+    "example": "The rule is invariable. (這項規則始終不變。)",
     "id": "中高級-invariable-adj"
   },
   {
@@ -3390,7 +3390,7 @@
   {
     "level": "中高級",
     "word": "jerk",
-    "meaning": "verb 猛地一拉(推、扔、動)\nnoun 笨蛋",
+    "meaning": "verb 猛地一拉（推、扔、動）\nnoun 笨蛋；猛然一震",
     "example": "The car stopped with a sudden jerk.（車子突然一震停下。）",
     "id": "中高級-jerk-verb-noun"
   },
@@ -3566,7 +3566,7 @@
     "level": "中高級",
     "word": "lesser",
     "meaning": "adj. 較小的、次要的",
-    "example": "Choose the lesser of two problems.（在兩個問題中選較小的那個。）",
+    "example": "Choose the lesser of two evils. (兩害相權取其輕。)",
     "id": "中高級-lesser-adj"
   },
   {
@@ -3671,7 +3671,7 @@
     "level": "中高級",
     "word": "llama",
     "meaning": "noun 美洲駝",
-    "example": "A llama stood on the farm.（農場裡有一隻羊駝。）",
+    "example": "A llama stood on the farm. (農場裡有一隻駱馬。)",
     "id": "中高級-llama-noun"
   },
   {
@@ -3776,7 +3776,7 @@
     "level": "中高級",
     "word": "magistrate",
     "meaning": "noun 地方執法官",
-    "example": "The magistrate listened to the case.（地方官／法官聽取了案件。）",
+    "example": "The magistrate heard the case. (地方執法官審理了這個案件。)",
     "id": "中高級-magistrate-noun"
   },
   {
@@ -3797,7 +3797,7 @@
     "level": "中高級",
     "word": "maneuver",
     "meaning": "verb/noun 操縱、控制；策略、花招、軍事演習",
-    "example": "The pilot made a careful maneuver.（飛行員做了一個小心的操作。）",
+    "example": "The pilot performed a careful maneuver. (飛行員做了一個謹慎的機動動作。)",
     "id": "中高級-maneuver-verb-noun"
   },
   {
@@ -3880,7 +3880,7 @@
   {
     "level": "中高級",
     "word": "millimeter",
-    "meaning": "noun 毫米、千分之ㄧ米",
+    "meaning": "noun 毫米、千分之一米",
     "example": "One millimeter is very small.（一毫米很小。）",
     "id": "中高級-millimeter-noun"
   },
@@ -3972,7 +3972,7 @@
     "level": "中高級",
     "word": "mounted",
     "meaning": "adj. (尤指士兵或警官)騎馬的、安裝好的",
-    "example": "The mounted police rode through the park.（騎警騎馬穿過公園。）",
+    "example": "The mounted police rode through the park. (騎警穿過公園。)",
     "id": "中高級-mounted-adj"
   },
   {
@@ -4048,8 +4048,8 @@
   {
     "level": "中高級",
     "word": "newly",
-    "meaning": "adv. 新當選的、新成立的",
-    "example": "The room was newly painted.（這個房間剛粉刷過。）",
+    "meaning": "adv. 新近、最近；剛剛",
+    "example": "The room was newly painted. (這個房間剛粉刷過。)",
     "id": "中高級-newly-adv"
   },
   {
@@ -4063,7 +4063,7 @@
     "level": "中高級",
     "word": "nick",
     "meaning": "verb/noun 使有缺口；刻痕；關鍵時刻",
-    "example": "He cut his finger with a small nick.（他的手指被割了一個小口。）",
+    "example": "He got a small nick on his finger. (他的手指上有一道小傷口。)",
     "id": "中高級-nick-verb-noun"
   },
   {
@@ -4098,7 +4098,7 @@
     "level": "中高級",
     "word": "notably",
     "meaning": "adv. 尤其、特別、非常",
-    "example": "Several students improved, notably Tom.（幾位學生進步了，尤其是 Tom。）",
+    "example": "Several students improved, notably Tom. (幾位學生進步了，尤其是湯姆。)",
     "id": "中高級-notably-adv"
   },
   {
@@ -4357,7 +4357,7 @@
     "level": "中高級",
     "word": "paid",
     "meaning": "adj. 付費的、有報酬的",
-    "example": "She paid the bill.（她付了帳單。）",
+    "example": "She has a well-paid job. (她有一份薪水優渥的工作。)",
     "id": "中高級-paid-adj"
   },
   {
@@ -4419,7 +4419,7 @@
   {
     "level": "中高級",
     "word": "passing",
-    "meaning": "adj./noun 暫時的、瞬間的；(時間)流逝",
+    "meaning": "adj./noun 暫時的、瞬間的；（時間）流逝；去世",
     "example": "His passing made the family sad.（他的去世讓家人悲傷。）",
     "id": "中高級-passing-adj-noun"
   },
@@ -4462,7 +4462,7 @@
     "level": "中高級",
     "word": "penis",
     "meaning": "noun 陰莖",
-    "example": "The doctor explained the injury to the penis in a medical way.（醫生以醫學方式說明陰莖受傷情況。）",
+    "example": "The doctor explained the injury to the penis in medical terms. (醫生以醫學術語說明陰莖受傷的情況。)",
     "id": "中高級-penis-noun"
   },
   {
@@ -4566,22 +4566,22 @@
   {
     "level": "中高級",
     "word": "pickup",
-    "meaning": "noun 取（貨）、接（人）；好轉",
+    "meaning": "noun 取（貨）、接（人）；小貨車；好轉",
     "example": "He drives a pickup truck.（他開一輛小型貨卡。）",
     "id": "中高級-pickup-noun"
   },
   {
     "level": "中高級",
     "word": "piercing",
-    "meaning": "adj. 銳利的、刻骨的",
+    "meaning": "adj. 銳利的、刻骨的\nnoun 穿洞飾品、穿洞",
     "example": "She has a nose piercing.（她有鼻環穿孔。）",
-    "id": "中高級-piercing-adj"
+    "id": "中高級-piercing-adj-noun"
   },
   {
     "level": "中高級",
     "word": "plaster",
     "meaning": "noun/verb 水泥、石膏；用水泥抹牆、貼滿、塗滿",
-    "example": "The doctor put plaster on the broken arm.（醫生在斷臂上打石膏。）",
+    "example": "The doctor put plaster on the broken arm. (醫生在骨折的手臂上打石膏。)",
     "id": "中高級-plaster-noun-verb"
   },
   {
@@ -4693,7 +4693,7 @@
     "level": "中高級",
     "word": "preclude",
     "meaning": "verb 使行不通、防止、排除",
-    "example": "The rule may preclude late applications.（這項規定可能排除逾期申請。）",
+    "example": "The rule may preclude late applications. (這項規定可能使逾期申請無法受理。)",
     "id": "中高級-preclude-verb"
   },
   {
@@ -4741,7 +4741,7 @@
   {
     "level": "中高級",
     "word": "premium",
-    "meaning": "noun 保險費\nadj. 稀少、優質的",
+    "meaning": "noun 保險費、額外費用、溢價\nadj. 稀少的、優質的",
     "example": "You must pay a premium for better service.（你必須為更好的服務支付額外費用。）",
     "id": "中高級-premium-noun-adj"
   },
@@ -4763,14 +4763,14 @@
     "level": "中高級",
     "word": "presumably",
     "meaning": "adv. 很可能、大概",
-    "example": "Presumably, he missed the train.（推測他錯過了火車。）",
+    "example": "Presumably, he missed the train. (他大概錯過了火車。)",
     "id": "中高級-presumably-adv"
   },
   {
     "level": "中高級",
     "word": "pretext",
     "meaning": "noun 藉口、託辭",
-    "example": "He used homework as a pretext to avoid the party.（他用作業作為不去派對的藉口。）",
+    "example": "He used homework as a pretext to avoid the party. (他以作業為藉口不去派對。)",
     "id": "中高級-pretext-noun"
   },
   {
@@ -4833,7 +4833,7 @@
     "level": "中高級",
     "word": "proceeds",
     "meaning": "noun 收益",
-    "example": "The proceeds from the sale will go to charity.（義賣所得將捐給慈善機構。）",
+    "example": "The proceeds from the sale will go to charity. (出售所得款項將捐給慈善機構。)",
     "id": "中高級-proceeds-noun"
   },
   {
@@ -4923,7 +4923,7 @@
   {
     "level": "中高級",
     "word": "provision",
-    "meaning": "noun/verb 供給、供應品；為…提供物品",
+    "meaning": "noun/verb 供給、供應品；（法律或合約中的）條款；為……提供物品",
     "example": "The contract includes a safety provision.（合約包含一項安全條款。）",
     "id": "中高級-provision-noun-verb"
   },
@@ -5001,7 +5001,7 @@
     "level": "中高級",
     "word": "putt",
     "meaning": "noun/verb (高爾夫球的)推球入洞；輕輕擊球",
-    "example": "He missed an easy putt.（他錯過了一個簡單的推桿。）",
+    "example": "He missed an easy putt. (他沒把一個簡單的推桿推進洞。)",
     "id": "中高級-putt-noun-verb"
   },
   {
@@ -5078,7 +5078,7 @@
     "level": "中高級",
     "word": "racing",
     "meaning": "noun 賽馬、速度比賽",
-    "example": "He enjoys racing cars.（他喜歡賽車。）",
+    "example": "He enjoys watching car racing. (他喜歡看賽車比賽。)",
     "id": "中高級-racing-noun"
   },
   {
@@ -5106,7 +5106,7 @@
     "level": "中高級",
     "word": "rap",
     "meaning": "noun 饒舌音樂\nverb 敲擊、批評、指責",
-    "example": "He likes to rap with his friends.（他喜歡和朋友饒舌。）",
+    "example": "He likes rap music. (他喜歡饒舌音樂。)",
     "id": "中高級-rap-noun-verb"
   },
   {
@@ -5266,8 +5266,8 @@
   {
     "level": "中高級",
     "word": "rehabilitate",
-    "meaning": "verb 恢復、重建",
-    "example": "The program helps prisoners rehabilitate.（這個計畫幫助囚犯復健改造。）",
+    "meaning": "verb 恢復、重建；使（囚犯等）重新融入社會",
+    "example": "The program helps prisoners rehabilitate. (這個計畫幫助囚犯重新融入社會。)",
     "id": "中高級-rehabilitate-verb"
   },
   {
@@ -5302,7 +5302,7 @@
     "level": "中高級",
     "word": "relieved",
     "meaning": "adj. 感到放心的、心情放鬆的",
-    "example": "I felt relieved after the exam.（考試後我感到鬆了一口氣。）",
+    "example": "I felt relieved after the exam. (考試後我鬆了一口氣。)",
     "id": "中高級-relieved-adj"
   },
   {
@@ -5463,7 +5463,7 @@
     "level": "中高級",
     "word": "respectively",
     "meaning": "adv. 分別、各自、依序是",
-    "example": "Tom and May are twelve and ten, respectively.（Tom 和 May 分別是十二歲和十歲。）",
+    "example": "Tom and May are twelve and ten, respectively. (湯姆和梅分別是十二歲和十歲。)",
     "id": "中高級-respectively-adv"
   },
   {
@@ -5532,9 +5532,9 @@
   {
     "level": "中高級",
     "word": "retrospective",
-    "meaning": "adj. 回顧的、溯及既往的",
+    "meaning": "adj. 回顧的、溯及既往的\nnoun 回顧展",
     "example": "The museum held a retrospective of the artist’s work.（博物館舉辦了那位藝術家的回顧展。）",
-    "id": "中高級-retrospective-adj"
+    "id": "中高級-retrospective-adj-noun"
   },
   {
     "level": "中高級",
@@ -5568,7 +5568,7 @@
     "level": "中高級",
     "word": "rigor",
     "meaning": "noun 嚴酷、艱苦、嚴謹",
-    "example": "The course requires academic rigor.（這門課需要學術嚴謹。）",
+    "example": "The course requires academic rigor. (這門課需要學術上的嚴謹。)",
     "id": "中高級-rigor-noun"
   },
   {
@@ -5602,8 +5602,8 @@
   {
     "level": "中高級",
     "word": "rotary",
-    "meaning": "adj. 旋轉的",
-    "example": "The club has a rotary leadership system.（這個社團採輪流領導制度。）",
+    "meaning": "adj. 旋轉的、輪流的",
+    "example": "The club has a rotary leadership system. (這個社團採輪流領導制度。)",
     "id": "中高級-rotary-adj"
   },
   {
@@ -5694,7 +5694,7 @@
     "level": "中高級",
     "word": "sandy",
     "meaning": "adj. 含沙的、淺棕色的",
-    "example": "The beach was sandy and warm.（海灘沙沙的又溫暖。）",
+    "example": "The beach was sandy and warm. (海灘有沙又很溫暖。)",
     "id": "中高級-sandy-adj"
   },
   {
@@ -5750,7 +5750,7 @@
     "level": "中高級",
     "word": "seasonable",
     "meaning": "adj. 應時的、合時令的",
-    "example": "It was seasonable weather for spring.（那是符合春季的天氣。）",
+    "example": "It was seasonable weather for spring. (那種天氣很符合春季時令。)",
     "id": "中高級-seasonable-adj"
   },
   {
@@ -5875,7 +5875,7 @@
   {
     "level": "中高級",
     "word": "serial",
-    "meaning": "noun/adj. 連續劇；連續的",
+    "meaning": "noun/adj. 連續劇、連載作品；連續的",
     "example": "The novel was published as a serial.（這本小說以連載形式出版。）",
     "id": "中高級-serial-noun-adj"
   },
@@ -5911,7 +5911,7 @@
     "level": "中高級",
     "word": "sexuality",
     "meaning": "noun 性徵、性慾、性行為",
-    "example": "The course discusses human sexuality respectfully.（這門課以尊重的方式討論人類性。）",
+    "example": "The course discusses human sexuality respectfully. (這門課以尊重的方式討論人類的性議題。)",
     "id": "中高級-sexuality-noun"
   },
   {
@@ -6016,7 +6016,7 @@
     "level": "中高級",
     "word": "sit-down",
     "meaning": "noun 坐下休息\nadj. 坐在餐桌前的、靜坐抗議的",
-    "example": "We had a sit-down dinner.（我們吃了一頓正式入座晚餐。）",
+    "example": "We had a sit-down dinner. (我們一起享用了一頓正式晚餐。)",
     "id": "中高級-sit-down-noun-adj"
   },
   {
@@ -6190,7 +6190,7 @@
   {
     "level": "中高級",
     "word": "starter",
-    "meaning": "noun 開胃菜、起跑者、起步階段",
+    "meaning": "noun 開胃菜、起跑者、起步階段；發令員",
     "example": "The starter began the race.（發令員開始了比賽。）",
     "id": "中高級-starter-noun"
   },
@@ -6204,7 +6204,7 @@
   {
     "level": "中高級",
     "word": "static",
-    "meaning": "noun 靜電、靜力學\nadj. 靜止的、靜力的",
+    "meaning": "noun 靜電、靜力學、（電視或無線電的）雜訊干擾\nadj. 靜止的、靜力的",
     "example": "The picture was full of static.（畫面充滿雜訊。）",
     "id": "中高級-static-noun-adj"
   },
@@ -6225,7 +6225,7 @@
   {
     "level": "中高級",
     "word": "sterling",
-    "meaning": "noun 英鎊\nadj. 優秀的",
+    "meaning": "noun 英鎊\nadj. 優秀的；（銀）含銀量達標的",
     "example": "The ring is made of sterling silver.（戒指是純銀做的。）",
     "id": "中高級-sterling-noun-adj"
   },
@@ -6289,7 +6289,7 @@
     "level": "中高級",
     "word": "submerge",
     "meaning": "verb 潛入水中、淹沒、掩蓋(情感)",
-    "example": "The turtle can submerge itself underwater.（烏龜可以把自己潛入水中。）",
+    "example": "The turtle can submerge itself underwater. (烏龜可以潛入水中。)",
     "id": "中高級-submerge-verb"
   },
   {
@@ -6568,7 +6568,7 @@
   {
     "level": "中高級",
     "word": "tanker",
-    "meaning": "noun 油罐車、油槽車",
+    "meaning": "noun 油罐車、油槽車、油輪",
     "example": "The tanker carried oil.（油輪運載石油。）",
     "id": "中高級-tanker-noun"
   },
@@ -6597,7 +6597,7 @@
     "level": "中高級",
     "word": "tattoo",
     "meaning": "noun 刺青",
-    "example": "He has a dragon tattoo.（他有一個龍的刺青。）",
+    "example": "He has a dragon tattoo. (他刺了一個龍的圖案。)",
     "id": "中高級-tattoo-noun"
   },
   {
@@ -6687,7 +6687,7 @@
   {
     "level": "中高級",
     "word": "territorial",
-    "meaning": "adj./noun 陸地的、陸生的；陸地生物",
+    "meaning": "adj./noun 領土的、領地的；領土生物",
     "example": "The two countries had a territorial dispute.（兩國有領土爭端。）",
     "id": "中高級-territorial-adj-noun"
   },
@@ -6842,7 +6842,7 @@
     "level": "中高級",
     "word": "tinkle",
     "meaning": "verb 發出叮噹聲",
-    "example": "I heard a soft tinkle of bells.（我聽到鈴鐺輕輕叮噹聲。）",
+    "example": "The bells tinkled softly. (鈴鐺輕輕地發出叮噹聲。)",
     "id": "中高級-tinkle-verb"
   },
   {

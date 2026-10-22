@@ -44,7 +44,7 @@
   {
     "level": "L5",
     "word": "yoga",
-    "meaning": "noun 瑜珈",
+    "meaning": "noun 瑜伽",
     "example": "She does yoga every morning.（她每天早上做瑜伽。）",
     "id": "L5-yoga-noun"
   },
@@ -86,7 +86,7 @@
   {
     "level": "L6",
     "word": "aboriginal",
-    "meaning": "adj./noun 土著的；土著",
+    "meaning": "adj./noun 原住民的；原住民",
     "example": "We learned about aboriginal culture in class.（我們在課堂上學習原住民文化。）",
     "id": "L6-aboriginal-adj-noun"
   },
@@ -275,7 +275,7 @@
   {
     "level": "L6",
     "word": "affirm",
-    "meaning": "verb 申明、斷言",
+    "meaning": "verb 肯定；申明、斷言",
     "example": "The teacher affirmed my effort.（老師肯定了我的努力。）",
     "id": "L6-affirm-verb"
   },
@@ -451,7 +451,7 @@
     "level": "L6",
     "word": "approximate",
     "meaning": "adj./verb 大約的；接近",
-    "example": "The approximate cost is one thousand dollars.（大約費用是一千元。）",
+    "example": "The approximate cost is one thousand dollars. (費用大約是一千元。)",
     "id": "L6-approximate-adj-verb"
   },
   {
@@ -492,7 +492,7 @@
   {
     "level": "L6",
     "word": "artifact",
-    "meaning": "noun 手工藝品",
+    "meaning": "noun 手工藝品；人工製品、文物",
     "example": "The museum displayed an ancient artifact.（博物館展示了一件古代文物。）",
     "id": "L6-artifact-noun"
   },
@@ -507,7 +507,7 @@
     "level": "L6",
     "word": "assess",
     "meaning": "verb 評價、估算",
-    "example": "Teachers assess students' progress throughout the semester. (老師在整個學期中評估學生的進步。)",
+    "example": "Teachers assess students' progress through weekly quizzes. (老師透過每週小考評估學生的進步。)",
     "id": "L6-assess-verb"
   },
   {
@@ -961,7 +961,7 @@
   {
     "level": "L6",
     "word": "chariot",
-    "meaning": "noun (古時用於比賽或戰爭的)雙輪馬車",
+    "meaning": "noun （古時用於比賽或戰爭的）雙輪馬車、戰車",
     "example": "The ancient king rode in a chariot.（古代國王乘坐戰車。）",
     "id": "L6-chariot-noun"
   },
@@ -996,7 +996,7 @@
   {
     "level": "L6",
     "word": "chunk",
-    "meaning": "noun 大塊、大量",
+    "meaning": "noun 塊、大塊、大量",
     "example": "Cut the bread into small chunks.（把麵包切成小塊。）",
     "id": "L6-chunk-noun"
   },
@@ -1053,7 +1053,7 @@
     "level": "L6",
     "word": "closure",
     "meaning": "noun 關閉、停業、倒閉",
-    "example": "The road closure caused traffic.（道路封閉造成塞車。）",
+    "example": "The road closure caused traffic. (道路封閉造成交通壅塞。)",
     "id": "L6-closure-noun"
   },
   {
@@ -1214,7 +1214,7 @@
     "level": "L6",
     "word": "complexion",
     "meaning": "noun 面色、氣色、性質",
-    "example": "She has a clear complexion.（她的膚色很乾淨。）",
+    "example": "She has a clear complexion. (她的膚況很好。)",
     "id": "L6-complexion-noun"
   },
   {
@@ -1529,7 +1529,7 @@
     "level": "L6",
     "word": "counterpart",
     "meaning": "noun 對應的人(或物)",
-    "example": "My Japanese counterpart will visit next week.（我的日本對應同事下週會來訪。）",
+    "example": "My Japanese counterpart will visit next week. (我在日本的對口同事下週會來訪。)",
     "id": "L6-counterpart-noun"
   },
   {
@@ -1599,7 +1599,7 @@
     "level": "L6",
     "word": "crude",
     "meaning": "adj. 未加工的、粗野的、粗陋的",
-    "example": "The table is made of crude wood.（這張桌子是粗木製成的。）",
+    "example": "The factory refines crude oil into gasoline. (這座工廠把原油提煉成汽油。)",
     "id": "L6-crude-adj"
   },
   {
@@ -1648,7 +1648,7 @@
     "level": "L6",
     "word": "customary",
     "meaning": "adj. 習俗的、一貫的",
-    "example": "It is customary to bow in some cultures.（在某些文化中，鞠躬是習慣。）",
+    "example": "It is customary to bow in some cultures. (在某些文化中，鞠躬是當地的習俗。)",
     "id": "L6-customary-adj"
   },
   {
@@ -1746,7 +1746,7 @@
     "level": "L6",
     "word": "delinquent",
     "meaning": "noun 青少年犯\nadj. 犯法的；逾期未付的",
-    "example": "The delinquent teenager was sent to a special program.（那名失足青少年被送到特別輔導計畫。）",
+    "example": "The delinquent teenager was sent to a special program. (那名失足青少年被轉介到特別輔導方案。)",
     "id": "L6-delinquent-noun-adj"
   },
   {
@@ -1844,7 +1844,7 @@
     "level": "L6",
     "word": "deter",
     "meaning": "verb 阻止、威懾、使斷念",
-    "example": "High prices may deter buyers.（高價格可能阻止買家。）",
+    "example": "High prices may deter buyers. (高價格可能讓買家卻步。)",
     "id": "L6-deter-verb"
   },
   {
@@ -1886,7 +1886,7 @@
     "level": "L6",
     "word": "diagram",
     "meaning": "noun 圖表、示意圖",
-    "example": "Draw a diagram of the plant.（畫一張植物的圖解。）",
+    "example": "Draw a diagram of the plant. (畫一張這株植物的示意圖。)",
     "id": "L6-diagram-noun"
   },
   {
@@ -1914,7 +1914,7 @@
     "level": "L6",
     "word": "dilemma",
     "meaning": "noun 困境",
-    "example": "She faced a difficult dilemma.（她面臨一個困難的兩難局面。）",
+    "example": "She faced a difficult dilemma. (她面臨兩難局面。)",
     "id": "L6-dilemma-noun"
   },
   {
@@ -1942,7 +1942,7 @@
     "level": "L6",
     "word": "diplomatic",
     "meaning": "adj. 外交的、圓滑的",
-    "example": "The diplomat used polite diplomatic language.（外交官使用禮貌的外交語言。）",
+    "example": "The diplomat used polite diplomatic language. (這位外交官說話很有禮貌，用的是外交辭令。)",
     "id": "L6-diplomatic-adj"
   },
   {
@@ -1998,14 +1998,14 @@
     "level": "L6",
     "word": "disclosure",
     "meaning": "noun 揭露、公開(的事情)",
-    "example": "The disclosure shocked the public.（資訊揭露震驚了大眾。）",
+    "example": "The disclosure shocked the public. (這項揭露震驚了社會大眾。)",
     "id": "L6-disclosure-noun"
   },
   {
     "level": "L6",
     "word": "discomfort",
     "meaning": "noun 不舒服、不自在",
-    "example": "The tight shoes caused discomfort.（緊鞋子造成不舒服。）",
+    "example": "The tight shoes caused discomfort. (鞋子太緊，穿起來不舒服。)",
     "id": "L6-discomfort-noun"
   },
   {
@@ -2089,7 +2089,7 @@
     "level": "L6",
     "word": "disposable",
     "meaning": "adj./noun 拋棄式的；拋棄式物品",
-    "example": "Use disposable cups at the picnic.（野餐時使用一次性杯子。）",
+    "example": "Use disposable cups at the picnic. (野餐時使用免洗杯。)",
     "id": "L6-disposable-adj-noun"
   },
   {
@@ -2173,14 +2173,14 @@
     "level": "L6",
     "word": "divert",
     "meaning": "verb 使轉向、改道、使分心",
-    "example": "The police diverted traffic away from the accident.（警方把交通引離事故現場。）",
+    "example": "The police diverted traffic away from the accident. (警方引導車流改道，避開事故現場。)",
     "id": "L6-divert-verb"
   },
   {
     "level": "L6",
     "word": "doctrine",
     "meaning": "noun 教義、信條",
-    "example": "The school follows a clear teaching doctrine.（學校遵循明確的教學理念。）",
+    "example": "The school follows a clear teaching doctrine. (學校遵循一套明確的教學信條。)",
     "id": "L6-doctrine-noun"
   },
   {
@@ -2334,7 +2334,7 @@
     "level": "L6",
     "word": "eloquent",
     "meaning": "adj. 口才好的、雄辯的",
-    "example": "She gave an eloquent speech.（她做了一場雄辯的演講。）",
+    "example": "She gave an eloquent speech. (她發表了一場很有說服力的演講。)",
     "id": "L6-eloquent-adj"
   },
   {
@@ -2558,7 +2558,7 @@
     "level": "L6",
     "word": "expiration",
     "meaning": "noun 到期、期滿",
-    "example": "Check the expiration date on the milk.（檢查牛奶的有效期限。）",
+    "example": "Check the expiration date on the milk. (看一下牛奶包裝上的有效期限。)",
     "id": "L6-expiration-noun"
   },
   {
@@ -2621,7 +2621,7 @@
     "level": "L6",
     "word": "faction",
     "meaning": "noun (組織內部的)派系",
-    "example": "A small faction disagreed with the leader.（一小派人不同意領袖。）",
+    "example": "A small faction disagreed with the leader. (一個小派系不同意領袖的做法。)",
     "id": "L6-faction-noun"
   },
   {
@@ -2662,7 +2662,7 @@
   {
     "level": "L6",
     "word": "federation",
-    "meaning": "noun 聯邦政府(制度)聯盟",
+    "meaning": "noun 聯邦；聯盟；聯邦制度",
     "example": "The countries formed a federation.（這些國家組成聯邦。）",
     "id": "L6-federation-noun"
   },
@@ -2719,7 +2719,7 @@
     "level": "L6",
     "word": "fling",
     "meaning": "noun 短暫的快樂時光\nverb (用力)扔擲、猛烈地做",
-    "example": "He flung the ball across the field.（他把球猛丟過田野。）",
+    "example": "He flung the ball across the field. (他把球用力丟過球場。)",
     "id": "L6-fling-noun-verb"
   },
   {
@@ -2789,7 +2789,7 @@
     "level": "L6",
     "word": "fragile",
     "meaning": "adj. 易碎的、脆弱的、纖細的",
-    "example": "Be careful with this fragile cup.（小心這個易碎杯子。）",
+    "example": "Be careful with this fragile cup. (小心這個易碎的杯子。)",
     "id": "L6-fragile-adj"
   },
   {
@@ -2817,7 +2817,7 @@
     "level": "L6",
     "word": "freak",
     "meaning": "adj./noun 怪異的；怪人、怪物\nverb 嚇壞、極度激動",
-    "example": "The sudden storm was a freak event.（突如其來的暴風雨是罕見事件。）",
+    "example": "The sudden storm was a freak event. (突如其來的暴風雨是一場異常事件。)",
     "id": "L6-freak-adj-noun-verb"
   },
   {
@@ -2838,7 +2838,7 @@
     "level": "L6",
     "word": "galaxy",
     "meaning": "noun 星系、銀河(系)",
-    "example": "Our galaxy is called the Milky Way.（我們的銀河系叫銀河。）",
+    "example": "Our galaxy is called the Milky Way. (我們所在的星系稱為銀河系。)",
     "id": "L6-galaxy-noun"
   },
   {
@@ -2908,7 +2908,7 @@
     "level": "L6",
     "word": "graphic",
     "meaning": "adj. 繪畫的、生動的",
-    "example": "The book has many graphic illustrations.（這本書有很多圖像插圖。）",
+    "example": "The book has many graphic illustrations. (這本書有很多生動的插圖。)",
     "id": "L6-graphic-adj"
   },
   {
@@ -2928,7 +2928,7 @@
   {
     "level": "L6",
     "word": "grope",
-    "meaning": "verb/noun 摸索、探索、猥褻；猥褻",
+    "meaning": "verb/noun 摸索、探索、猥褻；猥褻行為",
     "example": "He groped for the light switch in the dark.（他在黑暗中摸索電燈開關。）",
     "id": "L6-grope-verb-noun"
   },
@@ -2970,7 +2970,7 @@
   {
     "level": "L6",
     "word": "harassment",
-    "meaning": "noun 煩惱、騷擾",
+    "meaning": "noun 騷擾、困擾",
     "example": "The company has rules against workplace harassment.（公司有反職場騷擾的規定。）",
     "id": "L6-harassment-noun"
   },
@@ -2978,7 +2978,7 @@
     "level": "L6",
     "word": "hazard",
     "meaning": "noun/verb 危險、冒險；使遭受危險",
-    "example": "Wet floors are a safety hazard.（濕地板是安全危害。）",
+    "example": "Wet floors are a safety hazard. (濕滑的地板會造成安全風險。)",
     "id": "L6-hazard-noun-verb"
   },
   {
@@ -3027,7 +3027,7 @@
     "level": "L6",
     "word": "hormone",
     "meaning": "noun 賀爾蒙",
-    "example": "Hormones affect growth.（荷爾蒙影響成長。）",
+    "example": "Hormones affect growth. (荷爾蒙會影響生長。)",
     "id": "L6-hormone-noun"
   },
   {
@@ -3090,7 +3090,7 @@
     "level": "L6",
     "word": "hygiene",
     "meaning": "noun 衛生",
-    "example": "Good hygiene prevents disease.（良好衛生能預防疾病。）",
+    "example": "Good hygiene prevents disease. (良好的衛生習慣能預防疾病。)",
     "id": "L6-hygiene-noun"
   },
   {
@@ -3146,7 +3146,7 @@
     "level": "L6",
     "word": "implicit",
     "meaning": "adj. 不直接言明的、內含的、完全的",
-    "example": "Her trust was implicit.（她的信任是含蓄而堅定的。）",
+    "example": "Her trust was implicit. (她的信任是不言而喻的。)",
     "id": "L6-implicit-adj"
   },
   {
@@ -3174,7 +3174,7 @@
     "level": "L6",
     "word": "incentive",
     "meaning": "noun 鼓勵、誘因",
-    "example": "A prize is a good incentive to work harder.（獎品是更努力的好誘因。）",
+    "example": "A prize is a good incentive to work harder. (獎品是讓人更努力工作的好誘因。)",
     "id": "L6-incentive-noun"
   },
   {
@@ -3194,7 +3194,7 @@
   {
     "level": "L6",
     "word": "inclusive",
-    "meaning": "adj. 包含(全部費用)的、範圍廣泛的; 多元包容的",
+    "meaning": "adj. 包含（全部費用）的、範圍廣泛的、多元包容的",
     "example": "The school wants an inclusive classroom.（學校想要包容性的教室。）",
     "id": "L6-inclusive-adj"
   },
@@ -3237,7 +3237,7 @@
     "level": "L6",
     "word": "inherent",
     "meaning": "adj. 固有的、內在的",
-    "example": "Risk is inherent in every adventure.（每次冒險都本來就有風險。）",
+    "example": "Risk is inherent in every adventure. (每一次冒險本身就帶有風險。)",
     "id": "L6-inherent-adj"
   },
   {
@@ -3272,7 +3272,7 @@
     "level": "L6",
     "word": "insight",
     "meaning": "noun 洞察力、領悟",
-    "example": "Her comment showed deep insight.（她的評論展現深刻洞察力。）",
+    "example": "Her comment showed deep insight. (她的評論展現出深刻的洞察力。)",
     "id": "L6-insight-noun"
   },
   {
@@ -3398,14 +3398,14 @@
     "level": "L6",
     "word": "ironic",
     "meaning": "adj. 諷刺的、(因出乎意料而)好笑的",
-    "example": "It is ironic that the fire station burned down.（消防站被燒毀，這很諷刺。）",
+    "example": "It is ironic that the fire station burned down. (消防分隊竟然被燒毀了，這真諷刺。)",
     "id": "L6-ironic-adj"
   },
   {
     "level": "L6",
     "word": "irony",
     "meaning": "noun 有諷刺意味的情況、反語",
-    "example": "The irony of the situation made everyone silent.（情況的諷刺性讓大家沉默。）",
+    "example": "The irony of the situation made everyone silent. (這個情況的諷刺之處讓大家都沉默了。)",
     "id": "L6-irony-noun"
   },
   {
@@ -3419,7 +3419,7 @@
     "level": "L6",
     "word": "irritate",
     "meaning": "verb 使煩躁、激怒",
-    "example": "Loud noise can irritate people.（大噪音會使人煩躁。）",
+    "example": "Loud noise can irritate people. (噪音太大會讓人煩躁。)",
     "id": "L6-irritate-verb"
   },
   {
@@ -3433,7 +3433,7 @@
     "level": "L6",
     "word": "joyous",
     "meaning": "adj. 歡樂的、令人愉快的",
-    "example": "The wedding was a joyous event.（婚禮是一件喜悅的事。）",
+    "example": "The wedding was a joyous event. (那場婚禮是件歡樂的盛事。)",
     "id": "L6-joyous-adj"
   },
   {
@@ -3621,7 +3621,7 @@
   {
     "level": "L6",
     "word": "magnitude",
-    "meaning": "noun 重大、重要性",
+    "meaning": "noun 重大、重要性、規模、震級",
     "example": "The magnitude of the earthquake shocked everyone.（地震的規模讓大家震驚。）",
     "id": "L6-magnitude-noun"
   },
@@ -3908,7 +3908,7 @@
   {
     "level": "L6",
     "word": "mouthpiece",
-    "meaning": "noun (電話的)話筒、傳聲筒",
+    "meaning": "noun （電話的）話筒、傳聲筒；樂器的吹嘴",
     "example": "The mouthpiece of the instrument was broken.（這個樂器的吹嘴壞了。）",
     "id": "L6-mouthpiece-noun"
   },
@@ -3944,7 +3944,7 @@
     "level": "L6",
     "word": "narrative",
     "meaning": "noun/adj. 敘述；敘事的",
-    "example": "The novel has a strong narrative voice.（這本小說有強烈的敘事聲音。）",
+    "example": "The novel has a strong narrative voice. (這本小說的敘事口吻很鮮明。)",
     "id": "L6-narrative-noun-adj"
   },
   {
@@ -3958,7 +3958,7 @@
     "level": "L6",
     "word": "nationalism",
     "meaning": "noun 民族主義",
-    "example": "Nationalism grew during the war.（戰爭期間民族主義增長。）",
+    "example": "Nationalism grew during the war. (戰爭期間民族主義高漲。)",
     "id": "L6-nationalism-noun"
   },
   {
@@ -4021,14 +4021,14 @@
     "level": "L6",
     "word": "notorious",
     "meaning": "adj. 聲名狼藉的、惡名昭彰的",
-    "example": "The area was notorious for heavy traffic.（這個地區以交通壅塞出名。）",
+    "example": "The area was notorious for heavy traffic. (這個地區交通壅塞是出了名的。)",
     "id": "L6-notorious-adj"
   },
   {
     "level": "L6",
     "word": "nuisance",
     "meaning": "noun 麻煩事、討厭的人",
-    "example": "The loud music was a nuisance.（大聲音樂很惱人。）",
+    "example": "The loud music was a nuisance. (音樂太大聲，很惱人。)",
     "id": "L6-nuisance-noun"
   },
   {
@@ -4105,7 +4105,7 @@
     "level": "L6",
     "word": "optional",
     "meaning": "adj. 可選擇的、選修的",
-    "example": "The final question is optional.（最後一題是選答。）",
+    "example": "The final question is optional. (最後一題可以自由選答。)",
     "id": "L6-optional-adj"
   },
   {
@@ -4161,13 +4161,13 @@
     "level": "L6",
     "word": "outlaw",
     "meaning": "verb/noun 宣佈…不合法；亡命徒",
-    "example": "The outlaw hid in the mountains.（那名逃犯躲在山裡。）",
+    "example": "The outlaw hid in the mountains. (那名亡命之徒躲在山裡。)",
     "id": "L6-outlaw-verb-noun"
   },
   {
     "level": "L6",
     "word": "outlet",
-    "meaning": "noun (感情、思想的)出路、專營店",
+    "meaning": "noun （感情、思想的）出路、專營店、插座",
     "example": "This room has only one electrical outlet.（這個房間只有一個插座。）",
     "id": "L6-outlet-noun"
   },
@@ -4413,7 +4413,7 @@
     "level": "L6",
     "word": "plight",
     "meaning": "noun 困境、苦境",
-    "example": "The refugees were in a terrible plight.（難民處於可怕困境。）",
+    "example": "The refugees were in a terrible plight. (難民的處境非常悲慘。)",
     "id": "L6-plight-noun"
   },
   {
@@ -4427,7 +4427,7 @@
     "level": "L6",
     "word": "poach",
     "meaning": "verb 水煮；(在他人地界)偷獵、盜用、挖走(人員)",
-    "example": "It is illegal to poach wild animals.（非法獵捕野生動物是違法的。）",
+    "example": "It is illegal to poach wild animals. (偷獵野生動物是違法的。)",
     "id": "L6-poach-verb"
   },
   {
@@ -4441,7 +4441,7 @@
     "level": "L6",
     "word": "ponder",
     "meaning": "verb 沉思、考慮",
-    "example": "She sat quietly to ponder the question.（她安靜坐著思考問題。）",
+    "example": "She sat quietly to ponder the question. (她靜靜坐著思考這個問題。)",
     "id": "L6-ponder-verb"
   },
   {
@@ -4490,7 +4490,7 @@
     "level": "L6",
     "word": "preface",
     "meaning": "noun/verb 書的前言；為…寫序言",
-    "example": "The preface explains why the book was written.（序言解釋了這本書為何被寫成。）",
+    "example": "The preface explains why the book was written. (序言說明了為什麼要寫這本書。)",
     "id": "L6-preface-noun-verb"
   },
   {
@@ -4511,13 +4511,13 @@
     "level": "L6",
     "word": "premature",
     "meaning": "adj. 未成熟的、早產的、草率的",
-    "example": "The baby was premature.（那個寶寶早產。）",
+    "example": "The baby was premature. (那個寶寶是早產兒。)",
     "id": "L6-premature-adj"
   },
   {
     "level": "L6",
     "word": "premier",
-    "meaning": "noun/adj. 總理、首相 ；最高的、首位的",
+    "meaning": "noun/adj. 總理、首相；最高的、首位的",
     "example": "The premier gave a speech on TV.（總理在電視上發表演說。）",
     "id": "L6-premier-noun-adj"
   },
@@ -4538,8 +4538,8 @@
   {
     "level": "L6",
     "word": "preside",
-    "meaning": "verb 主持會議、擔任主席",
-    "example": "The judge will preside over the case.（法官將主持這個案件。）",
+    "meaning": "verb 主持會議、擔任主席；主持、審理（案件）",
+    "example": "The judge will preside over the case. (法官將審理這個案件。)",
     "id": "L6-preside-verb"
   },
   {
@@ -4749,7 +4749,7 @@
     "level": "L6",
     "word": "radiator",
     "meaning": "noun 散熱器、暖氣片",
-    "example": "The radiator keeps the room warm.（暖氣片讓房間保持溫暖。）",
+    "example": "The radiator keeps the room warm. (暖氣讓房間保持溫暖。)",
     "id": "L6-radiator-noun"
   },
   {
@@ -4832,7 +4832,7 @@
   {
     "level": "L6",
     "word": "recommendation",
-    "meaning": "noun 正式建議、提議",
+    "meaning": "noun 正式建議、提議、推薦信",
     "example": "I wrote a recommendation for my student.（我為學生寫了一封推薦信。）",
     "id": "L6-recommendation-noun"
   },
@@ -4868,7 +4868,7 @@
     "level": "L6",
     "word": "redundant",
     "meaning": "adj. 被裁減的、多餘的",
-    "example": "The extra words are redundant.（多餘的字是累贅的。）",
+    "example": "The extra words are redundant. (這些多出來的字其實是多餘的。)",
     "id": "L6-redundant-adj"
   },
   {
@@ -4973,7 +4973,7 @@
     "level": "L6",
     "word": "render",
     "meaning": "verb 使成為、使處於某狀態、提供",
-    "example": "The artist rendered the scene beautifully.（藝術家美麗地描繪了那個場景。）",
+    "example": "The artist rendered the scene beautifully. (藝術家把那個場景描繪得很美。)",
     "id": "L6-render-verb"
   },
   {
@@ -5085,7 +5085,7 @@
     "level": "L6",
     "word": "rhetoric",
     "meaning": "noun 修辭學、華而不實的言語",
-    "example": "His speech was full of strong rhetoric.（他的演講充滿強烈修辭。）",
+    "example": "His speech was full of strong rhetoric. (他的演講充滿激昂的言辭。)",
     "id": "L6-rhetoric-noun"
   },
   {
@@ -5106,7 +5106,7 @@
     "level": "L6",
     "word": "rigorous",
     "meaning": "adj. 嚴格的、嚴密的、嚴酷的",
-    "example": "The course has rigorous training.（這門課有嚴格訓練。）",
+    "example": "The course has rigorous training. (這門課有嚴格的訓練。)",
     "id": "L6-rigorous-adj"
   },
   {
@@ -5232,7 +5232,7 @@
     "level": "L6",
     "word": "selective",
     "meaning": "adj. 有選擇的、仔細挑選的",
-    "example": "The school has a selective admission process.（這所學校有選擇性的入學流程。）",
+    "example": "The school has a selective admission process. (這所學校的入學審查很嚴格。)",
     "id": "L6-selective-adj"
   },
   {
@@ -5309,7 +5309,7 @@
     "level": "L6",
     "word": "sheer",
     "meaning": "adj./adv./verb (強調數量或大小)完全的、陡峭的；(強調數量或大小)完全地、陡峭地；突然轉向",
-    "example": "The sheer size of the building amazed me.（那棟建築巨大的規模讓我驚訝。）",
+    "example": "The sheer size of the building amazed me. (那棟建築的規模之大讓我驚嘆。)",
     "id": "L6-sheer-adj-adv-verb"
   },
   {
@@ -5337,7 +5337,7 @@
     "level": "L6",
     "word": "shun",
     "meaning": "verb 避開、迴避",
-    "example": "He tried to shun attention.（他試著避開注意。）",
+    "example": "He tried to shun attention. (他試著避免引人注意。)",
     "id": "L6-shun-verb"
   },
   {
@@ -5392,14 +5392,14 @@
   {
     "level": "L6",
     "word": "slot",
-    "meaning": "noun 狹縫；(自動販賣機等的)投幣口；(計畫表中的)時間\nverb 在...上開狹長的孔；投放、插入；為...安排時間",
+    "meaning": "noun 狹縫；（自動販賣機等的）投幣口；（計畫表中的）時間\nverb 在……上開狹長的孔；投放、插入；為……安排時間",
     "example": "Put the coin in the slot.（把硬幣投入投幣孔。）",
     "id": "L6-slot-noun-verb"
   },
   {
     "level": "L6",
     "word": "slum",
-    "meaning": "noun/verb 平民窟；過簡樸生活",
+    "meaning": "noun/verb 貧民窟；過簡樸生活",
     "example": "The family lived in a crowded slum.（那個家庭住在擁擠的貧民窟。）",
     "id": "L6-slum-noun-verb"
   },
@@ -5568,7 +5568,7 @@
     "level": "L6",
     "word": "spectrum",
     "meaning": "noun 光譜、頻譜、範圍",
-    "example": "The rainbow has a wide spectrum of colors.（彩虹有廣泛的色彩光譜。）",
+    "example": "The rainbow has a wide spectrum of colors. (彩虹有很寬廣的色彩光譜。)",
     "id": "L6-spectrum-noun"
   },
   {
@@ -5722,7 +5722,7 @@
     "level": "L6",
     "word": "strategic",
     "meaning": "adj. 戰略性的",
-    "example": "The city is in a strategic location.（這座城市位於戰略位置。）",
+    "example": "The city is in a strategic location. (這座城市位於戰略要地。)",
     "id": "L6-strategic-adj"
   },
   {
@@ -5869,7 +5869,7 @@
     "level": "L6",
     "word": "surplus",
     "meaning": "noun/adj. 盈餘；剩餘的",
-    "example": "The farm produced a surplus of rice.（農場生產了過剩的米。）",
+    "example": "The farm produced a surplus of rice. (農場生產的稻米有剩餘。)",
     "id": "L6-surplus-noun-adj"
   },
   {
@@ -5925,7 +5925,7 @@
     "level": "L6",
     "word": "tactic",
     "meaning": "noun 策略、手段",
-    "example": "The coach changed his tactics.（教練改變了戰術。）",
+    "example": "A good tactic is to change the plan when needed. (需要時改變計畫是個好策略。)",
     "id": "L6-tactic-noun"
   },
   {
@@ -6064,7 +6064,7 @@
   {
     "level": "L6",
     "word": "toll",
-    "meaning": "noun 通行費；傷亡人數；鳴(喪)鐘\nverb 向...徵收捐稅(或通行費等)",
+    "meaning": "noun 通行費；傷亡人數；鳴（喪）鐘\nverb 向……徵收捐稅（或通行費等）",
     "example": "Drivers must pay a toll on this road.（駕駛在這條路上必須付通行費。）",
     "id": "L6-toll-noun-verb"
   },
@@ -6142,7 +6142,7 @@
     "level": "L6",
     "word": "transmission",
     "meaning": "noun 傳送、傳染、(電台或電視)播送",
-    "example": "The transmission of the virus can be prevented.（病毒傳播可以被預防。）",
+    "example": "The transmission of the virus can be prevented. (病毒的傳播是可以預防的。)",
     "id": "L6-transmission-noun"
   },
   {
@@ -6205,7 +6205,7 @@
     "level": "L6",
     "word": "triumphant",
     "meaning": "adj. 大獲全勝的、歡欣鼓舞的",
-    "example": "The team returned home triumphant.（隊伍勝利地回家。）",
+    "example": "The team returned home triumphant. (隊伍凱旋歸來。)",
     "id": "L6-triumphant-adj"
   },
   {
@@ -6414,9 +6414,9 @@
   {
     "level": "L6",
     "word": "usher",
-    "meaning": "noun/verb 引座員、(婚禮)招待；引導、開創",
-    "example": "The usher showed us to our seats.（引座員帶我們到座位。）",
-    "id": "L6-usher-noun-verb"
+    "meaning": "noun 帶位員、（婚禮）招待；引導、開創",
+    "example": "The usher showed us to our seats. (帶位員帶我們到座位。)",
+    "id": "L6-usher-noun"
   },
   {
     "level": "L6",
@@ -6527,7 +6527,7 @@
     "level": "L6",
     "word": "veterinarian",
     "meaning": "noun 獸醫",
-    "example": "The vet examined my dog.（獸醫檢查了我的狗。）",
+    "example": "The veterinarian examined my dog. (獸醫檢查了我的狗。)",
     "id": "L6-veterinarian-noun"
   },
   {
@@ -6666,7 +6666,7 @@
   {
     "level": "L6",
     "word": "warranty",
-    "meaning": "noun (商品)保修期",
+    "meaning": "noun （商品）保固期",
     "example": "This phone comes with a one-year warranty.（這支手機有一年保固。）",
     "id": "L6-warranty-noun"
   },
@@ -6715,7 +6715,7 @@
   {
     "level": "L6",
     "word": "wrench",
-    "meaning": "verb 猛拉、猛扭\nnoun (離別的)痛苦",
+    "meaning": "verb 猛拉、猛扭\nnoun 扳手；（離別的）痛苦",
     "example": "Use a wrench to tighten the bolt.（用扳手鎖緊螺栓。）",
     "id": "L6-wrench-verb-noun"
   },
@@ -6898,7 +6898,7 @@
     "level": "中高級",
     "word": "aesthetic",
     "meaning": "adj. 美感的、審美的",
-    "example": "The building has a simple aesthetic style.（這棟建築有簡約的美感風格。）",
+    "example": "The building has a simple aesthetic style. (這棟建築有簡約的美學風格。)",
     "id": "中高級-aesthetic-adj"
   },
   {
@@ -6911,7 +6911,7 @@
   {
     "level": "中高級",
     "word": "affiliate",
-    "meaning": "noun 附屬機構、分公司\nverb 使隸屬於、加入、為...工作",
+    "meaning": "noun 附屬機構、分公司\nverb 使隸屬於、加入、為……工作",
     "example": "The local school is an affiliate of a larger academy.（這所地方學校是一所大型學院的附屬機構。）",
     "id": "中高級-affiliate-noun-verb"
   },
@@ -6954,7 +6954,7 @@
     "level": "中高級",
     "word": "agitate",
     "meaning": "verb 鼓動、煽動；激怒",
-    "example": "The loud noise began to agitate the baby.（巨大的聲音開始讓寶寶不安。）",
+    "example": "The loud noise began to agitate the baby. (噪音開始讓寶寶不安。)",
     "id": "中高級-agitate-verb"
   },
   {

@@ -38,7 +38,7 @@
     "level": "L4",
     "word": "tiresome",
     "meaning": "adj. 令人厭煩的",
-    "example": "The long meeting was tiresome.（冗長的會議令人疲倦。）",
+    "example": "The long meeting was tiresome. (冗長的會議令人厭煩。)",
     "id": "L4-tiresome-adj"
   },
   {
@@ -100,7 +100,7 @@
   {
     "level": "L4",
     "word": "transfer",
-    "meaning": "noun/verb 調動、搬遷",
+    "meaning": "noun/verb 調動、搬遷、轉帳、轉移",
     "example": "I need to transfer money to my bank account.（我需要把錢轉到我的銀行帳戶。）",
     "id": "L4-transfer-noun-verb"
   },
@@ -213,7 +213,7 @@
     "level": "L4",
     "word": "vain",
     "meaning": "adj. 徒勞的、虛榮的",
-    "example": "He is vain about his good looks.（他對自己的外貌很自負。）",
+    "example": "He is vain about his good looks. (他很在意自己的外表。)",
     "id": "L4-vain-adj"
   },
   {
@@ -485,9 +485,9 @@
   {
     "level": "L5",
     "word": "auxiliary",
-    "meaning": "noun 助動詞\nnoun/adj. 輔助人員；輔助的",
+    "meaning": "noun 助動詞、輔助人員\nadj. 輔助的",
     "example": "This room has auxiliary lights for emergencies.（這個房間有緊急用輔助照明。）",
-    "id": "L5-auxiliary-noun-noun-adj"
+    "id": "L5-auxiliary-noun-adj"
   },
   {
     "level": "L5",
@@ -758,9 +758,9 @@
   {
     "level": "L5",
     "word": "democrat",
-    "meaning": "noun 民主主義者",
-    "example": "The democrat supported free elections.（那位民主黨人支持自由選舉。）",
-    "id": "L5-democrat-noun"
+    "meaning": "noun 民主主義者；（大寫 Democrat）民主黨人",
+    "example": "The Democrat supported free elections. (那位民主黨人支持自由選舉。)",
+    "id": "L5-democrat-noun-democrat"
   },
   {
     "level": "L5",
@@ -996,8 +996,8 @@
   {
     "level": "L5",
     "word": "handicap",
-    "meaning": "noun 殘疾、阻礙\nverb 阻礙",
-    "example": "The ramp helps people with a handicap enter the building.（坡道幫助身障人士進入大樓。）",
+    "meaning": "noun 身心障礙、阻礙\nverb 妨礙",
+    "example": "The ramp helps people with disabilities enter the building. (坡道幫助身障人士進入大樓。)",
     "id": "L5-handicap-noun-verb"
   },
   {
@@ -1094,7 +1094,7 @@
   {
     "level": "L5",
     "word": "issue",
-    "meaning": "noun 議題、問題\nverb 發行",
+    "meaning": "noun 議題、問題、期數\nverb 發行",
     "example": "The magazine published a new issue.（那本雜誌出版了新一期。）",
     "id": "L5-issue-noun-verb"
   },
@@ -1444,7 +1444,7 @@
   {
     "level": "L5",
     "word": "scheme",
-    "meaning": "noun/verb 體制、陰謀；密謀",
+    "meaning": "noun/verb 體制、計畫、陰謀；密謀",
     "example": "They made a clever scheme to save money.（他們想出一個聰明的省錢計畫。）",
     "id": "L5-scheme-noun-verb"
   },
@@ -1626,9 +1626,9 @@
   {
     "level": "L5",
     "word": "upward",
-    "meaning": "adj. 向上的",
+    "meaning": "adj./adv. 向上的、向上地",
     "example": "The balloon floated upward.（氣球向上飄。）",
-    "id": "L5-upward-adj"
+    "id": "L5-upward-adj-adv"
   },
   {
     "level": "L5",
@@ -1899,7 +1899,7 @@
   {
     "level": "L6",
     "word": "detergent",
-    "meaning": "noun/adj 洗衣粉、清潔劑",
+    "meaning": "noun/adj. 洗衣粉、清潔劑；洗滌用的",
     "example": "This detergent removes stains well.（這款洗衣精很會去污。）",
     "id": "L6-detergent-noun-adj"
   },
@@ -2299,7 +2299,7 @@
     "level": "L6",
     "word": "radical",
     "meaning": "adj./noun 徹底的、激進的；激進份子",
-    "example": "He suggested a radical change.（他建議一項激進改變。）",
+    "example": "He suggested a radical change. (他建議做出徹底的改變。)",
     "id": "L6-radical-adj-noun"
   },
   {
@@ -2355,7 +2355,7 @@
     "level": "L6",
     "word": "session",
     "meaning": "noun 一節(課程)、會議、開庭",
-    "example": "The study session lasted two hours.（讀書會持續了兩小時。）",
+    "example": "The study session lasted two hours. (讀書時段持續了兩個小時。)",
     "id": "L6-session-noun"
   },
   {
@@ -2404,7 +2404,7 @@
     "level": "L6",
     "word": "starvation",
     "meaning": "noun 飢餓、餓死",
-    "example": "The drought caused starvation in the village.（乾旱造成村莊飢荒。）",
+    "example": "The drought caused starvation in the village. (乾旱使村民陷入飢餓困境。)",
     "id": "L6-starvation-noun"
   },
   {
@@ -2424,7 +2424,7 @@
   {
     "level": "L6",
     "word": "suspension",
-    "meaning": "noun 暫停、停學(職)",
+    "meaning": "noun 暫停、停學（職）、懸吊系統",
     "example": "The bridge’s suspension cables are strong.（這座橋的懸索很堅固。）",
     "id": "L6-suspension-noun"
   },
@@ -2501,7 +2501,7 @@
   {
     "level": "中級",
     "word": "accepted",
-    "meaning": "adj. 公認的",
+    "meaning": "adj. 公認的、被接受的、獲得認可的",
     "example": "Her idea was accepted by the team.（她的想法被團隊接受了。）",
     "id": "中級-accepted-adj"
   },
@@ -3082,7 +3082,7 @@
   {
     "level": "中級",
     "word": "informed",
-    "meaning": "adj. 消息靈通的、有見識的",
+    "meaning": "adj. 消息靈通的、有見識的、被告知的、知情的",
     "example": "Please keep me informed.（請讓我隨時知道最新情況。）",
     "id": "中級-informed-adj"
   },
@@ -3110,7 +3110,7 @@
   {
     "level": "中級",
     "word": "kindly",
-    "meaning": "adj./adv 親切的；親切地",
+    "meaning": "adj./adv. 親切的；親切地；（用於請求）請、勞駕",
     "example": "Kindly close the door.（請把門關上。）",
     "id": "中級-kindly-adj-adv"
   },
@@ -3446,7 +3446,7 @@
   {
     "level": "中級",
     "word": "readily",
-    "meaning": "adv. 樂意地、迅速地",
+    "meaning": "adv. 樂意地、迅速地、容易地",
     "example": "Help is readily available.（幫助很容易取得。）",
     "id": "中級-readily-adv"
   },
@@ -3516,9 +3516,9 @@
   {
     "level": "中級",
     "word": "running",
-    "meaning": "adj. 連續的",
-    "example": "Running keeps me healthy.（跑步讓我保持健康。）",
-    "id": "中級-running-adj"
+    "meaning": "adj. 連續的、持續運作的；noun 跑步",
+    "example": "We keep a running list of expenses. (我們持續更新一份支出清單。)",
+    "id": "中級-running-adj-noun"
   },
   {
     "level": "中級",
@@ -3538,7 +3538,7 @@
     "level": "中級",
     "word": "schoolmate",
     "meaning": "noun 學校同學",
-    "example": "My schoolmate helped me carry the books.（我的校友／同學幫我搬書。）",
+    "example": "My schoolmate helped me carry the books. (我的同校同學幫我搬書。)",
     "id": "中級-schoolmate-noun"
   },
   {
@@ -3565,7 +3565,7 @@
   {
     "level": "中級",
     "word": "setup",
-    "meaning": "noun 組織、結構",
+    "meaning": "noun 組織、結構、設定、安裝",
     "example": "The setup of the computer took an hour.（電腦設定花了一小時。）",
     "id": "中級-setup-noun"
   },
@@ -3636,14 +3636,14 @@
     "level": "中級",
     "word": "south-east",
     "meaning": "noun/adv./adj. 東南方；在東南方；東南方的",
-    "example": "The island is southeast of Taiwan.（那座島在台灣東南方。）",
+    "example": "The island is south-east of Taiwan. (那座島在台灣東南方。)",
     "id": "中級-south-east-noun-adv-adj"
   },
   {
     "level": "中級",
     "word": "south-west",
     "meaning": "noun/adv./adj. 西南方；在西南方；西南方的",
-    "example": "The village is southwest of the city.（村莊在城市西南方。）",
+    "example": "The village is south-west of the city. (村莊在城市西南方。)",
     "id": "中級-south-west-noun-adv-adj"
   },
   {
@@ -3691,7 +3691,7 @@
   {
     "level": "中級",
     "word": "sunbathe",
-    "meaning": "verb 日光浴",
+    "meaning": "verb 曬日光浴",
     "example": "She likes to sunbathe on the beach.（她喜歡在海灘曬太陽。）",
     "id": "中級-sunbathe-verb"
   },
@@ -3782,9 +3782,9 @@
   {
     "level": "中級",
     "word": "traveling",
-    "meaning": "adj. 旅行的、巡迴的",
-    "example": "Traveling can broaden your mind.（旅行可以開闊心胸。）",
-    "id": "中級-traveling-adj"
+    "meaning": "adj. 旅行的、巡迴的\nnoun 旅行",
+    "example": "Traveling can broaden your mind. (旅行可以開闊心胸。)",
+    "id": "中級-traveling-adj-noun"
   },
   {
     "level": "中級",
@@ -3859,9 +3859,9 @@
   {
     "level": "中級",
     "word": "warning",
-    "meaning": "adj. 警告的、警戒的",
+    "meaning": "adj. 警告的、警戒的\nnoun 警告",
     "example": "The sign gave a clear warning.（標誌給了清楚警告。）",
-    "id": "中級-warning-adj"
+    "id": "中級-warning-adj-noun"
   },
   {
     "level": "中級",
@@ -3874,7 +3874,7 @@
     "level": "中級",
     "word": "washing",
     "meaning": "noun 洗(或待洗)的衣物",
-    "example": "The washing machine is broken.（洗衣機壞了。）",
+    "example": "I put the washing in the dryer. (我把待洗衣物放進烘衣機。)",
     "id": "中級-washing-noun"
   },
   {

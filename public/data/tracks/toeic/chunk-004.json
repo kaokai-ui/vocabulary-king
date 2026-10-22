@@ -30,7 +30,7 @@
   {
     "level": "中高級",
     "word": "withdrawal",
-    "meaning": "n. 收回；撤回提款",
+    "meaning": "n. 收回；撤回；提款",
     "example": "The sudden massive fund withdrawal caused a temporary liquidity issue for the small bank. (突如其來的巨額資金提取，導致這家小銀行出現了暫時的流動性問題。)",
     "id": "中高級-withdrawal-n"
   },
@@ -38,7 +38,7 @@
     "level": "L2",
     "word": "within",
     "meaning": "prep / ad. 在……範圍內；不超過；在裡面；在內部",
-    "example": "All project phases must be successfully completed within the designated calendar timeline. (所有專案階段必須在指定的日曆時間表內成功完成。)",
+    "example": "All project phases must be successfully completed within the designated calendar timeline. (所有專案階段都必須在預定時程內順利完成。)",
     "id": "L2-within-prep-ad"
   },
   {
@@ -66,7 +66,7 @@
     "level": "L2",
     "word": "wonder",
     "meaning": "v / n. 納悶；想知道；驚奇；驚異",
-    "example": "Investors wonder if the current technology market bubble will burst anytime soon. (投資人想知道當前的科技市場泡沫是否會很快破裂。)",
+    "example": "Investors wonder if the current technology market bubble will burst anytime soon. (投資人想知道目前的科技市場泡沫是否會很快破裂。)",
     "id": "L2-wonder-v-n"
   },
   {
@@ -87,7 +87,7 @@
     "level": "TOEIC",
     "word": "workaholic",
     "meaning": "n. 工作狂；專心工作的人",
-    "example": "The senior manager is a self-proclaimed workaholic who frequently handles projects overnight. (這位高級經理自稱是個工作狂，經常通宵處理專案。)",
+    "example": "The senior manager is a self-proclaimed workaholic who frequently handles projects overnight. (這位資深經理自稱是工作狂，經常熬夜處理專案。)",
     "id": "TOEIC-workaholic-n"
   },
   {
@@ -129,15 +129,15 @@
     "level": "L3",
     "word": "wrist",
     "meaning": "n. 腕；腕關節",
-    "example": "The ergonomic keyboard layout helps reduce wrist strain for data entry professionals. (符合人體工學的鍵盤佈局有助於減輕資料輸入專業人員的手腕疲勞。)",
+    "example": "The ergonomic keyboard layout helps reduce wrist strain for data entry professionals. (符合人體工學的鍵盤配置有助減輕資料輸入人員的手腕疲勞。)",
     "id": "L3-wrist-n"
   },
   {
     "level": "L3",
     "word": "X-ray",
-    "meaning": "n / v. X射線",
+    "meaning": "n. X 射線；X 光檢查；v. 為……照 X 光",
     "example": "The corporate clinic technician took an X-ray of the worker's injured arm after the accident. (事故發生後，公司診所技術人員對工人受傷的手臂進行了X光檢查。)",
-    "id": "L3-x-ray-n-v-x"
+    "id": "L3-x-ray-n-x-x-v-x"
   },
   {
     "level": "L5",
@@ -150,7 +150,7 @@
     "level": "L2",
     "word": "yard",
     "meaning": "n. 庭院；後院",
-    "example": "The distribution center features a spacious storage yard for inbound container trucks. (配送中心設有寬敞的堆場，可供入境貨櫃卡車使用。)",
+    "example": "The distribution center features a spacious storage yard for inbound container trucks. (配送中心設有寬敞的露天堆置場，供進口貨櫃卡車使用。)",
     "id": "L2-yard-n"
   },
   {
@@ -248,7 +248,7 @@
     "level": "TOEIC",
     "word": "zoom-out",
     "meaning": "v. 用變焦距鏡頭使景物縮小",
-    "example": "Use the zoom-out feature to display the entire factory layout on the control panel screen. (使用縮小功能可在控制台畫面上顯示整個工廠佈局。)",
+    "example": "Use the zoom-out feature to display the entire factory layout on the control panel screen. (使用縮小檢視功能，可在控制台畫面上顯示整個廠區配置。)",
     "id": "TOEIC-zoom-out-v"
   }
 ]

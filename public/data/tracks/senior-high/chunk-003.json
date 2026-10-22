@@ -170,9 +170,9 @@
   {
     "level": "L4",
     "word": "sneeze",
-    "meaning": "打噴嚏 n.噴嚏(聲)[C]",
+    "meaning": "打噴嚏 vi.；噴嚏（聲）[C]",
     "example": "Cover your mouth when you sneeze.（打噴嚏時請摀住嘴巴。）",
-    "id": "L4-sneeze-n-c"
+    "id": "L4-sneeze-vi-c"
   },
   {
     "level": "L4",
@@ -205,9 +205,9 @@
   {
     "level": "L4",
     "word": "sophomore",
-    "meaning": "二年級學生",
+    "meaning": "（大學）二年級學生",
     "example": "My sister is a sophomore in college.（我姊姊是大二學生。）",
-    "id": "L4-sophomore-mzfe57d"
+    "id": "L4-sophomore-mhbf755"
   },
   {
     "level": "L4",
@@ -297,7 +297,7 @@
     "level": "L4",
     "word": "sportsman",
     "meaning": "喜好運動的人；運動員",
-    "example": "He is a true sportsman.（他是一位真正有運動家精神的人。）",
+    "example": "He is a true sportsman. (他很有運動家風度。)",
     "id": "L4-sportsman-mmxxltp"
   },
   {
@@ -353,7 +353,7 @@
     "level": "L4",
     "word": "submarine",
     "meaning": "潛水艇 a.海底的",
-    "example": "The submarine moved under the sea.（潛水艇在海底前進。）",
+    "example": "The submarine moved under the sea. (潛水艇在海中航行。)",
     "id": "L4-submarine-a"
   },
   {
@@ -464,9 +464,9 @@
   {
     "level": "L4",
     "word": "tap",
-    "meaning": "龍頭(酒桶等的)塞子，栓子；竊聽器 vi.裝上塞子(嘴子)；在…裝竊聽器；輕拍，輕叩，輕敲",
+    "meaning": "水龍頭；塞子；竊聽器 vt.輕拍；輕敲；裝竊聽器",
     "example": "Tap the screen to start the game.（輕點螢幕開始遊戲。）",
-    "id": "L4-tap-vi"
+    "id": "L4-tap-vt"
   },
   {
     "level": "L4",
@@ -513,7 +513,7 @@
   {
     "level": "L4",
     "word": "tense",
-    "meaning": "拉緊的，繃緊的 n.【文】(動詞的)時態，時式",
+    "meaning": "拉緊的；繃緊的；緊張的 n.時態",
     "example": "She felt tense before the speech.（演講前她感到緊張。）",
     "id": "L4-tense-n"
   },
@@ -737,9 +737,9 @@
   {
     "level": "L4",
     "word": "universal",
-    "meaning": "全體的；普遍的；一般的",
-    "example": "Love is a universal language.（愛是一種普遍的語言。）",
-    "id": "L4-universal-mie3sjj"
+    "meaning": "全體的；普遍的；一般的；通用的；共通的",
+    "example": "Love is a universal language. (愛是全世界共通的語言。)",
+    "id": "L4-universal-m1nbc8m2"
   },
   {
     "level": "L4",
@@ -786,7 +786,7 @@
   {
     "level": "L4",
     "word": "vegetarian",
-    "meaning": "素食者；食草動物 a.素食主義者的；吃素的",
+    "meaning": "素食者 a.素食的；吃素的",
     "example": "My sister is a vegetarian.（我姊姊是素食者。）",
     "id": "L4-vegetarian-a"
   },
@@ -856,9 +856,9 @@
   {
     "level": "L4",
     "word": "vital",
-    "meaning": "生命的；維持生命所必需的",
+    "meaning": "生命的；維持生命所必需的；極重要的；不可或缺的",
     "example": "Water is vital for life.（水對生命至關重要。）",
-    "id": "L4-vital-m13vrxzk"
+    "id": "L4-vital-m8h22rt"
   },
   {
     "level": "L4",
@@ -871,7 +871,7 @@
     "level": "L4",
     "word": "voluntary",
     "meaning": "自願的，志願的",
-    "example": "The work is voluntary.（這項工作是自願的。）",
+    "example": "The work is voluntary. (這份工作是自願性質的。)",
     "id": "L4-voluntary-mmd5ff1"
   },
   {
@@ -983,7 +983,7 @@
     "level": "L4",
     "word": "youthful",
     "meaning": "年輕的",
-    "example": "She has a youthful smile.（她有年輕有活力的笑容。）",
+    "example": "She has a youthful smile. (她的笑容洋溢著青春。)",
     "id": "L4-youthful-mej1c3"
   }
 ]

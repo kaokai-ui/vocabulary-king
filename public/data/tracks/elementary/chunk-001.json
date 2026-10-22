@@ -87,7 +87,7 @@
     "level": "Elementary",
     "word": "afternoon",
     "meaning": "下午",
-    "example": "Good afternoon, teacher. (老師，午安。)",
+    "example": "Good afternoon, Ms. Lin. (林老師，午安。)",
     "id": "Elementary-afternoon-mdqcd"
   },
   {
@@ -359,9 +359,9 @@
   {
     "level": "Elementary",
     "word": "aunt",
-    "meaning": "伯(叔)母",
+    "meaning": "姑姑；阿姨；伯母；嬸嬸",
     "example": "My aunt took me to the zoo. (我阿姨/姑姑帶我去動物園。)",
-    "id": "Elementary-aunt-mpudesf"
+    "id": "Elementary-aunt-meszxk6"
   },
   {
     "level": "Elementary",
@@ -388,7 +388,7 @@
     "level": "Elementary",
     "word": "back",
     "meaning": "在…後面",
-    "example": "The dog is in back of the house. (那隻狗在房子後面。)",
+    "example": "The dog is at the back of the house. (那隻狗在房子後面。)",
     "id": "Elementary-back-mb4xcyc"
   },
   {
@@ -465,7 +465,7 @@
     "level": "Elementary",
     "word": "barbecue",
     "meaning": "烤肉",
-    "example": "We have a barbecue on Mid-Autumn Festival. (我們在中秋節吃烤肉。)",
+    "example": "We have a barbecue during the Mid-Autumn Festival. (我們在中秋節烤肉。)",
     "id": "Elementary-barbecue-mjwo5"
   },
   {
@@ -814,9 +814,9 @@
   {
     "level": "Elementary",
     "word": "boss",
-    "meaning": "老板",
+    "meaning": "老闆",
     "example": "My dad is the boss of a small company. (我爸爸是一家小公司的老闆。)",
-    "id": "Elementary-boss-mmc9q"
+    "id": "Elementary-boss-mmlet"
   },
   {
     "level": "Elementary",
@@ -913,7 +913,7 @@
     "level": "Elementary",
     "word": "brother",
     "meaning": "兄弟",
-    "example": "My big brother helps me with my homework. (我哥哥輔導我的功課。)",
+    "example": "My older brother helps me with my homework. (我哥哥教我寫功課。)",
     "id": "Elementary-brother-mecez"
   },
   {
@@ -969,7 +969,7 @@
     "level": "Elementary",
     "word": "business",
     "meaning": "生意",
-    "example": "My mom has a small business. (我媽媽有一門小生意。)",
+    "example": "My mom has a small business. (我媽媽經營一家小店。)",
     "id": "Elementary-business-mkgcw"
   },
   {
@@ -1018,7 +1018,7 @@
     "level": "Elementary",
     "word": "by",
     "meaning": "藉著",
-    "example": "I go to school by bus. (我藉著搭公車去上學。)",
+    "example": "I go to school by bus. (我搭公車去上學。)",
     "id": "Elementary-by-mnhda"
   },
   {
@@ -1080,9 +1080,9 @@
   {
     "level": "Elementary",
     "word": "cap",
-    "meaning": "(無邊)帽",
+    "meaning": "帽子（尤指棒球帽）",
     "example": "He is wearing a blue baseball cap. (他戴著一頂藍色的棒球帽。)",
-    "id": "Elementary-cap-mfgurvp"
+    "id": "Elementary-cap-m1mh5jsl"
   },
   {
     "level": "Elementary",
@@ -1116,7 +1116,7 @@
     "level": "Elementary",
     "word": "carry",
     "meaning": "攜帶",
-    "example": "Please carry your bag. (請攜帶你的書包。)",
+    "example": "Please carry your bag. (請帶著你的書包。)",
     "id": "Elementary-carry-mhpqy"
   },
   {
@@ -1165,7 +1165,7 @@
     "level": "Elementary",
     "word": "cent",
     "meaning": "〈一〉分錢",
-    "example": "A dollar has one hundred cents. (一元等於一百分。)",
+    "example": "A dollar has one hundred cents. (一美元等於一百分。)",
     "id": "Elementary-cent-m1js87u5"
   },
   {
@@ -1367,9 +1367,9 @@
   {
     "level": "Elementary",
     "word": "clear",
-    "meaning": "清楚的",
+    "meaning": "清楚的；清澈的",
     "example": "The water in the river is very clear. (這條河裡的水非常清澈。)",
-    "id": "Elementary-clear-mgmp7z"
+    "id": "Elementary-clear-m1f33b05"
   },
   {
     "level": "Elementary",
@@ -1542,9 +1542,9 @@
   {
     "level": "Elementary",
     "word": "corner",
-    "meaning": "角落",
+    "meaning": "角落；轉角",
     "example": "The library is at the corner of the street. (圖書館在街道的轉角處。)",
-    "id": "Elementary-corner-mo623"
+    "id": "Elementary-corner-m1ne6yrd"
   },
   {
     "level": "Elementary",
@@ -1556,9 +1556,9 @@
   {
     "level": "Elementary",
     "word": "cost",
-    "meaning": "價值",
-    "example": "This toy costs fifty dollars. (這個玩具價值五十元。)",
-    "id": "Elementary-cost-me7oj"
+    "meaning": "花費；價值（多少錢）",
+    "example": "This toy costs fifty dollars. (這個玩具要五十元。)",
+    "id": "Elementary-cost-m1daq85u"
   },
   {
     "level": "Elementary",
@@ -1619,9 +1619,9 @@
   {
     "level": "Elementary",
     "word": "crazy",
-    "meaning": "瘋狂的",
+    "meaning": "瘋狂的；著迷的（be crazy about）",
     "example": "He is crazy about playing basketball. (他非常著迷於打籃球。)",
-    "id": "Elementary-crazy-mhulvx"
+    "id": "Elementary-crazy-be-crazy-about"
   },
   {
     "level": "Elementary",
@@ -1795,7 +1795,7 @@
     "level": "Elementary",
     "word": "dining room",
     "meaning": "飯廳",
-    "example": "We have dinner together in the dining room. (我們在餐廳一起吃晚餐。)",
+    "example": "We have dinner together in the dining room. (我們在飯廳一起吃晚餐。)",
     "id": "Elementary-dining-room-mqj8k"
   },
   {
@@ -1900,7 +1900,7 @@
     "level": "Elementary",
     "word": "draw",
     "meaning": "畫",
-    "example": "I like to draw pictures of animals. (我喜歡畫動物的圖片。)",
+    "example": "I like to draw pictures of animals. (我喜歡畫動物。)",
     "id": "Elementary-draw-mn6z"
   },
   {
@@ -1963,7 +1963,7 @@
     "level": "Elementary",
     "word": "dry",
     "meaning": "乾的",
-    "example": "Use a towel to wipe your wet hair dry. (用毛巾把濕頭髮擦乾。)",
+    "example": "Use a towel to dry your hair. (用毛巾把頭髮擦乾。)",
     "id": "Elementary-dry-me01y"
   },
   {
@@ -2131,7 +2131,7 @@
     "level": "Elementary",
     "word": "end",
     "meaning": "結束",
-    "example": "The movie has a happy end. (這部電影有一個快樂的結局。)",
+    "example": "The movie has a happy ending. (這部電影有個美好的結局。)",
     "id": "Elementary-end-mlvrj"
   },
   {
@@ -2152,7 +2152,7 @@
     "level": "Elementary",
     "word": "enjoy",
     "meaning": "喜愛",
-    "example": "We enjoy playing games together. (我們享受一起玩遊戲。)",
+    "example": "We enjoy playing games together. (我們很喜歡一起玩遊戲。)",
     "id": "Elementary-enjoy-mf3en"
   },
   {
@@ -2187,7 +2187,7 @@
     "level": "Elementary",
     "word": "eve",
     "meaning": "前夕",
-    "example": "We eat a big dinner on New Year's Eve. (我們在除夕夜吃大餐。)",
+    "example": "We eat a big dinner on New Year's Eve. (我們在跨年夜吃大餐。)",
     "id": "Elementary-eve-mehk8"
   },
   {
@@ -2292,7 +2292,7 @@
     "level": "Elementary",
     "word": "experience",
     "meaning": "經驗",
-    "example": "Camping in the mountains was a great experience. (在山上露營是一個棒的經驗。)",
+    "example": "Camping in the mountains was a great experience. (在山上露營是一個很棒的經驗。)",
     "id": "Elementary-experience-mm7fo"
   },
   {
@@ -2327,7 +2327,7 @@
     "level": "Elementary",
     "word": "fail",
     "meaning": "失敗",
-    "example": "I did not fail the test. (我考試沒有不及格。)",
+    "example": "I did not fail the test. (我考試及格了。)",
     "id": "Elementary-fail-mfq6e"
   },
   {
@@ -2368,9 +2368,9 @@
   {
     "level": "Elementary",
     "word": "farm",
-    "meaning": "農田",
+    "meaning": "農場；農田",
     "example": "There are many cows and sheep on the farm. (農場裡有許多乳牛和綿羊。)",
-    "id": "Elementary-farm-mp326"
+    "id": "Elementary-farm-m5s3cif"
   },
   {
     "level": "Elementary",
@@ -2495,7 +2495,7 @@
     "level": "Elementary",
     "word": "finally",
     "meaning": "最後",
-    "example": "Finally, we finish our homework. (最後，我們完成了作業。)",
+    "example": "Finally, we finished our homework. (最後，我們完成了作業。)",
     "id": "Elementary-finally-mi1l8"
   },
   {
@@ -2761,7 +2761,7 @@
     "level": "Elementary",
     "word": "front",
     "meaning": "前面",
-    "example": "The teacher stands in front of the classroom. (老師站在教室的前面。)",
+    "example": "The teacher stands at the front of the classroom. (老師站在教室前面。)",
     "id": "Elementary-front-metv9"
   },
   {
@@ -2866,7 +2866,7 @@
     "level": "Elementary",
     "word": "gift",
     "meaning": "禮物",
-    "example": "I bought a beautiful birthday gift for my classmate. (我買了一份美麗的生日禮物要送給同學。)",
+    "example": "I bought a beautiful birthday gift for my classmate. (我買了一份漂亮的生日禮物要送給同學。)",
     "id": "Elementary-gift-mlbp7"
   },
   {
@@ -3006,7 +3006,7 @@
     "level": "Elementary",
     "word": "great",
     "meaning": "很棒的",
-    "example": "That is a great idea! (那真是一個棒主意！)",
+    "example": "That is a great idea! (那真是個好主意！)",
     "id": "Elementary-great-mei7p6"
   },
   {
@@ -3034,7 +3034,7 @@
     "level": "Elementary",
     "word": "grow",
     "meaning": "種植",
-    "example": "We grow flowers at school. (我們在學校種植花。)",
+    "example": "We grow flowers at school. (我們在學校種花。)",
     "id": "Elementary-grow-mlcwv"
   },
   {
@@ -3055,7 +3055,7 @@
     "level": "Elementary",
     "word": "guitar",
     "meaning": "吉他",
-    "example": "My big brother is learning to play the guitar. (我哥哥正在學彈吉他。)",
+    "example": "My older brother is learning to play the guitar. (我哥哥正在學彈吉他。)",
     "id": "Elementary-guitar-meq5p"
   },
   {
@@ -3250,15 +3250,15 @@
   {
     "level": "Elementary",
     "word": "hello",
-    "meaning": "喂",
+    "meaning": "喂；你好；嗨",
     "example": "Say hello to the new student. (跟新同學打個招呼吧。)",
-    "id": "Elementary-hello-mgw2"
+    "id": "Elementary-hello-m79ghnn"
   },
   {
     "level": "Elementary",
     "word": "help",
     "meaning": "幫忙",
-    "example": "Can you help me with my math homework? (你可以輔導我的數學功課嗎？)",
+    "example": "Can you help me with my math homework? (你可以幫我做數學作業嗎？)",
     "id": "Elementary-help-mgl3i"
   },
   {
@@ -3279,7 +3279,7 @@
     "level": "Elementary",
     "word": "here",
     "meaning": "這裡",
-    "example": "Please sit here beside me. (請坐在我這裡，我旁邊。)",
+    "example": "Please sit here beside me. (請坐在我旁邊。)",
     "id": "Elementary-here-mp9ew"
   },
   {
@@ -3419,7 +3419,7 @@
     "level": "Elementary",
     "word": "hospital",
     "meaning": "醫院",
-    "example": "The ambulance took the sick boy to the hospital. (救護車把生病的大男孩送到醫院。)",
+    "example": "The ambulance took the sick boy to the hospital. (救護車把生病的男孩送到醫院。)",
     "id": "Elementary-hospital-mplp3"
   },
   {
@@ -3580,7 +3580,7 @@
     "level": "Elementary",
     "word": "inside",
     "meaning": "在…內部",
-    "example": "The cat is inside the box. (貓在盒子內部。)",
+    "example": "The cat is inside the box. (貓在盒子裡。)",
     "id": "Elementary-inside-mb4ux27"
   },
   {
@@ -3790,7 +3790,7 @@
     "level": "Elementary",
     "word": "kind",
     "meaning": "種類",
-    "example": "What kind of fruit do you like? (你喜歡哪一種類的水果？)",
+    "example": "What kind of fruit do you like? (你喜歡哪一種水果？)",
     "id": "Elementary-kind-mlm9c"
   },
   {
@@ -3951,7 +3951,7 @@
     "level": "Elementary",
     "word": "lead",
     "meaning": "引導",
-    "example": "The teacher will lead us to the gym. (老師引導我們到體育館)",
+    "example": "The teacher will lead us to the gym. (老師帶我們去體育館。)",
     "id": "Elementary-lead-mgoex"
   },
   {
@@ -3993,7 +3993,7 @@
     "level": "Elementary",
     "word": "leg",
     "meaning": "腿",
-    "example": "My leg hurts today. (我的腿今天會痛。)",
+    "example": "My leg hurts today. (我的腿今天很痛。)",
     "id": "Elementary-leg-mpkv"
   },
   {
@@ -4069,9 +4069,9 @@
   {
     "level": "Elementary",
     "word": "life",
-    "meaning": "生活",
+    "meaning": "生活；生命",
     "example": "Water is very important for life. (水對生命來說非常重要。)",
-    "id": "Elementary-life-mkirg"
+    "id": "Elementary-life-m1al3l0d"
   },
   {
     "level": "Elementary",
@@ -4287,7 +4287,7 @@
     "level": "Elementary",
     "word": "mark",
     "meaning": "做記號",
-    "example": "Please mark your name here. (請在這裡做記號寫上你的名字。)",
+    "example": "Please mark the correct answer. (請標出正確答案。)",
     "id": "Elementary-mark-mcfx29"
   },
   {
@@ -4329,7 +4329,7 @@
     "level": "Elementary",
     "word": "math",
     "meaning": "數學",
-    "example": "Can you help me with my math homework? (你可以輔導我的數學功課嗎？)",
+    "example": "Can you help me with my math homework? (你可以幫我做數學作業嗎？)",
     "id": "Elementary-math-mhreo"
   },
   {
@@ -4378,7 +4378,7 @@
     "level": "Elementary",
     "word": "meat",
     "meaning": "肉",
-    "example": "I like to eat pork and beef meat. (我喜歡吃豬肉和牛肉。)",
+    "example": "I like to eat meat, especially pork and beef. (我喜歡吃肉，尤其是豬肉和牛肉。)",
     "id": "Elementary-meat-mpe1"
   },
   {
@@ -4434,7 +4434,7 @@
     "level": "Elementary",
     "word": "million",
     "meaning": "百萬",
-    "example": "There are many millions of people living in Taiwan. (有幾千萬人居住在台灣。)",
+    "example": "There are many millions of people living in Taiwan. (有兩千多萬人居住在台灣。)",
     "id": "Elementary-million-mkvou"
   },
   {
@@ -4518,7 +4518,7 @@
     "level": "Elementary",
     "word": "moon",
     "meaning": "月亮",
-    "example": "The moon is very big and round on Moon Festival. (中秋節的月亮非常大又非常圓。)",
+    "example": "The moon is very big and round during the Moon Festival. (中秋節的月亮非常大又非常圓。)",
     "id": "Elementary-moon-mhyg6"
   },
   {
@@ -4553,7 +4553,7 @@
     "level": "Elementary",
     "word": "mother",
     "meaning": "母親",
-    "example": "My mother takes good care of our family. (我媽媽非常照顧我們的家庭。)",
+    "example": "My mother takes good care of our family. (我媽媽非常照顧我們全家。)",
     "id": "Elementary-mother-mj3b1"
   },
   {
@@ -4567,7 +4567,7 @@
     "level": "Elementary",
     "word": "mountain",
     "meaning": "山",
-    "example": "We went hiking on Yangmingshan mountain last week. (我們上週去陽明山健行。)",
+    "example": "We went hiking on Yangmingshan last week. (我們上週去陽明山健行。)",
     "id": "Elementary-mountain-mi9d"
   },
   {
@@ -4623,15 +4623,15 @@
     "level": "Elementary",
     "word": "Ms.",
     "meaning": "女士",
-    "example": "Ms. Wang is my English teacher. (王女士是我的英文老師。)",
+    "example": "Ms. Wang is my English teacher. (王老師是我的英文老師。)",
     "id": "Elementary-ms-mfpaw"
   },
   {
     "level": "Elementary",
     "word": "much",
-    "meaning": "許多(不可數)",
+    "meaning": "許多（不可數）；非常（very much）",
     "example": "Thank you very much for your help. (非常謝謝你的幫忙。)",
-    "id": "Elementary-much-mup7vqq"
+    "id": "Elementary-much-very-much"
   },
   {
     "level": "Elementary",
@@ -4700,7 +4700,7 @@
     "level": "Elementary",
     "word": "need",
     "meaning": "需要",
-    "example": "I need a blue pen to write my homework. (我需要一隻藍色原子筆來寫功課。)",
+    "example": "I need a blue pen to write my homework. (我需要一支藍色原子筆來寫功課。)",
     "id": "Elementary-need-mqfsx"
   },
   {
@@ -4896,7 +4896,7 @@
     "level": "Elementary",
     "word": "number",
     "meaning": "號碼",
-    "example": "What is your lucky number? (你最喜歡的幸運數字是多少？)",
+    "example": "What is your lucky number? (你的幸運數字是多少？)",
     "id": "Elementary-number-mninx"
   },
   {
@@ -4931,7 +4931,7 @@
     "level": "Elementary",
     "word": "off",
     "meaning": "自…離開",
-    "example": "The bird flies off the tree. (鳥從樹上飛離開。)",
+    "example": "The bird flies off the tree. (鳥從樹上飛走。)",
     "id": "Elementary-off-mgjc1ut"
   },
   {
@@ -4944,9 +4944,9 @@
   {
     "level": "Elementary",
     "word": "officer",
-    "meaning": "官員",
+    "meaning": "警官；官員",
     "example": "The police officer is helping the little girl. (警察叔叔正在幫助那個小女孩。)",
-    "id": "Elementary-officer-mg1mx"
+    "id": "Elementary-officer-m1ofiwz6"
   },
   {
     "level": "Elementary",
@@ -4972,9 +4972,9 @@
   {
     "level": "Elementary",
     "word": "old",
-    "meaning": "老的",
+    "meaning": "老的；舊的",
     "example": "This storybook is very old but interesting. (這本故事書很舊但是很有趣。)",
-    "id": "Elementary-old-mmf8j"
+    "id": "Elementary-old-mja2hsi"
   },
   {
     "level": "Elementary",
@@ -5029,7 +5029,7 @@
     "level": "Elementary",
     "word": "order",
     "meaning": "點餐,秩序",
-    "example": "May I order a box of dumplings, please? (請問我可以點一份水餃嗎？)",
+    "example": "May I order a box of dumplings, please? (請問我可以點一盒水餃嗎？)",
     "id": "Elementary-order-m17m668"
   },
   {
@@ -5077,9 +5077,9 @@
   {
     "level": "Elementary",
     "word": "pack",
-    "meaning": "包",
+    "meaning": "包；打包；收拾（行李、書包）",
     "example": "Please pack your school bag before bedtime. (請在睡前整理好你的書包。)",
-    "id": "Elementary-pack-mged"
+    "id": "Elementary-pack-movt022"
   },
   {
     "level": "Elementary",
@@ -5162,14 +5162,14 @@
     "level": "Elementary",
     "word": "pass",
     "meaning": "通過",
-    "example": "We pass the library every day. (我們每天通過圖書館。)",
+    "example": "We pass the library every day. (我們每天經過圖書館。)",
     "id": "Elementary-pass-mpawk"
   },
   {
     "level": "Elementary",
     "word": "past",
     "meaning": "經過",
-    "example": "I walk past the shop. (我走經過那間商店。)",
+    "example": "I walk past the shop. (我走過那間商店。)",
     "id": "Elementary-past-mm5gb"
   },
   {
@@ -5308,9 +5308,9 @@
   {
     "level": "Elementary",
     "word": "pin",
-    "meaning": "大頭針",
+    "meaning": "圖釘；大頭針",
     "example": "Use a pin to fix the picture on the board. (用圖釘把圖片固定在公布欄上。)",
-    "id": "Elementary-pin-mdss6v"
+    "id": "Elementary-pin-m6kt2ke"
   },
   {
     "level": "Elementary",
@@ -5379,7 +5379,7 @@
     "level": "Elementary",
     "word": "player",
     "meaning": "球員,玩家",
-    "example": "He is the best basketball player in our school. (他是我們學校棒的籃球員。)",
+    "example": "He is the best basketball player in our school. (他是我們學校最棒的籃球員。)",
     "id": "Elementary-player-m1250zff"
   },
   {
@@ -5512,7 +5512,7 @@
     "level": "Elementary",
     "word": "pound",
     "meaning": "磅",
-    "example": "The heavy big dog weighs about sixty pounds. (那隻沉重的大狗大約有六十磅重。)",
+    "example": "The big dog weighs about sixty pounds. (那隻大狗大約有六十磅重。)",
     "id": "Elementary-pound-mnut"
   },
   {
@@ -5742,9 +5742,9 @@
   {
     "level": "Elementary",
     "word": "rat",
-    "meaning": "(大)老鼠,鼠輩",
+    "meaning": "（大）老鼠",
     "example": "The cat caught a big rat in the kitchen. (貓在廚房裡抓到了一隻大老鼠。)",
-    "id": "Elementary-rat-m1ubqbws"
+    "id": "Elementary-rat-mf17de1"
   },
   {
     "level": "Elementary",
@@ -5806,7 +5806,7 @@
     "level": "Elementary",
     "word": "repeat",
     "meaning": "重複",
-    "example": "Can you repeat that word again, please? (可以請你把那個單字再重複一遍嗎？)",
+    "example": "Can you repeat that word, please? (可以請你再說一次那個單字嗎？)",
     "id": "Elementary-repeat-mpjve"
   },
   {
@@ -6065,7 +6065,7 @@
     "level": "Elementary",
     "word": "say",
     "meaning": "說",
-    "example": "What did the teacher say about the homework? (老師剛剛說的功課是什麼？)",
+    "example": "What did the teacher say about the homework? (老師剛剛說了什麼關於功課的事？)",
     "id": "Elementary-say-mre2"
   },
   {
@@ -6128,7 +6128,7 @@
     "level": "Elementary",
     "word": "secretary",
     "meaning": "秘書",
-    "example": "The secretary is typing a letter in the office. (秘書正在辦公室裡打信件。)",
+    "example": "The secretary is typing a letter in the office. (秘書正在辦公室裡打一封信。)",
     "id": "Elementary-secretary-mlag0"
   },
   {
@@ -6163,7 +6163,7 @@
     "level": "Elementary",
     "word": "sell",
     "meaning": "賣",
-    "example": "The convenience store sells ice cream and drinks. (便利商店有販賣冰淇淋和飲料。)",
+    "example": "The convenience store sells ice cream and drinks. (便利商店有賣冰淇淋和飲料。)",
     "id": "Elementary-sell-mrtv"
   },
   {
@@ -6240,7 +6240,7 @@
     "level": "Elementary",
     "word": "seventy",
     "meaning": "七十",
-    "example": "This cool toy costs seventy Taiwan dollars. (這個酷玩具要價新台幣七十元。)",
+    "example": "This cool toy costs seventy Taiwan dollars. (這個很酷的玩具要七十元。)",
     "id": "Elementary-seventy-mdq5a"
   },
   {
@@ -6394,7 +6394,7 @@
     "level": "Elementary",
     "word": "side",
     "meaning": "旁邊,邊,面",
-    "example": "Please stand on the safe side of the road. (請站在馬路安全的那一側。)",
+    "example": "Please stand on the side of the road away from traffic. (請站在遠離車流的馬路邊。)",
     "id": "Elementary-side-m16ohit9"
   },
   {
@@ -6422,7 +6422,7 @@
     "level": "Elementary",
     "word": "simple",
     "meaning": "簡單的",
-    "example": "This English question is very simple and easy. (這個英文問題非常簡單又容易。)",
+    "example": "This English question is very simple. (這個英文問題非常簡單。)",
     "id": "Elementary-simple-milr3r"
   },
   {
@@ -6506,7 +6506,7 @@
     "level": "Elementary",
     "word": "size",
     "meaning": "尺寸",
-    "example": "What size of shoes do you wear? (你穿什麼尺寸的鞋子？)",
+    "example": "What size shoes do you wear? (你穿幾號的鞋子？)",
     "id": "Elementary-size-mg6wu"
   },
   {
@@ -6548,7 +6548,7 @@
     "level": "Elementary",
     "word": "slim",
     "meaning": "苗條的",
-    "example": "The girl is tall and slim. (那個女孩長得高高苗條的。)",
+    "example": "The girl is tall and slim. (那個女孩又高又苗條。)",
     "id": "Elementary-slim-mjocym"
   },
   {
@@ -6625,7 +6625,7 @@
     "level": "Elementary",
     "word": "snowy",
     "meaning": "下雪的",
-    "example": "The mountain turned white on snowy days. (下雪天時，那座山變成了白色。)",
+    "example": "The mountain turns white on snowy days. (下雪天時，那座山會變成白色。)",
     "id": "Elementary-snowy-mc5u79"
   },
   {
@@ -6982,7 +6982,7 @@
     "level": "Elementary",
     "word": "stupid",
     "meaning": "笨的",
-    "example": "Don't say stupid words to your classmates. (不要對同學說愚蠢的話。)",
+    "example": "Don't say stupid things to your classmates. (不要對同學說愚蠢的話。)",
     "id": "Elementary-stupid-mlljw"
   },
   {

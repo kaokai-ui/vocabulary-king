@@ -17,7 +17,7 @@
     "level": "L2",
     "word": "advance",
     "meaning": "verb (使)前進、使發展、促進\nnoun 前進、發展、進展\nadj. 預先的、事先的",
-    "example": "Technology continues to advance at a rapid pace. (技術繼續快速發展。)",
+    "example": "Technology continues to advance quickly. (科技持續快速進步。)",
     "id": "L2-advance-verb-noun-adj"
   },
   {
@@ -38,7 +38,7 @@
     "level": "L2",
     "word": "aim",
     "meaning": "verb/noun 計劃、瞄準；目標、瞄準",
-    "example": "Students should aim for excellence in their studies. (學生應該在學習中追求卓越。)",
+    "example": "Our aim is to finish the project today. (我們的目標是今天完成這項計畫。)",
     "id": "L2-aim-verb-noun"
   },
   {
@@ -115,7 +115,7 @@
     "level": "L2",
     "word": "amount",
     "meaning": "noun 數量",
-    "example": "The amount of rainfall this year was below average. (今年的降雨量低於平均水平。)",
+    "example": "A large amount of water was wasted. (大量的水被浪費了。)",
     "id": "L2-amount-noun"
   },
   {
@@ -192,7 +192,7 @@
     "level": "L2",
     "word": "argue",
     "meaning": "verb 爭吵、爭論",
-    "example": "They often argue about politics at family dinners. (他們經常在家庭聚餐時為政治爭論。)",
+    "example": "They often argue about small things. (他們常為小事爭吵。)",
     "id": "L2-argue-verb"
   },
   {
@@ -227,7 +227,7 @@
     "level": "L2",
     "word": "article",
     "meaning": "noun 文章、報導；物品、物件、(語法)冠詞",
-    "example": "I read an interesting article about climate change. (我讀了一篇關於氣候變化的有趣文章。)",
+    "example": "I read an interesting article about animals. (我讀了一篇關於動物的有趣文章。)",
     "id": "L2-article-noun"
   },
   {
@@ -262,7 +262,7 @@
     "level": "L2",
     "word": "attend",
     "meaning": "verb 出席、參加",
-    "example": "All students must attend the mandatory meeting. (所有學生都必須參加強制性會議。)",
+    "example": "All students must attend the meeting. (所有學生都必須參加會議。)",
     "id": "L2-attend-verb"
   },
   {
@@ -311,7 +311,7 @@
     "level": "L2",
     "word": "banker",
     "meaning": "noun 銀行家、莊家",
-    "example": "The banker helped us open an account.（銀行員幫我們開戶。）",
+    "example": "The banker works at a large bank. (這位銀行家在大型銀行工作。)",
     "id": "L2-banker-noun"
   },
   {
@@ -528,7 +528,7 @@
     "level": "L2",
     "word": "brain",
     "meaning": "noun 頭腦",
-    "example": "The human brain is incredibly complex and powerful. (人類大腦極其複雜和強大。)",
+    "example": "The brain controls the body. (大腦控制身體。)",
     "id": "L2-brain-noun"
   },
   {
@@ -577,7 +577,7 @@
     "level": "L2",
     "word": "brush",
     "meaning": "noun/verb 刷子、畫筆、刷抹；刷、擦掉",
-    "example": "Brush your teeth twice a day for good hygiene. (為了良好的衛生習慣， 每天刷牙兩次。)",
+    "example": "Brush your teeth twice a day. (每天刷兩次牙。)",
     "id": "L2-brush-noun-verb"
   },
   {
@@ -738,7 +738,7 @@
     "level": "L2",
     "word": "cell",
     "meaning": "noun 細胞；手機；小房間、牢房",
-    "example": "Each cell in the body has a specific function. (身體中的每個細胞都有特定功能。)",
+    "example": "The body is made of many cells. (身體由許多細胞組成。)",
     "id": "L2-cell-noun"
   },
   {
@@ -752,7 +752,7 @@
     "level": "L2",
     "word": "century",
     "meaning": "noun 一百年、世紀",
-    "example": "The 21st century brought many technological advances. (21 世紀帶來了許多技術進步。)",
+    "example": "We live in the twenty-first century. (我們生活在二十一世紀。)",
     "id": "L2-century-noun"
   },
   {
@@ -773,7 +773,7 @@
     "level": "L2",
     "word": "change",
     "meaning": "verb 改變；交換、兌換\nnoun 改變；零錢",
-    "example": "Technology continues to change our daily lives. (科技繼續改變我們的日常生活。)",
+    "example": "The weather can change quickly. (天氣可能快速變化。)",
     "id": "L2-change-verb-noun"
   },
   {
@@ -787,7 +787,7 @@
     "level": "L2",
     "word": "charge",
     "meaning": "verb 收費；指控、控告；指示、吩咐；充電\nnoun 費用；指控、控告；職責、責任；充電量、電荷",
-    "example": "The store will charge tax on all purchases. (商店會對所有購買收取稅款。)",
+    "example": "The store will charge you for the bag. (這家店會向你收取袋子的費用。)",
     "id": "L2-charge-verb-noun"
   },
   {
@@ -850,14 +850,14 @@
     "level": "L2",
     "word": "choice",
     "meaning": "noun/adj. 選擇、選項；優質的、上等的",
-    "example": "Students have many choices for university majors. (學生在大學專業方面有很多選擇。)",
+    "example": "You have a choice between tea and coffee. (你可以選擇茶或咖啡。)",
     "id": "L2-choice-noun-adj"
   },
   {
     "level": "L2",
     "word": "choose",
     "meaning": "verb 選擇、挑選",
-    "example": "Please choose the best option for your future. (請為你的未來選擇最好的選項。)",
+    "example": "Please choose a book to read. (請選一本書來讀。)",
     "id": "L2-choose-verb"
   },
   {
@@ -885,7 +885,7 @@
     "level": "L2",
     "word": "claim",
     "meaning": "verb 聲稱、主張；認領、索取；索款、索賠\nnoun 說法、斷言；權利、所有權",
-    "example": "The insurance company will process your claim quickly. (保險公司會迅速處理你的理賠。)",
+    "example": "She claims that she saw the dog. (她聲稱看到了那隻狗。)",
     "id": "L2-claim-verb-noun"
   },
   {
@@ -899,7 +899,7 @@
     "level": "L2",
     "word": "classic",
     "meaning": "adj./noun 古典的、典型的、經典的；經典作品、名著",
-    "example": "Shakespeare's plays are classic works of literature. (莎士比亞的戲劇是經典文學作品。)",
+    "example": "This book is a classic. (這本書是經典作品。)",
     "id": "L2-classic-adj-noun"
   },
   {
@@ -1200,7 +1200,7 @@
     "level": "L2",
     "word": "cream",
     "meaning": "noun 鮮奶油、奶霜；乳霜、護膚霜",
-    "example": "She put cream in her coffee.（她在咖啡裡加了奶精。）",
+    "example": "She put cream in her coffee. (她在咖啡裡加了鮮奶油。)",
     "id": "L2-cream-noun"
   },
   {
@@ -1507,9 +1507,9 @@
   {
     "level": "L2",
     "word": "direction",
-    "meaning": "noun 方向",
+    "meaning": "noun 方向；說明（directions）",
     "example": "Please read the directions before using the machine.（使用機器前請先閱讀說明。）",
-    "id": "L2-direction-noun"
+    "id": "L2-direction-noun-directions"
   },
   {
     "level": "L2",
@@ -1563,7 +1563,7 @@
   {
     "level": "L2",
     "word": "division",
-    "meaning": "noun 分開；部門",
+    "meaning": "noun 分開；部門；除法",
     "example": "Division is easier when you know multiplication.（如果你懂乘法，除法會比較容易。）",
     "id": "L2-division-noun"
   },
@@ -1668,7 +1668,7 @@
   {
     "level": "L2",
     "word": "drugstore",
-    "meaning": "noun 藥局",
+    "meaning": "noun 藥局；藥妝店",
     "example": "I bought a toothbrush at the drugstore.（我在藥妝店買了一支牙刷。）",
     "id": "L2-drugstore-noun"
   },
@@ -1711,7 +1711,7 @@
     "level": "L2",
     "word": "earn",
     "meaning": "verb 賺得",
-    "example": "Hard work helps earn success and respect. (努力工作有助於獲得成功和尊重。)",
+    "example": "He earns money by walking dogs. (他靠遛狗賺錢。)",
     "id": "L2-earn-verb"
   },
   {
@@ -1725,7 +1725,7 @@
     "level": "L2",
     "word": "education",
     "meaning": "noun 教育",
-    "example": "Quality education opens doors to opportunities. (優質教育為機會打開大門。)",
+    "example": "She received a good education. (她接受了良好的教育。)",
     "id": "L2-education-noun"
   },
   {
@@ -1739,14 +1739,14 @@
     "level": "L2",
     "word": "effective",
     "meaning": "adj. 有效的",
-    "example": "Effective communication prevents misunderstandings. (有效溝通防止誤解。)",
+    "example": "This medicine is very effective. (這種藥很有效。)",
     "id": "L2-effective-adj"
   },
   {
     "level": "L2",
     "word": "effort",
     "meaning": "noun 努力",
-    "example": "Success requires consistent effort and patience. (成功需要持續的努力和耐心。)",
+    "example": "He put a lot of effort into the project. (他在這項計畫上付出很多努力。)",
     "id": "L2-effort-noun"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "L2",
     "word": "energy",
     "meaning": "noun 活力、精力；能源",
-    "example": "Solar panels convert sunlight into energy. (太陽能板將陽光轉換為能量。)",
+    "example": "Children have a lot of energy. (孩子們精力充沛。)",
     "id": "L2-energy-noun"
   },
   {
@@ -1830,7 +1830,7 @@
     "level": "L2",
     "word": "environment",
     "meaning": "noun 環境",
-    "example": "Protecting the environment benefits everyone. (保護環境對每個人都有益。)",
+    "example": "We should protect the environment. (我們應該保護環境。)",
     "id": "L2-environment-noun"
   },
   {
@@ -1893,14 +1893,14 @@
     "level": "L2",
     "word": "exercise",
     "meaning": "noun/verb 運動、練習；運動",
-    "example": "Daily exercise strengthens the body. (每日運動強化身體。)",
+    "example": "I exercise every morning. (我每天早上運動。)",
     "id": "L2-exercise-noun-verb"
   },
   {
     "level": "L2",
     "word": "exist",
     "meaning": "verb 存在",
-    "example": "Many problems exist in modern society. (現代社會存在許多問題。)",
+    "example": "Do dinosaurs still exist? (恐龍還存在嗎？)",
     "id": "L2-exist-verb"
   },
   {
@@ -1921,28 +1921,28 @@
     "level": "L2",
     "word": "experience",
     "meaning": "noun/verb 經驗；體驗",
-    "example": "Travel provides valuable life experience. (旅行提供寶貴的人生經驗。)",
+    "example": "She has a lot of teaching experience. (她有很多教學經驗。)",
     "id": "L2-experience-noun-verb"
   },
   {
     "level": "L2",
     "word": "expert",
     "meaning": "noun 專家",
-    "example": "Medical experts studied the disease. (醫學專家研究了這種疾病。)",
+    "example": "He is an expert in computers. (他是電腦專家。)",
     "id": "L2-expert-noun"
   },
   {
     "level": "L2",
     "word": "explain",
     "meaning": "verb 解釋",
-    "example": "Teachers explain difficult concepts clearly. (老師清楚地解釋困難概念。)",
+    "example": "Can you explain this question? (你能解釋這個問題嗎？)",
     "id": "L2-explain-verb"
   },
   {
     "level": "L2",
     "word": "express",
     "meaning": "verb 表達\nnoun 快車、快遞\nadj. 快的",
-    "example": "Artists express emotions through their work. (藝術家通過作品表達情感。)",
+    "example": "She expressed her thanks with a smile. (她以微笑表達感謝。)",
     "id": "L2-express-verb-noun-adj"
   },
   {
@@ -1956,14 +1956,14 @@
     "level": "L2",
     "word": "fail",
     "meaning": "verb 失敗、不及格",
-    "example": "Students who don't study may fail exams. (不學習的學生可能會考試不及格。)",
+    "example": "He failed the math test. (他數學考試不及格。)",
     "id": "L2-fail-verb"
   },
   {
     "level": "L2",
     "word": "failure",
     "meaning": "noun 失敗、故障",
-    "example": "Failure often leads to eventual success. (失敗往往導致最終成功。)",
+    "example": "Failure is part of learning. (失敗是學習的一部分。)",
     "id": "L2-failure-noun"
   },
   {
@@ -2005,21 +2005,21 @@
     "level": "L2",
     "word": "fee",
     "meaning": "noun 費用",
-    "example": "University fees increase every year. (大學費用每年都在增加。)",
+    "example": "There is a small fee for the class. (這門課要付一點費用。)",
     "id": "L2-fee-noun"
   },
   {
     "level": "L2",
     "word": "fellow",
     "meaning": "noun/adj. 夥伴；同類的、同伴的",
-    "example": "Fellow students helped during difficult times. (同學在困難時期提供了幫助。)",
+    "example": "My fellow students helped me. (我的同學幫助了我。)",
     "id": "L2-fellow-noun-adj"
   },
   {
     "level": "L2",
     "word": "female",
     "meaning": "adj./noun 女性的；女性",
-    "example": "Female leaders inspire young girls. (女性領導者激勵年輕女孩。)",
+    "example": "The female bird is brown. (這隻母鳥是棕色的。)",
     "id": "L2-female-adj-noun"
   },
   {
@@ -2033,7 +2033,7 @@
     "level": "L2",
     "word": "festival",
     "meaning": "noun 節慶",
-    "example": "The Lantern Festival is after Lunar New Year.（元宵節在農曆新年之後。）",
+    "example": "The Lantern Festival is on the fifteenth day of the first lunar month. (元宵節在農曆正月十五。)",
     "id": "L2-festival-noun"
   },
   {
@@ -2082,14 +2082,14 @@
     "level": "L2",
     "word": "fix",
     "meaning": "verb 修理",
-    "example": "Mechanics fix broken car engines. (機械師修理壞掉的汽車引擎。)",
+    "example": "Can you fix my bike? (你能修我的腳踏車嗎？)",
     "id": "L2-fix-verb"
   },
   {
     "level": "L2",
     "word": "flag",
     "meaning": "noun 旗",
-    "example": "The national flag represents national pride.（國旗代表國家自豪感。）",
+    "example": "The flag is red, white, and blue. (這面旗子是紅、白、藍三色。)",
     "id": "L2-flag-noun"
   },
   {
@@ -2145,7 +2145,7 @@
     "level": "L2",
     "word": "focus",
     "meaning": "noun/verb 焦點；聚焦",
-    "example": "Students focus better in quiet environments. (學生在安靜環境中專注度更好。)",
+    "example": "Please focus on your homework. (請專心寫作業。)",
     "id": "L2-focus-noun-verb"
   },
   {
@@ -2264,7 +2264,7 @@
     "level": "L2",
     "word": "function",
     "meaning": "noun/verb 功用；發揮功用",
-    "example": "Each organ has a specific function. (每個器官都有特定功能。)",
+    "example": "The heart has an important function. (心臟有重要功能。)",
     "id": "L2-function-noun-verb"
   },
   {
@@ -2285,7 +2285,7 @@
     "level": "L2",
     "word": "gain",
     "meaning": "verb/noun 獲得、增加；利潤",
-    "example": "Students gain knowledge through experience. (學生透過經驗獲得知識。)",
+    "example": "She gained a lot of knowledge from the class. (她從這門課學到很多知識。)",
     "id": "L2-gain-verb-noun"
   },
   {
@@ -2439,7 +2439,7 @@
     "level": "L2",
     "word": "guard",
     "meaning": "noun/verb 守衛，衛兵；守衛",
-    "example": "Security guards protect school property. (保安人員保護學校財產。)",
+    "example": "The guard stands at the gate. (警衛站在大門旁。)",
     "id": "L2-guard-noun-verb"
   },
   {
@@ -2502,7 +2502,7 @@
     "level": "L2",
     "word": "handle",
     "meaning": "verb 處理\nnoun 把手",
-    "example": "Students learn to handle stress effectively. (學生學會有效地處理壓力。)",
+    "example": "She can handle the problem by herself. (她自己能處理這個問題。)",
     "id": "L2-handle-verb-noun"
   },
   {
@@ -2516,7 +2516,7 @@
     "level": "L2",
     "word": "hang",
     "meaning": "verb 懸掛",
-    "example": "Students hang artwork on classroom walls. (學生將藝術作品掛在教室牆上。)",
+    "example": "Please hang your coat on the hook. (請把外套掛在掛鉤上。)",
     "id": "L2-hang-verb"
   },
   {
@@ -2614,7 +2614,7 @@
     "level": "L2",
     "word": "hire",
     "meaning": "verb/noun 僱用；新僱員",
-    "example": "The store will hire two new workers.（這家店將雇用兩名新員工。）",
+    "example": "They hired a new teacher. (他們聘了一位新老師。)",
     "id": "L2-hire-verb-noun"
   },
   {
@@ -3083,7 +3083,7 @@
     "level": "L2",
     "word": "library",
     "meaning": "noun 圖書館",
-    "example": "The library provides quiet study spaces. (圖書館提供安靜的學習空間。)",
+    "example": "I study at the library after school. (我放學後在圖書館讀書。)",
     "id": "L2-library-noun"
   },
   {
@@ -3146,7 +3146,7 @@
     "level": "L2",
     "word": "lock",
     "meaning": "verb/noun 鎖上；鎖",
-    "example": "Students lock their lockers securely. (學生安全地鎖好儲物櫃。)",
+    "example": "Please lock the door before you leave. (離開前請把門鎖上。)",
     "id": "L2-lock-verb-noun"
   },
   {
@@ -3167,7 +3167,7 @@
     "level": "L2",
     "word": "loser",
     "meaning": "noun 失敗者",
-    "example": "He was disappointed, but he was not a sore loser.（他很失望，但他不是輸不起的人。）",
+    "example": "Nobody wants to be a loser. (沒有人想當失敗者。)",
     "id": "L2-loser-noun"
   },
   {
@@ -3468,7 +3468,7 @@
     "level": "L2",
     "word": "motion",
     "meaning": "noun 行動、動作\nverb 打手勢",
-    "example": "The camera detected motion near the door.（攝影機偵測到門附近有動作。）",
+    "example": "The motion of the train made me sleepy. (火車的晃動讓我昏昏欲睡。)",
     "id": "L2-motion-noun-verb"
   },
   {
@@ -3558,8 +3558,8 @@
   {
     "level": "L2",
     "word": "necklace",
-    "meaning": "noun 項鏈",
-    "example": "She wore a pearl necklace.（她戴了一條珍珠項鍊。）",
+    "meaning": "noun 項鍊",
+    "example": "She wore a pearl necklace. (她戴了一條珍珠項鍊。)",
     "id": "L2-necklace-noun"
   },
   {
@@ -3636,7 +3636,7 @@
     "level": "L2",
     "word": "noodle",
     "meaning": "noun 麵條",
-    "example": "He picked up a noodle with his chopsticks.（他用筷子夾起一條麵。）",
+    "example": "He picked up a noodle with his chopsticks. (他用筷子夾起一根麵條。)",
     "id": "L2-noodle-noun"
   },
   {
@@ -3866,7 +3866,7 @@
   {
     "level": "L2",
     "word": "particular",
-    "meaning": "adj. 特殊的、特別的",
+    "meaning": "adj. 特定的；特別的",
     "example": "This particular method works well. (這種特定方法效果很好。)",
     "id": "L2-particular-adj"
   },
@@ -4244,7 +4244,7 @@
   {
     "level": "L2",
     "word": "president",
-    "meaning": "noun 總統",
+    "meaning": "noun 總統；會長；主席",
     "example": "The student council president leads meetings. (學生會主席主持會議。)",
     "id": "L2-president-noun"
   },
@@ -4343,7 +4343,7 @@
     "level": "L2",
     "word": "promise",
     "meaning": "verb/noun 承諾、答應",
-    "example": "Students promise to follow school rules. (學生承諾遵守學校規則。)",
+    "example": "I promise to be home by six. (我承諾六點前回家。)",
     "id": "L2-promise-verb-noun"
   },
   {
@@ -5525,7 +5525,7 @@
   {
     "level": "L2",
     "word": "theater",
-    "meaning": "noun 電影院",
+    "meaning": "noun 劇院；電影院",
     "example": "We watched a play at the theater.（我們在劇院看了一齣戲。）",
     "id": "L2-theater-noun"
   },
@@ -5638,7 +5638,7 @@
     "level": "L2",
     "word": "toilet",
     "meaning": "noun 馬桶、衛生間",
-    "example": "The toilet is next to the restroom sink.（馬桶在洗手間水槽旁邊。）",
+    "example": "The toilet is next to the sink in the restroom. (馬桶在洗手間的水槽旁邊。)",
     "id": "L2-toilet-noun"
   },
   {
@@ -5959,7 +5959,7 @@
   {
     "level": "L2",
     "word": "visitor",
-    "meaning": "noun 參觀者、 遊客",
+    "meaning": "noun 訪客、參觀者、遊客",
     "example": "Each visitor must wear a name tag.（每位訪客都必須戴名牌。）",
     "id": "L2-visitor-noun"
   },
@@ -6044,7 +6044,7 @@
     "level": "L2",
     "word": "wave",
     "meaning": "noun (海)浪\nverb 揮、招(手)",
-    "example": "Students wave goodbye after graduation. (學生畢業後揮手告別。)",
+    "example": "She waved goodbye at the airport. (她在機場揮手道別。)",
     "id": "L2-wave-noun-verb"
   },
   {
@@ -6303,7 +6303,7 @@
     "level": "L3",
     "word": "affect",
     "meaning": "verb 影響、(疾病)感染",
-    "example": "The rain will affect our picnic plans. (雨會影響我們的野餐計劃。)",
+    "example": "The rain will affect our picnic plans. (雨會影響我們的野餐計畫。)",
     "id": "L3-affect-verb"
   },
   {
@@ -6380,7 +6380,7 @@
     "level": "L3",
     "word": "blouse",
     "meaning": "noun 女襯衫",
-    "example": "She wore a white blouse to the meeting.（她穿了一件白色襯衫去開會。）",
+    "example": "She wore a white blouse to the meeting. (她穿了一件白色女襯衫去開會。)",
     "id": "L3-blouse-noun"
   },
   {
@@ -6422,7 +6422,7 @@
     "level": "L3",
     "word": "channel",
     "meaning": "noun 電視頻道、渠道、管道、途徑",
-    "example": "The news channel broadcasts updates every hour. (新聞頻道每小時播放更新。)",
+    "example": "The news channel broadcasts updates every hour. (新聞頻道每小時播出最新消息。)",
     "id": "L3-channel-noun"
   },
   {
@@ -6562,7 +6562,7 @@
     "level": "L3",
     "word": "determine",
     "meaning": "verb 決定、下決心",
-    "example": "We must determine the cause of the problem.（我們必須找出問題的原因。）",
+    "example": "We must determine the cause of the problem. (我們必須確定問題的原因。)",
     "id": "L3-determine-verb"
   },
   {

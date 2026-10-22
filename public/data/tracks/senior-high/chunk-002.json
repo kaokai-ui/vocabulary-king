@@ -44,9 +44,9 @@
   {
     "level": "L3",
     "word": "tribe",
-    "meaning": "部落；種族",
+    "meaning": "部落；部族",
     "example": "The tribe lived near the river.（那個部落住在河邊。）",
-    "id": "L3-tribe-mg2dwsn"
+    "id": "L3-tribe-mg2hryl"
   },
   {
     "level": "L3",
@@ -58,9 +58,9 @@
   {
     "level": "L3",
     "word": "troop",
-    "meaning": "軍隊，部隊",
+    "meaning": "一隊；一群；部隊；軍隊",
     "example": "A troop of soldiers marched down the road.（一隊士兵沿路行進。）",
-    "id": "L3-troop-ma5846p"
+    "id": "L3-troop-mz67vv4"
   },
   {
     "level": "L3",
@@ -72,9 +72,9 @@
   {
     "level": "L3",
     "word": "trunk",
-    "meaning": "樹幹；車尾的行李箱；象鼻",
+    "meaning": "樹幹；後車廂；象鼻",
     "example": "The elephant used its trunk to pick up food.（大象用鼻子撿起食物。）",
-    "id": "L3-trunk-mxklqpn"
+    "id": "L3-trunk-m930nm4"
   },
   {
     "level": "L3",
@@ -93,9 +93,9 @@
   {
     "level": "L3",
     "word": "tug",
-    "meaning": "用力拉",
+    "meaning": "用力拉；猛拉（名詞）",
     "example": "He gave the rope a strong tug.（他用力拉了一下繩子。）",
-    "id": "L3-tug-mhkcs6"
+    "id": "L3-tug-mtg1d43"
   },
   {
     "level": "L3",
@@ -107,9 +107,9 @@
   {
     "level": "L3",
     "word": "tumble",
-    "meaning": "跌倒；(使)滾下；倒塌",
+    "meaning": "跌倒；滾下；倒塌；跌跤（名詞）",
     "example": "The child took a tumble on the grass.（孩子在草地上跌了一跤。）",
-    "id": "L3-tumble-m16q4qdn"
+    "id": "L3-tumble-mxzwths"
   },
   {
     "level": "L3",
@@ -198,9 +198,9 @@
   {
     "level": "L3",
     "word": "van",
-    "meaning": "箱形客貨兩用車",
+    "meaning": "廂型車；小型客貨車",
     "example": "The family traveled in a blue van.（那家人搭一輛藍色廂型車旅行。）",
-    "id": "L3-van-mi8l0us"
+    "id": "L3-van-mt4r6tq"
   },
   {
     "level": "L3",
@@ -212,9 +212,9 @@
   {
     "level": "L3",
     "word": "vary",
-    "meaning": "使不同；變更；修改",
+    "meaning": "變化；不同；使不同；改變",
     "example": "Prices vary from store to store.（價格因店而異。）",
-    "id": "L3-vary-m1jb2rz3"
+    "id": "L3-vary-m18n8m57"
   },
   {
     "level": "L3",
@@ -226,9 +226,9 @@
   {
     "level": "L3",
     "word": "verse",
-    "meaning": "詩；韻文[U]",
+    "meaning": "詩；韻文；詩節",
     "example": "Please read the first verse of the poem.（請讀這首詩的第一節。）",
-    "id": "L3-verse-u"
+    "id": "L3-verse-m1csml04"
   },
   {
     "level": "L3",
@@ -282,9 +282,9 @@
   {
     "level": "L3",
     "word": "vision",
-    "meaning": "視力；視覺；洞察力，眼光",
+    "meaning": "視力；視覺；洞察力；遠見；願景",
     "example": "He has a clear vision for the future.（他對未來有清楚的願景。）",
-    "id": "L3-vision-m1edn0io"
+    "id": "L3-vision-m1ve2jut"
   },
   {
     "level": "L3",
@@ -324,9 +324,9 @@
   {
     "level": "L3",
     "word": "wagon",
-    "meaning": "運貨馬車；旅行車",
+    "meaning": "手拉車；運貨馬車；旅行車",
     "example": "The child pulled a red wagon.（孩子拉著一輛紅色小拖車。）",
-    "id": "L3-wagon-miyrrqb"
+    "id": "L3-wagon-mjr11ci"
   },
   {
     "level": "L3",
@@ -387,9 +387,9 @@
   {
     "level": "L3",
     "word": "weave",
-    "meaning": "織；編，",
+    "meaning": "織；編；編織",
     "example": "She learned to weave baskets.（她學會編籃子。）",
-    "id": "L3-weave-mgzlv3f"
+    "id": "L3-weave-m1oggwx2"
   },
   {
     "level": "L3",
@@ -422,9 +422,9 @@
   {
     "level": "L3",
     "word": "whip",
-    "meaning": "鞭笞，抽打",
+    "meaning": "鞭子；鞭笞；抽打",
     "example": "The rider held a whip.（騎手拿著一條鞭子。）",
-    "id": "L3-whip-m15dq3dd"
+    "id": "L3-whip-mkpiu20"
   },
   {
     "level": "L3",
@@ -520,9 +520,9 @@
   {
     "level": "L3",
     "word": "zipper",
-    "meaning": "拉鍊 vi.vt.拉上拉鍊",
+    "meaning": "拉鍊",
     "example": "The zipper on my jacket is stuck.（我外套上的拉鍊卡住了。）",
-    "id": "L3-zipper-vi-vt"
+    "id": "L3-zipper-mhm01"
   },
   {
     "level": "L4",
@@ -626,7 +626,7 @@
     "level": "L4",
     "word": "behavior",
     "meaning": "行為、舉止",
-    "example": "Good behavior is expected from all students. (所有學生都應該有良好的行為。)",
+    "example": "Good behavior is expected from all students. (所有學生都應該有良好的行為表現。)",
     "id": "L4-behavior-m1e4rb7w"
   },
   {
@@ -639,7 +639,7 @@
   {
     "level": "L4",
     "word": "lead",
-    "meaning": "領導、引導。作為動詞發音為 [lid]，但作為名詞「鉛」時發音為 [lɛd]，意義完全不同，需特別留意。",
+    "meaning": "領導；引導；領先；鉛（動詞讀 [lid]，名詞鉛讀 [lɛd]）",
     "example": "Great teachers lead by example. (優秀的老師以身作則領導。)",
     "id": "L4-lead-lid-l-d"
   },
@@ -689,7 +689,7 @@
     "level": "L4",
     "word": "ancestor",
     "meaning": "祖先、先輩",
-    "example": "Many Americans can trace their ancestors back to Europe. (許多美國人可以追溯他們的祖先到歐洲。)",
+    "example": "Many Americans can trace their ancestors back to Europe. (許多美國人的祖先可以追溯到歐洲。)",
     "id": "L4-ancestor-m1moz4q8"
   },
   {
@@ -710,7 +710,7 @@
     "level": "L4",
     "word": "anxious",
     "meaning": "焦慮的、急切的",
-    "example": "Parents often feel anxious when their children are late. (當孩子遲到時， 父母經常感到焦慮。)",
+    "example": "Parents often feel anxious when their children are late. (當孩子遲到時，父母經常感到焦慮。)",
     "id": "L4-anxious-motveot"
   },
   {
@@ -752,7 +752,7 @@
     "level": "L4",
     "word": "attach(ment)",
     "meaning": "附加、連接",
-    "example": "Please attach your resume to the email. (請將履歷附加到電子郵件中。)",
+    "example": "Please attach your resume to the email. (請將履歷附在電子郵件中。)",
     "id": "L4-attach-ment-mtx9f0n"
   },
   {
@@ -807,9 +807,9 @@
   {
     "level": "L4",
     "word": "academic",
-    "meaning": "學術的、理論的",
-    "example": "She received an academic scholarship to university. (她獲得了大學學術獎學金。)",
-    "id": "L4-academic-m1qjc1r0"
+    "meaning": "學術的；理論的；學業的",
+    "example": "She received an academic scholarship to university. (她獲得了大學的學業獎學金。)",
+    "id": "L4-academic-mvy5km"
   },
   {
     "level": "L4",
@@ -835,9 +835,9 @@
   {
     "level": "L4",
     "word": "access",
-    "meaning": "進入、接近",
+    "meaning": "進入；接近；使用權；使用機會",
     "example": "Students have free access to the library. (學生可以免費使用圖書館。)",
-    "id": "L4-access-m610oca"
+    "id": "L4-access-mfnn57y"
   },
   {
     "level": "L4",
@@ -870,15 +870,15 @@
   {
     "level": "L4",
     "word": "essay",
-    "meaning": "論文、散文",
-    "example": "Students write essays to express ideas. (學生寫論文表達想法。)",
-    "id": "L4-essay-m1mn60xg"
+    "meaning": "文章；短文；散文；論文",
+    "example": "Students write essays to express ideas. (學生寫文章來表達想法。)",
+    "id": "L4-essay-m1wqgsi1"
   },
   {
     "level": "L4",
     "word": "economy",
     "meaning": "經濟、經濟體",
-    "example": "Technology drives modern economy forward. (科技推動現代經濟向前發展。)",
+    "example": "Technology drives the modern economy forward. (科技推動現代經濟向前發展。)",
     "id": "L4-economy-m11yh2ur"
   },
   {
@@ -955,7 +955,7 @@
     "level": "L4",
     "word": "adequate",
     "meaning": "足夠的、適當的",
-    "example": "The hotel provided adequate but not luxurious accommodation. (旅館提供了足夠但不豪華的住宿。)",
+    "example": "The hotel provided adequate but not luxurious accommodation. (旅館提供的住宿尚可，但不算豪華。)",
     "id": "L4-adequate-mzeuwbx"
   },
   {
@@ -975,9 +975,9 @@
   {
     "level": "L4",
     "word": "extend",
-    "meaning": "延伸、擴展",
+    "meaning": "延伸；擴展；延長",
     "example": "The library will extend its hours. (圖書館將延長開放時間。)",
-    "id": "L4-extend-mqca9nk"
+    "id": "L4-extend-mcoqcte"
   },
   {
     "level": "L4",
@@ -1003,9 +1003,9 @@
   {
     "level": "L4",
     "word": "frame",
-    "meaning": "框架、構架",
+    "meaning": "框架；架構；相框；畫框",
     "example": "The picture frame was made of silver. (相框是銀製的。)",
-    "id": "L4-frame-m1tuc7vg"
+    "id": "L4-frame-m12miez1"
   },
   {
     "level": "L4",
@@ -1017,9 +1017,9 @@
   {
     "level": "L4",
     "word": "agent",
-    "meaning": "代理人、特工",
+    "meaning": "代理人；經紀人；特工",
     "example": "The real estate agent showed us three houses. (房地產經紀人給我們看了三棟房子。)",
-    "id": "L4-agent-ma8gvva"
+    "id": "L4-agent-m1jz7p9a"
   },
   {
     "level": "L4",
@@ -1038,16 +1038,16 @@
   {
     "level": "L4",
     "word": "bond",
-    "meaning": "紐帶、債券、結合",
-    "example": "The strong bond between mother and child is natural. (母子之間的強烈紐帶是自然的。)",
-    "id": "L4-bond-m19sw0xn"
+    "meaning": "連結；羈絆；債券；結合",
+    "example": "The strong bond between mother and child is natural. (母子之間的緊密連結是天生的。)",
+    "id": "L4-bond-m1dwwoqp"
   },
   {
     "level": "L4",
     "word": "assign(ment)",
-    "meaning": "分配、指派",
+    "meaning": "分配；指派；作業；任務",
     "example": "The teacher will assign homework every Friday. (老師每個星期五都會分配作業。)",
-    "id": "L4-assign-ment-m1j4df1t"
+    "id": "L4-assign-ment-mjek4xk"
   },
   {
     "level": "L4",
@@ -1067,7 +1067,7 @@
     "level": "L4",
     "word": "circumstance",
     "meaning": "情況、環境",
-    "example": "Under these circumstances, we must change our plan. (在這些情況下， 我們必須改變計劃。)",
+    "example": "Under these circumstances, we must change our plan. (在這些情況下，我們必須改變計畫。)",
     "id": "L4-circumstance-m1151jso"
   },
   {
@@ -1095,7 +1095,7 @@
     "level": "L4",
     "word": "very",
     "meaning": "非常、很",
-    "example": "Very dedicated students achieve excellence. (非常專心的學生達到卓越。)",
+    "example": "Very dedicated students achieve excellence. (非常投入的學生能有卓越的表現。)",
     "id": "L4-very-mjhcbsx"
   },
   {
@@ -1129,9 +1129,9 @@
   {
     "level": "L4",
     "word": "acceptance",
-    "meaning": "接受；歡迎",
+    "meaning": "接受；接納；錄取",
     "example": "His acceptance into the school made his family proud.（他被學校錄取讓家人感到驕傲。）",
-    "id": "L4-acceptance-m1a2wdli"
+    "id": "L4-acceptance-magw3wc"
   },
   {
     "level": "L4",
@@ -1213,9 +1213,9 @@
   {
     "level": "L4",
     "word": "adjust(ment)",
-    "meaning": "調節；校準；調整；調節；調整；校正",
+    "meaning": "調整；調節；校準",
     "example": "The chair needs a small adjustment.（這張椅子需要稍微調整一下。）",
-    "id": "L4-adjust-ment-mia2nm0"
+    "id": "L4-adjust-ment-m1qp54i1"
   },
   {
     "level": "L4",
@@ -1248,16 +1248,16 @@
   {
     "level": "L4",
     "word": "agency",
-    "meaning": "代辦處，經銷處",
+    "meaning": "代理機構；代辦處；旅行社",
     "example": "The travel agency helped us book the trip.（旅行社幫我們預訂了行程。）",
-    "id": "L4-agency-m2kyxcn"
+    "id": "L4-agency-m41mhpe"
   },
   {
     "level": "L4",
     "word": "aggressive",
-    "meaning": "侵略的，有進取精神的",
+    "meaning": "侵略的；有攻擊性的；有進取精神的",
     "example": "The dog became aggressive when it was scared.（那隻狗害怕時變得有攻擊性。）",
-    "id": "L4-aggressive-mgtux0v"
+    "id": "L4-aggressive-m1hutojo"
   },
   {
     "level": "L4",
@@ -1389,7 +1389,7 @@
     "level": "L4",
     "word": "artistic",
     "meaning": "藝術的；美術的",
-    "example": "She has a very artistic style.（她有很有藝術感的風格。）",
+    "example": "She has a very artistic style. (她的風格很有藝術感。)",
     "id": "L4-artistic-m1rbylea"
   },
   {
@@ -1430,9 +1430,9 @@
   {
     "level": "L4",
     "word": "athletic",
-    "meaning": "運動的，體育的",
+    "meaning": "運動的；體育的；擅長運動的",
     "example": "My brother is athletic and enjoys many sports.（我哥哥很擅長運動，喜歡很多運動。）",
-    "id": "L4-athletic-mnv3whg"
+    "id": "L4-athletic-ml39xxu"
   },
   {
     "level": "L4",
@@ -1451,9 +1451,9 @@
   {
     "level": "L4",
     "word": "audio",
-    "meaning": "聽覺的，聲音的 n.(電視等的)音響裝置",
+    "meaning": "聲音的；音訊的；音訊、聲音",
     "example": "The audio quality of this video is clear.（這部影片的音訊品質很清楚。）",
-    "id": "L4-audio-n"
+    "id": "L4-audio-m1kh9r7p"
   },
   {
     "level": "L4",
@@ -1479,9 +1479,9 @@
   {
     "level": "L4",
     "word": "backpack",
-    "meaning": "登山、遠足用的背包",
+    "meaning": "背包；登山背包",
     "example": "My backpack is full of books.（我的背包裡裝滿了書。）",
-    "id": "L4-backpack-mm829eb"
+    "id": "L4-backpack-mdvr3f5"
   },
   {
     "level": "L4",
@@ -1542,9 +1542,9 @@
   {
     "level": "L4",
     "word": "blessing",
-    "meaning": "賜福；祝福",
+    "meaning": "祝福；賜福；福氣；幸事",
     "example": "Good health is a blessing.（健康是一種福氣。）",
-    "id": "L4-blessing-m1xxdct6"
+    "id": "L4-blessing-mbgdj97"
   },
   {
     "level": "L4",
@@ -1591,9 +1591,9 @@
   {
     "level": "L4",
     "word": "bracelet",
-    "meaning": "手鐲；臂鐲",
+    "meaning": "手鍊；手鐲；臂環",
     "example": "She wore a silver bracelet.（她戴著一條銀手鍊。）",
-    "id": "L4-bracelet-m1cwz338"
+    "id": "L4-bracelet-m9o9x3a"
   },
   {
     "level": "L4",
@@ -1605,7 +1605,7 @@
   {
     "level": "L4",
     "word": "breed",
-    "meaning": "產(子)，孵(卵)；繁殖；養育 n.品種",
+    "meaning": "生產；孵化；繁殖；養育；培育 n.品種",
     "example": "This farmer breeds healthy horses.（這位農夫飼養健康的馬。）",
     "id": "L4-breed-n"
   },
@@ -1696,9 +1696,9 @@
   {
     "level": "L4",
     "word": "carrier",
-    "meaning": "運送人；送信人；航空母艦",
+    "meaning": "運送人；郵差；接收器；航空母艦",
     "example": "The mail carrier delivered the letters.（郵差送了信件。）",
-    "id": "L4-carrier-mlp25gh"
+    "id": "L4-carrier-m1o8vuk8"
   },
   {
     "level": "L4",
@@ -1753,7 +1753,7 @@
     "level": "L4",
     "word": "championship",
     "meaning": "冠軍的地位 [C]；錦標賽",
-    "example": "Our team won the championship.（我們隊贏得了冠軍賽。）",
+    "example": "Our team won the championship. (我們隊贏得了冠軍。)",
     "id": "L4-championship-c"
   },
   {
@@ -1780,9 +1780,9 @@
   {
     "level": "L4",
     "word": "chore",
-    "meaning": "家庭雜務；日常零星活兒",
+    "meaning": "家務；日常雜事",
     "example": "Washing the dishes is my daily chore.（洗碗是我每天的家事。）",
-    "id": "L4-chore-ma7sv3u"
+    "id": "L4-chore-m3mt9tm"
   },
   {
     "level": "L4",
@@ -1920,16 +1920,16 @@
   {
     "level": "L4",
     "word": "comic",
-    "meaning": "喜劇的 n.喜劇演員；連環漫畫的 n.連環漫畫",
+    "meaning": "喜劇的；滑稽的 n.喜劇演員；連環漫畫",
     "example": "His comic timing made everyone laugh.（他的喜劇節奏讓大家大笑。）",
-    "id": "L4-comic-n-n"
+    "id": "L4-comic-n"
   },
   {
     "level": "L4",
     "word": "comic(s)",
-    "meaning": "喜劇的 n.喜劇演員；連環漫畫的 n.連環漫畫",
+    "meaning": "連環漫畫；喜劇演員；喜劇的",
     "example": "My brother likes reading comics.（我弟弟喜歡看漫畫。）",
-    "id": "L4-comic-s-n-n"
+    "id": "L4-comic-s-m928ijo"
   },
   {
     "level": "L4",
@@ -1949,7 +1949,7 @@
     "level": "L4",
     "word": "commerce",
     "meaning": "商業，貿易 [U]",
-    "example": "Online commerce is growing quickly.（線上商業正在快速成長。）",
+    "example": "Online commerce is growing quickly. (電子商務正在快速成長。)",
     "id": "L4-commerce-u"
   },
   {
@@ -1962,9 +1962,9 @@
   {
     "level": "L4",
     "word": "communication",
-    "meaning": "溝通；傳達；交流；通訊(交通) 設施",
+    "meaning": "溝通；傳達；交流；通訊",
     "example": "Good communication solves many problems.（良好的溝通能解決許多問題。）",
-    "id": "L4-communication-m12kw1v7"
+    "id": "L4-communication-mgbbnqq"
   },
   {
     "level": "L4",
@@ -1997,9 +1997,9 @@
   {
     "level": "L4",
     "word": "competitor",
-    "meaning": "競爭者；對手",
+    "meaning": "競爭者；對手；參賽者",
     "example": "Each competitor received a number.（每位參賽者都拿到一個號碼。）",
-    "id": "L4-competitor-moydmdn"
+    "id": "L4-competitor-m1hotltn"
   },
   {
     "level": "L4",
@@ -2032,9 +2032,9 @@
   {
     "level": "L4",
     "word": "concentrate",
-    "meaning": "集中；聚集；濃縮 vi.集中；專注",
+    "meaning": "集中；聚集；濃縮；專注",
     "example": "I cannot concentrate in a noisy room.（我無法在吵雜的房間裡專心。）",
-    "id": "L4-concentrate-vi"
+    "id": "L4-concentrate-m1t89ln9"
   },
   {
     "level": "L4",
@@ -2081,7 +2081,7 @@
   {
     "level": "L4",
     "word": "confess",
-    "meaning": "坦白，承認 [+v-ing][+(that)",
+    "meaning": "坦白；承認 [+v-ing]；承認 [+that]",
     "example": "He finally confessed his mistake.（他終於承認了自己的錯誤。）",
     "id": "L4-confess-v-ing-that"
   },
@@ -2144,9 +2144,9 @@
   {
     "level": "L4",
     "word": "consequence",
-    "meaning": "結果，後果 [C][",
+    "meaning": "結果；後果",
     "example": "Every choice has a consequence.（每個選擇都有後果。）",
-    "id": "L4-consequence-c"
+    "id": "L4-consequence-m6vdov3"
   },
   {
     "level": "L4",
@@ -2193,9 +2193,9 @@
   {
     "level": "L4",
     "word": "constitution",
-    "meaning": "憲法；章程[C] 體質，體格",
+    "meaning": "憲法；章程；體質；體格",
     "example": "The constitution protects people’s rights.（憲法保障人民的權利。）",
-    "id": "L4-constitution-c"
+    "id": "L4-constitution-m11ku7qt"
   },
   {
     "level": "L4",
@@ -2208,7 +2208,7 @@
     "level": "L4",
     "word": "construction",
     "meaning": "建造，建設",
-    "example": "The construction of the school took two years.（這所學校的建設花了兩年。）",
+    "example": "The construction of the school took two years. (這所學校的興建花了兩年。)",
     "id": "L4-construction-mzfi4wp"
   },
   {
@@ -2256,9 +2256,9 @@
   {
     "level": "L4",
     "word": "content",
-    "meaning": "滿意/內容",
+    "meaning": "內容；含量 a.滿足的；滿意的",
     "example": "The content of the lesson was interesting.（這堂課的內容很有趣。）",
-    "id": "L4-content-mk26b3l"
+    "id": "L4-content-a"
   },
   {
     "level": "L4",
@@ -2487,9 +2487,9 @@
   {
     "level": "L4",
     "word": "craft",
-    "meaning": "工藝，手藝；船；飛機；",
+    "meaning": "工藝；手藝；船；飛機",
     "example": "The children made a paper craft.（孩子們做了一個紙工藝品。）",
-    "id": "L4-craft-mkwgw0w"
+    "id": "L4-craft-mp5uyy4"
   },
   {
     "level": "L4",
@@ -2515,9 +2515,9 @@
   {
     "level": "L4",
     "word": "cripple",
-    "meaning": "跛子；殘廢的人 vt.使…殘廢",
+    "meaning": "跛腳的人；使跛足；使嚴重受損",
     "example": "The accident left him crippled.（那場事故使他殘疾。）",
-    "id": "L4-cripple-vt"
+    "id": "L4-cripple-mrxc2n1"
   },
   {
     "level": "L4",
@@ -2529,9 +2529,9 @@
   {
     "level": "L4",
     "word": "critical",
-    "meaning": "緊要的，關鍵危急的；批評的；愛挑剔的",
+    "meaning": "關鍵的；危急的；批評的；愛挑剔的",
     "example": "This is a critical moment for the team.（這是團隊的關鍵時刻。）",
-    "id": "L4-critical-m1wfkxwc"
+    "id": "L4-critical-myxpuyc"
   },
   {
     "level": "L4",
@@ -2599,9 +2599,9 @@
   {
     "level": "L4",
     "word": "curl",
-    "meaning": "卷毛，卷髮[C] vt.vi.捲曲",
+    "meaning": "捲髮；一綹捲曲物 vt.vi.捲曲",
     "example": "A curl of smoke rose from the candle.（一縷煙從蠟燭升起。）",
-    "id": "L4-curl-c-vt-vi"
+    "id": "L4-curl-vt-vi"
   },
   {
     "level": "L4",
@@ -2662,7 +2662,7 @@
   {
     "level": "L4",
     "word": "decrease",
-    "meaning": "減；減少，減小 [dɪˋkris] vt.vi.減；減少，減小",
+    "meaning": "減少；減小 [dɪˋkris] vt.vi.減少；減小",
     "example": "The number of students began to decrease.（學生人數開始減少。）",
     "id": "L4-decrease-d-kris-vt-vi"
   },
@@ -2697,9 +2697,9 @@
   {
     "level": "L4",
     "word": "defensive",
-    "meaning": "防禦的；保護的；保衛的",
+    "meaning": "防禦的；保衛的；有防衛心的",
     "example": "She became defensive when people questioned her.（人們質疑她時，她變得有防衛心。）",
-    "id": "L4-defensive-m99sz9m"
+    "id": "L4-defensive-m1h8futv"
   },
   {
     "level": "L4",
@@ -2732,9 +2732,9 @@
   {
     "level": "L4",
     "word": "demand",
-    "meaning": "要求，請求 [C][(+for)]",
+    "meaning": "要求；請求；需求 [C] vt.要求",
     "example": "The workers demand better pay.（工人要求更好的薪水。）",
-    "id": "L4-demand-c-for"
+    "id": "L4-demand-c-vt"
   },
   {
     "level": "L4",
@@ -2795,9 +2795,9 @@
   {
     "level": "L4",
     "word": "depression",
-    "meaning": "沮喪，消沉；不景氣，蕭條",
+    "meaning": "憂鬱症；沮喪；消沉；不景氣",
     "example": "He received treatment for depression.（他接受了憂鬱症治療。）",
-    "id": "L4-depression-m1w8o91"
+    "id": "L4-depression-m18ehm6b"
   },
   {
     "level": "L4",
@@ -2809,9 +2809,9 @@
   {
     "level": "L4",
     "word": "desperate",
-    "meaning": "情急拼命的；極度渴望的",
+    "meaning": "絕望的；情急拚命的；極度渴望的",
     "example": "They made a desperate call for help.（他們絕望地打電話求助。）",
-    "id": "L4-desperate-m19khpkk"
+    "id": "L4-desperate-m8frvxx"
   },
   {
     "level": "L4",
@@ -2901,7 +2901,7 @@
     "level": "L4",
     "word": "dignity",
     "meaning": "尊嚴；莊嚴[U]",
-    "example": "Treat every person with dignity.（要有尊嚴地對待每個人。）",
+    "example": "Treat every person with dignity. (要尊重每個人的尊嚴。)",
     "id": "L4-dignity-u"
   },
   {
@@ -2928,9 +2928,9 @@
   {
     "level": "L4",
     "word": "disadvantage",
-    "meaning": "不利；損害",
+    "meaning": "缺點；不利條件；損害",
     "example": "The only disadvantage is the high price.（唯一的缺點是價格高。）",
-    "id": "L4-disadvantage-mwgtnxh"
+    "id": "L4-disadvantage-m1kbz96d"
   },
   {
     "level": "L4",
@@ -2942,16 +2942,16 @@
   {
     "level": "L4",
     "word": "discipline",
-    "meaning": "紀律，風紀；教養[U] vt.訓練，訓導",
+    "meaning": "紀律；訓練；學科 [U] vt.訓練；訓導",
     "example": "Discipline helps students learn better.（紀律幫助學生更好地學習。）",
     "id": "L4-discipline-u-vt"
   },
   {
     "level": "L4",
     "word": "disconnect",
-    "meaning": "使分離，分開",
+    "meaning": "切斷；使分離；分開",
     "example": "Please disconnect the power before repairing it.（修理前請先切斷電源。）",
-    "id": "L4-disconnect-mw4m32u"
+    "id": "L4-disconnect-muuo9tc"
   },
   {
     "level": "L4",
@@ -2984,7 +2984,7 @@
   {
     "level": "L4",
     "word": "disorder",
-    "meaning": "混亂，無秩序[U];失調症狀",
+    "meaning": "混亂；無秩序 [U]；失調；疾病",
     "example": "The doctor treated his sleep disorder.（醫生治療他的睡眠障礙。）",
     "id": "L4-disorder-u"
   },
@@ -2998,9 +2998,9 @@
   {
     "level": "L4",
     "word": "distinct",
-    "meaning": "與其他不同的，有區別的",
+    "meaning": "明顯的；與眾不同的；有區別的",
     "example": "There is a distinct smell of smoke.（有明顯的煙味。）",
-    "id": "L4-distinct-mf2h65g"
+    "id": "L4-distinct-mpuxeaj"
   },
   {
     "level": "L4",
@@ -3152,9 +3152,9 @@
   {
     "level": "L4",
     "word": "dynamic",
-    "meaning": "力學的；有活力的",
+    "meaning": "動態的；有活力的；不斷變化的",
     "example": "The city has a dynamic economy.（這座城市有充滿活力的經濟。）",
-    "id": "L4-dynamic-m97bd4f"
+    "id": "L4-dynamic-m115bcmz"
   },
   {
     "level": "L4",
@@ -3180,9 +3180,9 @@
   {
     "level": "L4",
     "word": "economical",
-    "meaning": "經濟的/省錢",
+    "meaning": "節省的；經濟實惠的",
     "example": "This small car is economical to drive.（這輛小車開起來很省錢。）",
-    "id": "L4-economical-m1acb2oo"
+    "id": "L4-economical-m1yi0ibq"
   },
   {
     "level": "L4",
@@ -3299,9 +3299,9 @@
   {
     "level": "L4",
     "word": "enclose",
-    "meaning": "圍住；圈起",
+    "meaning": "圍住；圈起；附上；裝入",
     "example": "Please enclose a photo with your application.（請在申請資料中附上一張照片。）",
-    "id": "L4-enclose-m1vankq0"
+    "id": "L4-enclose-m3eyqju"
   },
   {
     "level": "L4",
@@ -3327,9 +3327,9 @@
   {
     "level": "L4",
     "word": "enforce(ment)",
-    "meaning": "實施，執行；實施，執行；強制",
+    "meaning": "實施；執行；強制；強制執行",
     "example": "The police enforce traffic laws.（警方執行交通法規。）",
-    "id": "L4-enforce-ment-mbj75j5"
+    "id": "L4-enforce-ment-m1fmfzwu"
   },
   {
     "level": "L4",
@@ -3341,9 +3341,9 @@
   {
     "level": "L4",
     "word": "entertain(ment)",
-    "meaning": "娛樂；招待，款待；娛樂；餘興；演藝",
+    "meaning": "娛樂；招待；款待；演藝",
     "example": "The show entertained the children.（這場表演娛樂了孩子們。）",
-    "id": "L4-entertain-ment-m1pzjv6u"
+    "id": "L4-entertain-ment-m182yf5s"
   },
   {
     "level": "L4",
@@ -3355,9 +3355,9 @@
   {
     "level": "L4",
     "word": "envious",
-    "meaning": "羨慕",
+    "meaning": "羨慕的；嫉妒的",
     "example": "She felt envious of her friend’s new bike.（她羨慕朋友的新腳踏車。）",
-    "id": "L4-envious-mm8x9"
+    "id": "L4-envious-mahpdj"
   },
   {
     "level": "L4",
@@ -3369,7 +3369,7 @@
   {
     "level": "L4",
     "word": "equip(ment)",
-    "meaning": "裝備，配備[(+for/with)]；配備，裝備；設備；器械",
+    "meaning": "裝備；配備[(+for/with)]；設備；器材",
     "example": "The classroom is equipped with computers.（教室配備了電腦。）",
     "id": "L4-equip-ment-for-with"
   },
@@ -3481,9 +3481,9 @@
   {
     "level": "L4",
     "word": "experimental",
-    "meaning": "實驗性",
+    "meaning": "實驗性的；實驗的",
     "example": "This is an experimental method.（這是一種實驗性方法。）",
-    "id": "L4-experimental-me7cwm"
+    "id": "L4-experimental-m1shis2u"
   },
   {
     "level": "L4",
@@ -3509,7 +3509,7 @@
   {
     "level": "L4",
     "word": "exposure",
-    "meaning": "暴露；暴曬[U]；揭發",
+    "meaning": "暴露；曝曬 [U]；揭發",
     "example": "Too much sun exposure can harm your skin.（過度日曬會傷害皮膚。）",
     "id": "L4-exposure-u"
   },
@@ -3551,9 +3551,9 @@
   {
     "level": "L4",
     "word": "fantastic",
-    "meaning": "非凡/開心",
+    "meaning": "極好的；非凡的；奇妙的",
     "example": "We had a fantastic time at the beach.（我們在海邊玩得非常開心。）",
-    "id": "L4-fantastic-mxxy6lg"
+    "id": "L4-fantastic-m1ngr3tl"
   },
   {
     "level": "L4",
@@ -3824,9 +3824,9 @@
   {
     "level": "L4",
     "word": "functional",
-    "meaning": "機能的",
+    "meaning": "有功能的；可運作的；實用的",
     "example": "The old radio is still functional.（這台舊收音機仍然能用。）",
-    "id": "L4-functional-mg7hdy"
+    "id": "L4-functional-mkoz3ex"
   },
   {
     "level": "L4",
@@ -3936,9 +3936,9 @@
   {
     "level": "L4",
     "word": "gigantic",
-    "meaning": "巨大的；巨人的",
+    "meaning": "巨大的；龐大的",
     "example": "A gigantic wave hit the rocks.（巨大的浪打在岩石上。）",
-    "id": "L4-gigantic-m1d94yos"
+    "id": "L4-gigantic-m1disxvb"
   },
   {
     "level": "L4",
@@ -4111,7 +4111,7 @@
   {
     "level": "L4",
     "word": "guilty",
-    "meaning": "有罪的，犯…罪的[(+of)]",
+    "meaning": "有罪的；心虛的；愧疚的 [(+of)]",
     "example": "The child looked guilty when I found the broken cup.（我發現破杯子時，那孩子看起來很心虛。）",
     "id": "L4-guilty-of"
   },
@@ -4181,9 +4181,9 @@
   {
     "level": "L4",
     "word": "harsh",
-    "meaning": "粗糙的；刺耳的；澀口的；刺鼻的",
+    "meaning": "嚴厲的；刺耳的；粗糙的；刺鼻的",
     "example": "The teacher’s words sounded harsh.（老師的話聽起來很嚴厲。）",
-    "id": "L4-harsh-mnprrb4"
+    "id": "L4-harsh-mp6zhl1"
   },
   {
     "level": "L4",
@@ -4587,9 +4587,9 @@
   {
     "level": "L4",
     "word": "informative",
-    "meaning": "教育性的；見聞廣博的",
+    "meaning": "提供資訊的；內容豐富的；有啟發性的",
     "example": "The lecture was informative and easy to follow.（這場講座內容豐富且容易理解。）",
-    "id": "L4-informative-m2ntpx"
+    "id": "L4-informative-mfnu9yx"
   },
   {
     "level": "L4",
@@ -4671,16 +4671,16 @@
   {
     "level": "L4",
     "word": "instructor",
-    "meaning": "教員；指導者；【美】大學講師",
+    "meaning": "教練；指導者；教員",
     "example": "The swimming instructor taught us how to breathe.（游泳教練教我們如何換氣。）",
-    "id": "L4-instructor-m1ya3338"
+    "id": "L4-instructor-m1ebcb2d"
   },
   {
     "level": "L4",
     "word": "insult",
-    "meaning": "侮辱，羞辱 [ˋɪnsʌlt]n.",
+    "meaning": "侮辱；羞辱 n.侮辱；vt.侮辱",
     "example": "His words sounded like an insult.（他的話聽起來像侮辱。）",
-    "id": "L4-insult-ns-lt-n"
+    "id": "L4-insult-n-vt"
   },
   {
     "level": "L4",
@@ -4853,16 +4853,16 @@
   {
     "level": "L4",
     "word": "involve(ment)",
-    "meaning": "使捲入，連累；牽涉 [(+in/with)]；捲入，連累；牽涉",
+    "meaning": "使捲入；牽涉；參與",
     "example": "This project will involve many students from different classes.（這個專案會讓來自不同班級的許多學生參與。）",
-    "id": "L4-involve-ment-in-with"
+    "id": "L4-involve-ment-m13q7jm2"
   },
   {
     "level": "L4",
     "word": "isolate",
-    "meaning": "使孤立；使脫離",
+    "meaning": "隔離；使孤立；使脫離",
     "example": "The sick child had to isolate at home.（那個生病的孩子必須在家隔離。）",
-    "id": "L4-isolate-mwntwu9"
+    "id": "L4-isolate-m1wcsb84"
   },
   {
     "level": "L4",
@@ -4965,9 +4965,9 @@
   {
     "level": "L4",
     "word": "launch",
-    "meaning": "使(船)下水；發射；投擲；使升空",
+    "meaning": "推出；發布；發射；使（船）下水",
     "example": "The company will launch a new app next month.（公司下個月會推出新應用程式。）",
-    "id": "L4-launch-mggb632"
+    "id": "L4-launch-mhbljka"
   },
   {
     "level": "L4",
@@ -5007,9 +5007,9 @@
   {
     "level": "L4",
     "word": "lecturer",
-    "meaning": "講演者",
+    "meaning": "講師；講演者",
     "example": "The lecturer explained the topic clearly.（講師清楚地解釋了主題。）",
-    "id": "L4-lecturer-mkx3gs"
+    "id": "L4-lecturer-m1bff41"
   },
   {
     "level": "L4",
@@ -5035,9 +5035,9 @@
   {
     "level": "L4",
     "word": "lighten",
-    "meaning": "變亮；發亮",
+    "meaning": "使輕鬆；緩和；變亮；發亮",
     "example": "The joke helped lighten the mood.（那個笑話讓氣氛輕鬆了一些。）",
-    "id": "L4-lighten-m1nct355"
+    "id": "L4-lighten-m1f9ejp8"
   },
   {
     "level": "L4",
@@ -5084,9 +5084,9 @@
   {
     "level": "L4",
     "word": "locker",
-    "meaning": "衣物櫃",
+    "meaning": "置物櫃；衣物櫃",
     "example": "Put your books in your locker.（把你的書放進置物櫃。）",
-    "id": "L4-locker-mkj7kt"
+    "id": "L4-locker-m10qzpfu"
   },
   {
     "level": "L4",
@@ -5105,9 +5105,9 @@
   {
     "level": "L4",
     "word": "lotion",
-    "meaning": "化妝水，護膚液",
+    "meaning": "乳液；化妝水；護膚液",
     "example": "She put lotion on her dry hands.（她在乾燥的手上擦乳液。）",
-    "id": "L4-lotion-m11gvk5s"
+    "id": "L4-lotion-m8tsolh"
   },
   {
     "level": "L4",
@@ -5140,9 +5140,9 @@
   {
     "level": "L4",
     "word": "luxurious",
-    "meaning": "奢侈的；驕奢淫逸的",
+    "meaning": "豪華的；奢侈的",
     "example": "They stayed in a luxurious hotel.（他們住在一間豪華飯店。）",
-    "id": "L4-luxurious-m16swnnx"
+    "id": "L4-luxurious-m1tzo2pu"
   },
   {
     "level": "L4",
@@ -5182,9 +5182,9 @@
   {
     "level": "L4",
     "word": "makeup",
-    "meaning": "虛構；化妝品；補充；補考",
+    "meaning": "化妝；化妝品；組成；補考",
     "example": "She put on light makeup for the party.（她為派對化了淡妝。）",
-    "id": "L4-makeup-m1pra2p9"
+    "id": "L4-makeup-m1h79pk1"
   },
   {
     "level": "L4",
@@ -5246,7 +5246,7 @@
     "level": "L4",
     "word": "mechanic",
     "meaning": "機械工，技工",
-    "example": "The mechanic fixed our car.（機械師修好了我們的車。）",
+    "example": "The mechanic fixed our car. (修車師傅修好了我們的車。)",
     "id": "L4-mechanic-mwlsnx9"
   },
   {
@@ -5379,7 +5379,7 @@
     "level": "L4",
     "word": "misunderstand",
     "meaning": "誤會；曲解",
-    "example": "I did not mean to misunderstand you.（我不是故意誤會你。）",
+    "example": "I think you misunderstood what I said. (我想你誤解了我的意思。)",
     "id": "L4-misunderstand-m1mwrgi5"
   },
   {
@@ -5392,9 +5392,9 @@
   {
     "level": "L4",
     "word": "modest",
-    "meaning": "謙虛的，審慎的",
+    "meaning": "謙虛的；適度的；樸素的",
     "example": "She is modest about her success.（她對自己的成功很謙虛。）",
-    "id": "L4-modest-mu6ee7p"
+    "id": "L4-modest-m1ujvowf"
   },
   {
     "level": "L4",
@@ -5476,9 +5476,9 @@
   {
     "level": "L4",
     "word": "muddy",
-    "meaning": "泥濘",
+    "meaning": "泥濘的；滿是泥的",
     "example": "The road was muddy after the rain.（雨後道路泥濘。）",
-    "id": "L4-muddy-mj4wj"
+    "id": "L4-muddy-m1pelp2x"
   },
   {
     "level": "L4",
@@ -5749,16 +5749,16 @@
   {
     "level": "L4",
     "word": "orchestra",
-    "meaning": "管弦樂隊[C",
+    "meaning": "管弦樂隊 [C]",
     "example": "The orchestra played beautifully.（管弦樂團演奏得很美。）",
     "id": "L4-orchestra-c"
   },
   {
     "level": "L4",
     "word": "organic",
-    "meaning": "有機體的，生物的；器官的",
+    "meaning": "有機的；有機體的；器官的",
     "example": "Organic vegetables are sold at the market.（市場有賣有機蔬菜。）",
-    "id": "L4-organic-mcjm8wd"
+    "id": "L4-organic-m1e6ivm4"
   },
   {
     "level": "L4",
@@ -5938,9 +5938,9 @@
   {
     "level": "L4",
     "word": "percent/per cent",
-    "meaning": "百分之一[C]；百分率(per",
+    "meaning": "百分之一 [C]；百分率",
     "example": "Only ten percent of the class was absent.（班上只有百分之十的人缺席。）",
-    "id": "L4-percent-per-cent-c-per"
+    "id": "L4-percent-per-cent-c"
   },
   {
     "level": "L4",
@@ -6001,7 +6001,7 @@
   {
     "level": "L4",
     "word": "phenomenon",
-    "meaning": "現象[C] (複數：phenomena,",
+    "meaning": "現象 [C]（複數：phenomena）",
     "example": "Rainbows are a natural phenomenon.（彩虹是一種自然現象。）",
     "id": "L4-phenomenon-c-phenomena"
   },
@@ -6015,9 +6015,9 @@
   {
     "level": "L4",
     "word": "philosophical",
-    "meaning": "哲學的,冷靜的,哲學上的",
+    "meaning": "哲學的；冷靜的；豁達的",
     "example": "We had a philosophical discussion after class.（我們下課後進行了一場哲學討論。）",
-    "id": "L4-philosophical-m1bgtqhn"
+    "id": "L4-philosophical-m15ixfq0"
   },
   {
     "level": "L4",
@@ -6113,9 +6113,9 @@
   {
     "level": "L4",
     "word": "poisonous",
-    "meaning": "有毒",
+    "meaning": "有毒的；有害的",
     "example": "Some plants are poisonous.（有些植物有毒。）",
-    "id": "L4-poisonous-mi489"
+    "id": "L4-poisonous-mwv4j7e"
   },
   {
     "level": "L4",
@@ -6134,9 +6134,9 @@
   {
     "level": "L4",
     "word": "popularity",
-    "meaning": "普及；大眾化；聲望",
+    "meaning": "受歡迎；人氣；普及；聲望",
     "example": "The singer’s popularity grew quickly.（那位歌手的人氣快速上升。）",
-    "id": "L4-popularity-m1f19lic"
+    "id": "L4-popularity-m29jyh9"
   },
   {
     "level": "L4",
@@ -6148,9 +6148,9 @@
   {
     "level": "L4",
     "word": "porter",
-    "meaning": "搬運工人，腳夫",
+    "meaning": "行李員；搬運工人",
     "example": "The porter carried our luggage.（行李員幫我們搬行李。）",
-    "id": "L4-porter-m14v5vm8"
+    "id": "L4-porter-mk25hv4"
   },
   {
     "level": "L4",
@@ -6218,9 +6218,9 @@
   {
     "level": "L4",
     "word": "presentation",
-    "meaning": "贈送；顯示；演出",
+    "meaning": "簡報；報告；呈現；演出",
     "example": "Her presentation was clear and interesting.（她的簡報清楚又有趣。）",
-    "id": "L4-presentation-m1tfaq7o"
+    "id": "L4-presentation-m5nd1mc"
   },
   {
     "level": "L4",
@@ -6295,9 +6295,9 @@
   {
     "level": "L4",
     "word": "productive",
-    "meaning": "生產的；多產的；肥沃的",
+    "meaning": "有成效的；多產的；生產的；肥沃的",
     "example": "It was a productive meeting.（那是一場有效率的會議。）",
-    "id": "L4-productive-m618ozx"
+    "id": "L4-productive-m1j24i0l"
   },
   {
     "level": "L4",
@@ -6400,9 +6400,9 @@
   {
     "level": "L4",
     "word": "psychological",
-    "meaning": "心理學的",
+    "meaning": "心理的；心理學的",
     "example": "Stress can have psychological effects.（壓力可能造成心理影響。）",
-    "id": "L4-psychological-mck9fcf"
+    "id": "L4-psychological-m1eeuq5l"
   },
   {
     "level": "L4",
@@ -6429,7 +6429,7 @@
     "level": "L4",
     "word": "publicity",
     "meaning": "注意，名聲；宣傳",
-    "example": "The event received a lot of publicity.（這個活動獲得了許多宣傳。）",
+    "example": "The event received a lot of publicity. (這個活動獲得了許多媒體關注。)",
     "id": "L4-publicity-m13wa29t"
   },
   {
@@ -6456,9 +6456,9 @@
   {
     "level": "L4",
     "word": "quake",
-    "meaning": "顫抖，哆嗦；震動",
+    "meaning": "地震；震動；顫抖",
     "example": "A strong quake shook the city.（強震搖晃了這座城市。）",
-    "id": "L4-quake-mldstt4"
+    "id": "L4-quake-m34ogr8"
   },
   {
     "level": "L4",
@@ -6484,9 +6484,9 @@
   {
     "level": "L4",
     "word": "rainfall",
-    "meaning": "降雨，下雨",
+    "meaning": "降雨量；降雨",
     "example": "The rainfall was heavy last night.（昨晚雨量很大。）",
-    "id": "L4-rainfall-m13i9qum"
+    "id": "L4-rainfall-m45f7z6"
   },
   {
     "level": "L4",
@@ -6568,16 +6568,16 @@
   {
     "level": "L4",
     "word": "reference",
-    "meaning": "提及；提交；參考",
+    "meaning": "參考資料；提及；推薦信",
     "example": "Use this book as a reference.（把這本書當作參考資料。）",
-    "id": "L4-reference-m1nemcpy"
+    "id": "L4-reference-m3vwhrf"
   },
   {
     "level": "L4",
     "word": "reflection",
-    "meaning": "反射；回響；深思，熟慮",
+    "meaning": "倒影；影像；反射；回響；深思",
     "example": "I saw my reflection in the mirror.（我在鏡子裡看到自己的倒影。）",
-    "id": "L4-reflection-mc6ngmx"
+    "id": "L4-reflection-m1q2qg3n"
   },
   {
     "level": "L4",
@@ -6652,7 +6652,7 @@
   {
     "level": "L4",
     "word": "relative",
-    "meaning": "親戚，親屬；【文】 關係詞 a.與…有關係的，相關的；相對的，比較的；",
+    "meaning": "親戚；關係詞 a.相關的；相對的",
     "example": "My cousin is a close relative.（我的表親是近親。）",
     "id": "L4-relative-a"
   },
@@ -6680,9 +6680,9 @@
   {
     "level": "L4",
     "word": "remark",
-    "meaning": "談到；評論；說；注意；察覺",
+    "meaning": "評論；話 [C]；談到；說",
     "example": "Her remark made everyone laugh.（她的話讓大家笑了。）",
-    "id": "L4-remark-mte6jyu"
+    "id": "L4-remark-c"
   },
   {
     "level": "L4",
@@ -6820,9 +6820,9 @@
   {
     "level": "L4",
     "word": "retire(ment)",
-    "meaning": "退休；(令)退役；退休；退職",
+    "meaning": "退休；（令）退役；退職",
     "example": "My grandfather enjoys his retirement.（我祖父享受退休生活。）",
-    "id": "L4-retire-ment-mhrhx5u"
+    "id": "L4-retire-ment-mvrxq3a"
   },
   {
     "level": "L4",
@@ -6897,9 +6897,9 @@
   {
     "level": "L4",
     "word": "romance",
-    "meaning": "愛情小說；浪漫情調 [U]",
+    "meaning": "愛情；浪漫史；愛情小說；浪漫情調",
     "example": "The novel is a story of romance and adventure.（這本小說是愛情與冒險的故事。）",
-    "id": "L4-romance-u"
+    "id": "L4-romance-m146wdiu"
   },
   {
     "level": "L4",
@@ -6988,9 +6988,9 @@
   {
     "level": "L4",
     "word": "scratch",
-    "meaning": "抓；搔；擦；刮",
+    "meaning": "抓；搔；擦；刮；抓痕；刮痕",
     "example": "The cat left a scratch on the table.（貓在桌上留下了一道抓痕。）",
-    "id": "L4-scratch-m1krisqy"
+    "id": "L4-scratch-mctr2un"
   },
   {
     "level": "L4",

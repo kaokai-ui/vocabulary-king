@@ -94,7 +94,7 @@
     "level": "Elementary",
     "word": "swing",
     "meaning": "鞦韆,搖擺",
-    "example": "The kids are playing happily on the swing. (孩子們正在盪鞦韆上快樂地玩耍。)",
+    "example": "The kids are playing happily on the swing. (孩子們正在鞦韆上快樂地玩耍。)",
     "id": "Elementary-swing-m17uo1kg"
   },
   {
@@ -192,7 +192,7 @@
     "level": "Elementary",
     "word": "teenager",
     "meaning": "青少年",
-    "example": "My big sister is a fifteen-year-old teenager. (我姊姊是一個十五歲的青少年。)",
+    "example": "My older sister is a teenager. (我姊姊是青少年。)",
     "id": "Elementary-teenager-mmm34l"
   },
   {
@@ -262,14 +262,14 @@
     "level": "Elementary",
     "word": "than",
     "meaning": "比…",
-    "example": "My big brother is taller than my father now. (我哥哥現在比我爸爸還要高了。)",
+    "example": "My older brother is taller than my father now. (我哥哥現在比我爸爸還要高了。)",
     "id": "Elementary-than-miimq"
   },
   {
     "level": "Elementary",
     "word": "thank",
     "meaning": "謝謝",
-    "example": "Thank you very much for your beautiful present. (非常謝謝你送的美麗禮物。)",
+    "example": "Thank you very much for your beautiful present. (非常謝謝你送的漂亮禮物。)",
     "id": "Elementary-thank-mofc0"
   },
   {
@@ -339,7 +339,7 @@
     "level": "Elementary",
     "word": "thing",
     "meaning": "事情",
-    "example": "Tell me one good thing today. (告訴我今天一件好事情。)",
+    "example": "Tell me one good thing today. (告訴我一件今天發生的好事。)",
     "id": "Elementary-thing-mdw2i"
   },
   {
@@ -444,7 +444,7 @@
     "level": "Elementary",
     "word": "ticket",
     "meaning": "票券",
-    "example": "Don't lose your MRT ticket card. (不要弄丟你的捷運票卡。)",
+    "example": "Don't lose your MRT ticket. (不要弄丟你的捷運票。)",
     "id": "Elementary-ticket-ml3o0"
   },
   {
@@ -458,7 +458,7 @@
     "level": "Elementary",
     "word": "tiger",
     "meaning": "老虎",
-    "example": "The tiger is a very large cat animal. (老虎是一種非常大型的貓科動物。)",
+    "example": "The tiger is a very large wild cat. (老虎是一種非常大型的野生貓科動物。)",
     "id": "Elementary-tiger-mmict"
   },
   {
@@ -493,7 +493,7 @@
     "level": "Elementary",
     "word": "toast",
     "meaning": "土司,烘烤",
-    "example": "I love to eat butter toast for breakfast. (我早餐喜歡吃奶油吐司。)",
+    "example": "I love to eat buttered toast for breakfast. (我早餐喜歡吃奶油吐司。)",
     "id": "Elementary-toast-m1v4hlun"
   },
   {
@@ -633,7 +633,7 @@
     "level": "Elementary",
     "word": "trick",
     "meaning": "惡作劇",
-    "example": "The clown played a funny trick to make us laugh. (小丑耍了一個搞笑的把戲讓我們開懷大笑。)",
+    "example": "The clown played a funny trick on us to make us laugh. (小丑對我們耍了一個搞笑的把戲，讓我們開懷大笑。)",
     "id": "Elementary-trick-meksi4"
   },
   {
@@ -801,7 +801,7 @@
     "level": "Elementary",
     "word": "unhappy",
     "meaning": "不快樂的",
-    "example": "The boy felt unhappy because he lost his toy robot. (那個男孩感到不高興，因為他不小心弄丟了玩具機器人。)",
+    "example": "The boy felt unhappy because he lost his toy robot. (那個男孩感到不高興，因為他弄丟了玩具機器人。)",
     "id": "Elementary-unhappy-ma8yta8"
   },
   {
@@ -997,14 +997,14 @@
     "level": "Elementary",
     "word": "watermelon",
     "meaning": "西瓜",
-    "example": "Watermelon is a sweet and juicy fruit for summer. (西瓜是夏天的甜美多汁水果。)",
+    "example": "Watermelon is a sweet and juicy fruit for summer. (西瓜是夏天又甜又多汁的水果。)",
     "id": "Elementary-watermelon-mo119"
   },
   {
     "level": "Elementary",
     "word": "wave",
     "meaning": "波浪",
-    "example": "A big wave comes to the beach. (一個大波浪來到海灘。)",
+    "example": "A big wave rolls toward the beach. (一個大浪朝海灘捲來。)",
     "id": "Elementary-wave-mj4co"
   },
   {
@@ -1046,7 +1046,7 @@
     "level": "Elementary",
     "word": "Wednesday",
     "meaning": "星期三",
-    "example": "Wednesday is the middle day of the school week. (星期三是一週上課日的中間。)",
+    "example": "Wednesday is the middle day of the school week. (星期三是一週上課日的中間那一天。)",
     "id": "Elementary-wednesday-mfgg89"
   },
   {
@@ -1214,7 +1214,7 @@
     "level": "Elementary",
     "word": "wise",
     "meaning": "明智的",
-    "example": "The old man gave the kids some wise advice. (那位老人給了孩子們一些有智慧的建議。)",
+    "example": "The old man gave the kids some wise advice. (那位老人給了孩子們一些明智的建議。)",
     "id": "Elementary-wise-mfg7o8"
   },
   {
@@ -1368,7 +1368,7 @@
     "level": "Elementary",
     "word": "young",
     "meaning": "年輕的",
-    "example": "The young boy can ride a bicycle very well. (那個年輕的小男孩腳踏車騎得非常好。)",
+    "example": "The young boy can ride a bicycle very well. (那個年幼的男孩腳踏車騎得非常好。)",
     "id": "Elementary-young-mej1c3"
   },
   {
