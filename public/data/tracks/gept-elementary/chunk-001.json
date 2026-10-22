@@ -2152,7 +2152,7 @@
     "level": "L1",
     "word": "fly",
     "meaning": "verb 飛\nnoun 蒼蠅",
-    "example": "Birds fly south in winter. (鳥類冬天往南飛。)",
+    "example": "A bird can fly over the lake. (鳥可以飛過湖面。)",
     "id": "L1-fly-verb-noun"
   },
   {
@@ -2432,7 +2432,7 @@
     "level": "L1",
     "word": "good",
     "meaning": "adj./noun 好的；好處",
-    "example": "She is a good student. (她是個好學生。)",
+    "example": "This is a good idea. (這是個好主意。)",
     "id": "L1-good-adj-noun"
   },
   {
@@ -2978,7 +2978,7 @@
     "level": "L1",
     "word": "its",
     "meaning": "determiner 它的",
-    "example": "The dog wagged its tail.（那隻狗搖著尾巴。）",
+    "example": "The cat licked its paw. (貓舔了舔牠的腳掌。)",
     "id": "L1-its-determiner"
   },
   {
@@ -3440,7 +3440,7 @@
     "level": "L1",
     "word": "look",
     "meaning": "verb/noun 看",
-    "example": "Look at the picture on the wall.（看牆上的那張圖。）",
+    "example": "Look at me. (看著我。)",
     "id": "L1-look-verb-noun"
   },
   {
@@ -6583,7 +6583,7 @@
     "level": "L1",
     "word": "weather",
     "meaning": "noun 天氣",
-    "example": "The weather is nice today. (今天天氣很好。)",
+    "example": "The weather is warm today. (今天天氣很溫暖。)",
     "id": "L1-weather-noun"
   },
   {

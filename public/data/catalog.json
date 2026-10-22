@@ -1,5 +1,5 @@
 {
-  "generatedAt": "f04d62c91165",
+  "generatedAt": "17dd798e1407",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -76,7 +76,7 @@
       "available": true,
       "title": "Senior High (L5-6)",
       "sourceWorkbookKey": "level-5-level-6-workbook",
-      "totalWords": 2154,
+      "totalWords": 2152,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -92,7 +92,7 @@
         {
           "id": "senior-high-5-6-chunk-3",
           "path": "data/tracks/senior-high-5-6/chunk-003.json",
-          "wordCount": 154
+          "wordCount": 152
         }
       ]
     },

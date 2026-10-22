@@ -3706,15 +3706,8 @@
     "level": "L6",
     "word": "organism",
     "meaning": "生物；有機體",
-    "example": "Every living organism needs water and nutrients to survive.（每個活的生物體都需要水和養分才能生存。）",
-    "id": "L6-organism-m17qzhal-every-living-organ"
-  },
-  {
-    "level": "L6",
-    "word": "organism",
-    "meaning": "生物；有機體",
     "example": "A plant is a living organism.（植物是一種生物。）",
-    "id": "L6-organism-m17qzhal-a-plant-is-a-livin"
+    "id": "L6-organism-m17qzhal"
   },
   {
     "level": "L6",
@@ -6812,13 +6805,6 @@
   },
   {
     "level": "L6",
-    "word": "spokesperson/spokesman/spokeswoman",
-    "meaning": "發言人/男發言人/女發言人",
-    "example": "The spokesperson explained the company’s decision.（發言人解釋了公司的決定。）",
-    "id": "L6-spokesperson-spokesman-spokeswom-mio83i2"
-  },
-  {
-    "level": "L6",
     "word": "sponsor",
     "meaning": "發起者；贊助者 vt.資助",
     "example": "A local bank will sponsor the race.（一家當地銀行會贊助比賽。）",
@@ -6998,5 +6984,19 @@
     "meaning": "主觀的；個人的",
     "example": "Beauty can be subjective.（美可能是主觀的。）",
     "id": "L6-subjective-mr6fb4p"
+  },
+  {
+    "level": "L6",
+    "word": "subordinate",
+    "meaning": "下級的；隸屬的",
+    "example": "The assistant is subordinate to the manager.（助理隸屬於經理。）",
+    "id": "L6-subordinate-m1qti6yy"
+  },
+  {
+    "level": "L6",
+    "word": "subscribe",
+    "meaning": "認捐；訂閱",
+    "example": "I subscribe to a science magazine.（我訂閱了一本科學雜誌。）",
+    "id": "L6-subscribe-m1m3hjbb"
   }
 ]
