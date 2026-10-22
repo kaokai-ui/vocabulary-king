@@ -1109,7 +1109,7 @@
     "level": "L1",
     "word": "chair",
     "meaning": "noun 椅子\nnoun/verb 主持人、主席、系主任；擔任主席、主持",
-    "example": "This chair is very comfortable. (這張椅子很舒服。)",
+    "example": "The chair is next to the desk. (椅子在書桌旁邊。)",
     "id": "L1-chair-noun-noun-verb"
   },
   {
@@ -3881,7 +3881,7 @@
     "level": "L1",
     "word": "neck",
     "meaning": "noun 脖子",
-    "example": "She wore a scarf around her neck. (她脖子上圍著一條圍巾。)",
+    "example": "He has a long neck. (他的脖子很長。)",
     "id": "L1-neck-noun"
   },
   {
@@ -6373,7 +6373,7 @@
     "level": "L1",
     "word": "two",
     "meaning": "number/pron./noun/adj. 二",
-    "example": "I have two brothers.（我有兩個兄弟。）",
+    "example": "I need two tickets. (我需要兩張票。)",
     "id": "L1-two-number-pron-noun-adj"
   },
   {
@@ -6765,7 +6765,7 @@
     "level": "L1",
     "word": "window",
     "meaning": "noun 窗戶",
-    "example": "Please open the window. (請打開窗戶。)",
+    "example": "The window is small. (窗戶很小。)",
     "id": "L1-window-noun"
   },
   {
