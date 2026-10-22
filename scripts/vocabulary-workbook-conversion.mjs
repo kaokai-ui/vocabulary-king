@@ -498,12 +498,13 @@ function readTrackWorkbookRows(definition, root, exampleLookup) {
   throw new Error(`Unsupported workbook source type for ${definition.id}: ${definition.type}`);
 }
 
-export function readWorkbookTrackEntries(root = process.cwd()) {
+export function readWorkbookTrackEntries(root = process.cwd(), { skipTrackIds = [] } = {}) {
   const exampleLookup = buildLevelExampleLookup(root);
   const tracks = new Map();
+  const skippedTrackIds = new Set(skipTrackIds);
 
   for (const definition of TRACK_DEFINITIONS) {
-    if (!definition.available) {
+    if (!definition.available || definition.type === "jsonl-source" || skippedTrackIds.has(definition.id)) {
       tracks.set(definition.id, []);
       continue;
     }

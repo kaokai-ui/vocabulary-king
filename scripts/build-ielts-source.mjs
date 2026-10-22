@@ -1,13 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import xlsx from "xlsx";
+import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 
 export const IELTS_EXPECTED_WORD_COUNT = 5594;
 
 const IELTS_TASK_DIRECTORY = "docs/tasks/ielts-merge-20261022";
 const PART_FILE_PATTERN = /^part-(\d{2})\.jsonl$/u;
-const WORKBOOK_HEADERS = ["Word", "Chinese Meaning", "English Example", "Chinese Translation"];
 
 function getPartFiles(directory) {
   if (!fs.existsSync(directory)) {
@@ -128,11 +127,7 @@ function loadCompletedLongExamples(taskDirectory, partFiles, exampleByWord) {
   return longExamples;
 }
 
-export function buildIeltsSourceWorkbook({
-  root = process.cwd(),
-  outputPath = path.join(root, "Source", "ielts.final.xlsx"),
-  expectedWordCount = IELTS_EXPECTED_WORD_COUNT
-} = {}) {
+export function buildIeltsSourceRecords({ root = process.cwd(), expectedWordCount = IELTS_EXPECTED_WORD_COUNT } = {}) {
   const taskDirectory = path.join(root, IELTS_TASK_DIRECTORY);
   const examplesDirectory = path.join(taskDirectory, "examples");
   const partFiles = getPartFiles(examplesDirectory);
@@ -145,33 +140,71 @@ export function buildIeltsSourceWorkbook({
   const exampleByWord = new Map(entries.map((entry) => [String(entry.word).trim().toLocaleLowerCase(), entry]));
   const longExamples = loadCompletedLongExamples(taskDirectory, partFiles, exampleByWord);
 
-  const rows = entries.map((entry) => {
+  const records = entries.map((entry) => {
     const longer = longExamples.get(String(entry.word).trim().toLocaleLowerCase());
-    return [
-      String(entry.word).trim(),
-      String(entry.meaning).trim(),
-      String(longer?.example_en ?? entry.example_en).trim(),
-      String(longer?.example_zh ?? entry.example_zh).trim()
-    ];
+    return {
+      track: "ielts",
+      level: "IELTS",
+      word: String(entry.word).trim(),
+      pos: "",
+      kk: "",
+      meaning_zh: String(entry.meaning).trim(),
+      example_en: String(longer?.example_en ?? entry.example_en).trim(),
+      example_zh: String(longer?.example_zh ?? entry.example_zh).trim(),
+      meaning_ja: "",
+      example_ja: "",
+      meaning_ko: "",
+      example_ko: "",
+      example_format: { before: " (", after: ")" }
+    };
   });
-  const worksheet = xlsx.utils.aoa_to_sheet([WORKBOOK_HEADERS, ...rows]);
-  worksheet["!cols"] = [{ wch: 24 }, { wch: 38 }, { wch: 100 }, { wch: 82 }];
-  worksheet["!autofilter"] = { ref: `A1:D${rows.length + 1}` };
-
-  const workbook = xlsx.utils.book_new();
-  xlsx.utils.book_append_sheet(workbook, worksheet, "IELTS");
-  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  xlsx.writeFile(workbook, outputPath);
 
   return {
-    count: rows.length,
-    outputPath,
+    records,
+    count: records.length,
     usedLongSentences: longExamples.size > 0,
     longSentenceCount: longExamples.size
   };
 }
 
+export function buildIeltsSourceData({
+  root = process.cwd(),
+  dataRepoRoot = getVocabularyDataRepoPath(),
+  expectedWordCount = IELTS_EXPECTED_WORD_COUNT
+} = {}) {
+  const resolvedDataRepoRoot = path.resolve(dataRepoRoot);
+  if (!fs.existsSync(resolvedDataRepoRoot) || !fs.statSync(resolvedDataRepoRoot).isDirectory()) {
+    throw new Error(
+      `Vocabulary source repo not found at ${resolvedDataRepoRoot}; IELTS updates require the JSONL repo. ` +
+      "Set VOCABULARY_DATA_REPO to the local vocabulary data repo."
+    );
+  }
+  const outputPath = path.join(resolvedDataRepoRoot, "data", "ielts.jsonl");
+  if (!fs.existsSync(outputPath)) {
+    throw new Error(`Missing IELTS vocabulary source JSONL: ${outputPath}`);
+  }
+
+  const result = buildIeltsSourceRecords({ root, expectedWordCount });
+  fs.writeFileSync(
+    outputPath,
+    result.records.map((record) => JSON.stringify(record)).join("\n") + (result.records.length ? "\n" : ""),
+    "utf8"
+  );
+
+  return {
+    count: result.count,
+    outputPath,
+    usedLongSentences: result.usedLongSentences,
+    longSentenceCount: result.longSentenceCount
+  };
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const result = buildIeltsSourceWorkbook();
-  console.log(`Built IELTS source: ${result.count} words; ${result.longSentenceCount} long examples used; ${result.outputPath}`);
+  try {
+    const result = buildIeltsSourceData();
+    console.log(`Updated IELTS source: ${result.count} words; ${result.longSentenceCount} long examples used; ${result.outputPath}`);
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  }
 }

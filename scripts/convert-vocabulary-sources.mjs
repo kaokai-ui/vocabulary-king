@@ -3,6 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { formatSourceExample } from "./vocabulary-data-utils.mjs";
+import { buildIeltsSourceRecords } from "./build-ielts-source.mjs";
 import { readWorkbookTrackEntries, splitCombinedExample } from "./vocabulary-workbook-conversion.mjs";
 
 const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
@@ -70,18 +71,22 @@ export function convertWorkbookSources({ root = process.cwd(), outputDirectory =
     throw new Error(`Refusing to overwrite ${existingFiles.length} existing track file(s); pass --force to replace them.`);
   }
 
-  const trackEntries = readWorkbookTrackEntries(resolvedRoot);
+  const trackEntries = readWorkbookTrackEntries(resolvedRoot, { skipTrackIds: ["ielts"] });
+  const ieltsRecords = buildIeltsSourceRecords({ root: resolvedRoot }).records;
   const summaries = [];
 
   for (const definition of TRACK_DEFINITIONS) {
     const entries = trackEntries.get(definition.id) ?? [];
+    const sourceRecords = definition.id === "ielts" ? ieltsRecords : entries;
 
-    if (definition.available && entries.length === 0) {
+    if (definition.available && sourceRecords.length === 0) {
       throw new Error(`Workbook conversion produced no entries for ${definition.id}.`);
     }
 
     const filePath = path.join(resolvedOutput, "data", `${definition.id}.jsonl`);
-    const records = entries.map((entry) => sourceRowToJsonlRecord(definition.id, entry));
+    const records = definition.id === "ielts"
+      ? sourceRecords
+      : sourceRecords.map((entry) => sourceRowToJsonlRecord(definition.id, entry));
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
     fs.writeFileSync(filePath, records.map((record) => JSON.stringify(record)).join("\n") + (records.length ? "\n" : ""), "utf8");
     summaries.push(`${definition.id}: ${records.length} entries -> ${path.relative(resolvedOutput, filePath)}`);

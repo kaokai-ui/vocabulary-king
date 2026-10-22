@@ -9,10 +9,11 @@ import {
   checkDuplicates,
   classifySimplifiedText,
   exampleUsesHeadword,
+  readAllTrackSourceRows,
   readTrackSourceRows,
   resolveGeptExample
 } from "./check-vocabulary-content.mjs";
-import { GEPT_WORKBOOK_COLUMNS } from "./vocabulary-source-definitions.mjs";
+import { GEPT_WORKBOOK_COLUMNS, TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 
 const temporaryDirectories = [];
 
@@ -167,6 +168,69 @@ describe("source workbook mapping", () => {
       .toEqual({ example: "The GEPT override.", source: fallbackSource });
     expect(resolveGeptExample("sample", "Level 5", "The GEPT override.", fallbackSource, lookup))
       .toEqual({ example: "The shared-level example.", source: levelSource });
+  });
+});
+
+describe("canonical JSONL source mapping", () => {
+  it("reads all available tracks from the configured data repo with JSONL line locations", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "vocab-content-jsonl-"));
+    temporaryDirectories.push(root);
+    const dataRepoRoot = path.join(root, "vocabulary-data");
+    const dataDirectory = path.join(dataRepoRoot, "data");
+    fs.mkdirSync(dataDirectory, { recursive: true });
+
+    for (const definition of TRACK_DEFINITIONS) {
+      if (!definition.available) continue;
+      const rows = [
+        {
+          track: definition.id,
+          level: definition.fallbackLevel ?? "Level 1",
+          word: `${definition.id}-word`,
+          pos: "",
+          meaning_zh: "中文意思",
+          example_en: "A valid example sentence.",
+          example_zh: "這是一個例句。",
+          example_format: { before: " (", after: ")" }
+        }
+      ];
+      fs.writeFileSync(
+        path.join(dataDirectory, `${definition.id}.jsonl`),
+        `${rows.map((row) => JSON.stringify(row)).join("\n")}\n`,
+        "utf8"
+      );
+    }
+
+    const previousDataRepo = process.env.VOCABULARY_DATA_REPO;
+    process.env.VOCABULARY_DATA_REPO = dataRepoRoot;
+    let records;
+    try {
+      records = readAllTrackSourceRows(root);
+    } finally {
+      if (previousDataRepo === undefined) {
+        delete process.env.VOCABULARY_DATA_REPO;
+      } else {
+        process.env.VOCABULARY_DATA_REPO = previousDataRepo;
+      }
+    }
+
+    expect(records).toHaveLength(TRACK_DEFINITIONS.filter((definition) => definition.available).length);
+    expect(records[0]).toMatchObject({
+      track: "elementary",
+      sourceWorkbook: "data/elementary.jsonl",
+      worksheet: "JSONL",
+      row: 1,
+      word: "elementary-word",
+      example: "A valid example sentence. (這是一個例句。)"
+    });
+  });
+
+  it("fails clearly when the configured vocabulary data repo is missing", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "vocab-content-jsonl-missing-"));
+    temporaryDirectories.push(root);
+    const missingRepo = path.join(root, "missing-repo");
+
+    expect(() => readAllTrackSourceRows(root, missingRepo))
+      .toThrow(`Vocabulary source repo not found at ${missingRepo}; check:content requires the JSONL repo.`);
   });
 });
 

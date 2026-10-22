@@ -149,16 +149,7 @@ export const TRACK_DEFINITIONS = [
   {
     id: "ielts",
     title: "IELTS",
-    sourceWorkbookKey: "ielts-final-workbook",
-    sourceWorkbookPath: "Source/ielts.final.xlsx",
-    sheets: ["IELTS"],
-    type: "named-column-workbook",
-    columnsByHeader: {
-      word: "Word",
-      meaning: "Chinese Meaning",
-      englishExample: "English Example",
-      chineseExample: "Chinese Translation"
-    },
+    type: "jsonl-source",
     fallbackLevel: "IELTS",
     available: true
   }

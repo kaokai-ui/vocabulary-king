@@ -3,6 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import OpenCC from "opencc-js";
 import xlsx from "xlsx";
+import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 import {
   findSourceWorkbookPath,
   TRACK_DEFINITIONS
@@ -663,6 +664,10 @@ function readGeptWorkbookRows(definition, workbookPath, root) {
 }
 
 export function readTrackSourceRows(definition, root = process.cwd()) {
+  if (definition.type === "jsonl-source") {
+    throw new Error(`Track ${definition.id} is sourced from the vocabulary JSONL repo, not a workbook.`);
+  }
+
   const workbookPath = findSourceWorkbookPath(definition, root);
 
   if (!fs.existsSync(workbookPath)) {
@@ -681,8 +686,81 @@ export function readTrackSourceRows(definition, root = process.cwd()) {
   return readIndexedWorkbookRows(definition, workbookPath);
 }
 
-export function readAllTrackSourceRows(root = process.cwd()) {
-  return TRACK_DEFINITIONS.flatMap((definition) => readTrackSourceRows(definition, root));
+export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = getVocabularyDataRepoPath()) {
+  const dataRepoRoot = path.resolve(sourceRepoPath);
+  if (!fs.existsSync(dataRepoRoot) || !fs.statSync(dataRepoRoot).isDirectory()) {
+    throw new Error(
+      `Vocabulary source repo not found at ${dataRepoRoot}; check:content requires the JSONL repo. ` +
+      "Set VOCABULARY_DATA_REPO to the local vocabulary data repo."
+    );
+  }
+
+  const records = [];
+  for (const definition of TRACK_DEFINITIONS) {
+    if (!definition.available) continue;
+    const filePath = path.join(dataRepoRoot, "data", `${definition.id}.jsonl`);
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`Missing vocabulary source JSONL: ${filePath}`);
+    }
+
+    const lines = fs.readFileSync(filePath, "utf8").split(/\r?\n/u);
+    for (const [index, line] of lines.entries()) {
+      if (!line.trim()) continue;
+      const sourceLine = index + 1;
+      let sourceRow;
+      try {
+        sourceRow = JSON.parse(line);
+      } catch (error) {
+        throw new Error(`Invalid JSON in ${filePath}:${sourceLine}: ${error.message}`);
+      }
+      if (sourceRow?.track !== definition.id) {
+        throw new Error(
+          `Vocabulary source row ${filePath}:${sourceLine} belongs to '${sourceRow?.track}', expected '${definition.id}'.`
+        );
+      }
+
+      const word = asText(sourceRow.word);
+      const pos = asText(sourceRow.pos);
+      const rawMeaning = asText(sourceRow.meaning_zh);
+      const englishExample = asText(sourceRow.example_en);
+      const chineseTranslation = asText(sourceRow.example_zh);
+      const format = sourceRow.example_format;
+      const example = format && typeof format.before === "string" && typeof format.after === "string"
+        ? `${englishExample}${format.before}${chineseTranslation}${format.after}`
+        : englishExample && chineseTranslation
+          ? `${englishExample} (${chineseTranslation})`
+          : englishExample || chineseTranslation;
+      const meaning = definition.id === "toeic" && pos
+        ? `${pos}. ${rawMeaning}`
+        : rawMeaning;
+      const sourceWorkbook = `data/${definition.id}.jsonl`;
+      const source = {
+        track: definition.id,
+        id: `${definition.id}:JSONL:${sourceLine}`,
+        word,
+        meaning,
+        pos,
+        exportLevel: asText(sourceRow.level),
+        englishExample,
+        chineseTranslation,
+        example,
+        separateTranslation: !["level-workbook", "gept-workbook"].includes(definition.type),
+        sourceWorkbook,
+        worksheet: "JSONL",
+        row: sourceLine,
+        rawFields: {
+          word,
+          meaning: rawMeaning,
+          ...(pos ? { pos } : {}),
+          englishExample,
+          chineseTranslation
+        }
+      };
+      records.push(source);
+    }
+  }
+
+  return records;
 }
 
 export function parseTrailingTranslation(example) {
@@ -1517,8 +1595,8 @@ export function writeContentReports(records, findings, root = process.cwd()) {
   return { markdownPath, jsonlPath };
 }
 
-export function runContentCheck(root = process.cwd()) {
-  const records = readAllTrackSourceRows(root);
+export function runContentCheck(root = process.cwd(), sourceRepoPath = getVocabularyDataRepoPath()) {
+  const records = readAllTrackSourceRows(root, sourceRepoPath);
   const findings = analyzeVocabularyRecords(records);
   const paths = writeContentReports(records, findings, root);
   const counts = new Map();
@@ -1537,5 +1615,10 @@ export function runContentCheck(root = process.cwd()) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  runContentCheck();
+  try {
+    runContentCheck();
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  }
 }
