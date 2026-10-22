@@ -1,48 +1,6 @@
 [
   {
     "level": "L6",
-    "word": "subscription",
-    "meaning": "認捐；訂閱",
-    "example": "My subscription ends next month.（我的訂閱下個月結束。）",
-    "id": "L6-subscription-m1m3hjbb"
-  },
-  {
-    "level": "L6",
-    "word": "subsequent",
-    "meaning": "隨後的",
-    "example": "Subsequent events proved him right.（後來的事件證明他是對的。）",
-    "id": "L6-subsequent-mmjb4w"
-  },
-  {
-    "level": "L6",
-    "word": "substitution",
-    "meaning": "代替(物)",
-    "example": "The substitution of sugar with honey changed the taste.（用蜂蜜代替糖改變了味道。）",
-    "id": "L6-substitution-m11bt4i4"
-  },
-  {
-    "level": "L6",
-    "word": "subtle",
-    "meaning": "微妙的；隱約的",
-    "example": "There is a subtle difference between the two words.（這兩個字之間有細微差異。）",
-    "id": "L6-subtle-mj78w1b"
-  },
-  {
-    "level": "L6",
-    "word": "suburban",
-    "meaning": "郊區的",
-    "example": "They live in a suburban neighborhood.（他們住在郊區社區。）",
-    "id": "L6-suburban-mlma32"
-  },
-  {
-    "level": "L6",
-    "word": "succession",
-    "meaning": "連續；繼任",
-    "example": "Three kings ruled in succession.（三位國王接連統治。）",
-    "id": "L6-succession-mcc8pv5"
-  },
-  {
-    "level": "L6",
     "word": "successive",
     "meaning": "連續的；後繼的",
     "example": "It rained for three successive days.（連續下了三天雨。）",

@@ -1,13 +1,6 @@
 [
   {
     "level": "L4",
-    "word": "sculpture",
-    "meaning": "雕塑品；雕像[C]；雕刻術[U]",
-    "example": "The sculpture was made of stone.（這座雕像是石頭做的。）",
-    "id": "L4-sculpture-c-u"
-  },
-  {
-    "level": "L4",
     "word": "seagull/gull",
     "meaning": "海鷗(gull)",
     "example": "A seagull flew over the beach.（一隻海鷗飛過海灘。）",
@@ -460,13 +453,6 @@
     "meaning": "有系統的；有條理的",
     "example": "We need a systematic way to study.（我們需要有系統的學習方法。）",
     "id": "L4-systematic-m1s9025k"
-  },
-  {
-    "level": "L4",
-    "word": "tap",
-    "meaning": "水龍頭；塞子；竊聽器 vt.輕拍；輕敲；裝竊聽器",
-    "example": "Tap the screen to start the game.（輕點螢幕開始遊戲。）",
-    "id": "L4-tap-vt"
   },
   {
     "level": "L4",

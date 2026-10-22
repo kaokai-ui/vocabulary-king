@@ -3649,16 +3649,9 @@
   {
     "level": "中高級",
     "word": "broker",
-    "meaning": "n. 代理人，中間人",
+    "meaning": "n / v. 代理人、中間人；安排、協調（協議等）",
     "example": "The broker negotiated favorable insurance terms for the client. (經紀人為客戶協商了有利的保險條款。)",
-    "id": "中高級-broker-n"
-  },
-  {
-    "level": "TOEIC",
-    "word": "broker",
-    "meaning": "v. 安排；協調（協議等）",
-    "example": "The agreement was brokered after several rounds of negotiation. (該協議是經過多輪談判達成的。)",
-    "id": "TOEIC-broker-v"
+    "id": "中高級-broker-n-v"
   },
   {
     "level": "L5",
@@ -6998,5 +6991,12 @@
     "meaning": "n. 部門；分割；分歧",
     "example": "The logistics division is responsible for managing the entire shipping fleet. (物流部門負責管理整個船隊。)",
     "id": "L2-division-n"
+  },
+  {
+    "level": "L1",
+    "word": "doctor",
+    "meaning": "n. 醫生",
+    "example": "The company doctor conducts annual health checkups for all warehouse employees. (公司醫生每年對所有倉庫員工進行健康檢查。)",
+    "id": "L1-doctor-n"
   }
 ]

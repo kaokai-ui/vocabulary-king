@@ -3774,13 +3774,6 @@
   },
   {
     "level": "L6",
-    "word": "hail",
-    "meaning": "n. 冰雹；v. 來自（hail from）",
-    "example": "They hail from a small village.（他們來自一個小村莊。）",
-    "id": "L6-hail-n-v-hail-from"
-  },
-  {
-    "level": "L6",
     "word": "harass(ment)",
     "meaning": "騷擾；使煩惱",
     "example": "The company has rules against workplace harassment.（公司有反職場騷擾的規定。）",
@@ -4772,13 +4765,6 @@
     "meaning": "現代化",
     "example": "Modernization changed the city quickly.（現代化快速改變了這座城市。）",
     "id": "L6-modernization-mhdhxt"
-  },
-  {
-    "level": "L6",
-    "word": "mold",
-    "meaning": "n. 黴菌、模型；v. 塑造",
-    "example": "Mold grew on the old bread.（舊麵包上長了霉。）",
-    "id": "L6-mold-n-v"
   },
   {
     "level": "L6",
@@ -6840,13 +6826,6 @@
   },
   {
     "level": "L6",
-    "word": "squash",
-    "meaning": "壓扁(壓碎) n.擠壓；回力球；南瓜屬植物",
-    "example": "We had squash soup for dinner.（我們晚餐喝南瓜湯。）",
-    "id": "L6-squash-n"
-  },
-  {
-    "level": "L6",
     "word": "stability",
     "meaning": "穩定(性)",
     "example": "Stability is important for a growing company.（穩定對成長中的公司很重要。）",
@@ -6858,13 +6837,6 @@
     "meaning": "穩定",
     "example": "The medicine helped stabilize his condition.（藥物幫助穩定他的狀況。）",
     "id": "L6-stabilize-mlbo1"
-  },
-  {
-    "level": "L6",
-    "word": "stalk",
-    "meaning": "悄悄追蹤",
-    "example": "The cat stalked the bird quietly.（貓悄悄接近那隻鳥。）",
-    "id": "L6-stalk-mcl2v0n"
   },
   {
     "level": "L6",
@@ -6924,13 +6896,6 @@
   },
   {
     "level": "L6",
-    "word": "steamer",
-    "meaning": "汽船；蒸鍋；蒸汽機",
-    "example": "The steamer cooked the buns quickly.（蒸鍋很快把包子蒸熟。）",
-    "id": "L6-steamer-m1dldfm9"
-  },
-  {
-    "level": "L6",
     "word": "stimulate",
     "meaning": "刺激；促使",
     "example": "Music can stimulate creativity.（音樂可以刺激創造力。）",
@@ -6949,13 +6914,6 @@
     "meaning": "刺激(品)；興奮劑",
     "example": "Light is a stimulus for plant growth.（光是植物生長的刺激因素。）",
     "id": "L6-stimulus-mtof7kq"
-  },
-  {
-    "level": "L6",
-    "word": "stock",
-    "meaning": "存貨；股票 vt.vi.辦貨",
-    "example": "The store has a large stock of shoes.（這家店有大量鞋子庫存。）",
-    "id": "L6-stock-vt-vi"
   },
   {
     "level": "L6",
@@ -6998,5 +6956,47 @@
     "meaning": "認捐；訂閱",
     "example": "I subscribe to a science magazine.（我訂閱了一本科學雜誌。）",
     "id": "L6-subscribe-m1m3hjbb"
+  },
+  {
+    "level": "L6",
+    "word": "subscription",
+    "meaning": "認捐；訂閱",
+    "example": "My subscription ends next month.（我的訂閱下個月結束。）",
+    "id": "L6-subscription-m1m3hjbb"
+  },
+  {
+    "level": "L6",
+    "word": "subsequent",
+    "meaning": "隨後的",
+    "example": "Subsequent events proved him right.（後來的事件證明他是對的。）",
+    "id": "L6-subsequent-mmjb4w"
+  },
+  {
+    "level": "L6",
+    "word": "substitution",
+    "meaning": "代替(物)",
+    "example": "The substitution of sugar with honey changed the taste.（用蜂蜜代替糖改變了味道。）",
+    "id": "L6-substitution-m11bt4i4"
+  },
+  {
+    "level": "L6",
+    "word": "subtle",
+    "meaning": "微妙的；隱約的",
+    "example": "There is a subtle difference between the two words.（這兩個字之間有細微差異。）",
+    "id": "L6-subtle-mj78w1b"
+  },
+  {
+    "level": "L6",
+    "word": "suburban",
+    "meaning": "郊區的",
+    "example": "They live in a suburban neighborhood.（他們住在郊區社區。）",
+    "id": "L6-suburban-mlma32"
+  },
+  {
+    "level": "L6",
+    "word": "succession",
+    "meaning": "連續；繼任",
+    "example": "Three kings ruled in succession.（三位國王接連統治。）",
+    "id": "L6-succession-mcc8pv5"
   }
 ]

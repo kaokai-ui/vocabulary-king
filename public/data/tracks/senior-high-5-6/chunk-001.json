@@ -2928,9 +2928,9 @@
   {
     "level": "L5",
     "word": "hail",
-    "meaning": "冰雹 n.vt.歡呼",
+    "meaning": "n. 冰雹；v. 歡呼、讚揚；來自（hail from）",
     "example": "Hail damaged the crops.（冰雹損害了農作物。）",
-    "id": "L5-hail-n-vt"
+    "id": "L5-hail-n-v-hail-from"
   },
   {
     "level": "L5",
@@ -6190,9 +6190,9 @@
   {
     "level": "L5",
     "word": "squash",
-    "meaning": "南瓜；回力球；擠壓",
+    "meaning": "n. 南瓜；回力球；v. 壓扁、擠壓",
     "example": "I cooked squash for dinner.（我晚餐煮了南瓜。）",
-    "id": "L5-squash-m1k7hzjy"
+    "id": "L5-squash-n-v"
   },
   {
     "level": "L5",
@@ -6232,9 +6232,9 @@
   {
     "level": "L5",
     "word": "stalk",
-    "meaning": "莖；葉柄 v.n.悄悄追蹤",
+    "meaning": "n. 莖、葉柄；v. 悄悄追蹤、跟蹤",
     "example": "A tiger stalked its prey through the grass.（老虎在草叢中悄悄接近獵物。）",
-    "id": "L5-stalk-v-n"
+    "id": "L5-stalk-n-v"
   },
   {
     "level": "L5",
@@ -6281,9 +6281,9 @@
   {
     "level": "L5",
     "word": "steamer",
-    "meaning": "汽船；蒸籠",
+    "meaning": "汽船；蒸籠、蒸鍋；蒸汽機",
     "example": "We cooked rice in a steamer.（我們用蒸鍋蒸飯。）",
-    "id": "L5-steamer-mfhckkn"
+    "id": "L5-steamer-mekf4i4"
   },
   {
     "level": "L5",
@@ -6330,9 +6330,9 @@
   {
     "level": "L5",
     "word": "stock",
-    "meaning": "股票；存貨",
+    "meaning": "n. 存貨、庫存；股票；v. 進貨、備貨",
     "example": "The store has a large stock of notebooks.（這家店有大量筆記本庫存。）",
-    "id": "L5-stock-mm2zmg4"
+    "id": "L5-stock-n-v"
   },
   {
     "level": "L5",

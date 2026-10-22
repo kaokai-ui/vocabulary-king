@@ -1,13 +1,6 @@
 [
   {
     "level": "TOEIC-ADV",
-    "word": "neutrality",
-    "meaning": "中立",
-    "example": "Our company maintains strict neutrality regarding political issues. (我們公司對政治議題嚴守中立。)",
-    "id": "TOEIC-ADV-neutrality-mdyym"
-  },
-  {
-    "level": "TOEIC-ADV",
     "word": "new appointment",
     "meaning": "新任命",
     "example": "We are pleased to announce the new appointment of Mr. Chen as the Marketing Director. (我們很高興宣布新的人事任命：由陳先生出任行銷總監。)",
@@ -6998,5 +6991,12 @@
     "meaning": "商店開幕",
     "example": "The store opening is scheduled for next Saturday morning. (商店開幕定於下週六上午。)",
     "id": "TOEIC-ADV-store-opening-mb5rpq3"
+  },
+  {
+    "level": "TOEIC-ADV",
+    "word": "storefront",
+    "meaning": "店面",
+    "example": "The company recently renovated its storefront to attract more customers. (公司最近整修店面，吸引更多客戶上門。)",
+    "id": "TOEIC-ADV-storefront-mgx4b"
   }
 ]

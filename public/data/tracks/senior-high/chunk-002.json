@@ -1520,13 +1520,6 @@
   },
   {
     "level": "L4",
-    "word": "beam",
-    "meaning": "n. 光束、光線；笑容、喜色；v. 發出（光）；眉開眼笑",
-    "example": "A beam of light shone through the window.（一道光從窗戶照進來。）",
-    "id": "L4-beam-n-v"
-  },
-  {
-    "level": "L4",
     "word": "biography",
     "meaning": "傳記[C]",
     "example": "I read a biography of a famous scientist.（我讀了一本著名科學家的傳記。）",
@@ -6998,5 +6991,12 @@
     "meaning": "螺絲起子",
     "example": "Use a screwdriver to open the box.（用螺絲起子打開盒子。）",
     "id": "L4-screwdriver-mhnc7g1"
+  },
+  {
+    "level": "L4",
+    "word": "sculpture",
+    "meaning": "雕塑品；雕像[C]；雕刻術[U]",
+    "example": "The sculpture was made of stone.（這座雕像是石頭做的。）",
+    "id": "L4-sculpture-c-u"
   }
 ]

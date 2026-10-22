@@ -1,13 +1,6 @@
 [
   {
     "level": "TOEIC-ADV",
-    "word": "storefront",
-    "meaning": "店面",
-    "example": "The company recently renovated its storefront to attract more customers. (公司最近整修店面，吸引更多客戶上門。)",
-    "id": "TOEIC-ADV-storefront-mgx4b"
-  },
-  {
-    "level": "TOEIC-ADV",
     "word": "storeroom",
     "meaning": "儲藏室",
     "example": "Please return the tools to the storeroom when you are finished. (工作完成後，請將工具歸還至儲藏室。)",
@@ -75,6 +68,13 @@
     "meaning": "嚴格的",
     "example": "We have strict policies regarding the use of confidential data. (我們對於敏感資料的使用有著嚴格的政策。)",
     "id": "TOEIC-ADV-strict-md7kak"
+  },
+  {
+    "level": "TOEIC-ADV",
+    "word": "strictly",
+    "meaning": "嚴格地",
+    "example": "The office is strictly for authorized personnel only. (辦公室嚴格僅供授權人員使用。)",
+    "id": "TOEIC-ADV-strictly-md7e3s"
   },
   {
     "level": "TOEIC-ADV",

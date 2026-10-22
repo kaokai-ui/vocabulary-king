@@ -3445,17 +3445,10 @@
   },
   {
     "level": "TOEIC-ADV",
-    "word": "strictly",
+    "word": "in a strict way (= strictly)",
     "meaning": "嚴格地",
     "example": "Company security policies must be followed in a strict way to prevent any data breaches. (必須嚴格遵守公司安全政策，以防止任何資料外洩。)",
-    "id": "TOEIC-ADV-strictly-md7e3s-company-security-p"
-  },
-  {
-    "level": "TOEIC-ADV",
-    "word": "strictly",
-    "meaning": "嚴格地",
-    "example": "The office is strictly for authorized personnel only. (辦公室嚴格僅供授權人員使用。)",
-    "id": "TOEIC-ADV-strictly-md7e3s-the-office-is-stri"
+    "id": "TOEIC-ADV-in-a-strict-way-strictly-md7e3s"
   },
   {
     "level": "TOEIC-ADV",
@@ -6998,5 +6991,12 @@
     "meaning": "中立的",
     "example": "The mediator remained neutral throughout the discussion to ensure a fair outcome. (調解人在整個討論過程中保持中立，以確保結果公正。)",
     "id": "TOEIC-ADV-neutral-mc1r7q"
+  },
+  {
+    "level": "TOEIC-ADV",
+    "word": "neutrality",
+    "meaning": "中立",
+    "example": "Our company maintains strict neutrality regarding political issues. (我們公司對政治議題嚴守中立。)",
+    "id": "TOEIC-ADV-neutrality-mdyym"
   }
 ]

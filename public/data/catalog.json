@@ -1,5 +1,5 @@
 {
-  "generatedAt": "17dd798e1407",
+  "generatedAt": "e4522aea6678",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -26,7 +26,7 @@
       "available": true,
       "title": "Junior High",
       "sourceWorkbookKey": "level-1-level-2-workbook",
-      "totalWords": 2074,
+      "totalWords": 2066,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -42,7 +42,7 @@
         {
           "id": "junior-high-chunk-3",
           "path": "data/tracks/junior-high/chunk-003.json",
-          "wordCount": 74
+          "wordCount": 66
         }
       ]
     },
@@ -51,7 +51,7 @@
       "available": true,
       "title": "Senior High (L3-4)",
       "sourceWorkbookKey": "level-3-level-4-workbook",
-      "totalWords": 2141,
+      "totalWords": 2139,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -67,7 +67,7 @@
         {
           "id": "senior-high-chunk-3",
           "path": "data/tracks/senior-high/chunk-003.json",
-          "wordCount": 141
+          "wordCount": 139
         }
       ]
     },
@@ -76,7 +76,7 @@
       "available": true,
       "title": "Senior High (L5-6)",
       "sourceWorkbookKey": "level-5-level-6-workbook",
-      "totalWords": 2152,
+      "totalWords": 2146,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -92,7 +92,7 @@
         {
           "id": "senior-high-5-6-chunk-3",
           "path": "data/tracks/senior-high-5-6/chunk-003.json",
-          "wordCount": 152
+          "wordCount": 146
         }
       ]
     },
@@ -181,7 +181,7 @@
       "available": true,
       "title": "TOEIC(核心)",
       "sourceWorkbookKey": "toeic-core-workbook",
-      "totalWords": 3036,
+      "totalWords": 3034,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -202,7 +202,7 @@
         {
           "id": "toeic-chunk-4",
           "path": "data/tracks/toeic/chunk-004.json",
-          "wordCount": 36
+          "wordCount": 34
         }
       ]
     },

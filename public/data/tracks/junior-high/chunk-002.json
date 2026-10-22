@@ -449,13 +449,6 @@
   },
   {
     "level": "L2",
-    "word": "arm",
-    "meaning": "手臂、武器",
-    "example": "She broke her arm while skiing last winter. (她去年冬天滑雪時摔斷了手臂。)",
-    "id": "L2-arm-m19qt2do"
-  },
-  {
-    "level": "L2",
     "word": "armchair",
     "meaning": "扶手椅",
     "example": "Grandpa fell asleep in his armchair.（爺爺在扶手椅上睡著了。）",
@@ -656,13 +649,6 @@
     "meaning": "豆子、豆類",
     "example": "Coffee beans are roasted before grinding. (咖啡豆在研磨前要烘焙。)",
     "id": "L2-bean-m1qzbgr3"
-  },
-  {
-    "level": "L2",
-    "word": "bear",
-    "meaning": "熊、承受",
-    "example": "The old bridge cannot bear the weight of heavy trucks. (舊橋無法承受重型卡車的重量。)",
-    "id": "L2-bear-mej1ovj"
   },
   {
     "level": "L2",
@@ -1734,13 +1720,6 @@
     "meaning": "穿越",
     "example": "Look both ways before you cross the street.（過馬路前要左右看。）",
     "id": "L2-cross-mlm23"
-  },
-  {
-    "level": "L2",
-    "word": "crow",
-    "meaning": "啼叫",
-    "example": "The rooster began to crow at dawn.（公雞在黎明時開始啼叫。）",
-    "id": "L2-crow-mf01b"
   },
   {
     "level": "L2",
@@ -2997,13 +2976,6 @@
   },
   {
     "level": "L2",
-    "word": "general",
-    "meaning": "一般的、將軍",
-    "example": "General knowledge helps in many situations. (常識在許多情況下都有幫助。)",
-    "id": "L2-general-my4g03z"
-  },
-  {
-    "level": "L2",
     "word": "generous",
     "meaning": "慷慨的；大方的",
     "example": "She is generous and often shares her snacks.（她很大方，常常分享點心。）",
@@ -3648,13 +3620,6 @@
   },
   {
     "level": "L2",
-    "word": "jam",
-    "meaning": "果醬；堵塞；擠滿",
-    "example": "We were stuck in a traffic jam.（我們被困在塞車中。）",
-    "id": "L2-jam-mdoof3a"
-  },
-  {
-    "level": "L2",
     "word": "jazz",
     "meaning": "爵士樂",
     "example": "My uncle listens to jazz every night.（我叔叔每天晚上聽爵士樂。）",
@@ -4100,13 +4065,6 @@
     "meaning": "地墊",
     "example": "Please wipe your shoes on the mat.（請在墊子上擦鞋。）",
     "id": "L2-mat-mfbdm"
-  },
-  {
-    "level": "L2",
-    "word": "match",
-    "meaning": "比賽；匹配；相配",
-    "example": "We watched a tennis match on TV.（我們在電視上看了一場網球比賽。）",
-    "id": "L2-match-mzormi2"
   },
   {
     "level": "L2",
@@ -5706,13 +5664,6 @@
   },
   {
     "level": "L2",
-    "word": "rock",
-    "meaning": "岩石、搖擺",
-    "example": "The rock is very heavy. (這塊石頭很重。)",
-    "id": "L2-rock-mmhd8sb"
-  },
-  {
-    "level": "L2",
     "word": "rocky",
     "meaning": "多岩石的；搖晃的",
     "example": "The path was rocky and hard to walk on.（這條小路多石，很難走。）",
@@ -6277,13 +6228,6 @@
     "meaning": "塗抹",
     "example": "Please spread butter on the toast.（請把奶油抹在吐司上。）",
     "id": "L2-spread-mfkg2"
-  },
-  {
-    "level": "L2",
-    "word": "spring",
-    "meaning": "泉水",
-    "example": "Water came from a spring in the rocks.（水從岩石中的泉水流出。）",
-    "id": "L2-spring-mj3ij"
   },
   {
     "level": "L2",
@@ -6998,5 +6942,61 @@
     "meaning": "三角形",
     "example": "A triangle has three sides.（三角形有三條邊。）",
     "id": "L2-triangle-mc3fyx"
+  },
+  {
+    "level": "L2",
+    "word": "trick",
+    "meaning": "騙局；詭計；惡作劇",
+    "example": "The magician showed us a clever trick.（魔術師表演了一個巧妙的把戲。）",
+    "id": "L2-trick-m1f6tlts"
+  },
+  {
+    "level": "L2",
+    "word": "trousers",
+    "meaning": "褲子",
+    "example": "He bought a new pair of trousers.（他買了一條新長褲。）",
+    "id": "L2-trousers-mnu5a"
+  },
+  {
+    "level": "L2",
+    "word": "truck",
+    "meaning": "卡車",
+    "example": "The truck carried boxes to the store.（卡車把箱子載到商店。）",
+    "id": "L2-truck-meyrt"
+  },
+  {
+    "level": "L2",
+    "word": "trumpet",
+    "meaning": "小號",
+    "example": "He plays the trumpet in the school band.（他在學校樂隊吹小號。）",
+    "id": "L2-trumpet-mge9c"
+  },
+  {
+    "level": "L2",
+    "word": "trust",
+    "meaning": "信任",
+    "example": "You can trust her to keep a secret.（你可以信任她保守秘密。）",
+    "id": "L2-trust-me0qi"
+  },
+  {
+    "level": "L2",
+    "word": "truth",
+    "meaning": "真相",
+    "example": "Please tell the truth.（請說實話。）",
+    "id": "L2-truth-mkwxl"
+  },
+  {
+    "level": "L2",
+    "word": "tube",
+    "meaning": "管；管子",
+    "example": "The toothpaste tube is almost empty.（牙膏管快空了。）",
+    "id": "L2-tube-mgnbcvd"
+  },
+  {
+    "level": "L2",
+    "word": "tunnel",
+    "meaning": "隧道",
+    "example": "The car drove through the tunnel.（車子開過隧道。）",
+    "id": "L2-tunnel-mqf0s"
   }
 ]

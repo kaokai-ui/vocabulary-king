@@ -1,12 +1,5 @@
 [
   {
-    "level": "L1",
-    "word": "doctor",
-    "meaning": "n. 醫生",
-    "example": "The company doctor conducts annual health checkups for all warehouse employees. (公司醫生每年對所有倉庫員工進行健康檢查。)",
-    "id": "L1-doctor-n"
-  },
-  {
     "level": "L5",
     "word": "document",
     "meaning": "n. 公文；文件",
@@ -2284,16 +2277,9 @@
   {
     "level": "L5",
     "word": "format",
-    "meaning": "n. 格式",
+    "meaning": "n / v. 格式；格式化",
     "example": "The designer changed the document format to make the annual report more readable. (設計者改變了文件格式，使年度報告更具可讀性。)",
-    "id": "L5-format-n"
-  },
-  {
-    "level": "TOEIC",
-    "word": "format",
-    "meaning": "v. 格式化",
-    "example": "The accounting spreadsheet is properly formatted to calculate tax deductions automatically. (會計試算表的格式正確，可自動計算稅額減免。)",
-    "id": "TOEIC-format-v"
+    "id": "L5-format-n-v"
   },
   {
     "level": "L4",
@@ -6998,5 +6984,19 @@
     "meaning": "a. 不大的；簡樸的；謙虛的",
     "example": "The tech startup began in a modest office space before expanding globally. (這家科技新創公司始於一個簡陋的辦公空間，然後擴展到全球。)",
     "id": "L4-modest-a"
+  },
+  {
+    "level": "TOEIC",
+    "word": "modification",
+    "meaning": "n. 修改；改變",
+    "example": "The engineering team submitted a minor modification to the blueprint to enhance structural safety. (工程團隊對藍圖進行了細微修改，以增強結構安全性。)",
+    "id": "TOEIC-modification-n"
+  },
+  {
+    "level": "L6",
+    "word": "momentum",
+    "meaning": "n. 氣勢；衝力",
+    "example": "The stock price gained momentum after the company reported record-breaking quarterly earnings. (在該公司公佈創紀錄的當季收益後，股價上漲。)",
+    "id": "L6-momentum-n"
   }
 ]

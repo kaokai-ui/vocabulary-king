@@ -1,20 +1,6 @@
 [
   {
     "level": "TOEIC",
-    "word": "modification",
-    "meaning": "n. 修改；改變",
-    "example": "The engineering team submitted a minor modification to the blueprint to enhance structural safety. (工程團隊對藍圖進行了細微修改，以增強結構安全性。)",
-    "id": "TOEIC-modification-n"
-  },
-  {
-    "level": "L6",
-    "word": "momentum",
-    "meaning": "n. 氣勢；衝力",
-    "example": "The stock price gained momentum after the company reported record-breaking quarterly earnings. (在該公司公佈創紀錄的當季收益後，股價上漲。)",
-    "id": "L6-momentum-n"
-  },
-  {
-    "level": "TOEIC",
     "word": "monetize",
     "meaning": "v. 變現；從…獲利",
     "example": "Publishers are looking for new ways to monetize their digital content through premium subscriptions. (出版商正在尋找透過付費訂閱將數位內容變現的新方法。)",
@@ -6998,5 +6984,19 @@
     "meaning": "n. 寬度；闊度",
     "example": "The technician measured the exact width of the steel component using a digital caliper. (技術人員使用數位卡尺測量鋼製零件的精確寬度。)",
     "id": "L2-width-n"
+  },
+  {
+    "level": "L1",
+    "word": "will",
+    "meaning": "aux / n. 將；將要；意志",
+    "example": "The executive board will release the finalized annual financial statement tomorrow afternoon. (執行董事會將於明天下午發布最終的年度財務報表。)",
+    "id": "L1-will-aux-n"
+  },
+  {
+    "level": "TOEIC",
+    "word": "willingness",
+    "meaning": "n. 自願；樂意",
+    "example": "Remote employees demonstrated a strong willingness to adapt to new collaboration tools. (遠距員工展現了適應新協作工具的強烈意願。)",
+    "id": "TOEIC-willingness-n"
   }
 ]
