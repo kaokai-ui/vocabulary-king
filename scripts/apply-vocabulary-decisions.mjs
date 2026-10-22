@@ -166,6 +166,47 @@ function sourceContentKey(record) {
   ]);
 }
 
+function mapGroupedGeptMeaning(finalMeaning, groupedRecords) {
+  const uniqueRecords = [];
+  const seenMeanings = new Set();
+  for (const record of groupedRecords) {
+    const key = trimText(record.meaning);
+    if (!seenMeanings.has(key)) {
+      seenMeanings.add(key);
+      uniqueRecords.push(record);
+    }
+  }
+
+  const lines = asText(finalMeaning).split(/\r?\n/u);
+  if (lines.length !== uniqueRecords.length) {
+    return null;
+  }
+
+  const meaningBySourceMeaning = new Map();
+  const canonicalRecords = [];
+  for (let index = 0; index < uniqueRecords.length; index += 1) {
+    const record = uniqueRecords[index];
+    const pos = trimText(record.pos);
+    const line = lines[index];
+    const prefix = pos ? `${pos} ` : "";
+    if ((pos && !line.startsWith(prefix)) || !trimText(line.slice(prefix.length))) {
+      return null;
+    }
+    meaningBySourceMeaning.set(trimText(record.meaning), line.slice(prefix.length));
+    canonicalRecords.push({ record, expectedLine: line });
+  }
+
+  const targets = groupedRecords.map((record) => {
+    const value = meaningBySourceMeaning.get(trimText(record.meaning));
+    return value === undefined ? null : { record, value };
+  });
+  if (targets.some((target) => target === null)) {
+    return null;
+  }
+
+  return { canonicalRecords, targets };
+}
+
 export function mapDecisionsToSources({ track, decisions, partRecords, sourceRecords }) {
   const partById = new Map(partRecords.map((record) => [record.id, record]));
   const sourcesByContent = new Map();
@@ -224,6 +265,8 @@ export function mapDecisionsToSources({ track, decisions, partRecords, sourceRec
 
     let sourceRecord;
     let exampleSourceRecords;
+    let meaningSourceRecords;
+    let meaningSourceTargets;
     if (matches.length === 1) {
       sourceRecord = matches[0];
       exampleSourceRecords = [sourceRecord];
@@ -236,7 +279,7 @@ export function mapDecisionsToSources({ track, decisions, partRecords, sourceRec
       ) {
         throw new Error(`Mapped source values diverge from the part record: ${track}/${decision.id}.`);
       }
-    } else if (track === "gept-high-intermediate") {
+    } else if (["gept-intermediate", "gept-high-intermediate"].includes(track)) {
       const groupedRecords = sourceRecords
         .filter((record) =>
           normalizeWord(record.word) === normalizeWord(part.word)
@@ -245,22 +288,37 @@ export function mapDecisionsToSources({ track, decisions, partRecords, sourceRec
         .sort((left, right) => left.row - right.row);
       const groupedMeanings = [...new Set(groupedRecords.map((record) => trimText(record.meaning)))]
         .join("\n");
+      const groupedMeaningPlan = Object.hasOwn(final, "meaning")
+        ? mapGroupedGeptMeaning(final.meaning, groupedRecords)
+        : null;
       if (
         groupedRecords.length < 2
         || groupedMeanings !== trimText(part.meaning)
         || trimText(groupedRecords[0].example) !== trimText(part.example)
         || Object.hasOwn(final, "word")
-        || Object.hasOwn(final, "meaning")
+        || (Object.hasOwn(final, "meaning") && !groupedMeaningPlan)
       ) {
         throw new Error(`Could not safely map grouped GEPT source rows: ${track}/${decision.id} (${part.word}).`);
       }
       sourceRecord = groupedRecords[0];
       exampleSourceRecords = groupedRecords;
+      meaningSourceRecords = groupedMeaningPlan?.canonicalRecords;
+      meaningSourceTargets = groupedMeaningPlan?.targets;
     } else {
       throw new Error(`Could not map part record to a source workbook row: ${track}/${decision.id} (${part.word}).`);
     }
 
-    mapped.push({ track, decision, part, sourceRecord, exampleSourceRecords, final, writtenFields: [] });
+    mapped.push({
+      track,
+      decision,
+      part,
+      sourceRecord,
+      exampleSourceRecords,
+      meaningSourceRecords,
+      meaningSourceTargets,
+      final,
+      writtenFields: []
+    });
   }
   return { mapped, notWritten };
 }
@@ -442,6 +500,34 @@ function buildCellOperations(items, definitionByTrack, workbookStates) {
       }
       let newValue = item.final[field];
       if (field === "meaning" && definition.type === "gept-workbook") {
+        if (item.meaningSourceTargets?.length) {
+          const meaningColumn = columnForField(definition, sheet, "meaning");
+          let groupMeaningChanged = false;
+          for (const target of item.meaningSourceTargets) {
+            const targetSheet = workbook.Sheets[target.record.worksheet];
+            if (!targetSheet) {
+              throw new Error(`Missing worksheet ${target.record.worksheet} in ${path.basename(workbookPath)}.`);
+            }
+            const changed = addCellOperation(
+              operations,
+              item,
+              workbookPath,
+              target.record.worksheet,
+              target.record.row,
+              meaningColumn,
+              field,
+              target.value,
+              targetSheet
+            );
+            groupMeaningChanged ||= changed;
+          }
+          changedAnyCell ||= groupMeaningChanged;
+          if (groupMeaningChanged) {
+            item.writtenFields.push(field);
+          }
+          continue;
+        }
+
         const posColumn = columnForField(definition, sheet, "pos");
         const meaningColumn = columnForField(definition, sheet, "meaning");
         const posChanged = addCellOperation(
@@ -823,9 +909,18 @@ function verifySourceReadback(plan) {
       example_en: item.final.example_en ?? originalExample.english,
       example_zh: item.final.example_zh ?? originalExample.translation
     };
+    const readbackMeaning = item.meaningSourceRecords?.length
+      ? item.meaningSourceRecords.map(({ record }) => {
+          const meaningRecord = sourceRows.get(record.id);
+          if (!meaningRecord) {
+            throw new Error(`Written meaning source row disappeared: ${item.track}/${record.id}.`);
+          }
+          return meaningRecord.meaning;
+        }).join("\n")
+      : actual.meaning;
     const actualFields = {
       word: actual.word,
-      meaning: actual.meaning,
+      meaning: readbackMeaning,
       example_en: actual.englishExample,
       example_zh: actual.chineseTranslation
     };

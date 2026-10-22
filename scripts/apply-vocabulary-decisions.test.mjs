@@ -117,6 +117,50 @@ describe("vocabulary decision writeback planning", () => {
     expect(result.notWritten).toEqual([]);
   });
 
+  it("maps a grouped intermediate GEPT meaning update back to its POS rows", () => {
+    const example = "The price was a bargain. (It was a good deal.)";
+    const part = {
+      track: "gept-intermediate",
+      id: "L4-bargain-noun-verb",
+      level: "L4",
+      word: "bargain",
+      meaning: "noun deal\nverb negotiate",
+      example
+    };
+    const sourceRecords = [
+      {
+        ...sourceRecord("r2", "bargain", "noun deal", example),
+        track: "gept-intermediate",
+        exportLevel: "L4",
+        pos: "noun"
+      },
+      {
+        ...sourceRecord("r3", "bargain", "verb negotiate", example),
+        track: "gept-intermediate",
+        exportLevel: "L4",
+        pos: "verb"
+      }
+    ];
+    const result = mapDecisionsToSources({
+      track: "gept-intermediate",
+      decisions: [{
+        id: part.id,
+        word: part.word,
+        decision: "revise",
+        final: { meaning: "noun good deal\nverb discuss the price" }
+      }],
+      partRecords: [part],
+      sourceRecords
+    });
+
+    expect(result.mapped).toHaveLength(1);
+    expect(result.mapped[0].meaningSourceRecords.map(({ record, expectedLine }) => [record.id, expectedLine]))
+      .toEqual([["r2", "noun good deal"], ["r3", "verb discuss the price"]]);
+    expect(result.mapped[0].meaningSourceTargets.map(({ record, value }) => [record.id, value]))
+      .toEqual([["r2", "good deal"], ["r3", "discuss the price"]]);
+    expect(result.notWritten).toEqual([]);
+  });
+
   it("blocks a word change that creates a duplicate headword", () => {
     const records = [sourceRecord("r2", "cat"), sourceRecord("r3", "dog")];
     const item = {

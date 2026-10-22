@@ -541,7 +541,7 @@ function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
         primaryLevel,
         fallbackExample,
         exampleLookup,
-        definition.id === "gept-high-intermediate"
+        ["gept-intermediate", "gept-high-intermediate"].includes(definition.id)
       )
     });
   });

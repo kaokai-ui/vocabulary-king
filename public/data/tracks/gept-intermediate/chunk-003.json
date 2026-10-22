@@ -353,7 +353,7 @@
     "level": "L4",
     "word": "witch",
     "meaning": "noun 女巫",
-    "example": "The wizard cast a spell in the story.（故事中的巫師施了魔法。）",
+    "example": "The witch made a magic drink. (女巫調製了一杯魔法飲料。)",
     "id": "L4-witch-noun"
   },
   {
@@ -381,7 +381,7 @@
     "level": "L4",
     "word": "wreck",
     "meaning": "verb/noun 使(船)失事、毀壞；船難、殘骸",
-    "example": "The storm left a shipwreck on the shore.（暴風雨在岸邊留下了一艘船難殘骸。）",
+    "example": "The storm wrecked the small boat. (暴風雨摧毀了那艘小船。)",
     "id": "L4-wreck-verb-noun"
   },
   {
@@ -493,7 +493,7 @@
     "level": "L5",
     "word": "ban",
     "meaning": "verb/noun 禁止；禁令",
-    "example": "The city will ban smoking in all public places. (該市將禁止在所有公共場所吸煙。)",
+    "example": "The city will ban smoking in all public places. (該市將禁止在所有公共場所吸菸。)",
     "id": "L5-ban-verb-noun"
   },
   {
@@ -514,14 +514,14 @@
     "level": "L5",
     "word": "bid",
     "meaning": "noun/verb 出價、投標、努力爭取",
-    "example": "The company bid for the construction contract. (公司為建築合同投標。)",
+    "example": "The company bid for the construction contract. (公司為這項建築工程合約投標。)",
     "id": "L5-bid-noun-verb"
   },
   {
     "level": "L5",
     "word": "blonde",
     "meaning": "adj./noun 金色頭髮的；金髮女郎",
-    "example": "The blond boy sat near the window.（那個金髮男孩坐在窗邊。）",
+    "example": "The blonde woman sat near the window. (那位金髮女子坐在窗邊。)",
     "id": "L5-blonde-adj-noun"
   },
   {
@@ -850,7 +850,7 @@
     "level": "L5",
     "word": "enroll",
     "meaning": "verb 註冊、登記",
-    "example": "Enrollment begins next Monday.（報名下週一開始。）",
+    "example": "She plans to enroll in a cooking class. (她打算報名烹飪課。)",
     "id": "L5-enroll-verb"
   },
   {
@@ -1256,7 +1256,7 @@
     "level": "L5",
     "word": "Pacific",
     "meaning": "noun/adj. 太平洋(的)",
-    "example": "The pacific lake reflected the sky.（平靜的湖面映照著天空。）",
+    "example": "The Pacific is the largest ocean on Earth. (太平洋是地球上最大的海洋。)",
     "id": "L5-pacific-noun-adj"
   },
   {
@@ -1767,7 +1767,7 @@
     "level": "L6",
     "word": "alcoholic",
     "meaning": "noun 酗酒者、酒精中毒者\nadj. 酒精的、含酒精的",
-    "example": "The packaging of many soft drinks clearly warns that minors are not allowed to purchase alcoholic beverages. (許多碳酸飲料包裝上會特別標示，警告未成年人不得購買含酒精飲品。)",
+    "example": "Alcoholic drinks are not sold to minors. (含酒精飲料不會賣給未成年人。)",
     "id": "L6-alcoholic-noun-adj"
   },
   {
@@ -2180,7 +2180,7 @@
     "level": "L6",
     "word": "nourish",
     "meaning": "verb 滋養",
-    "example": "Good food provides nourishment.（好的食物提供營養。）",
+    "example": "Good food nourishes the body. (好的食物滋養身體。)",
     "id": "L6-nourish-verb"
   },
   {
@@ -2789,7 +2789,7 @@
     "level": "中級",
     "word": "earring",
     "meaning": "noun 耳環",
-    "example": "She wore a pearl earring.（她戴了一只珍珠耳環。）",
+    "example": "She wore a pearl earring. (她戴了一隻珍珠耳環。)",
     "id": "中級-earring-noun"
   },
   {
@@ -2915,7 +2915,7 @@
     "level": "中級",
     "word": "goodness",
     "meaning": "noun 善良、美德",
-    "example": "Thank goodness you are safe.（謝天謝地，你安全了。）",
+    "example": "Her goodness touched everyone around her. (她的善良感動了身邊的每個人。)",
     "id": "中級-goodness-noun"
   },
   {
@@ -3229,7 +3229,7 @@
   {
     "level": "中級",
     "word": "middle-aged",
-    "meaning": "adj. 中年的、煩人的、過時的",
+    "meaning": "adj. 中年的",
     "example": "The middle-aged man jogs every morning.（那位中年男子每天早上慢跑。）",
     "id": "中級-middle-aged-adj"
   },

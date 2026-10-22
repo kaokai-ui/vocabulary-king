@@ -119,7 +119,10 @@ describe("source workbook mapping", () => {
     geptRow[GEPT_WORKBOOK_COLUMNS.grade] = "初級";
     geptRow[GEPT_WORKBOOK_COLUMNS.primaryLevel] = "Level 1";
     geptRow[GEPT_WORKBOOK_COLUMNS.fallbackExample] = "The fallback example is not selected. (備用例句。)";
-    xlsx.utils.book_append_sheet(geptWorkbook, xlsx.utils.aoa_to_sheet([["Word", "POS", "Meaning", "", "Grade", "", "", "Primary Level", "Example"], geptRow]), "High");
+    const intermediateRow = [...geptRow];
+    intermediateRow[GEPT_WORKBOOK_COLUMNS.grade] = "Intermediate";
+    intermediateRow[GEPT_WORKBOOK_COLUMNS.fallbackExample] = "The intermediate GEPT example. (GEPT translation.)";
+    xlsx.utils.book_append_sheet(geptWorkbook, xlsx.utils.aoa_to_sheet([["Word", "POS", "Meaning", "", "Grade", "", "", "Primary Level", "Example"], geptRow, intermediateRow]), "High");
     xlsx.writeFile(geptWorkbook, path.join(root, "fixture-GEPT_with_levels.KK.xlsx"));
 
     const [row] = readTrackSourceRows({
@@ -133,6 +136,22 @@ describe("source workbook mapping", () => {
 
     expect(row.example).toBe("The class bought a book. (全班買了一本書。)");
     expect(row.exampleSource).toMatchObject({ sourceWorkbook: expect.stringContaining("fixture-L1L2.xlsx"), worksheet: "Level 1", row: 2 });
+
+    const [intermediate] = readTrackSourceRows({
+      id: "gept-intermediate",
+      sourceWorkbookPath: "fixture-GEPT_with_levels.KK.xlsx",
+      type: "gept-workbook",
+      sheets: ["High"],
+      geptGrade: "Intermediate",
+      columns: GEPT_WORKBOOK_COLUMNS
+    }, root);
+
+    expect(intermediate.example).toBe("The intermediate GEPT example. (GEPT translation.)");
+    expect(intermediate.exampleSource).toMatchObject({
+      sourceWorkbook: expect.stringContaining("fixture-GEPT_with_levels.KK.xlsx"),
+      worksheet: "High",
+      row: 3
+    });
   });
 
   it("prefers a high-intermediate GEPT row override over the shared level example", () => {

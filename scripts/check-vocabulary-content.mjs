@@ -642,7 +642,7 @@ function readGeptWorkbookRows(definition, workbookPath, root) {
       fallbackExample,
       fallbackSource,
       exampleLookup,
-      definition.id === "gept-high-intermediate"
+      ["gept-intermediate", "gept-high-intermediate"].includes(definition.id)
     );
 
     entries.push(makeCombinedRecord(definition, workbookPath, worksheet, sourceRow, {

@@ -73,7 +73,7 @@
     "level": "L3",
     "word": "tap",
     "meaning": "verb 輕拍、輕敲\nnoun 輕叩；(水)龍頭",
-    "example": "Turn off the faucet after washing your hands.（洗完手後關掉水龍頭。）",
+    "example": "He tapped me on the shoulder. (他輕拍我的肩膀。)",
     "id": "L3-tap-verb-noun"
   },
   {
@@ -108,7 +108,7 @@
     "level": "L3",
     "word": "technology",
     "meaning": "noun 科技",
-    "example": "Educational technology transforms traditional learning methods. (教育技術改變傳統學習方法。)",
+    "example": "Educational technology transforms traditional learning methods. (教育科技改變了傳統的學習方式。)",
     "id": "L3-technology-noun"
   },
   {
@@ -164,7 +164,7 @@
     "level": "L3",
     "word": "theory",
     "meaning": "noun 學說、理論、看法",
-    "example": "Learning theories guide effective teaching practices. (學習理論指導有效的教學實踐。)",
+    "example": "Learning theories guide effective teaching practices. (學習理論有助於引導有效的教學實務。)",
     "id": "L3-theory-noun"
   },
   {
@@ -240,7 +240,7 @@
   {
     "level": "L3",
     "word": "tobacco",
-    "meaning": "noun 煙草",
+    "meaning": "noun 菸草",
     "example": "Tobacco is harmful to health.（菸草對健康有害。）",
     "id": "L3-tobacco-noun"
   },
@@ -367,7 +367,7 @@
     "level": "L3",
     "word": "trunk",
     "meaning": "noun 樹幹",
-    "example": "The elephant used its trunk to pick up food.（大象用鼻子撿起食物。）",
+    "example": "The tree trunk was covered with moss. (樹幹上長滿了青苔。)",
     "id": "L3-trunk-noun"
   },
   {
@@ -612,7 +612,7 @@
     "level": "L3",
     "word": "wage",
     "meaning": "noun 工資\nverb 發動、進行",
-    "example": "Hard work pays off in education. (在教育中努力工作會有回報。)",
+    "example": "The workers asked for higher wages. (工人要求提高工資。)",
     "id": "L3-wage-noun-verb"
   },
   {
@@ -892,7 +892,7 @@
     "level": "L4",
     "word": "accomplish",
     "meaning": "verb 完成",
-    "example": "Finishing the project was a great accomplishment.（完成這個專案是一項很大的成就。）",
+    "example": "She accomplished all her goals this year. (她今年達成了所有目標。)",
     "id": "L4-accomplish-verb"
   },
   {
@@ -941,7 +941,7 @@
     "level": "L4",
     "word": "acquire",
     "meaning": "verb 獲得、購得",
-    "example": "Children acquire language naturally through exposure. (兒童通過接觸自然地習得語言。)",
+    "example": "Children acquire language naturally through exposure. (兒童透過接觸自然學會語言。)",
     "id": "L4-acquire-verb"
   },
   {
@@ -976,7 +976,7 @@
     "level": "L4",
     "word": "adjust",
     "meaning": "verb 調整；適應；整理(衣著)",
-    "example": "The chair needs a small adjustment.（這張椅子需要稍微調整一下。）",
+    "example": "You can adjust the seat to fit your height. (你可以調整座椅，讓它符合你的身高。)",
     "id": "L4-adjust-verb"
   },
   {
@@ -1017,7 +1017,7 @@
   {
     "level": "L4",
     "word": "aggressive",
-    "meaning": "adj. 好鬥的、挑臖的；積極進取的",
+    "meaning": "adj. 好鬥的、挑釁的；積極進取的",
     "example": "The dog became aggressive when it was scared.（那隻狗害怕時變得有攻擊性。）",
     "id": "L4-aggressive-adj"
   },
@@ -1074,7 +1074,7 @@
     "level": "L4",
     "word": "amuse",
     "meaning": "verb 逗樂、(使)娛樂",
-    "example": "The park offers amusement for children.（這座公園提供孩子們娛樂。）",
+    "example": "The clown amused the children with funny faces. (小丑做鬼臉逗孩子們笑。)",
     "id": "L4-amuse-verb"
   },
   {
@@ -1144,7 +1144,7 @@
     "level": "L4",
     "word": "apology",
     "meaning": "noun 道歉",
-    "example": "He apologized for arriving late.（他為遲到道歉。）",
+    "example": "She made a sincere apology for being late. (她為遲到誠懇地道歉。)",
     "id": "L4-apology-noun"
   },
   {
@@ -1172,14 +1172,14 @@
     "level": "L4",
     "word": "appoint",
     "meaning": "verb 任命、安排",
-    "example": "The board will appoint a new CEO next month. (董事會將在下個月任命新的首席執行官。)",
+    "example": "The board will appoint a new CEO next month. (董事會將於下個月任命新的執行長。)",
     "id": "L4-appoint-verb"
   },
   {
     "level": "L4",
     "word": "appointment",
     "meaning": "noun 約會、預約；任命；職務",
-    "example": "The board will appoint a new CEO next month. (董事會將在下個月任命新的首席執行官。)",
+    "example": "I have an appointment with the dentist at three. (我三點和牙醫有預約。)",
     "id": "L4-appointment-noun"
   },
   {
@@ -1228,7 +1228,7 @@
     "level": "L4",
     "word": "artificial",
     "meaning": "adj. 人工的、人造的",
-    "example": "Artificial intelligence is changing many industries. (人工智能正在改變許多行業。)",
+    "example": "This bag is made of artificial leather. (這個包包是人造皮革做的。)",
     "id": "L4-artificial-adj"
   },
   {
@@ -1416,7 +1416,7 @@
   {
     "level": "L4",
     "word": "bargain",
-    "meaning": "noun 特價品；協議、交易\nverb 特價品、協議；討價還價",
+    "meaning": "noun 特價品；協議、交易\nverb 討價還價、議價",
     "example": "The antique was a real bargain at that price. (那個古董以那個價格真是便宜貨。)",
     "id": "L4-bargain-noun-verb"
   },
@@ -1458,7 +1458,7 @@
   {
     "level": "L4",
     "word": "biography",
-    "meaning": "noun 自傳",
+    "meaning": "noun 傳記",
     "example": "I read a biography of a famous scientist.（我讀了一本著名科學家的傳記。）",
     "id": "L4-biography-noun"
   },
@@ -1620,7 +1620,7 @@
     "level": "L4",
     "word": "capitalism",
     "meaning": "noun 資本主義",
-    "example": "Paris is the capital city of France. (巴黎是法國的首都。)",
+    "example": "Capitalism encourages private ownership of businesses. (資本主義鼓勵企業由私人擁有。)",
     "id": "L4-capitalism-noun"
   },
   {
@@ -2529,7 +2529,7 @@
   {
     "level": "L4",
     "word": "declare",
-    "meaning": "verb 宣言、聲明、申報",
+    "meaning": "verb 宣布、聲明、申報",
     "example": "The mayor will declare the festival open.（市長將宣布節慶開始。）",
     "id": "L4-declare-verb"
   },
@@ -3013,7 +3013,7 @@
     "level": "L4",
     "word": "economic",
     "meaning": "adj. 經濟的",
-    "example": "Economic growth benefits entire nations. (經濟增長造福整個國家。)",
+    "example": "Economic growth benefits entire nations. (經濟成長讓各國受益。)",
     "id": "L4-economic-adj"
   },
   {
@@ -3041,7 +3041,7 @@
     "level": "L4",
     "word": "economy",
     "meaning": "noun 經濟",
-    "example": "Technology drives modern economy forward. (科技推動現代經濟向前發展。)",
+    "example": "Technology drives the modern economy forward. (科技推動現代經濟向前發展。)",
     "id": "L4-economy-noun"
   },
   {
@@ -3181,7 +3181,7 @@
     "level": "L4",
     "word": "enlarge",
     "meaning": "verb 擴展、放大",
-    "example": "The photo needs enlargement.（這張照片需要放大。）",
+    "example": "Could you enlarge this photo? (你可以把這張照片放大嗎？)",
     "id": "L4-enlarge-verb"
   },
   {
@@ -3209,7 +3209,7 @@
     "level": "L4",
     "word": "entertainment",
     "meaning": "noun 娛樂(活動)",
-    "example": "The show entertained the children.（這場表演娛樂了孩子們。）",
+    "example": "Movies are a popular form of entertainment. (電影是一種受歡迎的娛樂方式。)",
     "id": "L4-entertainment-noun"
   },
   {
@@ -3244,7 +3244,7 @@
     "level": "L4",
     "word": "equipment",
     "meaning": "noun 設備、器材",
-    "example": "The classroom is equipped with computers.（教室配備了電腦。）",
+    "example": "The lab has modern equipment. (這間實驗室有現代化的設備。)",
     "id": "L4-equipment-noun"
   },
   {
@@ -3279,14 +3279,14 @@
     "level": "L4",
     "word": "establish",
     "meaning": "verb 建立",
-    "example": "Universities establish research programs. (大學建立研究項目。)",
+    "example": "Universities establish research programs. (大學設立研究計畫。)",
     "id": "L4-establish-verb"
   },
   {
     "level": "L4",
     "word": "estimate",
     "meaning": "verb/noun 估計、估算",
-    "example": "Contractors estimate project costs carefully. (承包商仔細估算項目成本。)",
+    "example": "Contractors estimate project costs carefully. (承包商仔細估算專案成本。)",
     "id": "L4-estimate-verb-noun"
   },
   {
@@ -3706,7 +3706,7 @@
     "level": "L4",
     "word": "fulfill",
     "meaning": "verb 實現、履行",
-    "example": "Helping others gives her a sense of fulfillment.（幫助別人給她成就感。）",
+    "example": "She worked hard to fulfill her dream. (她努力實現自己的夢想。)",
     "id": "L4-fulfill-verb"
   },
   {
@@ -3985,7 +3985,7 @@
   {
     "level": "L4",
     "word": "guilty",
-    "meaning": "adj. 犯罪的、感到內咎的",
+    "meaning": "adj. 犯罪的、感到內疚的",
     "example": "The child looked guilty when I found the broken cup.（我發現破杯子時，那孩子看起來很心虛。）",
     "id": "L4-guilty-adj"
   },
@@ -4217,7 +4217,7 @@
     "level": "L4",
     "word": "identification",
     "meaning": "noun 身分證明、辨認",
-    "example": "Please show your ID at the entrance.（請在入口出示身分證。）",
+    "example": "Please show your identification at the entrance. (請在入口出示身分證明。)",
     "id": "L4-identification-noun"
   },
   {
@@ -4328,7 +4328,7 @@
   {
     "level": "L4",
     "word": "imply",
-    "meaning": "verb 暗指、說明",
+    "meaning": "verb 暗示、意味著",
     "example": "His words imply that he is unhappy.（他的話暗示他不開心。）",
     "id": "L4-imply-verb"
   },
@@ -4588,7 +4588,7 @@
     "level": "L4",
     "word": "invest",
     "meaning": "verb 投資、投入時間",
-    "example": "The company made a large investment in technology.（公司在科技上做了大量投資。）",
+    "example": "They plan to invest in a new factory. (他們計畫投資一座新工廠。)",
     "id": "L4-invest-verb"
   },
   {
@@ -4658,7 +4658,7 @@
     "level": "L4",
     "word": "laboratory",
     "meaning": "noun 實驗室",
-    "example": "The students worked in the science lab.（學生們在科學實驗室工作。）",
+    "example": "The students worked in the science laboratory. (學生們在自然科學實驗室做事。)",
     "id": "L4-laboratory-noun"
   },
   {
@@ -4903,7 +4903,7 @@
     "level": "L4",
     "word": "madam",
     "meaning": "noun 夫人、女士",
-    "example": "May I help you, ma’am?（女士，需要幫忙嗎？）",
+    "example": "May I help you, madam? (女士，需要我幫忙嗎？)",
     "id": "L4-madam-noun"
   },
   {
@@ -5267,7 +5267,7 @@
     "level": "L4",
     "word": "nonetheless",
     "meaning": "adv. 儘管如此",
-    "example": "It was raining; nevertheless, we went out.（天在下雨；然而，我們還是出門了。）",
+    "example": "The plan was risky; nonetheless, they went ahead. (這項計畫有風險，儘管如此，他們還是繼續進行。)",
     "id": "L4-nonetheless-adv"
   },
   {
@@ -5358,14 +5358,14 @@
     "level": "L4",
     "word": "obtain",
     "meaning": "verb 獲得",
-    "example": "Students obtain knowledge through various methods. (學生通過各種方法獲得知識。)",
+    "example": "Students obtain knowledge through various methods. (學生透過各種方法獲得知識。)",
     "id": "L4-obtain-verb"
   },
   {
     "level": "L4",
     "word": "occasional",
     "meaning": "adj. 偶爾的",
-    "example": "He occasionally visits his grandparents.（他偶爾去看祖父母。）",
+    "example": "He pays occasional visits to his grandparents. (他偶爾會去探望祖父母。)",
     "id": "L4-occasional-adj"
   },
   {
@@ -5715,7 +5715,7 @@
     "level": "L4",
     "word": "physical",
     "meaning": "adj./noun 身體的、物質的；體檢",
-    "example": "Physical exercise enhances cognitive function. (體育鍛煉增強認知功能。)",
+    "example": "Physical health is important for everyone. (身體健康對每個人都很重要。)",
     "id": "L4-physical-adj-noun"
   },
   {
@@ -5939,7 +5939,7 @@
     "level": "L4",
     "word": "professional",
     "meaning": "adj./noun 職業的、專業的；專家",
-    "example": "Professional development improves teaching quality. (專業發展提高教學質量。)",
+    "example": "Professional development improves teaching quality. (專業發展能提升教學品質。)",
     "id": "L4-professional-adj-noun"
   },
   {
@@ -6211,7 +6211,7 @@
   {
     "level": "L4",
     "word": "refresh",
-    "meaning": "verb 使清涼、提醒",
+    "meaning": "verb 使清涼、使恢復精神",
     "example": "A cold drink will refresh you.（一杯冷飲會讓你精神一振。）",
     "id": "L4-refresh-verb"
   },
@@ -6422,7 +6422,7 @@
     "level": "L4",
     "word": "retire",
     "meaning": "verb 退休、退回",
-    "example": "My grandfather enjoys his retirement.（我祖父享受退休生活。）",
+    "example": "My grandfather retired at sixty-five. (我祖父六十五歲時退休。)",
     "id": "L4-retire-verb"
   },
   {
@@ -6869,7 +6869,7 @@
   {
     "level": "L4",
     "word": "summarize",
-    "meaning": "verb 摘要",
+    "meaning": "verb 總結、概述",
     "example": "Can you summarize the story in three sentences?（你能用三句話總結這個故事嗎？）",
     "id": "L4-summarize-verb"
   },

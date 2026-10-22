@@ -3,14 +3,14 @@
     "level": "L1",
     "word": "address",
     "meaning": "verb 對...講話、發表演說；處理、應對",
-    "example": "Please write your address clearly on the form.（請在表格上清楚寫下你的地址。）",
+    "example": "The mayor will address the crowd tonight. (市長今晚將對群眾發表演說。)",
     "id": "L1-address-verb"
   },
   {
     "level": "L1",
     "word": "agreement",
     "meaning": "noun 協議、意見一致、同意",
-    "example": "I agree with your proposal completely. (我完全同意你的提議。)",
+    "example": "The two sides finally reached an agreement. (雙方最後達成協議。)",
     "id": "L1-agreement-noun"
   },
   {
@@ -59,7 +59,7 @@
     "level": "L1",
     "word": "cinema",
     "meaning": "noun 電影院",
-    "example": "Visual pictures help memorize vocabulary effectively. (視覺圖片有助於有效記憶詞彙。)",
+    "example": "We watched a new movie at the cinema last night. (我們昨晚在電影院看了一部新片。)",
     "id": "L1-cinema-noun"
   },
   {
@@ -129,14 +129,14 @@
     "level": "L1",
     "word": "even",
     "meaning": "adj. 平坦的、均等的",
-    "example": "Even experts make mistakes sometimes. (甚至專家有時也會犯錯。)",
+    "example": "The road is wide and even. (這條路又寬又平坦。)",
     "id": "L1-even-adj"
   },
   {
     "level": "L1",
     "word": "examination",
     "meaning": "noun 考試；檢查、審查、調查",
-    "example": "I studied hard for the exam.（我為了考試努力讀書。）",
+    "example": "I studied hard for the final examination. (我為了期末考努力讀書。)",
     "id": "L1-examination-noun"
   },
   {
@@ -157,7 +157,7 @@
     "level": "L1",
     "word": "jam",
     "meaning": "verb 塞進、擠滿",
-    "example": "I spread strawberry jam on the toast.（我把草莓果醬抹在吐司上。）",
+    "example": "Many people jammed into the small elevator. (許多人擠進那部小電梯。)",
     "id": "L1-jam-verb"
   },
   {
@@ -178,7 +178,7 @@
     "level": "L1",
     "word": "lead",
     "meaning": "noun 鉛",
-    "example": "Great teachers lead by example. (優秀的老師以身作則領導。)",
+    "example": "Old pipes may contain lead. (舊水管可能含有鉛。)",
     "id": "L1-lead-noun"
   },
   {
@@ -192,42 +192,42 @@
     "level": "L1",
     "word": "live",
     "meaning": "adj. 實況的、現場演出的、活的",
-    "example": "Students live in diverse communities. (學生生活在多樣化社區中。)",
+    "example": "The concert will be shown live on TV. (這場演唱會將在電視上實況轉播。)",
     "id": "L1-live-adj"
   },
   {
     "level": "L1",
     "word": "long",
     "meaning": "verb 渴望、期盼",
-    "example": "Long-term memory requires regular review. (長期記憶需要定期複習。)",
+    "example": "She longed to see her family again. (她渴望再次見到家人。)",
     "id": "L1-long-verb"
   },
   {
     "level": "L1",
     "word": "march",
     "meaning": "verb/noun 行進、行軍；示威遊行、持續的發展",
-    "example": "My school trip is in March.（我的校外教學在三月。）",
+    "example": "The soldiers marched through the town. (士兵們行軍穿過城鎮。)",
     "id": "L1-march-verb-noun"
   },
   {
     "level": "L1",
     "word": "master",
     "meaning": "verb 征服、控制；精通",
-    "example": "The old master taught painting for many years.（那位老師傅教了很多年繪畫。）",
+    "example": "It takes years to master a new language. (要精通一種新語言需要好幾年。)",
     "id": "L1-master-verb"
   },
   {
     "level": "L1",
     "word": "mean",
     "meaning": "adj. 吝嗇的、卑鄙的",
-    "example": "What does this word mean?（這個字是什麼意思？）",
+    "example": "It was mean of him to laugh at her mistake. (他嘲笑她的錯誤，實在很刻薄。)",
     "id": "L1-mean-adj"
   },
   {
     "level": "L1",
     "word": "minute",
     "meaning": "adj. 極小的、仔細的",
-    "example": "Wait a minute, please.（請等一下。）",
+    "example": "The difference is minute and hard to see. (差異極小，很難看出來。)",
     "id": "L1-minute-adj"
   },
   {
@@ -248,7 +248,7 @@
     "level": "L1",
     "word": "part",
     "meaning": "verb 離開、分別",
-    "example": "Each student plays a part in class success. (每個學生在班級成功中扮演角色。)",
+    "example": "The two friends parted at the station. (兩位朋友在車站道別。)",
     "id": "L1-part-verb"
   },
   {
@@ -262,7 +262,7 @@
     "level": "L1",
     "word": "pop",
     "meaning": "verb/noun 突然出現、發出砰聲；砰的一聲",
-    "example": "My dad helped me fix my bike.（我爸爸幫我修腳踏車。）",
+    "example": "The balloon popped with a loud bang. (氣球砰的一聲破了。)",
     "id": "L1-pop-verb-noun"
   },
   {
@@ -276,7 +276,7 @@
     "level": "L1",
     "word": "saw",
     "meaning": "noun/verb 鋸子；鋸",
-    "example": "I saw a shooting star last night.（我昨晚看到一顆流星。）",
+    "example": "He cut the wood with a saw. (他用鋸子鋸木頭。)",
     "id": "L1-saw-noun-verb"
   },
   {
@@ -290,14 +290,14 @@
     "level": "L1",
     "word": "season",
     "meaning": "verb 調味",
-    "example": "Each season brings different learning opportunities. (每個季節都帶來不同的學習機會。)",
+    "example": "Season the soup with a little salt. (用一點鹽替湯調味。)",
     "id": "L1-season-verb"
   },
   {
     "level": "L1",
     "word": "self",
     "meaning": "noun 自我",
-    "example": "He learned to take care of himself.（他學會了照顧自己。）",
+    "example": "He was not his usual self that day. (他那天和平常的自己不太一樣。)",
     "id": "L1-self-noun"
   },
   {
@@ -311,21 +311,21 @@
     "level": "L1",
     "word": "soil",
     "meaning": "noun 土壤\nverb 弄髒",
-    "example": "Agriculture students analyze soil composition. (農業學生分析土壤成分。)",
+    "example": "The soil here is good for growing rice. (這裡的土壤很適合種稻。)",
     "id": "L1-soil-noun-verb"
   },
   {
     "level": "L1",
     "word": "sound",
     "meaning": "adj. 健康的、狀況良好的",
-    "example": "The school bell sounds at class times. (學校鈴聲在上課時間響起。)",
+    "example": "The doctor said his heart is sound. (醫生說他的心臟很健康。)",
     "id": "L1-sound-adj"
   },
   {
     "level": "L1",
     "word": "spell",
     "meaning": "noun 咒語",
-    "example": "Can you spell your name for me?（你可以把你的名字拼給我聽嗎？）",
+    "example": "The witch put a spell on the prince. (女巫對王子施了咒語。)",
     "id": "L1-spell-noun"
   },
   {
@@ -346,7 +346,7 @@
     "level": "L1",
     "word": "still",
     "meaning": "adj. 靜止的、不動的",
-    "example": "Students still need guidance from teachers. (學生仍然需要老師的指導。)",
+    "example": "The lake was still in the early morning. (清晨時湖面平靜無波。)",
     "id": "L1-still-adj"
   },
   {
@@ -360,7 +360,7 @@
     "level": "L1",
     "word": "theirs",
     "meaning": "pron. 他們的",
-    "example": "Students improve their skills through practice. (學生通過練習提高技能。)",
+    "example": "This classroom is theirs. (這間教室是他們的。)",
     "id": "L1-theirs-pron"
   },
   {
@@ -381,7 +381,7 @@
     "level": "L1",
     "word": "way",
     "meaning": "adv. (加強語氣)太",
-    "example": "There are many ways to approach learning challenges. (有許多方法來應對學習挑戰。)",
+    "example": "This bag is way too heavy for me. (這個包包對我來說實在太重了。)",
     "id": "L1-way-adv"
   },
   {
@@ -395,14 +395,14 @@
     "level": "L1",
     "word": "well",
     "meaning": "noun 井",
-    "example": "Students perform well with proper guidance. (學生在適當指導下表現良好。)",
+    "example": "They got water from an old well. (他們從一口老井取水。)",
     "id": "L1-well-noun"
   },
   {
     "level": "L1",
     "word": "will",
     "meaning": "noun 意志、心願、遺囑",
-    "example": "I will help you after class.（我下課後會幫你。）",
+    "example": "She has a strong will to succeed. (她有強烈的成功意志。)",
     "id": "L1-will-noun"
   },
   {
@@ -416,7 +416,7 @@
     "level": "L1",
     "word": "yam",
     "meaning": "noun 番薯、山藥",
-    "example": "We baked sweet potatoes for dinner.（我們晚餐烤了番薯。）",
+    "example": "We baked yams for dinner. (我們晚餐烤了山藥。)",
     "id": "L1-yam-noun"
   },
   {
@@ -451,7 +451,7 @@
     "level": "L2",
     "word": "arrangement",
     "meaning": "noun 安排、籌備",
-    "example": "Please arrange the chairs in a circle for the meeting. (請為會議將椅子排成圓圈。)",
+    "example": "We made all the arrangements for the trip. (我們為這趟旅行做好了所有安排。)",
     "id": "L2-arrangement-noun"
   },
   {
@@ -521,7 +521,7 @@
     "level": "L2",
     "word": "bind",
     "meaning": "verb 綑綁、包紮",
-    "example": "The contract will bind both parties to the agreement. (合同將約束雙方遵守協議。)",
+    "example": "They used a rope to bind the boxes together. (他們用繩子把箱子綁在一起。)",
     "id": "L2-bind-verb"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L2",
     "word": "brand",
     "meaning": "noun 品牌、商標；烙印\nverb 打烙印於；譴責、加汙名於",
-    "example": "This brand is known for high quality products. (這個品牌以高質量產品而聞名。)",
+    "example": "This brand is known for high quality products. (這個品牌以高品質產品聞名。)",
     "id": "L2-brand-noun-verb"
   },
   {
@@ -682,7 +682,7 @@
     "level": "L2",
     "word": "disagree",
     "meaning": "verb 不同意",
-    "example": "The friends had a small disagreement.（朋友們有一點小小的意見不合。）",
+    "example": "I disagree with his plan. (我不同意他的計畫。)",
     "id": "L2-disagree-verb"
   },
   {
@@ -738,7 +738,7 @@
     "level": "L2",
     "word": "encouragement",
     "meaning": "noun 鼓勵",
-    "example": "Teachers encourage students to ask questions. (老師鼓勵學生提問。)",
+    "example": "Her words gave me a lot of encouragement. (她的話給了我很大的鼓勵。)",
     "id": "L2-encouragement-noun"
   },
   {
@@ -752,14 +752,14 @@
     "level": "L2",
     "word": "enjoyment",
     "meaning": "noun 愉快、享受",
-    "example": "Children enjoy playing in the park. (孩子們喜歡在公園裡玩耍。)",
+    "example": "Reading brings him great enjoyment. (閱讀帶給他很大的樂趣。)",
     "id": "L2-enjoyment-noun"
   },
   {
     "level": "L2",
     "word": "essay",
     "meaning": "noun 論說文、文章",
-    "example": "I read an interesting article about climate change. (我讀了一篇關於氣候變化的有趣文章。)",
+    "example": "Our teacher asked us to write an essay about our hometown. (老師要我們寫一篇關於家鄉的文章。)",
     "id": "L2-essay-noun"
   },
   {
@@ -787,7 +787,7 @@
     "level": "L2",
     "word": "fit",
     "meaning": "noun 一陣；(病)發作",
-    "example": "Regular exercise keeps people fit. (定期運動讓人保持健康。)",
+    "example": "She broke into a fit of laughter. (她突然大笑起來。)",
     "id": "L2-fit-noun"
   },
   {
@@ -969,21 +969,21 @@
     "level": "L2",
     "word": "meter",
     "meaning": "verb 用儀表測量",
-    "example": "The pool is one meter deep.（這個游泳池一公尺深。）",
+    "example": "The machine meters the water we use. (這台機器會測量我們用水的量。)",
     "id": "L2-meter-verb"
   },
   {
     "level": "L2",
     "word": "metro",
     "meaning": "noun 地鐵",
-    "example": "We took the MRT to the zoo.（我們搭捷運去動物園。）",
+    "example": "We took the metro to the museum. (我們搭捷運去博物館。)",
     "id": "L2-metro-noun"
   },
   {
     "level": "L2",
     "word": "mine",
     "meaning": "noun 採礦、礦（坑）",
-    "example": "This red bag is mine.（這個紅色包包是我的。）",
+    "example": "The old mine closed many years ago. (那座舊礦場多年前就關閉了。)",
     "id": "L2-mine-noun"
   },
   {
@@ -1032,7 +1032,7 @@
     "level": "L2",
     "word": "net",
     "meaning": "adj. 淨值的\nnoun/verb 網(狀物)；用網捕",
-    "example": "The internet connects global learners. (網際網路連接全球學習者。)",
+    "example": "The fishermen pulled in a heavy net. (漁夫拉起一張沉重的網。)",
     "id": "L2-net-adj-noun-verb"
   },
   {
@@ -1102,7 +1102,7 @@
     "level": "L2",
     "word": "pitch",
     "meaning": "noun/verb 投球、音高；投擲",
-    "example": "The player ran onto the soccer pitch.（球員跑上足球場。）",
+    "example": "He pitched the ball to the batter. (他把球投給打者。)",
     "id": "L2-pitch-noun-verb"
   },
   {
@@ -1137,14 +1137,14 @@
     "level": "L2",
     "word": "post",
     "meaning": "noun 職位、郵件；杆/柱",
-    "example": "Students post achievements on bulletin boards. (學生在佈告欄張貼成就。)",
+    "example": "She got a new post at the bank. (她在銀行得到一個新的職位。)",
     "id": "L2-post-noun"
   },
   {
     "level": "L2",
     "word": "pound",
     "meaning": "verb 猛擊、(心)怦怦跳、猛烈敲擊",
-    "example": "The bag weighs one pound.（這個袋子重一磅。）",
+    "example": "The rain pounded on the roof all night. (雨整晚猛烈地打在屋頂上。)",
     "id": "L2-pound-verb"
   },
   {
@@ -1165,14 +1165,14 @@
     "level": "L2",
     "word": "principal",
     "meaning": "adj. 最重要的、主要的",
-    "example": "The principal spoke at the school meeting.（校長在學校會議上致詞。）",
+    "example": "Rice is the principal crop in this area. (稻米是這個地區的主要作物。)",
     "id": "L2-principal-adj"
   },
   {
     "level": "L2",
     "word": "producer",
     "meaning": "noun 生產者、製造商",
-    "example": "The producer helped make the movie.（製作人協助製作那部電影。）",
+    "example": "The factory is a major producer of shoes. (這家工廠是主要的鞋類製造商。)",
     "id": "L2-producer-noun"
   },
   {
@@ -1221,7 +1221,7 @@
     "level": "L2",
     "word": "refuse",
     "meaning": "noun 垃圾、廢棄物",
-    "example": "She refused to tell a lie.（她拒絕說謊。）",
+    "example": "The refuse is collected every morning. (垃圾每天早上都會被清運。)",
     "id": "L2-refuse-noun"
   },
   {
@@ -1242,7 +1242,7 @@
     "level": "L2",
     "word": "requirement",
     "meaning": "noun 需要、要求",
-    "example": "Advanced courses require prerequisite knowledge. (高級課程需要先修知識。)",
+    "example": "Speaking English is a basic requirement for this job. (會說英語是這份工作的基本要求。)",
     "id": "L2-requirement-noun"
   },
   {
@@ -1291,14 +1291,14 @@
     "level": "L2",
     "word": "settle",
     "meaning": "verb 解決、決定、安頓",
-    "example": "The small settlement grew into a town.（這個小聚落發展成一座城鎮。）",
+    "example": "They settled in a small town near the coast. (他們在海岸附近的一座小鎮定居下來。)",
     "id": "L2-settle-verb"
   },
   {
     "level": "L2",
     "word": "settlement",
     "meaning": "noun 協議、解決",
-    "example": "The small settlement grew into a town.（這個小聚落發展成一座城鎮。）",
+    "example": "The two companies finally reached a settlement. (兩家公司最後達成和解。)",
     "id": "L2-settlement-noun"
   },
   {
@@ -1318,7 +1318,7 @@
   {
     "level": "L2",
     "word": "silk",
-    "meaning": "noun 絲(稠)、絲織品",
+    "meaning": "noun 絲、絲綢、絲織品",
     "example": "This scarf is made of silk.（這條圍巾是絲製的。）",
     "id": "L2-silk-noun"
   },
@@ -1382,7 +1382,7 @@
     "level": "L2",
     "word": "subject",
     "meaning": "adj./verb 易受...的、隸屬的、取決於；使順從、使遭受",
-    "example": "Mathematics is a challenging subject for many. (數學對許多人來說是具有挑戰性的科目。)",
+    "example": "The plan is subject to the manager's approval. (這項計畫須經經理批准。)",
     "id": "L2-subject-adj-verb"
   },
   {
@@ -1431,7 +1431,7 @@
     "level": "L2",
     "word": "underground",
     "meaning": "adj./adv./noun 地下的、暗中的；在地下；地鐵",
-    "example": "We took the MRT to the zoo.（我們搭捷運去動物園。）",
+    "example": "The underground parking lot is always full. (地下停車場總是停滿了車。)",
     "id": "L2-underground-adj-adv-noun"
   },
   {
@@ -1515,7 +1515,7 @@
     "level": "L3",
     "word": "achievement",
     "meaning": "noun 成就、成績",
-    "example": "Hard work helped him achieve his goals. (努力工作幫助他達成目標。)",
+    "example": "Winning the contest was a great achievement. (贏得比賽是一項了不起的成就。)",
     "id": "L3-achievement-noun"
   },
   {
@@ -1613,7 +1613,7 @@
     "level": "L3",
     "word": "announcement",
     "meaning": "noun 宣布、公告",
-    "example": "The company will announce the new product next week. (公司將在下週宣布新產品。)",
+    "example": "The announcement was posted on the school website. (這則公告張貼在學校網站上。)",
     "id": "L3-announcement-noun"
   },
   {
@@ -1823,7 +1823,7 @@
     "level": "L3",
     "word": "baggage",
     "meaning": "noun 行李",
-    "example": "Passengers must check their baggage before boarding. (乘客登機前必須檢查行李。)",
+    "example": "Passengers must check their baggage before boarding. (乘客登機前必須先辦理行李托運。)",
     "id": "L3-baggage-noun"
   },
   {
@@ -1921,7 +1921,7 @@
     "level": "L3",
     "word": "belly",
     "meaning": "noun 腹部、肚子",
-    "example": "My stomach hurt after I ate too much.（我吃太多後肚子痛。）",
+    "example": "The dog rolled over on its belly. (那隻狗翻過身，露出肚子。)",
     "id": "L3-belly-noun"
   },
   {
@@ -2040,7 +2040,7 @@
     "level": "L3",
     "word": "breast",
     "meaning": "noun/verb 胸部、乳房；挺胸從...中擠過",
-    "example": "Breast cancer awareness campaigns save many lives. (乳癌意識宣傳活動拯救了許多生命。)",
+    "example": "Breast cancer awareness campaigns save many lives. (乳癌防治宣導活動拯救了許多生命。)",
     "id": "L3-breast-noun-verb"
   },
   {
@@ -2110,7 +2110,7 @@
     "level": "L3",
     "word": "budget",
     "meaning": "noun/verb 預算；編列預算",
-    "example": "Families should create a monthly budget for expenses. (家庭應該制定月度支出預算。)",
+    "example": "Families should create a monthly budget for expenses. (家庭應該為日常開銷編列每月預算。)",
     "id": "L3-budget-noun-verb"
   },
   {
@@ -2138,7 +2138,7 @@
     "level": "L3",
     "word": "bump",
     "meaning": "verb/noun 碰到、撞到；碰撞聲、撞擊聲",
-    "example": "I got a bump on my head when I fell.（我跌倒時頭上腫了一塊。）",
+    "example": "Be careful not to bump your head. (小心不要撞到頭。)",
     "id": "L3-bump-verb-noun"
   },
   {
@@ -2334,7 +2334,7 @@
     "level": "L3",
     "word": "chest",
     "meaning": "noun 胸部、胸腔",
-    "example": "The treasure chest contained gold coins. (寶箱裡裝著金幣。)",
+    "example": "He felt a sharp pain in his chest. (他覺得胸口一陣劇痛。)",
     "id": "L3-chest-noun"
   },
   {
@@ -2369,7 +2369,7 @@
     "level": "L3",
     "word": "china",
     "meaning": "noun 瓷、瓷器",
-    "example": "Grandma keeps her tea in a porcelain cup.（奶奶用瓷杯裝茶。）",
+    "example": "She keeps her tea cups in a china cabinet. (她把茶杯收在瓷器櫃裡。)",
     "id": "L3-china-noun"
   },
   {
@@ -2627,9 +2627,9 @@
   {
     "level": "L3",
     "word": "coward",
-    "meaning": "adj./noun 膽小的；懦夫",
+    "meaning": "noun 懦夫、膽小鬼",
     "example": "Only a coward would blame others for his mistake.（只有懦夫才會把自己的錯怪到別人身上。）",
-    "id": "L3-coward-adj-noun"
+    "id": "L3-coward-noun"
   },
   {
     "level": "L3",
@@ -2712,7 +2712,7 @@
     "level": "L3",
     "word": "crisp",
     "meaning": "adj. 易碎的；酥脆的；涼爽的",
-    "example": "The fried chicken was hot and crispy.（炸雞又熱又酥脆。）",
+    "example": "The apple was fresh and crisp. (這顆蘋果又新鮮又脆。)",
     "id": "L3-crisp-adj"
   },
   {
@@ -2796,7 +2796,7 @@
     "level": "L3",
     "word": "decade",
     "meaning": "noun 十年",
-    "example": "A decade is a period of ten years.（十年是一個 decade。）",
+    "example": "He has lived here for a decade. (他在這裡住了十年。)",
     "id": "L3-decade-noun"
   },
   {
@@ -2929,7 +2929,7 @@
     "level": "L3",
     "word": "disappointment",
     "meaning": "noun 失望、沮喪",
-    "example": "His broken promise disappointed me.（他沒有守約讓我失望。）",
+    "example": "To my disappointment, the concert was canceled. (令我失望的是，演唱會取消了。)",
     "id": "L3-disappointment-noun"
   },
   {
@@ -3153,7 +3153,7 @@
     "level": "L3",
     "word": "electrical",
     "meaning": "adj. 電的",
-    "example": "Electric cars reduce environmental pollution. (電動汽車減少環境污染。)",
+    "example": "The electrical system in this old house needs repair. (這棟老房子的電力系統需要維修。)",
     "id": "L3-electrical-adj"
   },
   {
@@ -3202,7 +3202,7 @@
     "level": "L3",
     "word": "employment",
     "meaning": "noun 工作、就業",
-    "example": "Companies employ skilled workers for projects. (公司雇用技術工人參與項目。)",
+    "example": "The factory provides employment for many local people. (這家工廠為許多當地人提供工作機會。)",
     "id": "L3-employment-noun"
   },
   {
@@ -3223,7 +3223,7 @@
     "level": "L3",
     "word": "engage",
     "meaning": "verb 吸引(注意力)、從事、忙於；訂婚",
-    "example": "Their engagement was announced at dinner.（他們的訂婚在晚餐時宣布。）",
+    "example": "The teacher tried to engage the students in the discussion. (老師試著讓學生參與討論。)",
     "id": "L3-engage-verb"
   },
   {
@@ -3307,7 +3307,7 @@
     "level": "L3",
     "word": "experiment",
     "meaning": "noun/verb 實驗、試驗",
-    "example": "Scientists experiment to test hypotheses. (科學家實驗來測試假設。)",
+    "example": "We did a simple experiment in science class. (我們在自然課做了一個簡單的實驗。)",
     "id": "L3-experiment-noun-verb"
   },
   {
@@ -3321,7 +3321,7 @@
     "level": "L3",
     "word": "expression",
     "meaning": "noun 表達；表情；措詞",
-    "example": "Her facial expression showed confusion. (她的面部表情顯示困惑。)",
+    "example": "Her facial expression showed confusion. (她的表情看得出她很困惑。)",
     "id": "L3-expression-noun"
   },
   {
@@ -3447,7 +3447,7 @@
     "level": "L3",
     "word": "firework",
     "meaning": "noun 煙火",
-    "example": "We watched fireworks on New Year’s Eve.（我們在除夕夜看煙火。）",
+    "example": "We watched fireworks on New Year’s Eve. (我們在跨年夜看煙火。)",
     "id": "L3-firework-noun"
   },
   {
@@ -3972,7 +3972,7 @@
     "level": "L3",
     "word": "horn",
     "meaning": "noun 動物(角)、號角",
-    "example": "The car horn was very loud.（汽車喇叭聲很大。）",
+    "example": "The deer has two sharp horns. (那隻鹿有兩根尖尖的角。)",
     "id": "L3-horn-noun"
   },
   {
@@ -4111,7 +4111,7 @@
   {
     "level": "L3",
     "word": "inform",
-    "meaning": "verb 通知、了解",
+    "meaning": "verb 通知、告知",
     "example": "Please inform me if the plan changes.（如果計畫改變，請通知我。）",
     "id": "L3-inform-verb"
   },
@@ -4335,7 +4335,7 @@
   {
     "level": "L3",
     "word": "knit",
-    "meaning": "verb/noun 縫紉；針織衫",
+    "meaning": "verb/noun 編織；針織衫",
     "example": "Grandma likes to knit sweaters.（奶奶喜歡織毛衣。）",
     "id": "L3-knit-verb-noun"
   },
@@ -4630,7 +4630,7 @@
     "level": "L3",
     "word": "manage",
     "meaning": "verb 設法解決、管理",
-    "example": "Good management keeps a company strong.（良好的管理讓公司保持強健。）",
+    "example": "She manages a small bookshop near the station. (她管理車站附近的一家小書店。)",
     "id": "L3-manage-verb"
   },
   {
@@ -4714,7 +4714,7 @@
     "level": "L3",
     "word": "media",
     "meaning": "noun 新聞媒體",
-    "example": "Television is a powerful medium.（電視是一種有影響力的媒體。）",
+    "example": "The media reported the story all day. (媒體整天都在報導這件事。)",
     "id": "L3-media-noun"
   },
   {
@@ -4798,7 +4798,7 @@
     "level": "L3",
     "word": "might",
     "meaning": "noun 力量",
-    "example": "You might need an umbrella later.（你等一下可能需要雨傘。）",
+    "example": "She pushed the door with all her might. (她用盡全力推門。)",
     "id": "L3-might-noun"
   },
   {
@@ -5015,7 +5015,7 @@
     "level": "L3",
     "word": "network",
     "meaning": "noun/verb 網路；連接成網路",
-    "example": "Social networks enhance learning opportunities. (社交網路增強學習機會。)",
+    "example": "Social networks enhance learning opportunities. (社群網站增加了學習機會。)",
     "id": "L3-network-noun-verb"
   },
   {
@@ -5085,7 +5085,7 @@
     "level": "L3",
     "word": "odd",
     "meaning": "adj. 奇怪的",
-    "example": "Odd numbers include 1, 3, and 5. (奇數包括 1 、 3和 5 。)",
+    "example": "It was odd that nobody answered the phone. (沒有人接電話，真奇怪。)",
     "id": "L3-odd-adj"
   },
   {
@@ -5127,7 +5127,7 @@
     "level": "L3",
     "word": "original",
     "meaning": "adj./noun 起初的、獨創的；原型",
-    "example": "Students create original research projects. (學生創建原創研究項目。)",
+    "example": "Students create original research projects. (學生創作自己的研究專題。)",
     "id": "L3-original-adj-noun"
   },
   {
@@ -5190,7 +5190,7 @@
     "level": "L3",
     "word": "pad",
     "meaning": "noun/verb 襯墊、護具；填塞、加墊子",
-    "example": "She wrote the message on a small pad.（她把訊息寫在一本小便條本上。）",
+    "example": "Use a soft pad to protect the glass. (用軟墊保護玻璃。)",
     "id": "L3-pad-noun-verb"
   },
   {
@@ -5414,7 +5414,7 @@
     "level": "L3",
     "word": "pit",
     "meaning": "noun/verb 坑、洞；使有凹洞",
-    "example": "The peach pit was hard.（桃子的果核很硬。）",
+    "example": "Workers dug a deep pit in the ground. (工人在地上挖了一個深坑。)",
     "id": "L3-pit-noun-verb"
   },
   {
@@ -5596,7 +5596,7 @@
     "level": "L3",
     "word": "prevent",
     "meaning": "verb 阻礙、防止",
-    "example": "Good habits prevent academic problems. (良好習慣預防學術問題。)",
+    "example": "Good habits prevent academic problems. (良好的習慣可以避免課業問題。)",
     "id": "L3-prevent-verb"
   },
   {
@@ -5827,7 +5827,7 @@
     "level": "L3",
     "word": "reduce",
     "meaning": "verb 減少、縮小",
-    "example": "Study groups reduce individual workload stress. (學習小組減少個人工作負荷壓力。)",
+    "example": "Study groups can reduce stress. (讀書小組可以減輕壓力。)",
     "id": "L3-reduce-verb"
   },
   {
@@ -5988,14 +5988,14 @@
     "level": "L3",
     "word": "response",
     "meaning": "noun 回應、答覆",
-    "example": "Teacher feedback elicits student responses. (老師反饋引發學生回應。)",
+    "example": "Teacher feedback elicits student responses. (老師的回饋能引導學生回應。)",
     "id": "L3-response-noun"
   },
   {
     "level": "L3",
     "word": "responsibility",
     "meaning": "noun 責任",
-    "example": "Students learn responsibility through assignments. (學生通過作業學習責任。)",
+    "example": "Students learn responsibility through assignments. (學生透過作業學會負責。)",
     "id": "L3-responsibility-noun"
   },
   {
@@ -6008,8 +6008,8 @@
   {
     "level": "L3",
     "word": "reveal",
-    "meaning": "verb 顯示、透漏",
-    "example": "Tests reveal student understanding levels. (測試揭示學生理解水平。)",
+    "meaning": "verb 顯示、透露",
+    "example": "Tests reveal student understanding levels. (測驗能看出學生的理解程度。)",
     "id": "L3-reveal-verb"
   },
   {
@@ -6170,7 +6170,7 @@
     "level": "L3",
     "word": "salary",
     "meaning": "noun 薪水",
-    "example": "Hard work pays off in education. (在教育中努力工作會有回報。)",
+    "example": "She earns a good salary at the bank. (她在銀行領著不錯的薪水。)",
     "id": "L3-salary-noun"
   },
   {
@@ -6254,7 +6254,7 @@
     "level": "L3",
     "word": "scout",
     "meaning": "noun 童子軍",
-    "example": "The scout helped the hikers find the trail.（偵察員幫助健行者找到小路。）",
+    "example": "The scout learned to tie knots at camp. (那名童軍在營隊學會打繩結。)",
     "id": "L3-scout-noun"
   },
   {
@@ -6289,7 +6289,7 @@
     "level": "L3",
     "word": "secondary",
     "meaning": "adj. 次要的",
-    "example": "She teaches at a secondary school.（她在一所中學教書。）",
+    "example": "Money is secondary to health. (和健康相比，金錢是次要的。)",
     "id": "L3-secondary-adj"
   },
   {
@@ -6604,7 +6604,7 @@
     "level": "L3",
     "word": "specific",
     "meaning": "adj. 特定的、明確的",
-    "example": "Teachers provide specific feedback on assignments. (老師對作業提供具體反饋。)",
+    "example": "Teachers provide specific feedback on assignments. (老師會針對作業提供具體的回饋。)",
     "id": "L3-specific-adj"
   },
   {
@@ -6617,7 +6617,7 @@
   {
     "level": "L3",
     "word": "spill",
-    "meaning": "verb/noun 灑出、溢出；泄漏(量)",
+    "meaning": "verb/noun 灑出、溢出；洩漏（量）",
     "example": "Be careful not to spill the milk.（小心不要把牛奶灑出來。）",
     "id": "L3-spill-verb-noun"
   },
@@ -6639,7 +6639,7 @@
     "level": "L3",
     "word": "spite",
     "meaning": "noun 惡意、怨恨",
-    "example": "He helped me in spite of the rain.（儘管下雨，他還是幫了我。）",
+    "example": "He said it out of spite. (他出於怨恨才這麼說。)",
     "id": "L3-spite-noun"
   },
   {
@@ -6821,7 +6821,7 @@
     "level": "L3",
     "word": "strategy",
     "meaning": "noun 策略、戰略",
-    "example": "Effective learning strategies maximize study time. (有效的學習策略最大化學習時間。)",
+    "example": "Effective learning strategies maximize study time. (有效的學習策略能讓讀書時間發揮最大效益。)",
     "id": "L3-strategy-noun"
   },
   {
@@ -6863,7 +6863,7 @@
     "level": "L3",
     "word": "stuff",
     "meaning": "noun 物品、東西、材料\nverb 裝、填、塞、把...裝滿、塞進",
-    "example": "Students organize their school supplies neatly. (學生整齊地組織學校用品。)",
+    "example": "Put your stuff in the box. (把你的東西放進箱子裡。)",
     "id": "L3-stuff-noun-verb"
   },
   {
