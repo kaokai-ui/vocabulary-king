@@ -30,8 +30,8 @@ function makeWorkbook() {
 }
 
 function runDelete(inputPath, outputPath, previousWord = "misinterpret", targetWord = "misinterprete") {
-  return spawnSync("rtk", [
-    "python",
+  const python = process.env.PYTHON || (process.platform === "win32" ? "python" : "python3");
+  return spawnSync(python, [
     scriptPath,
     inputPath,
     outputPath,
