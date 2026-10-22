@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build:vocab": "node scripts/export-game-vocabulary.mjs",
+    "convert:vocab:source": "node scripts/convert-vocabulary-sources.mjs",
     "refresh:vocab": "node scripts/export-game-vocabulary.mjs",
+    "writeback:vocab": "node scripts/apply-vocabulary-decisions-to-source.mjs",
     "check:content": "node scripts/check-vocabulary-content.mjs",
     "verify:vocab": "node scripts/verify-vocabulary-data.mjs",
     "dev": "vite",

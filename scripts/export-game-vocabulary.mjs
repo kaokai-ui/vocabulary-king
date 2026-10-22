@@ -1,549 +1,52 @@
 import fs from "node:fs";
 import { createHash } from "node:crypto";
 import path from "node:path";
-import xlsx from "xlsx";
-import {
-  buildDisambiguatedVocabularyId,
-  buildStableVocabularyId,
-  hashVocabularyPart
-} from "../src/lib/vocabularyIdentity.js";
-import {
-  findSourceWorkbookPath,
-  LEVEL_WORKBOOK_COLUMNS,
-  TRACK_DEFINITIONS
-} from "./vocabulary-source-definitions.mjs";
+import { pathToFileURL } from "node:url";
+import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
+import { buildTrackExportRecords } from "./vocabulary-data-utils.mjs";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
-let levelExampleLookupCache = null;
+const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
 
-function readSheetRows(workbook, sheetName) {
-  const sheet = workbook.Sheets[sheetName];
-
-  if (!sheet) {
-    throw new Error(`Missing worksheet: ${sheetName}`);
-  }
-
-  return xlsx.utils.sheet_to_json(sheet, {
-    header: 1,
-    defval: "",
-    raw: false
-  });
+export function getVocabularyDataRepoPath(env = process.env) {
+  return path.resolve(env.VOCABULARY_DATA_REPO || DEFAULT_DATA_REPO);
 }
 
-function normalizeWord(text) {
-  return String(text ?? "")
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, " ");
-}
+function readTrackSourceRows(dataRepoRoot, trackId) {
+  const filePath = path.join(dataRepoRoot, "data", `${trackId}.jsonl`);
 
-function expandWordVariants(text) {
-  const parts = String(text ?? "")
-    .split("/")
-    .map((part) => part.trim())
-    .filter(Boolean);
-  const variants = new Set();
-
-  for (const part of parts) {
-    let expanded = new Set([part]);
-
-    while (true) {
-      let changed = false;
-      const nextExpanded = new Set();
-
-      for (const item of expanded) {
-        const match = /\(([^()]+)\)/.exec(item);
-
-        if (!match) {
-          nextExpanded.add(item);
-          continue;
-        }
-
-        changed = true;
-        const prefix = item.slice(0, match.index);
-        const suffix = item.slice(match.index + match[0].length);
-        nextExpanded.add(`${prefix}${suffix}`);
-        nextExpanded.add(`${prefix}${match[1]}${suffix}`);
-      }
-
-      expanded = nextExpanded;
-
-      if (!changed) {
-        break;
-      }
-    }
-
-    for (const item of expanded) {
-      const normalized = normalizeWord(item);
-
-      if (normalized) {
-        variants.add(normalized);
-      }
-    }
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Missing vocabulary source file: ${filePath}`);
   }
 
-  return variants;
-}
-
-function normalizeVocabularyEntries(vocabulary) {
-  const groups = new Map();
-
-  for (const entry of vocabulary) {
-    const groupKey = `${entry.level}\u0000${entry.word}\u0000${entry.meaning}`;
-    const group = groups.get(groupKey) ?? [];
-
-    group.push(entry);
-    groups.set(groupKey, group);
-  }
-
-  const normalizedVocabulary = [];
-
-  for (const group of groups.values()) {
-    const uniqueEntries = [];
-    const seenExactRows = new Set();
-
-    for (const entry of group) {
-      const exactKey = `${entry.level}\u0000${entry.word}\u0000${entry.meaning}\u0000${entry.example}`;
-
-      if (seenExactRows.has(exactKey)) {
-        continue;
-      }
-
-      seenExactRows.add(exactKey);
-      uniqueEntries.push(entry);
-    }
-
-    const candidateIds = uniqueEntries.map((entry) =>
-      uniqueEntries.length === 1
-        ? buildStableVocabularyId(entry.level, entry.word, entry.meaning)
-        : buildDisambiguatedVocabularyId(entry.level, entry.word, entry.meaning, entry.example)
-    );
-    const candidateIdCounts = new Map();
-
-    for (const id of candidateIds) {
-      candidateIdCounts.set(id, (candidateIdCounts.get(id) ?? 0) + 1);
-    }
-
-    for (const [index, entry] of uniqueEntries.entries()) {
-      const candidateId = candidateIds[index];
-
-      normalizedVocabulary.push({
-        ...entry,
-        id:
-          (candidateIdCounts.get(candidateId) ?? 0) > 1
-            ? `${candidateId}-x${hashVocabularyPart(entry.example)}`
-            : candidateId
-      });
-    }
-  }
-
-  return normalizedVocabulary;
-}
-
-function readLevelVocabularyRows(workbookPath, sheetNames, columns) {
-  const workbook = xlsx.readFile(workbookPath);
-  const vocabulary = [];
-
-  for (const sheetName of sheetNames) {
-    const rows = readSheetRows(workbook, sheetName);
-
-    rows.slice(1).forEach((row) => {
-      const word = String(row[columns.word] ?? "").trim();
-      const meaning = String(row[columns.meaning] ?? "").trim();
-      const example = String(row[columns.englishExample] || row[columns.fallbackExample] || "").trim();
-
-      if (!word || !meaning) {
-        return;
-      }
-
-      const level = sheetName.replace("Level ", "L");
-
-      vocabulary.push({
-        level,
-        word,
-        meaning,
-        example
-      });
-    });
-  }
-
-  return normalizeVocabularyEntries(vocabulary);
-}
-
-function formatToeicMeaning(pos, meaning) {
-  const normalizedPos = String(pos ?? "").trim();
-  const normalizedMeaning = String(meaning ?? "").trim();
-
-  if (!normalizedPos) {
-    return normalizedMeaning;
-  }
-
-  return `${normalizedPos}. ${normalizedMeaning}`;
-}
-
-function formatToeicExample(englishExample, chineseExample) {
-  const normalizedEnglishExample = String(englishExample ?? "").trim();
-  const normalizedChineseExample = String(chineseExample ?? "").trim();
-
-  if (normalizedEnglishExample && normalizedChineseExample) {
-    return `${normalizedEnglishExample} (${normalizedChineseExample})`;
-  }
-
-  return normalizedEnglishExample || normalizedChineseExample;
-}
-
-function formatBilingualExample(englishExample, chineseExample) {
-  return formatToeicExample(englishExample, chineseExample);
-}
-
-function readToeicVocabularyRows(workbookPath, definition) {
-  const workbook = xlsx.readFile(workbookPath);
-  const vocabulary = [];
-  const { sheets, columns, fallbackLevel = "TOEIC" } = definition;
-
-  for (const sheetName of sheets) {
-    const rows = readSheetRows(workbook, sheetName);
-
-    rows.slice(1).forEach((row) => {
-      const word = String(row[columns.word] ?? "").trim();
-      const pos = columns.pos != null ? String(row[columns.pos] ?? "").trim() : "";
-      const meaning = String(row[columns.meaning] ?? "").trim();
-      const level = columns.level != null ? String(row[columns.level] ?? "").trim() || fallbackLevel : fallbackLevel;
-      const englishExample = columns.englishExample != null ? String(row[columns.englishExample] ?? "").trim() : "";
-      const chineseExample = columns.chineseExample != null ? String(row[columns.chineseExample] ?? "").trim() : "";
-
-      if (!word || !meaning) {
-        return;
-      }
-
-      vocabulary.push({
-        level,
-        word,
-        meaning: formatToeicMeaning(pos, meaning),
-        example: formatToeicExample(englishExample, chineseExample)
-      });
-    });
-  }
-
-  return normalizeVocabularyEntries(vocabulary);
-}
-
-function formatJsonVocabularyMeaning(translations) {
-  const senses = [];
-  const seen = new Set();
-
-  for (const translation of Array.isArray(translations) ? translations : []) {
-    const pos = String(translation?.pos ?? "").trim();
-    const meaning = String(translation?.tranCn ?? "").trim();
-
-    if (!meaning) {
-      continue;
-    }
-
-    const formatted = pos ? `${pos}. ${meaning}` : meaning;
-
-    if (seen.has(formatted)) {
-      continue;
-    }
-
-    seen.add(formatted);
-    senses.push(formatted);
-  }
-
-  return senses.join("\n");
-}
-
-function formatJsonVocabularyExample(sentences) {
-  for (const sentence of Array.isArray(sentences) ? sentences : []) {
-    const english = String(sentence?.sContent ?? "").trim();
-    const chinese = String(sentence?.sCn ?? "").trim();
-
-    if (english && chinese) {
-      return `${english} (${chinese})`;
-    }
-
-    if (english || chinese) {
-      return english || chinese;
-    }
-  }
-
-  return "";
-}
-
-function readJsonVocabularyRows(sourceJsonPath, definition) {
-  const sourcePath = path.resolve(sourceJsonPath);
-  const entries = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
-  const vocabulary = [];
-
-  for (const entry of entries) {
-    const word = String(entry?.headWord ?? entry?.content?.word?.wordHead ?? "").trim();
-    const content = entry?.content?.word?.content ?? {};
-    const meaning = formatJsonVocabularyMeaning(content.trans);
-    const example = formatJsonVocabularyExample(content?.sentence?.sentences);
-    const level = definition.fallbackLevel ?? "CUSTOM";
-
-    if (!word || !meaning) {
-      continue;
-    }
-
-    vocabulary.push({
-      level,
-      word,
-      meaning,
-      example
-    });
-  }
-
-  return normalizeVocabularyEntries(vocabulary);
-}
-
-function readNamedColumnVocabularyRows(workbookPath, definition) {
-  const workbook = xlsx.readFile(workbookPath);
-  const vocabulary = [];
-  const sheetNames = definition.sheets?.length ? definition.sheets : [workbook.SheetNames[0]];
-  const headers = definition.columnsByHeader ?? {};
-
-  for (const sheetName of sheetNames) {
-    const sheet = workbook.Sheets[sheetName];
-
-    if (!sheet) {
-      throw new Error(`Missing worksheet: ${sheetName}`);
-    }
-
-    const rows = xlsx.utils.sheet_to_json(sheet, {
-      defval: "",
-      raw: false
-    });
-
-    for (const row of rows) {
-      const word = String(row[headers.word] ?? "").trim();
-      const meaning = String(row[headers.meaning] ?? "").trim();
-      const englishExample = String(row[headers.englishExample] ?? "").trim();
-      const chineseExample = String(row[headers.chineseExample] ?? "").trim();
-
-      if (!word || !meaning) {
-        continue;
-      }
-
-      vocabulary.push({
-        level: definition.fallbackLevel ?? "CUSTOM",
-        word,
-        meaning,
-        example: formatBilingualExample(englishExample, chineseExample)
-      });
-    }
-  }
-
-  return normalizeVocabularyEntries(vocabulary);
-}
-
-function readElementaryVocabularyRows(workbookPath, definition) {
-  const workbook = xlsx.readFile(workbookPath);
-  const vocabulary = [];
-  const sheetNames = definition.sheets?.length ? definition.sheets : [workbook.SheetNames[0]];
-  const headers = definition.columnsByHeader ?? {};
-
-  for (const sheetName of sheetNames) {
-    const sheet = workbook.Sheets[sheetName];
-
-    if (!sheet) {
-      throw new Error(`Missing worksheet: ${sheetName}`);
-    }
-
-    const rows = xlsx.utils.sheet_to_json(sheet, {
-      defval: "",
-      raw: false
-    });
-
-    rows.forEach((row, sourceIndex) => {
-      const word = String(row[headers.word] ?? "").trim();
-      const meaning = String(row[headers.meaning] ?? "").trim();
-      const englishExample = String(row[headers.englishExample] ?? "").trim();
-      const chineseExample = String(row[headers.chineseExample] ?? "").trim();
-      const number = Number(String(row[headers.number] ?? "").trim());
-
-      if (!word || !meaning) {
-        return;
-      }
-
-      vocabulary.push({
-        level: definition.fallbackLevel ?? "Elementary",
-        word,
-        meaning,
-        example: formatBilingualExample(englishExample, chineseExample),
-        sourceNumber: Number.isFinite(number) ? number : Number.MAX_SAFE_INTEGER,
-        sourceIndex
-      });
-    });
-  }
-
-  vocabulary.sort((left, right) => left.sourceNumber - right.sourceNumber || left.sourceIndex - right.sourceIndex);
-
-  return normalizeVocabularyEntries(
-    vocabulary.map(({ sourceNumber, sourceIndex, ...entry }) => entry)
-  );
-}
-
-function buildLevelExampleLookup() {
-  if (levelExampleLookupCache) {
-    return levelExampleLookupCache;
-  }
-
-  const sourceDefinitions = [
-    {
-      ...TRACK_DEFINITIONS.find((definition) => definition.id === "junior-high"),
-      sheets: ["Level 1", "Level 2"]
-    },
-    {
-      ...TRACK_DEFINITIONS.find((definition) => definition.id === "senior-high"),
-      sheets: ["Level 3", "Level 4", "Level 5", "Level 6"]
-    }
-  ];
-  const exampleLookup = new Map();
-
-  for (const source of sourceDefinitions) {
-    const workbook = xlsx.readFile(findSourceWorkbookPath(source));
-
-    for (const sheetName of source.sheets) {
-      const rows = readSheetRows(workbook, sheetName);
-      const sheetLookup = exampleLookup.get(sheetName) ?? new Map();
-
-      rows.slice(1).forEach((row) => {
-        const word = String(row[LEVEL_WORKBOOK_COLUMNS.word] ?? "").trim();
-        const example = String(
-          row[LEVEL_WORKBOOK_COLUMNS.englishExample] || row[LEVEL_WORKBOOK_COLUMNS.fallbackExample] || ""
-        ).trim();
-
-        if (!word || !example) {
-          return;
-        }
-
-        for (const variant of expandWordVariants(word)) {
-          if (!sheetLookup.has(variant)) {
-            sheetLookup.set(variant, example);
-          }
-        }
-      });
-
-      exampleLookup.set(sheetName, sheetLookup);
-    }
-  }
-
-  levelExampleLookupCache = exampleLookup;
-
-  return levelExampleLookupCache;
-}
-
-function formatPrimaryLevel(levelText, fallbackLevel) {
-  const normalizedLevel = String(levelText ?? "").trim();
-  const match = /^Level\s+(\d+)$/i.exec(normalizedLevel);
-
-  if (match) {
-    return `L${match[1]}`;
-  }
-
-  return fallbackLevel;
-}
-
-function resolveGeptExample(word, primaryLevel, fallbackExample, exampleLookup, preferFallback = false) {
-  if (preferFallback && fallbackExample) {
-    return fallbackExample;
-  }
-
-  const normalizedLevel = String(primaryLevel ?? "").trim();
-
-  if (normalizedLevel) {
-    const levelExamples = exampleLookup.get(normalizedLevel);
-
-    if (levelExamples) {
-      for (const variant of expandWordVariants(word)) {
-        const example = levelExamples.get(variant);
-
-        if (example) {
-          return example;
-        }
-      }
-    }
-  }
-
-  return fallbackExample;
-}
-
-function consolidateGeptEntries(vocabulary) {
-  const groups = new Map();
-
-  for (const entry of vocabulary) {
-    const groupKey = `${entry.level}\u0000${entry.word}`;
-    const group =
-      groups.get(groupKey) ?? {
-        level: entry.level,
-        word: entry.word,
-        senses: [],
-        examples: []
-      };
-
-    const senseKey = `${entry.pos}\u0000${entry.meaning}`;
-
-    if (!group.senses.some((sense) => `${sense.pos}\u0000${sense.meaning}` === senseKey)) {
-      group.senses.push({
-        pos: entry.pos,
-        meaning: entry.meaning
-      });
-    }
-
-    if (entry.example && !group.examples.includes(entry.example)) {
-      group.examples.push(entry.example);
-    }
-
-    groups.set(groupKey, group);
-  }
-
-  return Array.from(groups.values(), (group) => ({
-    level: group.level,
-    word: group.word,
-    meaning: group.senses
-      .map((sense) => (sense.pos ? `${sense.pos} ${sense.meaning}` : sense.meaning))
-      .join("\n"),
-    example: group.examples[0] ?? ""
-  }));
-}
-
-function readGeptVocabularyRows(workbookPath, definition, exampleLookup) {
-  const workbook = xlsx.readFile(workbookPath);
-  const rows = readSheetRows(workbook, definition.sheets[0]);
-  const vocabulary = [];
-  const columns = definition.columns;
-
-  rows.slice(1).forEach((row) => {
-    const word = String(row[columns.word] ?? "").trim();
-    const pos = String(row[columns.pos] ?? "").trim();
-    const meaning = String(row[columns.meaning] ?? "").trim();
-    const geptGrade = String(row[columns.grade] ?? "").trim();
-    const primaryLevel = String(row[columns.primaryLevel] ?? "").trim();
-    const fallbackExample = String(row[columns.fallbackExample] ?? "").trim();
-
-    if (geptGrade !== definition.geptGrade || !word || !meaning) {
+  const lines = fs.readFileSync(filePath, "utf8").split(/\r?\n/u);
+  const rows = [];
+
+  lines.forEach((line, index) => {
+    if (!line.trim()) {
       return;
     }
 
-    vocabulary.push({
-      level: formatPrimaryLevel(primaryLevel, definition.geptGrade),
-      word,
-      pos,
-      meaning,
-      example: resolveGeptExample(
-        word,
-        primaryLevel,
-        fallbackExample,
-        exampleLookup,
-        ["gept-intermediate", "gept-high-intermediate"].includes(definition.id)
-      )
-    });
+    let record;
+    try {
+      record = JSON.parse(line);
+    } catch (error) {
+      throw new Error(`Invalid JSON in ${filePath}:${index + 1}: ${error instanceof Error ? error.message : error}`);
+    }
+
+    if (record.track !== trackId) {
+      throw new Error(`Unexpected track '${record.track}' in ${filePath}:${index + 1}; expected '${trackId}'.`);
+    }
+    if (!String(record.level ?? "").trim() || !String(record.word ?? "").trim() || !String(record.meaning_zh ?? "").trim()) {
+      throw new Error(`Missing level, word, or meaning_zh in ${filePath}:${index + 1}.`);
+    }
+
+    rows.push(record);
   });
 
-  return normalizeVocabularyEntries(consolidateGeptEntries(vocabulary));
+  return rows;
 }
 
 function chunkItems(items, chunkSize) {
@@ -578,73 +81,105 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
   };
 }
 
-function buildTrack(definition) {
-  const vocabulary =
-    definition.type === "json-vocabulary"
-      ? readJsonVocabularyRows(definition.sourceJsonPath, definition)
-      : (() => {
-          const workbookPath = findSourceWorkbookPath(definition);
-          const exampleLookup = definition.type === "gept-workbook" ? buildLevelExampleLookup() : null;
+function prepareTracks(dataRepoRoot) {
+  const prepared = new Map();
 
-          return definition.type === "gept-workbook"
-            ? readGeptVocabularyRows(workbookPath, definition, exampleLookup)
-            : definition.type === "named-column-workbook"
-              ? readNamedColumnVocabularyRows(workbookPath, definition)
-            : definition.type === "elementary-workbook"
-              ? readElementaryVocabularyRows(workbookPath, definition)
-            : definition.type === "toeic-workbook"
-              ? readToeicVocabularyRows(workbookPath, definition)
-            : readLevelVocabularyRows(workbookPath, definition.sheets, definition.columns);
-        })();
-  const chunks = chunkItems(vocabulary, CHUNK_SIZE);
-  const trackOutputDir = path.join(TRACKS_ROOT, definition.id);
+  for (const definition of TRACK_DEFINITIONS) {
+    if (!definition.available) {
+      prepared.set(definition.id, []);
+      continue;
+    }
 
-  fs.rmSync(trackOutputDir, { recursive: true, force: true });
+    const sourceRows = readTrackSourceRows(dataRepoRoot, definition.id);
+    const records = buildTrackExportRecords(definition.id, sourceRows).map(({ level, word, meaning, example, id }) => ({
+      level,
+      word,
+      meaning,
+      example,
+      id
+    }));
 
-  const chunkFiles = chunks.map((chunk, index) => {
-    const fileName = `chunk-${String(index + 1).padStart(3, "0")}.json`;
-    const relativePath = `data/tracks/${definition.id}/${fileName}`;
+    if (records.length === 0) {
+      throw new Error(`Vocabulary source file for '${definition.id}' contains no exportable entries.`);
+    }
 
-    writeJson(path.join(trackOutputDir, fileName), chunk);
-
-    return {
-      id: `${definition.id}-chunk-${index + 1}`,
-      path: relativePath,
-      wordCount: chunk.length
-    };
-  });
-
-  return {
-    catalogTrack: createCatalogTrack(definition, chunkFiles, vocabulary.length),
-    summary: `${definition.id}: ${vocabulary.length} words, ${chunkFiles.length} chunk files`
-  };
-}
-
-const catalogTracks = {};
-const summaries = [];
-
-fs.rmSync(path.join(DATA_ROOT, "vocabulary.json"), { force: true });
-
-for (const definition of TRACK_DEFINITIONS) {
-  if (definition.available) {
-    const { catalogTrack, summary } = buildTrack(definition);
-
-    catalogTracks[definition.id] = catalogTrack;
-    summaries.push(summary);
-    continue;
+    prepared.set(definition.id, records);
   }
 
-  fs.rmSync(path.join(TRACKS_ROOT, definition.id), { recursive: true, force: true });
-  catalogTracks[definition.id] = createCatalogTrack(definition);
+  return prepared;
 }
 
-const catalogPayload = {
-  tracks: catalogTracks
-};
+export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(), dataRoot = DATA_ROOT } = {}) {
+  const resolvedDataRepoRoot = path.resolve(dataRepoRoot);
+  const resolvedDataRoot = path.resolve(dataRoot);
 
-writeJson(path.join(DATA_ROOT, "catalog.json"), {
-  generatedAt: contentHash(catalogPayload),
-  tracks: catalogTracks
-});
+  if (!fs.existsSync(resolvedDataRepoRoot)) {
+    console.log(
+      `Vocabulary source repo not found at ${resolvedDataRepoRoot}; keeping committed public/data. ` +
+        "Set VOCABULARY_DATA_REPO to the local vocabulary data repo to refresh it."
+    );
+    return { skipped: true, dataRepoRoot: resolvedDataRepoRoot };
+  }
 
-console.log(`Exported tracks:\n- ${summaries.join("\n- ")}`);
+  if (!fs.statSync(resolvedDataRepoRoot).isDirectory()) {
+    throw new Error(`Vocabulary source path is not a directory: ${resolvedDataRepoRoot}`);
+  }
+
+  // Read and validate every track before touching public/data so an incomplete
+  // local source repo cannot leave a partially refreshed public bundle.
+  const preparedTracks = prepareTracks(resolvedDataRepoRoot);
+  const tracksRoot = path.join(resolvedDataRoot, "tracks");
+  const catalogTracks = {};
+  const summaries = [];
+
+  fs.mkdirSync(resolvedDataRoot, { recursive: true });
+  fs.rmSync(path.join(resolvedDataRoot, "vocabulary.json"), { force: true });
+
+  for (const definition of TRACK_DEFINITIONS) {
+    if (definition.available) {
+      const vocabulary = preparedTracks.get(definition.id) ?? [];
+      const chunks = chunkItems(vocabulary, CHUNK_SIZE);
+      const trackOutputDir = path.join(tracksRoot, definition.id);
+
+      fs.rmSync(trackOutputDir, { recursive: true, force: true });
+
+      const chunkFiles = chunks.map((chunk, index) => {
+        const fileName = `chunk-${String(index + 1).padStart(3, "0")}.json`;
+        const relativePath = `data/tracks/${definition.id}/${fileName}`;
+
+        writeJson(path.join(trackOutputDir, fileName), chunk);
+
+        return {
+          id: `${definition.id}-chunk-${index + 1}`,
+          path: relativePath,
+          wordCount: chunk.length
+        };
+      });
+
+      catalogTracks[definition.id] = createCatalogTrack(definition, chunkFiles, vocabulary.length);
+      summaries.push(`${definition.id}: ${vocabulary.length} words, ${chunkFiles.length} chunk files`);
+      continue;
+    }
+
+    fs.rmSync(path.join(tracksRoot, definition.id), { recursive: true, force: true });
+    catalogTracks[definition.id] = createCatalogTrack(definition);
+  }
+
+  const catalogPayload = { tracks: catalogTracks };
+  writeJson(path.join(resolvedDataRoot, "catalog.json"), {
+    generatedAt: contentHash(catalogPayload),
+    tracks: catalogTracks
+  });
+
+  console.log(`Exported tracks:\n- ${summaries.join("\n- ")}`);
+  return { skipped: false, dataRepoRoot: resolvedDataRepoRoot, summaries };
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  try {
+    exportGameVocabulary();
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  }
+}
