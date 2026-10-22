@@ -10,6 +10,7 @@ import { screenAnalytics, screenRegistry } from "./screens/screenRegistry";
 
 function App() {
   const [activeTrack, setActiveTrack] = useState(() => readStoredSettings().vocabularyTrack);
+  const [activeLocale, setActiveLocale] = useState(() => readStoredSettings().locale);
   const hasAttemptedWordSearchLoadRef = useRef(false);
   const {
     vocabulary,
@@ -20,9 +21,13 @@ function App() {
     isVocabularyLoading,
     isVocabularyReady,
     retryVocabulary
-  } = useVocabularyData(activeTrack);
+  } = useVocabularyData(activeTrack, activeLocale);
   const app = useVocabularyApp(vocabulary);
-  const { allVocabulary, hasLoadedAllVocabulary, isLoadingAllVocabulary, loadAllVocabulary } = useAllVocabulary(vocabulary, activeTrack);
+  const { allVocabulary, hasLoadedAllVocabulary, isLoadingAllVocabulary, loadAllVocabulary } = useAllVocabulary(
+    vocabulary,
+    activeTrack,
+    activeLocale
+  );
   const activeScreenKey = screenRegistry[app.session.screen] ? app.session.screen : "home";
   const activeCatalogTrack = catalog?.tracks?.[activeTrack] ?? null;
   const vocabularyCount = isVocabularyReady ? vocabulary.length : activeCatalogTrack?.totalWords ?? vocabulary.length;
@@ -45,6 +50,12 @@ function App() {
       setActiveTrack(app.settings.vocabularyTrack);
     }
   }, [activeTrack, app.settings.vocabularyTrack]);
+
+  useEffect(() => {
+    if (app.settings.locale !== activeLocale) {
+      setActiveLocale(app.settings.locale);
+    }
+  }, [activeLocale, app.settings.locale]);
 
   useEffect(() => {
     const screenConfig = screenAnalytics[activeScreenKey] ?? screenAnalytics.home;

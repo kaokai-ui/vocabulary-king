@@ -23,6 +23,15 @@ describe("settingsReducer", () => {
     expect(nextState.vocabularyTrack).toBe("junior-high");
   });
 
+  it("falls back to Traditional Chinese when an extra locale is disabled", () => {
+    const nextState = settingsReducer(initialState, {
+      type: actionTypes.updateSetting,
+      payload: { key: "locale", value: "ja" }
+    });
+
+    expect(nextState.locale).toBe("zh-TW");
+  });
+
   it("toggles boolean settings", () => {
     const nextState = settingsReducer(initialState, {
       type: actionTypes.toggleSetting,

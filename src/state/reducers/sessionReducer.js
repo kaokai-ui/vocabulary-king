@@ -129,7 +129,9 @@ export function sessionReducer(state, action) {
               prompt: activeQuestion.reviewPrompt ?? activeQuestion.prompt,
               answerWord: activeQuestion.answerWord,
               correctText: activeQuestion.correctText,
+              ...(activeQuestion.correctTextIsFallback ? { correctTextIsFallback: true } : {}),
               selectedText: selectedChoiceText,
+              ...(action.payload.selectedChoiceIsFallback ? { selectedTextIsFallback: true } : {}),
               isCorrect
             }
           ]

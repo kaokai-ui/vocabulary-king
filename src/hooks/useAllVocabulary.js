@@ -37,7 +37,7 @@ export function buildCombinedVocabulary({ activeTrackId, activeTrackVocabulary, 
   return combined;
 }
 
-export function useAllVocabulary(activeTrackVocabulary, activeTrackId) {
+export function useAllVocabulary(activeTrackVocabulary, activeTrackId, locale = "zh-TW") {
   const [allVocabulary, setAllVocabulary] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const loadedRef = useRef(false);
@@ -53,12 +53,12 @@ export function useAllVocabulary(activeTrackVocabulary, activeTrackId) {
       const catalog = await loadVocabularyCatalog({});
       const results = await Promise.allSettled(
         availableTrackIds.map(async (trackId) => {
-          const cached = getCachedVocabulary(trackId);
+          const cached = getCachedVocabulary(trackId, locale);
           if (cached) {
             return [trackId, cached];
           }
 
-          const result = await loadVocabularyTrack(trackId, { catalog });
+          const result = await loadVocabularyTrack(trackId, { catalog, locale });
           return [trackId, result.vocabulary];
         })
       );
@@ -85,7 +85,7 @@ export function useAllVocabulary(activeTrackVocabulary, activeTrackId) {
           activeTrackId,
           activeTrackVocabulary,
           cachedVocabularyEntries: availableTrackIds
-            .map((trackId) => [trackId, getCachedVocabulary(trackId)])
+            .map((trackId) => [trackId, getCachedVocabulary(trackId, locale)])
             .filter(([, vocabulary]) => Array.isArray(vocabulary))
         })
       );
@@ -93,26 +93,24 @@ export function useAllVocabulary(activeTrackVocabulary, activeTrackId) {
     } finally {
       setIsLoading(false);
     }
-  }, [activeTrackId, activeTrackVocabulary]);
+  }, [activeTrackId, activeTrackVocabulary, locale]);
 
   useEffect(() => {
     const combined = buildCombinedVocabulary({
       activeTrackId,
       activeTrackVocabulary,
       cachedVocabularyEntries: availableTrackIds
-        .map((trackId) => [trackId, getCachedVocabulary(trackId)])
+        .map((trackId) => [trackId, getCachedVocabulary(trackId, locale)])
         .filter(([, vocabulary]) => Array.isArray(vocabulary))
     });
 
+    const allCached = availableTrackIds.every((trackId) => getCachedVocabulary(trackId, locale));
+    loadedRef.current = allCached;
+
     if (combined.length > 0) {
       setAllVocabulary(combined);
-
-      const allCached = availableTrackIds.every((trackId) => getCachedVocabulary(trackId));
-      if (allCached) {
-        loadedRef.current = true;
-      }
     }
-  }, [activeTrackId, activeTrackVocabulary]);
+  }, [activeTrackId, activeTrackVocabulary, locale]);
 
   return {
     allVocabulary,

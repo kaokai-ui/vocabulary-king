@@ -1,5 +1,6 @@
 import { actionTypes } from "../actionTypes";
 import { normalizeVocabularyTrack } from "../../constants/vocabularyTracks";
+import { normalizeLocale } from "../../i18n/localeConfig";
 import { normalizePronunciationAccent } from "../../lib/speech";
 
 export function settingsReducer(state, action) {
@@ -10,6 +11,8 @@ export function settingsReducer(state, action) {
         [action.payload.key]:
           action.payload.key === "vocabularyTrack"
             ? normalizeVocabularyTrack(action.payload.value)
+            : action.payload.key === "locale"
+              ? normalizeLocale(action.payload.value)
             : action.payload.key === "pronunciationAccent"
               ? normalizePronunciationAccent(action.payload.value)
             : action.payload.value

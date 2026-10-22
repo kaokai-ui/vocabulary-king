@@ -4,7 +4,16 @@ import { pathToFileURL } from "node:url";
 import { buildTrackExportRecords, formatSourceExample, formatSourceMeaning } from "./vocabulary-data-utils.mjs";
 
 const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
-const FINAL_FIELDS = new Set(["word", "meaning", "example_en", "example_zh"]);
+const FINAL_FIELDS = new Set([
+  "word",
+  "meaning",
+  "example_en",
+  "example_zh",
+  "meaning_ja",
+  "example_ja",
+  "meaning_ko",
+  "example_ko"
+]);
 
 function parseJsonl(filePath) {
   return fs.readFileSync(filePath, "utf8")
@@ -149,7 +158,11 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
       word: current.word,
       meaning: current.meaning,
       example_en: normalizeText(oldRow.example_en),
-      example_zh: normalizeText(oldRow.example_zh)
+      example_zh: normalizeText(oldRow.example_zh),
+      meaning_ja: normalizeText(oldRow.meaning_ja),
+      example_ja: normalizeText(oldRow.example_ja),
+      meaning_ko: normalizeText(oldRow.meaning_ko),
+      example_ko: normalizeText(oldRow.example_ko)
     };
 
     for (const [field, value] of Object.entries(final)) {
@@ -178,6 +191,10 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
       meaning: formatSourceMeaning(sourceRow),
       example_en: normalizeText(sourceRow.example_en),
       example_zh: normalizeText(sourceRow.example_zh),
+      meaning_ja: normalizeText(sourceRow.meaning_ja),
+      example_ja: normalizeText(sourceRow.example_ja),
+      meaning_ko: normalizeText(sourceRow.meaning_ko),
+      example_ko: normalizeText(sourceRow.example_ko),
       example: formatSourceExample(sourceRow)
     };
     const cellChanges = [];

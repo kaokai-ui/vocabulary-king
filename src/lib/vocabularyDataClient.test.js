@@ -203,4 +203,114 @@ describe("vocabularyDataClient retry/cache behavior", () => {
     );
     expect(catalogCalls).toHaveLength(1);
   });
+
+  it("does not request locale overlays when the build flag is disabled", async () => {
+    const catalog = buildCatalog({
+      "senior-high": undefined,
+      "junior-high": {
+        id: "junior-high",
+        available: true,
+        totalWords: 1,
+        chunkFiles: [{ path: "data/tracks/junior-high/chunk-001.json", wordCount: 1 }],
+        locales: {
+          ja: {
+            totalWords: 1,
+            chunkFiles: [{ path: "data/tracks/junior-high/ja/chunk-001.json", wordCount: 1 }]
+          }
+        }
+      }
+    });
+    const vocabulary = [{ id: "word-1", word: "apple", meaning: "蘋果", example: "Apple (蘋果。)" }];
+    const fetchMock = vi.spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(jsonResponse(catalog))
+      .mockResolvedValueOnce(jsonResponse(vocabulary));
+
+    const result = await loadVocabularyTrack("junior-high", {
+      locale: "ja",
+      enabledExtraLocales: []
+    });
+
+    expect(result.vocabulary).toEqual(vocabulary);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(fetchMock.mock.calls.some(([url]) => String(url).includes("/ja/"))).toBe(false);
+  });
+
+  it("loads overlays by locale, marks Chinese fallbacks, and keeps ids stable when switching", async () => {
+    const catalog = buildCatalog({
+      "senior-high": undefined,
+      "junior-high": {
+        id: "junior-high",
+        available: true,
+        totalWords: 2,
+        chunkFiles: [{ path: "data/tracks/junior-high/chunk-001.json", wordCount: 2 }],
+        locales: {
+          ja: {
+            totalWords: 1,
+            chunkFiles: [{ path: "data/tracks/junior-high/ja/chunk-001.json", wordCount: 1 }]
+          },
+          ko: {
+            totalWords: 1,
+            chunkFiles: [{ path: "data/tracks/junior-high/ko/chunk-001.json", wordCount: 1 }]
+          }
+        }
+      }
+    });
+    const baseVocabulary = [
+      { id: "word-1", word: "apple", meaning: "蘋果", example: "Apple (蘋果。)" },
+      { id: "word-2", word: "book", meaning: "書", example: "Book (書。)" }
+    ];
+    const japaneseOverlay = [{ id: "word-1", meaning: "林檎", example: "" }];
+    const koreanOverlay = [{ id: "word-1", meaning: "사과", example: "그것은 예문이다." }];
+    const fetchMock = vi.spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(jsonResponse(catalog))
+      .mockResolvedValueOnce(jsonResponse(baseVocabulary))
+      .mockResolvedValueOnce(jsonResponse(japaneseOverlay))
+      .mockResolvedValueOnce(jsonResponse(koreanOverlay));
+
+    const japanese = await loadVocabularyTrack("junior-high", {
+      locale: "ja",
+      enabledExtraLocales: ["ja", "ko"]
+    });
+    const korean = await loadVocabularyTrack("junior-high", {
+      locale: "ko",
+      catalog,
+      enabledExtraLocales: ["ja", "ko"]
+    });
+    const japaneseAgain = await loadVocabularyTrack("junior-high", {
+      locale: "ja",
+      catalog,
+      enabledExtraLocales: ["ja", "ko"]
+    });
+
+    expect(japanese.vocabulary[0]).toMatchObject({
+      id: "word-1",
+      meaning: "林檎",
+      example: "Apple (蘋果。)",
+      sourceExample: "Apple (蘋果。)",
+      meaningIsFallback: false,
+      exampleIsFallback: true
+    });
+    expect(japanese.vocabulary[1]).toMatchObject({
+      id: "word-2",
+      meaning: "書",
+      example: "Book (書。)",
+      meaningIsFallback: true,
+      exampleIsFallback: true
+    });
+    expect(korean.vocabulary[0]).toMatchObject({
+      id: "word-1",
+      meaning: "사과",
+      example: "그것은 예문이다.",
+      meaningIsFallback: false,
+      exampleIsFallback: false
+    });
+    expect(japaneseAgain.vocabulary.map(({ id }) => id)).toEqual(baseVocabulary.map(({ id }) => id));
+    expect(japaneseAgain.vocabulary).toEqual(japanese.vocabulary);
+    expect(fetchMock).toHaveBeenCalledTimes(4);
+    expect(fetchMock.mock.calls.map(([url]) => String(url)).filter((url) => url.includes("/ja/") || url.includes("/ko/")))
+      .toEqual([
+        withBaseUrl("data/tracks/junior-high/ja/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z"),
+        withBaseUrl("data/tracks/junior-high/ko/chunk-001.json?v=2026-06-09T00%3A00%3A00.000Z")
+      ]);
+  });
 });

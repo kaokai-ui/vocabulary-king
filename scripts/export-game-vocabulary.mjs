@@ -9,6 +9,10 @@ const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
 const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const EXTRA_LOCALES = {
+  ja: { meaningField: "meaning_ja", exampleField: "example_ja" },
+  ko: { meaningField: "meaning_ko", exampleField: "example_ko" }
+};
 
 export function getVocabularyDataRepoPath(env = process.env) {
   return path.resolve(env.VOCABULARY_DATA_REPO || DEFAULT_DATA_REPO);
@@ -91,7 +95,8 @@ function prepareTracks(dataRepoRoot) {
     }
 
     const sourceRows = readTrackSourceRows(dataRepoRoot, definition.id);
-    const records = buildTrackExportRecords(definition.id, sourceRows).map(({ level, word, meaning, example, id }) => ({
+    const exportRecords = buildTrackExportRecords(definition.id, sourceRows);
+    const records = exportRecords.map(({ level, word, meaning, example, id }) => ({
       level,
       word,
       meaning,
@@ -103,7 +108,20 @@ function prepareTracks(dataRepoRoot) {
       throw new Error(`Vocabulary source file for '${definition.id}' contains no exportable entries.`);
     }
 
-    prepared.set(definition.id, records);
+    const translationsByLocale = Object.fromEntries(
+      Object.entries(EXTRA_LOCALES).map(([locale, fields]) => [
+        locale,
+        exportRecords
+          .map((record) => ({
+            id: record.id,
+            meaning: String(sourceRows[record.sourceIndex]?.[fields.meaningField] ?? "").trim(),
+            example: String(sourceRows[record.sourceIndex]?.[fields.exampleField] ?? "").trim()
+          }))
+          .filter((record) => record.meaning || record.example)
+      ])
+    );
+
+    prepared.set(definition.id, { records, translationsByLocale });
   }
 
   return prepared;
@@ -137,7 +155,8 @@ export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(
 
   for (const definition of TRACK_DEFINITIONS) {
     if (definition.available) {
-      const vocabulary = preparedTracks.get(definition.id) ?? [];
+      const prepared = preparedTracks.get(definition.id) ?? { records: [], translationsByLocale: {} };
+      const vocabulary = prepared.records;
       const chunks = chunkItems(vocabulary, CHUNK_SIZE);
       const trackOutputDir = path.join(tracksRoot, definition.id);
 
@@ -156,7 +175,39 @@ export function exportGameVocabulary({ dataRepoRoot = getVocabularyDataRepoPath(
         };
       });
 
-      catalogTracks[definition.id] = createCatalogTrack(definition, chunkFiles, vocabulary.length);
+      const localeCatalog = {};
+
+      for (const locale of Object.keys(EXTRA_LOCALES)) {
+        const translatedRecords = prepared.translationsByLocale[locale] ?? [];
+        if (translatedRecords.length === 0) {
+          continue;
+        }
+
+        const localeChunks = chunkItems(translatedRecords, CHUNK_SIZE);
+        const localeChunkFiles = localeChunks.map((chunk, index) => {
+          const fileName = `chunk-${String(index + 1).padStart(3, "0")}.json`;
+          const relativePath = `data/tracks/${definition.id}/${locale}/${fileName}`;
+
+          writeJson(path.join(trackOutputDir, locale, fileName), chunk);
+
+          return {
+            id: `${definition.id}-${locale}-chunk-${index + 1}`,
+            path: relativePath,
+            wordCount: chunk.length
+          };
+        });
+
+        localeCatalog[locale] = {
+          totalWords: translatedRecords.length,
+          chunkSize: CHUNK_SIZE,
+          chunkFiles: localeChunkFiles
+        };
+      }
+
+      catalogTracks[definition.id] = {
+        ...createCatalogTrack(definition, chunkFiles, vocabulary.length),
+        ...(Object.keys(localeCatalog).length ? { locales: localeCatalog } : {})
+      };
       summaries.push(`${definition.id}: ${vocabulary.length} words, ${chunkFiles.length} chunk files`);
       continue;
     }

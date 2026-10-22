@@ -104,6 +104,7 @@ export const enMessages = {
   levelBadge: "Level",
   restoreBanner: "Your previous session was restored.",
   emptyExample: "No example is available for this word yet.",
+  translationFallback: "Chinese fallback",
   selectedLanguage: "Current language",
   masteryRule: "Mastered words include both manually marked known words and quiz mastery. Quiz mastery still requires answering the same word correctly at least twice while keeping correct answers above wrong answers.",
   loadingVocabulary: "Loading vocabulary...",

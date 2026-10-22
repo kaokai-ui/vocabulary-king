@@ -171,6 +171,19 @@ button {
   font-weight: 700;
 }
 
+.translation-fallback {
+  display: inline-block;
+  margin-inline-start: 0.45em;
+  padding: 0.12em 0.5em;
+  border-radius: 999px;
+  background: rgba(93, 110, 116, 0.12);
+  color: var(--muted);
+  font-size: 0.68em;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .speaker-button {
   display: inline-flex;
   align-items: center;

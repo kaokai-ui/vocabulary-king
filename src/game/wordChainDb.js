@@ -37,6 +37,9 @@ export function buildWordChainDb(vocabulary) {
     if (existingIndex !== undefined) {
       const existingEntry = entries[existingIndex];
       existingEntry.meaning = mergeMeaning(existingEntry.meaning, word.meaning);
+      if (word.meaningIsFallback) {
+        existingEntry.meaningIsFallback = true;
+      }
       continue;
     }
 
@@ -46,6 +49,7 @@ export function buildWordChainDb(vocabulary) {
       text: raw,
       chars: letters.split(""),
       meaning: (word.meaning ?? "").trim(),
+      ...(word.meaningIsFallback ? { meaningIsFallback: true } : {}),
       example: word.example ?? ""
     });
   }

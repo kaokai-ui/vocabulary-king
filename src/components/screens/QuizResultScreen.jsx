@@ -1,4 +1,5 @@
 import StageHeader from "../shared/StageHeader";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 import { QUIZ_MODES } from "../../lib/game";
 
 export default function QuizResultScreen({
@@ -65,7 +66,9 @@ export default function QuizResultScreen({
                     <td>{answer.prompt}</td>
                     <td>
                       <div className="result-answer-cell">
-                        <span>{answer.correctText}</span>
+                        <span>
+                          {answer.correctText} <TranslationFallbackLabel isFallback={answer.correctTextIsFallback} text={text} />
+                        </span>
                         <button
                           className={isStarred ? "add-word-button add-word-button--active" : "add-word-button"}
                           type="button"
@@ -78,7 +81,8 @@ export default function QuizResultScreen({
                       </div>
                     </td>
                     <td className={answer.isCorrect ? "answer-cell answer-cell--correct" : "answer-cell answer-cell--wrong"}>
-                      {answer.selectedText ?? text.timedOut}
+                      {answer.selectedText ?? text.timedOut}{" "}
+                      <TranslationFallbackLabel isFallback={answer.selectedTextIsFallback} text={text} />
                     </td>
                   </tr>
                 );

@@ -1,4 +1,5 @@
 import SpeakerButton from "../shared/SpeakerButton";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 import { useWordChainText } from "./WordChainTextContext";
 
 // Ported from IdiomKing/src/components/ChainHintPanel.tsx (focused/random-mode
@@ -55,7 +56,10 @@ export default function ChainHintPanel({
                   )}
                 </span>
               </div>
-              <p className="wc-hint-usage">{entry.meaning || text.wordChainNoMeaning}</p>
+              <p className="wc-hint-usage">
+                {entry.meaning || text.wordChainNoMeaning}{" "}
+                <TranslationFallbackLabel isFallback={entry.meaningIsFallback} text={text} />
+              </p>
               {answerVisible && (
                 <div className="wc-hint-answer-row">
                   <p className="wc-hint-answer">{entry.text}</p>

@@ -1,6 +1,7 @@
 import { useState, useCallback } from "react";
 import StageHeader from "../shared/StageHeader";
 import SpeakerButton from "../shared/SpeakerButton";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 import { searchVocabulary } from "../../lib/wordSearch";
 
 export default function WordSearchScreen({
@@ -75,10 +76,14 @@ export default function WordSearchScreen({
                         </div>
                         <span className="pill">{word.level}</span>
                       </div>
-                      <p className="word-row__meaning">{word.meaning}</p>
+                      <p className="word-row__meaning">
+                        {word.meaning} <TranslationFallbackLabel isFallback={word.meaningIsFallback} text={text} />
+                      </p>
                       {word.example ? (
                         <div className="word-row__example-wrap">
-                          <p className="word-row__example">{word.example}</p>
+                          <p className="word-row__example">
+                            {word.example} <TranslationFallbackLabel isFallback={word.exampleIsFallback} text={text} />
+                          </p>
                           <SpeakerButton
                             className="speaker-button--inline"
                             onClick={() => onPronounce(word.example)}

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useReducer, useRef } from "react";
 import { normalizeVocabularyTrack } from "../constants/vocabularyTracks";
+import { normalizeLocale } from "../i18n/localeConfig";
 import { messages } from "../i18n/messages";
 import { countProgress, createPracticeDeck, getResumeScreen } from "../lib/appState";
 import { trackEvent } from "../lib/analytics";
@@ -82,7 +83,11 @@ export function useVocabularyApp(vocabulary) {
   }, [session]);
 
   function updateSetting(key, value) {
-    const nextValue = key === "vocabularyTrack" ? normalizeVocabularyTrack(value) : value;
+    const nextValue = key === "vocabularyTrack"
+      ? normalizeVocabularyTrack(value)
+      : key === "locale"
+        ? normalizeLocale(value)
+        : value;
 
     if (key === "vocabularyTrack" && nextValue !== settings.vocabularyTrack) {
       trackEvent("select_vocabulary_track", {

@@ -1,4 +1,5 @@
 import SpeakerButton from "../shared/SpeakerButton";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 
 export default function QuizScreen({
   text,
@@ -74,7 +75,9 @@ export default function QuizScreen({
                 onClick={() => onAnswer(choice.id)}
               >
                 <span>{String.fromCharCode(65 + optionIndex)}</span>
-                <strong>{choice.text}</strong>
+                <strong>
+                  {choice.text} <TranslationFallbackLabel isFallback={choice.isFallback} text={text} />
+                </strong>
               </button>
             );
           })}

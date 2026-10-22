@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import PronunciationAccentSwitcher from "../shared/PronunciationAccentSwitcher";
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 
 export default function FlashcardScreen({
   text,
@@ -139,11 +140,17 @@ export default function FlashcardScreen({
             </h1>
             <SpeakerButton onClick={() => onPronounce(pronunciationWord)} />
           </div>
-          {showMeaning ? <p className="flashcard-meaning">{flashcard.meaning}</p> : null}
+          {showMeaning ? (
+            <p className="flashcard-meaning">
+              {flashcard.meaning} <TranslationFallbackLabel isFallback={flashcard.meaningIsFallback} text={text} />
+            </p>
+          ) : null}
           {showExample ? (
             flashcard.example ? (
               <div className="flashcard-example-row">
-                <p className="flashcard-example">{flashcard.example}</p>
+                <p className="flashcard-example">
+                  {flashcard.example} <TranslationFallbackLabel isFallback={flashcard.exampleIsFallback} text={text} />
+                </p>
                 <SpeakerButton
                   className="speaker-button--inline"
                   label="Play example sentence"

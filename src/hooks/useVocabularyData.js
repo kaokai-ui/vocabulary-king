@@ -8,14 +8,16 @@ import {
   VOCABULARY_ERROR_TYPES
 } from "../lib/vocabularyDataClient";
 
-export function useVocabularyData(trackId) {
+export function useVocabularyData(trackId, locale = "zh-TW") {
   const [catalog, setCatalog] = useState(() => getCachedCatalog());
-  const [vocabulary, setVocabulary] = useState(() => getCachedVocabulary(trackId) ?? []);
+  const [vocabulary, setVocabulary] = useState(() => getCachedVocabulary(trackId, locale) ?? []);
   const [catalogError, setCatalogError] = useState("");
   const [vocabularyError, setVocabularyError] = useState("");
   const [isCatalogLoading, setIsCatalogLoading] = useState(() => !getCachedCatalog());
-  const [isVocabularyLoading, setIsVocabularyLoading] = useState(() => !getCachedVocabulary(trackId));
-  const [loadedTrackId, setLoadedTrackId] = useState(() => (getCachedVocabulary(trackId) ? trackId : null));
+  const [isVocabularyLoading, setIsVocabularyLoading] = useState(() => !getCachedVocabulary(trackId, locale));
+  const [loadedTrackKey, setLoadedTrackKey] = useState(() =>
+    getCachedVocabulary(trackId, locale) ? `${trackId}:${locale}` : null
+  );
   const [retryKey, setRetryKey] = useState(0);
   const retryConsumedRef = useRef(false);
 
@@ -28,7 +30,8 @@ export function useVocabularyData(trackId) {
     let isCancelled = false;
     const abortController = new AbortController();
     const cachedCatalog = getCachedCatalog();
-    const cachedVocabulary = getCachedVocabulary(trackId);
+    const cachedVocabulary = getCachedVocabulary(trackId, locale);
+    const trackKey = `${trackId}:${locale}`;
     const forceRefresh = retryKey > 0 && !retryConsumedRef.current;
 
     if (forceRefresh) {
@@ -41,11 +44,11 @@ export function useVocabularyData(trackId) {
 
     if (!forceRefresh && cachedVocabulary) {
       setVocabulary(cachedVocabulary);
-      setLoadedTrackId(trackId);
+      setLoadedTrackKey(trackKey);
       setIsVocabularyLoading(false);
     } else {
       setVocabulary([]);
-      setLoadedTrackId(null);
+      setLoadedTrackKey(null);
       setIsVocabularyLoading(true);
     }
 
@@ -75,13 +78,14 @@ export function useVocabularyData(trackId) {
           const result = await loadVocabularyTrack(trackId, {
             catalog: nextCatalog,
             signal: abortController.signal,
-            forceRefresh
+            forceRefresh,
+            locale
           });
 
           if (!isCancelled) {
             setCatalog(result.catalog);
             setVocabulary(result.vocabulary);
-            setLoadedTrackId(trackId);
+            setLoadedTrackKey(trackKey);
             setIsVocabularyLoading(false);
           }
         } catch (error) {
@@ -91,7 +95,7 @@ export function useVocabularyData(trackId) {
 
           if (!isCancelled) {
             setVocabulary([]);
-            setLoadedTrackId(null);
+            setLoadedTrackKey(null);
             setVocabularyError(error instanceof VocabularyDataError ? error.type : "load-failed");
             setIsVocabularyLoading(false);
           }
@@ -116,7 +120,7 @@ export function useVocabularyData(trackId) {
       isCancelled = true;
       abortController.abort();
     };
-  }, [retryKey, trackId]);
+  }, [retryKey, trackId, locale]);
 
   return {
     catalog,
@@ -124,8 +128,8 @@ export function useVocabularyData(trackId) {
     vocabulary,
     vocabularyError,
     isCatalogLoading,
-    isVocabularyLoading: isVocabularyLoading || loadedTrackId !== trackId,
-    isVocabularyReady: loadedTrackId === trackId,
+    isVocabularyLoading: isVocabularyLoading || loadedTrackKey !== `${trackId}:${locale}`,
+    isVocabularyReady: loadedTrackKey === `${trackId}:${locale}`,
     retryVocabulary
   };
 }

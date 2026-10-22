@@ -61,7 +61,8 @@ export function useQuizSession({
         answeredAt: Date.now(),
         isCorrect,
         selectedChoiceId,
-        selectedChoiceText: selectedChoice?.text ?? null
+        selectedChoiceText: selectedChoice?.text ?? null,
+        selectedChoiceIsFallback: Boolean(selectedChoice?.isFallback)
       },
       meta: {
         trackId: activeTrackId

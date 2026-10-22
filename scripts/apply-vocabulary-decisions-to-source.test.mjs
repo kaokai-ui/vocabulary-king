@@ -81,6 +81,37 @@ describe("vocabulary source writeback", () => {
     expect(result.oldToNewIds).toEqual([]);
   });
 
+  it("writes Japanese and Korean fields without changing the vocabulary id", () => {
+    const sourceRows = [makeSourceRow()];
+    const snapshot = makeSnapshot(sourceRows);
+    const directory = createTempDirectory();
+    const sourcePath = path.join(directory, "toefl.jsonl");
+    const snapshotPath = path.join(directory, "snapshot.jsonl");
+    const decisionsPath = path.join(directory, "decisions.jsonl");
+    const translations = {
+      meaning_ja: "豊富な",
+      example_ja: "その地域は豊富な降雨がある。",
+      meaning_ko: "풍부한",
+      example_ko: "그 지역은 강우량이 풍부하다."
+    };
+    fs.writeFileSync(sourcePath, `${JSON.stringify(sourceRows[0])}\n`, "utf8");
+    fs.writeFileSync(snapshotPath, `${JSON.stringify(snapshot)}\n`, "utf8");
+    fs.writeFileSync(decisionsPath, `${JSON.stringify(makeDecision(snapshot, translations))}\n`, "utf8");
+
+    const result = applyVocabularyDecisionsToFile({
+      track: "toefl",
+      sourcePath,
+      snapshotPath,
+      decisionsPath
+    });
+    const updatedSource = JSON.parse(fs.readFileSync(sourcePath, "utf8").trim());
+
+    expect(updatedSource).toMatchObject(translations);
+    expect(buildTrackExportRecords("toefl", [updatedSource])[0].id).toBe(snapshot.id);
+    expect(result.oldToNewIds).toEqual([]);
+    expect(result.cellChanges.map(({ field }) => field)).toEqual(Object.keys(translations));
+  });
+
   it("reports an old-to-new id when the headword changes", () => {
     const sourceRows = [makeSourceRow()];
     const snapshot = makeSnapshot(sourceRows);

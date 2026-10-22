@@ -102,6 +102,7 @@ export const zhTWMessages = {
   levelBadge: "等級",
   restoreBanner: "已保留上次的遊戲進度。",
   emptyExample: "這個單字目前沒有例句。",
+  translationFallback: "中文回退",
   selectedLanguage: "目前語系",
   masteryRule: "已掌握單字包含手動加入的已會單詞，以及測驗累積掌握的單字。測驗掌握仍需同一單字至少答對 2 次，且答對次數必須多於答錯次數。",
   loadingVocabulary: "正在載入題庫...",

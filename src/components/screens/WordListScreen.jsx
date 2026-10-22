@@ -1,5 +1,6 @@
 import SpeakerButton from "../shared/SpeakerButton";
 import StageHeader from "../shared/StageHeader";
+import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 import { downloadWordListCsv } from "../../lib/wordListExport";
 
 export default function WordListScreen({ text, words, pronunciationMessage, onHome, onPronounce, onRemoveWord }) {
@@ -28,10 +29,14 @@ export default function WordListScreen({ text, words, pronunciationMessage, onHo
                   </div>
                   <span className="pill">{word.displayTrackLabel ?? word.level}</span>
                 </div>
-                <p className="word-row__meaning">{word.meaning}</p>
+                <p className="word-row__meaning">
+                  {word.meaning} <TranslationFallbackLabel isFallback={word.meaningIsFallback} text={text} />
+                </p>
                 {word.example ? (
                   <div className="word-row__example-wrap">
-                    <p className="word-row__example">{word.example}</p>
+                    <p className="word-row__example">
+                      {word.example} <TranslationFallbackLabel isFallback={word.exampleIsFallback} text={text} />
+                    </p>
                     <SpeakerButton
                       className="speaker-button--inline"
                       label="Play example sentence"

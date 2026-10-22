@@ -1,4 +1,5 @@
 import { defaultVocabularyTrack, normalizeVocabularyTrack } from "../constants/vocabularyTracks";
+import { normalizeLocale } from "../i18n/localeConfig";
 import { normalizePronunciationAccent } from "./speech";
 
 export const STORAGE_KEYS = {
@@ -50,6 +51,7 @@ export function normalizeSettings(settings) {
   return {
     ...defaultSettings,
     ...settings,
+    locale: normalizeLocale(settings?.locale),
     vocabularyTrack: normalizeVocabularyTrack(settings?.vocabularyTrack),
     pronunciationAccent: normalizePronunciationAccent(settings?.pronunciationAccent)
   };

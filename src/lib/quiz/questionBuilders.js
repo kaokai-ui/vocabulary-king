@@ -35,18 +35,22 @@ function buildUniqueMeaningChoices(correctWord, vocabulary, choiceCount = 4) {
     }
 
     seenMeanings.add(normalizedMeaning);
-    uniqueDistractors.push(candidate.meaning);
+    uniqueDistractors.push({ text: candidate.meaning, isFallback: Boolean(candidate.meaningIsFallback) });
 
     if (uniqueDistractors.length >= choiceCount - 1) {
       break;
     }
   }
 
-  const optionTexts = shuffle([correctWord.meaning, ...uniqueDistractors]);
+  const optionTexts = shuffle([
+    { text: correctWord.meaning, isFallback: Boolean(correctWord.meaningIsFallback) },
+    ...uniqueDistractors
+  ]);
 
-  return optionTexts.map((text, index) => ({
-    id: buildChoiceId(correctWord.id, text, index),
-    text
+  return optionTexts.map((option, index) => ({
+    id: buildChoiceId(correctWord.id, option.text, index),
+    text: option.text,
+    ...(option.isFallback ? { isFallback: true } : {})
   }));
 }
 
@@ -111,12 +115,13 @@ function buildMeaningChoiceQuestion(word, vocabulary) {
     correctChoiceId: correctChoice?.id ?? null,
     answerWord: word.word,
     correctText: word.meaning,
+    ...(word.meaningIsFallback ? { correctTextIsFallback: true } : {}),
     reviewPrompt: word.word
   };
 }
 
 function buildClozeChoiceQuestion(word, vocabulary) {
-  const prompt = createClozePrompt(word.word, word.example);
+  const prompt = createClozePrompt(word.word, word.sourceExample ?? word.example);
   const choices = buildUniqueWordChoices(word, vocabulary);
 
   if (!prompt || !choices) {
