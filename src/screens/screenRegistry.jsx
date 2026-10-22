@@ -11,6 +11,7 @@ import WordListScreen from "../components/screens/WordListScreen";
 import WordSearchScreen from "../components/screens/WordSearchScreen";
 import { vocabularyTracks } from "../constants/vocabularyTracks";
 import { QUIZ_MODES } from "../lib/game";
+import { formatWordBadge } from "../lib/wordBadge";
 import { actionTypes } from "../state/actionTypes";
 
 export const screenAnalytics = {
@@ -83,16 +84,19 @@ function getVocabularyTrackLabel(context, trackId = context.settings.vocabularyT
   );
 }
 
+function getWordBadge(context, word) {
+  if (!word) {
+    return undefined;
+  }
+  return formatWordBadge(context.text, word.sourceTrackId ?? context.settings.vocabularyTrack, word.level);
+}
+
 export const screenRegistry = {
   flashcards: (context) => (
     <FlashcardScreen
       text={context.text}
       flashcard={context.currentFlashcard}
-      vocabularyTrackLabel={
-        context.session.flashcards?.mode === "starred" && context.currentFlashcard?.sourceTrackId
-          ? getVocabularyTrackLabel(context, context.currentFlashcard.sourceTrackId)
-          : getVocabularyTrackLabel(context)
-      }
+      vocabularyTrackLabel={getWordBadge(context, context.currentFlashcard) ?? getVocabularyTrackLabel(context)}
       mode={context.session.flashcards?.mode}
       currentIndex={context.session.flashcards?.currentIndex ?? 0}
       totalCount={context.currentFlashcards.length}
@@ -150,7 +154,7 @@ export const screenRegistry = {
     <QuizScreen
       text={context.text}
       question={context.currentQuestion}
-      vocabularyTrackLabel={getVocabularyTrackLabel(context)}
+      vocabularyTrackLabel={getWordBadge(context, context.currentQuestion) ?? getVocabularyTrackLabel(context)}
       currentIndex={context.session.quiz?.currentIndex ?? 0}
       totalQuestions={context.session.quiz?.questions.length ?? 0}
       correctCount={context.session.quiz?.correctCount ?? 0}
@@ -196,7 +200,7 @@ export const screenRegistry = {
       text={context.text}
       words={context.starredWords.map((word) => ({
         ...word,
-        displayTrackLabel: word.sourceTrackId ? getVocabularyTrackLabel(context, word.sourceTrackId) : word.level
+        displayTrackLabel: word.sourceTrackId ? formatWordBadge(context.text, word.sourceTrackId, word.level) : word.level
       }))}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}
@@ -207,7 +211,7 @@ export const screenRegistry = {
   knownWords: (context) => (
     <KnownWordListScreen
       text={context.text}
-      words={context.knownWords}
+      words={context.knownWords.map((word) => ({ ...word, displayTrackLabel: getWordBadge(context, word) }))}
       vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       pronunciationMessage={context.pronunciationMessage}
       onHome={context.actions.goHome}

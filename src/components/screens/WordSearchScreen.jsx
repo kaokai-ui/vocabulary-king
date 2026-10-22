@@ -3,6 +3,7 @@ import StageHeader from "../shared/StageHeader";
 import SpeakerButton from "../shared/SpeakerButton";
 import TranslationFallbackLabel from "../shared/TranslationFallbackLabel";
 import { searchVocabulary } from "../../lib/wordSearch";
+import { formatWordBadge } from "../../lib/wordBadge";
 
 export default function WordSearchScreen({
   text,
@@ -74,7 +75,7 @@ export default function WordSearchScreen({
                             onClick={() => onPronounce(word.word)}
                           />
                         </div>
-                        <span className="pill">{word.level}</span>
+                        <span className="pill">{formatWordBadge(text, word.sourceTrackId, word.level)}</span>
                       </div>
                       <p className="word-row__meaning">
                         {word.meaning} <TranslationFallbackLabel isFallback={word.meaningIsFallback} text={text} />

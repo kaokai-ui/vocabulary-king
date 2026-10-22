@@ -17,13 +17,16 @@ function dedupeSearchResults(results) {
   const bestBySignature = new Map();
 
   for (const word of results) {
+    // The result pill names the track (lib/wordBadge), so the same word from two tracks is
+    // shown twice; only copies inside one track are folded together.
+    const normalizedTrack = normalizeSearchText(word.sourceTrackId);
     const normalizedWord = normalizeSearchText(word.word);
     const normalizedLevel = normalizeSearchText(word.level);
     const normalizedExample = normalizeSearchText(word.example);
     const normalizedMeaning = normalizeSearchText(word.meaning);
     const signature = normalizedExample
-      ? [normalizedWord, normalizedLevel, normalizedExample].join("\u0000")
-      : [normalizedWord, normalizedLevel, normalizedMeaning].join("\u0000");
+      ? [normalizedTrack, normalizedWord, normalizedLevel, normalizedExample].join("\u0000")
+      : [normalizedTrack, normalizedWord, normalizedLevel, normalizedMeaning].join("\u0000");
     const previous = bestBySignature.get(signature);
 
     if (!previous) {

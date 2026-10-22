@@ -27,7 +27,7 @@ export default function KnownWordListScreen({
                     <h2>{word.word}</h2>
                     <SpeakerButton className="speaker-button--inline" onClick={() => onPronounce(word.word)} />
                   </div>
-                  <span className="pill">{vocabularyTrackLabel ?? word.level}</span>
+                  <span className="pill">{word.displayTrackLabel ?? vocabularyTrackLabel ?? word.level}</span>
                 </div>
                 <p className="word-row__meaning">
                   {word.meaning} <TranslationFallbackLabel isFallback={word.meaningIsFallback} text={text} />

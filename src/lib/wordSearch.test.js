@@ -40,17 +40,26 @@ describe("searchVocabulary", () => {
   it("shows exact matches first while still keeping related prefix matches", () => {
     const results = searchVocabulary(vocabulary, "vocation");
 
-    expect(results.map((word) => `${word.word}:${word.level}`)).toEqual([
-      "vocation:L6",
-      "vocation:TOEIC-ADV",
-      "vocational:L6"
+    expect(results.map((word) => `${word.word}:${word.sourceTrackId}`)).toEqual([
+      "vocation:senior-high-5-6",
+      "vocation:gept-high-intermediate",
+      "vocation:toeic-advanced",
+      "vocational:senior-high-5-6"
     ]);
   });
 
-  it("deduplicates visually identical results from multiple tracks", () => {
+  it("keeps the same word from different tracks, since the badge names the track", () => {
     const results = searchVocabulary(vocabulary, "vocation");
 
-    expect(results.filter((word) => word.word === "vocation" && word.level === "L6")).toHaveLength(1);
+    expect(results.filter((word) => word.word === "vocation" && word.level === "L6").map((word) => word.sourceTrackId))
+      .toEqual(["senior-high-5-6", "gept-high-intermediate"]);
+  });
+
+  it("folds identical copies inside one track", () => {
+    const copy = { ...vocabulary[0], id: "l6-vocation-copy" };
+    const results = searchVocabulary([vocabulary[0], copy], "vocation");
+
+    expect(results).toHaveLength(1);
   });
 
   it("deduplicates same word and level when the example is identical even if meaning text differs", () => {
@@ -81,10 +90,11 @@ describe("searchVocabulary", () => {
   it("falls back to prefix matching when no exact word exists", () => {
     const results = searchVocabulary(vocabulary, "voca");
 
-    expect(results.map((word) => `${word.word}:${word.level}`)).toEqual([
-      "vocation:L6",
-      "vocational:L6",
-      "vocation:TOEIC-ADV"
+    expect(results.map((word) => `${word.word}:${word.sourceTrackId}`)).toEqual([
+      "vocation:senior-high-5-6",
+      "vocation:gept-high-intermediate",
+      "vocational:senior-high-5-6",
+      "vocation:toeic-advanced"
     ]);
   });
 });
