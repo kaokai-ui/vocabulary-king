@@ -46,6 +46,8 @@ const COMMON_TAIWAN_CHARACTER_VARIANTS = new Set([
 const SEPARABLE_PHRASAL_PARTICLES = new Set([
   "about", "across", "along", "around", "away", "back", "down", "in", "off", "on", "out", "over", "through", "up"
 ]);
+const HYPHEN_BOUNDARY_TOKEN = "__hyphen__";
+const PUNCTUATION_BOUNDARY_TOKEN = "__punctuation__";
 const HEADWORD_PLACEHOLDERS = new Set([
   "__slot_a__", "__slot_b__", "sb", "sth", "someone", "something", "__slot_possessive__", "oneself", "..."
 ]);
@@ -113,6 +115,7 @@ const IRREGULAR_WORD_FORMS = {
   send: ["sends", "sent", "sending"],
   sit: ["sits", "sat", "sitting"],
   speak: ["speaks", "spoke", "spoken", "speaking"],
+  shrink: ["shrinks", "shrank", "shrunk", "shrinking"],
   stand: ["stands", "stood", "standing"],
   swim: ["swims", "swam", "swum", "swimming"],
   teach: ["teaches", "taught", "teaching"],
@@ -869,8 +872,10 @@ function sentenceEndsWithEnglishPunctuation(text) {
 function normalizeEnglishTokens(text) {
   return asText(text)
     .toLocaleLowerCase()
-    .replace(/[‐‑‒–—-]/gu, " ")
-    .match(/[a-z]+(?:'[a-z]+)?/gu) ?? [];
+    .replace(/([a-z])[-‐‑‒–—](?=[a-z])/giu, `$1 ${HYPHEN_BOUNDARY_TOKEN} `)
+    .replace(/[,.!?;:](?=\s*[a-z])/giu, ` ${PUNCTUATION_BOUNDARY_TOKEN} `)
+    .replace(/[^\p{L}\p{N}'_\s]/gu, " ")
+    .match(/[a-z]+(?:'[a-z]+)?|__hyphen__|__punctuation__/gu) ?? [];
 }
 
 function expandOptionalWordForms(word) {
@@ -958,8 +963,9 @@ function inflectionsForFirstToken(word) {
 function normalizeHeadwordTokens(text) {
   const tokens = asText(text)
     .replace(/[’‘]/gu, "'")
-    .replace(/[‐‑‒–—-]/gu, " ")
-    .match(/[A-Za-z]+(?:'[A-Za-z]+)?|\.{3,}/gu) ?? [];
+    .replace(/([A-Za-z])[-‐‑‒–—](?=[A-Za-z])/gu, `$1 ${HYPHEN_BOUNDARY_TOKEN} `)
+    .replace(/[^A-Za-z0-9'_\.]+/gu, " ")
+    .match(/[A-Za-z]+(?:'[A-Za-z]+)?|\.{3,}|__hyphen__/gu) ?? [];
 
   return tokens.map((token) => {
     if (token === "A") {
@@ -977,21 +983,40 @@ function normalizeHeadwordTokens(text) {
   });
 }
 
+function expandHyphenBoundaryVariants(tokens) {
+  let variants = [[]];
+
+  for (const token of tokens) {
+    if (token !== HYPHEN_BOUNDARY_TOKEN) {
+      variants = variants.map((variant) => [...variant, token]);
+      continue;
+    }
+
+    variants = variants.flatMap((variant) => [
+      [...variant, HYPHEN_BOUNDARY_TOKEN],
+      [...variant]
+    ]);
+  }
+
+  return variants;
+}
+
 function formsForHeadword(word) {
   const forms = [];
 
   for (const alternative of expandOptionalWordForms(word)) {
-    const tokens = normalizeHeadwordTokens(alternative);
-    if (!tokens.length) {
-      continue;
-    }
+    for (const tokens of expandHyphenBoundaryVariants(normalizeHeadwordTokens(alternative))) {
+      if (!tokens.length) {
+        continue;
+      }
 
-    const firstToken = tokens[0];
-    const firstTokenForms = HEADWORD_PLACEHOLDERS.has(firstToken) || firstToken === "be" || ["a", "an", "the"].includes(firstToken)
-      ? [firstToken]
-      : inflectionsForFirstToken(firstToken);
-    for (const inflectedFirstToken of firstTokenForms) {
-      forms.push([inflectedFirstToken, ...tokens.slice(1)]);
+      const firstToken = tokens[0];
+      const firstTokenForms = HEADWORD_PLACEHOLDERS.has(firstToken) || firstToken === "be" || ["a", "an", "the"].includes(firstToken)
+        ? [firstToken]
+        : inflectionsForFirstToken(firstToken);
+      for (const inflectedFirstToken of firstTokenForms) {
+        forms.push([inflectedFirstToken, ...tokens.slice(1)]);
+      }
     }
   }
 

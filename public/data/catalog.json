@@ -1,5 +1,5 @@
 {
-  "generatedAt": "c65628e1f1b5",
+  "generatedAt": "a02a00e4e0a0",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -268,11 +268,43 @@
     },
     "ielts": {
       "id": "ielts",
-      "available": false,
+      "available": true,
       "title": "IELTS",
-      "totalWords": 0,
+      "sourceWorkbookKey": "ielts-final-workbook",
+      "totalWords": 5597,
       "chunkSize": 1000,
-      "chunkFiles": []
+      "chunkFiles": [
+        {
+          "id": "ielts-chunk-1",
+          "path": "data/tracks/ielts/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "ielts-chunk-2",
+          "path": "data/tracks/ielts/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "ielts-chunk-3",
+          "path": "data/tracks/ielts/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "ielts-chunk-4",
+          "path": "data/tracks/ielts/chunk-004.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "ielts-chunk-5",
+          "path": "data/tracks/ielts/chunk-005.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "ielts-chunk-6",
+          "path": "data/tracks/ielts/chunk-006.json",
+          "wordCount": 597
+        }
+      ]
     }
   }
 }

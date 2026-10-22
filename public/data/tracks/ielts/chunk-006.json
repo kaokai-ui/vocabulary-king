@@ -1,0 +1,4181 @@
+[
+  {
+    "level": "IELTS",
+    "word": "battle",
+    "meaning": "n. 戰鬥；戰役 v. 與……戰鬥",
+    "example": "The long battle for control of the coastal city lasted almost three weeks. (爭奪這座沿海城市控制權的漫長戰役持續了將近三週。)",
+    "id": "IELTS-battle-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "struggle",
+    "meaning": "v. 掙扎；奮鬥 n. 掙扎；奮鬥",
+    "example": "Many low-income families struggle to pay their rent and heating bills in winter. (許多低收入家庭在冬天苦苦掙扎，才能付得出房租和暖氣費。)",
+    "id": "IELTS-struggle-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "explosion",
+    "meaning": "n. 爆發；爆炸；激增",
+    "example": "The gas explosion damaged several nearby buildings but caused no serious injuries at all. (這起瓦斯爆炸損壞了幾棟附近的建築，但完全沒有造成重傷。)",
+    "id": "IELTS-explosion-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "bombard",
+    "meaning": "v. 轟炸；轟擊；連珠炮般質問",
+    "example": "Reporters bombarded the minister with questions about the sudden resignation of her senior deputy. (記者連珠炮般追問部長，她的高階副手為何突然辭職。)",
+    "id": "IELTS-bombard-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "bomb",
+    "meaning": "n. 炸彈 v. 轟炸",
+    "example": "The bomb was discovered in a parked car near the station and safely removed. (這枚炸彈在車站附近一輛停放的車內被發現，隨後被安全移除。)",
+    "id": "IELTS-bomb-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "twinkle",
+    "meaning": "v. 閃爍；閃耀 n. 閃爍",
+    "example": "The lights of the distant fishing village twinkled brightly across the dark water. (遠處漁村的燈火在漆黑的水面上明亮閃爍。)",
+    "id": "IELTS-twinkle-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "gunpowder",
+    "meaning": "n. 火藥",
+    "example": "Gunpowder was invented in China and later changed the nature of warfare entirely. (火藥在中國發明，後來徹底改變了戰爭的性質。)",
+    "id": "IELTS-gunpowder-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "tank",
+    "meaning": "n. 坦克；罐；槽；缸",
+    "example": "The old water tank on the roof still supplies the whole apartment building. (屋頂上的舊水箱仍供應整棟公寓的用水。)",
+    "id": "IELTS-tank-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pistol",
+    "meaning": "n. 手槍",
+    "example": "The police officer carried a pistol but hoped he would never need to use it. (這名警察配帶手槍，但希望永遠不必用到它。)",
+    "id": "IELTS-pistol-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "rifle",
+    "meaning": "n. 步槍；來福槍",
+    "example": "The young soldier cleaned his rifle carefully before setting out on the night patrol. (年輕士兵在出發夜巡前仔細擦拭步槍。)",
+    "id": "IELTS-rifle-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "flare",
+    "meaning": "n. 閃光；閃光訊號燈 v. 閃耀；突然燒旺",
+    "example": "A red distress flare suddenly lit the dark sky above the sinking fishing boat. (一枚紅色求救閃光訊號燈突然照亮沉沒漁船上方的夜空。)",
+    "id": "IELTS-flare-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "glow",
+    "meaning": "v. 發出微弱穩定的光 n. 微弱穩定的光；光輝",
+    "example": "The old street lamps gave a warm golden glow to the narrow stone street. (老路燈為狹窄的石板街道灑下溫暖的金色光暈。)",
+    "id": "IELTS-glow-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sword",
+    "meaning": "n. 劍；刀",
+    "example": "The ancient sword is displayed in a locked glass case in the local museum. (這把古劍陳列在當地博物館一個上鎖的玻璃櫃裡。)",
+    "id": "IELTS-sword-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "ax",
+    "meaning": "n. 斧頭；斧",
+    "example": "He split the dry logs with a heavy ax before the winter arrived. (冬天來臨前，他用沉重的斧頭劈開乾木柴。)",
+    "id": "IELTS-ax-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hammer",
+    "meaning": "n. 錘；榔頭 v. 用錘擊；敲打",
+    "example": "She used a small hammer to fix the loose wooden board on the fence. (她用一把小錘子固定柵欄上鬆動的木板。)",
+    "id": "IELTS-hammer-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "arrow",
+    "meaning": "n. 箭；箭頭",
+    "example": "A large red arrow on the sign points clearly towards the main station entrance. (標誌上一個大紅箭頭清楚指向車站的主要入口。)",
+    "id": "IELTS-arrow-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "spear",
+    "meaning": "n. 矛；標槍 v. 用尖物刺穿",
+    "example": "The local fishermen used a long wooden spear to catch fish in the shallows. (當地漁民用長木矛在淺水處捕魚。)",
+    "id": "IELTS-spear-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "helmet",
+    "meaning": "n. 頭盔；安全帽",
+    "example": "All cyclists should wear a helmet that fits properly and meets current safety standards. (所有騎腳踏車的人都應戴合適且符合現行安全標準的安全帽。)",
+    "id": "IELTS-helmet-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "shield",
+    "meaning": "n. 盾；防護物 v. 保護；掩護",
+    "example": "A heavy metal shield protected the young soldier's chest throughout the fierce battle. (一面沉重的金屬盾在激烈的戰役中全程保護著年輕士兵的胸口。)",
+    "id": "IELTS-shield-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "provide",
+    "meaning": "v. 供給；提供",
+    "example": "The school now provides free hot meals for children from the poorest local families. (這所學校現在為當地最貧困家庭的孩子提供免費熱餐。)",
+    "id": "IELTS-provide-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hit",
+    "meaning": "v. 打；擊；碰撞 n. 打擊；命中",
+    "example": "The storm hit the coast on Friday night and brought down many trees. (暴風雨在星期五晚上侵襲海岸，吹倒了許多樹木。)",
+    "id": "IELTS-hit-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "beat",
+    "meaning": "v. 打；打敗；跳動 n. 節拍；擊鼓聲",
+    "example": "Our team beat the visiting side by two goals in the final minute. (我們隊在最後一分鐘以兩球之差擊敗客隊。)",
+    "id": "IELTS-beat-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "chop",
+    "meaning": "v. 切碎（食物）；劈（木頭）",
+    "example": "Chop the dry wood into small pieces so that it burns more easily. (把乾木頭劈成小塊，這樣比較容易燃燒。)",
+    "id": "IELTS-chop-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "dilemma",
+    "meaning": "n. （進退兩難的）困境；兩難",
+    "example": "The council faces a dilemma between building new homes and protecting green space. (市議會面臨兩難：究竟該興建新住宅，還是保護綠地。)",
+    "id": "IELTS-dilemma-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "plight",
+    "meaning": "n. 困境；苦境",
+    "example": "The documentary highlights the plight of thousands of families living in temporary shelters. (這部紀錄片凸顯數千個住在臨時收容所家庭的困境。)",
+    "id": "IELTS-plight-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pitfall",
+    "meaning": "n. 陷阱；危險；困難",
+    "example": "The most common pitfall is to spend far too little time planning the project. (最常見的陷阱，就是花太少的時間規劃這項計畫。)",
+    "id": "IELTS-pitfall-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "conspiracy",
+    "meaning": "n. 陰謀；密謀；合謀",
+    "example": "Two officials were accused of a conspiracy to hide the true cost of the project. (兩名官員被控密謀隱匿這項計畫的真實成本。)",
+    "id": "IELTS-conspiracy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "destitute",
+    "meaning": "adj. 赤貧的；一無所有的；缺乏的",
+    "example": "The flood left thousands of local families completely destitute and dependent on emergency aid. (洪水讓數千個當地家庭一無所有，只能依賴緊急援助。)",
+    "id": "IELTS-destitute-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "famine",
+    "meaning": "n. 飢荒；饑荒",
+    "example": "Severe famine followed the long drought, and international agencies sent emergency food supplies. (長期乾旱之後發生嚴重飢荒，國際機構送來緊急糧食援助。)",
+    "id": "IELTS-famine-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "seize",
+    "meaning": "v. 抓住；奪取",
+    "example": "Customs officers seized the illegal goods at the border and started an investigation. (海關人員在邊境查扣非法貨物，並展開調查。)",
+    "id": "IELTS-seize-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pursue",
+    "meaning": "v. 追趕；追求；從事",
+    "example": "She decided to pursue a career in environmental law after finishing her degree. (她取得學位後，決定從事環境法相關職業。)",
+    "id": "IELTS-pursue-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "threat",
+    "meaning": "n. 威脅；恐嚇",
+    "example": "Rising sea levels pose a serious long-term threat to many low-lying coastal towns. (海平面上升對許多低窪沿海城鎮構成嚴重的長期威脅。)",
+    "id": "IELTS-threat-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "intrude",
+    "meaning": "v. 闖入；侵入；侵擾",
+    "example": "Journalists should never intrude on the private grief of ordinary families in deep mourning. (記者絕不應侵擾正沉浸在悲痛中的普通家庭。)",
+    "id": "IELTS-intrude-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "siege",
+    "meaning": "n. 包圍；圍攻",
+    "example": "The old walled city remained under siege for more than six long, difficult months. (這座有城牆的古城被圍攻超過六個漫長而艱難的月份。)",
+    "id": "IELTS-siege-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pause",
+    "meaning": "n. 暫停；停頓 v. 暫停；停頓",
+    "example": "After a short pause, she continued reading aloud from the final page of the report. (短暫停頓後，她繼續朗讀報告的最後一頁。)",
+    "id": "IELTS-pause-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "oppress",
+    "meaning": "v. 壓迫；壓制；使壓抑",
+    "example": "The military regime oppressed its own citizens for decades before it finally collapsed in 1989. (這個軍事政權壓迫本國人民數十年，直到一九八九年終於瓦解。)",
+    "id": "IELTS-oppress-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "forbid",
+    "meaning": "v. 禁止；阻止",
+    "example": "The hospital rules strictly forbid visitors from smoking inside the main buildings or wards. (醫院規定嚴格禁止訪客在主建築或病房內吸菸。)",
+    "id": "IELTS-forbid-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "prevent",
+    "meaning": "v. 預防；防止；阻止",
+    "example": "Regular and careful hand washing helps prevent the spread of infection in crowded city hospitals. (規律且仔細洗手有助預防感染在擁擠的城市醫院中擴散。)",
+    "id": "IELTS-prevent-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "revolt",
+    "meaning": "n. 叛亂；反抗 v. 叛亂；反抗",
+    "example": "The violent revolt began after the government sharply raised the price of bread and fuel. (政府大幅調漲麵包和燃料價格後，爆發了暴力叛亂。)",
+    "id": "IELTS-revolt-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "treason",
+    "meaning": "n. 叛國罪；通敵罪",
+    "example": "He was charged with treason after passing military secrets to a foreign government. (他因把軍事機密交給外國政府而被控叛國罪。)",
+    "id": "IELTS-treason-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "rebel",
+    "meaning": "n. 反叛者；叛逆者 v. 造反；反抗",
+    "example": "The rebels controlled the remote northern hills for several years during the long civil war. (漫長的內戰期間，反叛者控制北部偏遠山區好幾年。)",
+    "id": "IELTS-rebel-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "traitor",
+    "meaning": "n. 叛徒；賣國賊",
+    "example": "He was branded a traitor for revealing the secret defence plan to the enemy. (他因把秘密國防計畫洩露給敵方而被指為叛徒。)",
+    "id": "IELTS-traitor-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "patriot",
+    "meaning": "n. 愛國者",
+    "example": "She described herself as a patriot who simply wanted to improve living conditions in her country. (她說自己是愛國者，只是想改善國內的生活條件。)",
+    "id": "IELTS-patriot-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "reproach",
+    "meaning": "n. 責備；指責 v. 責備；指責",
+    "example": "He looked at her with quiet, angry reproach, though he said nothing at all. (他帶著壓抑而憤怒的責備眼神看著她，卻一句話也沒說。)",
+    "id": "IELTS-reproach-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "terror",
+    "meaning": "n. 恐懼；恐慌",
+    "example": "The villagers fled in sheer terror when the heavy fighting finally reached their valley. (激烈戰事終於逼近村莊所在的山谷時，村民驚恐萬分地逃離。)",
+    "id": "IELTS-terror-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "terrible",
+    "meaning": "adj. 可怕的；糟糕的；極嚴重的",
+    "example": "The road accident had terrible long-term consequences for the family and the entire community. (這起道路事故對那個家庭和整個社區造成極嚴重的長期後果。)",
+    "id": "IELTS-terrible-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "terrific",
+    "meaning": "adj. 極好的；很大的；很強的",
+    "example": "She did a terrific job of organising the whole international conference at short notice. (她在臨時通知的情況下，把整場國際會議籌辦得非常好。)",
+    "id": "IELTS-terrific-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "horrible",
+    "meaning": "adj. 可怕的；恐怖的",
+    "example": "The smell from the kitchen drains was horrible, so we closed all the windows. (廚房排水孔傳來的味道很可怕，所以我們把窗戶全關了。)",
+    "id": "IELTS-horrible-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "dread",
+    "meaning": "v. 極為害怕；非常擔心 n. 恐懼；憂愁",
+    "example": "Many students still dread speaking in public, even after months of careful preparation and practice. (許多學生即使經過數月細心準備和練習，仍極為害怕公開發言。)",
+    "id": "IELTS-dread-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "frighten",
+    "meaning": "v. 使害怕；使驚恐",
+    "example": "The sudden loud noise frightened the horses and sent them running across the field. (突然的巨大聲響讓馬匹受驚，奔過整片田野。)",
+    "id": "IELTS-frighten-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "tension",
+    "meaning": "n. 緊張；拉緊狀態",
+    "example": "Tension between the two neighbouring communities rose sharply after the disputed election result. (選舉結果引發爭議後，兩個鄰近社區之間的緊張急遽升高。)",
+    "id": "IELTS-tension-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "turbulent",
+    "meaning": "adj. 動盪的；混亂的；洶湧的",
+    "example": "The 1990s were a turbulent period of rapid political and economic change in the region. (一九九○年代是該地區政治與經濟快速變遷的動盪時期。)",
+    "id": "IELTS-turbulent-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "turmoil",
+    "meaning": "n. 混亂；騷亂",
+    "example": "The country was thrown into turmoil by the sudden death of its leader. (領導人突然去世，讓這個國家陷入混亂。)",
+    "id": "IELTS-turmoil-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "scenario",
+    "meaning": "n. 情況；劇情梗概；腳本",
+    "example": "The report outlines a worst-case scenario in which energy prices double within a single year. (報告勾勒出最壞情況：能源價格在一年內翻倍。)",
+    "id": "IELTS-scenario-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "limit",
+    "meaning": "n. 限度；界限 v. 限制；限定",
+    "example": "The doctor advised him to limit the amount of salt in his diet. (醫師建議他限制飲食中的鹽分攝取量。)",
+    "id": "IELTS-limit-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "rein",
+    "meaning": "n. 韁繩；控制權 v. 用韁繩勒馬；管束",
+    "example": "The government took steps to rein in rising public spending after the crisis. (危機過後，政府採取措施管束不斷上升的公共支出。)",
+    "id": "IELTS-rein-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "contest",
+    "meaning": "v. 爭取；爭辯 n. 競爭；比賽",
+    "example": "The party will contest the seat at the next general election in May. (這個政黨將在五月的大選中爭取這個席次。)",
+    "id": "IELTS-contest-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "contend",
+    "meaning": "v. 競爭；爭辯；主張",
+    "example": "Critics contend that the new law will seriously harm many already struggling small local businesses. (批評者主張，這項新法將嚴重傷害許多已苦苦掙扎的當地小型企業。)",
+    "id": "IELTS-contend-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "competitor",
+    "meaning": "n. 競爭者；對手",
+    "example": "Each competitor must complete the difficult uphill course within three hours to qualify. (每位參賽者必須在三小時內完成這段艱難的上坡路線才能取得資格。)",
+    "id": "IELTS-competitor-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "enemy",
+    "meaning": "n. 敵人；仇敵；敵軍",
+    "example": "The two countries remained enemy states for decades before signing a peace treaty. (這兩個國家敵對數十年，後來才簽署和平條約。)",
+    "id": "IELTS-enemy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "tactic",
+    "meaning": "n. 策略；戰術",
+    "example": "The company's aggressive tactic of cutting prices forced smaller rivals out of business. (這家公司積極削價的策略迫使較小的對手退出市場。)",
+    "id": "IELTS-tactic-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "maneuver/manoeuvre",
+    "meaning": "n. 策略；技巧；軍事演習",
+    "example": "The driver made a sharp maneuver to avoid a dog running onto the road. (駕駛緊急變換方向，避開一隻衝上馬路的狗。)",
+    "id": "IELTS-maneuver-manoeuvre-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "warn",
+    "meaning": "v. 警告；告誡",
+    "example": "Officials warned local residents to stay indoors during the worst of the storm. (官員警告當地居民在暴風雨最猛烈的時候留在室內。)",
+    "id": "IELTS-warn-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "oblige",
+    "meaning": "v. 迫使；強迫；幫忙",
+    "example": "The contract obliges the company to repair any damage within thirty working days. (合約迫使該公司必須在三十個工作天內修復任何損壞。)",
+    "id": "IELTS-oblige-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "protest",
+    "meaning": "n. 抗議；申明 v. 抗議；申辯",
+    "example": "Thousands of workers joined the protest against the planned closure of the plant. (數千名工人參加抗議，反對計劃關閉這座工廠。)",
+    "id": "IELTS-protest-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "refute",
+    "meaning": "v. 反駁；駁斥；否認",
+    "example": "The scientist firmly refuted the claim with evidence from three large independent studies published recently. (這位科學家以近期發表的三項大型獨立研究證據，堅決駁斥那項說法。)",
+    "id": "IELTS-refute-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "might",
+    "meaning": "n. 力量；威力",
+    "example": "The country used its full military might to end the long border dispute quickly. (這個國家動用全部軍事力量，想迅速結束長期的邊界爭端。)",
+    "id": "IELTS-might-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mitigate",
+    "meaning": "v. 減輕；緩和",
+    "example": "Planting trees along rivers can mitigate the effects of flooding in low-lying areas. (在河邊種樹可以減輕低窪地區淹水的影響。)",
+    "id": "IELTS-mitigate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "comfort",
+    "meaning": "n. 安慰；舒適 v. 安慰；撫慰",
+    "example": "She found comfort in the letters her friends sent during that difficult year. (在那個艱難的一年裡，她從朋友寄來的信件中得到安慰。)",
+    "id": "IELTS-comfort-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "matter",
+    "meaning": "n. 事情；物質 v. 要緊",
+    "example": "It does not matter whether you start today or tomorrow, as long as you start. (你今天或明天開始都不要緊，只要真的開始就好。)",
+    "id": "IELTS-matter-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "happen",
+    "meaning": "v. 發生；出現；碰巧",
+    "example": "No one yet knows exactly what happened on the night of the terrible bridge collapse. (目前還沒有人確切知道那座橋嚴重坍塌當晚發生了什麼事。)",
+    "id": "IELTS-happen-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "savage",
+    "meaning": "adj. 野蠻的；兇狠的 n. 野蠻人 v. 兇狠地攻擊",
+    "example": "The report describes the savage and cruel treatment of political prisoners in the remote camp. (報告描述政治犯在偏遠營地遭受兇狠殘酷的對待。)",
+    "id": "IELTS-savage-adj-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "reckless",
+    "meaning": "adj. 魯莽的；不計後果的",
+    "example": "Reckless driving is one of the main causes of accidents among young men. (魯莽駕駛是年輕男性發生事故的主要原因之一。)",
+    "id": "IELTS-reckless-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "evil",
+    "meaning": "n. 邪惡；禍害 adj. 邪惡的",
+    "example": "The novel explores how ordinary people can be drawn into evil actions during war. (這本小說探討一般人在戰爭中如何被捲入邪惡行為。)",
+    "id": "IELTS-evil-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "devil",
+    "meaning": "n. 魔鬼；惡棍",
+    "example": "The old folk story describes a dangerous bargain between a poor farmer and the devil. (這則古老民間故事描述一名貧農與魔鬼之間的危險交易。)",
+    "id": "IELTS-devil-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "punishment",
+    "meaning": "n. 懲罰；處罰",
+    "example": "The punishment for the offence was a large fine and a short prison term. (這項罪行的懲罰是鉅額罰款和短期徒刑。)",
+    "id": "IELTS-punishment-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "funeral",
+    "meaning": "n. 葬禮；喪禮",
+    "example": "Hundreds of local people attended the funeral of the much respected former town mayor. (數百名當地民眾參加了深受敬重的前任市長葬禮。)",
+    "id": "IELTS-funeral-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "grave",
+    "meaning": "n. 墳墓；死亡 adj. 莊重的；嚴肅的",
+    "example": "A simple wooden cross today marks the quiet grave beside the old stone church. (如今一座簡單的木十字架標示著老石造教堂旁那座安靜的墳墓。)",
+    "id": "IELTS-grave-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "tomb",
+    "meaning": "n. 墳墓；塚",
+    "example": "The tomb of the famous poet is visited by thousands of readers each year. (這位名詩人的墳墓每年有數千名讀者前來憑弔。)",
+    "id": "IELTS-tomb-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hell",
+    "meaning": "n. 地獄；苦境",
+    "example": "The former prisoners later described the labour camp as a living hell on earth. (這些前囚犯後來形容那座勞改營是人間活地獄。)",
+    "id": "IELTS-hell-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "naval",
+    "meaning": "adj. 海軍的",
+    "example": "The naval base was originally built to protect the narrow entrance to the harbour. (這座海軍基地最初是為了保護港口狹窄的入口而建。)",
+    "id": "IELTS-naval-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "troop",
+    "meaning": "n. 一群；軍隊 v. 結隊前行",
+    "example": "The government quickly sent extra troops to the northern border after the surprise attack. (突襲發生後，政府迅速增派軍隊前往北部邊界。)",
+    "id": "IELTS-troop-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "landing",
+    "meaning": "n. 著陸；登陸",
+    "example": "The plane made a safe emergency landing in the dark despite the strong crosswind. (儘管側風強勁，飛機仍在黑暗中安全緊急著陸。)",
+    "id": "IELTS-landing-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "progress",
+    "meaning": "n. 前進；進步 v. 前進；進步",
+    "example": "Progress on the new high-speed railway has been much slower than the government promised. (新高鐵的進度遠比政府承諾的緩慢。)",
+    "id": "IELTS-progress-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "risk",
+    "meaning": "n. 危險；風險 v. 冒著……的危險",
+    "example": "Regular adult smokers face a much higher risk of serious heart disease than non-smokers. (有規律吸菸習慣的成年人罹患嚴重心臟病的風險遠高於不吸菸者。)",
+    "id": "IELTS-risk-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "peril",
+    "meaning": "n. 重大危險；險情",
+    "example": "The young sailors ignored the obvious peril of sailing in such extremely rough weather. (年輕水手忽視了在如此惡劣天候下航行的明顯重大危險。)",
+    "id": "IELTS-peril-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "torture",
+    "meaning": "n. 拷問；折磨 v. 拷問；使痛苦",
+    "example": "The released prisoners reported that they had been subjected to brutal torture for several long weeks. (獲釋囚犯表示，他們曾遭殘酷拷問好幾個漫長的星期。)",
+    "id": "IELTS-torture-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "humiliate",
+    "meaning": "v. 羞辱；使蒙羞",
+    "example": "He felt deeply humiliated when his mistake was pointed out in front of the whole team. (他的錯誤在整個團隊面前被指出來時，他感到深受羞辱。)",
+    "id": "IELTS-humiliate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "harmful",
+    "meaning": "adj. 有害的",
+    "example": "Some chemical additives in processed food may be harmful to the health of young children. (加工食品中的某些化學添加物可能有害幼童健康。)",
+    "id": "IELTS-harmful-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "mislead",
+    "meaning": "v. 誤導；欺騙；使誤入歧途",
+    "example": "The advertisement was banned because it deliberately misled customers about the product's supposed health benefits. (這則廣告因刻意誤導消費者相信產品具有健康效益而被禁播。)",
+    "id": "IELTS-mislead-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "retreat",
+    "meaning": "n. 撤退；退避 v. 撤退；退避",
+    "example": "The army was forced to retreat across the river after several days of heavy fighting. (經過數日激戰，軍隊被迫渡河撤退。)",
+    "id": "IELTS-retreat-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "surrender",
+    "meaning": "n. 投降；放棄 v. 投降；放棄",
+    "example": "The rebels refused to surrender even when their food and water supplies ran out. (即使糧食和飲水耗盡，反叛者仍拒絕投降。)",
+    "id": "IELTS-surrender-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "escape",
+    "meaning": "n. 逃跑；逃脫 v. 逃跑；逃避",
+    "example": "Two prisoners escaped through a tunnel that they had dug over several long months. (兩名囚犯經由他們花了好幾個月挖成的隧道逃走。)",
+    "id": "IELTS-escape-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "quit",
+    "meaning": "v. 放棄；停止；辭去；離開",
+    "example": "He decided to quit his job and start a small business at home. (他決定辭掉工作，在家裡經營小生意。)",
+    "id": "IELTS-quit-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "forgo/forego",
+    "meaning": "v. 放棄；捨棄",
+    "example": "She decided to forgo her holiday in order to finish the project on time. (為了準時完成計畫，她決定放棄假期。)",
+    "id": "IELTS-forgo-forego-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "rid",
+    "meaning": "adj. 擺脫的；丟棄的",
+    "example": "The city is trying to get rid of its oldest and most polluting diesel buses. (這座城市正努力淘汰最老舊、汙染最嚴重的柴油公車。)",
+    "id": "IELTS-rid-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "defend",
+    "meaning": "v. 防禦；保護；辯護",
+    "example": "Lawyers defended in court the right of local residents to challenge the planning decision. (律師在法庭上為當地居民質疑這項都市計畫決定的權利辯護。)",
+    "id": "IELTS-defend-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "safeguard",
+    "meaning": "v. 保護；保衛 n. 保護措施",
+    "example": "Strict new rules were introduced to safeguard the personal data held by large online companies. (當局訂立嚴格的新規定，以保護大型網路公司持有的個人資料。)",
+    "id": "IELTS-safeguard-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "victory",
+    "meaning": "n. 勝利；成功",
+    "example": "The surprise election victory gave the party a clear majority in the national parliament. (這場意外的選舉勝利讓該黨在國會取得明顯多數。)",
+    "id": "IELTS-victory-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "triumph",
+    "meaning": "n. 偉大勝利；非凡的成功 v. 獲得勝利",
+    "example": "The new bridge was widely seen as a major triumph of modern engineering and design. (這座新橋被普遍視為現代工程與設計的一大勝利。)",
+    "id": "IELTS-triumph-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "monument",
+    "meaning": "n. 紀念碑；歷史古蹟；典範",
+    "example": "A monument to the founder of the city stands in the main square. (一座紀念城市創建者的紀念碑矗立在主廣場上。)",
+    "id": "IELTS-monument-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "medal",
+    "meaning": "n. 勳章；獎章",
+    "example": "She won a silver medal in the 800 metres at the age of nineteen. (她十九歲時在八百公尺賽跑贏得銀牌。)",
+    "id": "IELTS-medal-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "honor/honour",
+    "meaning": "n. 尊敬；敬意；榮譽 v. 尊敬；給予表揚",
+    "example": "The school held a special ceremony to honour the teachers who retired that year. (學校舉辦特別典禮，表揚那年退休的教師。)",
+    "id": "IELTS-honor-honour-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "patrol",
+    "meaning": "n. 巡邏；巡查 v. 巡邏；巡查",
+    "example": "Security guards patrol the whole building site every two hours, day and night. (保全人員日日夜夜每兩小時巡邏整個建築工地。)",
+    "id": "IELTS-patrol-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "guard",
+    "meaning": "n. 衛兵；警衛員 v. 看守；守衛；保衛",
+    "example": "A security guard checked our passes carefully before allowing us through the gate. (警衛仔細檢查我們的通行證後，才讓我們通過大門。)",
+    "id": "IELTS-guard-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "spy",
+    "meaning": "n. 間諜；特務 v. 收集情報；從事間諜活動",
+    "example": "The novel is about a spy who secretly worked inside the foreign ministry for years. (這本小說講述一名在外交部內部秘密潛伏多年的間諜。)",
+    "id": "IELTS-spy-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "soldier",
+    "meaning": "n. 戰士；士兵",
+    "example": "The young soldier finally returned home after more than two years of service abroad. (這名年輕士兵在國外服役兩年多後，終於返鄉。)",
+    "id": "IELTS-soldier-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "veteran",
+    "meaning": "n. 老兵；老手",
+    "example": "The elderly war veteran described his experiences calmly to a group of school students. (這位年長的退伍老兵平靜地向一群學生描述自己的經歷。)",
+    "id": "IELTS-veteran-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pioneer",
+    "meaning": "n. 先驅；開創者",
+    "example": "She was an early pioneer of modern medical research into tropical diseases in Africa. (她是非洲熱帶疾病現代醫學研究的早期先驅。)",
+    "id": "IELTS-pioneer-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "prophet",
+    "meaning": "n. 先知；預言家",
+    "example": "The ancient prophet warned the villagers that a long and severe drought was coming. (古代先知警告村民，一場漫長而嚴重的乾旱即將來臨。)",
+    "id": "IELTS-prophet-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "herald",
+    "meaning": "n. 使者；傳令官；先驅；預兆 v. 預告；宣佈",
+    "example": "The first flowers of spring herald the end of a long, cold winter. (初春的花朵預告漫長寒冬即將結束。)",
+    "id": "IELTS-herald-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "successor",
+    "meaning": "n. 接替者；繼任者；後繼的事物",
+    "example": "The company has still not named a permanent successor to its retiring finance director. (這家公司仍未指派出任財務董事的正式繼任者。)",
+    "id": "IELTS-successor-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "generation",
+    "meaning": "n. 一代；一代人",
+    "example": "The younger generation now spends far more time online than their parents did at the same age. (年輕一代現在上網的時間，遠比他們的父母在同年紀時多得多。)",
+    "id": "IELTS-generation-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "surname",
+    "meaning": "n. 姓；姓氏 v. 給……起別名",
+    "example": "Please write your surname in capital letters at the top of the form. (請用大寫字母把姓氏寫在表格上方。)",
+    "id": "IELTS-surname-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "sex",
+    "meaning": "n. 性別；性行為",
+    "example": "The form asks for your name, age, sex, occupation and country of residence. (這份表格要求填寫姓名、年齡、性別、職業和居住國。)",
+    "id": "IELTS-sex-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "husband",
+    "meaning": "n. 丈夫",
+    "example": "Her husband works as a civil engineer at a company outside the city. (她丈夫在城外一家公司擔任土木工程師。)",
+    "id": "IELTS-husband-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "gay",
+    "meaning": "n. 同性戀者（尤指男性） adj. 同性戀的；快樂的；豔麗的",
+    "example": "The festival welcomes gay, lesbian and transgender visitors from all over the country. (這個節慶歡迎來自全國各地的男同志、女同志和跨性別訪客。)",
+    "id": "IELTS-gay-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "grandfather",
+    "meaning": "n. （外）祖父",
+    "example": "My grandfather taught me how to grow vegetables in his garden without using chemicals. (我祖父教我如何在他的花園裡不用化學藥劑種菜。)",
+    "id": "IELTS-grandfather-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "father-in-law",
+    "meaning": "n. 岳父；公公",
+    "example": "Her father-in-law still runs a small family furniture business in a northern town. (她的岳父仍在北部一座小鎮經營小型家族家具生意。)",
+    "id": "IELTS-father-in-law-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sibling",
+    "meaning": "n. 兄弟姊妹；手足",
+    "example": "Children who have older siblings often learn to read before they start primary school. (有哥哥姊姊的孩子常在進小學前就學會閱讀。)",
+    "id": "IELTS-sibling-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "cousin",
+    "meaning": "n. 堂（或表）兄弟姊妹；表親",
+    "example": "My favourite cousin lives in Canada and usually visits us during every second long summer holiday. (我最要好的表親住在加拿大，通常每隔一個長暑假會來看我們。)",
+    "id": "IELTS-cousin-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "nephew",
+    "meaning": "n. 侄子；外甥",
+    "example": "My young nephew is learning to play the violin and practises it for an hour every evening. (我年幼的外甥正在學小提琴，每晚練一小時。)",
+    "id": "IELTS-nephew-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "niece",
+    "meaning": "n. 姪女；外甥女",
+    "example": "My niece drew a picture of the whole family and gave it to me. (我姪女畫了一張全家福，送給我。)",
+    "id": "IELTS-niece-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "twin",
+    "meaning": "adj. 成雙的 n. 雙胞胎之一",
+    "example": "Her twin sister lives in the same street and they meet for coffee almost every day. (她的雙胞胎姊妹住在同一條街，兩人幾乎每天一起喝咖啡。)",
+    "id": "IELTS-twin-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "infant",
+    "meaning": "n. 嬰兒；幼兒 adj. 嬰兒的；供嬰兒用的",
+    "example": "An infant should be breastfed or given formula milk for the first months. (嬰兒在最初幾個月應以母乳或配方奶餵養。)",
+    "id": "IELTS-infant-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "orphan",
+    "meaning": "n. 孤兒 v. 使成為孤兒",
+    "example": "The charity runs a small school for children who were orphaned by the long war. (這個慈善機構為因長期戰爭而成為孤兒的孩子辦了一所小學校。)",
+    "id": "IELTS-orphan-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "youngster",
+    "meaning": "n. 年輕人；少年",
+    "example": "The club offers free weekly coaching to local youngsters who want to try track and field athletics. (這個俱樂部每週免費指導想嘗試田徑運動的當地年輕人。)",
+    "id": "IELTS-youngster-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "youth",
+    "meaning": "n. 青年時期；青春；青年",
+    "example": "In his youth, he travelled across Europe by train with very little money. (他青年時期帶著很少的錢，搭火車遊遍歐洲。)",
+    "id": "IELTS-youth-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "teenager",
+    "meaning": "n. （13 至 19 歲之間的）青少年",
+    "example": "Many teenagers spend several hours a day looking at screens for entertainment rather than study. (許多青少年每天花好幾小時看螢幕娛樂，而不是讀書。)",
+    "id": "IELTS-teenager-n-13-19"
+  },
+  {
+    "level": "IELTS",
+    "word": "kin",
+    "meaning": "n. 家屬；親戚 adj. 有血緣關係的；類似的",
+    "example": "The family invited all its closest kin to the traditional village wedding in June. (這家人邀請所有最親近的親戚參加六月的傳統鄉村婚禮。)",
+    "id": "IELTS-kin-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "folk",
+    "meaning": "n. 人們；家屬；親屬",
+    "example": "Older folk in the village still remember when the river froze over every single winter. (村裡的長輩仍記得從前那條河每年冬天都會結冰。)",
+    "id": "IELTS-folk-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "dear",
+    "meaning": "adj. 親愛的；珍貴的 int. 啊呀",
+    "example": "She wrote a long handwritten letter to her dear old friend who lives in Australia. (她寫了一封長長的手寫信，給住在澳洲的摯友。)",
+    "id": "IELTS-dear-adj-int"
+  },
+  {
+    "level": "IELTS",
+    "word": "darling",
+    "meaning": "n. 親愛的；寵兒",
+    "example": "He called his youngest daughter darling and kissed her forehead softly before she left. (他喚小女兒「親愛的」，並在她離開前輕輕吻了她的額頭。)",
+    "id": "IELTS-darling-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lover",
+    "meaning": "n. 愛好者；（婚外的）情人",
+    "example": "She is a great lover of classical music and attends concerts every month. (她非常熱愛古典音樂，每個月都去聽音樂會。)",
+    "id": "IELTS-lover-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "beloved",
+    "meaning": "n. 愛人 adj. 深受喜愛的",
+    "example": "The beloved old teacher finally retired after almost forty years at the same village school. (這位深受喜愛的老教師在同一所鄉村學校任教近四十年後終於退休。)",
+    "id": "IELTS-beloved-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "madam",
+    "meaning": "n. 夫人；女士",
+    "example": "The shop assistant asked, 'Can I help you, madam?' in a polite voice. (店員禮貌地問：「女士，需要我為您服務嗎？」)",
+    "id": "IELTS-madam-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hostess",
+    "meaning": "n. 女主人；女招待",
+    "example": "The hostess greeted each guest warmly at the door and took their coats and bags. (女主人在門口親切迎接每位客人，並接過他們的外套和袋子。)",
+    "id": "IELTS-hostess-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "landlady",
+    "meaning": "n. 女房東；女地主",
+    "example": "The elderly landlady lives downstairs and keeps the shared back garden tidy all year round. (年長的女房東住在樓下，全年把共用的後花園整理得很整齊。)",
+    "id": "IELTS-landlady-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mistress",
+    "meaning": "n. 女主人；情婦",
+    "example": "The novel's central character is the secret mistress of a wealthy nineteenth-century country landowner. (這本小說的主角是一位十九世紀鄉間富有地主秘密的情婦。)",
+    "id": "IELTS-mistress-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "housewife",
+    "meaning": "n. 家庭主婦",
+    "example": "The survey found that many housewives also do a great deal of unpaid care work. (這項調查發現，許多家庭主婦還承擔大量無酬照顧工作。)",
+    "id": "IELTS-housewife-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "widow",
+    "meaning": "n. 寡婦；遺孀",
+    "example": "The widow has lived alone in the small cottage since her husband died ten years ago. (丈夫十年前過世後，這位寡婦就獨自住在小屋裡。)",
+    "id": "IELTS-widow-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "maid",
+    "meaning": "n. 女傭；女僕；少女",
+    "example": "A maid cleans the hotel rooms every morning and changes every set of bed sheets. (女僕每天早上打掃飯店房間，並更換每一套床單。)",
+    "id": "IELTS-maid-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "maiden",
+    "meaning": "n. 少女；姑娘",
+    "example": "In the story, a young maiden waits by the river for her lover. (故事中，一位少女在河邊等待她的情人。)",
+    "id": "IELTS-maiden-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "chore",
+    "meaning": "n. 家庭雜務；乏味無聊的工作",
+    "example": "Washing the dishes is a boring daily chore that nobody in the shared flat enjoys. (洗碗是件無聊的日常家務，合租公寓裡沒有人喜歡做。)",
+    "id": "IELTS-chore-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "landlord",
+    "meaning": "n. 地主；房東；（酒吧）店主",
+    "example": "The landlord promised to repair the heating before the end of the month. (房東承諾在月底前修好暖氣。)",
+    "id": "IELTS-landlord-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "guest",
+    "meaning": "n. 客人；賓客；旅客",
+    "example": "Each wedding guest received a small gift and a detailed map of the old city. (每位婚禮賓客都收到一份小禮物和一份老城詳細地圖。)",
+    "id": "IELTS-guest-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "customer",
+    "meaning": "n. 顧客；主顧；客戶",
+    "example": "One angry customer complained again that the delivery had arrived three full days late. (一位氣憤的顧客再次抱怨，貨物整整遲了三天才送到。)",
+    "id": "IELTS-customer-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "miss",
+    "meaning": "v. 想念；錯過；未注意到",
+    "example": "I really miss my old school friends, although we still talk online almost every week. (我很想念以前學校的朋友，雖然我們幾乎每週都還會在線上聊天。)",
+    "id": "IELTS-miss-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "dependent",
+    "meaning": "adj. 依靠的；依賴的",
+    "example": "Some older people may become dependent on daily help with cooking, cleaning and shopping. (有些年長者可能變得需要每天有人在煮飯、打掃和採買上幫忙。)",
+    "id": "IELTS-dependent-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "engagement",
+    "meaning": "n. 婚約；約定；訂婚",
+    "example": "They quietly announced their engagement at a large family dinner in the country last Saturday. (他們上星期六在鄉間一場大型家庭晚餐中低調宣布訂婚。)",
+    "id": "IELTS-engagement-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "marry",
+    "meaning": "v. 娶；嫁；結婚",
+    "example": "They plan to marry next spring in the village where they met. (他們打算明年春天在相識的村莊結婚。)",
+    "id": "IELTS-marry-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "wedding",
+    "meaning": "n. 婚禮",
+    "example": "The wedding was small, with only close family and a few old friends. (婚禮規模不大，只有至親和幾位老朋友參加。)",
+    "id": "IELTS-wedding-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "honeymoon",
+    "meaning": "n. 蜜月",
+    "example": "They spent their honeymoon walking in the mountains and visiting small villages along the coast. (他們蜜月時在山間健行，並造訪沿海的小村落。)",
+    "id": "IELTS-honeymoon-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "kiss",
+    "meaning": "v. 吻；接吻 n. 吻",
+    "example": "She kissed her young son goodbye and watched him board the crowded evening train. (她吻別年幼的兒子，看著他搭上擁擠的晚班火車。)",
+    "id": "IELTS-kiss-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "divorce",
+    "meaning": "n. 離婚；脫離 v. 與……離婚；使脫離",
+    "example": "They finally decided to divorce legally after living apart for more than a year. (分居一年多後，他們終於決定循法律途徑離婚。)",
+    "id": "IELTS-divorce-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "single",
+    "meaning": "adj. 單一的；單身的",
+    "example": "The small flat is designed for a single person or a young couple. (這間小公寓是為單身者或年輕夫妻設計的。)",
+    "id": "IELTS-single-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "respective",
+    "meaning": "adj. 各自的；分別的",
+    "example": "After the long meeting, the two managers returned quietly to their own respective regional offices. (冗長的會議結束後，兩位經理各自安靜地回到自己的地區辦公室。)",
+    "id": "IELTS-respective-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "each",
+    "meaning": "pron. 各個；各自",
+    "example": "Each of the students received a certificate at the end of the course. (課程結束時，每位學生都拿到一張證書。)",
+    "id": "IELTS-each-pron"
+  },
+  {
+    "level": "IELTS",
+    "word": "commuter",
+    "meaning": "n. 通勤者；往返者",
+    "example": "The new express bus route has significantly cut journey times for thousands of daily commuters. (新的快速公車路線大幅縮短了數千名每日通勤者的旅程時間。)",
+    "id": "IELTS-commuter-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "neighborhood/neighbourhood",
+    "meaning": "n. 街坊；居住區；周邊地區",
+    "example": "The quiet neighborhood has a small park, a public library and two primary schools. (這個安靜的居住區有一座小公園、一間公共圖書館和兩所小學。)",
+    "id": "IELTS-neighborhood-neighbourhood-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "member",
+    "meaning": "n. 成員；會員",
+    "example": "Each member of the small research team contributed useful ideas to the final plan. (小型研究團隊的每位成員都為最終計畫貢獻了有用的想法。)",
+    "id": "IELTS-member-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "boss",
+    "meaning": "n. 老闆；上司 v. 對……指手畫腳",
+    "example": "Her boss agreed to let her work from home two days a week. (她的老闆同意讓她每週有兩天在家工作。)",
+    "id": "IELTS-boss-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "manager",
+    "meaning": "n. 經理；管理人",
+    "example": "The store manager explained the new safety procedure to staff at the morning meeting. (店經理在早會上向員工說明新的安全程序。)",
+    "id": "IELTS-manager-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "partner",
+    "meaning": "n. 夥伴；合夥人；搭檔",
+    "example": "She started the small design business with a partner she had met at university. (她和大學認識的合夥人一起創立了這家小型設計公司。)",
+    "id": "IELTS-partner-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "colleague",
+    "meaning": "n. 同事；同僚",
+    "example": "A colleague recommended the new Italian restaurant, so we booked a table there. (同事推薦了那家新開的義大利餐廳，所以我們在那裡訂了位。)",
+    "id": "IELTS-colleague-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "comrade",
+    "meaning": "n. 同志；（尤指共患難的）同伴",
+    "example": "He wrote warmly about the comrades he had fought beside during the war. (他溫暖地寫下戰時與他並肩作戰的同伴。)",
+    "id": "IELTS-comrade-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "friendship",
+    "meaning": "n. 友誼；友情；友好",
+    "example": "Their friendship began at school and has lasted for more than thirty years. (他們的友誼從學校開始，持續了三十多年。)",
+    "id": "IELTS-friendship-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "affection",
+    "meaning": "n. 喜愛；喜歡；愛情",
+    "example": "She looked at the old photographs with obvious affection and a little sadness. (她帶著明顯的喜愛和一點感傷，看著那些老照片。)",
+    "id": "IELTS-affection-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "stranger",
+    "meaning": "n. 陌生人；新來者",
+    "example": "A stranger stopped me in the street and asked for directions to the station. (一名陌生人在街上攔住我，問我車站怎麼走。)",
+    "id": "IELTS-stranger-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "apprentice",
+    "meaning": "n. 學徒；徒弟 v. 使當……的學徒",
+    "example": "The young apprentice learns the trade by working each day beside an experienced craftsman. (年輕學徒每天在經驗豐富的工匠身旁工作，學習這門手藝。)",
+    "id": "IELTS-apprentice-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hero",
+    "meaning": "n. 英雄；勇士；男主角",
+    "example": "The firefighter was praised as a hero for rescuing two children from the building. (這名消防員因從建築物中救出兩名孩童而被譽為英雄。)",
+    "id": "IELTS-hero-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "heroine",
+    "meaning": "n. 女英雄；女主角",
+    "example": "The heroine of the novel leaves her village to study medicine in the city. (這本小說的女主角離開村莊，到城市學醫。)",
+    "id": "IELTS-heroine-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "actress",
+    "meaning": "n. 女演員",
+    "example": "The actress has won several major awards for her roles in independent films. (這位女演員因在獨立電影中的角色贏得數項大獎。)",
+    "id": "IELTS-actress-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "commander",
+    "meaning": "n. 司令官；指揮官",
+    "example": "The commander quietly ordered his exhausted troops to withdraw from the town before nightfall. (指揮官悄悄下令，要精疲力竭的部隊在入夜前撤出這座城鎮。)",
+    "id": "IELTS-commander-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "director",
+    "meaning": "n. 主管；理事；導演",
+    "example": "The finance director of the company announced her retirement at the annual meeting. (公司的財務主管在年度會議上宣布退休。)",
+    "id": "IELTS-director-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "proponent",
+    "meaning": "n. 擁護者；支持者",
+    "example": "She is a strong proponent of free public transport for students and older people. (她強力支持學生和年長者免費搭乘公共運輸。)",
+    "id": "IELTS-proponent-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "counsellor/counselor",
+    "meaning": "n. 顧問；輔導顧問；（美國的）律師",
+    "example": "The school counsellor helps students manage exam stress and make decisions about their future. (學校輔導顧問協助學生處理考試壓力，並為未來做決定。)",
+    "id": "IELTS-counsellor-counselor-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "attorney",
+    "meaning": "n. （美國的）律師",
+    "example": "The defence attorney advised her client to say nothing at all until the morning hearing began. (辯護律師建議她的當事人在上午的聽證會開始前完全不要發言。)",
+    "id": "IELTS-attorney-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "umpire",
+    "meaning": "n. 裁判員",
+    "example": "The umpire stopped the tennis match when the rain became far too heavy to play in. (雨勢大到無法比賽時，裁判中止了這場網球賽。)",
+    "id": "IELTS-umpire-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "cashier",
+    "meaning": "n. 出納員；收銀員",
+    "example": "The cashier carefully counted the large notes twice before handing over the correct change. (收銀員仔細數了兩次大鈔，才把正確的零錢遞出去。)",
+    "id": "IELTS-cashier-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "fireman",
+    "meaning": "n. 消防隊員；消防員",
+    "example": "A fireman carefully carried the frightened child down the ladder and out of the smoke. (一名消防員小心地把受驚的孩子抱下梯子，帶離濃煙。)",
+    "id": "IELTS-fireman-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "nurse",
+    "meaning": "n. 護士；保姆 v. 照料；餵奶",
+    "example": "A nurse checked his blood pressure and calmly explained what would happen next. (護士為他量血壓，並平靜地說明接下來會怎麼做。)",
+    "id": "IELTS-nurse-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "gardener",
+    "meaning": "n. 園丁；花匠",
+    "example": "The head gardener plants native flowers that attract bees and butterflies throughout the long, dry summer. (園藝主管種植原生花卉，在漫長乾燥的夏季吸引蜜蜂和蝴蝶。)",
+    "id": "IELTS-gardener-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "barber",
+    "meaning": "n. 理髮師",
+    "example": "The old barber asked politely how short I wanted him to cut my hair this time. (老理髮師禮貌地問我這次想把頭髮剪多短。)",
+    "id": "IELTS-barber-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "haircut",
+    "meaning": "n. 理髮；髮型",
+    "example": "He gets a haircut every six weeks and always goes to the same shop. (他每六週理一次髮，而且總是去同一家店。)",
+    "id": "IELTS-haircut-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "fisherman",
+    "meaning": "n. 漁民；漁夫；垂釣者",
+    "example": "The old fisherman repaired his torn nets carefully before leaving the harbour at first light. (老漁夫在破曉離港前，仔細修補破掉的漁網。)",
+    "id": "IELTS-fisherman-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "butcher",
+    "meaning": "n. 屠夫；肉販",
+    "example": "The local butcher cut the meat into thin slices and wrapped it carefully in paper. (當地肉販把肉切成薄片，仔細用紙包好。)",
+    "id": "IELTS-butcher-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "groom",
+    "meaning": "n. 新郎；馬伕 v. （給動物）刷洗；理毛",
+    "example": "The young groom stood waiting alone and nervously at the front of the small village church. (年輕新郎獨自緊張地站在小村莊教堂前方等待。)",
+    "id": "IELTS-groom-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hostage",
+    "meaning": "n. 人質",
+    "example": "The bank staff were held hostage inside the building for several hours before police arrived. (銀行員工被挾持在建築物內好幾個小時，警方才趕到。)",
+    "id": "IELTS-hostage-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "toil",
+    "meaning": "n. 苦工；苦活 v. 辛勤勞作；苦幹",
+    "example": "Farmers toil from dawn to dusk in the flooded rice fields during the busy harvest season. (農民在忙碌的收成季節從早到晚在淹水的稻田裡辛勤勞作。)",
+    "id": "IELTS-toil-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "beggar",
+    "meaning": "n. 乞丐",
+    "example": "A beggar sat outside the station with a cup and a thin blanket. (一名乞丐坐在車站外，身邊放著一個杯子和一條薄毯。)",
+    "id": "IELTS-beggar-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "slave",
+    "meaning": "n. 奴隸；奴工",
+    "example": "The slaves on the cotton plantation were finally freed at the end of the long civil war. (長達多年的內戰結束後，棉花園裡的奴隸終於獲得自由。)",
+    "id": "IELTS-slave-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "coward",
+    "meaning": "n. 懦夫；膽小鬼",
+    "example": "He was unfairly called a coward for refusing to join the others in the fighting. (他因拒絕和其他人一起投入戰鬥，而被不公平地稱為懦夫。)",
+    "id": "IELTS-coward-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "act",
+    "meaning": "v. 行動；表演 n. 行為；法案",
+    "example": "The government must now act quickly to reduce harmful air pollution in the largest cities. (政府現在必須迅速行動，減少大城市的有害空氣汙染。)",
+    "id": "IELTS-act-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "deed",
+    "meaning": "n. 行為；功績；契約",
+    "example": "She was widely praised for her many quiet good deeds within the small local community. (她因在當地小社區裡默默做了許多善事而廣受讚揚。)",
+    "id": "IELTS-deed-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "react",
+    "meaning": "v. 反應；作出反應",
+    "example": "How people react to public criticism often depends on the way the criticism is expressed. (人們如何回應公開批評，往往取決於批評表達的方式。)",
+    "id": "IELTS-react-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "reflect",
+    "meaning": "v. 反射；反映；反應",
+    "example": "The still lake reflects the snowy mountains so clearly that it looks like a giant mirror. (平靜的湖面清晰映出雪山，看起來就像一面巨大的鏡子。)",
+    "id": "IELTS-reflect-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "mow",
+    "meaning": "v. 割；修剪 n. 乾草堆",
+    "example": "He mows the front lawn every Saturday morning from early April to late October. (從四月初到十月底，他每個星期六早上都會修剪前院草坪。)",
+    "id": "IELTS-mow-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "support",
+    "meaning": "v. 支撐；支援；供養 n. 支援；幫助",
+    "example": "The new local scheme supports families who are caring full-time for frail elderly relatives at home. (這項新的地方方案支援在家全職照顧孱弱年長親屬的家庭。)",
+    "id": "IELTS-support-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "glare",
+    "meaning": "v. 怒目而視；發出強光 n. 刺眼的光；怒視",
+    "example": "The sun glared off the wet road, making it very hard for drivers to see. (陽光在溼滑路面上發出刺眼反光，讓駕駛很難看清路況。)",
+    "id": "IELTS-glare-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "glance",
+    "meaning": "v. 瞥；迅速看一眼 n. 一瞥",
+    "example": "She glanced nervously at her watch and then hurried towards the small crowded meeting room. (她緊張地瞥了一眼手錶，然後趕往那間擁擠的小會議室。)",
+    "id": "IELTS-glance-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "peep",
+    "meaning": "v. 窺視；偷看 n. 偷偷一瞥",
+    "example": "The child peeped through the curtains to see who was at the door. (孩子從窗簾縫隙偷看，想知道門口是誰。)",
+    "id": "IELTS-peep-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "gaze",
+    "meaning": "v. 凝視；注視",
+    "example": "He gazed at the large painting for several minutes without saying a single word. (他凝視那幅大畫好幾分鐘，一句話也沒說。)",
+    "id": "IELTS-gaze-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "peer",
+    "meaning": "v. 凝視；盯著看 n. 同輩；同等地位的人",
+    "example": "She peered through the fog, trying to find the edge of the road. (她透過濃霧使勁看，想找出路的邊緣。)",
+    "id": "IELTS-peer-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "vow",
+    "meaning": "n. 誓約；誓言 v. 發誓",
+    "example": "They vowed to remain close friends even after they finally separated and moved to different cities. (他們發誓即使最後分開、各自搬到不同城市，仍要當好朋友。)",
+    "id": "IELTS-vow-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "oath",
+    "meaning": "n. 誓言；宣誓",
+    "example": "All witnesses must take a formal oath to tell the truth in open court. (所有證人都必須在公開法庭上正式宣誓說真話。)",
+    "id": "IELTS-oath-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "reply",
+    "meaning": "v. 回答；答覆 n. 回答；答覆",
+    "example": "She did not reply to the email until the following Monday morning. (她一直到隔週一早上才回覆那封電子郵件。)",
+    "id": "IELTS-reply-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "explain",
+    "meaning": "v. 說明；解釋",
+    "example": "The teacher explained the task twice, but some students still looked confused. (老師解釋了兩次任務內容，但有些學生看起來仍一頭霧水。)",
+    "id": "IELTS-explain-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "quarrel",
+    "meaning": "v. 吵架；爭論 n. 爭吵；爭論",
+    "example": "The two brothers quarrelled over money and did not speak to each other for many months. (兩兄弟為了錢吵架，之後好幾個月不跟對方說話。)",
+    "id": "IELTS-quarrel-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hurry",
+    "meaning": "v. 趕緊；催促 n. 匆忙",
+    "example": "There is no need to hurry, because the train leaves in an hour. (不必趕，因為火車還要一小時才開。)",
+    "id": "IELTS-hurry-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hasten",
+    "meaning": "v. 趕緊；促進",
+    "example": "The recent financial scandal may quite possibly hasten the minister's departure from public office. (最近的財務醜聞很可能促使這位部長提早離開公職。)",
+    "id": "IELTS-hasten-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "scold",
+    "meaning": "v. 責罵；斥責",
+    "example": "His mother scolded him for arriving home so late without calling or sending a message. (他媽媽責罵他這麼晚回家，卻沒先打電話或傳訊息。)",
+    "id": "IELTS-scold-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "curse",
+    "meaning": "v. 詛咒；咒罵 n. 咒語；咒罵",
+    "example": "The old man cursed loudly when his car refused to start yet again. (車子又發不動時，那位老先生大聲咒罵。)",
+    "id": "IELTS-curse-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "provoke",
+    "meaning": "v. 激怒；挑撥；引起",
+    "example": "The sudden decision to close the factory provoked widespread anger among local workers. (突然決定關閉工廠，引發當地工人的普遍憤怒。)",
+    "id": "IELTS-provoke-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "preach",
+    "meaning": "v. 宣揚；佈道",
+    "example": "The old priest preached about forgiveness and the importance of helping poor families nearby. (老神父佈道談寬恕，以及幫助附近貧困家庭的重要性。)",
+    "id": "IELTS-preach-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "touch",
+    "meaning": "v. 觸摸；觸動 n. 觸覺；接觸",
+    "example": "The story touched everyone in the room, and several people began to cry. (這個故事觸動了房裡每一個人，好幾個人開始落淚。)",
+    "id": "IELTS-touch-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "clap",
+    "meaning": "v. 拍手；輕拍 n. 鼓掌；拍手聲",
+    "example": "The audience clapped loudly while standing for several minutes after the final performance ended. (最後一場演出結束後，觀眾起立熱烈鼓掌好幾分鐘。)",
+    "id": "IELTS-clap-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "catch",
+    "meaning": "v. 捉住；趕上；領會",
+    "example": "She ran to catch the bus but reached the stop just too late. (她跑去趕公車，但到站時剛好太遲了。)",
+    "id": "IELTS-catch-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "snatch",
+    "meaning": "v. 一把抓住；迅速奪取",
+    "example": "A thief on a motorbike snatched her handbag and disappeared into the crowd. (一名騎機車的竊賊一把搶走她的手提包，消失在人群中。)",
+    "id": "IELTS-snatch-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "overtake",
+    "meaning": "v. 追上；超過；（情感）壓倒",
+    "example": "It is dangerous to overtake on this narrow road with so many bends. (在這條彎道很多的窄路上超車很危險。)",
+    "id": "IELTS-overtake-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "follow",
+    "meaning": "v. 跟隨；遵循；是……的必然結果",
+    "example": "He followed the written instructions carefully but still could not assemble the wooden shelf. (他仔細照著書面說明做，卻還是組裝不好那個木架。)",
+    "id": "IELTS-follow-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "loosen",
+    "meaning": "v. 解開；鬆開；放寬",
+    "example": "First loosen the two screws carefully before you try to remove the plastic back cover. (先小心鬆開兩顆螺絲，再試著拆下塑膠背蓋。)",
+    "id": "IELTS-loosen-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "smash",
+    "meaning": "v. 打碎；（使）猛烈撞擊；（打球時）扣球",
+    "example": "A cricket ball smashed through the kitchen window and landed on the tiled floor. (一顆板球擊碎廚房窗戶，掉在磁磚地板上。)",
+    "id": "IELTS-smash-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "wipe",
+    "meaning": "v. 擦；揩；抹",
+    "example": "She wiped the table with a damp cloth and set out the plates. (她用溼布擦桌子，然後擺好盤子。)",
+    "id": "IELTS-wipe-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "sway",
+    "meaning": "v. （使）搖擺；搖晃",
+    "example": "The tall branches swayed in the strong wind, scattering dry leaves across the garden path. (高處的樹枝在強風中搖擺，把乾葉散落在花園小徑上。)",
+    "id": "IELTS-sway-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "shake",
+    "meaning": "v. 搖動；（使）顫動 n. 搖動；顫動",
+    "example": "You should always shake the medicine bottle well before opening it at home. (在家打開藥瓶前，一定要先充分搖勻。)",
+    "id": "IELTS-shake-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "whirl",
+    "meaning": "v. （使）迴旋 n. 迴旋",
+    "example": "The young dancers whirled around the crowded hall to the fast and lively music. (年輕舞者在擁擠的大廳裡隨著快速活潑的音樂迴旋起舞。)",
+    "id": "IELTS-whirl-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "shuffle",
+    "meaning": "v. 洗（牌）；拖著腳走；打亂次序 n. 洗牌",
+    "example": "He shuffled the worn cards twice and then dealt five cards to each player. (他把磨舊的牌洗了兩次，然後給每位玩家發五張牌。)",
+    "id": "IELTS-shuffle-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "collide",
+    "meaning": "v. 碰撞；牴觸",
+    "example": "Two large cars collided at the busy junction because neither driver would slow down. (兩輛大車在繁忙路口相撞，因為兩名駕駛都不肯減速。)",
+    "id": "IELTS-collide-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "penetrate",
+    "meaning": "v. 刺入；穿透；滲透；洞察",
+    "example": "The knife penetrated the thick leather but did not reach the skin. (刀子穿透厚皮革，但沒有傷到皮膚。)",
+    "id": "IELTS-penetrate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pierce",
+    "meaning": "v. 刺穿；刺破；穿透；使心如刀割",
+    "example": "The thin needle pierced the skin quickly, and she hardly felt any pain at all. (細針很快刺穿皮膚，她幾乎完全沒感覺到痛。)",
+    "id": "IELTS-pierce-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "tow",
+    "meaning": "v. 拖；拉；牽引 n. 牽引",
+    "example": "The truck towed the broken car to a garage ten miles away. (拖車把故障的車拖到十英里外的修車廠。)",
+    "id": "IELTS-tow-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "trail",
+    "meaning": "v. （使）拖在後面 n. 蹤跡；小徑",
+    "example": "Long white ribbons trailed from the bride's dark hair as she walked down the aisle. (新娘走過紅毯時，長長的白緞帶從她的深色頭髮垂落。)",
+    "id": "IELTS-trail-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "baptize/baptise",
+    "meaning": "v. 給……施行洗禮",
+    "example": "The old priest quietly baptized the baby in the small stone church beside the river. (老神父在河邊的小石造教堂裡，安靜地為嬰兒施行洗禮。)",
+    "id": "IELTS-baptize-baptise-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "obsess",
+    "meaning": "v. 使痴迷；使心神不寧",
+    "example": "He is obsessed with details and often works late to perfect his reports. (他對細節非常執著，常加班把報告改到完美。)",
+    "id": "IELTS-obsess-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "mesmerize/mesmerise",
+    "meaning": "v. 吸引；迷住",
+    "example": "The children were completely mesmerized by the lights and music of the performance. (孩子們完全被表演的燈光和音樂迷住了。)",
+    "id": "IELTS-mesmerize-mesmerise-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "marvel",
+    "meaning": "v. 感到驚訝；大為讚歎 n. 奇蹟",
+    "example": "Visitors still marvel at the sheer size and detail of the ancient stone temple. (遊客至今仍對這座古代石造神廟的龐大規模和細節讚歎不已。)",
+    "id": "IELTS-marvel-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "indignity",
+    "meaning": "n. 侮辱；輕蔑",
+    "example": "The elderly patients suffered the indignity of being left in wet clothes for hours. (這些年長病患遭受侮辱，被丟在溼衣服裡好幾個小時。)",
+    "id": "IELTS-indignity-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "bias",
+    "meaning": "v. 使有偏見；使偏心 n. 偏見；偏心",
+    "example": "The study's findings may be affected by possible unconscious bias among the research team. (這項研究的結果可能受到研究團隊潛在無意識偏見的影響。)",
+    "id": "IELTS-bias-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "deviate",
+    "meaning": "v. 偏離；背離",
+    "example": "The pilot had to deviate from the planned route to avoid the storm. (機師必須偏離預定航線，以避開暴風雨。)",
+    "id": "IELTS-deviate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "revenge",
+    "meaning": "n. 報仇；復仇 v. 為……報仇",
+    "example": "He took revenge on the neighbours who had reported him to the council. (他向那些向市議會檢舉他的鄰居報仇。)",
+    "id": "IELTS-revenge-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "kidnap",
+    "meaning": "v. 綁架；劫持",
+    "example": "A wealthy local businessman was kidnapped and held for ransom from his family for three days. (一位富有的當地商人遭綁架，被扣為人質向家屬勒贖三天。)",
+    "id": "IELTS-kidnap-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hijack",
+    "meaning": "v. 劫持（飛機或其他交通工具）",
+    "example": "The lorry was hijacked on the motorway and its entire load was taken away. (這輛卡車在高速公路上被劫持，整車貨物都被載走。)",
+    "id": "IELTS-hijack-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "smuggle",
+    "meaning": "v. 走私；偷運",
+    "example": "They tried to smuggle cigarettes into the country inside a shipment of furniture. (他們試圖把香菸藏在整批家具貨物中走私入境。)",
+    "id": "IELTS-smuggle-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "convict",
+    "meaning": "v. 定罪；宣判……有罪 n. 已決犯",
+    "example": "He was convicted of serious fraud and given a two-year suspended prison sentence. (他因嚴重詐欺被定罪，判處兩年緩刑。)",
+    "id": "IELTS-convict-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "strangle",
+    "meaning": "v. 勒死；扼死；扼殺；壓制",
+    "example": "The new regulations could strangle fair competition and raise prices for ordinary consumers. (這些新規定可能扼殺公平競爭，並抬高一般消費者的購物價格。)",
+    "id": "IELTS-strangle-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "massacre",
+    "meaning": "n. 屠殺；殘殺 v. 屠殺",
+    "example": "The museum records the massacre of hundreds of unarmed villagers during the long civil war. (博物館記錄了長期內戰期間數百名手無寸鐵村民遭屠殺的歷史。)",
+    "id": "IELTS-massacre-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "decimation",
+    "meaning": "n. 大批殺死；大量毀滅；大大削弱",
+    "example": "The disease caused the rapid decimation of the wild rabbit population across the whole region. (這種疾病導致全區野生兔子數量迅速大量減少。)",
+    "id": "IELTS-decimation-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "bait",
+    "meaning": "v. 使上當；激怒 n. 誘餌；誘惑物",
+    "example": "The offer of a free gift was just bait to attract new customers. (贈送免費禮物只是吸引新顧客的誘餌。)",
+    "id": "IELTS-bait-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "designate",
+    "meaning": "v. 指明；選派；指派",
+    "example": "The whole area has been designated a national park in order to protect rare wildlife. (整個區域已被指定為國家公園，以保護稀有野生動物。)",
+    "id": "IELTS-designate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "despatch/dispatch",
+    "meaning": "v. 派遣；調派；迅速處理",
+    "example": "The company will dispatch the replacement parts to your address by express courier tomorrow morning. (公司明天上午會用快遞把替換零件寄到你的地址。)",
+    "id": "IELTS-despatch-dispatch-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "undo",
+    "meaning": "v. 解開；打開；撤銷",
+    "example": "She could not undo the knot in her shoelace, so she cut the lace. (她解不開鞋帶上的結，於是把鞋帶剪斷。)",
+    "id": "IELTS-undo-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "disguise",
+    "meaning": "v. 掩飾；假扮；偽裝 n. 假扮；偽裝物",
+    "example": "He tried to disguise his disappointment with a smile when the results were announced. (成績公布時，他試著用微笑掩飾失望。)",
+    "id": "IELTS-disguise-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "refuse",
+    "meaning": "v. 拒絕；回絕",
+    "example": "The shop refused to refund the money because the receipt had been lost. (這家店拒絕退錢，因為收據已經弄丟了。)",
+    "id": "IELTS-refuse-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "reassure",
+    "meaning": "v. 使安心；使放心",
+    "example": "The doctor reassured the anxious parents that the child would recover within a week. (醫師讓焦慮的父母安心，表示孩子一週內就會康復。)",
+    "id": "IELTS-reassure-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "wish",
+    "meaning": "v. 想要；希望 n. 希望；願望",
+    "example": "I wish the library stayed open later during the examination period in June. (我希望圖書館在六月考試期間能開得晚一點。)",
+    "id": "IELTS-wish-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "yearn",
+    "meaning": "v. 渴望；嚮往",
+    "example": "Many city workers yearn for a quieter life in the countryside near the coast. (許多都市上班族渴望在近海鄉間過更安靜的生活。)",
+    "id": "IELTS-yearn-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "itch",
+    "meaning": "v. 發癢；渴望 n. 癢；渴望",
+    "example": "The wool sweater made his skin itch, so he changed into a cotton shirt. (羊毛毛衣讓他皮膚發癢，所以他換上棉質襯衫。)",
+    "id": "IELTS-itch-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "strive",
+    "meaning": "v. 努力；奮鬥",
+    "example": "Small businesses must strive to improve quality if they want to keep their customers. (小型企業若想留住顧客，就必須努力提升品質。)",
+    "id": "IELTS-strive-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "fulfil/fulfill",
+    "meaning": "v. 履行；實現；完成；滿足",
+    "example": "The contractor failed to fulfil the terms of the agreement within the agreed period. (承包商未能在約定期限內履行協議條款。)",
+    "id": "IELTS-fulfil-fulfill-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "sort",
+    "meaning": "n. 種類；類別 v. 把……分類",
+    "example": "Volunteers sort the donated clothes into piles for children, adults and elderly people. (志工把捐贈衣物分類成兒童、成人和長者幾堆。)",
+    "id": "IELTS-sort-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "loom",
+    "meaning": "v. 隱現；逼近 n. 織布機",
+    "example": "Dark clouds loomed over the mountains, and the hikers turned back towards the village. (烏雲在山間隱現，登山客於是折返村莊。)",
+    "id": "IELTS-loom-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "exert",
+    "meaning": "v. 運用；施加",
+    "example": "The new manager tried to exert more control over the daily running of the office. (新經理試著對辦公室的日常運作施加更多控制。)",
+    "id": "IELTS-exert-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "dispose",
+    "meaning": "v. 佈置；安排；處理",
+    "example": "Households must dispose of batteries and old paint at the recycling centre in town. (家戶必須把電池和舊油漆拿到鎮上的回收中心處理。)",
+    "id": "IELTS-dispose-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "omit",
+    "meaning": "v. 遺漏；省略；刪去",
+    "example": "The report omitted several important figures, so the committee asked for a revised version. (報告遺漏了幾項重要數據，因此委員會要求提出修訂版。)",
+    "id": "IELTS-omit-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "delete",
+    "meaning": "v. 刪除；刪掉",
+    "example": "Please delete the duplicate files before you send the folder to the client. (請先刪除重複的檔案，再把資料夾寄給客戶。)",
+    "id": "IELTS-delete-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "clear",
+    "meaning": "adj. 清晰的；明顯的 v. 清除；清空",
+    "example": "Staff cleared the tables quickly so that the next group of guests could sit down. (工作人員迅速清空桌子，好讓下一組客人入座。)",
+    "id": "IELTS-clear-adj-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "erase",
+    "meaning": "v. 清除；抹去",
+    "example": "He erased the wrong figures from the board and wrote the correct totals beside them. (他把黑板上錯誤的數字擦掉，在旁邊寫上正確的總數。)",
+    "id": "IELTS-erase-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "rectify",
+    "meaning": "v. 糾正；矯正；改正",
+    "example": "The bank promised to rectify the error and refund the charges within five working days. (銀行承諾在五個工作天內糾正錯誤並退還費用。)",
+    "id": "IELTS-rectify-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "redeem",
+    "meaning": "v. 贖回；挽回；補償；兌現",
+    "example": "You can redeem the voucher at any branch until the end of December. (你可以在十二月底前到任何一家分行兌換這張折價券。)",
+    "id": "IELTS-redeem-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "gain",
+    "meaning": "v. 獲得；增加 n. 增加；改進",
+    "example": "She gained valuable experience during the internship and was offered a permanent post. (她在實習期間獲得寶貴經驗，後來得到一份正式職位。)",
+    "id": "IELTS-gain-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "offer",
+    "meaning": "n. 提議；出價 v. 提供；出（價）",
+    "example": "The university offered her a scholarship that covered tuition and part of her living costs. (大學提供她一筆獎學金，支付學費和部分生活費。)",
+    "id": "IELTS-offer-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "prolong",
+    "meaning": "v. 延長",
+    "example": "Regular maintenance can prolong the life of the equipment by several years. (定期保養可以讓設備的壽命延長好幾年。)",
+    "id": "IELTS-prolong-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "uphold",
+    "meaning": "v. 支持；維護；維持",
+    "example": "The court decided to uphold the complaint and order the company to pay compensation. (法院決定支持這項申訴，並命令該公司支付賠償。)",
+    "id": "IELTS-uphold-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "backup",
+    "meaning": "n. 後援；備份 adj. 備用的",
+    "example": "Always keep a backup of important files on a separate drive or in the cloud. (重要檔案一定要備份在另一個磁碟或雲端。)",
+    "id": "IELTS-backup-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "update",
+    "meaning": "v. 更新；使現代化 n. 更新；最新消息",
+    "example": "The council updates the website every week with news about local road works. (市議會每週更新網站，公布當地道路施工的消息。)",
+    "id": "IELTS-update-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "raise",
+    "meaning": "v. 舉起；引起；撫養；提高；籌募",
+    "example": "The school raised its entrance requirements after receiving a record number of applications. (學校在收到創紀錄的申請件數後，提高了入學要求。)",
+    "id": "IELTS-raise-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "ooze",
+    "meaning": "v. 滲出；洋溢著",
+    "example": "Thick black smoke oozed from the windows of the abandoned warehouse near the docks. (濃濃黑煙從碼頭附近那棟廢棄倉庫的窗戶滲出。)",
+    "id": "IELTS-ooze-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "excuse",
+    "meaning": "v. 原諒；同意免除 n. 理由；藉口",
+    "example": "Please excuse me for a moment while I answer this urgent telephone call. (請原諒我離開一下，我要接這通緊急電話。)",
+    "id": "IELTS-excuse-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "forgive",
+    "meaning": "v. 原諒；寬恕；饒恕",
+    "example": "She found it hard to forgive her brother for losing their mother's watch. (她很難原諒弟弟弄丟媽媽的手錶。)",
+    "id": "IELTS-forgive-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "regard",
+    "meaning": "n. 尊重；問候 v. 看待；視為",
+    "example": "Many residents regard the old market as the heart of the neighbourhood. (許多居民把這座老市場視為社區的核心。)",
+    "id": "IELTS-regard-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "flatter",
+    "meaning": "v. 奉承；討好；諂媚",
+    "example": "He flattered his manager in the hope of being chosen for the training programme. (他奉承經理，希望能被選上參加培訓計畫。)",
+    "id": "IELTS-flatter-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "worship",
+    "meaning": "n. 崇拜；禮拜；愛慕 v. 做禮拜；崇拜",
+    "example": "The villagers worship in the small church every Sunday morning at nine. (村民每個星期天早上九點在那間小教堂做禮拜。)",
+    "id": "IELTS-worship-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "cause",
+    "meaning": "n. 原因；理由；事業 v. 引起；導致",
+    "example": "Poor drainage caused the flooding that closed the main road for two days. (排水不良引起淹水，導致主要道路封閉兩天。)",
+    "id": "IELTS-cause-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "sake",
+    "meaning": "n. 理由；目的；緣故",
+    "example": "For the sake of the children, the couple tried to remain friendly after the divorce. (為了孩子，這對夫妻離婚後仍盡量保持友善。)",
+    "id": "IELTS-sake-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "arouse",
+    "meaning": "v. 喚起；激起；引起",
+    "example": "The documentary aroused public interest in the condition of the city's old buildings. (這部紀錄片喚起大眾對這座城市老建築狀況的關注。)",
+    "id": "IELTS-arouse-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "retrieve",
+    "meaning": "v. 取回；挽回",
+    "example": "She retrieved the file from the archive and emailed a copy to the committee. (她從檔案室取回文件，並把副本寄給委員會。)",
+    "id": "IELTS-retrieve-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "testify",
+    "meaning": "v. 作證；證明",
+    "example": "Two neighbours agreed to testify that they had seen the car leave the scene. (兩位鄰居同意作證，說他們看到那輛車離開現場。)",
+    "id": "IELTS-testify-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "drop",
+    "meaning": "v. （使）落下；（使）降低；斷絕關係 n. 滴",
+    "example": "The council dropped the charge for parking after residents complained about the cost. (居民抱怨費用太高後，市議會調降了停車收費。)",
+    "id": "IELTS-drop-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sink",
+    "meaning": "v. （使）下沉；下降",
+    "example": "The small boat began to sink slowly after it struck a rock near the shore. (小船撞到岸邊的岩石後，開始慢慢下沉。)",
+    "id": "IELTS-sink-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "plummet",
+    "meaning": "v. 垂直掉下；（價格或水平等）驟然下跌",
+    "example": "Demand for office space plummeted after several large employers moved out of the city. (幾家大型企業遷出市區後，辦公空間的需求驟然下跌。)",
+    "id": "IELTS-plummet-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "muffle",
+    "meaning": "v. 使（聲音）減弱",
+    "example": "Thick curtains muffle the traffic noise from the street outside the hotel room. (厚窗簾減弱了飯店房外街道傳來的交通噪音。)",
+    "id": "IELTS-muffle-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "invite",
+    "meaning": "v. 邀請",
+    "example": "They invited all the neighbours to a barbecue in the garden on Saturday afternoon. (他們邀請所有鄰居參加星期六下午在花園舉辦的烤肉。)",
+    "id": "IELTS-invite-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "welcome",
+    "meaning": "int. 歡迎 n. 歡迎 v. 歡迎",
+    "example": "The hotel staff welcomed the guests with cold drinks and a short introduction to the area. (飯店員工以冷飲和簡短的地區介紹歡迎客人。)",
+    "id": "IELTS-welcome-int-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "greet",
+    "meaning": "v. 向……問好；迎接；對……做出反應",
+    "example": "She greeted the new students at the entrance and showed them to their classrooms. (她在入口向新生問好，並帶他們到教室。)",
+    "id": "IELTS-greet-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "salute",
+    "meaning": "v. （向……）行禮；致敬 n. 行禮；致敬",
+    "example": "Soldiers saluted the flag as the national anthem played over the loudspeakers. (國歌從擴音器傳出時，士兵向國旗行禮。)",
+    "id": "IELTS-salute-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "bless",
+    "meaning": "v. 祝福；為……祈求上帝保佑",
+    "example": "The old priest blessed the newly married couple before they left the church. (老神父在這對新婚夫妻離開教堂前為他們祝福。)",
+    "id": "IELTS-bless-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "assort",
+    "meaning": "v. 把……分類；相配；協調",
+    "example": "Workers assort the recycled plastic by colour before it is sent to the factory. (工人把回收塑膠按顏色分類，再送往工廠。)",
+    "id": "IELTS-assort-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "accord",
+    "meaning": "v. 與……一致；給予 n. 協議；一致",
+    "example": "His account of the accident does not accord with the evidence from the cameras. (他對事故的說法與監視器拍到的證據不一致。)",
+    "id": "IELTS-accord-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "recall",
+    "meaning": "v. 回憶；回想起",
+    "example": "She could not recall where she had parked the car after the concert. (音樂會結束後，她想不起來把車停在哪裡。)",
+    "id": "IELTS-recall-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "recollect",
+    "meaning": "v. 回憶；想起",
+    "example": "He slowly recollected the names of the teachers who had taught him at school. (他慢慢想起那些曾在學校教過他的老師名字。)",
+    "id": "IELTS-recollect-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "retell",
+    "meaning": "v. 重新講述；複述",
+    "example": "The children were asked to retell the story in their own words. (孩子們被要求用自己的話複述這個故事。)",
+    "id": "IELTS-retell-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "repeat",
+    "meaning": "v. 重複；重說 adj. 再次光顧的",
+    "example": "The teacher repeated the question slowly so that everyone could write down the answer. (老師慢慢重複問題，讓每個人都能寫下答案。)",
+    "id": "IELTS-repeat-v-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "retrospect",
+    "meaning": "n. 回顧；回想",
+    "example": "In retrospect, the decision to expand the factory too quickly was a mistake. (回顧起來，當初太快擴建工廠是個錯誤。)",
+    "id": "IELTS-retrospect-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "surmount",
+    "meaning": "v. 克服；置於……的頂端",
+    "example": "The team surmounted several technical problems before the bridge was finally opened. (團隊克服了好幾項技術問題，橋樑才終於開放通行。)",
+    "id": "IELTS-surmount-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "mortify",
+    "meaning": "v. 使難堪；使羞愧",
+    "example": "He was mortified when he realised he had called his new boss by the wrong name. (他發現自己叫錯新老闆的名字時，覺得非常難堪。)",
+    "id": "IELTS-mortify-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pervade",
+    "meaning": "v. 瀰漫；滲透；遍及",
+    "example": "The smell of fresh bread pervaded the whole street in the early morning. (清晨時，新鮮麵包的香味瀰漫整條街。)",
+    "id": "IELTS-pervade-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "incline",
+    "meaning": "v. （使）傾向於；傾斜 n. 斜坡；傾斜",
+    "example": "I incline to agree with the report, although some of its figures seem uncertain. (我傾向同意這份報告，雖然其中有些數據似乎不太確定。)",
+    "id": "IELTS-incline-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lean",
+    "meaning": "v. （使）倚靠；傾斜 adj. 瘦的；貧乏的",
+    "example": "He leaned against the wall and waited for the bus in the rain. (他倚著牆，在雨中等待公車。)",
+    "id": "IELTS-lean-v-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sideways",
+    "meaning": "adv. 向一側；從一側",
+    "example": "She moved sideways along the narrow ledge to reach the open window. (她沿著狹窄的窗台向一側移動，想搆到打開的窗戶。)",
+    "id": "IELTS-sideways-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "feel",
+    "meaning": "v. 感覺到；感知；觸碰",
+    "example": "I could feel the floor shaking slightly as the heavy lorry passed the house. (重型卡車經過房子時，我能感覺到地板微微震動。)",
+    "id": "IELTS-feel-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "manner",
+    "meaning": "n. 舉止；禮貌；風俗；方式",
+    "example": "The data was collected in a manner that allowed direct comparison between the two groups. (資料的蒐集方式可以直接比較這兩個群體。)",
+    "id": "IELTS-manner-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "trait",
+    "meaning": "n. 特點；特性",
+    "example": "Patience is a useful trait for anyone working with young children or patients. (耐心對任何與幼童或病患共事的人來說，都是很有用的特點。)",
+    "id": "IELTS-trait-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "stature",
+    "meaning": "n. 身高；身材；（精神或道德等的）高度",
+    "example": "Basketball players are often chosen for their height and general physical stature. (籃球員常因身高和整體體格而被選中。)",
+    "id": "IELTS-stature-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "flesh",
+    "meaning": "n. 肉；人類",
+    "example": "The knife cut through the flesh of the fruit but not the stone inside. (刀子切開果肉，但沒有切到裡面的果核。)",
+    "id": "IELTS-flesh-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mankind",
+    "meaning": "n. 人類",
+    "example": "Climate change is one of the greatest challenges facing mankind in this century. (氣候變遷是人類本世紀面臨的最大挑戰之一。)",
+    "id": "IELTS-mankind-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "human",
+    "meaning": "adj. 人類的；有人性的 n. 人類",
+    "example": "The study compares the behaviour of humans with that of other social animals. (這項研究比較人類與其他社會性動物的行為。)",
+    "id": "IELTS-human-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "bone",
+    "meaning": "n. 骨；骨骼",
+    "example": "The doctor said the bone had healed well and she could walk without crutches. (醫師說骨頭癒合良好，她可以不拿拐杖走路了。)",
+    "id": "IELTS-bone-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "skeleton",
+    "meaning": "n. 骨骼；骨架；框架；梗概",
+    "example": "The museum displays the skeleton of a whale that was found on the beach. (博物館展出在海灘上發現的一具鯨魚骨骼。)",
+    "id": "IELTS-skeleton-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "brain",
+    "meaning": "n. 腦；智力；智慧",
+    "example": "Regular exercise and enough sleep help the brain work more efficiently during the day. (規律運動和充足睡眠有助大腦在白天更有效率地運作。)",
+    "id": "IELTS-brain-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mind",
+    "meaning": "n. 頭腦；思維；思考能力；意見；記憶力",
+    "example": "Keeping a diary can help clear the mind after a long and stressful day. (寫日記有助於在漫長疲累的一天後讓頭腦清晰。)",
+    "id": "IELTS-mind-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "cheek",
+    "meaning": "n. 面頰；臉頰",
+    "example": "Tears ran down her cheek as she listened to the letter being read aloud. (聽著那封信被朗讀出來時，眼淚流下她的臉頰。)",
+    "id": "IELTS-cheek-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "forehead",
+    "meaning": "n. 額；額頭",
+    "example": "He wiped the sweat from his forehead and continued working in the afternoon heat. (他擦掉額頭的汗，繼續在午後的酷熱中工作。)",
+    "id": "IELTS-forehead-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "brow",
+    "meaning": "n. 額；眉毛",
+    "example": "She pushed her hair back from her brow and looked at the map again. (她把頭髮從額前撥開，又看了一次地圖。)",
+    "id": "IELTS-brow-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "eyelash",
+    "meaning": "n. 睫毛；眼睫毛",
+    "example": "A single eyelash fell onto her cheek and she brushed it away gently. (一根睫毛掉到她的臉頰上，她輕輕把它撥掉。)",
+    "id": "IELTS-eyelash-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lip",
+    "meaning": "n. 嘴唇；（洞口或傷口等的）邊緣",
+    "example": "He bit his lip nervously while waiting for the interview panel to call his name. (等待面試委員叫他的名字時，他緊張地咬著嘴唇。)",
+    "id": "IELTS-lip-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mouth",
+    "meaning": "n. 口；嘴；河口",
+    "example": "She covered her mouth with her hand when she heard the surprising news. (聽到這個令人意外的消息時，她用手摀住嘴。)",
+    "id": "IELTS-mouth-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "tongue",
+    "meaning": "n. 舌頭；語言",
+    "example": "The soup was so hot that it burned his tongue and he could not taste anything. (湯太燙，把他的舌頭燙傷了，他什麼都嚐不出來。)",
+    "id": "IELTS-tongue-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "throat",
+    "meaning": "n. 喉嚨；嗓子；嗓音",
+    "example": "A sore throat kept her at home for two days last week. (上週她因為喉嚨痛，在家休息了兩天。)",
+    "id": "IELTS-throat-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "chin",
+    "meaning": "n. 下巴",
+    "example": "He rested his chin on his hand and stared out of the window. (他用手托著下巴，凝視窗外。)",
+    "id": "IELTS-chin-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "neck",
+    "meaning": "n. 脖子；衣領；海峽",
+    "example": "She wore a thin silver chain around her neck, a gift from her mother. (她脖子上戴著一條細銀鍊，是母親送的禮物。)",
+    "id": "IELTS-neck-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "beard",
+    "meaning": "n. 鬍鬚；鬍子",
+    "example": "The old man had a long white beard and wore a dark woollen coat. (那位老人留著長長的白鬍鬚，穿著深色羊毛大衣。)",
+    "id": "IELTS-beard-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "shoulder",
+    "meaning": "n. 肩膀；肩部",
+    "example": "He carried the heavy bag on one shoulder and the tent in his other hand. (他把沉重的袋子扛在一邊肩膀上，另一手拿著帳篷。)",
+    "id": "IELTS-shoulder-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "wrist",
+    "meaning": "n. 腕；腕關節",
+    "example": "She broke her wrist while skating and had to wear a cast for six weeks. (她溜冰時跌斷手腕，必須上石膏六週。)",
+    "id": "IELTS-wrist-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "thumb",
+    "meaning": "n. 拇指；大拇指",
+    "example": "He pressed his thumb firmly against the screen to unlock the old phone. (他把拇指用力按在螢幕上，解鎖那支舊手機。)",
+    "id": "IELTS-thumb-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "palm",
+    "meaning": "n. 手掌；棕櫚樹 v. 把……藏在手中",
+    "example": "She held the small coin in the palm of her hand and made a wish. (她把小硬幣放在手掌心，許了一個願。)",
+    "id": "IELTS-palm-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "finger",
+    "meaning": "n. 手指",
+    "example": "He pointed a finger at the map to show where the accident had happened. (他用手指著地圖，指出事故發生的地點。)",
+    "id": "IELTS-finger-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "fist",
+    "meaning": "n. 拳頭",
+    "example": "She clenched her fist and waited for the noise from the street to stop. (她握緊拳頭，等待街上的噪音停下來。)",
+    "id": "IELTS-fist-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "abdomen",
+    "meaning": "n. 腹；腹部",
+    "example": "The pain in his abdomen became worse, so he went to the hospital that evening. (他腹部疼痛加劇，所以當晚去了醫院。)",
+    "id": "IELTS-abdomen-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "rib",
+    "meaning": "n. 肋骨；排骨",
+    "example": "He cracked a rib playing football and could not run for several weeks. (他踢足球時弄裂一根肋骨，好幾週都不能跑步。)",
+    "id": "IELTS-rib-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "stomach",
+    "meaning": "n. 胃；腹部；胃口",
+    "example": "Eating too quickly can upset the stomach and make you feel uncomfortable. (吃得太快會讓胃不舒服，使你感到難受。)",
+    "id": "IELTS-stomach-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lung",
+    "meaning": "n. 肺；肺部",
+    "example": "Smoking damages lung tissue and increases the risk of several serious diseases. (吸菸會損害肺組織，並增加多種嚴重疾病的風險。)",
+    "id": "IELTS-lung-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "knee",
+    "meaning": "n. 膝蓋；膝",
+    "example": "He injured his knee during the race and had to stop at the next village. (他在比賽中傷到膝蓋，只好在下一個村落停下來。)",
+    "id": "IELTS-knee-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lap",
+    "meaning": "n. 大腿部；膝上；下襬；一圈",
+    "example": "The cat slept on her lap while she read the newspaper by the window. (她坐在窗邊看報紙時，貓在她膝上睡著了。)",
+    "id": "IELTS-lap-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "ankle",
+    "meaning": "n. 踝關節；腳踝",
+    "example": "She twisted her ankle on the uneven path and had to rest for a while. (她在凹凸不平的小路上扭傷腳踝，只好休息一會兒。)",
+    "id": "IELTS-ankle-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "heel",
+    "meaning": "n. 足跟；腳後跟",
+    "example": "The new boots rubbed the skin of his heel until it became sore. (新靴子磨著他的腳後跟，磨到都痛了。)",
+    "id": "IELTS-heel-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "toe",
+    "meaning": "n. 腳趾；足尖",
+    "example": "He broke his toe when he dropped a heavy book on his bare foot. (他把厚重的書掉在光著的腳上，弄斷了腳趾。)",
+    "id": "IELTS-toe-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pore",
+    "meaning": "n. 毛孔；小孔；氣孔 v. 凝視；沉思",
+    "example": "Dust can block each pore of the skin and cause small red spots. (灰塵會堵塞皮膚的每個毛孔，造成小紅點。)",
+    "id": "IELTS-pore-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pulse",
+    "meaning": "n. 脈搏；脈衝",
+    "example": "The nurse checked his pulse and noted the result on the chart. (護士量了他的脈搏，並把結果記在病歷表上。)",
+    "id": "IELTS-pulse-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hormone",
+    "meaning": "n. 荷爾蒙；激素",
+    "example": "The level of this hormone rises during the night and falls again in the morning. (這種荷爾蒙的濃度在夜間上升，早上又下降。)",
+    "id": "IELTS-hormone-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "biorhythm",
+    "meaning": "n. 生物節律；生理時鐘",
+    "example": "Night shifts disturb the body's natural biorhythm and can affect sleep quality. (輪值夜班會打亂身體自然的生物節律，可能影響睡眠品質。)",
+    "id": "IELTS-biorhythm-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lifestyle",
+    "meaning": "n. 生活方式；生活型態",
+    "example": "A sedentary lifestyle increases the risk of heart disease and poor mental health. (久坐的生活方式會增加心臟病和心理健康不佳的風險。)",
+    "id": "IELTS-lifestyle-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "habit",
+    "meaning": "n. 習慣；習性",
+    "example": "Reading before bed has become a habit that helps her fall asleep. (睡前閱讀已成為幫助她入睡的習慣。)",
+    "id": "IELTS-habit-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sense",
+    "meaning": "n. 感官；感覺；意義",
+    "example": "Dogs have a very strong sense of smell and can detect tiny amounts of scent. (狗有非常敏銳的嗅覺感官，能察覺極微量的氣味。)",
+    "id": "IELTS-sense-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sight",
+    "meaning": "n. 視力；看見；景物",
+    "example": "Her sight has worsened with age, so she now wears glasses for reading. (她的視力隨著年紀變差，所以現在看書要戴眼鏡。)",
+    "id": "IELTS-sight-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "view",
+    "meaning": "n. 視野；見解；風景；察看",
+    "example": "In my view, the council should invest more in safe walking and cycling routes. (依我的見解，市議會應該多投資安全的步行和自行車路線。)",
+    "id": "IELTS-view-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "blind",
+    "meaning": "adj. 盲目的；瞎的；未察覺的",
+    "example": "The charity trains guide dogs for people who are blind or partially sighted. (這個慈善機構為全盲或弱視的人訓練導盲犬。)",
+    "id": "IELTS-blind-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "dumb",
+    "meaning": "adj. 啞的；不肯開口的",
+    "example": "He was struck dumb by the news and could not speak for a moment. (這個消息讓他啞口無言，一時說不出話來。)",
+    "id": "IELTS-dumb-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "aural",
+    "meaning": "adj. 耳的；聽覺的",
+    "example": "The test included an aural section in which students listened to short recordings. (這項測驗包含聽覺部分，學生要聽幾段簡短錄音。)",
+    "id": "IELTS-aural-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "dental",
+    "meaning": "adj. 牙的；牙科的",
+    "example": "Regular dental checks can identify problems before they become painful and expensive. (定期牙科檢查能在問題變得疼痛又昂貴前先發現。)",
+    "id": "IELTS-dental-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "awake",
+    "meaning": "adj. 醒著的；警覺的",
+    "example": "The baby was still awake at midnight, although she had been put to bed early. (儘管很早就被哄上床，寶寶到半夜還醒著。)",
+    "id": "IELTS-awake-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "yawn",
+    "meaning": "v. 打哈欠；裂開 n. 呵欠",
+    "example": "He yawned several times during the lecture and struggled to stay awake. (他在演講中打了好幾次哈欠，努力撐著不睡著。)",
+    "id": "IELTS-yawn-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "nap",
+    "meaning": "n. 小睡；打盹",
+    "example": "A short nap after lunch helps her concentrate during the afternoon lessons. (午餐後小睡一下，有助她在下午的課堂上專心。)",
+    "id": "IELTS-nap-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "doze",
+    "meaning": "v. 小睡；打盹",
+    "example": "He dozed in the armchair while the rain beat against the living room windows. (雨打在客廳窗戶上時，他在扶手椅上打盹。)",
+    "id": "IELTS-doze-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "quiet",
+    "meaning": "adj. 安靜的；寂靜的；平靜的",
+    "example": "The reading room is quiet, so visitors can study without being disturbed. (閱覽室很安靜，訪客可以不受打擾地讀書。)",
+    "id": "IELTS-quiet-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "asleep",
+    "meaning": "adj. 睡著的；不活躍的；麻木的",
+    "example": "The children were already asleep by the time their father came home. (父親回到家時，孩子們已經睡著了。)",
+    "id": "IELTS-asleep-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "cripple",
+    "meaning": "n. 跛子；殘疾人 v. 使跛；使殘廢",
+    "example": "The injury could cripple him for life if it is not treated properly. (如果沒有妥善治療，這個傷可能讓他終身殘廢。)",
+    "id": "IELTS-cripple-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "lame",
+    "meaning": "adj. 跛的；瘸的；無說服力的",
+    "example": "The horse went lame after the long ride and had to rest for a week. (那匹馬在長途騎乘後瘸了，必須休息一週。)",
+    "id": "IELTS-lame-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "dwarf",
+    "meaning": "n. 小矮人；侏儒 adj. 矮小的",
+    "example": "In the fairy tale, a dwarf helps the young girl finish her work. (童話故事裡，一個小矮人幫年輕女孩完成工作。)",
+    "id": "IELTS-dwarf-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "born",
+    "meaning": "adj. 天生的；與生俱來的 v. 出生",
+    "example": "She believes she was born with a natural talent for learning foreign languages. (她相信自己天生就有學習外語的才能。)",
+    "id": "IELTS-born-adj-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "condom",
+    "meaning": "n. 保險套；避孕套",
+    "example": "A condom should be used correctly to reduce the risk of infection. (保險套應正確使用，以降低感染的風險。)",
+    "id": "IELTS-condom-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "clone",
+    "meaning": "v. 複製；克隆 n. 複製的動植物；克隆",
+    "example": "Scientists can clone many plants far more easily than they can clone animals. (科學家複製許多植物，遠比複製動物容易得多。)",
+    "id": "IELTS-clone-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "disease",
+    "meaning": "n. 疾病；病症",
+    "example": "The disease spread quickly through the crowded camp before clean water arrived. (乾淨的水送達前，這種疾病在擁擠的營地裡迅速傳播。)",
+    "id": "IELTS-disease-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "illness",
+    "meaning": "n. 疾病；病",
+    "example": "Her illness kept her off work for three weeks and she lost part of her income. (她因病三週無法工作，還損失了一部分收入。)",
+    "id": "IELTS-illness-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "moan",
+    "meaning": "n. 呻吟；哀悼 v. 呻吟；抱怨",
+    "example": "He moaned in pain as the nurse cleaned the wound on his arm. (護士清理他手臂上的傷口時，他痛得呻吟。)",
+    "id": "IELTS-moan-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "detriment",
+    "meaning": "n. 損害；損害物",
+    "example": "He worked long hours to the detriment of his health and his family life. (他長時間工作，損害了健康和家庭生活。)",
+    "id": "IELTS-detriment-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "broken",
+    "meaning": "adj. 弄壞的；破碎的",
+    "example": "The broken window let in cold air, so we covered it with a board. (破掉的窗戶讓冷風灌進來，所以我們用木板把它擋住。)",
+    "id": "IELTS-broken-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "patient",
+    "meaning": "n. 病人 adj. 有耐心的；能忍耐的",
+    "example": "Each patient receives a leaflet explaining the treatment and the possible side effects. (每位病人都會拿到一份說明治療方式和可能副作用的單張。)",
+    "id": "IELTS-patient-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "dysfunction",
+    "meaning": "n. （身體）功能障礙",
+    "example": "The report links the dysfunction of the organs to long-term exposure to chemicals. (這份報告把器官功能障礙與長期接觸化學物質連結起來。)",
+    "id": "IELTS-dysfunction-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "diabetes",
+    "meaning": "n. 糖尿病",
+    "example": "People with diabetes need to monitor their blood sugar carefully every day. (糖尿病患每天都需要仔細監測血糖。)",
+    "id": "IELTS-diabetes-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "obesity",
+    "meaning": "n. （過度）肥胖；肥胖症",
+    "example": "Obesity has become far more common among young children in many wealthy countries. (在許多富裕國家，幼童肥胖症已變得普遍許多。)",
+    "id": "IELTS-obesity-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hypertension",
+    "meaning": "n. 高血壓",
+    "example": "Hypertension often has no symptoms, so adults should have their blood pressure checked. (高血壓通常沒有症狀，所以成人應該檢查血壓。)",
+    "id": "IELTS-hypertension-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "paralyse/paralyze",
+    "meaning": "v. 使麻痺；使癱瘓；使無助",
+    "example": "The accident paralysed his legs, and he now uses a wheelchair at work. (那場事故使他雙腿癱瘓，現在他上班要坐輪椅。)",
+    "id": "IELTS-paralyse-paralyze-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "insomnia",
+    "meaning": "n. 失眠；失眠症",
+    "example": "Her insomnia worsened during the exam period, so she avoided coffee after lunch. (她的失眠在考試期間加重，所以午餐後就不喝咖啡。)",
+    "id": "IELTS-insomnia-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "allergy",
+    "meaning": "n. 過敏；過敏症",
+    "example": "He has a serious allergy to nuts and always checks the ingredients on labels. (他對堅果嚴重過敏，因此總是檢查標籤上的成分。)",
+    "id": "IELTS-allergy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "heart attack",
+    "meaning": "n. 心臟病發作；心肌梗塞",
+    "example": "He survived a heart attack last winter and now walks for thirty minutes daily. (他去年冬天心臟病發作後倖存，現在每天走路三十分鐘。)",
+    "id": "IELTS-heart-attack-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "cancer",
+    "meaning": "n. 癌；癌症",
+    "example": "Early screening greatly improves the chances of treating several common forms of cancer successfully. (早期篩檢能大幅提高成功治療幾種常見癌症的機會。)",
+    "id": "IELTS-cancer-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pimple",
+    "meaning": "n. 粉刺；丘疹；青春痘",
+    "example": "A single pimple appeared on his forehead the morning before the interview. (面試前一天早上，他的額頭冒出一顆青春痘。)",
+    "id": "IELTS-pimple-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "plague",
+    "meaning": "n. 瘟疫；鼠疫",
+    "example": "The plague killed a large part of the population in the fourteenth century. (十四世紀時，瘟疫奪走了很大一部分人口。)",
+    "id": "IELTS-plague-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "flu/influenze",
+    "meaning": "n. 流行性感冒；流感",
+    "example": "She caught the flu and stayed in bed for most of the week. (她得了流感，那個星期大部分時間都躺在床上。)",
+    "id": "IELTS-flu-influenze-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "fever",
+    "meaning": "n. 發燒；狂熱 v. （使）發燒；（使）狂熱",
+    "example": "The child had a high fever, so his parents took him to the clinic. (孩子發高燒，父母於是帶他去診所。)",
+    "id": "IELTS-fever-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "headache",
+    "meaning": "n. 頭痛；令人頭痛的事",
+    "example": "Lack of sleep often gives me a headache by the end of the afternoon. (睡眠不足常讓我在傍晚時頭痛。)",
+    "id": "IELTS-headache-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "choke",
+    "meaning": "v. （使）窒息；阻塞；說不出話",
+    "example": "He began to choke on a piece of bread and someone slapped his back. (他被一塊麵包噎到，有人拍了拍他的背。)",
+    "id": "IELTS-choke-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "injure",
+    "meaning": "v. 傷害；使遭受損傷；損害",
+    "example": "A fall can injure your back if you land awkwardly on the stairs. (如果在樓梯上落地姿勢不當，跌倒可能傷到你的背。)",
+    "id": "IELTS-injure-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "injury",
+    "meaning": "n. 傷害；損害；傷勢",
+    "example": "The injury to his shoulder kept him out of the team for six weeks. (他的肩傷讓他六週無法加入球隊。)",
+    "id": "IELTS-injury-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hurt",
+    "meaning": "v. 損害；傷害；（使）疼痛",
+    "example": "Be very careful with that sharp knife, because it could hurt someone badly. (那把利刀要非常小心，因為可能嚴重傷到人。)",
+    "id": "IELTS-hurt-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "bleed",
+    "meaning": "v. 流血；放血；放掉（水或氣體）",
+    "example": "The cut on his hand continued to bleed, so the nurse applied a bandage. (他手上的傷口一直流血，所以護士替他貼上繃帶。)",
+    "id": "IELTS-bleed-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "bruise",
+    "meaning": "n. 瘀傷；傷痕 v. 擦傷；瘀傷",
+    "example": "A large bruise appeared on her arm after she fell from the bicycle. (她從腳踏車上摔下來後，手臂出現一大片瘀傷。)",
+    "id": "IELTS-bruise-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "scar",
+    "meaning": "n. 疤痕；傷疤",
+    "example": "The scar on his knee is a reminder of the accident years ago. (他膝蓋上的疤痕是多年前那場事故留下的印記。)",
+    "id": "IELTS-scar-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "wound",
+    "meaning": "n. 創傷；傷害；傷口",
+    "example": "The wound was cleaned and covered, and he was told to return in two days. (傷口被清洗並包紮好，他還被告知兩天後要回診。)",
+    "id": "IELTS-wound-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "trauma",
+    "meaning": "n. 外傷；精神創傷；痛苦經歷",
+    "example": "The driver suffered serious trauma to his legs and spent three months in hospital. (這位駕駛的腿部受到嚴重外傷，在醫院住了三個月。)",
+    "id": "IELTS-trauma-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lump",
+    "meaning": "n. 塊；腫塊 v. 使成塊狀",
+    "example": "She found a small lump on her neck and asked the doctor to check it. (她發現脖子上有一個小腫塊，便請醫師檢查。)",
+    "id": "IELTS-lump-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pain",
+    "meaning": "n. 痛苦；疼痛 v. 使痛苦",
+    "example": "The pain in his back became so severe that he could not stand upright. (他背部的疼痛變得非常劇烈，以致無法站直。)",
+    "id": "IELTS-pain-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "death",
+    "meaning": "n. 死；死亡；毀滅",
+    "example": "The death of the old tree left a large empty space in the garden. (那棵老樹死亡後，花園裡留下了一大片空位。)",
+    "id": "IELTS-death-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mortal",
+    "meaning": "adj. 必死的；致命的 n. 凡人；人類",
+    "example": "Every mortal creature must eventually face the end of its own life on earth. (每個終究會死的生物，最後都得面對自己生命的終點。)",
+    "id": "IELTS-mortal-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "demise",
+    "meaning": "n. 死亡；終止；禪讓 v. 遺贈；轉讓",
+    "example": "The sudden demise of the company's founder shocked everyone at the factory. (公司創辦人突然去世，讓工廠裡每個人都很震驚。)",
+    "id": "IELTS-demise-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "tire",
+    "meaning": "v. （使）疲勞；厭煩",
+    "example": "Long hours of standing can tire even the fittest young shop assistant by evening. (長時間站立甚至會讓最強健的年輕店員到傍晚就疲勞。)",
+    "id": "IELTS-tire-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "faint",
+    "meaning": "adj. 模糊的；微弱的；虛弱的 v. 暈倒",
+    "example": "A faint smell of smoke came from the kitchen, so she called the fire service. (廚房傳來一股微弱的煙味，於是她打電話給消防隊。)",
+    "id": "IELTS-faint-adj-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "weary",
+    "meaning": "adj. 疲倦的；厭煩的",
+    "example": "The weary travellers reached the guesthouse just before the heavy rain began. (疲倦的旅客在大雨開始前正好抵達民宿。)",
+    "id": "IELTS-weary-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "uncomfortable",
+    "meaning": "adj. 不舒服的；不自在的",
+    "example": "The seats in the waiting room were hard and uncomfortable for elderly patients. (候診室的椅子又硬又不舒服，對年長病人很不友善。)",
+    "id": "IELTS-uncomfortable-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "unconscious",
+    "meaning": "adj. 無意識的；失去知覺的",
+    "example": "The cyclist was unconscious for several minutes after hitting the low wall. (那名自行車騎士撞上矮牆後，失去知覺好幾分鐘。)",
+    "id": "IELTS-unconscious-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "suffering",
+    "meaning": "n. 苦難；折磨",
+    "example": "The war brought terrible suffering to thousands of families across the region. (戰爭為這個地區數以千計的家庭帶來可怕的苦難。)",
+    "id": "IELTS-suffering-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lament",
+    "meaning": "v. 哀悼；悲嘆 n. 悲傷；哀悼",
+    "example": "Many residents lament the loss of the small park where children used to play. (許多居民哀悼那座孩子們以前常去玩耍的小公園消失了。)",
+    "id": "IELTS-lament-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hospital",
+    "meaning": "n. 醫院",
+    "example": "The nearest hospital is forty minutes away by ambulance from this village. (從這個村莊搭救護車到最近的醫院要四十分鐘。)",
+    "id": "IELTS-hospital-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "health care",
+    "meaning": "n. 醫療保健",
+    "example": "Access to good health care should not depend on where a person lives. (能否獲得良好的醫療保健，不應該取決於一個人住在哪裡。)",
+    "id": "IELTS-health-care-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "hygiene",
+    "meaning": "n. 衛生；衛生學；保健",
+    "example": "Good hygiene in the kitchen prevents bacteria from spreading to cooked food. (廚房衛生良好可以防止細菌傳播到煮熟的食物上。)",
+    "id": "IELTS-hygiene-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "operation",
+    "meaning": "n. 手術；操作；經營；運轉",
+    "example": "She needed an operation on her knee and stayed in hospital for four days. (她的膝蓋需要動手術，因此住院四天。)",
+    "id": "IELTS-operation-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "cure",
+    "meaning": "v. 治好；治癒 n. 療法；治療",
+    "example": "Doctors still cannot cure the common cold, although they can ease the symptoms. (醫師仍然無法治好普通感冒，雖然可以減輕症狀。)",
+    "id": "IELTS-cure-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "X-ray",
+    "meaning": "n. X 射線；X 光 v. 用 X 射線檢查",
+    "example": "The X-ray showed a small crack in the bone just above his wrist. (X 光顯示他手腕正上方骨頭有一道小裂痕。)",
+    "id": "IELTS-x-ray-n-x-x-v-x"
+  },
+  {
+    "level": "IELTS",
+    "word": "injection",
+    "meaning": "n. 注射；注射物；單射",
+    "example": "The nurse gave him an injection to reduce the swelling around the injury. (護士替他打了一針，以減輕傷口周圍的腫脹。)",
+    "id": "IELTS-injection-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "precaution",
+    "meaning": "n. 預防；警惕；預防措施",
+    "example": "Wearing a helmet is a sensible precaution when you ride a motorcycle in traffic. (騎機車上路時戴安全帽是明智的預防措施。)",
+    "id": "IELTS-precaution-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "vaccinate",
+    "meaning": "v. 給……接種疫苗；預防接種",
+    "example": "Local clinics vaccinate children against several diseases before they start primary school each year. (各地診所每年在兒童進小學前為他們接種多種疾病的疫苗。)",
+    "id": "IELTS-vaccinate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "quarantine",
+    "meaning": "v. 隔離檢疫 n. 檢疫；隔離期",
+    "example": "Travellers from affected areas must quarantine at home for fourteen days after arrival. (來自疫區的旅客抵達後必須在家隔離檢疫十四天。)",
+    "id": "IELTS-quarantine-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pharmacy",
+    "meaning": "n. 藥局；藥劑學",
+    "example": "The pharmacy on the corner opens early and stays open until ten at night. (轉角的藥局很早開門，而且營業到晚上十點。)",
+    "id": "IELTS-pharmacy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "medicine",
+    "meaning": "n. 藥；醫學；藥物",
+    "example": "Take this medicine twice a day after meals and avoid alcohol while using it. (這種藥一天吃兩次、飯後服用，使用期間要避免喝酒。)",
+    "id": "IELTS-medicine-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "drug",
+    "meaning": "n. 藥；毒品",
+    "example": "The doctor prescribed a drug that lowers blood pressure without causing drowsiness. (醫師開了一種能降血壓、又不會引起嗜睡的藥。)",
+    "id": "IELTS-drug-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "pill",
+    "meaning": "n. 藥丸；藥片",
+    "example": "She takes one pill every morning to keep her blood pressure under control. (她每天早上吃一顆藥丸，把血壓控制住。)",
+    "id": "IELTS-pill-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "penicillin",
+    "meaning": "n. 青黴素；盤尼西林",
+    "example": "The discovery of penicillin was an accident that has saved millions of lives. (盤尼西林是偶然發現的，此後救了數百萬人的性命。)",
+    "id": "IELTS-penicillin-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "morphine",
+    "meaning": "n. 嗎啡",
+    "example": "Doctors use morphine to relieve severe pain after major surgery or serious injury. (醫師用嗎啡來緩解大手術或重傷後的劇烈疼痛。)",
+    "id": "IELTS-morphine-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "recovery",
+    "meaning": "n. 恢復；痊癒；復原",
+    "example": "Her recovery after the operation was slow, but she returned to work in June. (她手術後的恢復很慢，但六月就回去工作了。)",
+    "id": "IELTS-recovery-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "ease",
+    "meaning": "v. 減輕；緩和 n. 容易；悠閒",
+    "example": "A warm drink and a short rest helped ease the pain in her throat. (一杯熱飲和短暫休息幫助減輕她喉嚨的疼痛。)",
+    "id": "IELTS-ease-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "common",
+    "meaning": "adj. 共同的；普通的；平常的",
+    "example": "It is common for students to feel nervous before their first public presentation. (學生在第一次公開報告前感到緊張是很普通的。)",
+    "id": "IELTS-common-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "usual",
+    "meaning": "adj. 通常的；慣常的",
+    "example": "He arrived at the office earlier than usual and started reading the reports. (他比平常更早到辦公室，開始讀那些報告。)",
+    "id": "IELTS-usual-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "pessimistic",
+    "meaning": "adj. 悲觀的；悲觀主義的",
+    "example": "She remains pessimistic about finding a job in the city before the end of the year. (她對年底前在城市找到工作仍持悲觀態度。)",
+    "id": "IELTS-pessimistic-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "passive",
+    "meaning": "adj. 被動的；消極的",
+    "example": "Students who remain passive during lessons often learn less than those who ask questions. (課堂上保持被動的學生，學到的通常比發問的學生少。)",
+    "id": "IELTS-passive-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "apathetic",
+    "meaning": "adj. 無動於衷的；漠不關心的",
+    "example": "Many young voters seem apathetic about local elections and do not bother to vote. (許多年輕選民對地方選舉顯得漠不關心，也懶得去投票。)",
+    "id": "IELTS-apathetic-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "negligible",
+    "meaning": "adj. 可以忽略的；微不足道的",
+    "example": "The difference between the two prices was negligible, so she chose the nearer shop. (這兩種價格的差別微不足道，所以她選了較近的那家店。)",
+    "id": "IELTS-negligible-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "happiness",
+    "meaning": "n. 幸福；快樂",
+    "example": "A secure home and close friends contribute more to happiness than a large income. (安穩的家和親近的朋友，比高收入更能帶來幸福。)",
+    "id": "IELTS-happiness-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "delight",
+    "meaning": "v. （使）高興；喜愛 n. 樂趣；喜悅",
+    "example": "The magician's simple tricks delight young children at every birthday party they attend. (魔術師簡單的戲法在每場生日派對上讓幼童很高興。)",
+    "id": "IELTS-delight-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "merry",
+    "meaning": "adj. 愉快的；歡樂的；微醉的",
+    "example": "The tavern was full of merry voices as the villagers celebrated the harvest. (村民慶祝豐收時，酒館裡滿是愉快的說話聲。)",
+    "id": "IELTS-merry-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "fun",
+    "meaning": "n. 樂趣；玩笑 adj. 有趣的",
+    "example": "The treasure hunt was great fun, and every child won a small prize. (尋寶活動很好玩，每個孩子都贏得一個小獎品。)",
+    "id": "IELTS-fun-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "joke",
+    "meaning": "n. 笑話；玩笑 v. 說笑話；開玩笑",
+    "example": "He told a joke about a lost umbrella, and the whole class laughed. (他講了一個關於弄丟雨傘的笑話，全班都笑了。)",
+    "id": "IELTS-joke-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "laughter",
+    "meaning": "n. 笑；笑聲",
+    "example": "Loud laughter came from the kitchen when the cake fell onto the floor. (蛋糕掉到地上時，廚房傳來一陣大笑聲。)",
+    "id": "IELTS-laughter-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "joy",
+    "meaning": "n. 歡樂；喜悅；樂趣",
+    "example": "The arrival of the first grandchild brought great joy to the whole family. (第一個孫子出生，為全家帶來極大的歡樂。)",
+    "id": "IELTS-joy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "please",
+    "meaning": "v. 使高興；取悅 adv. 請",
+    "example": "The new design failed to please customers, so the company changed it again. (新設計無法讓顧客高興，所以公司又改了一次。)",
+    "id": "IELTS-please-v-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "rejoice",
+    "meaning": "v. （使）高興；歡喜",
+    "example": "Fans rejoice when their team scores in the final minute of a close match. (球迷在球隊於比賽最後一分鐘進球時歡呼。)",
+    "id": "IELTS-rejoice-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "cheer",
+    "meaning": "v. 使振作；（向……）歡呼",
+    "example": "Good news from the hospital helped cheer the family after a difficult week. (醫院傳來的好消息，幫助這個家庭在難熬的一週後振作起來。)",
+    "id": "IELTS-cheer-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "pleasure",
+    "meaning": "n. 愉快；高興；榮幸",
+    "example": "It was a pleasure to meet the author and discuss her latest novel. (能和作者見面並討論她最新的小說，是一件愉快的事。)",
+    "id": "IELTS-pleasure-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "agreeable",
+    "meaning": "adj. 使人愉快的；（欣然）同意的",
+    "example": "The hotel had an agreeable garden where guests could read in the shade. (這家飯店有一座宜人的花園，客人可以在樹蔭下閱讀。)",
+    "id": "IELTS-agreeable-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "exhilarate",
+    "meaning": "v. 使高興；使興奮",
+    "example": "The steep descent can exhilarate even experienced cyclists as they race to the coast. (陡峭的下坡讓自行車騎士很興奮，他們一路衝向海岸。)",
+    "id": "IELTS-exhilarate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "satisfactory",
+    "meaning": "adj. 令人滿意的",
+    "example": "The teacher said the essay was satisfactory but could be improved with clearer examples. (老師說這篇文章令人滿意，但可以用更清楚的例子改得更好。)",
+    "id": "IELTS-satisfactory-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "exciting",
+    "meaning": "adj. 令人興奮的；使人激動的",
+    "example": "The final match was so exciting that nobody left the stadium early. (決賽非常刺激，沒有人提早離開球場。)",
+    "id": "IELTS-exciting-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "zeal",
+    "meaning": "n. 熱心；熱情；熱忱",
+    "example": "She organised the charity run with great zeal and raised more than expected. (她以極大的熱心籌辦慈善路跑，募到的錢超出預期。)",
+    "id": "IELTS-zeal-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "lively",
+    "meaning": "adj. 活潑的；活躍的；栩栩如生的",
+    "example": "The market is lively on Saturday mornings, with musicians playing near the entrance. (星期六早上市場很熱鬧，入口附近有樂手在演奏。)",
+    "id": "IELTS-lively-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "lovely",
+    "meaning": "adj. 可愛的；令人愉快的",
+    "example": "They found a lovely spot by the river and stopped there for lunch. (他們在河邊找到一個可愛的地點，便停下來吃午餐。)",
+    "id": "IELTS-lovely-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "fond",
+    "meaning": "adj. 喜愛的；溺愛的",
+    "example": "She is very fond of old films and watches one every Friday evening. (她很喜愛老電影，每個星期五晚上都看一部。)",
+    "id": "IELTS-fond-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "favor/favour",
+    "meaning": "n. 偏愛；贊同；恩惠；幫助",
+    "example": "Could you do me a favour and collect the parcel from the post office? (能不能請你幫我一個忙，去郵局領那個包裹？)",
+    "id": "IELTS-favor-favour-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "surprising",
+    "meaning": "adj. 令人驚訝的；出人意料的",
+    "example": "It was surprising to see so many people swimming in the cold sea. (看到那麼多人在冰冷的海裡游泳，令人驚訝。)",
+    "id": "IELTS-surprising-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "startle",
+    "meaning": "v. 使大吃一驚 n. 吃驚",
+    "example": "The sudden noise can startle the birds and make them fly across the lake. (突然的聲響讓鳥兒大吃一驚，牠們飛過湖面。)",
+    "id": "IELTS-startle-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "amazing",
+    "meaning": "adj. 令人驚歎的；驚人的",
+    "example": "The view from the hill was amazing, with fields stretching to the distant sea. (從山上看到的景色令人驚歎，田野一路延伸到遠方的海邊。)",
+    "id": "IELTS-amazing-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "hectic",
+    "meaning": "adj. 興奮活躍的；忙亂的；繁忙的",
+    "example": "The week before the festival was hectic for everyone working in the hotel. (節慶前一週，飯店裡的每個人都忙得不可開交。)",
+    "id": "IELTS-hectic-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "liberal",
+    "meaning": "adj. 慷慨的；大方的；自由主義的",
+    "example": "He is liberal with his time and often helps neighbours repair their bicycles. (他對時間很慷慨，常幫鄰居修理腳踏車。)",
+    "id": "IELTS-liberal-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "gentle",
+    "meaning": "adj. 溫和的；文雅的；出身名門的",
+    "example": "A gentle breeze moved the curtains while the baby slept in the afternoon. (微風吹動窗簾，寶寶在午後睡著了。)",
+    "id": "IELTS-gentle-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "modest",
+    "meaning": "adj. 謙虛的；謙遜的",
+    "example": "Despite winning the prize, she remained modest about her achievements in the interview. (儘管得了獎，她在訪談中對自己的成就仍然很謙虛。)",
+    "id": "IELTS-modest-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "humorous",
+    "meaning": "adj. 幽默的；詼諧的",
+    "example": "His humorous remarks made the long meeting feel much shorter than it was. (他幽默的評論讓冗長的會議感覺短了許多。)",
+    "id": "IELTS-humorous-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "polite",
+    "meaning": "adj. 有禮貌的；客氣的",
+    "example": "The receptionist was polite to every visitor, even during the busiest hours. (即使在最忙的時段，櫃檯人員對每位訪客都很有禮貌。)",
+    "id": "IELTS-polite-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "daring",
+    "meaning": "adj. 勇敢的；大膽的",
+    "example": "The daring rescue took place in rough seas near the entrance to the harbour. (那場勇敢的救援行動發生在港口入口附近的海象惡劣處。)",
+    "id": "IELTS-daring-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "manly",
+    "meaning": "adj. 有男子氣概的；果斷的",
+    "example": "He thought it manly to hide his feelings, but his friends disagreed. (他以為隱藏情緒才是有男子氣概，但他的朋友不同意。)",
+    "id": "IELTS-manly-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "direct",
+    "meaning": "adj. 直接的；直率的",
+    "example": "She asked a direct question and received a clear answer from the manager. (她問了一個直接的問題，得到經理清楚的回答。)",
+    "id": "IELTS-direct-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "earnest",
+    "meaning": "adj. 認真的；誠懇的",
+    "example": "The young doctor spoke in an earnest voice about the risks of smoking. (年輕醫師用認真的語氣談抽菸的風險。)",
+    "id": "IELTS-earnest-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "honesty",
+    "meaning": "n. 誠實；正直",
+    "example": "Her honesty about the mistake impressed the committee more than a perfect record. (她對錯誤的誠實態度，比完美的紀錄更讓委員會印象深刻。)",
+    "id": "IELTS-honesty-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "proud",
+    "meaning": "adj. 驕傲的；自豪的；令人自豪的",
+    "example": "The parents were proud of their daughter when she finished the marathon. (女兒跑完馬拉松時，父母親都為她感到自豪。)",
+    "id": "IELTS-proud-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "seriously",
+    "meaning": "adv. 嚴肅地；認真地；嚴重地",
+    "example": "He was seriously injured in the fall and spent two weeks in hospital. (他在那次跌倒中嚴重受傷，住院兩週。)",
+    "id": "IELTS-seriously-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "friendly",
+    "meaning": "adj. 友好的；友善的",
+    "example": "The staff were friendly and explained the timetable to every new student. (員工很友善，向每位新生說明時間表。)",
+    "id": "IELTS-friendly-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "romantic",
+    "meaning": "adj. 浪漫的；充滿傳奇色彩的",
+    "example": "They chose a small restaurant by the river for their romantic anniversary dinner. (他們選了河邊一家小餐廳，度過浪漫的結婚紀念晚餐。)",
+    "id": "IELTS-romantic-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "freedom",
+    "meaning": "n. 自由；獨立自主",
+    "example": "Working from home gives her the freedom to arrange her day around her family. (在家工作讓她有自由，可以按家庭需要安排一天。)",
+    "id": "IELTS-freedom-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "careful",
+    "meaning": "adj. 仔細的；細心的；謹慎的",
+    "example": "Be careful with the glass plates when you set the table for dinner. (擺餐具準備晚餐時，要小心那些玻璃盤子。)",
+    "id": "IELTS-careful-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "considerate",
+    "meaning": "adj. 考慮周到的；體諒的",
+    "example": "It was considerate of him to call before arriving so late at night. (他那麼晚才到，還先打電話，實在很體諒人。)",
+    "id": "IELTS-considerate-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "ready",
+    "meaning": "adj. 準備好的；願意的",
+    "example": "The team was ready to present its findings after weeks of careful preparation. (經過數週仔細準備，團隊已準備好發表研究結果。)",
+    "id": "IELTS-ready-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "apologize/apologise",
+    "meaning": "v. 道歉；賠罪",
+    "example": "The airline apologized for the delay and offered passengers a free meal. (航空公司為延誤道歉，並提供乘客免費餐點。)",
+    "id": "IELTS-apologize-apologise-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "apology",
+    "meaning": "n. 道歉；辯解",
+    "example": "The manager sent a written apology to every customer affected by the error. (經理向每位受錯誤影響的顧客寄出書面道歉。)",
+    "id": "IELTS-apology-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "mercy",
+    "meaning": "n. 仁慈；寬容；憐憫",
+    "example": "The judge showed mercy and gave the young man a suspended sentence. (法官展現仁慈，判那名年輕男子緩刑。)",
+    "id": "IELTS-mercy-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "admire",
+    "meaning": "v. 讚美；欽佩；仰慕",
+    "example": "I admire her patience when she explains difficult ideas to new staff. (我很欽佩她向新員工解釋困難概念時的耐心。)",
+    "id": "IELTS-admire-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "gratitude",
+    "meaning": "n. 感謝；感激；感恩",
+    "example": "She expressed her gratitude to the volunteers who had cleaned the beach. (她向清理海灘的志工表達感謝。)",
+    "id": "IELTS-gratitude-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "eager",
+    "meaning": "adj. 渴望的；熱切的",
+    "example": "The children were eager to open their presents on the morning of the holiday. (假期當天早上，孩子們迫不及待想拆禮物。)",
+    "id": "IELTS-eager-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sound",
+    "meaning": "adj. 健全的；酣暢的；合理的 n. 聲音 v. 發出聲音；聽起來",
+    "example": "A sound diet and regular exercise reduce the risk of heart disease. (健全的飲食和規律運動能降低心臟病的風險。)",
+    "id": "IELTS-sound-adj-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "awesome",
+    "meaning": "adj. 卓越的；引起敬畏的",
+    "example": "The engineers built an awesome bridge that crosses the valley in a single span. (工程師建造了一座卓越的橋，以單一跨距橫越山谷。)",
+    "id": "IELTS-awesome-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "arduous",
+    "meaning": "adj. 辛勤的；費力的；陡峭的",
+    "example": "The arduous climb took six hours and left the walkers completely exhausted. (那趟費力的攀登花了六小時，讓健行者完全累垮。)",
+    "id": "IELTS-arduous-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sturdy",
+    "meaning": "adj. 強健的；堅定的",
+    "example": "You need a sturdy pair of boots for walking on these rocky paths. (在這些多岩石的路上行走，你需要一雙強健的靴子。)",
+    "id": "IELTS-sturdy-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "steadfast",
+    "meaning": "adj. 堅定的",
+    "example": "She remained steadfast in her support for the project despite the criticism. (儘管受到批評，她仍堅定支持這項計畫。)",
+    "id": "IELTS-steadfast-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "temperate",
+    "meaning": "adj. （氣候）溫和的；溫帶的；有節制的；心平氣和的",
+    "example": "The island has a temperate climate, with mild winters and warm but not hot summers. (這座島氣候溫和，冬天不冷，夏天溫暖但不炎熱。)",
+    "id": "IELTS-temperate-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "childish",
+    "meaning": "adj. 孩子般的；幼稚的",
+    "example": "His childish reaction to the criticism surprised everyone at the meeting on Monday. (他對批評的幼稚反應，讓星期一會議上的所有人都很訝異。)",
+    "id": "IELTS-childish-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "liable",
+    "meaning": "adj. 有責任的；有……傾向的；可能的",
+    "example": "Drivers who ignore the speed limit are liable to cause serious accidents. (忽視速限的駕駛容易造成嚴重事故。)",
+    "id": "IELTS-liable-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "enterprising",
+    "meaning": "adj. 有事業心的；有進取心的；有魄力的",
+    "example": "An enterprising student started a repair service for old bicycles in the town. (一位有事業心的學生在鎮上開創了舊腳踏車維修服務。)",
+    "id": "IELTS-enterprising-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sane",
+    "meaning": "adj. 心智健全的；理智的",
+    "example": "It is hard to stay sane when traffic noise continues all through the night. (交通噪音整夜不停時，很難保持心智健全。)",
+    "id": "IELTS-sane-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "strenuous",
+    "meaning": "adj. 發奮的；繁重的；艱苦的",
+    "example": "The doctor advised him to avoid strenuous exercise for at least six weeks. (醫師建議他至少六週內避免繁重的運動。)",
+    "id": "IELTS-strenuous-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "strict",
+    "meaning": "adj. 嚴格的；嚴厲的",
+    "example": "The school has strict rules about mobile phones during lessons and examinations. (學校對上課和考試期間使用手機有嚴格規定。)",
+    "id": "IELTS-strict-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "similar",
+    "meaning": "adj. 相似的；類似的",
+    "example": "The two plans are similar in cost but differ in the number of parking spaces. (這兩項計畫成本相似，但停車位數量不同。)",
+    "id": "IELTS-similar-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "familiar",
+    "meaning": "adj. 熟悉的；熟知的",
+    "example": "Her voice sounded familiar, but I could not remember where we had met. (她的聲音聽起來很熟悉，但我想不起我們在哪裡見過。)",
+    "id": "IELTS-familiar-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "intuition",
+    "meaning": "n. 直覺；直覺力",
+    "example": "Her intuition told her to check the figures again before sending the report. (她的直覺告訴她，寄出報告前要再檢查一次數字。)",
+    "id": "IELTS-intuition-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "spontaneous",
+    "meaning": "adj. 自發的；自然的；本能的",
+    "example": "The crowd broke into spontaneous applause when the singer appeared on stage. (歌手登台時，群眾自發地熱烈鼓掌。)",
+    "id": "IELTS-spontaneous-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "implicit",
+    "meaning": "adj. 暗示的；含蓄的；不懷疑的",
+    "example": "There was an implicit warning in his tone when he mentioned the deadline. (他提到截止期限時，語氣裡帶著含蓄的警告。)",
+    "id": "IELTS-implicit-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "imaginary",
+    "meaning": "adj. 想像的；虛構的",
+    "example": "The child described an imaginary friend who lived under the garden shed. (孩子描述一個住在花園工具棚下的想像朋友。)",
+    "id": "IELTS-imaginary-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "fortune",
+    "meaning": "n. 命運；運氣；財產",
+    "example": "He made his fortune in software and later gave much of it away. (他靠軟體賺了財產，後來把大部分捐出去。)",
+    "id": "IELTS-fortune-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "agony",
+    "meaning": "n. 極度的痛苦；掙扎",
+    "example": "The injury caused him agony until the ambulance arrived twenty minutes later. (傷勢讓他極度痛苦，直到二十分鐘後救護車抵達。)",
+    "id": "IELTS-agony-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "grief",
+    "meaning": "n. 極度悲傷；悲痛",
+    "example": "Her grief after the loss of her father lasted for many months. (父親過世後，她的極度悲傷持續了好幾個月。)",
+    "id": "IELTS-grief-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "distress",
+    "meaning": "n. 悲痛；窮困；不幸 v. 使傷心；使憂慮",
+    "example": "The news of the accident caused great distress to the whole village. (事故的消息為整個村莊帶來極大的悲痛。)",
+    "id": "IELTS-distress-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "sadness",
+    "meaning": "n. 悲痛；悲哀",
+    "example": "A deep sadness filled the room when the old teacher's retirement was announced. (老教師退休的消息宣布時，一股深沉的悲傷充滿整個房間。)",
+    "id": "IELTS-sadness-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "gloomy",
+    "meaning": "adj. 幽暗的；令人沮喪的",
+    "example": "The gloomy corridor was lit by a single window at the far end. (幽暗的走廊只靠最盡頭的一扇窗照明。)",
+    "id": "IELTS-gloomy-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "disappoint",
+    "meaning": "v. 使失望；使受挫折",
+    "example": "The delayed train disappointed thousands of passengers who had planned to travel. (誤點的火車讓數千名原定出遊的乘客很失望。)",
+    "id": "IELTS-disappoint-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "wretched",
+    "meaning": "adj. 不幸的；可憐的；悲慘的；惡劣的",
+    "example": "The wretched family lost their home in the flood and needed urgent help. (那個不幸的家庭在洪水中失去家園，急需幫助。)",
+    "id": "IELTS-wretched-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "mourn",
+    "meaning": "v. （因失去……而）哀痛；哀悼",
+    "example": "The town gathered to mourn the death of the much-loved local doctor. (全鎮聚集起來，哀悼深受愛戴的當地醫師。)",
+    "id": "IELTS-mourn-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "anger",
+    "meaning": "n. 怒；怒氣 v. 使發怒",
+    "example": "His anger rose when he saw the damage to his parked car. (看到停著的車被破壞時，他的怒氣升了上來。)",
+    "id": "IELTS-anger-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "rage",
+    "meaning": "n. 盛怒；狂怒 v. 發怒；肆虐",
+    "example": "She could not hide her rage when the company refused to answer her letters. (公司拒絕回覆她的信件時，她掩不住盛怒。)",
+    "id": "IELTS-rage-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hate",
+    "meaning": "v. 恨；憎恨；不喜歡",
+    "example": "I hate waiting in long queues at the airport after a tiring flight. (我討厭在疲累的飛行後，還要在機場排長隊等待。)",
+    "id": "IELTS-hate-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "hatred",
+    "meaning": "n. 憎惡；憎恨；仇恨",
+    "example": "Years of unfair treatment had turned their simple disagreement into deep personal hatred. (多年的不公平對待，把他們單純的意見不合變成深深的憎恨。)",
+    "id": "IELTS-hatred-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "nuisance",
+    "meaning": "n. 討厭的人或物；麻煩事",
+    "example": "The constant noise from the building site has become a real nuisance. (建築工地不斷傳來的噪音，已經成為真正的麻煩事。)",
+    "id": "IELTS-nuisance-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "disgust",
+    "meaning": "v. 使厭惡；使作嘔 n. 厭惡；嫌惡",
+    "example": "She looked at the dirty kitchen with obvious disgust and called the manager. (她帶著明顯的厭惡看著髒亂的廚房，然後打電話給經理。)",
+    "id": "IELTS-disgust-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "vex",
+    "meaning": "v. 使煩惱；使惱火",
+    "example": "The repeated delays at the station began to vex even patient commuters. (車站反覆的延誤開始讓甚至有耐心的通勤族也感到煩惱。)",
+    "id": "IELTS-vex-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "harass",
+    "meaning": "v. 煩擾；騷擾",
+    "example": "The new law protects workers who are harassed by customers or colleagues. (新法律保護遭顧客或同事騷擾的員工。)",
+    "id": "IELTS-harass-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "troublesome",
+    "meaning": "adj. 令人煩惱的；麻煩的",
+    "example": "The troublesome cough kept her awake for most of the cold winter night. (那惱人的咳嗽讓她整個寒冷的冬夜大部分時間都醒著。)",
+    "id": "IELTS-troublesome-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "unpleasant",
+    "meaning": "adj. 令人不愉快的；討厭的",
+    "example": "There was an unpleasant smell in the lift, so we used the stairs. (電梯裡有一股令人不愉快的味道，所以我們走樓梯。)",
+    "id": "IELTS-unpleasant-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "indignant",
+    "meaning": "adj. 憤慨的；氣憤的",
+    "example": "She was indignant when the shop refused to replace the faulty machine. (店家拒絕更換故障的機器時，她感到很憤慨。)",
+    "id": "IELTS-indignant-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "radical",
+    "meaning": "adj. 激進的；根本的",
+    "example": "The report recommends radical changes to the way the city manages waste. (這份報告建議對城市的廢棄物管理方式做出激進的改變。)",
+    "id": "IELTS-radical-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "mad",
+    "meaning": "adj. 發瘋的；惱火的",
+    "example": "The noise from the machines was so loud that it nearly drove him mad. (機器發出的噪音太大，幾乎把他逼瘋。)",
+    "id": "IELTS-mad-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "crazy",
+    "meaning": "adj. 瘋狂的；荒唐的",
+    "example": "It seems crazy to drive across the city during the morning rush hour. (在早上尖峰時間開車橫越市區，似乎很瘋狂。)",
+    "id": "IELTS-crazy-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "wicked",
+    "meaning": "adj. 邪惡的；缺德的",
+    "example": "The wicked stepmother in the story tries to keep the sisters apart. (故事裡邪惡的繼母想辦法讓姊妹們分開。)",
+    "id": "IELTS-wicked-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "ego",
+    "meaning": "n. 自我；自尊；自負",
+    "example": "His ego was hurt when the committee chose a younger candidate for the post. (委員會選了較年輕的候選人擔任這個職位時，他的自尊受傷了。)",
+    "id": "IELTS-ego-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "selfish",
+    "meaning": "adj. 自私的；利己主義的",
+    "example": "It was selfish of him to take the last seat without asking anyone. (他沒問任何人就佔了最後一個座位，實在很自私。)",
+    "id": "IELTS-selfish-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "rash",
+    "meaning": "adj. 草率的；魯莽的",
+    "example": "It was a rash decision to buy the car without checking its history. (沒查過車子的來歷就買下它，是草率的決定。)",
+    "id": "IELTS-rash-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "volatile",
+    "meaning": "adj. 易變的；反覆無常的；易揮發的",
+    "example": "Food prices are volatile and can rise sharply after a poor harvest. (糧食價格易變，收成不好之後可能急遽上漲。)",
+    "id": "IELTS-volatile-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "weird",
+    "meaning": "adj. 怪誕的；古怪的",
+    "example": "A weird sound came from the attic, so we called an electrician. (閣樓傳來奇怪的聲音，所以我們打電話請電工來。)",
+    "id": "IELTS-weird-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "anxiety",
+    "meaning": "n. 焦慮；擔心；渴望",
+    "example": "Her anxiety about the exam made it difficult to sleep the night before. (她對考試的焦慮，讓她在考前一晚很難入睡。)",
+    "id": "IELTS-anxiety-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "restless",
+    "meaning": "adj. 不安定的；焦躁不安的；不耐煩的",
+    "example": "The children grew restless during the long wait at the railway station. (在火車站長時間等待時，孩子們變得焦躁不安。)",
+    "id": "IELTS-restless-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "fear",
+    "meaning": "n. 害怕；擔心 v. 害怕；擔心",
+    "example": "Many people have a fear of speaking in front of a large audience. (許多人害怕在大批觀眾面前說話。)",
+    "id": "IELTS-fear-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "fuss",
+    "meaning": "n. 大驚小怪；紛擾",
+    "example": "There was a great fuss when the celebrity arrived at the small café. (那位名人來到這家小咖啡館時，引起一陣大驚小怪。)",
+    "id": "IELTS-fuss-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "insult",
+    "meaning": "v. 侮辱；凌辱 n. 侮辱；凌辱",
+    "example": "He did not mean to insult the host when he refused the second helping. (他拒絕再添一份時，並不是有意侮辱主人。)",
+    "id": "IELTS-insult-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "unkind",
+    "meaning": "adj. 不和善的；不仁慈的；刻薄的",
+    "example": "It was unkind to laugh at the new student's pronunciation during the lesson. (上課時嘲笑新生的發音，是很刻薄的行為。)",
+    "id": "IELTS-unkind-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "envy",
+    "meaning": "n. 羨慕；嫉妒 v. 羨慕；嫉妒",
+    "example": "Her envy of her colleague's promotion made it hard to work together. (她羨慕同事升遷，讓兩人很難共事。)",
+    "id": "IELTS-envy-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "doubt",
+    "meaning": "n. 懷疑；疑問 v. 懷疑；不信",
+    "example": "There is some doubt about whether the bridge will be finished this year. (這座橋今年能否完工，還有一些懷疑。)",
+    "id": "IELTS-doubt-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "suspicion",
+    "meaning": "n. 懷疑；嫌疑",
+    "example": "The police treated the damaged car with suspicion and took photographs of every mark. (警方對那輛受損的車抱持懷疑，並拍下每道痕跡。)",
+    "id": "IELTS-suspicion-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "skeptical/sceptical",
+    "meaning": "adj. 懷疑的",
+    "example": "Many local residents remain skeptical about the council's plan to reduce city traffic. (許多當地居民仍對市議會減少市區車流的計畫持懷疑態度。)",
+    "id": "IELTS-skeptical-sceptical-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "unstable",
+    "meaning": "adj. 不穩定的；易變的；不牢固的",
+    "example": "The old wall looks unstable, so the council has closed the path. (那道舊牆看起來不穩定，所以市議會已經封閉這條小路。)",
+    "id": "IELTS-unstable-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "unsuitable",
+    "meaning": "adj. 不合適的；不適宜的",
+    "example": "This film is unsuitable for young children because of its violent scenes. (這部電影有暴力場面，不適合幼童觀看。)",
+    "id": "IELTS-unsuitable-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "unwilling",
+    "meaning": "adj. 不願意的；不情願的；勉強的",
+    "example": "He was unwilling to move abroad, although the salary was much higher. (雖然薪水高得多，他仍不願意搬到國外。)",
+    "id": "IELTS-unwilling-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "embarrass",
+    "meaning": "v. 使尷尬；使窘迫；使侷促不安",
+    "example": "Please do not embarrass the speaker by asking questions she cannot answer. (請不要問講者她答不出來的問題，讓她尷尬。)",
+    "id": "IELTS-embarrass-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "regret",
+    "meaning": "n. 遺憾；抱歉；悲嘆 v. 後悔；痛惜；惋惜",
+    "example": "Her only regret was that she had not visited her grandmother more often. (她唯一的遺憾是沒有更常去看祖母。)",
+    "id": "IELTS-regret-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "repent",
+    "meaning": "v. 懺悔；後悔",
+    "example": "The prisoner said he had come to repent and to apologise to the family. (那名囚犯說他來懺悔，並向那家人道歉。)",
+    "id": "IELTS-repent-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "ashamed",
+    "meaning": "adj. 慚愧的；感到難為情的",
+    "example": "He felt ashamed of his behaviour at the party and wrote a letter of apology. (他為自己在派對上的行為感到慚愧，寫了一封道歉信。)",
+    "id": "IELTS-ashamed-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sigh",
+    "meaning": "n. 嘆息；嘆氣 v. 嘆息；嘆氣",
+    "example": "With a deep sigh, she closed the book and turned off the lamp. (她深深嘆了一口氣，闔上書，關掉檯燈。)",
+    "id": "IELTS-sigh-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "weep",
+    "meaning": "v. 哭泣；流淚；哀悼 n. 哭泣",
+    "example": "She began to weep when she heard that the old theatre would be demolished. (她聽到老劇院將被拆除時，開始哭泣。)",
+    "id": "IELTS-weep-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "tolerance",
+    "meaning": "n. 忍受；容忍；寬容",
+    "example": "The city is known for its tolerance of different religions and lifestyles. (這座城市以容忍不同宗教和生活方式聞名。)",
+    "id": "IELTS-tolerance-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "sly",
+    "meaning": "adj. 狡猾的；狡詐的",
+    "example": "He gave a sly smile and refused to tell us where the keys were. (他狡猾地笑了一下，不肯告訴我們鑰匙在哪裡。)",
+    "id": "IELTS-sly-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "cunning",
+    "meaning": "adj. 狡猾的；巧妙的",
+    "example": "The cunning fox waited until the farmer had left the hen house. (狡猾的狐狸一直等到農夫離開雞舍。)",
+    "id": "IELTS-cunning-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "arbitrary",
+    "meaning": "adj. 武斷的；專斷的；任意的",
+    "example": "The decision seemed arbitrary, as nobody explained why the application was refused. (這個決定顯得武斷，因為沒有人說明申請為何被拒絕。)",
+    "id": "IELTS-arbitrary-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "stupid",
+    "meaning": "adj. 愚蠢的；乏味的 n. 傻瓜；笨蛋",
+    "example": "It was stupid to leave the windows open during the storm last night. (昨晚暴風雨時還把窗戶開著，實在很愚蠢。)",
+    "id": "IELTS-stupid-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "awkward",
+    "meaning": "adj. 笨拙的；尷尬的；棘手的；不合適的",
+    "example": "There was an awkward silence after he mentioned the manager's earlier mistake. (他提到經理先前的錯誤後，出現一陣尷尬的沉默。)",
+    "id": "IELTS-awkward-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "careless",
+    "meaning": "adj. 粗心的；無憂無慮的；淡漠的",
+    "example": "A careless driver left the van blocking the entrance to the hospital. (一名粗心的駕駛把廂型車停在醫院入口，擋住通道。)",
+    "id": "IELTS-careless-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "oblivious",
+    "meaning": "adj. 不知道的；未注意的",
+    "example": "He was oblivious to the rain and kept working in the garden. (他沒注意到在下雨，繼續在花園裡工作。)",
+    "id": "IELTS-oblivious-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "naughty",
+    "meaning": "adj. 淘氣的；頑皮的",
+    "example": "The naughty puppy chewed two pairs of shoes while nobody was watching. (那隻淘氣的小狗在沒人看的時候咬壞了兩雙鞋。)",
+    "id": "IELTS-naughty-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "greedy",
+    "meaning": "adj. 貪吃的；貪婪的",
+    "example": "The greedy landlord raised the rent twice in the same year without warning. (那個貪心的房東在同一年內無預警漲了兩次房租。)",
+    "id": "IELTS-greedy-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "obtrusive",
+    "meaning": "adj. 過分炫耀的；過分突出的；扎眼的",
+    "example": "The new sign is obtrusive and spoils the view of the old square. (新招牌過分突出，破壞了老廣場的景觀。)",
+    "id": "IELTS-obtrusive-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "sluggish",
+    "meaning": "adj. 行動遲緩的；緩慢的",
+    "example": "The computer became sluggish after several programs were left running all day. (好幾個程式開了一整天之後，電腦變得行動遲緩。)",
+    "id": "IELTS-sluggish-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "stubborn",
+    "meaning": "adj. 頑固的；固執的",
+    "example": "He is too stubborn to admit that the original plan was wrong. (他太頑固，不肯承認原本的計畫是錯的。)",
+    "id": "IELTS-stubborn-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "stereotype",
+    "meaning": "n. 刻板印象；模式化觀念",
+    "example": "The film challenges the stereotype of the quiet librarian who hates adventure. (這部電影挑戰「安靜的圖書館員討厭冒險」的刻板印象。)",
+    "id": "IELTS-stereotype-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "daily",
+    "meaning": "adj. 每日的 n. 日報",
+    "example": "Her daily walk to the office takes about twenty minutes each way. (她每天走路到辦公室，單程大約二十分鐘。)",
+    "id": "IELTS-daily-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "monthly",
+    "meaning": "adj. 每月的 adv. 每月一次 n. 月刊",
+    "example": "The monthly meeting gives local residents a chance to raise concerns about transport. (每月的會議讓當地居民有機會提出交通方面的疑慮。)",
+    "id": "IELTS-monthly-adj-adv-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "quarterly",
+    "meaning": "adj. 季度的 adv. 按季度地 n. 季刊",
+    "example": "The company publishes a quarterly report on its environmental performance and energy use. (公司每季發布一份環境績效與能源使用的報告。)",
+    "id": "IELTS-quarterly-adj-adv-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "yearly",
+    "meaning": "adj. 每年的 adv. 每年地",
+    "example": "The yearly inspection ensures that the lifts in the building remain safe. (每年的檢查確保大樓裡的電梯保持安全。)",
+    "id": "IELTS-yearly-adj-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "anniversary",
+    "meaning": "n. 週年紀念日；周年紀念",
+    "example": "They returned to the same restaurant to celebrate their tenth wedding anniversary. (他們回到同一家餐廳慶祝結婚十週年紀念日。)",
+    "id": "IELTS-anniversary-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "present",
+    "meaning": "adj. 現在的；出席的 n. 目前；禮物",
+    "example": "The present transport system cannot cope with the growing number of daily visitors. (現在的運輸系統無法應付日益增加的每日訪客。)",
+    "id": "IELTS-present-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "contemporary",
+    "meaning": "adj. 當代的；同時代的",
+    "example": "The new gallery displays contemporary art from several countries in Asia and Latin America. (新藝廊展出亞洲和拉丁美洲好幾個國家的當代藝術。)",
+    "id": "IELTS-contemporary-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "century",
+    "meaning": "n. 世紀；百年",
+    "example": "The cathedral was built in the twelfth century and still holds daily services. (這座大教堂建於十二世紀，至今仍每天舉行禮拜。)",
+    "id": "IELTS-century-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "million",
+    "meaning": "num. 百萬；大量",
+    "example": "Nearly one million people visit the old city during the summer months. (夏季期間有將近百萬人參觀這座老城。)",
+    "id": "IELTS-million-num"
+  },
+  {
+    "level": "IELTS",
+    "word": "billion",
+    "meaning": "num. 十億；大量",
+    "example": "The government plans to spend two billion dollars on new railway lines. (政府計畫在新建鐵路線上花費二十億元。)",
+    "id": "IELTS-billion-num"
+  },
+  {
+    "level": "IELTS",
+    "word": "dozen",
+    "meaning": "n. 一打；十二個；十來個",
+    "example": "She bought a dozen eggs and two loaves of bread at the market. (她在市場買了一打雞蛋和兩條麵包。)",
+    "id": "IELTS-dozen-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "dawn",
+    "meaning": "n. 黎明；開端 v. 破曉",
+    "example": "Fishermen leave the harbour at dawn and return before the afternoon tide. (漁民在黎明時離開港口，下午漲潮前回來。)",
+    "id": "IELTS-dawn-n-v"
+  },
+  {
+    "level": "IELTS",
+    "word": "midday",
+    "meaning": "n. 正午；中午",
+    "example": "The streets are almost empty at midday because of the intense heat. (因為酷熱，正午時街道幾乎空無一人。)",
+    "id": "IELTS-midday-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "midnight",
+    "meaning": "n. 午夜；子夜；半夜",
+    "example": "The last bus leaves the station at midnight, so we must hurry. (最後一班公車午夜從車站開出，所以我們得快一點。)",
+    "id": "IELTS-midnight-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "overnight",
+    "meaning": "adv. 在晚上；一夜之間；突然",
+    "example": "The small fishing village became famous overnight after the film was released abroad. (那部電影在國外上映後，這座小漁村一夜之間出名。)",
+    "id": "IELTS-overnight-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "night",
+    "meaning": "n. 夜；夜間；晚上；夜場",
+    "example": "The temperature drops sharply at night in the desert, even during summer. (沙漠裡即使在夏天，夜間氣溫也會驟降。)",
+    "id": "IELTS-night-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "modern",
+    "meaning": "adj. 現代的；近代的",
+    "example": "The hospital has modern equipment and a new unit for heart patients. (這家醫院有現代化的設備，還有一個新的心臟病人病房。)",
+    "id": "IELTS-modern-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "recent",
+    "meaning": "adj. 最近的；近來的",
+    "example": "A recent study found that young people sleep less than their parents did. (最近一項研究發現，年輕人睡得比父母那一輩少。)",
+    "id": "IELTS-recent-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "first",
+    "meaning": "num. 第一 adv. 最初；首先",
+    "example": "She was the first person in her family to attend university abroad. (她是家裡第一個出國讀大學的人。)",
+    "id": "IELTS-first-num-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "secondly",
+    "meaning": "adv. 第二；其次",
+    "example": "Firstly, the cost is too high; secondly, the plan would harm local wildlife. (首先，成本太高；其次，這項計畫會傷害當地野生動物。)",
+    "id": "IELTS-secondly-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "finally",
+    "meaning": "adv. 最後；終於；決定性地",
+    "example": "After three delays, the train finally arrived at the platform just after midnight. (經過三次延誤，火車終於在午夜過後抵達月台。)",
+    "id": "IELTS-finally-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "finish",
+    "meaning": "v. 完成；結束 n. 結尾；最後部分",
+    "example": "I need to finish the report before the meeting starts on Monday. (我需要在星期一會議開始前完成報告。)",
+    "id": "IELTS-finish-v-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "instant",
+    "meaning": "n. 瞬間 adj. 立即的；即時的",
+    "example": "For a brief instant, the whole room went silent after the surprising announcement. (宣布那個令人意外的消息後，整個房間有一瞬間陷入沉默。)",
+    "id": "IELTS-instant-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "moment",
+    "meaning": "n. 片刻；時刻",
+    "example": "Please wait a moment while I find the correct file for your application. (請等一下，我幫你找正確的申請文件。)",
+    "id": "IELTS-moment-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "minute",
+    "meaning": "n. 分；分鐘；一會兒 adj. 細微的",
+    "example": "Wait a minute, the express train to the airport does not leave until ten. (等一下，到機場的特快車十點才開。)",
+    "id": "IELTS-minute-n-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "preceding",
+    "meaning": "adj. 在前的；在先的",
+    "example": "The preceding chapter explains how the survey data was collected and carefully analysed. (前一章說明了調查資料如何蒐集與仔細分析。)",
+    "id": "IELTS-preceding-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "opening",
+    "meaning": "adj. 開始的 n. 開始；開端；開口",
+    "example": "Her opening remarks set a friendly tone for the whole two-day conference. (她的開場白為整個為期兩天的會議定下友善的調子。)",
+    "id": "IELTS-opening-adj-n"
+  },
+  {
+    "level": "IELTS",
+    "word": "initially",
+    "meaning": "adv. 最初；起初",
+    "example": "The parking scheme was initially unpopular, but most residents now support it strongly. (停車方案最初不受歡迎，但現在大多數居民強烈支持。)",
+    "id": "IELTS-initially-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "everlasting",
+    "meaning": "adj. 永恆的；持久的",
+    "example": "The poem speaks of everlasting love that survives distance and the passing years. (這首詩談的是永恆的愛，能超越距離和流逝的歲月。)",
+    "id": "IELTS-everlasting-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "periodically",
+    "meaning": "adv. 週期性地；定期地",
+    "example": "The old bridge is inspected periodically to check for cracks, rust and loose bolts. (這座舊橋定期接受檢查，以查看裂縫、鏽蝕和鬆動的螺栓。)",
+    "id": "IELTS-periodically-adv"
+  },
+  {
+    "level": "IELTS",
+    "word": "imminent",
+    "meaning": "adj. （尤指不愉快的事）即將發生的；逼近的",
+    "example": "Dark clouds suggested that a heavy storm was imminent, so we went indoors. (烏雲顯示一場大雨即將來臨，所以我們進到室內。)",
+    "id": "IELTS-imminent-adj"
+  },
+  {
+    "level": "IELTS",
+    "word": "incidentally",
+    "meaning": "adv. 偶然地；順便提一句",
+    "example": "The town library will close early on Friday, incidentally, for staff training. (順便提一句，鎮立圖書館星期五會提早關門，進行員工訓練。)",
+    "id": "IELTS-incidentally-adv"
+  }
+]

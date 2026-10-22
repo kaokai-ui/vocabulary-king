@@ -16,9 +16,6 @@ import {
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
-const PLACEHOLDER_TRACKS = [
-  { id: "ielts", title: "IELTS" }
-];
 let levelExampleLookupCache = null;
 
 function readSheetRows(workbook, sheetName) {
@@ -639,17 +636,6 @@ for (const definition of TRACK_DEFINITIONS) {
 
   fs.rmSync(path.join(TRACKS_ROOT, definition.id), { recursive: true, force: true });
   catalogTracks[definition.id] = createCatalogTrack(definition);
-}
-
-for (const definition of PLACEHOLDER_TRACKS) {
-  catalogTracks[definition.id] = {
-    id: definition.id,
-    available: false,
-    title: definition.title,
-    totalWords: 0,
-    chunkSize: CHUNK_SIZE,
-    chunkFiles: []
-  };
 }
 
 const catalogPayload = {

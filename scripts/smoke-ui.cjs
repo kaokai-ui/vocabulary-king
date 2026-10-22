@@ -21,12 +21,19 @@ async function run() {
   await desktop.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });
   await desktop.evaluate(() => window.localStorage.clear());
   await desktop.reload({ waitUntil: "networkidle" });
-  await capture(desktop, "home-desktop.png");
-  console.log("Captured home desktop");
 
-  await desktop.getByRole("button", { name: /閃卡練習（隨機）|Flashcards \\(Random\\)/i }).click();
+  await desktop.getByRole("button", { name: /功能設定|Feature Settings/i }).click();
+  await desktop.locator(".settings-select").first().selectOption("ielts");
+  await desktop.getByText("5597", { exact: true }).waitFor({ state: "visible" });
+  await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
+  await capture(desktop, "home-desktop.png");
+  console.log("IELTS selected; 5597 words loaded");
+
+  await desktop.getByRole("button", { name: /閃卡練習[（(]隨機[）)]|Flashcards \\(Random\\)/i }).click();
+  await desktop.locator(".flashcard-word-lines").waitFor({ state: "visible" });
+  await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
   await capture(desktop, "flashcard-game.png");
-  console.log("Captured flashcard game");
+  console.log("Started IELTS flashcard practice");
 
   await desktop.getByRole("button", { name: /主畫面|Home/i }).first().click();
   await capture(desktop, "home-resume.png");
@@ -34,13 +41,15 @@ async function run() {
 
   await desktop.getByRole("button", { name: /繼續目前進度|Resume session/i }).click();
   await desktop.getByRole("button", { name: /主畫面|Home/i }).first().click();
-  await desktop.getByRole("button", { name: /單字測驗|Quiz/i }).click();
+  await desktop.getByRole("button", { name: /單字測驗|Quiz/i }).first().click();
   await capture(desktop, "quiz-setup.png");
   console.log("Captured quiz setup");
 
   await desktop.getByRole("button", { name: /開始測驗|Start quiz/i }).first().click();
+  await desktop.locator(".quiz-stage").waitFor({ state: "visible" });
+  await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
   await capture(desktop, "quiz-game.png");
-  console.log("Captured quiz game");
+  console.log("Started IELTS quiz");
 
   const phone = await browser.newPage(devices["iPhone 13"]);
   await phone.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });

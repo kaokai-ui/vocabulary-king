@@ -8,7 +8,8 @@ export const vocabularyTracks = [
   { value: "gept-high-intermediate", labelKey: "vocabularyTrackGeptHighIntermediate", enabled: true },
   { value: "toeic", labelKey: "vocabularyTrackToeic", enabled: true },
   { value: "toeic-advanced", labelKey: "vocabularyTrackToeicAdvanced", enabled: true },
-  { value: "toefl", labelKey: "vocabularyTrackToefl", enabled: true }
+  { value: "toefl", labelKey: "vocabularyTrackToefl", enabled: true },
+  { value: "ielts", labelKey: "vocabularyTrackIelts", enabled: true }
 ];
 
 const legacyVocabularyTrackAliases = {

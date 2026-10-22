@@ -206,7 +206,27 @@ describe("headword use in examples", () => {
     expect(exampleUsesHeadword("city", "The cities are easy to reach.")).toBe(true);
     expect(exampleUsesHeadword("go", "She goes to work early.")).toBe(true);
     expect(exampleUsesHeadword("good", "This is the best choice.")).toBe(true);
+    expect(exampleUsesHeadword("easy-going", "My easy-going colleague handles client meetings calmly.")).toBe(true);
+    expect(exampleUsesHeadword("easy-going", "My easy going colleague handles client meetings calmly.")).toBe(true);
+    expect(exampleUsesHeadword("easy-going", "The instructions were easy, going on to explain the final step.")).toBe(false);
     expect(exampleUsesHeadword("well-known", "The well known author spoke.")).toBe(true);
+    expect(exampleUsesHeadword("shrink", "The lake has shrunk by a third over the past decade.")).toBe(true);
+    expect(exampleUsesHeadword("shrink", "The boat sank before the crew could reach shore.")).toBe(false);
+
+    const punctuationCounterexample = "The instructions were easy, going on to explain the final step.";
+    expect(checkContentRecord(record({
+      word: "easy-going",
+      englishExample: punctuationCounterexample,
+      example: `${punctuationCounterexample} (說明後續步驟。)`
+    })).some((finding) => finding.check === "example-word-missing")).toBe(true);
+
+    const irregularExample = "The lake has shrunk by a third over the past decade.";
+    expect(checkContentRecord(record({
+      word: "shrink",
+      englishExample: irregularExample,
+      example: `${irregularExample} (湖泊縮小了三分之一。)`
+    })).some((finding) => finding.check === "example-word-missing")).toBe(false);
+
     expect(exampleUsesHeadword("take off", "He took his wet coat off.")).toBe(true);
 
     expect(exampleUsesHeadword("take off", "He hung his wet coat in the closet.")).toBe(false);

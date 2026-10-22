@@ -11,6 +11,7 @@ describe("normalizeVocabularyTrack", () => {
     expect(normalizeVocabularyTrack("toeic")).toBe("toeic");
     expect(normalizeVocabularyTrack("toeic-advanced")).toBe("toeic-advanced");
     expect(normalizeVocabularyTrack("toefl")).toBe("toefl");
+    expect(normalizeVocabularyTrack("ielts")).toBe("ielts");
     expect(normalizeVocabularyTrack("unknown-track")).toBe(defaultVocabularyTrack);
   });
 

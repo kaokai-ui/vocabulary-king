@@ -72,7 +72,7 @@ export const enMessages = {
   vocabularyTrack: "Vocabulary Track",
   vocabularyTrackCurrent: "Vocabulary track",
   vocabularyTrackHint:
-    "Elementary, Junior High, Senior High (L3-4), Senior High (L5-6), GEPT Elementary / Intermediate / High-Intermediate, TOEIC(Core), TOEIC(Advanced), and TOEFL are available now.",
+    "Elementary, Junior High, Senior High (L3-4), Senior High (L5-6), GEPT Elementary / Intermediate / High-Intermediate, TOEIC(Core), TOEIC(Advanced), TOEFL, and IELTS are available now.",
   vocabularyTrackLocked: "Coming soon",
   vocabularyTrackElementary: "Elementary",
   vocabularyTrackJuniorHigh: "Junior High",
@@ -84,6 +84,7 @@ export const enMessages = {
   vocabularyTrackToeic: "TOEIC(Core)",
   vocabularyTrackToeicAdvanced: "TOEIC(Advanced)",
   vocabularyTrackToefl: "TOEFL",
+  vocabularyTrackIelts: "IELTS",
   vocabularyTrackGept: "GEPT",
   autoShowMeaning: "Show the meaning by default in flashcards",
   autoShowExample: "Show the example by default in flashcards",

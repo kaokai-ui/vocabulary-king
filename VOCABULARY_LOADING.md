@@ -2,7 +2,7 @@
 
 ## Current Tracks
 
-The app currently exposes 10 available vocabulary tracks:
+The app currently exposes 11 available vocabulary tracks:
 
 - `elementary`
 - `junior-high`
@@ -14,6 +14,7 @@ The app currently exposes 10 available vocabulary tracks:
 - `toeic`
 - `toeic-advanced`
 - `toefl`
+- `ielts`
 
 Track metadata is stored in `public/data/catalog.json`.
 
@@ -35,6 +36,17 @@ Current TOEFL build source:
   - `Chinese Meaning`
   - `English Example`
   - `Chinese Translation`
+
+Current IELTS build source:
+
+- `Source/ielts.final.xlsx`, generated from `docs/tasks/ielts-merge-20261022/examples/` by `scripts/build-ielts-source.mjs`
+- If `examples-long/DONE` is present, completed long examples replace the short examples for starred words.
+- Workbook columns match TOEFL:
+  - `Word`
+  - `Chinese Meaning`
+  - `English Example`
+  - `Chinese Translation`
+- IELTS has no finer level split, so each exported entry uses `IELTS` as its level, following the TOEFL fallback-level pattern.
 
 ## Runtime Loading Strategy
 
@@ -144,12 +156,13 @@ Approximate raw JSON size per currently available track:
 - `gept-intermediate`: 551 KB
 - `gept-high-intermediate`: 689 KB
 - `toefl`: 1361 KB
+- `ielts`: 1581 KB
 
 Even though all track files exist in the repo, only one track is loaded into app memory at a time unless the user switches tracks.
 
 ## Practical Performance Conclusion
 
-At the current dataset size, 10 available tracks do not create a major startup performance problem because:
+At the current dataset size, 11 available tracks do not create a major startup performance problem because:
 
 - the app fetches one active track at a time
 - chunk files are split per track
