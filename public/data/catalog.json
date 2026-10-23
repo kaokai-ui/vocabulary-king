@@ -1,5 +1,5 @@
 {
-  "generatedAt": "22119ebf0daa",
+  "generatedAt": "46e0c95446b0",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -181,7 +181,7 @@
       "available": true,
       "title": "TOEIC(核心)",
       "sourceWorkbookKey": "toeic-core-workbook",
-      "totalWords": 5076,
+      "totalWords": 5065,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -212,7 +212,7 @@
         {
           "id": "toeic-chunk-6",
           "path": "data/tracks/toeic/chunk-006.json",
-          "wordCount": 76
+          "wordCount": 65
         }
       ],
       "levels": [
@@ -259,7 +259,7 @@
         {
           "id": "延伸3",
           "label": "延伸3",
-          "totalWords": 114
+          "totalWords": 105
         },
         {
           "id": "片語：財務與會計",
@@ -269,12 +269,12 @@
         {
           "id": "片語：人事與招募",
           "label": "片語：人事與招募",
-          "totalWords": 2
+          "totalWords": 1
         },
         {
           "id": "片語：行銷與銷售",
           "label": "片語：行銷與銷售",
-          "totalWords": 2
+          "totalWords": 1
         },
         {
           "id": "片語：採購與物流",
@@ -298,7 +298,7 @@
       "available": true,
       "title": "TOEIC(進階)",
       "sourceWorkbookKey": "toeic-advanced-workbook",
-      "totalWords": 4825,
+      "totalWords": 4797,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -324,7 +324,7 @@
         {
           "id": "toeic-advanced-chunk-5",
           "path": "data/tracks/toeic-advanced/chunk-005.json",
-          "wordCount": 825
+          "wordCount": 797
         }
       ],
       "levels": [
@@ -356,7 +356,7 @@
         {
           "id": "延伸3",
           "label": "延伸3",
-          "totalWords": 293
+          "totalWords": 265
         },
         {
           "id": "片語：會議與簡報",
@@ -405,7 +405,7 @@
       "available": true,
       "title": "TOEFL",
       "sourceWorkbookKey": "toefl-final-checked-workbook",
-      "totalWords": 5400,
+      "totalWords": 5384,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -436,7 +436,7 @@
         {
           "id": "toefl-chunk-6",
           "path": "data/tracks/toefl/chunk-006.json",
-          "wordCount": 400
+          "wordCount": 384
         }
       ],
       "levels": [
@@ -473,7 +473,7 @@
         {
           "id": "進階5",
           "label": "進階5",
-          "totalWords": 909
+          "totalWords": 893
         },
         {
           "id": "片語：日常與通用",
@@ -486,7 +486,7 @@
       "id": "ielts",
       "available": true,
       "title": "IELTS",
-      "totalWords": 6000,
+      "totalWords": 5980,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -517,7 +517,7 @@
         {
           "id": "ielts-chunk-6",
           "path": "data/tracks/ielts/chunk-006.json",
-          "wordCount": 1000
+          "wordCount": 980
         }
       ],
       "levels": [
@@ -554,16 +554,11 @@
         {
           "id": "進階5",
           "label": "進階5",
-          "totalWords": 1026
+          "totalWords": 1018
         },
         {
           "id": "片語：財務與會計",
           "label": "片語：財務與會計",
-          "totalWords": 1
-        },
-        {
-          "id": "片語：人事與招募",
-          "label": "片語：人事與招募",
           "totalWords": 1
         },
         {
@@ -572,14 +567,9 @@
           "totalWords": 1
         },
         {
-          "id": "片語：管理與策略",
-          "label": "片語：管理與策略",
-          "totalWords": 2
-        },
-        {
           "id": "片語：日常與通用",
           "label": "片語：日常與通用",
-          "totalWords": 21
+          "totalWords": 12
         }
       ]
     },

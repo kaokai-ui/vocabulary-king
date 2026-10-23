@@ -6665,13 +6665,6 @@
   },
   {
     "level": "延伸3",
-    "word": "above-average",
-    "meaning": "a. 高於平均水準的",
-    "example": "Employees with above-average performance ratings may qualify for additional bonuses. (績效評等高於平均水準的員工可能符合額外獎金的資格。)",
-    "id": "TOEIC-above-average-a"
-  },
-  {
-    "level": "延伸3",
     "word": "accident-prone",
     "meaning": "a. 容易發生事故的",
     "example": "The warehouse was identified as an accident-prone area requiring additional safety measures. (這座倉庫被認定為容易發生事故的區域，需要加強安全措施。)",
@@ -6697,13 +6690,6 @@
     "meaning": "a. 先進的；高階的",
     "example": "The company utilizes advanced analytics to improve decision-making. (公司運用先進的分析技術來改善決策。)",
     "id": "L3-advanced-a"
-  },
-  {
-    "level": "延伸3",
-    "word": "after-tax",
-    "meaning": "a. 稅後的",
-    "example": "The investment generated substantial after-tax returns for shareholders. (這項投資為股東帶來可觀的稅後報酬。)",
-    "id": "TOEIC-after-tax-a"
   },
   {
     "level": "延伸3",
@@ -6746,13 +6732,6 @@
     "meaning": "n. 存摺",
     "example": "Customers are encouraged to update their bankbooks regularly. (鼓勵客戶定期更新存摺。)",
     "id": "TOEIC-bankbook-n"
-  },
-  {
-    "level": "延伸3",
-    "word": "bankcard",
-    "meaning": "n. 銀行卡",
-    "example": "Please present your bankcard when making a transaction. (進行交易時請出示您的銀行卡。)",
-    "id": "TOEIC-bankcard-n"
   },
   {
     "level": "延伸3",
@@ -6998,5 +6977,26 @@
     "meaning": "n. 縮編；裁減規模",
     "example": "The corporate downsizing resulted in the layoff of fifty regional managers. (公司縮編導致五十名區域經理遭到裁撤。)",
     "id": "TOEIC-downsizing-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "earnings",
+    "meaning": "n. 收益；盈餘",
+    "example": "The tech giant reported record-breaking earnings for the fiscal year. (這家科技巨擘公布了創紀錄的年度盈餘。)",
+    "id": "L3-earnings-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "eco-friendly",
+    "meaning": "a. 環保的；對環境友善的",
+    "example": "The factory upgraded its machinery to adopt more eco-friendly production methods. (工廠更新了機械設備，以採用更環保的生產方式。)",
+    "id": "TOEIC-eco-friendly-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "entitled",
+    "meaning": "a. 有權享有的；符合資格的",
+    "example": "All registered members are entitled to a ten percent discount on all services. (所有已註冊會員都有權享有全品項九折優惠。)",
+    "id": "TOEIC-entitled-a"
   }
 ]

@@ -1,27 +1,6 @@
 [
   {
     "level": "延伸3",
-    "word": "earnings",
-    "meaning": "n. 收益；盈餘",
-    "example": "The tech giant reported record-breaking earnings for the fiscal year. (這家科技巨擘公布了創紀錄的年度盈餘。)",
-    "id": "L3-earnings-n"
-  },
-  {
-    "level": "延伸3",
-    "word": "eco-friendly",
-    "meaning": "a. 環保的；對環境友善的",
-    "example": "The factory upgraded its machinery to adopt more eco-friendly production methods. (工廠更新了機械設備，以採用更環保的生產方式。)",
-    "id": "TOEIC-eco-friendly-a"
-  },
-  {
-    "level": "延伸3",
-    "word": "entitled",
-    "meaning": "a. 有權享有的；符合資格的",
-    "example": "All registered members are entitled to a ten percent discount on all services. (所有已註冊會員都有權享有全品項九折優惠。)",
-    "id": "TOEIC-entitled-a"
-  },
-  {
-    "level": "延伸3",
     "word": "ethic",
     "meaning": "n. 道德準則；倫理觀",
     "example": "The business school offers a required course on corporate ethics and governance. (商學院開設了一門公司倫理與治理的必修課程。)",
@@ -33,13 +12,6 @@
     "meaning": "a. 有缺陷的；有瑕疵的",
     "example": "The auditor determined that the company’s financial tracking methodology was flawed. (稽核人員認定公司的財務追蹤方法有缺陷。)",
     "id": "TOEIC-flawed-a"
-  },
-  {
-    "level": "延伸3",
-    "word": "franchisor",
-    "meaning": "n. 加盟授權方；特許經營者",
-    "example": "The franchisor provides extensive training and marketing support to all new franchisees. (加盟授權方為所有新加盟業者提供完整訓練與行銷支援。)",
-    "id": "TOEIC-franchisor-n"
   },
   {
     "level": "延伸3",
@@ -131,13 +103,6 @@
     "meaning": "prep. 包括；包含",
     "example": "All board members, including the chairman, voted in favor of the merger. (包括董事長在內，所有董事都投票贊成合併案。)",
     "id": "L4-including-prep"
-  },
-  {
-    "level": "延伸3",
-    "word": "in-depth",
-    "meaning": "a. 深入的；詳盡的",
-    "example": "The consulting firm provided an in-depth analysis of current market trends. (顧問公司針對目前的市場趨勢提供了深入分析。)",
-    "id": "TOEIC-in-depth-a"
   },
   {
     "level": "延伸3",
@@ -253,20 +218,6 @@
   },
   {
     "level": "延伸3",
-    "word": "midmorning",
-    "meaning": "n. 上午中段；上午稍晚時分",
-    "example": "The supervisor scheduled a brief staff briefing for midmorning tomorrow. (主管安排明天上午中段舉行簡短的員工簡報。)",
-    "id": "TOEIC-midmorning-n"
-  },
-  {
-    "level": "延伸3",
-    "word": "mid-range",
-    "meaning": "a. 中價位的；中階的",
-    "example": "The company launched a new mid-range smartphone model to target budget consumers. (公司推出一款新的中價位智慧型手機，鎖定預算有限的消費者。)",
-    "id": "TOEIC-mid-range-a"
-  },
-  {
-    "level": "延伸3",
     "word": "misunderstanding",
     "meaning": "n. 誤解；理解錯誤",
     "example": "A severe misunderstanding regarding delivery dates caused a temporary dispute with the client. (對交貨日期的嚴重誤解造成與客戶間的短暫爭議。)",
@@ -292,13 +243,6 @@
     "meaning": "n. 違法行為；罪行",
     "example": "Depositing toxic waste into the local river is a serious environmental offence. (將有毒廢棄物排入當地河川是嚴重的環境違法行為。)",
     "id": "TOEIC-offence-n-offense"
-  },
-  {
-    "level": "延伸3",
-    "word": "outgun",
-    "meaning": "v. 在資源上勝過；火力強於",
-    "example": "The smaller firm could not outgun its rival in marketing budget or campaign reach. (這家規模較小的公司在行銷預算和宣傳觸及上都無法勝過對手。)",
-    "id": "TOEIC-outgun-v"
   },
   {
     "level": "延伸3",
@@ -455,20 +399,6 @@
     "id": "TOEIC-zoom-in-v"
   },
   {
-    "level": "延伸3",
-    "word": "zoom-out",
-    "meaning": "v. 縮小畫面；拉遠檢視",
-    "example": "The technician selected the zoom-out control to view the entire warehouse layout. (技術人員選擇縮小畫面的控制項，以檢視整個倉庫配置。)",
-    "id": "TOEIC-zoom-out-v"
-  },
-  {
-    "level": "片語：行銷與銷售",
-    "word": "charity ball",
-    "meaning": "phr. phr. 慈善舞會；正式舞會",
-    "example": "The annual charity ball will raise funds for the hospital's new wing. (年度慈善舞會將為醫院新大樓募款。)",
-    "id": "TOEIC-ball-party-n"
-  },
-  {
     "level": "片語：採購與物流",
     "word": "bar code",
     "meaning": "phr. 條碼；條形碼",
@@ -516,13 +446,6 @@
     "meaning": "phr. 消防演習；火災演練",
     "example": "The building management has scheduled a mandatory fire drill for ten o'clock tomorrow. (大樓管理單位安排明天十點舉行強制消防演習。)",
     "id": "TOEIC-fire-drill-n"
-  },
-  {
-    "level": "片語：人事與招募",
-    "word": "human resource",
-    "meaning": "phr. 人力資源",
-    "example": "The human resource department is responsible for managing employee benefits. (人力資源部門負責管理員工福利。)",
-    "id": "TOEIC-human-resource-n"
   },
   {
     "level": "片語：管理與策略",

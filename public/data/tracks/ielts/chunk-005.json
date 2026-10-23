@@ -3739,13 +3739,6 @@
   },
   {
     "level": "進階5",
-    "word": "assistantship",
-    "meaning": "n. 助教獎學金；助理職",
-    "example": "The assistantship covers full tuition and pays a small monthly stipend, but it requires twenty hours of laboratory work a week. (這份助教獎學金支付全額學費並提供少量月津貼，但每週須在實驗室工作二十小時。)",
-    "id": "IELTS-assistantship-n"
-  },
-  {
-    "level": "進階5",
     "word": "extendable",
     "meaning": "adj. 可延伸的；可延長的",
     "example": "The extendable handle makes the case easy to pull, even when it is packed for a long trip. (可延伸的拉桿讓行李箱容易拖拉，即使是為了長途旅行而裝滿也一樣。)",
@@ -3813,13 +3806,6 @@
     "meaning": "n. 防禦；防衛；辯護",
     "example": "Good passwords are the first defence against online theft, yet many people still reuse the same one everywhere. (良好的密碼是防範網路竊盜的第一道防線，但許多人仍在各處重複使用同一組密碼。)",
     "id": "IELTS-defence-n"
-  },
-  {
-    "level": "進階5",
-    "word": "resit",
-    "meaning": "n. 補考；重考\nv. 補考；重考",
-    "example": "The university charges a small fee for each resit, which many students consider unfair and quietly resent having to pay. (大學對每次補考收取小額費用，許多學生認為不公平，也對必須付錢暗自不滿。)",
-    "id": "IELTS-resit-v-n"
   },
   {
     "level": "進階5",
@@ -3984,13 +3970,6 @@
   },
   {
     "level": "進階5",
-    "word": "megacity",
-    "meaning": "n. 巨型城市；超大城市",
-    "example": "Water shortages are a growing problem in several fast-growing megacities across Asia. (水資源短缺是亞洲幾個快速發展的巨型城市日益嚴重的問題。)",
-    "id": "IELTS-megacity-n"
-  },
-  {
-    "level": "進階5",
     "word": "biometrics",
     "meaning": "n. 生物辨識",
     "example": "Banks increasingly rely on biometrics for phone banking, because even simple passwords alone no longer stop determined criminals. (銀行日益依賴生物辨識處理電話銀行業務，因為單靠簡單密碼已擋不住堅定的罪犯。)",
@@ -4079,20 +4058,6 @@
     "meaning": "n. 理解；諒解；共識\nadj. 體諒的；善解人意的",
     "example": "A good teacher checks students' understanding before moving on to a harder topic. (好老師會先確認學生是否理解，再進入更難的主題。)",
     "id": "IELTS-understanding-n-adj"
-  },
-  {
-    "level": "進階5",
-    "word": "holistically",
-    "meaning": "adv. 整體地；全面地",
-    "example": "The clinic treats each patient holistically, considering diet, sleep, stress and exercise. (這間診所從整體看待每位病人，考量飲食、睡眠、壓力和運動。)",
-    "id": "IELTS-holistically-adv"
-  },
-  {
-    "level": "進階5",
-    "word": "disempower",
-    "meaning": "vt. 削弱權力；使無力",
-    "example": "Poorly designed rules can disempower local communities and gradually weaken public trust. (設計不良的規定會削弱地方社區的權力，逐漸侵蝕公眾信任。)",
-    "id": "IELTS-disempower-vt"
   },
   {
     "level": "進階5",
@@ -4229,13 +4194,6 @@
   },
   {
     "level": "進階5",
-    "word": "solar-powered",
-    "meaning": "adj. 太陽能供電的",
-    "example": "Solar-powered lamps have made night travel much safer in remote mountain villages. (太陽能燈讓偏遠村落的夜間出行安全許多。)",
-    "id": "IELTS-solar-powered-adj"
-  },
-  {
-    "level": "進階5",
     "word": "cosy",
     "meaning": "adj. 舒適溫馨的；安逸的",
     "example": "The small café is cosy in winter, with wooden tables and warm lighting. (這家小咖啡館冬天很舒適，有木桌和溫暖的燈光。)",
@@ -4296,13 +4254,6 @@
     "meaning": "n. 供暖；暖氣",
     "example": "Rising fuel costs have made heating a serious expense for many older households. (燃料成本上漲，使供暖成為許多老年家庭的一大開銷。)",
     "id": "IELTS-heating-n"
-  },
-  {
-    "level": "進階5",
-    "word": "tropics",
-    "meaning": "n. 熱帶地區",
-    "example": "Diseases once confined to the tropics are now appearing in southern Europe. (過去只限於熱帶地區的疾病，現在也出現在南歐。)",
-    "id": "IELTS-tropics-n"
   },
   {
     "level": "進階5",
@@ -4408,13 +4359,6 @@
     "meaning": "adj. 華氏的；以華氏計量的",
     "example": "The temperature reached ninety degrees Fahrenheit, which is unusually hot for April. (氣溫達到華氏九十度，對四月來說熱得不尋常。)",
     "id": "IELTS-fahrenheit-adj"
-  },
-  {
-    "level": "進階5",
-    "word": "high-definition",
-    "meaning": "adj. 高畫質的；高解析度的",
-    "example": "The camera records high-definition video, which is especially useful for online teaching. (這台相機可錄製高畫質影片，對線上教學很有用。)",
-    "id": "IELTS-high-definition-adj"
   },
   {
     "level": "進階5",
@@ -4558,13 +4502,6 @@
   },
   {
     "level": "片語：日常與通用",
-    "word": "fact sheet",
-    "meaning": "phr. 資料表；事實摘要",
-    "example": "The fact sheet beside the machine explains emergency procedures, yet few new staff bother to read it carefully. (機器旁的資料頁說明緊急處理程序，但很少新進員工願意仔細閱讀。)",
-    "id": "IELTS-fact-sheet-n"
-  },
-  {
-    "level": "片語：日常與通用",
     "word": "vice versa",
     "meaning": "phr. 反之亦然",
     "example": "Good teachers learn from their students, and vice versa, which makes the classroom feel more like a conversation. (好老師會向學生學習，反之亦然，這讓教室更像一場對話。)",
@@ -4578,60 +4515,11 @@
     "id": "IELTS-at-random-adv"
   },
   {
-    "level": "片語：管理與策略",
-    "word": "in accordance with",
-    "meaning": "phr. 依照；按照",
-    "example": "All samples were handled in accordance with the laboratory's strict safety instructions, which clearly reassured the visiting inspectors. (所有樣本都按照實驗室嚴格的安全指示處理，這讓來訪的稽查員明顯感到安心。)",
-    "id": "IELTS-in-accordance-with-prep"
-  },
-  {
-    "level": "片語：管理與策略",
-    "word": "in favour of",
-    "meaning": "phr. 贊成；支持",
-    "example": "Most residents are in favour of turning the empty lot into a park. (多數居民贊成把空地變成公園。)",
-    "id": "IELTS-in-favour-of-prep"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "pore over",
-    "meaning": "phr. 仔細研讀；詳查",
-    "example": "She carefully pored over old maps, looking for the lost village footpath. (她仔細研讀舊地圖，尋找那條消失的村間小徑。)",
-    "id": "IELTS-pore-over-v"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "on the horizon",
-    "meaning": "phr. 即將出現；近在眼前",
-    "example": "A change in the weather is on the horizon, according to the fishers. (漁民說天氣即將出現變化。)",
-    "id": "IELTS-on-the-horizon-adj"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "for the sake of",
-    "meaning": "phr. 為了；為……著想",
-    "example": "She moved to a quieter town for the sake of her health. (為了健康，她搬到一個更安靜的小鎮。)",
-    "id": "IELTS-for-the-sake-of-prep"
-  },
-  {
     "level": "片語：日常與通用",
     "word": "in vain",
     "meaning": "phr. 徒勞地；白費地",
     "example": "We waited in vain for the last bus, and eventually walked the long way home in the dark. (我們徒然等最後一班公車，最後乾脆在黑暗中走了整段長路回家。)",
     "id": "IELTS-in-vain-adv"
-  },
-  {
-    "level": "片語：人事與招募",
-    "word": "orientation meeting",
-    "meaning": "phr. 新生說明會；迎新會",
-    "example": "New students attend an orientation meeting a week before classes begin in September. (新生在九月開課前一週參加報到會。)",
-    "id": "IELTS-orientation-meeting-n"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "ID card",
-    "meaning": "phr. 身分證；識別證",
-    "example": "All visitors must show an ID card before entering the government building. (所有訪客進入政府大樓前都必須出示身分證。)",
-    "id": "IELTS-id-card-n"
   },
   {
     "level": "片語：日常與通用",
@@ -4663,38 +4551,10 @@
   },
   {
     "level": "片語：日常與通用",
-    "word": "lead to",
-    "meaning": "phr. 導致；造成",
-    "example": "Poor drainage can often lead to serious flooding during heavy summer storms. (排水不良可能在夏季暴雨期間導致嚴重淹水。)",
-    "id": "IELTS-lead-to-v"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "in comparison with",
-    "meaning": "phr. 與……相比",
-    "example": "In comparison with last year, the number of foreign visitors has doubled. (與去年相比，外國訪客人數增加了一倍。)",
-    "id": "IELTS-in-comparison-with-prep"
-  },
-  {
-    "level": "片語：日常與通用",
     "word": "carbon dioxide",
     "meaning": "phr. 二氧化碳",
     "example": "Forests absorb carbon dioxide and release oxygen, making them vital for the climate. (森林吸收二氧化碳並釋放氧氣，對氣候至關重要。)",
     "id": "IELTS-carbon-dioxide-n"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "bush fire",
-    "meaning": "phr. 林區野火；灌木叢火災",
-    "example": "The bush fire burned for days and destroyed several homes on the edge of town. (林區大火燃燒數日，摧毀鎮邊的幾棟民宅。)",
-    "id": "IELTS-bush-fire-n"
-  },
-  {
-    "level": "片語：日常與通用",
-    "word": "dining hall",
-    "meaning": "phr. 餐廳；食堂",
-    "example": "The dining hall serves hot meals to residents at low prices every day. (餐廳每天以低價為住民提供熱食。)",
-    "id": "IELTS-dining-hall-n"
   },
   {
     "level": "片語：日常與通用",
@@ -6998,5 +6858,145 @@
     "meaning": "v. 拘留；扣留；耽擱",
     "example": "The police detained the suspect. (警方拘留了嫌疑人。)",
     "id": "進階3-detain-mtw465b"
+  },
+  {
+    "level": "進階3",
+    "word": "systematically",
+    "meaning": "adv. 有系統地；有條理地",
+    "example": "Auditors will review the financial transactions systematically for discrepancies. (稽核師將有系統地審查財務交易是否有差異。)",
+    "id": "進階3-systematically-mvmlug8"
+  },
+  {
+    "level": "進階3",
+    "word": "referral",
+    "meaning": "n. 轉介；推薦；轉介對象",
+    "example": "The clinic received a referral from the employee's physician for a specialist consultation. (診所收到員工醫師的轉介，安排專科諮詢。)",
+    "id": "進階3-referral-mxhqavu"
+  },
+  {
+    "level": "進階3",
+    "word": "disposition",
+    "meaning": "n. 性情；處置；安排",
+    "example": "The inventory manager reviewed the disposition of outdated equipment before approving its removal from storage. (庫存經理核准將過時設備移出倉庫前，先檢視其處置方式。)",
+    "id": "進階3-disposition-mivv6y6"
+  },
+  {
+    "level": "進階3",
+    "word": "litigation",
+    "meaning": "n. 訴訟；法律訴訟程序",
+    "example": "Both companies agreed to mediation rather than lengthy litigation over disputed intellectual property rights. (雙方公司同意採取調解，而非為有爭議的智慧財產權進行漫長訴訟。)",
+    "id": "進階3-litigation-m7o286t"
+  },
+  {
+    "level": "進階3",
+    "word": "sovereignty",
+    "meaning": "n. 主權；最高統治權；自主權",
+    "example": "The trade agreement recognizes each member nation's sovereignty over domestic labor regulations. (這項貿易協定承認各會員國對國內勞動法規擁有主權。)",
+    "id": "進階3-sovereignty-m11a92l6"
+  },
+  {
+    "level": "進階3",
+    "word": "urgency",
+    "meaning": "n. 急迫；緊急；迫切",
+    "example": "There is a sense of urgency in his voice. (他的聲音中有急迫感。)",
+    "id": "進階3-urgency-m3jltl3"
+  },
+  {
+    "level": "進階3",
+    "word": "excerpt",
+    "meaning": "n. 摘錄；節錄",
+    "example": "The newsletter features an excerpt from the CEO's latest report on the company's long-term sustainability vision. (這份電子報刊載了執行長最新報告中有關公司長期永續願景的摘錄。)",
+    "id": "進階3-excerpt-m1ks97jn"
+  },
+  {
+    "level": "進階3",
+    "word": "affirmative",
+    "meaning": "adj. 肯定的；贊成的",
+    "example": "Please provide an affirmative response by the stated deadline. (請在指定期限前給予肯定的答覆。)",
+    "id": "進階3-affirmative-m14s6u8s"
+  },
+  {
+    "level": "進階3",
+    "word": "inconvenience",
+    "meaning": "n. 不便；麻煩",
+    "example": "We apologize for any inconvenience caused by the temporary server outage. (對於伺服器臨時中斷給您帶來的任何不便，我們深表歉意。)",
+    "id": "進階3-inconvenience-mw655nb"
+  },
+  {
+    "level": "進階3",
+    "word": "operative",
+    "meaning": "adj. 生效的；運作中的\nn. 操作人員；特工",
+    "example": "The new safety guidelines become operative once all regional managers complete their mandatory training sessions. (所有區域主管完成必修訓練後，新的安全指引即生效。)",
+    "id": "進階3-operative-m22ifwv"
+  },
+  {
+    "level": "進階3",
+    "word": "override",
+    "meaning": "vt. 推翻；凌駕；覆蓋",
+    "example": "The legislative body voted with a two-thirds majority to override the presidential veto on the budget bill. (立法機構以三分之二的多數票通過，推翻了總統對預算案的否決。)",
+    "id": "進階3-override-mvhrmdr"
+  },
+  {
+    "level": "進階3",
+    "word": "manifestation",
+    "meaning": "n. 表現；顯示；徵兆",
+    "example": "The elaborate earthworks of the Hopewell culture represent a monumental physical manifestation of centralized political rule. (霍普威爾文化複雜的土方工程，代表了中央集權政治統治的宏偉物質表現。)",
+    "id": "進階3-manifestation-m1c1sa8s"
+  },
+  {
+    "level": "進階3",
+    "word": "prone",
+    "meaning": "adj. 容易……的；有……傾向的；俯臥的",
+    "example": "Older machinery is prone to breakdowns unless maintenance teams replace worn components on schedule. (除非維修團隊按時更換磨損零件，老舊機械很容易故障。)",
+    "id": "進階3-prone-mi3jxv0"
+  },
+  {
+    "level": "進階3",
+    "word": "imprison",
+    "meaning": "v. 監禁；關押",
+    "example": "The court imprisoned him for ten years. (法院判他監禁十年。)",
+    "id": "進階3-imprison-m1j1iha5"
+  },
+  {
+    "level": "進階3",
+    "word": "decree",
+    "meaning": "n. 法令；政令；裁定\nvt. 頒布法令；命令；裁定",
+    "example": "The government issued a decree requiring factories to report emissions every quarter. (政府頒布法令，要求工廠每季申報排放量。)",
+    "id": "進階3-decree-mrw766x"
+  },
+  {
+    "level": "進階3",
+    "word": "profitability",
+    "meaning": "n. 獲利能力；收益性",
+    "example": "The financial audit revealed that the corporate restructuring dramatically enhanced the long-term profitability of the firm. (財務稽核顯示，公司重組大幅提升了企業的長期獲利能力。)",
+    "id": "進階3-profitability-m1gypzrh"
+  },
+  {
+    "level": "進階3",
+    "word": "predictor",
+    "meaning": "n. 預測因素；預測指標；預報者",
+    "example": "Employee turnover often serves as a predictor of deeper problems with workplace culture. (員工流動率往往是職場文化存在深層問題的預測指標。)",
+    "id": "進階3-predictor-mblook6"
+  },
+  {
+    "level": "進階3",
+    "word": "wartime",
+    "meaning": "n. 戰時；戰爭期間",
+    "example": "Wartime life was difficult. (戰時生活很艱難。)",
+    "id": "進階3-wartime-m1iy73kq"
+  },
+  {
+    "level": "進階3",
+    "word": "bidder",
+    "meaning": "n. 投標者；出價者",
+    "example": "Each bidder must submit a sealed proposal explaining its price, delivery schedule, and quality assurance procedures. (每位投標者都必須提交密封提案，說明價格、交貨時程與品質保證程序。)",
+    "id": "進階3-bidder-mxxd5l8"
+  },
+  {
+    "level": "進階3",
+    "word": "confidential",
+    "meaning": "adj. 機密的；保密的；私下的",
+    "example": "The consultant stored confidential client files in an encrypted folder with restricted access. (顧問將機密客戶檔案存放在權限受限的加密資料夾中。)",
+    "id": "進階3-confidential-m12qej6k"
   }
 ]

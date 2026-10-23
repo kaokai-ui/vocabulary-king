@@ -1,118 +1,6 @@
 [
   {
     "level": "進階1",
-    "word": "recommend",
-    "meaning": "vt. 推薦；建議",
-    "example": "I recommend the small bakery near the bridge for its warm rye bread. (我推薦橋邊那家小麵包店，它的黑麥麵包是溫熱的。)",
-    "id": "進階1-recommend-m1gengb7"
-  },
-  {
-    "level": "進階1",
-    "word": "responsibility",
-    "meaning": "n. 責任；職責",
-    "example": "Caring for the river is a shared responsibility, so farmers and factories must both reduce their polluting waste. (照顧這條河是共同責任，因此農民和工廠都必須減少污染性廢棄物。)",
-    "id": "進階1-responsibility-m1rtomkh"
-  },
-  {
-    "level": "進階1",
-    "word": "additional",
-    "meaning": "adj. 額外的；附加的",
-    "example": "The school needs additional funding for new books, yet the council has frozen its budget for three years. (學校需要額外經費買新書，但市議會已凍結預算三年。)",
-    "id": "進階1-additional-m17q4u7c"
-  },
-  {
-    "level": "進階1",
-    "word": "complex",
-    "meaning": "adj. 複雜的；難懂的",
-    "example": "The machine looks complex, yet most faults can be fixed with a simple screwdriver and a little patience. (這台機器看起來很複雜，但多數故障用一把簡單螺絲起子和一點耐心就能修好。)",
-    "id": "進階1-complex-m56i6u1"
-  },
-  {
-    "level": "進階1",
-    "word": "appropriate",
-    "meaning": "adj. 適當的；合宜的",
-    "example": "It is not appropriate to prescribe antibiotics for every cough, since most infections simply clear up without them. (每個咳嗽都開抗生素並不適當，因為大多數感染不用藥就會自行痊癒。)",
-    "id": "進階1-appropriate-m188uep8"
-  },
-  {
-    "level": "進階1",
-    "word": "software",
-    "meaning": "n. 軟體；軟體程式",
-    "example": "The new software automatically checks long documents for spelling and grammar errors. (新軟體會自動檢查文件中的拼字和文法錯誤。)",
-    "id": "進階1-software-mkztwbj"
-  },
-  {
-    "level": "進階1",
-    "word": "administration",
-    "meaning": "n. 行政單位；管理部門",
-    "example": "The university administration promised to answer every application within ten days, but many students still waited much longer. (大學行政單位承諾十天內回覆每份申請，但許多學生仍等了更久。)",
-    "id": "進階1-administration-m1iajx5y"
-  },
-  {
-    "level": "進階1",
-    "word": "requirement",
-    "meaning": "n. 要求；必要條件",
-    "example": "A new medical certificate is now a requirement for every single applicant, which has slowed the process considerably. (新的醫療證明現在是每位申請人的必要條件，這讓流程慢了不少。)",
-    "id": "進階1-requirement-m1mbzpv3"
-  },
-  {
-    "level": "進階1",
-    "word": "survey",
-    "meaning": "n. 調查；問卷調查",
-    "example": "The staff survey clearly revealed low morale, so managers promised to review workloads before the end of term. (員工調查清楚顯示士氣低落，因此主管承諾在學期結束前檢討工作量。)",
-    "id": "進階1-survey-m4lxysj"
-  },
-  {
-    "level": "進階1",
-    "word": "invest",
-    "meaning": "v. 投資；投入資金",
-    "example": "Governments that invest in public early education often save considerable money later on healthcare and crime, according to economists. (經濟學家指出，投資公共幼兒教育的政府，日後往往能在醫療和犯罪防治上省下可觀經費。)",
-    "id": "進階1-invest-mqjy737"
-  },
-  {
-    "level": "進階1",
-    "word": "majority",
-    "meaning": "n. 多數；大部分",
-    "example": "The majority of members supported the plan, yet the chair insisted on holding another formal vote next month. (多數成員支持這項計畫，但主席堅持下個月再舉行一次正式表決。)",
-    "id": "進階1-majority-m6cpmaw"
-  },
-  {
-    "level": "進階1",
-    "word": "federal",
-    "meaning": "adj. 聯邦的；聯邦政府的",
-    "example": "Federal funding paid for the new road, but the town maintains it. (新路是用聯邦經費蓋的，但由鎮公所維護。)",
-    "id": "進階1-federal-m14wt48y"
-  },
-  {
-    "level": "進階1",
-    "word": "replace",
-    "meaning": "vt. 取代；替代",
-    "example": "Robots may replace routine factory jobs, but they also create new roles that increasingly demand different technical skills. (機器人可能取代例行的工廠工作，但也創造出越來越需要不同技術能力的新職務。)",
-    "id": "進階1-replace-m1ioab76"
-  },
-  {
-    "level": "進階1",
-    "word": "committee",
-    "meaning": "n. 委員會；委員團",
-    "example": "The club committee voted to rebuild the old changing rooms, but postponed a decision on raising membership fees. (俱樂部委員會表決重建老舊更衣室，但延後決定是否調漲會員費。)",
-    "id": "進階1-committee-m1m1y79i"
-  },
-  {
-    "level": "進階1",
-    "word": "content",
-    "meaning": "n. 內容；資訊",
-    "example": "The website content was outdated, so the team rewrote every page before the launch. (網站內容已過時，因此團隊在上線前重寫了每一頁。)",
-    "id": "進階1-content-m1as7fgs"
-  },
-  {
-    "level": "進階1",
-    "word": "percentage",
-    "meaning": "n. 比例；百分比",
-    "example": "A growing percentage of graduates now work in jobs unrelated to their degree, according to a recent national survey. (根據最近一項全國調查，現在有越來越高比例的畢業生從事與所學無關的工作。)",
-    "id": "進階1-percentage-m1nn3494"
-  },
-  {
-    "level": "進階1",
     "word": "equipment",
     "meaning": "n. 設備；器材",
     "example": "The research laboratory bought new equipment for measuring local air and water quality. (研究實驗室採購了新設備，用來測量當地空氣與水質。)",
@@ -6998,5 +6886,117 @@
     "meaning": "n. 邪教；狂熱崇拜\nadj. 小眾流行的；狂熱追捧的",
     "example": "The book describes an ancient cult. (這本書描述了一個古老的宗教團體。)",
     "id": "進階2-cult-m1jdpdwg"
+  },
+  {
+    "level": "進階2",
+    "word": "forge",
+    "meaning": "n. 鍛鐵爐；熔爐；鐵匠鋪\nv. 鍛造；偽造；建立；穩步前進",
+    "example": "The blacksmith used the forge to heat the iron until it glowed. (鐵匠用鍛鐵爐把鐵加熱到發紅。)",
+    "id": "進階2-forge-m1dch0bo"
+  },
+  {
+    "level": "進階2",
+    "word": "faction",
+    "meaning": "n. 派系；小團體",
+    "example": "The internal debate was prolonged by a faction within the department that disagreed with the new management strategy. (部門內有一派反對新管理策略，使內部辯論延長。)",
+    "id": "進階2-faction-m1hfqln1"
+  },
+  {
+    "level": "進階2",
+    "word": "verify",
+    "meaning": "v. 核實；查證；證實；確認",
+    "example": "Officials could not immediately verify the original document, so the whole application was put on hold. (官員無法立即核實原始文件，因此整份申請暫緩處理。)",
+    "id": "進階2-verify-m19ti6iv"
+  },
+  {
+    "level": "進階2",
+    "word": "invoice",
+    "meaning": "n. 發票；請款單；帳單\nv. 開立發票；開帳單請款",
+    "example": "The invoice contained a clear error, so the accounts team withheld payment until it was corrected. (發票上有明顯錯誤，因此會計團隊暫緩付款，直到錯誤更正為止。)",
+    "id": "進階2-invoice-m6mohze"
+  },
+  {
+    "level": "進階2",
+    "word": "entail",
+    "meaning": "v. 必然需要；牽涉；使必須",
+    "example": "Repairing the roof will entail moving the furniture out of the attic. (修理屋頂必須把閣樓裡的家具搬出去。)",
+    "id": "進階2-entail-mqhyf8c"
+  },
+  {
+    "level": "進階2",
+    "word": "hostage",
+    "meaning": "n. 人質；抵押品；被控制的人",
+    "example": "The bank staff were held hostage inside the building for several hours before police arrived. (警方趕到前，銀行員工在建築物內被挾持為人質好幾個小時。)",
+    "id": "進階2-hostage-m1ii23r8"
+  },
+  {
+    "level": "進階2",
+    "word": "divine",
+    "meaning": "adj. 神的；神聖的；極好的；非凡的",
+    "example": "The villagers saw the drought as divine punishment, so the priest organised a long week of public prayer. (村民把乾旱視為神的懲罰，因此神父安排了一整週的公開祈禱。)",
+    "id": "進階2-divine-m83yym"
+  },
+  {
+    "level": "進階2",
+    "word": "dread",
+    "meaning": "v. 害怕；憂慮；懼怕\nn. 恐懼；憂慮；可怕的事物",
+    "example": "Many students still dread speaking in public, even after months of careful preparation and practice. (許多學生即使經過數月細心準備和練習，仍非常害怕公開發言。)",
+    "id": "進階2-dread-m1j5yuzl"
+  },
+  {
+    "level": "進階2",
+    "word": "disrupt",
+    "meaning": "v. 干擾；打亂；使中斷；擾亂",
+    "example": "Heavy snow disrupted train services across the north for almost three days. (大雪讓北部各地的火車服務中斷了將近三天。)",
+    "id": "進階2-disrupt-mnnay6r"
+  },
+  {
+    "level": "進階2",
+    "word": "antique",
+    "meaning": "adj. 古董的；古老的；古式的\nn. 古董；古物",
+    "example": "The antique shop sold a rare vase that later appeared in a major museum exhibition. (這家古董店賣出一只稀有花瓶，後來它在大型博物館展覽中亮相。)",
+    "id": "進階2-antique-m1apk1t2"
+  },
+  {
+    "level": "進階2",
+    "word": "drawback",
+    "meaning": "n. 缺點；不利因素；障礙",
+    "example": "The main drawback of the flat is its lack of natural light. (這間公寓最大的缺點是缺乏自然光。)",
+    "id": "進階2-drawback-m1ru4f2d"
+  },
+  {
+    "level": "進階2",
+    "word": "interpreter",
+    "meaning": "n. 口譯員；解說者",
+    "example": "The foreign delegation brought a professional interpreter to the contract negotiations. (外國代表團帶了專業翻譯參加合約談判。)",
+    "id": "進階2-interpreter-m17zo14o"
+  },
+  {
+    "level": "進階2",
+    "word": "liberalization",
+    "meaning": "n. 自由化；放寬管制",
+    "example": "Trade liberalization opened new markets but also exposed domestic manufacturers to stronger international competition. (貿易自由化開放新市場，但也使國內製造商面臨更激烈的國際競爭。)",
+    "id": "進階2-liberalization-m1j4m9f3"
+  },
+  {
+    "level": "進階2",
+    "word": "compatible",
+    "meaning": "adj. 相容的；相配的；和睦的",
+    "example": "This charger is not compatible with the older model of the phone. (這個充電器與這款手機的舊型號不相容。)",
+    "id": "進階2-compatible-m1nmv5t2"
+  },
+  {
+    "level": "進階2",
+    "word": "robust",
+    "meaning": "adj. 強健的；堅固的；強勁的；健全的",
+    "example": "These boots are robust enough for rocky paths and long walks in the rain. (這雙靴子夠堅固，適合走岩石小徑和在雨中長時間步行。)",
+    "id": "進階2-robust-mkk3ppr"
+  },
+  {
+    "level": "進階2",
+    "word": "offender",
+    "meaning": "n. 違規者；罪犯",
+    "example": "The company will terminate any repeat offender who violates the workplace safety code. (本公司將解僱任何違反工作場所安全守則的累犯者。)",
+    "id": "進階2-offender-m7l4e51"
   }
 ]

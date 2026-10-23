@@ -1,118 +1,6 @@
 [
   {
     "level": "進階2",
-    "word": "forge",
-    "meaning": "n. 鍛鐵爐；熔爐；鐵匠鋪\nv. 鍛造；偽造；建立；穩步前進",
-    "example": "The blacksmith used the forge to heat the iron until it glowed. (鐵匠用鍛鐵爐把鐵加熱到發紅。)",
-    "id": "進階2-forge-m1dch0bo"
-  },
-  {
-    "level": "進階2",
-    "word": "faction",
-    "meaning": "n. 派系；小團體",
-    "example": "The internal debate was prolonged by a faction within the department that disagreed with the new management strategy. (部門內有一派反對新管理策略，使內部辯論延長。)",
-    "id": "進階2-faction-m1hfqln1"
-  },
-  {
-    "level": "進階2",
-    "word": "verify",
-    "meaning": "v. 核實；查證；證實；確認",
-    "example": "Officials could not immediately verify the original document, so the whole application was put on hold. (官員無法立即核實原始文件，因此整份申請暫緩處理。)",
-    "id": "進階2-verify-m19ti6iv"
-  },
-  {
-    "level": "進階2",
-    "word": "invoice",
-    "meaning": "n. 發票；請款單；帳單\nv. 開立發票；開帳單請款",
-    "example": "The invoice contained a clear error, so the accounts team withheld payment until it was corrected. (發票上有明顯錯誤，因此會計團隊暫緩付款，直到錯誤更正為止。)",
-    "id": "進階2-invoice-m6mohze"
-  },
-  {
-    "level": "進階2",
-    "word": "entail",
-    "meaning": "v. 必然需要；牽涉；使必須",
-    "example": "Repairing the roof will entail moving the furniture out of the attic. (修理屋頂必須把閣樓裡的家具搬出去。)",
-    "id": "進階2-entail-mqhyf8c"
-  },
-  {
-    "level": "進階2",
-    "word": "hostage",
-    "meaning": "n. 人質；抵押品；被控制的人",
-    "example": "The bank staff were held hostage inside the building for several hours before police arrived. (警方趕到前，銀行員工在建築物內被挾持為人質好幾個小時。)",
-    "id": "進階2-hostage-m1ii23r8"
-  },
-  {
-    "level": "進階2",
-    "word": "divine",
-    "meaning": "adj. 神的；神聖的；極好的；非凡的",
-    "example": "The villagers saw the drought as divine punishment, so the priest organised a long week of public prayer. (村民把乾旱視為神的懲罰，因此神父安排了一整週的公開祈禱。)",
-    "id": "進階2-divine-m83yym"
-  },
-  {
-    "level": "進階2",
-    "word": "dread",
-    "meaning": "v. 害怕；憂慮；懼怕\nn. 恐懼；憂慮；可怕的事物",
-    "example": "Many students still dread speaking in public, even after months of careful preparation and practice. (許多學生即使經過數月細心準備和練習，仍非常害怕公開發言。)",
-    "id": "進階2-dread-m1j5yuzl"
-  },
-  {
-    "level": "進階2",
-    "word": "disrupt",
-    "meaning": "v. 干擾；打亂；使中斷；擾亂",
-    "example": "Heavy snow disrupted train services across the north for almost three days. (大雪讓北部各地的火車服務中斷了將近三天。)",
-    "id": "進階2-disrupt-mnnay6r"
-  },
-  {
-    "level": "進階2",
-    "word": "antique",
-    "meaning": "adj. 古董的；古老的；古式的\nn. 古董；古物",
-    "example": "The antique shop sold a rare vase that later appeared in a major museum exhibition. (這家古董店賣出一只稀有花瓶，後來它在大型博物館展覽中亮相。)",
-    "id": "進階2-antique-m1apk1t2"
-  },
-  {
-    "level": "進階2",
-    "word": "drawback",
-    "meaning": "n. 缺點；不利因素；障礙",
-    "example": "The main drawback of the flat is its lack of natural light. (這間公寓最大的缺點是缺乏自然光。)",
-    "id": "進階2-drawback-m1ru4f2d"
-  },
-  {
-    "level": "進階2",
-    "word": "interpreter",
-    "meaning": "n. 口譯員；解說者",
-    "example": "The foreign delegation brought a professional interpreter to the contract negotiations. (外國代表團帶了專業翻譯參加合約談判。)",
-    "id": "進階2-interpreter-m17zo14o"
-  },
-  {
-    "level": "進階2",
-    "word": "liberalization",
-    "meaning": "n. 自由化；放寬管制",
-    "example": "Trade liberalization opened new markets but also exposed domestic manufacturers to stronger international competition. (貿易自由化開放新市場，但也使國內製造商面臨更激烈的國際競爭。)",
-    "id": "進階2-liberalization-m1j4m9f3"
-  },
-  {
-    "level": "進階2",
-    "word": "compatible",
-    "meaning": "adj. 相容的；相配的；和睦的",
-    "example": "This charger is not compatible with the older model of the phone. (這個充電器與這款手機的舊型號不相容。)",
-    "id": "進階2-compatible-m1nmv5t2"
-  },
-  {
-    "level": "進階2",
-    "word": "robust",
-    "meaning": "adj. 強健的；堅固的；強勁的；健全的",
-    "example": "These boots are robust enough for rocky paths and long walks in the rain. (這雙靴子夠堅固，適合走岩石小徑和在雨中長時間步行。)",
-    "id": "進階2-robust-mkk3ppr"
-  },
-  {
-    "level": "進階2",
-    "word": "offender",
-    "meaning": "n. 違規者；罪犯",
-    "example": "The company will terminate any repeat offender who violates the workplace safety code. (本公司將解僱任何違反工作場所安全守則的累犯者。)",
-    "id": "進階2-offender-m7l4e51"
-  },
-  {
-    "level": "進階2",
     "word": "evoke",
     "meaning": "v. 喚起；引起；使人想起；召喚",
     "example": "The smell of wood smoke evokes memories of winter evenings at my grandmother's house. (柴火煙味喚起我在祖母家度過冬夜的記憶。)",
@@ -6998,5 +6886,117 @@
     "meaning": "n. 自動化",
     "example": "Automation has changed factory work. (自動化改變了工廠工作。)",
     "id": "進階3-automation-mjfkuj"
+  },
+  {
+    "level": "進階3",
+    "word": "shortfall",
+    "meaning": "n. 不足；短缺；差額",
+    "example": "A shortfall in tax revenue prompted the city to postpone several planned infrastructure projects. (稅收不足促使市府延後數項原定的基礎建設計畫。)",
+    "id": "進階3-shortfall-m1np8f08"
+  },
+  {
+    "level": "進階3",
+    "word": "dissemination",
+    "meaning": "n. 散布；傳播",
+    "example": "The rapid dissemination of research often helps doctors, yet it also spreads unfinished findings before checks are complete. (研究快速散布往往有助醫師，但也會在審查完成前傳播尚未定論的發現。)",
+    "id": "進階3-dissemination-m1i66k6t"
+  },
+  {
+    "level": "進階3",
+    "word": "deplete",
+    "meaning": "vt. 耗盡；使枯竭",
+    "example": "Heavy irrigation has seriously depleted the local groundwater, forcing farmers to drill much deeper wells every few years. (大量灌溉已嚴重耗竭當地地下水，迫使農民每隔幾年就鑿更深的井。)",
+    "id": "進階3-deplete-m151x2mk"
+  },
+  {
+    "level": "進階3",
+    "word": "mediation",
+    "meaning": "n. 調解；仲裁",
+    "example": "The mediation process helped both parties reach an agreement without resorting to legal action. (調解程序協助雙方達成協議，無須訴諸法律行動。)",
+    "id": "進階3-mediation-m1rpuk86"
+  },
+  {
+    "level": "進階3",
+    "word": "skew",
+    "meaning": "vt. 使偏斜；使扭曲\nadj. 歪斜的；偏斜的",
+    "example": "Online surveys can easily skew results, because they mostly reach people with very strong opinions and reliable internet. (網路調查很容易使結果偏差，因為它們主要觸及意見強烈且網路穩定的人。)",
+    "id": "進階3-skew-m1abc9g9"
+  },
+  {
+    "level": "進階3",
+    "word": "prolific",
+    "meaning": "adj. 多產的；創作豐富的；成果豐碩的",
+    "example": "The prolific software developer created three successful mobile applications this year. (這位多產的軟體開發人員今年打造了三款成功的行動應用程式。)",
+    "id": "進階3-prolific-m13i44di"
+  },
+  {
+    "level": "進階3",
+    "word": "turbulence",
+    "meaning": "n. 亂流；湍流",
+    "example": "The flight experienced some turbulence during the trip. (航程中飛機遇到了一些亂流。)",
+    "id": "進階3-turbulence-m11o88ls"
+  },
+  {
+    "level": "進階3",
+    "word": "radiate",
+    "meaning": "v. 散發；輻射",
+    "example": "The old wood stove radiates enough heat to warm the whole kitchen. (老木爐散發的熱量足以溫暖整個廚房。)",
+    "id": "進階3-radiate-m1l9li7f"
+  },
+  {
+    "level": "進階3",
+    "word": "relinquish",
+    "meaning": "vt. 放棄；交出",
+    "example": "He decided to relinquish his management duties to focus on technical research. (他決定放下管理職務，專心投入技術研究。)",
+    "id": "進階3-relinquish-m1iynktn"
+  },
+  {
+    "level": "進階3",
+    "word": "periodical",
+    "meaning": "n. 期刊；定期刊物\nadj. 定期的；週期性的",
+    "example": "The doctor cited a medical periodical published last month to explain why the clinic changed its official advice. (醫師引用上個月出版的醫學期刊，說明診所為何改變官方建議。)",
+    "id": "進階3-periodical-m1qas4rh"
+  },
+  {
+    "level": "進階4",
+    "word": "campaigner",
+    "meaning": "n. 活動人士；倡議者",
+    "example": "The campaigner spoke for children’s rights. (那位倡議者為兒童權利發聲。)",
+    "id": "進階4-campaigner-mj6txba"
+  },
+  {
+    "level": "進階4",
+    "word": "obedience",
+    "meaning": "n. 服從；順從；聽命",
+    "example": "The dog showed obedience to its owner. (那隻狗對主人表現出服從。)",
+    "id": "進階4-obedience-m1n3cmhl"
+  },
+  {
+    "level": "進階4",
+    "word": "broadband",
+    "meaning": "n. 寬頻；寬頻網路\nadj. 寬頻的；高速網路的",
+    "example": "The new broadband connection allows remote auditors to review large financial files without traveling to the regional office. (新的寬頻連線讓遠端稽核人員無須前往區域辦公室，就能檢視大型財務檔案。)",
+    "id": "進階4-broadband-m1vuqf7s"
+  },
+  {
+    "level": "進階4",
+    "word": "hallmark",
+    "meaning": "n. 特徵；標誌；典型特色",
+    "example": "Exceptional customer service is the definitive hallmark of our luxury brand identity. (卓越的客戶服務是我們奢侈品牌形象的明確標誌。)",
+    "id": "進階4-hallmark-m1hkjjn9"
+  },
+  {
+    "level": "進階4",
+    "word": "recourse",
+    "meaning": "n. 求助；依靠",
+    "example": "Residents had no recourse when the landlord refused to repair the heating. (房東拒絕修理暖氣時，住戶求助無門。)",
+    "id": "進階4-recourse-m8kp5fb"
+  },
+  {
+    "level": "進階4",
+    "word": "tutorial",
+    "meaning": "n. 教學指南；教程\nadj. 教學的；輔導的",
+    "example": "The online tutorial explains how to use the library catalogue, but many students still ask staff for help. (線上指南說明如何使用圖書館目錄，但許多學生仍向館員求助。)",
+    "id": "進階4-tutorial-m1bj139k"
   }
 ]
