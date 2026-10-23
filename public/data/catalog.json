@@ -1,5 +1,5 @@
 {
-  "generatedAt": "5892cd312280",
+  "generatedAt": "3b210065743e",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -405,7 +405,7 @@
       "available": true,
       "title": "TOEFL",
       "sourceWorkbookKey": "toefl-final-checked-workbook",
-      "totalWords": 3799,
+      "totalWords": 4442,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -426,14 +426,54 @@
         {
           "id": "toefl-chunk-4",
           "path": "data/tracks/toefl/chunk-004.json",
-          "wordCount": 799
+          "wordCount": 1000
+        },
+        {
+          "id": "toefl-chunk-5",
+          "path": "data/tracks/toefl/chunk-005.json",
+          "wordCount": 442
         }
       ],
       "levels": [
         {
-          "id": "TOEFL",
-          "label": "TOEFL",
-          "totalWords": 3799
+          "id": "學術核心1",
+          "label": "學術核心1",
+          "totalWords": 479
+        },
+        {
+          "id": "學術核心2",
+          "label": "學術核心2",
+          "totalWords": 478
+        },
+        {
+          "id": "進階1",
+          "label": "進階1",
+          "totalWords": 788
+        },
+        {
+          "id": "進階2",
+          "label": "進階2",
+          "totalWords": 788
+        },
+        {
+          "id": "進階3",
+          "label": "進階3",
+          "totalWords": 787
+        },
+        {
+          "id": "進階4",
+          "label": "進階4",
+          "totalWords": 777
+        },
+        {
+          "id": "進階5",
+          "label": "進階5",
+          "totalWords": 344
+        },
+        {
+          "id": "片語：日常與通用",
+          "label": "片語：日常與通用",
+          "totalWords": 1
         }
       ]
     },
@@ -441,7 +481,7 @@
       "id": "ielts",
       "available": true,
       "title": "IELTS",
-      "totalWords": 5594,
+      "totalWords": 5954,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -472,14 +512,89 @@
         {
           "id": "ielts-chunk-6",
           "path": "data/tracks/ielts/chunk-006.json",
-          "wordCount": 594
+          "wordCount": 954
         }
       ],
       "levels": [
         {
-          "id": "IELTS",
-          "label": "IELTS",
-          "totalWords": 5594
+          "id": "學術核心1",
+          "label": "學術核心1",
+          "totalWords": 479
+        },
+        {
+          "id": "學術核心2",
+          "label": "學術核心2",
+          "totalWords": 478
+        },
+        {
+          "id": "進階1",
+          "label": "進階1",
+          "totalWords": 945
+        },
+        {
+          "id": "進階2",
+          "label": "進階2",
+          "totalWords": 949
+        },
+        {
+          "id": "進階3",
+          "label": "進階3",
+          "totalWords": 949
+        },
+        {
+          "id": "進階4",
+          "label": "進階4",
+          "totalWords": 949
+        },
+        {
+          "id": "進階5",
+          "label": "進階5",
+          "totalWords": 949
+        },
+        {
+          "id": "進階6",
+          "label": "進階6",
+          "totalWords": 207
+        },
+        {
+          "id": "片語：會議與簡報",
+          "label": "片語：會議與簡報",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：財務與會計",
+          "label": "片語：財務與會計",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：人事與招募",
+          "label": "片語：人事與招募",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：行銷與銷售",
+          "label": "片語：行銷與銷售",
+          "totalWords": 2
+        },
+        {
+          "id": "片語：採購與物流",
+          "label": "片語：採購與物流",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：客服與溝通",
+          "label": "片語：客服與溝通",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：管理與策略",
+          "label": "片語：管理與策略",
+          "totalWords": 3
+        },
+        {
+          "id": "片語：日常與通用",
+          "label": "片語：日常與通用",
+          "totalWords": 39
         }
       ]
     }

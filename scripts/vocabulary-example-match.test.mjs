@@ -77,6 +77,20 @@ describe("shared vocabulary example matcher", () => {
     expect(exampleUsesHeadword("happy", "They were happier after the call.")).toBe(true);
   });
 
+  it("accepts British -ll- spellings, stress-final doubling and vowel+o plurals", () => {
+    expect(exampleUsesHeadword("cancel", "The hospital cancelled the operations.")).toBe(true);
+    expect(exampleUsesHeadword("cancel", "The flight was canceled.")).toBe(true);
+    expect(exampleUsesHeadword("dial", "She dialled the number twice.")).toBe(true);
+    expect(exampleUsesHeadword("quarrel", "The brothers quarrelled over money.")).toBe(true);
+    expect(exampleUsesHeadword("omit", "The report omitted several figures.")).toBe(true);
+    expect(exampleUsesHeadword("kidnap", "He was kidnapped for three days.")).toBe(true);
+    expect(exampleUsesHeadword("unwrap", "She unwrapped the parcel.")).toBe(true);
+    expect(exampleUsesHeadword("kangaroo", "Kangaroos damage fences.")).toBe(true);
+    expect(exampleUsesHeadword("curio", "He collected rare curios.")).toBe(true);
+    expect(exampleUsesHeadword("housewife", "Many housewives do unpaid care work.")).toBe(true);
+    expect(exampleUsesHeadword("alga", "Warm water causes algae to grow.")).toBe(true);
+  });
+
   it("inflects every lexical word in a phrase and allows at most four inserted particle words", () => {
     expect(exampleUsesHeadword("take order", "They took orders throughout the day.")).toBe(true);
     expect(exampleUsesHeadword("tie up", "She tied the large cardboard boxes up.")).toBe(true);

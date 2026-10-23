@@ -60,14 +60,23 @@ function isConsonantY(word) {
   return word.length > 1 && word.endsWith("y") && !/[aeiou]y$/u.test(word);
 }
 
+// Stress-final verbs that double the last consonant (omitted, kidnapped) beyond the list above.
+const EXTRA_DOUBLE_FINAL = new Set(["omit", "kidnap", "unwrap", "worship", "acquit", "abet", "outwit"]);
+
 function shouldDoubleFinalConsonant(word) {
   const vowelGroups = word.match(/[aeiou]+/gu) ?? [];
-  return DOUBLE_FINAL_CONSONANT.has(word) ||
+  return DOUBLE_FINAL_CONSONANT.has(word) || EXTRA_DOUBLE_FINAL.has(word) ||
     (vowelGroups.length === 1 && /^[^aeiou][aeiou][^aeiouwxy]$/u.test(word.slice(-3)));
+}
+
+// British spelling doubles a final -l after a single vowel (cancelled, quarrelled, dialled); accept both spellings.
+function britishDoubleL(word) {
+  return /[aeiou]l$/u.test(word) && !shouldDoubleFinalConsonant(word);
 }
 
 function needsEs(word) {
   if (/(?:s|x|z|ch|sh)$/u.test(word)) return true;
+  if (/[aeiou]o$/u.test(word)) return false;
   if (/o$/u.test(word)) return !/^(?:photo|piano|radio|video|zoo|studio|logo|kilo|solo|euro|peso)$/u.test(word);
   return false;
 }
@@ -98,6 +107,10 @@ function regularInflections(word) {
       ? word.slice(0, -1) + "ied"
       : word + (doublesFinal ? word.slice(-1) : "") + "ed");
   forms.add(gerundForm(word));
+  if (britishDoubleL(word)) {
+    forms.add(word + "led");
+    forms.add(word + "ling");
+  }
 
   if (consonantY) {
     forms.add(word.slice(0, -1) + "ier");

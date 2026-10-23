@@ -306,6 +306,8 @@ export const IRREGULAR_NOUN_FAMILIES = [
   ["knife", "knives"],
   ["life", "lives"],
   ["wife", "wives"],
+  ["housewife", "housewives"],
+  ["alga", "algae"],
   ["wolf", "wolves"],
   ["shelf", "shelves"],
   ["loaf", "loaves"],
