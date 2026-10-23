@@ -22,15 +22,18 @@ function App() {
     isVocabularyReady,
     retryVocabulary
   } = useVocabularyData(activeTrack, activeLocale);
-  const app = useVocabularyApp(vocabulary);
+  const activeCatalogTrack = catalog?.tracks?.[activeTrack] ?? null;
+  const app = useVocabularyApp(vocabulary, activeCatalogTrack);
   const { allVocabulary, hasLoadedAllVocabulary, isLoadingAllVocabulary, loadAllVocabulary } = useAllVocabulary(
     vocabulary,
     activeTrack,
     activeLocale
   );
   const activeScreenKey = screenRegistry[app.session.screen] ? app.session.screen : "home";
-  const activeCatalogTrack = catalog?.tracks?.[activeTrack] ?? null;
-  const vocabularyCount = isVocabularyReady ? vocabulary.length : activeCatalogTrack?.totalWords ?? vocabulary.length;
+  const selectedCatalogLevel = activeCatalogTrack?.levels?.find((level) => level.id === app.settings.vocabularyLevel);
+  const vocabularyCount = isVocabularyReady
+    ? app.practiceVocabulary.length
+    : selectedCatalogLevel?.totalWords ?? activeCatalogTrack?.totalWords ?? vocabulary.length;
   const isHomeScreen = activeScreenKey === "home";
 
   useEffect(() => {
