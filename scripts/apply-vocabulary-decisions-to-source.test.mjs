@@ -10,6 +10,7 @@ const temporaryDirectories = [];
 function makeSourceRow(overrides = {}) {
   return {
     track: "toefl",
+    uid: "toefl-abundant-fruit-v1",
     level: "TOEFL",
     word: "abundant",
     pos: "",
@@ -33,7 +34,7 @@ function makeSnapshot(sourceRows) {
 
 function makeDecision(snapshot, final) {
   return {
-    id: snapshot.id,
+    uid: snapshot.uid,
     word: snapshot.word,
     decision: "revise",
     final,
@@ -70,7 +71,7 @@ describe("vocabulary source writeback", () => {
 
     expect(result.cellChanges).toEqual([
       {
-        id: snapshot.id,
+        uid: snapshot.uid,
         field: "example_zh",
         from: "這個地區雨量充沛。",
         to: "該地區有充沛的降雨。"
@@ -78,7 +79,7 @@ describe("vocabulary source writeback", () => {
     ]);
     expect(updated.example_zh).toBe("該地區有充沛的降雨。");
     expect(updated.example_en).toBe(sourceRows[0].example_en);
-    expect(result.oldToNewIds).toEqual([]);
+    expect(result.cellChanges[0].uid).toBe(snapshot.uid);
   });
 
   it("writes Japanese and Korean fields without changing the vocabulary id", () => {
@@ -107,12 +108,13 @@ describe("vocabulary source writeback", () => {
     const updatedSource = JSON.parse(fs.readFileSync(sourcePath, "utf8").trim());
 
     expect(updatedSource).toMatchObject(translations);
-    expect(buildTrackExportRecords("toefl", [updatedSource])[0].id).toBe(snapshot.id);
-    expect(result.oldToNewIds).toEqual([]);
+    expect(buildTrackExportRecords("toefl", [updatedSource])[0].id).toBe(snapshot.uid);
+    expect(buildTrackExportRecords("toefl", [updatedSource])[0].uid).toBe(snapshot.uid);
+    expect(result.updatedRows[0].uid).toBe(snapshot.uid);
     expect(result.cellChanges.map(({ field }) => field)).toEqual(Object.keys(translations));
   });
 
-  it("reports an old-to-new id when the headword changes", () => {
+  it("keeps the uid when the headword changes", () => {
     const sourceRows = [makeSourceRow()];
     const snapshot = makeSnapshot(sourceRows);
     const result = planVocabularyWriteback({
@@ -123,12 +125,11 @@ describe("vocabulary source writeback", () => {
     });
 
     expect(result.updatedRows[0].word).toBe("plentiful");
-    expect(result.oldToNewIds).toHaveLength(1);
-    expect(result.oldToNewIds[0].oldId).toBe(snapshot.id);
-    expect(result.oldToNewIds[0].newId).not.toBe(snapshot.id);
+    expect(result.updatedRows[0].uid).toBe(snapshot.uid);
+    expect(buildTrackExportRecords("toefl", result.updatedRows)[0].id).toBe(snapshot.uid);
   });
 
-  it("reports an old-to-new id when the meaning changes", () => {
+  it("keeps the uid when the meaning changes", () => {
     const sourceRows = [makeSourceRow()];
     const snapshot = makeSnapshot(sourceRows);
     const result = planVocabularyWriteback({
@@ -139,9 +140,20 @@ describe("vocabulary source writeback", () => {
     });
 
     expect(result.updatedRows[0].meaning_zh).toBe("充足的");
-    expect(result.oldToNewIds).toHaveLength(1);
-    expect(result.oldToNewIds[0].oldId).toBe(snapshot.id);
-    expect(result.oldToNewIds[0].newId).not.toBe(snapshot.id);
+    expect(result.updatedRows[0].uid).toBe(snapshot.uid);
+    expect(buildTrackExportRecords("toefl", result.updatedRows)[0].id).toBe(snapshot.uid);
+  });
+
+  it("rejects uid changes through final", () => {
+    const sourceRows = [makeSourceRow()];
+    const snapshot = makeSnapshot(sourceRows);
+
+    expect(() => planVocabularyWriteback({
+      track: "toefl",
+      sourceRows,
+      snapshotRows: [snapshot],
+      decisions: [makeDecision(snapshot, { uid: "replacement-uid" })]
+    })).toThrow(/uid.*immutable/u);
   });
 
   it("stops before writing when a reviewed source value is stale", () => {

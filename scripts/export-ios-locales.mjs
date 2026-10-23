@@ -108,7 +108,8 @@ export function exportIosVocabularyLocales({ outPath, dataRepoRoot = getVocabula
   const result = exportGameVocabulary({
     dataRepoRoot: resolvedDataRepoRoot,
     dataRoot: resolvedOutputPath,
-    extraLocales: ["ja", "ko"]
+    extraLocales: ["ja", "ko"],
+    includeUidAliases: true
   });
 
   if (result.skipped) {

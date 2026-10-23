@@ -20,6 +20,7 @@ function createSourceRepo(root) {
   for (const definition of TRACK_DEFINITIONS.filter(({ available }) => available)) {
     const row = {
       track: definition.id,
+      uid: definition.id === "toeic" ? "junior-high-uid-1" : `${definition.id}-uid-1`,
       level: "L1",
       word: `${definition.id}-word`,
       pos: "",
@@ -34,6 +35,10 @@ function createSourceRepo(root) {
     };
     fs.writeFileSync(path.join(dataDirectory, `${definition.id}.jsonl`), `${JSON.stringify(row)}\n`, "utf8");
   }
+  fs.writeFileSync(path.join(dataDirectory, "uid-aliases.json"), `${JSON.stringify({
+    aliases: [{ track: "junior-high", aliasUid: "old-junior-high-uid", targetUid: "junior-high-uid-1" }],
+    deleted: [{ track: "toefl", uid: "deleted-toefl-uid" }]
+  })}\n`, "utf8");
 }
 
 afterEach(() => {
@@ -54,13 +59,19 @@ describe("iOS locale export", () => {
 
     const result = exportIosVocabularyLocales({ outPath, dataRepoRoot, projectRoot });
     const catalog = JSON.parse(fs.readFileSync(path.join(outPath, "catalog.json"), "utf8"));
+    const toeicChunk = JSON.parse(fs.readFileSync(path.join(outPath, "tracks", "toeic", "chunk-001.json"), "utf8"));
 
     expect(result.localeCounts.ja).toBe(1);
     expect(result.localeCounts.ko).toBe(1);
     expect(catalog.tracks["junior-high"].locales.ja.totalWords).toBe(1);
     expect(catalog.tracks["junior-high"].locales.ko.totalWords).toBe(1);
+    expect(toeicChunk[0].id).toBe("junior-high-uid-1");
     expect(fs.existsSync(path.join(outPath, "tracks", "junior-high", "ja", "chunk-001.json"))).toBe(true);
     expect(fs.existsSync(path.join(outPath, "tracks", "junior-high", "ko", "chunk-001.json"))).toBe(true);
+    expect(JSON.parse(fs.readFileSync(path.join(outPath, "uid-aliases.json"), "utf8"))).toEqual({
+      aliases: [{ track: "junior-high", aliasUid: "old-junior-high-uid", targetUid: "junior-high-uid-1" }],
+      deleted: [{ track: "toefl", uid: "deleted-toefl-uid" }]
+    });
   });
 
   it("rejects output folders inside either repository", () => {

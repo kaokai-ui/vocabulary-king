@@ -4,6 +4,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { buildTrackExportRecords } from "./vocabulary-data-utils.mjs";
+import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
@@ -84,7 +85,7 @@ function chunkItems(items, chunkSize) {
 
 function writeJson(filePath, value) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n", "utf8");
+  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
 function contentHash(value) {
@@ -106,6 +107,7 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
 
 function prepareTracks(dataRepoRoot, extraLocales) {
   const prepared = new Map();
+  const sourceRowsByTrack = new Map();
 
   for (const definition of TRACK_DEFINITIONS) {
     if (!definition.available) {
@@ -114,6 +116,7 @@ function prepareTracks(dataRepoRoot, extraLocales) {
     }
 
     const sourceRows = readTrackSourceRows(dataRepoRoot, definition.id);
+    sourceRowsByTrack.set(definition.id, sourceRows);
     const exportRecords = buildTrackExportRecords(definition.id, sourceRows);
     const records = exportRecords.map(({ level, word, meaning, example, id }) => ({
       level,
@@ -145,13 +148,16 @@ function prepareTracks(dataRepoRoot, extraLocales) {
     prepared.set(definition.id, { records, translationsByLocale });
   }
 
-  return prepared;
+  const aliasData = readUidAliasData(dataRepoRoot);
+  validateVocabularyUidState({ sourceRowsByTrack, aliasData });
+  return { preparedTracks: prepared, aliasData };
 }
 
 export function exportGameVocabulary({
   dataRepoRoot = getVocabularyDataRepoPath(),
   dataRoot = DATA_ROOT,
-  extraLocales = getVocabularyExportExtraLocales()
+  extraLocales = getVocabularyExportExtraLocales(),
+  includeUidAliases = false
 } = {}) {
   const resolvedDataRepoRoot = path.resolve(dataRepoRoot);
   const resolvedDataRoot = path.resolve(dataRoot);
@@ -171,7 +177,7 @@ export function exportGameVocabulary({
 
   // Read and validate every track before touching public/data so an incomplete
   // local source repo cannot leave a partially refreshed public bundle.
-  const preparedTracks = prepareTracks(resolvedDataRepoRoot, localesToExport);
+  const { preparedTracks, aliasData } = prepareTracks(resolvedDataRepoRoot, localesToExport);
   const tracksRoot = path.join(resolvedDataRoot, "tracks");
   const catalogTracks = {};
   const summaries = [];
@@ -247,6 +253,10 @@ export function exportGameVocabulary({
     generatedAt: contentHash(catalogPayload),
     tracks: catalogTracks
   });
+
+  if (includeUidAliases) {
+    writeJson(path.join(resolvedDataRoot, "uid-aliases.json"), aliasData);
+  }
 
   console.log(`Exported tracks:\n- ${summaries.join("\n- ")}`);
   return { skipped: false, dataRepoRoot: resolvedDataRepoRoot, summaries };

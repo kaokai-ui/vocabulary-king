@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  buildDisambiguatedVocabularyId,
-  buildStableVocabularyId,
-  hashVocabularyPart
-} from "../src/lib/vocabularyIdentity.js";
+  buildTrackExportRecords
+} from "./vocabulary-data-utils.mjs";
+import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
+import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
+import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 import { assertNoPublicLocaleArtifacts } from "./vocabulary-locale-safety.mjs";
 
 const dataRoot = path.resolve("public/data");
@@ -20,77 +21,90 @@ function assert(condition, message) {
   }
 }
 
-const catalog = readJson(catalogPath);
-assertNoPublicLocaleArtifacts(dataRoot, catalog);
+function readSourceRows(dataRepoRoot) {
+  const sourceRowsByTrack = new Map();
+  for (const definition of TRACK_DEFINITIONS.filter((track) => track.available)) {
+    const filePath = path.join(dataRepoRoot, "data", `${definition.id}.jsonl`);
+    assert(fs.existsSync(filePath), `Missing vocabulary source file: ${filePath}`);
+    const rows = fs.readFileSync(filePath, "utf8")
+      .split(/\r?\n/u)
+      .filter((line) => line.trim())
+      .map((line, index) => {
+        try {
+          return JSON.parse(line);
+        } catch (error) {
+          throw new Error(`Invalid JSON in ${filePath}:${index + 1}: ${error instanceof Error ? error.message : error}`);
+        }
+      });
+    for (const [index, row] of rows.entries()) {
+      assert(row.track === definition.id, `Unexpected track '${row.track}' in ${filePath}:${index + 1}.`);
+    }
+    sourceRowsByTrack.set(definition.id, rows);
+  }
+  return sourceRowsByTrack;
+}
 
+function readPublicTrackWords(track) {
+  const words = [];
+  for (const chunkFile of track.chunkFiles) {
+    const chunkPath = path.join(dataRoot, chunkFile.path.replace(/^data[\\/]/u, ""));
+    assert(fs.existsSync(chunkPath), `Missing chunk file: ${chunkPath}`);
+    const chunk = readJson(chunkPath);
+    assert(Array.isArray(chunk), `Chunk must contain an array: ${chunkPath}`);
+    assert(chunk.length === chunkFile.wordCount, `Chunk wordCount mismatch in ${chunkPath}`);
+    words.push(...chunk);
+  }
+  return words;
+}
+
+const catalog = readJson(catalogPath);
 assert(catalog && typeof catalog === "object", "Catalog must be a JSON object.");
 assert(catalog.tracks && typeof catalog.tracks === "object", "Catalog must contain tracks.");
+assertNoPublicLocaleArtifacts(dataRoot, catalog);
+
+const sourceRepoRoot = process.env.VOCABULARY_DATA_REPO ? getVocabularyDataRepoPath() : "";
+let sourceRowsByTrack;
+let sourceRecordsByTrack;
+if (sourceRepoRoot) {
+  assert(fs.existsSync(sourceRepoRoot) && fs.statSync(sourceRepoRoot).isDirectory(), `Vocabulary source repo not found at ${sourceRepoRoot}.`);
+  sourceRowsByTrack = readSourceRows(sourceRepoRoot);
+  validateVocabularyUidState({ sourceRowsByTrack, aliasData: readUidAliasData(sourceRepoRoot) });
+  sourceRecordsByTrack = new Map(
+    [...sourceRowsByTrack].map(([trackId, rows]) => [trackId, buildTrackExportRecords(trackId, rows)])
+  );
+}
 
 const summaries = [];
-
-for (const track of Object.values(catalog.tracks)) {
+for (const definition of TRACK_DEFINITIONS) {
+  const track = catalog.tracks[definition.id];
+  assert(track, `Catalog is missing track ${definition.id}.`);
   if (!track.available) {
     continue;
   }
 
   const trackDir = path.join(dataRoot, "tracks", track.id);
-  const allWords = [];
-  const seenIds = new Set();
-
   assert(fs.existsSync(trackDir), `Missing track directory: ${trackDir}`);
   assert(Array.isArray(track.chunkFiles) && track.chunkFiles.length > 0, `Track ${track.id} must have chunk files.`);
-
-  for (const chunkFile of track.chunkFiles) {
-    const chunkPath = path.join(dataRoot, chunkFile.path.replace(/^data[\\/]/, ""));
-
-    assert(fs.existsSync(chunkPath), `Missing chunk file: ${chunkPath}`);
-
-    const words = readJson(chunkPath);
-
-    assert(Array.isArray(words), `Chunk must contain an array: ${chunkPath}`);
-    assert(words.length === chunkFile.wordCount, `Chunk wordCount mismatch in ${chunkPath}`);
-
-    for (const word of words) {
-      assert(typeof word.id === "string" && word.id.length > 0, `Word is missing id in ${chunkPath}`);
-      assert(typeof word.level === "string" && word.level.length > 0, `Word is missing level in ${chunkPath}`);
-      assert(typeof word.word === "string" && word.word.length > 0, `Word is missing word text in ${chunkPath}`);
-      assert(typeof word.meaning === "string" && word.meaning.length > 0, `Word is missing meaning in ${chunkPath}`);
-      assert(!seenIds.has(word.id), `Duplicate word id ${word.id} in track ${track.id}`);
-
-      seenIds.add(word.id);
-      allWords.push(word);
-    }
-  }
-
-  const groups = new Map();
+  const allWords = readPublicTrackWords(track);
+  const seenIds = new Set();
 
   for (const word of allWords) {
-    const groupKey = `${word.level}\u0000${word.word}\u0000${word.meaning}`;
-    const group = groups.get(groupKey) ?? [];
-    group.push(word);
-    groups.set(groupKey, group);
+    assert(typeof word.id === "string" && word.id.length > 0, `Word is missing id in track ${track.id}.`);
+    assert(typeof word.level === "string" && word.level.length > 0, `Word is missing level in track ${track.id}.`);
+    assert(typeof word.word === "string" && word.word.length > 0, `Word is missing word text in track ${track.id}.`);
+    assert(typeof word.meaning === "string" && word.meaning.length > 0, `Word is missing meaning in track ${track.id}.`);
+    assert(!seenIds.has(word.id), `Duplicate word id ${word.id} in track ${track.id}.`);
+    seenIds.add(word.id);
   }
 
-  for (const group of groups.values()) {
-    const candidateIds = group.map((word) =>
-      group.length > 1
-        ? buildDisambiguatedVocabularyId(word.level, word.word, word.meaning, word.example)
-        : buildStableVocabularyId(word.level, word.word, word.meaning)
-    );
-    const candidateIdCounts = new Map();
-
-    for (const id of candidateIds) {
-      candidateIdCounts.set(id, (candidateIdCounts.get(id) ?? 0) + 1);
-    }
-
-    for (const [index, word] of group.entries()) {
-      const candidateId = candidateIds[index];
-      const expectedId =
-        (candidateIdCounts.get(candidateId) ?? 0) > 1
-          ? `${candidateId}-x${hashVocabularyPart(word.example)}`
-          : candidateId;
-
-      assert(word.id === expectedId, `Word id is not stable for ${word.word} in track ${track.id}`);
+  if (sourceRecordsByTrack) {
+    const sourceRecords = sourceRecordsByTrack.get(track.id) ?? [];
+    assert(sourceRecords.length === allWords.length, `Public/source row count mismatch for track ${track.id}.`);
+    for (const [index, word] of allWords.entries()) {
+      const source = sourceRecords[index];
+      assert(word.id === source.uid, `Public id does not match source uid for ${track.id} row ${index + 1}.`);
+      assert(word.level === source.level && word.word === source.word && word.meaning === source.meaning && word.example === source.example,
+        `Public vocabulary content does not match source for ${track.id} row ${index + 1}.`);
     }
   }
 

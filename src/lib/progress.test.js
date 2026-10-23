@@ -1,114 +1,58 @@
 import { describe, expect, it } from "vitest";
 import { getTrackProgress, migrateTrackProgress, setTrackProgress } from "./progress";
-import { buildStableVocabularyId } from "./vocabularyIdentity";
 
 const vocabulary = [
-  {
-    id: buildStableVocabularyId("L1", "apple", "fruit"),
-    level: "L1",
-    word: "apple",
-    meaning: "fruit",
-    example: ""
-  },
-  {
-    id: buildStableVocabularyId("L1", "book", "reading"),
-    level: "L1",
-    word: "book",
-    meaning: "reading",
-    example: ""
-  }
-];
-
-const mergedVocabulary = [
-  {
-    id: buildStableVocabularyId("L5", "stern", "noun 船尾\nadj. 嚴厲的、嚴峻的"),
-    level: "L5",
-    word: "stern",
-    meaning: "noun 船尾\nadj. 嚴厲的、嚴峻的",
-    example: ""
-  }
+  { id: "source-uid-apple", level: "L1", word: "apple", meaning: "fruit", example: "" },
+  { id: "source-uid-book", level: "L1", word: "book", meaning: "reading", example: "" }
 ];
 
 describe("progress helpers", () => {
-  it("returns isolated track progress from the namespaced store", () => {
-    const progress = setTrackProgress(
-      setTrackProgress({ byTrack: {} }, "junior-high", {
-        starredWordIds: ["a"]
-      }),
-      "senior-high",
-      {
-        starredWordIds: ["b"]
-      }
-    );
-
-    expect(getTrackProgress(progress, "junior-high").starredWordIds).toEqual(["a"]);
-    expect(getTrackProgress(progress, "senior-high").starredWordIds).toEqual(["b"]);
-  });
-
-  it("migrates legacy row-index ids to stable ids", () => {
+  it("uses loaded source ids for starred, known, stats, and saved words", () => {
+    const sourceUid = "source-uid-9e7d";
     const migrated = migrateTrackProgress(
       {
-        starredWordIds: ["L1-1-apple"],
-        knownWordIds: ["L1-2-book"],
+        starredWordIds: [sourceUid],
+        knownWordIds: [sourceUid],
+        wordStats: { [sourceUid]: { seenCount: 3, correctCount: 2, wrongCount: 1, lastSeenAt: 17 } },
+        quizHistory: []
+      },
+      [{ id: sourceUid, level: "L1", word: "changed headword", meaning: "changed meaning", example: "" }]
+    );
+
+    expect(migrated.starredWordIds).toEqual([sourceUid]);
+    expect(migrated.knownWordIds).toEqual([sourceUid]);
+    expect(migrated.wordStats[sourceUid].seenCount).toBe(3);
+  });
+
+  it("keeps track progress isolated in the namespaced store", () => {
+    const progress = setTrackProgress(
+      setTrackProgress({ byTrack: {} }, "junior-high", { starredWordIds: ["source-a"] }),
+      "senior-high",
+      { starredWordIds: ["source-b"] }
+    );
+
+    expect(getTrackProgress(progress, "junior-high").starredWordIds).toEqual(["source-a"]);
+    expect(getTrackProgress(progress, "senior-high").starredWordIds).toEqual(["source-b"]);
+  });
+
+  it("keeps only exact source ids and does not infer ids from old word or meaning text", () => {
+    const migrated = migrateTrackProgress(
+      {
+        starredWordIds: ["source-uid-apple", "L1-1-apple", "L1-apple-fruit"],
+        knownWordIds: ["source-uid-book"],
         wordStats: {
-          "L1-1-apple": {
-            seenCount: 2,
-            correctCount: 1,
-            wrongCount: 0,
-            lastSeenAt: 10
-          }
+          "source-uid-apple": { seenCount: 2, correctCount: 1, wrongCount: 0, lastSeenAt: 10 },
+          "L1-1-apple": { seenCount: 99, correctCount: 0, wrongCount: 99, lastSeenAt: 99 }
         },
         quizHistory: []
       },
       vocabulary
     );
 
-    expect(migrated.starredWordIds).toEqual([buildStableVocabularyId("L1", "apple", "fruit")]);
-    expect(migrated.knownWordIds).toEqual([buildStableVocabularyId("L1", "book", "reading")]);
-    expect(migrated.wordStats[buildStableVocabularyId("L1", "apple", "fruit")]).toMatchObject({
-      seenCount: 2,
-      correctCount: 1,
-      wrongCount: 0,
-      lastSeenAt: 10
-    });
-  });
-
-  it("migrates prior stable ids to a merged entry when the word-level pair is now unique", () => {
-    const migrated = migrateTrackProgress(
-      {
-        starredWordIds: [
-          buildStableVocabularyId("L5", "stern", "船尾"),
-          buildStableVocabularyId("L5", "stern", "嚴厲的、嚴峻的")
-        ],
-        knownWordIds: [buildStableVocabularyId("L5", "stern", "船尾")],
-        wordStats: {
-          [buildStableVocabularyId("L5", "stern", "船尾")]: {
-            seenCount: 2,
-            correctCount: 1,
-            wrongCount: 0,
-            lastSeenAt: 10
-          },
-          [buildStableVocabularyId("L5", "stern", "嚴厲的、嚴峻的")]: {
-            seenCount: 3,
-            correctCount: 2,
-            wrongCount: 1,
-            lastSeenAt: 20
-          }
-        },
-        quizHistory: []
-      },
-      mergedVocabulary
-    );
-
-    const mergedId = buildStableVocabularyId("L5", "stern", "noun 船尾\nadj. 嚴厲的、嚴峻的");
-
-    expect(migrated.starredWordIds).toEqual([mergedId]);
-    expect(migrated.knownWordIds).toEqual([mergedId]);
-    expect(migrated.wordStats[mergedId]).toMatchObject({
-      seenCount: 5,
-      correctCount: 3,
-      wrongCount: 1,
-      lastSeenAt: 20
+    expect(migrated.starredWordIds).toEqual(["source-uid-apple"]);
+    expect(migrated.knownWordIds).toEqual(["source-uid-book"]);
+    expect(migrated.wordStats).toEqual({
+      "source-uid-apple": { seenCount: 2, correctCount: 1, wrongCount: 0, lastSeenAt: 10 }
     });
   });
 });

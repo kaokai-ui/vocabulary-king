@@ -21,6 +21,7 @@ function createSourceRepo(translationsByTrack = {}) {
   for (const definition of TRACK_DEFINITIONS.filter(({ available }) => available)) {
     const row = {
       track: definition.id,
+      uid: `${definition.id}-uid-1`,
       level: "L1",
       word: `${definition.id}-word`,
       pos: "",
@@ -89,6 +90,7 @@ describe("exportGameVocabulary locale overlays", () => {
     ]);
     expect(Object.keys(japaneseChunk[0]).sort()).toEqual(["example", "id", "meaning"]);
     expect(baseChunk[0]).not.toHaveProperty("meaning_ja");
+    expect(baseChunk[0].id).toBe("junior-high-uid-1");
     expect(catalog.tracks.elementary).not.toHaveProperty("locales");
   });
 
@@ -129,5 +131,29 @@ describe("exportGameVocabulary locale overlays", () => {
 
     expect(() => exportGameVocabulary({ dataRepoRoot, dataRoot })).toThrow(/Unsupported vocabulary export locale/);
     expect(fs.existsSync(dataRoot)).toBe(false);
+  });
+
+  it("uses each source uid as the exported vocabulary id", () => {
+    const dataRepoRoot = createSourceRepo();
+    const dataRoot = path.join(createTempDirectory(), "public", "data");
+
+    exportGameVocabulary({ dataRepoRoot, dataRoot });
+
+    const chunk = JSON.parse(fs.readFileSync(path.join(dataRoot, "tracks", "elementary", "chunk-001.json"), "utf8"));
+    expect(chunk[0].id).toBe("elementary-uid-1");
+    expect(chunk[0]).not.toHaveProperty("uid");
+  });
+
+  it("writes LF-only JSON even when an existing catalog uses CRLF", () => {
+    const dataRepoRoot = createSourceRepo();
+    const dataRoot = path.join(createTempDirectory(), "public", "data");
+    fs.mkdirSync(dataRoot, { recursive: true });
+    fs.writeFileSync(path.join(dataRoot, "catalog.json"), '{"old":true}\r\n', "utf8");
+
+    exportGameVocabulary({ dataRepoRoot, dataRoot });
+
+    const catalog = fs.readFileSync(path.join(dataRoot, "catalog.json"), "utf8");
+    expect(catalog).not.toContain("\r\n");
+    expect(catalog.endsWith("\n")).toBe(true);
   });
 });

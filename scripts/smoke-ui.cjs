@@ -13,12 +13,14 @@ async function capture(page, fileName) {
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
+  const port = Number(process.env.VOCABULARY_UI_SMOKE_PORT || 4173);
+  const baseUrl = `http://127.0.0.1:${port}`;
 
   const desktop = await browser.newPage({
     viewport: { width: 1440, height: 1024 }
   });
 
-  await desktop.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });
+  await desktop.goto(baseUrl, { waitUntil: "networkidle" });
   await desktop.evaluate(() => window.localStorage.clear());
   await desktop.reload({ waitUntil: "networkidle" });
 
@@ -52,7 +54,7 @@ async function run() {
   console.log("Started IELTS quiz");
 
   const phone = await browser.newPage(devices["iPhone 13"]);
-  await phone.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });
+  await phone.goto(baseUrl, { waitUntil: "networkidle" });
   await phone.evaluate(() => window.localStorage.clear());
   await phone.reload({ waitUntil: "networkidle" });
   await capture(phone, "home-mobile.png");

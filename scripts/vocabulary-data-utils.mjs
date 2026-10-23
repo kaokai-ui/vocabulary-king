@@ -90,7 +90,7 @@ export function formatSourceExample(sourceRow) {
   return english || chinese;
 }
 
-export function buildTrackExportRecords(trackId, sourceRows) {
+function buildVocabularyRecords(trackId, sourceRows) {
   const vocabulary = sourceRows.map((sourceRow, sourceIndex) => {
     if (sourceRow.track !== trackId) {
       throw new Error(`Source row ${sourceIndex + 1} belongs to '${sourceRow.track}', expected '${trackId}'.`);
@@ -105,12 +105,37 @@ export function buildTrackExportRecords(trackId, sourceRows) {
     };
   });
 
-  return normalizeVocabularyEntries(vocabulary).map((entry) => ({
+  return vocabulary;
+}
+
+export function buildLegacyTrackExportRecords(trackId, sourceRows) {
+  return normalizeVocabularyEntries(buildVocabularyRecords(trackId, sourceRows)).map((entry) => ({
     level: entry.level,
     word: entry.word,
     meaning: entry.meaning,
     example: entry.example,
     id: entry.id,
+    uid: entry.id,
     sourceIndex: entry.sourceIndex
   }));
+}
+
+export function buildTrackExportRecords(trackId, sourceRows) {
+  return buildVocabularyRecords(trackId, sourceRows).map((entry, sourceIndex) => {
+    const uid = String(sourceRows[sourceIndex]?.uid ?? "").trim();
+
+    if (!uid) {
+      throw new Error(`Source row ${sourceIndex + 1} in '${trackId}' is missing uid. Run npm run ensure:vocab-uids.`);
+    }
+
+    return {
+      level: entry.level,
+      word: entry.word,
+      meaning: entry.meaning,
+      example: entry.example,
+      id: uid,
+      uid,
+      sourceIndex
+    };
+  });
 }
