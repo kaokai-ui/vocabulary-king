@@ -85,10 +85,7 @@ function chunkItems(items, chunkSize) {
 
 function writeJson(filePath, value) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  const existing = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
-  const newline = existing.includes("\r\n") ? "\r\n" : "\n";
-  const json = JSON.stringify(value, null, 2).replace(/\n/gu, newline);
-  fs.writeFileSync(filePath, `${json}${newline}`, "utf8");
+  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
 function contentHash(value) {
