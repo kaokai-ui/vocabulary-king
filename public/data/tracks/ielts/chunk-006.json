@@ -45,7 +45,7 @@
     "level": "IELTS",
     "word": "pistol",
     "meaning": "n. 手槍",
-    "example": "The police officer carried a pistol but hoped he would never need to use it. (這名警察配帶手槍，但希望永遠不必用到它。)",
+    "example": "The police officer carried a pistol but hoped he would never need to use it. (這名警察佩帶手槍，但希望永遠不必用到它。)",
     "id": "IELTS-pistol-n"
   },
   {
@@ -128,7 +128,7 @@
   {
     "level": "IELTS",
     "word": "hit",
-    "meaning": "v. 打；擊；碰撞 n. 打擊；命中",
+    "meaning": "v. 打；擊；碰撞；（風暴、災害）侵襲 n. 打擊；命中",
     "example": "The storm hit the coast on Friday night and brought down many trees. (暴風雨在星期五晚上侵襲海岸，吹倒了許多樹木。)",
     "id": "IELTS-hit-v-n"
   },
@@ -415,7 +415,7 @@
   {
     "level": "IELTS",
     "word": "maneuver/manoeuvre",
-    "meaning": "n. 策略；技巧；軍事演習",
+    "meaning": "n. 策略；技巧；軍事演習；（車輛等的）移動；閃避動作",
     "example": "The driver made a sharp maneuver to avoid a dog running onto the road. (駕駛緊急變換方向，避開一隻衝上馬路的狗。)",
     "id": "IELTS-maneuver-manoeuvre-n"
   },
@@ -661,7 +661,7 @@
     "level": "IELTS",
     "word": "defend",
     "meaning": "v. 防禦；保護；辯護",
-    "example": "Lawyers defended in court the right of local residents to challenge the planning decision. (律師在法庭上為當地居民質疑這項都市計畫決定的權利辯護。)",
+    "example": "Lawyers defended the right of local residents to challenge the planning decision in court. (律師在法庭上為當地居民質疑這項都市計畫決定的權利辯護。)",
     "id": "IELTS-defend-v"
   },
   {
@@ -815,7 +815,7 @@
     "level": "IELTS",
     "word": "father-in-law",
     "meaning": "n. 岳父；公公",
-    "example": "Her father-in-law still runs a small family furniture business in a northern town. (她的岳父仍在北部一座小鎮經營小型家族家具生意。)",
+    "example": "Her father-in-law still runs a small family furniture business in a northern town. (她的公公仍在北部一座小鎮經營小型家族家具生意。)",
     "id": "IELTS-father-in-law-n"
   },
   {
@@ -829,7 +829,7 @@
     "level": "IELTS",
     "word": "cousin",
     "meaning": "n. 堂（或表）兄弟姊妹；表親",
-    "example": "My favourite cousin lives in Canada and usually visits us during every second long summer holiday. (我最要好的表親住在加拿大，通常每隔一個長暑假會來看我們。)",
+    "example": "My favourite cousin lives in Canada and usually visits us every other summer. (我最要好的表親住在加拿大，通常每隔一個夏天來看我們。)",
     "id": "IELTS-cousin-n"
   },
   {
@@ -1081,7 +1081,7 @@
     "level": "IELTS",
     "word": "respective",
     "meaning": "adj. 各自的；分別的",
-    "example": "After the long meeting, the two managers returned quietly to their own respective regional offices. (冗長的會議結束後，兩位經理各自安靜地回到自己的地區辦公室。)",
+    "example": "After the long meeting, the two managers returned quietly to their respective regional offices. (冗長的會議結束後，兩位經理各自安靜地回到自己的地區辦公室。)",
     "id": "IELTS-respective-adj"
   },
   {
@@ -1221,7 +1221,7 @@
     "level": "IELTS",
     "word": "counsellor/counselor",
     "meaning": "n. 顧問；輔導顧問；（美國的）律師",
-    "example": "The school counsellor helps students manage exam stress and make decisions about their future. (學校輔導顧問協助學生處理考試壓力，並為未來做決定。)",
+    "example": "The school counsellor helps students manage exam stress and make decisions about their future. (學校輔導老師協助學生處理考試壓力，並為未來做決定。)",
     "id": "IELTS-counsellor-counselor-n"
   },
   {
@@ -1648,7 +1648,7 @@
     "level": "IELTS",
     "word": "indignity",
     "meaning": "n. 侮辱；輕蔑",
-    "example": "The elderly patients suffered the indignity of being left in wet clothes for hours. (這些年長病患遭受侮辱，被丟在溼衣服裡好幾個小時。)",
+    "example": "The elderly patients suffered the indignity of being left in wet clothes for hours. (這些年長病患遭受侮辱，被任其穿著濕衣服待了好幾個小時。)",
     "id": "IELTS-indignity-n"
   },
   {
@@ -1676,7 +1676,7 @@
     "level": "IELTS",
     "word": "kidnap",
     "meaning": "v. 綁架；劫持",
-    "example": "A wealthy local businessman was kidnapped and held for ransom from his family for three days. (一位富有的當地商人遭綁架，被扣為人質向家屬勒贖三天。)",
+    "example": "A wealthy local businessman was kidnapped and held for ransom for three days. (一位富有的當地商人遭綁架，被勒贖三天。)",
     "id": "IELTS-kidnap-v"
   },
   {
@@ -2005,7 +2005,7 @@
     "level": "IELTS",
     "word": "drop",
     "meaning": "v. （使）落下；（使）降低；斷絕關係 n. 滴",
-    "example": "The council dropped the charge for parking after residents complained about the cost. (居民抱怨費用太高後，市議會調降了停車收費。)",
+    "example": "The council dropped the charge for parking after residents complained about the cost. (居民抱怨費用太高後，市議會取消了停車收費。)",
     "id": "IELTS-drop-v-n"
   },
   {
@@ -2180,7 +2180,7 @@
     "level": "IELTS",
     "word": "stature",
     "meaning": "n. 身高；身材；（精神或道德等的）高度",
-    "example": "Basketball players are often chosen for their height and general physical stature. (籃球員常因身高和整體體格而被選中。)",
+    "example": "A player's physical stature can influence the position they play in basketball. (籃球員常因身高和整體體格而被選中。)",
     "id": "IELTS-stature-n"
   },
   {
@@ -2460,7 +2460,7 @@
     "level": "IELTS",
     "word": "sense",
     "meaning": "n. 感官；感覺；意義",
-    "example": "Dogs have a very strong sense of smell and can detect tiny amounts of scent. (狗有非常敏銳的嗅覺感官，能察覺極微量的氣味。)",
+    "example": "Dogs have a very strong sense of smell and can detect tiny amounts of scent. (狗的嗅覺非常敏銳，能察覺極微量的氣味。)",
     "id": "IELTS-sense-n"
   },
   {
@@ -2852,7 +2852,7 @@
     "level": "IELTS",
     "word": "uncomfortable",
     "meaning": "adj. 不舒服的；不自在的",
-    "example": "The seats in the waiting room were hard and uncomfortable for elderly patients. (候診室的椅子又硬又不舒服，對年長病人很不友善。)",
+    "example": "The seats in the waiting room were hard and uncomfortable for elderly patients. (候診室的椅子又硬又不舒服，讓年長病人坐得難受。)",
     "id": "IELTS-uncomfortable-adj"
   },
   {
@@ -2873,7 +2873,7 @@
     "level": "IELTS",
     "word": "lament",
     "meaning": "v. 哀悼；悲嘆 n. 悲傷；哀悼",
-    "example": "Many residents lament the loss of the small park where children used to play. (許多居民哀悼那座孩子們以前常去玩耍的小公園消失了。)",
+    "example": "Many residents lament the loss of the small park where children used to play. (許多居民惋惜那座孩子們以前常去玩耍的小公園消失了。)",
     "id": "IELTS-lament-v-n"
   },
   {
@@ -3132,7 +3132,7 @@
     "level": "IELTS",
     "word": "exhilarate",
     "meaning": "v. 使高興；使興奮",
-    "example": "The steep descent can exhilarate even experienced cyclists as they race to the coast. (陡峭的下坡讓自行車騎士很興奮，他們一路衝向海岸。)",
+    "example": "The steep descent can exhilarate even experienced cyclists as they race to the coast. (陡峭的下坡甚至能讓經驗豐富的自行車騎士感到興奮，他們一路衝向海岸。)",
     "id": "IELTS-exhilarate-v"
   },
   {
@@ -3251,7 +3251,7 @@
     "level": "IELTS",
     "word": "daring",
     "meaning": "adj. 勇敢的；大膽的",
-    "example": "The daring rescue took place in rough seas near the entrance to the harbour. (那場勇敢的救援行動發生在港口入口附近的海象惡劣處。)",
+    "example": "The daring rescue took place in rough seas near the entrance to the harbour. (那場勇敢的救援行動發生在港口入口附近波濤洶湧的海面上。)",
     "id": "IELTS-daring-adj"
   },
   {
@@ -3384,7 +3384,7 @@
     "level": "IELTS",
     "word": "sound",
     "meaning": "adj. 健全的；酣暢的；合理的 n. 聲音 v. 發出聲音；聽起來",
-    "example": "A sound diet and regular exercise reduce the risk of heart disease. (健全的飲食和規律運動能降低心臟病的風險。)",
+    "example": "A sound diet and regular exercise reduce the risk of heart disease. (均衡的飲食和規律運動能降低心臟病的風險。)",
     "id": "IELTS-sound-adj-n-v"
   },
   {
@@ -3404,8 +3404,8 @@
   {
     "level": "IELTS",
     "word": "sturdy",
-    "meaning": "adj. 強健的；堅定的",
-    "example": "You need a sturdy pair of boots for walking on these rocky paths. (在這些多岩石的路上行走，你需要一雙強健的靴子。)",
+    "meaning": "adj. 強健的；堅定的；堅固耐用的",
+    "example": "You need a sturdy pair of boots for walking on these rocky paths. (在這些多岩石的路上行走，你需要一雙堅固耐用的靴子。)",
     "id": "IELTS-sturdy-adj"
   },
   {
@@ -3447,14 +3447,14 @@
     "level": "IELTS",
     "word": "sane",
     "meaning": "adj. 心智健全的；理智的",
-    "example": "It is hard to stay sane when traffic noise continues all through the night. (交通噪音整夜不停時，很難保持心智健全。)",
+    "example": "It is hard to stay sane when traffic noise continues all through the night. (交通噪音整夜不停時，很難保持理智。)",
     "id": "IELTS-sane-adj"
   },
   {
     "level": "IELTS",
     "word": "strenuous",
     "meaning": "adj. 發奮的；繁重的；艱苦的",
-    "example": "The doctor advised him to avoid strenuous exercise for at least six weeks. (醫師建議他至少六週內避免繁重的運動。)",
+    "example": "The doctor advised him to avoid strenuous exercise for at least six weeks. (醫師建議他至少六週內避免劇烈運動。)",
     "id": "IELTS-strenuous-adj"
   },
   {
@@ -3510,7 +3510,7 @@
     "level": "IELTS",
     "word": "fortune",
     "meaning": "n. 命運；運氣；財產",
-    "example": "He made his fortune in software and later gave much of it away. (他靠軟體賺了財產，後來把大部分捐出去。)",
+    "example": "He made his fortune in software and later gave much of it away. (他靠軟體發了大財，後來把大部分財產捐出去。)",
     "id": "IELTS-fortune-n"
   },
   {
@@ -3923,7 +3923,7 @@
     "level": "IELTS",
     "word": "sluggish",
     "meaning": "adj. 行動遲緩的；緩慢的",
-    "example": "The computer became sluggish after several programs were left running all day. (好幾個程式開了一整天之後，電腦變得行動遲緩。)",
+    "example": "The computer became sluggish after several programs were left running all day. (好幾個程式開了一整天之後，電腦變得越來越慢。)",
     "id": "IELTS-sluggish-adj"
   },
   {
@@ -4000,7 +4000,7 @@
     "level": "IELTS",
     "word": "billion",
     "meaning": "num. 十億；大量",
-    "example": "The government plans to spend two billion dollars on new railway lines. (政府計畫在新建鐵路線上花費二十億元。)",
+    "example": "The government plans to spend two billion dollars on new railway lines. (政府計畫在新建鐵路線上花費二十億美元。)",
     "id": "IELTS-billion-num"
   },
   {
@@ -4049,7 +4049,7 @@
     "level": "IELTS",
     "word": "modern",
     "meaning": "adj. 現代的；近代的",
-    "example": "The hospital has modern equipment and a new unit for heart patients. (這家醫院有現代化的設備，還有一個新的心臟病人病房。)",
+    "example": "The hospital has modern equipment and a new unit for heart patients. (這家醫院有現代化的設備，還有一間新的心臟病患專用病房。)",
     "id": "IELTS-modern-adj"
   },
   {
@@ -4154,7 +4154,7 @@
     "level": "IELTS",
     "word": "incidentally",
     "meaning": "adv. 偶然地；順便提一句",
-    "example": "The town library will close early on Friday, incidentally, for staff training. (順便提一句，鎮立圖書館星期五會提早關門，進行員工訓練。)",
+    "example": "Incidentally, the town library will close early on Friday for staff training. (順便提一句，鎮立圖書館星期五會提早關門，進行員工訓練。)",
     "id": "IELTS-incidentally-adv"
   }
 ]

@@ -157,7 +157,7 @@
     "level": "IELTS",
     "word": "subliminal",
     "meaning": "adj. 下意識的；潛意識的",
-    "example": "Advertisers are accused of using subliminal images to make viewers want products they do not need. (廣告商被指控用下意識的影像，讓觀眾想買他們其實不需要的產品。)",
+    "example": "Advertisers are accused of using subliminal images to make viewers want products they do not need. (廣告商被指控用潛意識影像，讓觀眾想買他們其實不需要的產品。)",
     "id": "IELTS-subliminal-adj"
   },
   {
@@ -171,7 +171,7 @@
     "level": "IELTS",
     "word": "frequent",
     "meaning": "adj. 頻繁的；常見的",
-    "example": "Frequent hand washing still remains one of the simplest ways to stop infections spreading through a busy household. (勤洗手依然是防止感染在繁忙家庭中散播的最簡單方法之一。)",
+    "example": "Frequent hand washing remains one of the simplest ways to stop infections spreading through a busy household. (勤洗手依然是防止感染在繁忙家庭中散播的最簡單方法之一。)",
     "id": "IELTS-frequent-adj"
   },
   {
@@ -241,7 +241,7 @@
     "level": "IELTS",
     "word": "resort",
     "meaning": "n. 度假勝地；憑藉 vi. 訴諸；求助",
-    "example": "The mountain resort now makes artificial snow because winters have become shorter and less predictable in recent years. (這座山區度假勝地現在必須人造雪，因為近年冬天變得更短、更難預測。)",
+    "example": "The mountain resort now makes artificial snow because winters have become shorter and less predictable in recent years. (這座山區度假勝地現在必須製造人造雪，因為近年冬天變得更短、更難預測。)",
     "id": "IELTS-resort-n-vi"
   },
   {
@@ -262,7 +262,7 @@
     "level": "IELTS",
     "word": "excavate",
     "meaning": "v. 挖掘；開鑿；發掘",
-    "example": "Workers will excavate the busy road for several weeks before the new water pipes can finally be laid. (工人將開挖這條繁忙道路好幾個星期，之後新水管才能終於鋪設完成。)",
+    "example": "Workers will excavate the busy road for several weeks before the new water pipes can finally be laid. (工人將開挖這條繁忙道路好幾個星期，之後新水管才能鋪設完成。)",
     "id": "IELTS-excavate-v"
   },
   {
@@ -394,9 +394,9 @@
   {
     "level": "IELTS",
     "word": "nevertheless",
-    "meaning": "adv. 然而；不過 conj. 然而",
+    "meaning": "adv. 然而；不過",
     "example": "The plan is expensive; nevertheless, most residents agree that the new bridge is necessary. (這項計畫所費不貲；然而，多數居民都同意新橋是必要的。)",
-    "id": "IELTS-nevertheless-adv-conj"
+    "id": "IELTS-nevertheless-adv"
   },
   {
     "level": "IELTS",
@@ -430,7 +430,7 @@
     "level": "IELTS",
     "word": "enable",
     "meaning": "vt. 使能夠；使成為可能",
-    "example": "A simple text reminder can enable patients to remember their medication even when their busy daily routine changes. (簡單的簡訊提醒能讓病人即使在忙碌的日常作息改變時，仍記得服藥。)",
+    "example": "A simple text reminder can enable patients to remember to take their medication even when their busy daily routine changes. (簡單的簡訊提醒能讓病人即使在忙碌的日常作息改變時，仍記得服藥。)",
     "id": "IELTS-enable-vt"
   },
   {
@@ -808,7 +808,7 @@
     "level": "IELTS",
     "word": "whistle",
     "meaning": "n. 口哨；哨子 v. 吹口哨",
-    "example": "He whistled as he cycled home, glad that the traffic had finally cleared. (他騎車回家時吹著口哨，很高興車流終於疏散了。)",
+    "example": "He whistled as he cycled home, glad that the traffic had finally cleared. (他騎車回家時吹著口哨，很高興車流終於消散了。)",
     "id": "IELTS-whistle-n-v"
   },
   {
@@ -1046,15 +1046,15 @@
     "level": "IELTS",
     "word": "slight",
     "meaning": "adj. 輕微的；纖細的 vt./n. 輕視",
-    "example": "A slight rise in temperature can often signal possible infection, so nurses carefully check patients every four hours. (體溫輕微上升往往可能是感染的徵兆，因此護理師每四小時仔細檢查病人。)",
+    "example": "A slight rise in temperature can often signal infection, so nurses carefully check patients every four hours. (體溫輕微上升往往可能是感染的徵兆，因此護理師每四小時仔細檢查病人。)",
     "id": "IELTS-slight-adj-vt-n"
   },
   {
     "level": "IELTS",
     "word": "genetic",
-    "meaning": "adj. 遺傳的 n. 遺傳學",
+    "meaning": "adj. 遺傳的；基因的",
     "example": "Farmers use genetic testing to choose stronger dairy cattle, though the technology remains too expensive for small farms. (農民利用基因檢測挑選較強壯的乳牛，但這項技術對小農場來說仍太昂貴。)",
-    "id": "IELTS-genetic-adj-n"
+    "id": "IELTS-genetic-adj"
   },
   {
     "level": "IELTS",
@@ -1151,7 +1151,7 @@
     "level": "IELTS",
     "word": "respondent",
     "meaning": "n. 受訪者；回答者；被告",
-    "example": "Most respondents said they would cycle to work if the city built safe lanes and secure covered parking. (多數受訪者表示，如果市政府興建安全車道和安全的停車空間，他們願意騎車上班。)",
+    "example": "Most respondents said they would cycle to work if the city built safe lanes and secure covered parking. (多數受訪者表示，如果市政府興建安全的自行車道和有遮棚的停車空間，他們願意騎車上班。)",
     "id": "IELTS-respondent-n"
   },
   {
@@ -1291,7 +1291,7 @@
     "level": "IELTS",
     "word": "disharmony",
     "meaning": "n. 不和諧；不一致",
-    "example": "A pay dispute created disharmony between the two departments for several months. (一場薪資爭議讓兩個部門之間不和諧了好幾個月。)",
+    "example": "A pay dispute created disharmony between the two departments for several months. (一場薪資爭議造成兩個部門不和長達數個月。)",
     "id": "IELTS-disharmony-n"
   },
   {
@@ -1340,7 +1340,7 @@
     "level": "IELTS",
     "word": "silt",
     "meaning": "n. 淤泥 v. 淤塞",
-    "example": "The dam traps silt that once naturally fertilised the fields downstream, so farmers now rely on chemical fertilisers. (水壩攔住了原本自然肥沃下游田地的淤泥，農民現在只能依賴化學肥料。)",
+    "example": "The dam traps silt that once naturally fertilised the fields downstream, so farmers now rely on chemical fertilisers. (水壩攔住了原本會自然滋養下游田地的淤泥，農民現在只能依賴化學肥料。)",
     "id": "IELTS-silt-n-v"
   },
   {
@@ -1424,7 +1424,7 @@
     "level": "IELTS",
     "word": "counterpart",
     "meaning": "n. 對應的人；對應物",
-    "example": "The senior minister will meet her Japanese counterpart to discuss energy security and the rising price of imported gas. (這位資深部長將會見日本對口部長，討論能源安全和進口天然氣價格上漲的問題。)",
+    "example": "The senior minister will meet her Japanese counterpart to discuss energy security and the rising price of imported gas. (這位資深部長將會見日本同級部長，討論能源安全和進口天然氣價格上漲的問題。)",
     "id": "IELTS-counterpart-n"
   },
   {
@@ -1451,15 +1451,15 @@
   {
     "level": "IELTS",
     "word": "represent",
-    "meaning": "vt. 代表；象徵",
-    "example": "The famous painting represents a busy harbour, though the artist never actually visited the coast during his lifetime. (這幅名畫描繪一個繁忙的港口，不過畫家生前其實從未到過海邊。)",
+    "meaning": "vt. 代表；象徵；呈現",
+    "example": "The famous painting represents a busy harbour, though the artist never actually visited the coast during his lifetime. (這幅名畫呈現一個繁忙的港口，不過畫家生前其實從未到過海邊。)",
     "id": "IELTS-represent-vt"
   },
   {
     "level": "IELTS",
     "word": "vanish",
     "meaning": "vi. 消失；絕跡",
-    "example": "Daily newspaper sales have gradually vanished in many towns, leaving older readers without a familiar source of local news. (許多城鎮的日報銷量逐漸消失，讓年長讀者少了熟悉的在地新聞來源。)",
+    "example": "Daily newspapers have gradually vanished from many towns, leaving older readers without a familiar source of local news. (許多城鎮的日報銷量逐漸消失，讓年長讀者少了熟悉的在地新聞來源。)",
     "id": "IELTS-vanish-vi"
   },
   {
@@ -1606,7 +1606,7 @@
     "level": "IELTS",
     "word": "shave",
     "meaning": "v. 剃；刮（鬍子） n. 刮鬍",
-    "example": "He shaved off his beard before the interview at the bank where he hoped to work. (他在那家銀行的面試前把鬍子颳掉，他希望能在這家銀行工作。)",
+    "example": "He shaved off his beard before the interview at the bank where he hoped to work. (他在那家銀行的面試前把鬍子刮掉，他希望能在這家銀行工作。)",
     "id": "IELTS-shave-v-n"
   },
   {
@@ -1872,7 +1872,7 @@
     "level": "IELTS",
     "word": "mould",
     "meaning": "n. 黴菌；模具 v. 塑造",
-    "example": "The bread was covered in green mould after only three days, because the small kitchen was slightly too warm. (麵包才放三天就長滿綠色黴菌，因為小廚房稍微太熱了。)",
+    "example": "The bread was covered in green mould after only three days, because the small kitchen was slightly too warm. (麵包才放三天就長滿綠色黴菌，因為小廚房稍微偏熱。)",
     "id": "IELTS-mould-n-v"
   },
   {
@@ -1885,7 +1885,7 @@
   {
     "level": "IELTS",
     "word": "discretion",
-    "meaning": "n. 判斷力；謹慎",
+    "meaning": "n. 判斷力；謹慎；自行決定權",
     "example": "Managers were given discretion to decide which staff could work flexible hours. (經理被賦予判斷權，自行決定哪些員工可以彈性上班。)",
     "id": "IELTS-discretion-n"
   },
@@ -2229,7 +2229,7 @@
     "level": "IELTS",
     "word": "nutrition",
     "meaning": "n. 營養；營養學",
-    "example": "Good nutrition matters for older people too, especially when serious illness makes daily cooking properly difficult or unappealing. (良好的營養對年長者也很重要，尤其是重病讓好好煮飯變得困難或提不起勁時。)",
+    "example": "Good nutrition matters for older people too, especially when serious illness makes it difficult to cook every day. (良好的營養對年長者也很重要，尤其是重病讓每天煮飯變得困難時。)",
     "id": "IELTS-nutrition-n"
   },
   {
@@ -2264,7 +2264,7 @@
     "level": "IELTS",
     "word": "rear",
     "meaning": "adj. 後方的 n. 後部 v. 飼養；撫養",
-    "example": "The rear light on my bicycle stopped working, so I replaced the small battery before cycling home in the dark. (我腳踏車的後燈壞了，因此我在天黑前騎車回家前先換了小電池。)",
+    "example": "The rear light on my bicycle stopped working, so I replaced the small battery before cycling home in the dark. (我腳踏車的後燈壞了，因此先換了小電池，才在天黑後騎車回家。)",
     "id": "IELTS-rear-adj-n-v"
   },
   {
@@ -2320,7 +2320,7 @@
     "level": "IELTS",
     "word": "explosive",
     "meaning": "n. 炸藥 adj. 爆炸的；易怒的",
-    "example": "Explosive materials must be strictly stored far from nearby homes, which makes mining in crowded valleys increasingly difficult. (爆炸性材料必須嚴格存放在遠離附近民宅的地方，這讓擁擠山谷中的採礦越來越困難。)",
+    "example": "Explosive materials must be stored well away from homes, which makes mining in crowded valleys increasingly difficult. (爆炸性材料必須嚴格存放在遠離附近民宅的地方，這讓擁擠山谷中的採礦越來越困難。)",
     "id": "IELTS-explosive-n-adj"
   },
   {
@@ -2544,7 +2544,7 @@
     "level": "IELTS",
     "word": "slum",
     "meaning": "n. 貧民窟",
-    "example": "The museum's photographs show the great slum that once stood where the modern grand opera house now stands. (博物館的照片顯示，這片大貧民窟曾座落在如今現代宏偉歌劇院的位置。)",
+    "example": "The museum's photographs show the great slum that once stood where the city's grand modern opera house now stands. (博物館的照片顯示，這片大貧民窟曾座落在如今現代宏偉歌劇院的位置。)",
     "id": "IELTS-slum-n"
   },
   {
@@ -2782,7 +2782,7 @@
     "level": "IELTS",
     "word": "shutter",
     "meaning": "n. 百葉窗；快門",
-    "example": "The shopkeeper opened the metal shutters at seven, revealing shelves freshly filled with warm bread and local fruit. (店家七點拉起金屬百葉窗，露出剛補滿溫熱麵包和當地水果的貨架。)",
+    "example": "The shopkeeper opened the metal shutters at seven, revealing shelves freshly filled with warm bread and local fruit. (店家七點拉起鐵捲門，露出剛補滿溫熱麵包和當地水果的貨架。)",
     "id": "IELTS-shutter-n"
   },
   {
@@ -2803,7 +2803,7 @@
     "level": "IELTS",
     "word": "cope",
     "meaning": "vi. 應付；處理",
-    "example": "Rural primary schools often cope with increasingly tight budgets by successfully sharing specialist staff with nearby local institutions. (小型學校往往透過與附近機構共享專業人員，來應付日益緊縮的預算。)",
+    "example": "Rural primary schools often cope with increasingly tight budgets by successfully sharing specialist staff with nearby local institutions. (鄉村小學往往透過與附近機構共享專業人員，來應付日益緊縮的預算。)",
     "id": "IELTS-cope-vi"
   },
   {
@@ -2824,7 +2824,7 @@
     "level": "IELTS",
     "word": "benefit",
     "meaning": "n. 益處；津貼 v. 有益於；受益",
-    "example": "One clear benefit of regular working from home is that employees save both commuting time and considerable money. (規律居家辦公的一項明顯益處，是員工同時省下通勤時間和可觀的金錢。)",
+    "example": "One clear benefit of working from home regularly is that employees save both commuting time and a considerable amount of money. (規律居家辦公的一項明顯益處，是員工同時省下通勤時間和可觀的金錢。)",
     "id": "IELTS-benefit-n-v"
   },
   {
@@ -2838,7 +2838,7 @@
     "level": "IELTS",
     "word": "distribution",
     "meaning": "n. 分配；分發；分佈",
-    "example": "The fair distribution of emergency food aid still remains difficult because roads in the north are often blocked. (緊急糧食援助的公平分配仍很困難，因為北部的道路經常中斷。)",
+    "example": "The fair distribution of emergency food aid remains difficult because roads in the north are often blocked. (緊急糧食援助的公平分配仍很困難，因為北部的道路經常中斷。)",
     "id": "IELTS-distribution-n"
   },
   {
@@ -2978,7 +2978,7 @@
     "level": "IELTS",
     "word": "activate",
     "meaning": "vt. 啟動；使活化",
-    "example": "The small kitchen alarm activates automatically when smoke is detected, so residents should never carelessly disable it again. (廚房的小型警報器偵測到煙霧就會自動啟動，因此住戶不應再粗心把它關掉。)",
+    "example": "The kitchen alarm activates automatically when smoke is detected, so residents should never disable it again. (廚房的小型警報器偵測到煙霧就會自動啟動，因此住戶不應再粗心把它關掉。)",
     "id": "IELTS-activate-vt"
   },
   {
@@ -3132,7 +3132,7 @@
     "level": "IELTS",
     "word": "naked",
     "meaning": "adj. 裸體的；無遮蔽的",
-    "example": "The hill offers a naked view of the bay, with nothing to block the wind. (這座山丘毫無遮蔽，可以望見整個海灣，也沒有東西擋風。)",
+    "example": "The naked hillside offers a clear view of the bay, with nothing to block the wind. (這座山丘毫無遮蔽，可以望見整個海灣，也沒有東西擋風。)",
     "id": "IELTS-naked-adj"
   },
   {
@@ -3230,7 +3230,7 @@
     "level": "IELTS",
     "word": "hesitation",
     "meaning": "n. 猶豫；躊躇",
-    "example": "After a brief hesitation, we chose the longer route, which turned out to be surprisingly much more scenic. (短暫猶豫後，我們選擇了較長的路線，結果風景出乎意料地更美。)",
+    "example": "After a brief hesitation, we chose the longer route, which turned out to be more scenic than we had expected. (短暫猶豫後，我們選擇了較長的路線，結果風景出乎意料地更美。)",
     "id": "IELTS-hesitation-n"
   },
   {
@@ -3342,7 +3342,7 @@
     "level": "IELTS",
     "word": "probation",
     "meaning": "n. 緩刑；試用期",
-    "example": "New tenants are on short probation for three months, during which either side can quietly end the agreement. (新房客有三個月的短期試用期，期間雙方都可以默默終止合約。)",
+    "example": "New employees are on probation for three months, during which either side can end the contract. (新進員工有三個月的試用期，期間任一方都可以終止合約。)",
     "id": "IELTS-probation-n"
   },
   {
@@ -3412,7 +3412,7 @@
     "level": "IELTS",
     "word": "dull",
     "meaning": "adj. 乏味的；陰沉的",
-    "example": "The training was rather dull, yet the brief practical exercises at the end were actually surprisingly useful to everyone. (這場訓練相當乏味，不過最後簡短的實作練習其實意外地有用。)",
+    "example": "The training was rather dull, yet the brief practical exercises at the end were surprisingly useful. (這場訓練相當乏味，不過最後簡短的實作練習其實意外地有用。)",
     "id": "IELTS-dull-adj"
   },
   {
@@ -3594,7 +3594,7 @@
     "level": "IELTS",
     "word": "verdict",
     "meaning": "n. 裁定；判決；定論",
-    "example": "The final verdict surprised everyone, as the evidence had seemed very clearly to favour the defending local champion. (最終判決讓所有人意外，因為證據似乎明顯有利於衛冕的當地冠軍。)",
+    "example": "The final verdict surprised everyone, as the evidence had seemed to favour the defending local champion. (最終判決讓所有人意外，因為證據似乎明顯有利於衛冕的當地冠軍。)",
     "id": "IELTS-verdict-n"
   },
   {
@@ -3629,7 +3629,7 @@
     "level": "IELTS",
     "word": "unyielding",
     "meaning": "adj. 頑強的；堅硬的；不屈的",
-    "example": "The team's unyielding defence frustrated opponents throughout the entire match, especially those who had expected an easy victory. (這支球隊頑強的防守讓對手整場比賽都很挫折，尤其是原本以為能輕鬆獲勝的隊伍。)",
+    "example": "The team's unyielding defence frustrated opponents throughout the entire match, especially those who had expected an easy victory. (這支球隊頑強的防守讓對手整場比賽都很受挫，尤其是原本以為能輕鬆獲勝的隊伍。)",
     "id": "IELTS-unyielding-adj"
   },
   {
@@ -3734,7 +3734,7 @@
     "level": "IELTS",
     "word": "vet",
     "meaning": "vt. 審查 n. 獸醫",
-    "example": "Every supplier is vetted before the restaurant agrees to buy from them. (餐廳同意向任何供應商採購之前，都會先審查過。)",
+    "example": "Every supplier is vetted before the restaurant agrees to buy from it. (餐廳同意向任何供應商採購之前，都會先審查過。)",
     "id": "IELTS-vet-vt-n"
   },
   {
@@ -3790,7 +3790,7 @@
     "level": "IELTS",
     "word": "casual",
     "meaning": "adj. 偶然的；臨時的；非正式的",
-    "example": "The office allows casual clothes on Fridays, which staff say makes the whole atmosphere generally much more relaxed. (公司允許週五穿便服，員工說這讓整體氣氛普遍輕鬆許多。)",
+    "example": "The office allows casual clothes on Fridays, which staff say makes the atmosphere much more relaxed. (公司允許週五穿便服，員工說這讓整體氣氛普遍輕鬆許多。)",
     "id": "IELTS-casual-adj"
   },
   {
@@ -3881,7 +3881,7 @@
     "level": "IELTS",
     "word": "acid",
     "meaning": "n. 酸 adj. 酸的；尖刻的",
-    "example": "A little simple acid, such as lemon juice, can brighten the strong flavour of a rich heavy sauce. (一點簡單的酸味，例如檸檬汁，就能讓濃郁厚重的醬汁味道更明亮。)",
+    "example": "A little acid, such as lemon juice, can brighten the strong flavour of a rich, heavy sauce. (一點簡單的酸味，例如檸檬汁，就能讓濃郁厚重的醬汁味道更明亮。)",
     "id": "IELTS-acid-n-adj"
   },
   {
@@ -3937,7 +3937,7 @@
     "level": "IELTS",
     "word": "reference",
     "meaning": "n. 參考；提及；推薦函",
-    "example": "Landlords often ask for a written reference from a previous tenant, which makes moving to the city difficult for newcomers. (房東常要求前一任房客的書面推薦函，這讓新來的人很難搬進城市。)",
+    "example": "Landlords often ask for a written reference from a previous landlord, which makes moving to the city difficult for newcomers. (房東常要求前一任房客的書面推薦函，這讓新來的人很難搬進城市。)",
     "id": "IELTS-reference-n"
   },
   {
@@ -4231,7 +4231,7 @@
     "level": "IELTS",
     "word": "throughout",
     "meaning": "prep. 遍及；貫穿整個…… adv. 各處；自始至終",
-    "example": "Rural clinics throughout the island now offer free screening, although waiting times still remain long in remote villages. (全島的鄉村診所現在都提供免費篩檢，不過偏遠村莊的等候時間仍很長。)",
+    "example": "Rural clinics throughout the island now offer free screening, although waiting times remain long in remote villages. (全島的鄉村診所現在都提供免費篩檢，不過偏遠村莊的等候時間仍很長。)",
     "id": "IELTS-throughout-prep-adv"
   },
   {
@@ -4455,7 +4455,7 @@
     "level": "IELTS",
     "word": "bump",
     "meaning": "v. 碰撞；顛簸前進 n. 碰撞；隆起",
-    "example": "The hard suitcase bumped against the escalator, but the small laptop's screen inside still survived without any damage. (硬殼行李箱撞到電扶梯，但裡面的筆電螢幕仍毫髮無傷。)",
+    "example": "The hard suitcase bumped against the escalator, but the small laptop's screen inside remained undamaged. (硬殼行李箱撞到電扶梯，但裡面的筆電螢幕仍毫髮無傷。)",
     "id": "IELTS-bump-v-n"
   },
   {
@@ -4665,7 +4665,7 @@
     "level": "IELTS",
     "word": "handy",
     "meaning": "adj. 方便的；手邊的；手巧的",
-    "example": "A small folding umbrella is handy in this city, where rain can suddenly start without any warning at all. (在這座城市，小雨傘很方便，因為雨可能毫無預警地突然下起來。)",
+    "example": "A small folding umbrella is handy in this city, where rain can start without any warning. (在這座城市，小雨傘很方便，因為雨可能毫無預警地突然下起來。)",
     "id": "IELTS-handy-adj"
   },
   {
@@ -4686,7 +4686,7 @@
     "level": "IELTS",
     "word": "direction",
     "meaning": "n. 方向；指導；用法說明",
-    "example": "Read the direction on the packet before you apply the chemical to the plants. (在把藥劑用在植物上之前，請先閱讀包裝上的用法說明。)",
+    "example": "Read the directions on the packet before you apply the chemical to the plants. (在把藥劑用在植物上之前，請先閱讀包裝上的用法說明。)",
     "id": "IELTS-direction-n"
   },
   {
@@ -4756,7 +4756,7 @@
     "level": "IELTS",
     "word": "greasy",
     "meaning": "adj. 油膩的；油滑的",
-    "example": "Greasy food is cheap and filling, yet it leaves many office workers feeling quickly tired by mid afternoon. (油膩食物便宜又吃得飽，卻讓許多上班族到了下午就很快覺得疲倦。)",
+    "example": "Greasy food is cheap and filling, yet it leaves many office workers feeling tired by mid afternoon. (油膩食物便宜又吃得飽，卻讓許多上班族到了下午就很快覺得疲倦。)",
     "id": "IELTS-greasy-adj"
   },
   {
@@ -4938,7 +4938,7 @@
     "level": "IELTS",
     "word": "assistantship",
     "meaning": "n. 研究生助教獎學金",
-    "example": "The assistantship covers full tuition and pays a small monthly stipend, but it requires twenty hours of laboratory work. (這份助教獎學金支付全額學費，每月還有一小筆津貼，但每週必須做二十小時實驗室工作。)",
+    "example": "The assistantship covers full tuition and pays a small monthly stipend, but it requires twenty hours of laboratory work a week. (這份助教獎學金支付全額學費，每月還有一小筆津貼，但每週必須做二十小時實驗室工作。)",
     "id": "IELTS-assistantship-n"
   },
   {
@@ -4994,7 +4994,7 @@
     "level": "IELTS",
     "word": "mechanical",
     "meaning": "adj. 機械的；呆板的",
-    "example": "A mechanical failure suddenly stopped the factory's main conveyor, so production halted for most of the whole shift. (機械故障突然讓工廠主要輸送帶停擺，因此整個班次大部分時間生產都中斷。)",
+    "example": "A mechanical failure suddenly stopped the factory's main conveyor, so production halted for most of the shift. (機械故障突然讓工廠主要輸送帶停擺，因此整個班次大部分時間生產都中斷。)",
     "id": "IELTS-mechanical-adj"
   },
   {
@@ -5260,7 +5260,7 @@
     "level": "IELTS",
     "word": "waist",
     "meaning": "n. 腰；腰部",
-    "example": "Carrying extra abdominal weight around the waist clearly increases heart risk, even in people of otherwise normal weight. (腰部囤積多餘脂肪明顯會增加心臟風險，即使是其他方面體重正常的人也不例外。)",
+    "example": "Carrying extra weight around the waist clearly increases heart risk, even in people of otherwise normal weight. (腰部囤積多餘脂肪明顯會增加心臟風險，即使是其他方面體重正常的人也不例外。)",
     "id": "IELTS-waist-n"
   },
   {
@@ -5351,7 +5351,7 @@
     "level": "IELTS",
     "word": "headquarters",
     "meaning": "n. 總部；司令部",
-    "example": "The charity's headquarters moved into an old former school, giving local staff far more space at lower cost. (這家慈善機構的總部搬進一所舊學校，讓當地員工以更低成本獲得更大的空間。)",
+    "example": "The charity's headquarters moved into a former school, giving local staff far more space at lower cost. (這家慈善機構的總部搬進一所舊學校，讓當地員工以更低成本獲得更大的空間。)",
     "id": "IELTS-headquarters-n"
   },
   {
@@ -5498,7 +5498,7 @@
     "level": "IELTS",
     "word": "export",
     "meaning": "v. 出口；輸出 n. 出口；出口商品",
-    "example": "The country exports heavy machinery to its neighbours, although domestic demand for those goods still remains surprisingly strong. (這個國家出口重型機械到鄰國，儘管國內對這些產品的需求仍出乎意料地強勁。)",
+    "example": "The country exports heavy machinery to its neighbours, although domestic demand for those goods remains strong. (這個國家出口重型機械到鄰國，儘管國內對這些產品的需求仍出乎意料地強勁。)",
     "id": "IELTS-export-v-n"
   },
   {
@@ -5512,14 +5512,14 @@
     "level": "IELTS",
     "word": "sanitary",
     "meaning": "adj. 衛生的；清潔的",
-    "example": "Inspectors closed the restaurant because its basic kitchen sanitary conditions were clearly far below the required legal standard. (稽查人員勒令這家餐廳停業，因為廚房的衛生狀況明顯遠低於法定標準。)",
+    "example": "Inspectors closed the restaurant because the sanitary conditions in its kitchen were far below the required legal standard. (稽查人員勒令這家餐廳停業，因為廚房的衛生狀況明顯遠低於法定標準。)",
     "id": "IELTS-sanitary-adj"
   },
   {
     "level": "IELTS",
     "word": "submit",
     "meaning": "v. 提交；服從",
-    "example": "Researchers must submit their final proposals online by Friday, and late applications will normally not ever be considered. (研究人員必須在週五前線上提交最終提案，逾期申請通常一概不予考慮。)",
+    "example": "Researchers must submit their final proposals online by Friday, and late applications will normally not be considered. (研究人員必須在週五前線上提交最終提案，逾期申請通常一概不予考慮。)",
     "id": "IELTS-submit-v"
   },
   {
@@ -5532,8 +5532,8 @@
   {
     "level": "IELTS",
     "word": "anecdotal",
-    "meaning": "adj. 軼聞的；趣聞的",
-    "example": "The evidence for the remedy is still only anecdotal, so doctors cannot recommend it as a widely proven treatment. (這項療法的證據仍只是軼聞，因此醫師無法把它推薦為廣受證實的療法。)",
+    "meaning": "adj. 軼聞的；個案經驗的",
+    "example": "The evidence for the remedy is still only anecdotal, so doctors cannot recommend it as a widely proven treatment. (這項療法的證據仍只來自個案經驗，因此醫師無法把它推薦為已廣泛證實的療法。)",
     "id": "IELTS-anecdotal-adj"
   },
   {
@@ -5645,7 +5645,7 @@
     "level": "IELTS",
     "word": "legal",
     "meaning": "adj. 法律的；合法的",
-    "example": "Tenants should seek independent legal advice before signing a lease, especially if the terms seem clearly very unusual. (房客在簽租約前應尋求獨立的法律建議，尤其是條款明顯很不尋常時。)",
+    "example": "Tenants should seek independent legal advice before signing a lease, especially if the terms seem very unusual. (房客在簽租約前應尋求獨立的法律建議，尤其是條款明顯很不尋常時。)",
     "id": "IELTS-legal-adj"
   },
   {
@@ -5729,7 +5729,7 @@
     "level": "IELTS",
     "word": "grocery",
     "meaning": "n. 雜貨店；食品雜貨",
-    "example": "The small grocery now delivers to nearby farms, which saves older residents an increasingly difficult long weekly journey. (這家小雜貨店現在送貨到附近農場，讓年長居民不必每週辛苦跑一趟長路。)",
+    "example": "The small grocery now delivers to nearby farms, which saves older residents a long weekly journey. (這家小雜貨店現在送貨到附近農場，讓年長居民不必每週辛苦跑一趟長路。)",
     "id": "IELTS-grocery-n"
   },
   {
@@ -5862,7 +5862,7 @@
     "level": "IELTS",
     "word": "native",
     "meaning": "adj. 本地的 n. 本地人",
-    "example": "Native local speakers often use everyday expressions that textbooks completely ignore, so learners truly benefit from real conversations. (本地母語者常使用教科書完全忽略的日常表達，因此學習者能從真實對話中真正受益。)",
+    "example": "Native speakers often use everyday expressions that textbooks completely ignore, so learners truly benefit from real conversations. (本地母語者常使用教科書完全忽略的日常表達，因此學習者能從真實對話中真正受益。)",
     "id": "IELTS-native-adj-n"
   },
   {
@@ -5946,7 +5946,7 @@
     "level": "IELTS",
     "word": "identical",
     "meaning": "adj. 完全相同的",
-    "example": "The two samples looked clearly identical at first, but laboratory tests later revealed a slight chemical difference in composition. (這兩個樣本起初看起來明顯完全相同，但實驗室檢測後來發現成分上有輕微化學差異。)",
+    "example": "The two samples looked identical at first, but laboratory tests later revealed a slight chemical difference in composition. (這兩個樣本起初看起來明顯完全相同，但實驗室檢測後來發現成分上有輕微化學差異。)",
     "id": "IELTS-identical-adj"
   },
   {
@@ -5995,7 +5995,7 @@
     "level": "IELTS",
     "word": "impression",
     "meaning": "n. 印象；壓痕",
-    "example": "My first impression of the interviewer was consistently quite positive, although her later questions proved unusually direct and detailed. (我對面試官的第一印象一直相當正面，儘管她後來提出的問題異常直接而詳細。)",
+    "example": "My first impression of the interviewer was quite positive, although her later questions proved unusually direct and detailed. (我對面試官的第一印象一直相當正面，儘管她後來提出的問題異常直接而詳細。)",
     "id": "IELTS-impression-n"
   },
   {
@@ -6086,7 +6086,7 @@
     "level": "IELTS",
     "word": "combine",
     "meaning": "v. 結合；聯合",
-    "example": "The new system combines daily bus and rail tickets, so passengers really need only one single convenient payment. (新系統結合每日公車與鐵路票證，讓乘客真的只需一次方便的付款。)",
+    "example": "The new system combines daily bus and rail tickets, so passengers need only one convenient payment. (新系統結合每日公車與鐵路票證，讓乘客真的只需一次方便的付款。)",
     "id": "IELTS-combine-v"
   },
   {
@@ -6156,7 +6156,7 @@
     "level": "IELTS",
     "word": "critical",
     "meaning": "adj. 批判的；危急的；關鍵的",
-    "example": "Early diagnosis is absolutely critical, since treatment clearly works far better before the disease spreads quickly to other organs. (早期診斷絕對關鍵，因為在疾病迅速擴散到其他器官前治療，效果明顯好得多。)",
+    "example": "Early diagnosis is absolutely critical, since treatment works far better before the disease spreads to other organs. (早期診斷絕對關鍵，因為在疾病迅速擴散到其他器官前治療，效果明顯好得多。)",
     "id": "IELTS-critical-adj"
   },
   {
@@ -6226,14 +6226,14 @@
     "level": "IELTS",
     "word": "turbine",
     "meaning": "n. 渦輪機",
-    "example": "Each offshore turbine is inspected regularly twice a year, which prevents small faults from becoming serious costly failures. (每座離岸渦輪機每年定期檢查兩次，防止小故障變成嚴重又昂貴的損壞。)",
+    "example": "Each offshore turbine is inspected twice a year, which prevents small faults from becoming serious failures. (每座離岸渦輪機每年定期檢查兩次，防止小故障變成嚴重又昂貴的損壞。)",
     "id": "IELTS-turbine-n"
   },
   {
     "level": "IELTS",
     "word": "backbone",
     "meaning": "n. 脊椎；骨幹",
-    "example": "Community nurses often form the backbone of local rural healthcare, yet their pay still remains lower than that of hospital staff. (社區護理師往往是當地鄉村醫療的骨幹，但她們的薪資仍低於醫院員工。)",
+    "example": "Community nurses often form the backbone of local rural healthcare, yet their pay remains lower than that of hospital staff. (社區護理師往往是當地鄉村醫療的骨幹，但她們的薪資仍低於醫院員工。)",
     "id": "IELTS-backbone-n"
   },
   {
@@ -6681,7 +6681,7 @@
     "level": "IELTS",
     "word": "contempt",
     "meaning": "n. 輕視；蔑視",
-    "example": "She looked at the broken fence with quiet contempt and said nothing. (她靜靜地輕蔑看著破掉的圍籬，什麼也沒說。)",
+    "example": "She looked at the broken fence with quiet contempt and said nothing. (她帶著淡淡的輕蔑看著破掉的圍籬，什麼也沒說。)",
     "id": "IELTS-contempt-n"
   },
   {
@@ -6765,7 +6765,7 @@
     "level": "IELTS",
     "word": "debt",
     "meaning": "n. 債務",
-    "example": "She finished university with a large debt, so she moved back home and worked two jobs for years. (她大學畢業時背著一大筆債務，因此搬回家住，並做好幾年的兩份工作。)",
+    "example": "She finished university with a large debt, so she moved back home and worked two jobs for years. (她大學畢業時背著一大筆債務，因此搬回家住，並同時做兩份工作好幾年。)",
     "id": "IELTS-debt-n"
   },
   {
@@ -6988,7 +6988,7 @@
   {
     "level": "IELTS",
     "word": "expectancy",
-    "meaning": "n. 期待；預期",
+    "meaning": "n. 期待；預期；（壽命等的）預期值",
     "example": "Life expectancy has fallen in some regions, which experts link to poor diet and limited access to doctors. (部分地區的平均壽命下降，專家將其歸因於飲食不佳與就醫管道有限。)",
     "id": "IELTS-expectancy-n"
   },

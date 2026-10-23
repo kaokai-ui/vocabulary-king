@@ -198,7 +198,7 @@
   {
     "level": "IELTS",
     "word": "quadruple",
-    "meaning": "adj. 四倍的 n. 四倍 v. 使成四倍",
+    "meaning": "adj. 四倍的 n. 四倍 v. 成為四倍；使成四倍",
     "example": "House prices in the area have quadrupled since the new railway opened. (自新鐵路通車以來，該地區房價已漲為四倍。)",
     "id": "IELTS-quadruple-adj-n-v"
   },
@@ -528,13 +528,13 @@
     "level": "IELTS",
     "word": "discern",
     "meaning": "v. 察覺出；分辨出",
-    "example": "It was difficult to discern whether the figures included part-time or temporary workers. (很難察覺這些數字是否包含兼職工作者。)",
+    "example": "It was difficult to discern whether the figures included part-time or temporary workers. (很難辨別這些數字是否包含兼職或臨時工作者。)",
     "id": "IELTS-discern-v"
   },
   {
     "level": "IELTS",
     "word": "recognise/recognize",
-    "meaning": "v. 認識；辨認出",
+    "meaning": "v. 認識；辨認出；認可；承認",
     "example": "Employers increasingly recognise the value of good mental health support for staff. (雇主越來越能辨識出員工心理健康支持的重要性。)",
     "id": "IELTS-recognise-recognize-v"
   },
@@ -619,7 +619,7 @@
     "level": "IELTS",
     "word": "inquire/enquire",
     "meaning": "v. 詢問；調查",
-    "example": "She phoned the hotel to inquire about parking, meals and breakfast times. (她打電話到飯店詢問停車和早餐時間。)",
+    "example": "She phoned the hotel to inquire about parking, meals and breakfast times. (她打電話到飯店詢問停車、餐飲和早餐時間。)",
     "id": "IELTS-inquire-enquire-v"
   },
   {
@@ -696,7 +696,7 @@
     "level": "IELTS",
     "word": "technology",
     "meaning": "n. 技術；科技",
-    "example": "Digital technology has changed how people shop, bank and communicate with friends. (科技改變了人們購物、理財和與朋友溝通的方式。)",
+    "example": "Digital technology has changed how people shop, bank and communicate with friends. (數位科技改變了人們購物、理財和與朋友溝通的方式。)",
     "id": "IELTS-technology-n"
   },
   {
@@ -996,8 +996,8 @@
   {
     "level": "IELTS",
     "word": "refine",
-    "meaning": "v. 精煉；提純",
-    "example": "Engineers refine the design after each round of testing and customer feedback. (工程師在每一輪測試與回饋後精煉設計。)",
+    "meaning": "v. 精煉；提純；改良；使精進",
+    "example": "Engineers refine the design after each round of testing and customer feedback. (工程師在每一輪測試與顧客回饋後改良設計。)",
     "id": "IELTS-refine-v"
   },
   {
@@ -1403,14 +1403,14 @@
     "level": "IELTS",
     "word": "nostalgia",
     "meaning": "n. 思鄉之情；懷舊之情",
-    "example": "Many older residents still feel nostalgia for the quiet streets of the town where they grew up. (許多較年長的居民仍對他們成長時那條安靜的街道懷有懷舊之情。)",
+    "example": "Many older residents still feel nostalgia for the quiet streets of the town where they grew up. (許多較年長的居民仍懷念他們成長時那幾條安靜的街道。)",
     "id": "IELTS-nostalgia-n"
   },
   {
     "level": "IELTS",
     "word": "experience",
     "meaning": "n. 經驗；經歷；體驗",
-    "example": "Volunteering abroad gave her valuable experience of working with people from very different cultures. (海外志工經驗讓她獲得與來自截然不同文化的人共事的寶貴經驗。)",
+    "example": "Volunteering abroad gave her valuable experience of working with people from very different cultures. (海外志工的經歷讓她獲得與來自截然不同文化的人共事的寶貴經驗。)",
     "id": "IELTS-experience-n"
   },
   {
@@ -1508,7 +1508,7 @@
     "level": "IELTS",
     "word": "pronounce",
     "meaning": "v. 發……的音；宣佈；發音",
-    "example": "Many learners find it difficult to pronounce words that contain several consonant clusters. (許多學習者覺得含有連續子音的單字很難發音。)",
+    "example": "Many learners find it difficult to pronounce words that contain several consonant clusters. (許多學習者覺得含有子音串的單字很難發音。)",
     "id": "IELTS-pronounce-v"
   },
   {
@@ -1690,7 +1690,7 @@
     "level": "IELTS",
     "word": "verb",
     "meaning": "n. 動詞",
-    "example": "Every English verb has a base form and usually several past tense forms. (每個英文動詞都有原形，通常還有幾個過去式形式。)",
+    "example": "Every English verb has a base form and usually a past tense form. (每個英文動詞都有原形，通常還有幾個過去式形式。)",
     "id": "IELTS-verb-n"
   },
   {
@@ -1816,7 +1816,7 @@
     "level": "IELTS",
     "word": "typist",
     "meaning": "n. 打字員",
-    "example": "A fast typist can enter data far more accurately than someone using two fingers. (打字員輸入資料的準確度，遠高於只用兩根手指打字的人。)",
+    "example": "A skilled typist can enter data far more accurately than someone using two fingers. (打字員輸入資料的準確度，遠高於只用兩根手指打字的人。)",
     "id": "IELTS-typist-n"
   },
   {
@@ -2053,9 +2053,9 @@
   {
     "level": "IELTS",
     "word": "musical",
-    "meaning": "adj. 音樂的；悅耳的",
+    "meaning": "adj. 音樂的；悅耳的 n. 音樂劇",
     "example": "The musical tells the story of a small town that discovers a shared love of music. (這齣音樂劇講述一個小鎮發現彼此共同熱愛音樂的故事。)",
-    "id": "IELTS-musical-adj"
+    "id": "IELTS-musical-adj-n"
   },
   {
     "level": "IELTS",
@@ -2089,7 +2089,7 @@
     "level": "IELTS",
     "word": "lyric",
     "meaning": "n. 歌詞；抒情詩 adj. 抒情的",
-    "example": "The lyric describes a long journey home and has been interpreted in many ways. (這段歌詞描述一趟漫長的返鄉旅程，且有許多不同解讀。)",
+    "example": "The lyrics describe a long journey home and have been interpreted in many ways. (這段歌詞描述一趟漫長的返鄉旅程，且有許多不同解讀。)",
     "id": "IELTS-lyric-n-adj"
   },
   {
@@ -2494,7 +2494,7 @@
   {
     "level": "IELTS",
     "word": "climb",
-    "meaning": "v. 攀登；爬",
+    "meaning": "v. 攀登；爬；上升；攀升",
     "example": "The number of visitors climbed steadily after the museum reduced its ticket prices. (博物館調降票價後，參觀人數穩定攀升。)",
     "id": "IELTS-climb-v"
   },
@@ -2600,7 +2600,7 @@
     "level": "IELTS",
     "word": "sewerage",
     "meaning": "n. 排水系統；汙水處理系統；汙水",
-    "example": "Heavy rain overwhelmed the aging sewerage system, and dirty water flooded several streets. (豪雨讓老舊的汙水處理系統不堪負荷，髒水淹了好幾條街。)",
+    "example": "Heavy rain overwhelmed the aging sewerage system, and dirty water flooded several streets. (豪雨讓老舊的下水道系統不堪負荷，髒水淹了好幾條街。)",
     "id": "IELTS-sewerage-n"
   },
   {
@@ -2767,9 +2767,9 @@
   {
     "level": "IELTS",
     "word": "Xerox",
-    "meaning": "n. 全錄影印機；影印",
+    "meaning": "n. 全錄影印機；影印 v. 影印",
     "example": "Could you Xerox these documents and bring two copies to the meeting this afternoon? (你可以把這些文件影印一下，下午開會時帶兩份過來嗎？)",
-    "id": "IELTS-xerox-n"
+    "id": "IELTS-xerox-n-v"
   },
   {
     "level": "IELTS",
@@ -3587,7 +3587,7 @@
     "level": "IELTS",
     "word": "rag",
     "meaning": "n. 破布；碎布",
-    "example": "She wiped the table with a damp rag and then dried it. (她用溼破布擦桌子，然後把桌子擦乾。)",
+    "example": "She wiped the table with a damp rag and then dried it. (她用濕抹布擦桌子，然後把桌子擦乾。)",
     "id": "IELTS-rag-n"
   },
   {
@@ -3748,7 +3748,7 @@
     "level": "IELTS",
     "word": "cutlery",
     "meaning": "n. 餐具；刀具",
-    "example": "The waitress set the cutlery neatly on the table before the guests arrived. (服務生在外賓抵達前把餐具整齊擺在桌上。)",
+    "example": "The waitress set the cutlery neatly on the table before the guests arrived. (服務生在客人抵達前把餐具整齊擺在桌上。)",
     "id": "IELTS-cutlery-n"
   },
   {
@@ -3950,14 +3950,14 @@
   {
     "level": "IELTS",
     "word": "tomato",
-    "meaning": "n. 番茄；西紅柿",
+    "meaning": "n. 番茄",
     "example": "The tomato plants in the garden need support as the fruit becomes heavy. (花園裡的番茄植株在果實變重時需要支架。)",
     "id": "IELTS-tomato-n"
   },
   {
     "level": "IELTS",
     "word": "potato",
-    "meaning": "n. 馬鈴薯；土豆",
+    "meaning": "n. 馬鈴薯",
     "example": "She boiled the potatoes and mashed them with butter and a little milk. (她把馬鈴薯煮熟，加上奶油和一點牛奶搗成泥。)",
     "id": "IELTS-potato-n"
   },
@@ -3978,7 +3978,7 @@
   {
     "level": "IELTS",
     "word": "cabbage",
-    "meaning": "n. 甘藍；高麗菜；捲心菜",
+    "meaning": "n. 甘藍；高麗菜",
     "example": "The market sells fresh cabbage, which is often used in local soups. (市場賣新鮮高麗菜，當地人常拿來煮湯。)",
     "id": "IELTS-cabbage-n"
   },
@@ -4329,7 +4329,7 @@
     "level": "IELTS",
     "word": "nut",
     "meaning": "n. 堅果；螺母",
-    "example": "Check the ingredients carefully in case the cake contains traces of nut. (仔細檢查成分，以免蛋糕含有堅果的痕跡。)",
+    "example": "Check the ingredients carefully in case the cake contains traces of nuts. (仔細檢查成分，以免蛋糕含有堅果的痕跡。)",
     "id": "IELTS-nut-n"
   },
   {
@@ -5561,7 +5561,7 @@
     "level": "IELTS",
     "word": "burden",
     "meaning": "v. 使負擔 n. 重擔；負擔",
-    "example": "The cost of care can be a heavy financial burden for older families. (照護費用可能成為年長家庭沉重的財務負擔。)",
+    "example": "The cost of care can be a heavy financial burden for families caring for elderly relatives. (照護費用可能成為照顧年長親屬家庭沉重的經濟負擔。)",
     "id": "IELTS-burden-v-n"
   },
   {
@@ -5637,7 +5637,7 @@
   {
     "level": "IELTS",
     "word": "materialism",
-    "meaning": "n. 唯物主義；唯物論",
+    "meaning": "n. 唯物主義；唯物論；物質主義；拜金主義",
     "example": "Some critics argue that materialism has replaced religion as the main source of values. (有些評論者認為，唯物主義已取代宗教成為價值觀的主要來源。)",
     "id": "IELTS-materialism-n"
   },
@@ -5659,7 +5659,7 @@
     "level": "IELTS",
     "word": "arena",
     "meaning": "n. 競技場；活動領域；舞臺",
-    "example": "The stadium is also used as an arena for concerts and public events. (這座體育場也用作演唱會和公共活動的競技場。)",
+    "example": "The stadium is also used as an arena for concerts and public events. (這座體育場也用作演唱會和公共活動的場地。)",
     "id": "IELTS-arena-n"
   },
   {
@@ -5834,7 +5834,7 @@
     "level": "IELTS",
     "word": "wreath",
     "meaning": "n. 花環；花冠；花圈",
-    "example": "A wreath of white flowers was laid at the war memorial on Sunday. (星期天有人在戰爭紀念碑前獻上一個白花花圈。)",
+    "example": "A wreath of white flowers was laid at the war memorial on Sunday. (星期天有人在戰爭紀念碑前獻上一個白色花圈。)",
     "id": "IELTS-wreath-n"
   },
   {
@@ -5952,7 +5952,7 @@
   {
     "level": "IELTS",
     "word": "affirm",
-    "meaning": "v. 斷言；堅稱；證實",
+    "meaning": "v. 斷言；堅稱；證實；維持（原判）",
     "example": "The high court affirmed the earlier decision and firmly rejected the company's appeal. (高等法院維持原判，並堅決駁回該公司的上訴。)",
     "id": "IELTS-affirm-v"
   },
@@ -6056,7 +6056,7 @@
   },
   {
     "level": "IELTS",
-    "word": "soviet",
+    "word": "Soviet",
     "meaning": "adj. 蘇聯的 n. 蘇維埃",
     "example": "The Soviet Union collapsed in 1991, changing the global balance of political and economic power. (蘇聯於一九九一年解體，改變了全球政治與經濟權力的平衡。)",
     "id": "IELTS-soviet-adj-n"
@@ -6163,7 +6163,7 @@
     "level": "IELTS",
     "word": "voucher",
     "meaning": "n. 折價券；代金券；憑證",
-    "example": "Each visitor receives a voucher for a free hot drink at the museum café. (每位訪客都可獲得一張折價券，在博物館咖啡廳免費換一杯熱飲。)",
+    "example": "Each visitor receives a voucher for a free hot drink at the museum café. (每位訪客都可獲得一張博物館咖啡廳的免費熱飲兌換券。)",
     "id": "IELTS-voucher-n"
   },
   {
@@ -6324,7 +6324,7 @@
     "level": "IELTS",
     "word": "sale",
     "meaning": "n. 銷售；銷售額；特價",
-    "example": "The house was withdrawn from sale after the survey found serious structural problems. (鑑定發現嚴重結構問題後，這棟房子被撤出售屋市場。)",
+    "example": "The house was withdrawn from sale after the survey found serious structural problems. (鑑定發現嚴重結構問題後，這棟房子停止出售。)",
     "id": "IELTS-sale-n"
   },
   {
@@ -6442,8 +6442,8 @@
   {
     "level": "IELTS",
     "word": "payroll",
-    "meaning": "n. 工資名單；薪資總額",
-    "example": "The payroll is processed by the finance team on the last Friday of every month. (薪資名單由財務團隊在每月最後一個星期五處理。)",
+    "meaning": "n. 工資名單；薪資總額；薪資發放作業",
+    "example": "The payroll is processed by the finance team on the last Friday of every month. (薪資發放作業由財務團隊在每月最後一個星期五處理。)",
     "id": "IELTS-payroll-n"
   },
   {
@@ -6499,7 +6499,7 @@
     "level": "IELTS",
     "word": "lay-off",
     "meaning": "n. 解僱；裁員；歇工期",
-    "example": "The sudden lay-off affected more than two hundred full-time workers at the plant. (這波突然裁員影響了廠內兩百多名全職員工。)",
+    "example": "The sudden lay-offs affected more than two hundred full-time workers at the plant. (這波突然裁員影響了廠內兩百多名全職員工。)",
     "id": "IELTS-lay-off-n"
   },
   {
@@ -6681,7 +6681,7 @@
     "level": "IELTS",
     "word": "supreme",
     "meaning": "adj. 最高的；最大的",
-    "example": "The supreme court ruled that the police search had been unlawful from the start. (最高法院裁定，警方的搜索從一開始就不合法。)",
+    "example": "The Supreme Court ruled that the police search had been unlawful from the start. (最高法院裁定，警方的搜索從一開始就不合法。)",
     "id": "IELTS-supreme-adj"
   },
   {
