@@ -2,6 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { buildTrackExportRecords, formatSourceExample, formatSourceMeaning } from "./vocabulary-data-utils.mjs";
+import {
+  inferSensesFromLegacyRow,
+  normalizePosCode,
+  snapshotLegacyDisplay,
+  syncCompatibilityFieldsFromSenses,
+  validateSenseRow
+} from "./vocabulary-senses.mjs";
 
 const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
 const FINAL_FIELDS = new Set([
@@ -12,7 +19,11 @@ const FINAL_FIELDS = new Set([
   "meaning_ja",
   "example_ja",
   "meaning_ko",
-  "example_ko"
+  "example_ko",
+  "senses",
+  "example_sense",
+  "ipa_us",
+  "ipa_uk"
 ]);
 
 function parseJsonl(filePath) {
@@ -66,6 +77,33 @@ function setSourceMeaning(track, sourceRow, displayMeaning) {
   }
 
   sourceRow.meaning_zh = value;
+}
+
+function ensureSourceSenses(sourceRow) {
+  if (!Array.isArray(sourceRow.senses) || sourceRow.senses.length === 0) {
+    sourceRow.senses = inferSensesFromLegacyRow(sourceRow).senses;
+  }
+}
+
+function setLegacyMeaningOnSingleSense(track, sourceRow, field, value) {
+  ensureSourceSenses(sourceRow);
+  if (sourceRow.senses.length !== 1) {
+    throw new Error(`Legacy meaning field '${field}' requires exactly one sense for uid '${sourceRow.uid}'; use final.senses instead.`);
+  }
+
+  const sense = { ...sourceRow.senses[0] };
+  if (field === "meaning") {
+    setSourceMeaning(track, sourceRow, value);
+    sense.meaning_zh = String(sourceRow.meaning_zh ?? "");
+    if (track === "toeic") sense.pos = normalizePosCode(sourceRow.pos);
+  } else {
+    const senseField = field;
+    sense[senseField] = value;
+    sourceRow[senseField] = value;
+  }
+  sourceRow.senses = [sense];
+  syncCompatibilityFieldsFromSenses(sourceRow);
+  sourceRow.legacy_display = snapshotLegacyDisplay(sourceRow);
 }
 
 function sourceSnapshotMap(snapshotRows) {
@@ -142,6 +180,9 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
     if (unexpectedFields.length) {
       throw new Error(`Unsupported final field(s) for uid '${uid}': ${unexpectedFields.join(", ")}.`);
     }
+    if (Object.hasOwn(final, "senses") && ["meaning", "meaning_ja", "meaning_ko"].some((field) => Object.hasOwn(final, field))) {
+      throw new Error(`Decision '${uid}' cannot mix final.senses with legacy meaning fields; use final.senses alone.`);
+    }
     if (outcome === "reject" && Object.keys(final).length) {
       throw new Error(`Rejected decision '${uid}' must have an empty final object.`);
     }
@@ -162,25 +203,42 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
       meaning: current.meaning,
       example_en: normalizeText(oldRow.example_en),
       example_zh: normalizeText(oldRow.example_zh),
-      meaning_ja: normalizeText(oldRow.meaning_ja),
+      meaning_ja: normalizeText(oldRow.legacy_display?.meaning_ja ?? oldRow.meaning_ja),
       example_ja: normalizeText(oldRow.example_ja),
-      meaning_ko: normalizeText(oldRow.meaning_ko),
-      example_ko: normalizeText(oldRow.example_ko)
+      meaning_ko: normalizeText(oldRow.legacy_display?.meaning_ko ?? oldRow.meaning_ko),
+      example_ko: normalizeText(oldRow.example_ko),
+      senses: JSON.stringify(oldRow.senses ?? []),
+      example_sense: oldRow.example_sense,
+      ipa_us: normalizeText(oldRow.ipa_us),
+      ipa_uk: normalizeText(oldRow.ipa_uk)
     };
 
     for (const [field, value] of Object.entries(final)) {
-      if (typeof value !== "string") {
-      throw new Error(`Final field '${field}' for uid '${uid}' must be a string.`);
+      if (["word", "meaning", "meaning_ja", "example_en", "example_zh", "example_ja", "meaning_ko", "example_ko", "ipa_us", "ipa_uk"].includes(field) && typeof value !== "string") {
+        throw new Error(`Final field '${field}' for uid '${uid}' must be a string.`);
       }
 
-      if (field === "word") {
+      if (field === "senses") {
+        if (!Array.isArray(value)) throw new Error(`Final field 'senses' for uid '${uid}' must be an array.`);
+        sourceRow.senses = JSON.parse(JSON.stringify(value));
+        syncCompatibilityFieldsFromSenses(sourceRow);
+        sourceRow.legacy_display = snapshotLegacyDisplay(sourceRow);
+      } else if (field === "example_sense") {
+        if (!Number.isInteger(value)) throw new Error(`Final field 'example_sense' for uid '${uid}' must be an integer.`);
+        sourceRow.example_sense = value;
+      } else if (field === "ipa_us" || field === "ipa_uk") {
+        sourceRow[field] = value;
+      } else if (field === "meaning" || field === "meaning_ja" || field === "meaning_ko") {
+        setLegacyMeaningOnSingleSense(track, sourceRow, field, value);
+      } else if (field === "word") {
         sourceRow.word = value;
-      } else if (field === "meaning") {
-        setSourceMeaning(track, sourceRow, value);
       } else {
         sourceRow[field] = value;
       }
     }
+
+    const senseErrors = validateSenseRow(sourceRow, `Source row for uid '${uid}'`);
+    if (senseErrors.length) throw new Error(senseErrors.join("; "));
 
     if ("example_en" in final || "example_zh" in final) {
       sourceRow.example_format =
@@ -198,6 +256,10 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
       example_ja: normalizeText(sourceRow.example_ja),
       meaning_ko: normalizeText(sourceRow.meaning_ko),
       example_ko: normalizeText(sourceRow.example_ko),
+      senses: JSON.stringify(sourceRow.senses ?? []),
+      example_sense: sourceRow.example_sense,
+      ipa_us: normalizeText(sourceRow.ipa_us),
+      ipa_uk: normalizeText(sourceRow.ipa_uk),
       example: formatSourceExample(sourceRow)
     };
     const cellChanges = [];
