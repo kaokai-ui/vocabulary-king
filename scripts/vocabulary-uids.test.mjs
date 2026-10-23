@@ -2,17 +2,23 @@ import { describe, expect, it } from "vitest";
 import { addUidAlias, emptyUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 
 describe("vocabulary uid and alias validation", () => {
-  it("requires every source row to have a uid and keeps them globally unique", () => {
+  it("requires every source row to have a uid and enforces uniqueness within each track", () => {
     expect(() => validateVocabularyUidState({
       sourceRowsByTrack: new Map([["toefl", [{ word: "apple" }]]])
     })).toThrow(/missing uid/u);
 
     expect(() => validateVocabularyUidState({
       sourceRowsByTrack: new Map([
+        ["toefl", [{ uid: "same-track-duplicate" }, { uid: "same-track-duplicate" }]]
+      ])
+    })).toThrow(/Duplicate vocabulary uid 'toefl\/same-track-duplicate'/u);
+
+    expect(() => validateVocabularyUidState({
+      sourceRowsByTrack: new Map([
         ["toefl", [{ uid: "shared" }]],
         ["toeic", [{ uid: "shared" }]]
       ])
-    })).toThrow(/Duplicate vocabulary uid/u);
+    })).not.toThrow();
   });
 
   it("accepts aliases that resolve to an existing uid", () => {
@@ -50,6 +56,32 @@ describe("vocabulary uid and alias validation", () => {
       sourceRowsByTrack,
       aliasData: { aliases: { old: "active" }, deleted: [] }
     })).toThrow(/'aliases' must be an array/u);
+  });
+
+  it("resolves aliases with the track-and-uid key", () => {
+    const sourceRowsByTrack = new Map([
+      ["toefl", [{ uid: "active" }]],
+      ["toeic", [{ uid: "shared-target" }]]
+    ]);
+
+    expect(() => validateVocabularyUidState({
+      sourceRowsByTrack,
+      aliasData: {
+        aliases: [{ track: "toefl", aliasUid: "old-uid", targetUid: "shared-target" }],
+        deleted: []
+      }
+    })).toThrow(/toefl\/old-uid.*targets missing uid 'shared-target'/u);
+
+    expect(() => validateVocabularyUidState({
+      sourceRowsByTrack: new Map([
+        ["toefl", [{ uid: "shared-target" }]],
+        ["toeic", [{ uid: "shared-target" }]]
+      ]),
+      aliasData: {
+        aliases: [{ track: "toefl", aliasUid: "old-uid", targetUid: "shared-target" }],
+        deleted: []
+      }
+    })).not.toThrow();
   });
 
   it("rejects an alias source that is still active and records deletion entries", () => {
