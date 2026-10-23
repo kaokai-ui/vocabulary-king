@@ -1,5 +1,5 @@
 {
-  "generatedAt": "46e0c95446b0",
+  "generatedAt": "691ee4ecd813",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -298,7 +298,7 @@
       "available": true,
       "title": "TOEIC(進階)",
       "sourceWorkbookKey": "toeic-advanced-workbook",
-      "totalWords": 4797,
+      "totalWords": 4876,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -324,7 +324,7 @@
         {
           "id": "toeic-advanced-chunk-5",
           "path": "data/tracks/toeic-advanced/chunk-005.json",
-          "wordCount": 797
+          "wordCount": 876
         }
       ],
       "levels": [
@@ -361,42 +361,42 @@
         {
           "id": "片語：會議與簡報",
           "label": "片語：會議與簡報",
-          "totalWords": 113
+          "totalWords": 64
         },
         {
           "id": "片語：財務與會計",
           "label": "片語：財務與會計",
-          "totalWords": 148
+          "totalWords": 231
         },
         {
           "id": "片語：人事與招募",
           "label": "片語：人事與招募",
-          "totalWords": 228
+          "totalWords": 130
         },
         {
           "id": "片語：行銷與銷售",
           "label": "片語：行銷與銷售",
-          "totalWords": 121
+          "totalWords": 96
         },
         {
           "id": "片語：採購與物流",
           "label": "片語：採購與物流",
-          "totalWords": 149
+          "totalWords": 92
         },
         {
           "id": "片語：客服與溝通",
           "label": "片語：客服與溝通",
-          "totalWords": 127
+          "totalWords": 119
         },
         {
           "id": "片語：管理與策略",
           "label": "片語：管理與策略",
-          "totalWords": 266
+          "totalWords": 407
         },
         {
           "id": "片語：日常與通用",
           "label": "片語：日常與通用",
-          "totalWords": 348
+          "totalWords": 440
         }
       ]
     },

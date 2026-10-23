@@ -14,7 +14,9 @@ const SLOT_VERB = "__slot_verb__";
 const SLOT_ELLIPSIS = "__slot_ellipsis__";
 const SEPARABLE_PHRASAL_PARTICLES = new Set([
   "up", "down", "off", "out", "on", "in", "away", "back", "over",
-  "about", "across", "along", "around", "through"
+  "about", "across", "along", "around", "through",
+  // verb + object + to/as/into/under/well: "took the advice to heart", "regard it as", "talked him into", "swept it under the rug"
+  "to", "as", "into", "under", "well"
 ]);
 const ARTICLE_DETERMINERS = new Set([
   "a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "our", "their",
@@ -46,7 +48,7 @@ const NON_INFLECTING_WORDS = new Set([
   "away", "back", "down", "off", "out", "over", "through", "up"
 ]);
 const DOUBLE_FINAL_CONSONANT = new Set([
-  "admit", "begin", "commit", "compel", "control", "defer", "demur", "deter", "embed", "equip", "excel",
+  "admit", "begin", "commit", "compel", "confer", "control", "defer", "demur", "deter", "embed", "equip", "excel",
   "expel", "forget", "format", "infer", "occur", "permit", "prefer", "propel", "rebel", "refer",
   "regret", "repel", "submit", "transfer", "inter"
 ]);
