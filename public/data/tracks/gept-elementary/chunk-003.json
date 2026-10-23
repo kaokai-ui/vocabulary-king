@@ -122,7 +122,7 @@
     "level": "L3",
     "word": "style",
     "meaning": "noun 風格",
-    "example": "Each teacher has a unique teaching style. (每位老師都有獨特的教學風格。)",
+    "example": "Her simple style makes the handmade cards easy to read. (她簡潔的風格讓手作卡片更容易閱讀。)",
     "id": "L3-style-noun"
   },
   {
@@ -213,21 +213,21 @@
     "level": "L4",
     "word": "apologize",
     "meaning": "verb 道歉",
-    "example": "He should apologize for his rude behavior. (他應該為自己的粗魯行為道歉。)",
+    "example": "I apologized to the librarian for returning the book late. (我因為晚還書向圖書館員道歉。)",
     "id": "L4-apologize-verb"
   },
   {
     "level": "L4",
     "word": "assume",
     "meaning": "verb 假定為、假設",
-    "example": "Don't assume that everyone agrees with your opinion. (不要假設每個人都同意你的觀點。)",
+    "example": "Don't assume the café is open just because its lights are on. (不要只因為咖啡店亮著燈，就認定它有營業。)",
     "id": "L4-assume-verb"
   },
   {
     "level": "L4",
     "word": "biology",
     "meaning": "noun 生物學",
-    "example": "She studies biology to understand living organisms. (她學習生物學以了解生物體。)",
+    "example": "We used a microscope in biology class to observe a leaf. (生物課上我們用顯微鏡觀察一片葉子。)",
     "id": "L4-biology-noun"
   },
   {
@@ -241,7 +241,7 @@
     "level": "L4",
     "word": "career",
     "meaning": "noun 職業、生涯",
-    "example": "She built a successful career in medicine. (她在醫學領域建立了成功的職業生涯。)",
+    "example": "Volunteering at the animal shelter helped her choose a career. (在動物收容中心當志工，幫助她選擇未來職業。)",
     "id": "L4-career-noun"
   },
   {
@@ -437,7 +437,7 @@
     "level": "L4",
     "word": "professor",
     "meaning": "noun 教授",
-    "example": "The professor explained complex theories clearly. (教授清楚地解釋複雜理論。)",
+    "example": "The professor invited the class to ask questions after the lecture. (教授邀請同學在講座後提出問題。)",
     "id": "L4-professor-noun"
   },
   {
@@ -605,7 +605,7 @@
     "level": "L6",
     "word": "ambulance",
     "meaning": "noun 救護車",
-    "example": "The ambulance rushed the injured person to hospital. (救護車將傷者緊急送往醫院。)",
+    "example": "An ambulance waited near the marathon finish line in case anyone needed help. (救護車停在馬拉松終點附近，以備有人需要協助。)",
     "id": "L6-ambulance-noun"
   },
   {

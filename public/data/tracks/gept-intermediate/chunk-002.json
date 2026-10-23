@@ -80,7 +80,7 @@
     "level": "L3",
     "word": "tax",
     "meaning": "noun/verb 稅；課稅",
-    "example": "Education funding comes from tax revenue. (教育資金來自稅收。)",
+    "example": "The shop added tax to the price shown on the menu. (店家在菜單標示的價格上加計稅金。)",
     "id": "L3-tax-noun-verb"
   },
   {
@@ -108,7 +108,7 @@
     "level": "L3",
     "word": "technology",
     "meaning": "noun 科技",
-    "example": "Educational technology transforms traditional learning methods. (教育科技改變了傳統的學習方式。)",
+    "example": "The farm uses technology to monitor soil moisture in each field. (農場運用科技監測每塊田地的土壤濕度。)",
     "id": "L3-technology-noun"
   },
   {
@@ -150,7 +150,7 @@
     "level": "L3",
     "word": "text",
     "meaning": "noun 正文、文本",
-    "example": "Digital texts provide interactive learning experiences. (數位文本提供互動學習體驗。)",
+    "example": "The museum's audio guide includes text in three languages. (博物館的語音導覽附有三種語言的文字內容。)",
     "id": "L3-text-noun"
   },
   {
@@ -164,7 +164,7 @@
     "level": "L3",
     "word": "theory",
     "meaning": "noun 學說、理論、看法",
-    "example": "Learning theories guide effective teaching practices. (學習理論有助於引導有效的教學實務。)",
+    "example": "The guide shared a theory about how the old bridge got its name. (導覽員分享了關於老橋名稱由來的一種說法。)",
     "id": "L3-theory-noun"
   },
   {
@@ -458,7 +458,7 @@
     "level": "L3",
     "word": "unite",
     "meaning": "verb 聯合、團結、統一",
-    "example": "Common goals unite students and teachers. (共同目標讓師生團結在一起。)",
+    "example": "A shared love of music united the members of the neighborhood choir. (共同熱愛音樂讓社區合唱團的成員團結起來。)",
     "id": "L3-unite-verb"
   },
   {
@@ -472,7 +472,7 @@
     "level": "L3",
     "word": "unless",
     "meaning": "conj. 除非",
-    "example": "Students cannot succeed unless they study regularly. (學生除非定期學習否則無法成功。)",
+    "example": "The garden tour will continue unless the rain becomes heavy. (除非雨勢變大，否則花園導覽會繼續進行。)",
     "id": "L3-unless-conj"
   },
   {
@@ -521,7 +521,7 @@
     "level": "L3",
     "word": "various",
     "meaning": "adj. 各式各樣的",
-    "example": "Various learning styles require different teaching approaches. (各種學習風格需要不同的教學方法。)",
+    "example": "The picnic basket held various kinds of bread from the local bakery. (野餐籃裡裝著在地麵包店的各種麵包。)",
     "id": "L3-various-adj"
   },
   {
@@ -815,42 +815,42 @@
     "level": "L3",
     "word": "zone",
     "meaning": "noun/verb 地區、區域；分區",
-    "example": "Creating a comfortable study zone enhances concentration. (創造舒適的學習區域增強專注力。)",
+    "example": "The quiet zone in the station has benches and charging outlets. (車站的靜音區設有長椅和充電插座。)",
     "id": "L3-zone-noun-verb"
   },
   {
     "level": "L4",
     "word": "abandon",
     "meaning": "verb 拋棄、捨棄、中止\nnoun 盡情、放縱",
-    "example": "They had to abandon their car in the flood. (他們不得不在洪水中棄車而逃。)",
+    "example": "We abandoned our plan to cycle when the road became slippery. (路面變滑後，我們放棄了騎車的計畫。)",
     "id": "L4-abandon-verb-noun"
   },
   {
     "level": "L4",
     "word": "absolute",
     "meaning": "adj./noun 完全的、絕對的；絕對",
-    "example": "The king had absolute power over his subjects. (國王對臣民擁有絕對權力。)",
+    "example": "The absolute quiet of the library made it easy to focus. (圖書館裡完全的安靜讓人很容易專心。)",
     "id": "L4-absolute-adj-noun"
   },
   {
     "level": "L4",
     "word": "absorb",
     "meaning": "verb 吸收、併入",
-    "example": "Plants absorb carbon dioxide from the atmosphere. (植物從大氣中吸收二氧化碳。)",
+    "example": "The sponge absorbed the spilled tea before it reached the books. (茶水流到書本前，海綿就把它吸乾了。)",
     "id": "L4-absorb-verb"
   },
   {
     "level": "L4",
     "word": "abstract",
     "meaning": "adj. 抽象的\nnoun 摘要",
-    "example": "Philosophy deals with many abstract concepts. (哲學處理許多抽象概念。)",
+    "example": "The sculpture uses abstract shapes to suggest a moving river. (這座雕塑用抽象的形狀表現流動的河水。)",
     "id": "L4-abstract-adj-noun"
   },
   {
     "level": "L4",
     "word": "academic",
     "meaning": "adj. 學術的、學業的",
-    "example": "She received an academic scholarship to university. (她獲得了大學學術獎學金。)",
+    "example": "The academic calendar lists the dates for every semester. (學校的學年行事曆列出每學期的日期。)",
     "id": "L4-academic-adj"
   },
   {
@@ -871,7 +871,7 @@
     "level": "L4",
     "word": "access",
     "meaning": "noun/verb 通道、進入(的權利)；存取、到達、進入",
-    "example": "Students have free access to the library. (學生可以免費使用圖書館。)",
+    "example": "Visitors can access the rooftop garden through the east stairwell. (訪客可以從東側樓梯間前往頂樓花園。)",
     "id": "L4-access-noun-verb"
   },
   {
@@ -941,7 +941,7 @@
     "level": "L4",
     "word": "acquire",
     "meaning": "verb 獲得、購得",
-    "example": "Children acquire language naturally through exposure. (兒童透過接觸自然學會語言。)",
+    "example": "She acquired a collection of old postcards from her aunt. (她從阿姨那裡得到一批舊明信片收藏。)",
     "id": "L4-acquire-verb"
   },
   {
@@ -955,14 +955,14 @@
     "level": "L4",
     "word": "adapt",
     "meaning": "verb (使)適應、改編",
-    "example": "Animals must adapt to survive in changing environments. (動物必須適應才能在變化的環境中生存。)",
+    "example": "The café adapted its counter so customers using wheelchairs could reach it. (咖啡店調整櫃檯，讓使用輪椅的顧客也能使用。)",
     "id": "L4-adapt-verb"
   },
   {
     "level": "L4",
     "word": "adequate",
     "meaning": "adj. 足夠的、合格的",
-    "example": "The hotel provided adequate but not luxurious accommodation. (旅館提供了足夠但不豪華的住宿。)",
+    "example": "The guest room has adequate space for a small desk. (客房有足夠空間放一張小書桌。)",
     "id": "L4-adequate-adj"
   },
   {
@@ -1011,7 +1011,7 @@
     "level": "L4",
     "word": "agent",
     "meaning": "noun 代理商、代理人、經紀人",
-    "example": "The real estate agent showed us three houses. (房地產經紀人給我們看了三棟房子。)",
+    "example": "The booking agent found us a room near the station. (訂房代理人替我們找到車站附近的房間。)",
     "id": "L4-agent-noun"
   },
   {
@@ -1032,14 +1032,14 @@
     "level": "L4",
     "word": "alcohol",
     "meaning": "noun 酒、酒精",
-    "example": "Driving under the influence of alcohol is illegal. (酒後駕車是違法的。)",
+    "example": "The label lists the amount of alcohol in each bottle. (標籤列出每瓶飲品的酒精含量。)",
     "id": "L4-alcohol-noun"
   },
   {
     "level": "L4",
     "word": "alert",
     "meaning": "verb 使警覺、使意識到\nadj. 警覺的、機警的\nnoun 警報、戒備",
-    "example": "Security guards must stay alert at all times. (保安必須時刻保持警覺。)",
+    "example": "A phone alert reminded us that the ferry boarding time had changed. (手機警示提醒我們渡輪的登船時間有變動。)",
     "id": "L4-alert-verb-adj-noun"
   },
   {
@@ -1053,7 +1053,7 @@
     "level": "L4",
     "word": "amateur",
     "meaning": "adj./noun 業餘的、業餘愛好的；業餘愛好者、業餘運動員",
-    "example": "He is an amateur photographer who takes beautiful pictures. (他是一個拍攝美麗照片的業餘攝影師。)",
+    "example": "An amateur gardener grew these peppers on her balcony. (一位園藝愛好者在陽台種出了這些辣椒。)",
     "id": "L4-amateur-adj-noun"
   },
   {
@@ -1102,42 +1102,42 @@
     "level": "L4",
     "word": "ancestor",
     "meaning": "noun 祖先",
-    "example": "Many Americans can trace their ancestors back to Europe. (許多美國人可以追溯他們的祖先到歐洲。)",
+    "example": "A portrait of an ancestor hangs above the family dining table. (一幅祖先的肖像掛在家族餐桌上方。)",
     "id": "L4-ancestor-noun"
   },
   {
     "level": "L4",
     "word": "anniversary",
     "meaning": "noun 週年紀念日",
-    "example": "They celebrated their wedding anniversary with a romantic dinner. (他們用浪漫晚餐慶祝結婚週年紀念日。)",
+    "example": "The bookstore marked its anniversary with a reading for local children. (書店以一場兒童讀書會紀念開業週年。)",
     "id": "L4-anniversary-noun"
   },
   {
     "level": "L4",
     "word": "annoy",
     "meaning": "verb 使惱怒、打擾",
-    "example": "Loud music from neighbors can annoy residents. (鄰居大聲播放音樂可能會打擾居民。)",
+    "example": "The loose window latch began to annoy the neighbors with its rattle. (鬆脫的窗扣一直喀啦作響，開始讓鄰居覺得煩。)",
     "id": "L4-annoy-verb"
   },
   {
     "level": "L4",
     "word": "annual",
     "meaning": "adj./noun 每年的、一年一次的；年報、年刊",
-    "example": "The annual company picnic is scheduled for July. (公司年度野餐安排在七月。)",
+    "example": "The annual flower show fills the civic hall each spring. (每年春天，年度花展都會讓市民會館充滿人潮。)",
     "id": "L4-annual-adj-noun"
   },
   {
     "level": "L4",
     "word": "anxiety",
     "meaning": "noun 焦慮、憂慮",
-    "example": "Many students experience anxiety before important exams. (許多學生在重要考試前會感到焦慮。)",
+    "example": "Talking with a friend eased some of her anxiety about moving. (和朋友聊過後，她對搬家的焦慮減輕了一些。)",
     "id": "L4-anxiety-noun"
   },
   {
     "level": "L4",
     "word": "anxious",
     "meaning": "adj. 焦慮的、不安的；渴望做某事",
-    "example": "Parents often feel anxious when their children are late. (當孩子遲到時， 父母經常感到焦慮。)",
+    "example": "He was anxious to see whether the new seeds had started to grow. (他很想看看新種子是否已經開始發芽。)",
     "id": "L4-anxious-adj"
   },
   {
@@ -1165,14 +1165,14 @@
     "level": "L4",
     "word": "application",
     "meaning": "noun 申請、申請書；用途、應用；應用軟體",
-    "example": "She submitted her college application early. (她提早提交了大學申請。)",
+    "example": "This phone application helps visitors find accessible paths around the park. (這款手機應用程式協助遊客尋找公園裡無障礙的路線。)",
     "id": "L4-application-noun"
   },
   {
     "level": "L4",
     "word": "appoint",
     "meaning": "verb 任命、安排",
-    "example": "The board will appoint a new CEO next month. (董事會將於下個月任命新的執行長。)",
+    "example": "The museum appointed a guide to lead the evening walking tour. (博物館指派一位導覽員帶領夜間步行導覽。)",
     "id": "L4-appoint-verb"
   },
   {
@@ -1193,7 +1193,7 @@
     "level": "L4",
     "word": "appropriate",
     "meaning": "adj. 合適、恰當的",
-    "example": "Please wear appropriate clothing for the formal dinner. (請為正式晚餐穿著合適的服裝。)",
+    "example": "Comfortable shoes are appropriate for the long walking tour. (參加長時間步行導覽時，穿舒適的鞋子很合適。)",
     "id": "L4-appropriate-adj"
   },
   {
@@ -1214,7 +1214,7 @@
     "level": "L4",
     "word": "arise",
     "meaning": "verb 發生、由…引起",
-    "example": "New opportunities often arise from unexpected situations. (新機會經常從意想不到的情況中產生。)",
+    "example": "A new question arose when the visitors saw the old map. (訪客看到舊地圖時，產生了一個新問題。)",
     "id": "L4-arise-verb"
   },
   {
@@ -1242,14 +1242,14 @@
     "level": "L4",
     "word": "ashamed",
     "meaning": "adj. 感到羞愧的",
-    "example": "He felt ashamed of his poor performance. (他為自己糟糕的表現感到羞愧。)",
+    "example": "She felt ashamed when she realized she had left the library book on the bus. (她發現把圖書館的書忘在公車上時，感到很羞愧。)",
     "id": "L4-ashamed-adj"
   },
   {
     "level": "L4",
     "word": "aspect",
     "meaning": "noun 方面、層面",
-    "example": "We need to consider every aspect of the problem. (我們需要考慮問題的每個方面。)",
+    "example": "One aspect of the repair is choosing a handle that is easy to grip. (這次修理的一個方面，是挑選容易握住的把手。)",
     "id": "L4-aspect-noun"
   },
   {
@@ -1277,7 +1277,7 @@
     "level": "L4",
     "word": "assign",
     "meaning": "verb 指派、分配",
-    "example": "The teacher will assign homework every Friday. (老師每個星期五都會分配作業。)",
+    "example": "The manager assigned each clerk a different shelf to organize. (經理指派每位店員整理不同的架子。)",
     "id": "L4-assign-verb"
   },
   {
@@ -1291,14 +1291,14 @@
     "level": "L4",
     "word": "associate",
     "meaning": "verb 聯想、聯繫\nnoun 同事、合夥人\nadj. 副的、非正式的",
-    "example": "People often associate red roses with love. (人們經常將紅玫瑰與愛情聯想在一起。)",
+    "example": "I associate the smell of jasmine with evenings at my grandmother's house. (我會把茉莉花香和在祖母家度過的夜晚聯想在一起。)",
     "id": "L4-associate-verb-noun-adj"
   },
   {
     "level": "L4",
     "word": "association",
     "meaning": "noun 協會、社團、聯盟；關聯、聯想",
-    "example": "She joined the teachers' association last year. (她去年加入了教師協會。)",
+    "example": "The local hiking association marked a new route through the hills. (當地登山協會標示了一條穿越丘陵的新路線。)",
     "id": "L4-association-noun"
   },
   {
@@ -1312,7 +1312,7 @@
     "level": "L4",
     "word": "assure",
     "meaning": "verb 向...保證、確保",
-    "example": "The doctor assured the patient that the surgery was safe. (醫生向病人保證手術是安全的。)",
+    "example": "The repair shop assured me that my bicycle would be ready by noon. (維修店向我保證腳踏車中午前就會修好。)",
     "id": "L4-assure-verb"
   },
   {
@@ -1326,14 +1326,14 @@
     "level": "L4",
     "word": "atmosphere",
     "meaning": "noun 大氣、大氣層、空氣；氣氛、氛圍",
-    "example": "The restaurant has a romantic atmosphere. (這家餐廳有浪漫的氣氛。)",
+    "example": "Paper lanterns created a warm atmosphere at the community dinner. (紙燈籠為社區晚餐營造了溫馨的氣氛。)",
     "id": "L4-atmosphere-noun"
   },
   {
     "level": "L4",
     "word": "atom",
     "meaning": "noun 原子",
-    "example": "Everything is made up of tiny particles called atoms. (萬物都由稱為原子的微小粒子組成。)",
+    "example": "The science kit used colored beads to represent each atom in the model. (自然科學套件用不同顏色的珠子代表模型中的原子。)",
     "id": "L4-atom-noun"
   },
   {
@@ -1347,14 +1347,14 @@
     "level": "L4",
     "word": "attach",
     "meaning": "verb 裝上、使依附",
-    "example": "Please attach your resume to the email. (請將履歷附加到電子郵件中。)",
+    "example": "Attach the name tag to the front of your backpack before the trip. (出發前把名牌固定在背包前方。)",
     "id": "L4-attach-verb"
   },
   {
     "level": "L4",
     "word": "attraction",
     "meaning": "noun 吸引力；迷戀、愛慕",
-    "example": "The museum is a popular tourist attraction. (博物館是熱門的旅遊景點。)",
+    "example": "The night market's lantern street is a favorite attraction for visitors. (夜市的燈籠街是訪客最喜歡的景點之一。)",
     "id": "L4-attraction-noun"
   },
   {
@@ -1368,7 +1368,7 @@
     "level": "L4",
     "word": "authority",
     "meaning": "noun 權力、職權；官方、當權者",
-    "example": "The local authority issued new traffic regulations. (地方當局發布了新的交通規定。)",
+    "example": "The park authority added signs to keep visitors on the marked trail. (公園管理單位增設告示，引導遊客留在標示步道上。)",
     "id": "L4-authority-noun"
   },
   {
@@ -1417,14 +1417,14 @@
     "level": "L4",
     "word": "bargain",
     "meaning": "noun 特價品；協議、交易\nverb 討價還價、議價",
-    "example": "The antique was a real bargain at that price. (那個古董以那個價格真是便宜貨。)",
+    "example": "We found a bargain on handmade bowls at the weekend market. (我們在週末市集買到價格很划算的手作碗。)",
     "id": "L4-bargain-noun-verb"
   },
   {
     "level": "L4",
     "word": "barrier",
     "meaning": "noun 屏障、障礙物、隔閡",
-    "example": "Language can be a barrier to communication. (語言可能是溝通的障礙。)",
+    "example": "A glass barrier protects the paintings from accidental touches. (玻璃屏障保護畫作不被意外碰觸。)",
     "id": "L4-barrier-noun"
   },
   {
@@ -1438,7 +1438,7 @@
     "level": "L4",
     "word": "battery",
     "meaning": "noun 電池",
-    "example": "The car won't start because the battery is dead. (汽車發動不了因為電瓶沒電了。)",
+    "example": "The camera battery lasted through the whole day of filming. (相機電池撐過了整天的拍攝。)",
     "id": "L4-battery-noun"
   },
   {
@@ -1452,7 +1452,7 @@
     "level": "L4",
     "word": "behavior",
     "meaning": "noun 行為、舉止",
-    "example": "Good behavior is expected from all students. (所有學生都應該有良好的行為。)",
+    "example": "The dog’s calm behavior made the children feel safe around it. (狗狗沉穩的舉止讓孩子們在牠身邊感到安心。)",
     "id": "L4-behavior-noun"
   },
   {
@@ -1515,7 +1515,7 @@
     "level": "L4",
     "word": "bond",
     "meaning": "noun/verb 聯繫、關係；結合、建立關係",
-    "example": "The strong bond between mother and child is natural. (母子之間的強烈紐帶是自然的。)",
+    "example": "The neighbors bonded while repairing the old playground together. (鄰居們一起修理舊遊樂場時建立了情誼。)",
     "id": "L4-bond-noun-verb"
   },
   {
@@ -1578,7 +1578,7 @@
     "level": "L4",
     "word": "calculate",
     "meaning": "verb 計算",
-    "example": "Students must calculate the area of the triangle. (學生們必須計算三角形的面積。)",
+    "example": "The carpenter calculated how many boards were needed for the bench. (木工計算了製作長椅需要多少木板。)",
     "id": "L4-calculate-verb"
   },
   {
@@ -1592,28 +1592,28 @@
     "level": "L4",
     "word": "campaign",
     "meaning": "noun/verb (尤指政治、商業或軍事的)專門活動、運動；發起運動",
-    "example": "The environmental campaign raised awareness about pollution. (環保活動提高了對污染的認識。)",
+    "example": "The library launched a campaign to collect children's books for the shelter. (圖書館發起活動，為收容中心募集兒童讀物。)",
     "id": "L4-campaign-noun-verb"
   },
   {
     "level": "L4",
     "word": "candidate",
     "meaning": "noun 候選人、申請人、應試者",
-    "example": "The candidate impressed everyone during the interview. (候選人在面試中給每個人留下了深刻印象。)",
+    "example": "The candidate for the art workshop brought a sketchbook to the interview. (藝術工作坊的申請者帶著素描本來面談。)",
     "id": "L4-candidate-noun"
   },
   {
     "level": "L4",
     "word": "capacity",
     "meaning": "noun 容量；生產能力；(尤指人或組織的)辦事能力",
-    "example": "The stadium has a capacity of 50,000 spectators. (體育場可容納 50,000 名觀眾。)",
+    "example": "The community hall has a capacity of two hundred people. (活動中心大廳可容納兩百人。)",
     "id": "L4-capacity-noun"
   },
   {
     "level": "L4",
     "word": "cape",
     "meaning": "noun 岬、海角；披風",
-    "example": "The superhero wore a red cape.（超級英雄穿著紅色披風。）",
+    "example": "A red cape fluttered behind the child during the costume parade. (遊行時，孩子身後的紅披風隨風飄揚。)",
     "id": "L4-cape-noun"
   },
   {
@@ -1697,14 +1697,14 @@
     "level": "L4",
     "word": "charity",
     "meaning": "noun 慈善事業、慈善機構、仁慈",
-    "example": "The charity provides food for homeless people. (慈善機構為無家可歸的人提供食物。)",
+    "example": "The school held a charity sale of handmade bookmarks for the animal shelter. (學校舉辦手作書籤義賣，替動物收容中心募款。)",
     "id": "L4-charity-noun"
   },
   {
     "level": "L4",
     "word": "chemistry",
     "meaning": "noun 化學、化學特性",
-    "example": "Students study chemistry to understand matter and reactions. (學生學習化學以了解物質和反應。)",
+    "example": "The class mixed two safe liquids during the chemistry demonstration. (化學示範課中，全班混合了兩種安全的液體。)",
     "id": "L4-chemistry-noun"
   },
   {
@@ -1760,7 +1760,7 @@
     "level": "L4",
     "word": "circumstance",
     "meaning": "noun 條件、狀況、環境",
-    "example": "Under these circumstances, we must change our plan. (在這些情況下， 我們必須改變計劃。)",
+    "example": "Because of the unusual circumstances, the ferry left from a different pier. (由於情況特殊，渡輪改從另一個碼頭出發。)",
     "id": "L4-circumstance-noun"
   },
   {
@@ -3118,7 +3118,7 @@
     "level": "L4",
     "word": "emotional",
     "meaning": "adj. 感情的、激起情感的",
-    "example": "Emotional support helps during difficult times. (情感支持在困難時期有所幫助。)",
+    "example": "The family reunion became emotional when the old photos appeared. (舊照片拿出來時，家庭團聚的氣氛變得很感人。)",
     "id": "L4-emotional-adj"
   },
   {
@@ -3272,7 +3272,7 @@
     "level": "L4",
     "word": "essential",
     "meaning": "adj. 不可或缺的、本質的",
-    "example": "Water is essential for all life. (水對所有生命都是必需的。)",
+    "example": "A reusable water bottle is essential for a long bike ride. (長途騎腳踏車時，環保水壺是不可或缺的。)",
     "id": "L4-essential-adj"
   },
   {
@@ -3384,14 +3384,14 @@
     "level": "L4",
     "word": "explore",
     "meaning": "verb 探索",
-    "example": "Children love to explore new places. (孩子們喜歡探索新地方。)",
+    "example": "We explored a quiet lane behind the old train station. (我們探索了老火車站後方的一條安靜小巷。)",
     "id": "L4-explore-verb"
   },
   {
     "level": "L4",
     "word": "explosion",
     "meaning": "noun 爆炸",
-    "example": "The explosion was heard for miles. (爆炸聲在幾英里外都能聽到。)",
+    "example": "The science show used a tiny balloon explosion to demonstrate air pressure. (科學表演用小氣球爆裂來示範空氣壓力。)",
     "id": "L4-explosion-noun"
   },
   {
@@ -3419,7 +3419,7 @@
     "level": "L4",
     "word": "extend",
     "meaning": "verb 擴大、延長",
-    "example": "The library will extend its hours. (圖書館將延長開放時間。)",
+    "example": "We extended the picnic table with a folding leaf for extra dishes. (為了放更多菜，我們替野餐桌加上折疊桌板。)",
     "id": "L4-extend-verb"
   },
   {
@@ -3657,7 +3657,7 @@
     "level": "L4",
     "word": "frame",
     "meaning": "verb/noun 裝框、構想；架構、框架、相框",
-    "example": "The picture frame was made of silver. (相框是銀製的。)",
+    "example": "We framed the child's watercolor and hung it in the hallway. (我們替孩子的水彩畫裝上畫框，掛在走廊上。)",
     "id": "L4-frame-verb-noun"
   },
   {
@@ -3699,7 +3699,7 @@
     "level": "L4",
     "word": "fuel",
     "meaning": "noun/verb 燃料、提供燃料；刺激因素、刺激",
-    "example": "Cars need fuel to operate properly. (汽車需要燃料才能正常運行。)",
+    "example": "The bus stopped at the station to refuel before the return trip. (回程前，公車在站裡停下來補充燃料。)",
     "id": "L4-fuel-noun-verb"
   },
   {
@@ -5358,7 +5358,7 @@
     "level": "L4",
     "word": "obtain",
     "meaning": "verb 獲得",
-    "example": "Students obtain knowledge through various methods. (學生透過各種方法獲得知識。)",
+    "example": "You can obtain a visitor map at the garden entrance. (你可以在花園入口取得訪客地圖。)",
     "id": "L4-obtain-verb"
   },
   {
@@ -6177,7 +6177,7 @@
     "level": "L4",
     "word": "refer",
     "meaning": "verb 提及、參考",
-    "example": "Students refer to textbooks for information. (學生參考教科書獲取資訊。)",
+    "example": "Please refer to the recipe card if you forget the baking temperature. (如果忘記烘烤溫度，請參考食譜卡。)",
     "id": "L4-refer-verb"
   },
   {
@@ -6191,7 +6191,7 @@
     "level": "L4",
     "word": "reflect",
     "meaning": "verb 反映、反射",
-    "example": "Good students reflect on their learning progress. (好學生反思學習進度。)",
+    "example": "The pond reflected the pink clouds at sunset. (夕陽時分，池塘映照著粉紅色的雲。)",
     "id": "L4-reflect-verb"
   },
   {
@@ -6338,7 +6338,7 @@
     "level": "L4",
     "word": "research",
     "meaning": "noun/verb 研究、調查",
-    "example": "Students conduct research on various topics. (學生對各種主題進行研究。)",
+    "example": "The museum team researched the history of the old fishing village. (博物館團隊研究了這座老漁村的歷史。)",
     "id": "L4-research-noun-verb"
   },
   {
@@ -6569,7 +6569,7 @@
     "level": "L4",
     "word": "seagull",
     "meaning": "noun 海鷗",
-    "example": "A seagull flew over the beach.（一隻海鷗飛過海灘。）",
+    "example": "A seagull rested on the harbor railing beside the fishing boats. (一隻海鷗停在漁船旁的港口欄杆上。)",
     "id": "L4-seagull-noun"
   },
   {

@@ -31,14 +31,14 @@
     "level": "L1",
     "word": "beauty",
     "meaning": "noun 美麗、美人、美好的事物",
-    "example": "The beauty of nature always amazes visitors. (大自然的美麗總是讓遊客驚嘆。)",
+    "example": "The beauty of the old temple showed in its careful woodwork. (古廟精細的木雕展現了它的美。)",
     "id": "L1-beauty-noun"
   },
   {
     "level": "L1",
     "word": "birth",
     "meaning": "noun 出生、起源",
-    "example": "The birth of their first child was exciting. (他們第一個孩子的出生令人興奮。)",
+    "example": "Her birth certificate was safely stored with the family records. (她的出生證明和家族文件一起妥善保存。)",
     "id": "L1-birth-noun"
   },
   {
@@ -171,7 +171,7 @@
     "level": "L1",
     "word": "last",
     "meaning": "verb 持續",
-    "example": "Good education benefits last a lifetime. (良好教育的益處持續一生。)",
+    "example": "These batteries last longer when the flashlight is switched off. (手電筒關掉時，這些電池能用得更久。)",
     "id": "L1-last-verb"
   },
   {
@@ -332,7 +332,7 @@
     "level": "L1",
     "word": "state",
     "meaning": "noun 州、國家；狀態\nadj. 國家的、州的\nverb 陳述、說明、宣布",
-    "example": "Each state has different education policies. (每個州都有不同的教育政策。)",
+    "example": "Please state your name clearly at the registration desk. (請在報到櫃檯清楚說出你的姓名。)",
     "id": "L1-state-noun-adj-verb"
   },
   {
@@ -430,7 +430,7 @@
     "level": "L2",
     "word": "anyhow",
     "meaning": "adv. 無論如何",
-    "example": "The weather looks bad, but we're going anyhow. (天氣看起來很糟， 但我們無論如何都要去。)",
+    "example": "The bus was late, but we reached the concert anyhow. (公車誤點了，但我們無論如何還是趕到了音樂會。)",
     "id": "L2-anyhow-adv"
   },
   {
@@ -458,7 +458,7 @@
     "level": "L2",
     "word": "arrow",
     "meaning": "noun 弓箭、箭號",
-    "example": "Follow the arrow signs to reach the exit. (跟著箭頭標誌到達出口。)",
+    "example": "An arrow on the floor points toward the baggage claim area. (地板上的箭頭指向行李提領區。)",
     "id": "L2-arrow-noun"
   },
   {
@@ -472,7 +472,7 @@
     "level": "L2",
     "word": "battle",
     "meaning": "noun/verb 戰爭、鬥爭；作戰、奮鬥",
-    "example": "Soldiers battled bravely to defend their homeland. (士兵們勇敢戰鬥保衛家園。)",
+    "example": "The gardeners battled a stubborn weed that kept returning. (園丁們努力對付一種不斷長回來的雜草。)",
     "id": "L2-battle-noun-verb"
   },
   {
@@ -493,7 +493,7 @@
     "level": "L2",
     "word": "beg",
     "meaning": "verb 乞討、請求",
-    "example": "The homeless man had to beg for money. (無家可歸的人不得不乞討錢財。)",
+    "example": "The child began to beg for one more story before bed. (孩子睡前開始央求再聽一個故事。)",
     "id": "L2-beg-verb"
   },
   {
@@ -507,14 +507,14 @@
     "level": "L2",
     "word": "bend",
     "meaning": "verb/noun 使彎曲、彎腰；彎曲處、彎道",
-    "example": "The road bends sharply to the left ahead. (前方道路急劇向左彎曲。)",
+    "example": "Bend your knees gently before lifting the heavy planter. (搬起沉重的花盆前，請輕輕彎曲膝蓋。)",
     "id": "L2-bend-verb-noun"
   },
   {
     "level": "L2",
     "word": "bet",
     "meaning": "noun/verb 賭注；打賭、賭博",
-    "example": "I bet it will rain tomorrow afternoon. (我打賭明天下午會下雨。)",
+    "example": "I bet the bakery will sell out of pineapple cakes by noon. (我敢說那家麵包店中午前就會賣完鳳梨酥。)",
     "id": "L2-bet-noun-verb"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L2",
     "word": "brand",
     "meaning": "noun 品牌、商標；烙印\nverb 打烙印於；譴責、加汙名於",
-    "example": "This brand is known for high quality products. (這個品牌以高品質產品聞名。)",
+    "example": "This local brand makes sturdy lunch bags from recycled cloth. (這個在地品牌用回收布料製作耐用的便當袋。)",
     "id": "L2-brand-noun-verb"
   },
   {
@@ -563,7 +563,7 @@
     "level": "L2",
     "word": "cave",
     "meaning": "noun/verb 洞穴；挖洞穴、使塌落",
-    "example": "Ancient people lived in caves for protection. (古代人住在洞穴中尋求保護。)",
+    "example": "A cool cave gave the hikers shade during their rest stop. (健行者休息時在涼爽的洞穴裡乘涼。)",
     "id": "L2-cave-noun-verb"
   },
   {
@@ -724,14 +724,14 @@
     "level": "L2",
     "word": "earthquake",
     "meaning": "noun 地震",
-    "example": "The powerful earthquake shook buildings violently. (強烈地震劇烈搖晃建築物。)",
+    "example": "After the earthquake, neighbors checked on one another by phone. (地震後，鄰居們打電話互相確認平安。)",
     "id": "L2-earthquake-noun"
   },
   {
     "level": "L2",
     "word": "elevator",
     "meaning": "noun 電梯",
-    "example": "The elevator stopped at every floor. (電梯在每層樓都停。)",
+    "example": "We took the elevator to the rooftop garden on the sixth floor. (我們搭電梯到六樓的頂樓花園。)",
     "id": "L2-elevator-noun"
   },
   {
@@ -1235,7 +1235,7 @@
     "level": "L2",
     "word": "relationship",
     "meaning": "noun 關係",
-    "example": "Teacher-student relationships affect learning outcomes. (師生關係影響學習成果。)",
+    "example": "A shared hobby helped build a friendly relationship between the neighbors. (共同的興趣幫助鄰居建立友好的關係。)",
     "id": "L2-relationship-noun"
   },
   {
@@ -1494,14 +1494,14 @@
     "level": "L3",
     "word": "account",
     "meaning": "noun 帳戶、帳號、敘述\nverb 視為、解釋、(數量或比例上)佔",
-    "example": "Please transfer the money to my bank account. (請將錢轉到我的銀行帳戶。)",
+    "example": "I opened a separate account to save for a family trip. (我另外開了一個帳戶，為家庭旅行存錢。)",
     "id": "L3-account-noun-verb"
   },
   {
     "level": "L3",
     "word": "accurate",
     "meaning": "adj. 正確的、精準的",
-    "example": "The weather forecast was surprisingly accurate. (天氣預報出人意料地準確。)",
+    "example": "The digital thermometer gave an accurate reading in just a few seconds. (數位溫度計只花幾秒就測出準確的讀數。)",
     "id": "L3-accurate-adj"
   },
   {
@@ -1522,7 +1522,7 @@
     "level": "L3",
     "word": "actual",
     "meaning": "adj. 實際的、真正的",
-    "example": "The actual cost was higher than estimated. (實際成本比估計的要高。)",
+    "example": "The actual bus stop was around the corner from the map marker. (實際的公車站在地圖標記轉角附近。)",
     "id": "L3-actual-adj"
   },
   {
@@ -1550,7 +1550,7 @@
     "level": "L3",
     "word": "afford",
     "meaning": "verb 買得起、承擔、提供",
-    "example": "Many families cannot afford to buy a house. (許多家庭買不起房子。)",
+    "example": "The café affords a lovely view of the harbor from its balcony. (這家咖啡店的陽台能眺望美麗的港口景色。)",
     "id": "L3-afford-verb"
   },
   {
@@ -1564,7 +1564,7 @@
     "level": "L3",
     "word": "agriculture",
     "meaning": "noun 農業",
-    "example": "Agriculture is the backbone of the country's economy. (農業是該國經濟的支柱。)",
+    "example": "The county fair displayed tools used in modern agriculture. (縣市農展展示了現代農業使用的工具。)",
     "id": "L3-agriculture-noun"
   },
   {
@@ -1578,7 +1578,7 @@
     "level": "L3",
     "word": "amaze",
     "meaning": "verb 使驚奇",
-    "example": "The magician's tricks never fail to amaze the audience. (魔術師的把戲總是讓觀眾驚嘆不已。)",
+    "example": "The tiny seedling amazed us by growing through a crack in the pavement. (小幼苗竟從路面裂縫中長出來，讓我們很驚訝。)",
     "id": "L3-amaze-verb"
   },
   {
@@ -1592,21 +1592,21 @@
     "level": "L3",
     "word": "ambition",
     "meaning": "noun 野心、抱負、志向",
-    "example": "Her ambition is to become a successful doctor. (她的抱負是成為一名成功的醫生。)",
+    "example": "Her ambition is to open a small bakery in her neighborhood. (她的志向是在住家附近開一家小麵包店。)",
     "id": "L3-ambition-noun"
   },
   {
     "level": "L3",
     "word": "angle",
     "meaning": "noun 角度、觀點",
-    "example": "Look at the problem from a different angle. (從不同的角度看這個問題。)",
+    "example": "Try a lower angle to photograph the flowers against the sky. (試著從低一點的角度拍花朵襯著天空的樣子。)",
     "id": "L3-angle-noun"
   },
   {
     "level": "L3",
     "word": "announce",
     "meaning": "verb 宣布、公告、廣播",
-    "example": "The company will announce the new product next week. (公司將在下週宣布新產品。)",
+    "example": "The station announced a change to the last train's departure time. (車站公告末班車的發車時間有所調整。)",
     "id": "L3-announce-verb"
   },
   {
@@ -1620,21 +1620,21 @@
     "level": "L3",
     "word": "apart",
     "meaning": "adv./adj. (空間或時間的)分隔、相隔；分離的",
-    "example": "The two cities are 100 kilometers apart. (這兩個城市相距 100 公里。)",
+    "example": "Keep the paint cans apart from the food boxes during the move. (搬家時把油漆罐和食品箱分開放。)",
     "id": "L3-apart-adv-adj"
   },
   {
     "level": "L3",
     "word": "apparent",
     "meaning": "adj. 顯然的",
-    "example": "It was apparent that she had been crying. (很明顯她一直在哭。)",
+    "example": "It became apparent that the garden needed a second water tank. (很明顯，花園需要第二個水槽。)",
     "id": "L3-apparent-adj"
   },
   {
     "level": "L3",
     "word": "appeal",
     "meaning": "noun 呼籲；申訴；吸引力\nverb 呼籲；提出申訴；對...有吸引力",
-    "example": "The charity made an appeal for donations. (慈善機構呼籲捐款。)",
+    "example": "The quiet seating area may appeal to visitors who want to read. (安靜的休息區可能會吸引想看書的訪客。)",
     "id": "L3-appeal-noun-verb"
   },
   {
@@ -1648,7 +1648,7 @@
     "level": "L3",
     "word": "approve",
     "meaning": "verb 贊成、批准",
-    "example": "The committee will approve the budget proposal tomorrow. (委員會明天將批准預算提案。)",
+    "example": "The building manager approved the request to add a bicycle rack. (大樓管理員核准增設腳踏車架的申請。)",
     "id": "L3-approve-verb"
   },
   {
@@ -1676,98 +1676,98 @@
     "level": "L3",
     "word": "ash",
     "meaning": "noun 灰燼",
-    "example": "The volcano covered the city with ash. (火山用灰燼覆蓋了城市。)",
+    "example": "We brushed the fireplace ash into a small metal container. (我們把壁爐灰燼掃進小金屬桶裡。)",
     "id": "L3-ash-noun"
   },
   {
     "level": "L3",
     "word": "aside",
     "meaning": "adv. 在旁邊",
-    "example": "Please set your phones aside during the meeting. (會議期間請將手機放在一邊。)",
+    "example": "The host pulled a chair aside to make room for the stroller. (主人把椅子移到一旁，替嬰兒推車騰出空間。)",
     "id": "L3-aside-adv"
   },
   {
     "level": "L3",
     "word": "assist",
     "meaning": "verb 協助、援助",
-    "example": "Volunteers assist visitors at the information desk. (志工在諮詢台協助訪客。)",
+    "example": "A librarian assisted us with the self-checkout machine. (圖書館員協助我們使用自助借書機。)",
     "id": "L3-assist-verb"
   },
   {
     "level": "L3",
     "word": "athlete",
     "meaning": "noun 運動員、擅長運動的人",
-    "example": "The athlete trained for hours every day. (這位運動員每天訓練數小時。)",
+    "example": "The athlete checked her shoes before the morning run. (這位運動員晨跑前檢查了鞋子。)",
     "id": "L3-athlete-noun"
   },
   {
     "level": "L3",
     "word": "attempt",
     "meaning": "noun/verb 嘗試、企圖",
-    "example": "She made several attempts to contact him. (她多次嘗試聯繫他。)",
+    "example": "We made one final attempt to open the stuck window. (我們最後一次試著打開卡住的窗戶。)",
     "id": "L3-attempt-noun-verb"
   },
   {
     "level": "L3",
     "word": "attitude",
     "meaning": "noun 態度",
-    "example": "A positive attitude can make a big difference. (積極的態度可以產生很大的不同。)",
+    "example": "Her patient attitude helped the younger students learn the game. (她有耐心的態度幫助年紀較小的學生學會這個遊戲。)",
     "id": "L3-attitude-noun"
   },
   {
     "level": "L3",
     "word": "attract",
     "meaning": "verb 吸引",
-    "example": "Bright colors attract attention from a distance. (鮮豔的顏色從遠處就能吸引注意力。)",
+    "example": "Fresh bread aromas attract shoppers to the market stall. (新鮮麵包的香氣吸引顧客來到市場攤位。)",
     "id": "L3-attract-verb"
   },
   {
     "level": "L3",
     "word": "attractive",
     "meaning": "adj. 誘人的、吸引人的",
-    "example": "The job offer includes many attractive benefits. (這個工作機會包括許多吸引人的福利。)",
+    "example": "The town's attractive waterfront path is popular with walkers. (鎮上迷人的海濱步道很受散步民眾歡迎。)",
     "id": "L3-attractive-adj"
   },
   {
     "level": "L3",
     "word": "author",
     "meaning": "noun 作者",
-    "example": "The author will sign books at the bookstore tonight. (作者今晚將在書店簽書。)",
+    "example": "The author wrote a short guide to the island's walking trails. (這位作者寫了一本介紹島上步道的簡短指南。)",
     "id": "L3-author-noun"
   },
   {
     "level": "L3",
     "word": "automatic",
     "meaning": "adj. 自動的",
-    "example": "The automatic door opens when you approach. (自動門在你靠近時會打開。)",
+    "example": "An automatic watering system keeps the balcony plants moist. (自動澆水系統讓陽台植物保持濕潤。)",
     "id": "L3-automatic-adj"
   },
   {
     "level": "L3",
     "word": "automobile",
     "meaning": "noun 汽車",
-    "example": "The automobile industry is embracing electric vehicles. (汽車工業正在擁抱電動汽車。)",
+    "example": "The antique automobile stood outside the transport museum. (那輛古董汽車停在交通博物館外。)",
     "id": "L3-automobile-noun"
   },
   {
     "level": "L3",
     "word": "avenue",
     "meaning": "noun 大街；途徑、管道、方法",
-    "example": "The main shopping avenue is always crowded. (主要購物大街總是很擁擠。)",
+    "example": "A tree-lined avenue leads from the station to the art museum. (一條兩旁種著樹的大街從車站通往美術館。)",
     "id": "L3-avenue-noun"
   },
   {
     "level": "L3",
     "word": "average",
     "meaning": "adj./noun/verb 平均的；平均數；平均為",
-    "example": "The average temperature in July is 25 degrees. (七月的平均氣溫是 25 度。)",
+    "example": "The average wait for a table was about fifteen minutes. (等候桌位的平均時間大約是十五分鐘。)",
     "id": "L3-average-adj-noun-verb"
   },
   {
     "level": "L3",
     "word": "awake",
     "meaning": "adj./verb 醒著；醒來、喚起",
-    "example": "The loud noise kept me awake all night. (巨大的噪音讓我整夜無法入睡。)",
+    "example": "The kitten stayed awake while the family decorated the tree. (家人布置聖誕樹時，小貓一直醒著。)",
     "id": "L3-awake-adj-verb"
   },
   {
@@ -1781,14 +1781,14 @@
     "level": "L3",
     "word": "award",
     "meaning": "noun/verb 獎、獎金、獎品；獎勵、授予",
-    "example": "She received an award for her outstanding research. (她因出色的研究獲得了獎項。)",
+    "example": "The festival will award a prize for the best handmade lantern. (節慶將頒獎給最好的手作燈籠。)",
     "id": "L3-award-noun-verb"
   },
   {
     "level": "L3",
     "word": "awful",
     "meaning": "adj. 很壞的、糟糕的、令人不愉快的",
-    "example": "The weather was awful during our vacation. (我們度假期間天氣極其糟糕。)",
+    "example": "The coffee tasted awful after it sat on the counter all morning. (咖啡在檯面上放了一早上，喝起來很難喝。)",
     "id": "L3-awful-adj"
   },
   {
@@ -1802,7 +1802,7 @@
     "level": "L3",
     "word": "background",
     "meaning": "noun 背景",
-    "example": "His background in engineering helped him solve the problem. (他的工程背景幫助他解決了問題。)",
+    "example": "The pale background makes the dark letters easier to read. (淺色背景讓深色字體更容易閱讀。)",
     "id": "L3-background-noun"
   },
   {
@@ -1823,7 +1823,7 @@
     "level": "L3",
     "word": "baggage",
     "meaning": "noun 行李",
-    "example": "Passengers must check their baggage before boarding. (乘客登機前必須先辦理行李托運。)",
+    "example": "A porter helped us carry our baggage up the station stairs. (搬運人員幫我們把行李提上車站樓梯。)",
     "id": "L3-baggage-noun"
   },
   {
@@ -1837,7 +1837,7 @@
     "level": "L3",
     "word": "balance",
     "meaning": "noun/verb 平衡、均衡；保持平衡",
-    "example": "It's important to balance work and family life. (平衡工作和家庭生活很重要。)",
+    "example": "She balanced the tray carefully while walking through the crowded room. (她穿過擁擠的房間時，小心地保持托盤平衡。)",
     "id": "L3-balance-noun-verb"
   },
   {
@@ -1858,14 +1858,14 @@
     "level": "L3",
     "word": "bare",
     "meaning": "adj./verb 赤裸的、無遮蔽的；使赤裸、使暴露",
-    "example": "The room was bare except for a single chair. (房間裡除了一把椅子外什麼都沒有。)",
+    "example": "He walked across the bare floor after removing his shoes. (他脫鞋後赤腳走過空蕩的地板。)",
     "id": "L3-bare-adj-verb"
   },
   {
     "level": "L3",
     "word": "barely",
     "meaning": "adv. 僅、剛好、幾乎沒有",
-    "example": "She barely had enough money to buy lunch. (她幾乎沒有足夠的錢買午餐。)",
+    "example": "There was barely enough room for the stroller beside the table. (桌子旁幾乎沒有足夠空間放嬰兒推車。)",
     "id": "L3-barely-adv"
   },
   {
@@ -1900,7 +1900,7 @@
     "level": "L3",
     "word": "beast",
     "meaning": "noun (大型或野生的)動物、野獸；粗暴的人、兇殘的人",
-    "example": "The legend tells of a terrible beast in the forest. (傳說講述了森林中可怕的野獸。)",
+    "example": "In the puppet show, a friendly beast helped the lost traveler find home. (布偶戲裡，一隻友善的野獸幫迷路的旅人找到回家的路。)",
     "id": "L3-beast-noun"
   },
   {
@@ -1914,7 +1914,7 @@
     "level": "L3",
     "word": "being",
     "meaning": "noun 生命、生物；存在、生存",
-    "example": "Every living being deserves respect and care. (每個生物都值得尊重和關懷。)",
+    "example": "The nature center teaches children how to care for every living being. (自然中心教孩子們照顧每一種生物。)",
     "id": "L3-being-noun"
   },
   {
@@ -1935,7 +1935,7 @@
     "level": "L3",
     "word": "benefit",
     "meaning": "noun/verb 利益、好處；對...有幫助、使受惠",
-    "example": "Regular exercise has many health benefits. (定期運動對健康有許多好處。)",
+    "example": "A shaded bus stop benefits people waiting in the summer heat. (有遮蔭的公車站能讓在夏日等車的人受益。)",
     "id": "L3-benefit-noun-verb"
   },
   {
@@ -1956,7 +1956,7 @@
     "level": "L3",
     "word": "billion",
     "meaning": "noun 十億",
-    "example": "The company is worth several billion dollars. (這家公司價值數十億美元。)",
+    "example": "The report said the city spends several billion dollars each year on transport. (報告指出，這座城市每年在交通上花費數十億美元。)",
     "id": "L3-billion-noun"
   },
   {
@@ -1998,14 +1998,14 @@
     "level": "L3",
     "word": "boot",
     "meaning": "noun 靴子；猛踢、猛踹\nverb 猛踹、猛踢；(使電腦)啟動",
-    "example": "She wore waterproof boots for the hiking trip. (她穿防水靴子去徒步旅行。)",
+    "example": "She pulled on a rubber boot before stepping into the muddy garden. (她穿上一隻橡膠靴才走進泥濘的花園。)",
     "id": "L3-boot-noun-verb"
   },
   {
     "level": "L3",
     "word": "border",
     "meaning": "noun/verb 國境、邊界；(國家或地區)與...接壤、和...毗鄰",
-    "example": "The two countries share a peaceful border. (兩國共享一個和平的邊界。)",
+    "example": "Lavender bushes border the narrow path to the cottage. (薰衣草叢沿著通往小屋的窄徑兩旁生長。)",
     "id": "L3-border-noun-verb"
   },
   {
@@ -2040,21 +2040,21 @@
     "level": "L3",
     "word": "breast",
     "meaning": "noun/verb 胸部、乳房；挺胸從...中擠過",
-    "example": "Breast cancer awareness campaigns save many lives. (乳癌防治宣導活動拯救了許多生命。)",
+    "example": "The baby rested against her breast after a quiet feeding. (安靜餵完奶後，寶寶靠在她的胸前休息。)",
     "id": "L3-breast-noun-verb"
   },
   {
     "level": "L3",
     "word": "breath",
     "meaning": "noun 呼氣、一次吸入的空氣",
-    "example": "Take a deep breath and try to relax. (深呼吸並試著放鬆。)",
+    "example": "He let out a long breath after carrying the boxes upstairs. (把箱子搬上樓後，他長長吐了一口氣。)",
     "id": "L3-breath-noun"
   },
   {
     "level": "L3",
     "word": "breathe",
     "meaning": "verb 呼吸",
-    "example": "Fresh mountain air is wonderful to breathe. (新鮮的山間空氣呼吸起來很棒。)",
+    "example": "Breathe slowly as you stretch your shoulders after work. (下班後伸展肩膀時，請慢慢呼吸。)",
     "id": "L3-breathe-verb"
   },
   {
@@ -2075,7 +2075,7 @@
     "level": "L3",
     "word": "brilliant",
     "meaning": "adj. 絕妙的、聰穎的",
-    "example": "Her brilliant performance earned a standing ovation. (她出色的表演贏得了起立鼓掌。)",
+    "example": "The brilliant idea was to turn the old bus into a mobile library. (把舊公車改造成行動圖書館真是個絕妙點子。)",
     "id": "L3-brilliant-adj"
   },
   {
@@ -2110,7 +2110,7 @@
     "level": "L3",
     "word": "budget",
     "meaning": "noun/verb 預算；編列預算",
-    "example": "Families should create a monthly budget for expenses. (家庭應該為日常開銷編列每月預算。)",
+    "example": "We budgeted for new shelves before ordering more books. (再訂購新書前，我們先為新書架編列預算。)",
     "id": "L3-budget-noun-verb"
   },
   {
@@ -2131,7 +2131,7 @@
     "level": "L3",
     "word": "bullet",
     "meaning": "noun 子彈",
-    "example": "The police found a bullet at the crime scene. (警察在犯罪現場發現了一顆子彈。)",
+    "example": "A small bullet hole appeared in the glass display at the history museum. (歷史博物館的玻璃展示櫃上有個小彈孔。)",
     "id": "L3-bullet-noun"
   },
   {
@@ -2145,7 +2145,7 @@
     "level": "L3",
     "word": "bunch",
     "meaning": "noun 串、束、大量",
-    "example": "She bought a bunch of fresh flowers. (她買了一束新鮮花朵。)",
+    "example": "A bunch of ripe bananas hung from the kitchen hook. (一串熟香蕉掛在廚房掛鉤上。)",
     "id": "L3-bunch-noun"
   },
   {
@@ -2166,7 +2166,7 @@
     "level": "L3",
     "word": "bury",
     "meaning": "verb 埋葬、掩埋",
-    "example": "Pirates used to bury treasure on remote islands. (海盜過去常在偏遠島嶼埋藏寶藏。)",
+    "example": "The children buried a time capsule beneath the school garden. (孩子們把時光膠囊埋在學校花園的地下。)",
     "id": "L3-bury-verb"
   },
   {
@@ -2215,21 +2215,21 @@
     "level": "L3",
     "word": "capable",
     "meaning": "adj. 有能力的",
-    "example": "She is capable of handling difficult situations. (她能夠處理困難的情況。)",
+    "example": "This compact printer is capable of making clear color copies. (這台小型印表機能印出清晰的彩色複本。)",
     "id": "L3-capable-adj"
   },
   {
     "level": "L3",
     "word": "capital",
     "meaning": "noun 資金；首都；大寫字母\nadj. 首要的；大寫字母的",
-    "example": "Paris is the capital city of France. (巴黎是法國的首都。)",
+    "example": "We visited the capital to see the national science museum. (我們到首都參觀國立科學博物館。)",
     "id": "L3-capital-noun-adj"
   },
   {
     "level": "L3",
     "word": "capture",
     "meaning": "verb/noun 俘虜、捕獲\nverb (用文字或圖像)描繪；拍攝；引起(關注、興趣)",
-    "example": "The photographer managed to capture the perfect moment. (攝影師成功捕捉到完美的瞬間。)",
+    "example": "The app can capture a clear photo of the receipt for your records. (這個應用程式可以拍下清楚的收據照片供你存檔。)",
     "id": "L3-capture-verb-noun-verb"
   },
   {
@@ -2250,7 +2250,7 @@
     "level": "L3",
     "word": "cast",
     "meaning": "noun/verb 演員陣容；分配角色、選派角色\nverb/noun 投、拋、擲\nverb/noun 鑄造；鑄造物、鑄模\nverb 投票",
-    "example": "The fishing boat will cast nets at dawn. (漁船會在黎明時撒網。)",
+    "example": "The director cast two local children in the summer musical. (導演讓兩位當地孩子參與夏季音樂劇演出。)",
     "id": "L3-cast-noun-verb-verb-noun-verb"
   },
   {
@@ -2278,21 +2278,21 @@
     "level": "L3",
     "word": "chain",
     "meaning": "noun/verb 鍊條、鎖鏈、束縛；用鏈條鎖、拴住\nnoun 一系列、一連串",
-    "example": "The bicycle chain needs regular maintenance. (自行車鏈條需要定期保養。)",
+    "example": "A short chain kept the garden gate from swinging in the wind. (一條短鏈條讓花園門不會被風吹得搖晃。)",
     "id": "L3-chain-noun-verb-noun"
   },
   {
     "level": "L3",
     "word": "challenge",
     "meaning": "noun/verb 挑戰",
-    "example": "Learning a new language is an exciting challenge. (學習新語言是一個令人興奮的挑戰。)",
+    "example": "Learning to repair the old radio became a fun challenge for us. (學著修理舊收音機成了我們有趣的挑戰。)",
     "id": "L3-challenge-noun-verb"
   },
   {
     "level": "L3",
     "word": "champion",
     "meaning": "noun 冠軍、獲勝者\nverb 支持、聲援、捍衛",
-    "example": "The tennis champion defended her title successfully. (網球冠軍成功衛冕。)",
+    "example": "The champion donated her prize money to the town's youth sports club. (冠軍把獎金捐給鎮上的青少年運動社團。)",
     "id": "L3-champion-noun-verb"
   },
   {
@@ -2397,7 +2397,7 @@
     "level": "L3",
     "word": "cigarette",
     "meaning": "noun 香菸",
-    "example": "Smoking cigarettes causes serious health problems. (吸菸會導致嚴重的健康問題。)",
+    "example": "The park sign asks visitors not to smoke a cigarette near the playground. (公園告示請訪客不要在遊樂場附近抽菸。)",
     "id": "L3-cigarette-noun"
   },
   {
@@ -2411,7 +2411,7 @@
     "level": "L3",
     "word": "civil",
     "meaning": "adj. 平民的、國家的、民事的",
-    "example": "Civil rights movements changed society for the better. (民權運動讓社會變得更好。)",
+    "example": "The town opened a civil court service desk in the new community building. (鎮公所在新的活動中心設置民事服務櫃檯。)",
     "id": "L3-civil-adj"
   },
   {
@@ -3076,7 +3076,7 @@
     "level": "L3",
     "word": "eager",
     "meaning": "adj. 熱切的、渴望的",
-    "example": "Young children are eager to learn new skills. (小孩子渴望學習新技能。)",
+    "example": "The children were eager to try the new climbing wall at the gym. (孩子們迫不及待想試試健身房的新攀岩牆。)",
     "id": "L3-eager-adj"
   },
   {
@@ -3160,7 +3160,7 @@
     "level": "L3",
     "word": "electricity",
     "meaning": "noun 電力",
-    "example": "Modern life depends heavily on electricity. (現代生活嚴重依賴電力。)",
+    "example": "The workshop uses solar panels to produce electricity for its lights. (工作坊用太陽能板發電供照明使用。)",
     "id": "L3-electricity-noun"
   },
   {
@@ -3258,7 +3258,7 @@
     "level": "L3",
     "word": "escape",
     "meaning": "verb/noun 逃脫、退出",
-    "example": "The prisoner planned to escape at night. (囚犯計劃在夜間逃脫。)",
+    "example": "A weekend in the countryside was a welcome escape from city noise. (到鄉間度過週末，讓我們暫時遠離城市喧囂。)",
     "id": "L3-escape-verb-noun"
   },
   {
@@ -3342,7 +3342,7 @@
     "level": "L3",
     "word": "factor",
     "meaning": "noun 因素",
-    "example": "Weather is an important factor in agriculture. (天氣是農業的重要因素。)",
+    "example": "Storage space was an important factor when we chose a new apartment. (挑選新公寓時，收納空間是重要的考量因素。)",
     "id": "L3-factor-noun"
   },
   {
@@ -3377,7 +3377,7 @@
     "level": "L3",
     "word": "faith",
     "meaning": "noun 信心、信仰",
-    "example": "She kept faith despite many challenges. (儘管面臨許多挑戰她仍保持信心。)",
+    "example": "She had faith that the community garden would flourish with care. (她相信只要用心照料，社區花園就會欣欣向榮。)",
     "id": "L3-faith-noun"
   },
   {
@@ -3391,7 +3391,7 @@
     "level": "L3",
     "word": "familiar",
     "meaning": "adj. 熟悉的",
-    "example": "The song sounded familiar to everyone. (這首歌對每個人來說都很熟悉。)",
+    "example": "The melody was familiar, but I could not remember its title. (這段旋律聽起來很熟悉，但我想不起歌名。)",
     "id": "L3-familiar-adj"
   },
   {
@@ -3433,14 +3433,14 @@
     "level": "L3",
     "word": "feature",
     "meaning": "noun/verb 特色；以…為特色",
-    "example": "The new phone features advanced camera technology. (新手機以先進相機技術為特色。)",
+    "example": "The travel guide features a map of quiet bicycle routes. (旅遊指南以安靜的自行車路線地圖為特色。)",
     "id": "L3-feature-noun-verb"
   },
   {
     "level": "L3",
     "word": "file",
     "meaning": "noun 檔案\nverb 把(文件)歸檔；提出(訴訟、申請等)",
-    "example": "Students organize notes in separate files. (學生將筆記分別整理在不同檔案中。)",
+    "example": "Please file the signed permission slip in the blue folder. (請把簽好的同意書歸檔到藍色資料夾。)",
     "id": "L3-file-noun-verb"
   },
   {
@@ -3552,7 +3552,7 @@
     "level": "L3",
     "word": "fortune",
     "meaning": "noun 運氣、命運；財富",
-    "example": "Hard work often brings good fortune. (努力工作往往帶來好運。)",
+    "example": "By good fortune, the rain stopped before the outdoor concert began. (幸好雨在戶外音樂會開始前停了。)",
     "id": "L3-fortune-noun"
   },
   {
@@ -5036,7 +5036,7 @@
     "level": "L3",
     "word": "normal",
     "meaning": "adj. 正常的、標準的",
-    "example": "Making mistakes is normal in the learning process. (在學習過程中犯錯是正常的。)",
+    "example": "It is normal for the ferry to pause at the small island dock. (渡輪在小島碼頭停靠一下是正常的。)",
     "id": "L3-normal-adj"
   },
   {
@@ -5071,14 +5071,14 @@
     "level": "L3",
     "word": "obvious",
     "meaning": "adj. 明顯的",
-    "example": "The benefits of education are obvious to everyone. (教育的益處對每個人都是顯而易見的。)",
+    "example": "The empty cake plate made it obvious that everyone enjoyed dessert. (空盤子明顯表示大家都很喜歡甜點。)",
     "id": "L3-obvious-adj"
   },
   {
     "level": "L3",
     "word": "occasion",
     "meaning": "noun 場合、盛典",
-    "example": "Graduation is a special occasion for families. (畢業是家庭的特殊場合。)",
+    "example": "We bring out the handmade cups only on special occasions. (我們只在特別的場合拿出手作杯子。)",
     "id": "L3-occasion-noun"
   },
   {
@@ -5106,7 +5106,7 @@
     "level": "L3",
     "word": "opposite",
     "meaning": "adj./adv. 在對面(的)；在…對面\nnoun 反面",
-    "example": "Students sit opposite each other during discussions. (學生在討論時面對面坐著。)",
+    "example": "The clinic stands opposite the public library across the plaza. (診所在廣場對面，正對著公共圖書館。)",
     "id": "L3-opposite-adj-adv-noun"
   },
   {
@@ -5337,7 +5337,7 @@
     "level": "L3",
     "word": "perform",
     "meaning": "verb 表演、表現",
-    "example": "Students perform well with proper preparation. (學生在適當準備下表現良好。)",
+    "example": "The drama club will perform a short comedy at the school fair. (戲劇社將在校園園遊會演出一齣短喜劇。)",
     "id": "L3-perform-verb"
   },
   {
@@ -5484,7 +5484,7 @@
     "level": "L3",
     "word": "politics",
     "meaning": "noun 政治",
-    "example": "Students study politics in social studies. (學生在社會學科中學習政治。)",
+    "example": "The civics class discussed how politics can shape public transport. (公民課討論政治如何影響大眾運輸。)",
     "id": "L3-politics-noun"
   },
   {
@@ -5610,7 +5610,7 @@
     "level": "L3",
     "word": "primary",
     "meaning": "noun (美國推舉黨內候選人的)初選\nadj. 首要的、主要的、基本的",
-    "example": "Reading is a primary skill for learning. (閱讀是學習的主要技能。)",
+    "example": "Clean water is a primary need for every neighborhood. (乾淨的水是每個社區最基本的需求。)",
     "id": "L3-primary-noun-adj"
   },
   {
@@ -5624,7 +5624,7 @@
     "level": "L3",
     "word": "process",
     "meaning": "noun/verb 過程；處理、加工",
-    "example": "Learning is a continuous process of discovery. (學習是一個持續的發現過程。)",
+    "example": "The process of drying the herbs took most of the afternoon. (把香草烘乾的過程花了大半個下午。)",
     "id": "L3-process-noun-verb"
   },
   {
@@ -5750,7 +5750,7 @@
     "level": "L3",
     "word": "rate",
     "meaning": "noun/verb 速度、(比)率；評估、評價",
-    "example": "Learning rates vary among different students. (學習速度在不同學生之間有差異。)",
+    "example": "The guide rated the walking trail as easy for families. (導覽員把這條步道評為適合家庭的簡單路線。)",
     "id": "L3-rate-noun-verb"
   },
   {
@@ -5813,7 +5813,7 @@
     "level": "L3",
     "word": "recognize",
     "meaning": "verb 認出、認可",
-    "example": "Teachers recognize each student's unique talents. (老師肯定每個學生的獨特才能。)",
+    "example": "I recognized the old song from its opening piano notes. (我從開頭的鋼琴音認出了那首老歌。)",
     "id": "L3-recognize-verb"
   },
   {
@@ -5841,7 +5841,7 @@
     "level": "L3",
     "word": "relate",
     "meaning": "verb 使有聯繫、敘述",
-    "example": "Students relate new knowledge to previous learning. (學生將新知識與先前學習聯繫起來。)",
+    "example": "The guide related how the lighthouse was built on the rocky shore. (導覽員敘述了燈塔如何建在岩岸上。)",
     "id": "L3-relate-verb"
   },
   {
@@ -5897,7 +5897,7 @@
     "level": "L3",
     "word": "remain",
     "meaning": "verb 仍然是、繼續",
-    "example": "Students remain focused during long lectures. (學生在長時間講座中保持專注。)",
+    "example": "A few chairs remained after the event ended. (活動結束後還剩下幾張椅子。)",
     "id": "L3-remain-verb"
   },
   {
@@ -5925,7 +5925,7 @@
     "level": "L3",
     "word": "replace",
     "meaning": "verb 取代、代替",
-    "example": "Digital tools replace traditional teaching methods. (數位工具替代傳統教學方法。)",
+    "example": "We replaced the broken handle on the classroom cabinet. (我們換掉了教室櫃子上壞掉的把手。)",
     "id": "L3-replace-verb"
   },
   {
@@ -6044,7 +6044,7 @@
     "level": "L3",
     "word": "risk",
     "meaning": "noun/verb 風險、危險；冒…風險",
-    "example": "Trying new methods involves some risk. (嘗試新方法涉及一些風險。)",
+    "example": "Leaving the window open may risk damage if a storm arrives. (窗戶開著遇到暴風雨時，可能會造成損壞。)",
     "id": "L3-risk-noun-verb"
   },
   {
@@ -6492,7 +6492,7 @@
     "level": "L3",
     "word": "situation",
     "meaning": "noun 情況、形勢",
-    "example": "Teachers adapt to each learning situation. (老師適應每種學習情況。)",
+    "example": "The café changed its seating plan to fit the situation during renovations. (咖啡店在整修期間調整座位安排，以配合現場情況。)",
     "id": "L3-situation-noun"
   },
   {
@@ -6604,7 +6604,7 @@
     "level": "L3",
     "word": "specific",
     "meaning": "adj. 特定的、明確的",
-    "example": "Teachers provide specific feedback on assignments. (老師會針對作業提供具體的回饋。)",
+    "example": "The repair shop asked for a specific model number before ordering the part. (訂購零件前，維修店要求提供確切的型號。)",
     "id": "L3-specific-adj"
   },
   {
@@ -6821,7 +6821,7 @@
     "level": "L3",
     "word": "strategy",
     "meaning": "noun 策略、戰略",
-    "example": "Effective learning strategies maximize study time. (有效的學習策略能讓讀書時間發揮最大效益。)",
+    "example": "Our strategy for the long hike was to refill water at every village. (我們長途健行的策略是在每個村莊補充飲用水。)",
     "id": "L3-strategy-noun"
   },
   {

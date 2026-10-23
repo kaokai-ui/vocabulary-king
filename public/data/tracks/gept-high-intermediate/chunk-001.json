@@ -52,7 +52,7 @@
     "level": "L1",
     "word": "up",
     "meaning": "adv. 向上；上升",
-    "example": "Test scores went up after extra practice. (額外練習後考試成績上升。)",
+    "example": "Please pick up the fallen leaves before the visitors arrive. (訪客抵達前，請把掉落的葉子撿起來。)",
     "id": "L1-up-adv"
   },
   {
@@ -262,7 +262,7 @@
     "level": "L3",
     "word": "chest",
     "meaning": "noun (常為木製的)箱子",
-    "example": "The treasure chest contained gold coins. (寶箱裡裝著金幣。)",
+    "example": "Grandma stored winter scarves in a cedar chest by the closet. (奶奶把冬天的圍巾收在衣櫥旁的樟木箱裡。)",
     "id": "L3-chest-noun"
   },
   {
@@ -549,7 +549,7 @@
     "level": "L4",
     "word": "blade",
     "meaning": "noun 刀片、刀刃；(機器上旋轉的)槳片、槳葉；(草的)葉片",
-    "example": "The knife blade was very sharp. (刀刃非常鋒利。)",
+    "example": "A single blade of grass grew between the paving stones. (一片草葉從鋪路石的縫隙中長出來。)",
     "id": "L4-blade-noun"
   },
   {
@@ -1151,7 +1151,7 @@
     "level": "L5",
     "word": "alien",
     "meaning": "adj. 外國的、異域的、外星人的；陌生的、不熟悉的\nnoun 外國人、外星人(生物)",
-    "example": "The movie was about an alien invasion of Earth. (這部電影講的是外星人入侵地球。)",
+    "example": "The science museum displayed a model of an alien creature from a story. (科學博物館展示了一個故事中的外星生物模型。)",
     "id": "L5-alien-adj-noun"
   },
   {
@@ -1186,7 +1186,7 @@
     "level": "L5",
     "word": "alter",
     "meaning": "verb 改變、更動、修改(衣服使其合身)",
-    "example": "Climate change will alter weather patterns globally. (氣候變化將改變全球天氣模式。)",
+    "example": "The tailor altered the jacket sleeves to fit my arms. (裁縫修改了外套袖子，讓尺寸更合我的手臂。)",
     "id": "L5-alter-verb"
   },
   {
@@ -1256,7 +1256,7 @@
     "level": "L5",
     "word": "assault",
     "meaning": "noun/verb 攻擊、襲擊",
-    "example": "The victim reported the assault to the police.（受害者向警方報告了攻擊事件。）",
+    "example": "The museum's history display described an assault on the old city gate. (博物館的歷史展覽描述了舊城門遭受攻擊的事件。)",
     "id": "L5-assault-noun-verb"
   },
   {
@@ -1550,7 +1550,7 @@
     "level": "L5",
     "word": "boom",
     "meaning": "noun/verb 繁榮、增長、迅速發展\nnoun/verb 隆隆聲；發出隆隆聲、轟鳴",
-    "example": "The technology industry experienced a boom last decade. (科技業在過去十年經歷了一波繁榮。)",
+    "example": "The night market saw a boom in visitors after the new train station opened. (新火車站啟用後，夜市的遊客人數大幅增加。)",
     "id": "L5-boom-noun-verb-noun-verb"
   },
   {
@@ -1592,7 +1592,7 @@
     "level": "L5",
     "word": "bound",
     "meaning": "adj. 肯定的、必然的；(法律或道德上)有義務的、受約束的；正在前往...的、開往...的\nverb/noun 跳躍、跳動",
-    "example": "The train is bound for the capital city. (火車開往首都。)",
+    "example": "The ferry bound for the outer island leaves from pier three. (開往外島的渡輪從三號碼頭出發。)",
     "id": "L5-bound-adj-verb-noun"
   },
   {
@@ -1795,7 +1795,7 @@
     "level": "L5",
     "word": "category",
     "meaning": "noun 種類、類別",
-    "example": "Books are organized by category in the library. (圖書館的書依類別排列。)",
+    "example": "The shop sorted its tea by category, from floral to roasted. (店家把茶葉依類別整理，從花香型到焙火型都有。)",
     "id": "L5-category-noun"
   },
   {
@@ -2320,7 +2320,7 @@
     "level": "L5",
     "word": "courtyard",
     "meaning": "noun 庭院、天井",
-    "example": "The children played in the courtyard.（孩子們在庭院裡玩。）",
+    "example": "The hotel courtyard had a small fountain beneath the orange trees. (旅館庭院裡的橘樹下有一座小噴泉。)",
     "id": "L5-courtyard-noun"
   },
   {
@@ -4301,7 +4301,7 @@
     "level": "L5",
     "word": "nickel",
     "meaning": "noun/verb 鎳、(美國和加拿大的)五分硬幣；鍍鎳於",
-    "example": "A nickel is worth five cents.（一枚五分鎳幣值五美分。）",
+    "example": "This old coin contains nickel beneath its worn surface. (這枚舊硬幣磨損的表面下含有鎳。)",
     "id": "L5-nickel-noun-verb"
   },
   {
@@ -4553,7 +4553,7 @@
     "level": "L5",
     "word": "outskirts",
     "meaning": "noun 邊緣地帶、市郊",
-    "example": "They live on the outskirts of the city.（他們住在城市郊區。）",
+    "example": "A new bus route links the outskirts with the downtown library. (新的公車路線連接郊區和市中心的圖書館。)",
     "id": "L5-outskirts-noun"
   },
   {
@@ -5141,7 +5141,7 @@
     "level": "L5",
     "word": "radius",
     "meaning": "noun 半徑、半徑範圍、周圍",
-    "example": "The radius of the circle is five centimeters.（這個圓的半徑是五公分。）",
+    "example": "The map shows a radius of five kilometers around the visitor center. (地圖標出遊客中心周圍五公里的範圍。)",
     "id": "L5-radius-noun"
   },
   {
@@ -5946,7 +5946,7 @@
     "level": "L5",
     "word": "spotlight",
     "meaning": "noun/verb 聚光燈、(大眾的)注目；特別關注",
-    "example": "The singer stood in the spotlight.（歌手站在聚光燈下。）",
+    "example": "The new exhibit puts traditional weaving in the spotlight. (新展覽讓傳統編織受到矚目。)",
     "id": "L5-spotlight-noun-verb"
   },
   {
@@ -6373,14 +6373,14 @@
     "level": "L5",
     "word": "teller",
     "meaning": "noun 出納員、提款機、敘述者",
-    "example": "The bank teller counted the money.（銀行櫃員數了錢。）",
+    "example": "The teller helped me deposit a check at the bank counter. (銀行櫃員在櫃檯協助我存入支票。)",
     "id": "L5-teller-noun"
   },
   {
     "level": "L5",
     "word": "tempo",
     "meaning": "noun 節奏、速度",
-    "example": "The song has a fast tempo.（這首歌節奏很快。）",
+    "example": "The pianist increased the tempo during the final part of the song. (鋼琴家在歌曲最後一段加快了節奏。)",
     "id": "L5-tempo-noun"
   },
   {

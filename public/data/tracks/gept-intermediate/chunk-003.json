@@ -444,7 +444,7 @@
     "level": "L5",
     "word": "architect",
     "meaning": "noun 建築師",
-    "example": "The famous architect designed many beautiful buildings. (著名建築師設計了許多美麗的建築。)",
+    "example": "The architect designed a library with a garden on its roof. (建築師設計了一座屋頂有花園的圖書館。)",
     "id": "L5-architect-noun"
   },
   {
@@ -465,14 +465,14 @@
     "level": "L5",
     "word": "asset",
     "meaning": "noun 資產",
-    "example": "Good communication skills are a valuable asset. (良好的溝通技巧是寶貴的資產。)",
+    "example": "Her patience is a real asset when she teaches young children. (教導年幼孩子時，她的耐心是一項很大的優勢。)",
     "id": "L5-asset-noun"
   },
   {
     "level": "L5",
     "word": "astonish",
     "meaning": "verb 使吃驚",
-    "example": "The magician's performance will astonish the audience. (魔術師的表演會讓觀眾感到驚訝。)",
+    "example": "The tiny paper crane could astonish visitors by folding itself with a simple mechanism. (小小的紙鶴能用簡單機關自行摺疊，讓訪客驚訝。)",
     "id": "L5-astonish-verb"
   },
   {
@@ -493,7 +493,7 @@
     "level": "L5",
     "word": "ban",
     "meaning": "verb/noun 禁止；禁令",
-    "example": "The city will ban smoking in all public places. (該市將禁止在所有公共場所吸菸。)",
+    "example": "The nature center has a ban on feeding the birds. (自然中心禁止餵食鳥類。)",
     "id": "L5-ban-verb-noun"
   },
   {
@@ -514,7 +514,7 @@
     "level": "L5",
     "word": "bid",
     "meaning": "noun/verb 出價、投標、努力爭取",
-    "example": "The company bid for the construction contract. (公司為這項建築工程合約投標。)",
+    "example": "The crafts shop made a bid to supply pottery for the new café. (手作店投標供應新咖啡館所需的陶器。)",
     "id": "L5-bid-noun-verb"
   },
   {
@@ -577,7 +577,7 @@
     "level": "L5",
     "word": "ceremony",
     "meaning": "noun 典禮",
-    "example": "The graduation ceremony was held outdoors. (畢業典禮在戶外舉行。)",
+    "example": "The opening ceremony for the new trail began with a short drum performance. (新步道的啟用典禮以一段簡短的鼓樂表演揭開序幕。)",
     "id": "L5-ceremony-noun"
   },
   {
@@ -955,7 +955,7 @@
     "level": "L5",
     "word": "federal",
     "meaning": "adj. 聯邦政府的",
-    "example": "Federal laws apply to all states. (聯邦法律適用於所有州。)",
+    "example": "The federal museum loaned a historic map to the local gallery. (聯邦博物館將一幅歷史地圖借給地方美術館。)",
     "id": "L5-federal-adj"
   },
   {
@@ -1270,7 +1270,7 @@
     "level": "L5",
     "word": "parallel",
     "meaning": "adj./noun/verb 平行的、同時發生的；相似之處；與…同時發生、與…相似",
-    "example": "The two roads run parallel to each other.（這兩條路彼此平行。）",
+    "example": "Two rows of trees run parallel along the garden path. (兩排樹木沿著花園小徑平行排列。)",
     "id": "L5-parallel-adj-noun-verb"
   },
   {
@@ -1753,14 +1753,14 @@
     "level": "L6",
     "word": "accord",
     "meaning": "verb 贈予、授予、(與...)一致\nnoun 協議、條約",
-    "example": "The two countries signed a peace accord.（兩國簽署了和平協議。）",
+    "example": "The two clubs reached an accord to share the community hall on weekends. (兩個社團達成協議，週末共用活動中心。)",
     "id": "L6-accord-verb-noun"
   },
   {
     "level": "L6",
     "word": "administration",
     "meaning": "noun 管理(部門)、行政(部門)；施行、施用",
-    "example": "The new administration promised to reduce taxes. (新政府承諾減稅。)",
+    "example": "The school administration arranged extra buses for the museum trip. (校方安排了額外的公車，接送參觀博物館的學生。)",
     "id": "L6-administration-noun"
   },
   {
@@ -1781,7 +1781,7 @@
     "level": "L6",
     "word": "alternative",
     "meaning": "noun 可供選擇的事物\nadj. 可替代的、可供選擇的；非傳統的、另類的",
-    "example": "Solar energy is a clean alternative to fossil fuels. (太陽能是化石燃料的清潔替代品。)",
+    "example": "When the riverside path closed, we chose an alternative route through the park. (河岸步道封閉後，我們選擇改走公園裡的替代路線。)",
     "id": "L6-alternative-noun-adj"
   },
   {
@@ -2208,7 +2208,7 @@
     "level": "L6",
     "word": "option",
     "meaning": "noun 選擇",
-    "example": "Students have many course options available. (學生有很多課程選擇。)",
+    "example": "A window seat is one option for the long ferry ride. (搭長程渡輪時，靠窗座位是一種選擇。)",
     "id": "L6-option-noun"
   },
   {
@@ -2481,7 +2481,7 @@
     "level": "L6",
     "word": "version",
     "meaning": "noun 版本、說法",
-    "example": "Digital versions of textbooks cost less. (數位版教科書成本較低。)",
+    "example": "The latest version of the travel guide includes a new bicycle map. (最新版旅遊指南加入了一張新的自行車地圖。)",
     "id": "L6-version-noun"
   },
   {

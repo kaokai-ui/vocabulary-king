@@ -80,14 +80,14 @@
     "level": "L1",
     "word": "adult",
     "meaning": "noun/adj. 成年人；成年的、成熟的、僅限成人的",
-    "example": "Only adults are allowed to enter this area. (只有成年人才能進入這個區域。)",
+    "example": "An adult signed the permission slip for the student. (一位成年人替學生在同意書上簽了名。)",
     "id": "L1-adult-noun-adj"
   },
   {
     "level": "L1",
     "word": "afraid",
     "meaning": "adj. 害怕的、擔憂的",
-    "example": "She is afraid of flying in airplanes. (她害怕坐飛機。)",
+    "example": "Tom was afraid to climb the tall ladder. (Tom 害怕爬上那座高梯子。)",
     "id": "L1-afraid-adj"
   },
   {
@@ -136,14 +136,14 @@
     "level": "L1",
     "word": "agree",
     "meaning": "verb 同意、贊成、相符",
-    "example": "I agree with your proposal completely. (我完全同意你的提議。)",
+    "example": "The two cooks agree on the soup recipe. (兩位廚師對湯品食譜達成共識。)",
     "id": "L1-agree-verb"
   },
   {
     "level": "L1",
     "word": "ahead",
     "meaning": "adv. 在前面、領先、提早",
-    "example": "Look ahead and plan for the future. (向前看，為未來做計劃。)",
+    "example": "The blue car is ahead of the bus. (藍色汽車在公車前面。)",
     "id": "L1-ahead-adv"
   },
   {
@@ -178,49 +178,49 @@
     "level": "L1",
     "word": "allow",
     "meaning": "verb 准許",
-    "example": "Parents should allow children to make some decisions. (父母應該允許孩子做一些決定。)",
+    "example": "Our teacher allows us to use a dictionary. (老師允許我們使用字典。)",
     "id": "L1-allow-verb"
   },
   {
     "level": "L1",
     "word": "almost",
     "meaning": "adv. 幾乎、差不多",
-    "example": "We are almost finished with the project. (我們的專案差不多完成了。)",
+    "example": "The rain stopped, and the sidewalk was almost dry. (雨停了，人行道也快乾了。)",
     "id": "L1-almost-adv"
   },
   {
     "level": "L1",
     "word": "alone",
     "meaning": "adv./adj. 單獨(的)、獨自(的)、孤獨無伴(的)",
-    "example": "She prefers to work alone rather than in teams. (她更喜歡獨自工作而不是團隊合作。)",
+    "example": "He ate lunch alone at the window table. (他獨自在靠窗的桌子吃午餐。)",
     "id": "L1-alone-adv-adj"
   },
   {
     "level": "L1",
     "word": "along",
     "meaning": "prep. 沿著\nadv. 向前、一起、來到",
-    "example": "We walked along the beach at sunset. (我們在日落時沿著海灘散步。)",
+    "example": "A row of lamps runs along the garden wall. (一排燈沿著花園的圍牆排列。)",
     "id": "L1-along-prep-adv"
   },
   {
     "level": "L1",
     "word": "already",
     "meaning": "adv. 已經",
-    "example": "I have already finished my homework. (我已經完成了作業。)",
+    "example": "The school gate is already open. (學校大門已經開了。)",
     "id": "L1-already-adv"
   },
   {
     "level": "L1",
     "word": "also",
     "meaning": "adv. 也、此外",
-    "example": "She speaks English and also French fluently. (她英語說得很流利， 法語也是。)",
+    "example": "The shop sells bread and also makes fresh juice. (這家店賣麵包，也現做新鮮果汁。)",
     "id": "L1-also-adv"
   },
   {
     "level": "L1",
     "word": "always",
     "meaning": "adv. 總是、一直",
-    "example": "She always arrives on time for meetings. (她開會總是準時到達。)",
+    "example": "My grandmother always calls after dinner. (奶奶晚餐後總會打電話來。)",
     "id": "L1-always-adv"
   },
   {
@@ -234,7 +234,7 @@
     "level": "L1",
     "word": "among",
     "meaning": "prep. 在...之中、在三者或以上之間",
-    "example": "She is among the top students in her class. (她是班上的頂尖學生之一。)",
+    "example": "A tiny kitten slept among the soft blankets. (一隻小貓睡在柔軟的毯子中間。)",
     "id": "L1-among-prep"
   },
   {
@@ -255,7 +255,7 @@
     "level": "L1",
     "word": "angry",
     "meaning": "adj. 生氣的、憤怒的",
-    "example": "She became angry when she heard the unfair decision. (當她聽到不公平的決定時變得憤怒。)",
+    "example": "He was angry when his phone screen cracked. (手機螢幕裂掉時，他很生氣。)",
     "id": "L1-angry-adj"
   },
   {
@@ -269,14 +269,14 @@
     "level": "L1",
     "word": "another",
     "meaning": "pron./adj. 另一個、再一個；另外的、再一",
-    "example": "Could I have another cup of coffee, please? (我可以再要一杯咖啡嗎？)",
+    "example": "Please bring another bowl for the soup. (請再拿一個碗來裝湯。)",
     "id": "L1-another-pron-adj"
   },
   {
     "level": "L1",
     "word": "answer",
     "meaning": "noun/verb 答案、回答；答覆、作答",
-    "example": "She knew the answer to every question on the test. (她知道考試中每個問題的答案。)",
+    "example": "His answer surprised the whole class. (他的回答讓全班都很驚訝。)",
     "id": "L1-answer-noun-verb"
   },
   {
@@ -297,21 +297,21 @@
     "level": "L1",
     "word": "anything",
     "meaning": "pron. 任何東西、任何事情",
-    "example": "Is there anything I can do to help you? (有什麼我可以幫助你的嗎？)",
+    "example": "You can ask me anything about the recipe. (關於食譜，你什麼問題都可以問我。)",
     "id": "L1-anything-pron"
   },
   {
     "level": "L1",
     "word": "appear",
     "meaning": "verb 出現、顯現\nverb 看來好像、似乎",
-    "example": "A rainbow began to appear after the storm. (暴風雨後開始出現彩虹。)",
+    "example": "A small boat appeared on the horizon. (一艘小船出現在地平線上。)",
     "id": "L1-appear-verb-verb"
   },
   {
     "level": "L1",
     "word": "apple",
     "meaning": "noun 蘋果",
-    "example": "An apple a day keeps the doctor away. (一天一蘋果， 醫生遠離我。)",
+    "example": "She packed two apples in her lunch bag. (她在午餐袋裡放了兩顆蘋果。)",
     "id": "L1-apple-noun"
   },
   {
@@ -332,14 +332,14 @@
     "level": "L1",
     "word": "area",
     "meaning": "noun 地區、範圍、面積",
-    "example": "This area is known for its excellent restaurants. (這個地區以其優秀的餐廳而聞名。)",
+    "example": "A play area for children is beside the cafe. (咖啡館旁邊有一處兒童遊戲區。)",
     "id": "L1-area-noun"
   },
   {
     "level": "L1",
     "word": "arm",
     "meaning": "noun 手臂、袖子、扶手\nverb 武裝、備戰",
-    "example": "She broke her arm while skiing last winter. (她去年冬天滑雪時摔斷了手臂。)",
+    "example": "He lifted his arm to wave to the bus driver. (他舉起手臂向公車司機揮手。)",
     "id": "L1-arm-noun-verb"
   },
   {
@@ -353,28 +353,28 @@
     "level": "L1",
     "word": "around",
     "meaning": "prep./adv. 圍繞、在...附近、大約",
-    "example": "There are many shops around the central square. (中央廣場周圍有許多商店。)",
+    "example": "We sat around the campfire and shared warm bread. (我們圍著營火坐下，一起吃熱麵包。)",
     "id": "L1-around-prep-adv"
   },
   {
     "level": "L1",
     "word": "art",
     "meaning": "noun 藝術、美術",
-    "example": "She studied art history at the university. (她在大學學習藝術史。)",
+    "example": "The children used clay to make a piece of art. (孩子們用黏土做了一件藝術作品。)",
     "id": "L1-art-noun"
   },
   {
     "level": "L1",
     "word": "as",
     "meaning": "conj. 因為、當...時、以...的方式\nprep. 作為、以...的身分\nadv. 像...一樣、和...一樣",
-    "example": "She works as a teacher at the local school. (她在當地學校當老師。)",
+    "example": "My aunt works as a nurse in Taichung. (我阿姨在台中擔任護理師。)",
     "id": "L1-as-conj-prep-adv"
   },
   {
     "level": "L1",
     "word": "ask",
     "meaning": "verb 詢問、請求",
-    "example": "Students should ask questions when they don't understand. (學生不懂時應該問問題。)",
+    "example": "Mason asked the shopkeeper where the batteries were. (Mason 詢問店員電池放在哪裡。)",
     "id": "L1-ask-verb"
   },
   {
@@ -402,49 +402,49 @@
     "level": "L1",
     "word": "autumn",
     "meaning": "noun 秋天",
-    "example": "The leaves change color in autumn. (樹葉在秋天變色。)",
+    "example": "We planted tulip bulbs in autumn. (我們在秋天種下鬱金香球根。)",
     "id": "L1-autumn-noun"
   },
   {
     "level": "L1",
     "word": "away",
     "meaning": "adv. 去別處、(距此)...遠、逐漸消失",
-    "example": "The children played away from the busy street. (孩子們在遠離繁忙街道的地方玩耍。)",
+    "example": "The train station is two kilometers away. (火車站在兩公里外。)",
     "id": "L1-away-adv"
   },
   {
     "level": "L1",
     "word": "baby",
     "meaning": "noun 嬰兒、幼稚的人、(暱稱)寶貝",
-    "example": "The baby fell asleep in her mother’s arms.（那個嬰兒在媽媽懷裡睡著了。）",
+    "example": "A baby laughed at the bubbles in the bath. (嬰兒看著浴缸裡的泡泡笑了。)",
     "id": "L1-baby-noun"
   },
   {
     "level": "L1",
     "word": "back",
     "meaning": "noun/adj. 背部、後面；背部的、後面的\nadv. 回原處、返回、向後、在背面\nverb 贊助、支持；使倒退、後退",
-    "example": "Please sit back and relax during the flight. (飛行期間請坐好並放鬆。)",
+    "example": "She put the borrowed book back on the shelf. (她把借來的書放回架上。)",
     "id": "L1-back-noun-adj-adv-verb"
   },
   {
     "level": "L1",
     "word": "bad",
     "meaning": "adj. 壞的、不好的、劣質的",
-    "example": "Smoking is bad for your health. (吸菸對健康有害。)",
+    "example": "The bad smell came from the old lunch box. (難聞的氣味是從舊便當盒傳來的。)",
     "id": "L1-bad-adj"
   },
   {
     "level": "L1",
     "word": "bag",
     "meaning": "noun 袋子、一袋(的量)",
-    "example": "She carried her books in a large bag. (她用一個大袋子裝書。)",
+    "example": "Keep the clean clothes in this bag. (把乾淨的衣服放在這個袋子裡。)",
     "id": "L1-bag-noun"
   },
   {
     "level": "L1",
     "word": "ball",
     "meaning": "noun 球、球狀物",
-    "example": "The children played with a colorful ball in the park. (孩子們在公園裡玩彩色球。)",
+    "example": "A tennis ball bounced into the garden. (一顆網球彈進了花園。)",
     "id": "L1-ball-noun"
   },
   {
@@ -465,7 +465,7 @@
     "level": "L1",
     "word": "band",
     "meaning": "noun 樂團、樂隊；帶、細繩；(數目、年齡、價格等的)範圍",
-    "example": "The rock band performed at the music festival. (搖滾樂隊在音樂節上演出。)",
+    "example": "The marching band practiced outside the school. (行進樂隊在校外練習。)",
     "id": "L1-band-noun"
   },
   {
@@ -479,7 +479,7 @@
     "level": "L1",
     "word": "bar",
     "meaning": "noun 條狀物、條紋、欄杆；酒吧、吧檯\nnoun/verb 障礙；阻擋、禁止",
-    "example": "They met at the bar after work for drinks. (他們下班後在酒吧喝酒。)",
+    "example": "She bought a chocolate bar from the vending machine. (她從自動販賣機買了一條巧克力。)",
     "id": "L1-bar-noun-noun-verb"
   },
   {
@@ -521,21 +521,21 @@
     "level": "L1",
     "word": "basketball",
     "meaning": "noun 籃球",
-    "example": "They played basketball every evening in the gym. (他們每天晚上在體育館打籃球。)",
+    "example": "Their school won a basketball game yesterday. (他們的學校昨天贏了一場籃球賽。)",
     "id": "L1-basketball-noun"
   },
   {
     "level": "L1",
     "word": "bat",
     "meaning": "noun 蝙蝠\nnoun/verb 球棒、球拍；用球棒或球拍擊球",
-    "example": "The baseball player swung the bat with great force. (棒球選手用力揮舞球棒。)",
+    "example": "We saw a bat flying near the cave at dusk. (黃昏時，我們看見一隻蝙蝠在洞穴附近飛。)",
     "id": "L1-bat-noun-noun-verb"
   },
   {
     "level": "L1",
     "word": "bath",
     "meaning": "noun/verb 沐浴、洗澡；(給...)洗澡",
-    "example": "A hot bath helps relax tired muscles. (熱水澡有助於放鬆疲勞的肌肉。)",
+    "example": "The child had a bath before bedtime. (孩子睡前洗了澡。)",
     "id": "L1-bath-noun-verb"
   },
   {
@@ -549,63 +549,63 @@
     "level": "L1",
     "word": "bathroom",
     "meaning": "noun 浴室、廁所",
-    "example": "The hotel bathroom was clean and modern. (飯店的浴室乾淨又現代。)",
+    "example": "Please use the bathroom before boarding the bus. (上公車前請先去洗手間。)",
     "id": "L1-bathroom-noun"
   },
   {
     "level": "L1",
     "word": "be",
     "meaning": "verb 是(助動詞)",
-    "example": "Everyone wants to be happy and successful. (每個人都想要快樂和成功。)",
+    "example": "There is a small cafe beside the station. (車站旁邊有一間小咖啡館。)",
     "id": "L1-be-verb"
   },
   {
     "level": "L1",
     "word": "beach",
     "meaning": "noun 海灘、湖濱",
-    "example": "Families enjoyed swimming at the sandy beach. (家庭在沙灘上享受游泳。)",
+    "example": "The beach was covered with shells after the tide went out. (退潮後，海灘上留下許多貝殼。)",
     "id": "L1-beach-noun"
   },
   {
     "level": "L1",
     "word": "bear",
     "meaning": "noun 熊\nverb 承擔、忍受、負荷；具有；生孩子、結果實",
-    "example": "The old bridge cannot bear the weight of heavy trucks. (舊橋無法承受重型卡車的重量。)",
+    "example": "She cannot bear loud music while reading. (她讀書時受不了太吵的音樂。)",
     "id": "L1-bear-noun-verb"
   },
   {
     "level": "L1",
     "word": "beat",
     "meaning": "verb 打敗、戰勝；敲打、攪打\nnoun 跳動聲、擊鼓聲；節拍",
-    "example": "Our team will beat the opponents in tomorrow's game. (我們的隊伍明天會在比賽中打敗對手。)",
+    "example": "The drummer kept a steady beat during rehearsal. (排練時，鼓手維持穩定的節拍。)",
     "id": "L1-beat-verb-noun"
   },
   {
     "level": "L1",
     "word": "beautiful",
     "meaning": "adj. 美麗的、極好的",
-    "example": "The sunset over the mountains was truly beautiful. (山上的日落真的很美麗。)",
+    "example": "A beautiful mural brightened the hallway. (一幅美麗的壁畫讓走廊明亮起來。)",
     "id": "L1-beautiful-adj"
   },
   {
     "level": "L1",
     "word": "because",
     "meaning": "conj. 因為",
-    "example": "She stayed home because she was feeling sick. (她待在家裡因為感覺不舒服。)",
+    "example": "We took the train because the road was closed. (因為道路封閉，我們改搭火車。)",
     "id": "L1-because-conj"
   },
   {
     "level": "L1",
     "word": "become",
     "meaning": "verb 成為、變得",
-    "example": "Hard work can help you become successful. (努力工作可以幫助你成功。)",
+    "example": "The seeds will become tall sunflowers by summer. (到了夏天，這些種子會長成高大的向日葵。)",
     "id": "L1-become-verb"
   },
   {
     "level": "L1",
     "word": "bed",
     "meaning": "noun 床、床位",
-    "example": "The tired children went straight to bed. (疲倦的孩子們直接上床睡覺。)",
+    "example": "The cat curled up on the guest bed. (貓蜷縮在客房的床上。)",
     "id": "L1-bed-noun"
   },
   {
@@ -619,70 +619,70 @@
     "level": "L1",
     "word": "before",
     "meaning": "prep./conj./adv. 在…之前、先於；在...以前；曾經、在前",
-    "example": "Please finish your homework before watching TV. (看電視前請先完成作業。)",
+    "example": "Check your bag before you leave the classroom. (離開教室前，檢查一下你的包包。)",
     "id": "L1-before-prep-conj-adv"
   },
   {
     "level": "L1",
     "word": "begin",
     "meaning": "verb 開始、以...起頭",
-    "example": "The concert will begin at eight o'clock sharp. (音樂會將在八點整開始。)",
+    "example": "The cooking show begins with a simple salad. (烹飪節目一開始會介紹一道簡單的沙拉。)",
     "id": "L1-begin-verb"
   },
   {
     "level": "L1",
     "word": "behind",
     "meaning": "prep./adv. 在…後面；在背後、在原處、落後於",
-    "example": "The shy child hid behind her mother. (害羞的孩子躲在媽媽後面。)",
+    "example": "A row of trees grows behind the gym. (體育館後方長著一排樹。)",
     "id": "L1-behind-prep-adv"
   },
   {
     "level": "L1",
     "word": "believe",
     "meaning": "verb 相信",
-    "example": "I believe that education is very important. (我相信教育非常重要。)",
+    "example": "I believe the bakery opens at seven. (我相信麵包店七點開門。)",
     "id": "L1-believe-verb"
   },
   {
     "level": "L1",
     "word": "bell",
     "meaning": "noun 鈴、鐘",
-    "example": "The school bell rings every hour. (學校的鈴每小時響一次。)",
+    "example": "A bicycle bell warned us on the path. (自行車鈴聲在步道上提醒了我們。)",
     "id": "L1-bell-noun"
   },
   {
     "level": "L1",
     "word": "belong",
     "meaning": "verb 屬於、應在...地方",
-    "example": "These books belong to the library. (這些書屬於圖書館。)",
+    "example": "This blue cup belongs on the top shelf. (這個藍色杯子應該放在最上層的架子。)",
     "id": "L1-belong-verb"
   },
   {
     "level": "L1",
     "word": "below",
     "meaning": "adv./prep. 在...下面、低於",
-    "example": "The temperature dropped below freezing last night. (昨晚氣溫降到冰點以下。)",
+    "example": "The path runs below the old stone bridge. (小徑從古老石橋的下方通過。)",
     "id": "L1-below-adv-prep"
   },
   {
     "level": "L1",
     "word": "beside",
     "meaning": "prep. 在...旁邊",
-    "example": "She sat beside her best friend during lunch. (午餐時她坐在最好朋友旁邊。)",
+    "example": "A child placed the drawing beside the window. (孩子把畫作放在窗戶旁邊。)",
     "id": "L1-beside-prep"
   },
   {
     "level": "L1",
     "word": "best",
     "meaning": "adv./adj. 最、最適當地；最好的、最適當的\nnoun 最好的人或事\nverb 打敗、戰勝",
-    "example": "This is the best restaurant in the city. (這是城裡最好的餐廳。)",
+    "example": "She chose the best apple from the basket. (她從籃子裡挑出最好的蘋果。)",
     "id": "L1-best-adv-adj-noun-verb"
   },
   {
     "level": "L1",
     "word": "better",
     "meaning": "adv./adj. 更、更好地；更好的、好轉的\nnoun 更好的事物、更好者\nverb 勝過、超過",
-    "example": "Practice makes your English better every day. (練習讓你的英語每天都更好。)",
+    "example": "The soup tastes better with fresh herbs. (加了新鮮香草後，湯喝起來更好喝。)",
     "id": "L1-better-adv-adj-noun-verb"
   },
   {
@@ -696,14 +696,14 @@
     "level": "L1",
     "word": "bicycle",
     "meaning": "noun 腳踏車",
-    "example": "She rides her bicycle to work every morning. (她每天早上騎腳踏車上班。)",
+    "example": "We fixed the bicycle tire before the ride. (騎車出發前，我們修好了自行車輪胎。)",
     "id": "L1-bicycle-noun"
   },
   {
     "level": "L1",
     "word": "big",
     "meaning": "adj. 大的、年齡較大的、重大的",
-    "example": "The big decision changed her entire life. (這個重大決定改變了她的整個人生。)",
+    "example": "They planted a big tree near the playground. (他們在遊樂場附近種了一棵大樹。)",
     "id": "L1-big-adj"
   },
   {
@@ -717,28 +717,28 @@
     "level": "L1",
     "word": "bit",
     "meaning": "noun 稍微、小塊、少量、一點點",
-    "example": "Could you move over just a bit? (你能稍微挪一下嗎？)",
+    "example": "The puppy nibbled a bit of cheese. (小狗啃了一小塊起司。)",
     "id": "L1-bit-noun"
   },
   {
     "level": "L1",
     "word": "bite",
     "meaning": "verb/noun 咬、叮",
-    "example": "The mosquito bite made her arm itchy. (蚊子叮咬讓她的手臂發癢。)",
+    "example": "One bite of the peach made her smile. (咬了一口水蜜桃，她就露出了笑容。)",
     "id": "L1-bite-verb-noun"
   },
   {
     "level": "L1",
     "word": "black",
     "meaning": "adj./noun 黑色的；黑色",
-    "example": "She wore a black dress to the formal dinner. (她穿了一件黑色禮服參加正式晚餐。)",
+    "example": "A black umbrella stood by the classroom door. (一把黑色雨傘放在教室門邊。)",
     "id": "L1-black-adj-noun"
   },
   {
     "level": "L1",
     "word": "block",
     "meaning": "noun 街區；大樓；大塊；堵塞物、障礙物\nverb 堵塞；阻擋；擋住；妨礙",
-    "example": "The fallen tree blocked the entire road. (倒下的樹阻擋了整條道路。)",
+    "example": "A block of ice floated in the bowl of punch. (一大塊冰漂在水果飲料的碗裡。)",
     "id": "L1-block-noun-verb"
   },
   {
@@ -752,14 +752,14 @@
     "level": "L1",
     "word": "blow",
     "meaning": "verb 吹；吹奏；擤鼻子；炸毀；爆裂\nnoun 吹；吹奏(樂器)；擤(鼻子)；重擊；打擊",
-    "example": "Strong winds blow from the ocean. (強風從海洋吹來。)",
+    "example": "Please blow gently on the soup to cool it. (請輕輕吹湯，讓它涼一點。)",
     "id": "L1-blow-verb-noun"
   },
   {
     "level": "L1",
     "word": "blue",
     "meaning": "adj./noun 藍色的；藍色\nadj. 悲傷的、憂鬱的",
-    "example": "The clear sky was a beautiful blue color. (晴朗的天空是美麗的藍色。)",
+    "example": "She chose a blue scarf to match her coat. (她挑了一條藍色圍巾搭配外套。)",
     "id": "L1-blue-adj-noun-adj"
   },
   {
@@ -773,21 +773,21 @@
     "level": "L1",
     "word": "body",
     "meaning": "noun 身體、軀幹、屍體",
-    "example": "Regular exercise keeps your body healthy and strong. (定期運動讓你的身體健康強壯。)",
+    "example": "The yoga class helped him stretch his body. (瑜伽課幫助他伸展身體。)",
     "id": "L1-body-noun"
   },
   {
     "level": "L1",
     "word": "bone",
     "meaning": "noun 骨頭",
-    "example": "The doctor examined the broken bone carefully. (醫生仔細檢查了骨折的骨頭。)",
+    "example": "The puppy buried a bone under the blanket. (小狗把一根骨頭埋在毯子下面。)",
     "id": "L1-bone-noun"
   },
   {
     "level": "L1",
     "word": "book",
     "meaning": "noun 書、簿冊\nverb 預訂、預約",
-    "example": "She booked a table at the restaurant for tonight. (她為今晚在餐廳預訂了桌位。)",
+    "example": "I booked two tickets for the science museum online. (我在網路上預訂了兩張科學博物館的門票。)",
     "id": "L1-book-noun-verb"
   },
   {
@@ -801,14 +801,14 @@
     "level": "L1",
     "word": "both",
     "meaning": "adv./adj./pron. 兩個、兩者、雙方",
-    "example": "Both students passed the difficult examination. (兩個學生都通過了困難的考試。)",
+    "example": "Both doors lead to the garden. (兩扇門都通往花園。)",
     "id": "L1-both-adv-adj-pron"
   },
   {
     "level": "L1",
     "word": "bottom",
     "meaning": "noun/adj./verb 底部、屁股；最底下的、最後的；到達底部、降到最低點\nnoun 套裝的裙或褲",
-    "example": "The keys fell to the bottom of the pool. (鑰匙掉到了游泳池底部。)",
+    "example": "A tiny crab rested at the bottom of the bucket. (一隻小螃蟹待在水桶底部。)",
     "id": "L1-bottom-noun-adj-verb-noun"
   },
   {
@@ -829,7 +829,7 @@
     "level": "L1",
     "word": "boy",
     "meaning": "noun 男孩",
-    "example": "The young boy helped his grandmother cross the street. (小男孩幫助祖母過馬路。)",
+    "example": "A boy flew a paper plane across the room. (一個男孩讓紙飛機飛過房間。)",
     "id": "L1-boy-noun"
   },
   {
@@ -843,28 +843,28 @@
     "level": "L1",
     "word": "bread",
     "meaning": "noun 麵包",
-    "example": "Fresh bread smells wonderful when it's baking. (新鮮麵包烘烤時聞起來很香。)",
+    "example": "The baker shaped dough into small bread rolls. (麵包師傅把麵團捏成小餐包。)",
     "id": "L1-bread-noun"
   },
   {
     "level": "L1",
     "word": "break",
     "meaning": "verb/noun 打破、弄壞；毀壞、打破、裂縫\nnoun 休息時間、課間休息、假期\nverb/noun 中止、中斷\nverb 違反、違背",
-    "example": "Students have a fifteen-minute break between classes. (學生在課間有十五分鐘的休息時間。)",
+    "example": "Be careful not to break the thin glass cup. (小心不要打破這個薄玻璃杯。)",
     "id": "L1-break-verb-noun-noun-verb-noun"
   },
   {
     "level": "L1",
     "word": "breakfast",
     "meaning": "noun 早餐",
-    "example": "A healthy breakfast gives you energy for the day. (健康的早餐為你提供一天的能量。)",
+    "example": "We packed breakfast to eat on the train. (我們準備了早餐，打算在火車上吃。)",
     "id": "L1-breakfast-noun"
   },
   {
     "level": "L1",
     "word": "bridge",
     "meaning": "noun/verb 橋、橋梁；在...上架橋、縮短差異",
-    "example": "The new bridge connects the two sides of the river. (新橋連接了河的兩岸。)",
+    "example": "An old footbridge crosses the stream near our farm. (我們農場附近有一座橫跨溪流的老步橋。)",
     "id": "L1-bridge-noun-verb"
   },
   {
@@ -878,14 +878,14 @@
     "level": "L1",
     "word": "bring",
     "meaning": "verb 帶來、導致",
-    "example": "Please bring your passport to the airport. (請帶護照到機場。)",
+    "example": "Bring your raincoat in case the sky gets dark. (如果天色變暗，記得帶上雨衣。)",
     "id": "L1-bring-verb"
   },
   {
     "level": "L1",
     "word": "brother",
     "meaning": "noun 兄弟",
-    "example": "Her brother is studying medicine at university. (她的兄弟在大學學醫。)",
+    "example": "My brother built a birdhouse from leftover wood. (我哥哥用剩下的木料做了一個鳥屋。)",
     "id": "L1-brother-noun"
   },
   {
@@ -906,42 +906,42 @@
     "level": "L1",
     "word": "build",
     "meaning": "verb 建造、開闢",
-    "example": "The company plans to build a new factory. (公司計劃建造一座新工廠。)",
+    "example": "Neighbors built a shelf for the shared book corner. (鄰居們為共讀角做了一座書架。)",
     "id": "L1-build-verb"
   },
   {
     "level": "L1",
     "word": "building",
     "meaning": "noun 建築物、房子",
-    "example": "The tall building has thirty floors. (這棟高樓有三十層。)",
+    "example": "This building has a bakery and a clinic on the first floor. (這棟建築物的一樓有麵包店和診所。)",
     "id": "L1-building-noun"
   },
   {
     "level": "L1",
     "word": "bus",
     "meaning": "noun 公車、大客車",
-    "example": "The school bus picks up children every morning. (校車每天早上接送孩子們。)",
+    "example": "We rode the bus to a weekend flower market. (我們搭公車去週末花市。)",
     "id": "L1-bus-noun"
   },
   {
     "level": "L1",
     "word": "busy",
     "meaning": "adj. 忙碌的、繁忙的、(電話)佔線的",
-    "example": "The busy intersection has traffic lights. (繁忙的十字路口有紅綠燈。)",
+    "example": "The cafe is busy on rainy afternoons. (下雨的午後，咖啡館總是很忙碌。)",
     "id": "L1-busy-adj"
   },
   {
     "level": "L1",
     "word": "but",
     "meaning": "adv./conj./prep. 只有、僅僅；但是；除…以外",
-    "example": "The movie was long but very entertaining. (電影很長但非常有趣。)",
+    "example": "I wore a hat, but I still got sunburned. (我戴了帽子，但還是曬傷了。)",
     "id": "L1-but-adv-conj-prep"
   },
   {
     "level": "L1",
     "word": "butter",
     "meaning": "noun/verb 奶油；塗奶油於",
-    "example": "Fresh butter makes the bread taste better. (新鮮奶油讓麵包嚐起來更好。)",
+    "example": "She put a little butter on the hot corn. (她在熱玉米上抹了一點奶油。)",
     "id": "L1-butter-noun-verb"
   },
   {
@@ -955,14 +955,14 @@
     "level": "L1",
     "word": "buy",
     "meaning": "verb/noun 買；購買、買賣",
-    "example": "They decided to buy a house near the school. (他們決定在學校附近買房子。)",
+    "example": "We buy vegetables from the market every Friday. (我們每個星期五都在市場買蔬菜。)",
     "id": "L1-buy-verb-noun"
   },
   {
     "level": "L1",
     "word": "by",
     "meaning": "prep./adv. 藉由、被、在旁邊、早於；經過",
-    "example": "The book was written by a famous author. (這本書是由著名作者寫的。)",
+    "example": "Please send the form by email before noon. (請在中午前用電子郵件寄出表格。)",
     "id": "L1-by-prep-adv"
   },
   {
@@ -976,14 +976,14 @@
     "level": "L1",
     "word": "cake",
     "meaning": "noun 蛋糕",
-    "example": "She baked a chocolate cake for the birthday party. (她為生日派對烤了巧克力蛋糕。)",
+    "example": "A small lemon cake sat in the shop window. (櫥窗裡擺著一個小檸檬蛋糕。)",
     "id": "L1-cake-noun"
   },
   {
     "level": "L1",
     "word": "call",
     "meaning": "verb/noun 打電話；打電話、通話\nverb 給...命名、稱呼、把...視為\nverb/noun 呼叫、鳴叫、召喚",
-    "example": "Please call me when you arrive safely. (當你安全到達時請打電話給我。)",
+    "example": "The coach will call the players onto the court. (教練會叫球員們上場。)",
     "id": "L1-call-verb-noun-verb-verb-noun"
   },
   {
@@ -997,14 +997,14 @@
     "level": "L1",
     "word": "camp",
     "meaning": "noun/verb 營地、兵營、陣營；露營、紮營",
-    "example": "Children love to camp in the forest during summer. (孩子們喜歡在夏天到森林裡露營。)",
+    "example": "We set up camp beside a quiet stream. (我們在安靜的小溪旁紮營。)",
     "id": "L1-camp-noun-verb"
   },
   {
     "level": "L1",
     "word": "can",
     "meaning": "aux. (助動詞)能、會、可以",
-    "example": "You can achieve anything with hard work. (只要努力，你什麼都能做到。)",
+    "example": "Can I borrow your red pencil for a moment? (我可以借你的紅色鉛筆一下嗎？)",
     "id": "L1-can-aux"
   },
   {
@@ -1032,35 +1032,35 @@
     "level": "L1",
     "word": "card",
     "meaning": "noun 卡片、紙牌、賀卡",
-    "example": "She sent a birthday card to her grandmother. (她寄了一張生日賀卡給祖母。)",
+    "example": "He placed the bus card in his wallet. (他把公車卡放進皮夾裡。)",
     "id": "L1-card-noun"
   },
   {
     "level": "L1",
     "word": "care",
     "meaning": "noun/verb 照顧、擔憂、謹慎；照顧、關心、在意",
-    "example": "Parents care deeply about their children's happiness. (父母深深關心孩子們的幸福。)",
+    "example": "Take care when you carry the glass vase. (搬玻璃花瓶時要小心。)",
     "id": "L1-care-noun-verb"
   },
   {
     "level": "L1",
     "word": "careful",
     "meaning": "adj. 小心的、仔細的",
-    "example": "Be careful when crossing the busy street. (過繁忙街道時要小心。)",
+    "example": "A careful driver slows down near the school gate. (細心的駕駛會在校門附近減速。)",
     "id": "L1-careful-adj"
   },
   {
     "level": "L1",
     "word": "carry",
     "meaning": "verb 背、搬運、攜帶、運送",
-    "example": "Strong workers carry heavy boxes easily. (強壯的工人輕鬆搬運重箱子。)",
+    "example": "Please carry this basket to Grandma's kitchen. (請把這個籃子拿到奶奶的廚房。)",
     "id": "L1-carry-verb"
   },
   {
     "level": "L1",
     "word": "case",
     "meaning": "noun 箱、盒、容器；案件、案例",
-    "example": "The detective solved the difficult case quickly. (偵探迅速解決了困難的案件。)",
+    "example": "The glasses are safe in a hard case. (眼鏡放在硬殼盒裡很安全。)",
     "id": "L1-case-noun"
   },
   {
@@ -1074,14 +1074,14 @@
     "level": "L1",
     "word": "catch",
     "meaning": "verb/noun 接住、捕捉；罹患、染病；聽見、聽清楚；趕上(交通工具)、追上\nnoun 接球；捕獲量",
-    "example": "The baseball player will catch the high fly ball. (棒球選手會接住高飛球。)",
+    "example": "Will you catch the last train if we leave now? (我們現在出發的話，趕得上末班車嗎？)",
     "id": "L1-catch-verb-noun-noun"
   },
   {
     "level": "L1",
     "word": "cause",
     "meaning": "verb/noun 導致、由於；原因、理由",
-    "example": "Heavy rain can cause flooding in low areas. (大雨可能在低窪地區引起洪水。)",
+    "example": "A loose button caused the jacket to open. (一顆鬆掉的鈕扣讓外套敞開了。)",
     "id": "L1-cause-verb-noun"
   },
   {
@@ -1095,14 +1095,14 @@
     "level": "L1",
     "word": "center",
     "meaning": "noun/verb 中心點、中心區、活動中心；集中、使置中",
-    "example": "The shopping center attracts many customers daily. (購物中心每天吸引許多顧客。)",
+    "example": "Draw a dot at the center of the circle. (在圓圈的中心畫一個點。)",
     "id": "L1-center-noun-verb"
   },
   {
     "level": "L1",
     "word": "certain",
     "meaning": "adj. 肯定的、確定的、必然的",
-    "example": "We are certain that the plan will succeed. (我們確信計劃會成功。)",
+    "example": "Mina is certain that the bus comes every fifteen minutes. (Mina 確定公車每十五分鐘來一班。)",
     "id": "L1-certain-adj"
   },
   {
@@ -1116,7 +1116,7 @@
     "level": "L1",
     "word": "chance",
     "meaning": "noun 機會、可能性、巧合",
-    "example": "This is your chance to make a good impression. (這是你留下好印象的機會。)",
+    "example": "There is a chance we will see dolphins on the boat trip. (我們搭船時有可能會看到海豚。)",
     "id": "L1-chance-noun"
   },
   {
@@ -1130,7 +1130,7 @@
     "level": "L1",
     "word": "chase",
     "meaning": "verb 追趕、追捕、追求",
-    "example": "The dog likes to chase balls in the park. (狗喜歡在公園裡追球。)",
+    "example": "The little boy chased soap bubbles across the yard. (小男孩追著肥皂泡跑過院子。)",
     "id": "L1-chase-verb"
   },
   {
@@ -1172,7 +1172,7 @@
     "level": "L1",
     "word": "church",
     "meaning": "noun 教堂、教會",
-    "example": "The old church bell rings every Sunday morning. (古老的教堂鐘每個星期天早上響起。)",
+    "example": "A small church stands beside the old train station. (一間小教堂位於舊火車站旁。)",
     "id": "L1-church-noun"
   },
   {
@@ -1186,21 +1186,21 @@
     "level": "L1",
     "word": "class",
     "meaning": "noun 課、班級\nnoun/verb 階級、等級；把...歸類、把...分級",
-    "example": "The class studied ancient history together. (班級一起學習古代歷史。)",
+    "example": "Our class painted signs for the school fair. (我們班為學校園遊會畫了標示牌。)",
     "id": "L1-class-noun-noun-verb"
   },
   {
     "level": "L1",
     "word": "clean",
     "meaning": "adj./verb/noun 乾淨的、清潔的；清潔、打掃；清潔、打掃\nadj./adv. 完全的、徹底的；完全地、徹底地",
-    "example": "Please keep the kitchen clean after cooking. (烹飪後請保持廚房清潔。)",
+    "example": "Please clean the paintbrushes before the paint dries. (顏料乾掉前，請把畫筆清洗乾淨。)",
     "id": "L1-clean-adj-verb-noun-adj-adv"
   },
   {
     "level": "L1",
     "word": "clear",
     "meaning": "verb 清除、清掃；使變清楚、使清晰\nadj. 清楚的、清晰的；暢通的、無阻礙的；不接觸的、不靠近的\nadv. 不觸及地、不靠近地",
-    "example": "The instructions must be clear and easy to follow. (指示必須清楚且容易遵循。)",
+    "example": "A strong wind cleared the clouds from the sky. (強風吹散了天空中的雲。)",
     "id": "L1-clear-verb-adj-adv"
   },
   {
@@ -1732,7 +1732,7 @@
     "level": "L1",
     "word": "east",
     "meaning": "noun/adv./adj. 東方；向東；東邊的",
-    "example": "The sun rises in the east every morning. (太陽每天早上從東方升起。)",
+    "example": "Our campsite is east of the lake. (我們的營地在湖的東邊。)",
     "id": "L1-east-noun-adv-adj"
   },
   {
@@ -1753,7 +1753,7 @@
     "level": "L1",
     "word": "edge",
     "meaning": "noun 邊緣；刀刃",
-    "example": "Sharp knives have a dangerous edge. (鋒利的刀有危險的刀刃。)",
+    "example": "The red tablecloth reached the edge of the table. (紅色桌巾垂到了桌子邊緣。)",
     "id": "L1-edge-noun"
   },
   {
@@ -1767,28 +1767,28 @@
     "level": "L1",
     "word": "eight",
     "meaning": "number/pron./noun/adj. 八",
-    "example": "The meeting starts at eight o'clock sharp. (會議八點整開始。)",
+    "example": "Eight cups are ready for the picnic. (野餐要用的八個杯子都準備好了。)",
     "id": "L1-eight-number-pron-noun-adj"
   },
   {
     "level": "L1",
     "word": "eighteen",
     "meaning": "number/pron./noun/adj. 十八",
-    "example": "She learned to drive at eighteen years old. (她十八歲學會開車。)",
+    "example": "Eighteen families joined the neighborhood picnic. (有十八個家庭參加了社區野餐。)",
     "id": "L1-eighteen-number-pron-noun-adj"
   },
   {
     "level": "L1",
     "word": "eighty",
     "meaning": "number/pron./noun/adj. 八十",
-    "example": "His grandfather lived to eighty years old. (他的祖父活到八十歲。)",
+    "example": "The library has eighty seats in its main room. (圖書館的主閱覽室有八十個座位。)",
     "id": "L1-eighty-number-pron-noun-adj"
   },
   {
     "level": "L1",
     "word": "either",
     "meaning": "adv. 也(否定句)\npron./adj./conj. (兩者中)任一個",
-    "example": "You can choose either option for lunch. (你可以選擇任一午餐選項。)",
+    "example": "Either of these two paths leads to the garden. (這兩條小徑任選一條都能通往花園。)",
     "id": "L1-either-adv-pron-adj-conj"
   },
   {
@@ -1802,7 +1802,7 @@
     "level": "L1",
     "word": "eleven",
     "meaning": "number/pron./noun/adj. 十一",
-    "example": "The soccer team has eleven players. (足球隊有十一名球員。)",
+    "example": "Eleven students shared the large art table. (十一位學生共用那張大型美術桌。)",
     "id": "L1-eleven-number-pron-noun-adj"
   },
   {
@@ -1816,7 +1816,7 @@
     "level": "L1",
     "word": "end",
     "meaning": "noun/verb 結束、末端；結束",
-    "example": "Every story has a beginning and end. (每個故事都有開始和結尾。)",
+    "example": "At the end of the recipe, add a squeeze of lemon. (食譜最後一步，擠入一些檸檬汁。)",
     "id": "L1-end-noun-verb"
   },
   {
@@ -1830,7 +1830,7 @@
     "level": "L1",
     "word": "enough",
     "meaning": "adv./adj./pron. 足夠的",
-    "example": "There isn't enough time to finish. (沒有足夠的時間完成。)",
+    "example": "We have enough paint to finish the fence. (我們有足夠的油漆把圍欄刷完。)",
     "id": "L1-enough-adv-adj-pron"
   },
   {
@@ -1865,7 +1865,7 @@
     "level": "L1",
     "word": "ever",
     "meaning": "adv. 從來、在任何時候",
-    "example": "Have you ever visited another country? (你曾經訪問過其他國家嗎？)",
+    "example": "Have you ever tried making rice balls? (你曾經試過做飯糰嗎？)",
     "id": "L1-ever-adv"
   },
   {
@@ -1900,7 +1900,7 @@
     "level": "L1",
     "word": "except",
     "meaning": "conj./prep. 除…之外",
-    "example": "Everyone attended except the sick student. (除了生病的學生外每個人都參加了。)",
+    "example": "The shop is open every day except Sunday. (這家店除了星期日，每天都營業。)",
     "id": "L1-except-conj-prep"
   },
   {
@@ -1914,7 +1914,7 @@
     "level": "L1",
     "word": "face",
     "meaning": "noun/verb 臉；面對",
-    "example": "She smiled when they faced each other. (當他們面對面時她笑了。)",
+    "example": "Face the window when you take the group photo. (拍團體照時，請面向窗戶。)",
     "id": "L1-face-noun-verb"
   },
   {
@@ -1949,7 +1949,7 @@
     "level": "L1",
     "word": "fan",
     "meaning": "noun 迷、狂熱愛好者；扇",
-    "example": "The electric fan cooled the room. (電風扇讓房間涼爽。)",
+    "example": "A fan watched every game from the front row. (一位粉絲從第一排觀看每一場比賽。)",
     "id": "L1-fan-noun"
   },
   {
@@ -2019,7 +2019,7 @@
     "level": "L1",
     "word": "feel",
     "meaning": "verb 感覺",
-    "example": "Students feel nervous before important exams. (學生在重要考試前感到緊張。)",
+    "example": "I feel warm after carrying the boxes upstairs. (把箱子搬上樓後，我覺得身體暖和起來。)",
     "id": "L1-feel-verb"
   },
   {
@@ -2033,7 +2033,7 @@
     "level": "L1",
     "word": "few",
     "meaning": "pron./adj. 少數的",
-    "example": "Only a few students arrived early. (只有少數學生早到。)",
+    "example": "A few ripe tomatoes are ready to pick. (有幾顆熟番茄可以採收了。)",
     "id": "L1-few-pron-adj"
   },
   {
@@ -2131,7 +2131,7 @@
     "level": "L1",
     "word": "five",
     "meaning": "number/pron./noun/adj. 五",
-    "example": "The meeting starts at five o'clock. (會議五點開始。)",
+    "example": "Five ducks crossed the pond before lunch. (午餐前有五隻鴨子游過池塘。)",
     "id": "L1-five-number-pron-noun-adj"
   },
   {
@@ -2187,7 +2187,7 @@
     "level": "L1",
     "word": "for",
     "meaning": "prep. 為了、給、(時間、距離)達\nconj. 因為",
-    "example": "She studied hard for the exam. (她為考試努力學習。)",
+    "example": "This handmade scarf is for my sister. (這條手織圍巾是要送給我姊姊的。)",
     "id": "L1-for-prep-conj"
   },
   {
@@ -2236,7 +2236,7 @@
     "level": "L1",
     "word": "four",
     "meaning": "number/pron./noun/adj. 四",
-    "example": "The table has four wooden legs. (桌子有四條木腿。)",
+    "example": "Four small birds rested on the fence. (四隻小鳥停在圍欄上休息。)",
     "id": "L1-four-number-pron-noun-adj"
   },
   {
@@ -2250,7 +2250,7 @@
     "level": "L1",
     "word": "free",
     "meaning": "adj. 空閒、免費、自由的\nverb 使自由",
-    "example": "Education should be free for everyone. (教育對每個人都應該是免費的。)",
+    "example": "The museum is free on Sundays. (這間博物館星期日免費入場。)",
     "id": "L1-free-adj-verb"
   },
   {
@@ -2292,7 +2292,7 @@
     "level": "L1",
     "word": "front",
     "meaning": "noun/adj. 前面；前面的",
-    "example": "Students sit in the front row. (學生坐在前排。)",
+    "example": "Please wait at the front of the line. (請在隊伍前面等候。)",
     "id": "L1-front-noun-adj"
   },
   {
@@ -2334,7 +2334,7 @@
     "level": "L1",
     "word": "garden",
     "meaning": "noun 花園",
-    "example": "The school garden teaches students about nature. (學校花園教導學生關於自然。)",
+    "example": "Grandpa grows tomatoes in his garden. (爺爺在他的花園裡種番茄。)",
     "id": "L1-garden-noun"
   },
   {
@@ -2348,7 +2348,7 @@
     "level": "L1",
     "word": "general",
     "meaning": "adj. 一般的、普遍的\nnoun 將軍",
-    "example": "General knowledge helps in many situations. (常識在許多情況下都有幫助。)",
+    "example": "The guide gave us some general advice about the trip. (導遊給了我們一些關於這趟旅行的一般建議。)",
     "id": "L1-general-adj-noun"
   },
   {
@@ -2397,7 +2397,7 @@
     "level": "L1",
     "word": "glass",
     "meaning": "noun 玻璃、一杯",
-    "example": "The glass windows let in natural light. (玻璃窗讓自然光進入。)",
+    "example": "Mia poured a glass of water after her run. (Mia 跑完步後倒了一杯水。)",
     "id": "L1-glass-noun"
   },
   {
@@ -2453,7 +2453,7 @@
     "level": "L1",
     "word": "grand",
     "meaning": "adj. 宏偉的；盛大的；重大的",
-    "example": "The grand library impressed all visitors. (宏偉的圖書館讓所有訪客印象深刻。)",
+    "example": "A grand parade filled the main street with music. (盛大的遊行讓主街充滿音樂。)",
     "id": "L1-grand-adj"
   },
   {
@@ -2558,7 +2558,7 @@
     "level": "L1",
     "word": "gun",
     "meaning": "noun 槍",
-    "example": "Police officers carry guns for protection. (警察攜帶槍支進行保護。)",
+    "example": "The museum displayed an old toy gun behind glass. (博物館把一把老玩具槍陳列在玻璃櫃裡。)",
     "id": "L1-gun-noun"
   },
   {
@@ -2579,7 +2579,7 @@
     "level": "L1",
     "word": "half",
     "meaning": "pron./noun 一半(之人、物)；一半、半個\nadj. 一半的、不完全的、部分的\nadv. 一半地、部分地",
-    "example": "Half the students passed the exam. (一半的學生通過了考試。)",
+    "example": "I ate half of the sandwich during the break. (我在休息時間吃了半份三明治。)",
     "id": "L1-half-pron-noun-adj-adv"
   },
   {
@@ -3104,7 +3104,7 @@
     "level": "L1",
     "word": "king",
     "meaning": "noun 國王",
-    "example": "The chess king is the most important piece. (西洋棋中的國王是最重要的棋子。)",
+    "example": "The king in this story shares his food with the village. (這個故事裡的國王和村民分享食物。)",
     "id": "L1-king-noun"
   },
   {
@@ -3293,7 +3293,7 @@
     "level": "L1",
     "word": "left",
     "meaning": "noun/adv. 左邊、左側；向左\nadj. 左邊的、左側的、剩下的",
-    "example": "Turn left at the library entrance. (在圖書館入口向左轉。)",
+    "example": "Our classroom is the second door on the left. (我們的教室是左邊第二扇門。)",
     "id": "L1-left-noun-adv-adj"
   },
   {
@@ -3342,7 +3342,7 @@
     "level": "L1",
     "word": "lie",
     "meaning": "verb 躺下、橫臥、擺放\nnoun/verb 謊言；說謊",
-    "example": "Honesty means never telling a lie. (誠實意味著從不說謊。)",
+    "example": "The dog likes to lie beside the sunny window. (那隻狗喜歡躺在陽光充足的窗邊。)",
     "id": "L1-lie-verb-noun-verb"
   },
   {
@@ -3874,7 +3874,7 @@
     "level": "L1",
     "word": "near",
     "meaning": "prep./adj./adv./verb 接近；近的；在附近",
-    "example": "The library is near the science building. (圖書館靠近科學大樓。)",
+    "example": "There is a small bakery near my apartment. (我家公寓附近有一家小麵包店。)",
     "id": "L1-near-prep-adj-adv-verb"
   },
   {
@@ -4049,7 +4049,7 @@
     "level": "L1",
     "word": "now",
     "meaning": "adv./noun/pron. 現在",
-    "example": "Now is the time to start studying. (現在是開始學習的時候。)",
+    "example": "We have enough time to leave now. (我們現在有足夠的時間出發。)",
     "id": "L1-now-adv-noun-pron"
   },
   {
@@ -4259,7 +4259,7 @@
     "level": "L1",
     "word": "pair",
     "meaning": "noun 對",
-    "example": "Students work in pairs for projects. (學生兩人一組進行專案。)",
+    "example": "I bought a pair of socks at the night market. (我在夜市買了一雙襪子。)",
     "id": "L1-pair-noun"
   },
   {
@@ -4280,7 +4280,7 @@
     "level": "L1",
     "word": "parent",
     "meaning": "noun 父母親",
-    "example": "Parents support their children's education. (父母支持孩子的教育。)",
+    "example": "One parent volunteered to read a story to the class. (一位家長自願到班上念故事。)",
     "id": "L1-parent-noun"
   },
   {
@@ -4308,7 +4308,7 @@
     "level": "L1",
     "word": "pass",
     "meaning": "verb/noun 經過；通行證",
-    "example": "All students hope to pass their exams. (所有學生都希望通過考試。)",
+    "example": "A friendly dog passed us on the walking trail. (一隻親人的狗從我們身邊經過步道。)",
     "id": "L1-pass-verb-noun"
   },
   {
@@ -4329,7 +4329,7 @@
     "level": "L1",
     "word": "pen",
     "meaning": "noun 筆",
-    "example": "Students write notes with a pen. (學生用筆做筆記。)",
+    "example": "Leo keeps a blue pen in his backpack. (Leo 在背包裡放了一支藍色原子筆。)",
     "id": "L1-pen-noun"
   },
   {
@@ -4392,7 +4392,7 @@
     "level": "L1",
     "word": "piece",
     "meaning": "noun 塊、片、（某類事物中的）一件",
-    "example": "Each piece of the puzzle matters. (拼圖的每一片都很重要。)",
+    "example": "Would you like a piece of birthday cake? (你想吃一塊生日蛋糕嗎？)",
     "id": "L1-piece-noun"
   },
   {
@@ -4756,7 +4756,7 @@
     "level": "L1",
     "word": "red",
     "meaning": "adj./noun 紅色(的)",
-    "example": "The red pen marks important corrections. (紅筆標記重要的修正。)",
+    "example": "She wore a red hat to the picnic. (她戴著紅色帽子去野餐。)",
     "id": "L1-red-adj-noun"
   },
   {
@@ -4805,7 +4805,7 @@
     "level": "L1",
     "word": "ride",
     "meaning": "verb/noun 騎乘、搭乘；搭車",
-    "example": "Students ride buses to school safely. (學生安全地乘坐校車上學。)",
+    "example": "We took a short ride on the ferry. (我們搭渡輪短程兜了一下。)",
     "id": "L1-ride-verb-noun"
   },
   {
@@ -4826,7 +4826,7 @@
     "level": "L1",
     "word": "rise",
     "meaning": "verb/noun 上升",
-    "example": "The sun rises in the east. (太陽從東邊升起。)",
+    "example": "The price of fruit may rise before the holiday. (假日前水果價格可能會上漲。)",
     "id": "L1-rise-verb-noun"
   },
   {
@@ -5043,7 +5043,7 @@
     "level": "L1",
     "word": "seat",
     "meaning": "noun/verb 座位；使就座",
-    "example": "Students take their seats before class begins. (學生在上課前就座。)",
+    "example": "We saved a seat for Grandma near the window. (我們在窗邊替奶奶留了一個位子。)",
     "id": "L1-seat-noun-verb"
   },
   {
@@ -5323,7 +5323,7 @@
     "level": "L1",
     "word": "side",
     "meaning": "noun 邊、側",
-    "example": "Students sit on both sides of the classroom. (學生坐在教室的兩邊。)",
+    "example": "A bike path runs along the side of the river. (河邊有一條自行車道。)",
     "id": "L1-side-noun"
   },
   {
@@ -5386,7 +5386,7 @@
     "level": "L1",
     "word": "sister",
     "meaning": "noun 姐妹",
-    "example": "Her sister helps with homework daily. (她的姐妹每天幫助做作業。)",
+    "example": "My sister taught me how to make dumplings. (我姊姊教我包水餃。)",
     "id": "L1-sister-noun"
   },
   {
@@ -5561,7 +5561,7 @@
     "level": "L1",
     "word": "something",
     "meaning": "pron. 某個東西",
-    "example": "Students learn something new every day. (學生每天都學到新東西。)",
+    "example": "I heard something move behind the curtain. (我聽到有什麼東西在窗簾後面移動。)",
     "id": "L1-something-pron"
   },
   {
@@ -5729,7 +5729,7 @@
     "level": "L1",
     "word": "station",
     "meaning": "noun 車站、(提供服務或進行某工作的)站、電視台",
-    "example": "Students gather at the bus station. (學生在公車站聚集。)",
+    "example": "We met at the train station before taking the local bus. (我們先在火車站碰面，再搭公車。)",
     "id": "L1-station-noun"
   },
   {
@@ -5764,7 +5764,7 @@
     "level": "L1",
     "word": "stop",
     "meaning": "verb/noun 停止、阻止；短暫停留、(尤指公車)站",
-    "example": "Students stop talking when class begins. (學生在上課時停止交談。)",
+    "example": "The bus made a stop beside the post office. (公車在郵局旁停了一站。)",
     "id": "L1-stop-verb-noun"
   },
   {
@@ -5995,14 +5995,14 @@
     "level": "L1",
     "word": "thank",
     "meaning": "verb/noun 感謝；謝謝",
-    "example": "Students thank teachers for their guidance. (學生感謝老師的指導。)",
+    "example": "I want to thank you for saving my seat. (我想謝謝你幫我留位子。)",
     "id": "L1-thank-verb-noun"
   },
   {
     "level": "L1",
     "word": "that",
     "meaning": "conj. 引導子句\npron./adj. 那個；那\nadv. 那麼、那樣",
-    "example": "That method works for most students. (那種方法對大多數學生有效。)",
+    "example": "That is the bus we need to take. (那就是我們要搭的公車。)",
     "id": "L1-that-conj-pron-adj-adv"
   },
   {
@@ -6016,14 +6016,14 @@
     "level": "L1",
     "word": "their",
     "meaning": "determiner 他們的",
-    "example": "Students improve their skills through practice. (學生通過練習提高技能。)",
+    "example": "The children packed their lunches before the hike. (孩子們在健行前準備好自己的午餐。)",
     "id": "L1-their-determiner"
   },
   {
     "level": "L1",
     "word": "them",
     "meaning": "pron. 他們",
-    "example": "Teachers encourage them to ask questions. (老師鼓勵他們提問。)",
+    "example": "The coach thanked them after the game. (比賽後教練向他們道謝。)",
     "id": "L1-them-pron"
   },
   {
@@ -6604,7 +6604,7 @@
     "level": "L1",
     "word": "week",
     "meaning": "noun 星期",
-    "example": "Students attend classes five days per week. (學生每週上課五天。)",
+    "example": "We will visit our grandparents next week. (我們下週要去探望祖父母。)",
     "id": "L1-week-noun"
   },
   {
@@ -6975,7 +6975,7 @@
     "level": "L2",
     "word": "ability",
     "meaning": "noun 能力、才能",
-    "example": "Her ability to speak three languages impressed everyone. (她說三種語言的能力令所有人印象深刻。)",
+    "example": "Her ability to draw animals amazed the children. (她畫動物的能力讓孩子們驚嘆。)",
     "id": "L2-ability-noun"
   },
   {
@@ -6996,7 +6996,7 @@
     "level": "L2",
     "word": "accept",
     "meaning": "verb 收受、接受(提議、邀請)、同意、接納",
-    "example": "I accept your apology and forgive you. (我接受你的道歉並原諒你。)",
+    "example": "Nina decided to accept the invitation to dinner. (Nina 決定接受晚餐邀約。)",
     "id": "L2-accept-verb"
   }
 ]
