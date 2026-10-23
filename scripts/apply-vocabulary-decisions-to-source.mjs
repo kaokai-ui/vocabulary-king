@@ -28,17 +28,17 @@ function parseJsonl(filePath) {
     });
 }
 
-function indexById(records, label) {
+function indexByUid(records, label) {
   const indexed = new Map();
 
   for (const record of records) {
-    if (!record.id) {
-      throw new Error(`${label} contains a record without id.`);
+    if (!record.uid) {
+      throw new Error(`${label} contains a record without uid.`);
     }
-    if (indexed.has(record.id)) {
-      throw new Error(`${label} contains duplicate id '${record.id}'.`);
+    if (indexed.has(record.uid)) {
+      throw new Error(`${label} contains duplicate uid '${record.uid}'.`);
     }
-    indexed.set(record.id, record);
+    indexed.set(record.uid, record);
   }
 
   return indexed;
@@ -72,13 +72,13 @@ function sourceSnapshotMap(snapshotRows) {
   const snapshots = new Map();
 
   for (const row of snapshotRows) {
-    if (!row.id) {
-      throw new Error("The review snapshot contains a record without id.");
+    if (!row.uid) {
+      throw new Error("The review snapshot contains a record without uid.");
     }
-    if (snapshots.has(row.id)) {
-      throw new Error(`The review snapshot contains duplicate id '${row.id}'.`);
+    if (snapshots.has(row.uid)) {
+      throw new Error(`The review snapshot contains duplicate uid '${row.uid}'.`);
     }
-    snapshots.set(row.id, row);
+    snapshots.set(row.uid, row);
   }
 
   return snapshots;
@@ -90,37 +90,37 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
   }
 
   const currentRecords = buildTrackExportRecords(track, sourceRows);
-  const currentById = indexById(currentRecords, "Current source data");
+  const currentByUid = indexByUid(currentRecords, "Current source data");
   const snapshots = sourceSnapshotMap(snapshotRows);
   const updatedRows = sourceRows.map((row) => ({ ...row }));
-  const seenDecisionIds = new Set();
+  const seenDecisionUids = new Set();
   const plannedUpdates = [];
 
   for (const decision of decisions) {
-    const id = String(decision?.id ?? "");
+    const uid = String(decision?.uid ?? "");
 
-    if (!id || seenDecisionIds.has(id)) {
-      throw new Error(`Missing or duplicate decision id: ${id || "(empty)"}.`);
+    if (!uid || seenDecisionUids.has(uid)) {
+      throw new Error(`Missing or duplicate decision uid: ${uid || "(empty)"}.`);
     }
-    seenDecisionIds.add(id);
+    seenDecisionUids.add(uid);
 
-    const snapshot = snapshots.get(id);
-    const current = currentById.get(id);
+    const snapshot = snapshots.get(uid);
+    const current = currentByUid.get(uid);
 
     if (!snapshot) {
-      throw new Error(`No review snapshot row found for id '${id}'.`);
+      throw new Error(`No review snapshot row found for uid '${uid}'.`);
     }
     if (!current) {
-      throw new Error(`Current source no longer has id '${id}'. Refusing to write stale decisions.`);
+      throw new Error(`Current source no longer has uid '${uid}'. Refusing to write stale decisions.`);
     }
     if (normalizeText(decision.word) !== normalizeText(snapshot.word)) {
-      throw new Error(`Decision word does not match its review snapshot for id '${id}'.`);
+      throw new Error(`Decision word does not match its review snapshot for uid '${uid}'.`);
     }
 
     for (const field of ["level", "word", "meaning", "example"]) {
       if (normalizeText(current[field]) !== normalizeText(snapshot[field])) {
         throw new Error(
-          `Stale source for id '${id}': ${field} was ${JSON.stringify(snapshot[field])} during review ` +
+          `Stale source for uid '${uid}': ${field} was ${JSON.stringify(snapshot[field])} during review ` +
             `but is now ${JSON.stringify(current[field])}. No files were written.`
         );
       }
@@ -128,25 +128,28 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
 
     const outcome = String(decision.decision ?? "");
     if (!["accept", "revise", "reject"].includes(outcome)) {
-      throw new Error(`Unsupported decision '${outcome}' for id '${id}'.`);
+      throw new Error(`Unsupported decision '${outcome}' for uid '${uid}'.`);
     }
 
     const final = decision.final ?? {};
     if (!final || typeof final !== "object" || Array.isArray(final)) {
-      throw new Error(`Invalid final object for id '${id}'.`);
+      throw new Error(`Invalid final object for uid '${uid}'.`);
+    }
+    if (Object.hasOwn(final, "uid")) {
+      throw new Error(`The uid for '${uid}' is immutable and cannot be changed in final.`);
     }
     const unexpectedFields = Object.keys(final).filter((field) => !FINAL_FIELDS.has(field));
     if (unexpectedFields.length) {
-      throw new Error(`Unsupported final field(s) for id '${id}': ${unexpectedFields.join(", ")}.`);
+      throw new Error(`Unsupported final field(s) for uid '${uid}': ${unexpectedFields.join(", ")}.`);
     }
     if (outcome === "reject" && Object.keys(final).length) {
-      throw new Error(`Rejected decision '${id}' must have an empty final object.`);
+      throw new Error(`Rejected decision '${uid}' must have an empty final object.`);
     }
 
     const sourceIndex = current.sourceIndex;
     const sourceRow = updatedRows[sourceIndex];
     if (!sourceRow || sourceRow.track !== track) {
-      throw new Error(`Could not map id '${id}' back to source row ${sourceIndex}.`);
+      throw new Error(`Could not map uid '${uid}' back to source row ${sourceIndex}.`);
     }
 
     if (outcome === "reject") {
@@ -167,7 +170,7 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
 
     for (const [field, value] of Object.entries(final)) {
       if (typeof value !== "string") {
-        throw new Error(`Final field '${field}' for id '${id}' must be a string.`);
+      throw new Error(`Final field '${field}' for uid '${uid}' must be a string.`);
       }
 
       if (field === "word") {
@@ -204,11 +207,11 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
       const to = field === "meaning" ? next.meaning : next[field];
 
       if (normalizeText(from) !== normalizeText(to)) {
-        cellChanges.push({ id, field, from, to });
+        cellChanges.push({ uid, field, from, to });
       }
     }
 
-    plannedUpdates.push({ id, sourceIndex, cellChanges });
+    plannedUpdates.push({ uid, sourceIndex, cellChanges });
   }
 
   const updatedRecords = buildTrackExportRecords(track, updatedRows);
@@ -220,14 +223,9 @@ export function planVocabularyWriteback({ track, sourceRows, snapshotRows, decis
     }
   }
 
-  const oldToNewIds = plannedUpdates
-    .map(({ id, sourceIndex }) => ({ oldId: id, newId: updatedBySourceIndex.get(sourceIndex)?.id }))
-    .filter(({ oldId, newId }) => newId && oldId !== newId);
-
   return {
     updatedRows,
-    cellChanges: plannedUpdates.flatMap((update) => update.cellChanges),
-    oldToNewIds
+    cellChanges: plannedUpdates.flatMap((update) => update.cellChanges)
   };
 }
 
@@ -286,11 +284,7 @@ function printPlan(plan, dryRun) {
   }
 
   for (const change of plan.cellChanges) {
-    console.log(`${change.id} ${change.field}: ${JSON.stringify(change.from)} -> ${JSON.stringify(change.to)}`);
-  }
-
-  for (const mapping of plan.oldToNewIds) {
-    console.log(`ID ${mapping.oldId} -> ${mapping.newId}`);
+    console.log(`${change.uid} ${change.field}: ${JSON.stringify(change.from)} -> ${JSON.stringify(change.to)}`);
   }
 
   console.log(dryRun ? "Dry run: source file was not written." : "Source writeback completed.");
