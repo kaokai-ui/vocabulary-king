@@ -1,5 +1,5 @@
 {
-  "generatedAt": "0bbd4eb71b83",
+  "generatedAt": "5892cd312280",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -298,7 +298,7 @@
       "available": true,
       "title": "TOEIC(進階)",
       "sourceWorkbookKey": "toeic-advanced-workbook",
-      "totalWords": 3475,
+      "totalWords": 4825,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -319,14 +319,84 @@
         {
           "id": "toeic-advanced-chunk-4",
           "path": "data/tracks/toeic-advanced/chunk-004.json",
-          "wordCount": 475
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-advanced-chunk-5",
+          "path": "data/tracks/toeic-advanced/chunk-005.json",
+          "wordCount": 825
         }
       ],
       "levels": [
         {
-          "id": "TOEIC-ADV",
-          "label": "TOEIC-ADV",
-          "totalWords": 3475
+          "id": "商務1",
+          "label": "商務1",
+          "totalWords": 579
+        },
+        {
+          "id": "商務2",
+          "label": "商務2",
+          "totalWords": 582
+        },
+        {
+          "id": "商務3",
+          "label": "商務3",
+          "totalWords": 580
+        },
+        {
+          "id": "延伸1",
+          "label": "延伸1",
+          "totalWords": 645
+        },
+        {
+          "id": "延伸2",
+          "label": "延伸2",
+          "totalWords": 646
+        },
+        {
+          "id": "延伸3",
+          "label": "延伸3",
+          "totalWords": 293
+        },
+        {
+          "id": "片語：會議與簡報",
+          "label": "片語：會議與簡報",
+          "totalWords": 113
+        },
+        {
+          "id": "片語：財務與會計",
+          "label": "片語：財務與會計",
+          "totalWords": 148
+        },
+        {
+          "id": "片語：人事與招募",
+          "label": "片語：人事與招募",
+          "totalWords": 228
+        },
+        {
+          "id": "片語：行銷與銷售",
+          "label": "片語：行銷與銷售",
+          "totalWords": 121
+        },
+        {
+          "id": "片語：採購與物流",
+          "label": "片語：採購與物流",
+          "totalWords": 149
+        },
+        {
+          "id": "片語：客服與溝通",
+          "label": "片語：客服與溝通",
+          "totalWords": 127
+        },
+        {
+          "id": "片語：管理與策略",
+          "label": "片語：管理與策略",
+          "totalWords": 266
+        },
+        {
+          "id": "片語：日常與通用",
+          "label": "片語：日常與通用",
+          "totalWords": 348
         }
       ]
     },
