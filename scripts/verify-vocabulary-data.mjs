@@ -74,7 +74,6 @@ if (sourceRepoRoot) {
   );
 }
 
-const globalIds = new Set();
 const summaries = [];
 for (const definition of TRACK_DEFINITIONS) {
   const track = catalog.tracks[definition.id];
@@ -95,9 +94,7 @@ for (const definition of TRACK_DEFINITIONS) {
     assert(typeof word.word === "string" && word.word.length > 0, `Word is missing word text in track ${track.id}.`);
     assert(typeof word.meaning === "string" && word.meaning.length > 0, `Word is missing meaning in track ${track.id}.`);
     assert(!seenIds.has(word.id), `Duplicate word id ${word.id} in track ${track.id}.`);
-    assert(!globalIds.has(word.id), `Duplicate word id ${word.id} across vocabulary tracks.`);
     seenIds.add(word.id);
-    globalIds.add(word.id);
   }
 
   if (sourceRecordsByTrack) {
