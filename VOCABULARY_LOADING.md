@@ -32,6 +32,12 @@ Vocabulary exports keep the public record shape and set `id` to the source row's
 
 The iOS export includes `uid-aliases.json` beside the catalog and chunks. Alias and deletion entries are identified by `(track, uid)`; target resolution also stays within that track. **App 端用 辭庫＋uid 當主鍵**. Web runtime progress is stored under the selected track, and starred words, known words, and saved words use the loaded vocabulary record's `id`, which is the source `uid`. Web progress keeps only exact IDs present in the loaded track; it does not infer or regenerate IDs from word or meaning text. Alias-based progress migration is left for a later app change.
 
+## Exam Rebuild Levels
+
+The TOEIC, TOEIC Advanced, TOEFL, and IELTS rebuild tool reads each completed `part-NN.jsonl` by matching `word` within that same part. It takes reused IDs from the corresponding skeleton rows, cross-checks any output `uid`, and rejects mismatches before writing. New IDs use the existing stable vocabulary ID format and are checked for uniqueness within the track. The tool never edits the existing `writeback:vocab` command.
+
+The catalog derives each of these tracks' `levels` and word counts from the ordered source JSONL, so the settings level menu follows the actual rebuild data. The default is all levels; selecting one filters practice cards, quizzes, and word-chain items. Changing tracks resets the level selection to all. Word badges include the source level, while progress identity remains `(track, uid)`.
+
 ## Senses and IPA
 
 The JSONL source uses `senses` as the canonical meaning structure. Each row has one sense per POS code; each sense contains `pos`, `meaning_zh`, `meaning_ja`, and `meaning_ko`. POS values use the normalized codes `n.`, `v.`, `vt.`, `vi.`, `adj.`, `adv.`, `prep.`, `conj.`, `pron.`, `det.`, `art.`, `num.`, `int.`, `aux.`, `abbr.`, and `phr.`. Example links can set `example_sense` to a zero-based index; omit it when unknown.
