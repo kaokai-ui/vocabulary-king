@@ -4,7 +4,6 @@ import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { buildLegacyTrackExportRecords } from "./vocabulary-data-utils.mjs";
 import {
-  addUidAlias,
   emptyUidAliasData,
   readUidAliasData,
   UID_ALIASES_RELATIVE_PATH,
@@ -26,26 +25,11 @@ function readJsonl(filePath) {
     });
 }
 
-function candidateUidSuffix(baseUid, track, usedUids, reservedLegacyUids) {
-  const stem = `${baseUid}--${track}`;
-  let candidate = stem;
-  let suffix = 2;
-
-  while (usedUids.has(candidate) || reservedLegacyUids.has(candidate)) {
-    candidate = `${stem}-${suffix}`;
-    suffix += 1;
-  }
-
-  return candidate;
-}
-
 export function planEnsureVocabularyUids({ sourceRowsByTrack, aliasData = emptyUidAliasData() }) {
   const updatedRowsByTrack = new Map(
     [...sourceRowsByTrack.entries()].map(([track, rows]) => [track, rows.map((row) => ({ ...row }))])
   );
-  const reservedLegacyUids = new Set();
   const missingRows = [];
-  const usedUids = new Set();
 
   for (const [track, rows] of updatedRowsByTrack) {
     const legacyRecords = buildLegacyTrackExportRecords(track, rows);
@@ -60,37 +44,20 @@ export function planEnsureVocabularyUids({ sourceRowsByTrack, aliasData = emptyU
       if (!legacyUid) {
         throw new Error(`Cannot compute a legacy uid for ${track} row ${sourceIndex + 1}.`);
       }
-      reservedLegacyUids.add(legacyUid);
-
       if (row.uid !== undefined && row.uid !== null && String(row.uid).trim()) {
         const uid = String(row.uid);
         if (uid !== uid.trim()) {
           throw new Error(`Existing uid in '${track}' row ${sourceIndex + 1} has surrounding whitespace.`);
         }
-        if (usedUids.has(uid)) {
-          throw new Error(`Duplicate existing vocabulary uid '${uid}'.`);
-        }
-        usedUids.add(uid);
       } else {
         missingRows.push({ track, sourceIndex, legacyUid });
       }
     }
   }
 
-  const assignedAliases = [];
   for (const { track, sourceIndex, legacyUid } of missingRows) {
     const row = updatedRowsByTrack.get(track)[sourceIndex];
-    let uid = legacyUid;
-
-    if (usedUids.has(uid)) {
-      uid = candidateUidSuffix(legacyUid, track, usedUids, reservedLegacyUids);
-    }
-
-    row.uid = uid;
-    usedUids.add(uid);
-    if (uid !== legacyUid) {
-      assignedAliases.push({ track, aliasUid: legacyUid, targetUid: uid });
-    }
+    row.uid = legacyUid;
   }
 
   const normalizedAliasData = {
@@ -98,30 +65,11 @@ export function planEnsureVocabularyUids({ sourceRowsByTrack, aliasData = emptyU
     deleted: [...(aliasData?.deleted ?? [])]
   };
   const finalRows = new Map(updatedRowsByTrack);
-  const { allUids, uidsByTrack } = validateVocabularyUidState({
+  validateVocabularyUidState({
     sourceRowsByTrack: finalRows,
     aliasData: normalizedAliasData
   });
-
-  let finalAliasData = normalizedAliasData;
-  for (const alias of assignedAliases) {
-    const existing = finalAliasData.aliases.find((item) => item.track === alias.track && item.aliasUid === alias.aliasUid);
-    if (existing) {
-      if (existing.targetUid !== alias.targetUid) {
-        throw new Error(`Existing alias '${alias.track}/${alias.aliasUid}' targets '${existing.targetUid}', expected '${alias.targetUid}'.`);
-      }
-      continue;
-    }
-
-    finalAliasData = addUidAlias(finalAliasData, {
-      ...alias,
-      uidsByTrack,
-      allUids
-    });
-  }
-
-  validateVocabularyUidState({ sourceRowsByTrack: finalRows, aliasData: finalAliasData });
-  return { updatedRowsByTrack: finalRows, aliasData: finalAliasData, assignedAliases };
+  return { updatedRowsByTrack: finalRows, aliasData: normalizedAliasData };
 }
 
 function parseArguments(args) {
@@ -183,7 +131,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
     const { dataDirectory } = parseArguments(process.argv.slice(2));
     const result = ensureVocabularyUids(dataDirectory);
     const assignedCount = [...result.updatedRowsByTrack.values()].flat().filter((row) => row.uid).length;
-    console.log(`Ensured uids for ${assignedCount} source rows. Updated ${result.updatedFiles} files; added ${result.assignedAliases.length} aliases for track-scoped legacy IDs.`);
+    console.log(`Ensured uids for ${assignedCount} source rows. Updated ${result.updatedFiles} files; UIDs and aliases are scoped by track.`);
   } catch (error) {
     console.error(error instanceof Error ? error.message : error);
     process.exitCode = 1;
