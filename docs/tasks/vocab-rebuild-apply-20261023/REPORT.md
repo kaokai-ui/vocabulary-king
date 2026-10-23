@@ -15,9 +15,19 @@
 - TOEIC、TOEIC 進階、TOEFL、IELTS 的目錄等級由來源資料動態產生；設定頁提供等級篩選和單字表來源／授權說明，練習與測驗沿用所選等級。
 - `scripts/smoke-ui.cjs` 的 IELTS 標籤檢查改為接受「IELTS＋等級」顯示。
 
+## 指令用法與主線正式套用步驟
+
+```powershell
+rtk npm run apply:vocab-rebuild -- --track toeic --dir docs/tasks/vocab-rebuild-20261023/out/toeic --data-dir D:\Game\VocabularyKing-data-rebuild --dry-run
+rtk npm run apply:vocab-rebuild -- --track toeic --dir docs/tasks/vocab-rebuild-20261023/out/toeic --data-dir D:\Game\VocabularyKing-data-rebuild
+```
+
+部分輸出驗證只可在 dry-run 加 `--allow-partial`；正式套用不得使用該旗標。主線正式套用時，先補齊 TOEIC 34 個 part 並修正下方列出的驗證問題，再對目標資料 repo 跑完整 dry-run，確認零錯誤及候選統計後，才執行第二條不含 `--dry-run` 的命令。套用工具會更新指定辭庫 JSONL 與 `data/uid-aliases.json`；完成後再跑 `npm run verify:vocab` 與 `npm run check:site`。
+
 ## 驗證
 
 - `npm run check:site`（`VOCABULARY_DATA_REPO` 指向資料複本）：通過，36 個測試檔、199 項測試；11 個辭庫共 31,332 列驗證完成，Vite site build 成功。
+- `npm run check:site`（沒有可用的資料 repo）：通過，36 個測試檔、199 項測試；驗證已提交的 `public/data` 並完成 site build。
 - `npm run check:content`（指向資料複本）：完成，檢查 11 個辭庫共 31,332 列。工具回報 0 格式錯誤、0 不同單字共用英文例句；另列 130 筆一字多義待人工確認、6 筆確定的疑似轉換錯誤、68 筆待人工確認、225 筆例句未含單字或變化形、10 筆同字同詞性重複。這些是內容檢查報告中的 findings，命令正常完成。
 - UI 冒煙：通過，首頁載入 IELTS 5,594 字、卡片練習、測驗流程及手機首頁均完成。
 - 新套用工具測試：10 項通過，涵蓋輸出順序、UID 交叉檢查、重複 word 歧義、重複 POS、部分 dry-run、保留舊 UID／IPA、新增 UID／IPA、片語、刪除 alias 及動態等級目錄。
