@@ -1,5 +1,3 @@
-import { extractLegacyVocabularySignature, slugifyVocabularyPart } from "./vocabularyIdentity";
-
 export const defaultTrackProgress = {
   starredWordIds: [],
   knownWordIds: [],
@@ -63,93 +61,13 @@ export function setTrackProgress(progress, trackId, trackProgress) {
   };
 }
 
-function resolveVocabularyId(id, byCurrentId, byWordLevelSignature, wordSlugsByLevel) {
-  if (byCurrentId.has(id)) {
-    return id;
-  }
-
-  const legacySignature = extractLegacyVocabularySignature(id);
-
-  if (legacySignature) {
-    const legacyMatches = byWordLevelSignature.get(`${legacySignature.level}:${legacySignature.wordSlug}`) ?? [];
-
-    return legacyMatches.length === 1 ? legacyMatches[0] : null;
-  }
-
-  const levelMatch = /^(L\d+)-/.exec(String(id ?? ""));
-
-  if (!levelMatch) {
-    return null;
-  }
-
-  const level = levelMatch[1];
-  const candidateWordSlugs = wordSlugsByLevel.get(level) ?? [];
-  const matchingWordSlugs = candidateWordSlugs
-    .filter((wordSlug) => String(id).startsWith(`${level}-${wordSlug}-`))
-    .sort((left, right) => right.length - left.length);
-
-  if (matchingWordSlugs.length === 0) {
-    return null;
-  }
-
-  const matches = byWordLevelSignature.get(`${level}:${matchingWordSlugs[0]}`) ?? [];
-
-  return matches.length === 1 ? matches[0] : null;
-}
-
 export function migrateTrackProgress(trackProgress, vocabulary) {
   const current = getTrackProgress({ byTrack: { current: trackProgress } }, "current");
   const byCurrentId = new Set(vocabulary.map((word) => word.id));
-  const byWordLevelSignature = new Map();
-  const wordSlugsByLevel = new Map();
-
-  vocabulary.forEach((word) => {
-    const wordSlug = slugifyVocabularyPart(word.word) || "word";
-    const signatureKey = `${word.level}:${wordSlug}`;
-    const signatureMatches = byWordLevelSignature.get(signatureKey) ?? [];
-    const currentWordSlugs = wordSlugsByLevel.get(word.level) ?? [];
-
-    signatureMatches.push(word.id);
-    byWordLevelSignature.set(signatureKey, signatureMatches);
-
-    if (!currentWordSlugs.includes(wordSlug)) {
-      currentWordSlugs.push(wordSlug);
-      wordSlugsByLevel.set(word.level, currentWordSlugs);
-    }
-  });
-
-  const remapWordIdList = (wordIds) =>
-    [
-      ...new Set(
-        wordIds
-          .map((wordId) => resolveVocabularyId(wordId, byCurrentId, byWordLevelSignature, wordSlugsByLevel))
-          .filter(Boolean)
-      )
-    ];
-
-  const remappedWordStats = Object.entries(current.wordStats).reduce((nextWordStats, [wordId, stats]) => {
-    const resolvedId = resolveVocabularyId(wordId, byCurrentId, byWordLevelSignature, wordSlugsByLevel);
-
-    if (!resolvedId) {
-      return nextWordStats;
-    }
-
-    const previousStats = nextWordStats[resolvedId] ?? {
-      seenCount: 0,
-      correctCount: 0,
-      wrongCount: 0,
-      lastSeenAt: null
-    };
-
-    nextWordStats[resolvedId] = {
-      seenCount: previousStats.seenCount + (stats.seenCount ?? 0),
-      correctCount: previousStats.correctCount + (stats.correctCount ?? 0),
-      wrongCount: previousStats.wrongCount + (stats.wrongCount ?? 0),
-      lastSeenAt: Math.max(previousStats.lastSeenAt ?? 0, stats.lastSeenAt ?? 0) || null
-    };
-
-    return nextWordStats;
-  }, {});
+  const remapWordIdList = (wordIds) => [...new Set(wordIds.filter((wordId) => byCurrentId.has(wordId)))];
+  const remappedWordStats = Object.fromEntries(
+    Object.entries(current.wordStats).filter(([wordId]) => byCurrentId.has(wordId))
+  );
 
   return {
     ...current,
