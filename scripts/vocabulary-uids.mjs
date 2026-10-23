@@ -48,7 +48,7 @@ function requiredString(value, label) {
   return value;
 }
 
-export function validateUidAliasData(aliasData, { uidsByTrack, allUids }) {
+export function validateUidAliasData(aliasData, { uidsByTrack }) {
   if (aliasData?.aliases !== undefined && !Array.isArray(aliasData.aliases)) {
     throw new Error("UID alias 'aliases' must be an array.");
   }
@@ -101,7 +101,7 @@ export function validateUidAliasData(aliasData, { uidsByTrack, allUids }) {
     let targetUid = firstTarget;
 
     while (true) {
-      if (allUids.has(targetUid)) {
+      if (uidsByTrack.get(track)?.has(targetUid)) {
         break;
       }
 
@@ -124,9 +124,7 @@ export function validateVocabularyUidState({ sourceRowsByTrack, aliasData = empt
   const rowsByTrack = sourceRowsByTrack instanceof Map
     ? sourceRowsByTrack
     : new Map(Object.entries(sourceRowsByTrack ?? {}));
-  const allUids = new Set();
   const uidsByTrack = new Map();
-  const trackByUid = new Map();
 
   for (const [track, rows] of rowsByTrack) {
     const trackUids = new Set();
@@ -138,20 +136,18 @@ export function validateVocabularyUidState({ sourceRowsByTrack, aliasData = empt
       }
       const uid = requiredString(row?.uid, `Source row ${track}:${index + 1} uid`);
 
-      if (trackUids.has(uid) || allUids.has(uid)) {
-        throw new Error(`Duplicate vocabulary uid '${uid}' in tracks '${trackByUid.get(uid)}' and '${track}'.`);
+      if (trackUids.has(uid)) {
+        throw new Error(`Duplicate vocabulary uid '${track}/${uid}'.`);
       }
       trackUids.add(uid);
-      allUids.add(uid);
-      trackByUid.set(uid, track);
     }
   }
 
-  validateUidAliasData(aliasData, { uidsByTrack, allUids });
-  return { allUids, uidsByTrack };
+  validateUidAliasData(aliasData, { uidsByTrack });
+  return { uidsByTrack };
 }
 
-export function addUidAlias(aliasData, { track, aliasUid, targetUid, uidsByTrack, allUids }) {
+export function addUidAlias(aliasData, { track, aliasUid, targetUid, uidsByTrack }) {
   const normalized = {
     aliases: [...(aliasData?.aliases ?? [])],
     deleted: [...(aliasData?.deleted ?? [])]
@@ -165,8 +161,10 @@ export function addUidAlias(aliasData, { track, aliasUid, targetUid, uidsByTrack
   if (record.aliasUid === record.targetUid) {
     throw new Error("A UID alias cannot target itself.");
   }
-  if (!allUids.has(record.targetUid)) {
-    throw new Error(`UID alias target '${record.targetUid}' does not exist.`);
+  const targetExistsInTrack = uidsByTrack.get(record.track)?.has(record.targetUid) ||
+    normalized.aliases.some((item) => item.track === record.track && item.aliasUid === record.targetUid);
+  if (!targetExistsInTrack) {
+    throw new Error(`UID alias target '${record.track}/${record.targetUid}' does not exist.`);
   }
   if (uidsByTrack.get(record.track)?.has(record.aliasUid)) {
     throw new Error(`UID alias source '${record.track}/${record.aliasUid}' is still active.`);
@@ -179,7 +177,7 @@ export function addUidAlias(aliasData, { track, aliasUid, targetUid, uidsByTrack
   }
 
   normalized.aliases.push(record);
-  validateUidAliasData(normalized, { uidsByTrack, allUids });
+  validateUidAliasData(normalized, { uidsByTrack });
   return normalized;
 }
 
