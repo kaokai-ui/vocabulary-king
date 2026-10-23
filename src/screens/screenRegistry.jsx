@@ -234,9 +234,11 @@ export const screenRegistry = {
       locale={context.settings.locale}
       messages={context.messages}
       settings={context.settings}
+      catalogTrack={context.catalogTrack}
       onHome={context.actions.goHome}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
       onChangeVocabularyTrack={(track) => context.actions.updateSetting("vocabularyTrack", track)}
+      onChangeVocabularyLevel={(level) => context.actions.updateSetting("vocabularyLevel", level)}
       onChangePronunciationAccent={(accent) => context.actions.updateSetting("pronunciationAccent", accent)}
       onToggleSetting={context.actions.toggleSetting}
     />
@@ -274,7 +276,7 @@ export const screenRegistry = {
   wordChain: (context) => (
     <WordChainScreen
       text={context.text}
-      vocabulary={context.vocabulary}
+      vocabulary={context.practiceVocabulary ?? context.vocabulary}
       vocabularyTrackLabel={getVocabularyTrackLabel(context)}
       starredWordIds={context.starredWords.map((w) => w.id)}
       onHome={context.actions.goHome}
