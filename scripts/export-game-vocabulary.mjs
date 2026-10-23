@@ -94,7 +94,16 @@ function contentHash(value) {
   return createHash("sha256").update(json).digest("hex").slice(0, 12);
 }
 
-function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
+export function summarizeCatalogLevels(sourceRows = []) {
+  const counts = new Map();
+  for (const row of sourceRows) {
+    const level = String(row?.level ?? "").trim();
+    if (level) counts.set(level, (counts.get(level) ?? 0) + 1);
+  }
+  return [...counts.entries()].map(([label, totalWords]) => ({ id: label, label, totalWords }));
+}
+
+function createCatalogTrack(definition, chunkFiles = [], totalWords = 0, sourceRows = []) {
   return {
     id: definition.id,
     available: definition.available,
@@ -102,7 +111,8 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
     sourceWorkbookKey: definition.sourceWorkbookKey,
     totalWords,
     chunkSize: CHUNK_SIZE,
-    chunkFiles
+    chunkFiles,
+    ...(definition.includeSourceLevels ? { levels: summarizeCatalogLevels(sourceRows) } : {})
   };
 }
 
@@ -154,7 +164,7 @@ function prepareTracks(dataRepoRoot, extraLocales, { includeSenseData = false, s
       })
     );
 
-    prepared.set(definition.id, { records, translationsByLocale });
+    prepared.set(definition.id, { records, translationsByLocale, sourceRows });
   }
 
   const aliasData = readUidAliasData(dataRepoRoot);
@@ -248,7 +258,7 @@ export function exportGameVocabulary({
       }
 
       catalogTracks[definition.id] = {
-        ...createCatalogTrack(definition, chunkFiles, vocabulary.length),
+        ...createCatalogTrack(definition, chunkFiles, vocabulary.length, prepared.sourceRows),
         ...(Object.keys(localeCatalog).length ? { locales: localeCatalog } : {})
       };
       summaries.push(`${definition.id}: ${vocabulary.length} words, ${chunkFiles.length} chunk files`);
