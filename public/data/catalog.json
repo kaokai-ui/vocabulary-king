@@ -1,5 +1,5 @@
 {
-  "generatedAt": "e4522aea6678",
+  "generatedAt": "0bbd4eb71b83",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -181,7 +181,7 @@
       "available": true,
       "title": "TOEIC(核心)",
       "sourceWorkbookKey": "toeic-core-workbook",
-      "totalWords": 3034,
+      "totalWords": 5076,
       "chunkSize": 1000,
       "chunkFiles": [
         {
@@ -202,7 +202,94 @@
         {
           "id": "toeic-chunk-4",
           "path": "data/tracks/toeic/chunk-004.json",
-          "wordCount": 34
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-5",
+          "path": "data/tracks/toeic/chunk-005.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "toeic-chunk-6",
+          "path": "data/tracks/toeic/chunk-006.json",
+          "wordCount": 76
+        }
+      ],
+      "levels": [
+        {
+          "id": "基礎1",
+          "label": "基礎1",
+          "totalWords": 703
+        },
+        {
+          "id": "基礎2",
+          "label": "基礎2",
+          "totalWords": 703
+        },
+        {
+          "id": "基礎3",
+          "label": "基礎3",
+          "totalWords": 703
+        },
+        {
+          "id": "基礎4",
+          "label": "基礎4",
+          "totalWords": 700
+        },
+        {
+          "id": "多益1",
+          "label": "多益1",
+          "totalWords": 624
+        },
+        {
+          "id": "多益2",
+          "label": "多益2",
+          "totalWords": 624
+        },
+        {
+          "id": "延伸1",
+          "label": "延伸1",
+          "totalWords": 447
+        },
+        {
+          "id": "延伸2",
+          "label": "延伸2",
+          "totalWords": 447
+        },
+        {
+          "id": "延伸3",
+          "label": "延伸3",
+          "totalWords": 114
+        },
+        {
+          "id": "片語：財務與會計",
+          "label": "片語：財務與會計",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：人事與招募",
+          "label": "片語：人事與招募",
+          "totalWords": 2
+        },
+        {
+          "id": "片語：行銷與銷售",
+          "label": "片語：行銷與銷售",
+          "totalWords": 2
+        },
+        {
+          "id": "片語：採購與物流",
+          "label": "片語：採購與物流",
+          "totalWords": 1
+        },
+        {
+          "id": "片語：管理與策略",
+          "label": "片語：管理與策略",
+          "totalWords": 2
+        },
+        {
+          "id": "片語：日常與通用",
+          "label": "片語：日常與通用",
+          "totalWords": 3
         }
       ]
     },
@@ -234,6 +321,13 @@
           "path": "data/tracks/toeic-advanced/chunk-004.json",
           "wordCount": 475
         }
+      ],
+      "levels": [
+        {
+          "id": "TOEIC-ADV",
+          "label": "TOEIC-ADV",
+          "totalWords": 3475
+        }
       ]
     },
     "toefl": {
@@ -263,6 +357,13 @@
           "id": "toefl-chunk-4",
           "path": "data/tracks/toefl/chunk-004.json",
           "wordCount": 799
+        }
+      ],
+      "levels": [
+        {
+          "id": "TOEFL",
+          "label": "TOEFL",
+          "totalWords": 3799
         }
       ]
     },
@@ -302,6 +403,13 @@
           "id": "ielts-chunk-6",
           "path": "data/tracks/ielts/chunk-006.json",
           "wordCount": 594
+        }
+      ],
+      "levels": [
+        {
+          "id": "IELTS",
+          "label": "IELTS",
+          "totalWords": 5594
         }
       ]
     }

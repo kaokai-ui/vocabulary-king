@@ -1,0 +1,534 @@
+[
+  {
+    "level": "延伸3",
+    "word": "earnings",
+    "meaning": "n. 收益；盈餘",
+    "example": "The tech giant reported record-breaking earnings for the fiscal year. (這家科技巨擘公布了創紀錄的年度盈餘。)",
+    "id": "L3-earnings-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "eco-friendly",
+    "meaning": "a. 環保的；對環境友善的",
+    "example": "The factory upgraded its machinery to adopt more eco-friendly production methods. (工廠更新了機械設備，以採用更環保的生產方式。)",
+    "id": "TOEIC-eco-friendly-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "entitled",
+    "meaning": "a. 有權享有的；符合資格的",
+    "example": "All registered members are entitled to a ten percent discount on all services. (所有已註冊會員都有權享有全品項九折優惠。)",
+    "id": "TOEIC-entitled-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "ethic",
+    "meaning": "n. 道德準則；倫理觀",
+    "example": "The business school offers a required course on corporate ethics and governance. (商學院開設了一門公司倫理與治理的必修課程。)",
+    "id": "L5-ethic-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "flawed",
+    "meaning": "a. 有缺陷的；有瑕疵的",
+    "example": "The auditor determined that the company’s financial tracking methodology was flawed. (稽核人員認定公司的財務追蹤方法有缺陷。)",
+    "id": "TOEIC-flawed-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "franchisor",
+    "meaning": "n. 加盟授權方；特許經營者",
+    "example": "The franchisor provides extensive training and marketing support to all new franchisees. (加盟授權方為所有新加盟業者提供完整訓練與行銷支援。)",
+    "id": "TOEIC-franchisor-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "fueled",
+    "meaning": "v. 推動；促使增加",
+    "example": "The recent successful marketing campaign fueled a massive surge in product demand. (最近成功的行銷活動帶動產品需求大幅成長。)",
+    "id": "TOEIC-fueled-v-fuel-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "functioning",
+    "meaning": "a. 正常運作的；運轉中的",
+    "example": "The IT department confirmed that the central server is now functioning normally again. (資訊部門確認中央伺服器現在已恢復正常運作。)",
+    "id": "TOEIC-functioning-a-v-function"
+  },
+  {
+    "level": "延伸3",
+    "word": "funding",
+    "meaning": "n. 資金；經費",
+    "example": "The research team received substantial funding from a government scientific grant. (研究團隊從政府科學補助中獲得了大筆經費。)",
+    "id": "中高級-funding-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "gathering",
+    "meaning": "n. 聚會；集會",
+    "example": "The company hosted a formal gathering to celebrate its twentieth business anniversary. (公司舉辦了一場正式聚會，慶祝成立二十週年。)",
+    "id": "L5-gathering-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "gifted",
+    "meaning": "a. 有天賦的；才華出眾的",
+    "example": "The research department is looking for a gifted statistician to analyze market trends. (研究部門正在尋找一位有天賦的統計學家來分析市場趨勢。)",
+    "id": "L4-gifted-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "gift-wrap",
+    "meaning": "v. 包裝成禮物",
+    "example": "The retail store offers a complimentary gift-wrap service during the holiday shopping season. (這家零售店在假日購物季提供免費禮品包裝服務。)",
+    "id": "TOEIC-gift-wrap-v"
+  },
+  {
+    "level": "延伸3",
+    "word": "handling",
+    "meaning": "n. 處理；搬運",
+    "example": "The fragile laboratory equipment requires extremely careful handling during transit. (易碎的實驗室設備在運送期間必須非常小心搬運。)",
+    "id": "TOEIC-handling-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "headquarters",
+    "meaning": "n. 總部；總公司",
+    "example": "The multinational corporation decided to relocate its global headquarters to New York City. (這家跨國企業決定將全球總部遷至紐約市。)",
+    "id": "TOEIC-headquarters-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "hidden",
+    "meaning": "a. 隱藏的；未揭露的",
+    "example": "The auditor uncovered hidden costs that were not disclosed in the initial budget. (稽核人員揭露了初始預算中未列出的隱藏成本。)",
+    "id": "中級-hidden-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "housing",
+    "meaning": "n. 住宅；居住條件",
+    "example": "The government introduced a new affordable housing scheme for low-income workers. (政府為低收入勞工推出了新的可負擔住宅方案。)",
+    "id": "L5-housing-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "ice-cold",
+    "meaning": "a. 冰涼的；冰鎮的",
+    "example": "The restaurant serves ice-cold beverages to guests upon their arrival. (餐廳在客人抵達時供應冰涼飲料。)",
+    "id": "TOEIC-ice-cold-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "ill-advised",
+    "meaning": "a. 不明智的；欠考慮的",
+    "example": "Expanding the business without a clear financial plan is highly ill-advised. (沒有明確財務計畫就擴張業務是非常不明智的。)",
+    "id": "TOEIC-ill-advised-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "including",
+    "meaning": "prep. 包括；包含",
+    "example": "All board members, including the chairman, voted in favor of the merger. (包括董事長在內，所有董事都投票贊成合併案。)",
+    "id": "L4-including-prep"
+  },
+  {
+    "level": "延伸3",
+    "word": "in-depth",
+    "meaning": "a. 深入的；詳盡的",
+    "example": "The consulting firm provided an in-depth analysis of current market trends. (顧問公司針對目前的市場趨勢提供了深入分析。)",
+    "id": "TOEIC-in-depth-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "indoors",
+    "meaning": "ad. 在室內；於室內",
+    "example": "Employees must remain indoors during the hazardous chemical cleanup operation outside. (外部進行危險化學品清理作業期間，員工必須留在室內。)",
+    "id": "L3-indoors-ad"
+  },
+  {
+    "level": "延伸3",
+    "word": "injured",
+    "meaning": "a. 受傷的；受傷害的",
+    "example": "The injured employee was granted two weeks of paid medical leave to recover. (受傷員工獲准休兩週有薪病假以便康復。)",
+    "id": "TOEIC-injured-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "inspiring",
+    "meaning": "a. 鼓舞人心的；激勵人的",
+    "example": "The CEO delivered an inspiring speech at the annual employee recognition gala. (執行長在年度員工表揚晚會上發表了鼓舞人心的演說。)",
+    "id": "TOEIC-inspiring-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "lacking",
+    "meaning": "a. 缺乏的；不足的",
+    "example": "The applicant was rejected because she was lacking sufficient managerial experience. (這名申請者因缺乏足夠的管理經驗而遭到拒絕。)",
+    "id": "TOEIC-lacking-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "laid-back",
+    "meaning": "a. 輕鬆自在的；不拘謹的",
+    "example": "The startup maintains a laid-back workplace culture with flexible dress codes. (這家新創公司維持輕鬆自在的職場文化，服裝規定也很彈性。)",
+    "id": "TOEIC-laid-back-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "landing",
+    "meaning": "n. 著陸；降落",
+    "example": "The aircraft made a safe landing despite the heavy rain and strong winds. (儘管雨勢大、風勢強，飛機仍安全降落。)",
+    "id": "中高級-landing-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "large-scale",
+    "meaning": "a. 大規模的；大型的",
+    "example": "The factory is preparing for a large-scale production run of the new model. (工廠正準備大量生產這款新機型。)",
+    "id": "中高級-large-scale-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "lasting",
+    "meaning": "a. 持久的；長期的",
+    "example": "Exceptional customer service helps build a lasting relationship with clients. (出色的客戶服務有助於與客戶建立持久的關係。)",
+    "id": "中高級-lasting-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "last-minute",
+    "meaning": "a. 最後一刻的；臨時的",
+    "example": "The manager made a last-minute adjustment to the presentation slides before the meeting. (經理在會議前最後一刻調整了簡報投影片。)",
+    "id": "TOEIC-last-minute-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "later",
+    "meaning": "ad. 稍後；晚些時候",
+    "example": "The committee will review the budget proposals later this afternoon. (委員會將於今天下午稍後審查預算提案。)",
+    "id": "初級-later-a-ad"
+  },
+  {
+    "level": "延伸3",
+    "word": "leading",
+    "meaning": "a. 領先的；主要的",
+    "example": "Our firm is a leading provider of logistics software solutions in the region. (本公司是本地區領先的物流軟體解決方案供應商。)",
+    "id": "中級-leading-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "limited",
+    "meaning": "a. 有限的；受限制的",
+    "example": "Due to a limited budget, we cannot afford to hire additional staff this month. (由於預算有限，我們這個月無法再聘用員工。)",
+    "id": "TOEIC-limited-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "located",
+    "meaning": "a. 位於；坐落於",
+    "example": "Our corporate headquarters is conveniently located near the central station. (本公司的總部位置便利，就在中央車站附近。)",
+    "id": "TOEIC-located-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "logistics",
+    "meaning": "n. 物流；後勤作業",
+    "example": "The global logistics firm handles the distribution of goods for major retailers. (這家全球物流公司負責大型零售商的商品配送。)",
+    "id": "TOEIC-logistics-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "mailing",
+    "meaning": "n. 郵寄；郵寄作業",
+    "example": "Please verify your mailing address before submitting the online order form. (提交線上訂購表單前，請確認您的郵寄地址。)",
+    "id": "TOEIC-mailing-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "meaning",
+    "meaning": "n. 意義；含意",
+    "example": "The innovative campaign gave a new meaning to sustainable advertising. (這場創新活動為永續廣告賦予了新的意義。)",
+    "id": "L2-meaning-n-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "midmorning",
+    "meaning": "n. 上午中段；上午稍晚時分",
+    "example": "The supervisor scheduled a brief staff briefing for midmorning tomorrow. (主管安排明天上午中段舉行簡短的員工簡報。)",
+    "id": "TOEIC-midmorning-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "mid-range",
+    "meaning": "a. 中價位的；中階的",
+    "example": "The company launched a new mid-range smartphone model to target budget consumers. (公司推出一款新的中價位智慧型手機，鎖定預算有限的消費者。)",
+    "id": "TOEIC-mid-range-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "misunderstanding",
+    "meaning": "n. 誤解；理解錯誤",
+    "example": "A severe misunderstanding regarding delivery dates caused a temporary dispute with the client. (對交貨日期的嚴重誤解造成與客戶間的短暫爭議。)",
+    "id": "TOEIC-misunderstanding-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "nursing",
+    "meaning": "n. 護理；護理工作",
+    "example": "She decided to pursue a career in corporate nursing to manage workplace health programs. (她決定從事企業護理工作，負責管理職場健康計畫。)",
+    "id": "中級-nursing-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "occupied",
+    "meaning": "a. 有人使用的；佔用中的",
+    "example": "All the conference rooms are currently occupied by the auditing team. (所有會議室目前都由稽核團隊使用中。)",
+    "id": "TOEIC-occupied-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "offence",
+    "meaning": "n. 違法行為；罪行",
+    "example": "Depositing toxic waste into the local river is a serious environmental offence. (將有毒廢棄物排入當地河川是嚴重的環境違法行為。)",
+    "id": "TOEIC-offence-n-offense"
+  },
+  {
+    "level": "延伸3",
+    "word": "outgun",
+    "meaning": "v. 在資源上勝過；火力強於",
+    "example": "The smaller firm could not outgun its rival in marketing budget or campaign reach. (這家規模較小的公司在行銷預算和宣傳觸及上都無法勝過對手。)",
+    "id": "TOEIC-outgun-v"
+  },
+  {
+    "level": "延伸3",
+    "word": "out-of-date",
+    "meaning": "a. 過時的；未更新的",
+    "example": "Operating with out-of-date software leaves the corporate network vulnerable to hacks. (使用過時的軟體會使企業網路容易遭到駭客入侵。)",
+    "id": "TOEIC-out-of-date-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "outskirts",
+    "meaning": "n. 市郊；郊區",
+    "example": "The company purchased a cheap plot of land on the outskirts of the metropolitan area. (公司在都會區郊外購買了一塊價格低廉的土地。)",
+    "id": "TOEIC-outskirts-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "part-time",
+    "meaning": "a. 兼職的；部分工時的",
+    "example": "The retail store is looking to hire three part-time cashiers for the weekend shifts. (這家零售店正打算聘請三名兼職收銀員，負責週末班。)",
+    "id": "中級-part-time-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "Ph.D.",
+    "meaning": "abbr. 哲學博士；博士學位",
+    "example": "The research laboratory hired a scientist who holds a Ph.D. in chemical engineering. (這間研究實驗室聘請了一位擁有化學工程博士學位的科學家。)",
+    "id": "TOEIC-ph-d-n-doctor-of-philosophy"
+  },
+  {
+    "level": "延伸3",
+    "word": "pleased",
+    "meaning": "a. 高興的；滿意的",
+    "example": "The board was highly pleased with the steady increase in quarterly revenue. (董事會對季度營收穩定成長感到非常滿意。)",
+    "id": "初級-pleased-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "posting",
+    "meaning": "n. 公告；刊登內容",
+    "example": "The supervisor reviewed the online posting for accuracy before publishing it. (主管在發布前檢查了線上公告的正確性。)",
+    "id": "TOEIC-posting-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "PR",
+    "meaning": "abbr. 公共關係；公關",
+    "example": "The marketing team launched an aggressive PR campaign to improve the brand image. (行銷團隊發起積極的公關活動，以改善品牌形象。)",
+    "id": "TOEIC-pr-n-public-relations"
+  },
+  {
+    "level": "延伸3",
+    "word": "premises",
+    "meaning": "n. 場所；營業處所",
+    "example": "Smoking is strictly prohibited anywhere on the corporate premises or grounds. (公司所有場所及園區內一律嚴禁吸菸。)",
+    "id": "TOEIC-premises-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "regarding",
+    "meaning": "prep. 關於；有關",
+    "example": "Please contact the support team if you have any questions regarding your account. (如果您對帳戶有任何疑問，請聯絡支援團隊。)",
+    "id": "L4-regarding-prep"
+  },
+  {
+    "level": "延伸3",
+    "word": "registering",
+    "meaning": "v. 登記；辦理註冊",
+    "example": "The HR department is registering all employees for the upcoming safety seminar. (人資部門正在為全體員工辦理即將舉行的安全研討會報名。)",
+    "id": "TOEIC-registering-v-register"
+  },
+  {
+    "level": "延伸3",
+    "word": "renowned",
+    "meaning": "a. 著名的；享有盛譽的",
+    "example": "The university optical firm is renowned for producing precision manufacturing lenses. (這家大學光學公司以製造精密加工鏡片聞名。)",
+    "id": "L6-renowned-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "self-employed",
+    "meaning": "a. 自營的；自雇的",
+    "example": "The graphic designer operates as a self-employed consultant for multiple firms. (這位平面設計師以自營顧問身分為多家公司服務。)",
+    "id": "TOEIC-self-employed-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "shipping",
+    "meaning": "n. 運費；貨運",
+    "example": "High shipping costs can significantly reduce a retail firm's profit margins. (高昂的運費可能大幅降低零售公司的利潤率。)",
+    "id": "中高級-shipping-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "sophisticated",
+    "meaning": "a. 精密的；複雜先進的",
+    "example": "The new watch model features a highly sophisticated mechanical design. (這款新手錶採用高度精密的機械設計。)",
+    "id": "L6-sophisticated-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "takeout",
+    "meaning": "n. 外帶餐點；外帶",
+    "example": "Many office employees prefer to order takeout meals during their brief lunch breaks. (許多辦公室員工喜歡在短暫的午休時間訂外帶餐點。)",
+    "id": "TOEIC-takeout-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "thought",
+    "meaning": "n. 想法；看法",
+    "example": "The director shared a valuable thought regarding the future of AI market expansions. (主管分享了對人工智慧市場未來擴張的寶貴想法。)",
+    "id": "L1-thought-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "two-sided",
+    "meaning": "a. 雙方的；雙面的",
+    "example": "The contract agreement outlines a two-sided obligation for both business partners. (合約載明雙方商業夥伴各自的義務。)",
+    "id": "TOEIC-two-sided-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "typo",
+    "meaning": "n. 打字錯誤；排印錯誤",
+    "example": "A simple data entry typo caused a significant error in the final budget statement. (一個簡單的資料輸入錯字，導致最終預算報表出現重大錯誤。)",
+    "id": "TOEIC-typo-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "upwards",
+    "meaning": "ad. 向上；朝上",
+    "example": "The stock market index showed a steady upwards trend throughout the afternoon session. (股市指數在整個下午交易時段都呈現穩定上升趨勢。)",
+    "id": "TOEIC-upwards-ad"
+  },
+  {
+    "level": "延伸3",
+    "word": "warning",
+    "meaning": "n. 警告；警示",
+    "example": "The security desk issued a clear warning notice regarding data privacy policy compliance. (安全櫃檯發布了明確警告，提醒遵守資料隱私政策。)",
+    "id": "中級-warning-n"
+  },
+  {
+    "level": "延伸3",
+    "word": "year-end",
+    "meaning": "n. 年終；年底",
+    "example": "The accountant compiled a comprehensive year-end report for the final board meeting. (會計師為最後一次董事會議彙整了一份完整的年終報告。)",
+    "id": "TOEIC-year-end-n-a"
+  },
+  {
+    "level": "延伸3",
+    "word": "zoom-in",
+    "meaning": "v. 放大畫面；拉近檢視",
+    "example": "The inspector used the zoom-in function to examine the damaged component. (檢查員使用放大功能檢查受損零件。)",
+    "id": "TOEIC-zoom-in-v"
+  },
+  {
+    "level": "延伸3",
+    "word": "zoom-out",
+    "meaning": "v. 縮小畫面；拉遠檢視",
+    "example": "The technician selected the zoom-out control to view the entire warehouse layout. (技術人員選擇縮小畫面的控制項，以檢視整個倉庫配置。)",
+    "id": "TOEIC-zoom-out-v"
+  },
+  {
+    "level": "片語：行銷與銷售",
+    "word": "ball (party)",
+    "meaning": "phr. 正式舞會；慈善舞會",
+    "example": "The annual ball (party) will raise funds for the hospital's new wing. (年度舞會將為醫院的新大樓募款。)",
+    "id": "TOEIC-ball-party-n"
+  },
+  {
+    "level": "片語：採購與物流",
+    "word": "bar code",
+    "meaning": "phr. 條碼；條形碼",
+    "example": "Each product is identified by a unique bar code. (每件商品都以獨一無二的條碼識別。)",
+    "id": "TOEIC-bar-code-n"
+  },
+  {
+    "level": "片語：日常與通用",
+    "word": "bed and breakfast",
+    "meaning": "phr. 附早餐的民宿；住宿加早餐旅館",
+    "example": "Many business travelers prefer a bed and breakfast for short stays. (許多商務旅客短期住宿時偏好選擇附早餐的民宿。)",
+    "id": "TOEIC-bed-and-breakfast-ph"
+  },
+  {
+    "level": "片語：行銷與銷售",
+    "word": "box office",
+    "meaning": "phr. 票房；售票處",
+    "example": "The film earned record revenue at the box office during its opening week. (這部電影在上映首週便創下票房收入紀錄。)",
+    "id": "TOEIC-box-office-n"
+  },
+  {
+    "level": "片語：財務與會計",
+    "word": "carry out",
+    "meaning": "phr. 執行；進行",
+    "example": "The audit team will carry out a review of the supplier's safety records. (稽核團隊將審查供應商的安全紀錄。)",
+    "id": "TOEIC-carry-out-ph"
+  },
+  {
+    "level": "片語：管理與策略",
+    "word": "come across",
+    "meaning": "phr. 遇到；碰上",
+    "example": "Analysts predict we will come across several obstacles during the restructuring phase. (分析師預測，我們在重整階段會遇到幾項障礙。)",
+    "id": "TOEIC-come-across-ph"
+  },
+  {
+    "level": "片語：人事與招募",
+    "word": "dress code",
+    "meaning": "phr. 服裝規定；穿著規範",
+    "example": "All employees must adhere to the professional dress code during office hours. (所有員工在辦公時間都必須遵守專業服裝規定。)",
+    "id": "TOEIC-dress-code-n"
+  },
+  {
+    "level": "片語：日常與通用",
+    "word": "fire drill",
+    "meaning": "phr. 消防演習；火災演練",
+    "example": "The building management has scheduled a mandatory fire drill for ten o'clock tomorrow. (大樓管理單位安排明天十點舉行強制消防演習。)",
+    "id": "TOEIC-fire-drill-n"
+  },
+  {
+    "level": "片語：人事與招募",
+    "word": "human resource",
+    "meaning": "phr. 人力資源",
+    "example": "The human resource department is responsible for managing employee benefits. (人力資源部門負責管理員工福利。)",
+    "id": "TOEIC-human-resource-n"
+  },
+  {
+    "level": "片語：管理與策略",
+    "word": "vice versa",
+    "meaning": "phr. 反之亦然",
+    "example": "High quality control drives consumer trust, and vice versa. (高品質控管能提升消費者信任，反之亦然。)",
+    "id": "TOEIC-vice-versa-ad"
+  }
+]
