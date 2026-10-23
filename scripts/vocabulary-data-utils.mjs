@@ -3,6 +3,7 @@ import {
   buildStableVocabularyId,
   hashVocabularyPart
 } from "../src/lib/vocabularyIdentity.js";
+import { formatSensesField } from "./vocabulary-senses.mjs";
 
 export function normalizeVocabularyEntries(vocabulary) {
   const groups = new Map();
@@ -59,9 +60,14 @@ export function normalizeVocabularyEntries(vocabulary) {
   return normalizedVocabulary;
 }
 
-export function formatSourceMeaning(sourceRow) {
-  const meaning = String(sourceRow?.meaning_zh ?? "").trim();
-  const pos = String(sourceRow?.pos ?? "").trim();
+export function formatSourceMeaning(sourceRow, { useSensesDisplay = process.env.VOCAB_EXPORT_SENSES_DISPLAY === "1" } = {}) {
+  if (useSensesDisplay && Array.isArray(sourceRow?.senses)) {
+    return formatSensesField(sourceRow.senses, "meaning_zh");
+  }
+
+  const legacyDisplay = sourceRow?.legacy_display ?? sourceRow;
+  const meaning = String(legacyDisplay?.meaning_zh ?? "").trim();
+  const pos = String(legacyDisplay?.pos ?? "").trim();
 
   if (sourceRow?.track === "toeic" && pos) {
     return `${pos}. ${meaning}`;
@@ -90,7 +96,7 @@ export function formatSourceExample(sourceRow) {
   return english || chinese;
 }
 
-function buildVocabularyRecords(trackId, sourceRows) {
+function buildVocabularyRecords(trackId, sourceRows, options = {}) {
   const vocabulary = sourceRows.map((sourceRow, sourceIndex) => {
     if (sourceRow.track !== trackId) {
       throw new Error(`Source row ${sourceIndex + 1} belongs to '${sourceRow.track}', expected '${trackId}'.`);
@@ -99,7 +105,7 @@ function buildVocabularyRecords(trackId, sourceRows) {
     return {
       level: String(sourceRow?.level ?? "").trim(),
       word: String(sourceRow?.word ?? "").trim(),
-      meaning: formatSourceMeaning(sourceRow),
+      meaning: formatSourceMeaning(sourceRow, options),
       example: formatSourceExample(sourceRow),
       sourceIndex
     };
@@ -120,8 +126,8 @@ export function buildLegacyTrackExportRecords(trackId, sourceRows) {
   }));
 }
 
-export function buildTrackExportRecords(trackId, sourceRows) {
-  return buildVocabularyRecords(trackId, sourceRows).map((entry, sourceIndex) => {
+export function buildTrackExportRecords(trackId, sourceRows, options = {}) {
+  return buildVocabularyRecords(trackId, sourceRows, options).map((entry, sourceIndex) => {
     const uid = String(sourceRows[sourceIndex]?.uid ?? "").trim();
 
     if (!uid) {
