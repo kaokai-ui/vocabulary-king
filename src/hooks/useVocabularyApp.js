@@ -14,13 +14,20 @@ import { useQuizSession } from "./useQuizSession";
 import { useSavedWords } from "./useSavedWords";
 import { useTrackProgressSync } from "./useTrackProgressSync";
 
-export function useVocabularyApp(vocabulary) {
+export function useVocabularyApp(vocabulary, catalogTrack = null) {
   const [state, dispatch] = useReducer(appReducer, undefined, createInitialAppState);
   const sessionRef = useRef(state.session);
 
   const { settings, progress, session, now, pronunciationMessage } = state;
   const activeTrackId = settings.vocabularyTrack;
   const text = messages[settings.locale] ?? messages.en;
+  const selectedLevel = catalogTrack?.levels?.some((level) => level.id === settings.vocabularyLevel)
+    ? settings.vocabularyLevel
+    : "all";
+  const practiceVocabulary = useMemo(
+    () => selectedLevel === "all" ? vocabulary : vocabulary.filter((word) => word.level === selectedLevel),
+    [selectedLevel, vocabulary]
+  );
 
   const { isPersistenceReady, storageMode } = usePersistedAppState({ dispatch, settings, progress, session });
 
@@ -73,7 +80,7 @@ export function useVocabularyApp(vocabulary) {
     session,
     sessionRef,
     activeTrackId,
-    vocabulary,
+    vocabulary: practiceVocabulary,
     now,
     settings
   });
@@ -154,7 +161,7 @@ export function useVocabularyApp(vocabulary) {
   }
 
   function startFlashcards(mode) {
-    const deck = mode === "starred" ? savedWords : createPracticeDeck(mode, activeProgress, vocabulary);
+    const deck = mode === "starred" ? savedWords : createPracticeDeck(mode, activeProgress, practiceVocabulary);
 
     dispatch({
       type: actionTypes.startFlashcards,
@@ -190,6 +197,7 @@ export function useVocabularyApp(vocabulary) {
     hasSavedSession,
     isPersistenceReady,
     pronunciationMessage,
+    practiceVocabulary,
     session,
     settings,
     progress: activeProgress,
