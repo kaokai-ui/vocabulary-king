@@ -23,6 +23,9 @@ function makeSourceRow(overrides = {}) {
     meaning_ko: "",
     example_ko: "",
     example_format: { before: " (", after: ")" },
+    senses: [{ pos: "", meaning_zh: "豐富的", meaning_ja: "", meaning_ko: "" }],
+    ipa_us: "",
+    ipa_uk: "",
     ...overrides
   };
 }
@@ -142,6 +145,53 @@ describe("vocabulary source writeback", () => {
     expect(result.updatedRows[0].meaning_zh).toBe("充足的");
     expect(result.updatedRows[0].uid).toBe(snapshot.uid);
     expect(buildTrackExportRecords("toefl", result.updatedRows)[0].id).toBe(snapshot.uid);
+    expect(result.updatedRows[0].senses[0].meaning_zh).toBe("充足的");
+  });
+
+  it("replaces the complete senses array and refreshes compatibility fields", () => {
+    const sourceRows = [makeSourceRow()];
+    const snapshot = makeSnapshot(sourceRows);
+    const senses = [{ pos: "adj.", meaning_zh: "充足的；豐富的", meaning_ja: "豊富な", meaning_ko: "풍부한" }];
+    const result = planVocabularyWriteback({
+      track: "toefl",
+      sourceRows,
+      snapshotRows: [snapshot],
+      decisions: [makeDecision(snapshot, { senses })]
+    });
+
+    expect(result.updatedRows[0].senses).toEqual(senses);
+    expect(result.updatedRows[0].pos).toBe("adj.");
+    expect(result.updatedRows[0].meaning_zh).toBe("adj. 充足的；豐富的");
+    expect(result.updatedRows[0].legacy_display.meaning_zh).toBe("adj. 充足的；豐富的");
+  });
+
+  it("rejects legacy meaning writes when the row has multiple senses", () => {
+    const sourceRows = [makeSourceRow({
+      senses: [
+        { pos: "n.", meaning_zh: "水果", meaning_ja: "", meaning_ko: "" },
+        { pos: "v.", meaning_zh: "結果", meaning_ja: "", meaning_ko: "" }
+      ]
+    })];
+    const snapshot = makeSnapshot(sourceRows);
+
+    expect(() => planVocabularyWriteback({
+      track: "toefl",
+      sourceRows,
+      snapshotRows: [snapshot],
+      decisions: [makeDecision(snapshot, { meaning: "水果" })]
+    })).toThrow(/requires exactly one sense.*use final\.senses/u);
+  });
+
+  it("rejects an example_sense index outside the senses array", () => {
+    const sourceRows = [makeSourceRow()];
+    const snapshot = makeSnapshot(sourceRows);
+
+    expect(() => planVocabularyWriteback({
+      track: "toefl",
+      sourceRows,
+      snapshotRows: [snapshot],
+      decisions: [makeDecision(snapshot, { example_sense: 1 })]
+    })).toThrow(/example_sense must refer to an existing sense/u);
   });
 
   it("rejects uid changes through final", () => {
