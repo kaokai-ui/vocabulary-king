@@ -312,6 +312,10 @@ describe("headword use in examples", () => {
     expect(exampleUsesHeadword("well-known", "The well known author spoke.")).toBe(true);
     expect(exampleUsesHeadword("shrink", "The lake has shrunk by a third over the past decade.")).toBe(true);
     expect(exampleUsesHeadword("shrink", "The boat sank before the crew could reach shore.")).toBe(false);
+    expect(exampleUsesHeadword("think of", "She thought of a better approach.")).toBe(true);
+    expect(exampleUsesHeadword("tie up", "They tied the boxes up.")).toBe(true);
+    expect(exampleUsesHeadword("time off", "She requested time-off next week.")).toBe(true);
+    expect(exampleUsesHeadword("south", "The southern region receives more rain.")).toBe(false);
 
     const punctuationCounterexample = "The instructions were easy, going on to explain the final step.";
     expect(checkContentRecord(record({
@@ -335,6 +339,13 @@ describe("headword use in examples", () => {
   });
 
   it("matches example phrase substitution slots and rejects sentences without the phrase", () => {
+    const phraseExample = "The warehouse was torn down last spring.";
+    expect(checkContentRecord(record({
+      word: "tear down",
+      englishExample: phraseExample,
+      example: phraseExample + " (倉庫去年春天拆除了。)"
+    })).some((finding) => finding.check === "example-word-missing")).toBe(false);
+
     expect(exampleUsesHeadword("A as well as B", "The policy applies to employees as well as contractors." )).toBe(true);
     expect(exampleUsesHeadword("A and B alike", "The museum welcomes children and adults alike." )).toBe(true);
     expect(exampleUsesHeadword("A be followed by B", "The ceremony will be followed by a short reception." )).toBe(true);

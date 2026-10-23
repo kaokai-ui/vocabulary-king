@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { exampleUsesHeadword } from "./vocabulary-example-match.mjs";
 import {
   buildDisambiguatedVocabularyId,
   buildStableVocabularyId
@@ -29,31 +30,7 @@ const PHRASE_GROUPS = new Set([
   "會議與簡報", "財務與會計", "人事與招募", "行銷與銷售",
   "採購與物流", "客服與溝通", "管理與策略", "日常與通用"
 ]);
-const DOUBLE_FINAL_CONSONANT = new Set([
-  "admit", "begin", "commit", "control", "defer", "deter", "equip", "excel", "forget", "permit",
-  "format", "infer", "occur", "prefer", "propel", "refer", "regret", "submit", "transfer"
-]);
 const TASK_INPUT_DIRECTORY = path.join("docs", "tasks", "vocab-rebuild-20261023");
-const POSITIVE_USAGE = new Map([
-  ["be", ["am", "is", "are", "was", "were", "been", "being"]],
-  ["have", ["has", "had", "having"]],
-  ["do", ["does", "did", "done", "doing"]],
-  ["go", ["goes", "went", "gone", "going"]],
-  ["person", ["people"]], ["child", ["children"]], ["man", ["men"]],
-  ["woman", ["women"]], ["mouse", ["mice"]], ["foot", ["feet"]],
-  ["tooth", ["teeth"]], ["good", ["better", "best"]], ["bad", ["worse", "worst"]],
-  ["far", ["farther", "farthest", "further", "furthest"]],
-  ["little", ["less", "least"]], ["many", ["more", "most"]], ["much", ["more", "most"]],
-  ["few", ["fewer", "fewest"]], ["find", ["found"]], ["hide", ["hid", "hidden"]],
-  ["blow", ["blew", "blown"]], ["wake", ["woke", "woken"]], ["steal", ["stole", "stolen"]],
-  ["shake", ["shook", "shaken"]], ["take", ["took", "taken"]], ["write", ["wrote", "written"]],
-  ["speak", ["spoke", "spoken"]], ["break", ["broke", "broken"]], ["choose", ["chose", "chosen"]],
-  ["drive", ["drove", "driven"]], ["eat", ["ate", "eaten"]], ["give", ["gave", "given"]],
-  ["know", ["knew", "known"]], ["ride", ["rode", "ridden"]], ["rise", ["rose", "risen"]],
-  ["run", ["ran"]], ["see", ["saw", "seen"]], ["sell", ["sold"]], ["send", ["sent"]],
-  ["sit", ["sat"]], ["stand", ["stood"]], ["swim", ["swam", "swum"]], ["teach", ["taught"]],
-  ["think", ["thought"]], ["wear", ["wore", "worn"]], ["win", ["won"]]
-]);
 
 function usage() {
   return "Usage: npm run apply:vocab-rebuild -- --track <toeic|toeic-advanced|toefl|ielts> --dir <out-folder> --data-dir <repo> [--dry-run] [--allow-partial]";
@@ -171,39 +148,8 @@ function groupByWord(rows, wordGetter) {
   return grouped;
 }
 
-function addInflections(word) {
-  const normalized = normalizeWord(word);
-  const forms = new Set([normalized]);
-  if (POSITIVE_USAGE.has(normalized)) {
-    for (const form of POSITIVE_USAGE.get(normalized)) forms.add(form);
-  }
-  if (/\s/u.test(normalized) || !/^[a-z]+$/u.test(normalized)) return forms;
-
-  const final = normalized.at(-1);
-  const consonantY = /[^aeiou]y$/u.test(normalized);
-  const cvc = (normalized.length <= 4 && /[^aeiou][aeiou][^aeiouwxy]$/u.test(normalized) && !normalized.endsWith("ck")) ||
-    DOUBLE_FINAL_CONSONANT.has(normalized);
-
-  forms.add(consonantY ? `${normalized.slice(0, -1)}ies` : /(?:s|x|z|ch|sh)$/u.test(normalized) ? `${normalized}es` : `${normalized}s`);
-  forms.add(normalized.endsWith("e") ? `${normalized}d` : consonantY ? `${normalized.slice(0, -1)}ied` : cvc ? `${normalized}${final}ed` : `${normalized}ed`);
-  forms.add(normalized.endsWith("ie") ? `${normalized.slice(0, -2)}ying` : normalized.endsWith("e") ? `${normalized.slice(0, -1)}ing` : cvc ? `${normalized}${final}ing` : `${normalized}ing`);
-  forms.add(consonantY ? `${normalized.slice(0, -1)}ier` : `${normalized}er`);
-  forms.add(consonantY ? `${normalized.slice(0, -1)}iest` : `${normalized}est`);
-  if (normalized === "cancel") {
-    for (const form of ["canceled", "cancelled", "canceling", "cancelling"]) forms.add(form);
-  }
-  return forms;
-}
-
 export function exampleContainsWord(example, word) {
-  const normalizedExample = String(example ?? "").toLocaleLowerCase("en-US").replace(/\s+/gu, " ");
-  const forms = addInflections(word);
-  for (const form of forms) {
-    const escaped = form.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
-    const expression = new RegExp(`(^|[^a-z])${escaped}(?=$|[^a-z])`, "iu");
-    if (expression.test(normalizedExample)) return true;
-  }
-  return false;
+  return exampleUsesHeadword(word, example);
 }
 
 function isPhrase(baseRow, word) {
