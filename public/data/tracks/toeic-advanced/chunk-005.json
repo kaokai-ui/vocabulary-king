@@ -393,14 +393,14 @@
   },
   {
     "level": "片語：日常與通用",
-    "word": "it could have been worse.",
+    "word": "it could have been worse",
     "meaning": "phr. 情況本來可能更糟",
     "example": "We lost some files due to the crash, but it could have been worse. (系統當機讓我們遺失了一些檔案，但情況本來可能更糟。)",
     "id": "TOEIC-ADV-it-could-have-been-worse-my8nx7k"
   },
   {
     "level": "片語：行銷與銷售",
-    "word": "It is no wonder (that)",
+    "word": "it is no wonder",
     "meaning": "phr. 難怪；……不足為奇",
     "example": "It is no wonder that the product became a bestseller; its quality is truly exceptional. (這項產品品質確實出眾，難怪會成為暢銷品。)",
     "id": "TOEIC-ADV-it-is-no-wonder-that-mxugmef"
@@ -414,7 +414,7 @@
   },
   {
     "level": "片語：日常與通用",
-    "word": "it's no use -ing",
+    "word": "it's no use",
     "meaning": "phr. 做……沒有用；徒勞無益",
     "example": "It's no use complaining about the deadline; we need to focus on finishing the work. (抱怨期限也沒有用；我們得專心把工作完成。)",
     "id": "TOEIC-ADV-it-s-no-use-ing-m1pj6zoh"
@@ -708,7 +708,7 @@
   },
   {
     "level": "片語：採購與物流",
-    "word": "lead (up/down) to",
+    "word": "lead to",
     "meaning": "phr. 通往；導致",
     "example": "The path leads to the main entrance of the distribution center. (這條路通往配送中心的正門。)",
     "id": "TOEIC-ADV-lead-up-down-to-mm83n9r"
@@ -1219,7 +1219,7 @@
   },
   {
     "level": "片語：管理與策略",
-    "word": "make a point of -ing",
+    "word": "make a point of",
     "meaning": "phr. 特別留意做到；堅持做",
     "example": "He makes a point of checking the status of all active projects every morning. (他每天早上一定會檢查所有進行中專案的狀況。)",
     "id": "TOEIC-ADV-make-a-point-of-ing-m1l8xiiw"
@@ -1688,7 +1688,7 @@
   },
   {
     "level": "片語：客服與溝通",
-    "word": "My schedule doesn't permit it.",
+    "word": "my schedule doesn't permit it",
     "meaning": "phr. 我的行程不允許；我目前抽不出時間",
     "example": "I would like to assist with the project, but my schedule doesn't permit it at this time. (我很想協助這項專案，但目前行程不允許。)",
     "id": "TOEIC-ADV-my-schedule-doesn-t-permit-it-msy8112"
@@ -1933,9 +1933,9 @@
   },
   {
     "level": "片語：人事與招募",
-    "word": "OJT (on-the-job training)",
+    "word": "on-the-job training",
     "meaning": "phr. 在職訓練；工作現場培訓",
-    "example": "All new recruits will undergo two weeks of OJT to familiarize themselves with company procedures. (所有新進員工都將接受兩週在職訓練，以熟悉公司流程。)",
+    "example": "All new recruits will undergo two weeks of on-the-job training to learn company procedures. (所有新進人員都要接受兩週的在職訓練，熟悉公司作業流程。)",
     "id": "TOEIC-ADV-ojt-on-the-job-training-mbj8btc"
   },
   {
@@ -2633,9 +2633,9 @@
   },
   {
     "level": "片語：財務與會計",
-    "word": "PIN (personal identification number)",
+    "word": "personal identification number",
     "meaning": "phr. 個人識別碼；PIN 碼",
-    "example": "Never write down your PIN and keep it confidential. (切勿把個人識別碼寫下來，並務必妥善保密。)",
+    "example": "Never write down your personal identification number, and keep it confidential. (切勿把個人識別碼寫下來，並務必妥善保密。)",
     "id": "TOEIC-ADV-pin-personal-identification-numb-m13cm6g0"
   },
   {
@@ -2892,7 +2892,7 @@
   },
   {
     "level": "片語：管理與策略",
-    "word": "provided (that)",
+    "word": "provided that",
     "meaning": "phr. 只要；倘若",
     "example": "We will proceed with the plan, provided that we secure the necessary funding. (只要取得必要資金，我們就會繼續執行計畫。)",
     "id": "TOEIC-ADV-provided-that-m1alljy1"
@@ -2941,7 +2941,7 @@
   },
   {
     "level": "片語：客服與溝通",
-    "word": "public relations (PR) department",
+    "word": "public relations department",
     "meaning": "phr. 公共關係部；公關部",
     "example": "Please contact the public relations department for any media inquiries. (如有媒體詢問，請聯絡公關部。)",
     "id": "TOEIC-ADV-public-relations-pr-department-mcnmd4"
@@ -4404,7 +4404,7 @@
   },
   {
     "level": "片語：管理與策略",
-    "word": "succeed in -ing",
+    "word": "succeed in",
     "meaning": "phr. 成功做到……",
     "example": "The team succeeded in completing the project ahead of schedule. (團隊成功提前完成了專案。)",
     "id": "TOEIC-ADV-succeed-in-ing-m12wh4zn"
@@ -5272,9 +5272,9 @@
   },
   {
     "level": "片語：日常與通用",
-    "word": "upon -ing",
-    "meaning": "phr. 一……就……；在……時",
-    "example": "Upon arriving at the office, please sign in at the reception. (抵達辦公室後，請在接待處簽到。)",
+    "word": "upon arrival",
+    "meaning": "phr. 一抵達就；抵達時",
+    "example": "Upon arrival at the office, please sign in at the reception desk. (一抵達辦公室，請先到接待櫃台登記。)",
     "id": "TOEIC-ADV-upon-ing-m1gb625j"
   },
   {
