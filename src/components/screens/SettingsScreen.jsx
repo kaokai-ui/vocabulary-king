@@ -2,18 +2,24 @@ import { vocabularyTracks } from "../../constants/vocabularyTracks";
 import LocaleSwitcher from "../shared/LocaleSwitcher";
 import PronunciationAccentSwitcher from "../shared/PronunciationAccentSwitcher";
 import StageHeader from "../shared/StageHeader";
+import WordListCredits from "../shared/WordListCredits";
 
 export default function SettingsScreen({
   text,
   locale,
   messages,
   settings,
+  catalogTrack,
   onHome,
   onChangeLocale,
   onChangeVocabularyTrack,
+  onChangeVocabularyLevel,
   onChangePronunciationAccent,
   onToggleSetting
 }) {
+  const levels = Array.isArray(catalogTrack?.levels) ? catalogTrack.levels : [];
+  const selectedLevel = levels.some((level) => level.id === settings.vocabularyLevel) ? settings.vocabularyLevel : "all";
+
   return (
     <main className="stage-shell">
       <StageHeader text={text} title={text.settings} subtitle={text.settingsHint} onHome={onHome} />
@@ -36,6 +42,28 @@ export default function SettingsScreen({
             ))}
           </select>
         </div>
+
+        {levels.length > 0 ? (
+          <div className="setting-row setting-row--stack">
+            <div>
+              <h2>{text.vocabularyLevel}</h2>
+              <p>{text.vocabularyLevelHint}</p>
+            </div>
+            <select
+              className="settings-select"
+              aria-label={text.vocabularyLevel}
+              value={selectedLevel}
+              onChange={(event) => onChangeVocabularyLevel(event.target.value)}
+            >
+              <option value="all">{text.allVocabularyLevels}</option>
+              {levels.map((level) => (
+                <option key={level.id} value={level.id}>
+                  {level.label} ({level.totalWords})
+                </option>
+              ))}
+            </select>
+          </div>
+        ) : null}
 
         <div className="setting-row">
           <div>
@@ -96,6 +124,12 @@ export default function SettingsScreen({
             onChange={() => onToggleSetting("clozeQuizTimerEnabled")}
           />
         </label>
+      </section>
+      <section className="settings-panel source-credits-panel">
+        <details>
+          <summary>{text.wordListSources}</summary>
+          <WordListCredits locale={locale} />
+        </details>
       </section>
     </main>
   );
