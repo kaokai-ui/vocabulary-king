@@ -1,0 +1,2802 @@
+[
+  {
+    "level": "進階3",
+    "word": "shortfall",
+    "meaning": "n. 不足；短缺；差額",
+    "example": "A shortfall in tax revenue prompted the city to postpone several planned infrastructure projects. (稅收不足促使市府延後數項原定的基礎建設計畫。)",
+    "id": "進階3-shortfall-m1np8f08"
+  },
+  {
+    "level": "進階3",
+    "word": "dissemination",
+    "meaning": "n. 散布；傳播",
+    "example": "The rapid dissemination of research often helps doctors, yet it also spreads unfinished findings before checks are complete. (研究快速散布往往有助醫師，但也會在審查完成前傳播尚未定論的發現。)",
+    "id": "進階3-dissemination-m1i66k6t"
+  },
+  {
+    "level": "進階3",
+    "word": "deplete",
+    "meaning": "vt. 耗盡；使枯竭",
+    "example": "Heavy irrigation has seriously depleted the local groundwater, forcing farmers to drill much deeper wells every few years. (大量灌溉已嚴重耗竭當地地下水，迫使農民每隔幾年就鑿更深的井。)",
+    "id": "進階3-deplete-m151x2mk"
+  },
+  {
+    "level": "進階3",
+    "word": "mediation",
+    "meaning": "n. 調解；仲裁",
+    "example": "The mediation process helped both parties reach an agreement without resorting to legal action. (調解程序協助雙方達成協議，無須訴諸法律行動。)",
+    "id": "進階3-mediation-m1rpuk86"
+  },
+  {
+    "level": "進階3",
+    "word": "skew",
+    "meaning": "vt. 使偏斜；使扭曲\nadj. 歪斜的；偏斜的",
+    "example": "Online surveys can easily skew results, because they mostly reach people with very strong opinions and reliable internet. (網路調查很容易使結果偏差，因為它們主要觸及意見強烈且網路穩定的人。)",
+    "id": "進階3-skew-m1abc9g9"
+  },
+  {
+    "level": "進階3",
+    "word": "prolific",
+    "meaning": "adj. 多產的；創作豐富的；成果豐碩的",
+    "example": "The prolific software developer created three successful mobile applications this year. (這位多產的軟體開發人員今年打造了三款成功的行動應用程式。)",
+    "id": "進階3-prolific-m13i44di"
+  },
+  {
+    "level": "進階3",
+    "word": "turbulence",
+    "meaning": "n. 亂流；湍流",
+    "example": "The flight experienced some turbulence during the trip. (航程中飛機遇到了一些亂流。)",
+    "id": "進階3-turbulence-m11o88ls"
+  },
+  {
+    "level": "進階3",
+    "word": "radiate",
+    "meaning": "v. 散發；輻射",
+    "example": "The old wood stove radiates enough heat to warm the whole kitchen. (老木爐散發的熱量足以溫暖整個廚房。)",
+    "id": "進階3-radiate-m1l9li7f"
+  },
+  {
+    "level": "進階3",
+    "word": "relinquish",
+    "meaning": "vt. 放棄；交出",
+    "example": "He decided to relinquish his management duties to focus on technical research. (他決定放下管理職務，專心投入技術研究。)",
+    "id": "進階3-relinquish-m1iynktn"
+  },
+  {
+    "level": "進階3",
+    "word": "periodical",
+    "meaning": "n. 期刊；定期刊物\nadj. 定期的；週期性的",
+    "example": "The doctor cited a medical periodical published last month to explain why the clinic changed its official advice. (醫師引用上個月出版的醫學期刊，說明診所為何改變官方建議。)",
+    "id": "進階3-periodical-m1qas4rh"
+  },
+  {
+    "level": "進階4",
+    "word": "campaigner",
+    "meaning": "n. 活動人士；倡議者",
+    "example": "The campaigner spoke for children’s rights. (那位倡議者為兒童權利發聲。)",
+    "id": "進階4-campaigner-mj6txba"
+  },
+  {
+    "level": "進階4",
+    "word": "obedience",
+    "meaning": "n. 服從；順從；聽命",
+    "example": "The dog showed obedience to its owner. (那隻狗對主人表現出服從。)",
+    "id": "進階4-obedience-m1n3cmhl"
+  },
+  {
+    "level": "進階4",
+    "word": "broadband",
+    "meaning": "n. 寬頻；寬頻網路\nadj. 寬頻的；高速網路的",
+    "example": "The new broadband connection allows remote auditors to review large financial files without traveling to the regional office. (新的寬頻連線讓遠端稽核人員無須前往區域辦公室，就能檢視大型財務檔案。)",
+    "id": "進階4-broadband-m1vuqf7s"
+  },
+  {
+    "level": "進階4",
+    "word": "hallmark",
+    "meaning": "n. 特徵；標誌；典型特色",
+    "example": "Exceptional customer service is the definitive hallmark of our luxury brand identity. (卓越的客戶服務是我們奢侈品牌形象的明確標誌。)",
+    "id": "進階4-hallmark-m1hkjjn9"
+  },
+  {
+    "level": "進階4",
+    "word": "recourse",
+    "meaning": "n. 求助；依靠",
+    "example": "Residents had no recourse when the landlord refused to repair the heating. (房東拒絕修理暖氣時，住戶求助無門。)",
+    "id": "進階4-recourse-m8kp5fb"
+  },
+  {
+    "level": "進階4",
+    "word": "tutorial",
+    "meaning": "n. 教學指南；教程\nadj. 教學的；輔導的",
+    "example": "The online tutorial explains how to use the library catalogue, but many students still ask staff for help. (線上指南說明如何使用圖書館目錄，但許多學生仍向館員求助。)",
+    "id": "進階4-tutorial-m1bj139k"
+  },
+  {
+    "level": "進階4",
+    "word": "scaffold",
+    "meaning": "n. 鷹架；腳手架",
+    "example": "Workers erected a tall metal scaffold around the tower before starting the repairs. (工人開始修繕前，先在塔的四周搭起高大的金屬鷹架。)",
+    "id": "進階4-scaffold-m1gh8dsw"
+  },
+  {
+    "level": "進階4",
+    "word": "enrichment",
+    "meaning": "n. 充實；增進；豐富化",
+    "example": "The company provides an enrichment fund for staff attending external workshops. (本公司為參加外部研討會的員工提供進修補助。)",
+    "id": "進階4-enrichment-m10ozfn1"
+  },
+  {
+    "level": "進階4",
+    "word": "taboo",
+    "meaning": "n. 禁忌；忌諱",
+    "example": "This topic is taboo in some cultures. (這個話題在某些文化中是禁忌。)",
+    "id": "進階4-taboo-m1q0xj1x"
+  },
+  {
+    "level": "進階4",
+    "word": "indignation",
+    "meaning": "n. 憤慨；義憤",
+    "example": "She felt indignation at the unfair decision. (她對不公平的決定感到憤慨。)",
+    "id": "進階4-indignation-m13yippu"
+  },
+  {
+    "level": "進階4",
+    "word": "skeptic",
+    "meaning": "n. 懷疑者；持懷疑態度的人；質疑者",
+    "example": "Even skeptics supported the proposal after reviewing the independent analysis of expected savings. (即使是持懷疑態度的人，在審閱預期節省金額的獨立分析後也支持這項提案。)",
+    "id": "進階4-skeptic-mzh03i7"
+  },
+  {
+    "level": "進階4",
+    "word": "libel",
+    "meaning": "n. 誹謗；誹謗罪\nvt. 誹謗；中傷",
+    "example": "The newspaper faced a libel case after publishing claims about the actor. (那份報紙刊登關於那名演員的指控後，面臨誹謗訴訟。)",
+    "id": "進階4-libel-m10dedt8"
+  },
+  {
+    "level": "進階4",
+    "word": "fauna",
+    "meaning": "n. 動物群；動物相",
+    "example": "The reserve's native fauna has recovered since hunting stopped, although several species remain rare and need constant protection. (禁獵之後，保護區的原生動物群已經恢復，不過仍有幾種動物數量稀少，需要持續保護。)",
+    "id": "進階4-fauna-mxvmz3t"
+  },
+  {
+    "level": "進階4",
+    "word": "blockade",
+    "meaning": "n. 封鎖；包圍\nv. 封鎖；包圍",
+    "example": "The navy set up a blockade. (海軍設置了封鎖。)",
+    "id": "進階4-blockade-mi2gvma"
+  },
+  {
+    "level": "進階4",
+    "word": "requisite",
+    "meaning": "adj. 必要的；必備的\nn. 必需品；必要條件",
+    "example": "Applicants must have the requisite skills and at least two years of experience. (申請者必須具備必要技能，以及至少兩年經驗。)",
+    "id": "進階4-requisite-m1mqn107"
+  },
+  {
+    "level": "進階4",
+    "word": "captivity",
+    "meaning": "n. 囚禁；圈養",
+    "example": "The elephant had spent most of its life in captivity before being released into the reserve. (那頭大象在被野放至保護區前，大半輩子都生活在囚禁中。)",
+    "id": "進階4-captivity-mt3f2u"
+  },
+  {
+    "level": "進階4",
+    "word": "forestry",
+    "meaning": "n. 林業；森林管理",
+    "example": "Forestry provides valuable employment in rural areas but must be managed sustainably. (林業為鄉村地區提供寶貴的就業機會，但必須以永續方式經營。)",
+    "id": "進階4-forestry-m1wzuxqr"
+  },
+  {
+    "level": "進階4",
+    "word": "vernacular",
+    "meaning": "n. 方言；本地語\nadj. 方言的；本地的",
+    "example": "The poet wrote in the local vernacular, which made his work accessible to farmers who had little schooling. (這位詩人以當地方言寫作，讓受教育不多的農民也能讀懂他的作品。)",
+    "id": "進階4-vernacular-mxx4a4e"
+  },
+  {
+    "level": "進階4",
+    "word": "cosmopolitan",
+    "meaning": "adj. 國際化的；世界性的\nn. 世界公民；四海為家者",
+    "example": "The old port has become a cosmopolitan hub, with restaurants serving food from at least twenty different countries. (這座老港口已成為國際化中心，餐廳供應至少二十個不同國家的料理。)",
+    "id": "進階4-cosmopolitan-mkcly87"
+  },
+  {
+    "level": "進階4",
+    "word": "ravage",
+    "meaning": "v. 蹂躪；摧毀",
+    "example": "The storm ravaged the village. (暴風雨摧毀了村莊。)",
+    "id": "進階4-ravage-m70tyb0"
+  },
+  {
+    "level": "進階4",
+    "word": "caffeine",
+    "meaning": "n. 咖啡因",
+    "example": "Many professionals avoid excessive caffeine before important presentations. (許多專業人士在重要演講之前避免攝取過多的咖啡因。)",
+    "id": "進階4-caffeine-mct0ol"
+  },
+  {
+    "level": "進階4",
+    "word": "noteworthy",
+    "meaning": "adj. 值得注意的；顯著的",
+    "example": "There were several noteworthy developments in the industry this past quarter. (上一季這個產業有幾項值得注意的發展。)",
+    "id": "進階4-noteworthy-m1a0y6gz"
+  },
+  {
+    "level": "進階4",
+    "word": "exhaustive",
+    "meaning": "adj. 詳盡的；全面的",
+    "example": "The report provides an exhaustive review of every study published on the subject. (這份報告詳盡回顧了所有已發表於此主題的研究。)",
+    "id": "進階4-exhaustive-m1emvdj9"
+  },
+  {
+    "level": "進階4",
+    "word": "abbreviation",
+    "meaning": "n. 縮寫；簡稱",
+    "example": "The abbreviation is explained in full the first time it appears in the report. (這個縮寫在報告中第一次出現時有完整說明。)",
+    "id": "進階4-abbreviation-m8shvji"
+  },
+  {
+    "level": "進階4",
+    "word": "manifesto",
+    "meaning": "n. 宣言；政見宣言",
+    "example": "The party published its manifesto. (那個政黨發布了政見宣言。)",
+    "id": "進階4-manifesto-mh1fk6f"
+  },
+  {
+    "level": "進階4",
+    "word": "opaque",
+    "meaning": "adj. 不透明的；難懂的",
+    "example": "The bathroom window is made of opaque glass so that neighbours cannot see inside. (浴室的窗戶用不透明玻璃，這樣鄰居就看不到裡面。)",
+    "id": "進階4-opaque-m188pw8y"
+  },
+  {
+    "level": "進階4",
+    "word": "condemnation",
+    "meaning": "n. 譴責；斥責；定罪",
+    "example": "The attack received strong condemnation. (這次攻擊受到強烈譴責。)",
+    "id": "進階4-condemnation-m1wdgee9"
+  },
+  {
+    "level": "進階4",
+    "word": "eminent",
+    "meaning": "adj. 傑出的；著名的",
+    "example": "An eminent climate scientist warned that coastal cities must adapt much faster than they currently are. (一位傑出的氣候科學家警告，沿海城市必須比目前更快採取調適措施。)",
+    "id": "進階4-eminent-m1jiwfgu"
+  },
+  {
+    "level": "進階4",
+    "word": "haste",
+    "meaning": "n. 匆忙；急忙；倉促",
+    "example": "In his haste, he forgot his bag. (他匆忙之中忘了包包。)",
+    "id": "進階4-haste-m10mpri1"
+  },
+  {
+    "level": "進階4",
+    "word": "decode",
+    "meaning": "v. 解碼；破譯；理解",
+    "example": "Engineers use advanced software to decode signals transmitted from the satellite. (工程師使用進階軟體解碼衛星傳送的訊號。)",
+    "id": "進階4-decode-m15gq0m3"
+  },
+  {
+    "level": "進階4",
+    "word": "compassionate",
+    "meaning": "adj. 有同情心的；慈悲的",
+    "example": "A compassionate approach to homelessness clearly works better than fines, according to workers who run the local shelter. (根據經營當地收容所的工作人員表示，以同理心處理無家可歸問題，顯然比罰款有效。)",
+    "id": "進階4-compassionate-m1upg0aq"
+  },
+  {
+    "level": "進階4",
+    "word": "magnify",
+    "meaning": "vt. 放大；擴大",
+    "example": "Cheap lenses magnify the image but often blur the edges of the picture. (便宜的鏡頭會放大影像，但常讓畫面邊緣模糊。)",
+    "id": "進階4-magnify-m1gzv8at"
+  },
+  {
+    "level": "進階4",
+    "word": "distill",
+    "meaning": "vt. 蒸餾；提煉",
+    "example": "Small factories distill local fruit into a strong drink sold across the region. (小型工廠把當地水果蒸餾成烈酒，銷往整個地區。)",
+    "id": "進階4-distill-m1639h8u"
+  },
+  {
+    "level": "進階4",
+    "word": "decentralize",
+    "meaning": "vt. 分散；分權；使去中心化",
+    "example": "The company plans to decentralize purchasing decisions so local offices can respond faster to clients. (公司計畫分散採購決策權，讓地方辦公室能更快回應客戶。)",
+    "id": "進階4-decentralize-m1dpwwmj"
+  },
+  {
+    "level": "進階4",
+    "word": "womb",
+    "meaning": "n. 子宮；胎盤",
+    "example": "The scan showed that the womb was healthy, so the young couple could finally relax. (掃描顯示子宮狀況良好，這對年輕夫妻終於能放心了。)",
+    "id": "進階4-womb-mehs8wj"
+  },
+  {
+    "level": "進階4",
+    "word": "pollutant",
+    "meaning": "n. 污染物；汙染源",
+    "example": "The factory was fined for releasing pollutants into the river at night. (這家工廠因夜間排放汙染物到河裡而被罰款。)",
+    "id": "進階4-pollutant-m70or82"
+  },
+  {
+    "level": "進階4",
+    "word": "ingenious",
+    "meaning": "adj. 巧妙的；精巧的",
+    "example": "That was an ingenious solution. (那是一個巧妙的解決方法。)",
+    "id": "進階4-ingenious-mhncpv6"
+  },
+  {
+    "level": "進階4",
+    "word": "barren",
+    "meaning": "adj. 貧瘠的；不毛的",
+    "example": "Nothing grows easily on the barren land, so most families moved away. (貧瘠的土地上什麼都長不好，大多數家庭因此搬走了。)",
+    "id": "進階4-barren-m1wwb2jq"
+  },
+  {
+    "level": "進階4",
+    "word": "obstruct",
+    "meaning": "v. 阻塞；妨礙",
+    "example": "Fallen trees obstruct the mountain road, so rescue teams cannot reach the village. (倒下的樹木阻塞山路，因此救援隊無法抵達村莊。)",
+    "id": "進階4-obstruct-mvcgsix"
+  },
+  {
+    "level": "進階4",
+    "word": "twilight",
+    "meaning": "n. 黃昏；薄暮",
+    "example": "We finished the outdoor inspection just before twilight. (我們在黃昏前完成了戶外檢查。)",
+    "id": "進階4-twilight-m1ufoue1"
+  },
+  {
+    "level": "進階4",
+    "word": "lofty",
+    "meaning": "adj. 高聳的；崇高的；高遠的",
+    "example": "He has lofty goals for the future. (他對未來有崇高的目標。)",
+    "id": "進階4-lofty-mf03kn6"
+  },
+  {
+    "level": "進階4",
+    "word": "epoch",
+    "meaning": "n. 時代；紀元",
+    "example": "The discovery marked a new epoch in science. (這項發現標誌著科學的新時代。)",
+    "id": "進階4-epoch-m1jobqql"
+  },
+  {
+    "level": "進階4",
+    "word": "sensational",
+    "meaning": "adj. 聳動的；轟動的",
+    "example": "The newspaper deliberately printed a sensational headline, although the actual story contained very little new and accurate information. (報紙刻意印出聳動的標題，儘管實際報導幾乎沒有新的、準確的資訊。)",
+    "id": "進階4-sensational-mf0jgfp"
+  },
+  {
+    "level": "進階4",
+    "word": "symbolism",
+    "meaning": "n. 象徵；象徵手法",
+    "example": "The film uses strong colour symbolism to show the hero's changing mood. (這部片用強烈的色彩象徵來表現主角情緒的轉變。)",
+    "id": "進階4-symbolism-m148whl1"
+  },
+  {
+    "level": "進階4",
+    "word": "irregularity",
+    "meaning": "n. 不規則；異常",
+    "example": "The heart scan revealed a small unexpected irregularity in her heartbeat, so the doctor immediately ordered further tests. (心臟掃描發現她的心跳有輕微而意外的異常，因此醫師立即安排進一步檢查。)",
+    "id": "進階4-irregularity-m1tfojha"
+  },
+  {
+    "level": "進階4",
+    "word": "moderation",
+    "meaning": "n. 適度；節制",
+    "example": "Moderation in exercise is important at first, especially since suddenly doing too much can cause serious injury for beginners. (剛開始運動時適度很重要，尤其是突然做太多可能讓初學者嚴重受傷。)",
+    "id": "進階4-moderation-m9dvoes"
+  },
+  {
+    "level": "進階4",
+    "word": "ignite",
+    "meaning": "v. 點燃；引發；激起",
+    "example": "A spark from the faulty wiring could ignite the flammable materials in the lab. (錯誤接線產生的火花可能會點燃實驗室中的易燃材料。)",
+    "id": "進階4-ignite-m1hsj9lh"
+  },
+  {
+    "level": "進階4",
+    "word": "prostitution",
+    "meaning": "n. 賣淫；性交易",
+    "example": "Prostitution is illegal in some places. (性交易在某些地方是違法的。)",
+    "id": "進階4-prostitution-m1tj5803"
+  },
+  {
+    "level": "進階4",
+    "word": "populist",
+    "meaning": "adj. 民粹主義的；迎合大眾的\nn. 民粹主義者；民粹派人士",
+    "example": "The populist campaign promised immediate tax cuts despite economists warning that public services would lose essential funding. (儘管經濟學家警告公共服務將失去必要資金，民粹選戰仍承諾立即減稅。)",
+    "id": "進階4-populist-m1hwa7lj"
+  },
+  {
+    "level": "進階4",
+    "word": "corrective",
+    "meaning": "adj. 矯正的；改正的；補救性的\nn. 矯正措施；補救措施",
+    "example": "Following the audit, the management implemented corrective measures to address the identified operational weaknesses. (審計後，管理層實施了矯正措施，以解決所發現的營運弱點。)",
+    "id": "進階4-corrective-mkcnc9c"
+  },
+  {
+    "level": "進階4",
+    "word": "downsize",
+    "meaning": "v. 裁員；縮編",
+    "example": "The manufacturer downsized its workforce after installing robots, although senior managers insisted no customer service would ever suffer. (這家製造商安裝機器人後裁減人力，儘管資深經理堅稱顧客服務絕不會受影響。)",
+    "id": "進階4-downsize-m1d8yoph"
+  },
+  {
+    "level": "進階4",
+    "word": "furnace",
+    "meaning": "n. 熔爐；暖爐",
+    "example": "The furnace broke down, and the house stayed cold for two days. (暖氣爐壞了，屋裡冷了兩天。)",
+    "id": "進階4-furnace-mxc9qft"
+  },
+  {
+    "level": "進階4",
+    "word": "deflect",
+    "meaning": "v. 使偏斜；轉向",
+    "example": "The new fence deflects strong winds away from the young fruit trees. (新圍籬把強風導離幼小的果樹。)",
+    "id": "進階4-deflect-mj7sfdj"
+  },
+  {
+    "level": "進階4",
+    "word": "illicit",
+    "meaning": "adj. 非法的；違法的；不正當的",
+    "example": "The regulatory agency is cracking down on the illicit trade of counterfeit goods. (主管機關正在嚴厲打擊假冒商品的非法交易。)",
+    "id": "進階4-illicit-mm6gww9"
+  },
+  {
+    "level": "進階4",
+    "word": "antitrust",
+    "meaning": "n. 反托拉斯法；競爭法\nadj. 反托拉斯的；反壟斷的",
+    "example": "The proposed merger requires antitrust review because both companies control significant shares of the same regional market. (由於兩家公司都掌握同一區域市場的顯著占比，合併提案必須接受競爭法審查。)",
+    "id": "進階4-antitrust-mv4hzbe"
+  },
+  {
+    "level": "進階4",
+    "word": "sabotage",
+    "meaning": "n. 蓄意破壞；破壞行為",
+    "example": "The system failure was suspected to be the result of sabotage. (系統故障被懷疑是蓄意破壞所造成。)",
+    "id": "進階4-sabotage-m1jnexi6"
+  },
+  {
+    "level": "進階4",
+    "word": "revolutionize",
+    "meaning": "v. 徹底改變；使發生革命性變革",
+    "example": "Digital payment systems revolutionize small retail operations by reducing checkout delays and simplifying daily accounting. (數位支付系統透過縮短結帳等待時間並簡化每日帳務，徹底改變小型零售業的營運方式。)",
+    "id": "進階4-revolutionize-m13h60se"
+  },
+  {
+    "level": "進階4",
+    "word": "unavoidable",
+    "meaning": "adj. 不可避免的；無法避免的",
+    "example": "Some delays in production are unavoidable during the transition. (轉換期間有些生產延誤是不可避免的。)",
+    "id": "進階4-unavoidable-m1l8z5jv"
+  },
+  {
+    "level": "進階4",
+    "word": "outreach",
+    "meaning": "n. 外展服務；社區支援",
+    "example": "Our community outreach program has helped thousands of people over the last five years. (過去五年來，我們的社區外展計畫已幫助數千人。)",
+    "id": "進階4-outreach-m1s1zflj"
+  },
+  {
+    "level": "進階4",
+    "word": "torrent",
+    "meaning": "n. 急流；洪流",
+    "example": "A torrent of water rushed down the street after the pipe burst. (水管爆裂後，一股洪流沿著街道沖下來。)",
+    "id": "進階4-torrent-mzln2pi"
+  },
+  {
+    "level": "進階4",
+    "word": "eternity",
+    "meaning": "n. 永恆；永遠；漫長時間",
+    "example": "They promised to love each other for eternity. (他們承諾永遠相愛。)",
+    "id": "進階4-eternity-mdo6qtf"
+  },
+  {
+    "level": "進階4",
+    "word": "concise",
+    "meaning": "adj. 簡明的；簡潔的",
+    "example": "Please give a concise answer. (請給一個簡潔的答案。)",
+    "id": "進階4-concise-mxftp2l"
+  },
+  {
+    "level": "進階4",
+    "word": "flora",
+    "meaning": "n. 植物群；植物相",
+    "example": "The city's flora has changed dramatically as many imported garden plants have slowly spread into the surrounding woods. (這座城市的植物群已大幅改變，許多進口園藝植物慢慢蔓延到周遭林地。)",
+    "id": "進階4-flora-m1ncew89"
+  },
+  {
+    "level": "進階4",
+    "word": "intangible",
+    "meaning": "adj. 無形的；難以量化的\nn. 無形資產",
+    "example": "Employee trust is an intangible asset that can influence retention and the company's public reputation. (員工信任是一種無形資產，會影響留任率與公司的公眾聲譽。)",
+    "id": "進階4-intangible-m16wjieb"
+  },
+  {
+    "level": "進階4",
+    "word": "cubic",
+    "meaning": "adj. 立方的；立方體的",
+    "example": "The box has a cubic shape. (這個盒子是立方體形狀。)",
+    "id": "進階4-cubic-mhs1ysj"
+  },
+  {
+    "level": "進階4",
+    "word": "recapture",
+    "meaning": "vt. 重獲；奪回",
+    "example": "After months of therapy, the athlete managed to recapture her former speed and confidence. (經過數月治療，這位運動員成功重獲以往的速度與自信。)",
+    "id": "進階4-recapture-mhfw4h6"
+  },
+  {
+    "level": "進階4",
+    "word": "borderline",
+    "meaning": "adj. 勉強達標的；處於臨界點的",
+    "example": "The proposal received borderline approval from the review committee. (該提案在審查委員會勉強過關。)",
+    "id": "進階4-borderline-mthpvgb"
+  },
+  {
+    "level": "進階4",
+    "word": "intonation",
+    "meaning": "n. 語調；音調",
+    "example": "Rising intonation at the end of a sentence often signals a question in English. (英文句尾上揚的語調通常表示疑問。)",
+    "id": "進階4-intonation-m1rby96u"
+  },
+  {
+    "level": "進階4",
+    "word": "prefix",
+    "meaning": "n. 前綴；字首",
+    "example": "Adding a common prefix such as 'un' can reverse the meaning of an adjective. (加上像「un」這樣的常見前綴，可以逆轉形容詞的意思。)",
+    "id": "進階4-prefix-m1ikqb6b"
+  },
+  {
+    "level": "進階4",
+    "word": "hypocrisy",
+    "meaning": "n. 虛偽；偽善",
+    "example": "His kindness was only hypocrisy. (他的善意只是偽善。)",
+    "id": "進階4-hypocrisy-m13b7bcw"
+  },
+  {
+    "level": "進階4",
+    "word": "heterosexual",
+    "meaning": "adj. 異性戀的；異性間的\nn. 異性戀者；異性戀人士",
+    "example": "He is heterosexual. (他是異性戀。)",
+    "id": "進階4-heterosexual-mt5z599"
+  },
+  {
+    "level": "進階4",
+    "word": "rectify",
+    "meaning": "v. 糾正；改正",
+    "example": "The bank promised to rectify the error and refund the charges within five working days. (銀行承諾在五個工作天內糾正錯誤並退還費用。)",
+    "id": "進階4-rectify-m63h00w"
+  },
+  {
+    "level": "進階4",
+    "word": "moderator",
+    "meaning": "n. 主持人；討論引導人",
+    "example": "The moderator opened the discussion by introducing the key topics for the panel. (主持人介紹座談會的主要議題，藉此開啟討論。)",
+    "id": "進階4-moderator-mil7i6q"
+  },
+  {
+    "level": "進階4",
+    "word": "empowerment",
+    "meaning": "n. 授權；賦能；增強自主權",
+    "example": "Employee empowerment allowed branch managers to resolve routine customer issues without waiting for headquarters approval. (員工獲得授權後，分店經理無須等待總部核准便能處理例行客訴。)",
+    "id": "進階4-empowerment-m1mnsi51"
+  },
+  {
+    "level": "進階4",
+    "word": "pitfall",
+    "meaning": "n. 陷阱；隱患",
+    "example": "The most common pitfall is to spend far too little time planning the project. (最常見的陷阱，就是花太少的時間規劃這項計畫。)",
+    "id": "進階4-pitfall-m142gmfn"
+  },
+  {
+    "level": "進階4",
+    "word": "macroeconomic",
+    "meaning": "adj. 總體經濟的；宏觀經濟的",
+    "example": "Macroeconomic conditions such as inflation and interest rates influence the company's borrowing costs. (通膨與利率等總體經濟狀況會影響公司的借款成本。)",
+    "id": "進階4-macroeconomic-mepzs6l"
+  },
+  {
+    "level": "進階4",
+    "word": "barrage",
+    "meaning": "n. 連續炮擊；猛烈攻擊",
+    "example": "The soldiers sheltered behind a low stone wall during the long barrage. (士兵們在漫長的彈幕攻擊期間躲在低矮的石牆後。)",
+    "id": "進階4-barrage-mn7sxea"
+  },
+  {
+    "level": "進階4",
+    "word": "synonymous",
+    "meaning": "adj. 同義的；等同的",
+    "example": "“Big” is synonymous with “large.” (“Big” 和 “large” 同義。)",
+    "id": "進階4-synonymous-m1ohjczx"
+  },
+  {
+    "level": "進階4",
+    "word": "proficient",
+    "meaning": "adj. 精通的；熟練的",
+    "example": "She is proficient in three languages, which is a great asset to our international team. (她精通三種語言，這對我們的國際團隊是很大的助力。)",
+    "id": "進階4-proficient-m1b1xjoc"
+  },
+  {
+    "level": "進階4",
+    "word": "foreseeable",
+    "meaning": "adj. 可預見的；意料中的",
+    "example": "The shortage was foreseeable, yet no one ordered extra supplies in advance. (這次短缺是可以預見的，卻沒有人提前訂購額外補給。)",
+    "id": "進階4-foreseeable-mdl0yhu"
+  },
+  {
+    "level": "進階4",
+    "word": "exaggeration",
+    "meaning": "n. 誇張；誇大其詞",
+    "example": "The claim that this software can solve all business problems is an exaggeration. (聲稱該軟體可以解決所有業務問題的說法有些誇張。)",
+    "id": "進階4-exaggeration-m1i7rrp1"
+  },
+  {
+    "level": "進階4",
+    "word": "inadvertently",
+    "meaning": "adv. 不小心地；無意間",
+    "example": "I inadvertently deleted the draft report, but luckily I had saved a backup copy. (我不小心刪除了報告草稿，幸好已經存有備份。)",
+    "id": "進階4-inadvertently-mru73y1"
+  },
+  {
+    "level": "進階4",
+    "word": "roster",
+    "meaning": "n. 名冊；值班表",
+    "example": "The duty roster is posted online so that staff can plan their weekends. (執勤表公布在網路上，讓員工可以規劃週末。)",
+    "id": "進階4-roster-mqhuvax"
+  },
+  {
+    "level": "進階4",
+    "word": "disintegrate",
+    "meaning": "v. 瓦解；碎裂",
+    "example": "The old stone steps had begun to disintegrate after years of frost. (歷經多年霜凍，古老的石階已開始碎裂。)",
+    "id": "進階4-disintegrate-m1dbweb6"
+  },
+  {
+    "level": "進階4",
+    "word": "conclusive",
+    "meaning": "adj. 確鑿的；決定性的",
+    "example": "The forensic audit provided conclusive evidence of embezzlement, leading to the immediate termination of the employee. (鑑識會計稽核提出挪用公款的確鑿證據，該員工因此立即遭到解雇。)",
+    "id": "進階4-conclusive-m1ofm1yx"
+  },
+  {
+    "level": "進階4",
+    "word": "deport",
+    "meaning": "v. 驅逐出境；遣返",
+    "example": "The government decided to deport the criminal. (政府決定驅逐那名罪犯出境。)",
+    "id": "進階4-deport-mjg6aew"
+  },
+  {
+    "level": "進階4",
+    "word": "toil",
+    "meaning": "n. 苦工；辛勞\nv. 苦幹；辛勤工作",
+    "example": "Farmers toil from dawn to dusk in the flooded rice fields during the busy harvest season. (農民在忙碌的收成季節從早到晚在淹水的稻田裡辛勤勞作。)",
+    "id": "進階4-toil-mdkrdbx"
+  },
+  {
+    "level": "進階4",
+    "word": "reinstate",
+    "meaning": "vt. 恢復；使復職",
+    "example": "The company has decided to reinstate the old policy due to employee feedback. (公司根據員工回饋，決定恢復舊政策。)",
+    "id": "進階4-reinstate-mds3dtl"
+  },
+  {
+    "level": "進階4",
+    "word": "humane",
+    "meaning": "adj. 人道的；仁慈的",
+    "example": "The shelter aims to provide humane treatment for stray animals awaiting new homes. (這間收容所致力於為等待新家的流浪動物提供人道對待。)",
+    "id": "進階4-humane-m1nydmvh"
+  },
+  {
+    "level": "進階4",
+    "word": "penalize",
+    "meaning": "vt. 懲罰；處罰",
+    "example": "The new rules penalize companies that fail to report their emissions honestly. (新規定懲罰未誠實申報排放量的公司。)",
+    "id": "進階4-penalize-m18xsxw8"
+  },
+  {
+    "level": "進階4",
+    "word": "sane",
+    "meaning": "adj. 理智的；神志清醒的",
+    "example": "It is hard to stay sane when traffic noise continues all through the night. (交通噪音整夜不停時，很難保持理智。)",
+    "id": "進階4-sane-mk465rn"
+  },
+  {
+    "level": "進階4",
+    "word": "vibrate",
+    "meaning": "v. 震動；振動",
+    "example": "The old windows vibrate whenever a heavy lorry passes the house. (每當重型卡車經過房子，舊窗戶就會震動。)",
+    "id": "進階4-vibrate-mxrjfxv"
+  },
+  {
+    "level": "進階4",
+    "word": "pavilion",
+    "meaning": "n. 展示館；亭閣",
+    "example": "The trade fair features a special pavilion dedicated to new technologies. (這場貿易展設有專門展示新技術的展館。)",
+    "id": "進階4-pavilion-m10shfbi"
+  },
+  {
+    "level": "進階4",
+    "word": "affectionate",
+    "meaning": "adj. 充滿關愛的；深情的",
+    "example": "The affectionate child hugged his grandmother. (那個充滿感情的孩子抱了奶奶。)",
+    "id": "進階4-affectionate-m1ykrgkg"
+  },
+  {
+    "level": "進階4",
+    "word": "liberalize",
+    "meaning": "vt. 使自由化；放寬限制；開放\nvi. 走向自由化；放寬管制",
+    "example": "The government plans to liberalize import rules to encourage competition among domestic retailers. (政府計畫放寬進口規定，鼓勵國內零售商之間的競爭。)",
+    "id": "進階4-liberalize-mod3zrf"
+  },
+  {
+    "level": "進階4",
+    "word": "allot",
+    "meaning": "vt. 分配；撥給",
+    "example": "The manager will allot specific responsibilities to each team member during the kickoff meeting. (經理將在啟動會議中分配具體職責給每位團隊成員。)",
+    "id": "進階4-allot-m1jyptn9"
+  },
+  {
+    "level": "進階4",
+    "word": "eloquent",
+    "meaning": "adj. 雄辯的；有說服力的",
+    "example": "The CEO delivered an eloquent speech during the annual gala, inspiring confidence among the shareholders. (執行長在年度晚會上發表了有感染力的演說，提升了股東的信心。)",
+    "id": "進階4-eloquent-m3k98oj"
+  },
+  {
+    "level": "進階4",
+    "word": "concur",
+    "meaning": "v. 同時發生；一致",
+    "example": "The festival and the harvest usually concur in the last week of September. (慶典和收成通常在九月最後一週同時發生。)",
+    "id": "進階4-concur-mitpys6"
+  },
+  {
+    "level": "進階4",
+    "word": "waterway",
+    "meaning": "n. 水道；水路",
+    "example": "The goods are transported via the main waterway. (貨物經由主要水道運輸。)",
+    "id": "進階4-waterway-mg54l93"
+  },
+  {
+    "level": "進階4",
+    "word": "reschedule",
+    "meaning": "v. 重新安排時間；改期",
+    "example": "The secretary had to reschedule the board meeting due to an unexpected conflict. (由於意外的衝突，秘書不得不重新安排董事會會議的時間。)",
+    "id": "進階4-reschedule-m1etf2ys"
+  },
+  {
+    "level": "進階4",
+    "word": "hull",
+    "meaning": "n. 外殼；船體\nv. 去殼；剝殼",
+    "example": "Farmers hull the rice after harvest to remove the dry outer layer. (農民在收成後把稻穀去殼，除去乾燥的外層。)",
+    "id": "進階4-hull-m1pj4j9b"
+  },
+  {
+    "level": "進階4",
+    "word": "suspense",
+    "meaning": "n. 懸念；懸疑；焦灼",
+    "example": "The movie was full of suspense. (這部電影充滿懸疑。)",
+    "id": "進階4-suspense-m1vqdcu2"
+  },
+  {
+    "level": "進階4",
+    "word": "unconditional",
+    "meaning": "adj. 無條件的；絕對的",
+    "example": "A parent’s love can feel unconditional. (父母的愛可能是無條件的。)",
+    "id": "進階4-unconditional-mycxgd7"
+  },
+  {
+    "level": "進階4",
+    "word": "ecstasy",
+    "meaning": "n. 狂喜；欣喜若狂；陶醉",
+    "example": "The fans were in ecstasy after the victory. (勝利後粉絲們欣喜若狂。)",
+    "id": "進階4-ecstasy-m8uw5pz"
+  },
+  {
+    "level": "進階4",
+    "word": "bereave",
+    "meaning": "vt. 使喪失；使喪親",
+    "example": "The fire bereaved the family of everything they owned in a single night. (那場火災在一夜之間使這個家庭失去所有財物。)",
+    "id": "進階4-bereave-m1nj6xe2"
+  },
+  {
+    "level": "進階4",
+    "word": "extinguish",
+    "meaning": "vt. 熄滅；撲滅",
+    "example": "She quickly extinguished the small kitchen fire with a damp towel before it could spread to the curtains. (她迅速用濕毛巾撲滅廚房的小火，以免火勢蔓延到窗簾。)",
+    "id": "進階4-extinguish-mwoierx"
+  },
+  {
+    "level": "進階4",
+    "word": "clinch",
+    "meaning": "v. 贏得；確定取得；緊抱\nn. 緊抱；扭抱",
+    "example": "The team clinched the victory. (隊伍確定贏得勝利。)",
+    "id": "進階4-clinch-m1joseqk"
+  },
+  {
+    "level": "進階4",
+    "word": "overstate",
+    "meaning": "vt. 誇大；言過其實；過度陳述",
+    "example": "The spokesperson avoided overstating expected savings while explaining the company's new efficiency program. (發言人在說明公司新效率計畫時，避免誇大預期節省金額。)",
+    "id": "進階4-overstate-mygwrvb"
+  },
+  {
+    "level": "進階4",
+    "word": "shun",
+    "meaning": "v. 避開；躲避；迴避",
+    "example": "He tried to shun attention. (他試著避免引人注意。)",
+    "id": "進階4-shun-mpz6gve"
+  },
+  {
+    "level": "進階4",
+    "word": "reproach",
+    "meaning": "n. 責備；譴責\nv. 責備；斥責",
+    "example": "He looked at her with quiet, angry reproach, though he said nothing at all. (他帶著壓抑而憤怒的責備眼神看著她，卻一句話也沒說。)",
+    "id": "進階4-reproach-m17hovxt"
+  },
+  {
+    "level": "進階4",
+    "word": "chancellor",
+    "meaning": "n. 大學校長；總理",
+    "example": "The chancellor spoke briefly at the ceremony, praising students for their patience during the long difficult building work. (大學校長在典禮上簡短致詞，讚揚學生在漫長艱難的施工期間展現耐心。)",
+    "id": "進階4-chancellor-me10et9"
+  },
+  {
+    "level": "進階4",
+    "word": "restate",
+    "meaning": "vt. 重述；重新陳述；重新說明",
+    "example": "The chair asked the presenter to restate the proposal's financial assumptions in simpler terms. (主席請簡報者用更簡單的方式重述提案中的財務假設。)",
+    "id": "進階4-restate-mqp160a"
+  },
+  {
+    "level": "進階4",
+    "word": "overdue",
+    "meaning": "adj. 逾期的；延誤的",
+    "example": "The long overdue train was finally announced, but the platform had changed suddenly without any clear public explanation. (誤點很久的火車終於廣播了，但月台突然更改，卻沒有任何清楚的公開說明。)",
+    "id": "進階4-overdue-mj1x1lq"
+  },
+  {
+    "level": "進階4",
+    "word": "sincerity",
+    "meaning": "n. 誠意；真誠",
+    "example": "Because the apology showed sincerity, the client agreed to resume contract negotiations. (由於道歉展現了誠意，客戶同意恢復合約談判。)",
+    "id": "進階4-sincerity-m1m3lxbh"
+  },
+  {
+    "level": "進階4",
+    "word": "alienation",
+    "meaning": "n. 疏離；離間",
+    "example": "Social media can deepen alienation among teenagers, especially when online comparisons replace genuine face-to-face conversation. (社群媒體可能加深青少年的疏離感，尤其是當線上比較取代了面對面真誠交談時。)",
+    "id": "進階4-alienation-m1hjz86x"
+  },
+  {
+    "level": "進階4",
+    "word": "symposium",
+    "meaning": "n. 研討會；專題討論會",
+    "example": "The research institute hosted an international technology symposium downtown. (該研究所在市中心舉辦了國際技術研討會。)",
+    "id": "進階4-symposium-m19mxbid"
+  },
+  {
+    "level": "進階4",
+    "word": "literate",
+    "meaning": "adj. 識字的；有文化的",
+    "example": "Almost every adult in the village is literate and reads the local paper. (村裡幾乎每個成年人都識字，也會讀地方報。)",
+    "id": "進階4-literate-mifm276"
+  },
+  {
+    "level": "進階4",
+    "word": "stockpile",
+    "meaning": "n. 儲備；囤積\nvt. 儲備；囤積",
+    "example": "The family keeps a small stockpile of rice and tinned food, in case shops close during sudden storms. (這家人囤了一小批米和罐頭食品，以防商店在突發暴風雨期間關門。)",
+    "id": "進階4-stockpile-m1ckfjzk"
+  },
+  {
+    "level": "進階4",
+    "word": "splendor",
+    "meaning": "n. 壯麗；宏偉",
+    "example": "The hotel architecture reflects the splendor of the city's history. (飯店建築展現了這座城市歷史的壯麗。)",
+    "id": "進階4-splendor-mdmka5p"
+  },
+  {
+    "level": "進階4",
+    "word": "relegate",
+    "meaning": "v. 降級；貶職；歸類",
+    "example": "The team was relegated to a lower league. (這支隊伍被降到較低聯盟。)",
+    "id": "進階4-relegate-mk1nloy"
+  },
+  {
+    "level": "進階4",
+    "word": "subtlety",
+    "meaning": "n. 微妙之處；細微差別",
+    "example": "She understood the subtlety of the joke. (她懂得那個笑話的微妙之處。)",
+    "id": "進階4-subtlety-m1cksdi3"
+  },
+  {
+    "level": "進階4",
+    "word": "legalize",
+    "meaning": "v. 使合法化；將……合法化",
+    "example": "The government plans to legalize specific digital asset trading platforms next year. (政府計畫明年將特定數位資產交易平台合法化。)",
+    "id": "進階4-legalize-m8iwljn"
+  },
+  {
+    "level": "進階4",
+    "word": "hospitalize",
+    "meaning": "v. 使住院；收治住院",
+    "example": "The doctor decided to hospitalize the patient. (醫生決定讓病人住院。)",
+    "id": "進階4-hospitalize-mh35qu9"
+  },
+  {
+    "level": "進階4",
+    "word": "expatriate",
+    "meaning": "n. 旅居海外者；外派人員",
+    "example": "Our company provides comprehensive relocation assistance to support every expatriate moving to our overseas branches. (公司為每位調任海外分公司的外派人員提供全面搬遷協助。)",
+    "id": "進階4-expatriate-m1u6j810"
+  },
+  {
+    "level": "進階4",
+    "word": "procure",
+    "meaning": "v. 取得；採購；設法獲得",
+    "example": "The procurement department works hard to procure high-quality raw materials at low costs. (採購部門努力以低成本採購優質原料。)",
+    "id": "進階4-procure-ml9eisz"
+  },
+  {
+    "level": "進階4",
+    "word": "annex",
+    "meaning": "n. 附屬建築；附樓",
+    "example": "The hospital is building a state-of-the-art annex dedicated entirely to pediatric oncology. (醫院正在興建一棟最先進的附屬大樓，專門用於兒童腫瘤科。)",
+    "id": "進階4-annex-m90jwr7"
+  },
+  {
+    "level": "進階4",
+    "word": "cork",
+    "meaning": "n. 軟木塞；軟木\nvt. 以軟木塞塞住",
+    "example": "He pulled the cork out slowly so that the wine would not spill. (他慢慢拔出軟木塞，免得酒灑出來。)",
+    "id": "進階4-cork-m1a3yxo"
+  },
+  {
+    "level": "進階4",
+    "word": "vulgar",
+    "meaning": "adj. 粗俗的；庸俗的",
+    "example": "The comedian's jokes were so vulgar that several families with children left early. (那位喜劇演員的笑話太粗俗，好幾個家庭提早離場。)",
+    "id": "進階4-vulgar-m1v2iv1q"
+  },
+  {
+    "level": "進階4",
+    "word": "segmentation",
+    "meaning": "n. 區隔；分割；細分市場",
+    "example": "Customer segmentation helped the retailer tailor promotions to distinct groups of frequent shoppers. (顧客區隔協助零售商針對不同的常客群體量身設計促銷活動。)",
+    "id": "進階4-segmentation-m1rdrv68"
+  },
+  {
+    "level": "進階4",
+    "word": "liquidation",
+    "meaning": "n. 清算；變賣資產",
+    "example": "Following liquidation, the administrator distributed remaining proceeds among creditors according to their legal priority. (清算後，管理人依照法定順位將剩餘款項分配給債權人。)",
+    "id": "進階4-liquidation-mb59ge5"
+  },
+  {
+    "level": "進階4",
+    "word": "infringement",
+    "meaning": "n. 侵權；侵犯",
+    "example": "The legal team is monitoring for any potential intellectual property infringement by our competitors. (法務團隊正在監控競爭對手是否可能侵犯智慧財產權。)",
+    "id": "進階4-infringement-m162tuxs"
+  },
+  {
+    "level": "進階4",
+    "word": "repository",
+    "meaning": "n. 儲存庫；資料庫",
+    "example": "Our internal server serves as a repository for all project documents. (我們的內部伺服器是所有專案文件的儲存庫。)",
+    "id": "進階4-repository-m1fbylz7"
+  },
+  {
+    "level": "進階4",
+    "word": "clockwise",
+    "meaning": "adj. 順時針的\nadv. 順時針地；順時針方向",
+    "example": "Turn the metal handle slowly clockwise until the water stops dripping completely. (慢慢順時針轉動金屬把手，直到水完全停止滴漏。)",
+    "id": "進階4-clockwise-m1o79w8k"
+  },
+  {
+    "level": "進階4",
+    "word": "undeniable",
+    "meaning": "adj. 不可否認的；確鑿的",
+    "example": "It is an undeniable fact that the market is changing. (市場正在改變，這是不可否認的事實。)",
+    "id": "進階4-undeniable-mch721r"
+  },
+  {
+    "level": "進階4",
+    "word": "demolition",
+    "meaning": "n. 拆除；拆毀",
+    "example": "The demolition of the old tower took weeks, and nearby residents bitterly complained about the thick, constant dust. (拆除那座舊塔花了好幾週，附近居民強烈抱怨濃厚且持續不散的灰塵。)",
+    "id": "進階4-demolition-m1f2f4zb"
+  },
+  {
+    "level": "進階4",
+    "word": "refill",
+    "meaning": "vt. 重新裝滿；補充",
+    "example": "Please refill the coffee machine when you notice it is running low. (發現咖啡機存量不足時，請重新補充。)",
+    "id": "進階4-refill-m2e9qcf"
+  },
+  {
+    "level": "進階4",
+    "word": "reptile",
+    "meaning": "n. 爬行動物；爬蟲類",
+    "example": "The desert is home to several reptiles that are active only at night. (沙漠是多種爬行動物的棲地，牠們只在夜間活動。)",
+    "id": "進階4-reptile-mhkhinl"
+  },
+  {
+    "level": "進階4",
+    "word": "grope",
+    "meaning": "v. 摸索；暗中摸索",
+    "example": "He had to grope along the corridor because the power had gone out. (因為停電，他只能沿著走廊摸索前進。)",
+    "id": "進階4-grope-myug635"
+  },
+  {
+    "level": "進階4",
+    "word": "waver",
+    "meaning": "v. 動搖；猶豫；搖擺不定",
+    "example": "The executive board did not waver in its determination to proceed with the corporate merger. (執行董事會並沒有動搖進行公司合併的決心。)",
+    "id": "進階4-waver-m1tt2ygt"
+  },
+  {
+    "level": "進階4",
+    "word": "refute",
+    "meaning": "v. 駁斥；反駁",
+    "example": "The scientist firmly refuted the claim with evidence from three large independent studies published recently. (這位科學家以近期發表的三項大型獨立研究證據，堅決駁斥那項說法。)",
+    "id": "進階4-refute-m1asoqqz"
+  },
+  {
+    "level": "進階4",
+    "word": "innovator",
+    "meaning": "n. 創新者；革新者",
+    "example": "The young software developer is recognized as a leading innovator in AI technology. (這位年輕的軟體開發人員被公認為人工智慧技術的領先創新者。)",
+    "id": "進階4-innovator-m1vruhvx"
+  },
+  {
+    "level": "進階4",
+    "word": "festive",
+    "meaning": "adj. 節慶的；歡樂的",
+    "example": "The office was decorated with festive lights to create a welcoming atmosphere for our annual year-end celebration. (辦公室掛上節慶燈飾，為年度年終慶祝活動營造熱鬧歡迎的氣氛。)",
+    "id": "進階4-festive-m15p0wvq"
+  },
+  {
+    "level": "進階4",
+    "word": "murky",
+    "meaning": "adj. 渾濁的；陰暗的",
+    "example": "The pond looked murky after heavy rain washed soil into the water. (大雨把泥土沖進水裡後，池塘看起來很渾濁。)",
+    "id": "進階4-murky-mu6ue77"
+  },
+  {
+    "level": "進階4",
+    "word": "bulky",
+    "meaning": "adj. 龐大的；笨重的；高大肥胖的",
+    "example": "This bulky box is hard to carry. (這個笨重的箱子很難搬。)",
+    "id": "進階4-bulky-m1i5jx16"
+  },
+  {
+    "level": "進階4",
+    "word": "gale",
+    "meaning": "n. 大風；強風",
+    "example": "A fierce gale tore down power lines and left the village in darkness. (強烈大風吹斷電線，讓村莊陷入一片黑暗。)",
+    "id": "進階4-gale-mdqfuzv"
+  },
+  {
+    "level": "進階4",
+    "word": "treacherous",
+    "meaning": "adj. 危險的；背信的",
+    "example": "The mountain road was treacherous. (山路很危險。)",
+    "id": "進階4-treacherous-m5i9lcv"
+  },
+  {
+    "level": "進階4",
+    "word": "festivity",
+    "meaning": "n. 慶祝活動；歡慶",
+    "example": "The company organized a special festivity to celebrate the achievements of the team over the past year. (公司舉辦特別慶祝活動，表揚團隊過去一年的成就。)",
+    "id": "進階4-festivity-m1rd189b"
+  },
+  {
+    "level": "進階4",
+    "word": "practicable",
+    "meaning": "adj. 可行的；可實施的",
+    "example": "The plan is practicable. (這個計畫可行。)",
+    "id": "進階4-practicable-mv47636"
+  },
+  {
+    "level": "進階4",
+    "word": "flounder",
+    "meaning": "n. 比目魚；鰈魚\nv. 掙扎；陷入困境",
+    "example": "The team began to flounder after losing its captain. (失去隊長後，隊伍開始陷入困境。)",
+    "id": "進階4-flounder-mqlmrl6"
+  },
+  {
+    "level": "進階4",
+    "word": "detectable",
+    "meaning": "adj. 可察覺的；可檢測的",
+    "example": "The new software includes an advanced error-checking tool to ensure any detectable issues are resolved early. (新軟體包含進階錯誤檢查工具，確保任何可檢測的問題都能及早解決。)",
+    "id": "進階4-detectable-mfqoucs"
+  },
+  {
+    "level": "進階4",
+    "word": "allotment",
+    "meaning": "n. 分配；配額",
+    "example": "The equitable allotment of research funding was a major point of contention during the board meeting. (研究經費的公平分配是董事會議中的主要爭議點。)",
+    "id": "進階4-allotment-m1jyxkes"
+  },
+  {
+    "level": "進階4",
+    "word": "hardy",
+    "meaning": "adj. 耐寒的；堅強的；吃苦耐勞的",
+    "example": "This hardy plant can survive cold weather. (這種耐寒植物能在寒冷天氣中生存。)",
+    "id": "進階4-hardy-m1ppdowh"
+  },
+  {
+    "level": "進階4",
+    "word": "hoof",
+    "meaning": "n. 馬蹄；蹄子",
+    "example": "The horse hurt its hoof. (馬弄傷了牠的蹄。)",
+    "id": "進階4-hoof-m1fluojz"
+  },
+  {
+    "level": "進階4",
+    "word": "caste",
+    "meaning": "n. 種姓；社會階層",
+    "example": "The caste system divided people by birth. (種姓制度依出生劃分人群。)",
+    "id": "進階4-caste-m1ijh7ht"
+  },
+  {
+    "level": "進階4",
+    "word": "unfavorable",
+    "meaning": "adj. 不利的；不順利的；不受歡迎的",
+    "example": "The economic climate is unfavorable for new investments. (目前的經濟環境不利於新投資。)",
+    "id": "進階4-unfavorable-ms4zt09"
+  },
+  {
+    "level": "進階4",
+    "word": "neutrality",
+    "meaning": "n. 中立；中立性",
+    "example": "Our company maintains strict neutrality regarding political issues. (我們公司對政治議題嚴守中立。)",
+    "id": "進階4-neutrality-m17xkzxo"
+  },
+  {
+    "level": "進階4",
+    "word": "amphibian",
+    "meaning": "n. 兩棲動物\nadj. 兩棲的；水陸兩棲的",
+    "example": "Amphibians are especially sensitive to pollution because they absorb water through their skin. (兩棲動物對汙染特別敏感，因為牠們透過皮膚吸收水分。)",
+    "id": "進階4-amphibian-mphvdmy"
+  },
+  {
+    "level": "進階4",
+    "word": "depletion",
+    "meaning": "n. 耗竭；枯竭",
+    "example": "Overfishing has led to the rapid depletion of fish stocks in this region. (過度捕撈導致這個區域的魚群迅速枯竭。)",
+    "id": "進階4-depletion-mk62eir"
+  },
+  {
+    "level": "進階4",
+    "word": "unconventional",
+    "meaning": "adj. 非傳統的；不依常規的",
+    "example": "The tech firm adopted an unconventional approach to digital brand marketing. (這家科技公司採用了非常規的數位品牌行銷方法。)",
+    "id": "進階4-unconventional-m2r43ai"
+  },
+  {
+    "level": "進階4",
+    "word": "foreman",
+    "meaning": "n. 工頭；領班",
+    "example": "The foreman assigned repair tasks to the maintenance crew before the warehouse opened. (倉庫開門前，工頭將維修工作分派給維護團隊。)",
+    "id": "進階4-foreman-mw810zs"
+  },
+  {
+    "level": "進階4",
+    "word": "hearty",
+    "meaning": "adj. 豐盛的；熱烈的",
+    "example": "The staff enjoyed a hearty meal at the end of the long-term project to celebrate their collective effort. (長期專案結束時，員工享用豐盛的一餐，慶祝大家共同付出的努力。)",
+    "id": "進階4-hearty-mh49c7f"
+  },
+  {
+    "level": "進階4",
+    "word": "sizeable",
+    "meaning": "adj. 相當大的；可觀的",
+    "example": "A sizeable crowd gathered in the square to hear the election results. (一大群人在廣場聚集，聆聽選舉結果。)",
+    "id": "進階4-sizeable-mac1u43"
+  },
+  {
+    "level": "進階4",
+    "word": "dreary",
+    "meaning": "adj. 沉悶的；陰鬱的；乏味的",
+    "example": "It was a dreary rainy day. (那是陰沉的雨天。)",
+    "id": "進階4-dreary-mxio0xw"
+  },
+  {
+    "level": "進階4",
+    "word": "debit",
+    "meaning": "n. 借方；扣款\nvt. 記入借方；扣除款項",
+    "example": "The bank will debit the monthly service charge from the account on the final business day. (銀行會在最後一個營業日從帳戶扣除每月服務費。)",
+    "id": "進階4-debit-me1bpri"
+  },
+  {
+    "level": "進階4",
+    "word": "telegraph",
+    "meaning": "n. 電報；電信\nv. 發電報；打電報",
+    "example": "Before the telephone, the telegraph was the fastest way to send urgent news. (在電話出現之前，電報是傳送緊急消息最快的方式。)",
+    "id": "進階4-telegraph-msvzkn5"
+  },
+  {
+    "level": "進階4",
+    "word": "herbal",
+    "meaning": "adj. 草本的；藥草的\nn. 草本植物；藥草",
+    "example": "She drinks herbal tea every evening instead of coffee because it helps her sleep. (她每天晚上喝草本茶而不喝咖啡，因為那有助於入睡。)",
+    "id": "進階4-herbal-mp00xr0"
+  },
+  {
+    "level": "進階4",
+    "word": "smother",
+    "meaning": "v. 悶住；覆蓋",
+    "example": "He smothered the chips in salt, ignoring his doctor's repeated warnings about high blood pressure. (他在薯條上撒了大量鹽，無視醫師多次提醒他注意高血壓。)",
+    "id": "進階4-smother-my1j9lz"
+  },
+  {
+    "level": "進階4",
+    "word": "permeate",
+    "meaning": "v. 瀰漫；滲透",
+    "example": "The smell of fresh bread permeated the whole house on Sunday mornings. (星期天早上，新鮮麵包的香味瀰漫整間屋子。)",
+    "id": "進階4-permeate-mrjff19"
+  },
+  {
+    "level": "進階4",
+    "word": "expulsion",
+    "meaning": "n. 開除；驅逐；排出",
+    "example": "His expulsion from school shocked his parents. (他被學校開除讓父母震驚。)",
+    "id": "進階4-expulsion-m7smqk6"
+  },
+  {
+    "level": "進階4",
+    "word": "candid",
+    "meaning": "adj. 坦率的；直言不諱的；公正的",
+    "example": "She gave a candid assessment of the project's challenges. (她對該計畫面臨的挑戰進行了坦誠的評估。)",
+    "id": "進階4-candid-m1chvdm6"
+  },
+  {
+    "level": "進階4",
+    "word": "guild",
+    "meaning": "n. 同業公會；行會",
+    "example": "The guild protected skilled workers. (行會保護熟練工人。)",
+    "id": "進階4-guild-m1718rtm"
+  },
+  {
+    "level": "進階4",
+    "word": "remit",
+    "meaning": "vt. 匯款；支付",
+    "example": "Please remit the payment via bank transfer by the end of the week. (請在本週末前透過銀行轉帳匯款。)",
+    "id": "進階4-remit-m1jp7es5"
+  },
+  {
+    "level": "進階4",
+    "word": "elapse",
+    "meaning": "v. 逝去；經過",
+    "example": "Ten minutes elapsed before he returned. (過了十分鐘他才回來。)",
+    "id": "進階4-elapse-m6ujaew"
+  },
+  {
+    "level": "進階4",
+    "word": "sluggish",
+    "meaning": "adj. 遲緩的；遲鈍的",
+    "example": "The computer became sluggish after several programs were left running all day. (好幾個程式開了一整天之後，電腦變得越來越慢。)",
+    "id": "進階4-sluggish-m1s86fjv"
+  },
+  {
+    "level": "進階4",
+    "word": "fidelity",
+    "meaning": "n. 忠誠；忠貞；精確度",
+    "example": "Fidelity is important in marriage. (忠誠在婚姻中很重要。)",
+    "id": "進階4-fidelity-mawuvk8"
+  },
+  {
+    "level": "進階4",
+    "word": "ornamental",
+    "meaning": "adj. 裝飾性的；觀賞用的",
+    "example": "Ornamental trees line the broad avenue, yet they unfortunately produce no fruit and require expensive annual pruning. (寬闊的大道兩旁種著觀賞樹木，但它們不結果實，且每年修剪費用高昂。)",
+    "id": "進階4-ornamental-m3d8lg7"
+  },
+  {
+    "level": "進階4",
+    "word": "innovate",
+    "meaning": "v. 創新；革新",
+    "example": "Companies must innovate continuously in order to remain competitive in global markets. (企業必須持續創新，才能在國際市場保持競爭力。)",
+    "id": "進階4-innovate-m1g5yd53"
+  },
+  {
+    "level": "進階4",
+    "word": "henceforth",
+    "meaning": "adv. 從今以後；今後",
+    "example": "Henceforth, phones are not allowed in class. (從今以後，課堂上不准使用手機。)",
+    "id": "進階4-henceforth-m4dh07e"
+  },
+  {
+    "level": "進階4",
+    "word": "miraculous",
+    "meaning": "adj. 奇蹟般的；不可思議的",
+    "example": "His recovery was almost miraculous. (他的康復幾乎像奇蹟。)",
+    "id": "進階4-miraculous-m193i7r8"
+  },
+  {
+    "level": "進階4",
+    "word": "garner",
+    "meaning": "vt. 獲得；贏得",
+    "example": "The innovative marketing campaign has managed to garner significant attention from potential new clients. (這項創新行銷活動成功吸引了潛在新客戶的高度關注。)",
+    "id": "進階4-garner-m12be91a"
+  },
+  {
+    "level": "進階4",
+    "word": "pastime",
+    "meaning": "n. 消遣；嗜好",
+    "example": "Fishing remains a popular pastime among people who live near the river. (釣魚仍是住在河邊的人們喜愛的消遣。)",
+    "id": "進階4-pastime-mlc8rlt"
+  },
+  {
+    "level": "進階4",
+    "word": "hare",
+    "meaning": "n. 野兔；兔",
+    "example": "A hare darted across the field and disappeared into the tall grass. (一隻野兔衝過田野，消失在高草叢中。)",
+    "id": "進階4-hare-mir68v3"
+  },
+  {
+    "level": "進階4",
+    "word": "tranquil",
+    "meaning": "adj. 平靜的；安寧的",
+    "example": "The lake looked tranquil at dawn. (黎明時湖面看起來很寧靜。)",
+    "id": "進階4-tranquil-m14cc4o6"
+  },
+  {
+    "level": "進階4",
+    "word": "blackout",
+    "meaning": "n. 停電；暫時失去知覺",
+    "example": "The massive grid failure caused a widespread blackout that severely disrupted the city's financial district operations. (電網大規模故障造成大範圍停電，嚴重干擾該市金融區的運作。)",
+    "id": "進階4-blackout-mpewm42"
+  },
+  {
+    "level": "進階4",
+    "word": "bearer",
+    "meaning": "n. 持有人；攜帶者；送信人",
+    "example": "The bearer of this authorization letter may collect the documents. (持此授權書的人可以領取文件。)",
+    "id": "進階4-bearer-m1qkdxxd"
+  },
+  {
+    "level": "進階4",
+    "word": "counterfeit",
+    "meaning": "adj. 偽造的；仿冒的\nv. 偽造；仿冒",
+    "example": "Customs officers seized thousands of counterfeit handbags at the port last week. (海關人員上週在港口查獲數千個假冒名牌包。)",
+    "id": "進階4-counterfeit-m16i7vp4"
+  },
+  {
+    "level": "進階4",
+    "word": "folklore",
+    "meaning": "n. 民間傳說；民俗；民間故事",
+    "example": "Folklore often teaches lessons. (民間傳說常常教導道理。)",
+    "id": "進階4-folklore-m130sad7"
+  },
+  {
+    "level": "進階4",
+    "word": "cartel",
+    "meaning": "n. 企業聯合；卡特爾",
+    "example": "Competition authorities investigated a cartel suspected of coordinating prices among several regional construction suppliers. (競爭主管機關調查一個涉嫌協調數家區域建材供應商價格的企業聯合。)",
+    "id": "進階4-cartel-m6pi9w0"
+  },
+  {
+    "level": "進階4",
+    "word": "increment",
+    "meaning": "n. 增額；增量",
+    "example": "The annual increment is small but is paid to every member of staff. (每年定期加薪幅度不大，但每位員工都能領到。)",
+    "id": "進階4-increment-mblgs59"
+  },
+  {
+    "level": "進階4",
+    "word": "fraught",
+    "meaning": "adj. 充滿…的；憂慮的",
+    "example": "The peace negotiations were fraught with difficulty from the very first meeting. (和平談判從第一次會議就充滿困難。)",
+    "id": "進階4-fraught-m1e9f26t"
+  },
+  {
+    "level": "進階4",
+    "word": "deficient",
+    "meaning": "adj. 不足的；有缺陷的",
+    "example": "The current security measures are deficient and need to be upgraded to protect our confidential corporate data. (目前的安全措施不足，必須升級以保護公司的機密資料。)",
+    "id": "進階4-deficient-maoiz4r"
+  },
+  {
+    "level": "進階2",
+    "word": "partisan",
+    "meaning": "adj. 偏袒某黨派的；黨派的\nn. 黨派支持者；游擊隊員",
+    "example": "The debate became so partisan that neither side listened to the expert's evidence. (這場辯論變得非常黨派對立，雙方都不聽專家的證據。)",
+    "id": "進階2-partisan-mvvvyd9"
+  },
+  {
+    "level": "進階2",
+    "word": "memoir",
+    "meaning": "n. 回憶錄",
+    "example": "The former nurse wrote a memoir about thirty years of night shifts in a city hospital. (這位退休護理師寫了一本回憶錄，記錄她在市立醫院值了三十年夜班的經歷。)",
+    "id": "進階2-memoir-md7h4c"
+  },
+  {
+    "level": "進階2",
+    "word": "caregiver",
+    "meaning": "n. 照顧者；看護者",
+    "example": "Many caregivers reduce their working hours to look after an elderly parent at home. (許多照顧者為了在家照顧年邁的父母而減少工作時數。)",
+    "id": "進階2-caregiver-my4cj8j"
+  },
+  {
+    "level": "進階2",
+    "word": "assassination",
+    "meaning": "n. 暗殺；行刺",
+    "example": "The assassination of the archduke in 1914 helped trigger the First World War. (1914 年奧匈帝國王儲遇刺，成為第一次世界大戰爆發的導火線之一。)",
+    "id": "進階2-assassination-m1om2ep2"
+  },
+  {
+    "level": "進階2",
+    "word": "depressive",
+    "meaning": "adj. 憂鬱的；抑鬱症的\nn. 憂鬱症患者",
+    "example": "Long periods of isolation can increase the risk of depressive symptoms in older adults. (長期孤立可能讓年長者出現憂鬱症狀的風險升高。)",
+    "id": "進階2-depressive-mam8zkj"
+  },
+  {
+    "level": "進階2",
+    "word": "procedural",
+    "meaning": "adj. 程序上的；手續的",
+    "example": "The court rejected the appeal on procedural grounds because it was filed too late. (法院以程序理由駁回上訴，因為上訴提出得太晚了。)",
+    "id": "進階2-procedural-muiwme"
+  },
+  {
+    "level": "進階2",
+    "word": "marital",
+    "meaning": "adj. 婚姻的；夫妻的",
+    "example": "The survey asked about age, income and marital status, but not about religion. (這份問卷詢問年齡、收入和婚姻狀況，但沒有問宗教信仰。)",
+    "id": "進階2-marital-m4nxios"
+  },
+  {
+    "level": "進階2",
+    "word": "cohort",
+    "meaning": "n. （研究中的）同期群體；一群人",
+    "example": "Researchers followed a cohort of two thousand workers for ten years to study their health. (研究人員追蹤一群兩千名工作者長達十年，研究他們的健康狀況。)",
+    "id": "進階2-cohort-m1piegdi"
+  },
+  {
+    "level": "進階2",
+    "word": "interrogation",
+    "meaning": "n. 審問；訊問",
+    "example": "The suspect's lawyer insisted on being present during the entire interrogation. (嫌犯的律師堅持在整個審問過程中都要在場。)",
+    "id": "進階2-interrogation-mg10pzu"
+  },
+  {
+    "level": "進階2",
+    "word": "poise",
+    "meaning": "n. 沉著；鎮定；優雅的儀態\nv. 使平衡；使準備好",
+    "example": "She answered the reporters' hostile questions with remarkable poise. (她以驚人的沉著回答記者充滿敵意的提問。)",
+    "id": "進階2-poise-mb1kaf5"
+  },
+  {
+    "level": "進階2",
+    "word": "specificity",
+    "meaning": "n. 明確性；特異性",
+    "example": "The manager asked for more specificity in the report, such as exact dates and costs. (經理要求報告寫得更具體，例如確切的日期和費用。)",
+    "id": "進階2-specificity-mrouoj4"
+  },
+  {
+    "level": "進階2",
+    "word": "deforestation",
+    "meaning": "n. 森林砍伐；毀林",
+    "example": "Deforestation in the region has caused more frequent landslides during the rainy season. (這個地區的森林砍伐讓雨季的山崩更加頻繁。)",
+    "id": "進階2-deforestation-mhbdqee"
+  },
+  {
+    "level": "進階2",
+    "word": "entitlement",
+    "meaning": "n. 應得的權利；（福利）資格；自以為應得的心態",
+    "example": "Part-time staff have the same holiday entitlement as full-time staff, calculated by hours. (兼職員工享有與全職員工相同的休假權利，依工時比例計算。)",
+    "id": "進階2-entitlement-mvyi2bc"
+  },
+  {
+    "level": "進階2",
+    "word": "methodological",
+    "meaning": "adj. 方法論的；研究方法上的",
+    "example": "Reviewers pointed out several methodological problems, including a very small sample. (審稿人指出了幾個研究方法上的問題，包括樣本數太少。)",
+    "id": "進階2-methodological-m1yr59l5"
+  },
+  {
+    "level": "進階2",
+    "word": "unreasonable",
+    "meaning": "adj. 不合理的；過分的",
+    "example": "The tenant argued that a forty percent rent increase was unreasonable. (房客主張租金一次調漲四成並不合理。)",
+    "id": "進階2-unreasonable-m3pg3vu"
+  },
+  {
+    "level": "進階2",
+    "word": "liberalism",
+    "meaning": "n. 自由主義",
+    "example": "The lecture traced how economic liberalism shaped trade policy in the nineteenth century. (這場講座說明經濟自由主義如何影響十九世紀的貿易政策。)",
+    "id": "進階2-liberalism-mgvg045"
+  },
+  {
+    "level": "進階2",
+    "word": "ethnicity",
+    "meaning": "n. 種族；族群背景",
+    "example": "The census collects data on ethnicity to help plan language services. (人口普查蒐集族群背景資料，以協助規劃語言服務。)",
+    "id": "進階2-ethnicity-md5m3xu"
+  },
+  {
+    "level": "進階2",
+    "word": "rethink",
+    "meaning": "v. 重新考慮；重新思考\nn. 重新考慮",
+    "example": "Rising fuel prices forced the company to rethink its delivery routes. (燃料價格上漲迫使公司重新規劃送貨路線。)",
+    "id": "進階2-rethink-mte6hc2"
+  },
+  {
+    "level": "進階2",
+    "word": "ensemble",
+    "meaning": "n. 合奏團；劇團；整體",
+    "example": "A small jazz ensemble played in the hotel lobby every Friday evening. (每週五晚上，有一個小型爵士樂團在飯店大廳演奏。)",
+    "id": "進階2-ensemble-m1b1oxcw"
+  },
+  {
+    "level": "進階2",
+    "word": "appropriation",
+    "meaning": "n. 撥款；（不當的）挪用、占用",
+    "example": "Parliament approved an appropriation of two million pounds for flood defenses. (國會通過撥款兩百萬英鎊用於防洪工程。)",
+    "id": "進階2-appropriation-m1i87jzr"
+  },
+  {
+    "level": "進階2",
+    "word": "seizure",
+    "meaning": "n. 沒收；查扣；奪取；（疾病）發作；癲癇發作",
+    "example": "Customs officers made the largest seizure of illegal ivory in the port's history. (海關人員查獲了該港口史上最大宗的非法象牙。)",
+    "id": "進階2-seizure-m1wkblkd"
+  },
+  {
+    "level": "進階2",
+    "word": "crave",
+    "meaning": "v. 渴望；極想要",
+    "example": "After a week of business dinners, he craved a simple bowl of rice and soup. (連續一週的商務晚餐後，他很想吃一碗簡單的白飯配湯。)",
+    "id": "進階2-crave-mdely4v"
+  },
+  {
+    "level": "進階2",
+    "word": "bipartisan",
+    "meaning": "adj. 兩黨的；兩黨共同支持的",
+    "example": "The infrastructure bill passed with bipartisan support after months of negotiation. (經過數月協商，基礎建設法案在兩黨支持下通過。)",
+    "id": "進階2-bipartisan-m1g3t8ci"
+  },
+  {
+    "level": "進階2",
+    "word": "contextual",
+    "meaning": "adj. 上下文的；與背景相關的",
+    "example": "Readers can often guess an unfamiliar word from contextual clues in the sentence. (讀者常常可以從句子裡的上下文線索猜出不熟的字。)",
+    "id": "進階2-contextual-m1y07qur"
+  },
+  {
+    "level": "進階2",
+    "word": "disparity",
+    "meaning": "n. 差距；不平等",
+    "example": "The report highlights the disparity in income between urban and rural households. (報告強調城鄉家庭之間的收入差距。)",
+    "id": "進階2-disparity-m135bho7"
+  },
+  {
+    "level": "進階2",
+    "word": "hierarchical",
+    "meaning": "adj. 階層的；等級制度的",
+    "example": "In a hierarchical company, even small decisions may need approval from several managers. (在階層分明的公司裡，連小決定都可能需要好幾位主管核准。)",
+    "id": "進階2-hierarchical-m14m967q"
+  },
+  {
+    "level": "進階3",
+    "word": "nonprofit",
+    "meaning": "adj. 非營利的\nn. 非營利組織",
+    "example": "She left her bank job to run a nonprofit that teaches financial skills to new immigrants. (她辭去銀行工作，經營一個教新移民理財技能的非營利組織。)",
+    "id": "進階3-nonprofit-maii5vu"
+  },
+  {
+    "level": "進階3",
+    "word": "preoccupy",
+    "meaning": "v. 使全神貫注；使憂心",
+    "example": "Worries about the merger preoccupied the staff for most of the year. (這一年大部分時間，員工都為公司合併的事憂心忡忡。)",
+    "id": "進階3-preoccupy-m1ox1v87"
+  },
+  {
+    "level": "進階3",
+    "word": "advocacy",
+    "meaning": "n. 倡議；（公開的）支持、提倡",
+    "example": "Patient advocacy groups pushed the government to fund the new cancer drug. (病友倡議團體促使政府給付這種新的抗癌藥。)",
+    "id": "進階3-advocacy-m1mgxzcw"
+  },
+  {
+    "level": "進階3",
+    "word": "openness",
+    "meaning": "n. 坦率；開放；開明",
+    "example": "The new director's openness about the budget helped rebuild trust with the staff. (新主任對預算的公開坦白，幫助他重建與員工之間的信任。)",
+    "id": "進階3-openness-m1xnaaep"
+  },
+  {
+    "level": "進階3",
+    "word": "socioeconomic",
+    "meaning": "adj. 社會經濟的",
+    "example": "Socioeconomic factors such as income and housing strongly affect life expectancy. (收入、住房等社會經濟因素對平均壽命有很大影響。)",
+    "id": "進階3-socioeconomic-m1pdy9wz"
+  },
+  {
+    "level": "進階3",
+    "word": "systemic",
+    "meaning": "adj. 系統性的；整體的；全身的",
+    "example": "The inquiry found systemic failures rather than the mistake of one employee. (調查發現這是系統性的缺失，而不是某一位員工的錯誤。)",
+    "id": "進階3-systemic-m1x4d4de"
+  },
+  {
+    "level": "進階3",
+    "word": "portal",
+    "meaning": "n. 入口網站；（大型的）入口、大門",
+    "example": "Employees can download their payslips from the company's online portal. (員工可以從公司的線上入口網站下載薪資單。)",
+    "id": "進階3-portal-m1rpgk2p"
+  },
+  {
+    "level": "進階3",
+    "word": "fortress",
+    "meaning": "n. 堡壘；要塞",
+    "example": "The medieval fortress was built on a cliff to watch the river below. (這座中世紀堡壘建在懸崖上，用來監視下方的河流。)",
+    "id": "進階3-fortress-m1oto2p"
+  },
+  {
+    "level": "進階3",
+    "word": "homelessness",
+    "meaning": "n. 無家可歸（的狀態）；遊民問題",
+    "example": "The city opened two new shelters as homelessness rose during the winter. (冬天遊民人數增加，市政府新開了兩處收容所。)",
+    "id": "進階3-homelessness-m11578mz"
+  },
+  {
+    "level": "進階3",
+    "word": "waiver",
+    "meaning": "n. 棄權聲明；（費用、規定的）免除",
+    "example": "Before the climbing class, every participant had to sign a liability waiver. (攀岩課開始前，每位學員都必須簽署免責聲明。)",
+    "id": "進階3-waiver-m1u412uk"
+  },
+  {
+    "level": "進階3",
+    "word": "confide",
+    "meaning": "v. 吐露（秘密）；信賴",
+    "example": "He confided to a colleague that he was planning to leave the firm. (他私下向一位同事透露自己打算離開公司。)",
+    "id": "進階3-confide-mhuckmx"
+  },
+  {
+    "level": "進階3",
+    "word": "injunction",
+    "meaning": "n. （法院的）禁制令；命令",
+    "example": "Residents won an injunction that stopped the factory from operating at night. (居民申請到禁制令，讓工廠不能在夜間運作。)",
+    "id": "進階3-injunction-m8a14ul"
+  },
+  {
+    "level": "進階3",
+    "word": "revisit",
+    "meaning": "v. 重新探討；重訪",
+    "example": "Let's revisit the pricing question after we see the first month's sales. (我們等看到第一個月的銷售數字，再回頭討論定價問題。)",
+    "id": "進階3-revisit-m2avn2h"
+  },
+  {
+    "level": "進階3",
+    "word": "sociological",
+    "meaning": "adj. 社會學的",
+    "example": "Her sociological study examined how remote work changes family routines. (她的社會學研究探討遠距工作如何改變家庭作息。)",
+    "id": "進階3-sociological-mfq1wsx"
+  },
+  {
+    "level": "進階3",
+    "word": "repeal",
+    "meaning": "v. 廢除（法律）\nn. 廢除；撤銷",
+    "example": "The new government promised to repeal the unpopular tax on small businesses. (新政府承諾廢除那項不受歡迎的小企業稅。)",
+    "id": "進階3-repeal-m1ui67wv"
+  },
+  {
+    "level": "進階3",
+    "word": "fragmentation",
+    "meaning": "n. 分裂；碎片化",
+    "example": "Habitat fragmentation leaves animal populations isolated in small patches of forest. (棲地破碎化讓動物族群被隔離在一小塊一小塊的森林裡。)",
+    "id": "進階3-fragmentation-m1vv0rpa"
+  },
+  {
+    "level": "進階3",
+    "word": "sever",
+    "meaning": "v. 切斷；斷絕（關係）",
+    "example": "The storm severed the main power line, leaving the town dark for two days. (暴風雨切斷了主要電線，整個小鎮停電兩天。)",
+    "id": "進階3-sever-m1ss0wtg"
+  },
+  {
+    "level": "進階3",
+    "word": "workload",
+    "meaning": "n. 工作量",
+    "example": "When two colleagues resigned, her workload nearly doubled. (兩位同事離職後，她的工作量幾乎增加了一倍。)",
+    "id": "進階3-workload-me5ehk"
+  },
+  {
+    "level": "進階3",
+    "word": "desperation",
+    "meaning": "n. 絕望；走投無路",
+    "example": "In desperation, the shop owner sold everything at half price to pay the rent. (走投無路之下，店主把所有東西半價出清來付房租。)",
+    "id": "進階3-desperation-mfwconc"
+  },
+  {
+    "level": "進階3",
+    "word": "construe",
+    "meaning": "v. 理解；解讀；詮釋",
+    "example": "His silence in the meeting was construed as agreement with the plan. (他在會議中保持沉默，被解讀為同意這個計畫。)",
+    "id": "進階3-construe-m1hpyjnh"
+  },
+  {
+    "level": "進階3",
+    "word": "downstream",
+    "meaning": "adv. 在下游；往下游\nadj. 下游的；後段的",
+    "example": "Chemicals from the mine were found in fish several kilometers downstream. (在下游幾公里處的魚體內，驗出了來自礦場的化學物質。)",
+    "id": "進階3-downstream-m1dffztg"
+  },
+  {
+    "level": "進階3",
+    "word": "purport",
+    "meaning": "v. 聲稱；據稱是",
+    "example": "The website purports to sell original designer bags at very low prices. (這個網站聲稱以超低價販售正品名牌包。)",
+    "id": "進階3-purport-mq5dssc"
+  },
+  {
+    "level": "進階3",
+    "word": "predictive",
+    "meaning": "adj. 預測的；有預測力的",
+    "example": "The bank uses predictive models to spot customers who may miss a payment. (銀行用預測模型找出可能遲繳款項的客戶。)",
+    "id": "進階3-predictive-mcf8m1n"
+  },
+  {
+    "level": "進階3",
+    "word": "forego",
+    "meaning": "v. 放棄；捨棄（同 forgo）",
+    "example": "Many young parents forego holidays abroad to save for a home. (許多年輕父母為了存錢買房而放棄出國度假。)",
+    "id": "進階3-forego-forgo"
+  },
+  {
+    "level": "進階3",
+    "word": "resonate",
+    "meaning": "v. 引起共鳴；迴響",
+    "example": "The advertisement resonated with parents who struggle to balance work and family. (這支廣告引起了那些努力兼顧工作與家庭的父母共鳴。)",
+    "id": "進階3-resonate-m1vpwotd"
+  },
+  {
+    "level": "進階3",
+    "word": "normalize",
+    "meaning": "v. 使正常化；使標準化",
+    "example": "The two countries agreed to normalize relations after years of tension. (經過多年緊張關係，兩國同意關係正常化。)",
+    "id": "進階3-normalize-m2xnreb"
+  },
+  {
+    "level": "進階3",
+    "word": "pilgrimage",
+    "meaning": "n. 朝聖；朝聖之旅",
+    "example": "Every spring, thousands of people make a pilgrimage to the mountain temple. (每年春天，都有數千人到山上的寺廟朝聖。)",
+    "id": "進階3-pilgrimage-m1ooapjp"
+  },
+  {
+    "level": "進階3",
+    "word": "foreclosure",
+    "meaning": "n. （抵押品）贖回權取消；法拍",
+    "example": "After losing his job, he fell behind on mortgage payments and faced foreclosure. (他失業後付不出房貸，房子面臨被法拍。)",
+    "id": "進階3-foreclosure-m16bn3h2"
+  },
+  {
+    "level": "進階3",
+    "word": "mediator",
+    "meaning": "n. 調解人；仲裁者",
+    "example": "A neutral mediator helped the union and management reach an agreement on pay. (一位中立的調解人協助工會與資方在薪資上達成協議。)",
+    "id": "進階3-mediator-m1b1zndd"
+  },
+  {
+    "level": "進階3",
+    "word": "forensic",
+    "meaning": "adj. 鑑識的；法醫的；法庭的",
+    "example": "Forensic experts found fibers on the jacket that matched the car seat. (鑑識專家在外套上發現與汽車座椅相符的纖維。)",
+    "id": "進階3-forensic-m8lx129"
+  },
+  {
+    "level": "進階3",
+    "word": "unfinished",
+    "meaning": "adj. 未完成的；未了結的",
+    "example": "The composer died before he could complete the symphony, so it remains unfinished. (作曲家在完成這首交響曲之前就過世了，所以它至今仍是未完成的作品。)",
+    "id": "進階3-unfinished-m185slg5"
+  },
+  {
+    "level": "進階3",
+    "word": "persona",
+    "meaning": "n. （對外展現的）形象；人格面具；角色",
+    "example": "On television he has a cheerful persona, but colleagues describe him as shy. (他在電視上形象開朗，但同事都說他其實很害羞。)",
+    "id": "進階3-persona-mj8ddhj"
+  },
+  {
+    "level": "進階3",
+    "word": "patriotism",
+    "meaning": "n. 愛國心；愛國主義",
+    "example": "The war posters used images of family and home to appeal to patriotism. (這些戰時海報用家庭和家園的畫面來激發愛國心。)",
+    "id": "進階3-patriotism-mu1jnl2"
+  },
+  {
+    "level": "進階3",
+    "word": "candidacy",
+    "meaning": "n. 候選資格；參選",
+    "example": "The mayor announced her candidacy for a second term at a press conference. (市長在記者會上宣布競選連任。)",
+    "id": "進階3-candidacy-m15s8rfg"
+  },
+  {
+    "level": "進階3",
+    "word": "vortex",
+    "meaning": "n. 漩渦；渦流",
+    "example": "The polar vortex pushed freezing air much farther south than usual. (極地渦旋把冰冷的空氣推到比平常更南的地方。)",
+    "id": "進階3-vortex-mne6jnd"
+  },
+  {
+    "level": "進階3",
+    "word": "snapshot",
+    "meaning": "n. 快照；（某時刻的）概況",
+    "example": "The survey gives a snapshot of how people spent their money last year. (這份調查呈現了去年民眾消費方式的概況。)",
+    "id": "進階3-snapshot-mwm7lok"
+  },
+  {
+    "level": "進階3",
+    "word": "authoritarian",
+    "meaning": "adj. 威權的；專制的\nn. 威權主義者",
+    "example": "Under the authoritarian regime, newspapers could not criticize the leader. (在威權政權統治下，報紙不能批評領導人。)",
+    "id": "進階3-authoritarian-m11y7m62"
+  },
+  {
+    "level": "進階3",
+    "word": "conjecture",
+    "meaning": "n. 推測；猜想\nv. 推測；猜想",
+    "example": "Without the original letters, any story about their relationship is pure conjecture. (沒有原始信件，任何關於他們關係的說法都只是推測。)",
+    "id": "進階3-conjecture-mnbl3bm"
+  },
+  {
+    "level": "進階3",
+    "word": "bourgeois",
+    "meaning": "adj. 中產階級的；資產階級的",
+    "example": "The novel mocks the bourgeois family's obsession with appearances. (這部小說嘲諷中產家庭對體面的執著。)",
+    "id": "進階3-bourgeois-mrhtu79"
+  },
+  {
+    "level": "進階3",
+    "word": "unilateral",
+    "meaning": "adj. 單方面的；片面的",
+    "example": "The supplier's unilateral decision to raise prices angered its long-term clients. (供應商片面決定漲價，激怒了長期合作的客戶。)",
+    "id": "進階3-unilateral-m1gl21uj"
+  },
+  {
+    "level": "進階3",
+    "word": "muster",
+    "meaning": "v. 鼓起（勇氣）；召集",
+    "example": "It took him a week to muster the courage to ask his boss for a raise. (他花了一個星期才鼓起勇氣向老闆要求加薪。)",
+    "id": "進階3-muster-mxw44r0"
+  },
+  {
+    "level": "進階3",
+    "word": "loathe",
+    "meaning": "v. 厭惡；痛恨",
+    "example": "She loathes long commutes, so she chose a smaller apartment near her office. (她非常討厭長時間通勤，所以選了辦公室附近一間比較小的公寓。)",
+    "id": "進階3-loathe-m1kbiewk"
+  },
+  {
+    "level": "進階3",
+    "word": "behold",
+    "meaning": "v. 看見；注視（文學用語）",
+    "example": "Visitors who climb to the summit behold a view of three countries at once. (爬上山頂的遊客能一次看見三個國家的景色。)",
+    "id": "進階3-behold-m1h23hab"
+  },
+  {
+    "level": "進階3",
+    "word": "contentious",
+    "meaning": "adj. 有爭議的；好爭論的",
+    "example": "Building a new airport runway remains a contentious issue for local residents. (興建新機場跑道對當地居民來說仍是極具爭議的問題。)",
+    "id": "進階3-contentious-m1qexji9"
+  },
+  {
+    "level": "進階3",
+    "word": "visionary",
+    "meaning": "adj. 有遠見的；空想的\nn. 有遠見的人",
+    "example": "The architect's visionary plan included rooftop gardens decades before they were popular. (這位建築師極具遠見的規劃，早在屋頂花園流行的幾十年前就納入了它。)",
+    "id": "進階3-visionary-mrt7nxc"
+  },
+  {
+    "level": "進階3",
+    "word": "investigative",
+    "meaning": "adj. 調查的；偵查的",
+    "example": "An investigative journalist spent two years tracing where the charity's money went. (一位調查記者花了兩年追查這個慈善機構的錢流向何處。)",
+    "id": "進階3-investigative-m1o6y6rb"
+  },
+  {
+    "level": "進階3",
+    "word": "validation",
+    "meaning": "n. 驗證；確認；認可",
+    "example": "The new test needs independent validation before hospitals can use it. (這項新檢測在醫院使用之前，需要經過獨立驗證。)",
+    "id": "進階3-validation-m5m4qkh"
+  },
+  {
+    "level": "進階3",
+    "word": "monolingual",
+    "meaning": "adj. 只用一種語言的；單語的",
+    "example": "Unlike a bilingual dictionary, a monolingual dictionary explains words in the same language. (和雙語詞典不同，單語詞典用同一種語言解釋字義。)",
+    "id": "進階3-monolingual-m2iakzz"
+  },
+  {
+    "level": "進階3",
+    "word": "familial",
+    "meaning": "adj. 家族的；家族遺傳的",
+    "example": "Doctors asked whether there was any familial history of heart disease. (醫生詢問是否有心臟病的家族病史。)",
+    "id": "進階3-familial-m11c82yq"
+  },
+  {
+    "level": "進階3",
+    "word": "toxicity",
+    "meaning": "n. 毒性",
+    "example": "Scientists tested the toxicity of the new pesticide on bees and fish. (科學家測試這種新農藥對蜜蜂和魚類的毒性。)",
+    "id": "進階3-toxicity-miv85"
+  },
+  {
+    "level": "進階3",
+    "word": "formative",
+    "meaning": "adj. 形成期的；對發展有重大影響的",
+    "example": "She spent her formative years in a fishing village, which shaped her love of the sea. (她成長的關鍵時期在漁村度過，因此培養出對大海的熱愛。)",
+    "id": "進階3-formative-m1rl0qtt"
+  },
+  {
+    "level": "進階3",
+    "word": "covert",
+    "meaning": "adj. 祕密的；隱蔽的",
+    "example": "The documents revealed a covert operation to influence the election. (這些文件揭露了一項企圖影響選舉的祕密行動。)",
+    "id": "進階3-covert-m1x9tzzk"
+  },
+  {
+    "level": "進階3",
+    "word": "graft",
+    "meaning": "n. 移植（物）；嫁接；貪污；（英）辛苦工作\nv. 移植；嫁接",
+    "example": "Surgeons used a skin graft from his leg to repair the burn on his arm. (外科醫師取他腿部的皮膚移植，修補手臂上的燒傷。)",
+    "id": "進階3-graft-m14xjl5f"
+  },
+  {
+    "level": "進階3",
+    "word": "functionality",
+    "meaning": "n. 功能；實用性",
+    "example": "The free version of the app has limited functionality and shows ads. (這個應用程式的免費版功能有限，而且會顯示廣告。)",
+    "id": "進階3-functionality-m12rzkbs"
+  },
+  {
+    "level": "進階3",
+    "word": "brewery",
+    "meaning": "n. 啤酒廠；釀酒廠",
+    "example": "The old brewery by the river has been turned into offices and a food market. (河邊的老啤酒廠已改建成辦公室和美食市集。)",
+    "id": "進階3-brewery-m1iresp1"
+  },
+  {
+    "level": "進階3",
+    "word": "unofficial",
+    "meaning": "adj. 非官方的；非正式的",
+    "example": "According to unofficial figures, more than ten thousand people joined the march. (根據非官方數據，有超過一萬人參加遊行。)",
+    "id": "進階3-unofficial-madw94g"
+  },
+  {
+    "level": "進階3",
+    "word": "unbearable",
+    "meaning": "adj. 無法忍受的",
+    "example": "Without air conditioning, the heat in the warehouse became unbearable by noon. (沒有冷氣，倉庫裡的高溫到中午就讓人受不了。)",
+    "id": "進階3-unbearable-mu9v8hy"
+  },
+  {
+    "level": "進階3",
+    "word": "societal",
+    "meaning": "adj. 社會的",
+    "example": "Ageing populations bring societal challenges such as rising healthcare costs. (人口老化帶來醫療費用上升等社會挑戰。)",
+    "id": "進階3-societal-mi9h9b"
+  },
+  {
+    "level": "進階3",
+    "word": "compatibility",
+    "meaning": "n. 相容性；合得來",
+    "example": "Check the compatibility of the printer with your laptop before you buy it. (購買前先確認印表機和你的筆電是否相容。)",
+    "id": "進階3-compatibility-m19alroi"
+  },
+  {
+    "level": "進階3",
+    "word": "martyr",
+    "meaning": "n. 烈士；殉道者",
+    "example": "After his execution, the reformer was remembered as a martyr for free speech. (這位改革者被處決後，人們把他視為捍衛言論自由的烈士。)",
+    "id": "進階3-martyr-m1lcik1v"
+  },
+  {
+    "level": "進階3",
+    "word": "clutter",
+    "meaning": "n. 雜亂的東西；凌亂\nv. 使凌亂；堆滿",
+    "example": "Clearing the clutter from her desk helped her focus on the report. (把桌上的雜物清掉後，她更能專心寫報告。)",
+    "id": "進階3-clutter-m1gwb6s"
+  },
+  {
+    "level": "進階3",
+    "word": "checkpoint",
+    "meaning": "n. 檢查站；查核點",
+    "example": "Drivers waited for an hour at the border checkpoint while officers searched trucks. (官員搜查卡車時，駕駛人在邊境檢查站等了一個小時。)",
+    "id": "進階3-checkpoint-mmfiio6"
+  },
+  {
+    "level": "進階3",
+    "word": "admirer",
+    "meaning": "n. 欽佩者；愛慕者",
+    "example": "As a lifelong admirer of her paintings, he traveled to Paris for the exhibition. (身為她畫作一輩子的欣賞者，他特地飛到巴黎看展。)",
+    "id": "進階3-admirer-m1o8og6h"
+  },
+  {
+    "level": "進階3",
+    "word": "perjury",
+    "meaning": "n. 偽證（罪）",
+    "example": "The witness was charged with perjury after lying under oath about the accident. (這名證人在宣誓後就車禍作了假證詞，被以偽證罪起訴。)",
+    "id": "進階3-perjury-m1d7g83f"
+  },
+  {
+    "level": "進階3",
+    "word": "upstream",
+    "meaning": "adv. 在上游；逆流而上\nadj. 上游的；前段的",
+    "example": "Salmon swim upstream to lay their eggs in the rivers where they were born. (鮭魚逆流而上，回到出生的河流產卵。)",
+    "id": "進階3-upstream-m1yjnyiz"
+  },
+  {
+    "level": "進階3",
+    "word": "palette",
+    "meaning": "n. 調色盤；（作品使用的）色調",
+    "example": "The designer chose a calm palette of greys and greens for the clinic. (設計師為診所選了以灰色和綠色為主的沉穩色調。)",
+    "id": "進階3-palette-m125rv3y"
+  },
+  {
+    "level": "進階3",
+    "word": "regimen",
+    "meaning": "n. （飲食、治療的）養生法；療程",
+    "example": "The doctor put him on a strict regimen of medicine, diet and daily walks. (醫生要他嚴格遵守服藥、飲食和每天散步的療程。)",
+    "id": "進階3-regimen-muudujg"
+  },
+  {
+    "level": "進階3",
+    "word": "fascist",
+    "meaning": "adj. 法西斯主義的\nn. 法西斯主義者",
+    "example": "The museum explains how fascist parties gained power in Europe in the 1920s. (博物館介紹 1920 年代法西斯政黨如何在歐洲取得政權。)",
+    "id": "進階3-fascist-m198d0r"
+  },
+  {
+    "level": "進階3",
+    "word": "legion",
+    "meaning": "n. 軍團；大批（人）\nadj. 眾多的",
+    "example": "The singer's new album was praised by her legion of loyal fans. (這位歌手的新專輯獲得大批忠實歌迷的讚賞。)",
+    "id": "進階3-legion-moujqcz"
+  },
+  {
+    "level": "進階3",
+    "word": "presumption",
+    "meaning": "n. 推定；假定",
+    "example": "The legal system rests on the presumption that a person is innocent until proven guilty. (司法制度建立在「未經證明有罪前推定無罪」的原則上。)",
+    "id": "進階3-presumption-m1b3nm1o"
+  },
+  {
+    "level": "進階3",
+    "word": "horrific",
+    "meaning": "adj. 可怕的；駭人的",
+    "example": "The driver survived a horrific crash that destroyed three cars on the highway. (這名駕駛在高速公路一場撞毀三輛車的可怕車禍中倖存。)",
+    "id": "進階3-horrific-m1x90bga"
+  },
+  {
+    "level": "進階3",
+    "word": "constellation",
+    "meaning": "n. 星座；（相關事物的）一群",
+    "example": "Ancient sailors used the position of each constellation to find their way at night. (古代水手利用各個星座的位置在夜裡辨認方向。)",
+    "id": "進階3-constellation-m1x9e3pc"
+  },
+  {
+    "level": "進階3",
+    "word": "startup",
+    "meaning": "n. 新創公司；（機器）啟動",
+    "example": "He left a stable job at a bank to join a small startup that makes farm robots. (他辭去銀行的穩定工作，加入一家製造農業機器人的小型新創公司。)",
+    "id": "進階3-startup-m1g5q6d4"
+  },
+  {
+    "level": "進階3",
+    "word": "misconduct",
+    "meaning": "n. 不當行為；失職",
+    "example": "The officer was dismissed for serious misconduct after taking money from a suspect. (這名警員收受嫌犯金錢，因嚴重不當行為遭到免職。)",
+    "id": "進階3-misconduct-m1yf6hm2"
+  },
+  {
+    "level": "進階3",
+    "word": "sectarian",
+    "meaning": "adj. 宗派的；派系的",
+    "example": "Years of sectarian violence divided the city into separate neighborhoods. (多年的宗派暴力把這座城市分裂成彼此隔絕的街區。)",
+    "id": "進階3-sectarian-mv8yeix"
+  },
+  {
+    "level": "進階3",
+    "word": "paranoid",
+    "meaning": "adj. 多疑的；偏執的",
+    "example": "After the data leak, the manager became paranoid about every email attachment. (資料外洩之後，經理對每一個電子郵件附件都疑神疑鬼。)",
+    "id": "進階3-paranoid-m10zory"
+  },
+  {
+    "level": "進階3",
+    "word": "retina",
+    "meaning": "n. 視網膜",
+    "example": "Light passes through the lens and forms an image on the retina at the back of the eye. (光線穿過水晶體，在眼球後方的視網膜上成像。)",
+    "id": "進階3-retina-mkrku8"
+  },
+  {
+    "level": "進階3",
+    "word": "materialize",
+    "meaning": "v. 實現；成為事實；突然出現",
+    "example": "The promised pay rise never materialized, so several staff left the company. (承諾的加薪始終沒有兌現，於是好幾位員工離開了公司。)",
+    "id": "進階3-materialize-m1oq4los"
+  },
+  {
+    "level": "進階3",
+    "word": "undue",
+    "meaning": "adj. 過度的；不適當的",
+    "example": "The new rules aim to protect patients without putting undue pressure on nurses. (新規定的目的是保護病人，同時不給護理師過度的壓力。)",
+    "id": "進階3-undue-m157sk8p"
+  },
+  {
+    "level": "進階3",
+    "word": "subpoena",
+    "meaning": "n. 傳票\nv. 傳喚；以傳票要求提交",
+    "example": "The committee issued a subpoena requiring the company to hand over its emails. (委員會發出傳票，要求該公司交出電子郵件。)",
+    "id": "進階3-subpoena-m1ay6fdc"
+  },
+  {
+    "level": "進階3",
+    "word": "parody",
+    "meaning": "n. 模仿諷刺的作品；拙劣的模仿\nv. 以諧仿方式嘲弄",
+    "example": "The comedy show is a parody of reality programs about rich families. (這個喜劇節目是在諧仿那些以富豪家庭為主題的實境節目。)",
+    "id": "進階3-parody-m1nu3rj4"
+  },
+  {
+    "level": "進階3",
+    "word": "phenotype",
+    "meaning": "n. 表現型；顯型",
+    "example": "Eye color is part of the phenotype, the traits we can observe in an organism. (眼睛顏色屬於表現型，也就是生物身上可以觀察到的特徵。)",
+    "id": "進階3-phenotype-mmy1nk2"
+  },
+  {
+    "level": "進階3",
+    "word": "reassurance",
+    "meaning": "n. 安慰；使人放心的話",
+    "example": "Customers wanted reassurance that their savings were safe after the bank's mistake. (銀行出錯後，客戶希望得到存款安全無虞的保證。)",
+    "id": "進階3-reassurance-m119zrwh"
+  },
+  {
+    "level": "進階3",
+    "word": "municipality",
+    "meaning": "n. 市政當局；自治市",
+    "example": "Each municipality decides how often household garbage is collected. (各市政當局自行決定家庭垃圾多久收一次。)",
+    "id": "進階3-municipality-mmwbecd"
+  },
+  {
+    "level": "進階3",
+    "word": "attribution",
+    "meaning": "n. 歸因；（作品、引文的）出處標示",
+    "example": "You may reuse the photo for free, but attribution to the photographer is required. (這張照片可以免費使用，但必須標示攝影師姓名。)",
+    "id": "進階3-attribution-m1nb417e"
+  },
+  {
+    "level": "進階3",
+    "word": "homicide",
+    "meaning": "n. 殺人（罪）；兇殺案",
+    "example": "The city recorded fewer homicides this year than at any time in the past decade. (這座城市今年的兇殺案數量是十年來最少的。)",
+    "id": "進階3-homicide-mmht75t"
+  },
+  {
+    "level": "進階3",
+    "word": "enchant",
+    "meaning": "v. 使著迷；使陶醉",
+    "example": "The old town's narrow streets and lantern-lit cafés enchant visitors every evening. (老城區狹窄的街道和點著燈籠的咖啡館，每晚都讓遊客著迷。)",
+    "id": "進階3-enchant-mzoelau"
+  },
+  {
+    "level": "進階3",
+    "word": "seminal",
+    "meaning": "adj. 影響深遠的；開創性的",
+    "example": "Her seminal paper on sleep and memory is still cited by researchers today. (她那篇關於睡眠與記憶的開創性論文，至今仍被研究者引用。)",
+    "id": "進階3-seminal-m1do7997"
+  },
+  {
+    "level": "進階3",
+    "word": "precinct",
+    "meaning": "n. （美）選區；警察分局轄區；（英）（禁止車輛的）區域；（建築的）周圍地帶",
+    "example": "Voters in each precinct cast their ballots at a nearby school or library. (每個選區的選民都在附近的學校或圖書館投票。)",
+    "id": "進階3-precinct-m1cmb6sm"
+  },
+  {
+    "level": "進階3",
+    "word": "configure",
+    "meaning": "v. 設定；配置",
+    "example": "The IT team configured the new laptops before giving them to staff. (資訊部門先設定好新筆電，再發給員工。)",
+    "id": "進階3-configure-m1jnpyi7"
+  },
+  {
+    "level": "進階3",
+    "word": "rogue",
+    "meaning": "adj. 不受控制的；脫序的；不法的\nn. 流氓；無賴",
+    "example": "A rogue trader hid huge losses from the bank for almost two years. (一名違規交易員向銀行隱瞞巨額虧損將近兩年。)",
+    "id": "進階3-rogue-m1juev2b"
+  },
+  {
+    "level": "進階3",
+    "word": "platinum",
+    "meaning": "n. 鉑；白金",
+    "example": "Platinum is used in car parts that reduce harmful exhaust gases. (鉑被用在可以減少有害廢氣的汽車零件中。)",
+    "id": "進階3-platinum-mjibbz2"
+  },
+  {
+    "level": "進階3",
+    "word": "boutique",
+    "meaning": "n. 精品店\nadj. 精品的；小而精緻的",
+    "example": "She runs a small boutique that sells clothes made by local designers. (她經營一家販售本地設計師服飾的小精品店。)",
+    "id": "進階3-boutique-mndsgje"
+  },
+  {
+    "level": "進階3",
+    "word": "institutionalize",
+    "meaning": "v. 使制度化；（把人）送進收容機構",
+    "example": "The company institutionalized flexible hours after the trial proved popular. (試行結果大受歡迎後，公司把彈性工時正式制度化。)",
+    "id": "進階3-institutionalize-m135dvtx"
+  },
+  {
+    "level": "進階3",
+    "word": "exemplar",
+    "meaning": "n. 典範；範例",
+    "example": "The library is often cited as an exemplar of energy-efficient design. (這座圖書館常被視為節能設計的典範。)",
+    "id": "進階3-exemplar-m1f2yj86"
+  },
+  {
+    "level": "進階3",
+    "word": "communion",
+    "meaning": "n. （心靈的）交流；（基督教）聖餐",
+    "example": "Hikers often describe a feeling of communion with nature on long mountain trails. (登山客常說，走在漫長的山徑上會有一種與自然交融的感覺。)",
+    "id": "進階3-communion-m1hxbyvj"
+  },
+  {
+    "level": "進階3",
+    "word": "ostensibly",
+    "meaning": "adv. 表面上；名義上",
+    "example": "The meeting was ostensibly about safety, but most of the time was spent on cutting costs. (這場會議名義上是討論安全，但大部分時間都在談削減成本。)",
+    "id": "進階3-ostensibly-m1qfamqr"
+  },
+  {
+    "level": "進階3",
+    "word": "reinvent",
+    "meaning": "v. 重新塑造；徹底改造",
+    "example": "After the factory closed, the town reinvented itself as a center for arts and tourism. (工廠關閉後，這個小鎮轉型成藝術與觀光重鎮。)",
+    "id": "進階3-reinvent-m1jorrcc"
+  },
+  {
+    "level": "進階3",
+    "word": "negation",
+    "meaning": "n. 否定；否認；對立面",
+    "example": "Critics called the new law a negation of everything the reform movement had achieved. (批評者說這項新法完全否定了改革運動的所有成果。)",
+    "id": "進階3-negation-m15mj82f"
+  },
+  {
+    "level": "進階3",
+    "word": "articulation",
+    "meaning": "n. （想法的）清楚表達；發音；關節",
+    "example": "The report praised the mission statement for its clear articulation of the charity's goals. (報告稱讚這份宗旨聲明清楚表達了慈善機構的目標。)",
+    "id": "進階3-articulation-m1qwo3rx"
+  },
+  {
+    "level": "進階3",
+    "word": "turnaround",
+    "meaning": "n. 好轉；（業績）轉虧為盈；處理所需時間",
+    "example": "The new chief executive led a dramatic turnaround, and the firm made a profit within a year. (新任執行長帶動驚人的轉機，公司在一年內就轉虧為盈。)",
+    "id": "進階3-turnaround-m1sv28qa"
+  },
+  {
+    "level": "進階3",
+    "word": "persecution",
+    "meaning": "n. 迫害",
+    "example": "Many families fled the country to escape religious persecution. (許多家庭為了逃離宗教迫害而離開國家。)",
+    "id": "進階3-persecution-moze0"
+  },
+  {
+    "level": "進階3",
+    "word": "symmetric",
+    "meaning": "adj. 對稱的",
+    "example": "Most butterflies have symmetric wings, with matching patterns on each side. (大多數蝴蝶的翅膀是對稱的，兩側花紋相互對應。)",
+    "id": "進階3-symmetric-me2tds"
+  },
+  {
+    "level": "進階3",
+    "word": "reactivity",
+    "meaning": "n. 反應性；反應能力",
+    "example": "The reactivity of sodium explains why it must be stored away from water. (鈉的反應性很高，所以必須存放在遠離水的地方。)",
+    "id": "進階3-reactivity-mgqvgay"
+  },
+  {
+    "level": "進階3",
+    "word": "activism",
+    "meaning": "n. 社會運動；行動主義",
+    "example": "Her activism began when a highway was planned through her neighborhood. (當一條公路計畫穿過她家附近時，她開始投入社會運動。)",
+    "id": "進階3-activism-m1ecqpur"
+  },
+  {
+    "level": "進階3",
+    "word": "fascism",
+    "meaning": "n. 法西斯主義",
+    "example": "The history course compares the rise of fascism in Italy and Germany. (這門歷史課比較法西斯主義在義大利和德國的崛起。)",
+    "id": "進階3-fascism-mh415pv"
+  },
+  {
+    "level": "進階3",
+    "word": "imperialism",
+    "meaning": "n. 帝國主義",
+    "example": "The exhibition looks at how imperialism changed trade and farming in Southeast Asia. (這場展覽探討帝國主義如何改變東南亞的貿易與農業。)",
+    "id": "進階3-imperialism-mc8gycc"
+  },
+  {
+    "level": "進階3",
+    "word": "adhesion",
+    "meaning": "n. 黏附；黏著力；（醫）沾黏",
+    "example": "Tiny hairs on a gecko's feet give it strong adhesion to smooth walls. (壁虎腳上的細毛讓牠能牢牢附著在光滑的牆面上。)",
+    "id": "進階3-adhesion-mjhd3xl"
+  },
+  {
+    "level": "進階3",
+    "word": "victimization",
+    "meaning": "n. 受害；使受害；欺凌",
+    "example": "The survey measures victimization by asking whether people have experienced crime. (這項調查透過詢問民眾是否遭遇犯罪來衡量受害情況。)",
+    "id": "進階3-victimization-m1gwgrch"
+  },
+  {
+    "level": "進階3",
+    "word": "culprit",
+    "meaning": "n. 罪犯；元兇；問題的根源",
+    "example": "Engineers found that a cheap cable was the culprit behind the repeated power cuts. (工程師發現，一條便宜的電纜就是一再停電的元兇。)",
+    "id": "進階3-culprit-m1omgmsd"
+  },
+  {
+    "level": "進階3",
+    "word": "involuntary",
+    "meaning": "adj. 非自願的；不自主的",
+    "example": "Blinking is usually involuntary, but we can also control it when we choose. (眨眼通常是不自主的，但我們想控制時也做得到。)",
+    "id": "進階3-involuntary-m1289hqh"
+  },
+  {
+    "level": "進階3",
+    "word": "propagation",
+    "meaning": "n. 傳播；（植物的）繁殖",
+    "example": "Gardeners use cuttings for the propagation of plants that grow poorly from seed. (園丁用扦插來繁殖那些不易從種子長大的植物。)",
+    "id": "進階3-propagation-m1eh7671"
+  },
+  {
+    "level": "進階3",
+    "word": "fanatic",
+    "meaning": "n. 狂熱者；狂熱分子",
+    "example": "He is a fitness fanatic who trains at the gym every morning before work. (他是個健身狂，每天上班前都會去健身房鍛鍊。)",
+    "id": "進階3-fanatic-m1s9515q"
+  },
+  {
+    "level": "進階3",
+    "word": "paternal",
+    "meaning": "adj. 父親的；父系的",
+    "example": "Her paternal grandparents ran a small bakery in the same street for fifty years. (她的祖父母（父親那一方）在同一條街上開了五十年的小麵包店。)",
+    "id": "進階3-paternal-m15a0wok"
+  },
+  {
+    "level": "進階3",
+    "word": "spirituality",
+    "meaning": "n. 靈性；精神性",
+    "example": "Some people find spirituality in meditation and long walks rather than in religion. (有些人不是從宗教，而是從冥想和長時間散步中找到心靈寄託。)",
+    "id": "進階3-spirituality-m1s7vm7f"
+  },
+  {
+    "level": "進階3",
+    "word": "conceptualize",
+    "meaning": "v. 使概念化；構思",
+    "example": "The workshop helps teams conceptualize a product before they spend money on it. (這個工作坊協助團隊在投入資金前先構思產品概念。)",
+    "id": "進階3-conceptualize-m1j7ba21"
+  },
+  {
+    "level": "進階3",
+    "word": "blackmail",
+    "meaning": "n. 勒索；敲詐\nv. 勒索；要挾",
+    "example": "The hackers tried to blackmail the company by threatening to publish customer data. (駭客威脅要公開客戶資料，企圖勒索這家公司。)",
+    "id": "進階3-blackmail-m7b5n9j"
+  },
+  {
+    "level": "進階4",
+    "word": "mobilization",
+    "meaning": "n. 動員；調動",
+    "example": "The rapid mobilization of volunteers saved many homes during the flood. (志工迅速動員，在洪水期間保住了許多住家。)",
+    "id": "進階4-mobilization-m1fics9x"
+  },
+  {
+    "level": "進階4",
+    "word": "surrogate",
+    "meaning": "adj. 代理的；替代的\nn. 代理人；替代品；代理孕母",
+    "example": "For the orphaned elephants, the keepers act as surrogate mothers. (對那些失去母親的小象來說，保育員就像代理媽媽。)",
+    "id": "進階4-surrogate-md9u90h"
+  },
+  {
+    "level": "進階4",
+    "word": "heterogeneity",
+    "meaning": "n. 異質性；多樣性",
+    "example": "The heterogeneity of the sample makes it hard to draw a single conclusion. (樣本的異質性很高，很難得出單一結論。)",
+    "id": "進階4-heterogeneity-m150xjzk"
+  },
+  {
+    "level": "進階4",
+    "word": "fugitive",
+    "meaning": "n. 逃犯；逃亡者\nadj. 逃亡的；短暫的",
+    "example": "The fugitive was arrested at the airport after three months on the run. (這名逃犯逃亡三個月後在機場被捕。)",
+    "id": "進階4-fugitive-mt5qzen"
+  },
+  {
+    "level": "進階4",
+    "word": "rubric",
+    "meaning": "n. 評分標準；（書中的）標題、說明",
+    "example": "The rubric shows how many points are given for structure, grammar and ideas. (評分標準列出結構、文法和觀點各占多少分。)",
+    "id": "進階4-rubric-m17hmyjh"
+  },
+  {
+    "level": "進階4",
+    "word": "modality",
+    "meaning": "n. 方式；形式；（感官的）類型",
+    "example": "The course is offered in two modalities: online and in person. (這門課提供兩種上課方式：線上和實體。)",
+    "id": "進階4-modality-m1tfnze"
+  },
+  {
+    "level": "進階4",
+    "word": "earmark",
+    "meaning": "v. 指定（款項）用於；預留\nn. 特徵；標記",
+    "example": "The council has earmarked half the budget for repairing roads. (議會已指定把一半預算用於修路。)",
+    "id": "進階4-earmark-mesd62f"
+  },
+  {
+    "level": "進階4",
+    "word": "putative",
+    "meaning": "adj. 推定的；公認的；被認為的",
+    "example": "Scientists are testing the putative link between the gene and hearing loss. (科學家正在檢驗該基因與聽力損失之間被推定存在的關聯。)",
+    "id": "進階4-putative-m5frkjx"
+  },
+  {
+    "level": "進階4",
+    "word": "perpetrator",
+    "meaning": "n. 犯罪者；加害者",
+    "example": "Police used camera footage to identify the perpetrators of the robbery. (警方利用監視器畫面找出搶案的犯人。)",
+    "id": "進階4-perpetrator-m17nvt41"
+  },
+  {
+    "level": "進階4",
+    "word": "bandwidth",
+    "meaning": "n. 頻寬；（口）處理事情的餘力",
+    "example": "Video calls use a lot of bandwidth, so the connection slows down when everyone is online. (視訊通話很耗頻寬，所以大家同時上線時網路就會變慢。)",
+    "id": "進階4-bandwidth-mxpr17c"
+  },
+  {
+    "level": "進階4",
+    "word": "saga",
+    "meaning": "n. 長篇故事；一連串事件；傳奇",
+    "example": "The saga of the delayed railway line has lasted more than ten years. (這條鐵路一再延宕的風波已經拖了十多年。)",
+    "id": "進階4-saga-m1sbmt7e"
+  },
+  {
+    "level": "進階4",
+    "word": "gestation",
+    "meaning": "n. 懷孕期；（計畫的）醞釀期",
+    "example": "Elephants have the longest gestation of any land mammal, about twenty-two months. (大象是陸地哺乳動物中懷孕期最長的，大約二十二個月。)",
+    "id": "進階4-gestation-m404twn"
+  },
+  {
+    "level": "進階4",
+    "word": "outburst",
+    "meaning": "n. （情緒的）爆發；突然發生",
+    "example": "The manager apologized for his angry outburst during the meeting. (經理為自己在會議中突然發脾氣道歉。)",
+    "id": "進階4-outburst-m1uz1eeb"
+  },
+  {
+    "level": "進階4",
+    "word": "profess",
+    "meaning": "v. 聲稱；公開表示；信奉",
+    "example": "He professed to know nothing about the missing money, but nobody believed him. (他聲稱對那筆不見的錢一無所知，但沒有人相信他。)",
+    "id": "進階4-profess-m1nd5xjq"
+  },
+  {
+    "level": "進階4",
+    "word": "slant",
+    "meaning": "n. 觀點；偏向；傾斜\nv. 傾斜；（報導）偏頗",
+    "example": "The documentary gives the history of the city a fresh slant by focusing on its workers. (這部紀錄片聚焦於這座城市的勞工，為它的歷史提供了全新的觀點。)",
+    "id": "進階4-slant-m12uvr3t"
+  },
+  {
+    "level": "進階4",
+    "word": "parole",
+    "meaning": "n. 假釋\nv. 准予假釋",
+    "example": "He was released on parole after serving six years of a ten-year sentence. (他在十年刑期服完六年後獲得假釋。)",
+    "id": "進階4-parole-m13i8wwc"
+  },
+  {
+    "level": "進階4",
+    "word": "picket",
+    "meaning": "n. （罷工的）糾察隊；尖木樁\nv. 在……外設糾察線、抗議",
+    "example": "Striking nurses picketed outside the hospital to demand safer staffing levels. (罷工的護理師在醫院外面拉起糾察線，要求更安全的人力配置。)",
+    "id": "進階4-picket-mnjiyrc"
+  },
+  {
+    "level": "進階4",
+    "word": "foreground",
+    "meaning": "n. 前景；最顯著的位置\nv. 突顯；使成為重點",
+    "example": "In the foreground of the painting, two farmers rest beside a cart. (在這幅畫的前景，兩名農夫在一輛推車旁休息。)",
+    "id": "進階4-foreground-m1cqy941"
+  },
+  {
+    "level": "進階4",
+    "word": "biotechnology",
+    "meaning": "n. 生物科技",
+    "example": "Advances in biotechnology have made it faster to develop new vaccines. (生物科技的進步讓新疫苗的研發速度變快。)",
+    "id": "進階4-biotechnology-mf95f95"
+  },
+  {
+    "level": "進階4",
+    "word": "tacit",
+    "meaning": "adj. 默示的；心照不宣的",
+    "example": "There was a tacit agreement among the staff not to discuss salaries. (員工之間有一種不談薪水的默契。)",
+    "id": "進階4-tacit-mze0mcx"
+  },
+  {
+    "level": "進階4",
+    "word": "brutality",
+    "meaning": "n. 殘暴；暴行",
+    "example": "The film shows the brutality of the war through the eyes of a young soldier. (這部電影透過一名年輕士兵的眼睛呈現戰爭的殘酷。)",
+    "id": "進階4-brutality-m8ic8nr"
+  },
+  {
+    "level": "進階4",
+    "word": "susceptibility",
+    "meaning": "n. 易受影響（的程度）；感受性",
+    "example": "Poor sleep increases our susceptibility to colds and other infections. (睡眠不足會讓我們更容易感冒和受到其他感染。)",
+    "id": "進階4-susceptibility-mptkxh0"
+  },
+  {
+    "level": "進階4",
+    "word": "mania",
+    "meaning": "n. 狂熱；（醫）躁症",
+    "example": "A mania for tulips in the 1630s drove bulb prices to absurd levels. (1630 年代的鬱金香狂熱，把球根價格推到荒謬的高點。)",
+    "id": "進階4-mania-m1mqhmqo"
+  },
+  {
+    "level": "進階4",
+    "word": "budgetary",
+    "meaning": "adj. 預算的",
+    "example": "Because of budgetary limits, the library will close on Sundays from next month. (由於預算限制，圖書館從下個月起週日將不開放。)",
+    "id": "進階4-budgetary-mmvhst"
+  },
+  {
+    "level": "進階4",
+    "word": "atypical",
+    "meaning": "adj. 非典型的；不尋常的",
+    "example": "Such heavy rain in July is atypical for this dry region. (對這個乾燥地區來說，七月下這麼大的雨並不尋常。)",
+    "id": "進階4-atypical-m9taek2"
+  },
+  {
+    "level": "進階4",
+    "word": "wreckage",
+    "meaning": "n. 殘骸；廢墟",
+    "example": "Divers recovered parts of the plane's wreckage from the bottom of the lake. (潛水員從湖底打撈出飛機的部分殘骸。)",
+    "id": "進階4-wreckage-mf2h8oo"
+  },
+  {
+    "level": "進階4",
+    "word": "laden",
+    "meaning": "adj. 滿載的；充滿……的",
+    "example": "Trucks laden with fresh vegetables arrive at the market before dawn. (滿載新鮮蔬菜的卡車在天亮前抵達市場。)",
+    "id": "進階4-laden-m1t6bsjt"
+  },
+  {
+    "level": "進階4",
+    "word": "solicitation",
+    "meaning": "n. 請求；募捐；招攬",
+    "example": "The sign on the office door says: no sales or solicitation allowed. (辦公室門上的告示寫著：禁止推銷或募捐。)",
+    "id": "進階4-solicitation-m16d4z1z"
+  },
+  {
+    "level": "進階4",
+    "word": "manipulator",
+    "meaning": "n. 操縱者；善於擺布別人的人",
+    "example": "In the novel, the charming uncle turns out to be a cold manipulator. (在小說裡，那位迷人的叔叔原來是個冷酷的操縱者。)",
+    "id": "進階4-manipulator-m13imdba"
+  },
+  {
+    "level": "進階4",
+    "word": "retaliation",
+    "meaning": "n. 報復；反擊",
+    "example": "Workers who report safety problems are protected by law from retaliation. (通報安全問題的員工受到法律保護，不會遭到報復。)",
+    "id": "進階4-retaliation-m2sbja8"
+  },
+  {
+    "level": "進階4",
+    "word": "standardization",
+    "meaning": "n. 標準化；統一規格",
+    "example": "The standardization of shipping containers made global trade much cheaper. (貨櫃規格的標準化讓全球貿易成本大幅降低。)",
+    "id": "進階4-standardization-mp7c8m6"
+  },
+  {
+    "level": "進階4",
+    "word": "tweak",
+    "meaning": "v. 稍微調整；擰\nn. 小幅調整",
+    "example": "The chef tweaked the recipe by adding less sugar and more lemon. (主廚稍微調整了食譜，少放一點糖、多加一點檸檬。)",
+    "id": "進階4-tweak-m15sptje"
+  },
+  {
+    "level": "進階4",
+    "word": "battleground",
+    "meaning": "n. 戰場；爭奪的焦點",
+    "example": "Online advertising has become the main battleground for the two phone makers. (網路廣告已成為這兩家手機製造商的主戰場。)",
+    "id": "進階4-battleground-mnsny6g"
+  },
+  {
+    "level": "進階4",
+    "word": "ominous",
+    "meaning": "adj. 不祥的；預示凶兆的",
+    "example": "Dark clouds gathered over the harbor, and fishermen took the ominous sign seriously. (烏雲聚集在港口上空，漁民們把這個不祥的徵兆當一回事。)",
+    "id": "進階4-ominous-m7bq997"
+  },
+  {
+    "level": "進階4",
+    "word": "thematic",
+    "meaning": "adj. 主題的；按主題分類的",
+    "example": "The museum arranges its collection in thematic rooms rather than by date. (這間博物館依主題而不是年代來安排展間。)",
+    "id": "進階4-thematic-mc52gqi"
+  },
+  {
+    "level": "進階4",
+    "word": "resilient",
+    "meaning": "adj. 有韌性的；能迅速恢復的",
+    "example": "Small family farms proved surprisingly resilient during the economic crisis. (經濟危機期間，小型家庭農場展現出驚人的韌性。)",
+    "id": "進階4-resilient-m2la43l"
+  },
+  {
+    "level": "進階4",
+    "word": "impeach",
+    "meaning": "v. 彈劾；質疑",
+    "example": "Parliament voted to impeach the president for abuse of power. (國會以濫權為由表決彈劾總統。)",
+    "id": "進階4-impeach-msvwbnw"
+  },
+  {
+    "level": "進階4",
+    "word": "orchestrate",
+    "meaning": "v. 精心策劃；編寫管弦樂曲",
+    "example": "She orchestrated the merger of the two firms without a single public leak. (她精心策劃了兩家公司的合併，過程中沒有任何消息外洩。)",
+    "id": "進階4-orchestrate-m18yuyip"
+  },
+  {
+    "level": "進階4",
+    "word": "ratification",
+    "meaning": "n. （條約的）批准",
+    "example": "The climate treaty came into force after ratification by fifty-five countries. (這項氣候條約在五十五個國家批准後生效。)",
+    "id": "進階4-ratification-m1754ds1"
+  },
+  {
+    "level": "進階4",
+    "word": "caricature",
+    "meaning": "n. 諷刺漫畫；誇張的描繪\nv. 以漫畫諷刺；誇張描繪",
+    "example": "The newspaper published a caricature of the minister holding an empty wallet. (報紙刊出一幅諷刺漫畫，畫中部長手拿空錢包。)",
+    "id": "進階4-caricature-m1fk20fh"
+  },
+  {
+    "level": "進階4",
+    "word": "modular",
+    "meaning": "adj. 模組化的；組合式的",
+    "example": "Modular houses are built in factories and assembled on site in a few days. (組合屋在工廠製造，幾天內就能在現場組裝完成。)",
+    "id": "進階4-modular-m1d17in7"
+  },
+  {
+    "level": "進階4",
+    "word": "inaugural",
+    "meaning": "adj. 就職的；首次的；開幕的",
+    "example": "The inaugural flight of the new route was full of journalists and local officials. (新航線的首航班機坐滿了記者和地方官員。)",
+    "id": "進階4-inaugural-m16h38kb"
+  },
+  {
+    "level": "進階4",
+    "word": "coercion",
+    "meaning": "n. 強迫；脅迫",
+    "example": "The court ruled that the confession was obtained through coercion and could not be used. (法院裁定這份自白是在脅迫下取得的，不得作為證據。)",
+    "id": "進階4-coercion-m10c9vil"
+  },
+  {
+    "level": "進階4",
+    "word": "categorization",
+    "meaning": "n. 分類",
+    "example": "The categorization of species changed after scientists compared their DNA. (科學家比對 DNA 之後，物種的分類跟著改變了。)",
+    "id": "進階4-categorization-mesd4"
+  },
+  {
+    "level": "進階4",
+    "word": "dysfunctional",
+    "meaning": "adj. 功能失調的；（家庭、團體）不健全的",
+    "example": "The new manager inherited a dysfunctional team that rarely shared information. (新經理接手了一個運作失靈、很少互通資訊的團隊。)",
+    "id": "進階4-dysfunctional-m1np2uu4"
+  },
+  {
+    "level": "進階4",
+    "word": "obsessive",
+    "meaning": "adj. 著迷的；強迫性的",
+    "example": "His obsessive attention to detail made him an excellent watch repairer. (他對細節近乎執著的注意力，讓他成為出色的鐘錶修理師。)",
+    "id": "進階4-obsessive-m10fum08"
+  },
+  {
+    "level": "進階4",
+    "word": "adherence",
+    "meaning": "n. 遵守；堅持",
+    "example": "Strict adherence to the safety rules has kept the factory accident-free for years. (嚴格遵守安全規定，讓這家工廠多年來零事故。)",
+    "id": "進階4-adherence-m965ois"
+  },
+  {
+    "level": "進階4",
+    "word": "insofar",
+    "meaning": "adv. 在……的範圍內（常用 insofar as）",
+    "example": "The theory is useful insofar as it explains the data we already have. (這個理論只有在能解釋現有資料的範圍內才有用。)",
+    "id": "進階4-insofar-insofar-as"
+  },
+  {
+    "level": "進階4",
+    "word": "tandem",
+    "meaning": "n. 協力；（雙人）協力車\nadv. 一前一後地；協同地",
+    "example": "The two departments worked in tandem to launch the product on time. (兩個部門通力合作，讓產品如期上市。)",
+    "id": "進階4-tandem-m1qjy7y1"
+  },
+  {
+    "level": "進階4",
+    "word": "acknowledgment",
+    "meaning": "n. 承認；致謝；收件確認",
+    "example": "You will receive an email acknowledgment within an hour of sending your application. (送出申請後一小時內，你會收到一封確認收件的電子郵件。)",
+    "id": "進階4-acknowledgment-mb5xq54"
+  },
+  {
+    "level": "進階4",
+    "word": "unconstitutional",
+    "meaning": "adj. 違憲的",
+    "example": "The supreme court declared the new voting law unconstitutional. (最高法院宣告新的投票法違憲。)",
+    "id": "進階4-unconstitutional-mlmbs7"
+  },
+  {
+    "level": "進階4",
+    "word": "conspire",
+    "meaning": "v. 密謀；共謀；（情況）湊在一起造成",
+    "example": "Bad weather and a strike conspired to delay the shipment by two weeks. (惡劣天氣加上罷工，讓這批貨晚了兩週。)",
+    "id": "進階4-conspire-m6kjmut"
+  },
+  {
+    "level": "進階4",
+    "word": "redress",
+    "meaning": "v. 糾正；補救\nn. 賠償；補救",
+    "example": "The company promised to redress the pay gap between men and women within two years. (公司承諾在兩年內改善男女薪資差距。)",
+    "id": "進階4-redress-m1tm0qsy"
+  },
+  {
+    "level": "進階4",
+    "word": "felony",
+    "meaning": "n. 重罪",
+    "example": "In many states, stealing goods worth more than a thousand dollars is a felony. (在許多州，偷竊價值超過一千美元的物品屬於重罪。)",
+    "id": "進階4-felony-mphz1"
+  },
+  {
+    "level": "進階4",
+    "word": "helm",
+    "meaning": "n. 舵；領導地位\nv. 掌舵；領導",
+    "example": "She took the helm of the family business when her father retired. (父親退休後，她接手掌管家族企業。)",
+    "id": "進階4-helm-mjk1tzr"
+  },
+  {
+    "level": "進階4",
+    "word": "guise",
+    "meaning": "n. 偽裝；外表；名義",
+    "example": "Under the guise of a safety check, the men tried to enter the elderly woman's home. (那幾個男人假借安全檢查的名義，想進入那位老太太的家。)",
+    "id": "進階4-guise-m12wnu2y"
+  }
+]
