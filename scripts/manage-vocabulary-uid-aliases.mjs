@@ -66,9 +66,9 @@ export function manageVocabularyUidAlias({ dataDirectory, action, track, uid, ta
   const root = path.resolve(dataDirectory);
   const sourceRowsByTrack = readSourceRowsByTrack(root);
   const aliasData = readUidAliasData(root);
-  const { allUids, uidsByTrack } = validateVocabularyUidState({ sourceRowsByTrack, aliasData });
+  const { uidsByTrack } = validateVocabularyUidState({ sourceRowsByTrack, aliasData });
   const next = action === "merge"
-    ? addUidAlias(aliasData, { track, aliasUid: uid, targetUid, uidsByTrack, allUids })
+    ? addUidAlias(aliasData, { track, aliasUid: uid, targetUid, uidsByTrack })
     : action === "delete"
       ? recordDeletedUid(aliasData, { track, uid, reason, uidsByTrack })
       : (() => { throw new Error(`Unsupported UID alias action '${action}'.`); })();
