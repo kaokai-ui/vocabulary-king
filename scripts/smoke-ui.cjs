@@ -26,10 +26,13 @@ async function run() {
 
   await desktop.getByRole("button", { name: /功能設定|Feature Settings/i }).click();
   await desktop.locator(".settings-select").first().selectOption("ielts");
-  await desktop.getByText("5594", { exact: true }).waitFor({ state: "visible" });
+  // Word count comes from the built catalog so the smoke test survives data rebuilds.
+  const catalog = JSON.parse(fs.readFileSync(path.resolve("public", "data", "catalog.json"), "utf8"));
+  const ieltsWords = String(catalog.tracks.ielts.totalWords);
+  await desktop.getByText(ieltsWords, { exact: true }).waitFor({ state: "visible" });
   await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
   await capture(desktop, "home-desktop.png");
-  console.log("IELTS selected; 5594 words loaded");
+  console.log(`IELTS selected; ${ieltsWords} words loaded`);
 
   await desktop.getByRole("button", { name: /閃卡練習[（(]隨機[）)]|Flashcards \\(Random\\)/i }).click();
   await desktop.locator(".flashcard-word-lines").waitFor({ state: "visible" });
