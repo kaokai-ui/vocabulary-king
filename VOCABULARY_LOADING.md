@@ -18,6 +18,20 @@ The app currently exposes 11 available vocabulary tracks:
 
 Track metadata is stored in `public/data/catalog.json`.
 
+## Persistent Vocabulary IDs
+
+Every private source row in `VocabularyKing-data/data/*.jsonl` has a globally unique `uid`. The initializer fills missing values with the row's legacy exported ID and writes them back to JSONL:
+
+```powershell
+rtk npm run ensure:vocab-uids -- --data-dir "D:\Game\VocabularyKing-data"
+```
+
+The old export ID was not globally unique: 27 IDs were shared by rows in different tracks. For each collision, the first track keeps the old ID and the other row receives a `--<track>` suffix. A track-scoped alias preserves each changed row's old ID for progress migration.
+
+Vocabulary exports keep the public record shape and set `id` to the source row's `uid`. Editing a word, meaning, or example does not change its `uid`. Review writeback is matched by `uid` and rejects attempts to change that field. Rows that are merged or removed must be recorded with `npm run manage:vocab-uid-aliases`; the writeback command does not delete or merge rows.
+
+The iOS export includes `uid-aliases.json` beside the catalog and chunks. Alias entries include the track because the previous IDs could repeat across tracks. Web runtime progress, starred words, known words, and saved words continue to use the loaded vocabulary record's `id`, which is now the source `uid`. Web progress keeps only exact IDs present in the loaded data; it does not infer or regenerate IDs from word or meaning text. Alias-based progress migration is left for a later app change.
+
 Current elementary build source:
 
 - `Source/elementary.english_final001.xlsx`
