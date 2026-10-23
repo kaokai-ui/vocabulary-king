@@ -7,6 +7,7 @@ import "./styles/stage.css";
 import "./styles/game.css";
 import "./styles/wordChain.css";
 import "./styles/responsive.css";
+import "./styles/levelTest.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

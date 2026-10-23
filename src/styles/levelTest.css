@@ -1,0 +1,446 @@
+.feature-card--level-test {
+  background:
+    linear-gradient(140deg, rgba(117, 126, 214, 0.32), rgba(90, 158, 181, 0.2)),
+    var(--surface);
+}
+
+.level-test-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.level-test-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.level-test-header h1,
+.level-test-panel-heading h2 {
+  margin: 4px 0;
+}
+
+.level-test-header .stage-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.level-test-question-panel,
+.level-test-result-panel,
+.level-test-ruler-panel,
+.level-test-history-panel,
+.level-test-status-panel {
+  border-radius: 26px;
+  background: rgba(255, 250, 245, 0.9);
+  box-shadow: 0 14px 36px rgba(40, 35, 29, 0.08);
+}
+
+.level-test-question-panel {
+  width: min(100%, 850px);
+  margin: 0 auto;
+  padding: clamp(22px, 5vw, 48px);
+  text-align: center;
+}
+
+.level-test-progress-row {
+  display: grid;
+  grid-template-columns: auto minmax(120px, 1fr);
+  align-items: center;
+  gap: 18px;
+  margin-bottom: clamp(30px, 6vw, 58px);
+  color: var(--muted);
+  font-weight: 700;
+  text-align: left;
+}
+
+.level-test-progress-row progress {
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(53, 67, 74, 0.1);
+  accent-color: var(--accent);
+}
+
+.level-test-progress-row progress::-webkit-progress-bar {
+  border-radius: 999px;
+  background: rgba(53, 67, 74, 0.1);
+}
+
+.level-test-progress-row progress::-webkit-progress-value {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.level-test-word {
+  margin: 8px 0 4px;
+  font-size: clamp(2.4rem, 8vw, 4.8rem);
+  letter-spacing: -0.045em;
+  overflow-wrap: anywhere;
+}
+
+.level-test-pos {
+  display: inline-block;
+  min-height: 1.3em;
+  margin-bottom: 24px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.level-test-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.level-test-choice,
+.level-test-unknown {
+  min-height: 68px;
+  padding: 16px 20px;
+  border: 1px solid rgba(38, 50, 56, 0.13);
+  border-radius: 18px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.45;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.level-test-choice:hover,
+.level-test-unknown:hover {
+  transform: translateY(-2px);
+  border-color: rgba(42, 157, 143, 0.6);
+  background: rgba(42, 157, 143, 0.06);
+}
+
+.level-test-choice:focus-visible,
+.level-test-unknown:focus-visible {
+  outline: 3px solid rgba(42, 157, 143, 0.5);
+  outline-offset: 3px;
+}
+
+.level-test-unknown {
+  min-height: 52px;
+  margin-top: 16px;
+  padding: 12px 22px;
+  border-color: transparent;
+  background: rgba(53, 67, 74, 0.08);
+  color: var(--muted);
+}
+
+.level-test-status-panel {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.level-test-status-panel p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.level-test-result-panel {
+  padding: clamp(26px, 5vw, 52px);
+  text-align: center;
+}
+
+.level-test-result-number {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0 18px;
+  color: var(--accent-strong, var(--accent));
+}
+
+.level-test-result-number strong {
+  font-size: clamp(3.5rem, 12vw, 7rem);
+  letter-spacing: -0.07em;
+  line-height: 1;
+}
+
+.level-test-result-number span {
+  color: var(--ink);
+  font-size: clamp(1.15rem, 3vw, 1.8rem);
+  font-weight: 700;
+}
+
+.level-test-result-placement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px auto 18px;
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+}
+
+.level-test-result-placement span {
+  color: var(--muted);
+}
+
+.level-test-next p {
+  margin: 20px 0 10px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.level-test-track-buttons,
+.level-test-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.level-test-method-note,
+.level-test-highest-note {
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.level-test-ruler-panel,
+.level-test-history-panel {
+  padding: clamp(20px, 4vw, 34px);
+}
+
+.level-test-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.level-test-panel-heading h2 {
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+}
+
+.level-test-ruler {
+  position: relative;
+  height: 180px;
+  margin: 24px 18px 0;
+}
+
+.level-test-ruler-track {
+  position: absolute;
+  top: 108px;
+  right: 0;
+  left: 0;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #a7d7c4, #f0cf86 55%, #d4a2b0);
+}
+
+.level-test-ruler-player {
+  position: absolute;
+  z-index: 4;
+  top: 124px;
+  transform: translateX(-50%);
+}
+
+.level-test-ruler-player::after {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  width: 3px;
+  height: 16px;
+  background: var(--accent);
+  content: "";
+}
+
+.level-test-ruler-player span {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.level-test-ruler-marker {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  transform: translateX(-50%);
+}
+
+.level-test-ruler-tick {
+  display: block;
+  width: 2px;
+  height: 24px;
+  background: rgba(38, 50, 56, 0.72);
+}
+
+.level-test-ruler-label {
+  position: absolute;
+  left: 50%;
+  max-width: 132px;
+  transform: translateX(-50%);
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.level-test-ruler-label--desktop {
+  top: calc(-26px - var(--ruler-label-row, 0) * 22px);
+}
+
+.level-test-ruler-label--mobile {
+  display: none;
+}
+
+.level-test-ruler-end {
+  position: absolute;
+  bottom: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.level-test-ruler-end--start {
+  left: 0;
+}
+
+.level-test-ruler-end--middle {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.level-test-ruler-end--end {
+  right: 0;
+}
+
+.level-test-history-empty {
+  margin: 14px 0 0;
+  color: var(--muted);
+}
+
+.level-test-history-list {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.level-test-history-list li {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.7fr) minmax(150px, 0.8fr) minmax(180px, 1.5fr);
+  align-items: center;
+  gap: 12px;
+  padding: 13px 16px;
+  border-radius: 14px;
+  background: rgba(53, 67, 74, 0.055);
+}
+
+.level-test-history-list time,
+.level-test-history-list span {
+  color: var(--muted);
+}
+
+.level-test-history-list strong {
+  font-variant-numeric: tabular-nums;
+}
+
+.level-test-actions {
+  margin: -4px 0;
+}
+
+@media (max-width: 640px) {
+  .level-test-shell {
+    gap: 14px;
+  }
+
+  .level-test-header {
+    align-items: flex-start;
+  }
+
+  .level-test-header .ghost-button {
+    flex: 0 0 auto;
+  }
+
+  .level-test-progress-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+
+  .level-test-choices {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .level-test-choice {
+    min-height: 58px;
+  }
+
+  .level-test-ruler {
+    height: 160px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .level-test-ruler-track {
+    top: 100px;
+  }
+
+  .level-test-ruler-player {
+    top: 116px;
+  }
+
+  .level-test-ruler-marker {
+    top: 92px;
+  }
+
+  .level-test-ruler-label--desktop {
+    display: none;
+  }
+
+  .level-test-ruler-label--mobile {
+    display: block;
+    top: calc(-26px - var(--ruler-label-row, 0) * 24px);
+  }
+
+  .level-test-ruler-label {
+    max-width: 74px;
+    font-size: 0.65rem;
+  }
+
+  .level-test-history-list li {
+    grid-template-columns: 1fr auto;
+    gap: 5px 10px;
+    padding: 12px;
+  }
+
+  .level-test-history-list time {
+    grid-column: 1;
+  }
+
+  .level-test-history-list strong {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+  }
+
+  .level-test-history-list span {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .level-test-choice,
+  .level-test-unknown {
+    transition: none;
+  }
+}

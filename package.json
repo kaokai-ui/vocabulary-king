@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "build:vocab": "node scripts/export-game-vocabulary.mjs",
+    "build:level-test": "node scripts/build-level-test.mjs",
+    "calibrate:level-test": "node scripts/level-test-calibration.mjs",
+    "smoke:level-test": "node scripts/smoke-level-test.cjs",
     "export:ios-locales": "node scripts/export-ios-locales.mjs",
     "ensure:vocab-uids": "node scripts/ensure-vocabulary-uids.mjs",
     "manage:vocab-uid-aliases": "node scripts/manage-vocabulary-uid-aliases.mjs",
