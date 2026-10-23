@@ -4,6 +4,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { buildTrackExportRecords } from "./vocabulary-data-utils.mjs";
+import { inferSensesFromLegacyRow } from "./vocabulary-senses.mjs";
 import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 
 const DATA_ROOT = path.resolve("public/data");
@@ -105,7 +106,7 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0) {
   };
 }
 
-function prepareTracks(dataRepoRoot, extraLocales) {
+function prepareTracks(dataRepoRoot, extraLocales, { includeSenseData = false, sensesDisplay = false } = {}) {
   const prepared = new Map();
   const sourceRowsByTrack = new Map();
 
@@ -117,14 +118,19 @@ function prepareTracks(dataRepoRoot, extraLocales) {
 
     const sourceRows = readTrackSourceRows(dataRepoRoot, definition.id);
     sourceRowsByTrack.set(definition.id, sourceRows);
-    const exportRecords = buildTrackExportRecords(definition.id, sourceRows);
-    const records = exportRecords.map(({ level, word, meaning, example, id }) => ({
-      level,
-      word,
-      meaning,
-      example,
-      id
-    }));
+    const exportRecords = buildTrackExportRecords(definition.id, sourceRows, { useSensesDisplay: sensesDisplay });
+    const records = exportRecords.map(({ level, word, meaning, example, id, sourceIndex }) => {
+      const record = { level, word, meaning, example, id };
+      if (includeSenseData) {
+        const sourceRow = sourceRows[sourceIndex];
+        const senses = Array.isArray(sourceRow?.senses) ? sourceRow.senses : inferSensesFromLegacyRow(sourceRow).senses;
+        record.senses = senses;
+        if (Number.isInteger(sourceRow?.example_sense)) record.example_sense = sourceRow.example_sense;
+        record.ipa_us = String(sourceRow?.ipa_us ?? "");
+        record.ipa_uk = String(sourceRow?.ipa_uk ?? "");
+      }
+      return record;
+    });
 
     if (records.length === 0) {
       throw new Error(`Vocabulary source file for '${definition.id}' contains no exportable entries.`);
@@ -136,7 +142,10 @@ function prepareTracks(dataRepoRoot, extraLocales) {
         const translatedRecords = exportRecords
           .map((record) => ({
             id: record.id,
-            meaning: String(sourceRows[record.sourceIndex]?.[fields.meaningField] ?? "").trim(),
+            meaning: String(
+              sourceRows[record.sourceIndex]?.legacy_display?.[fields.meaningField] ??
+                sourceRows[record.sourceIndex]?.[fields.meaningField] ?? ""
+            ).trim(),
             example: String(sourceRows[record.sourceIndex]?.[fields.exampleField] ?? "").trim()
           }))
           .filter((record) => record.meaning || record.example);
@@ -157,7 +166,9 @@ export function exportGameVocabulary({
   dataRepoRoot = getVocabularyDataRepoPath(),
   dataRoot = DATA_ROOT,
   extraLocales = getVocabularyExportExtraLocales(),
-  includeUidAliases = false
+  includeUidAliases = false,
+  includeSenseData = false,
+  sensesDisplay = process.env.VOCAB_EXPORT_SENSES_DISPLAY === "1"
 } = {}) {
   const resolvedDataRepoRoot = path.resolve(dataRepoRoot);
   const resolvedDataRoot = path.resolve(dataRoot);
@@ -177,7 +188,7 @@ export function exportGameVocabulary({
 
   // Read and validate every track before touching public/data so an incomplete
   // local source repo cannot leave a partially refreshed public bundle.
-  const { preparedTracks, aliasData } = prepareTracks(resolvedDataRepoRoot, localesToExport);
+  const { preparedTracks, aliasData } = prepareTracks(resolvedDataRepoRoot, localesToExport, { includeSenseData, sensesDisplay });
   const tracksRoot = path.join(resolvedDataRoot, "tracks");
   const catalogTracks = {};
   const summaries = [];

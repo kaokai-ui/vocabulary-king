@@ -144,6 +144,32 @@ describe("exportGameVocabulary locale overlays", () => {
     expect(chunk[0]).not.toHaveProperty("uid");
   });
 
+  it("keeps legacy web meaning by default and exposes normalized senses only behind the opt-in flag", () => {
+    const dataRepoRoot = createSourceRepo();
+    const sourcePath = path.join(dataRepoRoot, "data", "elementary.jsonl");
+    const sourceRow = JSON.parse(fs.readFileSync(sourcePath, "utf8").trim());
+    sourceRow.senses = [{ pos: "n.", meaning_zh: "整理後的義項", meaning_ja: "", meaning_ko: "" }];
+    sourceRow.legacy_display = {
+      pos: "noun",
+      meaning_zh: "舊網頁顯示",
+      meaning_ja: "",
+      meaning_ko: ""
+    };
+    fs.writeFileSync(sourcePath, `${JSON.stringify(sourceRow)}\n`, "utf8");
+    const defaultDataRoot = path.join(createTempDirectory(), "default", "data");
+    const optedDataRoot = path.join(createTempDirectory(), "opted", "data");
+
+    exportGameVocabulary({ dataRepoRoot, dataRoot: defaultDataRoot });
+    exportGameVocabulary({ dataRepoRoot, dataRoot: optedDataRoot, sensesDisplay: true });
+
+    const defaultChunk = JSON.parse(fs.readFileSync(path.join(defaultDataRoot, "tracks", "elementary", "chunk-001.json"), "utf8"));
+    const optedChunk = JSON.parse(fs.readFileSync(path.join(optedDataRoot, "tracks", "elementary", "chunk-001.json"), "utf8"));
+    expect(defaultChunk[0].meaning).toBe("舊網頁顯示");
+    expect(defaultChunk[0]).not.toHaveProperty("senses");
+    expect(optedChunk[0].meaning).toBe("n. 整理後的義項");
+    expect(optedChunk[0]).not.toHaveProperty("ipa_us");
+  });
+
   it("writes LF-only JSON even when an existing catalog uses CRLF", () => {
     const dataRepoRoot = createSourceRepo();
     const dataRoot = path.join(createTempDirectory(), "public", "data");

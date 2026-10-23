@@ -5,6 +5,7 @@ import OpenCC from "opencc-js";
 import xlsx from "xlsx";
 import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
+import { validateSenseRow } from "./vocabulary-senses.mjs";
 import {
   findSourceWorkbookPath,
   TRACK_DEFINITIONS
@@ -721,11 +722,16 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
           `Vocabulary source row ${filePath}:${sourceLine} belongs to '${sourceRow?.track}', expected '${definition.id}'.`
         );
       }
+      const senseErrors = validateSenseRow(sourceRow, `${filePath}:${sourceLine} uid ${sourceRow?.uid ?? "(missing uid)"}`);
+      if (senseErrors.length) {
+        throw new Error(senseErrors.join("; "));
+      }
       trackRows.push(sourceRow);
 
       const word = asText(sourceRow.word);
-      const pos = asText(sourceRow.pos);
-      const rawMeaning = asText(sourceRow.meaning_zh);
+      const legacyDisplay = sourceRow.legacy_display ?? sourceRow;
+      const pos = asText(legacyDisplay.pos);
+      const rawMeaning = asText(legacyDisplay.meaning_zh);
       const englishExample = asText(sourceRow.example_en);
       const chineseTranslation = asText(sourceRow.example_zh);
       const format = sourceRow.example_format;

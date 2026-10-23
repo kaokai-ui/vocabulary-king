@@ -8,6 +8,8 @@
     "export:ios-locales": "node scripts/export-ios-locales.mjs",
     "ensure:vocab-uids": "node scripts/ensure-vocabulary-uids.mjs",
     "manage:vocab-uid-aliases": "node scripts/manage-vocabulary-uid-aliases.mjs",
+    "migrate:vocab-senses": "node scripts/migrate-vocabulary-senses.mjs",
+    "fill:vocab-ipa": "node scripts/fill-vocabulary-ipa.mjs",
     "build:ielts-source": "node scripts/build-ielts-source.mjs",
     "convert:vocab:source": "node scripts/convert-vocabulary-sources.mjs",
     "refresh:vocab": "node scripts/export-game-vocabulary.mjs",

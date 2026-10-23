@@ -7,6 +7,7 @@ import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 import { assertNoPublicLocaleArtifacts } from "./vocabulary-locale-safety.mjs";
+import { validateSenseRow } from "./vocabulary-senses.mjs";
 
 const dataRoot = path.resolve("public/data");
 const catalogPath = path.join(dataRoot, "catalog.json");
@@ -62,17 +63,21 @@ assert(catalog && typeof catalog === "object", "Catalog must be a JSON object.")
 assert(catalog.tracks && typeof catalog.tracks === "object", "Catalog must contain tracks.");
 assertNoPublicLocaleArtifacts(dataRoot, catalog);
 
-const sourceRepoRoot = process.env.VOCABULARY_DATA_REPO ? getVocabularyDataRepoPath() : "";
+const sourceRepoRoot = getVocabularyDataRepoPath();
 let sourceRowsByTrack;
 let sourceRecordsByTrack;
-if (sourceRepoRoot) {
-  assert(fs.existsSync(sourceRepoRoot) && fs.statSync(sourceRepoRoot).isDirectory(), `Vocabulary source repo not found at ${sourceRepoRoot}.`);
-  sourceRowsByTrack = readSourceRows(sourceRepoRoot);
-  validateVocabularyUidState({ sourceRowsByTrack, aliasData: readUidAliasData(sourceRepoRoot) });
-  sourceRecordsByTrack = new Map(
-    [...sourceRowsByTrack].map(([trackId, rows]) => [trackId, buildTrackExportRecords(trackId, rows)])
-  );
+assert(fs.existsSync(sourceRepoRoot) && fs.statSync(sourceRepoRoot).isDirectory(), `Vocabulary source repo not found at ${sourceRepoRoot}.`);
+sourceRowsByTrack = readSourceRows(sourceRepoRoot);
+for (const [trackId, rows] of sourceRowsByTrack) {
+  for (const [index, row] of rows.entries()) {
+    const senseErrors = validateSenseRow(row, `${trackId} row ${index + 1} uid ${row.uid ?? "(missing uid)"}`);
+    assert(senseErrors.length === 0, senseErrors.join("; "));
+  }
 }
+validateVocabularyUidState({ sourceRowsByTrack, aliasData: readUidAliasData(sourceRepoRoot) });
+sourceRecordsByTrack = new Map(
+  [...sourceRowsByTrack].map(([trackId, rows]) => [trackId, buildTrackExportRecords(trackId, rows)])
+);
 
 const summaries = [];
 for (const definition of TRACK_DEFINITIONS) {

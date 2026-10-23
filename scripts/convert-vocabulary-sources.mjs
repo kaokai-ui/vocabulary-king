@@ -3,6 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 import { formatSourceExample } from "./vocabulary-data-utils.mjs";
+import { createCanonicalSensedRow } from "./vocabulary-senses.mjs";
 import { buildIeltsSourceRecords } from "./build-ielts-source.mjs";
 import { readWorkbookTrackEntries, splitCombinedExample } from "./vocabulary-workbook-conversion.mjs";
 
@@ -37,7 +38,7 @@ function parseArguments(args) {
 function sourceRowToJsonlRecord(trackId, entry) {
   const exampleParts = splitCombinedExample(entry.example);
   const pos = Array.isArray(entry.pos) ? entry.pos.join("\n") : String(entry.pos ?? "");
-  const sourceRow = {
+  const sourceRow = createCanonicalSensedRow({
     track: trackId,
     level: entry.level,
     word: entry.word,
@@ -51,7 +52,7 @@ function sourceRowToJsonlRecord(trackId, entry) {
     meaning_ko: "",
     example_ko: "",
     example_format: exampleParts.example_format
-  };
+  });
 
   if (formatSourceExample(sourceRow) !== String(entry.example ?? "").trim()) {
     throw new Error(`Could not losslessly split an example for ${trackId}/${entry.word}.`);

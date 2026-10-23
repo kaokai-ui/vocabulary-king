@@ -189,6 +189,11 @@ describe("canonical JSONL source mapping", () => {
           word: `${definition.id}-word`,
           pos: "",
           meaning_zh: "中文意思",
+          meaning_ja: "",
+          meaning_ko: "",
+          senses: [{ pos: "", meaning_zh: "中文意思", meaning_ja: "", meaning_ko: "" }],
+          ipa_us: "",
+          ipa_uk: "",
           example_en: "A valid example sentence.",
           example_zh: "這是一個例句。",
           example_format: { before: " (", after: ")" }
@@ -223,6 +228,36 @@ describe("canonical JSONL source mapping", () => {
       word: "elementary-word",
       example: "A valid example sentence. (這是一個例句。)"
     });
+  });
+
+  it("rejects invalid sense metadata in JSONL source rows", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "vocab-content-jsonl-invalid-senses-"));
+    temporaryDirectories.push(root);
+    const dataRepoRoot = path.join(root, "vocabulary-data");
+    const dataDirectory = path.join(dataRepoRoot, "data");
+    fs.mkdirSync(dataDirectory, { recursive: true });
+
+    for (const definition of TRACK_DEFINITIONS.filter((track) => track.available)) {
+      const row = {
+        track: definition.id,
+        uid: `${definition.id}-source-1`,
+        level: definition.fallbackLevel ?? "Level 1",
+        word: `${definition.id}-word`,
+        pos: "",
+        meaning_zh: "中文意思",
+        meaning_ja: "",
+        meaning_ko: "",
+        senses: [{ pos: "", meaning_zh: "中文意思", meaning_ja: "", meaning_ko: "" }],
+        ipa_us: "",
+        ipa_uk: "",
+        example_en: "A valid example sentence.",
+        example_zh: "這是一個例句。"
+      };
+      if (definition.id === "elementary") row.senses = [];
+      fs.writeFileSync(path.join(dataDirectory, `${definition.id}.jsonl`), `${JSON.stringify(row)}\n`, "utf8");
+    }
+
+    expect(() => readAllTrackSourceRows(root, dataRepoRoot)).toThrow(/must have at least one sense/u);
   });
 
   it("fails clearly when the configured vocabulary data repo is missing", () => {

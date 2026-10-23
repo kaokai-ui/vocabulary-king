@@ -66,6 +66,11 @@ describe("iOS locale export", () => {
     expect(catalog.tracks["junior-high"].locales.ja.totalWords).toBe(1);
     expect(catalog.tracks["junior-high"].locales.ko.totalWords).toBe(1);
     expect(toeicChunk[0].id).toBe("junior-high-uid-1");
+    expect(toeicChunk[0]).toMatchObject({
+      senses: [{ pos: "", meaning_zh: "中文意思", meaning_ja: "", meaning_ko: "" }],
+      ipa_us: "",
+      ipa_uk: ""
+    });
     expect(fs.existsSync(path.join(outPath, "tracks", "junior-high", "ja", "chunk-001.json"))).toBe(true);
     expect(fs.existsSync(path.join(outPath, "tracks", "junior-high", "ko", "chunk-001.json"))).toBe(true);
     expect(JSON.parse(fs.readFileSync(path.join(outPath, "uid-aliases.json"), "utf8"))).toEqual({

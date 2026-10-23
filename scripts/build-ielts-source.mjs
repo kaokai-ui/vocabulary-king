@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
+import { createCanonicalSensedRow } from "./vocabulary-senses.mjs";
 
 export const IELTS_EXPECTED_WORD_COUNT = 5594;
 
@@ -142,7 +143,7 @@ export function buildIeltsSourceRecords({ root = process.cwd(), expectedWordCoun
 
   const records = entries.map((entry) => {
     const longer = longExamples.get(String(entry.word).trim().toLocaleLowerCase());
-    return {
+    return createCanonicalSensedRow({
       track: "ielts",
       level: "IELTS",
       word: String(entry.word).trim(),
@@ -156,7 +157,7 @@ export function buildIeltsSourceRecords({ root = process.cwd(), expectedWordCoun
       meaning_ko: "",
       example_ko: "",
       example_format: { before: " (", after: ")" }
-    };
+    });
   });
 
   return {
