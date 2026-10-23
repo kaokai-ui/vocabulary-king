@@ -11,6 +11,7 @@ import { validateSenseRow } from "./vocabulary-senses.mjs";
 
 const dataRoot = path.resolve("public/data");
 const catalogPath = path.join(dataRoot, "catalog.json");
+const levelTestPath = path.join(dataRoot, "level-test.json");
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -20,6 +21,67 @@ function assert(condition, message) {
   if (!condition) {
     throw new Error(message);
   }
+}
+
+function verifyLevelTestData() {
+  assert(fs.existsSync(levelTestPath), "Missing level test data: " + levelTestPath);
+  assert(fs.statSync(levelTestPath).size <= 200 * 1024, "Level test data must be at most 200 KB.");
+
+  const data = readJson(levelTestPath);
+  assert(data && typeof data === "object" && !Array.isArray(data), "Level test data must be a JSON object.");
+  assert(data.version === 1, "Level test data must use version 1.");
+  assert(data.bandSize === 1000 && data.bandCount === 20, "Level test data must define twenty 1,000-word bands.");
+  assert(Number.isInteger(data.sampleSeed), "Level test data must include its fixed sample seed.");
+  assert(Number.isInteger(data.maxWordsPerBand) && data.maxWordsPerBand > 0 && data.maxWordsPerBand <= 60,
+    "Level test sample size must be between 1 and 60 words per band.");
+
+  const expectedTrackIds = TRACK_DEFINITIONS.map((definition) => definition.id);
+  assert(Array.isArray(data.tracks) && data.tracks.length === expectedTrackIds.length,
+    "Level test data must include all 13 vocabulary tracks.");
+  assert(data.tracks.map((track) => track.id).join(",") === expectedTrackIds.join(","),
+    "Level test track ids or order do not match the vocabulary catalog.");
+  for (const track of data.tracks) {
+    assert(Number.isFinite(track.median) && track.median >= 1 && track.median <= 31000,
+      "Invalid 31K median for level test track " + track.id + ".");
+  }
+
+  const examTrackIds = new Set(["toeic", "toeic-advanced", "toefl", "ielts", "gre", "gmat"]);
+  const questionKeys = ["meaning", "pos", "rank", "track", "uid", "word"];
+  assert(Array.isArray(data.questions) && data.questions.length > 0, "Level test data must contain questions.");
+  const seenWords = new Set();
+  const countsByBand = Array(data.bandCount + 1).fill(0);
+
+  for (const [index, question] of data.questions.entries()) {
+    assert(question && typeof question === "object" && !Array.isArray(question),
+      "Level test question " + (index + 1) + " must be an object.");
+    assert(Object.keys(question).sort().join(",") === questionKeys.join(","),
+      "Level test question " + (index + 1) + " has unexpected fields.");
+    assert(typeof question.uid === "string" && question.uid.length > 0,
+      "Level test question " + (index + 1) + " is missing its uid.");
+    assert(examTrackIds.has(question.track), "Invalid source track in level test question " + (index + 1) + ".");
+    assert(typeof question.word === "string" && question.word.length > 0 && !/\s/u.test(question.word),
+      "Level test question " + (index + 1) + " must be a single word.");
+    assert(Number.isInteger(question.rank) && question.rank >= 1 && question.rank <= 20000,
+      "Level test question " + (index + 1) + " has an invalid 31K rank.");
+    assert(typeof question.pos === "string", "Level test question " + (index + 1) + " is missing its part of speech.");
+    assert(typeof question.meaning === "string" && question.meaning.trim().length > 0,
+      "Level test question " + (index + 1) + " is missing its Chinese meaning.");
+
+    const wordKey = question.word.normalize("NFKC").trim().toLowerCase();
+    assert(!seenWords.has(wordKey), "Duplicate level test question word: " + question.word + ".");
+    seenWords.add(wordKey);
+    countsByBand[Math.ceil(question.rank / data.bandSize)] += 1;
+  }
+
+  for (let band = 1; band <= data.bandCount; band += 1) {
+    assert(countsByBand[band] <= data.maxWordsPerBand,
+      "Level test band " + band + " exceeds its " + data.maxWordsPerBand + "-word sample limit.");
+  }
+
+  console.log(
+    "Level test data verified: " + data.questions.length + " words across " + data.bandCount + " bands (" +
+    fs.statSync(levelTestPath).size + " bytes)."
+  );
 }
 
 function readSourceRows(dataRepoRoot) {
@@ -62,6 +124,7 @@ const catalog = readJson(catalogPath);
 assert(catalog && typeof catalog === "object", "Catalog must be a JSON object.");
 assert(catalog.tracks && typeof catalog.tracks === "object", "Catalog must contain tracks.");
 assertNoPublicLocaleArtifacts(dataRoot, catalog);
+verifyLevelTestData();
 
 const sourceRepoRoot = getVocabularyDataRepoPath();
 let sourceRowsByTrack;

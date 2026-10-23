@@ -1,6 +1,7 @@
 import FlashcardScreen from "../components/screens/FlashcardScreen";
 import HomeScreen from "../components/screens/HomeScreen";
 import KnownWordListScreen from "../components/screens/KnownWordListScreen";
+import LevelTestScreen from "../components/screens/LevelTestScreen";
 import QuizResultScreen from "../components/screens/QuizResultScreen";
 import QuizScreen from "../components/screens/QuizScreen";
 import QuizSetupScreen from "../components/screens/QuizSetupScreen";
@@ -74,6 +75,11 @@ export const screenAnalytics = {
     pagePath: "/word-chain",
     pageTitle: "Vocabulary King - Word Chain",
     screenName: "word_chain"
+  },
+  levelTest: {
+    pagePath: "/level-test",
+    pageTitle: "Vocabulary King - Vocabulary Size Test",
+    screenName: "level_test"
   }
 };
 
@@ -268,6 +274,7 @@ export const screenRegistry = {
       onOpenSettings={() => context.actions.openScreen("settings")}
       onOpenWordSearch={() => context.actions.openScreen("wordSearch")}
       onOpenWordChain={() => context.actions.openScreen("wordChain")}
+      onOpenLevelTest={() => context.actions.openScreen("levelTest")}
       onResume={() => context.actions.openScreen(context.helpers.getResumeScreen())}
       onChangeLocale={(locale) => context.actions.updateSetting("locale", locale)}
       onRetryVocabulary={context.retryVocabulary}
@@ -298,6 +305,14 @@ export const screenRegistry = {
       onHome={context.actions.goHome}
       onPronounce={context.actions.pronounce}
       onAddWordToWordList={(word) => context.actions.toggleStarredWord(word, word.sourceTrackId ?? context.settings.vocabularyTrack)}
+    />
+  ),
+  levelTest: (context) => (
+    <LevelTestScreen
+      text={context.text}
+      locale={context.settings.locale}
+      onHome={context.actions.goHome}
+      onSwitchTrack={(trackId) => context.actions.updateSetting("vocabularyTrack", trackId)}
     />
   )
 };

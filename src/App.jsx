@@ -107,16 +107,17 @@ function App() {
   }
 
   const isWordSearchScreen = activeScreenKey === "wordSearch";
+  const isLevelTestScreen = activeScreenKey === "levelTest";
 
-  if (!isHomeScreen && !isWordSearchScreen && vocabularyError) {
+  if (!isHomeScreen && !isWordSearchScreen && !isLevelTestScreen && vocabularyError) {
     return renderVocabularyPlaceholder(app.text.vocabularyLoadFailed, true);
   }
 
-  if (!isHomeScreen && !isWordSearchScreen && isVocabularyLoading) {
+  if (!isHomeScreen && !isWordSearchScreen && !isLevelTestScreen && isVocabularyLoading) {
     return renderVocabularyPlaceholder(app.text.loadingVocabulary);
   }
 
-  if (!isHomeScreen && !isWordSearchScreen && isVocabularyReady && vocabulary.length === 0) {
+  if (!isHomeScreen && !isWordSearchScreen && !isLevelTestScreen && isVocabularyReady && vocabulary.length === 0) {
     return renderVocabularyPlaceholder(app.text.emptyVocabularyTrack);
   }
 

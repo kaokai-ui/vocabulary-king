@@ -24,6 +24,7 @@ export default function HomeScreen({
   onOpenSettings,
   onOpenWordSearch,
   onOpenWordChain,
+  onOpenLevelTest,
   onResume,
   onChangeLocale,
   onRetryVocabulary
@@ -73,6 +74,12 @@ export default function HomeScreen({
       </section>
 
       <section className="home-grid">
+        <button className="feature-card feature-card--level-test" type="button" onClick={onOpenLevelTest}>
+          <span className="eyebrow">{text.levelTestEyebrow}</span>
+          <h2>{text.levelTestTitle}</h2>
+          <p>{text.levelTestCardDescription}</p>
+        </button>
+
         <button
           className="feature-card feature-card--flashcard"
           type="button"
