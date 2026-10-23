@@ -184,6 +184,7 @@ describe("canonical JSONL source mapping", () => {
       const rows = [
         {
           track: definition.id,
+          uid: `${definition.id}-source-1`,
           level: definition.fallbackLevel ?? "Level 1",
           word: `${definition.id}-word`,
           pos: "",
