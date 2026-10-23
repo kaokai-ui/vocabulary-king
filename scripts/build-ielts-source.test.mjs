@@ -62,7 +62,7 @@ describe("buildIeltsSourceData", () => {
         track: "ielts",
         level: "IELTS",
         word: "alpha",
-        pos: "",
+        pos: "n.",
         kk: "",
         meaning_zh: "n. α",
         example_en: "Alpha grows well.",
@@ -71,13 +71,17 @@ describe("buildIeltsSourceData", () => {
         example_ja: "",
         meaning_ko: "",
         example_ko: "",
-        example_format: { before: " (", after: ")" }
+        example_format: { before: " (", after: ")" },
+        legacy_display: { pos: "", meaning_zh: "n. α", meaning_ja: "", meaning_ko: "" },
+        senses: [{ pos: "n.", meaning_zh: "α", meaning_ja: "", meaning_ko: "" }],
+        ipa_us: "",
+        ipa_uk: ""
       },
       {
         track: "ielts",
         level: "IELTS",
         word: "beta",
-        pos: "",
+        pos: "v.",
         kk: "",
         meaning_zh: "v. 改善",
         example_en: "The plan improved.",
@@ -86,7 +90,11 @@ describe("buildIeltsSourceData", () => {
         example_ja: "",
         meaning_ko: "",
         example_ko: "",
-        example_format: { before: " (", after: ")" }
+        example_format: { before: " (", after: ")" },
+        legacy_display: { pos: "", meaning_zh: "v. 改善", meaning_ja: "", meaning_ko: "" },
+        senses: [{ pos: "v.", meaning_zh: "改善", meaning_ja: "", meaning_ko: "" }],
+        ipa_us: "",
+        ipa_uk: ""
       }
     ]);
   });
