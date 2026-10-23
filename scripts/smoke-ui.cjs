@@ -33,7 +33,7 @@ async function run() {
 
   await desktop.getByRole("button", { name: /閃卡練習[（(]隨機[）)]|Flashcards \\(Random\\)/i }).click();
   await desktop.locator(".flashcard-word-lines").waitFor({ state: "visible" });
-  await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
+  await desktop.getByText(/^IELTS(?:\s|$)/).first().waitFor({ state: "visible" });
   await capture(desktop, "flashcard-game.png");
   console.log("Started IELTS flashcard practice");
 
@@ -49,7 +49,7 @@ async function run() {
 
   await desktop.getByRole("button", { name: /開始測驗|Start quiz/i }).first().click();
   await desktop.locator(".quiz-stage").waitFor({ state: "visible" });
-  await desktop.getByText("IELTS", { exact: true }).first().waitFor({ state: "visible" });
+  await desktop.getByText(/^IELTS(?:\s|$)/).first().waitFor({ state: "visible" });
   await capture(desktop, "quiz-game.png");
   console.log("Started IELTS quiz");
 
