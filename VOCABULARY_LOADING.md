@@ -20,17 +20,17 @@ Track metadata is stored in `public/data/catalog.json`.
 
 ## Persistent Vocabulary IDs
 
-Every private source row in `VocabularyKing-data/data/*.jsonl` has a globally unique `uid`. The initializer fills missing values with the row's legacy exported ID and writes them back to JSONL:
+Every private source row in `VocabularyKing-data/data/*.jsonl` has a `uid` that is unique within its track. The app identity is the pair `(track, uid)`, so the same UID may appear in different tracks. The initializer fills missing values with the row's current exported ID and writes them back to JSONL:
 
 ```powershell
 rtk npm run ensure:vocab-uids -- --data-dir "D:\Game\VocabularyKing-data"
 ```
 
-The old export ID was not globally unique: 27 IDs were shared by rows in different tracks. For each collision, the first track keeps the old ID and the other row receives a `--<track>` suffix. A track-scoped alias preserves each changed row's old ID for progress migration.
+Cross-track duplicate IDs are valid and stay unchanged. UIDs are never given a track suffix. Duplicate UIDs within one track fail validation.
 
 Vocabulary exports keep the public record shape and set `id` to the source row's `uid`. Editing a word, meaning, or example does not change its `uid`. Review writeback is matched by `uid` and rejects attempts to change that field. Rows that are merged or removed must be recorded with `npm run manage:vocab-uid-aliases`; the writeback command does not delete or merge rows.
 
-The iOS export includes `uid-aliases.json` beside the catalog and chunks. Alias entries include the track because the previous IDs could repeat across tracks. Web runtime progress, starred words, known words, and saved words continue to use the loaded vocabulary record's `id`, which is now the source `uid`. Web progress keeps only exact IDs present in the loaded data; it does not infer or regenerate IDs from word or meaning text. Alias-based progress migration is left for a later app change.
+The iOS export includes `uid-aliases.json` beside the catalog and chunks. Alias and deletion entries are identified by `(track, uid)`; target resolution also stays within that track. **App 端用 辭庫＋uid 當主鍵**. Web runtime progress is stored under the selected track, and starred words, known words, and saved words use the loaded vocabulary record's `id`, which is the source `uid`. Web progress keeps only exact IDs present in the loaded track; it does not infer or regenerate IDs from word or meaning text. Alias-based progress migration is left for a later app change.
 
 Current elementary build source:
 
