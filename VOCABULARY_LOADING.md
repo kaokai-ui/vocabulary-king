@@ -32,6 +32,23 @@ Vocabulary exports keep the public record shape and set `id` to the source row's
 
 The iOS export includes `uid-aliases.json` beside the catalog and chunks. Alias and deletion entries are identified by `(track, uid)`; target resolution also stays within that track. **App 端用 辭庫＋uid 當主鍵**. Web runtime progress is stored under the selected track, and starred words, known words, and saved words use the loaded vocabulary record's `id`, which is the source `uid`. Web progress keeps only exact IDs present in the loaded track; it does not infer or regenerate IDs from word or meaning text. Alias-based progress migration is left for a later app change.
 
+## Senses and IPA
+
+The JSONL source uses `senses` as the canonical meaning structure. Each row has one sense per POS code; each sense contains `pos`, `meaning_zh`, `meaning_ja`, and `meaning_ko`. POS values use the normalized codes `n.`, `v.`, `vt.`, `vi.`, `adj.`, `adv.`, `prep.`, `conj.`, `pron.`, `det.`, `art.`, `num.`, `int.`, `aux.`, `abbr.`, and `phr.`. Example links can set `example_sense` to a zero-based index; omit it when unknown.
+
+The old `pos` and `meaning_*` fields remain generated compatibility fields. `legacy_display` stores the source strings used for the default web export, so migrating senses does not change `public/data`. Set `VOCAB_EXPORT_SENSES_DISPLAY=1` for a deliberate normalized-senses display build. IPA is stored in `ipa_us` and `ipa_uk`; `ipa_uk` is blank in this migration. The empty `kk` field is retained for compatibility.
+
+The web export omits sense arrays and IPA fields by default. `npm run export:ios-locales -- --out <empty-folder>` includes each record's full `senses`, optional `example_sense`, and both IPA fields in the base chunks. Locale overlays remain available under the same track folders.
+
+For a new or updated data copy, run the idempotent migration and IPA fill with explicit paths:
+
+```powershell
+rtk npm run migrate:vocab-senses -- --data-dir "D:\Game\VocabularyKing-data"
+rtk npm run fill:vocab-ipa -- --data-dir "D:\Game\VocabularyKing-data" --cmudict "D:\Game\VocabularyKing-data\sources\cmudict\cmudict.dict"
+```
+
+The migration writes per-track parse rates and unresolved rows to `reports/vocab-senses-migration.json` and `reports/vocab-senses-unresolved.jsonl`. The IPA fill records coverage, unmatched words, and rows with multiple pronunciations under `reports/`.
+
 Current elementary build source:
 
 - `Source/elementary.english_final001.xlsx`
