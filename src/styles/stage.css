@@ -186,6 +186,36 @@
   height: 24px;
 }
 
+.source-credits-panel details > summary {
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.word-list-credits__body {
+  margin-top: 18px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.word-list-credits__body h3 {
+  margin: 20px 0 8px;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.word-list-credits__body ul {
+  padding-left: 24px;
+}
+
+.word-list-credits__body li + li {
+  margin-top: 10px;
+}
+
+.word-list-credits__body a {
+  color: var(--teal);
+}
+
 .result-answer-cell {
   display: flex;
   align-items: center;

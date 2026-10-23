@@ -113,6 +113,7 @@ export const TRACK_DEFINITIONS = [
       englishExample: 6,
       chineseExample: 7
     },
+    includeSourceLevels: true,
     available: true
   },
   {
@@ -129,6 +130,7 @@ export const TRACK_DEFINITIONS = [
       chineseExample: 4
     },
     fallbackLevel: "TOEIC-ADV",
+    includeSourceLevels: true,
     available: true
   },
   {
@@ -144,6 +146,7 @@ export const TRACK_DEFINITIONS = [
       chineseExample: "Chinese Translation"
     },
     fallbackLevel: "TOEFL",
+    includeSourceLevels: true,
     available: true
   },
   {
@@ -151,6 +154,7 @@ export const TRACK_DEFINITIONS = [
     title: "IELTS",
     type: "jsonl-source",
     fallbackLevel: "IELTS",
+    includeSourceLevels: true,
     available: true
   }
 ];

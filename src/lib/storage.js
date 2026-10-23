@@ -12,6 +12,7 @@ export const STORAGE_KEYS = {
 export const defaultSettings = {
   locale: "zh-TW",
   vocabularyTrack: defaultVocabularyTrack,
+  vocabularyLevel: "all",
   pronunciationAccent: "US",
   autoShowMeaning: false,
   autoShowExample: false,
