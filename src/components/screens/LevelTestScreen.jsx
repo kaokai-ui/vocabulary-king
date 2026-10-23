@@ -14,53 +14,11 @@ import {
   readLevelTestHistory,
   saveLevelTestResult
 } from "../../lib/levelTestStorage";
+import { getLevelTestRulerMarkers } from "../../lib/levelTestRuler";
 
 function getTrackLabel(trackId, text) {
   const track = vocabularyTracks.find((item) => item.value === trackId);
   return (track && text[track.labelKey]) || trackId;
-}
-
-function getRulerMarkers(tracks, text, wordCount) {
-  const groupsByMedian = new Map();
-
-  for (const track of tracks) {
-    const group = groupsByMedian.get(track.median) ?? [];
-    group.push({ ...track, name: getTrackLabel(track.id, text) });
-    groupsByMedian.set(track.median, group);
-  }
-
-  const groups = [...groupsByMedian.entries()]
-    .sort(([left], [right]) => left - right)
-    .map(([median, groupedTracks]) => ({ median, tracks: groupedTracks }));
-  const candidateLabelIndexes = new Set();
-  if (groups.length > 0) {
-    candidateLabelIndexes.add(0);
-    candidateLabelIndexes.add(groups.length - 1);
-  }
-  const middleIndex = groups.findIndex((group) => group.median >= 6000);
-  if (middleIndex > 0 && middleIndex < groups.length - 1) {
-    candidateLabelIndexes.add(middleIndex);
-  }
-
-  const labelIndexes = new Set(
-    [...candidateLabelIndexes].filter(
-      (index) => Math.abs(groups[index].median - wordCount) >= 1600
-    )
-  );
-  if (labelIndexes.size === 0 && groups.length > 0) {
-    const farthestIndex = groups.reduce((bestIndex, group, index) =>
-      Math.abs(group.median - wordCount) > Math.abs(groups[bestIndex].median - wordCount)
-        ? index
-        : bestIndex,
-    0);
-    labelIndexes.add(farthestIndex);
-  }
-
-  return groups.map((group, index) => ({
-    ...group,
-    label: labelIndexes.has(index) ? group.tracks[0].name : "",
-    names: group.tracks.map((track) => track.name).join(", ")
-  }));
 }
 
 function HistoryList({ history, text, locale, onClear }) {
@@ -109,7 +67,7 @@ function HistoryList({ history, text, locale, onClear }) {
 }
 
 function LevelRuler({ tracks, wordCount, text }) {
-  const markers = getRulerMarkers(tracks, text, wordCount);
+  const markers = getLevelTestRulerMarkers(tracks, (trackId) => getTrackLabel(trackId, text));
   const position = Math.max(0, Math.min(100, (wordCount / 20000) * 100));
 
   return (
@@ -135,11 +93,25 @@ function LevelRuler({ tracks, wordCount, text }) {
             className="level-test-ruler-marker"
             key={marker.median}
             style={{ left: ((marker.median / 20000) * 100) + "%" }}
+            data-track-ids={marker.trackIds.join(" ")}
             title={marker.names + ": " + Math.round(marker.median)}
             aria-label={marker.names + ": " + Math.round(marker.median)}
           >
             <span className="level-test-ruler-tick" />
-            {marker.label ? <span className="level-test-ruler-label">{marker.label}</span> : null}
+            {marker.mobileLabel ? (
+              <span
+                className="level-test-ruler-label level-test-ruler-label--mobile"
+                style={{ "--ruler-label-row": marker.mobileLabelRow }}
+              >
+                {marker.label}
+              </span>
+            ) : null}
+            <span
+              className="level-test-ruler-label level-test-ruler-label--desktop"
+              style={{ "--ruler-label-row": marker.desktopLabelRow }}
+            >
+              {marker.label}
+            </span>
           </div>
         ))}
         <span className="level-test-ruler-end level-test-ruler-end--start">0</span>

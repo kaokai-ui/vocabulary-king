@@ -170,7 +170,7 @@ export const koMessages = {
   levelTestChooseMeaning: "이 단어의 중국어 뜻을 고르세요",
   levelTestDontKnow: "모르겠어요",
   levelTestResultEyebrow: "테스트 결과",
-  levelTestResultTitle: "예상 어휘량",
+  levelTestResultTitle: "테스트 완료",
   levelTestResultSubtitle: "30문제 답변으로 계산했어요",
   levelTestWords: "단어",
   levelTestNear: "가까운 수준",

@@ -26,6 +26,22 @@ async function finishTest(page) {
   if (!/\d/u.test(wordCount)) {
     throw new Error("The level test result did not show an estimated vocabulary size.");
   }
+  const resultTitle = (await page.locator(".level-test-header h1").textContent())?.trim() ?? "";
+  if (resultTitle !== "測驗完成") {
+    throw new Error("The result heading still reads like an unfinished sentence: " + resultTitle);
+  }
+  if ((page.viewportSize()?.width ?? 0) <= 640) {
+    for (const trackId of ["junior-high", "toeic", "ielts", "gre"]) {
+      await page.locator(
+        `.level-test-ruler-marker[data-track-ids~="${trackId}"] .level-test-ruler-label--mobile`
+      ).waitFor({ state: "visible" });
+    }
+  } else {
+    const desktopLabelCount = await page.locator(".level-test-ruler-label--desktop:visible").count();
+    if (desktopLabelCount < 6) {
+      throw new Error("The desktop ruler should show several vocabulary-track labels.");
+    }
+  }
   await page.locator(".level-test-history-list li").first().waitFor({ state: "visible" });
   return wordCount;
 }

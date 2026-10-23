@@ -170,7 +170,7 @@ export const jaMessages = {
   levelTestChooseMeaning: "この単語の中国語の意味を選んでください",
   levelTestDontKnow: "わからない",
   levelTestResultEyebrow: "テスト結果",
-  levelTestResultTitle: "推定語彙数",
+  levelTestResultTitle: "テスト完了",
   levelTestResultSubtitle: "30問の回答から推定しました",
   levelTestWords: "語",
   levelTestNear: "近いレベル",

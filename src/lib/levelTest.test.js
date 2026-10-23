@@ -122,19 +122,61 @@ describe("level test estimate and result matching", () => {
     expect(estimateLevelTestWordCount(allUnknown)).toBe(0);
   });
 
-  it("subtracts one third of a wrong answer while unknown answers only count in the denominator", () => {
+  it("subtracts one third of a wrong answer, counts unknown answers, and shrinks sparse rates", () => {
     const rates = getCorrectedLevelTestBandRates([
       { band: 1, isCorrect: true, isUnknown: false },
       { band: 1, isCorrect: false, isUnknown: false },
       { band: 1, isCorrect: false, isUnknown: true }
     ]);
-    expect(rates[0]).toBeCloseTo(2 / 9);
+    // Raw correction is 2/9; the four-question neutral prior moves this sparse band toward 1/2.
+    expect(rates[0]).toBeCloseTo(8 / 21);
   });
 
-  it("interpolates untested bands and forces rates to be non-increasing", () => {
+  it("weights PAV pooling by question count", () => {
+    expect(makeRatesNonIncreasing([0, 1], [3, 1])).toEqual([0.25, 0.25]);
+  });
+
+  it("gives an interpolated band a low PAV weight", () => {
+    const rates = makeRatesNonIncreasing([0, 1], [4, 0.25]);
+    expect(rates).toEqual([1 / 17, 1 / 17]);
+  });
+
+  it("interpolates untested bands at a low PAV weight and forces rates to be non-increasing", () => {
     const rates = makeRatesNonIncreasing([0, 0.25, 0.75, 1]);
     expect(rates).toEqual([0.5, 0.5, 0.5, 0.5]);
     expect(rates.every((rate, index) => index === 0 || rates[index - 1] >= rate)).toBe(true);
+  });
+
+  it("shrinks a one-question success toward neighboring zero bands", () => {
+    const rates = getCorrectedLevelTestBandRates([
+      { band: 1, isCorrect: true, isUnknown: false },
+      { band: 2, isCorrect: false, isUnknown: true },
+      { band: 3, isCorrect: false, isUnknown: true }
+    ]);
+
+    expect(rates[0]).toBeCloseTo(1 / 5);
+    expect(rates[0]).toBeLessThan(0.5);
+  });
+
+  it("does not leave a one-question zero or one when neighboring bands disagree", () => {
+    const rates = getCorrectedLevelTestBandRates([
+      { band: 1, isCorrect: true, isUnknown: false },
+      { band: 2, isCorrect: false, isUnknown: true },
+      { band: 3, isCorrect: true, isUnknown: false }
+    ]);
+
+    expect(rates[1]).toBeGreaterThan(0);
+    expect(rates[1]).toBeLessThan(1);
+  });
+
+  it("sets every band above two consecutive zero bands to zero", () => {
+    const rates = getCorrectedLevelTestBandRates([
+      { band: 1, isCorrect: true, isUnknown: false },
+      { band: 2, isCorrect: false, isUnknown: true },
+      { band: 3, isCorrect: false, isUnknown: true }
+    ]);
+
+    expect(rates.slice(3)).toEqual(Array(17).fill(0));
   });
 
   it("reports tied nearest tracks and the next challenge tier", () => {

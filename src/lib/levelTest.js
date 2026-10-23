@@ -6,6 +6,8 @@ export const LEVEL_TEST_ANCHOR_BANDS = [1, 2, 3, 4, 6, 8, 10, 12, 15, 20];
 
 const MAX_RANK = LEVEL_TEST_BAND_SIZE * LEVEL_TEST_BAND_COUNT;
 const NEARBY_TRACK_MEDIAN_TOLERANCE = 500;
+const RATE_PRIOR_STRENGTH = 4;
+const UNASKED_BAND_WEIGHT = 0.25;
 
 function normalizeSeed(seed) {
   if (Number.isFinite(seed)) {
@@ -311,12 +313,15 @@ function interpolateMissingRates(rates) {
   });
 }
 
-export function makeRatesNonIncreasing(rates) {
+export function makeRatesNonIncreasing(rates, weights = null) {
   const blocks = [];
 
   for (let index = 0; index < rates.length; index += 1) {
     const value = Math.max(0, Math.min(1, Number(rates[index]) || 0));
-    blocks.push({ start: index, end: index, sum: value, weight: 1, mean: value });
+    const weight = weights && Number.isFinite(weights[index])
+      ? Math.max(Number.EPSILON, weights[index])
+      : 1;
+    blocks.push({ start: index, end: index, sum: value * weight, weight, mean: value });
 
     while (blocks.length > 1 && blocks[blocks.length - 2].mean < blocks[blocks.length - 1].mean) {
       const right = blocks.pop();
@@ -339,6 +344,52 @@ export function makeRatesNonIncreasing(rates) {
     }
   }
   return normalized;
+}
+
+function getNeighborRatePrior(rates, index) {
+  const previousIndex = rates.findLastIndex((rate, rateIndex) =>
+    rate !== null && rateIndex < index
+  );
+  const nextIndex = rates.findIndex((rate, rateIndex) => rate !== null && rateIndex > index);
+
+  if (previousIndex !== -1 && nextIndex !== -1) {
+    const conservativeRate = Math.min(rates[previousIndex], rates[nextIndex]);
+    const progress = (index - previousIndex) / (nextIndex - previousIndex);
+    const interpolatedRate = rates[previousIndex] + (rates[nextIndex] - rates[previousIndex]) * progress;
+    return conservativeRate + (interpolatedRate - conservativeRate) * 0.5;
+  }
+  const neighboringRates = rates
+    .flatMap((rate, rateIndex) => rate !== null && rateIndex !== index
+      ? [{ rate, distance: Math.abs(rateIndex - index) }]
+      : [])
+    .sort((left, right) => left.distance - right.distance)
+    .slice(0, 2)
+    .map(({ rate }) => rate);
+  if (neighboringRates.length > 0) {
+    return Math.min(...neighboringRates);
+  }
+  return 0.5;
+}
+
+function findUpperZeroCutoff(stats, rates) {
+  const highestCorrectBand = stats.reduce(
+    (highest, band, index) => band.correct > 0 ? index + 1 : highest,
+    0
+  );
+  let consecutiveZeros = 0;
+
+  for (let index = highestCorrectBand; index < stats.length; index += 1) {
+    if (stats[index].count > 0 && rates[index] === 0) {
+      consecutiveZeros += 1;
+      if (consecutiveZeros === 2) {
+        return index + 1;
+      }
+    } else {
+      consecutiveZeros = 0;
+    }
+  }
+
+  return null;
 }
 
 export function getCorrectedLevelTestBandRates(answers) {
@@ -365,7 +416,27 @@ export function getCorrectedLevelTestBandRates(answers) {
   const observedRates = stats.map(({ count, correct, wrong }) =>
     count > 0 ? Math.max(0, (correct - wrong / 3) / count) : null
   );
-  return makeRatesNonIncreasing(interpolateMissingRates(observedRates));
+  const zeroCutoffStart = findUpperZeroCutoff(stats, interpolateMissingRates(observedRates));
+  const smoothedObservedRates = observedRates.map((rate, index) => {
+    if (rate === null) {
+      return null;
+    }
+    if (zeroCutoffStart !== null && index >= zeroCutoffStart) {
+      return 0;
+    }
+    const count = stats[index].count;
+    const prior = getNeighborRatePrior(observedRates, index);
+    return (rate * count + prior * RATE_PRIOR_STRENGTH) / (count + RATE_PRIOR_STRENGTH);
+  });
+  const interpolatedRates = interpolateMissingRates(smoothedObservedRates);
+  if (zeroCutoffStart !== null) {
+    for (let index = zeroCutoffStart; index < interpolatedRates.length; index += 1) {
+      interpolatedRates[index] = 0;
+    }
+  }
+
+  const weights = stats.map(({ count }) => count || UNASKED_BAND_WEIGHT);
+  return makeRatesNonIncreasing(interpolatedRates, weights);
 }
 
 export function estimateLevelTestWordCount(answers) {

@@ -172,7 +172,7 @@ export const enMessages = {
   levelTestChooseMeaning: "Choose the Chinese meaning of this word",
   levelTestDontKnow: "I don't know",
   levelTestResultEyebrow: "Your result",
-  levelTestResultTitle: "Your vocabulary size is about",
+  levelTestResultTitle: "Test complete",
   levelTestResultSubtitle: "Estimated from your answers to 30 questions",
   levelTestWords: "words",
   levelTestNear: "Closest to",

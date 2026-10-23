@@ -170,7 +170,7 @@ export const zhTWMessages = {
   levelTestChooseMeaning: "請選出這個單字的中文意思",
   levelTestDontKnow: "不知道",
   levelTestResultEyebrow: "測驗結果",
-  levelTestResultTitle: "你的單字量約",
+  levelTestResultTitle: "測驗完成",
   levelTestResultSubtitle: "依照 30 題作答結果估算",
   levelTestWords: "字",
   levelTestNear: "接近",
