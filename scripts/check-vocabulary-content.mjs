@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import OpenCC from "opencc-js";
 import xlsx from "xlsx";
 import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
+import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 import {
   findSourceWorkbookPath,
   TRACK_DEFINITIONS
@@ -696,6 +697,7 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
   }
 
   const records = [];
+  const sourceRowsByTrack = new Map();
   for (const definition of TRACK_DEFINITIONS) {
     if (!definition.available) continue;
     const filePath = path.join(dataRepoRoot, "data", `${definition.id}.jsonl`);
@@ -703,6 +705,7 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
       throw new Error(`Missing vocabulary source JSONL: ${filePath}`);
     }
 
+    const trackRows = [];
     const lines = fs.readFileSync(filePath, "utf8").split(/\r?\n/u);
     for (const [index, line] of lines.entries()) {
       if (!line.trim()) continue;
@@ -718,6 +721,7 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
           `Vocabulary source row ${filePath}:${sourceLine} belongs to '${sourceRow?.track}', expected '${definition.id}'.`
         );
       }
+      trackRows.push(sourceRow);
 
       const word = asText(sourceRow.word);
       const pos = asText(sourceRow.pos);
@@ -736,6 +740,7 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
       const sourceWorkbook = `data/${definition.id}.jsonl`;
       const source = {
         track: definition.id,
+        uid: asText(sourceRow.uid),
         id: `${definition.id}:JSONL:${sourceLine}`,
         word,
         meaning,
@@ -758,8 +763,13 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
       };
       records.push(source);
     }
+    sourceRowsByTrack.set(definition.id, trackRows);
   }
 
+  validateVocabularyUidState({
+    sourceRowsByTrack,
+    aliasData: readUidAliasData(dataRepoRoot)
+  });
   return records;
 }
 
