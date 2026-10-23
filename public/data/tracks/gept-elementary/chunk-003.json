@@ -2,1526 +2,1526 @@
   {
     "level": "L3",
     "word": "recover",
-    "meaning": "verb 恢復",
+    "meaning": "v. 康復；恢復；找回",
     "example": "She needs time to recover from the flu.（她需要時間從流感中恢復。）",
     "id": "L3-recover-verb"
   },
   {
     "level": "L3",
     "word": "regret",
-    "meaning": "verb/noun 遺憾、後悔",
+    "meaning": "v. 後悔；遺憾\nn. 後悔；遺憾",
     "example": "I regret saying those hurtful words.（我後悔說了那些傷人的話。）",
     "id": "L3-regret-verb-noun"
   },
   {
     "level": "L3",
     "word": "remind",
-    "meaning": "verb 提醒",
+    "meaning": "v. 提醒；使想起",
     "example": "Please remind me to bring my notebook.（請提醒我帶筆記本。）",
     "id": "L3-remind-verb"
   },
   {
     "level": "L3",
     "word": "rent",
-    "meaning": "noun/verb 租金；租",
+    "meaning": "n. 租金；租賃\nv. 租用；出租",
     "example": "We rent a small apartment near school.（我們在學校附近租了一間小公寓。）",
     "id": "L3-rent-noun-verb"
   },
   {
     "level": "L3",
     "word": "repair",
-    "meaning": "noun/verb 修理",
+    "meaning": "n. 修理；修補\nv. 修理；修補",
     "example": "Can you repair my bicycle?（你能修理我的腳踏車嗎？）",
     "id": "L3-repair-noun-verb"
   },
   {
     "level": "L3",
     "word": "rob",
-    "meaning": "verb 搶劫",
+    "meaning": "v. 搶劫；掠奪",
     "example": "The thief tried to rob the bank.（小偷試圖搶銀行。）",
     "id": "L3-rob-verb"
   },
   {
     "level": "L3",
     "word": "saucer",
-    "meaning": "noun 茶碟",
+    "meaning": "n. 茶碟；碟子",
     "example": "The cup sat on a small saucer.（杯子放在小茶托上。）",
     "id": "L3-saucer-noun"
   },
   {
     "level": "L3",
     "word": "scale",
-    "meaning": "noun 規模、刻度、等級",
+    "meaning": "n. 衡器；規模；刻度\nv. 攀登；按比例縮放",
     "example": "Please weigh it on the scale. (請用磅秤秤一下。)",
     "id": "L3-scale-noun"
   },
   {
     "level": "L3",
     "word": "scarf",
-    "meaning": "noun 圍巾",
+    "meaning": "n. 圍巾；頭巾\nv. 狼吞虎嚥；大口吃",
     "example": "She wore a scarf around her neck.（她脖子上圍了一條圍巾。）",
     "id": "L3-scarf-noun"
   },
   {
     "level": "L3",
     "word": "seek",
-    "meaning": "verb 尋找",
+    "meaning": "v. 尋找；尋求；試圖",
     "example": "We seek a place to sit. (我們在找一個地方坐。)",
     "id": "L3-seek-verb"
   },
   {
     "level": "L3",
     "word": "seldom",
-    "meaning": "adv. 不常、很少",
+    "meaning": "adv. 很少；難得",
     "example": "He seldom eats fast food.（他很少吃速食。）",
     "id": "L3-seldom-adv"
   },
   {
     "level": "L3",
     "word": "sincere",
-    "meaning": "adj. 真誠的",
+    "meaning": "adj. 真誠的；誠摯的；由衷的",
     "example": "She gave me a sincere apology.（她真誠地向我道歉。）",
     "id": "L3-sincere-adj"
   },
   {
     "level": "L3",
     "word": "skate",
-    "meaning": "noun/verb 冰鞋；溜冰",
+    "meaning": "n. 溜冰鞋；冰刀\nv. 溜冰；滑冰",
     "example": "We skate on the frozen lake in winter.（我們冬天在結冰的湖上溜冰。）",
     "id": "L3-skate-noun-verb"
   },
   {
     "level": "L3",
     "word": "ski",
-    "meaning": "noun/verb 滑雪板；滑雪",
+    "meaning": "n. 滑雪板；滑雪\nv. 滑雪",
     "example": "They ski in the mountains every winter.（他們每年冬天都在山上滑雪。）",
     "id": "L3-ski-noun-verb"
   },
   {
     "level": "L3",
     "word": "sore",
-    "meaning": "adj./noun 痛的；痛處、瘡",
+    "meaning": "adj. 疼痛的；發炎的\nn. 痛處；瘡口",
     "example": "My legs are sore after running.（跑步後我的腿很痠。）",
     "id": "L3-sore-adj-noun"
   },
   {
     "level": "L3",
     "word": "spaghetti",
-    "meaning": "noun 義大利麵",
+    "meaning": "n. 義大利麵；細麵",
     "example": "We had spaghetti for dinner.（我們晚餐吃義大利麵。）",
     "id": "L3-spaghetti-noun"
   },
   {
     "level": "L3",
     "word": "stormy",
-    "meaning": "adj. 暴風雨的",
+    "meaning": "adj. 暴風雨的；風雨交加的；激烈的",
     "example": "The sea was rough on the stormy night.（暴風雨的夜晚海面很洶湧。）",
     "id": "L3-stormy-adj"
   },
   {
     "level": "L3",
     "word": "style",
-    "meaning": "noun 風格",
+    "meaning": "n. 風格；款式；文體\nv. 稱作；命名；設計",
     "example": "Her simple style makes the handmade cards easy to read. (她簡潔的風格讓手作卡片更容易閱讀。)",
     "id": "L3-style-noun"
   },
   {
     "level": "L3",
     "word": "suggest",
-    "meaning": "verb 建議",
+    "meaning": "v. 建議；暗示；表明",
     "example": "Teachers suggest effective study methods. (老師建議有效的學習方法。)",
     "id": "L3-suggest-verb"
   },
   {
     "level": "L3",
     "word": "system",
-    "meaning": "noun 系統",
+    "meaning": "n. 系統；制度；體系",
     "example": "My computer has a new system. (我的電腦有一套新系統。)",
     "id": "L3-system-noun"
   },
   {
     "level": "L3",
     "word": "temperature",
-    "meaning": "noun 氣溫",
+    "meaning": "n. 溫度；體溫",
     "example": "The temperature dropped during the night.（夜裡氣溫下降了。）",
     "id": "L3-temperature-noun"
   },
   {
     "level": "L3",
     "word": "tidy",
-    "meaning": "adj./verb 整齊的；整理",
+    "meaning": "adj. 整潔的；井然有序的\nv. 整理；收拾",
     "example": "Please keep your desk tidy.（請保持你的書桌整潔。）",
     "id": "L3-tidy-adj-verb"
   },
   {
     "level": "L3",
     "word": "trace",
-    "meaning": "verb/noun 追蹤；痕跡",
+    "meaning": "n. 痕跡；蹤跡；微量\nv. 追蹤；描摹；查出",
     "example": "The detective found a trace of mud on the floor.（偵探在地板上發現一點泥土痕跡。）",
     "id": "L3-trace-verb-noun"
   },
   {
     "level": "L3",
     "word": "trash",
-    "meaning": "noun/verb 垃圾；丟棄、損壞",
+    "meaning": "n. 垃圾；廢物\nv. 丟棄；破壞；抨擊",
     "example": "Please put the trash in the bin.（請把垃圾丟進垃圾桶。）",
     "id": "L3-trash-noun-verb"
   },
   {
     "level": "L3",
     "word": "tub",
-    "meaning": "noun 盆、桶、浴缸",
+    "meaning": "n. 浴缸；水盆；水桶",
     "example": "The baby took a bath in a small tub.（寶寶在小浴盆裡洗澡。）",
     "id": "L3-tub-noun"
   },
   {
     "level": "L3",
     "word": "universe",
-    "meaning": "noun 宇宙",
+    "meaning": "n. 宇宙；天地；領域",
     "example": "The universe is full of stars.（宇宙充滿星星。）",
     "id": "L3-universe-noun"
   },
   {
     "level": "L3",
     "word": "vest",
-    "meaning": "noun 背心",
+    "meaning": "n. 背心；馬甲",
     "example": "He wore a vest over his shirt.（他在襯衫外穿了一件背心。）",
     "id": "L3-vest-noun"
   },
   {
     "level": "L3",
     "word": "volume",
-    "meaning": "noun 音量；冊",
+    "meaning": "n. 冊卷；音量；體積；卷冊",
     "example": "Please lower the volume on the TV.（請把電視音量調低。）",
     "id": "L3-volume-noun"
   },
   {
     "level": "L3",
     "word": "wrist",
-    "meaning": "noun 手腕",
+    "meaning": "n. 手腕；腕部",
     "example": "I hurt my wrist while playing tennis.（我打網球時弄傷了手腕。）",
     "id": "L3-wrist-noun"
   },
   {
     "level": "L4",
     "word": "A.M.",
-    "meaning": "adv. 上午",
+    "meaning": "adv. 上午；午前",
     "example": "The train leaves at 8 a.m.（火車早上八點開。）",
     "id": "L4-a-m-adv"
   },
   {
     "level": "L4",
     "word": "apologize",
-    "meaning": "verb 道歉",
+    "meaning": "v. 道歉；致歉",
     "example": "I apologized to the librarian for returning the book late. (我因為晚還書向圖書館員道歉。)",
     "id": "L4-apologize-verb"
   },
   {
     "level": "L4",
     "word": "assume",
-    "meaning": "verb 假定為、假設",
+    "meaning": "v. 假設；承擔；認為",
     "example": "Don't assume the café is open just because its lights are on. (不要只因為咖啡店亮著燈，就認定它有營業。)",
     "id": "L4-assume-verb"
   },
   {
     "level": "L4",
     "word": "biology",
-    "meaning": "noun 生物學",
+    "meaning": "n. 生物學；生態學",
     "example": "We used a microscope in biology class to observe a leaf. (生物課上我們用顯微鏡觀察一片葉子。)",
     "id": "L4-biology-noun"
   },
   {
     "level": "L4",
     "word": "cabinet",
-    "meaning": "noun 櫥櫃",
+    "meaning": "n. 櫥櫃；內閣；機箱",
     "example": "The dishes are in the kitchen cabinet.（盤子在廚房櫥櫃裡。）",
     "id": "L4-cabinet-noun"
   },
   {
     "level": "L4",
     "word": "career",
-    "meaning": "noun 職業、生涯",
+    "meaning": "n. 職業；生涯；事業",
     "example": "Volunteering at the animal shelter helped her choose a career. (在動物收容中心當志工，幫助她選擇未來職業。)",
     "id": "L4-career-noun"
   },
   {
     "level": "L4",
     "word": "CD",
-    "meaning": "noun 光碟",
+    "meaning": "n. 光碟；唱片；存款憑證",
     "example": "I bought a CD of classical music.（我買了一張古典音樂 CD。）",
     "id": "L4-cd-noun"
   },
   {
     "level": "L4",
     "word": "comic",
-    "meaning": "adj. 滑稽的、好笑的\nnoun 漫畫",
+    "meaning": "adj. 滑稽的；喜劇的\nn. 漫畫；喜劇演員",
     "example": "This comic book is funny. (這本漫畫很好笑。)",
     "id": "L4-comic-adj-noun"
   },
   {
     "level": "L4",
     "word": "comment",
-    "meaning": "noun/verb 評論",
+    "meaning": "n. 評論；意見；註解\nv. 評論；發表意見",
     "example": "The teacher wrote a comment on my essay.（老師在我的作文上寫了評語。）",
     "id": "L4-comment-noun-verb"
   },
   {
     "level": "L4",
     "word": "curve",
-    "meaning": "noun/verb 曲線；使彎曲",
+    "meaning": "n. 曲線；彎道；曲線狀物\nv. 彎曲；使彎曲",
     "example": "The road makes a sharp curve ahead.（前方道路有一個急彎。）",
     "id": "L4-curve-noun-verb"
   },
   {
     "level": "L4",
     "word": "decrease",
-    "meaning": "verb/noun 減少",
+    "meaning": "v. 減少；降低；縮小\nn. 減少；降低；減量",
     "example": "The number of students began to decrease.（學生人數開始減少。）",
     "id": "L4-decrease-verb-noun"
   },
   {
     "level": "L4",
     "word": "diplomat",
-    "meaning": "noun 外交官",
+    "meaning": "n. 外交官；外交家",
     "example": "The diplomat met with foreign leaders.（外交官會見了外國領袖。）",
     "id": "L4-diplomat-noun"
   },
   {
     "level": "L4",
     "word": "download",
-    "meaning": "verb 下載",
+    "meaning": "v. 下載；下載資料\nn. 下載；下載檔案",
     "example": "I need to download the file.（我需要下載這個檔案。）",
     "id": "L4-download-verb"
   },
   {
     "level": "L4",
     "word": "email",
-    "meaning": "noun/verb 電子郵件；寄電子郵件",
+    "meaning": "n. 電子郵件；郵件\nv. 寄電子郵件；傳郵件",
     "example": "Please send me an email tonight.（請今晚寄電子郵件給我。）",
     "id": "L4-email-noun-verb"
   },
   {
     "level": "L4",
     "word": "embarrass",
-    "meaning": "verb 使尷尬",
+    "meaning": "v. 使尷尬；使困窘",
     "example": "Don't embarrass me. (不要讓我難堪。)",
     "id": "L4-embarrass-verb"
   },
   {
     "level": "L4",
     "word": "eve",
-    "meaning": "noun 前夕",
+    "meaning": "n. 前夕；前夜",
     "example": "We had dinner together on Christmas Eve.（我們在聖誕夜一起吃晚餐。）",
     "id": "L4-eve-noun"
   },
   {
     "level": "L4",
     "word": "fantastic",
-    "meaning": "adj. 極好的",
+    "meaning": "adj. 極好的；了不起的；奇異的",
     "example": "We had a fantastic time at the beach.（我們在海邊玩得非常開心。）",
     "id": "L4-fantastic-adj"
   },
   {
     "level": "L4",
     "word": "generation",
-    "meaning": "noun 世代",
+    "meaning": "n. 世代；一代；產生",
     "example": "Each generation faces different challenges.（每一代都面對不同的挑戰。）",
     "id": "L4-generation-noun"
   },
   {
     "level": "L4",
     "word": "genius",
-    "meaning": "noun 天才",
+    "meaning": "n. 天才；天賦；天才人物",
     "example": "Einstein was a genius.（愛因斯坦是天才。）",
     "id": "L4-genius-noun"
   },
   {
     "level": "L4",
     "word": "helicopter",
-    "meaning": "noun 直升機",
+    "meaning": "n. 直升機；直升飛機",
     "example": "The helicopter landed on the hospital roof.（直升機降落在醫院屋頂。）",
     "id": "L4-helicopter-noun"
   },
   {
     "level": "L4",
     "word": "including",
-    "meaning": "prep. 包含",
+    "meaning": "prep. 包括；包含；連同",
     "example": "Everyone went on the trip, including my brother.（大家都去旅行了，包括我哥哥。）",
     "id": "L4-including-prep"
   },
   {
     "level": "L4",
     "word": "information",
-    "meaning": "noun 資訊",
+    "meaning": "n. 資訊；消息；情報",
     "example": "This website gives useful information.（這個網站提供有用資訊。）",
     "id": "L4-information-noun"
   },
   {
     "level": "L4",
     "word": "inspire",
-    "meaning": "verb 給…靈感",
+    "meaning": "v. 啟發；鼓舞；激勵",
     "example": "Good teachers inspire students to learn.（好老師會激勵學生學習。）",
     "id": "L4-inspire-verb"
   },
   {
     "level": "L4",
     "word": "intelligent",
-    "meaning": "adj. 有才智的",
+    "meaning": "adj. 聰明的；有才智的；智能的",
     "example": "That dog is very intelligent.（那隻狗很聰明。）",
     "id": "L4-intelligent-adj"
   },
   {
     "level": "L4",
     "word": "Internet",
-    "meaning": "noun 網際網路",
+    "meaning": "n. 網際網路；互聯網",
     "example": "The Internet helps us find information quickly.（網路幫助我們快速找到資訊。）",
     "id": "L4-internet-noun"
   },
   {
     "level": "L4",
     "word": "maximum",
-    "meaning": "adj./noun/adv. 最大值（的/地）",
+    "meaning": "n. 最大值；最高限度\nadj. 最大的；最高的",
     "example": "The maximum speed is 100 kilometers per hour.（最高時速是一百公里。）",
     "id": "L4-maximum-adj-noun-adv"
   },
   {
     "level": "L4",
     "word": "mechanic",
-    "meaning": "noun 機械工、修理工",
+    "meaning": "n. 技工；機械修理工",
     "example": "The mechanic fixed our car. (修車師傅修好了我們的車。)",
     "id": "L4-mechanic-noun"
   },
   {
     "level": "L4",
     "word": "monthly",
-    "meaning": "adj./adv. 每月的(地)\nnoun 月刊",
+    "meaning": "adj. 每月的；月刊的\nadv. 每月；按月",
     "example": "We have a monthly meeting.（我們每個月開一次會。）",
     "id": "L4-monthly-adj-adv-noun"
   },
   {
     "level": "L4",
     "word": "operation",
-    "meaning": "noun 手術、運作、操作",
+    "meaning": "n. 手術；運作；操作；行動",
     "example": "The operation lasted three hours.（手術持續了三小時。）",
     "id": "L4-operation-noun"
   },
   {
     "level": "L4",
     "word": "P.M.",
-    "meaning": "adv. 下午",
+    "meaning": "adv. 下午；午後",
     "example": "The meeting starts at 3 p.m.（會議下午三點開始。）",
     "id": "L4-p-m-adv"
   },
   {
     "level": "L4",
     "word": "physics",
-    "meaning": "noun 物理、物理學",
+    "meaning": "n. 物理學；物理",
     "example": "Physics helps explain how the world works.（物理學幫助解釋世界如何運作。）",
     "id": "L4-physics-noun"
   },
   {
     "level": "L4",
     "word": "pollution",
-    "meaning": "noun 汙染",
+    "meaning": "n. 污染；汙染物",
     "example": "Air pollution is a serious problem.（空氣污染是嚴重問題。）",
     "id": "L4-pollution-noun"
   },
   {
     "level": "L4",
     "word": "production",
-    "meaning": "noun 生產",
+    "meaning": "n. 生產；製作；產量",
     "example": "The production of the movie took two years.（這部電影的製作花了兩年。）",
     "id": "L4-production-noun"
   },
   {
     "level": "L4",
     "word": "professor",
-    "meaning": "noun 教授",
+    "meaning": "n. 教授；大學教師",
     "example": "The professor invited the class to ask questions after the lecture. (教授邀請同學在講座後提出問題。)",
     "id": "L4-professor-noun"
   },
   {
     "level": "L4",
     "word": "recycle",
-    "meaning": "verb 回收",
+    "meaning": "v. 回收；再利用",
     "example": "We recycle paper and bottles at school.（我們在學校回收紙和瓶子。）",
     "id": "L4-recycle-verb"
   },
   {
     "level": "L4",
     "word": "relative",
-    "meaning": "adj. 相關的\nnoun 親戚",
+    "meaning": "n. 親戚；親屬；親人\nadj. 相對的；比較的",
     "example": "My cousin is a close relative.（我的表親是近親。）",
     "id": "L4-relative-adj-noun"
   },
   {
     "level": "L4",
     "word": "revise",
-    "meaning": "verb 修訂",
+    "meaning": "v. 修改；修訂；複習",
     "example": "Please revise your essay.（請修改你的作文。）",
     "id": "L4-revise-verb"
   },
   {
     "level": "L4",
     "word": "ruin",
-    "meaning": "noun/verb 廢墟；毀壞",
+    "meaning": "n. 廢墟；毀滅；破產\nv. 毀壞；破壞；使破產",
     "example": "The storm ruined our picnic.（暴風雨毀了我們的野餐。）",
     "id": "L4-ruin-noun-verb"
   },
   {
     "level": "L4",
     "word": "salesperson",
-    "meaning": "noun 銷售員",
+    "meaning": "n. 銷售員；業務員",
     "example": "The salesperson helped me choose a jacket.（銷售員幫我挑外套。）",
     "id": "L4-salesperson-noun"
   },
   {
     "level": "L4",
     "word": "stingy",
-    "meaning": "adj. 吝嗇的",
+    "meaning": "adj. 小氣的；吝嗇的",
     "example": "Do not be stingy with your praise.（不要吝於稱讚別人。）",
     "id": "L4-stingy-adj"
   },
   {
     "level": "L4",
     "word": "surf",
-    "meaning": "noun/verb 浪花；衝浪",
+    "meaning": "v. 衝浪；瀏覽網頁\nn. 衝浪；浪峰",
     "example": "They learned to surf in Hawaii.（他們在夏威夷學衝浪。）",
     "id": "L4-surf-noun-verb"
   },
   {
     "level": "L4",
     "word": "underpass",
-    "meaning": "noun 地下道",
+    "meaning": "n. 地下道；地下通道",
     "example": "We used the underpass to cross the road.（我們走地下道過馬路。）",
     "id": "L4-underpass-noun"
   },
   {
     "level": "L4",
     "word": "unique",
-    "meaning": "adj. 獨特的",
+    "meaning": "adj. 獨特的；唯一的；獨一無二的",
     "example": "Every child is unique.（每個孩子都是獨特的。）",
     "id": "L4-unique-adj"
   },
   {
     "level": "L4",
     "word": "university",
-    "meaning": "noun 大學",
+    "meaning": "n. 大學；綜合大學",
     "example": "My sister goes to a university in Taipei. (我姊姊在台北讀大學。)",
     "id": "L4-university-noun"
   },
   {
     "level": "L4",
     "word": "upload",
-    "meaning": "verb 上傳、上載",
+    "meaning": "v. 上傳；載入\nn. 上傳；上傳檔案",
     "example": "Please upload the file before noon.（請在中午前上傳檔案。）",
     "id": "L4-upload-verb"
   },
   {
     "level": "L4",
     "word": "vinegar",
-    "meaning": "noun 醋",
+    "meaning": "n. 食醋",
     "example": "Add a little vinegar to the sauce.（在醬汁裡加一點醋。）",
     "id": "L4-vinegar-noun"
   },
   {
     "level": "L4",
     "word": "weekly",
-    "meaning": "adj./adv./noun 每週的；每週地；週刊",
+    "meaning": "adj. 每週的；週刊的\nadv. 每週；一週一次",
     "example": "We have a weekly quiz.（我們每週有小考。）",
     "id": "L4-weekly-adj-adv-noun"
   },
   {
     "level": "L4",
     "word": "yearly",
-    "meaning": "adj./adv. 每年的；每年",
+    "meaning": "adj. 每年的；年度的\nadv. 每年；一年一次",
     "example": "We have a yearly school trip.（我們每年有一次校外教學。）",
     "id": "L4-yearly-adj-adv"
   },
   {
     "level": "L5",
     "word": "cellphone",
-    "meaning": "noun 手機",
+    "meaning": "n. 手機；行動電話",
     "example": "My cellphone battery is almost dead.（我的手機電池快沒電了。）",
     "id": "L5-cellphone-noun"
   },
   {
     "level": "L5",
     "word": "chairperson",
-    "meaning": "noun 主席、董事長",
+    "meaning": "n. 主席；會議主席",
     "example": "The chairperson opened the meeting. (主席宣布會議開始。)",
     "id": "L5-chairperson-noun"
   },
   {
     "level": "L5",
     "word": "chubby",
-    "meaning": "adj. 圓胖的",
+    "meaning": "adj. 胖嘟嘟的；圓胖的",
     "example": "The chubby baby laughed loudly.（那個胖嘟嘟的嬰兒大聲笑了。）",
     "id": "L5-chubby-adj"
   },
   {
     "level": "L5",
     "word": "document",
-    "meaning": "noun 文件",
+    "meaning": "n. 文件；文獻；證件\nv. 記錄；證明；用文件證明",
     "example": "Please sign the document.（請簽署文件。）",
     "id": "L5-document-noun"
   },
   {
     "level": "L5",
     "word": "dresser",
-    "meaning": "noun 斗櫃、衣櫃、梳妝台",
+    "meaning": "n. 梳妝台；衣櫃；穿衣者",
     "example": "She keeps her clothes in a dresser.（她把衣服放在衣櫃裡。）",
     "id": "L5-dresser-noun"
   },
   {
     "level": "L5",
     "word": "journalist",
-    "meaning": "noun 新聞記者",
+    "meaning": "n. 記者；新聞工作者",
     "example": "The journalist interviewed the mayor.（記者採訪了市長。）",
     "id": "L5-journalist-noun"
   },
   {
     "level": "L5",
     "word": "purchase",
-    "meaning": "noun/verb 購買",
+    "meaning": "n. 購買；採購物\nv. 購買；採購",
     "example": "I will purchase a new backpack tomorrow.（我明天會買一個新背包。）",
     "id": "L5-purchase-noun-verb"
   },
   {
     "level": "L5",
     "word": "sneaker",
-    "meaning": "noun 球鞋",
+    "meaning": "n. 運動鞋；球鞋",
     "example": "I bought new sneakers for running.（我買了新的運動鞋跑步。）",
     "id": "L5-sneaker-noun"
   },
   {
     "level": "L5",
     "word": "underline",
-    "meaning": "verb 在…下面畫線、強調",
+    "meaning": "n. 底線；下劃線\nv. 在…下畫線；強調",
     "example": "Please underline the key words.（請在關鍵字底下畫線。）",
     "id": "L5-underline-verb"
   },
   {
     "level": "L6",
     "word": "ambulance",
-    "meaning": "noun 救護車",
+    "meaning": "n. 救護車；急救車",
     "example": "An ambulance waited near the marathon finish line in case anyone needed help. (救護車停在馬拉松終點附近，以備有人需要協助。)",
     "id": "L6-ambulance-noun"
   },
   {
     "level": "L6",
     "word": "liter",
-    "meaning": "noun 公升",
+    "meaning": "n. 公升；容量單位",
     "example": "This bottle holds one liter of water.（這個瓶子可裝一公升水。）",
     "id": "L6-liter-noun"
   },
   {
     "level": "L6",
     "word": "sneaky",
-    "meaning": "adj. 偷偷摸摸的",
+    "meaning": "adj. 鬼鬼祟祟的；偷偷摸摸的",
     "example": "That was a sneaky trick. (那是個狡猾的伎倆。)",
     "id": "L6-sneaky-adj"
   },
   {
     "level": "L6",
     "word": "stationery",
-    "meaning": "noun 文具",
+    "meaning": "n. 文具；信紙",
     "example": "I bought stationery for school. (我買了上學用的文具。)",
     "id": "L6-stationery-noun"
   },
   {
     "level": "L6",
     "word": "vendor",
-    "meaning": "noun 小販",
+    "meaning": "n. 攤販；供應商；販賣者",
     "example": "The street vendor sold noodles.（街頭攤販賣麵。）",
     "id": "L6-vendor-noun"
   },
   {
     "level": "初級",
     "word": "actually",
-    "meaning": "adv. 實際上、事實上",
+    "meaning": "adv. 實際上；事實上；真的",
     "example": "I thought he was angry, but actually he was tired.（我以為他生氣了，但其實他是累了。）",
     "id": "初級-actually-adv"
   },
   {
     "level": "初級",
     "word": "advertisement",
-    "meaning": "noun 廣告",
+    "meaning": "n. 廣告；宣傳",
     "example": "I saw an advertisement for a new phone.（我看到一則新手機廣告。）",
     "id": "初級-advertisement-noun"
   },
   {
     "level": "初級",
     "word": "air conditioner",
-    "meaning": "noun 冷氣機、空調",
+    "meaning": "n. 冷氣機；空調機",
     "example": "Please turn on the air conditioner.（請打開冷氣。）",
     "id": "初級-air-conditioner-noun"
   },
   {
     "level": "初級",
     "word": "America",
-    "meaning": "noun 美國、美洲",
+    "meaning": "n. 美國；美洲",
     "example": "America is a large country.（美國是一個大國。）",
     "id": "初級-america-noun"
   },
   {
     "level": "初級",
     "word": "American",
-    "meaning": "adj./noun 美國的、美洲的；美國人",
+    "meaning": "adj. 美國的；美洲的\nn. 美國人；美洲人",
     "example": "She has an American accent.（她有美式口音。）",
     "id": "初級-american-adj-noun"
   },
   {
     "level": "初級",
     "word": "anymore",
-    "meaning": "adv. 再也不、不再",
+    "meaning": "adv. 再也；如今；此外",
     "example": "I do not live there anymore.（我不再住在那裡了。）",
     "id": "初級-anymore-adv"
   },
   {
     "level": "初級",
     "word": "Asia",
-    "meaning": "noun 亞洲",
+    "meaning": "n. 亞洲；亞細亞洲",
     "example": "Asia is the largest continent.（亞洲是最大的洲。）",
     "id": "初級-asia-noun"
   },
   {
     "level": "初級",
     "word": "Asian",
-    "meaning": "adj./noun 亞洲的、亞洲人的；亞洲人",
+    "meaning": "adj. 亞洲的；亞洲人的\nn. 亞洲人；亞裔人士",
     "example": "Taiwan is an Asian country.（台灣是一個亞洲國家。）",
     "id": "初級-asian-adj-noun"
   },
   {
     "level": "初級",
     "word": "Australia",
-    "meaning": "noun 澳洲",
+    "meaning": "n. 澳洲；澳大利亞",
     "example": "Australia is famous for kangaroos.（澳洲以袋鼠聞名。）",
     "id": "初級-australia-noun"
   },
   {
     "level": "初級",
     "word": "babysit",
-    "meaning": "verb 當臨時保姆",
+    "meaning": "v. 照顧嬰兒；代看孩子",
     "example": "I will babysit my cousin tonight.（我今晚要照顧我的表弟。）",
     "id": "初級-babysit-verb"
   },
   {
     "level": "初級",
     "word": "babysitter",
-    "meaning": "noun 保母",
+    "meaning": "n. 保母；臨時保姆",
     "example": "The babysitter read a story to the children.（保母讀故事給孩子們聽。）",
     "id": "初級-babysitter-noun"
   },
   {
     "level": "初級",
     "word": "beginning",
-    "meaning": "noun 開端、起點",
+    "meaning": "n. 開始；開端；起初",
     "example": "The beginning of the movie was slow.（電影開頭有點慢。）",
     "id": "初級-beginning-noun"
   },
   {
     "level": "初級",
     "word": "birthday",
-    "meaning": "noun 生日",
+    "meaning": "n. 生日；出生日期",
     "example": "My birthday is in June. (我的生日在六月。)",
     "id": "初級-birthday-noun"
   },
   {
     "level": "初級",
     "word": "bookstore",
-    "meaning": "noun 書店",
+    "meaning": "n. 書店；書局",
     "example": "I bought the novel at a bookstore.（我在書店買了那本小說。）",
     "id": "初級-bookstore-noun"
   },
   {
     "level": "初級",
     "word": "bored",
-    "meaning": "adj. 感到無聊的、感到厭煩的",
+    "meaning": "adj. 感到無聊的；厭倦的",
     "example": "I felt bored during the long speech.（那場冗長演講讓我覺得無聊。）",
     "id": "初級-bored-adj"
   },
   {
     "level": "初級",
     "word": "boring",
-    "meaning": "adj. 無聊的、乏味的",
+    "meaning": "adj. 無聊的；乏味的",
     "example": "The movie was boring.（那部電影很無聊。）",
     "id": "初級-boring-adj"
   },
   {
     "level": "初級",
     "word": "Britain",
-    "meaning": "noun 英國",
+    "meaning": "n. 英國；大不列顛",
     "example": "Britain has a long history.（英國有悠久歷史。）",
     "id": "初級-britain-noun"
   },
   {
     "level": "初級",
     "word": "businessperson",
-    "meaning": "noun 商人",
+    "meaning": "n. 商人；商務人士",
     "example": "A good businessperson understands customers.（好的商人了解顧客。）",
     "id": "初級-businessperson-noun"
   },
   {
     "level": "初級",
     "word": "Canada",
-    "meaning": "noun 加拿大",
+    "meaning": "n. 加拿大；加拿大國",
     "example": "Canada is north of the United States.（加拿大在美國北方。）",
     "id": "初級-canada-noun"
   },
   {
     "level": "初級",
     "word": "careless",
-    "meaning": "adj. 粗心的、不小心的",
+    "meaning": "adj. 粗心的；不小心的；疏忽的",
     "example": "It was careless of him to lose the key.（他弄丟鑰匙很粗心。）",
     "id": "初級-careless-adj"
   },
   {
     "level": "初級",
     "word": "certainly",
-    "meaning": "adv. 必定、當然",
+    "meaning": "adv. 當然；確實；無疑",
     "example": "I will certainly help you.（我當然會幫你。）",
     "id": "初級-certainly-adv"
   },
   {
     "level": "初級",
     "word": "Chinese",
-    "meaning": "noun/adj. 中文、中國人；中國的、中國人的",
+    "meaning": "n. 中文；中國人\nadj. 中國的；中文的",
     "example": "She studies Chinese history.（她研究中國歷史。）",
     "id": "初級-chinese-noun-adj"
   },
   {
     "level": "初級",
     "word": "classmate",
-    "meaning": "noun 同班同學",
+    "meaning": "n. 同學；同班同學",
     "example": "My classmate helped me with math. (我的同班同學幫我學數學。)",
     "id": "初級-classmate-noun"
   },
   {
     "level": "初級",
     "word": "classroom",
-    "meaning": "noun 教室",
+    "meaning": "n. 教室；課堂",
     "example": "The classroom is clean and bright.（教室乾淨又明亮。）",
     "id": "初級-classroom-noun"
   },
   {
     "level": "初級",
     "word": "contact lens",
-    "meaning": "noun 隱形眼鏡",
+    "meaning": "n. 隱形眼鏡；接觸鏡片",
     "example": "She wears contact lenses.（她戴隱形眼鏡。）",
     "id": "初級-contact-lens-noun"
   },
   {
     "level": "初級",
     "word": "convenience store",
-    "meaning": "noun 便利商店",
+    "meaning": "n. 便利商店；便利店",
     "example": "I bought milk at a convenience store.（我在便利商店買了牛奶。）",
     "id": "初級-convenience-store-noun"
   },
   {
     "level": "初級",
     "word": "could",
-    "meaning": "aux. can 的過去式\n（婉轉請求）可以",
+    "meaning": "aux. 能夠；可能；可以",
     "example": "Could you open the window?（你可以打開窗戶嗎？）",
     "id": "初級-could-aux-can"
   },
   {
     "level": "初級",
     "word": "credit card",
-    "meaning": "noun 信用卡",
+    "meaning": "n. 信用卡；簽帳卡",
     "example": "I paid with a credit card.（我用信用卡付款。）",
     "id": "初級-credit-card-noun"
   },
   {
     "level": "初級",
     "word": "crowded",
-    "meaning": "adj. 擁擠的",
+    "meaning": "adj. 擁擠的；人潮多的",
     "example": "The train was crowded.（火車很擁擠。）",
     "id": "初級-crowded-adj"
   },
   {
     "level": "初級",
     "word": "department store",
-    "meaning": "noun 百貨公司",
+    "meaning": "n. 百貨公司；百貨商店",
     "example": "We bought clothes at a department store.（我們在百貨公司買衣服。）",
     "id": "初級-department-store-noun"
   },
   {
     "level": "初級",
     "word": "dining room",
-    "meaning": "noun 餐廳、飯廳",
+    "meaning": "n. 餐廳；飯廳；用餐室",
     "example": "We ate dinner in the dining room. (我們在飯廳吃晚餐。)",
     "id": "初級-dining-room-noun"
   },
   {
     "level": "初級",
     "word": "dodge ball",
-    "meaning": "noun 躲避球",
+    "meaning": "n. 躲避球；躲避球運動",
     "example": "We played dodge ball in gym class.（我們在體育課打躲避球。）",
     "id": "初級-dodge-ball-noun"
   },
   {
     "level": "初級",
     "word": "Double Tenth Day",
-    "meaning": "noun 雙十節",
+    "meaning": "n. 雙十節；國慶日",
     "example": "Double Tenth Day is Taiwan’s National Day.（雙十節是台灣的國慶日。）",
     "id": "初級-double-tenth-day-noun"
   },
   {
     "level": "初級",
     "word": "Dragon Boat Festival",
-    "meaning": "noun 端午節",
+    "meaning": "n. 端午節；龍舟節",
     "example": "We watched dragon boat races during the Dragon Boat Festival.（端午節時我們看了龍舟比賽。）",
     "id": "初級-dragon-boat-festival-noun"
   },
   {
     "level": "初級",
     "word": "Easter",
-    "meaning": "noun 復活節",
+    "meaning": "n. 復活節；耶穌復活節",
     "example": "Easter is an important Christian holiday.（復活節是重要的基督教節日。）",
     "id": "初級-easter-noun"
   },
   {
     "level": "初級",
     "word": "elementary school",
-    "meaning": "noun 小學",
+    "meaning": "n. 小學；初等學校",
     "example": "My brother goes to elementary school.（我弟弟上小學。）",
     "id": "初級-elementary-school-noun"
   },
   {
     "level": "初級",
     "word": "England",
-    "meaning": "noun 英格蘭",
+    "meaning": "n. 英格蘭；英國",
     "example": "England is part of the United Kingdom.（英格蘭是英國的一部分。）",
     "id": "初級-england-noun"
   },
   {
     "level": "初級",
     "word": "Europe",
-    "meaning": "noun 歐洲",
+    "meaning": "n. 歐洲；歐羅巴",
     "example": "Europe has many old castles.（歐洲有許多古堡。）",
     "id": "初級-europe-noun"
   },
   {
     "level": "初級",
     "word": "European",
-    "meaning": "adj./noun 歐洲(人)的；歐洲人",
+    "meaning": "adj. 歐洲的；歐洲人的\nn. 歐洲人；歐洲居民",
     "example": "She enjoys European history.（她喜歡歐洲歷史。）",
     "id": "初級-european-adj-noun"
   },
   {
     "level": "初級",
     "word": "everybody",
-    "meaning": "pron. 每個人",
+    "meaning": "pron. 每個人；人人",
     "example": "Everybody needs clean water.（每個人都需要乾淨的水。）",
     "id": "初級-everybody-pron"
   },
   {
     "level": "初級",
     "word": "everyone",
-    "meaning": "pron. 每人",
+    "meaning": "pron. 每個人；人人",
     "example": "Everyone arrived on time.（每個人都準時到達。）",
     "id": "初級-everyone-pron"
   },
   {
     "level": "初級",
     "word": "everything",
-    "meaning": "pron. 每件事",
+    "meaning": "pron. 一切；所有事物",
     "example": "Everything is ready.（一切都準備好了。）",
     "id": "初級-everything-pron"
   },
   {
     "level": "初級",
     "word": "everywhere",
-    "meaning": "adv. 到處",
+    "meaning": "adv. 到處；各處",
     "example": "Flowers were everywhere in the garden.（花園裡到處都是花。）",
     "id": "初級-everywhere-adv"
   },
   {
     "level": "初級",
     "word": "flat tire",
-    "meaning": "noun 沒氣的輪胎",
+    "meaning": "n. 輪胎漏氣；爆胎",
     "example": "We got a flat tire on the highway. (我們在高速公路上輪胎沒氣了。)",
     "id": "初級-flat-tire-noun"
   },
   {
     "level": "初級",
     "word": "France",
-    "meaning": "noun 法國",
+    "meaning": "n. 法國；法蘭西",
     "example": "France is famous for art and food.（法國以藝術和美食聞名。）",
     "id": "初級-france-noun"
   },
   {
     "level": "初級",
     "word": "French fries",
-    "meaning": "noun 炸薯條",
+    "meaning": "n. 薯條；炸薯條",
     "example": "I ordered French fries with my burger.（我點漢堡配薯條。）",
     "id": "初級-french-fries-noun"
   },
   {
     "level": "初級",
     "word": "frisbee",
-    "meaning": "noun 飛盤",
+    "meaning": "n. 飛盤；飛盤遊戲",
     "example": "We played frisbee in the park.（我們在公園玩飛盤。）",
     "id": "初級-frisbee-noun"
   },
   {
     "level": "初級",
     "word": "Germany",
-    "meaning": "noun 德國",
+    "meaning": "n. 德國；德意志",
     "example": "Germany is in Europe.（德國在歐洲。）",
     "id": "初級-germany-noun"
   },
   {
     "level": "初級",
     "word": "good-looking",
-    "meaning": "adj. 好看的",
+    "meaning": "adj. 好看的；漂亮的；英俊的",
     "example": "He is a good-looking actor.（他是一位英俊的演員。）",
     "id": "初級-good-looking-adj"
   },
   {
     "level": "初級",
     "word": "Halloween",
-    "meaning": "noun 萬聖節",
+    "meaning": "n. 萬聖節；萬聖夜",
     "example": "Children wear costumes on Halloween. (孩子們在萬聖節會穿上特別的服裝。)",
     "id": "初級-halloween-noun"
   },
   {
     "level": "初級",
     "word": "headache",
-    "meaning": "noun 頭痛",
+    "meaning": "n. 頭痛；令人頭痛的事",
     "example": "I have a headache today.（我今天頭痛。）",
     "id": "初級-headache-noun"
   },
   {
     "level": "初級",
     "word": "herself",
-    "meaning": "pron. 她自己",
+    "meaning": "pron. 她自己；她本人",
     "example": "She made the cake by herself.（她自己做了蛋糕。）",
     "id": "初級-herself-pron"
   },
   {
     "level": "初級",
     "word": "hey",
-    "meaning": "interj. 喂",
+    "meaning": "int. 你好；喂你好；嘿你好",
     "example": "Hey, wait for me!（嘿，等等我！）",
     "id": "初級-hey-interj"
   },
   {
     "level": "初級",
     "word": "hi",
-    "meaning": "interj. 嗨(問候語)",
+    "meaning": "int. 你好；您好",
     "example": "Hi, nice to meet you.（嗨，很高興認識你。）",
     "id": "初級-hi-interj"
   },
   {
     "level": "初級",
     "word": "himself",
-    "meaning": "pron. 他自己",
+    "meaning": "pron. 他自己；他本人",
     "example": "He fixed the bike himself.（他自己修好了腳踏車。）",
     "id": "初級-himself-pron"
   },
   {
     "level": "初級",
     "word": "Hong Kong",
-    "meaning": "noun 香港",
+    "meaning": "n. 香港；香江",
     "example": "Hong Kong is a busy city.（香港是一座繁忙的城市。）",
     "id": "初級-hong-kong-noun"
   },
   {
     "level": "初級",
     "word": "hot dog",
-    "meaning": "noun 熱狗",
+    "meaning": "n. 熱狗；熱狗堡",
     "example": "I ate a hot dog at the game.（我在比賽時吃了一個熱狗。）",
     "id": "初級-hot-dog-noun"
   },
   {
     "level": "初級",
     "word": "Hualien",
-    "meaning": "noun 花蓮",
+    "meaning": "n. 花蓮；花蓮縣",
     "example": "Hualien is famous for its beautiful scenery. (花蓮以美麗的風景聞名。)",
     "id": "初級-hualien-noun"
   },
   {
     "level": "初級",
     "word": "ice cream",
-    "meaning": "noun 冰淇淋",
+    "meaning": "n. 冰淇淋；雪糕",
     "example": "I like vanilla ice cream.（我喜歡香草冰淇淋。）",
     "id": "初級-ice-cream-noun"
   },
   {
     "level": "初級",
     "word": "itself",
-    "meaning": "pron. 它自己",
+    "meaning": "pron. 它自己；本身",
     "example": "The machine turns itself off.（機器會自己關閉。）",
     "id": "初級-itself-pron"
   },
   {
     "level": "初級",
     "word": "Japan",
-    "meaning": "noun 日本",
+    "meaning": "n. 日本；日本國",
     "example": "Japan is famous for cherry blossoms.（日本以櫻花聞名。）",
     "id": "初級-japan-noun"
   },
   {
     "level": "初級",
     "word": "Japanese",
-    "meaning": "adj./noun 日本的；日本人、日語",
+    "meaning": "adj. 日本的；日語的\nn. 日本人；日語",
     "example": "I like Japanese food.（我喜歡日本料理。）",
     "id": "初級-japanese-adj-noun"
   },
   {
     "level": "初級",
     "word": "junior high school",
-    "meaning": "noun 國中、國民中學",
+    "meaning": "n. 國中；初級中學",
     "example": "My brother goes to junior high school.（我弟弟上國中。）",
     "id": "初級-junior-high-school-noun"
   },
   {
     "level": "初級",
     "word": "Kaohsiung",
-    "meaning": "noun 高雄",
+    "meaning": "n. 高雄；高雄市",
     "example": "Kaohsiung is in southern Taiwan.（高雄在台灣南部。）",
     "id": "初級-kaohsiung-noun"
   },
   {
     "level": "初級",
     "word": "Korea",
-    "meaning": "noun 韓國",
+    "meaning": "n. 韓國；朝鮮半島",
     "example": "Korea is in East Asia.（韓國在東亞。）",
     "id": "初級-korea-noun"
   },
   {
     "level": "初級",
     "word": "Korean",
-    "meaning": "adj./noun 韓國的；韓國人",
+    "meaning": "adj. 韓國的；韓語的\nn. 韓國人；韓語",
     "example": "She likes Korean dramas.（她喜歡韓劇。）",
     "id": "初級-korean-adj-noun"
   },
   {
     "level": "初級",
     "word": "KTV",
-    "meaning": "noun 卡拉OK店",
+    "meaning": "n. 卡拉OK；卡拉歌廳",
     "example": "We sang at a KTV after dinner.（我們晚餐後去 KTV 唱歌。）",
     "id": "初級-ktv-noun-ok"
   },
   {
     "level": "初級",
     "word": "Lantern Festival",
-    "meaning": "noun 元宵節",
+    "meaning": "n. 元宵節；燈節",
     "example": "We watched lanterns during the Lantern Festival.（元宵節時我們看燈籠。）",
     "id": "初級-lantern-festival-noun"
   },
   {
     "level": "初級",
     "word": "later",
-    "meaning": "adv. 更晚的；較晚地、以後",
+    "meaning": "adv. 稍後；後來；以後\nadj. 較晚的；後來的",
     "example": "I will call you later.（我晚點打給你。）",
     "id": "初級-later-adv"
   },
   {
     "level": "初級",
     "word": "left-hand",
-    "meaning": "adj. 左手的、左邊的",
+    "meaning": "adj. 左手的；左側的\nn. 左手；左側",
     "example": "Write your name in the left-hand corner.（把名字寫在左上角。）",
     "id": "初級-left-hand-adj"
   },
   {
     "level": "初級",
     "word": "living room",
-    "meaning": "noun 客廳",
+    "meaning": "n. 客廳；起居室",
     "example": "We watch TV in the living room.（我們在客廳看電視。）",
     "id": "初級-living-room-noun"
   },
   {
     "level": "初級",
     "word": "ma'am",
-    "meaning": "noun 夫人",
+    "meaning": "n. 女士；夫人；小姐",
     "example": "Yes, ma’am, I understand.（是的，女士，我明白。）",
     "id": "初級-ma-am-noun"
   },
   {
     "level": "初級",
     "word": "mail carrier",
-    "meaning": "noun 郵差",
+    "meaning": "n. 郵差；郵件投遞員",
     "example": "The mail carrier delivered the letters.（郵差送了信。）",
     "id": "初級-mail-carrier-noun"
   },
   {
     "level": "初級",
     "word": "marker",
-    "meaning": "noun 標誌；麥克筆、彩色筆",
+    "meaning": "n. 記號筆；標記；標誌",
     "example": "Use a marker to write your name.（用麥克筆寫你的名字。）",
     "id": "初級-marker-noun"
   },
   {
     "level": "初級",
     "word": "men's room",
-    "meaning": "noun 男洗手間、男廁所",
+    "meaning": "n. 男廁；男洗手間",
     "example": "The men’s room is on the second floor.（男廁在二樓。）",
     "id": "初級-men-s-room-noun"
   },
   {
     "level": "初級",
     "word": "midnight",
-    "meaning": "noun/adj. 午夜",
+    "meaning": "n. 午夜；半夜",
     "example": "The baby woke up at midnight.（寶寶午夜醒來。）",
     "id": "初級-midnight-noun-adj"
   },
   {
     "level": "初級",
     "word": "Mother's Day",
-    "meaning": "noun 母親節",
+    "meaning": "n. 母親節；母親節日",
     "example": "Mother’s Day is in May in many countries.（許多國家的母親節在五月。）",
     "id": "初級-mother-s-day-noun"
   },
   {
     "level": "初級",
     "word": "myself",
-    "meaning": "pron. 我自己",
+    "meaning": "pron. 我自己；本人",
     "example": "I made this cake myself.（我自己做了這個蛋糕。）",
     "id": "初級-myself-pron"
   },
   {
     "level": "初級",
     "word": "New Year's Day",
-    "meaning": "noun 新年",
+    "meaning": "n. 元旦；新年第一天",
     "example": "New Year’s Day is January first.（元旦是一月一日。）",
     "id": "初級-new-year-s-day-noun"
   },
   {
     "level": "初級",
     "word": "New Year's Eve",
-    "meaning": "noun 跨年夜",
+    "meaning": "n. 除夕；新年前夜",
     "example": "We watched fireworks on New Year’s Eve.（我們在跨年夜看煙火。）",
     "id": "初級-new-year-s-eve-noun"
   },
   {
     "level": "初級",
     "word": "nice-looking",
-    "meaning": "adj. 好看的",
+    "meaning": "adj. 好看的；漂亮的",
     "example": "She is a nice-looking woman.（她是一位好看的女士。）",
     "id": "初級-nice-looking-adj"
   },
   {
     "level": "初級",
     "word": "o'clock",
-    "meaning": "adv. …點鐘",
+    "meaning": "adv. …點鐘；整點",
     "example": "The train leaves at six o’clock.（火車六點出發。）",
     "id": "初級-o-clock-adv"
   },
   {
     "level": "初級",
     "word": "online",
-    "meaning": "adj./adv. 線上的；在線上",
+    "meaning": "adj. 線上的；聯網的\nadv. 在線上；透過網路",
     "example": "I bought the book online.（我在網路上買了這本書。）",
     "id": "初級-online-adj-adv"
   },
   {
     "level": "初級",
     "word": "ourselves",
-    "meaning": "pron. 我們自己",
+    "meaning": "pron. 我們自己；我們本人",
     "example": "We cleaned the room ourselves.（我們自己打掃了房間。）",
     "id": "初級-ourselves-pron"
   },
   {
     "level": "初級",
     "word": "parking lot",
-    "meaning": "noun 停車場",
+    "meaning": "n. 停車場；停車位",
     "example": "The parking lot is full.（停車場滿了。）",
     "id": "初級-parking-lot-noun"
   },
   {
     "level": "初級",
     "word": "PE",
-    "meaning": "noun 體育",
+    "meaning": "n. 體育課；體育教育",
     "example": "We have PE class on Friday.（我們星期五有體育課。）",
     "id": "初級-pe-noun"
   },
   {
     "level": "初級",
     "word": "Philippines",
-    "meaning": "noun 菲律賓",
+    "meaning": "n. 菲律賓；菲律賓群島",
     "example": "The Philippines is made up of many islands.（菲律賓由許多島嶼組成。）",
     "id": "初級-philippines-noun"
   },
   {
     "level": "初級",
     "word": "pleased",
-    "meaning": "adj. 喜歡的、滿意的",
+    "meaning": "adj. 高興的；滿意的；欣慰的",
     "example": "I am pleased to meet you.（很高興見到你。）",
     "id": "初級-pleased-adj"
   },
   {
     "level": "初級",
     "word": "policewoman",
-    "meaning": "noun 女警察",
+    "meaning": "n. 女警；女警察",
     "example": "The policewoman helped the lost child.（女警幫助迷路的孩子。）",
     "id": "初級-policewoman-noun"
   },
   {
     "level": "初級",
     "word": "pop music",
-    "meaning": "noun 流行音樂",
+    "meaning": "n. 流行音樂；流行歌曲",
     "example": "She listens to pop music.（她聽流行音樂。）",
     "id": "初級-pop-music-noun"
   },
   {
     "level": "初級",
     "word": "post office",
-    "meaning": "noun 郵局",
+    "meaning": "n. 郵局；郵政局",
     "example": "The post office is near the station.（郵局在車站附近。）",
     "id": "初級-post-office-noun"
   },
   {
     "level": "初級",
     "word": "probably",
-    "meaning": "adv. 大概、有可能",
+    "meaning": "adv. 大概；可能；很可能",
     "example": "She will probably arrive before noon.（她大概會在中午前到。）",
     "id": "初級-probably-adv"
   },
   {
     "level": "初級",
     "word": "really",
-    "meaning": "adv. 真的、非常、實際上",
+    "meaning": "adv. 真的；實際上；非常",
     "example": "I really like this song.（我真的很喜歡這首歌。）",
     "id": "初級-really-adv"
   },
   {
     "level": "初級",
     "word": "Republic of China",
-    "meaning": "noun 中華民國",
+    "meaning": "n. 中華民國；中華民國政府",
     "example": "The Republic of China was founded in 1912.（中華民國成立於 1912 年。）",
     "id": "初級-republic-of-china-noun"
   },
   {
     "level": "初級",
     "word": "right-hand",
-    "meaning": "adj. 右手的、右側的、供右手用的",
+    "meaning": "adj. 右手的；右側的\nn. 右手；右側",
     "example": "Write your name in the right-hand corner.（把名字寫在右上角。）",
     "id": "初級-right-hand-adj"
   },
   {
     "level": "初級",
     "word": "rollerblade",
-    "meaning": "noun/verb 直排輪鞋；溜直排輪",
+    "meaning": "n. 直排輪鞋；直排輪\nv. 溜直排輪；穿直排輪滑行",
     "example": "She learned to rollerblade in the park. (她在公園學溜直排輪。)",
     "id": "初級-rollerblade-noun-verb"
   },
   {
     "level": "初級",
     "word": "roller skate",
-    "meaning": "noun/verb 輪式溜冰鞋；溜輪鞋",
+    "meaning": "n. 溜冰鞋；輪式溜冰鞋\nv. 溜直排輪；滑輪鞋",
     "example": "The children roller skate after school.（孩子們放學後溜輪鞋。）",
     "id": "初級-roller-skate-noun-verb"
   },
   {
     "level": "初級",
     "word": "Russia",
-    "meaning": "noun 俄國",
+    "meaning": "n. 俄羅斯；俄羅斯聯邦",
     "example": "Russia is the largest country in the world.（俄羅斯是世界上最大的國家。）",
     "id": "初級-russia-noun"
   },
   {
     "level": "初級",
     "word": "scooter",
-    "meaning": "noun 機車、滑板車",
+    "meaning": "n. 速克達；滑板車；機車",
     "example": "She rides a scooter to work.（她騎機車上班。）",
     "id": "初級-scooter-noun"
   },
   {
     "level": "初級",
     "word": "senior high school",
-    "meaning": "noun 高中、高級中學",
+    "meaning": "n. 高中；高級中學",
     "example": "My brother goes to senior high school.（我哥哥上高中。）",
     "id": "初級-senior-high-school-noun"
   },
   {
     "level": "初級",
     "word": "should",
-    "meaning": "aux. 應該",
+    "meaning": "aux. 應該；理應；最好",
     "example": "You should drink more water.（你應該多喝水。）",
     "id": "初級-should-aux"
   },
   {
     "level": "初級",
     "word": "Singapore",
-    "meaning": "noun 新加坡",
+    "meaning": "n. 新加坡；新加坡共和國",
     "example": "Singapore is a modern city-state.（新加坡是一個現代城市國家。）",
     "id": "初級-singapore-noun"
   },
   {
     "level": "初級",
     "word": "soft drink",
-    "meaning": "noun (不含酒精的)軟性飲料",
+    "meaning": "n. 汽水；軟性飲料",
     "example": "I ordered a soft drink. (我點了一杯軟性飲料。)",
     "id": "初級-soft-drink-noun"
   },
   {
     "level": "初級",
     "word": "soy sauce",
-    "meaning": "noun 醬油",
+    "meaning": "n. 醬油；豉油",
     "example": "Add soy sauce to the noodles.（在麵裡加醬油。）",
     "id": "初級-soy-sauce-noun"
   },
   {
     "level": "初級",
     "word": "stomachache",
-    "meaning": "noun 腹痛",
+    "meaning": "n. 胃痛；肚子痛",
     "example": "I have a stomachache.（我肚子痛。）",
     "id": "初級-stomachache-noun"
   },
   {
     "level": "初級",
     "word": "swimsuit",
-    "meaning": "noun 泳衣",
+    "meaning": "n. 泳衣；泳裝",
     "example": "She bought a new swimsuit.（她買了一件新泳衣。）",
     "id": "初級-swimsuit-noun"
   },
   {
     "level": "初級",
     "word": "Taichung",
-    "meaning": "noun 台中",
+    "meaning": "n. 台中；台中市",
     "example": "Taichung is in central Taiwan.（台中在台灣中部。）",
     "id": "初級-taichung-noun"
   },
   {
     "level": "初級",
     "word": "Tainan",
-    "meaning": "noun 台南",
+    "meaning": "n. 台南；台南市",
     "example": "Tainan is famous for food.（台南以美食聞名。）",
     "id": "初級-tainan-noun"
   },
   {
     "level": "初級",
     "word": "Taiwan",
-    "meaning": "noun 臺灣",
+    "meaning": "n. 台灣；台灣島",
     "example": "Taiwan is a beautiful island.（台灣是一座美麗的島嶼。）",
     "id": "初級-taiwan-noun"
   },
   {
     "level": "初級",
     "word": "Taiwanese",
-    "meaning": "adj./noun 臺灣(人)的；臺灣人",
+    "meaning": "adj. 台灣的；台灣人的\nn. 台灣人；台灣話",
     "example": "She is Taiwanese.（她是台灣人。）",
     "id": "初級-taiwanese-adj-noun"
   },
   {
     "level": "初級",
     "word": "Teacher's Day",
-    "meaning": "noun 教師節",
+    "meaning": "n. 教師節；師長節",
     "example": "Teacher’s Day is a special day for teachers.（教師節是老師的特別日子。）",
     "id": "初級-teacher-s-day-noun"
   },
   {
     "level": "初級",
     "word": "teapot",
-    "meaning": "noun 茶壺",
+    "meaning": "n. 茶壺；泡茶壺",
     "example": "The teapot is on the table.（茶壺在桌上。）",
     "id": "初級-teapot-noun"
   },
   {
     "level": "初級",
     "word": "Thanksgiving",
-    "meaning": "noun 感恩節",
+    "meaning": "n. 感恩節；謝恩節",
     "example": "Thanksgiving is a family holiday in the United States.（感恩節是美國的家庭節日。）",
     "id": "初級-thanksgiving-noun"
   },
   {
     "level": "初級",
     "word": "themselves",
-    "meaning": "pron. 他們自己",
+    "meaning": "pron. 他們自己；她們自己",
     "example": "They made the decision themselves.（他們自己做了決定。）",
     "id": "初級-themselves-pron"
   },
   {
     "level": "初級",
     "word": "toothache",
-    "meaning": "noun 牙痛",
+    "meaning": "n. 牙痛；齒痛",
     "example": "I have a toothache.（我牙痛。）",
     "id": "初級-toothache-noun"
   },
   {
     "level": "初級",
     "word": "toothbrush",
-    "meaning": "noun 牙刷",
+    "meaning": "n. 牙刷；齒刷",
     "example": "I bought a new toothbrush.（我買了一支新牙刷。）",
     "id": "初級-toothbrush-noun"
   },
   {
     "level": "初級",
     "word": "treatment",
-    "meaning": "noun 治療",
+    "meaning": "n. 治療；處理；待遇",
     "example": "The patient received treatment.（病人接受治療。）",
     "id": "初級-treatment-noun"
   },
   {
     "level": "初級",
     "word": "USA",
-    "meaning": "noun 美國",
+    "meaning": "n. 美國；美利堅合眾國",
     "example": "The USA has fifty states.（美國有五十個州。）",
     "id": "初級-usa-noun"
   },
   {
     "level": "初級",
     "word": "usually",
-    "meaning": "adv. 通常",
+    "meaning": "adv. 通常；平常；一般",
     "example": "I usually get up at seven.（我通常七點起床。）",
     "id": "初級-usually-adv"
   },
   {
     "level": "初級",
     "word": "Valentine's Day",
-    "meaning": "noun 情人節",
+    "meaning": "n. 情人節；聖瓦倫丁節",
     "example": "Valentine’s Day is on February 14.（情人節是二月十四日。）",
     "id": "初級-valentine-s-day-noun"
   },
   {
     "level": "初級",
     "word": "wok",
-    "meaning": "noun 鍋",
+    "meaning": "n. 炒鍋；中式炒鍋",
     "example": "Mom cooked vegetables in a wok.（媽媽用炒鍋炒菜。）",
     "id": "初級-wok-noun"
   },
   {
     "level": "初級",
     "word": "women's room",
-    "meaning": "noun 女洗手間、女廁",
+    "meaning": "n. 女廁；女洗手間",
     "example": "The women’s room is on the left.（女廁在左邊。）",
     "id": "初級-women-s-room-noun"
   },
   {
     "level": "初級",
     "word": "workbook",
-    "meaning": "noun 練習簿、作業本",
+    "meaning": "n. 練習簿；習作本；作業本",
     "example": "Please finish the exercises in your workbook.（請完成習作裡的練習。）",
     "id": "初級-workbook-noun"
   },
   {
     "level": "初級",
     "word": "would",
-    "meaning": "aux. (表示婉轉的請求)請、將會、就會",
+    "meaning": "aux. 願意；將會；想要",
     "example": "Would you like some tea?（你想喝點茶嗎？）",
     "id": "初級-would-aux"
   },
   {
     "level": "初級",
     "word": "yourself",
-    "meaning": "pron. 你自己",
+    "meaning": "pron. 你自己；您自己",
     "example": "Please introduce yourself.（請介紹你自己。）",
     "id": "初級-yourself-pron"
   },
   {
     "level": "初級",
     "word": "FALSE",
-    "meaning": "adj. 錯誤的、假的",
+    "meaning": "adj. 錯誤的；虛假的；不實的",
     "example": "The answer is false.（答案是錯的。）",
     "id": "初級-false-adj"
   },
   {
     "level": "初級",
     "word": "TRUE",
-    "meaning": "adj. 真實的",
+    "meaning": "adj. 真實的；正確的；真正的",
     "example": "The statement is true.（這個陳述是對的。）",
     "id": "初級-true-adj"
   }
