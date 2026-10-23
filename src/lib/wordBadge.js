@@ -16,11 +16,16 @@ const BADGE_KEYS = {
 };
 
 const LEVELED_TRACKS = new Set(["junior-high", "senior-high", "senior-high-5-6"]);
+const EXAM_LEVEL_TRACKS = new Set(["toeic", "toeic-advanced", "toefl", "ielts"]);
 
 export function formatWordBadge(text, trackId, level) {
   const name = text[BADGE_KEYS[trackId]];
   if (!name) {
     return level ?? "";
+  }
+  const examLevel = String(level ?? "").trim();
+  if (EXAM_LEVEL_TRACKS.has(trackId) && examLevel) {
+    return `${name} ${examLevel}`;
   }
   const levelNumber = LEVELED_TRACKS.has(trackId) ? /^L([1-6])$/.exec(String(level ?? "").trim())?.[1] : null;
   return levelNumber ? `${name} Level ${levelNumber}` : name;
