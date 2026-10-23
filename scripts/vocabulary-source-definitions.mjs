@@ -160,6 +160,24 @@ export const TRACK_DEFINITIONS = [
     includeSourceLevels: true,
     catalogLevelFamilies: ["學術核心", "進階", "延伸", "片語"],
     available: true
+  },
+  {
+    id: "gre",
+    title: "GRE",
+    type: "jsonl-source",
+    fallbackLevel: "GRE",
+    includeSourceLevels: true,
+    catalogLevelFamilies: ["進階"],
+    available: true
+  },
+  {
+    id: "gmat",
+    title: "GMAT",
+    type: "jsonl-source",
+    fallbackLevel: "GMAT",
+    includeSourceLevels: true,
+    catalogLevelFamilies: ["進階"],
+    available: true
   }
 ];
 

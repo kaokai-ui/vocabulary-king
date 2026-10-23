@@ -1,0 +1,2669 @@
+[
+  {
+    "level": "進階4",
+    "word": "iconoclast",
+    "meaning": "n. 反傳統者；破除偶像者",
+    "example": "The iconoclast challenged the gallery's hierarchy by exhibiting overlooked workers alongside celebrated masters. (這位反傳統者把遭忽視的工人作品與知名大師並列展出，挑戰畫廊的位階觀念。)",
+    "id": "進階4-iconoclast-m19zs317"
+  },
+  {
+    "level": "進階4",
+    "word": "huckster",
+    "meaning": "n. 奸商；騙子",
+    "example": "The columnist portrayed the promoter as a huckster selling miracle cures with fabricated testimonials. (專欄作家把這名推銷者描寫成奸商，用捏造的見證兜售神奇療法。)",
+    "id": "進階4-huckster-m6habs4"
+  },
+  {
+    "level": "進階4",
+    "word": "physiognomy",
+    "meaning": "n. 面相；地貌特徵",
+    "example": "The travel writer described the valley's rugged physiognomy as evidence of centuries of erosion. (旅遊作家將山谷崎嶇的地貌特徵，描述為數百年侵蝕的證據。)",
+    "id": "進階4-physiognomy-mj30119"
+  },
+  {
+    "level": "進階4",
+    "word": "aspersion",
+    "meaning": "n. 誹謗；中傷",
+    "example": "The minister rejected aspersions about the contract and released the complete review for public scrutiny. (部長否認外界對合約的中傷，並公布完整審查內容供大眾檢視。)",
+    "id": "進階4-aspersion-m1rs00uf"
+  },
+  {
+    "level": "進階4",
+    "word": "obfuscate",
+    "meaning": "vt. 使模糊；使費解",
+    "example": "The technical jargon only served to obfuscate the meaning of the proposal. (這些專業術語只會模糊提案的意思。)",
+    "id": "進階4-obfuscate-m1f41ck4"
+  },
+  {
+    "level": "進階4",
+    "word": "browbeat",
+    "meaning": "vt. 威嚇；恐嚇",
+    "example": "The inquiry found that senior partners browbeat junior staff into approving questionable expense claims. (調查發現，資深合夥人威嚇年輕員工，迫使他們核准可疑的報帳。)",
+    "id": "進階4-browbeat-m8q192k"
+  },
+  {
+    "level": "進階4",
+    "word": "rambunctious",
+    "meaning": "adj. 吵鬧難管的；活蹦亂跳的",
+    "example": "The documentary follows rambunctious young activists whose street demonstrations unsettled the capital's political elite. (紀錄片跟拍一群吵鬧難管的年輕行動者，他們的街頭示威令首都政壇震動。)",
+    "id": "進階4-rambunctious-m18krc0x"
+  },
+  {
+    "level": "進階4",
+    "word": "polemicist",
+    "meaning": "n. 論戰者；好辯者",
+    "example": "The polemicist attacked the proposed law in a series of essays, drawing replies from several ministers. (這名論戰者連續撰文抨擊法案草案，引來多位部長回應。)",
+    "id": "進階4-polemicist-mrcyzab"
+  },
+  {
+    "level": "進階4",
+    "word": "sagacity",
+    "meaning": "n. 睿智；明智",
+    "example": "Her sagacity helped the board reject a glamorous acquisition whose liabilities were buried in footnotes. (她的睿智讓董事會拒絕了一項看似誘人、負債卻藏在註腳裡的併購案。)",
+    "id": "進階4-sagacity-m1j0o0r0"
+  },
+  {
+    "level": "進階4",
+    "word": "spendthrift",
+    "meaning": "n. 揮霍者；敗家子\nadj. 揮霍的；浪費的",
+    "example": "Investors called the administration spendthrift after it funded prestige projects while basic services deteriorated. (政府資助門面工程、基本服務卻日益惡化，投資人批評它揮霍無度。)",
+    "id": "進階4-spendthrift-m1roe40f"
+  },
+  {
+    "level": "進階4",
+    "word": "subservience",
+    "meaning": "n. 屈從；卑躬屈膝",
+    "example": "The editorial condemned the regulator's subservience to industries it was supposed to oversee independently. (社論譴責主管機關屈從於本應獨立監督的產業。)",
+    "id": "進階4-subservience-m1xmrg2d"
+  },
+  {
+    "level": "進階4",
+    "word": "witticism",
+    "meaning": "n. 俏皮話；妙語",
+    "example": "The ambassador's witticism eased tension at the summit without trivializing the dispute over fisheries. (大使的一句妙語緩和了峰會緊張氣氛，也沒有淡化漁業爭端的嚴重性。)",
+    "id": "進階4-witticism-m1xp8wxa"
+  },
+  {
+    "level": "進階4",
+    "word": "penitence",
+    "meaning": "n. 悔罪；懺悔",
+    "example": "His public penitence failed to persuade residents who had documented years of ignored safety complaints. (他公開懺悔，仍無法說服那些多年來持續檢舉安全問題卻遭忽視的居民。)",
+    "id": "進階4-penitence-m13l2rkv"
+  },
+  {
+    "level": "進階4",
+    "word": "unshakeable",
+    "meaning": "adj. 堅定不移的；不可動搖的",
+    "example": "Despite contradictory testimony, the investigator retained unshakeable confidence in the documented timeline. (儘管證詞互相矛盾，調查員對有文件佐證的時間軸仍深信不疑。)",
+    "id": "進階4-unshakeable-mtcd3l3"
+  },
+  {
+    "level": "進階4",
+    "word": "venal",
+    "meaning": "adj. 貪污的；唯利是圖的",
+    "example": "The investigation portrayed a venal official who traded zoning approvals for concealed campaign donations. (調查描寫一名貪污官員，以分區核准交換未公開的競選捐款。)",
+    "id": "進階4-venal-m1kr8h6d"
+  },
+  {
+    "level": "進階4",
+    "word": "wellspring",
+    "meaning": "n. 源泉；根源",
+    "example": "The biographer traced the reformer's resolve to a wellspring of anger over arbitrary arrests. (傳記作者將這位改革者的決心，追溯到對任意逮捕的深切憤怒。)",
+    "id": "進階4-wellspring-mkvu6ex"
+  },
+  {
+    "level": "進階4",
+    "word": "paroxysm",
+    "meaning": "n. 突發；陣發",
+    "example": "A paroxysm of public anger followed the revelation that officials had concealed the dam's safety reports. (官員隱瞞水壩安全報告的消息曝光後，民眾怒火突然爆發。)",
+    "id": "進階4-paroxysm-m1wsyl09"
+  },
+  {
+    "level": "進階4",
+    "word": "titillation",
+    "meaning": "n. 煽情刺激；挑逗",
+    "example": "The review faulted the documentary for favoring titillation over careful reporting on victims' testimony. (評論批評紀錄片偏重煽情刺激，沒有仔細呈現受害者的證詞。)",
+    "id": "進階4-titillation-mn3vswj"
+  },
+  {
+    "level": "進階4",
+    "word": "flaccid",
+    "meaning": "adj. 鬆弛的；無力的",
+    "example": "The columnist called the minister's response flaccid, noting that it avoided the central allegations entirely. (專欄作家認為部長的回應軟弱無力，完全避開了核心指控。)",
+    "id": "進階4-flaccid-m1ssc3cu"
+  },
+  {
+    "level": "進階4",
+    "word": "verity",
+    "meaning": "n. 真實；真理",
+    "example": "The essay questions whether financial markets reward verity or merely the confidence with which forecasts are delivered. (這篇文章質疑金融市場獎勵的究竟是真實，還是預測時展現的自信。)",
+    "id": "進階4-verity-m1g7xmhn"
+  },
+  {
+    "level": "進階4",
+    "word": "inexpressible",
+    "meaning": "adj. 難以言喻的；無法表達的",
+    "example": "The survivor described an inexpressible relief when rescue teams finally reached the isolated settlement. (救援隊終於抵達偏遠聚落時，倖存者形容那份安心難以言喻。)",
+    "id": "進階4-inexpressible-m17ffr2o"
+  },
+  {
+    "level": "進階4",
+    "word": "defeatist",
+    "meaning": "adj. 失敗主義的；消極悲觀的\nn. 失敗主義者；悲觀者",
+    "example": "The board rejected a defeatist forecast and commissioned an independent analysis of the declining market. (董事會否決了消極悲觀的預測，並委託外部分析下滑中的市場。)",
+    "id": "進階4-defeatist-mylx6td"
+  },
+  {
+    "level": "進階4",
+    "word": "wearisome",
+    "meaning": "adj. 令人厭倦的；冗長乏味的",
+    "example": "Although the hearings were wearisome, residents persisted until the commission released its findings. (雖然聽證過程令人厭倦，居民仍持續出席，直到委員會公布調查結果。)",
+    "id": "進階4-wearisome-m1l9sybe"
+  },
+  {
+    "level": "進階4",
+    "word": "unrivaled",
+    "meaning": "adj. 無與倫比的；首屈一指的",
+    "example": "The archive offers unrivaled access to letters documenting the region's political upheavals. (這座檔案館收藏相關書信，讓人得以無與倫比地了解該地區的政治動盪。)",
+    "id": "進階4-unrivaled-m1r53oud"
+  },
+  {
+    "level": "進階4",
+    "word": "unbecoming",
+    "meaning": "adj. 不得體的；不相稱的",
+    "example": "The judge called the prosecutor's personal remarks unbecoming and ordered the hearing back to evidence. (法官認為檢察官的人身評論不得體，要求聽證回到證據本身。)",
+    "id": "進階4-unbecoming-m1v8s5z3"
+  },
+  {
+    "level": "進階4",
+    "word": "pitiable",
+    "meaning": "adj. 可憐的；令人同情的",
+    "example": "The inquiry exposed pitiable conditions in the detention center, including overcrowding and untreated illness. (調查揭露拘留中心的條件令人同情，裡頭過度擁擠，疾病也未獲治療。)",
+    "id": "進階4-pitiable-m14ab5dp"
+  },
+  {
+    "level": "進階4",
+    "word": "supercilious",
+    "meaning": "adj. 傲慢的；目中無人的",
+    "example": "Her supercilious remarks alienated local officials who had initially supported the reform proposal. (她傲慢的發言疏遠了原本支持改革提案的地方官員。)",
+    "id": "進階4-supercilious-m1x8cq1x"
+  },
+  {
+    "level": "進階4",
+    "word": "dualistic",
+    "meaning": "adj. 二元論的；二分對立的",
+    "example": "The article rejects a dualistic view of the conflict, showing how economic and cultural motives overlap. (文章反對以二分法看待衝突，並指出經濟與文化動機彼此交疊。)",
+    "id": "進階4-dualistic-m1nsrzpy"
+  },
+  {
+    "level": "進階4",
+    "word": "evanescent",
+    "meaning": "adj. 短暫的；轉瞬即逝的",
+    "example": "Desert rainfall pulses are highly evanescent, generating sudden watercourses that dry out quickly. (沙漠降雨形成的水流極為短暫，突然出現的水道很快便會乾涸。)",
+    "id": "進階4-evanescent-m9k8zm"
+  },
+  {
+    "level": "進階4",
+    "word": "intemperate",
+    "meaning": "adj. 放縱的；過度的；失控的",
+    "example": "The senator's intemperate response overshadowed the substantive evidence presented during the public hearing. (參議員失控的回應，掩蓋了公聽會中提出的重要證據。)",
+    "id": "進階4-intemperate-m13gwiqd"
+  },
+  {
+    "level": "進階4",
+    "word": "flighty",
+    "meaning": "adj. 善變的；不可靠的",
+    "example": "Investors considered the founder flighty after he repeatedly abandoned promising projects for fashionable ventures. (創辦人屢次放棄有前景的計畫、轉追流行事業後，投資人認為他善變不可靠。)",
+    "id": "進階4-flighty-mjpv6wz"
+  },
+  {
+    "level": "進階4",
+    "word": "admixture",
+    "meaning": "n. 混合物；混合成分",
+    "example": "The historian describes the city's identity as an admixture of migrant traditions and older regional customs. (歷史學家將這座城市的特色描述為移民傳統與舊有地方習俗的混合。)",
+    "id": "進階4-admixture-m1j5tk16"
+  },
+  {
+    "level": "進階4",
+    "word": "torpor",
+    "meaning": "n. 遲鈍；萎靡；停滯",
+    "example": "Critics warned that bureaucratic torpor would delay rebuilding homes long after the floodwaters receded. (評論者警告，官僚體系的遲鈍會讓洪水退去很久後，重建住宅仍持續延宕。)",
+    "id": "進階4-torpor-m1jl1fiz"
+  },
+  {
+    "level": "進階4",
+    "word": "derisory",
+    "meaning": "adj. 少得可憐的；荒謬可笑的",
+    "example": "Workers rejected the derisory settlement, which offered no compensation for years of unpaid overtime. (員工拒絕了少得可憐的和解方案，因為多年未付加班費完全沒有補償。)",
+    "id": "進階4-derisory-m1xpj0a2"
+  },
+  {
+    "level": "進階4",
+    "word": "caprice",
+    "meaning": "n. 反覆無常；任性決定",
+    "example": "Employees feared the director's caprice because priorities changed whenever a new investor entered the room. (員工害怕主管反覆無常，因為每有新投資人進場，工作優先順序就會改變。)",
+    "id": "進階4-caprice-meo25o7"
+  },
+  {
+    "level": "進階4",
+    "word": "peevish",
+    "meaning": "adj. 易怒的；暴躁的",
+    "example": "The peevish executive snapped at reporters after they questioned the company's safety record. (記者質疑公司的安全紀錄後，這位易怒的主管對他們出言不遜。)",
+    "id": "進階4-peevish-m1556an5"
+  },
+  {
+    "level": "進階4",
+    "word": "querulous",
+    "meaning": "adj. 愛抱怨的；怨聲不斷的",
+    "example": "Residents grew querulous after repeated promises to repair the bridge brought no visible progress. (修橋承諾一再落空、毫無進展後，居民的抱怨愈來愈多。)",
+    "id": "進階4-querulous-mfid79j"
+  },
+  {
+    "level": "進階4",
+    "word": "unceasing",
+    "meaning": "adj. 不斷的；不停歇的",
+    "example": "Unceasing pressure from coastal residents finally persuaded officials to publish the revised flood maps. (沿海居民持續不斷的施壓，終於促使官員公布修訂後的洪水地圖。)",
+    "id": "進階4-unceasing-m1vwxv3h"
+  },
+  {
+    "level": "進階4",
+    "word": "happenstance",
+    "meaning": "n. 偶然；意外巧合",
+    "example": "By happenstance, the reporter met a former auditor whose testimony reopened the corruption investigation. (記者偶然遇見一名前稽核員，其證詞讓貪腐調查重新展開。)",
+    "id": "進階4-happenstance-m1gdmd6r"
+  },
+  {
+    "level": "進階4",
+    "word": "indolence",
+    "meaning": "n. 懶散；怠惰",
+    "example": "The audit attributed the delayed project not to indolence but to conflicting orders from two agencies. (稽核將計畫延誤歸因於兩個機關指令相互矛盾，而非人員懶散。)",
+    "id": "進階4-indolence-m15pj4ri"
+  },
+  {
+    "level": "進階4",
+    "word": "ahistorical",
+    "meaning": "adj. 忽略歷史背景的；非歷史的",
+    "example": "The critic called the proposal ahistorical because it ignored earlier land reforms and their lasting consequences. (評論者批評這項提案忽略歷史背景，因為它無視先前土地改革及其長期影響。)",
+    "id": "進階4-ahistorical-m1xu12dk"
+  },
+  {
+    "level": "進階4",
+    "word": "prevaricate",
+    "meaning": "vi. 支吾其詞；閃爍其詞",
+    "example": "Under questioning, the chief executive continued to prevaricate about who approved the disputed payments. (接受質問時，執行長仍對誰核准爭議款項一事支吾其詞。)",
+    "id": "進階4-prevaricate-m1tjqa7q"
+  },
+  {
+    "level": "進階4",
+    "word": "accusatory",
+    "meaning": "adj. 指責的；帶有控訴意味的",
+    "example": "Her accusatory tone weakened the interview, although the documents supported her claims about missing funds. (儘管文件支持她對款項失蹤的指控，她指責的語氣仍削弱了訪談效果。)",
+    "id": "進階4-accusatory-mlw0qec"
+  },
+  {
+    "level": "進階4",
+    "word": "disparagingly",
+    "meaning": "adv. 輕蔑地；貶低地",
+    "example": "The columnist referred disparagingly to regional newspapers, despite relying on their reporting for several claims. (這位專欄作家輕蔑地談論地方報紙，儘管多項主張都仰賴它們的報導。)",
+    "id": "進階4-disparagingly-mjhj3zl"
+  },
+  {
+    "level": "進階4",
+    "word": "canard",
+    "meaning": "n. 謠言；虛假說法",
+    "example": "The claim that the treaty banned local manufacturing proved to be a canard repeated by political opponents. (條約禁止地方製造業的說法，後來證實是政敵一再散播的謠言。)",
+    "id": "進階4-canard-ms09zle"
+  },
+  {
+    "level": "進階4",
+    "word": "comeuppance",
+    "meaning": "n. 應得的懲罰；報應",
+    "example": "The disgraced financier finally received his comeuppance when investigators traced the hidden accounts overseas. (調查人員追查到海外隱藏帳戶後，聲名狼藉的金融家終於受到應得的懲罰。)",
+    "id": "進階4-comeuppance-mrx50qn"
+  },
+  {
+    "level": "進階4",
+    "word": "disconsolate",
+    "meaning": "adj. 悲傷無助的；沮喪的",
+    "example": "Disconsolate residents watched the demolition crew remove the market that had anchored their neighborhood. (悲傷無助的居民看著拆除隊移走長年支撐社區生活的市場。)",
+    "id": "進階4-disconsolate-m1p6jp6s"
+  },
+  {
+    "level": "進階4",
+    "word": "liberality",
+    "meaning": "n. 慷慨；寬宏",
+    "example": "The foundation's liberality sustained independent research that commercial sponsors had declined to support. (基金會的慷慨支持，維持了商業贊助者不願資助的獨立研究。)",
+    "id": "進階4-liberality-m139luz1"
+  },
+  {
+    "level": "進階4",
+    "word": "smarmy",
+    "meaning": "adj. 諂媚的；虛情假意的",
+    "example": "The candidate's smarmy compliments failed to persuade skeptical voters who wanted concrete policy details. (候選人諂媚的稱讚無法說服想聽具體政策細節的懷疑選民。)",
+    "id": "進階4-smarmy-mdoqoeb"
+  },
+  {
+    "level": "進階4",
+    "word": "incognito",
+    "meaning": "adv. 隱姓埋名地；不露身分地",
+    "example": "The minister traveled incognito to the flood zone, hoping to hear residents without staged speeches. (部長隱姓埋名前往淹水區，希望不透過安排好的演說，直接聽取居民意見。)",
+    "id": "進階4-incognito-m1pt3t35"
+  },
+  {
+    "level": "進階4",
+    "word": "superficiality",
+    "meaning": "n. 膚淺；表面化",
+    "example": "The review criticizes the report's superficiality, noting that it lists symptoms without examining structural causes. (評論批評報告流於膚淺，只列出症狀，卻沒有探討結構性原因。)",
+    "id": "進階4-superficiality-m1bnlkap"
+  },
+  {
+    "level": "進階4",
+    "word": "transience",
+    "meaning": "n. 短暫；無常",
+    "example": "The photographer's work explores the transience of urban life through images of markets before demolition. (攝影師透過拆除前市場的影像，探討城市生活的短暫與無常。)",
+    "id": "進階4-transience-m1kq2ik4"
+  },
+  {
+    "level": "進階4",
+    "word": "usurper",
+    "meaning": "n. 篡奪者；非法奪權者",
+    "example": "The opposition portrayed the general as a usurper after he dissolved parliament and assumed executive powers. (將軍解散國會並接掌行政權後，反對派將他描寫為篡權者。)",
+    "id": "進階4-usurper-myq7wzz"
+  },
+  {
+    "level": "進階4",
+    "word": "ramify",
+    "meaning": "vi. 分支；衍生出後果",
+    "example": "A change in pension rules could ramify through household savings, labor decisions, and public spending. (退休金規則的改變，可能連帶影響家庭儲蓄、勞動選擇與公共支出。)",
+    "id": "進階4-ramify-ma36og6"
+  },
+  {
+    "level": "進階4",
+    "word": "maniacal",
+    "meaning": "adj. 狂熱的；瘋狂的",
+    "example": "The documentary depicts the founder's maniacal pursuit of growth and the exhaustion it imposed on employees. (紀錄片描寫創辦人狂熱追求成長，以及這種作風帶給員工的疲憊。)",
+    "id": "進階4-maniacal-m16tx6o7"
+  },
+  {
+    "level": "進階4",
+    "word": "gibe",
+    "meaning": "n. 嘲諷；挖苦\nv. 嘲弄；挖苦",
+    "example": "Rather than answer the policy criticism, the spokesperson responded with a gibe about the reporter's hometown. (發言人沒有回應政策批評，反而挖苦記者的家鄉。)",
+    "id": "進階4-gibe-mvjiw45"
+  },
+  {
+    "level": "進階4",
+    "word": "existentialism",
+    "meaning": "n. 存在主義",
+    "example": "The critic used existentialism to frame the novel's questions about freedom, responsibility, and political violence. (評論者以存在主義切入小說對自由、責任與政治暴力的探問。)",
+    "id": "進階4-existentialism-mbvwu5a"
+  },
+  {
+    "level": "進階4",
+    "word": "misconceive",
+    "meaning": "vt. 誤解；錯誤理解",
+    "example": "Officials misconceived the protest as a temporary dispute, overlooking deeper anger over land seizures. (官員誤把抗議看成短暫糾紛，忽略了民眾對土地徵收更深的憤怒。)",
+    "id": "進階4-misconceive-m16we4tq"
+  },
+  {
+    "level": "進階4",
+    "word": "urbanity",
+    "meaning": "n. 文雅；彬彬有禮",
+    "example": "The diplomat's urbanity helped maintain cordial talks even when negotiations reached a difficult impasse. (談判陷入僵局時，外交官的文雅態度仍維持了友善對話。)",
+    "id": "進階4-urbanity-mfzewle"
+  },
+  {
+    "level": "進階4",
+    "word": "ascendance",
+    "meaning": "n. 支配地位；優勢",
+    "example": "The movement's ascendance surprised established parties that had underestimated its reach among younger workers. (這場運動勢力崛起，讓低估其在年輕勞工間影響力的老牌政黨大感意外。)",
+    "id": "進階4-ascendance-mvoo2xk"
+  },
+  {
+    "level": "進階4",
+    "word": "grandiosity",
+    "meaning": "n. 自大；誇大不實",
+    "example": "The biography balances the architect's grandiosity with evidence of meticulous planning and practical restraint. (這本傳記以縝密規劃與務實節制的證據，平衡了建築師的自大形象。)",
+    "id": "進階4-grandiosity-m1kfi59z"
+  },
+  {
+    "level": "進階4",
+    "word": "chauvinistic",
+    "meaning": "adj. 沙文主義的；盲目偏袒的",
+    "example": "The editorial rejected chauvinistic appeals to national pride and examined the treaty's measurable economic effects. (社論拒絕沙文主義式的民族自豪訴求，並檢視條約可衡量的經濟影響。)",
+    "id": "進階4-chauvinistic-m3yrvci"
+  },
+  {
+    "level": "進階4",
+    "word": "discomfiture",
+    "meaning": "n. 窘迫；狼狽",
+    "example": "The minister's visible discomfiture grew when reporters produced documents contradicting his earlier account. (記者提出與他先前說法矛盾的文件後，部長明顯更加窘迫。)",
+    "id": "進階4-discomfiture-m1bt6sp"
+  },
+  {
+    "level": "進階4",
+    "word": "avowal",
+    "meaning": "n. 公開承認；坦率表明",
+    "example": "Her avowal of responsibility changed the debate from blame toward a practical discussion of repairs. (她公開承認責任後，討論從相互指責轉向如何實際修復。)",
+    "id": "進階4-avowal-m1c0fk1h"
+  },
+  {
+    "level": "進階4",
+    "word": "infallibility",
+    "meaning": "n. 絕不犯錯；不會失誤",
+    "example": "The inquiry challenged the agency's claim of infallibility after several forecasts failed during the crisis. (危機期間多項預測失準後，調查質疑該機構宣稱自己絕不犯錯。)",
+    "id": "進階4-infallibility-m13rmgss"
+  },
+  {
+    "level": "進階4",
+    "word": "vapid",
+    "meaning": "adj. 乏味的；空洞無聊的",
+    "example": "The panel found the company's vapid response inadequate because it avoided questions about worker injuries. (座談會認為公司的回應空洞乏味，因為它避談員工受傷問題。)",
+    "id": "進階4-vapid-m1lyxy2k"
+  },
+  {
+    "level": "進階4",
+    "word": "illiberal",
+    "meaning": "adj. 不自由的；不寬容的",
+    "example": "The court warned that illiberal restrictions on reporting could weaken accountability across public institutions. (法院警告，限制報導自由的措施可能削弱公共機構的問責。)",
+    "id": "進階4-illiberal-m14pu651"
+  },
+  {
+    "level": "進階4",
+    "word": "cronyism",
+    "meaning": "n. 任人唯親；裙帶關係",
+    "example": "The watchdog accused the mayor of cronyism after contracts repeatedly went to companies owned by allies. (合約一再落入盟友旗下公司後，監督組織指控市長任人唯親。)",
+    "id": "進階4-cronyism-m1bd8fr8"
+  },
+  {
+    "level": "進階4",
+    "word": "inanity",
+    "meaning": "n. 空洞無聊；愚蠢言行",
+    "example": "The columnist mocked the inanity of slogans that promised prosperity without explaining how jobs would grow. (專欄作家嘲諷那些承諾繁榮、卻不說明如何增加工作的空洞口號。)",
+    "id": "進階4-inanity-m1s8nyua"
+  },
+  {
+    "level": "進階4",
+    "word": "pedantry",
+    "meaning": "n. 賣弄學問；拘泥細節",
+    "example": "Her pedantry over minor formatting rules distracted the committee from evaluating the proposal's evidence. (她拘泥於細微的格式規則，讓委員會無法專注評估提案證據。)",
+    "id": "進階4-pedantry-m10k4l40"
+  },
+  {
+    "level": "進階4",
+    "word": "hedonist",
+    "meaning": "n. 享樂主義者；追求享樂的人",
+    "example": "The profile depicts the financier as a hedonist whose extravagant lifestyle contrasted with his public austerity campaign. (人物報導描寫這位金融家是享樂主義者，其奢華生活與公開倡導節儉形成對比。)",
+    "id": "進階4-hedonist-m1wvz3f1"
+  },
+  {
+    "level": "進階4",
+    "word": "artificiality",
+    "meaning": "n. 不自然；矯揉造作",
+    "example": "Viewers noticed the artificiality of the interview after discovering that each question had been rehearsed. (觀眾發現每個問題都事先排練後，注意到訪談的不自然。)",
+    "id": "進階4-artificiality-m1dp8guw"
+  },
+  {
+    "level": "進階4",
+    "word": "mystification",
+    "meaning": "n. 迷惑；故弄玄虛",
+    "example": "The report's mystification of routine accounting practices concealed a simple transfer between affiliated firms. (報告將例行會計作業說得故弄玄虛，掩蓋了關係企業間的一筆簡單轉帳。)",
+    "id": "進階4-mystification-m5yptlj"
+  },
+  {
+    "level": "進階4",
+    "word": "enfeeble",
+    "meaning": "vt. 削弱；使衰弱",
+    "example": "Years of unpredictable regulation enfeebled the sector, discouraging investment in long term infrastructure. (多年來難以預測的法規削弱了這個產業，也抑制長期基礎建設投資。)",
+    "id": "進階4-enfeeble-m8efqjw"
+  },
+  {
+    "level": "進階4",
+    "word": "circumspection",
+    "meaning": "n. 謹慎；周密審慎",
+    "example": "Negotiators proceeded with circumspection, verifying every clause before allowing the fragile ceasefire to take effect. (談判代表謹慎行事，逐條核對條款後，才讓脆弱的停火協議生效。)",
+    "id": "進階4-circumspection-m20nqax"
+  },
+  {
+    "level": "進階4",
+    "word": "punctilious",
+    "meaning": "adj. 一絲不苟的；拘泥細節的",
+    "example": "The punctilious auditor checked every receipt and questioned expenses that senior managers had approved casually. (這位一絲不苟的稽核員逐張核對收據，並質疑高階主管草率核准的費用。)",
+    "id": "進階4-punctilious-m1s1bwoc"
+  },
+  {
+    "level": "進階4",
+    "word": "nonentity",
+    "meaning": "n. 無足輕重的人；無名之輩",
+    "example": "Once a political nonentity, the mayor became influential after leading a successful regional recovery effort. (市長原本是個無名之輩，成功推動區域復甦後才逐漸具有影響力。)",
+    "id": "進階4-nonentity-mzwnacl"
+  },
+  {
+    "level": "進階4",
+    "word": "providential",
+    "meaning": "adj. 幸運的；適逢其時的",
+    "example": "A providential meeting with a retired engineer helped the town secure a grant before the deadline. (鎮上幸運地遇見一位退休工程師，協助他們在期限前取得補助。)",
+    "id": "進階4-providential-m1a8z28l"
+  },
+  {
+    "level": "進階4",
+    "word": "nihilistic",
+    "meaning": "adj. 虛無主義的；否定一切的",
+    "example": "The essay rejects a nihilistic reading of the protests and traces their demands to specific labor disputes. (這篇文章不接受以虛無主義解讀抗議，而是追溯其訴求與具體勞資糾紛的關聯。)",
+    "id": "進階4-nihilistic-mq5m1vi"
+  },
+  {
+    "level": "進階4",
+    "word": "beneficent",
+    "meaning": "adj. 有益的；仁慈的",
+    "example": "Her beneficent foundation funded rural clinics without requiring local families to repay a cent. (她的慈善基金會資助偏鄉診所，沒有要求當地家庭償還一分錢。)",
+    "id": "進階4-beneficent-mcoz5s5"
+  },
+  {
+    "level": "進階4",
+    "word": "unworldly",
+    "meaning": "adj. 不諳世故的；超凡脫俗的",
+    "example": "The unworldly archivist trusted the minister’s polished promises despite repeated evidence of deception. (那位不諳世故的檔案管理員，儘管多次看到欺瞞證據，仍相信部長漂亮的承諾。)",
+    "id": "進階4-unworldly-m1l7aaeo"
+  },
+  {
+    "level": "進階4",
+    "word": "despoil",
+    "meaning": "vt. 掠奪；破壞",
+    "example": "Illegal logging has despoiled large areas of forest that once sheltered rare wildlife. (非法伐木掠奪了大片曾庇護稀有野生動物的森林。)",
+    "id": "進階4-despoil-m1apigl7"
+  },
+  {
+    "level": "進階4",
+    "word": "oratorical",
+    "meaning": "adj. 演說的；雄辯的",
+    "example": "Her oratorical skill transformed a dry budget hearing into a compelling debate about public priorities. (她的雄辯技巧，讓枯燥的預算聽證會變成一場探討公共優先事項的精彩辯論。)",
+    "id": "進階4-oratorical-m1479cbw"
+  },
+  {
+    "level": "進階4",
+    "word": "disinclination",
+    "meaning": "n. 不情願；意興闌珊",
+    "example": "The committee’s disinclination to publish raw data weakened its otherwise persuasive report. (委員會不願公布原始資料，使原本有說服力的報告失去可信度。)",
+    "id": "進階4-disinclination-m84grea"
+  },
+  {
+    "level": "進階4",
+    "word": "fungible",
+    "meaning": "adj. 可互換的；可替代的",
+    "example": "Because the credits were fungible, the regulator could not trace which factory had funded each offset. (由於這些碳權可以互換，主管機關無法追查每筆抵換額由哪家工廠出資。)",
+    "id": "進階4-fungible-md6vadc"
+  },
+  {
+    "level": "進階4",
+    "word": "meritorious",
+    "meaning": "adj. 值得稱許的；有功績的",
+    "example": "The historian praised the meritorious investigation for uncovering records officials had long concealed. (歷史學家稱許這項調查，因為它揭露了官員長期隱瞞的紀錄。)",
+    "id": "進階4-meritorious-m1vmgfym"
+  },
+  {
+    "level": "進階4",
+    "word": "penury",
+    "meaning": "n. 貧困；匱乏",
+    "example": "Years of penury had made the retired miner wary of every promise from distant investors. (多年的貧困生活，使退休礦工對遠方投資人的每一句承諾都抱持戒心。)",
+    "id": "進階4-penury-m1squac0"
+  },
+  {
+    "level": "進階4",
+    "word": "prescience",
+    "meaning": "n. 預知；先見之明",
+    "example": "Her prescience about shifting energy markets helped the pension fund avoid costly long-term contracts. (她對能源市場變化的先見之明，幫助退休基金避開成本高昂的長期合約。)",
+    "id": "進階4-prescience-m1kb4fik"
+  },
+  {
+    "level": "進階4",
+    "word": "omniscience",
+    "meaning": "n. 全知；無所不知",
+    "example": "The novelist gave the narrator apparent omniscience, then exposed the limits of that authority. (小說家賦予敘事者看似全知的視角，接著揭露那種權威的界限。)",
+    "id": "進階4-omniscience-mcmzqyd"
+  },
+  {
+    "level": "進階4",
+    "word": "intrusiveness",
+    "meaning": "n. 侵擾性；冒犯性",
+    "example": "Residents objected to the survey’s intrusiveness when interviewers requested detailed medical histories. (訪員要求提供詳細病史時，居民反對這份調查過度侵擾隱私。)",
+    "id": "進階4-intrusiveness-m123e66l"
+  },
+  {
+    "level": "進階4",
+    "word": "somnolent",
+    "meaning": "adj. 昏昏欲睡的；沉悶的",
+    "example": "The somnolent afternoon briefing concealed a fierce dispute over the museum’s future direction. (沉悶的午後簡報，掩蓋了眾人對博物館未來方向的激烈爭論。)",
+    "id": "進階4-somnolent-m13m0kx"
+  },
+  {
+    "level": "進階4",
+    "word": "preternatural",
+    "meaning": "adj. 超自然的；異常的",
+    "example": "Witnesses described the negotiator’s preternatural calm as violence spread through the port district. (暴力蔓延港區時，目擊者形容談判代表冷靜得異乎尋常。)",
+    "id": "進階4-preternatural-m11mhous"
+  },
+  {
+    "level": "進階4",
+    "word": "inviolate",
+    "meaning": "adj. 未受侵犯的；神聖不可犯的",
+    "example": "The treaty treated the archive as inviolate, prohibiting officials from altering even one recorded name. (條約將檔案視為不可侵犯，禁止官員更改任何一個登錄姓名。)",
+    "id": "進階4-inviolate-m1fatv2l"
+  },
+  {
+    "level": "進階4",
+    "word": "inauspicious",
+    "meaning": "adj. 不吉的；不祥的",
+    "example": "An inauspicious opening quarter, marked by falling orders, unsettled even the company’s most patient investors. (開季不利、訂單下滑，連公司最有耐心的投資人也感到不安。)",
+    "id": "進階4-inauspicious-mfdvjll"
+  },
+  {
+    "level": "進階4",
+    "word": "incommensurable",
+    "meaning": "adj. 無法相比的；不可通約的",
+    "example": "The report warned that residents’ cultural losses were incommensurable with the developer’s projected tax revenue. (報告提醒，居民失去的文化價值無法與開發商預估的稅收相比。)",
+    "id": "進階4-incommensurable-m1pvagkx"
+  },
+  {
+    "level": "進階4",
+    "word": "seamy",
+    "meaning": "adj. 醜陋的；不光彩的",
+    "example": "The investigation revealed the seamy side of the charity trade, including forged receipts and coerced donations. (調查揭露慈善募款醜陋的一面，包括偽造收據與強迫捐款。)",
+    "id": "進階4-seamy-m1bb8hb1"
+  },
+  {
+    "level": "進階4",
+    "word": "ostracism",
+    "meaning": "n. 排斥；孤立",
+    "example": "Years of political ostracism left the former minister with few allies inside the capital. (多年的政治排斥，使前部長在首都幾乎沒有盟友。)",
+    "id": "進階4-ostracism-m1c17uhb"
+  },
+  {
+    "level": "進階4",
+    "word": "commiseration",
+    "meaning": "n. 同情；憐憫",
+    "example": "The columnist offered commiseration to residents whose homes were damaged by the coastal storm. (專欄作家向住家遭沿海風暴毀損的居民表達同情。)",
+    "id": "進階4-commiseration-m1lr5jml"
+  },
+  {
+    "level": "進階4",
+    "word": "dejection",
+    "meaning": "n. 沮喪；失望",
+    "example": "Her dejection was evident after the investigation cleared the executive she had accused. (調查替她指控的主管洗清嫌疑後，她顯得十分沮喪。)",
+    "id": "進階4-dejection-malrbjd"
+  },
+  {
+    "level": "進階4",
+    "word": "pliant",
+    "meaning": "adj. 柔韌的；順從的",
+    "example": "The pliant metal frame bent around the damaged pipeline without breaking under pressure. (這副有韌性的金屬框架繞過受損管線彎曲，承受壓力也沒有斷裂。)",
+    "id": "進階4-pliant-mwdxxkt"
+  },
+  {
+    "level": "進階4",
+    "word": "repugnance",
+    "meaning": "n. 厭惡；反感",
+    "example": "The documentary conveyed the public's repugnance toward officials who concealed evidence of contamination. (紀錄片呈現大眾對隱瞞污染證據的官員感到厭惡。)",
+    "id": "進階4-repugnance-m1kbcmih"
+  },
+  {
+    "level": "進階4",
+    "word": "iconoclasm",
+    "meaning": "n. 反傳統；破除偶像",
+    "example": "Her iconoclasm challenged the museum's reverent account of the empire's celebrated founders. (她的反傳統觀點挑戰了博物館對帝國開創者一味推崇的敘述。)",
+    "id": "進階4-iconoclasm-mvu5zfd"
+  },
+  {
+    "level": "進階4",
+    "word": "miserly",
+    "meaning": "adj. 吝嗇的；小氣的",
+    "example": "The report depicts a miserly landlord who refused repairs while rents climbed across the district. (報導描寫一名吝嗇的房東，在整個地區租金上漲時仍拒絕修繕。)",
+    "id": "進階4-miserly-m1redle7"
+  },
+  {
+    "level": "進階4",
+    "word": "sectarianism",
+    "meaning": "n. 宗派主義；派系偏見",
+    "example": "The historian traces how sectarianism shaped voting blocs during the country's fragile transition. (歷史學家追溯宗派主義如何影響該國脆弱轉型期間的選民陣營。)",
+    "id": "進階4-sectarianism-mh5wakf"
+  },
+  {
+    "level": "進階4",
+    "word": "bombast",
+    "meaning": "n. 浮誇言辭；大話",
+    "example": "The candidate's bombast drew headlines, but voters wanted concrete proposals on housing costs. (候選人的浮誇言辭登上新聞頭條，但選民想聽的是降低房價的具體方案。)",
+    "id": "進階4-bombast-muloqn"
+  },
+  {
+    "level": "進階4",
+    "word": "perquisite",
+    "meaning": "n. 特權；額外津貼",
+    "example": "A company car was one of the perquisites offered to senior managers. (公司配車是提供給高階主管的特權之一。)",
+    "id": "進階4-perquisite-mzlkt0q"
+  },
+  {
+    "level": "進階4",
+    "word": "hidebound",
+    "meaning": "adj. 守舊的；頑固的",
+    "example": "A hidebound agency resisted publishing its data, even as independent researchers offered safeguards. (即使獨立研究者提出防護措施，這個守舊機關仍抗拒公開資料。)",
+    "id": "進階4-hidebound-m1n1dlnm"
+  },
+  {
+    "level": "進階4",
+    "word": "reprobate",
+    "meaning": "n. 惡棍；無賴\nadj. 道德敗壞的；邪惡的",
+    "example": "The biographer portrays the financier as a reprobate who exploited workers and bribed inspectors. (傳記作者將這名金融家描寫成剝削勞工、收買檢查員的無賴。)",
+    "id": "進階4-reprobate-m1afz8gz"
+  },
+  {
+    "level": "進階4",
+    "word": "commodious",
+    "meaning": "adj. 寬敞舒適的；寬大的",
+    "example": "The board moved its negotiations to a commodious hall where delegations could meet privately. (董事會把協商移到一間寬敞的大廳，讓各代表團能私下會面。)",
+    "id": "進階4-commodious-m2esjt5"
+  },
+  {
+    "level": "進階4",
+    "word": "poseur",
+    "meaning": "n. 裝腔作勢者；假名士",
+    "example": "Critics dismissed the gallery owner as a poseur after he misidentified several artists' work. (畫廊老闆把幾位藝術家的作品認錯後，評論家斥他是個裝腔作勢者。)",
+    "id": "進階4-poseur-m1s1l6qa"
+  },
+  {
+    "level": "進階4",
+    "word": "satiate",
+    "meaning": "vt. 使滿足；使飽足",
+    "example": "No amount of favorable coverage could satiate investors demanding evidence of durable earnings growth. (再多正面報導也無法滿足投資人，他們要的是獲利能持續成長的證據。)",
+    "id": "進階4-satiate-m1vwhejx"
+  },
+  {
+    "level": "進階4",
+    "word": "rancorous",
+    "meaning": "adj. 怨恨的；充滿敵意的",
+    "example": "A rancorous dispute over land rights persisted long after the court issued its final ruling. (土地權利引發的敵意爭端，在法院作出終局裁決後仍持續不休。)",
+    "id": "進階4-rancorous-m1piqint"
+  },
+  {
+    "level": "進階4",
+    "word": "gadfly",
+    "meaning": "n. 批評者；惱人的異議者",
+    "example": "The journalist became a gadfly at city hall, repeatedly questioning contracts awarded without public review. (這名記者成了市政府的批評者，不斷追問未經公開審查就核發的合約。)",
+    "id": "進階4-gadfly-me81huk"
+  },
+  {
+    "level": "進階4",
+    "word": "asceticism",
+    "meaning": "n. 苦行；禁慾主義",
+    "example": "The scholar linked the reformer's asceticism to a broader rejection of courtly luxury. (學者將這位改革者的苦行生活，連結到對宮廷奢華風氣的廣泛拒斥。)",
+    "id": "進階4-asceticism-mkc8lwg"
+  },
+  {
+    "level": "進階4",
+    "word": "expostulate",
+    "meaning": "vi. 勸誡；抗議",
+    "example": "The veteran editor expostulated with the minister after officials quietly altered the published transcript. (官員悄悄修改已公布的逐字稿後，資深編輯向部長提出抗議。)",
+    "id": "進階4-expostulate-m1mth5u3"
+  },
+  {
+    "level": "進階4",
+    "word": "obsequious",
+    "meaning": "adj. 諂媚的；奉承的",
+    "example": "The profile notes the lobbyist's obsequious praise whenever the minister entered the room. (人物專訪提到，部長一走進房間，這名遊說者就立刻諂媚地大加讚揚。)",
+    "id": "進階4-obsequious-m1jpjzvj"
+  },
+  {
+    "level": "進階4",
+    "word": "repast",
+    "meaning": "n. 餐食；一餐",
+    "example": "After the memorial, the family shared a modest repast while neighbors recalled the activist's work. (追思會後，家人與鄰居共進簡單餐食，並回憶這位社運人士的貢獻。)",
+    "id": "進階4-repast-m1ejxs1o"
+  },
+  {
+    "level": "進階4",
+    "word": "suborn",
+    "meaning": "vt. 收買；唆使作偽證",
+    "example": "Prosecutors alleged that the contractor tried to suborn a witness before the corruption trial began. (檢方指控承包商試圖在貪瀆審判開始前收買證人作偽證。)",
+    "id": "進階4-suborn-m17zaqlx"
+  },
+  {
+    "level": "進階4",
+    "word": "beatific",
+    "meaning": "adj. 幸福安詳的；喜悅的",
+    "example": "The curator wore a beatific smile while unveiling the collection donors had nearly lost to fire. (策展人展出這批曾差點遭火災焚毀的藏品時，臉上帶著幸福安詳的笑容。)",
+    "id": "進階4-beatific-mxffmyr"
+  },
+  {
+    "level": "進階4",
+    "word": "fillip",
+    "meaning": "n. 刺激；提振",
+    "example": "A modest export rebound gave the manufacturers a fillip after two quarters of falling orders. (出口小幅反彈，讓製造商在訂單連續下滑兩季後受到提振。)",
+    "id": "進階4-fillip-m1giyjw4"
+  },
+  {
+    "level": "進階4",
+    "word": "turbid",
+    "meaning": "adj. 混濁的；晦澀的",
+    "example": "The river turned turbid after heavy rains swept sediment from the abandoned mining site. (豪雨將廢棄礦場的沉積物沖入河中，河水變得混濁。)",
+    "id": "進階4-turbid-m1hcd9ft"
+  },
+  {
+    "level": "進階4",
+    "word": "purvey",
+    "meaning": "vt. 供應；提供",
+    "example": "The publisher refused to purvey sensational accounts that reduced the conflict to personal scandal. (出版社拒絕提供煽情報導，不願把這場衝突簡化成個人醜聞。)",
+    "id": "進階4-purvey-m14ilrrs"
+  },
+  {
+    "level": "進階4",
+    "word": "inveigh",
+    "meaning": "vi. 痛斥；猛烈抨擊",
+    "example": "The columnist inveighed against the plan, arguing that its promised savings concealed severe public costs. (專欄作家猛烈抨擊這項計畫，指出承諾節省的背後藏著沉重的公共成本。)",
+    "id": "進階4-inveigh-mcrc8m8"
+  },
+  {
+    "level": "進階4",
+    "word": "dilatory",
+    "meaning": "adj. 拖延的；遲緩的",
+    "example": "Dilatory permitting procedures pushed the coastal restoration project beyond its safe construction window. (拖延的許可程序，使沿海復育工程錯過安全施工時段。)",
+    "id": "進階4-dilatory-mrdyzpy"
+  },
+  {
+    "level": "進階4",
+    "word": "declamation",
+    "meaning": "n. 慷慨陳詞；激昂演說",
+    "example": "His declamation about national renewal drew applause but offered no evidence for the proposed reforms. (他慷慨陳詞談國家革新，贏得掌聲，卻沒有為改革提案提出證據。)",
+    "id": "進階4-declamation-msa14bb"
+  },
+  {
+    "level": "進階4",
+    "word": "retrench",
+    "meaning": "vi. 削減開支；緊縮",
+    "example": "Facing weaker demand, the manufacturer retrenched by closing two plants and renegotiating supplier contracts. (面臨需求疲弱，製造商關閉兩座工廠並重談供應商合約來緊縮支出。)",
+    "id": "進階4-retrench-mox49vu"
+  },
+  {
+    "level": "進階4",
+    "word": "glorification",
+    "meaning": "n. 美化；歌頌",
+    "example": "The film’s glorification of conquest ignored the displacement and famine that followed the campaign. (這部電影美化征服行動，卻忽略戰役後的流離失所與饑荒。)",
+    "id": "進階4-glorification-md1v1w3"
+  },
+  {
+    "level": "進階4",
+    "word": "execrable",
+    "meaning": "adj. 惡劣的；令人憎惡的",
+    "example": "The inquiry described the prison’s execrable conditions as a deliberate failure of oversight. (調查將監獄惡劣的環境，形容為監督機制刻意失靈的結果。)",
+    "id": "進階4-execrable-mw0ehnm"
+  },
+  {
+    "level": "進階4",
+    "word": "effectual",
+    "meaning": "adj. 有效的；奏效的",
+    "example": "The mediator proposed an effectual remedy that addressed the workers’ grievances without halting production. (調解人提出有效的補救方案，處理員工不滿之餘也不必停產。)",
+    "id": "進階4-effectual-mljz1w5"
+  },
+  {
+    "level": "進階4",
+    "word": "equivocation",
+    "meaning": "n. 含糊其詞；模稜兩可",
+    "example": "The governor’s equivocation on the disclosure rules fueled suspicions of a private bargain. (州長對資訊揭露規定含糊其詞，引發外界懷疑私下達成了交易。)",
+    "id": "進階4-equivocation-m1xgo2z9"
+  },
+  {
+    "level": "進階4",
+    "word": "censorious",
+    "meaning": "adj. 苛責的；愛挑剔的",
+    "example": "The censorious review condemned minor stylistic choices while ignoring the book’s substantial archival research. (這篇愛挑剔的書評批評細微的文風選擇，卻忽略書中大量的檔案研究。)",
+    "id": "進階4-censorious-m8n1bpq"
+  },
+  {
+    "level": "進階4",
+    "word": "avaricious",
+    "meaning": "adj. 貪婪的；貪財的",
+    "example": "The avaricious broker concealed fees from elderly clients to enlarge his quarterly bonus. (貪財的經紀人向年長客戶隱瞞費用，以提高自己的季度獎金。)",
+    "id": "進階4-avaricious-mlsd9di"
+  },
+  {
+    "level": "進階4",
+    "word": "propitiate",
+    "meaning": "vt. 安撫；平息怒氣",
+    "example": "Executives offered an independent audit to propitiate investors angered by unexplained accounting changes. (主管提出獨立稽核，安撫因帳目變動未獲解釋而憤怒的投資人。)",
+    "id": "進階4-propitiate-majeoue"
+  },
+  {
+    "level": "進階4",
+    "word": "inestimable",
+    "meaning": "adj. 無價的；難以估量的",
+    "example": "The oral histories proved inestimable to researchers reconstructing life under the former regime. (這些口述歷史對重建前政權下的生活，具有難以估量的價值。)",
+    "id": "進階4-inestimable-m1rkdoc4"
+  },
+  {
+    "level": "進階4",
+    "word": "libertine",
+    "meaning": "n. 放蕩者；縱慾者",
+    "example": "The playwright portrayed the libertine as charming in public but ruthless toward those he exploited. (劇作家把這名放蕩者描寫得在公眾面前迷人，對受他利用的人卻毫不留情。)",
+    "id": "進階4-libertine-m1ld3p9z"
+  },
+  {
+    "level": "進階4",
+    "word": "perjure",
+    "meaning": "vt. 使作偽證；作偽證",
+    "example": "Investigators warned the executive not to perjure himself while describing the missing contracts. (調查人員警告主管，說明失蹤合約時切勿作偽證。)",
+    "id": "進階4-perjure-m139o08m"
+  },
+  {
+    "level": "進階4",
+    "word": "mirthless",
+    "meaning": "adj. 不帶笑意的；苦澀的",
+    "example": "The ambassador gave a mirthless laugh when reporters asked whether the ceasefire would survive. (記者詢問停火能否維持時，大使苦笑了一聲。)",
+    "id": "進階4-mirthless-m1epdar0"
+  },
+  {
+    "level": "進階4",
+    "word": "forethought",
+    "meaning": "n. 事先考量；深謀遠慮",
+    "example": "With little forethought, officials approved a reservoir plan that left nearby villages exposed to flooding. (官員缺乏事先考量，批准了使附近村莊暴露於洪災風險的水庫計畫。)",
+    "id": "進階4-forethought-m17hn9gv"
+  },
+  {
+    "level": "進階4",
+    "word": "bemusement",
+    "meaning": "n. 困惑；茫然",
+    "example": "To the panel’s bemusement, the witness defended the missing records as evidence of administrative efficiency. (令小組困惑的是，證人竟辯稱紀錄不見正好證明行政效率。)",
+    "id": "進階4-bemusement-m1x2eret"
+  },
+  {
+    "level": "進階4",
+    "word": "tendentious",
+    "meaning": "adj. 有偏見的；帶有傾向性的",
+    "example": "The report’s tendentious framing favored corporate testimony while minimizing evidence from displaced residents. (報告帶有偏見的敘述方式偏袒企業證詞，淡化流離居民提出的證據。)",
+    "id": "進階4-tendentious-m140wk7z"
+  },
+  {
+    "level": "進階4",
+    "word": "avowedly",
+    "meaning": "adv. 公開承認地；公然地",
+    "example": "The avowedly partisan newspaper endorsed the candidate while insisting that its reporting remained independent. (這家公開表明立場的報紙支持該候選人，卻堅稱報導仍保持獨立。)",
+    "id": "進階4-avowedly-m1fqu3la"
+  },
+  {
+    "level": "進階4",
+    "word": "boondoggle",
+    "meaning": "n. 浪費公帑的計畫；無效工程",
+    "example": "Auditors called the coastal highway a boondoggle after costs tripled and traffic forecasts collapsed. (成本暴增三倍、車流預測又落空後，審計人員稱這條沿海道路是浪費公帑的工程。)",
+    "id": "進階4-boondoggle-m1aof2s7"
+  },
+  {
+    "level": "進階4",
+    "word": "chicanery",
+    "meaning": "n. 欺詐手段；花招",
+    "example": "The inquiry uncovered accounting chicanery that had disguised losses across several regional offices. (調查揭露了掩飾多個區域辦公室虧損的會計詐術。)",
+    "id": "進階4-chicanery-m1oilk3p"
+  },
+  {
+    "level": "進階4",
+    "word": "ostentation",
+    "meaning": "n. 炫耀；賣弄",
+    "example": "The developer’s ostentation seemed especially hollow beside the unfinished homes promised to displaced families. (開發商的炫耀行徑，在安置戶至今未入住承諾住宅的情況下，顯得格外空洞。)",
+    "id": "進階4-ostentation-mvjmc5j"
+  },
+  {
+    "level": "進階4",
+    "word": "uncongenial",
+    "meaning": "adj. 不投機的；不合意的",
+    "example": "The diplomat accepted an uncongenial posting because the ceasefire negotiations offered a rare opening. (這名外交官接受了不合意的派駐職務，因為停火談判帶來難得的契機。)",
+    "id": "進階4-uncongenial-mubdku6"
+  },
+  {
+    "level": "進階4",
+    "word": "megalomaniac",
+    "meaning": "n. 妄自尊大者；權力狂",
+    "example": "The biographer depicted the founder as a megalomaniac who treated every rival as a threat. (傳記作家將創辦人描寫成妄自尊大者，把每個競爭者都視為威脅。)",
+    "id": "進階4-megalomaniac-m7ibkxk"
+  },
+  {
+    "level": "進階4",
+    "word": "vindictiveness",
+    "meaning": "n. 報復心；復仇心",
+    "example": "Her vindictiveness became clear when she leaked private correspondence to punish former colleagues. (她為懲罰前同事而洩露私人通信，報復心顯露無遺。)",
+    "id": "進階4-vindictiveness-mgo1gj9"
+  },
+  {
+    "level": "進階4",
+    "word": "kowtow",
+    "meaning": "vi. 卑躬屈膝；唯命是從",
+    "example": "The regulator refused to kowtow to industry lobbyists demanding weaker pollution limits. (主管機關拒絕對要求放寬污染限制的產業遊說團體卑躬屈膝。)",
+    "id": "進階4-kowtow-m1k05wg8"
+  },
+  {
+    "level": "進階4",
+    "word": "importunate",
+    "meaning": "adj. 糾纏不休的；迫切要求的",
+    "example": "The importunate creditors called repeatedly, demanding repayment before the court approved the restructuring. (糾纏不休的債權人不斷來電，要求法院核准重整前就先行還款。)",
+    "id": "進階4-importunate-m1blyc3f"
+  },
+  {
+    "level": "進階4",
+    "word": "equable",
+    "meaning": "adj. 平穩的；性情溫和的",
+    "example": "The equable chair kept negotiations civil despite mounting pressure from angry shareholders. (儘管憤怒股東的壓力不斷升高，性情平和的主席仍讓談判維持理性。)",
+    "id": "進階4-equable-m1nkvo0o"
+  },
+  {
+    "level": "進階4",
+    "word": "overweening",
+    "meaning": "adj. 傲慢的；過度自信的",
+    "example": "The minister’s overweening certainty alienated allies who had privately raised serious objections. (部長傲慢而自信的態度，疏遠了私下提出嚴重異議的盟友。)",
+    "id": "進階4-overweening-msj5hm6"
+  },
+  {
+    "level": "進階4",
+    "word": "shibboleth",
+    "meaning": "n. 身分暗語；陳腔濫調",
+    "example": "For the party faithful, deregulation had become a shibboleth repeated regardless of local conditions. (對忠實黨員而言，解除管制已成為不論地方情況都照念的陳腔濫調。)",
+    "id": "進階4-shibboleth-moypj5a"
+  },
+  {
+    "level": "進階4",
+    "word": "inconsolable",
+    "meaning": "adj. 悲痛欲絕的；無法安慰的",
+    "example": "Relatives were inconsolable after the inquiry confirmed that the missing passengers had not survived. (調查證實失蹤乘客未能生還後，親屬們悲痛欲絕。)",
+    "id": "進階4-inconsolable-m1xmkzeu"
+  },
+  {
+    "level": "進階4",
+    "word": "seemly",
+    "meaning": "adj. 得體的；合宜的",
+    "example": "The chair urged seemly restraint as executives debated layoffs during a public memorial service. (主管們在公開追思會期間討論裁員，主席敦促大家保持得體克制。)",
+    "id": "進階4-seemly-m1mlo7b0"
+  },
+  {
+    "level": "進階4",
+    "word": "risible",
+    "meaning": "adj. 荒唐可笑的；可笑的",
+    "example": "The company’s risible claim that no customers had complained collapsed under a single leaked email. (公司荒唐地宣稱沒有客戶抱怨，但一封外流電郵就推翻了說法。)",
+    "id": "進階4-risible-m1junr9n"
+  },
+  {
+    "level": "進階4",
+    "word": "unimpeachable",
+    "meaning": "adj. 無可指摘的；無可非議的",
+    "example": "The audit relied on unimpeachable records preserved by independent custodians for more than a decade. (這次稽核採用獨立保管人保存超過十年的無可指摘紀錄。)",
+    "id": "進階4-unimpeachable-mlvq5n2"
+  },
+  {
+    "level": "進階4",
+    "word": "conjectural",
+    "meaning": "adj. 推測的；猜想的",
+    "example": "Without geological samples, the proposed cause of the collapse remained conjectural rather than established. (缺少地質樣本，這項崩塌原因仍只是推測，尚未獲得證實。)",
+    "id": "進階4-conjectural-m1g5jjiq"
+  },
+  {
+    "level": "進階4",
+    "word": "edification",
+    "meaning": "n. 啟發；教化",
+    "example": "The documentary offered more than spectacle, providing edification about the region’s neglected labor history. (這部紀錄片不只提供奇觀，也讓觀眾了解該地區遭忽略的勞工史。)",
+    "id": "進階4-edification-m1to5x5n"
+  },
+  {
+    "level": "進階4",
+    "word": "curmudgeon",
+    "meaning": "n. 脾氣乖戾的人；老頑固",
+    "example": "Although colleagues called him a curmudgeon, the editor quietly funded several young reporters. (同事雖稱編輯是個老頑固，他私下卻資助了幾位年輕記者。)",
+    "id": "進階4-curmudgeon-m1kn5ple"
+  },
+  {
+    "level": "進階4",
+    "word": "preordain",
+    "meaning": "vt. 預先決定；命中注定",
+    "example": "The historian rejected accounts suggesting that the revolution was preordained by ancient rivalries. (歷史學家否定了革命早由古老宿怨注定發生的說法。)",
+    "id": "進階4-preordain-mewo005"
+  },
+  {
+    "level": "進階4",
+    "word": "exoneration",
+    "meaning": "n. 免罪；洗清罪名",
+    "example": "Newly recovered correspondence brought exoneration to the official blamed for the failed evacuation. (新發現的通信替那位因撤離失敗受責的官員洗清罪名。)",
+    "id": "進階4-exoneration-mu3u71r"
+  },
+  {
+    "level": "進階4",
+    "word": "ballyhoo",
+    "meaning": "n. 大肆宣傳；喧鬧炒作",
+    "example": "The product launch generated plenty of ballyhoo, though independent tests found little improvement. (產品發表會炒得沸沸揚揚，獨立測試卻發現改進有限。)",
+    "id": "進階4-ballyhoo-m1j0ksc6"
+  },
+  {
+    "level": "進階4",
+    "word": "incorruptible",
+    "meaning": "adj. 廉潔的；不受賄的",
+    "example": "Residents trusted the incorruptible auditor to investigate contracts linking officials with private developers. (居民信任這位廉潔的稽核員，調查官員與私人開發商之間的合約。)",
+    "id": "進階4-incorruptible-m1okdq98"
+  },
+  {
+    "level": "進階4",
+    "word": "obtrude",
+    "meaning": "vt. 強加；擅自介入",
+    "example": "The envoy avoided obtruding his own priorities while local leaders negotiated a fragile ceasefire. (地方領袖協商脆弱的停火協議時，特使避免強加自己的優先事項。)",
+    "id": "進階4-obtrude-m1t3gxd"
+  },
+  {
+    "level": "進階4",
+    "word": "unswerving",
+    "meaning": "adj. 堅定不移的；始終如一的",
+    "example": "Her unswerving commitment to honest reporting earned the editor respect across the political divide. (她始終堅持誠實報導，贏得不同政治立場編輯的尊重。)",
+    "id": "進階4-unswerving-m9gkzhx"
+  },
+  {
+    "level": "進階4",
+    "word": "kaleidoscopic",
+    "meaning": "adj. 變化多端的；色彩斑斕的",
+    "example": "The historian presents a kaleidoscopic portrait of the port, shaped by migrants, merchants, and repeated political upheavals. (歷史學家描繪港口多變的樣貌，其中交織著移民、商人與一再發生的政治動盪。)",
+    "id": "進階4-kaleidoscopic-mwldocx"
+  },
+  {
+    "level": "進階4",
+    "word": "phlegmatic",
+    "meaning": "adj. 冷靜的；不易動情的",
+    "example": "Even as critics questioned the policy, the phlegmatic minister answered each charge without visible irritation. (即使評論者質疑政策，這位冷靜的部長仍逐一回應，沒有顯露不耐。)",
+    "id": "進階4-phlegmatic-m1yfkxiq"
+  },
+  {
+    "level": "進階4",
+    "word": "vexatious",
+    "meaning": "adj. 令人煩惱的；無理糾纏的",
+    "example": "The company called the repeated complaints vexatious, though residents said their concerns remained unanswered. (公司稱這些一再提出的申訴是無理糾纏，但居民表示疑慮始終沒有得到回應。)",
+    "id": "進階4-vexatious-m14dv4mx"
+  },
+  {
+    "level": "進階4",
+    "word": "amity",
+    "meaning": "n. 友好；和睦關係",
+    "example": "Despite their border dispute, the two governments maintained amity through regular cultural exchanges. (儘管存在邊界爭議，兩國政府仍透過定期文化交流維持友好關係。)",
+    "id": "進階4-amity-mze0h6x"
+  },
+  {
+    "level": "進階4",
+    "word": "unflagging",
+    "meaning": "adj. 不懈的；持續不減的",
+    "example": "Her unflagging attention to detail exposed errors that several external auditors had overlooked. (她持續不懈地留意細節，發現了幾位外部稽核員都忽略的錯誤。)",
+    "id": "進階4-unflagging-mi0upw9"
+  },
+  {
+    "level": "進階4",
+    "word": "serendipitous",
+    "meaning": "adj. 意外發現的；偶然有益的",
+    "example": "A serendipitous meeting with a local archivist revealed letters that reshaped the historian's account. (一次偶然的會面讓歷史學家從地方檔案員口中得知信件，改寫了他的敘述。)",
+    "id": "進階4-serendipitous-m1nrlf0j"
+  },
+  {
+    "level": "進階4",
+    "word": "barbarity",
+    "meaning": "n. 殘暴；野蠻行徑",
+    "example": "The journalist documented the barbarity of the campaign, challenging officials who called it a necessary security measure. (記者記錄了這場行動的殘暴，反駁官員將其稱為必要維安措施的說法。)",
+    "id": "進階4-barbarity-meh5oz5"
+  },
+  {
+    "level": "進階4",
+    "word": "petulance",
+    "meaning": "n. 易怒；任性的脾氣",
+    "example": "The columnist's petulance weakened an otherwise persuasive argument about the city's housing policy. (這位專欄作家的易怒語氣削弱了他對城市住宅政策原本頗有說服力的論點。)",
+    "id": "進階4-petulance-mnee5tt"
+  },
+  {
+    "level": "進階4",
+    "word": "dogmatism",
+    "meaning": "n. 教條主義；武斷態度",
+    "example": "The review criticizes the agency's dogmatism for dismissing evidence that contradicted its original forecast. (評論批評該機構的教條主義，因為它不理會與原先預測相反的證據。)",
+    "id": "進階4-dogmatism-mauwkz9"
+  },
+  {
+    "level": "進階4",
+    "word": "fallibility",
+    "meaning": "n. 易犯錯；不可靠",
+    "example": "The editor acknowledged human fallibility and corrected the report before it damaged the subject's reputation. (編輯承認人難免犯錯，並在報導損害當事人名譽前更正內容。)",
+    "id": "進階4-fallibility-m1t7jx3q"
+  },
+  {
+    "level": "進階4",
+    "word": "egoism",
+    "meaning": "n. 利己主義；自我中心",
+    "example": "The essay contrasts civic responsibility with egoism, arguing that public trust depends on shared sacrifice. (這篇文章對比公民責任與利己主義，主張公共信任有賴共同承擔。)",
+    "id": "進階4-egoism-m1fduyde"
+  },
+  {
+    "level": "進階4",
+    "word": "unalloyed",
+    "meaning": "adj. 純粹的；毫無摻雜的",
+    "example": "Her unalloyed enthusiasm for the archive persuaded the council to fund its preservation for another decade. (她對檔案館純粹而熱切的支持，說服議會再提供十年保存經費。)",
+    "id": "進階4-unalloyed-m643rl"
+  },
+  {
+    "level": "進階4",
+    "word": "vestigial",
+    "meaning": "adj. 退化的；殘餘的",
+    "example": "Modern whales possess vestigial pelvic bones trapped deep within their skeletal tissue layers, substantiating land-ancestor lines. (現代鯨魚的骨骼組織深處仍有退化的骨盆骨，證實牠們與陸生祖先的演化關係。)",
+    "id": "進階4-vestigial-mj3fiuv"
+  },
+  {
+    "level": "進階4",
+    "word": "mutable",
+    "meaning": "adj. 易變的；可變的",
+    "example": "The analyst treated consumer preferences as mutable rather than assuming last year's pattern would continue. (分析師將消費者偏好視為會變動，而非假設去年的趨勢會延續。)",
+    "id": "進階4-mutable-m1hlh30b"
+  },
+  {
+    "level": "進階4",
+    "word": "sentience",
+    "meaning": "n. 感知能力；知覺",
+    "example": "The legal debate asks whether evidence of sentience should change how laboratories treat research animals. (這場法律辯論探討，感知能力的證據是否應改變實驗室對待研究動物的方式。)",
+    "id": "進階4-sentience-mz6ucq4"
+  },
+  {
+    "level": "進階4",
+    "word": "impetuosity",
+    "meaning": "n. 衝動；魯莽",
+    "example": "His impetuosity led him to announce the merger before regulators had reviewed its financial terms. (他一時衝動，在主管機關審查財務條件前就宣布了合併。)",
+    "id": "進階4-impetuosity-m1bgtoj5"
+  },
+  {
+    "level": "進階4",
+    "word": "imprudence",
+    "meaning": "n. 不謹慎；輕率",
+    "example": "The board recognized its imprudence in borrowing heavily just before interest rates began to rise. (利率開始上升前大舉借貸，董事會承認這項決定不夠謹慎。)",
+    "id": "進階4-imprudence-m2t5q23"
+  },
+  {
+    "level": "進階4",
+    "word": "irresolute",
+    "meaning": "adj. 猶豫不決的；無決斷力的",
+    "example": "An irresolute response from the minister prolonged uncertainty among investors and regional business leaders. (部長猶豫不決的回應，讓投資人與地方企業領袖的不安持續擴大。)",
+    "id": "進階4-irresolute-muy6zxq"
+  },
+  {
+    "level": "進階4",
+    "word": "unsparing",
+    "meaning": "adj. 毫不留情的；嚴厲的",
+    "example": "The review offered an unsparing assessment of the mayor's promises, measuring them against the city's record. (這篇評論毫不留情地評估市長的承諾，並以城市紀錄逐項檢視。)",
+    "id": "進階4-unsparing-mmjasg1"
+  },
+  {
+    "level": "進階4",
+    "word": "loquacious",
+    "meaning": "adj. 健談的；多話的",
+    "example": "The normally loquacious spokesperson offered only brief answers after the inquiry uncovered missing records. (調查發現紀錄遺失後，平常健談的發言人只簡短回答問題。)",
+    "id": "進階4-loquacious-m17lmsgk"
+  },
+  {
+    "level": "進階4",
+    "word": "impermanence",
+    "meaning": "n. 短暫性；暫時性；無常",
+    "example": "The ephemeral nature of desert meltwater streams underscores the ecological impermanence of semiarid wetland ecosystems. (沙漠融水溪流很快就乾涸，說明半乾旱濕地多麼短暫。)",
+    "id": "進階4-impermanence-m1jxc8tw"
+  },
+  {
+    "level": "進階4",
+    "word": "ebullience",
+    "meaning": "n. 熱情洋溢；活力充沛",
+    "example": "The director's ebullience lifted the exhausted relief team during a difficult week of negotiations. (經過艱難的一週協商，主管熱情洋溢的態度鼓舞了疲憊的救援團隊。)",
+    "id": "進階4-ebullience-muhez2e"
+  },
+  {
+    "level": "進階4",
+    "word": "extortionate",
+    "meaning": "adj. 高得離譜的；敲詐般的",
+    "example": "Small exporters said extortionate port fees had erased the savings promised by the new trade agreement. (小型出口商表示，港口費用高得離譜，抵銷了新貿易協定承諾的節省。)",
+    "id": "進階4-extortionate-mjwv6yu"
+  },
+  {
+    "level": "進階4",
+    "word": "untrammeled",
+    "meaning": "adj. 不受限制的；不受束縛的",
+    "example": "The report argues that untrammeled executive power can weaken oversight even during a national emergency. (報告指出，即使在國家緊急狀態，不受限制的行政權力仍可能削弱監督。)",
+    "id": "進階4-untrammeled-m1ot8egn"
+  },
+  {
+    "level": "進階4",
+    "word": "saccharine",
+    "meaning": "adj. 甜膩的；矯情的",
+    "example": "The critic found the film's saccharine ending unconvincing, despite the actors' restrained performances. (儘管演員表演含蓄，影評人仍覺得電影甜膩的結局缺乏說服力。)",
+    "id": "進階4-saccharine-mho1p9m"
+  },
+  {
+    "level": "進階4",
+    "word": "beguile",
+    "meaning": "v. 迷住；哄騙",
+    "example": "The campaign's polished graphics beguiled viewers, distracting them from the proposal's substantial costs. (競選活動精美的圖像吸引了觀眾，讓他們忽略提案的高額成本。)",
+    "id": "進階4-beguile-m5pderc"
+  },
+  {
+    "level": "進階4",
+    "word": "effrontery",
+    "meaning": "n. 厚顏無恥；放肆",
+    "example": "The contractor had the effrontery to demand full payment after abandoning the unfinished renovation. (承包商丟下未完工的裝修工程，竟還厚顏無恥地要求全額付款。)",
+    "id": "進階4-effrontery-m1jr3r1m"
+  },
+  {
+    "level": "進階4",
+    "word": "historicity",
+    "meaning": "n. 歷史真實性；歷史性",
+    "example": "The historian questioned the historicity of the legend but found contemporary records supporting its central event. (歷史學家質疑這則傳說的真實性，但找到當代紀錄支持其核心事件。)",
+    "id": "進階4-historicity-m1fmj26u"
+  },
+  {
+    "level": "進階4",
+    "word": "disparagement",
+    "meaning": "n. 貶低；輕視",
+    "example": "The report avoids disparagement of rival firms and instead compares their public investment figures objectively. (報告沒有貶低競爭公司，而是客觀比較各家的公開投資數據。)",
+    "id": "進階4-disparagement-m1s0q1b8"
+  },
+  {
+    "level": "進階4",
+    "word": "preeminence",
+    "meaning": "n. 卓越地位；首要地位",
+    "example": "The institute's preeminence in climate research attracted scientists from several countries to its new laboratory. (該研究機構在氣候研究上的卓越地位，吸引多國科學家加入新實驗室。)",
+    "id": "進階4-preeminence-m5zq0bz"
+  },
+  {
+    "level": "進階4",
+    "word": "polyglot",
+    "meaning": "n. 通曉多語者；多語環境",
+    "example": "As a polyglot, the ambassador could negotiate directly with regional leaders without relying on interpreters. (這位大使通曉多種語言，因此能直接與各地領袖談判，不必依賴口譯員。)",
+    "id": "進階4-polyglot-m44pyio"
+  },
+  {
+    "level": "進階4",
+    "word": "imperturbable",
+    "meaning": "adj. 沉著冷靜的；不受干擾的",
+    "example": "The imperturbable negotiator listened to accusations for an hour before calmly presenting the evidence. (這位沉著冷靜的談判代表聽了整整一小時指控，才平靜地提出證據。)",
+    "id": "進階4-imperturbable-ms4jgk"
+  },
+  {
+    "level": "進階4",
+    "word": "puerile",
+    "meaning": "adj. 幼稚的；孩子氣的",
+    "example": "The editorial dismissed the minister's puerile insults and focused instead on the substance of her budget proposal. (社論不理會部長幼稚的辱罵，轉而聚焦她預算提案的實質內容。)",
+    "id": "進階4-puerile-m12bigql"
+  },
+  {
+    "level": "進階4",
+    "word": "vacillation",
+    "meaning": "n. 猶豫不決；立場搖擺",
+    "example": "Investors grew impatient with the regulator's vacillation over whether to approve the proposed acquisition. (主管機關對是否核准收購案遲疑不決，投資人逐漸失去耐心。)",
+    "id": "進階4-vacillation-m1jv1kcm"
+  },
+  {
+    "level": "進階4",
+    "word": "inextricable",
+    "meaning": "adj. 密不可分的；難以解決的",
+    "example": "The inquiry found an inextricable link between the contractor's political donations and several public awards. (調查發現，承包商的政治捐款與多項公共工程得標密不可分。)",
+    "id": "進階4-inextricable-m154mnme"
+  },
+  {
+    "level": "進階4",
+    "word": "usury",
+    "meaning": "n. 高利貸；重利盤剝",
+    "example": "The historian argues that laws against usury often protected borrowers while shielding powerful lenders. (歷史學家主張，反高利貸法往往保護借款人，也庇護了有權勢的放貸者。)",
+    "id": "進階4-usury-m1hr1lyh"
+  },
+  {
+    "level": "進階4",
+    "word": "soporific",
+    "meaning": "adj. 催眠的；令人昏沉的",
+    "example": "The critic found the documentary's soporific narration at odds with its otherwise urgent subject. (評論家認為，這部紀錄片催眠般的旁白，和緊迫的主題格格不入。)",
+    "id": "進階4-soporific-m1phga3t"
+  },
+  {
+    "level": "進階4",
+    "word": "sophomoric",
+    "meaning": "adj. 幼稚自大的；自以為是的",
+    "example": "Her sophomoric dismissal of the evidence exposed a confidence unsupported by years of careful research. (她幼稚自大地否定證據，顯露出缺乏多年嚴謹研究支撐的自信。)",
+    "id": "進階4-sophomoric-m2v96oy"
+  },
+  {
+    "level": "進階4",
+    "word": "imponderable",
+    "meaning": "n. 難測因素；不可估量之事",
+    "example": "No model could capture every imponderable, especially the public's response to the sudden constitutional crisis. (沒有模型能涵蓋所有難測因素，尤其是民眾對突發憲政危機的反應。)",
+    "id": "進階4-imponderable-m71yo7n"
+  },
+  {
+    "level": "進階4",
+    "word": "brinkmanship",
+    "meaning": "n. 邊緣政策；冒險對峙",
+    "example": "The editor called the standoff brinkmanship, warning that neither government could control the consequences. (編輯稱這場僵局是邊緣政策，警告兩國政府都無法控制後果。)",
+    "id": "進階4-brinkmanship-m1yh7m6n"
+  },
+  {
+    "level": "進階4",
+    "word": "braggadocio",
+    "meaning": "n. 自吹自擂；大言不慚",
+    "example": "His braggadocio dominated the interview, but the documents revealed little evidence of actual achievement. (他在訪談中大吹大擂，但文件幾乎沒有顯示他真有什麼成就。)",
+    "id": "進階4-braggadocio-m128hm62"
+  },
+  {
+    "level": "進階4",
+    "word": "irredeemable",
+    "meaning": "adj. 無可救藥的；不可挽回的",
+    "example": "The essay portrays the empire's final campaign as an irredeemable moral failure, not a strategic necessity. (文章將帝國最後的戰役描寫成無可挽回的道德失敗，而非戰略必需。)",
+    "id": "進階4-irredeemable-mm3vrc"
+  },
+  {
+    "level": "進階4",
+    "word": "blameworthy",
+    "meaning": "adj. 應受責備的；有過失的",
+    "example": "The inquiry found the minister blameworthy for concealing risks, though it stopped short of alleging fraud. (調查認定部長隱瞞風險應受責備，但沒有進一步指控他詐欺。)",
+    "id": "進階4-blameworthy-mm6d34a"
+  },
+  {
+    "level": "進階4",
+    "word": "belabor",
+    "meaning": "vt. 反覆強調；過度詳述",
+    "example": "The reviewer refuses to belabor the point, trusting readers to recognize the pattern in later chapters. (評論者不再反覆強調這一點，相信讀者能在後續章節看出模式。)",
+    "id": "進階4-belabor-m1b3t41b"
+  },
+  {
+    "level": "進階4",
+    "word": "sycophant",
+    "meaning": "n. 諂媚者；馬屁精",
+    "example": "The director dismissed the adviser as a sycophant who praised every proposal and challenged none. (主管斥責顧問是個馬屁精，只會稱讚每項提案，從不提出質疑。)",
+    "id": "進階4-sycophant-mm3luwr"
+  },
+  {
+    "level": "進階4",
+    "word": "substantiation",
+    "meaning": "n. 佐證；證據支持",
+    "example": "Investors demanded substantiation for the forecast before approving the company's unusually ambitious expansion plan. (投資人要求預測提出佐證，才批准公司這項格外雄心勃勃的擴張計畫。)",
+    "id": "進階4-substantiation-m13g0uat"
+  },
+  {
+    "level": "進階4",
+    "word": "enervate",
+    "meaning": "vt. 使衰弱；使失去活力",
+    "example": "Months of censorship began to enervate the writers, narrowing both their language and their political imagination. (數月的審查開始使作家們心力交瘁，也限縮了他們的語言和政治想像。)",
+    "id": "進階4-enervate-mbstp9q"
+  },
+  {
+    "level": "進階4",
+    "word": "epochal",
+    "meaning": "adj. 劃時代的；影響深遠的",
+    "example": "The treaty proved epochal, altering borders and institutions long after its negotiators had left office. (這項條約證明具有劃時代的影響，談判代表離任後仍改變了邊界和制度。)",
+    "id": "進階4-epochal-m1ydbfkc"
+  },
+  {
+    "level": "進階4",
+    "word": "remunerative",
+    "meaning": "adj. 有報酬的；收益豐厚的",
+    "example": "The firm abandoned a remunerative contract because its hidden liabilities threatened the balance sheet. (公司放棄了收益豐厚的合約，因為隱藏負債可能危及資產負債表。)",
+    "id": "進階4-remunerative-m1sx5o3v"
+  },
+  {
+    "level": "進階4",
+    "word": "abstemious",
+    "meaning": "adj. 節制飲食的；寡欲自律的",
+    "example": "The abstemious publisher avoided lavish dinners, preferring long walks and plain meals while traveling. (這位生活節制的出版人出差時避開豪華晚宴，偏好長途散步和簡單餐點。)",
+    "id": "進階4-abstemious-m13mlcag"
+  },
+  {
+    "level": "進階4",
+    "word": "exculpatory",
+    "meaning": "adj. 開脫罪責的；證明無辜的",
+    "example": "The newly released memo was exculpatory, contradicting claims that the engineer had approved the unsafe design. (新公開的備忘錄有助於證明工程師無辜，與他批准不安全設計的指控相矛盾。)",
+    "id": "進階4-exculpatory-m1o36abv"
+  },
+  {
+    "level": "進階4",
+    "word": "succor",
+    "meaning": "n. 援助；救濟",
+    "example": "After the earthquake, neighboring towns sent food and medical succor before national relief teams arrived. (地震後，鄰近城鎮在國家救援隊抵達前送來食物和醫療援助。)",
+    "id": "進階4-succor-m1b4y304"
+  },
+  {
+    "level": "進階4",
+    "word": "incongruent",
+    "meaning": "adj. 不相稱的；不一致的",
+    "example": "The mayor's celebratory speech seemed incongruent with the unemployment figures presented minutes earlier. (市長的慶祝演說，和幾分鐘前公布的失業數據顯得不一致。)",
+    "id": "進階4-incongruent-m5auolc"
+  },
+  {
+    "level": "進階4",
+    "word": "ignoramus",
+    "meaning": "n. 無知之人；笨蛋",
+    "example": "An editorial called the minister an ignoramus, then weakened its case by ignoring his published research. (社論稱部長是個無知之人，卻又忽視他已發表的研究，反而削弱論點。)",
+    "id": "進階4-ignoramus-mzkcc4r"
+  },
+  {
+    "level": "進階4",
+    "word": "proscription",
+    "meaning": "n. 禁令；放逐",
+    "example": "The constitution's proscription of hereditary titles reflected a broader rejection of inherited political privilege. (憲法禁止世襲頭銜，反映出社會更廣泛地拒絕世襲政治特權。)",
+    "id": "進階4-proscription-m1nw6y6i"
+  },
+  {
+    "level": "進階4",
+    "word": "flippancy",
+    "meaning": "n. 輕率；不敬態度",
+    "example": "Her flippancy during the memorial offended families who expected the committee to treat the loss seriously. (她在追思會上的輕率態度，冒犯了期待委員會嚴肅看待逝者的家屬。)",
+    "id": "進階4-flippancy-mjaz83n"
+  },
+  {
+    "level": "進階4",
+    "word": "toady",
+    "meaning": "n. 馬屁精；諂媚者\nv. 拍馬屁；奉承",
+    "example": "Do not be a toady to powerful people. (不要當權貴的馬屁精。)",
+    "id": "進階4-toady-m76gzsu"
+  },
+  {
+    "level": "進階4",
+    "word": "lackadaisical",
+    "meaning": "adj. 懶散敷衍的；漫不經心的",
+    "example": "The report criticized a lackadaisical response that left clear safety warnings unaddressed for months. (報告批評應對懶散敷衍，讓明確的安全警訊數月未獲處理。)",
+    "id": "進階4-lackadaisical-m1vk8ss8"
+  },
+  {
+    "level": "進階4",
+    "word": "demagogic",
+    "meaning": "adj. 煽動民粹的；蠱惑人心的",
+    "example": "The columnist described the proposal as demagogic, designed to inflame resentment rather than solve the region's fiscal problems. (專欄作家稱這項提案煽動民粹，意在激化怨憤，而非解決地方財政問題。)",
+    "id": "進階4-demagogic-m1c070v8"
+  },
+  {
+    "level": "進階4",
+    "word": "disavowal",
+    "meaning": "n. 公開否認；斷然否認",
+    "example": "The minister's public disavowal failed to calm allies who had already seen the signed agreement. (部長公開否認仍未能安撫盟友，他們早已看過簽署完成的協議。)",
+    "id": "進階4-disavowal-m1f3zgnv"
+  },
+  {
+    "level": "進階4",
+    "word": "laudatory",
+    "meaning": "adj. 讚揚的；稱許的",
+    "example": "The journal published a laudatory review, praising the biographer's restraint and command of the archival record. (期刊刊出一篇讚揚的書評，肯定傳記作者的克制和對檔案資料的掌握。)",
+    "id": "進階4-laudatory-mej3ast"
+  },
+  {
+    "level": "進階4",
+    "word": "acquiescent",
+    "meaning": "adj. 默然順從的；勉強接受的",
+    "example": "The acquiescent board approved the merger despite unanswered questions about its long-term costs. (董事會雖對長期成本仍有疑問，最後仍順從地批准合併。)",
+    "id": "進階4-acquiescent-m1w09ud3"
+  },
+  {
+    "level": "進階4",
+    "word": "conscientiousness",
+    "meaning": "n. 盡責；認真負責",
+    "example": "Her conscientiousness impressed auditors, who found every assumption documented and each discrepancy promptly reported. (她的盡責讓稽核人員印象深刻，每項假設都有紀錄，差異也都及時回報。)",
+    "id": "進階4-conscientiousness-m1w2jaz2"
+  },
+  {
+    "level": "進階4",
+    "word": "cognizance",
+    "meaning": "n. 認知；察覺",
+    "example": "The court took cognizance of the new evidence before deciding whether to reopen the investigation. (法院在決定是否重啟調查前，先將新證據納入考量。)",
+    "id": "進階4-cognizance-m1ooq0bi"
+  },
+  {
+    "level": "進階4",
+    "word": "asinine",
+    "meaning": "adj. 愚蠢荒唐的；荒謬的",
+    "example": "Calling the evidence irrelevant was asinine; it directly contradicted the company's central claim. (稱證據無關緊要實在荒唐，因為它直接推翻了公司的核心主張。)",
+    "id": "進階4-asinine-mlo6u99"
+  },
+  {
+    "level": "進階4",
+    "word": "verbose",
+    "meaning": "adj. 冗長的；囉嗦的",
+    "example": "The verbose memorandum buried its recommendation beneath six pages of background and repeated caveats. (這份冗長的備忘錄用六頁背景和重複的保留說明，掩蓋了真正建議。)",
+    "id": "進階4-verbose-m5ui01c"
+  },
+  {
+    "level": "進階4",
+    "word": "ethnocentric",
+    "meaning": "adj. 民族中心的；以己族為中心的",
+    "example": "The reviewer calls the policy ethnocentric because it treats one culture's customs as universal standards. (評論者稱這項政策以己族為中心，把一種文化的習俗當成普世標準。)",
+    "id": "進階4-ethnocentric-mv1e4h8"
+  },
+  {
+    "level": "進階4",
+    "word": "realpolitik",
+    "meaning": "n. 現實政治；權力政治",
+    "example": "The ambassador's defense of realpolitik angered activists who saw the agreement as a betrayal of democratic ideals. (大使為現實政治辯護，惹怒了認為協議背叛民主理想的倡議者。)",
+    "id": "進階4-realpolitik-m1ol5ptw"
+  },
+  {
+    "level": "進階4",
+    "word": "tractability",
+    "meaning": "n. 易處理性；可控制性",
+    "example": "The economist questioned the model's tractability once its assumptions allowed thousands of interacting firms. (假設容許數千家公司彼此互動後，經濟學家質疑這個模型是否仍易於處理。)",
+    "id": "進階4-tractability-mx231kx"
+  },
+  {
+    "level": "進階4",
+    "word": "denigration",
+    "meaning": "n. 貶抑；詆毀",
+    "example": "The article's denigration of rural voters relied on stereotypes rather than interviews or reliable data. (這篇文章詆毀鄉村選民，依賴的是刻板印象，而非訪談或可靠資料。)",
+    "id": "進階4-denigration-m1ug5mai"
+  },
+  {
+    "level": "進階4",
+    "word": "pretentiousness",
+    "meaning": "n. 矯飾；自命不凡",
+    "example": "The critic sees pretentiousness in the novel's ornate style, which adds ceremony without adding insight. (評論家認為，小說華麗的文風流於矯飾，增加了排場卻沒有深化見解。)",
+    "id": "進階4-pretentiousness-m1hridn7"
+  },
+  {
+    "level": "進階4",
+    "word": "provincialism",
+    "meaning": "n. 地方風尚；偏狹；地方主義",
+    "example": "The cultural diffusion of centralized metropolitan text legal networks worked to eliminate rural tribal provincialism. (中央集權的大都市文字與法律網絡傳播，有助於消除農村部落的地方主義。)",
+    "id": "進階4-provincialism-m9f26y0"
+  },
+  {
+    "level": "進階4",
+    "word": "sagacious",
+    "meaning": "adj. 睿智的；洞察敏銳的",
+    "example": "The sagacious negotiator secured modest concessions first, leaving room to resolve the larger dispute later. (睿智的談判代表先取得小幅讓步，為日後解決更大的爭端留下空間。)",
+    "id": "進階4-sagacious-myahynh"
+  },
+  {
+    "level": "進階4",
+    "word": "timorous",
+    "meaning": "adj. 膽怯的；畏縮的",
+    "example": "The timorous minister delayed announcing the inquiry, fearing that powerful donors would withdraw their support. (膽怯的部長遲遲不宣布調查，擔心有勢力的捐助者會撤回支持。)",
+    "id": "進階4-timorous-md2mc0s"
+  },
+  {
+    "level": "進階4",
+    "word": "unexceptionable",
+    "meaning": "adj. 無可挑剔的；無可非議的",
+    "example": "The auditor found the filing unexceptionable, although its cautious language concealed an unresolved dispute. (稽核人員認為這份申報無可挑剔，儘管謹慎的措辭掩蓋了一場尚未解決的爭議。)",
+    "id": "進階4-unexceptionable-m19qr6ak"
+  },
+  {
+    "level": "進階4",
+    "word": "polymath",
+    "meaning": "n. 博學者；通才",
+    "example": "The polymath moved easily between astronomy, music, and political history, challenging the academy's narrow divisions. (這位博學者自在穿梭於天文、音樂和政治史之間，挑戰學界狹隘的分類。)",
+    "id": "進階4-polymath-m10aai2v"
+  },
+  {
+    "level": "進階4",
+    "word": "pathbreaking",
+    "meaning": "adj. 開創性的；劃時代的",
+    "example": "Her pathbreaking study linked urban heat to unequal access to tree cover across decades. (她的開創性研究將都市高溫與數十年間樹蔭資源分配不均連結起來。)",
+    "id": "進階4-pathbreaking-m1ihnhw4"
+  },
+  {
+    "level": "進階4",
+    "word": "adumbrate",
+    "meaning": "vt. 概述；預示",
+    "example": "The historian used private letters to adumbrate a conflict that public records barely acknowledged. (歷史學家透過私人信件勾勒出一場公共檔案幾乎未曾提及的衝突。)",
+    "id": "進階4-adumbrate-m5k6olz"
+  },
+  {
+    "level": "進階4",
+    "word": "benefaction",
+    "meaning": "n. 捐助；善行",
+    "example": "A substantial benefaction from the retired publisher preserved the archive and funded its public reading room. (退休出版商的一筆大額捐助保存了檔案，也資助了公共閱覽室。)",
+    "id": "進階4-benefaction-m18mp9re"
+  },
+  {
+    "level": "進階4",
+    "word": "derogate",
+    "meaning": "vi. 貶損；減損",
+    "example": "The columnist warned that personal attacks would derogate from the credibility of an otherwise strong investigation. (專欄作家警告，人身攻擊會損害這項原本扎實的調查所具備的公信力。)",
+    "id": "進階4-derogate-m1umrfau"
+  },
+  {
+    "level": "進階4",
+    "word": "connivance",
+    "meaning": "n. 默許；共謀",
+    "example": "The inquiry found no direct order, yet senior officials' connivance allowed the illegal payments to continue. (調查未發現直接命令，但高階官員的共謀讓非法款項得以持續支付。)",
+    "id": "進階4-connivance-m9y5u9"
+  },
+  {
+    "level": "進階4",
+    "word": "groupthink",
+    "meaning": "n. 群體迷思；從眾思維",
+    "example": "During the acquisition review, groupthink discouraged directors from questioning rosy revenue projections prepared by management. (審查收購案時，群體迷思讓董事不敢質疑管理階層提出的樂觀營收預測。)",
+    "id": "進階4-groupthink-mko21px"
+  },
+  {
+    "level": "進階4",
+    "word": "admonitory",
+    "meaning": "adj. 告誡的；警告的",
+    "example": "The regulator issued an admonitory letter after executives ignored repeated warnings about misleading quarterly disclosures. (主管機關在高階主管無視多次警告後，發出一封告誡信，指其季報揭露具有誤導性。)",
+    "id": "進階4-admonitory-mr3ez02"
+  },
+  {
+    "level": "進階4",
+    "word": "complaisance",
+    "meaning": "n. 殷勤；順從",
+    "example": "Her complaisance toward influential patrons won invitations but weakened her reputation for independent judgment. (她對有影響力的贊助人殷勤逢迎，雖因此獲得邀請，卻損害了獨立判斷的名聲。)",
+    "id": "進階4-complaisance-m6hnfk6"
+  },
+  {
+    "level": "進階4",
+    "word": "sanctimony",
+    "meaning": "n. 假道學；偽善",
+    "example": "The minister's sanctimony rang hollow when reporters revealed that his foundation concealed conflicts of interest. (記者揭露部長的基金會隱瞞利益衝突後，他那副假道學的姿態顯得空洞。)",
+    "id": "進階4-sanctimony-m7rom7q"
+  },
+  {
+    "level": "進階4",
+    "word": "heterodox",
+    "meaning": "adj. 非正統的；異端的",
+    "example": "The heterodox economist questioned austerity policies that officials had treated as beyond serious debate. (這位非正統經濟學家質疑緊縮政策，而官員原本將這類政策視為不容認真討論。)",
+    "id": "進階4-heterodox-m1cxyg82"
+  },
+  {
+    "level": "進階4",
+    "word": "iniquitous",
+    "meaning": "adj. 邪惡的；極不公正的",
+    "example": "The tribunal condemned an iniquitous tax system that burdened poor districts while shielding wealthy landowners. (法庭譴責這套極不公正的稅制：它加重貧困地區負擔，卻保護富有地主。)",
+    "id": "進階4-iniquitous-mplyduv"
+  },
+  {
+    "level": "進階4",
+    "word": "avocation",
+    "meaning": "n. 副業；嗜好",
+    "example": "Though accounting paid her bills, botanical illustration remained the avocation that sustained her curiosity. (會計工作雖是她的生計來源，植物插畫仍是維持她好奇心的嗜好。)",
+    "id": "進階4-avocation-m1gjbg7y"
+  },
+  {
+    "level": "進階4",
+    "word": "inquisitorial",
+    "meaning": "adj. 審問式的；盤問似的",
+    "example": "The commission's inquisitorial hearings discouraged witnesses from volunteering details beyond the questions they faced. (委員會審問式的聽證會，讓證人不敢主動提供問題以外的細節。)",
+    "id": "進階4-inquisitorial-m950wsz"
+  },
+  {
+    "level": "進階4",
+    "word": "servility",
+    "meaning": "n. 奴性；卑躬屈膝",
+    "example": "The ambassador's servility toward the regime embarrassed diplomats who had defended the treaty as a principled compromise. (這位大使對該政權卑躬屈膝，讓曾為條約辯護、稱其為有原則妥協的外交官難堪。)",
+    "id": "進階4-servility-mkfc6zc"
+  },
+  {
+    "level": "進階4",
+    "word": "unfeigned",
+    "meaning": "adj. 真誠的；不虛偽的",
+    "example": "Her unfeigned grief silenced the room, even among colleagues who had often disagreed with her. (她真誠的哀傷讓全場安靜下來，就連常與她意見不合的同事也不例外。)",
+    "id": "進階4-unfeigned-m1oc0si5"
+  },
+  {
+    "level": "進階4",
+    "word": "doggedness",
+    "meaning": "n. 堅忍；頑強",
+    "example": "Through doggedness rather than luck, the archivist recovered records that officials had misplaced for decades. (檔案管理員靠著堅忍而非運氣，找回官員數十年前遺失的紀錄。)",
+    "id": "進階4-doggedness-m2535mh"
+  },
+  {
+    "level": "進階4",
+    "word": "cogency",
+    "meaning": "n. 說服力；論據力度",
+    "example": "The report's cogency came from transparent data, careful comparisons, and a frank account of uncertainty. (這份報告的說服力來自透明的數據、謹慎的比較，以及對不確定性的坦率說明。)",
+    "id": "進階4-cogency-m1urwwaa"
+  },
+  {
+    "level": "進階4",
+    "word": "redound",
+    "meaning": "vi. 有助於；增益",
+    "example": "The museum's open records policy may redound to its credit after years of criticism over disputed acquisitions. (多年來因爭議性收購而受批評後，博物館的檔案公開政策或許能為它增添聲譽。)",
+    "id": "進階4-redound-m14c498r"
+  },
+  {
+    "level": "進階4",
+    "word": "inopportune",
+    "meaning": "adj. 不合時宜的；不湊巧的",
+    "example": "His inopportune joke during the memorial service revived a dispute the family had hoped to leave behind. (他在追思會上開了不合時宜的玩笑，重新引發家人原想放下的爭端。)",
+    "id": "進階4-inopportune-m1pxd9wm"
+  },
+  {
+    "level": "進階4",
+    "word": "adjure",
+    "meaning": "vt. 懇請；鄭重命令",
+    "example": "The judge adjured witnesses to speak plainly, warning that evasions would only deepen public suspicion. (法官鄭重要求證人清楚作證，並警告閃爍其詞只會加深大眾疑慮。)",
+    "id": "進階4-adjure-mzz87em"
+  },
+  {
+    "level": "進階4",
+    "word": "augury",
+    "meaning": "n. 預兆；徵兆",
+    "example": "For investors, the factory's sudden closure was a grim augury of deeper weakness in the regional economy. (對投資人而言，工廠突然關閉是不祥預兆，顯示區域經濟可能有更深層的疲弱。)",
+    "id": "進階4-augury-m11m5jti"
+  },
+  {
+    "level": "進階4",
+    "word": "bestir",
+    "meaning": "vt. 使振作；使忙碌",
+    "example": "Mounting losses forced the board to bestir itself and question the chief executive's expansion plan. (虧損不斷擴大，迫使董事會振作起來，質疑執行長的擴張計畫。)",
+    "id": "進階4-bestir-mq2n42r"
+  },
+  {
+    "level": "進階4",
+    "word": "calumny",
+    "meaning": "n. 誹謗；中傷",
+    "example": "The historian rejected the calumny that the union leader had secretly collaborated with the police. (歷史學家駁斥了工會領袖暗中與警方合作的誹謗說法。)",
+    "id": "進階4-calumny-m1rs00uf"
+  },
+  {
+    "level": "進階4",
+    "word": "docility",
+    "meaning": "n. 溫順；馴服",
+    "example": "The director mistook the analyst's silence for docility, then discovered she had documented every irregular contract. (主管把分析師的沉默誤認為溫順，後來才發現她已記下每一份異常合約。)",
+    "id": "進階4-docility-mqr8tqx"
+  },
+  {
+    "level": "進階4",
+    "word": "fervid",
+    "meaning": "adj. 熱烈的；激昂的",
+    "example": "A fervid defense of the wetlands rallied residents, though the developer still secured a permit from the county. (對濕地的熱烈辯護凝聚了居民，但開發商最後仍取得郡政府許可。)",
+    "id": "進階4-fervid-m199njuc"
+  },
+  {
+    "level": "進階4",
+    "word": "injudicious",
+    "meaning": "adj. 不明智的；欠考慮的",
+    "example": "The mayor's injudicious remarks alienated neighborhood leaders just as the city needed their cooperation on flood planning. (市長欠考慮的發言疏遠了社區領袖，而市府當時正需要他們協助規劃防洪。)",
+    "id": "進階4-injudicious-me9rrux"
+  },
+  {
+    "level": "進階4",
+    "word": "placidity",
+    "meaning": "n. 平靜；沉著",
+    "example": "Her placidity during the tense negotiations steadied the team, while the other side waited for an angry response. (緊張談判中，她的沉著穩住了團隊，對方則等著看她是否動怒。)",
+    "id": "進階4-placidity-mya71i8"
+  },
+  {
+    "level": "進階4",
+    "word": "mendacity",
+    "meaning": "n. 虛偽；說謊",
+    "example": "The inquiry exposed the contractor's mendacity when invoices contradicted his sworn account of the work. (發票與承包商宣誓陳述的工程內容相矛盾，調查因此揭穿了他的謊言。)",
+    "id": "進階4-mendacity-m13bhi61"
+  },
+  {
+    "level": "進階4",
+    "word": "contradistinction",
+    "meaning": "n. 對比；對照",
+    "example": "In contradistinction to earlier surveys, the new study tracked workers after factories closed. (與早期調查相較，這項新研究追蹤了工廠關閉後的勞工。)",
+    "id": "進階4-contradistinction-mjeuqoe"
+  },
+  {
+    "level": "進階4",
+    "word": "retributive",
+    "meaning": "adj. 報復性的；懲罰性的",
+    "example": "Critics called the policy retributive because it punished entire communities for offenses committed by a few. (批評者稱這項政策帶有報復性，因為它懲罰了整個社區，只為少數人犯下的過錯。)",
+    "id": "進階4-retributive-m1rwab8h"
+  },
+  {
+    "level": "進階4",
+    "word": "schismatic",
+    "meaning": "adj. 分裂的；引發分裂的",
+    "example": "The schismatic faction split the coalition after leaders rejected its demands for regional autonomy. (領導人拒絕分裂派系提出的區域自治要求後，聯盟因此分裂。)",
+    "id": "進階4-schismatic-m1sikne6"
+  },
+  {
+    "level": "進階4",
+    "word": "circumvention",
+    "meaning": "n. 規避；迴避",
+    "example": "The regulator closed a loophole that enabled circumvention of disclosure rules through offshore subsidiaries. (主管機關堵住一項漏洞，避免企業透過海外子公司規避揭露規定。)",
+    "id": "進階4-circumvention-m1nx0l92"
+  },
+  {
+    "level": "進階4",
+    "word": "dolor",
+    "meaning": "n. 悲痛；憂傷",
+    "example": "The novelist's restrained account of dolor gave the family's private loss a quiet public resonance. (小說家克制地描寫悲痛，讓這個家庭私下的失落在公眾心中引起低迴共鳴。)",
+    "id": "進階4-dolor-m12u5yh3"
+  },
+  {
+    "level": "進階4",
+    "word": "dotage",
+    "meaning": "n. 老耄；老年糊塗",
+    "example": "Commentators dismissed the senator's warning as dotage, though later events confirmed his concerns. (評論者把參議員的警告當成老糊塗的胡言，但後來的發展證實了他的憂慮。)",
+    "id": "進階4-dotage-m3dsr94"
+  },
+  {
+    "level": "進階4",
+    "word": "expiate",
+    "meaning": "vt. 贖罪；補償",
+    "example": "The corporation tried to expiate years of pollution by funding clinics, but residents demanded cleanup first. (這家公司試圖出資興建診所，補償多年污染造成的傷害，但居民要求先進行清理。)",
+    "id": "進階4-expiate-misxhm"
+  },
+  {
+    "level": "進階4",
+    "word": "fastidiousness",
+    "meaning": "n. 挑剔；一絲不苟",
+    "example": "Her fastidiousness about sources strengthened the biography, though it delayed publication by nearly a year. (她對資料來源一絲不苟，讓傳記內容更扎實，卻也使出版延後近一年。)",
+    "id": "進階4-fastidiousness-mfuzo8s"
+  },
+  {
+    "level": "進階4",
+    "word": "impious",
+    "meaning": "adj. 不敬神的；褻瀆的",
+    "example": "The essay's impious humor unsettled clerics but attracted readers weary of solemn public debate. (這篇文章不敬神的幽默令神職人員不安，卻吸引了厭倦嚴肅公共辯論的讀者。)",
+    "id": "進階4-impious-m8r05sz"
+  },
+  {
+    "level": "進階4",
+    "word": "incurious",
+    "meaning": "adj. 不好奇的；漠不關心的",
+    "example": "An incurious press corps repeated official claims without examining contracts or interviewing workers affected by the closure. (一群漠不關心的記者未查閱合約，也沒訪問受關廠影響的勞工，就照抄官方說法。)",
+    "id": "進階4-incurious-m39wlr6"
+  },
+  {
+    "level": "進階4",
+    "word": "saturnine",
+    "meaning": "adj. 陰鬱的；寡言的",
+    "example": "The saturnine editor rarely praised contributors, yet his sharp revisions rescued several essays from easy sentimentality. (這位陰鬱的編輯很少稱讚投稿者，但他犀利的修改讓幾篇文章免於流於廉價煽情。)",
+    "id": "進階4-saturnine-m1oeicgd"
+  },
+  {
+    "level": "進階4",
+    "word": "stentorian",
+    "meaning": "adj. 聲如洪鐘的；洪亮的",
+    "example": "The union chair's stentorian voice carried across the factory floor as negotiations stalled near midnight. (談判接近午夜仍陷入僵局時，工會主席洪亮的聲音傳遍整座廠房。)",
+    "id": "進階4-stentorian-m1c87itn"
+  },
+  {
+    "level": "進階4",
+    "word": "unctuous",
+    "meaning": "adj. 虛情假意的；諂媚的",
+    "example": "The lobbyist's unctuous praise of the governor contrasted with his private messages mocking the administration. (這名遊說者當面諂媚地稱讚州長，私訊裡卻嘲笑州政府。)",
+    "id": "進階4-unctuous-m9cvc5f"
+  },
+  {
+    "level": "進階4",
+    "word": "acme",
+    "meaning": "n. 巔峰；極致",
+    "example": "For many critics, the architect's riverside museum represented the acme of her long, uneven career. (對許多評論家而言，這座河畔博物館代表了這位建築師漫長且起伏的職涯巔峰。)",
+    "id": "進階4-acme-mohhg0u"
+  },
+  {
+    "level": "進階4",
+    "word": "comity",
+    "meaning": "n. 禮讓；友好相處",
+    "example": "Despite sharp disagreements over tariffs, the neighboring governments maintained comity through regular diplomatic consultations. (儘管雙方對關稅意見尖銳對立，鄰國政府仍透過定期外交磋商維持友好關係。)",
+    "id": "進階4-comity-macq8lh"
+  },
+  {
+    "level": "進階4",
+    "word": "encomium",
+    "meaning": "n. 頌詞；讚辭",
+    "example": "The museum's encomium to the controversial filmmaker praised his influence while avoiding mention of his later scandals. (博物館的頌詞讚揚這位爭議導演的影響力，卻避而不談他後來的醜聞。)",
+    "id": "進階4-encomium-m18reuu4"
+  },
+  {
+    "level": "進階4",
+    "word": "jeremiad",
+    "meaning": "n. 哀嘆文章；悲觀長篇批評",
+    "example": "His weekly jeremiad against modern architecture ignored the public's growing enthusiasm for renovated industrial buildings. (他每週發表長篇文章哀嘆現代建築，卻忽略大眾日益喜愛改造後的工業建築。)",
+    "id": "進階4-jeremiad-mj9iyk6"
+  },
+  {
+    "level": "進階4",
+    "word": "misanthropic",
+    "meaning": "adj. 厭世的；憤世嫉俗的",
+    "example": "The misanthropic novelist avoided literary parties, preferring long walks and letters to a handful of trusted friends. (這位厭世的小說家避開文學派對，寧可長途散步，並寫信給少數信任的朋友。)",
+    "id": "進階4-misanthropic-mb2vg1w"
+  },
+  {
+    "level": "進階4",
+    "word": "recondite",
+    "meaning": "adj. 深奧的；冷僻的",
+    "example": "The critic's recondite references enriched the essay for specialists but left general readers struggling to follow. (評論家冷僻艱深的典故豐富了文章內涵，卻讓一般讀者難以跟上。)",
+    "id": "進階4-recondite-mq6dztf"
+  },
+  {
+    "level": "進階4",
+    "word": "declamatory",
+    "meaning": "adj. 慷慨激昂的；誇張演說式的",
+    "example": "The actor's declamatory delivery overwhelmed a subtle script about grief, class, and family obligation. (演員誇張演說式的表演壓過了劇本對悲傷、階級和家庭責任的細膩描寫。)",
+    "id": "進階4-declamatory-m17meaeb"
+  },
+  {
+    "level": "進階4",
+    "word": "perspicuous",
+    "meaning": "adj. 清晰易懂的；明白曉暢的",
+    "example": "The judge praised counsel's perspicuous summary, which made a complicated chain of payments easy to understand. (法官稱讚律師的摘要清晰易懂，讓人容易理解複雜的款項流向。)",
+    "id": "進階4-perspicuous-mcq1l8r"
+  },
+  {
+    "level": "進階4",
+    "word": "exigent",
+    "meaning": "adj. 緊急的；迫切的",
+    "example": "Facing exigent cash needs, the publisher sold foreign rights before completing negotiations with domestic distributors. (面臨迫切的現金需求，出版社在與國內通路商談妥前，就先賣出海外版權。)",
+    "id": "進階4-exigent-mer9aae"
+  },
+  {
+    "level": "進階4",
+    "word": "cogitate",
+    "meaning": "vi. 深思；沉思",
+    "example": "Rather than answer immediately, the curator cogitated over how the acquisition might alter the museum's public mission. (策展人沒有立即回答，而是深思這次收購可能如何改變博物館的公共使命。)",
+    "id": "進階4-cogitate-mguw66b"
+  },
+  {
+    "level": "進階4",
+    "word": "genuflect",
+    "meaning": "vi. 屈膝跪拜；卑躬屈膝",
+    "example": "The editor refused to genuflect before celebrity authors, insisting that every manuscript receive the same scrutiny. (編輯拒絕對名人作家卑躬屈膝，堅持每份稿件都應接受同等審查。)",
+    "id": "進階4-genuflect-m11898lg"
+  },
+  {
+    "level": "進階4",
+    "word": "martinet",
+    "meaning": "n. 嚴苛的規矩者；嚴格軍官",
+    "example": "The new operations chief was a martinet, demanding punctual reports even during the company's chaotic relocation. (新任營運主管是個嚴苛的規矩者，即使公司搬遷一團亂，仍要求準時提交報告。)",
+    "id": "進階4-martinet-mabprc0"
+  },
+  {
+    "level": "進階4",
+    "word": "perfidy",
+    "meaning": "n. 背信；背叛",
+    "example": "The treaty's collapse followed years of perfidy by leaders who secretly armed the factions they publicly condemned. (條約破局之前，領袖多年來一直背信，暗中武裝他們公開譴責的派系。)",
+    "id": "進階4-perfidy-mhi8oj9"
+  },
+  {
+    "level": "進階4",
+    "word": "raillery",
+    "meaning": "n. 戲謔；嘲弄",
+    "example": "Their familiar raillery softened the tense dinner, though neither executive forgot the contract dispute beneath it. (兩人慣常的戲謔緩和了緊張的晚餐氣氛，但雙方主管都沒忘記背後的合約爭議。)",
+    "id": "進階4-raillery-m1bdm7m3"
+  },
+  {
+    "level": "進階4",
+    "word": "repine",
+    "meaning": "vi. 抱怨；感到不滿",
+    "example": "Rather than repine over lost subsidies, the orchard owners organized a cooperative to negotiate better shipping rates. (果園業者沒有抱怨補助遭刪，而是組成合作社，爭取更好的運輸費率。)",
+    "id": "進階4-repine-m10fo2v"
+  },
+  {
+    "level": "進階4",
+    "word": "circumlocution",
+    "meaning": "n. 迂迴說法；冗長措辭",
+    "example": "The minister's circumlocution frustrated reporters seeking a direct account of the canceled border inspection. (部長冗長迂迴的說法惹惱了記者，他們想直接了解邊境檢查取消的原因。)",
+    "id": "進階4-circumlocution-m11b4voh"
+  },
+  {
+    "level": "進階4",
+    "word": "nostrum",
+    "meaning": "n. 萬靈丹；江湖藥方",
+    "example": "The mayor's tax rebate was no nostrum for declining wages, despite its appeal to frustrated homeowners. (儘管市長的退稅方案吸引了不滿的屋主，它並非解決薪資下滑的萬靈丹。)",
+    "id": "進階4-nostrum-mppht7t"
+  },
+  {
+    "level": "進階4",
+    "word": "pugilist",
+    "meaning": "n. 拳擊手；拳師",
+    "example": "The retired pugilist opened a neighborhood gym where young adults trained alongside former dockworkers. (這位退休拳擊手開了一間社區健身房，讓年輕人和前碼頭工人一起訓練。)",
+    "id": "進階4-pugilist-m15pw5fj"
+  },
+  {
+    "level": "進階4",
+    "word": "idolatrous",
+    "meaning": "adj. 偶像崇拜的；盲目崇拜的",
+    "example": "The biographer avoided an idolatrous portrait, documenting the reformer's compromises as carefully as her achievements. (傳記作者避免塑造盲目崇拜式的形象，對改革者的妥協與成就都同樣詳實記錄。)",
+    "id": "進階4-idolatrous-mvqpbji"
+  },
+  {
+    "level": "進階4",
+    "word": "immanence",
+    "meaning": "n. 內在性；內在存在",
+    "example": "The theologian's account of divine immanence placed spiritual meaning within ordinary work and civic life. (這位神學家以神明內在存在的觀點，將靈性意義置於日常工作與公民生活之中。)",
+    "id": "進階4-immanence-m1m8ruue"
+  },
+  {
+    "level": "進階4",
+    "word": "picaresque",
+    "meaning": "adj. 流浪漢式的；浪子冒險的",
+    "example": "The director adapted the picaresque memoir into a film following a con artist across postwar Europe. (導演將這本流浪漢式回憶錄改編成電影，描寫騙子在戰後歐洲各地漂泊。)",
+    "id": "進階4-picaresque-m10zlti1"
+  },
+  {
+    "level": "進階4",
+    "word": "chary",
+    "meaning": "adj. 謹慎的；小心的",
+    "example": "The union was chary of endorsing the restructuring plan until management disclosed its full cost estimates. (管理階層公開完整成本預估前，工會對支持重整計畫仍很謹慎。)",
+    "id": "進階4-chary-m1lqffms"
+  },
+  {
+    "level": "進階4",
+    "word": "covetous",
+    "meaning": "adj. 貪圖的；覬覦的",
+    "example": "The covetous developer lobbied to acquire the historic pier, hoping to replace its public market with luxury condos. (貪圖利益的開發商遊說收購歷史碼頭，打算把公有市場改建成豪華公寓。)",
+    "id": "進階4-covetous-m18k7b1j"
+  },
+  {
+    "level": "進階4",
+    "word": "decrepitude",
+    "meaning": "n. 衰老；老朽",
+    "example": "The theater's visible decrepitude concealed a lively neighborhood program sustained by volunteers and small donations. (劇院看似老朽，裡頭卻有靠志工和小額捐款維持的熱絡社區活動。)",
+    "id": "進階4-decrepitude-m1hg8uiu"
+  },
+  {
+    "level": "進階4",
+    "word": "doggerel",
+    "meaning": "n. 打油詩；拙劣詩歌",
+    "example": "The pamphlet mixed sharp reporting with doggerel, weakening a serious case against the city's eviction policy. (這本小冊子把犀利報導和拙劣詩歌混在一起，削弱了反對市府驅離政策的嚴肅論述。)",
+    "id": "進階4-doggerel-m19yb2it"
+  },
+  {
+    "level": "進階4",
+    "word": "incautious",
+    "meaning": "adj. 不謹慎的；輕率的",
+    "example": "An incautious remark about layoffs spooked investors before executives had approved any staffing changes. (高階主管尚未核准任何人事異動，一句輕率的裁員談話就先嚇壞了投資人。)",
+    "id": "進階4-incautious-m1dne9h5"
+  },
+  {
+    "level": "進階4",
+    "word": "mellifluous",
+    "meaning": "adj. 悅耳的；流暢的",
+    "example": "The broadcaster's mellifluous voice made even dry budget hearings sound measured and unexpectedly humane. (這位播報員悅耳的嗓音，讓枯燥的預算聽證會聽起來平和而出乎意料地有人情味。)",
+    "id": "進階4-mellifluous-m1478u1q"
+  },
+  {
+    "level": "進階4",
+    "word": "sapient",
+    "meaning": "adj. 聰明的；睿智的",
+    "example": "The sapient judge resisted public pressure, grounding her ruling in precedent and the limits of evidence. (這位睿智的法官不受輿論壓力左右，依據判例和證據限制作出裁決。)",
+    "id": "進階4-sapient-mrv2h10"
+  },
+  {
+    "level": "進階4",
+    "word": "suppliant",
+    "meaning": "n. 懇求者；請願者\nadj. 懇求的；哀求的",
+    "example": "A once-suppliant lobbyist now challenged the minister openly after discovering that promised contracts had vanished. (這名曾經低聲下氣懇求的遊說者，發現承諾的合約落空後，如今公開挑戰部長。)",
+    "id": "進階4-suppliant-m1ri7vt9"
+  },
+  {
+    "level": "進階4",
+    "word": "grandiloquent",
+    "meaning": "adj. 浮誇的；誇大其詞的",
+    "example": "The candidate's grandiloquent pledge to remake the nation drew applause but offered no budget or timetable. (候選人浮誇地承諾重塑國家，贏得掌聲，卻沒有提出預算或時程。)",
+    "id": "進階4-grandiloquent-m10q5nl8"
+  },
+  {
+    "level": "進階4",
+    "word": "inculcation",
+    "meaning": "n. 灌輸；反覆教導",
+    "example": "The director resisted the inculcation of patriotic slogans, asking historians to present conflicting archival evidence. (主管反對灌輸愛國口號，要求歷史學家呈現彼此矛盾的檔案證據。)",
+    "id": "進階4-inculcation-m1mvqu5"
+  },
+  {
+    "level": "進階4",
+    "word": "quintessence",
+    "meaning": "n. 精髓；典範",
+    "example": "To longtime residents, the corner diner remained the quintessence of a city that redevelopment was erasing. (對老居民來說，街角餐館仍是這座正被都市更新抹去的城市精髓。)",
+    "id": "進階4-quintessence-mb3l50y"
+  },
+  {
+    "level": "進階4",
+    "word": "provident",
+    "meaning": "adj. 有遠見的；節儉的",
+    "example": "The provident treasurer reserved part of each year's surplus, protecting the museum during lean seasons. (這位有遠見的財務主管保留每年部分盈餘，讓博物館能安然度過經費緊縮時期。)",
+    "id": "進階4-provident-mk5xwmo"
+  },
+  {
+    "level": "進階4",
+    "word": "abase",
+    "meaning": "vt. 貶低；羞辱",
+    "example": "The inquiry found that managers had abased junior staff publicly to discourage complaints about unsafe shifts. (調查發現，主管曾公開羞辱資淺員工，藉此阻止他們投訴不安全的輪班安排。)",
+    "id": "進階4-abase-m1s0nfti"
+  },
+  {
+    "level": "進階4",
+    "word": "condole",
+    "meaning": "vi. 慰問；弔唁",
+    "example": "Union representatives visited the bereaved machinist's family to condole and arrange practical support from colleagues. (工會代表前往慰問喪親的機械師家屬，也安排同事提供實際協助。)",
+    "id": "進階4-condole-m11muah5"
+  },
+  {
+    "level": "進階4",
+    "word": "cumbrous",
+    "meaning": "adj. 笨重的；累贅的",
+    "example": "The agency replaced its cumbrous approval process with a single review, reducing delays without weakening oversight. (主管機關以單一審查取代繁瑣的核准流程，在不削弱監督的情況下縮短延誤。)",
+    "id": "進階4-cumbrous-m1bfbtsi"
+  },
+  {
+    "level": "進階4",
+    "word": "insubordinate",
+    "meaning": "adj. 不服從的；抗命的",
+    "example": "The general labeled the colonel insubordinate after she refused an order that violated the ceasefire agreement. (上將稱這名上校抗命，因為她拒絕執行違反停火協議的命令。)",
+    "id": "進階4-insubordinate-moqx70p"
+  },
+  {
+    "level": "進階4",
+    "word": "supplicate",
+    "meaning": "vt. 懇求；祈求",
+    "example": "Rather than supplicate the minister for favors, the mayor presented evidence and demanded a public decision. (市長沒有懇求部長施恩，而是提出證據並要求公開作出決定。)",
+    "id": "進階4-supplicate-m15v0b2y"
+  },
+  {
+    "level": "進階4",
+    "word": "zephyr",
+    "meaning": "n. 微風；和風",
+    "example": "A cool zephyr crossed the harbor as dockworkers gathered outside the terminal to hear the union vote. (碼頭工人聚集在航廈外等待工會投票結果時，一陣涼爽的微風掠過港口。)",
+    "id": "進階4-zephyr-m139696l"
+  },
+  {
+    "level": "進階4",
+    "word": "emendation",
+    "meaning": "n. 修訂；校訂",
+    "example": "The editor's emendation corrected a forged date while preserving the witness's original account of the strike. (編輯的校訂更正了一個偽造日期，同時保留證人對罷工事件的原始陳述。)",
+    "id": "進階4-emendation-m1auwmx4"
+  },
+  {
+    "level": "進階4",
+    "word": "inconstant",
+    "meaning": "adj. 不穩定的；易變的",
+    "example": "The coalition's inconstant support made it difficult for the cabinet to pass a durable budget. (聯盟支持不穩，讓內閣難以通過持久有效的預算。)",
+    "id": "進階4-inconstant-m16890hk"
+  },
+  {
+    "level": "進階4",
+    "word": "mawkish",
+    "meaning": "adj. 過度感傷的；煽情的",
+    "example": "The reviewer called the documentary mawkish because it replaced testimony with sentimental music and staged scenes. (影評人批評這部紀錄片過度煽情，因為它以感傷配樂和安排好的場景取代證詞。)",
+    "id": "進階4-mawkish-m4yd9qt"
+  },
+  {
+    "level": "進階4",
+    "word": "anthropomorphism",
+    "meaning": "n. 擬人化；人格化",
+    "example": "Tribal stories often used anthropomorphism, giving falcons human traits. (部落故事常運用擬人化，賦予獵鷹人類特徵。)",
+    "id": "進階4-anthropomorphism-m57ojdt"
+  },
+  {
+    "level": "進階4",
+    "word": "megalomania",
+    "meaning": "n. 妄自尊大；權力妄想",
+    "example": "The profile portrays the ruler's megalomania through increasingly grand projects and silenced advisers. (這篇人物報導透過愈發宏大的工程與噤聲的顧問，描寫統治者的權力妄想。)",
+    "id": "進階4-megalomania-m1ngaofs"
+  },
+  {
+    "level": "進階4",
+    "word": "gerrymander",
+    "meaning": "v. 不公劃分選區；操弄選區",
+    "example": "Lawmakers tried to gerrymander the districts, but the state court ordered an independent map. (立法者試圖不公劃分選區，但州法院下令改由獨立機構繪製選區圖。)",
+    "id": "進階4-gerrymander-my46de8"
+  },
+  {
+    "level": "進階4",
+    "word": "effervescence",
+    "meaning": "n. 熱烈活躍；興奮氣氛",
+    "example": "The city's cultural effervescence attracted artists and investors after decades of industrial decline. (經歷數十年工業衰退後，這座城市熱烈活躍的文化氛圍吸引了藝術家與投資人。)",
+    "id": "進階4-effervescence-ma2gy1c"
+  },
+  {
+    "level": "進階4",
+    "word": "incivility",
+    "meaning": "n. 無禮；不文明行為",
+    "example": "The debate's growing incivility drove several experienced journalists away from the public hearings. (辯論愈來愈失禮，使幾位資深記者不再出席公聽會。)",
+    "id": "進階4-incivility-mpqlq6s"
+  },
+  {
+    "level": "進階4",
+    "word": "aggrandizement",
+    "meaning": "n. 擴權；抬高地位",
+    "example": "The investigation accused senior officials of using emergency contracts for personal aggrandizement. (調查指控高層官員利用緊急合約來擴大個人權勢。)",
+    "id": "進階4-aggrandizement-mgpvkpa"
+  },
+  {
+    "level": "進階4",
+    "word": "odium",
+    "meaning": "n. 厭惡；憎恨；惡名",
+    "example": "The minister tried to shift the odium for the failed reform onto advisers who had warned against it. (部長試圖把改革失敗的惡名推給曾經提出警告的顧問。)",
+    "id": "進階4-odium-m1ss33vq"
+  },
+  {
+    "level": "進階4",
+    "word": "obstreperous",
+    "meaning": "adj. 吵鬧難管的；桀驁不馴的",
+    "example": "The chair struggled to control an obstreperous committee whose members repeatedly interrupted the testimony. (主席難以控制這個吵鬧難管的委員會，成員一再打斷證詞陳述。)",
+    "id": "進階4-obstreperous-mqlj5w5"
+  },
+  {
+    "level": "進階4",
+    "word": "requite",
+    "meaning": "v. 報答；回報；報復",
+    "example": "The union promised to requite loyal employees with bonuses after the company returned to profitability. (工會承諾公司恢復獲利後，會以獎金回報忠誠的員工。)",
+    "id": "進階4-requite-m1247wlk"
+  },
+  {
+    "level": "進階4",
+    "word": "acquisitiveness",
+    "meaning": "n. 貪得無厭；強烈佔有欲",
+    "example": "The essay links corporate acquisitiveness to weak oversight and rewards that favor short term gains. (文章將企業貪得無厭的傾向，連結到監督不足及偏重短期獲利的獎勵制度。)",
+    "id": "進階4-acquisitiveness-mcqhlbe"
+  },
+  {
+    "level": "進階4",
+    "word": "allusive",
+    "meaning": "adj. 暗指的；典故豐富的",
+    "example": "The essay is allusive, drawing on several historical speeches without explaining every reference to readers. (這篇文章暗含多場歷史演說的典故，卻沒有逐一向讀者解釋。)",
+    "id": "進階4-allusive-m29h0no"
+  },
+  {
+    "level": "進階4",
+    "word": "assiduity",
+    "meaning": "n. 勤勉；專心投入",
+    "example": "The archivist's assiduity uncovered overlooked correspondence that altered the accepted account of the negotiations. (檔案員勤勉查找，發現被忽略的信件，改變了外界對談判的既有敘述。)",
+    "id": "進階4-assiduity-mo0ypxd"
+  },
+  {
+    "level": "進階4",
+    "word": "dudgeon",
+    "meaning": "n. 憤怒；不悅",
+    "example": "The ambassador left in high dudgeon after the host publicly questioned her country's motives. (地主國公開質疑她國家的動機後，大使憤然離席。)",
+    "id": "進階4-dudgeon-m13s7w79"
+  },
+  {
+    "level": "進階4",
+    "word": "avidity",
+    "meaning": "n. 熱切；強烈渴望",
+    "example": "Collectors pursued the rare documents with such avidity that auction prices doubled within a week. (收藏家熱切追逐這批稀有文件，讓拍賣價格一週內翻倍。)",
+    "id": "進階4-avidity-mrwg2gt"
+  },
+  {
+    "level": "進階4",
+    "word": "malinger",
+    "meaning": "v. 裝病逃避；託病怠工",
+    "example": "Investigators found that the supervisor had malingered for weeks while collecting full disability payments. (調查人員發現，主管領取全額失能給付期間，已裝病逃避工作好幾週。)",
+    "id": "進階4-malinger-mdu6c96"
+  },
+  {
+    "level": "進階4",
+    "word": "palimpsest",
+    "meaning": "n. 重寫羊皮紙；層疊痕跡",
+    "example": "The old quarter is a palimpsest of colonial buildings, factories, and newer glass towers. (舊城區像層疊的歷史痕跡，交錯著殖民建築、工廠與新式玻璃大樓。)",
+    "id": "進階4-palimpsest-m88t3bq"
+  },
+  {
+    "level": "進階4",
+    "word": "perspicacity",
+    "meaning": "n. 洞察力；敏銳判斷",
+    "example": "Her perspicacity allowed the negotiator to recognize that the rival firm's sudden concession concealed new demands. (她的洞察力讓談判代表看出，對手公司突然讓步其實藏著新要求。)",
+    "id": "進階4-perspicacity-mbevpbs"
+  },
+  {
+    "level": "進階4",
+    "word": "sophistry",
+    "meaning": "n. 詭辯；似是而非的論證",
+    "example": "The editorial exposed the minister's sophistry by comparing his public claims with the budget documents. (社論將部長的公開說法與預算文件對照，揭穿了他的詭辯。)",
+    "id": "進階4-sophistry-m14uzn21"
+  },
+  {
+    "level": "進階4",
+    "word": "temporize",
+    "meaning": "vi. 拖延決定；暫緩表態",
+    "example": "The minister continued to temporize, hoping public pressure would ease before the coalition vote. (部長繼續拖延表態，希望聯盟投票前的輿論壓力能有所減輕。)",
+    "id": "進階4-temporize-m11bxxlo"
+  },
+  {
+    "level": "進階4",
+    "word": "corruptible",
+    "meaning": "adj. 易受賄的；可腐化的",
+    "example": "The watchdog warned that opaque procurement rules left local officials corruptible and difficult to monitor. (監督組織警告，採購規則不透明，讓地方官員容易受賄且難以監督。)",
+    "id": "進階4-corruptible-mq08r8m"
+  },
+  {
+    "level": "進階4",
+    "word": "hermetic",
+    "meaning": "adj. 密封的；不透氣的",
+    "example": "The sensitive electronic components were sealed inside a hermetic chamber to protect them from moisture. (精密電子元件被密封在氣密腔室內，以防受潮。)",
+    "id": "進階4-hermetic-m1i38rhx"
+  },
+  {
+    "level": "進階4",
+    "word": "inscrutability",
+    "meaning": "n. 深不可測；難以理解",
+    "example": "The agency's inscrutability fueled public suspicion after officials refused to release the contract details. (官員拒絕公開合約細節後，機構深不可測的作風加深了民眾疑慮。)",
+    "id": "進階4-inscrutability-m1vddg81"
+  },
+  {
+    "level": "進階4",
+    "word": "irremediable",
+    "meaning": "adj. 無法補救的；無可挽回的",
+    "example": "The review concluded that years of neglect had caused irremediable damage to the historic courthouse. (審查認定，多年疏於維護已對這座歷史法院造成無可挽回的損害。)",
+    "id": "進階4-irremediable-m1w5u711"
+  },
+  {
+    "level": "進階4",
+    "word": "perfidious",
+    "meaning": "adj. 背信的；不忠的",
+    "example": "The memoir portrays the governor as perfidious for secretly reversing promises made to rural voters. (回憶錄將州長描寫為背信者，因為他私下推翻了對鄉村選民的承諾。)",
+    "id": "進階4-perfidious-m13ptith"
+  },
+  {
+    "level": "進階4",
+    "word": "simulacrum",
+    "meaning": "n. 仿製品；虛假表象",
+    "example": "The consultant called the glossy campaign a simulacrum of reform because it changed slogans but preserved old procedures. (顧問稱這場華麗宣傳只是改革的假象，因為它只換標語，舊流程卻原封不動。)",
+    "id": "進階4-simulacrum-m15ih0rh"
+  },
+  {
+    "level": "進階4",
+    "word": "unceremonious",
+    "meaning": "adj. 不拘禮節的；草率的",
+    "example": "The board's unceremonious dismissal of the chair surprised executives who expected a lengthy review. (董事會草率解聘主席，令原以為會經過冗長審查的高階主管錯愕。)",
+    "id": "進階4-unceremonious-mbapxci"
+  },
+  {
+    "level": "進階4",
+    "word": "impalpable",
+    "meaning": "adj. 無形的；難以察覺的",
+    "example": "Trust is impalpable, yet its absence can quickly undermine cooperation between departments. (信任無形，卻可能在缺乏時迅速破壞部門之間的合作。)",
+    "id": "進階4-impalpable-m1m0jbdb"
+  },
+  {
+    "level": "進階4",
+    "word": "incontestable",
+    "meaning": "adj. 無可爭辯的；確鑿的",
+    "example": "The archive provides incontestable evidence that officials received warnings months before the bridge collapsed. (檔案提供無可爭辯的證據，證明官員在橋梁坍塌前數月就收到警告。)",
+    "id": "進階4-incontestable-mlcy61k"
+  },
+  {
+    "level": "進階4",
+    "word": "ineluctable",
+    "meaning": "adj. 不可避免的；無法逃避的",
+    "example": "For the aging coalition, demographic change made electoral defeat seem ineluctable despite its campaign's late momentum. (對逐漸老化的聯盟而言，人口變化讓選舉失利看似無可避免，儘管競選後期氣勢上升。)",
+    "id": "進階4-ineluctable-m1l97ckt"
+  },
+  {
+    "level": "進階4",
+    "word": "shiftless",
+    "meaning": "adj. 懶散怠惰的；不負責任的",
+    "example": "The biographer rejects the stereotype of a shiftless workforce, documenting how workers organized mutual aid. (傳記作者否定工人懶散怠惰的刻板印象，記錄他們如何組織互助。)",
+    "id": "進階4-shiftless-mxorjam"
+  },
+  {
+    "level": "進階4",
+    "word": "vituperative",
+    "meaning": "adj. 辱罵的；惡言相向的",
+    "example": "The columnist's vituperative attacks obscured valid criticism of the minister's poorly documented spending plan. (專欄作家的辱罵式攻擊，掩蓋了對部長支出計畫缺乏文件佐證的合理批評。)",
+    "id": "進階4-vituperative-mg46vv5"
+  },
+  {
+    "level": "進階4",
+    "word": "abstinent",
+    "meaning": "adj. 節制的；禁慾的",
+    "example": "The abstinent candidate discussed recovery without moralizing, earning respect from voters across several communities. (這位禁酒的候選人談康復過程時沒有說教，贏得多個社群選民的尊重。)",
+    "id": "進階4-abstinent-m1442u3e"
+  },
+  {
+    "level": "進階4",
+    "word": "sycophancy",
+    "meaning": "n. 諂媚；阿諛奉承",
+    "example": "The investigation revealed sycophancy around the chief executive, with advisers suppressing doubts to preserve access. (調查揭露執行長身邊充斥諂媚，顧問為了維持接近他的機會而壓下疑慮。)",
+    "id": "進階4-sycophancy-m8i0lsl"
+  },
+  {
+    "level": "進階4",
+    "word": "dissidence",
+    "meaning": "n. 異議；反對派立場",
+    "example": "The historian traces how dissidence survived despite censorship, exile, and the disappearance of independent newspapers. (歷史學家追溯異議如何在審查、流亡和獨立報紙消失後仍延續。)",
+    "id": "進階4-dissidence-m17m0ui4"
+  },
+  {
+    "level": "進階4",
+    "word": "equivocate",
+    "meaning": "vi. 含糊其辭；閃爍其詞",
+    "example": "Pressed about the missing funds, the treasurer continued to equivocate rather than explain the transfers. (被追問款項去向時，財務主管仍閃爍其詞，不肯解釋轉帳。)",
+    "id": "進階4-equivocate-m81l6pj"
+  },
+  {
+    "level": "進階4",
+    "word": "beleaguer",
+    "meaning": "vt. 困擾；使陷入困境",
+    "example": "A succession of lawsuits continued to beleaguer the company as it prepared a long-awaited public offering. (公司準備已久的公開發行之際，一連串訴訟持續困擾著它。)",
+    "id": "進階4-beleaguer-mttldmb"
+  },
+  {
+    "level": "進階4",
+    "word": "euphemistic",
+    "meaning": "adj. 委婉的；避重就輕的",
+    "example": "The agency's euphemistic statement called mass layoffs a workforce adjustment, drawing criticism from former employees. (機構的聲明委婉地把大規模裁員稱為人力調整，引來離職員工批評。)",
+    "id": "進階4-euphemistic-ml3gsee"
+  },
+  {
+    "level": "進階4",
+    "word": "profligacy",
+    "meaning": "n. 揮霍；放縱浪費",
+    "example": "Public anger over fiscal profligacy grew after officials borrowed heavily while cutting essential services. (官員大幅舉債又削減基本服務後，民眾對財政揮霍的不滿升高。)",
+    "id": "進階4-profligacy-mecszvk"
+  },
+  {
+    "level": "進階4",
+    "word": "auspices",
+    "meaning": "n. 支持；主辦",
+    "example": "The commission convened under United Nations auspices to investigate alleged violations along the border. (委員會在聯合國主辦下召開會議，調查邊境沿線的違規指控。)",
+    "id": "進階4-auspices-m1i093xw"
+  },
+  {
+    "level": "進階4",
+    "word": "criterion",
+    "meaning": "n. 標準；判準",
+    "example": "High customer satisfaction is the main criterion for evaluating service performance. (高客戶滿意度是評估服務績效的主要標準。)",
+    "id": "進階4-criterion-m3nfxxs"
+  },
+  {
+    "level": "進階4",
+    "word": "disaffected",
+    "meaning": "adj. 不滿疏離的；心生怨懟的",
+    "example": "Disaffected voters blamed both parties for preserving a system that offered little relief to indebted households. (心生不滿的選民指責兩黨維護舊制度，未能減輕負債家庭的壓力。)",
+    "id": "進階4-disaffected-m5iu21h"
+  },
+  {
+    "level": "進階4",
+    "word": "discerning",
+    "meaning": "adj. 有鑑賞力的；有眼光的",
+    "example": "Our luxury product line is designed specifically for discerning customers who value quality and craftsmanship above all else. (我們的精品系列專為最重視品質與工藝的有鑑賞力客戶設計。)",
+    "id": "進階4-discerning-m611zfu"
+  },
+  {
+    "level": "進階4",
+    "word": "dystopian",
+    "meaning": "adj. 反烏托邦的；令人絕望的",
+    "example": "The novelist's dystopian vision of automated cities renewed debate about surveillance and private life. (小說家描繪的反烏托邦自動化城市，再度引發對監控與私人生活的辯論。)",
+    "id": "進階4-dystopian-munqr35"
+  },
+  {
+    "level": "進階4",
+    "word": "enterprising",
+    "meaning": "adj. 具創業精神的；有進取心的",
+    "example": "An enterprising land speculator purchased thousands of midwest prairie hectares, anticipating the transcontinental railway grid. (一位有進取心的土地投機者購買了數千公頃的中西部草原，預期橫貫大陸的鐵路網將會建成。)",
+    "id": "進階4-enterprising-m19cmmfc"
+  },
+  {
+    "level": "進階4",
+    "word": "ethic",
+    "meaning": "n. 道德準則；倫理觀",
+    "example": "The business school offers a required course on corporate ethics and governance. (商學院開設了一門公司倫理與治理的必修課程。)",
+    "id": "進階4-ethic-mke3bmn"
+  },
+  {
+    "level": "進階4",
+    "word": "harrowing",
+    "meaning": "adj. 令人痛苦的；折磨人的",
+    "example": "Her harrowing account of forced displacement changed how international donors evaluated the relief programme. (她令人痛苦的流離失所經歷，改變了國際捐助者評估救援計畫的方式。)",
+    "id": "進階4-harrowing-megmesy"
+  },
+  {
+    "level": "進階4",
+    "word": "impending",
+    "meaning": "adj. 即將發生的；迫近的",
+    "example": "The company issued a notice regarding the impending merger to ensure all employees are well-informed. (公司發布即將合併的通知，確保所有員工都充分了解相關資訊。)",
+    "id": "進階4-impending-ma9hsk0"
+  },
+  {
+    "level": "進階4",
+    "word": "misogynistic",
+    "meaning": "adj. 厭女的；歧視女性的",
+    "example": "The report documented misogynistic messages sent to elected officials and described their effect on public participation. (報告記錄了寄給民選官員的厭女訊息，並說明這些訊息對公眾參與的影響。)",
+    "id": "進階4-misogynistic-mf1yuuc"
+  },
+  {
+    "level": "進階4",
+    "word": "multifaceted",
+    "meaning": "adj. 多面向的；多才多藝的",
+    "example": "The evolutionary transition to bipedal locomotion freed early hominid forelimbs to manipulate tools with multifaceted designs. (演化出雙足行走後，早期人族解放了前肢，得以操作具有多種功能的工具。)",
+    "id": "進階4-multifaceted-m3siwxa"
+  },
+  {
+    "level": "進階4",
+    "word": "polemics",
+    "meaning": "n. 論戰；爭辯文字",
+    "example": "The journal prefers evidence-based analysis to polemics that caricature opponents and simplify difficult policy choices. (期刊偏好以證據為本的分析，而非醜化對手、簡化艱難政策選擇的論戰文字。)",
+    "id": "進階4-polemics-m9hirkj"
+  },
+  {
+    "level": "進階4",
+    "word": "reckoning",
+    "meaning": "n. 計算；估算；清算",
+    "example": "The election became a reckoning for officials who had ignored water shortages despite years of warnings. (多年警告未受重視後，這場選舉成了對那些忽視缺水問題的官員進行清算的時刻。)",
+    "id": "進階4-reckoning-mpv3g7u"
+  },
+  {
+    "level": "進階4",
+    "word": "sceptical",
+    "meaning": "adj. 懷疑的；持保留態度的",
+    "example": "The sceptical auditor requested independent valuations before accepting management’s optimistic projections during the annual review. (持懷疑態度的稽核員要求先取得獨立估值，才接受管理階層樂觀的預測。)",
+    "id": "進階4-sceptical-m16qhcal"
+  },
+  {
+    "level": "進階4",
+    "word": "scepticism",
+    "meaning": "n. 懷疑；質疑態度",
+    "example": "Public scepticism persisted because officials released the findings without the underlying data or methodology. (官員公布結果時沒有提供原始資料或方法，因此民眾持續抱持懷疑。)",
+    "id": "進階4-scepticism-mdsxq2r"
+  },
+  {
+    "level": "進階4",
+    "word": "trappings",
+    "meaning": "n. 外在裝飾；表面排場",
+    "example": "The new chair rejected the trappings of office, choosing a modest room and open meetings with staff. (新任主席拒絕官職的表面排場，選擇簡樸辦公室並與員工公開開會。)",
+    "id": "進階4-trappings-m18rteis"
+  },
+  {
+    "level": "進階4",
+    "word": "unbeknownst",
+    "meaning": "adv. 不為人知地；瞞著",
+    "example": "Unbeknownst to shareholders, the board had already negotiated a private sale of the subsidiary. (董事會早已私下協商出售子公司，股東對此毫不知情。)",
+    "id": "進階4-unbeknownst-mb08rh8"
+  },
+  {
+    "level": "進階4",
+    "word": "utopia",
+    "meaning": "n. 烏托邦；理想國",
+    "example": "The policy promised a utopia of equal opportunity, but critics questioned whether its funding plan was realistic. (政策承諾建立機會平等的理想國，但批評者質疑其資金計畫是否現實。)",
+    "id": "進階4-utopia-m1gid61s"
+  },
+  {
+    "level": "進階4",
+    "word": "wretched",
+    "meaning": "adj. 悲慘的；可憐的；惡劣的",
+    "example": "The wretched family lost their home in the flood and needed urgent help. (那個不幸的家庭在洪水中失去家園，急需幫助。)",
+    "id": "進階4-wretched-m1n8zbe5"
+  }
+]

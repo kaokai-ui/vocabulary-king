@@ -9,7 +9,9 @@ export const vocabularyTracks = [
   { value: "toeic", labelKey: "vocabularyTrackToeic", enabled: true },
   { value: "toeic-advanced", labelKey: "vocabularyTrackToeicAdvanced", enabled: true },
   { value: "toefl", labelKey: "vocabularyTrackToefl", enabled: true },
-  { value: "ielts", labelKey: "vocabularyTrackIelts", enabled: true }
+  { value: "ielts", labelKey: "vocabularyTrackIelts", enabled: true },
+  { value: "gre", labelKey: "vocabularyTrackGre", enabled: true },
+  { value: "gmat", labelKey: "vocabularyTrackGmat", enabled: true }
 ];
 
 const legacyVocabularyTrackAliases = {

@@ -12,11 +12,13 @@ const BADGE_KEYS = {
   toeic: "wordBadgeToeic",
   "toeic-advanced": "wordBadgeToeicAdvanced",
   toefl: "wordBadgeToefl",
-  ielts: "wordBadgeIelts"
+  ielts: "wordBadgeIelts",
+  gre: "wordBadgeGre",
+  gmat: "wordBadgeGmat"
 };
 
 const LEVELED_TRACKS = new Set(["junior-high", "senior-high", "senior-high-5-6"]);
-const EXAM_LEVEL_TRACKS = new Set(["toeic", "toeic-advanced", "toefl", "ielts"]);
+const EXAM_LEVEL_TRACKS = new Set(["toeic", "toeic-advanced", "toefl", "ielts", "gre", "gmat"]);
 
 export function formatWordBadge(text, trackId, level) {
   const name = text[BADGE_KEYS[trackId]];

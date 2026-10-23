@@ -25,7 +25,7 @@ import {
   validateSenseRow
 } from "./vocabulary-senses.mjs";
 
-const REBUILD_TRACKS = new Set(["toeic", "toeic-advanced", "toefl", "ielts"]);
+const REBUILD_TRACKS = new Set(["toeic", "toeic-advanced", "toefl", "ielts", "gre", "gmat"]);
 const PHRASE_GROUPS = new Set([
   "會議與簡報", "財務與會計", "人事與招募", "行銷與銷售",
   "採購與物流", "客服與溝通", "管理與策略", "日常與通用"
@@ -33,7 +33,7 @@ const PHRASE_GROUPS = new Set([
 const TASK_INPUT_DIRECTORY = path.join("docs", "tasks", "vocab-rebuild-20261023");
 
 function usage() {
-  return "Usage: npm run apply:vocab-rebuild -- --track <toeic|toeic-advanced|toefl|ielts> --dir <out-folder> --data-dir <repo> [--dry-run] [--allow-partial]";
+  return "Usage: npm run apply:vocab-rebuild -- --track <toeic|toeic-advanced|toefl|ielts|gre|gmat> --dir <out-folder> --data-dir <repo> [--dry-run] [--allow-partial]";
 }
 
 function parseArguments(args) {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "3435cf26e674",
+  "generatedAt": "22119ebf0daa",
   "tracks": {
     "elementary": {
       "id": "elementary",
@@ -580,6 +580,88 @@
           "id": "片語：日常與通用",
           "label": "片語：日常與通用",
           "totalWords": 21
+        }
+      ]
+    },
+    "gre": {
+      "id": "gre",
+      "available": true,
+      "title": "GRE",
+      "totalWords": 3381,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "gre-chunk-1",
+          "path": "data/tracks/gre/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "gre-chunk-2",
+          "path": "data/tracks/gre/chunk-002.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "gre-chunk-3",
+          "path": "data/tracks/gre/chunk-003.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "gre-chunk-4",
+          "path": "data/tracks/gre/chunk-004.json",
+          "wordCount": 381
+        }
+      ],
+      "levels": [
+        {
+          "id": "進階1",
+          "label": "進階1",
+          "totalWords": 846
+        },
+        {
+          "id": "進階2",
+          "label": "進階2",
+          "totalWords": 846
+        },
+        {
+          "id": "進階3",
+          "label": "進階3",
+          "totalWords": 846
+        },
+        {
+          "id": "進階4",
+          "label": "進階4",
+          "totalWords": 843
+        }
+      ]
+    },
+    "gmat": {
+      "id": "gmat",
+      "available": true,
+      "title": "GMAT",
+      "totalWords": 1894,
+      "chunkSize": 1000,
+      "chunkFiles": [
+        {
+          "id": "gmat-chunk-1",
+          "path": "data/tracks/gmat/chunk-001.json",
+          "wordCount": 1000
+        },
+        {
+          "id": "gmat-chunk-2",
+          "path": "data/tracks/gmat/chunk-002.json",
+          "wordCount": 894
+        }
+      ],
+      "levels": [
+        {
+          "id": "進階1",
+          "label": "進階1",
+          "totalWords": 947
+        },
+        {
+          "id": "進階2",
+          "label": "進階2",
+          "totalWords": 947
         }
       ]
     }
