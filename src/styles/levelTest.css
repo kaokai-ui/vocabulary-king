@@ -110,11 +110,15 @@
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
 }
 
-.level-test-choice:hover,
-.level-test-unknown:hover {
-  transform: translateY(-2px);
-  border-color: rgba(42, 157, 143, 0.6);
-  background: rgba(42, 157, 143, 0.06);
+/* Hover only with a real pointer: on phones a tapped spot stays "hovered", and the button in that
+   position on the next question looked pre-selected (user 10/24: read it as a hint). */
+@media (hover: hover) and (pointer: fine) {
+  .level-test-question-panel:not(.is-hover-paused) .level-test-choice:hover,
+  .level-test-question-panel:not(.is-hover-paused) .level-test-unknown:hover {
+    transform: translateY(-2px);
+    border-color: rgba(42, 157, 143, 0.6);
+    background: rgba(42, 157, 143, 0.06);
+  }
 }
 
 .level-test-choice:focus-visible,

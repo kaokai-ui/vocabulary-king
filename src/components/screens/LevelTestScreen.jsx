@@ -124,6 +124,9 @@ function LevelRuler({ tracks, wordCount, text }) {
 
 export default function LevelTestScreen({ text, locale, onHome, onSwitchTrack }) {
   const [bank, setBank] = useState(null);
+  // A new question shows no hover highlight until the pointer moves; otherwise the answer under the
+  // resting mouse looks pre-selected (user 10/24).
+  const [hoverArmed, setHoverArmed] = useState(false);
   const [tracks, setTracks] = useState([]);
   const [session, setSession] = useState(() => createLevelTestSession(Date.now()));
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -173,6 +176,7 @@ export default function LevelTestScreen({ text, locale, onHome, onSwitchTrack })
 
     const nextSession = answerLevelTestQuestion(session, currentQuestion, selectedChoiceId);
     setSession(nextSession);
+    setHoverArmed(false);
 
     if (nextSession.answers.length >= LEVEL_TEST_QUESTION_COUNT) {
       const wordCount = estimateLevelTestWordCount(nextSession.answers);
@@ -292,7 +296,14 @@ export default function LevelTestScreen({ text, locale, onHome, onSwitchTrack })
           />
         </>
       ) : currentQuestion ? (
-        <section className="level-test-question-panel" aria-live="polite">
+        // Keyed per question so the answer buttons are new elements each time: no hover or focus
+        // carried over from the previous tap.
+        <section
+          className={"level-test-question-panel" + (hoverArmed ? "" : " is-hover-paused")}
+          aria-live="polite"
+          key={currentQuestion.id}
+          onMouseMove={hoverArmed ? undefined : () => setHoverArmed(true)}
+        >
           <div className="level-test-progress-row">
             <span>
               {text.levelTestQuestionProgress
