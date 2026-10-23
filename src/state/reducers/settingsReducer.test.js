@@ -6,6 +6,7 @@ describe("settingsReducer", () => {
   const initialState = {
     locale: "zh-TW",
     vocabularyTrack: "junior-high",
+    vocabularyLevel: "all",
     pronunciationAccent: "US",
     autoShowMeaning: false,
     autoShowExample: false,
@@ -49,6 +50,25 @@ describe("settingsReducer", () => {
     });
 
     expect(nextState.vocabularyTrack).toBe("gept-elementary");
+  });
+
+  it("resets the selected level when the vocabulary track changes", () => {
+    const nextState = settingsReducer({ ...initialState, vocabularyLevel: "基礎1" }, {
+      type: actionTypes.updateSetting,
+      payload: { key: "vocabularyTrack", value: "ielts" }
+    });
+
+    expect(nextState.vocabularyTrack).toBe("ielts");
+    expect(nextState.vocabularyLevel).toBe("all");
+  });
+
+  it("stores a selected vocabulary level", () => {
+    const nextState = settingsReducer(initialState, {
+      type: actionTypes.updateSetting,
+      payload: { key: "vocabularyLevel", value: "基礎1" }
+    });
+
+    expect(nextState.vocabularyLevel).toBe("基礎1");
   });
 
   it("normalizes pronunciation accents", () => {
