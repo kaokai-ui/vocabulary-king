@@ -6,10 +6,13 @@ import xlsx from "xlsx";
 import { getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.mjs";
 import { validateSenseRow } from "./vocabulary-senses.mjs";
+import { exampleUsesHeadword, normalizeEnglishTokens } from "./vocabulary-example-match.mjs";
 import {
   findSourceWorkbookPath,
   TRACK_DEFINITIONS
 } from "./vocabulary-source-definitions.mjs";
+
+export { exampleUsesHeadword };
 
 const CONVERT_TO_TAIWAN_TRADITIONAL = OpenCC.Converter({ from: "cn", to: "tw" });
 const HAN_CHARACTER = /\p{Script=Han}/u;
@@ -46,129 +49,11 @@ const COMMON_TAIWAN_CHARACTER_VARIANTS = new Set([
   "台", "游", "伙", "划", "布", "念", "了", "占", "家", "具", "污", "雇", "岩", "克", "卷", "么",
   "祕", "蒙", "注", "回", "霉", "采", "搜", "弦", "癡", "脣", "郁", "局", "拐"
 ]);
-const SEPARABLE_PHRASAL_PARTICLES = new Set([
-  "about", "across", "along", "around", "away", "back", "down", "in", "off", "on", "out", "over", "through", "up"
-]);
-const HYPHEN_BOUNDARY_TOKEN = "__hyphen__";
-const PUNCTUATION_BOUNDARY_TOKEN = "__punctuation__";
-const HEADWORD_PLACEHOLDERS = new Set([
-  "__slot_a__", "__slot_b__", "sb", "sth", "someone", "something", "__slot_possessive__", "oneself", "..."
-]);
-const ARTICLE_DETERMINERS = new Set([
-  "a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "our", "their",
-  "some", "any", "each", "every", "either", "neither", "one"
-]);
-const POSSESSIVE_PRONOUNS = new Set(["one's", "my", "your", "his", "her", "its", "our", "their"]);
-const REFLEXIVE_PRONOUNS = new Set([
-  "oneself", "myself", "yourself", "yourselves", "himself", "herself", "itself", "ourselves", "themselves"
-]);
-const BE_FORM_SEQUENCES = [
-  ["will", "have", "been"], ["would", "have", "been"], ["could", "have", "been"], ["should", "have", "been"],
-  ["might", "have", "been"], ["may", "have", "been"], ["must", "have", "been"], ["shall", "have", "been"],
-  ["has", "been"], ["have", "been"], ["had", "been"], ["is", "being"], ["are", "being"], ["was", "being"], ["were", "being"],
-  ["will", "be"], ["would", "be"], ["could", "be"], ["should", "be"], ["might", "be"], ["may", "be"], ["must", "be"], ["shall", "be"],
-  ["am"], ["is"], ["are"], ["was"], ["were"], ["be"], ["been"], ["being"]
-];
 const POS_CODES = ["interj", "modal", "prep", "pron", "conj", "abbr", "aux", "art", "det", "num", "phr", "adj", "adv", "vt", "vi", "int", "ad", "n", "v", "a"];
 const POS_PREFIX = new RegExp(
   `^(?:\\s*(?:${POS_CODES.join("|")})\\.?(?=\\s|\\/|,|;|&|$)\\s*(?:(?:\\/|,|;|&|\\band\\b)\\s*)?)+`,
   "i"
 );
-
-const IRREGULAR_WORD_FORMS = {
-  am: ["am", "is", "are", "was", "were", "been", "being"],
-  be: ["am", "is", "are", "was", "were", "been", "being"],
-  is: ["am", "is", "are", "was", "were", "been", "being"],
-  are: ["am", "is", "are", "was", "were", "been", "being"],
-  was: ["am", "is", "are", "was", "were", "been", "being"],
-  were: ["am", "is", "are", "was", "were", "been", "being"],
-  have: ["has", "had", "having"],
-  do: ["does", "did", "done", "doing"],
-  go: ["goes", "went", "gone", "going"],
-  say: ["says", "said", "saying"],
-  make: ["makes", "made", "making"],
-  take: ["takes", "took", "taken", "taking"],
-  come: ["comes", "came", "coming"],
-  see: ["sees", "saw", "seen", "seeing"],
-  get: ["gets", "got", "gotten", "getting"],
-  give: ["gives", "gave", "given", "giving"],
-  know: ["knows", "knew", "known", "knowing"],
-  write: ["writes", "wrote", "written", "writing"],
-  eat: ["eats", "ate", "eaten", "eating"],
-  drink: ["drinks", "drank", "drunk", "drinking"],
-  begin: ["begins", "began", "begun", "beginning"],
-  break: ["breaks", "broke", "broken", "breaking"],
-  choose: ["chooses", "chose", "chosen", "choosing"],
-  drive: ["drives", "drove", "driven", "driving"],
-  fall: ["falls", "fell", "fallen", "falling"],
-  feel: ["feels", "felt", "feeling"],
-  find: ["finds", "found", "finding"],
-  fly: ["flies", "flew", "flown", "flying"],
-  forget: ["forgets", "forgot", "forgotten", "forgetting"],
-  freeze: ["freezes", "froze", "frozen", "freezing"],
-  grow: ["grows", "grew", "grown", "growing"],
-  hear: ["hears", "heard", "hearing"],
-  keep: ["keeps", "kept", "keeping"],
-  leave: ["leaves", "left", "leaving"],
-  lose: ["loses", "lost", "losing"],
-  meet: ["meets", "met", "meeting"],
-  pay: ["pays", "paid", "paying"],
-  put: ["puts", "put", "putting"],
-  run: ["runs", "ran", "run", "running"],
-  send: ["sends", "sent", "sending"],
-  sit: ["sits", "sat", "sitting"],
-  speak: ["speaks", "spoke", "spoken", "speaking"],
-  shrink: ["shrinks", "shrank", "shrunk", "shrinking"],
-  stand: ["stands", "stood", "standing"],
-  swim: ["swims", "swam", "swum", "swimming"],
-  teach: ["teaches", "taught", "teaching"],
-  tell: ["tells", "told", "telling"],
-  think: ["thinks", "thought", "thinking"],
-  wear: ["wears", "wore", "worn", "wearing"],
-  win: ["wins", "won", "winning"],
-  build: ["builds", "built", "building"],
-  buy: ["buys", "bought", "buying"],
-  catch: ["catches", "caught", "catching"],
-  fight: ["fights", "fought", "fighting"],
-  lead: ["leads", "led", "leading"],
-  read: ["reads", "read", "reading"],
-  set: ["sets", "set", "setting"],
-  shut: ["shuts", "shut", "shutting"],
-  sleep: ["sleeps", "slept", "sleeping"],
-  spend: ["spends", "spent", "spending"],
-  understand: ["understands", "understood", "understanding"],
-  bring: ["brings", "brought", "bringing"],
-  deal: ["deals", "dealt", "dealing"],
-  draw: ["draws", "drew", "drawn", "drawing"],
-  hide: ["hides", "hid", "hidden", "hiding"],
-  hold: ["holds", "held", "holding"],
-  lay: ["lays", "laid", "laying"],
-  lie: ["lies", "lay", "lain", "lying"],
-  lend: ["lends", "lent", "lending"],
-  seek: ["seeks", "sought", "seeking"],
-  shake: ["shakes", "shook", "shaken", "shaking"],
-  show: ["shows", "showed", "shown", "showing"],
-  steal: ["steals", "stole", "stolen", "stealing"],
-  strike: ["strikes", "struck", "stricken", "striking"],
-  throw: ["throws", "threw", "thrown", "throwing"],
-  wake: ["wakes", "woke", "woken", "waking"],
-  child: ["children"],
-  man: ["men"],
-  woman: ["women"],
-  person: ["people"],
-  mouse: ["mice"],
-  tooth: ["teeth"],
-  foot: ["feet"],
-  goose: ["geese"],
-  ox: ["oxen"],
-  good: ["better", "best"],
-  bad: ["worse", "worst"],
-  far: ["farther", "farthest", "further", "furthest"],
-  little: ["less", "least"],
-  many: ["more", "most"],
-  much: ["more", "most"],
-  old: ["older", "oldest", "elder", "eldest"]
-};
 
 const REPORT_CATEGORIES = [
   ["simplified-script", "簡體字（程式判定）"],
@@ -963,15 +848,6 @@ function sentenceEndsWithEnglishPunctuation(text) {
   return /[.!?]$/u.test(cleaned);
 }
 
-function normalizeEnglishTokens(text) {
-  return asText(text)
-    .toLocaleLowerCase()
-    .replace(/([a-z])[-‐‑‒–—](?=[a-z])/giu, `$1 ${HYPHEN_BOUNDARY_TOKEN} `)
-    .replace(/[,.!?;:](?=\s*[a-z])/giu, ` ${PUNCTUATION_BOUNDARY_TOKEN} `)
-    .replace(/[^\p{L}\p{N}'_\s]/gu, " ")
-    .match(/[a-z]+(?:'[a-z]+)?|__hyphen__|__punctuation__/gu) ?? [];
-}
-
 function expandOptionalWordForms(word) {
   const alternatives = [];
 
@@ -1004,218 +880,6 @@ function expandOptionalWordForms(word) {
   }
 
   return alternatives;
-}
-
-function isConsonantY(word) {
-  return word.length > 1 && word.endsWith("y") && !/[aeiou]y$/u.test(word);
-}
-
-function shouldDoubleFinalConsonant(word) {
-  const vowelGroups = word.match(/[aeiou]+/gu) ?? [];
-  return vowelGroups.length === 1 && /^[^aeiou][aeiou][^aeiouwxy]$/u.test(word.slice(-3));
-}
-
-function regularInflections(word) {
-  const forms = new Set([word]);
-  const doubleFinal = shouldDoubleFinalConsonant(word);
-  const consonantY = isConsonantY(word);
-
-  if (consonantY) {
-    forms.add(`${word.slice(0, -1)}ies`);
-    forms.add(`${word.slice(0, -1)}ied`);
-    forms.add(`${word.slice(0, -1)}ier`);
-    forms.add(`${word.slice(0, -1)}iest`);
-    forms.add(`${word}ing`);
-  } else {
-    const pluralEnding = /(?:s|x|z|ch|sh|o)$/u.test(word) ? "es" : "s";
-    forms.add(`${word}${pluralEnding}`);
-    forms.add(`${word}${word.endsWith("e") ? "d" : `${doubleFinal ? word.slice(-1) : ""}ed`}`);
-    forms.add(`${word.endsWith("e") ? word.slice(0, -1) : word}${doubleFinal ? word.slice(-1) : ""}ing`);
-
-    if (word.endsWith("ie")) {
-      forms.add(`${word.slice(0, -2)}ying`);
-    }
-    if (word.endsWith("e")) {
-      forms.add(`${word}r`);
-      forms.add(`${word}st`);
-    } else {
-      const stem = doubleFinal ? `${word}${word.slice(-1)}` : word;
-      forms.add(`${stem}er`);
-      forms.add(`${stem}est`);
-    }
-  }
-
-  return forms;
-}
-
-function inflectionsForFirstToken(word) {
-  const base = word.toLocaleLowerCase();
-  const irregular = IRREGULAR_WORD_FORMS[base];
-  return irregular ? new Set([base, ...irregular]) : regularInflections(base);
-}
-
-function normalizeHeadwordTokens(text) {
-  const tokens = asText(text)
-    .replace(/[’‘]/gu, "'")
-    .replace(/([A-Za-z])[-‐‑‒–—](?=[A-Za-z])/gu, `$1 ${HYPHEN_BOUNDARY_TOKEN} `)
-    .replace(/[^A-Za-z0-9'_\.]+/gu, " ")
-    .match(/[A-Za-z]+(?:'[A-Za-z]+)?|\.{3,}|__hyphen__/gu) ?? [];
-
-  return tokens.map((token) => {
-    if (token === "A") {
-      return "__slot_a__";
-    }
-    if (token === "B") {
-      return "__slot_b__";
-    }
-
-    const lower = token.toLocaleLowerCase();
-    if (["one's", "sb's", "sth's", "someone's", "something's"].includes(lower)) {
-      return "__slot_possessive__";
-    }
-    return lower;
-  });
-}
-
-function expandHyphenBoundaryVariants(tokens) {
-  let variants = [[]];
-
-  for (const token of tokens) {
-    if (token !== HYPHEN_BOUNDARY_TOKEN) {
-      variants = variants.map((variant) => [...variant, token]);
-      continue;
-    }
-
-    variants = variants.flatMap((variant) => [
-      [...variant, HYPHEN_BOUNDARY_TOKEN],
-      [...variant]
-    ]);
-  }
-
-  return variants;
-}
-
-function formsForHeadword(word) {
-  const forms = [];
-
-  for (const alternative of expandOptionalWordForms(word)) {
-    for (const tokens of expandHyphenBoundaryVariants(normalizeHeadwordTokens(alternative))) {
-      if (!tokens.length) {
-        continue;
-      }
-
-      const firstToken = tokens[0];
-      const firstTokenForms = HEADWORD_PLACEHOLDERS.has(firstToken) || firstToken === "be" || ["a", "an", "the"].includes(firstToken)
-        ? [firstToken]
-        : inflectionsForFirstToken(firstToken);
-      for (const inflectedFirstToken of firstTokenForms) {
-        forms.push([inflectedFirstToken, ...tokens.slice(1)]);
-      }
-    }
-  }
-
-  return forms;
-}
-
-function placeholderLengths(token, sentenceTokens, sentenceIndex) {
-  if (token === "...") {
-    const maxLength = Math.min(6, sentenceTokens.length - sentenceIndex);
-    return Array.from({ length: maxLength + 1 }, (_, index) => index);
-  }
-
-  if (token === "__slot_possessive__") {
-    const candidate = sentenceTokens[sentenceIndex];
-    return candidate && (POSSESSIVE_PRONOUNS.has(candidate) || /[a-z]+'s$/u.test(candidate)) ? [1] : [];
-  }
-
-  if (token === "oneself") {
-    return REFLEXIVE_PRONOUNS.has(sentenceTokens[sentenceIndex]) ? [1] : [];
-  }
-
-  const maxLength = Math.min(6, sentenceTokens.length - sentenceIndex);
-  return Array.from({ length: maxLength }, (_, index) => index + 1);
-}
-
-function matchesHeadwordFormAt(sentenceTokens, form, startIndex) {
-  const memo = new Map();
-
-  function visit(formIndex, sentenceIndex) {
-    if (formIndex === form.length) {
-      return true;
-    }
-    if (sentenceIndex >= sentenceTokens.length) {
-      return false;
-    }
-
-    const stateKey = `${formIndex}:${sentenceIndex}`;
-    if (memo.has(stateKey)) {
-      return memo.get(stateKey);
-    }
-
-    const token = form[formIndex];
-    let matched = false;
-
-    if (HEADWORD_PLACEHOLDERS.has(token)) {
-      for (const length of placeholderLengths(token, sentenceTokens, sentenceIndex)) {
-        if (visit(formIndex + 1, sentenceIndex + length)) {
-          matched = true;
-          break;
-        }
-      }
-    } else if (token === "be") {
-      matched = BE_FORM_SEQUENCES.some((sequence) =>
-        sequence.every((part, offset) => sentenceTokens[sentenceIndex + offset] === part)
-        && visit(formIndex + 1, sentenceIndex + sequence.length)
-      );
-    } else if (formIndex === 0 && form.length > 1 && ["a", "an", "the"].includes(token)) {
-      if (ARTICLE_DETERMINERS.has(sentenceTokens[sentenceIndex])) {
-        for (let modifierCount = 0; modifierCount <= 3; modifierCount += 1) {
-          if (visit(formIndex + 1, sentenceIndex + 1 + modifierCount)) {
-            matched = true;
-            break;
-          }
-        }
-      }
-    } else if (sentenceTokens[sentenceIndex] === token) {
-      matched = visit(formIndex + 1, sentenceIndex + 1);
-    }
-
-    memo.set(stateKey, matched);
-    return matched;
-  }
-
-  return visit(0, startIndex);
-}
-
-export function exampleUsesHeadword(word, englishExample) {
-  const sentenceTokens = normalizeEnglishTokens(englishExample);
-  if (!sentenceTokens.length) {
-    return false;
-  }
-
-  for (const form of formsForHeadword(word)) {
-    for (let index = 0; index < sentenceTokens.length; index += 1) {
-      if (matchesHeadwordFormAt(sentenceTokens, form, index)) {
-        return true;
-      }
-    }
-
-    if (form.length === 2 && SEPARABLE_PHRASAL_PARTICLES.has(form[1])) {
-      for (let index = 0; index < sentenceTokens.length; index += 1) {
-        if (sentenceTokens[index] !== form[0]) {
-          continue;
-        }
-
-        for (let gap = 1; gap <= 5; gap += 1) {
-          if (sentenceTokens[index + gap + 1] === form[1]) {
-            return true;
-          }
-        }
-      }
-    }
-  }
-
-  return false;
 }
 
 function exampleSource(record) {

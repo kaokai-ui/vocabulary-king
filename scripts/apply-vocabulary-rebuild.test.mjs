@@ -228,6 +228,10 @@ describe("apply vocab rebuild", () => {
     expect(exampleContainsWord("The company canceled the meeting.", "cancel")).toBe(true);
     expect(exampleContainsWord("The company offered a ten-percent discount.", "percentage")).toBe(false);
     expect(exampleContainsWord("The security team checked for weapons.", "gun")).toBe(false);
+    expect(exampleContainsWord("The old warehouse was torn down.", "tear down")).toBe(true);
+    expect(exampleContainsWord("The manager took my advice.", "take one's advice")).toBe(true);
+    expect(exampleContainsWord("The team is wrapping a present.", "wrap a present")).toBe(true);
+    expect(exampleContainsWord("The southern region gets more rain.", "south")).toBe(false);
   });
 
   it("rejects POS codes outside the approved list", () => {
