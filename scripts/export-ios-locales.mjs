@@ -109,7 +109,8 @@ export function exportIosVocabularyLocales({ outPath, dataRepoRoot = getVocabula
     dataRepoRoot: resolvedDataRepoRoot,
     dataRoot: resolvedOutputPath,
     extraLocales: ["ja", "ko"],
-    includeUidAliases: true
+    includeUidAliases: true,
+    includeSenseData: true
   });
 
   if (result.skipped) {
