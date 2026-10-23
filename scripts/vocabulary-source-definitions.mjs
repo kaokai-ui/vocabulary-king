@@ -114,6 +114,7 @@ export const TRACK_DEFINITIONS = [
       chineseExample: 7
     },
     includeSourceLevels: true,
+    catalogLevelFamilies: ["基礎", "多益", "延伸", "片語"],
     available: true
   },
   {
@@ -131,6 +132,7 @@ export const TRACK_DEFINITIONS = [
     },
     fallbackLevel: "TOEIC-ADV",
     includeSourceLevels: true,
+    catalogLevelFamilies: ["商務", "延伸", "片語"],
     available: true
   },
   {
@@ -147,6 +149,7 @@ export const TRACK_DEFINITIONS = [
     },
     fallbackLevel: "TOEFL",
     includeSourceLevels: true,
+    catalogLevelFamilies: ["學術核心", "進階", "延伸", "片語"],
     available: true
   },
   {
@@ -155,6 +158,7 @@ export const TRACK_DEFINITIONS = [
     type: "jsonl-source",
     fallbackLevel: "IELTS",
     includeSourceLevels: true,
+    catalogLevelFamilies: ["學術核心", "進階", "延伸", "片語"],
     available: true
   }
 ];

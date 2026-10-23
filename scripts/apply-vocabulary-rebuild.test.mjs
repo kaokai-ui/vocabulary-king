@@ -257,17 +257,54 @@ describe("apply vocab rebuild", () => {
     expect(fs.readFileSync(path.join(fixture.dataRoot, "data", "toeic.jsonl"), "utf8")).toBe(sourceBefore);
   });
 
-  it("derives exam level options from source data in first-seen order", () => {
+  it("sorts legacy levels numerically and rebuilt levels by their track definitions", () => {
     expect(summarizeCatalogLevels([
-      { level: "基礎1" }, { level: "基礎1" }, { level: "多益1" }, { level: "延伸1" }, { level: "" }
-    ])).toEqual([
-      { id: "基礎1", label: "基礎1", totalWords: 2 },
-      { id: "多益1", label: "多益1", totalWords: 1 },
-      { id: "延伸1", label: "延伸1", totalWords: 1 }
+      { level: "L4" }, { level: "L5" }, { level: "L2" }, { level: "L1" }, { level: "L12" }, { level: "L2" }
+    ]).map(({ id, totalWords }) => [id, totalWords])).toEqual([
+      ["L1", 1], ["L2", 2], ["L4", 1], ["L5", 1], ["L12", 1]
     ]);
-    expect(TRACK_DEFINITIONS.filter((definition) => ["toeic", "toeic-advanced", "toefl", "ielts"].includes(definition.id))
+
+    const definitions = Object.fromEntries(TRACK_DEFINITIONS
+      .filter((definition) => ["toeic", "toeic-advanced", "toefl", "ielts"].includes(definition.id))
+      .map((definition) => [definition.id, definition.catalogLevelFamilies]));
+    expect(definitions).toEqual({
+      toeic: ["基礎", "多益", "延伸", "片語"],
+      "toeic-advanced": ["商務", "延伸", "片語"],
+      toefl: ["學術核心", "進階", "延伸", "片語"],
+      ielts: ["學術核心", "進階", "延伸", "片語"]
+    });
+    expect(TRACK_DEFINITIONS.filter((definition) => Object.hasOwn(definition, "catalogLevelFamilies"))
       .every((definition) => definition.includeSourceLevels)).toBe(true);
 
+    expect(summarizeCatalogLevels([
+      { level: "片語：人事與招募" },
+      { level: "延伸（待確認）" },
+      { level: "多益2" },
+      { level: "基礎4" },
+      { level: "延伸2" },
+      { level: "基礎1" },
+      { level: "多益1" },
+      { level: "基礎2" },
+      { level: "基礎3" },
+      { level: "延伸1" },
+      { level: "片語：會議與簡報" }
+    ], definitions.toeic).map(({ id }) => id)).toEqual([
+      "基礎1", "基礎2", "基礎3", "基礎4", "多益1", "多益2", "延伸1", "延伸2",
+      "延伸（待確認）", "片語：會議與簡報", "片語：人事與招募"
+    ]);
+    expect(summarizeCatalogLevels([
+      { level: "片語：會議與簡報" },
+      { level: "延伸1" },
+      { level: "進階2" },
+      { level: "學術核心2" },
+      { level: "學術核心1" },
+      { level: "進階1" }
+    ], definitions.toefl).map(({ id }) => id)).toEqual([
+      "學術核心1", "學術核心2", "進階1", "進階2", "延伸1", "片語：會議與簡報"
+    ]);
+  });
+
+  it("exports catalog levels from the source rows", () => {
     const fixture = createFixture();
     const publicData = path.join(fixture.root, "public-data");
     exportGameVocabulary({ dataRepoRoot: fixture.dataRoot, dataRoot: publicData });

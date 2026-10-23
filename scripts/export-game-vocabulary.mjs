@@ -94,13 +94,58 @@ function contentHash(value) {
   return createHash("sha256").update(json).digest("hex").slice(0, 12);
 }
 
-export function summarizeCatalogLevels(sourceRows = []) {
+const PHRASE_GROUP_ORDER = [
+  "會議與簡報",
+  "財務與會計",
+  "人事與招募",
+  "行銷與銷售",
+  "採購與物流",
+  "客服與溝通",
+  "管理與策略",
+  "日常與通用"
+];
+
+function getCatalogLevelSortKey(label, familyOrder, sourceIndex) {
+  const familyIndex = familyOrder.findIndex((family) => label.startsWith(family));
+  if (familyIndex < 0) return [familyOrder.length, sourceIndex, 0, 0];
+
+  const family = familyOrder[familyIndex];
+  const suffix = label.slice(family.length);
+  if (family === "片語") {
+    const phraseGroupIndex = PHRASE_GROUP_ORDER.findIndex((group) => label === `片語：${group}`);
+    return [familyIndex, phraseGroupIndex < 0 ? 1 : 0, phraseGroupIndex < 0 ? sourceIndex : phraseGroupIndex, 0];
+  }
+
+  const number = /^(?:\s*)(\d+)/u.exec(suffix)?.[1];
+  const pendingReview = suffix.includes("待確認");
+  const suborder = pendingReview ? 2 : number ? 0 : 1;
+  return [familyIndex, suborder, number ? Number(number) : 0, sourceIndex];
+}
+
+export function summarizeCatalogLevels(sourceRows = [], familyOrder = []) {
   const counts = new Map();
   for (const row of sourceRows) {
     const level = String(row?.level ?? "").trim();
     if (level) counts.set(level, (counts.get(level) ?? 0) + 1);
   }
-  return [...counts.entries()].map(([label, totalWords]) => ({ id: label, label, totalWords }));
+
+  const entries = [...counts.entries()];
+  const allLegacyLevels = entries.length > 0 && entries.every(([label]) => /^L\d+$/iu.test(label));
+  if (allLegacyLevels) {
+    entries.sort(([left], [right]) => Number(/^L(\d+)$/iu.exec(left)[1]) - Number(/^L(\d+)$/iu.exec(right)[1]));
+  } else if (familyOrder.length) {
+    const sourceOrderByLevel = new Map(entries.map(([label], index) => [label, index]));
+    entries.sort(([left], [right]) => {
+      const leftKey = getCatalogLevelSortKey(left, familyOrder, sourceOrderByLevel.get(left));
+      const rightKey = getCatalogLevelSortKey(right, familyOrder, sourceOrderByLevel.get(right));
+      for (let index = 0; index < leftKey.length; index += 1) {
+        if (leftKey[index] !== rightKey[index]) return leftKey[index] - rightKey[index];
+      }
+      return 0;
+    });
+  }
+
+  return entries.map(([label, totalWords]) => ({ id: label, label, totalWords }));
 }
 
 function createCatalogTrack(definition, chunkFiles = [], totalWords = 0, sourceRows = []) {
@@ -112,7 +157,9 @@ function createCatalogTrack(definition, chunkFiles = [], totalWords = 0, sourceR
     totalWords,
     chunkSize: CHUNK_SIZE,
     chunkFiles,
-    ...(definition.includeSourceLevels ? { levels: summarizeCatalogLevels(sourceRows) } : {})
+    ...(definition.includeSourceLevels ? {
+      levels: summarizeCatalogLevels(sourceRows, definition.catalogLevelFamilies ?? [])
+    } : {})
   };
 }
 
