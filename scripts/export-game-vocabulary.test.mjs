@@ -143,4 +143,17 @@ describe("exportGameVocabulary locale overlays", () => {
     expect(chunk[0].id).toBe("elementary-uid-1");
     expect(chunk[0]).not.toHaveProperty("uid");
   });
+
+  it("writes LF-only JSON even when an existing catalog uses CRLF", () => {
+    const dataRepoRoot = createSourceRepo();
+    const dataRoot = path.join(createTempDirectory(), "public", "data");
+    fs.mkdirSync(dataRoot, { recursive: true });
+    fs.writeFileSync(path.join(dataRoot, "catalog.json"), '{"old":true}\r\n', "utf8");
+
+    exportGameVocabulary({ dataRepoRoot, dataRoot });
+
+    const catalog = fs.readFileSync(path.join(dataRoot, "catalog.json"), "utf8");
+    expect(catalog).not.toContain("\r\n");
+    expect(catalog.endsWith("\n")).toBe(true);
+  });
 });
