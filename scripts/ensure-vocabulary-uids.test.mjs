@@ -59,15 +59,17 @@ describe("vocabulary source uid initialization", () => {
 
     const result = ensureVocabularyUids(root);
     const rows = fs.readFileSync(toeflPath, "utf8").trim().split(/\r?\n/u).map((line) => JSON.parse(line));
-    const allUids = [...result.updatedRowsByTrack.values()].flat().map((row) => row.uid);
+    for (const rowsForTrack of result.updatedRowsByTrack.values()) {
+      const trackUids = rowsForTrack.map((row) => row.uid);
+      expect(new Set(trackUids).size).toBe(trackUids.length);
+    }
 
     expect(rows[0].uid).toBe(firstRow.uid);
     expect(rows[1].uid).toBe(buildLegacyTrackExportRecords("toefl", [addedRow])[0].id);
-    expect(new Set(allUids).size).toBe(allUids.length);
     expect(rows[1].uid).toBeTruthy();
   });
 
-  it("suffixes a colliding legacy id and records a track-scoped alias", () => {
+  it("keeps matching legacy IDs in different tracks unchanged without aliases", () => {
     const left = sourceRow("toefl");
     const right = sourceRow("toeic");
     const plan = planEnsureVocabularyUids({
@@ -77,12 +79,17 @@ describe("vocabulary source uid initialization", () => {
     const rightUid = plan.updatedRowsByTrack.get("toeic")[0].uid;
 
     expect(leftUid).toBe(buildLegacyTrackExportRecords("toefl", [left])[0].id);
-    expect(rightUid).not.toBe(leftUid);
-    expect(new Set([leftUid, rightUid]).size).toBe(2);
-    expect(plan.aliasData.aliases).toContainEqual({
-      track: "toeic",
-      aliasUid: leftUid,
-      targetUid: rightUid
-    });
+    expect(rightUid).toBe(buildLegacyTrackExportRecords("toeic", [right])[0].id);
+    expect(rightUid).toBe(leftUid);
+    expect(plan.aliasData.aliases).toEqual([]);
+  });
+
+  it("fails when two rows in the same track receive the same legacy ID", () => {
+    const first = sourceRow("toefl");
+    const second = sourceRow("toefl");
+
+    expect(() => planEnsureVocabularyUids({
+      sourceRowsByTrack: new Map([["toefl", [first, second]]])
+    })).toThrow(/exact duplicate rows exist|Duplicate vocabulary uid 'toefl\//u);
   });
 });
