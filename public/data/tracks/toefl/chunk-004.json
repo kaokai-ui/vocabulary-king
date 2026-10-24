@@ -535,7 +535,7 @@
     "level": "進階1",
     "word": "strength",
     "meaning": "n. 力量；優勢；強度",
-    "example": "The company’s main strength is its reliable network of local suppliers. (公司的主要優勢是可靠的當地供應商網絡。)",
+    "example": "The company’s main strength is its reliable network of local suppliers. (公司的主要優勢是可靠的當地供應商網路。)",
     "id": "進階1-strength-maoiv4b"
   },
   {
@@ -2333,7 +2333,7 @@
   {
     "level": "進階1",
     "word": "database",
-    "meaning": "n. 資料庫；數據庫",
+    "meaning": "n. 資料庫",
     "example": "The database contains the records of every patient treated at the clinic. (這個資料庫包含在該診所接受治療的每位患者紀錄。)",
     "id": "進階1-database-m4ugm6f"
   },
@@ -3096,7 +3096,7 @@
   {
     "level": "進階1",
     "word": "venture",
-    "meaning": "n. 冒險事業；創業項目\nv. 冒險前往；冒險做",
+    "meaning": "n. 冒險事業；新創事業\nv. 冒險前往；冒險做",
     "example": "The farm shop began as a small venture run by two sisters. (這家農場商店原本是兩姊妹經營的小型事業。)",
     "id": "進階1-venture-m114fhju"
   },
@@ -6561,7 +6561,7 @@
   {
     "level": "進階2",
     "word": "exclusion",
-    "meaning": "n. 排除；不包括；除外項目",
+    "meaning": "n. 排除；不包括；除外事項",
     "example": "The insurance policy lists an exclusion for losses caused by unauthorized access to customer payment information. (保險政策列明，不承保因未經授權存取客戶付款資訊而造成的損失。)",
     "id": "進階2-exclusion-ml7a3pn"
   },

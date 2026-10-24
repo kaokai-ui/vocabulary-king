@@ -2270,7 +2270,7 @@
   {
     "level": "進階2",
     "word": "duplicate",
-    "meaning": "vt. 複製；複印；使加倍；重複\nn. 副本；複製品；重複的事物\nadj. 複製的；重複的；完全相同的",
+    "meaning": "vt. 複製；影印；使加倍；重複\nn. 副本；複製品；重複的事物\nadj. 複製的；重複的；完全相同的",
     "example": "Please duplicate the key so that each tenant has their own copy. (請複製這把鑰匙，讓每位房客都有自己的副本。)",
     "id": "進階2-duplicate-m4cmllm"
   },
@@ -2292,7 +2292,7 @@
     "level": "進階2",
     "word": "takeover",
     "meaning": "n. 接管；收購",
-    "example": "The proposed takeover would combine the two retailers' regional distribution networks next year. (這項收購案明年將整合兩家零售商的區域配送網絡。)",
+    "example": "The proposed takeover would combine the two retailers' regional distribution networks next year. (這項收購案明年將整合兩家零售商的區域配送網路。)",
     "id": "進階2-takeover-m1f3jbnp"
   },
   {
@@ -4791,7 +4791,7 @@
     "level": "進階3",
     "word": "procurement",
     "meaning": "n. 採購；取得",
-    "example": "Centralized procurement allowed the hospital network to negotiate lower prices for commonly used medical supplies. (集中採購讓醫院網絡能為常用醫療用品協商較低價格。)",
+    "example": "Centralized procurement allowed the hospital network to negotiate lower prices for commonly used medical supplies. (集中採購讓醫院體系能以較低價格協商採購常用醫療用品。)",
     "id": "進階3-procurement-m1h81wn5"
   },
   {

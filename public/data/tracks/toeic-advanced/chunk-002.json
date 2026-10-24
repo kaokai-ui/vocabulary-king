@@ -108,7 +108,7 @@
     "level": "商務2",
     "word": "geographic",
     "meaning": "adj. 地理的；地區分布的",
-    "example": "Geographic expansion will require additional service depots near customers located far from the company's existing network. (地理範圍的擴張需要在遠離公司現有網絡的客戶附近增設服務據點。)",
+    "example": "Geographic expansion will require additional service depots near customers located far from the company's existing network. (地理範圍的擴張需要在遠離公司現有服務網路的客戶附近增設服務據點。)",
     "id": "商務2-geographic-mdt1uru"
   },
   {
@@ -199,7 +199,7 @@
     "level": "商務2",
     "word": "mainland",
     "meaning": "n. 大陸；本土",
-    "example": "We have expanded our distribution network to reach major cities on the mainland. (我們已擴展配送網絡，服務範圍涵蓋大陸主要城市。)",
+    "example": "We have expanded our distribution network to reach major cities on the mainland. (我們已擴展配送網路，服務範圍涵蓋大陸主要城市。)",
     "id": "TOEIC-ADV-mainland-mfzn5"
   },
   {
@@ -338,7 +338,7 @@
   {
     "level": "商務2",
     "word": "exclusion",
-    "meaning": "n. 排除；不包括；除外項目",
+    "meaning": "n. 排除；不包括；除外事項",
     "example": "The insurance policy lists an exclusion for losses caused by unauthorized access to customer payment information. (保險政策列明，不承保因未經授權存取客戶付款資訊而造成的損失。)",
     "id": "商務2-exclusion-ml7a3pn"
   },
@@ -1494,7 +1494,7 @@
     "level": "商務3",
     "word": "originate",
     "meaning": "v. 起源於；發源；創始",
-    "example": "The customer loyalty program originated at one branch before expanding across the entire retail network. (這項顧客忠誠計畫最初由一家分店發起，之後擴展至整個零售網絡。)",
+    "example": "The customer loyalty program originated at one branch before expanding across the entire retail network. (這項顧客忠誠計畫最初由一家分店發起，之後擴展至整個零售通路。)",
     "id": "商務3-originate-m11ze0th"
   },
   {
@@ -1599,7 +1599,7 @@
     "level": "商務3",
     "word": "tribal",
     "meaning": "adj. 部落的；氏族的；部落間的",
-    "example": "The museum's new exhibit explores tribal trade networks and their influence on regional markets. (博物館的新展覽探討部落貿易網絡及其對區域市場的影響。)",
+    "example": "The museum's new exhibit explores tribal trade networks and their influence on regional markets. (博物館的新展覽探討部落貿易網及其對區域市場的影響。)",
     "id": "商務3-tribal-matqytl"
   },
   {
@@ -2516,7 +2516,7 @@
     "level": "商務3",
     "word": "entrant",
     "meaning": "n. 新進者；參賽者；新加入者",
-    "example": "Each new entrant to the market must establish reliable distribution before competing with larger brands. (每個新進市場的業者，都必須先建立可靠的配銷網絡，才能與大型品牌競爭。)",
+    "example": "Each new entrant to the market must establish reliable distribution before competing with larger brands. (每個新進市場的業者，都必須先建立可靠的配銷網路，才能與大型品牌競爭。)",
     "id": "商務3-entrant-msgu08o"
   },
   {
@@ -3762,7 +3762,7 @@
     "level": "商務3",
     "word": "intrigue",
     "meaning": "n. 陰謀；密謀；引人好奇之事\nvt. 引起興趣；使好奇；密謀",
-    "example": "The proposed partnership intrigued investors because it would combine two complementary service networks. (這項合作提案引起投資人興趣，因為它將結合兩個互補的服務網絡。)",
+    "example": "The proposed partnership intrigued investors because it would combine two complementary service networks. (這項合作提案引起投資人興趣，因為它將結合兩個互補的服務網路。)",
     "id": "商務3-intrigue-moe1xut"
   },
   {
@@ -5770,7 +5770,7 @@
   {
     "level": "延伸1",
     "word": "network",
-    "meaning": "n. 網絡；人脈；電視網\nvt. 建立人脈；使成網絡\nvi. 建立人脈；聯網",
+    "meaning": "n. 網路；人脈；電視網\nvt. 建立人脈；使連成網路\nvi. 建立人脈；連網",
     "example": "Building a strong professional network is crucial for long-term career development. (建立強大的專業人脈網路對長期職涯發展至關重要。)",
     "id": "TOEIC-ADV-network-m1ate0yd"
   },

@@ -773,7 +773,7 @@
     "level": "商務1",
     "word": "takeover",
     "meaning": "n. 接管；收購",
-    "example": "The proposed takeover would combine the two retailers' regional distribution networks next year. (這項收購案明年將整合兩家零售商的區域配送網絡。)",
+    "example": "The proposed takeover would combine the two retailers' regional distribution networks next year. (這項收購案明年將整合兩家零售商的區域配送網路。)",
     "id": "商務1-takeover-m1f3jbnp"
   },
   {
@@ -3055,7 +3055,7 @@
     "level": "商務1",
     "word": "pioneer",
     "meaning": "n. 先驅；開拓者\nvt. 開創；率先採用",
-    "example": "The company hopes to pioneer a reusable packaging system across its domestic retail network next year. (公司希望明年在國內零售網絡率先推行可重複使用的包裝系統。)",
+    "example": "The company hopes to pioneer a reusable packaging system across its domestic retail network next year. (公司希望明年在國內零售通路率先推行可重複使用的包裝系統。)",
     "id": "商務1-pioneer-m1nkyiwe"
   },
   {
@@ -3860,7 +3860,7 @@
     "level": "商務1",
     "word": "widen",
     "meaning": "vt. 擴大；加寬\nvi. 擴大；變寬",
-    "example": "The company plans to widen its supplier network to reduce dependence on a single manufacturing region. (公司計畫擴大供應商網絡，以降低對單一製造區域的依賴。)",
+    "example": "The company plans to widen its supplier network to reduce dependence on a single manufacturing region. (公司計畫擴大供應商網路，以降低對單一製造區域的依賴。)",
     "id": "商務1-widen-mi6lh2s"
   },
   {
@@ -5519,7 +5519,7 @@
     "level": "商務2",
     "word": "procurement",
     "meaning": "n. 採購；取得",
-    "example": "Centralized procurement allowed the hospital network to negotiate lower prices for commonly used medical supplies. (集中採購讓醫院網絡能為常用醫療用品協商較低價格。)",
+    "example": "Centralized procurement allowed the hospital network to negotiate lower prices for commonly used medical supplies. (集中採購讓醫院體系能以較低價格協商採購常用醫療用品。)",
     "id": "商務2-procurement-m1h81wn5"
   },
   {
@@ -6079,7 +6079,7 @@
     "level": "商務2",
     "word": "dictate",
     "meaning": "vt. 命令；規定；口述\nvi. 支配；主導",
-    "example": "Market conditions dictate how quickly the retailer can expand its delivery network into smaller communities. (市場狀況決定零售商能多快將配送網絡擴展至較小的社區。)",
+    "example": "Market conditions dictate how quickly the retailer can expand its delivery network into smaller communities. (市場狀況決定零售商能多快將配送網路擴展至較小的社區。)",
     "id": "商務2-dictate-m1maih8v"
   },
   {
@@ -6345,7 +6345,7 @@
     "level": "商務2",
     "word": "indirectly",
     "meaning": "adv. 間接地；非直接地",
-    "example": "The policy indirectly affected small suppliers by increasing paperwork requirements for every shipment entering the distribution network. (這項政策提高每批貨物進入配送網絡所需文件，間接影響了小型供應商。)",
+    "example": "The policy indirectly affected small suppliers by increasing paperwork requirements for every shipment entering the distribution network. (這項政策提高每批貨物進入配送網路所需文件，間接影響了小型供應商。)",
     "id": "商務2-indirectly-m1uirk9q"
   },
   {
@@ -6800,7 +6800,7 @@
     "level": "商務2",
     "word": "fiber",
     "meaning": "n. 纖維；光纖",
-    "example": "The telecommunications provider expanded its fiber network to connect newly developed commercial districts with the central exchange. (電信業者擴建光纖網絡，連接新開發商業區與中心交換站。)",
+    "example": "The telecommunications provider expanded its fiber network to connect newly developed commercial districts with the central exchange. (電信業者擴建光纖網路，連接新開發商業區與中心交換站。)",
     "id": "商務2-fiber-memrcep"
   },
   {

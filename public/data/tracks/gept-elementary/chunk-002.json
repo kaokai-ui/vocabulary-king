@@ -1108,7 +1108,7 @@
   {
     "level": "L2",
     "word": "copy",
-    "meaning": "v. 抄寫；複製；複印\nn. 副本；複製品",
+    "meaning": "v. 抄寫；複製；影印\nn. 副本；複製品",
     "example": "Please copy these words into your notebook.（請把這些字抄到筆記本裡。）",
     "id": "L2-copy-noun-verb"
   },
@@ -4286,7 +4286,7 @@
   {
     "level": "L2",
     "word": "printer",
-    "meaning": "n. 印表機；打印機；印刷工",
+    "meaning": "n. 印表機；印刷工",
     "example": "The printer ran out of paper.（印表機沒紙了。）",
     "id": "L2-printer-noun"
   },
@@ -6414,7 +6414,7 @@
   {
     "level": "L3",
     "word": "centimeter",
-    "meaning": "n. 公分；厘米",
+    "meaning": "n. 公分",
     "example": "The pencil is fifteen centimeters long.（這支鉛筆十五公分長。）",
     "id": "L3-centimeter-noun"
   },

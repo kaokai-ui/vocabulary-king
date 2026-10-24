@@ -254,8 +254,8 @@
   {
     "level": "基礎2",
     "word": "copy",
-    "meaning": "n / v. 副本；份數；抄本；複印；複製；抄寫",
-    "example": "Please make a copy of the signed contract for the records department. (請將已簽署的合約複印一份給檔案部門。)",
+    "meaning": "n / v. 副本；份數；抄本；影印；複製；抄寫",
+    "example": "Please make a copy of the signed contract for the records department. (請將已簽署的合約影印一份給檔案部門。)",
     "id": "L2-copy-v-n"
   },
   {
@@ -1605,8 +1605,8 @@
   {
     "level": "基礎2",
     "word": "smoke",
-    "meaning": "n / v. 煙；吸煙；煙霧；吸煙；冒煙；熏",
-    "example": "The no-smoking policy applies to every office and warehouse location. (禁煙政策適用於所有辦公室和倉庫地點。)",
+    "meaning": "n / v. 煙；吸菸；煙霧；吸菸；冒煙；燻",
+    "example": "The no-smoking policy applies to every office and warehouse location. (禁菸政策適用於所有辦公室和倉庫地點。)",
     "id": "基礎2-smoke-m1cnkj4h"
   },
   {
@@ -1837,7 +1837,7 @@
     "level": "基礎2",
     "word": "strength",
     "meaning": "n. 力量；優勢；強度",
-    "example": "The company’s main strength is its reliable network of local suppliers. (公司的主要優勢是可靠的當地供應商網絡。)",
+    "example": "The company’s main strength is its reliable network of local suppliers. (公司的主要優勢是可靠的當地供應商網路。)",
     "id": "L3-strength-n"
   },
   {
@@ -2306,7 +2306,7 @@
     "level": "基礎2",
     "word": "broad",
     "meaning": "a. 寬廣的；廣泛的；粗略的",
-    "example": "The company conducted a broad review of its supplier network. (公司對供應商網絡進行了全面檢視。)",
+    "example": "The company conducted a broad review of its supplier network. (公司對供應商網路進行了全面檢視。)",
     "id": "基礎2-broad-m1476055"
   },
   {
@@ -5589,7 +5589,7 @@
     "level": "基礎3",
     "word": "resolution",
     "meaning": "n. 決議；決心；解析度",
-    "example": "The board passed a resolution to expand the company’s regional service network. (董事會通過決議，擴大公司的區域服務網絡。)",
+    "example": "The board passed a resolution to expand the company’s regional service network. (董事會通過決議，擴大公司的區域服務網路。)",
     "id": "基礎3-resolution-m1ye199o"
   },
   {
@@ -6359,7 +6359,7 @@
     "level": "基礎3",
     "word": "corporation",
     "meaning": "n. 公司；法人；企業",
-    "example": "The corporation expanded its regional distribution network after acquiring a local supplier. (收購當地供應商後，這家企業擴大了區域配送網絡。)",
+    "example": "The corporation expanded its regional distribution network after acquiring a local supplier. (收購當地供應商後，這家企業擴大了區域配送網路。)",
     "id": "基礎3-corporation-mudqj9v"
   },
   {
