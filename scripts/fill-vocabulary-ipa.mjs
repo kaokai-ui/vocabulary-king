@@ -4,7 +4,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { TRACK_DEFINITIONS } from "./vocabulary-source-definitions.mjs";
 
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 const DEFAULT_CMU_DICT = "";
 const ARPABET_TO_IPA = Object.freeze({
   AA: "ɑ", AE: "æ", AH: "ʌ", AO: "ɔ", AW: "aʊ", AY: "aɪ", EH: "ɛ", ER: "ɝ", EY: "eɪ",

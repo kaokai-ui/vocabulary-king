@@ -10,7 +10,7 @@ import { readUidAliasData, validateVocabularyUidState } from "./vocabulary-uids.
 const DATA_ROOT = path.resolve("public/data");
 const TRACKS_ROOT = path.join(DATA_ROOT, "tracks");
 const CHUNK_SIZE = 1000;
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 const EXTRA_LOCALES = {
   ja: { meaningField: "meaning_ja", exampleField: "example_ja" },
   ko: { meaningField: "meaning_ko", exampleField: "example_ko" }

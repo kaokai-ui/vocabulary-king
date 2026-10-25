@@ -10,7 +10,7 @@ import {
   validateSenseRow
 } from "./vocabulary-senses.mjs";
 
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 const FINAL_FIELDS = new Set([
   "word",
   "meaning",

@@ -9,7 +9,7 @@ import {
   validateSenseRow
 } from "./vocabulary-senses.mjs";
 
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 const REPORT_DIRECTORY = "reports";
 const REPORT_FILE = "vocab-senses-migration.json";
 const UNRESOLVED_FILE = "vocab-senses-unresolved.jsonl";

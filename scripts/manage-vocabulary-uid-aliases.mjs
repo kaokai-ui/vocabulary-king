@@ -10,7 +10,7 @@ import {
   validateVocabularyUidState
 } from "./vocabulary-uids.mjs";
 
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 
 function readSourceRowsByTrack(root) {
   const rowsByTrack = new Map();

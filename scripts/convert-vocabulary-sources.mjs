@@ -7,7 +7,7 @@ import { createCanonicalSensedRow } from "./vocabulary-senses.mjs";
 import { buildIeltsSourceRecords } from "./build-ielts-source.mjs";
 import { readWorkbookTrackEntries, splitCombinedExample } from "./vocabulary-workbook-conversion.mjs";
 
-const DEFAULT_DATA_REPO = "D:\\Game\\VocabularyKing-data";
+const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 
 function parseArguments(args) {
   const options = {
