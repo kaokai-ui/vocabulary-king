@@ -1513,14 +1513,14 @@
   },
   {
     "level": "初級",
-    "word": "FALSE",
+    "word": "false",
     "meaning": "adj. 錯誤的；虛假的；不實的",
     "example": "The answer is false.（答案是錯的。）",
     "id": "初級-false-adj"
   },
   {
     "level": "初級",
-    "word": "TRUE",
+    "word": "true",
     "meaning": "adj. 真實的；正確的；真正的",
     "example": "The statement is true.（這個陳述是對的。）",
     "id": "初級-true-adj"
