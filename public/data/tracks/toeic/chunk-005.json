@@ -520,7 +520,7 @@
   {
     "level": "延伸1",
     "word": "sacrifice",
-    "meaning": "n. 犧牲；捨棄",
+    "meaning": "n / v. 犧牲；捨棄；犧牲；捨棄",
     "example": "Executives sometimes have to sacrifice short-term profits for long-term growth. (高階主管有時不得不犧牲短期利潤來換取長期成長。)",
     "id": "L4-sacrifice-n-v"
   },
@@ -646,7 +646,7 @@
   {
     "level": "延伸1",
     "word": "rebel",
-    "meaning": "n. 反叛者；造反者",
+    "meaning": "n / v. 反叛者；造反者；反抗；反叛",
     "example": "A small faction of shareholders chose to rebel against the proposed board members. (一小部分股東選擇反抗擬議的董事會成員。)",
     "id": "L4-rebel-n-a-v"
   },
@@ -1150,7 +1150,7 @@
   {
     "level": "延伸1",
     "word": "spy",
-    "meaning": "n. 間諜；密探",
+    "meaning": "n / v. 間諜；密探；刺探；監視",
     "example": "Corporate security systems are designed to ensure competitors cannot spy on data. (企業安全系統旨在確保競爭對手無法監控資料。)",
     "id": "L3-spy-n-v"
   },
@@ -1213,7 +1213,7 @@
   {
     "level": "延伸1",
     "word": "overlap",
-    "meaning": "v. 重疊；部分相同",
+    "meaning": "v / n. 重疊；部分相同；重疊；交集",
     "example": "There is a significant overlap between the duties of the two marketing roles. (這兩個行銷角色的職責有很大的重疊。)",
     "id": "L6-overlap-v-n"
   },

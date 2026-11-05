@@ -282,7 +282,7 @@
   {
     "level": "多益1",
     "word": "hike",
-    "meaning": "v. 徒步旅行；遠足",
+    "meaning": "v / n. 徒步旅行；遠足；漲價；價格調升",
     "example": "The company announced a price hike on all subscription plans starting next month. (該公司宣布從下個月開始提高所有訂閱方案的價格。)",
     "id": "L3-hike-n-v"
   },
@@ -569,14 +569,14 @@
   {
     "level": "多益1",
     "word": "stack",
-    "meaning": "n. 一疊；一堆",
+    "meaning": "n / v. 一疊；一堆；堆疊；疊放",
     "example": "Workers used a forklift to stack the heavy shipping pallets in the warehouse. (工人使用堆高機，將沉重的棧板堆放在倉庫中。)",
     "id": "L5-stack-n-v"
   },
   {
     "level": "多益1",
     "word": "delegate",
-    "meaning": "n. 代表；受派代表",
+    "meaning": "n / v. 代表；受派代表；委派；授權",
     "example": "The project manager decided to delegate the administrative tasks to the assistant. (專案經理決定將行政任務委託給助理。)",
     "id": "L5-delegate-v"
   },
@@ -1297,7 +1297,7 @@
   {
     "level": "多益1",
     "word": "vegetarian",
-    "meaning": "n. 素食者",
+    "meaning": "n / a. 素食者；素食的；不含肉類的",
     "example": "The restaurant updated its lunch menu to include a premium vegetarian meal option. (餐廳更新了午餐菜單，並添加了優質素食餐點。)",
     "id": "L4-vegetarian-n"
   },
@@ -2263,7 +2263,7 @@
   {
     "level": "多益1",
     "word": "alert",
-    "meaning": "a. 警覺的；留意的",
+    "meaning": "a / n. 警覺的；留意的；警報；警示",
     "example": "Employees received an alert regarding the cybersecurity threat. (員工收到有關網路安全威脅的警報。)",
     "id": "L4-alert-v-n-a"
   },
@@ -2655,7 +2655,7 @@
   {
     "level": "多益1",
     "word": "editorial",
-    "meaning": "a. 編輯的；社論的",
+    "meaning": "a / n. 編輯的；社論的；社論；社評",
     "example": "The magazine’s latest editorial discusses the future of remote work trends. (該雜誌的最新社論討論了遠距工作趨勢的未來。)",
     "id": "L6-editorial-n-a"
   },
@@ -2746,7 +2746,7 @@
   {
     "level": "多益1",
     "word": "premium",
-    "meaning": "n. 保險費；溢價",
+    "meaning": "n / a. 保險費；溢價；高級的；優質的",
     "example": "The company offers premium support to its long-term clients. (公司為長期客戶提供優質支援。)",
     "id": "中高級-premium-a-n"
   },
@@ -2816,7 +2816,7 @@
   {
     "level": "多益1",
     "word": "clip",
-    "meaning": "n. 夾子；迴紋夾",
+    "meaning": "n. 夾子；迴紋夾；影片片段",
     "example": "Please review the video clip of the promotional advertisement before it goes live. (請在發布之前查看促銷廣告的影片片段。)",
     "id": "L3-clip-v-n"
   },
@@ -4615,7 +4615,7 @@
   {
     "level": "多益2",
     "word": "blanket",
-    "meaning": "n. 毯子；毛毯",
+    "meaning": "n / a. 毯子；毛毯；全面的；一律的",
     "example": "The company issued a blanket policy covering all regional offices. (該公司發布了一套涵蓋所有區域辦事處的全面性政策。)",
     "id": "L3-blanket-n-a"
   },
@@ -4776,7 +4776,7 @@
   {
     "level": "多益2",
     "word": "spray",
-    "meaning": "n. 噴霧；噴劑",
+    "meaning": "n / v. 噴霧；噴劑；噴灑；噴霧",
     "example": "The automated assembly machine will spray a protective coating onto the chip. (自動組裝機將在晶片上噴塗保護塗層。)",
     "id": "L3-spray-n-v"
   },
@@ -5294,7 +5294,7 @@
   {
     "level": "多益2",
     "word": "tailor",
-    "meaning": "n. 裁縫師；成衣修改師",
+    "meaning": "n / v. 裁縫師；成衣修改師；量身訂製；調整",
     "example": "Designers can tailor the software configuration to meet specific client demands. (設計人員可以客製化軟體配置以滿足特定的客戶需求。)",
     "id": "L3-tailor-v-n"
   },
@@ -5826,7 +5826,7 @@
   {
     "level": "多益2",
     "word": "archive",
-    "meaning": "n. 檔案庫；歷史資料",
+    "meaning": "n / v. 檔案庫；歷史資料；將…歸檔；存檔",
     "example": "The company decided to archive outdated records electronically. (該公司決定以電子方式存檔過時的記錄。)",
     "id": "中高級-archive-v-n"
   },
