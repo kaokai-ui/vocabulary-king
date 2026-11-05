@@ -13,7 +13,11 @@ const CHUNK_SIZE = 1000;
 const DEFAULT_DATA_REPO = "D:\\KK\\Project\\VocabularyKing-data";
 const EXTRA_LOCALES = {
   ja: { meaningField: "meaning_ja", exampleField: "example_ja" },
-  ko: { meaningField: "meaning_ko", exampleField: "example_ko" }
+  ko: { meaningField: "meaning_ko", exampleField: "example_ko" },
+  vi: { meaningField: "meaning_vi", exampleField: "example_vi" },
+  th: { meaningField: "meaning_th", exampleField: "example_th" },
+  id: { meaningField: "meaning_id", exampleField: "example_id" },
+  hi: { meaningField: "meaning_hi", exampleField: "example_hi" }
 };
 
 export function getVocabularyDataRepoPath(env = process.env) {
@@ -28,11 +32,25 @@ function normalizeExtraLocales(value) {
   const unsupported = [...new Set(requested)].filter((locale) => !Object.hasOwn(EXTRA_LOCALES, locale));
 
   if (unsupported.length > 0) {
-    throw new Error(`Unsupported vocabulary export locale(s): ${unsupported.join(", ")}. Supported locales: ja, ko.`);
+    throw new Error(`Unsupported vocabulary export locale(s): ${unsupported.join(", ")}. Supported locales: ${Object.keys(EXTRA_LOCALES).join(", ")}.`);
   }
 
   const requestedSet = new Set(requested);
   return Object.keys(EXTRA_LOCALES).filter((locale) => requestedSet.has(locale));
+}
+
+function sourceMeaningForLocale(sourceRow, meaningField) {
+  const legacyMeaning = sourceRow?.legacy_display?.[meaningField];
+  if (typeof legacyMeaning === "string" && legacyMeaning.trim()) return legacyMeaning;
+
+  const directMeaning = sourceRow?.[meaningField];
+  if (typeof directMeaning === "string" && directMeaning.trim()) return directMeaning;
+
+  if (!Array.isArray(sourceRow?.senses)) return "";
+  return sourceRow.senses
+    .map((sense) => String(sense?.[meaningField] ?? "").trim())
+    .filter(Boolean)
+    .join("；");
 }
 
 export function getVocabularyExportExtraLocales(env = process.env) {
@@ -199,10 +217,7 @@ function prepareTracks(dataRepoRoot, extraLocales, { includeSenseData = false, s
         const translatedRecords = exportRecords
           .map((record) => ({
             id: record.id,
-            meaning: String(
-              sourceRows[record.sourceIndex]?.legacy_display?.[fields.meaningField] ??
-                sourceRows[record.sourceIndex]?.[fields.meaningField] ?? ""
-            ).trim(),
+            meaning: sourceMeaningForLocale(sourceRows[record.sourceIndex], fields.meaningField).trim(),
             example: String(sourceRows[record.sourceIndex]?.[fields.exampleField] ?? "").trim()
           }))
           .filter((record) => record.meaning || record.example);

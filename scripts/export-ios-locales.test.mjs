@@ -31,6 +31,20 @@ function createSourceRepo(root) {
       example_ja: "",
       meaning_ko: definition.id === "junior-high" ? "풍부한" : "",
       example_ko: "",
+      example_vi: definition.id === "junior-high" ? "Đây là câu ví dụ." : "",
+      example_th: definition.id === "junior-high" ? "นี่คือตัวอย่างประโยค" : "",
+      example_id: definition.id === "junior-high" ? "Ini contoh kalimat." : "",
+      example_hi: definition.id === "junior-high" ? "यह एक उदाहरण वाक्य है।" : "",
+      senses: [{
+        pos: "",
+        meaning_zh: "中文意思",
+        meaning_ja: definition.id === "junior-high" ? "豊富な" : "",
+        meaning_ko: definition.id === "junior-high" ? "풍부한" : "",
+        meaning_vi: definition.id === "junior-high" ? "phong phú" : "",
+        meaning_th: definition.id === "junior-high" ? "อุดมสมบูรณ์" : "",
+        meaning_id: definition.id === "junior-high" ? "melimpah" : "",
+        meaning_hi: definition.id === "junior-high" ? "प्रचुर" : ""
+      }],
       example_format: { before: " (", after: ")" }
     };
     fs.writeFileSync(path.join(dataDirectory, `${definition.id}.jsonl`), `${JSON.stringify(row)}\n`, "utf8");
@@ -48,7 +62,7 @@ afterEach(() => {
 });
 
 describe("iOS locale export", () => {
-  it("writes base data and both locale overlays into the explicit external folder", () => {
+  it("writes base data and all six locale overlays into the explicit external folder", () => {
     const temporaryRoot = createTemporaryRoot();
     const projectRoot = path.join(temporaryRoot, "VocabularyKing");
     const dataRepoRoot = path.join(temporaryRoot, "VocabularyKing-data");
@@ -63,8 +77,22 @@ describe("iOS locale export", () => {
 
     expect(result.localeCounts.ja).toBe(1);
     expect(result.localeCounts.ko).toBe(1);
+    expect(result.localeCounts.vi).toBe(1);
+    expect(result.localeCounts.th).toBe(1);
+    expect(result.localeCounts.id).toBe(1);
+    expect(result.localeCounts.hi).toBe(1);
     expect(catalog.tracks["junior-high"].locales.ja.totalWords).toBe(1);
     expect(catalog.tracks["junior-high"].locales.ko.totalWords).toBe(1);
+    for (const [locale, meaning, example] of [
+      ["vi", "phong phú", "Đây là câu ví dụ."],
+      ["th", "อุดมสมบูรณ์", "นี่คือตัวอย่างประโยค"],
+      ["id", "melimpah", "Ini contoh kalimat."],
+      ["hi", "प्रचुर", "यह एक उदाहरण वाक्य है।"]
+    ]) {
+      expect(catalog.tracks["junior-high"].locales[locale].totalWords).toBe(1);
+      const localeChunk = JSON.parse(fs.readFileSync(path.join(outPath, "tracks", "junior-high", locale, "chunk-001.json"), "utf8"));
+      expect(localeChunk).toEqual([{ id: "junior-high-uid-1", meaning, example }]);
+    }
     expect(toeicChunk[0].id).toBe("junior-high-uid-1");
     expect(toeicChunk[0]).toMatchObject({
       senses: [{ pos: "", meaning_zh: "中文意思", meaning_ja: "", meaning_ko: "" }],

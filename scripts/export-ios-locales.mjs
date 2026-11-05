@@ -3,6 +3,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { exportGameVocabulary, getVocabularyDataRepoPath } from "./export-game-vocabulary.mjs";
 
+const IOS_LOCALES = ["ja", "ko", "vi", "th", "id", "hi"];
+
 function isWithinPath(parentPath, candidatePath) {
   const relativePath = path.relative(parentPath, candidatePath);
   return relativePath === "" ||
@@ -92,7 +94,7 @@ function parseOutputArgument(args) {
 
 function countExportedLocales(catalog) {
   return Object.fromEntries(
-    ["ja", "ko"].map((locale) => [
+    IOS_LOCALES.map((locale) => [
       locale,
       Object.values(catalog.tracks ?? {}).reduce((total, track) => total + (track.locales?.[locale]?.totalWords ?? 0), 0)
     ])
@@ -108,7 +110,7 @@ export function exportIosVocabularyLocales({ outPath, dataRepoRoot = getVocabula
   const result = exportGameVocabulary({
     dataRepoRoot: resolvedDataRepoRoot,
     dataRoot: resolvedOutputPath,
-    extraLocales: ["ja", "ko"],
+    extraLocales: IOS_LOCALES,
     includeUidAliases: true,
     includeSenseData: true
   });
@@ -125,7 +127,7 @@ export function exportIosVocabularyLocales({ outPath, dataRepoRoot = getVocabula
     throw new Error(`The iOS export is missing translated vocabulary for: ${missingLocales.join(", ")}.`);
   }
 
-  console.log(`iOS locale export written to ${resolvedOutputPath} (ja: ${localeCounts.ja}, ko: ${localeCounts.ko}).`);
+  console.log(`iOS locale export written to ${resolvedOutputPath} (${Object.entries(localeCounts).map(([locale, count]) => `${locale}: ${count}`).join(", ")}).`);
   return { outPath: resolvedOutputPath, localeCounts };
 }
 
