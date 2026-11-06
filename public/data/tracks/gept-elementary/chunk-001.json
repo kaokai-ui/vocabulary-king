@@ -23,14 +23,14 @@
   {
     "level": "L1",
     "word": "above",
-    "meaning": "prep. 在…上方；高於；超過\nadv. 在上面；向上方\nadj. 上面的；較高的",
+    "meaning": "prep. 在……上方；高於；超過\nadv. 在上面；向上方\nadj. 上面的；較高的",
     "example": "The clock is above the door. (時鐘在門的上方。)",
     "id": "L1-above-prep-adv-adv-adj"
   },
   {
     "level": "L1",
     "word": "across",
-    "meaning": "prep. 穿過；橫越；在…對面\nadv. 橫過；到對面",
+    "meaning": "prep. 穿過；橫越；在……對面\nadv. 橫過；到對面",
     "example": "The bank is across the street. (銀行在街道的對面。)",
     "id": "L1-across-prep-adv-prep"
   },
@@ -93,7 +93,7 @@
   {
     "level": "L1",
     "word": "after",
-    "meaning": "prep. 在…之後；後於\nconj. 在…之後；當…以後\nadv. 後來；以後",
+    "meaning": "prep. 在……之後；後於\nconj. 在……之後；當……以後\nadv. 後來；以後",
     "example": "We went for ice cream after dinner.（我們晚餐後去吃冰淇淋。）",
     "id": "L1-after-prep-conj-adv"
   },
@@ -128,7 +128,7 @@
   {
     "level": "L1",
     "word": "ago",
-    "meaning": "adv. 以前；之前；…以前",
+    "meaning": "adv. 以前；之前；……以前",
     "example": "I moved here three years ago.（我三年前搬到這裡。）",
     "id": "L1-ago-adv"
   },
@@ -233,7 +233,7 @@
   {
     "level": "L1",
     "word": "among",
-    "meaning": "prep. 在…之中；在…當中",
+    "meaning": "prep. 在……之中；在……當中",
     "example": "A tiny kitten slept among the soft blankets. (一隻小貓睡在柔軟的毯子中間。)",
     "id": "L1-among-prep"
   },
@@ -352,7 +352,7 @@
   {
     "level": "L1",
     "word": "around",
-    "meaning": "prep. 圍繞；在…周圍；大約\nadv. 四處；周圍；到處",
+    "meaning": "prep. 圍繞；在……周圍；大約\nadv. 四處；周圍；到處",
     "example": "We sat around the campfire and shared warm bread. (我們圍著營火坐下，一起吃熱麵包。)",
     "id": "L1-around-prep-adv"
   },
@@ -366,7 +366,7 @@
   {
     "level": "L1",
     "word": "as",
-    "meaning": "prep. 擔任；身為；作為\nconj. 當…時；因為；像…一樣",
+    "meaning": "prep. 擔任；身為；作為\nconj. 當……時；因為；像……一樣",
     "example": "My aunt works as a nurse in Taichung. (我阿姨在台中擔任護理師。)",
     "id": "L1-as-conj-prep-adv"
   },
@@ -492,7 +492,7 @@
   {
     "level": "L1",
     "word": "base",
-    "meaning": "n. 底部；基地；基礎\nv. 以…為基地；根據",
+    "meaning": "n. 底部；基地；基礎\nv. 以……為基地；根據",
     "example": "The company is based in Taipei. (這家公司總部設在台北。)",
     "id": "L1-base-verb-noun-noun"
   },
@@ -541,7 +541,7 @@
   {
     "level": "L1",
     "word": "bathe",
-    "meaning": "v. 洗澡；替…洗澡",
+    "meaning": "v. 洗澡；替……洗澡",
     "example": "Please bathe the dog before it comes inside.（請在狗進屋前幫牠洗澡。）",
     "id": "L1-bathe-verb"
   },
@@ -604,7 +604,7 @@
   {
     "level": "L1",
     "word": "bed",
-    "meaning": "n. 床鋪；床位；花床\nv. 把…栽入；埋入",
+    "meaning": "n. 床鋪；床位；花床\nv. 把……栽入；埋入",
     "example": "The cat curled up on the guest bed. (貓蜷縮在客房的床上。)",
     "id": "L1-bed-noun"
   },
@@ -618,7 +618,7 @@
   {
     "level": "L1",
     "word": "before",
-    "meaning": "prep. 在…之前；先於\nconj. 在…之前；尚未…就\nadv. 以前；先前；從前",
+    "meaning": "prep. 在……之前；先於\nconj. 在……之前；尚未……就\nadv. 以前；先前；從前",
     "example": "Check your bag before you leave the classroom. (離開教室前，檢查一下你的包包。)",
     "id": "L1-before-prep-conj-adv"
   },
@@ -632,7 +632,7 @@
   {
     "level": "L1",
     "word": "behind",
-    "meaning": "prep. 在…後面；落後於\nadv. 在後面；向後；遲到",
+    "meaning": "prep. 在……後面；落後於\nadv. 在後面；向後；遲到",
     "example": "A row of trees grows behind the gym. (體育館後方長著一排樹。)",
     "id": "L1-behind-prep-adv"
   },
@@ -660,14 +660,14 @@
   {
     "level": "L1",
     "word": "below",
-    "meaning": "adv. 在下方；在下面；較低\nprep. 在…下方；低於",
+    "meaning": "adv. 在下方；在下面；較低\nprep. 在……下方；低於",
     "example": "The path runs below the old stone bridge. (小徑從古老石橋的下方通過。)",
     "id": "L1-below-adv-prep"
   },
   {
     "level": "L1",
     "word": "beside",
-    "meaning": "prep. 在…旁邊；靠近；除…以外",
+    "meaning": "prep. 在……旁邊；靠近；除……以外",
     "example": "A child placed the drawing beside the window. (孩子把畫作放在窗戶旁邊。)",
     "id": "L1-beside-prep"
   },
@@ -688,7 +688,7 @@
   {
     "level": "L1",
     "word": "between",
-    "meaning": "prep. 在…之間；兩者之中",
+    "meaning": "prep. 在……之間；兩者之中",
     "example": "The meeting is between 2 and 4 PM. (會議安排在下午兩點到四點之間。)",
     "id": "L1-between-prep"
   },
@@ -807,7 +807,7 @@
   {
     "level": "L1",
     "word": "bottom",
-    "meaning": "n. 大碗；碗具；深碗\nadj. 最底部的；底端的\nv. 以…為根據；建立於",
+    "meaning": "n. 大碗；碗具；深碗\nadj. 最底部的；底端的\nv. 以……為根據；建立於",
     "example": "A tiny crab rested at the bottom of the bucket. (一隻小螃蟹待在水桶底部。)",
     "id": "L1-bottom-noun-adj-verb-noun"
   },
@@ -821,7 +821,7 @@
   {
     "level": "L1",
     "word": "box",
-    "meaning": "n. 箱子；盒子；包廂\nv. 拳擊；裝箱；把…放入盒中",
+    "meaning": "n. 箱子；盒子；包廂\nv. 拳擊；裝箱；把……放入盒中",
     "example": "The delivery came in a big box. (快遞裝在一個大箱子裡。)",
     "id": "L1-box-noun-verb"
   },
@@ -961,7 +961,7 @@
   {
     "level": "L1",
     "word": "by",
-    "meaning": "prep. 藉由；在…旁；到…為止\nadv. 經過；從旁邊；附近",
+    "meaning": "prep. 藉由；在……旁；到……為止\nadv. 經過；從旁邊；附近",
     "example": "Please send the form by email before noon. (請在中午前用電子郵件寄出表格。)",
     "id": "L1-by-prep-adv"
   },
@@ -1094,7 +1094,7 @@
   {
     "level": "L1",
     "word": "center",
-    "meaning": "n. 中心；中央；中心點\nv. 集中；以…為中心",
+    "meaning": "n. 中心；中央；中心點\nv. 集中；以……為中心",
     "example": "Draw a dot at the center of the circle. (在圓圈的中心畫一個點。)",
     "id": "L1-center-noun-verb"
   },
@@ -1619,7 +1619,7 @@
   {
     "level": "L1",
     "word": "down",
-    "meaning": "adv. 向下；往下；在下面\nprep. 沿著…下方；順著…而下\nadj. 沮喪的；不舒服的；停止的",
+    "meaning": "adv. 向下；往下；在下面\nprep. 沿著……下方；順著……而下\nadj. 沮喪的；不舒服的；停止的",
     "example": "The ball rolled down the hill.（球滾下山坡。）",
     "id": "L1-down-adv-prep-adj-noun"
   },
@@ -1689,7 +1689,7 @@
   {
     "level": "L1",
     "word": "during",
-    "meaning": "prep. 在…期間；在…當中",
+    "meaning": "prep. 在……期間；在……當中",
     "example": "I took notes during the lesson.（我在上課時做筆記。）",
     "id": "L1-during-prep"
   },
@@ -1850,7 +1850,7 @@
   {
     "level": "L1",
     "word": "even",
-    "meaning": "adv. 甚至；連…都；即使",
+    "meaning": "adv. 甚至；連……都；即使",
     "example": "Even experts make mistakes sometimes. (甚至專家有時也會犯錯。)",
     "id": "L1-even-adv"
   },
@@ -1899,7 +1899,7 @@
   {
     "level": "L1",
     "word": "except",
-    "meaning": "prep. 除了；除…之外；不包括\nconj. 除非；若非；除了…",
+    "meaning": "prep. 除了；除……之外；不包括\nconj. 除非；若非；除了……",
     "example": "The shop is open every day except Sunday. (這家店除了星期日，每天都營業。)",
     "id": "L1-except-conj-prep"
   },
@@ -2284,7 +2284,7 @@
   {
     "level": "L1",
     "word": "from",
-    "meaning": "prep. 來自；源於；從…而來",
+    "meaning": "prep. 來自；源於；從……而來",
     "example": "I come from Taiwan. (我來自台灣。)",
     "id": "L1-from-prep"
   },
@@ -2620,7 +2620,7 @@
   {
     "level": "L1",
     "word": "hat",
-    "meaning": "n. 帽子；禮帽；帽子類\nv. 戴帽子；給…戴帽",
+    "meaning": "n. 帽子；禮帽；帽子類\nv. 戴帽子；給……戴帽",
     "example": "She wore a hat to protect herself from the sun. (她戴帽子防曬。)",
     "id": "L1-hat-noun"
   },
@@ -2648,7 +2648,7 @@
   {
     "level": "L1",
     "word": "head",
-    "meaning": "n. 頭部；首腦；前端\nv. 率領；朝…前進；主管",
+    "meaning": "n. 頭部；首腦；前端\nv. 率領；朝……前進；主管",
     "example": "My head hurts. (我頭痛。)",
     "id": "L1-head-noun-verb"
   },
@@ -2935,7 +2935,7 @@
   {
     "level": "L1",
     "word": "inside",
-    "meaning": "prep. 在…裡面；到…裡\nadv. 在裡面；在室內\nn. 內部；裡面；內側",
+    "meaning": "prep. 在……裡面；到……裡\nadv. 在裡面；在室內\nn. 內部；裡面；內側",
     "example": "The cat is hiding inside the box.（貓躲在盒子裡面。）",
     "id": "L1-inside-prep-adv-noun"
   },
@@ -2949,7 +2949,7 @@
   {
     "level": "L1",
     "word": "into",
-    "meaning": "prep. 進入；到…裡面；成為",
+    "meaning": "prep. 進入；到……裡面；成為",
     "example": "The boy jumped into the pool.（那個男孩跳進游泳池。）",
     "id": "L1-into-prep"
   },
@@ -3320,7 +3320,7 @@
   {
     "level": "L1",
     "word": "let",
-    "meaning": "v. 准許；允許；使…可以",
+    "meaning": "v. 准許；允許；使……可以",
     "example": "Let me help you. (讓我幫你。)",
     "id": "L1-let-verb"
   },
@@ -3383,7 +3383,7 @@
   {
     "level": "L1",
     "word": "line",
-    "meaning": "n. 線條；隊伍；電話線\nv. 排隊；排列；沿…排列",
+    "meaning": "n. 線條；隊伍；電話線\nv. 排隊；排列；沿……排列",
     "example": "Please stand in line. (請排隊。)",
     "id": "L1-line-noun-verb"
   },
@@ -4090,7 +4090,7 @@
   {
     "level": "L1",
     "word": "off",
-    "meaning": "adv. 關掉；離開；不在工作\nprep. 從…離開；在…外面\nadj. 關閉的；休息的；不工作的",
+    "meaning": "adv. 關掉；離開；不在工作\nprep. 從……離開；在……外面\nadj. 關閉的；休息的；不工作的",
     "example": "Turn off the light, please. (請把燈關掉。)",
     "id": "L1-off-adv-prep-adj"
   },
@@ -4139,14 +4139,14 @@
   {
     "level": "L1",
     "word": "on",
-    "meaning": "prep. 在…上；在…時；關於\nadv. 繼續；開著；向前",
+    "meaning": "prep. 在……上；在……時；關於\nadv. 繼續；開著；向前",
     "example": "Students focus on their studies. (學生專注於學習。)",
     "id": "L1-on-prep-adv"
   },
   {
     "level": "L1",
     "word": "once",
-    "meaning": "adv. 一次；曾經；從前\nconj. 一旦；只要；當…之後\npron. 曾經的人或事；某一次",
+    "meaning": "adv. 一次；曾經；從前\nconj. 一旦；只要；當……之後\npron. 曾經的人或事；某一次",
     "example": "I go swimming once a week. (我每週游泳一次。)",
     "id": "L1-once-adv-conj-pron"
   },
@@ -4216,21 +4216,21 @@
   {
     "level": "L1",
     "word": "out",
-    "meaning": "adv. 在外面；外出\nadj. 不在的；熄滅的\nprep. 從…裡出去；離開",
+    "meaning": "adv. 在外面；外出\nadj. 不在的；熄滅的\nprep. 從……裡出去；離開",
     "example": "She went out for a walk. (她出去散步了。)",
     "id": "L1-out-adv-adj-prep"
   },
   {
     "level": "L1",
     "word": "outside",
-    "meaning": "prep. 在…外面；在…之外\nadv. 在外面；向外面\nadj. 外面的；外部的",
+    "meaning": "prep. 在……外面；在……之外\nadv. 在外面；向外面\nadj. 外面的；外部的",
     "example": "The children are playing outside. (孩子們在外面玩。)",
     "id": "L1-outside-prep-adv-adj-noun"
   },
   {
     "level": "L1",
     "word": "over",
-    "meaning": "prep. 在…上方；越過\nadv. 結束；翻倒\nadj. 結束的；剩下的",
+    "meaning": "prep. 在……上方；越過\nadv. 結束；翻倒\nadj. 結束的；剩下的",
     "example": "The game is over. (比賽結束了。)",
     "id": "L1-over-prep-adv-adj"
   },
@@ -4461,7 +4461,7 @@
   {
     "level": "L1",
     "word": "pocket",
-    "meaning": "n. 口袋；衣袋；零用錢\nadj. 袖珍的；小型的\nv. 把…放入口袋；侵吞",
+    "meaning": "n. 口袋；衣袋；零用錢\nadj. 袖珍的；小型的\nv. 把……放入口袋；侵吞",
     "example": "I found a coin in my pocket.（我在口袋裡找到一枚硬幣。）",
     "id": "L1-pocket-noun-adj-verb"
   },
@@ -4559,7 +4559,7 @@
   {
     "level": "L1",
     "word": "price",
-    "meaning": "n. 價格；價錢；代價\nv. 為…定價；標價",
+    "meaning": "n. 價格；價錢；代價\nv. 為……定價；標價",
     "example": "The price of this book is too high.（這本書的價格太高了。）",
     "id": "L1-price-noun-verb"
   },
@@ -4902,7 +4902,7 @@
   {
     "level": "L1",
     "word": "round",
-    "meaning": "adv. 環繞地；周而復始地；四處\nprep. 環繞；圍繞；在…周圍\nn. 一輪；一回合；一巡",
+    "meaning": "adv. 環繞地；周而復始地；四處\nprep. 環繞；圍繞；在……周圍\nn. 一輪；一回合；一巡",
     "example": "The table is round.（這張桌子是圓的。）",
     "id": "L1-round-adv-prep-noun-adj"
   },
@@ -5294,7 +5294,7 @@
   {
     "level": "L1",
     "word": "show",
-    "meaning": "v. 給…看；展示；表明\nn. 表演；展覽；節目",
+    "meaning": "v. 給……看；展示；表明\nn. 表演；展覽；節目",
     "example": "Please show me your new bike. (請讓我看看你的新腳踏車。)",
     "id": "L1-show-verb-noun"
   },
@@ -5357,7 +5357,7 @@
   {
     "level": "L1",
     "word": "since",
-    "meaning": "conj. 自從；既然；因為\nprep. 自…以來；從…之後\nadv. 從那時起；此後",
+    "meaning": "conj. 自從；既然；因為\nprep. 自……以來；從……之後\nadv. 從那時起；此後",
     "example": "I have been here since Monday. (我從星期一就一直在這裡。)",
     "id": "L1-since-conj-prep-adv"
   },
@@ -5987,7 +5987,7 @@
   {
     "level": "L1",
     "word": "than",
-    "meaning": "prep. 相比；勝過；比起\nconj. 比起；相比於；比…更",
+    "meaning": "prep. 相比；勝過；比起\nconj. 比起；相比於；比……更",
     "example": "My brother is taller than me. (我哥哥比我高。)",
     "id": "L1-than-conj-prep"
   },
@@ -6176,7 +6176,7 @@
   {
     "level": "L1",
     "word": "till",
-    "meaning": "prep. 直到；到…為止\nconj. 直到；直到…時",
+    "meaning": "prep. 直到；到……為止\nconj. 直到；直到……時",
     "example": "Wait till I come back. (等我回來。)",
     "id": "L1-till-prep-conj"
   },
@@ -6302,7 +6302,7 @@
   {
     "level": "L1",
     "word": "trip",
-    "meaning": "n. 旅行；旅程；短途旅行\nv. 絆倒；失足；絆倒在…",
+    "meaning": "n. 旅行；旅程；短途旅行\nv. 絆倒；失足；絆倒在……",
     "example": "We took a trip to the mountains.（我們去山上旅行。）",
     "id": "L1-trip-noun"
   },
@@ -6386,7 +6386,7 @@
   {
     "level": "L1",
     "word": "under",
-    "meaning": "prep. 在…下面；低於；在…之下\nadv. 在下方；向下；在下面",
+    "meaning": "prep. 在……下面；低於；在……之下\nadv. 在下方；向下；在下面",
     "example": "The cat is under the table. (貓在桌子底下。)",
     "id": "L1-under-prep-adv"
   },
@@ -6407,14 +6407,14 @@
   {
     "level": "L1",
     "word": "until",
-    "meaning": "prep. 直到；到…為止\nconj. 直到…才；直到…為止",
+    "meaning": "prep. 直到；到……為止\nconj. 直到……才；直到……為止",
     "example": "We played until it got dark. (我們玩到天黑。)",
     "id": "L1-until-conj-prep"
   },
   {
     "level": "L1",
     "word": "up",
-    "meaning": "adv. 向上；起來；在上方\nprep. 沿著；往上；到…上方\nadj. 向上的；上行的；起床的",
+    "meaning": "adv. 向上；起來；在上方\nprep. 沿著；往上；到……上方\nadj. 向上的；上行的；起床的",
     "example": "Please stand up. (請站起來。)",
     "id": "L1-up-adv-prep-adj"
   },
@@ -6652,7 +6652,7 @@
   {
     "level": "L1",
     "word": "when",
-    "meaning": "adv. 何時；什麼時候\nconj. 當…時；在…時候",
+    "meaning": "adv. 何時；什麼時候\nconj. 當……時；在……時候",
     "example": "Call me when you get home. (你到家時打電話給我。)",
     "id": "L1-when-conj-adv-pron"
   },
@@ -6792,7 +6792,7 @@
   {
     "level": "L1",
     "word": "with",
-    "meaning": "prep. 和…一起；伴隨；具有",
+    "meaning": "prep. 和……一起；伴隨；具有",
     "example": "I went to the movies with my friends. (我和朋友去看電影。)",
     "id": "L1-with-prep"
   },
