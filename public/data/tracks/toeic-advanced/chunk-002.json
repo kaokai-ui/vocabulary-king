@@ -1815,7 +1815,7 @@
   {
     "level": "商務3",
     "word": "clone",
-    "meaning": "n. 複製品；克隆生物；仿製品\nv. 複製；克隆；仿製",
+    "meaning": "n. 複製品；複製生物；仿製品\nv. 複製；仿製",
     "example": "The software team cloned the test environment so developers could evaluate updates without affecting customers. (軟體團隊複製了測試環境，讓開發人員能評估更新而不影響顧客。)",
     "id": "商務3-clone-m1hxgzgm"
   },
@@ -2109,7 +2109,7 @@
   {
     "level": "商務3",
     "word": "sensor",
-    "meaning": "n. 感測器；傳感器；探測器",
+    "meaning": "n. 感測器；探測器",
     "example": "The motion sensor automatically turns on the lights in the office. (動作感測器會自動開啟辦公室的燈光。)",
     "id": "TOEIC-ADV-sensor-mep82m"
   },
@@ -2613,7 +2613,7 @@
   {
     "level": "商務3",
     "word": "simulate",
-    "meaning": "vt. 模擬；仿真；假裝",
+    "meaning": "vt. 模擬；假裝",
     "example": "The training software can simulate customer interactions so new representatives can practice responses. (培訓軟體能模擬顧客互動，讓新進代表練習如何回應。)",
     "id": "商務3-simulate-mft3cch"
   },
@@ -2725,7 +2725,7 @@
   {
     "level": "商務3",
     "word": "asylum",
-    "meaning": "n. 庇護；政治避難；收容機構",
+    "meaning": "n. 庇護；政治庇護；收容機構",
     "example": "The nonprofit arranged legal assistance for workers seeking asylum after fleeing political violence. (這家非營利組織為逃離政治暴力、尋求庇護的工人安排法律協助。)",
     "id": "商務3-asylum-mt8luxr"
   },

@@ -611,7 +611,7 @@
   {
     "level": "中高級",
     "word": "buffer",
-    "meaning": "n. 緩衝物；緩衝區；緩存區\nv. 緩和；緩衝",
+    "meaning": "n. 緩衝物；緩衝區；快取區\nv. 緩和；緩衝",
     "example": "Trees can act as a buffer against strong wind.（樹木可以作為抵擋強風的緩衝。）",
     "id": "中高級-buffer-noun-verb"
   },
@@ -996,7 +996,7 @@
   {
     "level": "中高級",
     "word": "condom",
-    "meaning": "n. 保險套；避孕套",
+    "meaning": "n. 保險套",
     "example": "A condom can help prevent some infections.（保險套有助於預防某些感染。）",
     "id": "中高級-condom-noun"
   },
@@ -3824,7 +3824,7 @@
   {
     "level": "中高級",
     "word": "marketing",
-    "meaning": "n. 行銷；市場營銷",
+    "meaning": "n. 行銷；市場行銷",
     "example": "She works in marketing.（她在行銷部門工作。）",
     "id": "中高級-marketing-noun"
   },
@@ -6736,7 +6736,7 @@
   {
     "level": "中高級",
     "word": "textual",
-    "meaning": "adj. 文本的；文字的",
+    "meaning": "adj. 文字的",
     "example": "We did a textual analysis of the poem.（我們對詩做了文本分析。）",
     "id": "中高級-textual-adj"
   },

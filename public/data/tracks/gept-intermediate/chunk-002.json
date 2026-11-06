@@ -149,7 +149,7 @@
   {
     "level": "L3",
     "word": "text",
-    "meaning": "n. 正文；文本",
+    "meaning": "n. 正文",
     "example": "The museum's audio guide includes text in three languages. (博物館的語音導覽附有三種語言的文字內容。)",
     "id": "L3-text-noun"
   },
@@ -6631,7 +6631,7 @@
   {
     "level": "L4",
     "word": "shuttle",
-    "meaning": "n. 接駁車；航天飛機；梭子\nv. 頻繁往返；接送",
+    "meaning": "n. 接駁車；太空梭；梭子\nv. 頻繁往返；接送",
     "example": "The hotel has a shuttle to the airport.（這家飯店有到機場的接駁車。）",
     "id": "L4-shuttle-noun-verb"
   },

@@ -331,7 +331,7 @@
   {
     "level": "基礎2",
     "word": "text",
-    "meaning": "n / v. 簡訊；文字；正文；傳簡訊；發短信",
+    "meaning": "n / v. 簡訊；文字；正文；傳簡訊；發簡訊",
     "example": "The manager sent a text reminding staff about the updated meeting location. (經理傳送簡訊提醒員工更新後的會議地點。)",
     "id": "基礎2-text-mg7il8k"
   },
@@ -633,7 +633,7 @@
     "level": "基礎2",
     "word": "software",
     "meaning": "n. 軟體；軟體程式",
-    "example": "The updated software allows employees to submit travel expenses online. (更新後的軟體讓員工能在線上提交差旅費。)",
+    "example": "The updated software allows employees to submit travel expenses online. (更新後的軟體讓員工能線上提交差旅費。)",
     "id": "L4-software-n"
   },
   {
@@ -1031,7 +1031,7 @@
   {
     "level": "基礎2",
     "word": "taxi",
-    "meaning": "n. 計程車；出租車",
+    "meaning": "n. 計程車",
     "example": "A taxi will take the visiting executives from the airport to the hotel. (計程車會載送來訪的高階主管從機場前往飯店。)",
     "id": "基礎2-taxi-mo09c6p"
   },
@@ -3509,7 +3509,7 @@
   {
     "level": "基礎3",
     "word": "signal",
-    "meaning": "n. 信號；訊號；徵兆",
+    "meaning": "n. 訊號；徵兆",
     "example": "A green signal on the dashboard indicates that the system is ready. (儀表板上的綠色訊號表示系統已準備就緒。)",
     "id": "基礎3-signal-m795zne"
   },
@@ -4496,7 +4496,7 @@
   {
     "level": "基礎3",
     "word": "mail",
-    "meaning": "n / v. 郵件；郵政；信件；郵寄；寄送；發郵件",
+    "meaning": "n / v. 郵件；郵政；信件；郵寄；寄送",
     "example": "The accounting department will mail the payment confirmation to the supplier. (會計部門將把付款確認函郵寄給供應商。)",
     "id": "L1-mail-n-v"
   },
@@ -5001,7 +5001,7 @@
     "level": "基礎3",
     "word": "attractive",
     "meaning": "a. 吸引人的；有吸引力的",
-    "example": "The hotel offered an attractive rate for guests who booked directly online. (飯店為直接在線上訂房的旅客提供了優惠房價。)",
+    "example": "The hotel offered an attractive rate for guests who booked directly online. (飯店為直接線上訂房的旅客提供了優惠房價。)",
     "id": "基礎3-attractive-m1fa0ntn"
   },
   {
@@ -5148,7 +5148,7 @@
     "level": "基礎3",
     "word": "county",
     "meaning": "n. 郡；縣",
-    "example": "The county office will publish the updated business license application online. (郡公所將在線上公布更新後的營業執照申請表。)",
+    "example": "The county office will publish the updated business license application online. (郡公所將線上公布更新後的營業執照申請表。)",
     "id": "基礎3-county-mmg0zt"
   },
   {
@@ -5553,8 +5553,8 @@
   {
     "level": "基礎3",
     "word": "online",
-    "meaning": "a / ad. 線上的；連網的；在線上；透過網路",
-    "example": "Employees can complete the annual compliance course online before the deadline. (員工可以在期限前在線上完成年度法遵課程。)",
+    "meaning": "a / ad. 線上的；連網的；線上；透過網路",
+    "example": "Employees can complete the annual compliance course online before the deadline. (員工可以在期限前線上完成年度法遵課程。)",
     "id": "基礎3-online-m106stgb"
   },
   {

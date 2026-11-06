@@ -534,7 +534,7 @@
   {
     "level": "L6",
     "word": "asylum",
-    "meaning": "n. 庇護；政治避難；收容所",
+    "meaning": "n. 庇護；政治庇護；收容所",
     "example": "The refugee asked for asylum.（那名難民請求庇護。）",
     "id": "L6-asylum-noun"
   },
@@ -807,7 +807,7 @@
   {
     "level": "L6",
     "word": "byte",
-    "meaning": "n. 位元組；字節",
+    "meaning": "n. 位元組",
     "example": "A byte is a unit of digital information.（位元組是數位資訊的單位。）",
     "id": "L6-byte-noun"
   },
@@ -3474,7 +3474,7 @@
   {
     "level": "L6",
     "word": "LCD",
-    "meaning": "n. 液晶顯示器；液晶屏幕",
+    "meaning": "n. 液晶顯示器；液晶螢幕",
     "example": "This phone has a bright LCD screen.（這支手機有明亮的液晶螢幕。）",
     "id": "L6-lcd-noun"
   },
@@ -6120,7 +6120,7 @@
   {
     "level": "L6",
     "word": "transistor",
-    "meaning": "n. 電晶體；晶體管",
+    "meaning": "n. 電晶體",
     "example": "The old radio uses a transistor.（這台舊收音機使用電晶體。）",
     "id": "L6-transistor-noun"
   },

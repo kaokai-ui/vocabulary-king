@@ -5427,7 +5427,7 @@
   {
     "level": "L3",
     "word": "plastic",
-    "meaning": "n. 塑膠；塑料\nadj. 塑膠製的；可塑的",
+    "meaning": "n. 塑膠\nadj. 塑膠製的；可塑的",
     "example": "This bottle is made of plastic.（這個瓶子是塑膠做的。）",
     "id": "L3-plastic-noun-adj"
   },
@@ -6456,7 +6456,7 @@
   {
     "level": "L3",
     "word": "signal",
-    "meaning": "n. 信號；暗號\nv. 發信號；示意\nadj. 顯著的；非凡的",
+    "meaning": "n. 訊號；暗號\nv. 發訊號；示意\nadj. 顯著的；非凡的",
     "example": "The green light is a signal to go.（綠燈是可以前進的訊號。）",
     "id": "L3-signal-noun-verb-adj"
   },

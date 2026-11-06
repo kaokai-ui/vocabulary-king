@@ -2341,7 +2341,7 @@
     "level": "基礎1",
     "word": "grow",
     "meaning": "v. 成長；增加；培養",
-    "example": "E-commerce industries continue to grow rapidly as more consumers shop online. (隨著越來越多消費者在線上購物，電子商務產業持續快速成長。)",
+    "example": "E-commerce industries continue to grow rapidly as more consumers shop online. (隨著越來越多消費者線上購物，電子商務產業持續快速成長。)",
     "id": "L1-grow-v"
   },
   {
@@ -2998,7 +2998,7 @@
   {
     "level": "基礎1",
     "word": "computer",
-    "meaning": "n. 電腦；計算機",
+    "meaning": "n. 電腦",
     "example": "Each employee must use a secure password to access the company computer. (每位員工都必須使用安全密碼存取公司電腦。)",
     "id": "基礎1-computer-mfqu29s"
   },
@@ -3727,7 +3727,7 @@
     "level": "基礎1",
     "word": "kill",
     "meaning": "v. 殺死；停止；終止",
-    "example": "The technician restarted the server to kill the stalled software process. (技術人員重新啟動伺服器，以終止卡住的軟體程序。)",
+    "example": "The technician restarted the server to kill the stalled software process. (技術人員重新啟動伺服器，以終止卡住的軟體程式。)",
     "id": "基礎1-kill-md7mqgr"
   },
   {
@@ -3993,7 +3993,7 @@
     "level": "基礎1",
     "word": "material",
     "meaning": "n. 材料；素材",
-    "example": "The training material will be available to all new employees online. (所有新進員工都可以在線上取得這份訓練教材。)",
+    "example": "The training material will be available to all new employees online. (所有新進員工都可以線上取得這份訓練教材。)",
     "id": "基礎1-material-m1qnwpsy"
   },
   {
@@ -6016,7 +6016,7 @@
     "level": "基礎2",
     "word": "option",
     "meaning": "n. 選項；選擇權",
-    "example": "Customers can choose a pickup option when placing an online order. (顧客在線上下單時可以選擇自取選項。)",
+    "example": "Customers can choose a pickup option when placing an online order. (顧客線上下單時可以選擇自取選項。)",
     "id": "L6-option-n"
   },
   {

@@ -3761,7 +3761,7 @@
   {
     "level": "L1",
     "word": "mouse",
-    "meaning": "n. 老鼠；鼠標",
+    "meaning": "n. 老鼠；滑鼠",
     "example": "A mouse ran behind the cupboard.（一隻老鼠跑到櫥櫃後面。）",
     "id": "L1-mouse-noun"
   },
@@ -5238,7 +5238,7 @@
   {
     "level": "L1",
     "word": "shirt",
-    "meaning": "n. 襯衫；男式襯衣",
+    "meaning": "n. 襯衫；男式襯衫",
     "example": "I bought a new shirt yesterday.（我昨天買了一件新襯衫。）",
     "id": "L1-shirt-noun"
   },
@@ -5945,7 +5945,7 @@
   {
     "level": "L1",
     "word": "taxi",
-    "meaning": "n. 計程車；出租車",
+    "meaning": "n. 計程車",
     "example": "We took a taxi to the station.（我們搭計程車去車站。）",
     "id": "L1-taxi-noun"
   },

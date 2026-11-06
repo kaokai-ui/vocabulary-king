@@ -1248,7 +1248,7 @@
   {
     "level": "Elementary",
     "word": "chess",
-    "meaning": "n. 西洋棋；國際象棋",
+    "meaning": "n. 西洋棋",
     "example": "My grandfather taught me how to play chess. (我爺爺教我怎麼下西洋棋。)",
     "id": "Elementary-chess-mko4wv"
   },
@@ -1500,7 +1500,7 @@
   {
     "level": "Elementary",
     "word": "computer",
-    "meaning": "n. 電腦；計算機",
+    "meaning": "n. 電腦",
     "example": "We use the computer to look for information. (我們用電腦來查資料。)",
     "id": "Elementary-computer-mqe2z"
   },
@@ -4573,7 +4573,7 @@
   {
     "level": "Elementary",
     "word": "mouse",
-    "meaning": "n. 老鼠；鼠標；滑鼠",
+    "meaning": "n. 老鼠；滑鼠",
     "example": "The cat is chasing a small mouse. (貓正在追一隻小老鼠。)",
     "id": "Elementary-mouse-mmn9b"
   },
@@ -5581,7 +5581,7 @@
   {
     "level": "Elementary",
     "word": "program",
-    "meaning": "n. 節目；程式；計畫\nv. 編程；安排；制定計畫",
+    "meaning": "n. 節目；程式；計畫\nv. 程式設計；安排；制定計畫",
     "example": "I watch a TV program after dinner. (我晚餐後看一個電視節目。)",
     "id": "Elementary-program-mlp9q"
   },
@@ -6092,7 +6092,7 @@
   {
     "level": "Elementary",
     "word": "screen",
-    "meaning": "n. 螢幕；屏幕",
+    "meaning": "n. 螢幕",
     "example": "Don't look at the computer screen for too long. (不要看電腦螢幕太久。)",
     "id": "Elementary-screen-mnl6b"
   },

@@ -527,8 +527,8 @@
   {
     "level": "L3",
     "word": "file",
-    "meaning": "n. 檔案；文件夾；文件\nv. 歸檔；提出；列隊行進",
-    "example": "Please save the signed form in the blue file folder. (請把簽好的表格存放在藍色文件夾裡。)",
+    "meaning": "n. 檔案；資料夾；文件\nv. 歸檔；提出；列隊行進",
+    "example": "Please save the signed form in the blue file folder. (請把簽好的表格存放在藍色資料夾裡。)",
     "id": "L3-file-m1fzfarq"
   },
   {
@@ -1052,7 +1052,7 @@
   {
     "level": "L3",
     "word": "program",
-    "meaning": "n. 節目；計畫；程式\nv. 編程；安排；制定計畫",
+    "meaning": "n. 節目；計畫；程式\nv. 程式設計；安排；制定計畫",
     "example": "The community center offers a weekend program for young musicians. (活動中心為年輕音樂學習者開設週末課程。)",
     "id": "L3-program-m1k5laqs"
   },
@@ -3908,7 +3908,7 @@
   {
     "level": "L3",
     "word": "kilometer/km",
-    "meaning": "n. 公里；千米",
+    "meaning": "n. 公里",
     "example": "The town is five kilometers from here.（那個小鎮離這裡五公里。）",
     "id": "L3-kilometer-km-km"
   },
@@ -5119,7 +5119,7 @@
   {
     "level": "L3",
     "word": "plastic",
-    "meaning": "n. 塑膠；塑料；信用卡\nadj. 塑膠製的；不自然的",
+    "meaning": "n. 塑膠；信用卡\nadj. 塑膠製的；不自然的",
     "example": "This bottle is made of plastic.（這個瓶子是塑膠做的。）",
     "id": "L3-plastic-m43woug"
   },
@@ -6148,7 +6148,7 @@
   {
     "level": "L3",
     "word": "signal",
-    "meaning": "n. 訊號；暗號；信號\nv. 示意；發訊號；標示",
+    "meaning": "n. 訊號；暗號\nv. 示意；發訊號；標示",
     "example": "The green light is a signal to go.（綠燈是可以前進的訊號。）",
     "id": "L3-signal-m1a78k9x"
   },
@@ -6862,7 +6862,7 @@
   {
     "level": "L3",
     "word": "thread",
-    "meaning": "n. 絲線；線程；線索\nv. 穿線；串起；穿過",
+    "meaning": "n. 絲線；執行緒；線索\nv. 穿線；串起；穿過",
     "example": "She used red thread to sew the button.（她用紅線縫鈕扣。）",
     "id": "L3-thread-mouy"
   },

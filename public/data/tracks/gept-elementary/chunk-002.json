@@ -779,7 +779,7 @@
   {
     "level": "L2",
     "word": "character",
-    "meaning": "n. 角色；人物；性格\nabbr. 字元；字符",
+    "meaning": "n. 角色；人物；性格\nabbr. 字元",
     "example": "My favorite character in the cartoon always carries a yellow umbrella. (我最喜歡的卡通角色總是帶著一把黃色雨傘。)",
     "id": "L2-character-noun"
   },
@@ -814,7 +814,7 @@
   {
     "level": "L2",
     "word": "chess",
-    "meaning": "n. 西洋棋；國際象棋",
+    "meaning": "n. 西洋棋",
     "example": "My father taught me how to play chess.（爸爸教我下西洋棋。）",
     "id": "L2-chess-noun"
   },
@@ -1031,7 +1031,7 @@
   {
     "level": "L2",
     "word": "computer",
-    "meaning": "n. 電腦；計算機",
+    "meaning": "n. 電腦",
     "example": "My computer is too slow today.（我的電腦今天太慢了。）",
     "id": "L2-computer-noun"
   },
@@ -4041,7 +4041,7 @@
   {
     "level": "L2",
     "word": "pineapple",
-    "meaning": "n. 鳳梨；菠蘿；鳳梨果\nadj. 鳳梨的；鳳梨味的",
+    "meaning": "n. 鳳梨；鳳梨果\nadj. 鳳梨的；鳳梨味的",
     "example": "Pineapple tastes sweet and sour.（鳳梨吃起來酸酸甜甜。）",
     "id": "L2-pineapple-noun"
   },
@@ -4195,7 +4195,7 @@
   {
     "level": "L2",
     "word": "potato",
-    "meaning": "n. 馬鈴薯；土豆；洋芋",
+    "meaning": "n. 馬鈴薯；洋芋",
     "example": "I baked a potato for lunch.（我午餐烤了一顆馬鈴薯。）",
     "id": "L2-potato-noun"
   },
@@ -4734,7 +4734,7 @@
   {
     "level": "L2",
     "word": "screen",
-    "meaning": "n. 螢幕；屏幕",
+    "meaning": "n. 螢幕",
     "example": "The movie appeared on a large screen.（電影出現在大螢幕上。）",
     "id": "L2-screen-noun-verb"
   },
@@ -5644,7 +5644,7 @@
   {
     "level": "L2",
     "word": "tomato",
-    "meaning": "n. 番茄；西紅柿；蕃茄",
+    "meaning": "n. 番茄；蕃茄",
     "example": "I added tomato to the salad.（我把番茄加進沙拉裡。）",
     "id": "L2-tomato-noun"
   },
@@ -6834,7 +6834,7 @@
   {
     "level": "L3",
     "word": "kilometer",
-    "meaning": "n. 公里；千米",
+    "meaning": "n. 公里",
     "example": "The town is five kilometers from here.（那個小鎮離這裡五公里。）",
     "id": "L3-kilometer-noun"
   },
@@ -6988,7 +6988,7 @@
   {
     "level": "L3",
     "word": "program",
-    "meaning": "n. 節目；程式；計畫\nv. 編程；安排；制定計畫",
+    "meaning": "n. 節目；程式；計畫\nv. 程式設計；安排；制定計畫",
     "example": "This TV program is for children. (這個電視節目是給兒童看的。)",
     "id": "L3-program-noun-verb"
   },

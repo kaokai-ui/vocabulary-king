@@ -156,7 +156,7 @@
   {
     "level": "進階3",
     "word": "astronaut",
-    "meaning": "n. 太空人；宇航員",
+    "meaning": "n. 太空人",
     "example": "The young astronaut trained for years, carefully learning to repair equipment while floating in a small mock spacecraft. (這位年輕太空人訓練多年，仔細學習如何在小型模擬太空船中漂浮時修理設備。)",
     "id": "IELTS-astronaut-n"
   },
@@ -863,7 +863,7 @@
   {
     "level": "進階3",
     "word": "foam",
-    "meaning": "n. 泡沫；泡綿；泡沫塑料\nvi. 起泡沫；冒泡；泡沫翻騰\nv. 使起泡；用泡沫覆蓋",
+    "meaning": "n. 泡沫；泡綿\nvi. 起泡沫；冒泡；泡沫翻騰\nv. 使起泡；用泡沫覆蓋",
     "example": "White foam covered the rocks where the big waves hit the shore. (大浪拍岸處的岩石上覆滿白色泡沫。)",
     "id": "IELTS-foam-n-vi"
   },
@@ -1871,7 +1871,7 @@
   {
     "level": "進階3",
     "word": "asylum",
-    "meaning": "n. 庇護；政治避難；精神病院",
+    "meaning": "n. 庇護；政治庇護；精神病院",
     "example": "The family applied for asylum after fleeing the violent conflict in their home country. (這家人逃離母國的暴力衝突後，申請了庇護。)",
     "id": "IELTS-asylum-n"
   },
@@ -5637,7 +5637,7 @@
   {
     "level": "進階4",
     "word": "tutorial",
-    "meaning": "n. 教學指南；教程\nadj. 教學的；輔導的",
+    "meaning": "n. 教學指南；教學\nadj. 教學的；輔導的",
     "example": "The online tutorial explains how to use the library catalogue, but many students still ask staff for help. (線上指南說明如何使用圖書館目錄，但許多學生仍向館員求助。)",
     "id": "IELTS-tutorial-n-adj"
   },

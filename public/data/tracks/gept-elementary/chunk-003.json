@@ -366,14 +366,14 @@
   {
     "level": "L4",
     "word": "intelligent",
-    "meaning": "adj. 聰明的；有才智的；智能的",
+    "meaning": "adj. 聰明的；有才智的",
     "example": "That dog is very intelligent.（那隻狗很聰明。）",
     "id": "L4-intelligent-adj"
   },
   {
     "level": "L4",
     "word": "Internet",
-    "meaning": "n. 網際網路；互聯網",
+    "meaning": "n. 網際網路",
     "example": "The Internet helps us find information quickly.（網路幫助我們快速找到資訊。）",
     "id": "L4-internet-noun"
   },
@@ -814,7 +814,7 @@
   {
     "level": "初級",
     "word": "convenience store",
-    "meaning": "n. 便利商店；便利店",
+    "meaning": "n. 便利商店",
     "example": "I bought milk at a convenience store.（我在便利商店買了牛奶。）",
     "id": "初級-convenience-store-noun"
   },
@@ -1213,7 +1213,7 @@
   {
     "level": "初級",
     "word": "online",
-    "meaning": "adj. 線上的；聯網的\nadv. 在線上；透過網路",
+    "meaning": "adj. 線上的；聯網的\nadv. 線上；透過網路",
     "example": "I bought the book online.（我在網路上買了這本書。）",
     "id": "初級-online-adj-adv"
   },
