@@ -66,14 +66,8 @@ export function formatSourceMeaning(sourceRow, { useSensesDisplay = process.env.
   }
 
   const legacyDisplay = sourceRow?.legacy_display ?? sourceRow;
-  const meaning = String(legacyDisplay?.meaning_zh ?? "").trim();
-  const pos = String(legacyDisplay?.pos ?? "").trim();
-
-  if (sourceRow?.track === "toeic" && pos) {
-    return `${pos}. ${meaning}`;
-  }
-
-  return meaning;
+  // The display meaning already carries the part of speech on every line, for every track.
+  return String(legacyDisplay?.meaning_zh ?? "").trim();
 }
 
 export function formatSourceExample(sourceRow) {

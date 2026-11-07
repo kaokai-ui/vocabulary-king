@@ -625,9 +625,7 @@ export function readAllTrackSourceRows(root = process.cwd(), sourceRepoPath = ge
         : englishExample && chineseTranslation
           ? `${englishExample} (${chineseTranslation})`
           : englishExample || chineseTranslation;
-      const meaning = definition.id === "toeic" && pos
-        ? `${pos}. ${rawMeaning}`
-        : rawMeaning;
+      const meaning = rawMeaning;
       const sourceWorkbook = `data/${definition.id}.jsonl`;
       const source = {
         track: definition.id,

@@ -9,7 +9,7 @@
   {
     "level": "基礎2",
     "word": "purchase",
-    "meaning": "v / n. 購買；採購；購買；購置",
+    "meaning": "v. 購買；採購\nn. 購買；購置",
     "example": "The purchasing department will purchase replacement monitors for the design team. (採購部門將為設計團隊購買替換螢幕。)",
     "id": "L5-purchase-v-n"
   },
@@ -30,28 +30,28 @@
   {
     "level": "基礎2",
     "word": "unless",
-    "meaning": "prep / conj. 除非；若非；除非；如果不",
+    "meaning": "prep. 除非；若非\nconj. 除非；如果不",
     "example": "The outdoor reception will proceed unless severe weather is forecast. (除非預報有嚴重天候，否則戶外招待會會照常舉行。)",
     "id": "L3-unless-prep-conj"
   },
   {
     "level": "基礎2",
     "word": "independent",
-    "meaning": "a. 獨立的；自主的",
+    "meaning": "adj. 獨立的；自主的",
     "example": "The independent consultant reviewed the company’s shipping procedures. (這位獨立顧問檢視了公司的配送流程。)",
     "id": "L2-independent-a"
   },
   {
     "level": "基礎2",
     "word": "recommend",
-    "meaning": "v / n. 推薦；建議；介紹；熟人；同事",
+    "meaning": "v. 推薦；建議；介紹\nn. 熟人；同事",
     "example": "The director recommended a local vendor for the office renovation. (主管推薦了一家當地廠商負責辦公室整修。)",
     "id": "L5-recommend-v"
   },
   {
     "level": "基礎2",
     "word": "survey",
-    "meaning": "n / v. 調查；問卷；調查；檢視",
+    "meaning": "n. 調查；問卷\nv. 調查；檢視",
     "example": "The survey asked customers to rate the speed of the delivery service. (調查請顧客評估配送服務的速度。)",
     "id": "L3-survey-n-v"
   },
@@ -65,28 +65,28 @@
   {
     "level": "基礎2",
     "word": "stick",
-    "meaning": "n / v. 棍棒；枝條；棒狀物；黏住；刺入；堅持",
+    "meaning": "n. 棍棒；枝條；棒狀物\nv. 黏住；刺入；堅持",
     "example": "The office supplies cabinet contains a pack of glue sticks for the design team. (辦公用品櫃裡有一包供設計團隊使用的膠棒。)",
     "id": "L2-stick-n-v"
   },
   {
     "level": "基礎2",
     "word": "request",
-    "meaning": "v / n. 要求；請求；索取；請求；要求；申請",
+    "meaning": "v. 要求；請求；索取\nn. 請求；要求；申請",
     "example": "The client requested a detailed breakdown of the installation costs. (客戶要求提供詳細的安裝費用明細。)",
     "id": "L3-request-v-n"
   },
   {
     "level": "基礎2",
     "word": "rich",
-    "meaning": "a. 富有的；豐富的",
+    "meaning": "adj. 富有的；豐富的",
     "example": "The region is rich in skilled workers with experience in electronics manufacturing. (該地區擁有大量具電子製造經驗的熟練工人。)",
     "id": "基礎2-rich-m1kxs6lw"
   },
   {
     "level": "基礎2",
     "word": "wind",
-    "meaning": "n / v. 風；風向；上發條；蜿蜒；纏繞",
+    "meaning": "n. 風；風向\nv. 上發條；蜿蜒；纏繞",
     "example": "Strong wind delayed the outdoor installation of the company sign. (強風延誤了公司招牌的戶外安裝作業。)",
     "id": "基礎2-wind-mmvq1yx"
   },
@@ -100,7 +100,7 @@
   {
     "level": "基礎2",
     "word": "exchange",
-    "meaning": "v / n. 交換；兌換；交流；交換；交流；交易所",
+    "meaning": "v. 交換；兌換；交流\nn. 交換；交流；交易所",
     "example": "The two offices will exchange staff members for a week of cross-training. (兩個辦公室將互換員工，進行為期一週的交叉培訓。)",
     "id": "L3-exchange-v-n"
   },
@@ -114,7 +114,7 @@
   {
     "level": "基礎2",
     "word": "famous",
-    "meaning": "a. 著名的；出名的",
+    "meaning": "adj. 著名的；出名的",
     "example": "The hotel invited a famous chef to design the menu for its new restaurant. (飯店邀請一位知名主廚為新餐廳設計菜單。)",
     "id": "基礎2-famous-m71dft0"
   },
@@ -128,28 +128,28 @@
   {
     "level": "基礎2",
     "word": "appropriate",
-    "meaning": "a. 合適的；恰當的",
+    "meaning": "adj. 合適的；恰當的",
     "example": "Please wear appropriate footwear when entering the warehouse floor. (進入倉庫作業區時請穿著合適的鞋子。)",
     "id": "L4-appropriate-a"
   },
   {
     "level": "基礎2",
     "word": "block",
-    "meaning": "n / v. 街區；障礙物；區塊；阻擋；封鎖；妨礙",
+    "meaning": "n. 街區；障礙物；區塊\nv. 阻擋；封鎖；妨礙",
     "example": "Construction work will block the main entrance until Friday afternoon. (施工將封閉正門至週五下午。)",
     "id": "L1-block-n-v"
   },
   {
     "level": "基礎2",
     "word": "warm",
-    "meaning": "a / v. 溫暖的；熱情的；保暖的；使溫暖；熱絡",
+    "meaning": "adj. 溫暖的；熱情的；保暖的\nv. 使溫暖；熱絡",
     "example": "The hotel provides warm blankets in every room during the winter months. (冬季期間，飯店在每間客房都提供保暖毯。)",
     "id": "L1-warm-a-v"
   },
   {
     "level": "基礎2",
     "word": "count",
-    "meaning": "v / n. 計算；計數；認為；計數；總數；伯爵",
+    "meaning": "v. 計算；計數；認為\nn. 計數；總數；伯爵",
     "example": "Please count the returned items before issuing the refund. (退款前請先清點退回的商品。)",
     "id": "基礎2-count-m13vj52x"
   },
@@ -170,7 +170,7 @@
   {
     "level": "基礎2",
     "word": "content",
-    "meaning": "n / a / v. 內容；目錄；含量；滿足的；滿意的；使滿足；使安心",
+    "meaning": "n. 內容；目錄；含量\nadj. 滿足的；滿意的\nv. 使滿足；使安心",
     "example": "The content of the revised brochure was approved by the marketing department. (修訂後的宣傳冊內容已獲行銷部門核准。)",
     "id": "L4-content-n-a-v"
   },
@@ -184,7 +184,7 @@
   {
     "level": "基礎2",
     "word": "safe",
-    "meaning": "a / n. 安全的；可靠的；無害的；安全的地方；保險套",
+    "meaning": "adj. 安全的；可靠的；無害的\nn. 安全的地方；保險套",
     "example": "The company moved its backup servers to a safe location outside the city. (公司將備份伺服器移到市區外的安全地點。)",
     "id": "L1-safe-a-n"
   },
@@ -198,7 +198,7 @@
   {
     "level": "基礎2",
     "word": "mix",
-    "meaning": "v / n. 混合；調和；使混淆；混合物；組合",
+    "meaning": "v. 混合；調和；使混淆\nn. 混合物；組合",
     "example": "The chef will mix locally sourced ingredients for the hotel’s seasonal menu. (主廚將混合當地食材，製作飯店的季節菜單。)",
     "id": "基礎2-mix-m1e3rjzb"
   },
@@ -212,21 +212,21 @@
   {
     "level": "基礎2",
     "word": "effective",
-    "meaning": "a. 有效的；有成效的",
+    "meaning": "adj. 有效的；有成效的",
     "example": "The team developed an effective way to track returns from each retail location. (團隊設計出一套有效追蹤各零售據點退貨的方法。)",
     "id": "L2-effective-a"
   },
   {
     "level": "基礎2",
     "word": "correct",
-    "meaning": "a / v. 正確的；恰當的；改正；糾正；校對",
+    "meaning": "adj. 正確的；恰當的\nv. 改正；糾正；校對",
     "example": "Please correct the account number before sending the payment request. (寄出付款申請前，請先更正帳戶號碼。)",
     "id": "L1-correct-a-v"
   },
   {
     "level": "基礎2",
     "word": "medical",
-    "meaning": "a. 醫療的；醫學的",
+    "meaning": "adj. 醫療的；醫學的",
     "example": "The company added medical coverage for employees who travel frequently. (公司為經常出差的員工增加了醫療保障。)",
     "id": "基礎2-medical-m117602x"
   },
@@ -240,7 +240,7 @@
   {
     "level": "基礎2",
     "word": "beat",
-    "meaning": "v / n / a. 打敗；擊打；跳動；節拍；鼓聲；疲倦的；筋疲力盡的",
+    "meaning": "v. 打敗；擊打；跳動\nn. 節拍；鼓聲\nadj. 疲倦的；筋疲力盡的",
     "example": "A steady beat from the lobby speakers signals the start of the event. (大廳揚聲器傳來穩定節拍，代表活動即將開始。)",
     "id": "L1-beat-v-n-a"
   },
@@ -254,7 +254,7 @@
   {
     "level": "基礎2",
     "word": "copy",
-    "meaning": "n / v. 副本；份數；抄本；影印；複製；抄寫",
+    "meaning": "n. 副本；份數；抄本\nv. 影印；複製；抄寫",
     "example": "Please make a copy of the signed contract for the records department. (請將已簽署的合約影印一份給檔案部門。)",
     "id": "L2-copy-v-n"
   },
@@ -268,7 +268,7 @@
   {
     "level": "基礎2",
     "word": "aware",
-    "meaning": "a. 知道的；察覺到的",
+    "meaning": "adj. 知道的；察覺到的",
     "example": "All staff members should be aware of the revised emergency procedures. (所有員工都應了解修訂後的緊急應變程序。)",
     "id": "基礎2-aware-m1dyr59w"
   },
@@ -282,7 +282,7 @@
   {
     "level": "基礎2",
     "word": "handle",
-    "meaning": "v / n. 處理；操作；管理；把手；柄；操作者",
+    "meaning": "v. 處理；操作；管理\nn. 把手；柄；操作者",
     "example": "The logistics manager will handle all requests for urgent deliveries. (物流經理將處理所有緊急配送請求。)",
     "id": "L2-handle-v"
   },
@@ -296,14 +296,14 @@
   {
     "level": "基礎2",
     "word": "trial",
-    "meaning": "n / a. 試驗；審判；試用；試驗性的；審判的",
+    "meaning": "n. 試驗；審判；試用\nadj. 試驗性的；審判的",
     "example": "The company will conduct a trial of the new inventory system at one branch. (公司將在一家分店試行新的庫存系統。)",
     "id": "L2-trial-n-a"
   },
   {
     "level": "基礎2",
     "word": "stress",
-    "meaning": "n / v. 壓力；重音；強調；強調；使緊張",
+    "meaning": "n. 壓力；重音；強調\nv. 強調；使緊張",
     "example": "The report puts stress on timely communication with customers. (報告強調及時與顧客溝通的重要性。)",
     "id": "L2-stress-n-v"
   },
@@ -324,14 +324,14 @@
   {
     "level": "基礎2",
     "word": "complex",
-    "meaning": "a / n. 複雜的；錯綜的；建築群；複合體；情結",
+    "meaning": "adj. 複雜的；錯綜的\nn. 建築群；複合體；情結",
     "example": "The complex delivery schedule includes separate routes for each region. (這份複雜的配送時程為每個區域安排了不同路線。)",
     "id": "L3-complex-a-n"
   },
   {
     "level": "基礎2",
     "word": "text",
-    "meaning": "n / v. 簡訊；文字；正文；傳簡訊；發簡訊",
+    "meaning": "n. 簡訊；文字；正文\nv. 傳簡訊；發簡訊",
     "example": "The manager sent a text reminding staff about the updated meeting location. (經理傳送簡訊提醒員工更新後的會議地點。)",
     "id": "基礎2-text-mg7il8k"
   },
@@ -345,21 +345,21 @@
   {
     "level": "基礎2",
     "word": "ride",
-    "meaning": "n / v. 搭乘；乘坐；旅程；搭乘；乘坐；騎乘",
+    "meaning": "n. 搭乘；乘坐；旅程\nv. 搭乘；乘坐；騎乘",
     "example": "The shuttle ride from the airport to the hotel takes about forty minutes. (從機場搭接駁車到飯店約需四十分鐘。)",
     "id": "基礎2-ride-m36y43y"
   },
   {
     "level": "基礎2",
     "word": "directly",
-    "meaning": "ad. 直接地；直達地",
+    "meaning": "adv. 直接地；直達地",
     "example": "The shuttle travels directly from the airport to the conference hotel. (接駁車從機場直達研討會飯店。)",
     "id": "TOEIC-directly-ad"
   },
   {
     "level": "基礎2",
     "word": "heavy",
-    "meaning": "a. 重的；大量的；嚴重的",
+    "meaning": "adj. 重的；大量的；嚴重的",
     "example": "The heavy rain delayed several deliveries to the downtown offices. (大雨延誤了幾批送往市中心辦公室的貨物。)",
     "id": "基礎2-heavy-mpgu9d4"
   },
@@ -387,49 +387,49 @@
   {
     "level": "基礎2",
     "word": "otherwise",
-    "meaning": "ad / a. 否則；除此之外；其他的；不同的",
+    "meaning": "adv. 否則；除此之外\nadj. 其他的；不同的",
     "example": "Please confirm the order today; otherwise, the delivery date may change. (請今天確認訂單，否則交貨日期可能會變動。)",
     "id": "基礎2-otherwise-m1lcswdl"
   },
   {
     "level": "基礎2",
     "word": "title",
-    "meaning": "n / v. 標題；職稱；所有權；命名；加標題；取得所有權",
+    "meaning": "n. 標題；職稱；所有權\nv. 命名；加標題；取得所有權",
     "example": "The title of the report summarizes its findings about customer satisfaction. (報告標題概述了關於顧客滿意度的調查結果。)",
     "id": "TOEIC-title-n-v"
   },
   {
     "level": "基礎2",
     "word": "extra",
-    "meaning": "a. 額外的；附加的；特別的",
+    "meaning": "adj. 額外的；附加的；特別的",
     "example": "The hotel provided extra chairs for guests attending the product presentation. (飯店為參加產品簡報的賓客提供了額外椅子。)",
     "id": "L2-extra-a"
   },
   {
     "level": "基礎2",
     "word": "executive",
-    "meaning": "a / n. 行政主管的；高階的；執行的；主管；行政人員",
+    "meaning": "adj. 行政主管的；高階的；執行的\nn. 主管；行政人員",
     "example": "The executive team approved the new supplier agreement this morning. (高階主管團隊今天早上核准了新的供應商協議。)",
     "id": "L5-executive-a-n"
   },
   {
     "level": "基礎2",
     "word": "chair",
-    "meaning": "n / v. 椅子；主席；講座；主持；擔任主席",
+    "meaning": "n. 椅子；主席；講座\nv. 主持；擔任主席",
     "example": "Please reserve a chair for the keynote speaker near the front of the room. (請在會場前方為主題講者預留一張椅子。)",
     "id": "基礎2-chair-m6jrnex"
   },
   {
     "level": "基礎2",
     "word": "expensive",
-    "meaning": "a. 昂貴的；價格高的",
+    "meaning": "adj. 昂貴的；價格高的",
     "example": "The expensive printer was selected because it can handle large orders quickly. (這台昂貴的印表機因能快速處理大量列印工作而獲選。)",
     "id": "L2-expensive-a"
   },
   {
     "level": "基礎2",
     "word": "sample",
-    "meaning": "n / v / a. 樣本；範例；樣品；抽樣；取樣；典型的；範例的",
+    "meaning": "n. 樣本；範例；樣品\nv. 抽樣；取樣\nadj. 典型的；範例的",
     "example": "The laboratory will sample each shipment to verify product quality. (實驗室將對每批貨物抽樣，以確認產品品質。)",
     "id": "L2-sample-n-v-a"
   },
@@ -464,7 +464,7 @@
   {
     "level": "基礎2",
     "word": "primary",
-    "meaning": "a. 主要的；初級的；首要的",
+    "meaning": "adj. 主要的；初級的；首要的",
     "example": "The primary objective of the project is to improve order accuracy. (專案的主要目標是提高訂單準確度。)",
     "id": "基礎2-primary-m1nzj6nc"
   },
@@ -499,77 +499,77 @@
   {
     "level": "基礎2",
     "word": "straight",
-    "meaning": "a / ad. 直的；坦率的；連續的；筆直地；直接地；連續地",
+    "meaning": "adj. 直的；坦率的；連續的\nadv. 筆直地；直接地；連續地",
     "example": "Take the straight road past the station to reach the company’s visitor parking lot. (沿著車站旁的直路前進，即可抵達公司的訪客停車場。)",
     "id": "L2-straight-a-ad"
   },
   {
     "level": "基礎2",
     "word": "appeal",
-    "meaning": "v / n. 吸引；呼籲；上訴；吸引力；呼籲；上訴",
+    "meaning": "v. 吸引；呼籲；上訴\nn. 吸引力；呼籲；上訴",
     "example": "The store’s loyalty program appeals to customers who shop there regularly. (商店的會員計畫吸引經常來此購物的顧客。)",
     "id": "L3-appeal-v-n"
   },
   {
     "level": "基礎2",
     "word": "highly",
-    "meaning": "ad. 高度地；非常；極其",
+    "meaning": "adv. 高度地；非常；極其",
     "example": "The revised instructions were highly effective in reducing order errors. (修訂後的說明對減少訂單錯誤非常有效。)",
     "id": "基礎2-highly-mllay6h"
   },
   {
     "level": "基礎2",
     "word": "trust",
-    "meaning": "n / v. 信任；信託；信任；相信；委託",
+    "meaning": "n. 信任；信託\nv. 信任；相信；委託",
     "example": "Customers trust the retailer to protect their personal information. (顧客信任零售商會保護個人資訊。)",
     "id": "L2-trust-n-v"
   },
   {
     "level": "基礎2",
     "word": "wonderful",
-    "meaning": "a. 極好的；令人讚嘆的",
+    "meaning": "adj. 極好的；令人讚嘆的",
     "example": "The hotel received wonderful reviews for its conference facilities. (這家飯店的研討會設施獲得了極佳評價。)",
     "id": "基礎2-wonderful-m3a1337"
   },
   {
     "level": "基礎2",
     "word": "flat",
-    "meaning": "a / n / ad. 平坦的；平的；公寓的；公寓；平面；平底輪胎；平坦地；斷然",
+    "meaning": "adj. 平坦的；平的；公寓的\nn. 公寓；平面；平底輪胎\nadv. 平坦地；斷然",
     "example": "The delivery route is mostly flat, which helps reduce fuel use. (配送路線大多平坦，有助於降低燃料使用量。)",
     "id": "基礎2-flat-m1z0sv5o"
   },
   {
     "level": "基礎2",
     "word": "absolutely",
-    "meaning": "ad. 絕對地；完全地；當然",
+    "meaning": "adv. 絕對地；完全地；當然",
     "example": "The safety checklist is absolutely required before the equipment can be used. (使用設備前絕對必須完成安全檢查表。)",
     "id": "TOEIC-absolutely-ad"
   },
   {
     "level": "基礎2",
     "word": "flow",
-    "meaning": "n / v. 流動；流量；流暢；流動；流出；順暢進行",
+    "meaning": "n. 流動；流量；流暢\nv. 流動；流出；順暢進行",
     "example": "A steady flow of deliveries kept the warehouse staff busy throughout the morning. (持續不斷的貨物進出讓倉庫員工整個上午都很忙碌。)",
     "id": "基礎2-flow-m90t9xw"
   },
   {
     "level": "基礎2",
     "word": "fair",
-    "meaning": "a / ad / n. 公平的；合理的；相當的；相當地；公平地；集市；展覽會；票價",
+    "meaning": "adj. 公平的；合理的；相當的\nadv. 相當地；公平地\nn. 集市；展覽會；票價",
     "example": "The committee considered the fair price and warranty terms before approving the purchase. (委員會在核准採購前考量了合理價格和保固條款。)",
     "id": "L2-fair-a-ad-n"
   },
   {
     "level": "基礎2",
     "word": "additional",
-    "meaning": "a. 額外的；附加的",
+    "meaning": "adj. 額外的；附加的",
     "example": "The company approved additional funding for the warehouse expansion. (公司核准了倉庫擴建的額外經費。)",
     "id": "基礎2-additional-m17q4u7c"
   },
   {
     "level": "基礎2",
     "word": "responsible",
-    "meaning": "a. 負責的；有責任的",
+    "meaning": "adj. 負責的；有責任的",
     "example": "The regional supervisor is responsible for reviewing branch performance. (區域主管負責檢視各分店的營運表現。)",
     "id": "L2-responsible-a"
   },
@@ -597,7 +597,7 @@
   {
     "level": "基礎2",
     "word": "negative",
-    "meaning": "a. 負面的；否定的；消極的",
+    "meaning": "adj. 負面的；否定的；消極的",
     "example": "The company received negative feedback about the new return policy. (公司收到對新退貨政策的負面回饋。)",
     "id": "基礎2-negative-m1ryzu6r"
   },
@@ -618,14 +618,14 @@
   {
     "level": "基礎2",
     "word": "tour",
-    "meaning": "n / v. 旅行；參觀；巡迴；參觀；巡迴；旅行",
+    "meaning": "n. 旅行；參觀；巡迴\nv. 參觀；巡迴；旅行",
     "example": "The company offers a guided tour of its production facility every Friday. (公司每週五提供生產設施導覽。)",
     "id": "L2-tour-n-v"
   },
   {
     "level": "基礎2",
     "word": "alternative",
-    "meaning": "a / n. 替代的；可選擇的；替代方案；替代品",
+    "meaning": "adj. 替代的；可選擇的\nn. 替代方案；替代品",
     "example": "The company is considering an alternative supplier for next year’s contract. (公司正在考慮為明年的合約另找一家供應商。)",
     "id": "L6-alternative-a-n"
   },
@@ -639,14 +639,14 @@
   {
     "level": "基礎2",
     "word": "pair",
-    "meaning": "n / v. 一雙；一對；一組；配對；使成對",
+    "meaning": "n. 一雙；一對；一組\nv. 配對；使成對",
     "example": "The office ordered a pair of wireless headsets for the customer support team. (辦公室為客服團隊訂購了一副無線耳機。)",
     "id": "基礎2-pair-m1aqiicb"
   },
   {
     "level": "基礎2",
     "word": "ship",
-    "meaning": "n / v. 船；艦艇；貨運；運送；裝運；寄送",
+    "meaning": "n. 船；艦艇；貨運\nv. 運送；裝運；寄送",
     "example": "The supplier will ship the replacement equipment directly to the regional office. (供應商會將替換設備直接運送到區域辦公室。)",
     "id": "L1-ship-n-v"
   },
@@ -660,14 +660,14 @@
   {
     "level": "基礎2",
     "word": "cheap",
-    "meaning": "a. 便宜的；廉價的；吝嗇的",
+    "meaning": "adj. 便宜的；廉價的；吝嗇的",
     "example": "The new supplier offers cheap packaging without compromising product protection. (新供應商提供價格低廉且不影響產品防護的包裝。)",
     "id": "基礎2-cheap-m7iu6xr"
   },
   {
     "level": "基礎2",
     "word": "double",
-    "meaning": "a / n / v. 雙倍的；雙人的；兩倍的；兩倍；雙人房；加倍；使加倍",
+    "meaning": "adj. 雙倍的；雙人的；兩倍的\nn. 兩倍；雙人房\nv. 加倍；使加倍",
     "example": "The hotel offered a double room at a discounted rate for conference attendees. (飯店為研討會與會者提供折扣雙人房。)",
     "id": "基礎2-double-m1sqyto4"
   },
@@ -695,14 +695,14 @@
   {
     "level": "基礎2",
     "word": "print",
-    "meaning": "v / n. 列印；印刷；刊登；印刷品；印刷字體",
+    "meaning": "v. 列印；印刷；刊登\nn. 印刷品；印刷字體",
     "example": "The office will print updated copies of the employee handbook this afternoon. (辦公室今天下午會列印更新版員工手冊。)",
     "id": "基礎2-print-m1o2iht8"
   },
   {
     "level": "基礎2",
     "word": "progress",
-    "meaning": "v / n. 進展；取得進展；推進；進度；進展；前進",
+    "meaning": "v. 進展；取得進展；推進\nn. 進度；進展；前進",
     "example": "The project made steady progress after the supplier confirmed the delivery date. (供應商確認交貨日期後，專案穩定推進。)",
     "id": "L2-progress-v-n"
   },
@@ -737,7 +737,7 @@
   {
     "level": "基礎2",
     "word": "speed",
-    "meaning": "n / v. 速度；速率；快感；加速；促進",
+    "meaning": "n. 速度；速率；快感\nv. 加速；促進",
     "example": "The speed of the new sorting machine helped the warehouse process more orders. (新分揀機的速度讓倉庫能處理更多訂單。)",
     "id": "L2-speed-n-v"
   },
@@ -758,7 +758,7 @@
   {
     "level": "基礎2",
     "word": "display",
-    "meaning": "v / n. 展示；顯示；陳列；顯示器；展示；表演",
+    "meaning": "v. 展示；顯示；陳列\nn. 顯示器；展示；表演",
     "example": "The dashboard displays the current status of every delivery route. (儀表板會顯示每條配送路線的目前狀況。)",
     "id": "L2-display-v-n"
   },
@@ -772,21 +772,21 @@
   {
     "level": "基礎2",
     "word": "perfect",
-    "meaning": "a. 完美的；完全的；極好的",
+    "meaning": "adj. 完美的；完全的；極好的",
     "example": "The technician completed a perfect installation of the conference room sound system. (技術人員完美地安裝了會議室音響系統。)",
     "id": "L2-perfect-a"
   },
   {
     "level": "基礎2",
     "word": "slightly",
-    "meaning": "ad. 稍微；些微",
+    "meaning": "adv. 稍微；些微",
     "example": "The delivery arrived slightly later than the time listed on the tracking page. (貨物比追蹤頁面所列時間稍晚抵達。)",
     "id": "基礎2-slightly-m1s5aep9"
   },
   {
     "level": "基礎2",
     "word": "overall",
-    "meaning": "a / n. 整體的；全面的；總體；概況",
+    "meaning": "adj. 整體的；全面的\nn. 總體；概況",
     "example": "The overall response to the new return policy has been positive. (顧客對新退貨政策的整體反應一直很正面。)",
     "id": "L5-overall-a-n"
   },
@@ -821,49 +821,49 @@
   {
     "level": "基礎2",
     "word": "slow",
-    "meaning": "a / v. 慢的；遲緩的；不景氣的；減慢；放慢",
+    "meaning": "adj. 慢的；遲緩的；不景氣的\nv. 減慢；放慢",
     "example": "The slow approval process delayed the installation of new office equipment. (緩慢的核准流程延誤了新辦公設備的安裝。)",
     "id": "基礎2-slow-m1mr7g3c"
   },
   {
     "level": "基礎2",
     "word": "regular",
-    "meaning": "a. 定期的；經常的；標準的",
+    "meaning": "adj. 定期的；經常的；標準的",
     "example": "Regular maintenance helps keep the company’s delivery vehicles reliable. (定期保養有助於維持公司配送車輛的可靠性。)",
     "id": "L2-regular-a"
   },
   {
     "level": "基礎2",
     "word": "physical",
-    "meaning": "a. 身體的；物理的；實際存在的",
+    "meaning": "adj. 身體的；物理的；實際存在的",
     "example": "Employees who perform physical work can request additional safety equipment. (從事體力工作的員工可以申請額外安全設備。)",
     "id": "基礎2-physical-macnlpn"
   },
   {
     "level": "基礎2",
     "word": "apart",
-    "meaning": "ad. 分開；相隔",
+    "meaning": "adv. 分開；相隔",
     "example": "The two customer service offices are located several miles apart. (兩間客服辦公室相隔數英里。)",
     "id": "L3-apart-ad"
   },
   {
     "level": "基礎2",
     "word": "suit",
-    "meaning": "n / v. 套裝；西裝；訴訟；適合；使合身；適宜",
+    "meaning": "n. 套裝；西裝；訴訟\nv. 適合；使合身；適宜",
     "example": "The company ordered a new suit for the spokesperson attending the ceremony. (公司為出席典禮的發言人訂製了一套新西裝。)",
     "id": "L2-suit-n-v"
   },
   {
     "level": "基礎2",
     "word": "federal",
-    "meaning": "a. 聯邦的；聯邦政府的",
+    "meaning": "adj. 聯邦的；聯邦政府的",
     "example": "The company must comply with federal regulations on workplace safety. (公司必須遵守聯邦政府的職場安全規定。)",
     "id": "L5-federal-a"
   },
   {
     "level": "基礎2",
     "word": "reveal",
-    "meaning": "v / n. 揭露；顯示；揭開；揭露；披露",
+    "meaning": "v. 揭露；顯示；揭開\nn. 揭露；披露",
     "example": "The report revealed a gap between projected and actual delivery costs. (報告揭露了預估配送成本與實際成本之間的差距。)",
     "id": "L3-reveal-v-n"
   },
@@ -898,7 +898,7 @@
   {
     "level": "基礎2",
     "word": "decline",
-    "meaning": "v / n. 下降；減少；拒絕；下降；衰退；拒絕",
+    "meaning": "v. 下降；減少；拒絕\nn. 下降；衰退；拒絕",
     "example": "The number of shipping errors began to decline after the new scanner was installed. (安裝新掃描器後，出貨錯誤數量開始下降。)",
     "id": "L6-decline-v-n"
   },
@@ -912,7 +912,7 @@
   {
     "level": "基礎2",
     "word": "launch",
-    "meaning": "v / n. 推出；發起；發射；推出；發射；啟動",
+    "meaning": "v. 推出；發起；發射\nn. 推出；發射；啟動",
     "example": "The company will launch its updated mobile app at the technology fair. (公司將在科技展推出更新版行動應用程式。)",
     "id": "L4-launch-v-n"
   },
@@ -933,14 +933,14 @@
   {
     "level": "基礎2",
     "word": "favor",
-    "meaning": "n / v. 幫助；恩惠；贊同；偏袒；贊同；有利於",
+    "meaning": "n. 幫助；恩惠；贊同\nv. 偏袒；贊同；有利於",
     "example": "The retailer asked the carrier for a favor after several deliveries were delayed. (幾批貨物延誤後，零售商請承運商幫忙。)",
     "id": "L2-favor-n-v"
   },
   {
     "level": "基礎2",
     "word": "dry",
-    "meaning": "a / v. 乾燥的；不含水的；枯燥的；使乾燥；變乾",
+    "meaning": "adj. 乾燥的；不含水的；枯燥的\nv. 使乾燥；變乾",
     "example": "Keep the replacement labels dry until they are attached to the packages. (在將替換標籤貼到包裹上之前，請保持乾燥。)",
     "id": "基礎2-dry-m139faok"
   },
@@ -961,7 +961,7 @@
   {
     "level": "基礎2",
     "word": "spot",
-    "meaning": "n / a / v. 地點；斑點；污漬；現貨的；即時的；發現；認出；弄髒",
+    "meaning": "n. 地點；斑點；污漬\nadj. 現貨的；即時的\nv. 發現；認出；弄髒",
     "example": "The hotel is located at a convenient spot near the airport and train station. (飯店位於機場和火車站附近的便利地點。)",
     "id": "L2-spot-n-a-v"
   },
@@ -975,14 +975,14 @@
   {
     "level": "基礎2",
     "word": "eventually",
-    "meaning": "ad. 最後；終於",
+    "meaning": "adv. 最後；終於",
     "example": "The new warehouse eventually reached its full storage capacity in September. (新倉庫最後在九月達到最大儲存容量。)",
     "id": "基礎2-eventually-m1oog45l"
   },
   {
     "level": "基礎2",
     "word": "heat",
-    "meaning": "n / v. 熱；高溫；熱度；加熱；使激動；熱衷於",
+    "meaning": "n. 熱；高溫；熱度\nv. 加熱；使激動；熱衷於",
     "example": "The warehouse uses heat sensors to detect problems in the refrigeration system. (倉庫使用熱感應器偵測冷藏系統的問題。)",
     "id": "L1-heat-n-v"
   },
@@ -1010,21 +1010,21 @@
   {
     "level": "基礎2",
     "word": "distance",
-    "meaning": "n / v. 距離；遠處；間隔；使疏遠；拉開距離",
+    "meaning": "n. 距離；遠處；間隔\nv. 使疏遠；拉開距離",
     "example": "The hotel is within walking distance of the regional conference center. (飯店距離區域研討會中心步行即可抵達。)",
     "id": "基礎2-distance-m1q98yyz"
   },
   {
     "level": "基礎2",
     "word": "guide",
-    "meaning": "n / v. 指南；導遊；指引；引導；指引；指導",
+    "meaning": "n. 指南；導遊；指引\nv. 引導；指引；指導",
     "example": "The visitor guide lists restaurants and transportation options near the office. (訪客指南列出辦公室附近的餐廳和交通方式。)",
     "id": "L1-guide-n-v"
   },
   {
     "level": "基礎2",
     "word": "grant",
-    "meaning": "n / v. 補助金；批准；授予物；授予；准許；同意",
+    "meaning": "n. 補助金；批准；授予物\nv. 授予；准許；同意",
     "example": "The city awarded the company a grant to improve its public transit service. (市政府授予公司一筆補助金，用於改善公共運輸服務。)",
     "id": "L5-grant-n-v"
   },
@@ -1059,7 +1059,7 @@
   {
     "level": "基礎2",
     "word": "mistake",
-    "meaning": "v / n. 弄錯；誤認；錯誤；失誤",
+    "meaning": "v. 弄錯；誤認\nn. 錯誤；失誤",
     "example": "The purchasing team made a mistake when entering the supplier’s account number. (採購團隊輸入供應商帳戶號碼時犯了錯誤。)",
     "id": "L1-mistake-v-n"
   },
@@ -1080,49 +1080,49 @@
   {
     "level": "基礎2",
     "word": "chief",
-    "meaning": "n / a. 主管；首長；主任；主要的；首要的",
+    "meaning": "n. 主管；首長；主任\nadj. 主要的；首要的",
     "example": "The chief financial officer will present the annual results to investors. (財務長將向投資人報告年度成果。)",
     "id": "基礎2-chief-m14qh6mv"
   },
   {
     "level": "基礎2",
     "word": "cool",
-    "meaning": "a / n / v. 涼爽的；冷靜的；時髦的；涼意；冷靜；使冷卻；使冷靜",
+    "meaning": "adj. 涼爽的；冷靜的；時髦的\nn. 涼意；冷靜\nv. 使冷卻；使冷靜",
     "example": "The cool storage area keeps temperature-sensitive products fresh. (冷藏區能讓對溫度敏感的產品保持新鮮。)",
     "id": "基礎2-cool-mqrchip"
   },
   {
     "level": "基礎2",
     "word": "expert",
-    "meaning": "n / a. 專家；行家；熟練的；專家的",
+    "meaning": "n. 專家；行家\nadj. 熟練的；專家的",
     "example": "An expert technician will install the new equipment in the main laboratory. (一位專業技術人員將在主要實驗室安裝新設備。)",
     "id": "L2-expert-n-a"
   },
   {
     "level": "基礎2",
     "word": "wave",
-    "meaning": "n / v. 波浪；揮手；浪潮；揮手；起伏；波動",
+    "meaning": "n. 波浪；揮手；浪潮\nv. 揮手；起伏；波動",
     "example": "A wave of customer requests followed the announcement of the new product. (新產品公告後，顧客的詢問量大量湧現。)",
     "id": "L2-wave-n-v"
   },
   {
     "level": "基礎2",
     "word": "south",
-    "meaning": "n / a / ad. 南方；南部；南方的；南部的；向南；在南方",
+    "meaning": "n. 南方；南部\nadj. 南方的；南部的\nadv. 向南；在南方",
     "example": "The warehouse in the south supplies stores throughout the surrounding region every week. (南部的倉庫每週為周邊地區的商店供貨。)",
     "id": "基礎2-south-mheq2cl"
   },
   {
     "level": "基礎2",
     "word": "labor",
-    "meaning": "n / v. 勞動；工作；勞工；努力工作；勞動",
+    "meaning": "n. 勞動；工作；勞工\nv. 努力工作；勞動",
     "example": "A shortage of skilled labor delayed the warehouse renovation project. (熟練勞工短缺延誤了倉庫整修專案。)",
     "id": "L4-labor-n-v"
   },
   {
     "level": "基礎2",
     "word": "surface",
-    "meaning": "n / a / v. 表面；外觀；表層；表面的；表層的；浮現；露面；使浮出",
+    "meaning": "n. 表面；外觀；表層\nadj. 表面的；表層的\nv. 浮現；露面；使浮出",
     "example": "The equipment has several scratches on its outer surface. (設備外表有幾道刮痕。)",
     "id": "L2-surface-n-a-v"
   },
@@ -1136,21 +1136,21 @@
   {
     "level": "基礎2",
     "word": "excellent",
-    "meaning": "a. 極好的；優秀的",
+    "meaning": "adj. 極好的；優秀的",
     "example": "The hotel received excellent reviews for its accessible meeting rooms. (這家飯店的無障礙會議室獲得極佳評價。)",
     "id": "L2-excellent-a"
   },
   {
     "level": "基礎2",
     "word": "edge",
-    "meaning": "n / v. 邊緣；優勢；刀口；緩慢移動；使逐漸移動",
+    "meaning": "n. 邊緣；優勢；刀口\nv. 緩慢移動；使逐漸移動",
     "example": "The company gained an edge over competitors by offering same-day delivery. (公司以當日配送的服務取得了競爭優勢。)",
     "id": "L1-edge-n-v"
   },
   {
     "level": "基礎2",
     "word": "camp",
-    "meaning": "n / v. 營地；營區；陣營；露營；紮營",
+    "meaning": "n. 營地；營區；陣營\nv. 露營；紮營",
     "example": "The company’s summer camp gives employees’ children a place to learn coding. (公司的夏令營讓員工子女有機會學習程式設計。)",
     "id": "L1-camp-n-v"
   },
@@ -1164,7 +1164,7 @@
   {
     "level": "基礎2",
     "word": "lift",
-    "meaning": "n / v. 電梯；升降機；搭便車；舉起；提升；搭便車",
+    "meaning": "n. 電梯；升降機；搭便車\nv. 舉起；提升；搭便車",
     "example": "The service lift is reserved for moving equipment between floors. (服務電梯專供設備樓層間運送使用。)",
     "id": "基礎2-lift-m16bbe2u"
   },
@@ -1178,21 +1178,21 @@
   {
     "level": "基礎2",
     "word": "email",
-    "meaning": "n / v. 電子郵件；電郵；寄電子郵件",
+    "meaning": "n. 電子郵件；電郵\nv. 寄電子郵件",
     "example": "Please email the updated contract to all department heads this afternoon. (請在今天下午將更新後的合約以電子郵件寄給所有部門主管。)",
     "id": "基礎2-email-m13ci9wv"
   },
   {
     "level": "基礎2",
     "word": "global",
-    "meaning": "a. 全球的；全世界的",
+    "meaning": "adj. 全球的；全世界的",
     "example": "The company plans to expand its global customer support network. (公司計畫擴大全球客戶支援網路。)",
     "id": "L3-global-a"
   },
   {
     "level": "基礎2",
     "word": "struggle",
-    "meaning": "v / n. 掙扎；努力；奮鬥；掙扎；奮鬥",
+    "meaning": "v. 掙扎；努力；奮鬥\nn. 掙扎；奮鬥",
     "example": "The small supplier struggled to meet the larger order without extra staff. (這家小型供應商努力在沒有增派人手的情況下完成較大的訂單。)",
     "id": "基礎2-struggle-mtugd66"
   },
@@ -1206,14 +1206,14 @@
   {
     "level": "基礎2",
     "word": "select",
-    "meaning": "v / a. 挑選；選擇；選拔；精選的；特選的",
+    "meaning": "v. 挑選；選擇；選拔\nadj. 精選的；特選的",
     "example": "The committee will select three proposals for the final review. (委員會將挑選三份提案進入最後審查。)",
     "id": "L2-select-v-a"
   },
   {
     "level": "基礎2",
     "word": "surround",
-    "meaning": "v / a. 圍繞；包圍；環繞；周圍的；附近的",
+    "meaning": "v. 圍繞；包圍；環繞\nadj. 周圍的；附近的",
     "example": "The company surrounded the outdoor seating area with low safety barriers. (公司在戶外座位區周圍設置了矮護欄。)",
     "id": "基礎2-surround-ma3f8dk"
   },
@@ -1234,28 +1234,28 @@
   {
     "level": "基礎2",
     "word": "annual",
-    "meaning": "a. 每年的；年度的",
+    "meaning": "adj. 每年的；年度的",
     "example": "The annual report will be distributed to shareholders in early March. (年度報告將於三月初寄送給股東。)",
     "id": "L4-annual-a"
   },
   {
     "level": "基礎2",
     "word": "fully",
-    "meaning": "ad. 完全地；充分地；徹底地",
+    "meaning": "adv. 完全地；充分地；徹底地",
     "example": "The new inventory system is fully compatible with the company’s accounting software. (新的庫存系統與公司的會計軟體完全相容。)",
     "id": "基礎2-fully-m1nkopa9"
   },
   {
     "level": "基礎2",
     "word": "contrast",
-    "meaning": "n / v. 差異；對比；反差；對比；形成差異",
+    "meaning": "n. 差異；對比；反差\nv. 對比；形成差異",
     "example": "There is a clear contrast between the two suppliers’ delivery records. (兩家供應商的配送紀錄有明顯差異。)",
     "id": "基礎2-contrast-mebyifq"
   },
   {
     "level": "基礎2",
     "word": "roll",
-    "meaning": "n / v. 一卷；翻滾；麵包捲；滾動；捲起；推出",
+    "meaning": "n. 一卷；翻滾；麵包捲\nv. 滾動；捲起；推出",
     "example": "The warehouse stored each roll of shipping labels beside the packing station. (倉庫將每卷寄件標籤存放在包裝站旁。)",
     "id": "基礎2-roll-m1qxje4g"
   },
@@ -1269,7 +1269,7 @@
   {
     "level": "基礎2",
     "word": "photograph",
-    "meaning": "n / v. 照片；相片；拍攝；為……拍照",
+    "meaning": "n. 照片；相片\nv. 拍攝；為……拍照",
     "example": "The annual report includes a photograph of the newly renovated headquarters. (年度報告中附有整修完成的總部照片。)",
     "id": "L2-photograph-n"
   },
@@ -1283,14 +1283,14 @@
   {
     "level": "基礎2",
     "word": "conflict",
-    "meaning": "n / v. 衝突；爭執；抵觸；衝突；不一致",
+    "meaning": "n. 衝突；爭執；抵觸\nv. 衝突；不一致",
     "example": "A scheduling conflict prevented the consultant from attending the client meeting. (行程衝突使顧問無法出席客戶會議。)",
     "id": "基礎2-conflict-mjhptuf"
   },
   {
     "level": "基礎2",
     "word": "entire",
-    "meaning": "a / n. 全部的；整個的；全部；總和",
+    "meaning": "adj. 全部的；整個的\nn. 全部；總和",
     "example": "The entire staff attended the briefing about the new security policy. (全體員工都出席了新安全政策的簡報。)",
     "id": "L2-entire-a-n"
   },
@@ -1325,7 +1325,7 @@
   {
     "level": "基礎2",
     "word": "shift",
-    "meaning": "n / v. 輪班；轉變；變速；轉移；改變；輪班",
+    "meaning": "n. 輪班；轉變；變速\nv. 轉移；改變；輪班",
     "example": "The evening shift will begin at four o’clock during the holiday period. (假日期間，晚班將於四點開始。)",
     "id": "基礎2-shift-m1ad9evr"
   },
@@ -1360,35 +1360,35 @@
   {
     "level": "基礎2",
     "word": "quick",
-    "meaning": "a. 快的；迅速的；聰明的",
+    "meaning": "adj. 快的；迅速的；聰明的",
     "example": "The quick response from the service desk resolved the login issue. (服務台迅速回應，解決了登入問題。)",
     "id": "L1-quick-a"
   },
   {
     "level": "基礎2",
     "word": "cook",
-    "meaning": "n / v. 廚師；炊事員；烹煮；烹調",
+    "meaning": "n. 廚師；炊事員\nv. 烹煮；烹調",
     "example": "The cook prepared lunch for the staff working at the warehouse. (廚師為在倉庫工作的員工準備午餐。)",
     "id": "基礎2-cook-m78eo7s"
   },
   {
     "level": "基礎2",
     "word": "spread",
-    "meaning": "v / n. 散布；擴展；傳播；擴展；傳播；塗抹物",
+    "meaning": "v. 散布；擴展；傳播\nn. 擴展；傳播；塗抹物",
     "example": "The company plans to spread its delivery service to smaller towns. (公司計畫將配送服務擴展至較小的城鎮。)",
     "id": "L2-spread-v-n"
   },
   {
     "level": "基礎2",
     "word": "nuclear",
-    "meaning": "a. 核能的；核子的",
+    "meaning": "adj. 核能的；核子的",
     "example": "The company’s nuclear energy division submitted its annual safety report. (公司的核能部門提交了年度安全報告。)",
     "id": "基礎2-nuclear-mdwja6o"
   },
   {
     "level": "基礎2",
     "word": "scale",
-    "meaning": "n / v. 規模；刻度；天平；攀登；衡量；調整大小",
+    "meaning": "n. 規模；刻度；天平\nv. 攀登；衡量；調整大小",
     "example": "The company plans to scale its delivery network to cover the entire region. (公司計畫擴大配送網路，涵蓋整個區域。)",
     "id": "L3-scale-n-v"
   },
@@ -1430,7 +1430,7 @@
   {
     "level": "基礎2",
     "word": "north",
-    "meaning": "n / a / ad. 北方；北部；北方的；北部的；向北；在北方",
+    "meaning": "n. 北方；北部\nadj. 北方的；北部的\nadv. 向北；在北方",
     "example": "The company opened a new warehouse in the north of the country. (公司在該國北部開設了一座新倉庫。)",
     "id": "基礎2-north-m17z2tid"
   },
@@ -1444,7 +1444,7 @@
   {
     "level": "基礎2",
     "word": "senior",
-    "meaning": "a / n. 年長的；資深的；高級的；年長者；資深員工；高年級學生",
+    "meaning": "adj. 年長的；資深的；高級的\nn. 年長者；資深員工；高年級學生",
     "example": "Senior managers will review the proposed changes before they are announced. (資深經理會在公告前審查這些變更提案。)",
     "id": "L4-senior-a-n"
   },
@@ -1479,7 +1479,7 @@
   {
     "level": "基礎2",
     "word": "map",
-    "meaning": "n / v. 地圖；圖表；映射；繪製地圖；規劃；映射",
+    "meaning": "n. 地圖；圖表；映射\nv. 繪製地圖；規劃；映射",
     "example": "The welcome packet includes a map showing nearby parking and transit stops. (迎賓資料袋內附有標示附近停車場和交通站點的地圖。)",
     "id": "基礎2-map-mgyo6zf"
   },
@@ -1500,14 +1500,14 @@
   {
     "level": "基礎2",
     "word": "reform",
-    "meaning": "n / v. 改革；改進；改革措施；改革；改進；改造",
+    "meaning": "n. 改革；改進；改革措施\nv. 改革；改進；改造",
     "example": "The company introduced a reform of its expense approval process. (公司改革了費用核准流程。)",
     "id": "基礎2-reform-m1cv55ke"
   },
   {
     "level": "基礎2",
     "word": "neither",
-    "meaning": "pron / det / conj. 兩者皆不；兩者都不是；兩者都不；兩個都沒有；既不……也不……",
+    "meaning": "pron. 兩者皆不；兩者都不是\ndet. 兩者都不；兩個都沒有\nconj. 既不……也不……",
     "example": "Neither the branch manager nor the supplier could confirm the delivery date. (分店經理和供應商都無法確認交貨日期。)",
     "id": "基礎2-neither-m1tc67pd"
   },
@@ -1535,7 +1535,7 @@
   {
     "level": "基礎2",
     "word": "left",
-    "meaning": "a / ad / n. 左邊的；剩下的；離開了的；向左；在左側；左邊；左派",
+    "meaning": "adj. 左邊的；剩下的；離開了的\nadv. 向左；在左側\nn. 左邊；左派",
     "example": "The remaining left luggage will be sent to the hotel’s lost-property office. (剩下的寄存行李將送到飯店的失物招領處。)",
     "id": "基礎2-left-mbsfw10"
   },
@@ -1605,7 +1605,7 @@
   {
     "level": "基礎2",
     "word": "smoke",
-    "meaning": "n / v. 煙；吸菸；煙霧；吸菸；冒煙；燻",
+    "meaning": "n. 煙；吸菸；煙霧\nv. 吸菸；冒煙；燻",
     "example": "The no-smoking policy applies to every office and warehouse location. (禁菸政策適用於所有辦公室和倉庫地點。)",
     "id": "基礎2-smoke-m1cnkj4h"
   },
@@ -1626,7 +1626,7 @@
   {
     "level": "基礎2",
     "word": "busy",
-    "meaning": "a. 忙碌的；繁忙的；熱鬧的",
+    "meaning": "adj. 忙碌的；繁忙的；熱鬧的",
     "example": "The customer service desk is busiest during the holiday shopping season. (假日購物季是客服櫃台最繁忙的時段。)",
     "id": "L1-busy-a"
   },
@@ -1647,14 +1647,14 @@
   {
     "level": "基礎2",
     "word": "mass",
-    "meaning": "n / a. 大量；群眾；質量；大量的；群眾的；整體的",
+    "meaning": "n. 大量；群眾；質量\nadj. 大量的；群眾的；整體的",
     "example": "The company ordered a mass of replacement labels for the new product line. (公司為新產品系列訂購了大量替換標籤。)",
     "id": "基礎2-mass-m4sav0d"
   },
   {
     "level": "基礎2",
     "word": "funny",
-    "meaning": "a. 有趣的；滑稽的；奇怪的",
+    "meaning": "adj. 有趣的；滑稽的；奇怪的",
     "example": "The speaker shared a funny story about a mix-up in the company cafeteria. (講者分享了一則公司餐廳發生混亂的趣事。)",
     "id": "基礎2-funny-mcifgvh"
   },
@@ -1675,7 +1675,7 @@
   {
     "level": "基礎2",
     "word": "schedule",
-    "meaning": "n / v. 時程；日程；排班表；安排時間；排定",
+    "meaning": "n. 時程；日程；排班表\nv. 安排時間；排定",
     "example": "The project schedule lists the deadlines for each stage of the renovation. (專案時程列出了整修各階段的期限。)",
     "id": "L3-schedule-n-v"
   },
@@ -1717,7 +1717,7 @@
   {
     "level": "基礎2",
     "word": "waste",
-    "meaning": "n / v. 浪費；廢料；垃圾；浪費；濫用",
+    "meaning": "n. 浪費；廢料；垃圾\nv. 浪費；濫用",
     "example": "The company reduced paper waste by switching to digital invoices. (公司改用電子發票後減少了紙張浪費。)",
     "id": "L1-waste-n-v"
   },
@@ -1766,14 +1766,14 @@
   {
     "level": "基礎2",
     "word": "repeat",
-    "meaning": "v / n. 重複；再說一次；重播；重複；反覆",
+    "meaning": "v. 重複；再說一次；重播\nn. 重複；反覆",
     "example": "Please repeat the order number so I can verify the shipment. (請再說一次訂單號碼，讓我確認貨件。)",
     "id": "L2-repeat-v-n"
   },
   {
     "level": "基礎2",
     "word": "equal",
-    "meaning": "a / v. 相等的；平等的；相當的；等於；比得上",
+    "meaning": "adj. 相等的；平等的；相當的\nv. 等於；比得上",
     "example": "The company provides equal training opportunities to all new hires. (公司為所有新進員工提供平等的訓練機會。)",
     "id": "L1-equal-a-v"
   },
@@ -1787,14 +1787,14 @@
   {
     "level": "基礎2",
     "word": "plus",
-    "meaning": "prep / conj / n. 加上；外加；而且；以及；加號；優勢",
+    "meaning": "prep. 加上；外加\nconj. 而且；以及\nn. 加號；優勢",
     "example": "The package includes a printed guide plus a complimentary storage pouch. (這個套組包含一本紙本指南，外加一個免費收納袋。)",
     "id": "基礎2-plus-moyinsj"
   },
   {
     "level": "基礎2",
     "word": "extremely",
-    "meaning": "ad. 極其；非常",
+    "meaning": "adv. 極其；非常",
     "example": "The revised delivery route is extremely efficient during peak hours. (修訂後的配送路線在尖峰時段極為有效率。)",
     "id": "基礎2-extremely-m1wigl2s"
   },
@@ -1815,7 +1815,7 @@
   {
     "level": "基礎2",
     "word": "commercial",
-    "meaning": "a / n. 商業的；營利的；商用的；廣告；商業廣播",
+    "meaning": "adj. 商業的；營利的；商用的\nn. 廣告；商業廣播",
     "example": "The company signed a commercial agreement with the airline for discounted travel. (公司與航空公司簽署商務協議，取得優惠票價。)",
     "id": "L3-commercial-a-n"
   },
@@ -1850,7 +1850,7 @@
   {
     "level": "基礎2",
     "word": "cultural",
-    "meaning": "a. 文化的；與文化有關的",
+    "meaning": "adj. 文化的；與文化有關的",
     "example": "The company organized a cultural event for employees visiting from overseas. (公司為海外來訪員工安排了一場文化活動。)",
     "id": "基礎2-cultural-m17xhl1d"
   },
@@ -1864,7 +1864,7 @@
   {
     "level": "基礎2",
     "word": "scheme",
-    "meaning": "n / v. 方案；計畫；陰謀；策劃；密謀",
+    "meaning": "n. 方案；計畫；陰謀\nv. 策劃；密謀",
     "example": "The company introduced a new savings scheme for full-time employees. (公司為全職員工推出新的儲蓄方案。)",
     "id": "基礎2-scheme-m182ina2"
   },
@@ -1878,14 +1878,14 @@
   {
     "level": "基礎2",
     "word": "unfortunately",
-    "meaning": "ad. 不幸地；遺憾地",
+    "meaning": "adv. 不幸地；遺憾地",
     "example": "Unfortunately, the shipment was delayed because of severe weather. (很遺憾，這批貨物因惡劣天氣而延誤。)",
     "id": "TOEIC-unfortunately-ad"
   },
   {
     "level": "基礎2",
     "word": "brief",
-    "meaning": "a. 簡短的；短暫的；扼要的",
+    "meaning": "adj. 簡短的；短暫的；扼要的",
     "example": "The director gave a brief update on the company’s expansion plans. (主管簡短說明了公司的擴展計畫。)",
     "id": "L2-brief-a"
   },
@@ -1927,21 +1927,21 @@
   {
     "level": "基礎2",
     "word": "secret",
-    "meaning": "n / a. 秘密；奧秘；秘密的；保密的",
+    "meaning": "n. 秘密；奧秘\nadj. 秘密的；保密的",
     "example": "The manager kept the details of the merger secret until the announcement. (公告前，經理將合併細節保密。)",
     "id": "L2-secret-n-a"
   },
   {
     "level": "基礎2",
     "word": "apparently",
-    "meaning": "ad. 顯然；看起來",
+    "meaning": "adv. 顯然；看起來",
     "example": "Apparently, the supplier can deliver the new equipment earlier than expected. (看來供應商可以比預期更早交付新設備。)",
     "id": "TOEIC-apparently-ad"
   },
   {
     "level": "基礎2",
     "word": "novel",
-    "meaning": "a / n. 新穎的；新式的；小說",
+    "meaning": "adj. 新穎的；新式的\nn. 小說",
     "example": "The company adopted a novel approach to reducing packaging waste. (公司採用了一種減少包裝廢棄物的新方法。)",
     "id": "L2-novel-a-n"
   },
@@ -1955,7 +1955,7 @@
   {
     "level": "基礎2",
     "word": "burn",
-    "meaning": "v / n. 燃燒；燙傷；燒毀；燒傷；灼傷；燒痕",
+    "meaning": "v. 燃燒；燙傷；燒毀\nn. 燒傷；灼傷；燒痕",
     "example": "The technician warned staff not to burn themselves on the hot equipment. (技術人員提醒員工不要被高溫設備燙傷。)",
     "id": "基礎2-burn-mjmc9co"
   },
@@ -1969,7 +1969,7 @@
   {
     "level": "基礎2",
     "word": "initial",
-    "meaning": "a. 最初的；首字母的；初步的",
+    "meaning": "adj. 最初的；首字母的；初步的",
     "example": "The initial review found no major errors in the supplier’s proposal. (初步審查發現供應商提案中沒有重大錯誤。)",
     "id": "L4-initial-a"
   },
@@ -1990,21 +1990,21 @@
   {
     "level": "基礎2",
     "word": "critical",
-    "meaning": "a. 關鍵的；嚴重的；批判的",
+    "meaning": "adj. 關鍵的；嚴重的；批判的",
     "example": "Timely communication is critical when a delivery delay affects multiple clients. (延誤影響多位客戶時，及時溝通至關重要。)",
     "id": "L4-critical-a"
   },
   {
     "level": "基礎2",
     "word": "gather",
-    "meaning": "v / n. 聚集；收集；推斷；聚集；聚會",
+    "meaning": "v. 聚集；收集；推斷\nn. 聚集；聚會",
     "example": "The project team gathered feedback from every branch before revising the policy. (專案團隊在修訂政策前收集了各分店的回饋。)",
     "id": "L2-gather-v-n"
   },
   {
     "level": "基礎2",
     "word": "mostly",
-    "meaning": "ad. 主要地；大部分地",
+    "meaning": "adv. 主要地；大部分地",
     "example": "The new policy applies mostly to employees who travel for work. (新政策主要適用於因公出差的員工。)",
     "id": "基礎2-mostly-msox1b0"
   },
@@ -2018,21 +2018,21 @@
   {
     "level": "基礎2",
     "word": "pop",
-    "meaning": "v / n / a. 突然出現；流行；彈出；流行音樂；汽水；爆裂聲；流行的；通俗的",
+    "meaning": "v. 突然出現；流行；彈出\nn. 流行音樂；汽水；爆裂聲\nadj. 流行的；通俗的",
     "example": "The new software can pop up a reminder before a meeting begins. (新軟體可以在會議開始前跳出提醒。)",
     "id": "基礎2-pop-m1kvum6c"
   },
   {
     "level": "基礎2",
     "word": "essential",
-    "meaning": "a. 必要的；不可或缺的；本質的",
+    "meaning": "adj. 必要的；不可或缺的；本質的",
     "example": "A reliable internet connection is essential for the online training session. (穩定的網路連線是線上訓練課程不可或缺的條件。)",
     "id": "L4-essential-a"
   },
   {
     "level": "基礎2",
     "word": "desire",
-    "meaning": "n / v. 渴望；願望；慾望；渴望；想要",
+    "meaning": "n. 渴望；願望；慾望\nv. 渴望；想要",
     "example": "The company has a strong desire to improve service for international customers. (公司強烈希望改善對國際客戶的服務。)",
     "id": "基礎2-desire-m1rjku7t"
   },
@@ -2046,7 +2046,7 @@
   {
     "level": "基礎2",
     "word": "currently",
-    "meaning": "ad. 目前；現今",
+    "meaning": "adv. 目前；現今",
     "example": "The company currently operates five distribution centers across the country. (公司目前在全國營運五座配送中心。)",
     "id": "基礎2-currently-m1e9e44o"
   },
@@ -2095,7 +2095,7 @@
   {
     "level": "基礎2",
     "word": "powerful",
-    "meaning": "a. 強大的；有力的；強烈的",
+    "meaning": "adj. 強大的；有力的；強烈的",
     "example": "The powerful new search tool helps employees find records more quickly. (這款強大的新搜尋工具能協助員工更快找到紀錄。)",
     "id": "L2-powerful-a"
   },
@@ -2130,14 +2130,14 @@
   {
     "level": "基礎2",
     "word": "aid",
-    "meaning": "v / n. 協助；幫助；援助；援助；幫助；助手",
+    "meaning": "v. 協助；幫助；援助\nn. 援助；幫助；助手",
     "example": "The consultant aided the team in preparing its proposal for the new contract. (顧問協助團隊準備新合約的提案。)",
     "id": "L2-aid-v-n"
   },
   {
     "level": "基礎2",
     "word": "fan",
-    "meaning": "n / v. 迷；風扇；愛好者；扇風機吹；使扇動",
+    "meaning": "n. 迷；風扇；愛好者\nv. 扇風機吹；使扇動",
     "example": "The hotel installed a ceiling fan in each room to improve air circulation. (飯店在每間房安裝吊扇，以改善空氣流通。)",
     "id": "基礎2-fan-m1sx4ncc"
   },
@@ -2151,21 +2151,21 @@
   {
     "level": "基礎2",
     "word": "twice",
-    "meaning": "ad. 兩次；兩倍",
+    "meaning": "adv. 兩次；兩倍",
     "example": "The delivery truck passed the warehouse twice before finding the correct entrance. (配送卡車在找到正確入口前經過倉庫兩次。)",
     "id": "L1-twice-ad"
   },
   {
     "level": "基礎2",
     "word": "fresh",
-    "meaning": "a. 新鮮的；新近的；精神飽滿的",
+    "meaning": "adj. 新鮮的；新近的；精神飽滿的",
     "example": "The hotel restaurant uses fresh produce from nearby farms. (飯店餐廳使用附近農場的新鮮農產品。)",
     "id": "基礎2-fresh-m1rv9j9x"
   },
   {
     "level": "基礎2",
     "word": "delay",
-    "meaning": "v / n. 延遲；耽擱；使延期；延遲；耽擱",
+    "meaning": "v. 延遲；耽擱；使延期\nn. 延遲；耽擱",
     "example": "Severe weather may delay the scheduled delivery to the northern branch. (惡劣天氣可能會延誤預定送往北部分店的貨物。)",
     "id": "L2-delay-v-n"
   },
@@ -2186,7 +2186,7 @@
   {
     "level": "基礎2",
     "word": "quiet",
-    "meaning": "a / n / v. 安靜的；平和的；安靜；寧靜；使安靜；平息",
+    "meaning": "adj. 安靜的；平和的\nn. 安靜；寧靜\nv. 使安靜；平息",
     "example": "The hotel provides a quiet room for guests who need to work between sessions. (飯店提供安靜的房間，讓賓客在場次之間處理工作。)",
     "id": "L1-quiet-a-n-v"
   },
@@ -2207,7 +2207,7 @@
   {
     "level": "基礎2",
     "word": "divide",
-    "meaning": "v / n. 分開；分配；除以；分歧；分割",
+    "meaning": "v. 分開；分配；除以\nn. 分歧；分割",
     "example": "The coordinator divided the event tasks among the volunteers. (協調人將活動工作分配給志工。)",
     "id": "L2-divide-v-n"
   },
@@ -2235,7 +2235,7 @@
   {
     "level": "基礎2",
     "word": "somewhere",
-    "meaning": "ad. 在某處；到某處",
+    "meaning": "adv. 在某處；到某處",
     "example": "The missing delivery receipt is somewhere in the accounting office. (遺失的送貨收據就在會計辦公室某處。)",
     "id": "基礎2-somewhere-m106ljon"
   },
@@ -2256,14 +2256,14 @@
   {
     "level": "基礎2",
     "word": "obvious",
-    "meaning": "a. 明顯的；清楚的；顯然的",
+    "meaning": "adj. 明顯的；清楚的；顯然的",
     "example": "It was obvious that the new route reduced delivery times. (很明顯，新路線縮短了配送時間。)",
     "id": "L3-obvious-a"
   },
   {
     "level": "基礎2",
     "word": "jump",
-    "meaning": "n / v. 跳躍；猛增；跳躍動作；跳；躍過；突然變動",
+    "meaning": "n. 跳躍；猛增；跳躍動作\nv. 跳；躍過；突然變動",
     "example": "A jump in online orders required the warehouse to add an evening shift. (網路訂單突然增加，倉庫因此增設晚班。)",
     "id": "基礎2-jump-m17lhg80"
   },
@@ -2277,7 +2277,7 @@
   {
     "level": "基礎2",
     "word": "relatively",
-    "meaning": "ad. 相對地；比較而言",
+    "meaning": "adv. 相對地；比較而言",
     "example": "The new warehouse is relatively close to the main highway. (新倉庫距離主要高速公路相對較近。)",
     "id": "基礎2-relatively-m1pzjuw3"
   },
@@ -2305,21 +2305,21 @@
   {
     "level": "基礎2",
     "word": "broad",
-    "meaning": "a. 寬廣的；廣泛的；粗略的",
+    "meaning": "adj. 寬廣的；廣泛的；粗略的",
     "example": "The company conducted a broad review of its supplier network. (公司對供應商網路進行了全面檢視。)",
     "id": "基礎2-broad-m1476055"
   },
   {
     "level": "基礎2",
     "word": "tire",
-    "meaning": "n / v. 輪胎；疲勞；疲倦；使疲倦；使厭倦",
+    "meaning": "n. 輪胎；疲勞；疲倦\nv. 使疲倦；使厭倦",
     "example": "The delivery van needs a new tire before it can return to service. (配送廂型車需要更換新輪胎才能重新投入服務。)",
     "id": "基礎2-tire-m1tkixxu"
   },
   {
     "level": "基礎2",
     "word": "spring",
-    "meaning": "n / v. 春天；彈簧；泉水；跳起；突然發生；彈出",
+    "meaning": "n. 春天；彈簧；泉水\nv. 跳起；突然發生；彈出",
     "example": "The company will launch its spring catalog at the retail trade show. (公司將在零售展覽會上推出春季型錄。)",
     "id": "L1 / L2-spring-n-v"
   },
@@ -2340,7 +2340,7 @@
   {
     "level": "基礎2",
     "word": "actual",
-    "meaning": "a. 實際的；真實的；真正的",
+    "meaning": "adj. 實際的；真實的；真正的",
     "example": "The actual delivery cost was lower than the original estimate. (實際配送成本比最初估算的還低。)",
     "id": "L3-actual-a"
   },
@@ -2354,7 +2354,7 @@
   {
     "level": "基礎2",
     "word": "battle",
-    "meaning": "v / n. 戰鬥；奮力應對；戰役；鬥爭；競賽",
+    "meaning": "v. 戰鬥；奮力應對\nn. 戰役；鬥爭；競賽",
     "example": "The two retailers battled for customers by offering free delivery. (兩家零售商以免費配送爭取顧客。)",
     "id": "L2-battle-v-n"
   },
@@ -2368,35 +2368,35 @@
   {
     "level": "基礎2",
     "word": "cash",
-    "meaning": "n / v. 現金；現款；兌現；支付現金",
+    "meaning": "n. 現金；現款\nv. 兌現；支付現金",
     "example": "The cashier kept enough cash on hand to provide change to conference guests. (收銀員備妥足夠現金，為研討會賓客找零。)",
     "id": "L2-cash-n-v"
   },
   {
     "level": "基礎2",
     "word": "hardly",
-    "meaning": "ad. 幾乎不；簡直不",
+    "meaning": "adv. 幾乎不；簡直不",
     "example": "The old printer hardly works, so the office ordered a replacement. (舊印表機幾乎無法運作，因此辦公室訂購了替換機。)",
     "id": "L2-hardly-ad"
   },
   {
     "level": "基礎2",
     "word": "award",
-    "meaning": "n / v. 獎項；獎品；獎勵；授予；頒發；判給",
+    "meaning": "n. 獎項；獎品；獎勵\nv. 授予；頒發；判給",
     "example": "The company will award a scholarship to the top-performing intern. (公司將頒發獎學金給表現最優秀的實習生。)",
     "id": "基礎2-award-m16bjhkn"
   },
   {
     "level": "基礎2",
     "word": "coach",
-    "meaning": "n / v. 教練；長途客車；導師；指導；訓練",
+    "meaning": "n. 教練；長途客車；導師\nv. 指導；訓練",
     "example": "The company hired a coach to help managers improve their presentation skills. (公司聘請了一位教練，協助經理提升簡報技巧。)",
     "id": "L2-coach-n-v"
   },
   {
     "level": "基礎2",
     "word": "experiment",
-    "meaning": "n / v. 實驗；試驗；嘗試；做實驗；試用；嘗試",
+    "meaning": "n. 實驗；試驗；嘗試\nv. 做實驗；試用；嘗試",
     "example": "The company’s pilot experiment tested a new way to process customer returns. (公司的試點實驗測試了處理顧客退貨的新方法。)",
     "id": "L3-experiment-n-v"
   },
@@ -2410,21 +2410,21 @@
   {
     "level": "基礎2",
     "word": "strange",
-    "meaning": "a. 奇怪的；陌生的；不尋常的",
+    "meaning": "adj. 奇怪的；陌生的；不尋常的",
     "example": "The customer noticed a strange charge on the latest invoice. (顧客在最新發票上發現一筆奇怪的費用。)",
     "id": "基礎2-strange-m11rbnzi"
   },
   {
     "level": "基礎2",
     "word": "code",
-    "meaning": "n / v. 代碼；規範；密碼；編碼；將……編入代碼",
+    "meaning": "n. 代碼；規範；密碼\nv. 編碼；將……編入代碼",
     "example": "The warehouse uses a unique code to identify each product category. (倉庫使用專屬代碼識別各產品類別。)",
     "id": "基礎2-code-m383edi"
   },
   {
     "level": "基礎2",
     "word": "possibly",
-    "meaning": "ad. 可能；或許",
+    "meaning": "adv. 可能；或許",
     "example": "The supplier could possibly deliver the order two days earlier. (供應商或許能提早兩天交貨。)",
     "id": "基礎2-possibly-m1pdidfs"
   },
@@ -2445,7 +2445,7 @@
   {
     "level": "基礎2",
     "word": "impossible",
-    "meaning": "a. 不可能的；辦不到的",
+    "meaning": "adj. 不可能的；辦不到的",
     "example": "It is impossible to approve the payment without a valid purchase order. (沒有有效採購單就無法核准付款。)",
     "id": "TOEIC-impossible-a"
   },
@@ -2466,14 +2466,14 @@
   {
     "level": "基礎2",
     "word": "afraid",
-    "meaning": "a. 害怕的；擔心的",
+    "meaning": "adj. 害怕的；擔心的",
     "example": "Several employees were afraid that the renovation would disrupt customer service. (幾位員工擔心整修會影響客服服務。)",
     "id": "L1-afraid-a"
   },
   {
     "level": "基礎2",
     "word": "active",
-    "meaning": "a. 積極的；活躍的；有效的",
+    "meaning": "adj. 積極的；活躍的；有效的",
     "example": "The active membership program offers discounts to frequent customers. (活躍會員方案為常客提供折扣。)",
     "id": "L2-active-a"
   },
@@ -2487,7 +2487,7 @@
   {
     "level": "基礎2",
     "word": "religious",
-    "meaning": "a. 宗教的；虔誠的",
+    "meaning": "adj. 宗教的；虔誠的",
     "example": "The company offers a quiet room for employees observing religious holidays. (公司為慶祝宗教節日的員工提供安靜休息室。)",
     "id": "基礎2-religious-m1ww7kv3"
   },
@@ -2515,7 +2515,7 @@
   {
     "level": "基礎2",
     "word": "environmental",
-    "meaning": "a. 環境的；環保的",
+    "meaning": "adj. 環境的；環保的",
     "example": "The company introduced environmental standards for all packaging suppliers. (公司為所有包裝供應商訂定了環境標準。)",
     "id": "L3-environmental-a"
   },
@@ -2529,14 +2529,14 @@
   {
     "level": "基礎2",
     "word": "healthy",
-    "meaning": "a. 健康的；健全的；有益健康的",
+    "meaning": "adj. 健康的；健全的；有益健康的",
     "example": "The cafeteria added healthy meal options for employees working late. (員工餐廳為晚下班的員工增加了健康餐點選項。)",
     "id": "L2-healthy-a"
   },
   {
     "level": "基礎2",
     "word": "blow",
-    "meaning": "v / n. 吹；刮；吹奏；吹氣；吹奏；打擊",
+    "meaning": "v. 吹；刮；吹奏\nn. 吹氣；吹奏；打擊",
     "example": "The technician blew dust out of the computer before replacing its filter. (技術人員在更換濾網前吹掉了電腦內的灰塵。)",
     "id": "L1-blow-v-n"
   },
@@ -2585,14 +2585,14 @@
   {
     "level": "基礎2",
     "word": "glad",
-    "meaning": "a. 高興的；欣慰的",
+    "meaning": "adj. 高興的；欣慰的",
     "example": "We are glad to confirm that your replacement order has been shipped. (我們很高興確認您的替換訂單已寄出。)",
     "id": "基礎2-glad-mce11s"
   },
   {
     "level": "基礎2",
     "word": "tape",
-    "meaning": "n / v. 膠帶；錄音帶；磁帶；用膠帶固定；錄製",
+    "meaning": "n. 膠帶；錄音帶；磁帶\nv. 用膠帶固定；錄製",
     "example": "The warehouse used tape to secure the cartons before loading them. (倉庫人員用膠帶固定紙箱後再裝車。)",
     "id": "L2-tape-n-v"
   },
@@ -2606,7 +2606,7 @@
   {
     "level": "基礎2",
     "word": "opposite",
-    "meaning": "a / ad / prep. 相反的；對面的；另一側的；在對面；相反地；在……對面；與……相反",
+    "meaning": "adj. 相反的；對面的；另一側的\nadv. 在對面；相反地\nprep. 在……對面；與……相反",
     "example": "The office is opposite the station, across the main intersection. (辦公室位於車站對面，隔著主要路口。)",
     "id": "L3-opposite-a-ad-prep"
   },
@@ -2620,21 +2620,21 @@
   {
     "level": "基礎2",
     "word": "sum",
-    "meaning": "n / v. 總和；金額；款項；總計；合計達",
+    "meaning": "n. 總和；金額；款項\nv. 總計；合計達",
     "example": "The sum of the two invoices matches the amount listed in the purchase order. (兩張發票的金額總和與採購單所列金額相符。)",
     "id": "L3-sum-n-v"
   },
   {
     "level": "基礎2",
     "word": "murder",
-    "meaning": "n / v. 謀殺；謀殺案；謀殺；殺害",
+    "meaning": "n. 謀殺；謀殺案\nv. 謀殺；殺害",
     "example": "The documentary described the investigation of a high-profile murder case. (這部紀錄片描述了一起備受關注的謀殺案調查。)",
     "id": "基礎2-murder-mg4puhp"
   },
   {
     "level": "基礎2",
     "word": "monitor",
-    "meaning": "n / v. 監視器；監測器；顯示器；監控；監測；監視",
+    "meaning": "n. 監視器；監測器；顯示器\nv. 監控；監測；監視",
     "example": "The security team monitors the loading dock with a camera system. (保全團隊透過攝影機系統監控卸貨區。)",
     "id": "L4-monitor-n-v"
   },
@@ -2676,35 +2676,35 @@
   {
     "level": "基礎2",
     "word": "shock",
-    "meaning": "n / v. 震驚；打擊；令人震驚的事；使震驚；使驚訝",
+    "meaning": "n. 震驚；打擊；令人震驚的事\nv. 使震驚；使驚訝",
     "example": "The sudden increase in shipping costs shocked the purchasing team. (運費突然上漲讓採購團隊大感震驚。)",
     "id": "基礎2-shock-m1qdawm3"
   },
   {
     "level": "基礎2",
     "word": "comfortable",
-    "meaning": "a. 舒適的；舒服的；自在的",
+    "meaning": "adj. 舒適的；舒服的；自在的",
     "example": "The hotel’s comfortable chairs make the conference room suitable for long meetings. (飯店的舒適座椅讓會議室適合舉行長時間會議。)",
     "id": "L2-comfortable-a"
   },
   {
     "level": "基礎2",
     "word": "usual",
-    "meaning": "a. 通常的；平常的；慣常的",
+    "meaning": "adj. 通常的；平常的；慣常的",
     "example": "The usual delivery window for this supplier is two business days. (這家供應商通常的配送時間為兩個工作天。)",
     "id": "L2-usual-a"
   },
   {
     "level": "基礎2",
     "word": "carefully",
-    "meaning": "ad. 仔細地；謹慎地",
+    "meaning": "adv. 仔細地；謹慎地",
     "example": "Please carefully review the payment details before submitting the transfer. (提交轉帳前，請仔細核對付款資料。)",
     "id": "TOEIC-carefully-ad"
   },
   {
     "level": "基礎2",
     "word": "pack",
-    "meaning": "v / n. 打包；收拾；裝箱；一包；一群；包裝",
+    "meaning": "v. 打包；收拾；裝箱\nn. 一包；一群；包裝",
     "example": "The warehouse staff packed the sample kits for the upcoming trade show. (倉庫員工為即將到來的商展包裝了樣品組。)",
     "id": "基礎2-pack-m1jmp7mt"
   },
@@ -2732,14 +2732,14 @@
   {
     "level": "基礎2",
     "word": "swim",
-    "meaning": "v / n. 游泳；漂浮；浸滿；游泳；游泳池活動",
+    "meaning": "v. 游泳；漂浮；浸滿\nn. 游泳；游泳池活動",
     "example": "The hotel pool is available for guests who want to swim before breakfast. (飯店泳池開放給想在早餐前游泳的賓客使用。)",
     "id": "基礎2-swim-m12xe9qr"
   },
   {
     "level": "基礎2",
     "word": "manufacture",
-    "meaning": "v / n. 製造；生產；捏造；製造；生產",
+    "meaning": "v. 製造；生產；捏造\nn. 製造；生產",
     "example": "The factory manufactures replacement parts for commercial refrigeration units. (工廠生產商用冷藏設備的替換零件。)",
     "id": "L4-manufacture-v-n"
   },
@@ -2753,7 +2753,7 @@
   {
     "level": "基礎2",
     "word": "cycle",
-    "meaning": "n / v. 週期；循環；自行車；循環；使週期性發生；騎自行車",
+    "meaning": "n. 週期；循環；自行車\nv. 循環；使週期性發生；騎自行車",
     "example": "The company reviews its inventory cycle at the end of each quarter. (公司在每季末檢視庫存週期。)",
     "id": "L3-cycle-n-v"
   },
@@ -2767,7 +2767,7 @@
   {
     "level": "基礎2",
     "word": "totally",
-    "meaning": "ad. 完全地；徹底地；總共",
+    "meaning": "adv. 完全地；徹底地；總共",
     "example": "The revised process totally eliminated duplicate entries in the customer database. (修訂後的流程完全消除了顧客資料庫中的重複項目。)",
     "id": "基礎2-totally-mfnirk2"
   },
@@ -2802,21 +2802,21 @@
   {
     "level": "基礎2",
     "word": "dear",
-    "meaning": "a. 親愛的；珍貴的；昂貴的",
+    "meaning": "adj. 親愛的；珍貴的；昂貴的",
     "example": "Dear customers, please review the updated terms of service before renewing. (親愛的顧客，續約前請先詳閱更新後的服務條款。)",
     "id": "L1-dear-a"
   },
   {
     "level": "基礎2",
     "word": "objective",
-    "meaning": "n / a. 目標；目的；客觀事實；客觀的；不偏不倚的",
+    "meaning": "n. 目標；目的；客觀事實\nadj. 客觀的；不偏不倚的",
     "example": "The main objective of the survey is to measure customer satisfaction. (這項調查的主要目標是衡量顧客滿意度。)",
     "id": "L4-objective-n-a"
   },
   {
     "level": "基礎2",
     "word": "moreover",
-    "meaning": "ad. 此外；而且",
+    "meaning": "adv. 此外；而且",
     "example": "The new office is larger; moreover, it is closer to the airport. (新辦公室較大，而且離機場更近。)",
     "id": "基礎2-moreover-m601181"
   },
@@ -2830,7 +2830,7 @@
   {
     "level": "基礎2",
     "word": "historical",
-    "meaning": "a. 歷史的；與歷史有關的",
+    "meaning": "adj. 歷史的；與歷史有關的",
     "example": "The company moved its archive into a historical building downtown. (公司將檔案搬進市中心一棟歷史建築。)",
     "id": "基礎2-historical-m1m28g8x"
   },
@@ -2886,14 +2886,14 @@
   {
     "level": "基礎3",
     "word": "taste",
-    "meaning": "n / v. 味道；滋味；品味；品嚐；嘗試；體驗",
+    "meaning": "n. 味道；滋味；品味\nv. 品嚐；嘗試；體驗",
     "example": "The hotel’s tasting event gives guests a chance to sample local flavors. (飯店的品嚐活動讓賓客有機會試吃當地風味。)",
     "id": "L1-taste-n-v"
   },
   {
     "level": "基礎3",
     "word": "tonight",
-    "meaning": "ad / n. 今晚；今夜；今晚；今夜",
+    "meaning": "adv. 今晚；今夜\nn. 今晚；今夜",
     "example": "The conference dinner will be held at the hotel restaurant tonight. (研討會晚宴今晚將在飯店餐廳舉行。)",
     "id": "基礎3-tonight-m8fh2nk"
   },
@@ -2914,7 +2914,7 @@
   {
     "level": "基礎3",
     "word": "bomb",
-    "meaning": "n / v. 炸彈；炸彈事件；轟炸；使失敗；表現很差",
+    "meaning": "n. 炸彈；炸彈事件\nv. 轟炸；使失敗；表現很差",
     "example": "The security team received a bomb threat and evacuated the office building. (保全團隊接獲炸彈威脅後疏散了辦公大樓。)",
     "id": "L2-bomb-n-v"
   },
@@ -2928,7 +2928,7 @@
   {
     "level": "基礎3",
     "word": "dangerous",
-    "meaning": "a. 危險的；有風險的",
+    "meaning": "adj. 危險的；有風險的",
     "example": "The inspection team marked the damaged stairway as dangerous. (檢查團隊將受損樓梯標示為危險區域。)",
     "id": "L2-dangerous-a"
   },
@@ -2942,7 +2942,7 @@
   {
     "level": "基礎3",
     "word": "hurt",
-    "meaning": "n / a / v. 傷害；疼痛；受傷的人；受傷的；痛苦的；使受傷；傷害；使疼痛",
+    "meaning": "n. 傷害；疼痛；受傷的人\nadj. 受傷的；痛苦的\nv. 使受傷；傷害；使疼痛",
     "example": "A delayed shipment can hurt customer confidence in the supplier. (貨物延誤可能會損害顧客對供應商的信心。)",
     "id": "L1-hurt-n-a-v"
   },
@@ -2963,14 +2963,14 @@
   {
     "level": "基礎3",
     "word": "normally",
-    "meaning": "ad. 通常；正常地",
+    "meaning": "adv. 通常；正常地",
     "example": "The reception desk normally closes at six, except during special events. (接待櫃台通常六點關閉，特殊活動期間除外。)",
     "id": "基礎3-normally-m12pkkxq"
   },
   {
     "level": "基礎3",
     "word": "sight",
-    "meaning": "n / v. 視力；景象；觀光景點；看見；察覺；發現",
+    "meaning": "n. 視力；景象；觀光景點\nv. 看見；察覺；發現",
     "example": "The hotel lobby offers a clear sight of the harbor through its glass wall. (透過玻璃牆可以從飯店大廳清楚看見港口。)",
     "id": "L1-sight-n-v"
   },
@@ -3026,7 +3026,7 @@
   {
     "level": "基礎3",
     "word": "quote",
-    "meaning": "v / n. 引用；報價；提及；引文；報價；引述",
+    "meaning": "v. 引用；報價；提及\nn. 引文；報價；引述",
     "example": "The supplier quoted a lower price for orders above five hundred units. (供應商對五百件以上的訂單報出較低價格。)",
     "id": "L3-quote-v-n"
   },
@@ -3040,7 +3040,7 @@
   {
     "level": "基礎3",
     "word": "basically",
-    "meaning": "ad. 基本上；大致上",
+    "meaning": "adv. 基本上；大致上",
     "example": "The revised plan is basically the same, with only a few changes to the schedule. (修訂後的計畫基本上相同，只調整了少數時程。)",
     "id": "中高級-basically-ad"
   },
@@ -3061,7 +3061,7 @@
   {
     "level": "基礎3",
     "word": "mainly",
-    "meaning": "ad. 主要地；大部分地",
+    "meaning": "adv. 主要地；大部分地",
     "example": "The company mainly serves customers in the northern part of the country. (公司主要服務該國北部的顧客。)",
     "id": "基礎3-mainly-msox1b0"
   },
@@ -3096,7 +3096,7 @@
   {
     "level": "基礎3",
     "word": "square",
-    "meaning": "n / a. 廣場；正方形；平方；正方形的；方形的",
+    "meaning": "n. 廣場；正方形；平方\nadj. 正方形的；方形的",
     "example": "The company’s office is located on the main square in the city center. (公司的辦公室位於市中心的主要廣場。)",
     "id": "L2-square-n-a"
   },
@@ -3110,7 +3110,7 @@
   {
     "level": "基礎3",
     "word": "familiar",
-    "meaning": "a. 熟悉的；常見的；親近的",
+    "meaning": "adj. 熟悉的；常見的；親近的",
     "example": "The new supplier is familiar with the company’s quality requirements. (新供應商熟悉公司的品質要求。)",
     "id": "L3-familiar-a"
   },
@@ -3138,7 +3138,7 @@
   {
     "level": "基礎3",
     "word": "civil",
-    "meaning": "a. 公民的；民用的；民事的",
+    "meaning": "adj. 公民的；民用的；民事的",
     "example": "The company donated supplies to a civil defense organization. (公司捐贈物資給民防組織。)",
     "id": "基礎3-civil-mc5850g"
   },
@@ -3173,14 +3173,14 @@
   {
     "level": "基礎3",
     "word": "domestic",
-    "meaning": "a. 國內的；本國的；家庭的",
+    "meaning": "adj. 國內的；本國的；家庭的",
     "example": "The company hired a domestic supplier to shorten delivery times. (公司聘用國內供應商以縮短交貨時間。)",
     "id": "L3-domestic-a"
   },
   {
     "level": "基礎3",
     "word": "load",
-    "meaning": "n / v. 負載；裝載量；工作量；裝載；裝入；使負擔",
+    "meaning": "n. 負載；裝載量；工作量\nv. 裝載；裝入；使負擔",
     "example": "The loading crew loaded the final shipment onto the truck before sunset. (裝卸人員在日落前將最後一批貨物裝上卡車。)",
     "id": "L3-load-n-v"
   },
@@ -3201,7 +3201,7 @@
   {
     "level": "基礎3",
     "word": "technical",
-    "meaning": "a. 技術的；工藝的；專業性的",
+    "meaning": "adj. 技術的；工藝的；專業性的",
     "example": "The technical team will install the updated security software overnight. (技術團隊將在夜間安裝更新後的安全軟體。)",
     "id": "基礎3-technical-m1dba5dn"
   },
@@ -3236,7 +3236,7 @@
   {
     "level": "基礎3",
     "word": "switch",
-    "meaning": "n / v. 開關；轉換；轉變；切換；交換；改變",
+    "meaning": "n. 開關；轉換；轉變\nv. 切換；交換；改變",
     "example": "Please switch off the lights in the conference room after the meeting. (會議結束後，請關掉會議室的燈。)",
     "id": "L3-switch-n-v"
   },
@@ -3250,14 +3250,14 @@
   {
     "level": "基礎3",
     "word": "corporate",
-    "meaning": "a / n. 公司的；企業的；公司債券；企業",
+    "meaning": "adj. 公司的；企業的\nn. 公司債券；企業",
     "example": "The corporate office issued new guidelines for employee travel expenses. (公司總部發布了新的員工差旅費指引。)",
     "id": "L6-corporate-a-n"
   },
   {
     "level": "基礎3",
     "word": "fairly",
-    "meaning": "ad. 相當地；公平地；頗",
+    "meaning": "adv. 相當地；公平地；頗",
     "example": "The new plan is fairly affordable for small businesses. (新方案對小型企業而言相當負擔得起。)",
     "id": "L3-fairly-ad"
   },
@@ -3278,21 +3278,21 @@
   {
     "level": "基礎3",
     "word": "tough",
-    "meaning": "a. 艱難的；堅韌的；嚴格的",
+    "meaning": "adj. 艱難的；堅韌的；嚴格的",
     "example": "The company faced a tough decision about closing the underperforming branch. (公司面臨是否關閉績效不佳分店的艱難決定。)",
     "id": "基礎3-tough-m1umvzjp"
   },
   {
     "level": "基礎3",
     "word": "tear",
-    "meaning": "v / n. 撕裂；撕破；流淚；裂縫；撕裂處；眼淚",
+    "meaning": "v. 撕裂；撕破；流淚\nn. 裂縫；撕裂處；眼淚",
     "example": "A small tear in the contract copy was repaired before it was filed. (合約副本上的小裂口在歸檔前已修補。)",
     "id": "L2-tear-v-n"
   },
   {
     "level": "基礎3",
     "word": "representative",
-    "meaning": "a / n. 代表性的；典型的；代表；代理人；業務代表",
+    "meaning": "adj. 代表性的；典型的\nn. 代表；代理人；業務代表",
     "example": "The company provided a representative sample of its products at the trade show. (公司在商展上展示了具代表性的產品樣品。)",
     "id": "L3-representative-a-n"
   },
@@ -3306,14 +3306,14 @@
   {
     "level": "基礎3",
     "word": "border",
-    "meaning": "n / v. 邊界；邊境；界線；與……接壤；毗鄰",
+    "meaning": "n. 邊界；邊境；界線\nv. 與……接壤；毗鄰",
     "example": "The company’s northern warehouse is near the border between two states. (公司的北部倉庫靠近兩州交界處。)",
     "id": "L3-border-n-v"
   },
   {
     "level": "基礎3",
     "word": "shake",
-    "meaning": "v / n. 搖動；震動；握手；搖晃；震動；震驚",
+    "meaning": "v. 搖動；震動；握手\nn. 搖晃；震動；震驚",
     "example": "The technician shook the new printer gently to check for loose parts. (技術人員輕輕搖動新印表機，檢查是否有零件鬆脫。)",
     "id": "基礎3-shake-m1uxggzl"
   },
@@ -3348,7 +3348,7 @@
   {
     "level": "基礎3",
     "word": "fee",
-    "meaning": "n / v. 費用；手續費；入場費；收費；索取費用",
+    "meaning": "n. 費用；手續費；入場費\nv. 收費；索取費用",
     "example": "The hotel charges a small fee for overnight parking. (飯店對過夜停車收取少量費用。)",
     "id": "L2-fee-n-v"
   },
@@ -3362,7 +3362,7 @@
   {
     "level": "基礎3",
     "word": "regulation",
-    "meaning": "n / a. 規定；法規；管理；規範性的；管制的",
+    "meaning": "n. 規定；法規；管理\nadj. 規範性的；管制的",
     "example": "The new safety regulation applies to all contractors working on site. (新的安全規定適用於所有在現場工作的承包商。)",
     "id": "L4-regulation-n-a"
   },
@@ -3383,7 +3383,7 @@
   {
     "level": "基礎3",
     "word": "proper",
-    "meaning": "a. 適當的；正確的；合宜的",
+    "meaning": "adj. 適當的；正確的；合宜的",
     "example": "Please use the proper form when requesting reimbursement for business travel. (申請差旅費報銷時，請使用正確的表格。)",
     "id": "L3-proper-a"
   },
@@ -3404,7 +3404,7 @@
   {
     "level": "基礎3",
     "word": "component",
-    "meaning": "n / a. 組成部分；零件；成分；組成的；構成的",
+    "meaning": "n. 組成部分；零件；成分\nadj. 組成的；構成的",
     "example": "Customer service is a key component of the company’s business strategy. (客戶服務是公司商業策略的重要組成部分。)",
     "id": "L6-component-n-a"
   },
@@ -3453,7 +3453,7 @@
   {
     "level": "基礎3",
     "word": "industrial",
-    "meaning": "a. 工業的；產業的",
+    "meaning": "adj. 工業的；產業的",
     "example": "The industrial supplier ships replacement parts to factories throughout the region. (這家工業供應商將替換零件運送到整個地區的工廠。)",
     "id": "L3-industrial-a"
   },
@@ -3467,7 +3467,7 @@
   {
     "level": "基礎3",
     "word": "perspective",
-    "meaning": "a / n. 透視的；觀點的；觀點；看法；角度",
+    "meaning": "adj. 透視的；觀點的\nn. 觀點；看法；角度",
     "example": "From a customer’s perspective, clear delivery updates are essential. (從顧客的角度來看，清楚的配送通知不可或缺。)",
     "id": "L6-perspective-a-n"
   },
@@ -3523,7 +3523,7 @@
   {
     "level": "基礎3",
     "word": "relevant",
-    "meaning": "a. 相關的；切題的",
+    "meaning": "adj. 相關的；切題的",
     "example": "Please attach all relevant receipts to your travel expense report. (請將所有相關收據附在差旅費報告中。)",
     "id": "L6-relevant-a"
   },
@@ -3551,35 +3551,35 @@
   {
     "level": "基礎3",
     "word": "wake",
-    "meaning": "v / n. 醒來；喚醒；使意識到；醒來；覺醒",
+    "meaning": "v. 醒來；喚醒；使意識到\nn. 醒來；覺醒",
     "example": "The maintenance team woke early to prepare the convention center for the event. (維修團隊提早起床，為活動準備會議中心。)",
     "id": "基礎3-wake-m16bveqh"
   },
   {
     "level": "基礎3",
     "word": "necessarily",
-    "meaning": "ad. 不一定；未必；必要地",
+    "meaning": "adv. 不一定；未必；必要地",
     "example": "A lower purchase price does not necessarily mean lower maintenance costs. (較低的採購價格不一定代表較低的維護成本。)",
     "id": "中級-necessarily-ad"
   },
   {
     "level": "基礎3",
     "word": "bright",
-    "meaning": "a. 明亮的；聰明的；鮮豔的",
+    "meaning": "adj. 明亮的；聰明的；鮮豔的",
     "example": "The bright lighting makes the product labels easier to read. (明亮的照明讓產品標籤更容易閱讀。)",
     "id": "L1-bright-a"
   },
   {
     "level": "基礎3",
     "word": "frame",
-    "meaning": "n / v. 框架；架構；畫格；構築；設計；陷害",
+    "meaning": "n. 框架；架構；畫格\nv. 構築；設計；陷害",
     "example": "The company introduced a new frame for evaluating supplier performance during the quarterly procurement review. (公司在季度採購檢討期間引入新的評估架構，用來衡量供應商的表現。)",
     "id": "L4-frame-n-v"
   },
   {
     "level": "基礎3",
     "word": "slowly",
-    "meaning": "ad. 緩慢地；慢慢地",
+    "meaning": "adv. 緩慢地；慢慢地",
     "example": "The delivery truck moved slowly through the crowded parking area. (配送卡車緩慢駛過擁擠的停車區。)",
     "id": "基礎3-slowly-m1yzp1rg"
   },
@@ -3593,28 +3593,28 @@
   {
     "level": "基礎3",
     "word": "hire",
-    "meaning": "v / n. 僱用；聘請；僱用；聘用",
+    "meaning": "v. 僱用；聘請\nn. 僱用；聘用",
     "example": "The company will hire two technicians to support its new branch. (公司將聘請兩位技術人員支援新分店。)",
     "id": "L2-hire-v-n"
   },
   {
     "level": "基礎3",
     "word": "hole",
-    "meaning": "n / v. 洞；孔；缺口；打洞；挖洞；使有缺口",
+    "meaning": "n. 洞；孔；缺口\nv. 打洞；挖洞；使有缺口",
     "example": "The warehouse found a hole in one carton before the shipment was loaded. (倉庫在裝貨前發現一個紙箱有破洞。)",
     "id": "L1-hole-n-v"
   },
   {
     "level": "基礎3",
     "word": "tie",
-    "meaning": "v / n. 繫上；捆綁；打成平手；領帶；繩結；平手",
+    "meaning": "v. 繫上；捆綁；打成平手\nn. 領帶；繩結；平手",
     "example": "The manager tied the documents together before sending them to the branch. (經理將文件綁在一起後寄往分店。)",
     "id": "L1-tie-v-n"
   },
   {
     "level": "基礎3",
     "word": "internal",
-    "meaning": "a. 內部的；國內的；內心的",
+    "meaning": "adj. 內部的；國內的；內心的",
     "example": "The internal review identified several ways to improve the purchasing process. (內部審查找出了幾種改善採購流程的方法。)",
     "id": "L3-internal-a"
   },
@@ -3656,7 +3656,7 @@
   {
     "level": "基礎3",
     "word": "secure",
-    "meaning": "a / v. 安全的；穩固的；有把握的；取得；保護；使安全",
+    "meaning": "adj. 安全的；穩固的；有把握的\nv. 取得；保護；使安全",
     "example": "The security team secured the entrance before the executive event began. (高階主管活動開始前，保全團隊確保了入口安全。)",
     "id": "L5-secure-a-v"
   },
@@ -3691,7 +3691,7 @@
   {
     "level": "基礎3",
     "word": "label",
-    "meaning": "n / v. 標籤；標示；標籤貼紙；貼標籤；標明；稱作",
+    "meaning": "n. 標籤；標示；標籤貼紙\nv. 貼標籤；標明；稱作",
     "example": "Each carton needs a label showing its destination and tracking number. (每個紙箱都需要貼上標示目的地和追蹤號碼的標籤。)",
     "id": "L3-label-n-v"
   },
@@ -3740,42 +3740,42 @@
   {
     "level": "基礎3",
     "word": "rank",
-    "meaning": "n / v. 等級；排名；軍階；排名；把……分等",
+    "meaning": "n. 等級；排名；軍階\nv. 排名；把……分等",
     "example": "The retailer ranked each store by its customer satisfaction score. (零售商依顧客滿意度分數排列各家商店的名次。)",
     "id": "L3-rank-n"
   },
   {
     "level": "基礎3",
     "word": "typical",
-    "meaning": "a. 典型的；有代表性的",
+    "meaning": "adj. 典型的；有代表性的",
     "example": "A typical delivery from the regional warehouse takes two business days. (從區域倉庫配送通常需要兩個工作天。)",
     "id": "L3-typical-a"
   },
   {
     "level": "基礎3",
     "word": "west",
-    "meaning": "n / a / ad. 西方；西部；西方的；西部的；向西；在西方",
+    "meaning": "n. 西方；西部\nadj. 西方的；西部的\nadv. 向西；在西方",
     "example": "The company opened a branch in the west to serve customers throughout that region. (公司在西部開設分店，為整個地區的顧客提供服務。)",
     "id": "基礎3-west-m1fp5lp1"
   },
   {
     "level": "基礎3",
     "word": "friendly",
-    "meaning": "a. 友善的；友好的；適合的",
+    "meaning": "adj. 友善的；友好的；適合的",
     "example": "The hotel staff are friendly and helpful to business travelers. (飯店員工對商務旅客親切又樂於協助。)",
     "id": "基礎3-friendly-m6g6x64"
   },
   {
     "level": "基礎3",
     "word": "resident",
-    "meaning": "n / a. 居民；住戶；居住者；居住的；常駐的",
+    "meaning": "n. 居民；住戶；居住者\nadj. 居住的；常駐的",
     "example": "A resident engineer is available at the factory during regular production hours. (工廠在正常生產時段有常駐工程師。)",
     "id": "L5-resident-n-a"
   },
   {
     "level": "基礎3",
     "word": "provision",
-    "meaning": "n / v. 供應；提供；條款；提供；供應；預先準備",
+    "meaning": "n. 供應；提供；條款\nv. 提供；供應；預先準備",
     "example": "The contract includes a provision for replacing defective equipment. (合約包含更換瑕疵設備的條款。)",
     "id": "基礎3-provision-m1cyb97i"
   },
@@ -3789,7 +3789,7 @@
   {
     "level": "基礎3",
     "word": "plenty",
-    "meaning": "pron / det / a. 充足；大量；很多；充足的；大量的；充足的；大量的",
+    "meaning": "pron. 充足；大量；很多\ndet. 充足的；大量的\nadj. 充足的；大量的",
     "example": "The warehouse has plenty of space for storing the seasonal inventory. (倉庫有足夠空間存放季節性庫存。)",
     "id": "基礎3-plenty-mfupcwi"
   },
@@ -3803,14 +3803,14 @@
   {
     "level": "基礎3",
     "word": "entirely",
-    "meaning": "ad. 完全地；徹底地",
+    "meaning": "adv. 完全地；徹底地",
     "example": "The old filing system was entirely replaced by a digital records platform. (舊的歸檔系統已完全由數位資料平台取代。)",
     "id": "TOEIC-entirely-ad"
   },
   {
     "level": "基礎3",
     "word": "strongly",
-    "meaning": "ad. 強烈地；堅定地；很大程度地",
+    "meaning": "adv. 強烈地；堅定地；很大程度地",
     "example": "The director strongly recommended updating the company’s data security policy. (主管強烈建議更新公司的資料安全政策。)",
     "id": "基礎3-strongly-mxrb4q"
   },
@@ -3845,7 +3845,7 @@
   {
     "level": "基礎3",
     "word": "moral",
-    "meaning": "a / n. 道德的；品行端正的；道德；寓意",
+    "meaning": "adj. 道德的；品行端正的\nn. 道德；寓意",
     "example": "The company adopted a moral code for handling customer data. (公司採納了一套處理顧客資料的道德規範。)",
     "id": "L3-moral-a-n"
   },
@@ -3873,28 +3873,28 @@
   {
     "level": "基礎3",
     "word": "ice",
-    "meaning": "n / v. 冰；冰塊；結冰；冰鎮；使冷淡",
+    "meaning": "n. 冰；冰塊\nv. 結冰；冰鎮；使冷淡",
     "example": "The restaurant added ice to the drinks served at the outdoor reception. (餐廳為戶外招待會供應的飲料加了冰塊。)",
     "id": "L1-ice-n-v"
   },
   {
     "level": "基礎3",
     "word": "principal",
-    "meaning": "a. 主要的；首要的；校長的",
+    "meaning": "adj. 主要的；首要的；校長的",
     "example": "The principal reason for changing suppliers was the long delivery time. (更換供應商的主要原因是交貨時間過長。)",
     "id": "L2-principal-a"
   },
   {
     "level": "基礎3",
     "word": "master",
-    "meaning": "n / v. 主人；專家；碩士；精通；掌握；主持",
+    "meaning": "n. 主人；專家；碩士\nv. 精通；掌握；主持",
     "example": "The company invited a master chef to prepare the menu for its annual dinner. (公司邀請了一位名廚為年度晚宴設計菜單。)",
     "id": "基礎3-master-medh0dg"
   },
   {
     "level": "基礎3",
     "word": "definitely",
-    "meaning": "ad. 確實；肯定；無疑地",
+    "meaning": "adv. 確實；肯定；無疑地",
     "example": "The new ordering portal will definitely save time for branch managers. (新的訂購入口網站肯定能為分店經理節省時間。)",
     "id": "基礎3-definitely-mcp48nz"
   },
@@ -3915,7 +3915,7 @@
   {
     "level": "基礎3",
     "word": "nevertheless",
-    "meaning": "ad. 然而；儘管如此",
+    "meaning": "adv. 然而；儘管如此",
     "example": "The route is longer; nevertheless, it is safer during winter weather. (這條路線較長，然而冬季行車時較安全。)",
     "id": "L4-nevertheless-ad"
   },
@@ -3929,7 +3929,7 @@
   {
     "level": "基礎3",
     "word": "previously",
-    "meaning": "ad. 以前；先前",
+    "meaning": "adv. 以前；先前",
     "example": "The company previously used a different carrier for international shipments. (公司先前使用另一家承運商處理國際貨運。)",
     "id": "TOEIC-previously-ad"
   },
@@ -3943,7 +3943,7 @@
   {
     "level": "基礎3",
     "word": "largely",
-    "meaning": "ad. 主要地；大部分地；很大程度上",
+    "meaning": "adv. 主要地；大部分地；很大程度上",
     "example": "The new schedule is largely based on feedback from branch managers. (新時程主要根據分店經理的回饋制定。)",
     "id": "基礎3-largely-mnvvksx"
   },
@@ -3957,14 +3957,14 @@
   {
     "level": "基礎3",
     "word": "rent",
-    "meaning": "n / v. 租金；租用；租用；出租",
+    "meaning": "n. 租金；租用\nv. 租用；出租",
     "example": "The company will rent additional office space near the convention center. (公司將在會議中心附近租用額外辦公空間。)",
     "id": "L3-rent-n-v"
   },
   {
     "level": "基礎3",
     "word": "shot",
-    "meaning": "n / v. 射擊；拍攝；鏡頭；射擊；拍攝；投擲",
+    "meaning": "n. 射擊；拍攝；鏡頭\nv. 射擊；拍攝；投擲",
     "example": "The marketing team scheduled a product shot for the new catalog at the studio on Friday. (行銷團隊安排星期五在攝影棚為新型錄拍攝產品照。)",
     "id": "基礎3-shot-mi70xjv"
   },
@@ -3978,14 +3978,14 @@
   {
     "level": "基礎3",
     "word": "reasonable",
-    "meaning": "a. 合理的；明智的；價格公道的",
+    "meaning": "adj. 合理的；明智的；價格公道的",
     "example": "The supplier offered a reasonable price for the large order. (供應商為這筆大額訂單提供了合理價格。)",
     "id": "L3-reasonable-a"
   },
   {
     "level": "基礎3",
     "word": "guarantee",
-    "meaning": "n / v. 保證；保固；擔保；保證；確保；擔保",
+    "meaning": "n. 保證；保固；擔保\nv. 保證；確保；擔保",
     "example": "The new equipment comes with a two-year guarantee. (新設備附有兩年保固。)",
     "id": "L4-guarantee-n-v"
   },
@@ -4013,7 +4013,7 @@
   {
     "level": "基礎3",
     "word": "odd",
-    "meaning": "a. 奇怪的；奇數的；零星的",
+    "meaning": "adj. 奇怪的；奇數的；零星的",
     "example": "The office received an odd request to deliver a package without an address. (辦公室收到一項奇怪要求：寄送包裹時不寫地址。)",
     "id": "基礎3-odd-m10m2kc9"
   },
@@ -4027,7 +4027,7 @@
   {
     "level": "基礎3",
     "word": "loan",
-    "meaning": "n / v. 貸款；借款；借出；借款",
+    "meaning": "n. 貸款；借款\nv. 借出；借款",
     "example": "The bank approved a loan to help the company expand its warehouse. (銀行核准了一筆貸款，協助公司擴建倉庫。)",
     "id": "L4-loan-n-v"
   },
@@ -4069,14 +4069,14 @@
   {
     "level": "基礎3",
     "word": "characteristic",
-    "meaning": "a. 特有的；典型的；有特色的",
+    "meaning": "adj. 特有的；典型的；有特色的",
     "example": "Attention to detail is a characteristic quality of the company’s best technicians. (注重細節是公司優秀技術人員的典型特質。)",
     "id": "L4-characteristic-a"
   },
   {
     "level": "基礎3",
     "word": "license",
-    "meaning": "n / v. 許可證；執照；許可；准許；發照；授權",
+    "meaning": "n. 許可證；執照；許可\nv. 准許；發照；授權",
     "example": "The facility requires a valid license to operate commercial kitchen equipment. (操作商用廚房設備需要有效執照。)",
     "id": "L4-license-n-v"
   },
@@ -4090,7 +4090,7 @@
   {
     "level": "基礎3",
     "word": "narrow",
-    "meaning": "a / v. 狹窄的；有限的；勉強的；縮小；使變窄；限制",
+    "meaning": "adj. 狹窄的；有限的；勉強的\nv. 縮小；使變窄；限制",
     "example": "The narrow aisle can only accommodate one delivery cart at a time. (狹窄的走道一次只能容納一台配送推車。)",
     "id": "L2-narrow-a-v"
   },
@@ -4118,42 +4118,42 @@
   {
     "level": "基礎3",
     "word": "permit",
-    "meaning": "v / n. 允許；准許；發給許可；許可證；許可",
+    "meaning": "v. 允許；准許；發給許可\nn. 許可證；許可",
     "example": "The city permitted the company to extend the loading area. (市政府准許公司擴大裝卸區。)",
     "id": "L3-permit-v-n"
   },
   {
     "level": "基礎3",
     "word": "seriously",
-    "meaning": "ad. 認真地；嚴重地；非常",
+    "meaning": "adv. 認真地；嚴重地；非常",
     "example": "The company is seriously considering a second warehouse in the region. (公司正認真考慮在該區設立第二座倉庫。)",
     "id": "基礎3-seriously-m1wjufgb"
   },
   {
     "level": "基礎3",
     "word": "wild",
-    "meaning": "a. 野生的；狂野的；失控的",
+    "meaning": "adj. 野生的；狂野的；失控的",
     "example": "The hotel’s garden attracts wild birds throughout the spring. (飯店花園整個春季都會吸引野鳥。)",
     "id": "基礎3-wild-ma29sar"
   },
   {
     "level": "基礎3",
     "word": "empty",
-    "meaning": "a / v. 空的；空缺的；無內容的；倒空；清空；使空出",
+    "meaning": "adj. 空的；空缺的；無內容的\nv. 倒空；清空；使空出",
     "example": "Please leave the final column empty for the accounting team to complete. (請將最後一欄留空，讓會計團隊填寫。)",
     "id": "基礎3-empty-m11sqt7"
   },
   {
     "level": "基礎3",
     "word": "commission",
-    "meaning": "n / v. 委員會；佣金；服務費；委託；授權；任命",
+    "meaning": "n. 委員會；佣金；服務費\nv. 委託；授權；任命",
     "example": "The sales commission is calculated from the value of each completed contract. (銷售佣金依每份完成合約的金額計算。)",
     "id": "L5-commission-n-v"
   },
   {
     "level": "基礎3",
     "word": "unique",
-    "meaning": "a. 獨特的；唯一的；特有的",
+    "meaning": "adj. 獨特的；唯一的；特有的",
     "example": "Each product has a unique tracking code printed on its label. (每項產品的標籤上都有專屬追蹤碼。)",
     "id": "L4-unique-a"
   },
@@ -4181,7 +4181,7 @@
   {
     "level": "基礎3",
     "word": "practical",
-    "meaning": "a. 實用的；實際的；可行的",
+    "meaning": "adj. 實用的；實際的；可行的",
     "example": "The company chose a practical layout that makes the warehouse easier to navigate. (公司採用了實用的配置，讓倉庫更容易通行。)",
     "id": "L3-practical-a"
   },
@@ -4195,21 +4195,21 @@
   {
     "level": "基礎3",
     "word": "lovely",
-    "meaning": "a. 可愛的；美好的；令人愉快的",
+    "meaning": "adj. 可愛的；美好的；令人愉快的",
     "example": "The hotel offers a lovely view of the harbor from its rooftop lounge. (飯店頂樓休息廳可以欣賞迷人的港口景色。)",
     "id": "基礎3-lovely-m1k1mlk3"
   },
   {
     "level": "基礎3",
     "word": "soft",
-    "meaning": "a. 柔軟的；溫和的；輕聲的",
+    "meaning": "adj. 柔軟的；溫和的；輕聲的",
     "example": "The company selected soft lighting for the hotel’s evening reception. (公司為飯店的晚間招待會選用了柔和的燈光。)",
     "id": "基礎3-soft-m17y14vh"
   },
   {
     "level": "基礎3",
     "word": "row",
-    "meaning": "n / v. 一排；一列；吵架；划船；使成一排",
+    "meaning": "n. 一排；一列；吵架\nv. 划船；使成一排",
     "example": "The staff arranged chairs in a row along the back wall of the conference room. (工作人員沿著會議室後牆排成一列椅子。)",
     "id": "基礎3-row-m1omr5yh"
   },
@@ -4223,14 +4223,14 @@
   {
     "level": "基礎3",
     "word": "lock",
-    "meaning": "n / v. 鎖；鎖定狀態；鎖上；鎖定；固定",
+    "meaning": "n. 鎖；鎖定狀態\nv. 鎖上；鎖定；固定",
     "example": "Please lock the supply cabinet after removing the equipment. (取出設備後請鎖上用品櫃。)",
     "id": "L2-lock-n-v"
   },
   {
     "level": "基礎3",
     "word": "fuel",
-    "meaning": "n / v. 燃料；能量來源；給……加燃料；助長",
+    "meaning": "n. 燃料；能量來源\nv. 給……加燃料；助長",
     "example": "The company tracks fuel use for every vehicle in its delivery fleet. (公司追蹤配送車隊中每輛車的燃料使用量。)",
     "id": "L4-fuel-n-v"
   },
@@ -4258,7 +4258,7 @@
   {
     "level": "基礎3",
     "word": "sexual",
-    "meaning": "a. 性的；性別的",
+    "meaning": "adj. 性的；性別的",
     "example": "The company updated its policy to prevent sexual harassment in the workplace. (公司更新政策，以防止職場性騷擾。)",
     "id": "基礎3-sexual-m48tbfs"
   },
@@ -4279,7 +4279,7 @@
   {
     "level": "基礎3",
     "word": "increasingly",
-    "meaning": "ad. 日益；逐漸增加地",
+    "meaning": "adv. 日益；逐漸增加地",
     "example": "The company is increasingly relying on digital records instead of paper files. (公司日益仰賴數位紀錄，而非紙本檔案。)",
     "id": "基礎3-increasingly-m5jc2kw"
   },
@@ -4321,7 +4321,7 @@
   {
     "level": "基礎3",
     "word": "cast",
-    "meaning": "v / n. 選角；投擲；投射；演員陣容；投擲；鑄模",
+    "meaning": "v. 選角；投擲；投射\nn. 演員陣容；投擲；鑄模",
     "example": "The cast of the training video includes employees from several departments. (培訓影片的演出陣容包括來自多個部門的員工。)",
     "id": "L3-cast-v-n"
   },
@@ -4335,7 +4335,7 @@
   {
     "level": "基礎3",
     "word": "conservative",
-    "meaning": "a / n. 保守的；謹慎的；保守派的；保守派人士；保守黨員",
+    "meaning": "adj. 保守的；謹慎的；保守派的\nn. 保守派人士；保守黨員",
     "example": "The finance team used a conservative estimate for next year’s operating costs. (財務團隊以保守估算預測明年的營運成本。)",
     "id": "L4-conservative-a-n"
   },
@@ -4405,7 +4405,7 @@
   {
     "level": "基礎3",
     "word": "musical",
-    "meaning": "a. 音樂的；悅耳的",
+    "meaning": "adj. 音樂的；悅耳的",
     "example": "The hotel hired a musical group to perform during the evening reception. (飯店聘請了一個樂團在晚間招待會演出。)",
     "id": "基礎3-musical-m1ratv1s"
   },
@@ -4426,7 +4426,7 @@
   {
     "level": "基礎3",
     "word": "stretch",
-    "meaning": "n / v. 一段；伸展；範圍；伸展；延長；伸手拿",
+    "meaning": "n. 一段；伸展；範圍\nv. 伸展；延長；伸手拿",
     "example": "This stretch of highway connects the airport with the industrial district. (這段高速公路連接機場與工業區。)",
     "id": "L2-stretch-n-v"
   },
@@ -4447,35 +4447,35 @@
   {
     "level": "基礎3",
     "word": "tiny",
-    "meaning": "a. 極小的；微小的",
+    "meaning": "adj. 極小的；微小的",
     "example": "The company added a tiny logo to the corner of each package. (公司在每個包裝的角落加上了一個小小的標誌。)",
     "id": "基礎3-tiny-m1cevaxe"
   },
   {
     "level": "基礎3",
     "word": "careful",
-    "meaning": "a. 小心的；謹慎的；細心的",
+    "meaning": "adj. 小心的；謹慎的；細心的",
     "example": "Please be careful when moving the fragile display equipment. (搬運易碎展示設備時請小心。)",
     "id": "L1-careful-a"
   },
   {
     "level": "基礎3",
     "word": "suitable",
-    "meaning": "a. 適合的；合宜的；適當的",
+    "meaning": "adj. 適合的；合宜的；適當的",
     "example": "The company selected a suitable venue for its annual sales meeting. (公司為年度業務會議選擇了合適的場地。)",
     "id": "L3-suitable-a"
   },
   {
     "level": "基礎3",
     "word": "native",
-    "meaning": "a / n. 本地的；原生的；天生的；本地人；原住民；母語者",
+    "meaning": "adj. 本地的；原生的；天生的\nn. 本地人；原住民；母語者",
     "example": "The hotel purchases native plants for its landscaping from a local nursery. (飯店向當地苗圃採購原生植物來綠化環境。)",
     "id": "L3-native-a-n"
   },
   {
     "level": "基礎3",
     "word": "fruit",
-    "meaning": "n / v. 水果；果實；結果實；使結實",
+    "meaning": "n. 水果；果實\nv. 結果實；使結實",
     "example": "The hotel restaurant serves fresh fruit at breakfast each morning. (飯店餐廳每天早餐都供應新鮮水果。)",
     "id": "基礎3-fruit-m1bdtap3"
   },
@@ -4496,14 +4496,14 @@
   {
     "level": "基礎3",
     "word": "mail",
-    "meaning": "n / v. 郵件；郵政；信件；郵寄；寄送",
+    "meaning": "n. 郵件；郵政；信件\nv. 郵寄；寄送",
     "example": "The accounting department will mail the payment confirmation to the supplier. (會計部門將把付款確認函郵寄給供應商。)",
     "id": "L1-mail-n-v"
   },
   {
     "level": "基礎3",
     "word": "terrible",
-    "meaning": "a. 糟糕的；可怕的；令人不快的",
+    "meaning": "adj. 糟糕的；可怕的；令人不快的",
     "example": "The company apologized for the terrible delay in responding to customer inquiries. (公司為回覆顧客詢問時嚴重延誤致歉。)",
     "id": "L2-terrible-a"
   },
@@ -4517,7 +4517,7 @@
   {
     "level": "基礎3",
     "word": "ordinary",
-    "meaning": "a. 普通的；一般的；平凡的",
+    "meaning": "adj. 普通的；一般的；平凡的",
     "example": "The ordinary delivery option is free for orders over fifty dollars. (訂單超過五十美元即可免費使用一般配送方式。)",
     "id": "L2-ordinary-a"
   },
@@ -4531,14 +4531,14 @@
   {
     "level": "基礎3",
     "word": "anywhere",
-    "meaning": "ad. 在任何地方；無論何處",
+    "meaning": "adv. 在任何地方；無論何處",
     "example": "The company’s delivery service is available anywhere within the metropolitan area. (公司的配送服務涵蓋都會區內任何地點。)",
     "id": "基礎3-anywhere-mn44xc5"
   },
   {
     "level": "基礎3",
     "word": "mental",
-    "meaning": "a. 心理的；精神的",
+    "meaning": "adj. 心理的；精神的",
     "example": "The company added mental health resources to its employee assistance program. (公司在員工協助方案中增加了心理健康資源。)",
     "id": "L3-mental-a"
   },
@@ -4566,14 +4566,14 @@
   {
     "level": "基礎3",
     "word": "specifically",
-    "meaning": "ad. 明確地；具體地；特別地",
+    "meaning": "adv. 明確地；具體地；特別地",
     "example": "The email specifically requests that suppliers confirm their delivery dates. (電子郵件特別要求供應商確認交貨日期。)",
     "id": "基礎3-specifically-mrjlq6d"
   },
   {
     "level": "基礎3",
     "word": "fat",
-    "meaning": "a. 肥胖的；厚實的；大量的",
+    "meaning": "adj. 肥胖的；厚實的；大量的",
     "example": "The company switched to fat-free milk for the cafeteria coffee station. (公司改為員工餐廳咖啡區提供脫脂牛奶。)",
     "id": "基礎3-fat-m1hwfzrl"
   },
@@ -4587,21 +4587,21 @@
   {
     "level": "基礎3",
     "word": "fellow",
-    "meaning": "a / n. 同伴的；同事的；同類的；同伴；同事；研究員",
+    "meaning": "adj. 同伴的；同事的；同類的\nn. 同伴；同事；研究員",
     "example": "A fellow employee helped the new hire learn the company’s ordering system. (一位同事協助新進員工熟悉公司的訂購系統。)",
     "id": "L2-fellow-a-n"
   },
   {
     "level": "基礎3",
     "word": "chemical",
-    "meaning": "n / a. 化學物質；化學藥品；化學的；與化學有關的",
+    "meaning": "n. 化學物質；化學藥品\nadj. 化學的；與化學有關的",
     "example": "The chemical storage area is inspected every month for safety. (化學品儲藏區每個月都會接受安全檢查。)",
     "id": "基礎3-chemical-m5s28np"
   },
   {
     "level": "基礎3",
     "word": "capture",
-    "meaning": "v / n. 捕捉；記錄；吸引；捕捉；捕獲量；捕獲物",
+    "meaning": "v. 捕捉；記錄；吸引\nn. 捕捉；捕獲量；捕獲物",
     "example": "The new camera system can capture images of vehicles entering the parking garage. (新的攝影系統可以記錄進入停車場的車輛影像。)",
     "id": "L3-capture-v-n"
   },
@@ -4615,14 +4615,14 @@
   {
     "level": "基礎3",
     "word": "discount",
-    "meaning": "n / v. 折扣；減價；打折；不予考慮",
+    "meaning": "n. 折扣；減價\nv. 打折；不予考慮",
     "example": "The supplier offered a discount on orders placed before the end of the month. (供應商對月底前下單的客戶提供折扣。)",
     "id": "L3-discount-n-v"
   },
   {
     "level": "基礎3",
     "word": "peak",
-    "meaning": "n / a. 頂峰；高峰；頂點；最高峰的；高峰的",
+    "meaning": "n. 頂峰；高峰；頂點\nadj. 最高峰的；高峰的",
     "example": "The store adds extra staff during peak shopping hours. (商店在購物尖峰時段增派員工。)",
     "id": "基礎3-peak-m68nr6d"
   },
@@ -4657,7 +4657,7 @@
   {
     "level": "基礎3",
     "word": "shout",
-    "meaning": "v / n. 喊叫；大聲說；喊叫；呼喊聲",
+    "meaning": "v. 喊叫；大聲說\nn. 喊叫；呼喊聲",
     "example": "The supervisor shouted instructions over the noise from the loading dock. (主管在裝卸區的噪音中大聲下達指示。)",
     "id": "基礎3-shout-m1eip1nz"
   },
@@ -4671,14 +4671,14 @@
   {
     "level": "基礎3",
     "word": "constant",
-    "meaning": "a. 持續的；固定的；不變的",
+    "meaning": "adj. 持續的；固定的；不變的",
     "example": "The constant demand for replacement parts requires careful inventory planning. (替換零件需求持續不斷，因此需要仔細規劃庫存。)",
     "id": "L3-constant-a"
   },
   {
     "level": "基礎3",
     "word": "significantly",
-    "meaning": "ad. 顯著地；大幅地；重要地",
+    "meaning": "adv. 顯著地；大幅地；重要地",
     "example": "Online orders increased significantly after the company introduced free shipping. (公司推出免運費後，線上訂單大幅增加。)",
     "id": "基礎3-significantly-m1ir6s00"
   },
@@ -4692,7 +4692,7 @@
   {
     "level": "基礎3",
     "word": "considerable",
-    "meaning": "a. 相當大的；可觀的；值得注意的",
+    "meaning": "adj. 相當大的；可觀的；值得注意的",
     "example": "The company made a considerable investment in its new customer portal. (公司對新的客戶入口網站投入了相當多資金。)",
     "id": "基礎3-considerable-mglt3ga"
   },
@@ -4713,7 +4713,7 @@
   {
     "level": "基礎3",
     "word": "ideal",
-    "meaning": "a. 理想的；完美的；想像中的",
+    "meaning": "adj. 理想的；完美的；想像中的",
     "example": "The company found an ideal location for its new distribution center. (公司為新的配送中心找到理想地點。)",
     "id": "L3-ideal-a"
   },
@@ -4727,14 +4727,14 @@
   {
     "level": "基礎3",
     "word": "surely",
-    "meaning": "ad. 當然；無疑；確實",
+    "meaning": "adv. 當然；無疑；確實",
     "example": "The new supplier will surely help the company meet its delivery targets. (新供應商肯定能協助公司達成交貨目標。)",
     "id": "中級-surely-ad"
   },
   {
     "level": "基礎3",
     "word": "guard",
-    "meaning": "n / v. 警衛；守衛；看守；守衛；保護；防止",
+    "meaning": "n. 警衛；守衛；看守\nv. 守衛；保護；防止",
     "example": "A security guard checks identification cards at the entrance. (保全人員在入口檢查識別證。)",
     "id": "L2-guard-n-v"
   },
@@ -4748,14 +4748,14 @@
   {
     "level": "基礎3",
     "word": "somewhat",
-    "meaning": "ad. 有些；稍微；在某種程度上",
+    "meaning": "adv. 有些；稍微；在某種程度上",
     "example": "The new delivery policy is somewhat more flexible than the previous one. (新的配送政策比先前的稍微彈性一些。)",
     "id": "基礎3-somewhat-mr3nx22"
   },
   {
     "level": "基礎3",
     "word": "kiss",
-    "meaning": "v / n. 親吻；輕觸；吻合；親吻；輕觸",
+    "meaning": "v. 親吻；輕觸；吻合\nn. 親吻；輕觸",
     "example": "A kiss-cut label can be removed from its backing without cutting the sheet. (半切標籤可以從底紙撕下，而不會切穿整張底紙。)",
     "id": "基礎3-kiss-m1wdccbi"
   },
@@ -4769,7 +4769,7 @@
   {
     "level": "基礎3",
     "word": "joint",
-    "meaning": "a. 共同的；聯合的；接合的",
+    "meaning": "adj. 共同的；聯合的；接合的",
     "example": "The two departments issued a joint statement about the new service policy. (兩個部門針對新服務政策發布了聯合聲明。)",
     "id": "L2-joint-a-n"
   },
@@ -4783,14 +4783,14 @@
   {
     "level": "基礎3",
     "word": "poll",
-    "meaning": "n / v. 民意調查；投票；調查票；調查民意；投票",
+    "meaning": "n. 民意調查；投票；調查票\nv. 調查民意；投票",
     "example": "A poll showed that most customers prefer weekend delivery. (一項民調顯示，多數顧客偏好週末配送。)",
     "id": "L3-poll-n-v"
   },
   {
     "level": "基礎3",
     "word": "weak",
-    "meaning": "a. 虛弱的；微弱的；不佳的",
+    "meaning": "adj. 虛弱的；微弱的；不佳的",
     "example": "The company reported weak sales in the region during the first quarter. (公司回報第一季在該地區的銷售表現疲弱。)",
     "id": "L1-weak-a"
   },
@@ -4811,7 +4811,7 @@
   {
     "level": "基礎3",
     "word": "reserve",
-    "meaning": "n / v. 儲備；保留；後備隊；預訂；保留；預留",
+    "meaning": "n. 儲備；保留；後備隊\nv. 預訂；保留；預留",
     "example": "The hotel keeps a reserve of meeting rooms for unexpected client requests. (飯店保留部分會議室，以因應突發的客戶需求。)",
     "id": "L3-reserve-n-v"
   },
@@ -4825,21 +4825,21 @@
   {
     "level": "基礎3",
     "word": "bore",
-    "meaning": "v / n. 使厭煩；使疲倦；使無聊；討厭的人；無聊之事",
+    "meaning": "v. 使厭煩；使疲倦；使無聊\nn. 討厭的人；無聊之事",
     "example": "The long registration process can bore visitors waiting in line. (冗長的報到流程可能讓排隊訪客感到無聊。)",
     "id": "基礎3-bore-m1v57gth"
   },
   {
     "level": "基礎3",
     "word": "mission",
-    "meaning": "n / v. 任務；使命；代表團；派遣；交付使命",
+    "meaning": "n. 任務；使命；代表團\nv. 派遣；交付使命",
     "example": "The company’s mission is to deliver reliable service to every customer. (公司的使命是為每位顧客提供可靠服務。)",
     "id": "L3-mission-n-v"
   },
   {
     "level": "基礎3",
     "word": "somehow",
-    "meaning": "ad. 以某種方式；不知何故",
+    "meaning": "adv. 以某種方式；不知何故",
     "example": "Somehow, the duplicate shipment was sent to the wrong branch. (不知何故，重複貨件被送到了錯誤分店。)",
     "id": "基礎3-somehow-mnwvzii"
   },
@@ -4881,21 +4881,21 @@
   {
     "level": "基礎3",
     "word": "thin",
-    "meaning": "a. 薄的；瘦的；稀少的",
+    "meaning": "adj. 薄的；瘦的；稀少的",
     "example": "The company used thin cardboard to reduce the weight of its shipping boxes. (公司使用較薄的紙板，以減輕運送紙箱的重量。)",
     "id": "基礎3-thin-m1phwwep"
   },
   {
     "level": "基礎3",
     "word": "rush",
-    "meaning": "n / v. 匆忙；忙碌時段；突襲；匆忙行動；催促；急送",
+    "meaning": "n. 匆忙；忙碌時段；突襲\nv. 匆忙行動；催促；急送",
     "example": "The morning rush makes the hotel lobby crowded before the first conference session. (早晨尖峰時段會讓飯店大廳在第一場研討會前就很擁擠。)",
     "id": "L2-rush-v-n"
   },
   {
     "level": "基礎3",
     "word": "formal",
-    "meaning": "a. 正式的；正式場合用的",
+    "meaning": "adj. 正式的；正式場合用的",
     "example": "The company requires formal attire for its annual awards dinner. (公司要求員工在年度頒獎晚宴穿著正式服裝。)",
     "id": "L2-formal-a"
   },
@@ -4923,21 +4923,21 @@
   {
     "level": "基礎3",
     "word": "latter",
-    "meaning": "a. 後者的；後半的",
+    "meaning": "adj. 後者的；後半的",
     "example": "The latter delivery option costs more but includes weekend service. (後者的配送選項費用較高，但包含週末服務。)",
     "id": "L3-latter-a"
   },
   {
     "level": "基礎3",
     "word": "plate",
-    "meaning": "n / v. 盤子；板塊；金屬牌；電鍍；為……裝盤",
+    "meaning": "n. 盤子；板塊；金屬牌\nv. 電鍍；為……裝盤",
     "example": "The restaurant serves the main course on a large plate. (餐廳將主菜盛在大盤子上。)",
     "id": "基礎3-plate-mwgmljm"
   },
   {
     "level": "基礎3",
     "word": "ban",
-    "meaning": "n / v. 禁令；禁止；禁止；取締",
+    "meaning": "n. 禁令；禁止\nv. 禁止；取締",
     "example": "The company introduced a ban on personal calls in the production area. (公司禁止在生產區撥打私人電話。)",
     "id": "L5-ban-n-v"
   },
@@ -4951,63 +4951,63 @@
   {
     "level": "基礎3",
     "word": "protest",
-    "meaning": "n / v. 抗議；反對；示威；抗議；反對；申辯",
+    "meaning": "n. 抗議；反對；示威\nv. 抗議；反對；申辯",
     "example": "Employees filed a protest about the proposed changes to the travel policy. (員工針對差旅政策變更提案提出抗議。)",
     "id": "基礎3-protest-mscsrmn"
   },
   {
     "level": "基礎3",
     "word": "index",
-    "meaning": "n / v. 索引；指數；目錄；編索引；標示；指數化",
+    "meaning": "n. 索引；指數；目錄\nv. 編索引；標示；指數化",
     "example": "Please index each supplier contract by date and company name. (請依日期和公司名稱為每份供應商合約編索引。)",
     "id": "L5-index-n-v"
   },
   {
     "level": "基礎3",
     "word": "sad",
-    "meaning": "a. 悲傷的；令人難過的；糟糕的",
+    "meaning": "adj. 悲傷的；令人難過的；糟糕的",
     "example": "The company sent a sympathy card after learning about the employee’s sad loss. (得知員工遭逢悲傷變故後，公司寄出了慰問卡。)",
     "id": "基礎3-sad-m8jeeze"
   },
   {
     "level": "基礎3",
     "word": "frequently",
-    "meaning": "ad. 頻繁地；常常",
+    "meaning": "adv. 頻繁地；常常",
     "example": "The regional shuttle bus runs frequently between the airport and the corporate park. (區域接駁車頻繁往返於機場和企業園區之間。)",
     "id": "TOEIC-frequently-ad"
   },
   {
     "level": "基礎3",
     "word": "circle",
-    "meaning": "n / v. 圓形；圓圈；圈出；畫圈標示",
+    "meaning": "n. 圓形；圓圈\nv. 圈出；畫圈標示",
     "example": "Please circle the correct answer on the evaluation form. (請在評量表上圈出正確答案。)",
     "id": "L2-circle-n-v"
   },
   {
     "level": "基礎3",
     "word": "helpful",
-    "meaning": "a. 有幫助的；樂於助人的",
+    "meaning": "adj. 有幫助的；樂於助人的",
     "example": "The customer support representative was extremely helpful in resolving the billing issue. (客服代表在解決帳單問題時提供了極大的幫助。)",
     "id": "L2-helpful-a"
   },
   {
     "level": "基礎3",
     "word": "command",
-    "meaning": "n / v. 掌握；運用能力；命令；指揮",
+    "meaning": "n. 掌握；運用能力\nv. 命令；指揮",
     "example": "The CEO has an excellent command of international trade laws. (執行長精通國際貿易法。)",
     "id": "L3-command-n-v"
   },
   {
     "level": "基礎3",
     "word": "attractive",
-    "meaning": "a. 吸引人的；有吸引力的",
+    "meaning": "adj. 吸引人的；有吸引力的",
     "example": "The hotel offered an attractive rate for guests who booked directly online. (飯店為直接線上訂房的旅客提供了優惠房價。)",
     "id": "基礎3-attractive-m1fa0ntn"
   },
   {
     "level": "基礎3",
     "word": "sick",
-    "meaning": "a / n. 生病的；不舒服的；病患（複數常用 the sick）",
+    "meaning": "adj. 生病的；不舒服的\nn. 病患（複數常用 the sick）",
     "example": "Employees who feel sick should notify their supervisor before starting a shift. (感到身體不適的員工應在開始值班前通知主管。)",
     "id": "基礎3-sick-the-sick"
   },
@@ -5021,14 +5021,14 @@
   {
     "level": "基礎3",
     "word": "unable",
-    "meaning": "a. 不能的；無法做到的",
+    "meaning": "adj. 不能的；無法做到的",
     "example": "The development team was unable to complete the software upgrade due to a system crash. (由於系統當機，開發團隊無法完成軟體升級。)",
     "id": "TOEIC-unable-a"
   },
   {
     "level": "基礎3",
     "word": "joke",
-    "meaning": "n / v. 笑話；玩笑；開玩笑",
+    "meaning": "n. 笑話；玩笑\nv. 開玩笑",
     "example": "The presenter opened the training session with a light joke about office coffee. (講者以一則關於辦公室咖啡的輕鬆笑話揭開培訓課程。)",
     "id": "基礎3-joke-m1nig30"
   },
@@ -5049,7 +5049,7 @@
   {
     "level": "基礎3",
     "word": "electronic",
-    "meaning": "a. 電子的；以電子方式運作的",
+    "meaning": "adj. 電子的；以電子方式運作的",
     "example": "Customers prefer using electronic banking rather than visiting a physical branch. (客戶偏好使用電子銀行，而不是親自前往實體分行。)",
     "id": "L3-electronic-a"
   },
@@ -5063,70 +5063,70 @@
   {
     "level": "基礎3",
     "word": "criminal",
-    "meaning": "n / a. 罪犯；犯罪者；刑事的；犯罪的",
+    "meaning": "n. 罪犯；犯罪者\nadj. 刑事的；犯罪的",
     "example": "Shoplifting is a criminal offense that will be reported to local authorities immediately. (入店行竊屬於刑事犯罪，將立即通報當地主管機關。)",
     "id": "L3-criminal-n-a"
   },
   {
     "level": "基礎3",
     "word": "besides",
-    "meaning": "ad / prep. 此外；而且；除了……之外",
+    "meaning": "adv. 此外；而且\nprep. 除了……之外",
     "example": "Besides reducing costs, the initiative improved efficiency. (除了降低成本外，這項措施也提升了效率。)",
     "id": "L2-besides-ad-prep"
   },
   {
     "level": "基礎3",
     "word": "properly",
-    "meaning": "ad. 正確地；適當地",
+    "meaning": "adv. 正確地；適當地",
     "example": "Please complete the expense report properly and attach all required receipts. (請正確填寫費用報告，並附上所有必要收據。)",
     "id": "基礎3-properly-m1w4avep"
   },
   {
     "level": "基礎3",
     "word": "ancient",
-    "meaning": "a. 古代的；古老的",
+    "meaning": "adj. 古代的；古老的",
     "example": "The museum will close its ancient pottery exhibit for renovation next month. (博物館下個月將因整修而暫停展出古代陶器。)",
     "id": "基礎3-ancient-mp8rnqp"
   },
   {
     "level": "基礎3",
     "word": "coast",
-    "meaning": "n / v. 海岸；沿海地區；滑行；不費力地前進",
+    "meaning": "n. 海岸；沿海地區\nv. 滑行；不費力地前進",
     "example": "The company plans to open a distribution center on the west coast. (公司計畫在西岸設立配送中心。)",
     "id": "基礎3-coast-m1k6x9eo"
   },
   {
     "level": "基礎3",
     "word": "ill",
-    "meaning": "a / n. 生病的；不舒服的；病人（the ill）",
+    "meaning": "adj. 生病的；不舒服的\nn. 病人（the ill）",
     "example": "The regional manager had to miss the meeting because he fell ill. (區域經理因為生病而不得不缺席會議。)",
     "id": "L2-ill-a-n"
   },
   {
     "level": "基礎3",
     "word": "kick",
-    "meaning": "v / n. 踢；開始（活動）；踢；一腳",
+    "meaning": "v. 踢；開始（活動）\nn. 踢；一腳",
     "example": "The marketing team will kick off the promotional campaign with a live press event. (行銷團隊將透過現場記者會揭開促銷活動的序幕。)",
     "id": "L1-kick-v-kick-off"
   },
   {
     "level": "基礎3",
     "word": "closely",
-    "meaning": "ad. 密切地；仔細地",
+    "meaning": "adv. 密切地；仔細地",
     "example": "The compliance team is closely reviewing the revised supplier contracts. (法遵團隊正在仔細審查修訂後的供應商合約。)",
     "id": "基礎3-closely-m1xzwhwo"
   },
   {
     "level": "基礎3",
     "word": "multiple",
-    "meaning": "a. 多個的；多種的",
+    "meaning": "adj. 多個的；多種的",
     "example": "The revised schedule gives employees multiple options for attending the workshop. (修訂後的時程讓員工有多種方式參加研討會。)",
     "id": "基礎3-multiple-m1xvxwa0"
   },
   {
     "level": "基礎3",
     "word": "yield",
-    "meaning": "v / n. 產生；帶來；產量；收益",
+    "meaning": "v. 產生；帶來\nn. 產量；收益",
     "example": "Long-term investments in semiconductor infrastructure can yield exceptionally high returns. (對半導體基礎設施的長期投資可以帶來非常高的回報。)",
     "id": "L5-yield-v-n"
   },
@@ -5154,14 +5154,14 @@
   {
     "level": "基礎3",
     "word": "unlike",
-    "meaning": "prep / a. 不像；與……不同；不同的；不相似的",
+    "meaning": "prep. 不像；與……不同\nadj. 不同的；不相似的",
     "example": "Unlike the previous model, this printer can handle oversized shipping labels. (和前一款機型不同，這台印表機能處理超大尺寸的運送標籤。)",
     "id": "基礎3-unlike-m1etvrfq"
   },
   {
     "level": "基礎3",
     "word": "mobile",
-    "meaning": "a / n. 可移動的；行動的；手機；行動裝置（口語）",
+    "meaning": "adj. 可移動的；行動的\nn. 手機；行動裝置（口語）",
     "example": "The sales team uses a mobile app to check inventory while visiting stores. (業務團隊走訪門市時會使用行動應用程式查詢庫存。)",
     "id": "基礎3-mobile-mn9k6wo"
   },
@@ -5175,7 +5175,7 @@
   {
     "level": "基礎3",
     "word": "implement",
-    "meaning": "n / v. 工具；器具；實施；執行",
+    "meaning": "n. 工具；器具\nv. 實施；執行",
     "example": "The IT team will implement the software upgrade over the weekend. (資訊團隊將在週末實施軟體升級。)",
     "id": "L6-implement-n-v"
   },
@@ -5203,7 +5203,7 @@
   {
     "level": "基礎3",
     "word": "everywhere",
-    "meaning": "ad. 到處；各處",
+    "meaning": "adv. 到處；各處",
     "example": "The company’s new logo appeared everywhere at the industry exhibition. (這家公司的新標誌在產業展覽會上隨處可見。)",
     "id": "基礎3-everywhere-m1j7xfc7"
   },
@@ -5217,7 +5217,7 @@
   {
     "level": "基礎3",
     "word": "household",
-    "meaning": "n / a. 家庭；家戶；家庭的；家用的",
+    "meaning": "n. 家庭；家戶\nadj. 家庭的；家用的",
     "example": "The survey measures changing household spending patterns across the country. (這項調查衡量全國家庭支出模式的變化。)",
     "id": "L4-household-n-a"
   },
@@ -5231,7 +5231,7 @@
   {
     "level": "基礎3",
     "word": "reward",
-    "meaning": "n / v. 獎勵；報酬；獎勵；酬謝",
+    "meaning": "n. 獎勵；報酬\nv. 獎勵；酬謝",
     "example": "The corporation offers a financial reward to employees who exceed their monthly targets. (公司為超出每月目標的員工提供金錢獎勵。)",
     "id": "L4-reward-n-v"
   },
@@ -5252,7 +5252,7 @@
   {
     "level": "基礎3",
     "word": "academic",
-    "meaning": "a / n. 學術的；學院的；學者；大學教師",
+    "meaning": "adj. 學術的；學院的\nn. 學者；大學教師",
     "example": "She has an impressive academic background in economics and international trade. (她在經濟學與國際貿易方面擁有出色的學術背景。)",
     "id": "L4-academic-a-n"
   },
@@ -5266,14 +5266,14 @@
   {
     "level": "基礎3",
     "word": "meanwhile",
-    "meaning": "ad. 同時；在此期間",
+    "meaning": "adv. 同時；在此期間",
     "example": "The design team is revising the brochure; meanwhile, sales staff are contacting clients. (設計團隊正在修改手冊；同時，業務人員正在聯絡客戶。)",
     "id": "基礎3-meanwhile-m1ff16wl"
   },
   {
     "level": "基礎3",
     "word": "furthermore",
-    "meaning": "ad. 此外；而且",
+    "meaning": "adv. 此外；而且",
     "example": "The proposal reduces delivery delays; furthermore, it lowers storage costs. (這項提案能減少配送延誤，此外也能降低倉儲成本。)",
     "id": "基礎3-furthermore-m601181"
   },
@@ -5287,14 +5287,14 @@
   {
     "level": "基礎3",
     "word": "scientific",
-    "meaning": "a. 科學的；依據科學的",
+    "meaning": "adj. 科學的；依據科學的",
     "example": "The laboratory follows strict scientific procedures when testing new materials. (實驗室測試新材料時遵循嚴謹的科學程序。)",
     "id": "基礎3-scientific-mthmngi"
   },
   {
     "level": "基礎3",
     "word": "wage",
-    "meaning": "n / v. 工資；薪資；發動；進行（戰爭、運動等）",
+    "meaning": "n. 工資；薪資\nv. 發動；進行（戰爭、運動等）",
     "example": "Hourly factory workers receive overtime wage bonuses during peak shipping seasons. (工廠的時薪員工在出貨旺季會領取加班薪資獎金。)",
     "id": "L3-wage-n-v-wage-a-campaign"
   },
@@ -5308,14 +5308,14 @@
   {
     "level": "基礎3",
     "word": "construct",
-    "meaning": "v / n. 建造；構築；構想；概念",
+    "meaning": "v. 建造；構築\nn. 構想；概念",
     "example": "The contractor will construct a new loading area beside the distribution center. (承包商將在配送中心旁建造新的裝卸區。)",
     "id": "基礎3-construct-m1yc9ukv"
   },
   {
     "level": "基礎3",
     "word": "remark",
-    "meaning": "v / n. 評論；談到；評論；話語",
+    "meaning": "v. 評論；談到\nn. 評論；話語",
     "example": "The director made a brief remark regarding the impressive growth in retail sales. (主管簡短評論了零售銷售額的亮眼成長。)",
     "id": "L4-remark-v-n"
   },
@@ -5336,7 +5336,7 @@
   {
     "level": "基礎3",
     "word": "rare",
-    "meaning": "a. 罕見的；稀少的",
+    "meaning": "adj. 罕見的；稀少的",
     "example": "It is rare for the company to experience a drop in quarterly retail revenue. (該公司當季零售營收下滑的情況很少見。)",
     "id": "L2-rare-a"
   },
@@ -5350,7 +5350,7 @@
   {
     "level": "基礎3",
     "word": "dozen",
-    "meaning": "n / det. 一打；十二個；十二個；一打",
+    "meaning": "n. 一打；十二個\ndet. 十二個；一打",
     "example": "The supplier delivered two dozen replacement badges to the front desk. (供應商送了兩打替換識別證到櫃檯。)",
     "id": "基礎3-dozen-maem4ww"
   },
@@ -5371,21 +5371,21 @@
   {
     "level": "基礎3",
     "word": "widely",
-    "meaning": "ad. 廣泛地；普遍地",
+    "meaning": "adv. 廣泛地；普遍地",
     "example": "The new payment system is now widely used by the company’s overseas offices. (這套新付款系統目前已廣泛應用於公司的海外辦事處。)",
     "id": "基礎3-widely-mwida32"
   },
   {
     "level": "基礎3",
     "word": "minimum",
-    "meaning": "n / a. 最低限度；最低量；最低的；最小的",
+    "meaning": "n. 最低限度；最低量\nadj. 最低的；最小的",
     "example": "The company set a minimum order requirement for all wholesale purchases. (公司為所有批發採購設定了最低訂購量。)",
     "id": "L4-minimum-n-a"
   },
   {
     "level": "基礎3",
     "word": "northern",
-    "meaning": "a. 北部的；北方的",
+    "meaning": "adj. 北部的；北方的",
     "example": "The northern branch will relocate to a larger office near the airport. (北部分公司將遷至機場附近較大的辦公室。)",
     "id": "基礎3-northern-m1abtepm"
   },
@@ -5399,7 +5399,7 @@
   {
     "level": "基礎3",
     "word": "equally",
-    "meaning": "ad. 同樣地；平等地",
+    "meaning": "adv. 同樣地；平等地",
     "example": "The new policy applies equally to full-time and part-time employees. (新政策同樣適用於全職與兼職員工。)",
     "id": "基礎3-equally-ms7sczc"
   },
@@ -5413,14 +5413,14 @@
   {
     "level": "基礎3",
     "word": "alive",
-    "meaning": "a. 活著的；仍存在的",
+    "meaning": "adj. 活著的；仍存在的",
     "example": "The project team kept the client’s original concept alive throughout the redesign. (重新設計期間，專案團隊始終保留客戶最初的構想。)",
     "id": "基礎3-alive-m1ub9hay"
   },
   {
     "level": "基礎3",
     "word": "shut",
-    "meaning": "v / a. 關閉；使停止營業；關著的；關閉的",
+    "meaning": "v. 關閉；使停止營業\nadj. 關著的；關閉的",
     "example": "The warehouse will shut its loading dock for routine maintenance on Sunday. (倉庫星期日將關閉裝卸碼頭進行例行維護。)",
     "id": "基礎3-shut-m1althhc"
   },
@@ -5434,7 +5434,7 @@
   {
     "level": "基礎3",
     "word": "resolve",
-    "meaning": "v / n. 解決；處理；決心；決意",
+    "meaning": "v. 解決；處理\nn. 決心；決意",
     "example": "The compliance committee met to resolve the ongoing contract dispute with the vendor. (法遵委員會開會解決與供應商之間持續中的合約爭議。)",
     "id": "L4-resolve-v-n"
   },
@@ -5448,28 +5448,28 @@
   {
     "level": "基礎3",
     "word": "variable",
-    "meaning": "n / a. 變數；因素；可變的；易變的",
+    "meaning": "n. 變數；因素\nadj. 可變的；易變的",
     "example": "High volatility is a primary variable associated with cryptocurrency investments. (高波動性是與加密貨幣投資相關的主要變數。)",
     "id": "L6-variable-n-a"
   },
   {
     "level": "基礎3",
     "word": "enormous",
-    "meaning": "a. 巨大的；極大的",
+    "meaning": "adj. 巨大的；極大的",
     "example": "The company received an enormous number of applications for the new analyst position. (公司收到大量應徵新分析師職位的申請。)",
     "id": "基礎3-enormous-m1davn6k"
   },
   {
     "level": "基礎3",
     "word": "sweet",
-    "meaning": "a / n. 甜的；令人愉快的；糖果；甜食",
+    "meaning": "adj. 甜的；令人愉快的\nn. 糖果；甜食",
     "example": "The client sent a sweet thank-you note to the project team after the launch. (產品上市後，客戶寄了一封溫馨的感謝信給專案團隊。)",
     "id": "基礎3-sweet-m1wcxr1j"
   },
   {
     "level": "基礎3",
     "word": "permanent",
-    "meaning": "a. 永久的；長期固定的",
+    "meaning": "adj. 永久的；長期固定的",
     "example": "The firm offered her a permanent position as a senior data analyst after her internship. (實習結束後，公司聘請她擔任高級資料分析師的正式職位。)",
     "id": "L4-permanent-a"
   },
@@ -5490,14 +5490,14 @@
   {
     "level": "基礎3",
     "word": "tall",
-    "meaning": "a. 高的；身材高的",
+    "meaning": "adj. 高的；身材高的",
     "example": "The new warehouse has tall ceilings that can accommodate oversized equipment. (新倉庫的天花板很高，足以容納超大型設備。)",
     "id": "基礎3-tall-m1bth3og"
   },
   {
     "level": "基礎3",
     "word": "urge",
-    "meaning": "v / n. 力勸；敦促；強烈的慾望；衝動",
+    "meaning": "v. 力勸；敦促\nn. 強烈的慾望；衝動",
     "example": "The safety officer urged staff to report any equipment problems immediately. (安全主管敦促員工立即通報任何設備問題。)",
     "id": "基礎3-urge-mt4ampe"
   },
@@ -5518,7 +5518,7 @@
   {
     "level": "基礎3",
     "word": "milk",
-    "meaning": "n / v. 牛奶；榨取；充分利用",
+    "meaning": "n. 牛奶\nv. 榨取；充分利用",
     "example": "The company’s cafeteria now offers oat milk with every coffee order. (公司餐廳現在每份咖啡都提供燕麥奶。)",
     "id": "基礎3-milk-m98lllq"
   },
@@ -5532,14 +5532,14 @@
   {
     "level": "基礎3",
     "word": "smell",
-    "meaning": "n / v. 氣味；嗅覺；聞到；散發氣味",
+    "meaning": "n. 氣味；嗅覺\nv. 聞到；散發氣味",
     "example": "A strong burning smell prompted staff to evacuate the office and call building security. (一股強烈的燒焦味促使員工撤離辦公室並聯絡大樓保全。)",
     "id": "基礎3-smell-m1ucm6g8"
   },
   {
     "level": "基礎3",
     "word": "prior",
-    "meaning": "a. 先前的；在……之前的",
+    "meaning": "adj. 先前的；在……之前的",
     "example": "The legal department reviewed all contracts signed prior to the current calendar year. (法務部門審查了本年度之前簽訂的所有合約。)",
     "id": "L5-prior-a"
   },
@@ -5553,35 +5553,35 @@
   {
     "level": "基礎3",
     "word": "online",
-    "meaning": "a / ad. 線上的；連網的；線上；透過網路",
+    "meaning": "adj. 線上的；連網的\nadv. 線上；透過網路",
     "example": "Employees can complete the annual compliance course online before the deadline. (員工可以在期限前線上完成年度法遵課程。)",
     "id": "基礎3-online-m106stgb"
   },
   {
     "level": "基礎3",
     "word": "phrase",
-    "meaning": "n / v. 片語；措辭；用話語表達",
+    "meaning": "n. 片語；措辭\nv. 用話語表達",
     "example": "The editor suggested a clearer phrase for the shipping instructions. (編輯建議在運送說明中使用更清楚的措辭。)",
     "id": "基礎3-phrase-mylwo4e"
   },
   {
     "level": "基礎3",
     "word": "pilot",
-    "meaning": "n / v. 飛行員；試行計畫；駕駛；試行",
+    "meaning": "n. 飛行員；試行計畫\nv. 駕駛；試行",
     "example": "The company will pilot the new scheduling system at two branches before a full rollout. (公司將先在兩家分公司試行新的排班系統，再全面推出。)",
     "id": "基礎3-pilot-m1wjeb45"
   },
   {
     "level": "基礎3",
     "word": "stable",
-    "meaning": "a / n. 穩定的；牢固的；馬廄",
+    "meaning": "adj. 穩定的；牢固的\nn. 馬廄",
     "example": "The semiconductor firm reported a stable financial performance across all quarters. (這家半導體公司表示各季的財務表現都相當穩定。)",
     "id": "L3-stable-a-n"
   },
   {
     "level": "基礎3",
     "word": "merely",
-    "meaning": "ad. 僅僅；只是",
+    "meaning": "adv. 僅僅；只是",
     "example": "The fee covers delivery and is merely an estimate until the order is confirmed. (這筆費用包含配送費，在訂單確認前僅為估價。)",
     "id": "基礎3-merely-m16x4gu8"
   },
@@ -5609,7 +5609,7 @@
   {
     "level": "基礎3",
     "word": "vast",
-    "meaning": "a. 廣大的；大量的",
+    "meaning": "adj. 廣大的；大量的",
     "example": "The tech giant occupies a vast commercial campus in the heart of the business district. (這家科技巨頭在商業區中心設有廣大的企業園區。)",
     "id": "TOEIC-vast-a"
   },
@@ -5630,14 +5630,14 @@
   {
     "level": "基礎3",
     "word": "regional",
-    "meaning": "a. 區域的；地區性的",
+    "meaning": "adj. 區域的；地區性的",
     "example": "The company appointed a regional director to oversee its offices in the south. (公司任命一位區域主管，負責監督南部各辦事處。)",
     "id": "基礎3-regional-m1gk5n43"
   },
   {
     "level": "基礎3",
     "word": "immediate",
-    "meaning": "a. 立即的；迫切的",
+    "meaning": "adj. 立即的；迫切的",
     "example": "Implementing the new security protocol is of immediate importance. (實施新的安全規範刻不容緩。)",
     "id": "L3-immediate-a"
   },
@@ -5665,7 +5665,7 @@
   {
     "level": "基礎3",
     "word": "slip",
-    "meaning": "v / n. 滑倒；滑落；疏忽；小錯誤；紙條",
+    "meaning": "v. 滑倒；滑落；疏忽\nn. 小錯誤；紙條",
     "example": "A minor data entry slip caused a calculation error in the final financial report. (一個小小的資料輸入失誤，導致最終財務報告出現計算錯誤。)",
     "id": "L2-slip-v-n"
   },
@@ -5686,21 +5686,21 @@
   {
     "level": "基礎3",
     "word": "angry",
-    "meaning": "a. 生氣的；憤怒的",
+    "meaning": "adj. 生氣的；憤怒的",
     "example": "The customer was angry about the unexpected fee and asked for an explanation. (顧客對意外收取的費用感到生氣，並要求說明。)",
     "id": "基礎3-angry-m9vraez"
   },
   {
     "level": "基礎3",
     "word": "knock",
-    "meaning": "v / n. 敲；敲打；敲擊聲；敲門",
+    "meaning": "v. 敲；敲打\nn. 敲擊聲；敲門",
     "example": "Please knock on the conference room door before entering during a meeting. (會議進行期間，進入會議室前請先敲門。)",
     "id": "基礎3-knock-mmy75sf"
   },
   {
     "level": "基礎3",
     "word": "seed",
-    "meaning": "n / v. 種子；種籽；播種；培育",
+    "meaning": "n. 種子；種籽\nv. 播種；培育",
     "example": "The startup secured seed funding from several investors to develop its first prototype. (這家新創公司取得數位投資人的種子資金，以開發首款原型。)",
     "id": "基礎3-seed-mb6f75d"
   },
@@ -5735,14 +5735,14 @@
   {
     "level": "基礎3",
     "word": "temporary",
-    "meaning": "a. 暫時的；臨時的",
+    "meaning": "adj. 暫時的；臨時的",
     "example": "The company hired a temporary administrative assistant for the peak summer season. (公司為夏季旺季聘請了一名臨時行政助理。)",
     "id": "L3-temporary-a"
   },
   {
     "level": "基礎3",
     "word": "liberal",
-    "meaning": "a. 寬鬆的；自由的；慷慨的",
+    "meaning": "adj. 寬鬆的；自由的；慷慨的",
     "example": "The company adopted a liberal policy regarding remote work arrangements. (公司對遠距工作安排採取了寬鬆的政策。)",
     "id": "L3-liberal-a"
   },
@@ -5763,14 +5763,14 @@
   {
     "level": "基礎3",
     "word": "competitive",
-    "meaning": "a. 有競爭力的；競爭激烈的",
+    "meaning": "adj. 有競爭力的；競爭激烈的",
     "example": "To remain competitive, we must adopt the latest automation technologies. (為了維持競爭力，我們必須採用最新的自動化技術。)",
     "id": "L4-competitive-a"
   },
   {
     "level": "基礎3",
     "word": "truly",
-    "meaning": "ad. 真正地；衷心地",
+    "meaning": "adv. 真正地；衷心地",
     "example": "We truly appreciate your extreme dedication and hard work on this project. (我們衷心感謝您對這項專案的全心投入與辛勤付出。)",
     "id": "中高級-truly-ad"
   },
@@ -5784,7 +5784,7 @@
   {
     "level": "基礎3",
     "word": "yellow",
-    "meaning": "a / n. 黃色的；膽怯的（口語）；黃色；黃色顏料",
+    "meaning": "adj. 黃色的；膽怯的（口語）\nn. 黃色；黃色顏料",
     "example": "The warehouse team marked the restricted storage area with yellow floor tape. (倉庫團隊用黃色地貼標示限制進入的儲存區。)",
     "id": "基礎3-yellow-m1lsa8kt"
   },
@@ -5805,14 +5805,14 @@
   {
     "level": "基礎3",
     "word": "core",
-    "meaning": "n / a. 核心；核心部分；核心的；最重要的",
+    "meaning": "n. 核心；核心部分\nadj. 核心的；最重要的",
     "example": "Customer service is a core part of the company’s long-term growth strategy. (客戶服務是公司長期成長策略的核心部分。)",
     "id": "基礎3-core-mua06hv"
   },
   {
     "level": "基礎3",
     "word": "emotional",
-    "meaning": "a. 情緒的；感情上的",
+    "meaning": "adj. 情緒的；感情上的",
     "example": "The merger announcement prompted an emotional response from several long-serving employees. (合併公告引發幾位資深員工的情緒反應。)",
     "id": "基礎3-emotional-m1a75etg"
   },
@@ -5834,7 +5834,7 @@
     "level": "基礎3",
     "word": "metal",
     "meaning": "n. 金屬",
-    "example": "The contractor selected a lightweight metal for the new office entrance frame. (承包商為新辦公室入口框架選用了輕質金屬。)",
+    "example": "The contractor selected a lightweight metal for the new office entrance frame. (承包商為新辦公室入口的門框選用了輕質金屬。)",
     "id": "基礎3-metal-mpb5n"
   },
   {
@@ -5861,7 +5861,7 @@
   {
     "level": "基礎3",
     "word": "prime",
-    "meaning": "a. 主要的；一流的；最佳的",
+    "meaning": "adj. 主要的；一流的；最佳的",
     "example": "The strategic location near the port makes this warehouse a prime piece of real estate. (靠近港口的優越地點，使這座倉庫成為黃金地段的不動產。)",
     "id": "L4-prime-a"
   },
@@ -5882,21 +5882,21 @@
   {
     "level": "基礎3",
     "word": "maximum",
-    "meaning": "n / a. 最大值；最高限度；最高的；最大的",
+    "meaning": "n. 最大值；最高限度\nadj. 最高的；最大的",
     "example": "The venue has a maximum capacity of five hundred attendees for the seminar. (會場最多可容納五百人參加研討會。)",
     "id": "L4-maximum-n-a"
   },
   {
     "level": "基礎3",
     "word": "effectively",
-    "meaning": "ad. 有效地；實際上",
+    "meaning": "adv. 有效地；實際上",
     "example": "The new dashboard lets managers monitor delivery performance effectively. (新的儀表板讓主管能有效監控配送績效。)",
     "id": "基礎3-effectively-m15530q3"
   },
   {
     "level": "基礎3",
     "word": "elsewhere",
-    "meaning": "ad. 在別處；到其他地方",
+    "meaning": "adv. 在別處；到其他地方",
     "example": "Since the local market is saturated, we must look elsewhere for growth. (由於當地市場已飽和，我們必須到其他地方尋找成長機會。)",
     "id": "L4-elsewhere-ad"
   },
@@ -5910,42 +5910,42 @@
   {
     "level": "基礎3",
     "word": "initiative",
-    "meaning": "n / a. 主動性；倡議；新措施；主動的；倡議性的",
+    "meaning": "n. 主動性；倡議；新措施\nadj. 主動的；倡議性的",
     "example": "The employee took the initiative to design a more efficient filing system. (該員工主動設計了一套更有效率的文件歸檔系統。)",
     "id": "L6-initiative-n-a"
   },
   {
     "level": "基礎3",
     "word": "sharp",
-    "meaning": "a / ad. 急劇的；敏銳的；尖銳的；在……時刻整；正好",
+    "meaning": "adj. 急劇的；敏銳的；尖銳的\nadv. 在……時刻整；正好",
     "example": "The analyst noted a sharp increase in online retail traffic during the Black Friday sale. (分析師指出，黑色星期五促銷期間線上零售流量大幅增加。)",
     "id": "L1-sharp-a-ad"
   },
   {
     "level": "基礎3",
     "word": "diet",
-    "meaning": "n / v. 飲食；日常飲食；節食；限制飲食",
+    "meaning": "n. 飲食；日常飲食\nv. 節食；限制飲食",
     "example": "The nutritionist recommended a balanced diet to improve employee energy levels. (營養師建議員工均衡飲食，以提升精力。)",
     "id": "L3-diet-n-v"
   },
   {
     "level": "基礎3",
     "word": "motion",
-    "meaning": "n / v. 動作；運動；提議；示意；打手勢",
+    "meaning": "n. 動作；運動；提議\nv. 示意；打手勢",
     "example": "The chairperson asked for a motion to approve the revised meeting minutes. (主席請與會者提出動議，批准修訂後的會議紀錄。)",
     "id": "基礎3-motion-m1ut8ec1"
   },
   {
     "level": "基礎3",
     "word": "gray",
-    "meaning": "a / n. 灰色的；灰白的；灰色；灰色顏料",
+    "meaning": "adj. 灰色的；灰白的\nn. 灰色；灰色顏料",
     "example": "The design team selected a light gray palette for the company’s annual report. (設計團隊為公司的年度報告選擇了淺灰色色調。)",
     "id": "基礎3-gray-m1hd8xll"
   },
   {
     "level": "基礎3",
     "word": "plastic",
-    "meaning": "a / n. 塑膠製的；可塑的；塑膠；塑膠材料",
+    "meaning": "adj. 塑膠製的；可塑的\nn. 塑膠；塑膠材料",
     "example": "The supplier replaced plastic packaging with recyclable paper for all small components. (供應商將所有小型零件的塑膠包裝改為可回收紙材。)",
     "id": "基礎3-plastic-mw3791z"
   },
@@ -5987,14 +5987,14 @@
   {
     "level": "基礎3",
     "word": "freeze",
-    "meaning": "v / n. 冷凍；凍結；使停住；霜凍；停頓",
+    "meaning": "v. 冷凍；凍結；使停住\nn. 霜凍；停頓",
     "example": "The finance department decided to freeze nonessential travel spending until the review is complete. (財務部決定在審查完成前凍結非必要的差旅支出。)",
     "id": "基礎3-freeze-mahx706"
   },
   {
     "level": "基礎3",
     "word": "extreme",
-    "meaning": "a / n. 極端的；極度的；極端；極限",
+    "meaning": "adj. 極端的；極度的\nn. 極端；極限",
     "example": "The shipment delay caused extreme pressure on the company’s customer support team. (出貨延誤使公司的客服團隊承受極大壓力。)",
     "id": "基礎3-extreme-m5aosz8"
   },
@@ -6015,7 +6015,7 @@
   {
     "level": "基礎3",
     "word": "forth",
-    "meaning": "ad. 向前；向外；往後",
+    "meaning": "adv. 向前；向外；往後",
     "example": "The committee put forth a proposal to simplify the vendor approval process. (委員會提出一項簡化供應商審核流程的提案。)",
     "id": "基礎3-forth-m13v8h8j"
   },
@@ -6036,7 +6036,7 @@
   {
     "level": "基礎3",
     "word": "coat",
-    "meaning": "n / v. 外套；塗層；塗上；覆蓋",
+    "meaning": "n. 外套；塗層\nv. 塗上；覆蓋",
     "example": "The maintenance crew applied a protective coat to the warehouse floor. (維修人員在倉庫地面塗上一層保護塗層。)",
     "id": "基礎3-coat-m1ok6umi"
   },
@@ -6050,21 +6050,21 @@
   {
     "level": "基礎3",
     "word": "pocket",
-    "meaning": "n / a. 口袋；小袋；袖珍的；小型的",
+    "meaning": "n. 口袋；小袋\nadj. 袖珍的；小型的",
     "example": "The small electronic device can easily fit into a standard jacket pocket. (這種小型電子設備可以輕鬆放進一般夾克的口袋。)",
     "id": "L1-pocket-n-a"
   },
   {
     "level": "基礎3",
     "word": "lucky",
-    "meaning": "a. 幸運的；走運的",
+    "meaning": "adj. 幸運的；走運的",
     "example": "The purchasing team was lucky to find an available supplier before the production deadline. (採購團隊很幸運，在生產期限前找到了有供貨能力的供應商。)",
     "id": "基礎3-lucky-m12rlvvj"
   },
   {
     "level": "基礎3",
     "word": "crash",
-    "meaning": "v / n. 當機；碰撞；暴跌；當機；碰撞；暴跌",
+    "meaning": "v. 當機；碰撞；暴跌\nn. 當機；碰撞；暴跌",
     "example": "A sudden computer crash caused the graphic designer to lose hours of unsaved work. (電腦突然當機，讓平面設計師遺失數小時未儲存的工作。)",
     "id": "L3-crash-v-n"
   },
@@ -6106,7 +6106,7 @@
   {
     "level": "基礎3",
     "word": "unusual",
-    "meaning": "a. 不尋常的；罕見的",
+    "meaning": "adj. 不尋常的；罕見的",
     "example": "An unusual energy bill prompted an audit of the office's heating system. (一張不尋常的能源帳單促使公司稽核辦公室的暖氣系統。)",
     "id": "基礎3-unusual-m1aq0xy5"
   },
@@ -6120,7 +6120,7 @@
   {
     "level": "基礎3",
     "word": "classic",
-    "meaning": "a / n. 經典的；典型的；經典作品；傑作",
+    "meaning": "adj. 經典的；典型的\nn. 經典作品；傑作",
     "example": "The company’s classic logo remains recognizable after several redesigns. (經過數次改版後，公司的經典標誌仍然很容易辨認。)",
     "id": "基礎3-classic-m5kaf47"
   },
@@ -6141,14 +6141,14 @@
   {
     "level": "基礎3",
     "word": "repair",
-    "meaning": "v / n. 修理；修復；修理；修復",
+    "meaning": "v. 修理；修復\nn. 修理；修復",
     "example": "The maintenance crew arrived quickly to repair the broken conveyor belt in the plant. (維修團隊迅速趕到，修理工廠裡故障的輸送帶。)",
     "id": "L3-repair-v-n"
   },
   {
     "level": "基礎3",
     "word": "collapse",
-    "meaning": "v / n. 倒塌；崩潰；突然倒下；倒塌；崩潰",
+    "meaning": "v. 倒塌；崩潰；突然倒下\nn. 倒塌；崩潰",
     "example": "The old storage rack could collapse if it is loaded beyond its rated capacity. (如果超過額定承重，舊儲物架可能會倒塌。)",
     "id": "基礎3-collapse-mlm5gpr"
   },
@@ -6162,21 +6162,21 @@
   {
     "level": "基礎3",
     "word": "fundamental",
-    "meaning": "a / n. 根本的；基本的；必要的；基本原則；基本法則",
+    "meaning": "adj. 根本的；基本的；必要的\nn. 基本原則；基本法則",
     "example": "Thorough market research is fundamental to the success of any new product launch. (徹底的市場調查是任何新產品成功上市的基礎。)",
     "id": "L4-fundamental-a-n"
   },
   {
     "level": "基礎3",
     "word": "dish",
-    "meaning": "n / v. 盤子；一道菜；事項；盛上；供應（食物）",
+    "meaning": "n. 盤子；一道菜；事項\nv. 盛上；供應（食物）",
     "example": "The cafeteria added a vegetarian dish to its lunch menu this month. (公司餐廳本月在午餐菜單中新增一道素食料理。)",
     "id": "基礎3-dish-mb0yqn6"
   },
   {
     "level": "基礎3",
     "word": "abroad",
-    "meaning": "ad. 在國外；到國外",
+    "meaning": "adv. 在國外；到國外",
     "example": "The company plans to send several managers abroad for leadership training next quarter. (公司計畫下季派幾位主管出國參加領導力訓練。)",
     "id": "L2-abroad-ad"
   },
@@ -6190,28 +6190,28 @@
   {
     "level": "基礎3",
     "word": "capable",
-    "meaning": "a. 有能力的；能勝任的",
+    "meaning": "adj. 有能力的；能勝任的",
     "example": "She is capable of managing multiple high-priority projects simultaneously. (她有能力同時管理多個高優先級專案。)",
     "id": "L3-capable-a"
   },
   {
     "level": "基礎3",
     "word": "defeat",
-    "meaning": "v / n. 擊敗；戰勝；失敗；戰敗",
+    "meaning": "v. 擊敗；戰勝\nn. 失敗；戰敗",
     "example": "The startup managed to defeat its larger competitors by offering a more agile service. (這家新創公司透過提供更靈活的服務，成功擊敗規模更大的競爭對手。)",
     "id": "L4-defeat-v-n"
   },
   {
     "level": "基礎3",
     "word": "presidential",
-    "meaning": "a. 總統的；總統制的",
+    "meaning": "adj. 總統的；總統制的",
     "example": "The company’s delegation attended a reception at the presidential residence during the trade visit. (公司代表團在商務訪問期間出席了總統官邸的招待會。)",
     "id": "基礎3-presidential-m1p73olp"
   },
   {
     "level": "基礎3",
     "word": "perfectly",
-    "meaning": "ad. 完全地；完美地；非常",
+    "meaning": "adv. 完全地；完美地；非常",
     "example": "The revised instructions explain the installation process perfectly clearly. (修訂後的說明將安裝流程解釋得非常清楚。)",
     "id": "基礎3-perfectly-m1smcswe"
   },
@@ -6225,7 +6225,7 @@
   {
     "level": "基礎3",
     "word": "proud",
-    "meaning": "a. 自豪的；驕傲的",
+    "meaning": "adj. 自豪的；驕傲的",
     "example": "The company is proud to announce that it received an award for environmental sustainability. (公司榮幸地宣布，獲頒環境永續獎項。)",
     "id": "L2-proud-a"
   },
@@ -6239,7 +6239,7 @@
   {
     "level": "基礎3",
     "word": "educational",
-    "meaning": "a. 教育的；有教育意義的",
+    "meaning": "adj. 教育的；有教育意義的",
     "example": "The company sponsors educational workshops to help employees build digital skills. (公司贊助教育工作坊，協助員工培養數位技能。)",
     "id": "基礎3-educational-m81t53s"
   },
@@ -6253,14 +6253,14 @@
   {
     "level": "基礎3",
     "word": "substantial",
-    "meaning": "a. 大量的；重大的；實質的",
+    "meaning": "adj. 大量的；重大的；實質的",
     "example": "The tech firm reported a substantial net profit increase for the third fiscal quarter. (這家科技公司表示，第三財季的淨利大幅增加。)",
     "id": "L5-substantial-a"
   },
   {
     "level": "基礎3",
     "word": "nearby",
-    "meaning": "a / ad. 附近的；在附近；到附近",
+    "meaning": "adj. 附近的\nadv. 在附近；到附近",
     "example": "The nearby distribution center is conveniently located beside a major highway interchange. (附近的配送中心位於主要高速公路交流道旁，交通便利。)",
     "id": "L2-nearby-a-ad"
   },
@@ -6274,21 +6274,21 @@
   {
     "level": "基礎3",
     "word": "slide",
-    "meaning": "n / v. 投影片；滑動；滑梯；滑動；悄悄移動",
+    "meaning": "n. 投影片；滑動；滑梯\nv. 滑動；悄悄移動",
     "example": "The presenter advanced to the next slide to show the quarterly sales figures. (簡報者切換到下一張投影片，展示季度銷售數據。)",
     "id": "基礎3-slide-m1isa3u4"
   },
   {
     "level": "基礎3",
     "word": "valuable",
-    "meaning": "a. 有價值的；寶貴的",
+    "meaning": "adj. 有價值的；寶貴的",
     "example": "The market analysis report provides highly valuable insights into consumer trends. (市場分析報告提供了極具價值的消費趨勢見解。)",
     "id": "L3-valuable-a"
   },
   {
     "level": "基礎3",
     "word": "personally",
-    "meaning": "ad. 親自；就個人而言",
+    "meaning": "adv. 親自；就個人而言",
     "example": "The regional director personally called each new client to welcome them. (區域主管親自致電每位新客戶，向他們表達歡迎。)",
     "id": "基礎3-personally-ms5aa49"
   },
@@ -6309,7 +6309,7 @@
   {
     "level": "基礎3",
     "word": "approximately",
-    "meaning": "ad. 大約；近似地",
+    "meaning": "adv. 大約；近似地",
     "example": "The renovation is expected to take approximately six weeks to complete. (這項整修預計約需六週才能完成。)",
     "id": "基礎3-approximately-mxrbjuv"
   },
@@ -6323,7 +6323,7 @@
   {
     "level": "基礎3",
     "word": "highlight",
-    "meaning": "v / n. 強調；凸顯；標示；重點；精彩部分；亮點",
+    "meaning": "v. 強調；凸顯；標示\nn. 重點；精彩部分；亮點",
     "example": "The quarterly report highlights the strongest sales results in the eastern region. (季度報告凸顯了東部地區最亮眼的銷售成績。)",
     "id": "基礎3-highlight-mbbyp2o"
   },
@@ -6365,7 +6365,7 @@
   {
     "level": "基礎3",
     "word": "chip",
-    "meaning": "n / v. 晶片；薄片；薯片；削去一小塊；使缺口",
+    "meaning": "n. 晶片；薄片；薯片\nv. 削去一小塊；使缺口",
     "example": "The manufacturer delayed production because a key chip was unavailable. (由於一款關鍵晶片缺貨，製造商延後了生產。)",
     "id": "基礎3-chip-m1d4y6wj"
   },
@@ -6379,14 +6379,14 @@
   {
     "level": "基礎3",
     "word": "encounter",
-    "meaning": "n / v. 遭遇；邂逅；遇到；遭遇",
+    "meaning": "n. 遭遇；邂逅\nv. 遇到；遭遇",
     "example": "The customer service team may encounter difficult clients from time to time. (客服團隊有時可能會遇到難以應對的客戶。)",
     "id": "L4-encounter-n-v"
   },
   {
     "level": "基礎3",
     "word": "brown",
-    "meaning": "a / n. 棕色的；褐色的；棕色；褐色",
+    "meaning": "adj. 棕色的；褐色的\nn. 棕色；褐色",
     "example": "The procurement team selected brown cartons made from recycled cardboard. (採購團隊選用了再生紙板製成的棕色紙箱。)",
     "id": "基礎3-brown-mshsqn8"
   },
@@ -6400,14 +6400,14 @@
   {
     "level": "基礎3",
     "word": "excuse",
-    "meaning": "n / v. 藉口；理由；原諒；允許離開",
+    "meaning": "n. 藉口；理由\nv. 原諒；允許離開",
     "example": "The supervisor accepted the employee’s apology but did not excuse the repeated lateness. (主管接受了員工的道歉，但沒有寬恕其一再遲到。)",
     "id": "基礎3-excuse-m14cqv37"
   },
   {
     "level": "基礎3",
     "word": "partly",
-    "meaning": "ad. 部分地；在某種程度上",
+    "meaning": "adv. 部分地；在某種程度上",
     "example": "The delivery delay was partly caused by severe weather along the northern route. (配送延誤部分是由北部路線的惡劣天氣造成的。)",
     "id": "基礎3-partly-m1biucqa"
   },
@@ -6421,7 +6421,7 @@
   {
     "level": "基礎3",
     "word": "urban",
-    "meaning": "a. 城市的；都市的",
+    "meaning": "adj. 城市的；都市的",
     "example": "The company plans to open a new flagship retail store in a bustling urban district. (公司計畫在熱鬧的市區開設一間新的旗艦零售店。)",
     "id": "L4-urban-a"
   },
@@ -6435,14 +6435,14 @@
   {
     "level": "基礎3",
     "word": "southern",
-    "meaning": "a. 南部的；南方的",
+    "meaning": "adj. 南部的；南方的",
     "example": "The southern branch will coordinate deliveries to clients across three neighboring states. (南部分公司將統籌配送至鄰近三州的客戶。)",
     "id": "基礎3-southern-m1qas6re"
   },
   {
     "level": "基礎3",
     "word": "output",
-    "meaning": "n / v. 產量；輸出；成果；輸出；產生",
+    "meaning": "n. 產量；輸出；成果\nv. 輸出；產生",
     "example": "The factory increased its daily output of semiconductor chips by fifteen percent. (該工廠的半導體晶片日產量增加了百分之十五。)",
     "id": "L5-output-v-n"
   },
@@ -6456,7 +6456,7 @@
   {
     "level": "基礎3",
     "word": "massive",
-    "meaning": "a. 巨大的；大量的；大規模的",
+    "meaning": "adj. 巨大的；大量的；大規模的",
     "example": "A massive increase in online orders required the retailer to expand its warehouse capacity. (線上訂單大幅增加，迫使零售商擴充倉儲容量。)",
     "id": "基礎3-massive-m3mkr5s"
   },
@@ -6477,7 +6477,7 @@
   {
     "level": "基礎3",
     "word": "mouse",
-    "meaning": "n / v. 老鼠；滑鼠；用滑鼠操作",
+    "meaning": "n. 老鼠；滑鼠\nv. 用滑鼠操作",
     "example": "The designer connected a wireless mouse to the presentation laptop before the meeting. (設計師在會議前將無線滑鼠連接到簡報筆電。)",
     "id": "基礎3-mouse-m1j7c65j"
   },
@@ -6491,7 +6491,7 @@
   {
     "level": "基礎3",
     "word": "upper",
-    "meaning": "a / n. 上面的；較高級的；上部的；上部；上層",
+    "meaning": "adj. 上面的；較高級的；上部的\nn. 上部；上層",
     "example": "The upper floor of the office building is reserved for executive meetings. (辦公大樓的上層樓面保留作為主管會議之用。)",
     "id": "基礎3-upper-mytm006"
   },
@@ -6512,21 +6512,21 @@
   {
     "level": "基礎3",
     "word": "outline",
-    "meaning": "n / v. 大綱；概要；輪廓；概述；列出要點",
+    "meaning": "n. 大綱；概要；輪廓\nv. 概述；列出要點",
     "example": "The project manager presented a clear outline of the development phases and deadlines. (專案經理清楚說明了開發階段與各項期限的大綱。)",
     "id": "L3-outline-n-v"
   },
   {
     "level": "基礎3",
     "word": "sufficient",
-    "meaning": "a. 足夠的；充分的",
+    "meaning": "adj. 足夠的；充分的",
     "example": "The finance department confirmed we have sufficient funding to complete the project. (財務部門確認，我們有足夠資金完成這項專案。)",
     "id": "L3-sufficient-a"
   },
   {
     "level": "基礎3",
     "word": "update",
-    "meaning": "v / n. 更新；使現代化；更新；最新消息",
+    "meaning": "v. 更新；使現代化\nn. 更新；最新消息",
     "example": "The IT department will update the database system over the weekend. (資訊部門將在週末更新資料庫系統。)",
     "id": "L5-update-v"
   },
@@ -6547,14 +6547,14 @@
   {
     "level": "基礎3",
     "word": "split",
-    "meaning": "v / n. 分開；拆分；分攤；分裂；分歧；分攤份額",
+    "meaning": "v. 分開；拆分；分攤\nn. 分裂；分歧；分攤份額",
     "example": "The two departments agreed to split the cost of the new customer survey. (兩個部門同意分攤新顧客調查的費用。)",
     "id": "基礎3-split-ms3hksw"
   },
   {
     "level": "基礎3",
     "word": "swing",
-    "meaning": "v / n. 擺動；揮動；大幅變動；擺動；變化幅度；鞦韆",
+    "meaning": "v. 擺動；揮動；大幅變動\nn. 擺動；變化幅度；鞦韆",
     "example": "A swing in exchange rates can affect the company’s overseas earnings. (匯率波動可能影響公司的海外收益。)",
     "id": "基礎3-swing-mr7jdjv"
   },
@@ -6575,7 +6575,7 @@
   {
     "level": "基礎3",
     "word": "sudden",
-    "meaning": "a. 突然的；意外的",
+    "meaning": "adj. 突然的；意外的",
     "example": "A sudden change in demand required the supplier to revise its delivery schedule. (需求突然改變，供應商因此必須修訂配送時程。)",
     "id": "基礎3-sudden-m12pxbv5"
   },
@@ -6589,42 +6589,42 @@
   {
     "level": "基礎3",
     "word": "consistent",
-    "meaning": "a. 一致的；持續穩定的",
+    "meaning": "adj. 一致的；持續穩定的",
     "example": "The customer service team must maintain a consistent tone across all communication channels. (客服團隊必須在所有溝通管道中保持一致的語氣。)",
     "id": "L4-consistent-a"
   },
   {
     "level": "基礎3",
     "word": "originally",
-    "meaning": "ad. 原先；最初",
+    "meaning": "adv. 原先；最初",
     "example": "Originally, the software was designed solely for internal use within the logistics team. (最初，這套軟體僅供物流團隊內部使用。)",
     "id": "TOEIC-originally-ad"
   },
   {
     "level": "基礎3",
     "word": "aside",
-    "meaning": "ad / prep. 在旁邊；到一旁；擱置；除……之外；除了",
+    "meaning": "adv. 在旁邊；到一旁；擱置\nprep. 除……之外；除了",
     "example": "Please set the signed contracts aside until the legal review is complete. (請先把已簽署的合約放在一旁，直到法務審查完成。)",
     "id": "基礎3-aside-m5awvvr"
   },
   {
     "level": "基礎3",
     "word": "comfort",
-    "meaning": "v / n. 安慰；使舒適；舒適；安慰",
+    "meaning": "v. 安慰；使舒適\nn. 舒適；安慰",
     "example": "The ergonomic office chairs provide maximum comfort for employees who sit for long hours. (符合人體工學的辦公椅讓長時間坐著的員工感到非常舒適。)",
     "id": "L3-comfort-v-n"
   },
   {
     "level": "基礎3",
     "word": "secondly",
-    "meaning": "ad. 其次；第二",
+    "meaning": "adv. 其次；第二",
     "example": "Firstly, teams must submit a budget; secondly, they should identify the expected savings. (首先，各團隊必須提交預算；其次，應列出預期節省金額。)",
     "id": "基礎3-secondly-m1cybd2o"
   },
   {
     "level": "基礎3",
     "word": "severe",
-    "meaning": "a. 嚴重的；劇烈的；嚴厲的",
+    "meaning": "adj. 嚴重的；劇烈的；嚴厲的",
     "example": "The factory suffered severe financial losses following the massive fire incident. (大火事故後，該工廠蒙受嚴重的財務損失。)",
     "id": "L4-severe-a"
   },
@@ -6638,21 +6638,21 @@
   {
     "level": "基礎3",
     "word": "prospect",
-    "meaning": "n / v. 前景；可能性；潛在客戶；勘查；探勘",
+    "meaning": "n. 前景；可能性；潛在客戶\nv. 勘查；探勘",
     "example": "The commercial prospect of expanding into the Asian market looks highly promising. (拓展亞洲市場的商業前景看來十分看好。)",
     "id": "L5-prospect-n-v"
   },
   {
     "level": "基礎3",
     "word": "snow",
-    "meaning": "n / v. 雪；降雪；下雪；大量湧入",
+    "meaning": "n. 雪；降雪\nv. 下雪；大量湧入",
     "example": "Heavy snow forced the delivery company to suspend service in the mountain region. (大雪迫使配送公司暫停山區服務。)",
     "id": "基礎3-snow-m1xd9l52"
   },
   {
     "level": "基礎3",
     "word": "plot",
-    "meaning": "n / v. 情節；計畫；地塊；密謀；繪製",
+    "meaning": "n. 情節；計畫；地塊\nv. 密謀；繪製",
     "example": "The facilities manager plotted a new emergency route through the expanded office floor. (設施經理規劃了一條穿越擴建辦公樓層的新緊急路線。)",
     "id": "基礎3-plot-m1law6po"
   },
@@ -6673,7 +6673,7 @@
   {
     "level": "基礎3",
     "word": "primarily",
-    "meaning": "ad. 主要地；首要地",
+    "meaning": "adv. 主要地；首要地",
     "example": "The logistics manager is primarily responsible for coordinating outbound shipments. (物流經理主要負責協調出貨作業。)",
     "id": "中高級-primarily-ad"
   },
@@ -6701,7 +6701,7 @@
   {
     "level": "基礎3",
     "word": "bet",
-    "meaning": "n / v. 賭注；賭博；打賭；押注",
+    "meaning": "n. 賭注；賭博\nv. 打賭；押注",
     "example": "The investor placed a bet on the long-term growth of the technology sector. (投資者押注科技產業的長期成長。)",
     "id": "L2-bet-n-v"
   },
@@ -6722,28 +6722,28 @@
   {
     "level": "基礎3",
     "word": "plain",
-    "meaning": "a / n. 簡單的；清楚的；樸素的；平原；平地",
+    "meaning": "adj. 簡單的；清楚的；樸素的\nn. 平原；平地",
     "example": "The instructions were written in plain language so that anyone could understand them. (這些說明以淺白的語言撰寫，讓任何人都能看懂。)",
     "id": "L2-plain-a-n"
   },
   {
     "level": "基礎3",
     "word": "volunteer",
-    "meaning": "n / v. 志工；自願者；自願；自願參加",
+    "meaning": "n. 志工；自願者\nv. 自願；自願參加",
     "example": "Employees can volunteer to participate in the company's annual charity golf event. (員工可以自願參加公司一年一度的慈善高爾夫活動。)",
     "id": "L4-volunteer-n-v"
   },
   {
     "level": "基礎3",
     "word": "rural",
-    "meaning": "a. 鄉村的；農村的",
+    "meaning": "adj. 鄉村的；農村的",
     "example": "The company opened a rural service center to support customers in remote communities. (公司設立了一個鄉村服務中心，支援偏遠社區的顧客。)",
     "id": "基礎3-rural-m136ygfa"
   },
   {
     "level": "基礎3",
     "word": "calm",
-    "meaning": "a / v. 冷靜的；平靜的；使冷靜；平息",
+    "meaning": "adj. 冷靜的；平靜的\nv. 使冷靜；平息",
     "example": "The CEO remained calm despite the unexpected market volatility. (儘管市場出現意外波動，執行長仍保持冷靜。)",
     "id": "L2-calm-a-v"
   },
@@ -6764,21 +6764,21 @@
   {
     "level": "基礎3",
     "word": "silence",
-    "meaning": "n / v. 沉默；寂靜；使安靜；使沉默",
+    "meaning": "n. 沉默；寂靜\nv. 使安靜；使沉默",
     "example": "The sudden silence in the conference room indicated that the video connection had failed. (會議室突然安靜下來，表示視訊連線已中斷。)",
     "id": "基礎3-silence-m1iyyold"
   },
   {
     "level": "基礎3",
     "word": "rapidly",
-    "meaning": "ad. 迅速地；快速地",
+    "meaning": "adv. 迅速地；快速地",
     "example": "The technical support team responded rapidly to resolve the critical server outage. (技術支援團隊迅速回應，解決了嚴重的伺服器中斷問題。)",
     "id": "TOEIC-rapidly-ad"
   },
   {
     "level": "基礎3",
     "word": "efficient",
-    "meaning": "a. 有效率的；高效的",
+    "meaning": "adj. 有效率的；高效的",
     "example": "The automated assembly line is highly efficient and minimizes raw material waste. (自動化生產線效率很高，能將原料浪費降到最低。)",
     "id": "L3-efficient-a"
   },
@@ -6792,14 +6792,14 @@
   {
     "level": "基礎3",
     "word": "delight",
-    "meaning": "n / v. 喜悅；樂事；使高興；使愉快",
+    "meaning": "n. 喜悅；樂事\nv. 使高興；使愉快",
     "example": "The unexpected bonus brought great delight to the entire engineering team. (意外的獎金讓整個工程團隊欣喜不已。)",
     "id": "L4-delight-n-v"
   },
   {
     "level": "基礎3",
     "word": "spell",
-    "meaning": "n / v. 一段時間；咒語；拼字；拼寫；意味著",
+    "meaning": "n. 一段時間；咒語；拼字\nv. 拼寫；意味著",
     "example": "A short spell of heavy rain delayed the company’s outdoor product demonstration. (一陣短暫的大雨延誤了公司的戶外產品展示。)",
     "id": "基礎3-spell-m134nuk"
   },
@@ -6820,7 +6820,7 @@
   {
     "level": "基礎3",
     "word": "dramatic",
-    "meaning": "a. 顯著的；戲劇性的",
+    "meaning": "adj. 顯著的；戲劇性的",
     "example": "The new supplier agreement produced a dramatic reduction in delivery times. (新的供應商協議大幅縮短了配送時間。)",
     "id": "基礎3-dramatic-m1r921o1"
   },
@@ -6834,7 +6834,7 @@
   {
     "level": "基礎3",
     "word": "grateful",
-    "meaning": "a. 感激的；感謝的",
+    "meaning": "adj. 感激的；感謝的",
     "example": "The management team is deeply grateful for the hard work of the staff during the peak season. (管理團隊非常感謝員工在旺季期間的辛勤付出。)",
     "id": "L4-grateful-a"
   },
@@ -6848,7 +6848,7 @@
   {
     "level": "基礎3",
     "word": "bike",
-    "meaning": "n / v. 腳踏車；機車（口語）；騎腳踏車",
+    "meaning": "n. 腳踏車；機車（口語）\nv. 騎腳踏車",
     "example": "The office installed a secure bike rack near the employee entrance. (辦公室在員工入口附近設置了安全的腳踏車架。)",
     "id": "基礎3-bike-muoxm5o"
   },
@@ -6862,7 +6862,7 @@
   {
     "level": "基礎3",
     "word": "intellectual",
-    "meaning": "a / n. 智力的；知識的；理性的；知識分子；智者",
+    "meaning": "adj. 智力的；知識的；理性的\nn. 知識分子；智者",
     "example": "The training program encourages intellectual discussion about new technology standards. (培訓課程鼓勵大家針對新科技標準進行知性討論。)",
     "id": "基礎3-intellectual-m1uxuzi8"
   },
@@ -6876,7 +6876,7 @@
   {
     "level": "基礎3",
     "word": "crucial",
-    "meaning": "a. 至關重要的；關鍵的",
+    "meaning": "adj. 至關重要的；關鍵的",
     "example": "Securing funding from investors is crucial for the survival of the startup. (取得投資人的資金對新創公司的存續至關重要。)",
     "id": "L6-crucial-a"
   },
@@ -6890,21 +6890,21 @@
   {
     "level": "基礎3",
     "word": "wheel",
-    "meaning": "n / v. 車輪；方向盤；輪子；推動；用輪子運送",
+    "meaning": "n. 車輪；方向盤；輪子\nv. 推動；用輪子運送",
     "example": "The technician replaced a damaged wheel on the company’s delivery van. (技術人員更換了公司配送廂型車上的損壞車輪。)",
     "id": "基礎3-wheel-m12p6te8"
   },
   {
     "level": "基礎3",
     "word": "crop",
-    "meaning": "n / v. 農作物；收成；剪裁；收割；剪裁；裁切",
+    "meaning": "n. 農作物；收成；剪裁\nv. 收割；剪裁；裁切",
     "example": "The severe drought severely impacted the regional corn crop yield this year. (嚴重乾旱大幅影響了今年該地區的玉米收成。)",
     "id": "L2-crop-n-v"
   },
   {
     "level": "基礎3",
     "word": "minority",
-    "meaning": "n / a. 少數；少數群體；少數的；少數群體的",
+    "meaning": "n. 少數；少數群體\nadj. 少數的；少數群體的",
     "example": "A small minority of board members voted against the relocation proposal. (少數董事會成員投票反對遷址提案。)",
     "id": "L3-minority-n"
   },
@@ -6953,7 +6953,7 @@
   {
     "level": "基礎3",
     "word": "toy",
-    "meaning": "n / v. 玩具；小型模型；玩弄；輕率考慮",
+    "meaning": "n. 玩具；小型模型\nv. 玩弄；輕率考慮",
     "example": "The company donated educational toys to children at the community center. (公司捐贈教育玩具給社區中心的孩童。)",
     "id": "基礎3-toy-m641u92"
   },
@@ -6967,35 +6967,35 @@
   {
     "level": "基礎3",
     "word": "exhibit",
-    "meaning": "v / n. 展示；顯示；表現；展覽品；展覽",
+    "meaning": "v. 展示；顯示；表現\nn. 展覽品；展覽",
     "example": "The manufacturing firm will exhibit its latest automated tools at the trade fair. (這家製造公司將在貿易展上展示最新的自動化工具。)",
     "id": "L4-exhibit-v-n"
   },
   {
     "level": "基礎3",
     "word": "minor",
-    "meaning": "a / n. 較小的；次要的；未成年的；未成年人；輔修科目",
+    "meaning": "adj. 較小的；次要的；未成年的\nn. 未成年人；輔修科目",
     "example": "A minor adjustment to the shipping schedule resolved the overlap between two deliveries. (對配送時程作出小幅調整，就解決了兩批貨物時間重疊的問題。)",
     "id": "基礎3-minor-mqokbt8"
   },
   {
     "level": "基礎3",
     "word": "hunt",
-    "meaning": "v / n. 尋找；搜尋；狩獵；搜尋；狩獵",
+    "meaning": "v. 尋找；搜尋；狩獵\nn. 搜尋；狩獵",
     "example": "The hiring manager is hunting for candidates with experience in supply chain analytics. (招募主管正在尋找具供應鏈分析經驗的候選人。)",
     "id": "基礎3-hunt-mf9xh4u"
   },
   {
     "level": "基礎3",
     "word": "storm",
-    "meaning": "n / v. 暴風雨；風暴；風潮；猛攻；突然湧向",
+    "meaning": "n. 暴風雨；風暴；風潮\nv. 猛攻；突然湧向",
     "example": "Heavy distribution operations were temporarily delayed due to a severe winter storm. (嚴重的冬季風暴導致大量配送作業暫時延誤。)",
     "id": "L2-storm-n"
   },
   {
     "level": "基礎3",
     "word": "thick",
-    "meaning": "a. 厚的；濃密的；密集的",
+    "meaning": "adj. 厚的；濃密的；密集的",
     "example": "The thick user manual includes a detailed troubleshooting section for each device. (這本厚重的使用手冊為每台裝置都附有詳細的故障排除章節。)",
     "id": "基礎3-thick-m1f3o5fd"
   }

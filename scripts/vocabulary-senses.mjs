@@ -192,16 +192,8 @@ export function formatSensesField(senses, field, { includePos = true, separator 
 
 export function syncCompatibilityFieldsFromSenses(row) {
   const senses = Array.isArray(row?.senses) ? row.senses : [];
-  if (row.track === "toeic") {
-    const toeicCode = (pos) => ({
-      "n.": "n", "v.": "v", "vt.": "v", "vi.": "v", "adj.": "a", "adv.": "ad"
-    }[pos] ?? String(pos ?? "").replace(/\.$/u, ""));
-    row.pos = senses.map((sense) => sense.pos).filter(Boolean).map(toeicCode).join(" / ");
-    row.meaning_zh = senses.map((sense) => String(sense.meaning_zh ?? "").trim()).filter(Boolean).join("；");
-    row.meaning_ja = senses.map((sense) => String(sense.meaning_ja ?? "").trim()).filter(Boolean).join("；");
-    row.meaning_ko = senses.map((sense) => String(sense.meaning_ko ?? "").trim()).filter(Boolean).join("；");
-    return row;
-  }
+  // Every track (TOEIC included since 2026-11-07) shows one line per part of speech,
+  // e.g. "v. 展示；顯示；陳列\nn. 顯示器；展示；表演".
 
   row.pos = senses.map((sense) => sense.pos).filter(Boolean).join("\n");
   row.meaning_zh = formatSensesField(senses, "meaning_zh");

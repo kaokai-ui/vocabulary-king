@@ -37,7 +37,7 @@
   {
     "level": "多益1",
     "word": "delicious",
-    "meaning": "a. 美味的；可口的",
+    "meaning": "adj. 美味的；可口的",
     "example": "The catering company provided a delicious buffet for the corporate luncheon. (餐飲公司為企業午宴提供了美味的自助餐。)",
     "id": "L2-delicious-a"
   },
@@ -107,7 +107,7 @@
   {
     "level": "多益1",
     "word": "alike",
-    "meaning": "a. 相似的；相像的",
+    "meaning": "adj. 相似的；相像的",
     "example": "The new policy applies to managers and employees alike. (新政策同樣適用於經理和員工。)",
     "id": "L2-alike-a-ad"
   },
@@ -142,7 +142,7 @@
   {
     "level": "多益1",
     "word": "administrative",
-    "meaning": "a. 行政的；管理上的",
+    "meaning": "adj. 行政的；管理上的",
     "example": "Administrative staff will distribute the updated travel policy to all department managers. (行政人員將把更新後的差旅政策發送給所有部門主管。)",
     "id": "多益1-administrative-m1mg72yx"
   },
@@ -156,7 +156,7 @@
   {
     "level": "多益1",
     "word": "commonly",
-    "meaning": "ad. 通常；普遍地",
+    "meaning": "adv. 通常；普遍地",
     "example": "This model is commonly used by small businesses that need affordable shipping software. (這種型號常被需要平價運輸軟體的小型企業使用。)",
     "id": "多益1-commonly-m12p2yms"
   },
@@ -184,7 +184,7 @@
   {
     "level": "多益1",
     "word": "affordable",
-    "meaning": "a. 負擔得起的；價格合理的",
+    "meaning": "adj. 負擔得起的；價格合理的",
     "example": "The hotel offers affordable rooms for visitors attending the weeklong trade fair. (這家飯店為參加為期一週商展的訪客提供價格合理的客房。)",
     "id": "多益1-affordable-m19kjjrs"
   },
@@ -275,14 +275,14 @@
   {
     "level": "多益1",
     "word": "complimentary",
-    "meaning": "a. 免費贈送的；招待的",
+    "meaning": "adj. 免費贈送的；招待的",
     "example": "Guests receive complimentary breakfast when they book directly through the hotel website. (旅客透過飯店網站直接訂房即可享用免費早餐。)",
     "id": "多益1-complimentary-mvtgopo"
   },
   {
     "level": "多益1",
     "word": "hike",
-    "meaning": "v / n. 徒步旅行；遠足；漲價；價格調升",
+    "meaning": "v. 徒步旅行；遠足\nn. 漲價；價格調升",
     "example": "The company announced a price hike on all subscription plans starting next month. (該公司宣布從下個月開始提高所有訂閱方案的價格。)",
     "id": "L3-hike-n-v"
   },
@@ -303,7 +303,7 @@
   {
     "level": "多益1",
     "word": "rainy",
-    "meaning": "a. 下雨的；多雨的",
+    "meaning": "adj. 下雨的；多雨的",
     "example": "The rainy forecast prompted organizers to move the outdoor reception into the hotel ballroom. (下雨的預報促使主辦人員將戶外招待會移至飯店宴會廳。)",
     "id": "多益1-rainy-m1szg68y"
   },
@@ -331,7 +331,7 @@
   {
     "level": "多益1",
     "word": "unhappy",
-    "meaning": "a. 不滿意的；不高興的",
+    "meaning": "adj. 不滿意的；不高興的",
     "example": "Several unhappy customers contacted the service desk about their delayed replacement orders. (幾位不滿的顧客就延遲的替換訂單聯絡了服務櫃檯。)",
     "id": "多益1-unhappy-mqj5ynv"
   },
@@ -359,7 +359,7 @@
   {
     "level": "多益1",
     "word": "incomplete",
-    "meaning": "a. 不完整的；未完成的",
+    "meaning": "adj. 不完整的；未完成的",
     "example": "The report is currently incomplete because we are still waiting for the final sales figures. (該報告目前尚未完成，因為我們仍在等待最終的銷售數字。)",
     "id": "TOEIC-incomplete-a"
   },
@@ -394,7 +394,7 @@
   {
     "level": "多益1",
     "word": "lately",
-    "meaning": "ad. 最近；近來",
+    "meaning": "adv. 最近；近來",
     "example": "The company has experienced significant growth in its online retail sector lately. (該公司最近在線上零售領域經歷了顯著成長。)",
     "id": "L4-lately-ad"
   },
@@ -415,7 +415,7 @@
   {
     "level": "多益1",
     "word": "seldom",
-    "meaning": "ad. 很少；不常",
+    "meaning": "adv. 很少；不常",
     "example": "The regional manager seldom misses a weekly briefing unless he is traveling abroad. (區域經理很少會錯過每週的簡報，除非他出國旅行。)",
     "id": "L3-seldom-ad-a"
   },
@@ -429,7 +429,7 @@
   {
     "level": "多益1",
     "word": "worldwide",
-    "meaning": "a. 全球的；遍及世界的",
+    "meaning": "adj. 全球的；遍及世界的",
     "example": "The retail giant launched an aggressive worldwide advertising campaign for its new product. (這家零售巨頭為新產品發起積極的全球廣告活動。)",
     "id": "中級-worldwide-a"
   },
@@ -450,7 +450,7 @@
   {
     "level": "多益1",
     "word": "exclusive",
-    "meaning": "a. 專屬的；獨有的",
+    "meaning": "adj. 專屬的；獨有的",
     "example": "The agency secured the exclusive rights to distribute the film in North America. (該機構獲得了這部電影在北美的獨家發行權。)",
     "id": "L6-exclusive-a"
   },
@@ -492,7 +492,7 @@
   {
     "level": "多益1",
     "word": "thorough",
-    "meaning": "a. 徹底的；周詳的",
+    "meaning": "adj. 徹底的；周詳的",
     "example": "The accountant conducted a thorough audit of the company’s financial records. (會計師對公司的財務記錄進行了徹底的稽核。)",
     "id": "L4-thorough-a"
   },
@@ -513,7 +513,7 @@
   {
     "level": "多益1",
     "word": "dental",
-    "meaning": "a. 牙科的；牙齒的",
+    "meaning": "adj. 牙科的；牙齒的",
     "example": "The company added dental coverage to the employee benefits package this year. (公司今年把牙科保障納入員工福利方案。)",
     "id": "多益1-dental-m1iqjsl8"
   },
@@ -555,7 +555,7 @@
   {
     "level": "多益1",
     "word": "productive",
-    "meaning": "a. 有效率的；有成效的",
+    "meaning": "adj. 有效率的；有成效的",
     "example": "The redesigned workspace helped staff remain productive during the busy seasonal period. (重新設計的工作空間讓員工在繁忙旺季仍能保持效率。)",
     "id": "多益1-productive-m160svuq"
   },
@@ -569,14 +569,14 @@
   {
     "level": "多益1",
     "word": "stack",
-    "meaning": "n / v. 一疊；一堆；堆疊；疊放",
+    "meaning": "n. 一疊；一堆\nv. 堆疊；疊放",
     "example": "Workers used a forklift to stack the heavy shipping pallets in the warehouse. (工人使用堆高機，將沉重的棧板堆放在倉庫中。)",
     "id": "L5-stack-n-v"
   },
   {
     "level": "多益1",
     "word": "delegate",
-    "meaning": "n / v. 代表；受派代表；委派；授權",
+    "meaning": "n. 代表；受派代表\nv. 委派；授權",
     "example": "The project manager decided to delegate the administrative tasks to the assistant. (專案經理決定將行政任務委託給助理。)",
     "id": "L5-delegate-v"
   },
@@ -688,7 +688,7 @@
   {
     "level": "多益1",
     "word": "defective",
-    "meaning": "a. 有缺陷的；瑕疵的",
+    "meaning": "adj. 有缺陷的；瑕疵的",
     "example": "Customers may return any defective appliance within thirty days for a full refund. (顧客可在三十天內退回任何有缺陷的家電並取得全額退款。)",
     "id": "多益1-defective-mdowqkn"
   },
@@ -730,14 +730,14 @@
   {
     "level": "多益1",
     "word": "urgent",
-    "meaning": "a. 緊急的；急迫的",
+    "meaning": "adj. 緊急的；急迫的",
     "example": "The human resources department issued an urgent notice regarding cybersecurity training. (人力資源部發布關於網路安全訓練的緊急通知。)",
     "id": "L4-urgent-a"
   },
   {
     "level": "多益1",
     "word": "annually",
-    "meaning": "ad. 每年；一年一次地",
+    "meaning": "adv. 每年；一年一次地",
     "example": "Employee performance evaluations are conducted annually. (員工績效評估每年進行一次。)",
     "id": "TOEIC-annually-ad"
   },
@@ -758,7 +758,7 @@
   {
     "level": "多益1",
     "word": "illogical",
-    "meaning": "a. 不合邏輯的；不合理的",
+    "meaning": "adj. 不合邏輯的；不合理的",
     "example": "It is illogical to expect sales to increase while cutting the marketing budget. (在削減行銷預算的同時期望銷售增加是不合邏輯的。)",
     "id": "TOEIC-illogical-a"
   },
@@ -779,7 +779,7 @@
   {
     "level": "多益1",
     "word": "accurately",
-    "meaning": "ad. 準確地；精確地",
+    "meaning": "adv. 準確地；精確地",
     "example": "Please enter each invoice number accurately to prevent delays in processing vendor payments. (請準確輸入每個發票號碼，以免延誤供應商付款處理。)",
     "id": "多益1-accurately-mdt8ypx"
   },
@@ -891,7 +891,7 @@
   {
     "level": "多益1",
     "word": "optional",
-    "meaning": "a. 可選擇的；非必須的",
+    "meaning": "adj. 可選擇的；非必須的",
     "example": "Attendance at the additional software workshop is optional for employees who completed the basic course. (已完成基礎課程的員工可自行選擇是否參加額外的軟體研習會。)",
     "id": "多益1-optional-m14t067s"
   },
@@ -905,14 +905,14 @@
   {
     "level": "多益1",
     "word": "polite",
-    "meaning": "a. 有禮貌的；客氣的",
+    "meaning": "adj. 有禮貌的；客氣的",
     "example": "It is important to remain polite and professional when dealing with angry clients. (與憤怒的客戶打交道時，保持禮貌和專業非常重要。)",
     "id": "L2-polite-a"
   },
   {
     "level": "多益1",
     "word": "protective",
-    "meaning": "a. 防護的；保護用的",
+    "meaning": "adj. 防護的；保護用的",
     "example": "Workers must wear protective gloves when handling cleaning chemicals in the storage room. (在儲藏室處理清潔化學品時，工作人員必須戴上防護手套。)",
     "id": "多益1-protective-mi9xpiq"
   },
@@ -968,7 +968,7 @@
   {
     "level": "多益1",
     "word": "casual",
-    "meaning": "a. 非正式的；輕便的",
+    "meaning": "adj. 非正式的；輕便的",
     "example": "The company permits casual clothing on Fridays as long as employees meet clients professionally. (公司允許員工週五穿著休閒服，只要接待客戶時仍保持專業。)",
     "id": "多益1-casual-m1nywrq1"
   },
@@ -1017,7 +1017,7 @@
   {
     "level": "多益1",
     "word": "promptly",
-    "meaning": "ad. 迅速地；準時地",
+    "meaning": "adv. 迅速地；準時地",
     "example": "Please respond promptly to the supplier's request so the shipment can leave today. (請迅速回覆供應商的要求，讓貨物今天能夠出發。)",
     "id": "多益1-promptly-mzvdkfz"
   },
@@ -1045,7 +1045,7 @@
   {
     "level": "多益1",
     "word": "cumulative",
-    "meaning": "a. 累積的；累計的",
+    "meaning": "adj. 累積的；累計的",
     "example": "The cumulative effect of several small delays pushed the product launch into the following month. (幾次小幅延誤的累積影響，讓產品上市延至下個月。)",
     "id": "多益1-cumulative-m1lnmoty"
   },
@@ -1080,7 +1080,7 @@
   {
     "level": "多益1",
     "word": "knowledgeable",
-    "meaning": "a. 知識豐富的；博學的",
+    "meaning": "adj. 知識豐富的；博學的",
     "example": "The customer support representative is highly knowledgeable about our products. (客服代表非常熟悉我們的產品。)",
     "id": "L5-knowledgeable-a"
   },
@@ -1094,7 +1094,7 @@
   {
     "level": "多益1",
     "word": "overdue",
-    "meaning": "a. 逾期的；過期未交的",
+    "meaning": "adj. 逾期的；過期未交的",
     "example": "The overdue invoice must be paid before the supplier processes the next shipment. (逾期的發票必須先付款，供應商才會處理下一批貨物。)",
     "id": "多益1-overdue-muk9lr5"
   },
@@ -1206,21 +1206,21 @@
   {
     "level": "多益1",
     "word": "definite",
-    "meaning": "a. 明確的；確定的",
+    "meaning": "adj. 明確的；確定的",
     "example": "We need a definite answer from the supplier before we can finalize the production schedule. (我們需要供應商的明確答覆才能最終確定生產計畫。)",
     "id": "L4-definite-a"
   },
   {
     "level": "多益1",
     "word": "economical",
-    "meaning": "a. 經濟實惠的；節省的",
+    "meaning": "adj. 經濟實惠的；節省的",
     "example": "Bulk purchasing is often the most economical option for office supplies. (大量採購通常是辦公用品最經濟的選擇。)",
     "id": "L4-economical-a"
   },
   {
     "level": "多益1",
     "word": "efficiently",
-    "meaning": "ad. 有效率地；高效地",
+    "meaning": "adv. 有效率地；高效地",
     "example": "The revised filing system allows staff to retrieve archived invoices more efficiently. (修訂後的歸檔系統讓員工能更有效率地取回已存檔的發票。)",
     "id": "多益1-efficiently-mppvoj1"
   },
@@ -1241,7 +1241,7 @@
   {
     "level": "多益1",
     "word": "generous",
-    "meaning": "a. 慷慨的；大方的",
+    "meaning": "adj. 慷慨的；大方的",
     "example": "The firm offered a generous severance package to all employees affected by the downsizing. (該公司向所有受裁員影響的員工提供了豐厚的遣散費。)",
     "id": "L2-generous-a"
   },
@@ -1269,7 +1269,7 @@
   {
     "level": "多益1",
     "word": "profitable",
-    "meaning": "a. 有利潤的；有獲利的",
+    "meaning": "adj. 有利潤的；有獲利的",
     "example": "Investing in semiconductor technology proved to be a highly profitable venture for the firm. (投資半導體技術證明是公司一項獲利豐厚的投資。)",
     "id": "L4-profitable-a"
   },
@@ -1297,7 +1297,7 @@
   {
     "level": "多益1",
     "word": "vegetarian",
-    "meaning": "n / a. 素食者；素食的；不含肉類的",
+    "meaning": "n. 素食者\nadj. 素食的；不含肉類的",
     "example": "The restaurant updated its lunch menu to include a premium vegetarian meal option. (餐廳更新了午餐菜單，並添加了優質素食餐點。)",
     "id": "L4-vegetarian-n"
   },
@@ -1325,7 +1325,7 @@
   {
     "level": "多益1",
     "word": "confidential",
-    "meaning": "a. 機密的；保密的",
+    "meaning": "adj. 機密的；保密的",
     "example": "All salary negotiations must remain strictly confidential. (所有薪資談判必須嚴格保密。)",
     "id": "L6-confidential-a"
   },
@@ -1339,14 +1339,14 @@
   {
     "level": "多益1",
     "word": "realistic",
-    "meaning": "a. 實際的；切實可行的",
+    "meaning": "adj. 實際的；切實可行的",
     "example": "The project manager set a realistic deadline after consulting every department involved. (專案經理諮詢所有相關部門後，訂定了切實可行的期限。)",
     "id": "多益1-realistic-m1is2i9o"
   },
   {
     "level": "多益1",
     "word": "thoroughly",
-    "meaning": "ad. 徹底地；仔細地",
+    "meaning": "adv. 徹底地；仔細地",
     "example": "Before signing, the legal team thoroughly reviewed every clause in the supplier agreement. (簽署前，法務團隊仔細審閱了供應商合約的每一條款。)",
     "id": "多益1-thoroughly-mmqu8b1"
   },
@@ -1367,7 +1367,7 @@
   {
     "level": "多益1",
     "word": "windy",
-    "meaning": "a. 多風的；風大的",
+    "meaning": "adj. 多風的；風大的",
     "example": "The rooftop reception was moved indoors because the forecast predicted windy conditions after sunset. (預報指出日落後風勢較強，因此屋頂招待會改到室內舉行。)",
     "id": "多益1-windy-m1rpp4yo"
   },
@@ -1409,7 +1409,7 @@
   {
     "level": "多益1",
     "word": "loyal",
-    "meaning": "a. 忠誠的；忠實的",
+    "meaning": "adj. 忠誠的；忠實的",
     "example": "Exceptional service helps build a base of loyal customers who return frequently. (卓越的服務有助於建立經常光顧的忠實客戶群。)",
     "id": "L4-loyal-a"
   },
@@ -1451,7 +1451,7 @@
   {
     "level": "多益1",
     "word": "spacious",
-    "meaning": "a. 寬敞的；空間大的",
+    "meaning": "adj. 寬敞的；空間大的",
     "example": "The spacious training room comfortably accommodates thirty participants and their presentation materials. (寬敞的訓練室可舒適地容納三十位參與者及其簡報資料。)",
     "id": "多益1-spacious-m14lx7j3"
   },
@@ -1528,14 +1528,14 @@
   {
     "level": "多益1",
     "word": "wireless",
-    "meaning": "a. 無線的；無線網路的",
+    "meaning": "adj. 無線的；無線網路的",
     "example": "The conference room has wireless internet access for visiting clients and remote presenters. (會議室提供無線網路，供來訪客戶和遠端簡報者使用。)",
     "id": "多益1-wireless-m1sa1rb2"
   },
   {
     "level": "多益1",
     "word": "yearly",
-    "meaning": "a. 每年的；一年一次的",
+    "meaning": "adj. 每年的；一年一次的",
     "example": "The company tracks its net retail revenue growth on a yearly basis to measure stability. (該公司每年追蹤其淨零售營收成長以衡量穩定性。)",
     "id": "L4-yearly-a-ad"
   },
@@ -1591,7 +1591,7 @@
   {
     "level": "多益1",
     "word": "hourly",
-    "meaning": "a. 按小時計算的；每小時的",
+    "meaning": "adj. 按小時計算的；每小時的",
     "example": "The warehouse staff receives an hourly wage plus overtime pay during peak seasons. (倉庫員工領時薪，旺季另計加班費。)",
     "id": "L3-hourly-a-ad"
   },
@@ -1605,14 +1605,14 @@
   {
     "level": "多益1",
     "word": "mandatory",
-    "meaning": "a. 強制的；義務性的",
+    "meaning": "adj. 強制的；義務性的",
     "example": "Attendance at the data security workshop is mandatory for all employees who handle customer records. (所有處理客戶紀錄的員工都必須參加資料安全研習會。)",
     "id": "多益1-mandatory-ml1rlqb"
   },
   {
     "level": "多益1",
     "word": "mechanical",
-    "meaning": "a. 機械的；機械設備的",
+    "meaning": "adj. 機械的；機械設備的",
     "example": "A mechanical problem delayed the elevator inspection until the replacement parts arrived. (機械故障使電梯檢查延後，直到替換零件送達為止。)",
     "id": "多益1-mechanical-m1csgf3"
   },
@@ -1626,21 +1626,21 @@
   {
     "level": "多益1",
     "word": "promotional",
-    "meaning": "a. 促銷的；宣傳的",
+    "meaning": "adj. 促銷的；宣傳的",
     "example": "The marketing team designed a promotional leaflet to distribute at the trade expo. (行銷團隊設計了一份宣傳單張，在貿易博覽會上分發。)",
     "id": "TOEIC-promotional-a"
   },
   {
     "level": "多益1",
     "word": "quarterly",
-    "meaning": "a. 每季一次的；每季度的",
+    "meaning": "adj. 每季一次的；每季度的",
     "example": "The executive board meets on a quarterly basis to review company performance metrics. (執行董事會每季舉行一次會議，審查公司績效指標。)",
     "id": "中高級-quarterly-a-ad"
   },
   {
     "level": "多益1",
     "word": "residential",
-    "meaning": "a. 住宅的；居住用的",
+    "meaning": "adj. 住宅的；居住用的",
     "example": "The real estate developer plans to build a modern residential complex near downtown. (房地產開發商計畫在市中心附近建造一座現代化的住宅區。)",
     "id": "L6-residential-a"
   },
@@ -1661,7 +1661,7 @@
   {
     "level": "多益1",
     "word": "temporarily",
-    "meaning": "ad. 暫時地；臨時地",
+    "meaning": "adv. 暫時地；臨時地",
     "example": "The reception desk will operate temporarily from the second floor during lobby renovations. (大廳整修期間，接待櫃檯將暫時改在二樓營運。)",
     "id": "多益1-temporarily-m1mif2k4"
   },
@@ -1675,21 +1675,21 @@
   {
     "level": "多益1",
     "word": "unattended",
-    "meaning": "a. 無人看管的；未照料的",
+    "meaning": "adj. 無人看管的；未照料的",
     "example": "Please report any unattended package near the station entrance to security immediately. (請立即向保全通報車站入口附近任何無人看管的包裹。)",
     "id": "多益1-unattended-m1xgm61a"
   },
   {
     "level": "多益1",
     "word": "accessible",
-    "meaning": "a. 可進入的；無障礙的",
+    "meaning": "adj. 可進入的；無障礙的",
     "example": "The online database is easily accessible to employees working remotely. (遠端工作的員工可以輕鬆存取線上資料庫。)",
     "id": "L6-accessible-a"
   },
   {
     "level": "多益1",
     "word": "afterward",
-    "meaning": "ad. 之後；後來",
+    "meaning": "adv. 之後；後來",
     "example": "The committee reviewed the proposal and met afterward to discuss implementation. (委員會審查提案後，隨即開會討論執行情形。)",
     "id": "L3-afterward-ad"
   },
@@ -1710,7 +1710,7 @@
   {
     "level": "多益1",
     "word": "automatic",
-    "meaning": "a. 自動的；自動化的",
+    "meaning": "adj. 自動的；自動化的",
     "example": "The system generates automatic notifications when orders are processed. (處理訂單時，系統會自動產生通知。)",
     "id": "L3-automatic-a"
   },
@@ -1752,7 +1752,7 @@
   {
     "level": "多益1",
     "word": "durable",
-    "meaning": "a. 耐用的；持久的",
+    "meaning": "adj. 耐用的；持久的",
     "example": "The manufacturer uses durable materials to ensure the machinery lasts for years. (製造商使用耐用材料來確保機器使用壽命多年。)",
     "id": "L4-durable-a"
   },
@@ -1780,7 +1780,7 @@
   {
     "level": "多益1",
     "word": "outdated",
-    "meaning": "a. 過時的；老舊的",
+    "meaning": "adj. 過時的；老舊的",
     "example": "The outdated brochure lists prices that no longer match the company's current service plans. (過時的簡介列出的價格已不符合公司目前的服務方案。)",
     "id": "多益1-outdated-m7bvrv4"
   },
@@ -1801,7 +1801,7 @@
   {
     "level": "多益1",
     "word": "prospective",
-    "meaning": "a. 預期的；潛在的",
+    "meaning": "adj. 預期的；潛在的",
     "example": "The company invited prospective suppliers to submit proposals for the upcoming renovation project. (公司邀請潛在供應商為即將進行的翻修專案提交提案。)",
     "id": "多益1-prospective-m1w2wl3l"
   },
@@ -1815,7 +1815,7 @@
   {
     "level": "多益1",
     "word": "strictly",
-    "meaning": "ad. 嚴格地；完全地",
+    "meaning": "adv. 嚴格地；完全地",
     "example": "Visitors are strictly prohibited from photographing confidential records in the archive room. (訪客嚴禁在檔案室拍攝機密紀錄。)",
     "id": "多益1-strictly-m1b7lkld"
   },
@@ -1850,7 +1850,7 @@
   {
     "level": "多益1",
     "word": "anytime",
-    "meaning": "ad. 任何時候；隨時",
+    "meaning": "adv. 任何時候；隨時",
     "example": "You may contact the travel desk anytime if your flight details change unexpectedly. (如果航班資訊突然變更，你可以隨時聯絡差旅櫃檯。)",
     "id": "多益1-anytime-mcgjksk"
   },
@@ -1885,7 +1885,7 @@
   {
     "level": "多益1",
     "word": "costly",
-    "meaning": "a. 昂貴的；代價高的",
+    "meaning": "adj. 昂貴的；代價高的",
     "example": "A costly mistake in the inventory records forced the company to delay its quarterly report. (庫存紀錄中的昂貴錯誤迫使公司延後發布季度報告。)",
     "id": "多益1-costly-m468wx7"
   },
@@ -1920,7 +1920,7 @@
   {
     "level": "多益1",
     "word": "lengthy",
-    "meaning": "a. 冗長的；耗時的",
+    "meaning": "adj. 冗長的；耗時的",
     "example": "The lengthy approval process delayed installation of the new security equipment by several weeks. (冗長的核准流程讓新保全設備的安裝延後了好幾週。)",
     "id": "多益1-lengthy-m60mkyq"
   },
@@ -1997,7 +1997,7 @@
   {
     "level": "多益1",
     "word": "unfamiliar",
-    "meaning": "a. 不熟悉的；陌生的",
+    "meaning": "adj. 不熟悉的；陌生的",
     "example": "The new accounting software may seem unfamiliar, so the trainer scheduled an additional demonstration. (新的會計軟體可能看起來陌生，因此訓練講師安排了額外示範。)",
     "id": "多益1-unfamiliar-m5pq86b"
   },
@@ -2011,14 +2011,14 @@
   {
     "level": "多益1",
     "word": "adjacent",
-    "meaning": "a. 鄰近的；毗連的",
+    "meaning": "adj. 鄰近的；毗連的",
     "example": "The conference center is adjacent to the hotel, allowing attendees to walk between both buildings. (會議中心與飯店相鄰，與會者可以步行往返兩棟建築。)",
     "id": "多益1-adjacent-m1f2uqn4"
   },
   {
     "level": "多益1",
     "word": "alternate",
-    "meaning": "a. 替代的；備用的",
+    "meaning": "adj. 替代的；備用的",
     "example": "An alternate route was arranged due to severe traffic congestion. (由於交通嚴重壅塞，我們安排了替代路線。)",
     "id": "L5-alternate-a-n"
   },
@@ -2039,7 +2039,7 @@
   {
     "level": "多益1",
     "word": "inexpensive",
-    "meaning": "a. 便宜的；價格不高的",
+    "meaning": "adj. 便宜的；價格不高的",
     "example": "The purchasing manager found an inexpensive supplier that could meet the required quality standards. (採購經理找到一家價格實惠且能符合品質標準的供應商。)",
     "id": "多益1-inexpensive-mvwrqjm"
   },
@@ -2102,7 +2102,7 @@
   {
     "level": "多益1",
     "word": "superior",
-    "meaning": "a. 較優的；品質較好的",
+    "meaning": "adj. 較優的；品質較好的",
     "example": "The university optical lenses are of superior quality compared to rival products. (與競爭對手的產品相比，大學光學鏡片具有卓越的品質。)",
     "id": "L3-superior-a"
   },
@@ -2130,14 +2130,14 @@
   {
     "level": "多益1",
     "word": "considerably",
-    "meaning": "ad. 相當地；大幅地",
+    "meaning": "adv. 相當地；大幅地",
     "example": "The updated booking system considerably reduced the time required to process customer reservations. (更新後的訂位系統大幅縮短了處理顧客預約所需的時間。)",
     "id": "多益1-considerably-m4me4ix"
   },
   {
     "level": "多益1",
     "word": "faulty",
-    "meaning": "a. 有缺陷的；不可靠的",
+    "meaning": "adj. 有缺陷的；不可靠的",
     "example": "Customers can return faulty merchandise within thirty days for a full refund. (客戶可以在三十天內退回有缺陷的商品並獲得全額退款。)",
     "id": "中級-faulty-a"
   },
@@ -2151,7 +2151,7 @@
   {
     "level": "多益1",
     "word": "informal",
-    "meaning": "a. 非正式的；輕鬆的",
+    "meaning": "adj. 非正式的；輕鬆的",
     "example": "The manager called an informal meeting over coffee to discuss the new project ideas. (經理一邊喝咖啡一邊召開非正式會議來討論新的專案想法。)",
     "id": "中級-informal-a"
   },
@@ -2200,7 +2200,7 @@
   {
     "level": "多益1",
     "word": "overhead",
-    "meaning": "a. 上方的；經常性開銷的",
+    "meaning": "adj. 上方的；經常性開銷的",
     "example": "The company moved to a smaller office to reduce its fixed overhead expenses. (該公司搬到了一個較小的辦公室，以減少固定管理費用。)",
     "id": "L6-overhead-n-a"
   },
@@ -2242,7 +2242,7 @@
   {
     "level": "多益1",
     "word": "unlimited",
-    "meaning": "a. 無限制的；無上限的",
+    "meaning": "adj. 無限制的；無上限的",
     "example": "A premium membership provides users with unlimited access to database records. (高級會員資格使使用者可以無限制地存取資料庫記錄。)",
     "id": "TOEIC-unlimited-a"
   },
@@ -2263,7 +2263,7 @@
   {
     "level": "多益1",
     "word": "alert",
-    "meaning": "a / n. 警覺的；留意的；警報；警示",
+    "meaning": "adj. 警覺的；留意的\nn. 警報；警示",
     "example": "Employees received an alert regarding the cybersecurity threat. (員工收到有關網路安全威脅的警報。)",
     "id": "L4-alert-v-n-a"
   },
@@ -2305,7 +2305,7 @@
   {
     "level": "多益1",
     "word": "enthusiastic",
-    "meaning": "a. 熱心的；熱情的",
+    "meaning": "adj. 熱心的；熱情的",
     "example": "The enthusiastic response from consumers exceeded our initial sales forecasts. (消費者的熱烈反應超出了我們最初的銷售預期。)",
     "id": "L5-enthusiastic-a"
   },
@@ -2319,14 +2319,14 @@
   {
     "level": "多益1",
     "word": "icy",
-    "meaning": "a. 結冰的；冰冷的",
+    "meaning": "adj. 結冰的；冰冷的",
     "example": "Road conditions were icy after the winter storm, delaying the delivery trucks. (冬季暴風雨過後，道路結冰，導致送貨卡車延誤。)",
     "id": "L3-icy-a"
   },
   {
     "level": "多益1",
     "word": "irregular",
-    "meaning": "a. 不規則的；不固定的",
+    "meaning": "adj. 不規則的；不固定的",
     "example": "The irregular delivery schedule made it difficult for the store to plan its inventory. (不規則的配送時程讓商店難以規劃庫存。)",
     "id": "多益1-irregular-m1hh15tf"
   },
@@ -2340,7 +2340,7 @@
   {
     "level": "多益1",
     "word": "managerial",
-    "meaning": "a. 管理的；主管層的",
+    "meaning": "adj. 管理的；主管層的",
     "example": "The job candidate possesses excellent managerial and leadership skills. (該職務候選人具有出色的管理和領導能力。)",
     "id": "TOEIC-managerial-a"
   },
@@ -2410,7 +2410,7 @@
   {
     "level": "多益1",
     "word": "steadily",
-    "meaning": "ad. 穩定地；持續地",
+    "meaning": "adv. 穩定地；持續地",
     "example": "Online orders increased steadily after the retailer expanded delivery service to nearby suburbs. (零售商將配送服務擴展到附近郊區後，線上訂單穩定成長。)",
     "id": "多益1-steadily-m1y2u5wp"
   },
@@ -2424,7 +2424,7 @@
   {
     "level": "多益1",
     "word": "vacant",
-    "meaning": "a. 空缺的；空著的",
+    "meaning": "adj. 空缺的；空著的",
     "example": "The office space remained vacant for six months before a commercial tenant signed the lease. (在商業租戶簽署租約之前，辦公空間已空置六個月。)",
     "id": "L3-vacant-a"
   },
@@ -2473,7 +2473,7 @@
   {
     "level": "多益1",
     "word": "downstairs",
-    "meaning": "ad. 在樓下；往樓下",
+    "meaning": "adv. 在樓下；往樓下",
     "example": "The human resources office is downstairs, directly across from the main reception desk. (人力資源辦公室在樓下，就在主要接待櫃檯的正對面。)",
     "id": "多益1-downstairs-mj9bnfh"
   },
@@ -2508,7 +2508,7 @@
   {
     "level": "多益1",
     "word": "optimistic",
-    "meaning": "a. 樂觀的；抱有希望的",
+    "meaning": "adj. 樂觀的；抱有希望的",
     "example": "The sales director remained optimistic about meeting the annual target despite a slow start. (儘管開局緩慢，業務主管仍樂觀地認為能達成年目標。)",
     "id": "多益1-optimistic-mhk0oh4"
   },
@@ -2550,21 +2550,21 @@
   {
     "level": "多益1",
     "word": "unsure",
-    "meaning": "a. 不確定的；沒有把握的",
+    "meaning": "adj. 不確定的；沒有把握的",
     "example": "New employees were unsure which form to submit, so the coordinator clarified the procedure. (新進員工不確定該提交哪份表格，因此協調人員說明了程序。)",
     "id": "多益1-unsure-m55ape"
   },
   {
     "level": "多益1",
     "word": "upstairs",
-    "meaning": "ad. 在樓上；往樓上",
+    "meaning": "adv. 在樓上；往樓上",
     "example": "The training room is upstairs, beside the meeting suite and across from the elevators. (訓練室在樓上，位於會議套房旁、電梯對面。)",
     "id": "多益1-upstairs-mj8ruu3"
   },
   {
     "level": "多益1",
     "word": "verbal",
-    "meaning": "a. 口頭的；言語上的",
+    "meaning": "adj. 口頭的；言語上的",
     "example": "The supervisor gave verbal instructions before distributing the detailed written maintenance checklist. (主管在發放詳細的書面維護清單前，先以口頭方式說明指示。)",
     "id": "多益1-verbal-m1a8s595"
   },
@@ -2592,7 +2592,7 @@
   {
     "level": "多益1",
     "word": "absent",
-    "meaning": "a. 缺席的；不在場的",
+    "meaning": "adj. 缺席的；不在場的",
     "example": "Several key decision-makers were absent from the annual strategy meeting. (多名關鍵決策者缺席年度策略會議。)",
     "id": "L2-absent-a"
   },
@@ -2634,7 +2634,7 @@
   {
     "level": "多益1",
     "word": "colorful",
-    "meaning": "a. 色彩鮮豔的；多彩的",
+    "meaning": "adj. 色彩鮮豔的；多彩的",
     "example": "Colorful banners decorated the entrance to welcome participants at the international trade exhibition. (色彩鮮豔的布條裝飾著入口，歡迎參加國際貿易展的人士。)",
     "id": "多益1-colorful-m1gk87mp"
   },
@@ -2655,7 +2655,7 @@
   {
     "level": "多益1",
     "word": "editorial",
-    "meaning": "a / n. 編輯的；社論的；社論；社評",
+    "meaning": "adj. 編輯的；社論的\nn. 社論；社評",
     "example": "The magazine’s latest editorial discusses the future of remote work trends. (該雜誌的最新社論討論了遠距工作趨勢的未來。)",
     "id": "L6-editorial-n-a"
   },
@@ -2690,7 +2690,7 @@
   {
     "level": "多益1",
     "word": "inappropriate",
-    "meaning": "a. 不適當的；不合宜的",
+    "meaning": "adj. 不適當的；不合宜的",
     "example": "The manager removed an inappropriate comment from the public notice before printing copies. (經理在印製公告前，刪除了其中不適當的評論。)",
     "id": "多益1-inappropriate-m1c8jfpw"
   },
@@ -2732,28 +2732,28 @@
   {
     "level": "多益1",
     "word": "pharmaceutical",
-    "meaning": "a. 製藥的；藥品的",
+    "meaning": "adj. 製藥的；藥品的",
     "example": "The pharmaceutical company opened a distribution office near the region's largest medical center. (這家製藥公司在該地區最大的醫療中心附近設立了配送辦公室。)",
     "id": "多益1-pharmaceutical-m3zsm89"
   },
   {
     "level": "多益1",
     "word": "plausible",
-    "meaning": "a. 看似合理的；可信的",
+    "meaning": "adj. 看似合理的；可信的",
     "example": "The consultant offered a plausible explanation for the unexpected increase in shipping expenses. (顧問對運費意外增加提出了一個看似合理的解釋。)",
     "id": "多益1-plausible-mcwrr0s"
   },
   {
     "level": "多益1",
     "word": "premium",
-    "meaning": "n / a. 保險費；溢價；高級的；優質的",
+    "meaning": "n. 保險費；溢價\nadj. 高級的；優質的",
     "example": "The company offers premium support to its long-term clients. (公司為長期客戶提供優質支援。)",
     "id": "中高級-premium-a-n"
   },
   {
     "level": "多益1",
     "word": "safely",
-    "meaning": "ad. 安全地；平安地",
+    "meaning": "adv. 安全地；平安地",
     "example": "All confidential files were safely transferred to the new server before the old system shut down. (所有機密檔案都在舊系統關閉前安全轉移至新伺服器。)",
     "id": "多益1-safely-mmu4mj4"
   },
@@ -2781,14 +2781,14 @@
   {
     "level": "多益1",
     "word": "unexpected",
-    "meaning": "a. 意外的；出乎意料的",
+    "meaning": "adj. 意外的；出乎意料的",
     "example": "An unexpected storm forced the organizers to postpone the outdoor product demonstration. (一場意外的暴風雨迫使主辦人員延後戶外產品示範。)",
     "id": "多益1-unexpected-meh0vyg"
   },
   {
     "level": "多益1",
     "word": "unspecified",
-    "meaning": "a. 未指明的；未具體說明的",
+    "meaning": "adj. 未指明的；未具體說明的",
     "example": "The application was returned because the delivery date and preferred contact method were unspecified. (申請表被退回，因為配送日期和偏好的聯絡方式都未指明。)",
     "id": "多益1-unspecified-m1x8k58h"
   },
@@ -2802,7 +2802,7 @@
   {
     "level": "多益1",
     "word": "bankrupt",
-    "meaning": "a. 破產的；無力償債的",
+    "meaning": "adj. 破產的；無力償債的",
     "example": "Several retailers went bankrupt during the economic recession. (經濟衰退期間，多家零售商破產。)",
     "id": "L4-bankrupt-a-v-n"
   },
@@ -2844,7 +2844,7 @@
   {
     "level": "多益1",
     "word": "eager",
-    "meaning": "a. 渴望的；熱切的",
+    "meaning": "adj. 渴望的；熱切的",
     "example": "The marketing team is eager to launch the new promotional campaign. (行銷團隊迫不及待地推出新的促銷活動。)",
     "id": "L3-eager-a"
   },
@@ -2872,14 +2872,14 @@
   {
     "level": "多益1",
     "word": "harmful",
-    "meaning": "a. 有害的；造成損害的",
+    "meaning": "adj. 有害的；造成損害的",
     "example": "Disposing of untreated chemical solvents into local rivers is highly harmful to the environment. (將未經處理的化學溶劑排入當地河流對環境造成極大危害。)",
     "id": "L3-harmful-a"
   },
   {
     "level": "多益1",
     "word": "informative",
-    "meaning": "a. 提供資訊的；有教育性的",
+    "meaning": "adj. 提供資訊的；有教育性的",
     "example": "The keynote speech was highly informative and provided valuable market insights. (主題演講內容豐富，提供了寶貴的市場見解。)",
     "id": "L4-informative-a"
   },
@@ -2900,7 +2900,7 @@
   {
     "level": "多益1",
     "word": "locally",
-    "meaning": "ad. 在當地；本地地",
+    "meaning": "adv. 在當地；本地地",
     "example": "The restaurant sources vegetables locally to support nearby farms and reduce transportation costs. (這家餐廳在當地採購蔬菜，以支持附近農場並降低運輸成本。)",
     "id": "多益1-locally-melmitv"
   },
@@ -2956,7 +2956,7 @@
   {
     "level": "多益1",
     "word": "recreational",
-    "meaning": "a. 休閒的；娛樂的",
+    "meaning": "adj. 休閒的；娛樂的",
     "example": "The hotel offers recreational activities for guests who stay through the weekend. (飯店為留宿至週末的旅客提供休閒活動。)",
     "id": "多益1-recreational-m1j02mqt"
   },
@@ -2977,21 +2977,21 @@
   {
     "level": "多益1",
     "word": "satisfactory",
-    "meaning": "a. 令人滿意的；合格的",
+    "meaning": "adj. 令人滿意的；合格的",
     "example": "The inspection report confirmed that the repairs were satisfactory and met all safety requirements. (檢查報告確認修繕結果令人滿意，並符合所有安全要求。)",
     "id": "多益1-satisfactory-mey0dhv"
   },
   {
     "level": "多益1",
     "word": "seasonal",
-    "meaning": "a. 季節性的；應季的",
+    "meaning": "adj. 季節性的；應季的",
     "example": "Seasonal staff will help the retailer manage increased customer traffic during the holiday period. (季節性員工將協助零售商應付假期期間增加的顧客人流。)",
     "id": "多益1-seasonal-m14dcxjd"
   },
   {
     "level": "多益1",
     "word": "separately",
-    "meaning": "ad. 分別地；各自地",
+    "meaning": "adv. 分別地；各自地",
     "example": "Please submit travel receipts separately from meal expenses to simplify the monthly reimbursement review. (請將差旅收據與餐費分開提交，以簡化每月報銷審查。)",
     "id": "多益1-separately-mtmos3k"
   },
@@ -3005,14 +3005,14 @@
   {
     "level": "多益1",
     "word": "unnecessary",
-    "meaning": "a. 不必要的；多餘的",
+    "meaning": "adj. 不必要的；多餘的",
     "example": "Cutting the marketing budget at this stage would be highly unnecessary and risky. (在這個階段削減行銷預算是非常不必要和有風險的。)",
     "id": "TOEIC-unnecessary-a"
   },
   {
     "level": "多益1",
     "word": "accordingly",
-    "meaning": "ad. 因此；相應地",
+    "meaning": "adv. 因此；相應地",
     "example": "The supplier changed its delivery route and adjusted the estimated arrival time accordingly. (供應商更改了配送路線，並相應調整預計抵達時間。)",
     "id": "多益1-accordingly-m17v6lfs"
   },
@@ -3026,7 +3026,7 @@
   {
     "level": "多益1",
     "word": "applicable",
-    "meaning": "a. 適用的；適用於……的",
+    "meaning": "adj. 適用的；適用於……的",
     "example": "The discount is applicable only to orders placed through the company's online store. (這項折扣僅適用於透過公司線上商店下的訂單。)",
     "id": "多益1-applicable-mjeydnh"
   },
@@ -3054,14 +3054,14 @@
   {
     "level": "多益2",
     "word": "beforehand",
-    "meaning": "ad. 事先；預先",
+    "meaning": "adv. 事先；預先",
     "example": "Please send the updated agenda to all participants beforehand so they can prepare questions. (請事先將更新後的議程寄給所有與會者，讓他們準備問題。)",
     "id": "多益2-beforehand-myacv2u"
   },
   {
     "level": "多益2",
     "word": "culinary",
-    "meaning": "a. 烹飪的；料理的",
+    "meaning": "adj. 烹飪的；料理的",
     "example": "The hotel hired a culinary instructor to lead cooking demonstrations during the food festival. (飯店聘請烹飪講師在美食節期間帶領料理示範。)",
     "id": "多益2-culinary-m71nj5b"
   },
@@ -3089,21 +3089,21 @@
   {
     "level": "多益2",
     "word": "elegant",
-    "meaning": "a. 優雅的；雅致的",
+    "meaning": "adj. 優雅的；雅致的",
     "example": "The luxury hotel is famous for its elegant lobby and exceptional service. (這家豪華飯店以其典雅的大廳和卓越的服務而聞名。)",
     "id": "L4-elegant-a"
   },
   {
     "level": "多益2",
     "word": "excessive",
-    "meaning": "a. 過度的；過多的",
+    "meaning": "adj. 過度的；過多的",
     "example": "Excessive packaging increases shipping costs and creates unnecessary waste for the retailer. (過度包裝會增加運費，並為零售商製造不必要的廢棄物。)",
     "id": "多益2-excessive-m8grp49"
   },
   {
     "level": "多益2",
     "word": "generic",
-    "meaning": "a. 通用的；非品牌的",
+    "meaning": "adj. 通用的；非品牌的",
     "example": "The purchasing manager selected a generic replacement part that met the same safety specifications. (採購經理選擇了符合相同安全規格的通用替換零件。)",
     "id": "多益2-generic-mi3xbwg"
   },
@@ -3138,21 +3138,21 @@
   {
     "level": "多益2",
     "word": "mild",
-    "meaning": "a. 溫和的；輕微的",
+    "meaning": "adj. 溫和的；輕微的",
     "example": "The region experienced a mild winter, which reduced overall factory heating costs. (該地區經歷了溫和的冬季，降低了工廠的整體供暖成本。)",
     "id": "L4-mild-a"
   },
   {
     "level": "多益2",
     "word": "ongoing",
-    "meaning": "a. 持續進行的；仍在進行的",
+    "meaning": "adj. 持續進行的；仍在進行的",
     "example": "The ongoing renovation will affect access to the east entrance throughout the coming week. (持續進行的翻修工程將影響接下來一週東側入口的通行。)",
     "id": "多益2-ongoing-m1ry4p2r"
   },
   {
     "level": "多益2",
     "word": "periodically",
-    "meaning": "ad. 定期地；週期性地",
+    "meaning": "adv. 定期地；週期性地",
     "example": "The facilities manager periodically checks emergency lighting throughout the office building after each maintenance cycle. (設施經理在每次維護週期後，定期檢查整棟辦公大樓的緊急照明。)",
     "id": "多益2-periodically-m1aio7af"
   },
@@ -3243,7 +3243,7 @@
   {
     "level": "多益2",
     "word": "aboard",
-    "meaning": "ad. 在船上；在交通工具上",
+    "meaning": "adv. 在船上；在交通工具上",
     "example": "Passengers are requested to remain aboard the aircraft until further instructions are given. (請乘客留在飛機上，直到另行通知。)",
     "id": "L3-aboard-ad-prep"
   },
@@ -3264,7 +3264,7 @@
   {
     "level": "多益2",
     "word": "alternatively",
-    "meaning": "ad. 或者；另外一種選擇",
+    "meaning": "adv. 或者；另外一種選擇",
     "example": "You can submit the application online; alternatively, printed copies are available at reception. (你可以線上提交申請；或者，也可以在接待處索取紙本。)",
     "id": "多益2-alternatively-m1cj9zy1"
   },
@@ -3348,7 +3348,7 @@
   {
     "level": "多益2",
     "word": "consistently",
-    "meaning": "ad. 一貫地；持續穩定地",
+    "meaning": "adv. 一貫地；持續穩定地",
     "example": "Our products consistently receive high ratings for durability from independent reviewers. (我們的產品在耐用性方面始終獲得獨立評論家的高度評價。)",
     "id": "TOEIC-consistently-ad"
   },
@@ -3369,7 +3369,7 @@
   {
     "level": "多益2",
     "word": "descriptive",
-    "meaning": "a. 描述性的；描寫的",
+    "meaning": "adj. 描述性的；描寫的",
     "example": "The report includes descriptive notes explaining each stage of the equipment installation. (報告中附有描述性註記，說明設備安裝的各個階段。)",
     "id": "多益2-descriptive-mnsaeq3"
   },
@@ -3397,7 +3397,7 @@
   {
     "level": "多益2",
     "word": "exceptional",
-    "meaning": "a. 傑出的；異常出色的",
+    "meaning": "adj. 傑出的；異常出色的",
     "example": "The exceptional service provided by the hotel staff earned praise from international conference guests. (飯店員工提供的傑出服務獲得了國際會議旅客的稱讚。)",
     "id": "多益2-exceptional-mt90w4k"
   },
@@ -3460,14 +3460,14 @@
   {
     "level": "多益2",
     "word": "payable",
-    "meaning": "a. 應付的；到期應繳的",
+    "meaning": "adj. 應付的；到期應繳的",
     "example": "The accounts payable department is responsible for processing all vendor invoices. (應付帳款部門負責處理所有供應商發票。)",
     "id": "TOEIC-payable-a"
   },
   {
     "level": "多益2",
     "word": "preliminary",
-    "meaning": "a. 初步的；預備的",
+    "meaning": "adj. 初步的；預備的",
     "example": "The team shared preliminary findings with management before completing the full market analysis. (團隊在完成完整市場分析前，先向管理層分享了初步發現。)",
     "id": "多益2-preliminary-m1y00798"
   },
@@ -3488,7 +3488,7 @@
   {
     "level": "多益2",
     "word": "smoothly",
-    "meaning": "ad. 順利地；平穩地",
+    "meaning": "adv. 順利地；平穩地",
     "example": "The automated system allowed the transaction to proceed smoothly without any delay. (自動化系統使交易順利進行，沒有任何延誤。)",
     "id": "TOEIC-smoothly-ad"
   },
@@ -3523,7 +3523,7 @@
   {
     "level": "多益2",
     "word": "unavailable",
-    "meaning": "a. 無法取得的；不在的",
+    "meaning": "adj. 無法取得的；不在的",
     "example": "The meeting room is unavailable this afternoon because the maintenance crew is replacing its equipment. (由於維修人員正在更換設備，會議室今天下午無法使用。)",
     "id": "多益2-unavailable-m1eirnnh"
   },
@@ -3558,7 +3558,7 @@
   {
     "level": "多益2",
     "word": "ambitious",
-    "meaning": "a. 有抱負的；雄心勃勃的",
+    "meaning": "adj. 有抱負的；雄心勃勃的",
     "example": "The ambitious expansion plan requires additional funding and careful coordination between departments. (這項雄心勃勃的擴展計畫需要額外資金和部門間的謹慎協調。)",
     "id": "多益2-ambitious-m7lo986"
   },
@@ -3573,7 +3573,7 @@
     "level": "多益2",
     "word": "booth",
     "meaning": "n. 攤位；小隔間",
-    "example": "The company showcased its products at an exhibition booth. (該公司在展位上展示了其產品。)",
+    "example": "The company showcased its products at an exhibition booth. (這家公司在展覽攤位上展示自家產品。)",
     "id": "L5-booth-n"
   },
   {
@@ -3698,28 +3698,28 @@
   {
     "level": "多益2",
     "word": "ideally",
-    "meaning": "ad. 理想地；最好",
+    "meaning": "adv. 理想地；最好",
     "example": "Ideally, all department managers will review the revised budget before the planning meeting. (理想情況下，所有部門經理都會在規劃會議前審閱修訂後的預算。)",
     "id": "多益2-ideally-myyo6hh"
   },
   {
     "level": "多益2",
     "word": "inclusive",
-    "meaning": "a. 包含在內的；包容的",
+    "meaning": "adj. 包含在內的；包容的",
     "example": "The vacation package is fully inclusive of flights, hotel stays, and meals. (假期套餐完全包含航班、飯店住宿和餐飲。)",
     "id": "L6-inclusive-a"
   },
   {
     "level": "多益2",
     "word": "insufficient",
-    "meaning": "a. 不足的；不夠的",
+    "meaning": "adj. 不足的；不夠的",
     "example": "Insufficient staffing caused longer wait times at the customer service counter this week. (人手不足導致本週客服櫃檯的等候時間變長。)",
     "id": "多益2-insufficient-m17rtkxg"
   },
   {
     "level": "多益2",
     "word": "introductory",
-    "meaning": "a. 入門的；介紹性的",
+    "meaning": "adj. 入門的；介紹性的",
     "example": "The textbook includes an introductory chapter on basic microeconomic principles. (教科書包括有關基本微觀經濟學原理的介紹章節。)",
     "id": "TOEIC-introductory-a"
   },
@@ -3747,7 +3747,7 @@
   {
     "level": "多益2",
     "word": "noisy",
-    "meaning": "a. 吵鬧的；嘈雜的",
+    "meaning": "adj. 吵鬧的；嘈雜的",
     "example": "The noisy construction work made it difficult for staff to hear callers in the front office. (吵鬧的施工讓前台員工難以聽清來電者說話。)",
     "id": "多益2-noisy-mgpgxuv"
   },
@@ -3789,14 +3789,14 @@
   {
     "level": "多益2",
     "word": "portable",
-    "meaning": "a. 可攜式的；輕便的",
+    "meaning": "adj. 可攜式的；輕便的",
     "example": "The lightweight laptop is highly portable, making it ideal for remote workers. (這款輕巧的筆記型電腦方便攜帶，非常適合遠距工作者。)",
     "id": "L4-portable-a"
   },
   {
     "level": "多益2",
     "word": "punctual",
-    "meaning": "a. 準時的；守時的",
+    "meaning": "adj. 準時的；守時的",
     "example": "The punctual delivery driver arrived at the warehouse before the scheduled loading time. (守時的送貨司機在預定裝貨時間前抵達倉庫。)",
     "id": "多益2-punctual-msiddbb"
   },
@@ -3852,7 +3852,7 @@
   {
     "level": "多益2",
     "word": "specially",
-    "meaning": "ad. 特別地；專門地",
+    "meaning": "adv. 特別地；專門地",
     "example": "The conference room was specially designed to support presentations for large international groups. (這間會議室是特別設計來支援大型國際團體的簡報活動。)",
     "id": "多益2-specially-m1w6p6e9"
   },
@@ -3922,14 +3922,14 @@
   {
     "level": "多益2",
     "word": "asleep",
-    "meaning": "a. 睡著的；熟睡的",
+    "meaning": "adj. 睡著的；熟睡的",
     "example": "The overnight receptionist remained quiet while guests were asleep in nearby rooms. (鄰近客房的旅客熟睡時，夜班接待人員保持安靜。)",
     "id": "多益2-asleep-m1qcp6j9"
   },
   {
     "level": "多益2",
     "word": "authentic",
-    "meaning": "a. 真實的；正宗的",
+    "meaning": "adj. 真實的；正宗的",
     "example": "The restaurant serves authentic regional dishes prepared with ingredients from nearby farms. (這家餐廳使用附近農場的食材，供應正宗的地方料理。)",
     "id": "多益2-authentic-mg98436"
   },
@@ -3957,7 +3957,7 @@
   {
     "level": "多益2",
     "word": "compatible",
-    "meaning": "a. 相容的；相配的",
+    "meaning": "adj. 相容的；相配的",
     "example": "The software update is fully compatible with older operating systems. (該軟體更新與舊版作業系統完全相容。)",
     "id": "L6-compatible-a"
   },
@@ -3971,14 +3971,14 @@
   {
     "level": "多益2",
     "word": "conveniently",
-    "meaning": "ad. 方便地；便利地",
+    "meaning": "adv. 方便地；便利地",
     "example": "The hotel is conveniently located near the station and several popular business restaurants. (飯店位置便利，靠近車站和幾家熱門商務餐廳。)",
     "id": "多益2-conveniently-mse7bat"
   },
   {
     "level": "多益2",
     "word": "cosmetic",
-    "meaning": "a. 表面的；外觀上的",
+    "meaning": "adj. 表面的；外觀上的",
     "example": "The inspection found only cosmetic damage to the conference table, so repairs were unnecessary. (檢查只發現會議桌有外觀損傷，因此不需要維修。)",
     "id": "多益2-cosmetic-mn0l1v9"
   },
@@ -4020,7 +4020,7 @@
   {
     "level": "多益2",
     "word": "enjoyable",
-    "meaning": "a. 令人愉快的；有樂趣的",
+    "meaning": "adj. 令人愉快的；有樂趣的",
     "example": "The welcome dinner was enjoyable because colleagues shared stories and music from their home countries. (歡迎晚宴很愉快，同事們分享了來自家鄉的故事和音樂。)",
     "id": "多益2-enjoyable-m1wahv2h"
   },
@@ -4034,7 +4034,7 @@
   {
     "level": "多益2",
     "word": "favorable",
-    "meaning": "a. 有利的；令人滿意的",
+    "meaning": "adj. 有利的；令人滿意的",
     "example": "The company received favorable reviews from financial columnists for its quarterly report. (該公司的每季報告獲得了金融專欄作家的好評。)",
     "id": "L4-favorable-a"
   },
@@ -4076,14 +4076,14 @@
   {
     "level": "多益2",
     "word": "handy",
-    "meaning": "a. 方便的；容易使用的",
+    "meaning": "adj. 方便的；容易使用的",
     "example": "A handy checklist near the loading dock reminds staff which safety steps to complete. (裝卸區附近一張方便的檢查表提醒員工要完成哪些安全步驟。)",
     "id": "多益2-handy-m6f2hfo"
   },
   {
     "level": "多益2",
     "word": "hazardous",
-    "meaning": "a. 危險的；有害的",
+    "meaning": "adj. 危險的；有害的",
     "example": "The transport of hazardous waste materials is strictly regulated by environmental agencies. (危險廢棄物的運輸受到環保機構的嚴格監理。)",
     "id": "中高級-hazardous-a"
   },
@@ -4104,14 +4104,14 @@
   {
     "level": "多益2",
     "word": "influential",
-    "meaning": "a. 有影響力的；有勢力的",
+    "meaning": "adj. 有影響力的；有勢力的",
     "example": "An influential industry group recommended changes to the proposed transportation regulations to senior officials. (一個具影響力的產業團體向高階官員建議修改擬議中的交通法規。)",
     "id": "多益2-influential-m10jrjj1"
   },
   {
     "level": "多益2",
     "word": "nationwide",
-    "meaning": "ad. 全國各地；遍及全國",
+    "meaning": "adv. 全國各地；遍及全國",
     "example": "The retail giant launched a nationwide advertising campaign to promote its new product line. (這家零售巨頭發起了一場全國性的廣告活動來推廣其新產品線。)",
     "id": "中高級-nationwide-a-ad"
   },
@@ -4139,7 +4139,7 @@
   {
     "level": "多益2",
     "word": "postal",
-    "meaning": "a. 郵政的；郵寄的",
+    "meaning": "adj. 郵政的；郵寄的",
     "example": "The postal service announced longer delivery times for packages sent during the holiday period. (郵政服務宣布，假期期間寄出的包裹配送時間將會延長。)",
     "id": "多益2-postal-m1qy67kk"
   },
@@ -4167,7 +4167,7 @@
   {
     "level": "多益2",
     "word": "repeatedly",
-    "meaning": "ad. 反覆地；一再地",
+    "meaning": "adv. 反覆地；一再地",
     "example": "The customer repeatedly contacted support because the tracking information had not changed for days. (追蹤資訊好幾天沒有更新，顧客因此一再聯絡客服。)",
     "id": "多益2-repeatedly-m1ukppz3"
   },
@@ -4181,7 +4181,7 @@
   {
     "level": "多益2",
     "word": "silently",
-    "meaning": "ad. 安靜地；無聲地",
+    "meaning": "adv. 安靜地；無聲地",
     "example": "Visitors waited silently in the reception area while staff prepared the conference room. (員工準備會議室時，訪客安靜地在接待區等候。)",
     "id": "多益2-silently-m1d7isch"
   },
@@ -4216,7 +4216,7 @@
   {
     "level": "多益2",
     "word": "substantially",
-    "meaning": "ad. 大幅地；相當程度地",
+    "meaning": "adv. 大幅地；相當程度地",
     "example": "The revised shipping agreement substantially reduced costs for orders sent to remote offices. (修訂後的運送協議大幅降低寄往偏遠辦公室的訂單成本。)",
     "id": "多益2-substantially-mlnnu6m"
   },
@@ -4230,7 +4230,7 @@
   {
     "level": "多益2",
     "word": "tidy",
-    "meaning": "a. 整潔的；井然有序的",
+    "meaning": "adj. 整潔的；井然有序的",
     "example": "The office manager keeps the reception area tidy before important clients arrive for appointments. (重要客戶前來赴約前，辦公室經理會保持接待區整潔。)",
     "id": "多益2-tidy-maxkuxy"
   },
@@ -4251,7 +4251,7 @@
   {
     "level": "多益2",
     "word": "urgently",
-    "meaning": "ad. 急迫地；緊急地",
+    "meaning": "adv. 急迫地；緊急地",
     "example": "The supplier urgently requested confirmation because the shipment was scheduled to leave that evening. (由於貨物預定當晚出發，供應商急切地要求確認。)",
     "id": "多益2-urgently-m1mtkfic"
   },
@@ -4279,7 +4279,7 @@
   {
     "level": "多益2",
     "word": "ample",
-    "meaning": "a. 充足的；豐富的",
+    "meaning": "adj. 充足的；豐富的",
     "example": "The spacious training room provides ample seating for employees from several regional offices. (寬敞的訓練室提供充足座位，供數個區域辦公室的員工使用。)",
     "id": "多益2-ample-m1r6r077"
   },
@@ -4314,7 +4314,7 @@
   {
     "level": "多益2",
     "word": "careless",
-    "meaning": "a. 粗心的；不小心的",
+    "meaning": "adj. 粗心的；不小心的",
     "example": "A careless error in the shipping label sent the package to the wrong regional office. (運送標籤上的粗心錯誤讓包裹寄到了錯誤的區域辦公室。)",
     "id": "多益2-careless-mzgf1eu"
   },
@@ -4349,7 +4349,7 @@
   {
     "level": "多益2",
     "word": "contrary",
-    "meaning": "a. 相反的；對立的",
+    "meaning": "adj. 相反的；對立的",
     "example": "Contrary to expectations, the new product line performed exceptionally well. (與預期相反，新產品線表現異常出色。)",
     "id": "L4-contrary-a-ad"
   },
@@ -4377,14 +4377,14 @@
   {
     "level": "多益2",
     "word": "energetic",
-    "meaning": "a. 精力充沛的；充滿活力的",
+    "meaning": "adj. 精力充沛的；充滿活力的",
     "example": "The HR department is looking for an energetic individual to coordinate company events. (人力資源部門正在尋找一位精力充沛的人來協調公司活動。)",
     "id": "L3-energetic-a"
   },
   {
     "level": "多益2",
     "word": "environmentally",
-    "meaning": "ad. 在環境方面；環保地",
+    "meaning": "adv. 在環境方面；環保地",
     "example": "The company is replacing disposable packaging with environmentally responsible materials across all product lines. (公司正在所有產品線以對環境負責的材料取代一次性包裝。)",
     "id": "多益2-environmentally-mwpbp9o"
   },
@@ -4398,7 +4398,7 @@
   {
     "level": "多益2",
     "word": "exotic",
-    "meaning": "a. 異國風味的；外來的",
+    "meaning": "adj. 異國風味的；外來的",
     "example": "The restaurant added exotic spices to its menu after hiring a chef with international experience. (餐廳聘請有國際經驗的主廚後，在菜單中加入了異國香料。)",
     "id": "多益2-exotic-m1944p9z"
   },
@@ -4433,7 +4433,7 @@
   {
     "level": "多益2",
     "word": "hesitant",
-    "meaning": "a. 猶豫的；遲疑的",
+    "meaning": "adj. 猶豫的；遲疑的",
     "example": "The client seemed hesitant to sign the agreement until the payment terms were clarified. (付款條件釐清前，客戶似乎猶豫著不願簽署協議。)",
     "id": "多益2-hesitant-mcw852x"
   },
@@ -4447,7 +4447,7 @@
   {
     "level": "多益2",
     "word": "individually",
-    "meaning": "ad. 個別地；各自地",
+    "meaning": "adv. 個別地；各自地",
     "example": "Each application will be reviewed individually to ensure that every required document is included. (每份申請都會個別審查，以確保所有必要文件都已附上。)",
     "id": "多益2-individually-m1aackg5"
   },
@@ -4468,7 +4468,7 @@
   {
     "level": "多益2",
     "word": "likewise",
-    "meaning": "ad. 同樣地；也一樣",
+    "meaning": "adv. 同樣地；也一樣",
     "example": "The first branch increased weekend hours, and the downtown location will do likewise next month. (第一家分店延長了週末營業時間，市中心據點下個月也會這麼做。)",
     "id": "多益2-likewise-ms57zcw"
   },
@@ -4489,7 +4489,7 @@
   {
     "level": "多益2",
     "word": "organizational",
-    "meaning": "a. 組織的；機構的",
+    "meaning": "adj. 組織的；機構的",
     "example": "Organizational changes will combine the purchasing and logistics teams under one department head. (組織調整將把採購和物流團隊合併在同一位部門主管之下。)",
     "id": "多益2-organizational-m1l5nsh"
   },
@@ -4524,14 +4524,14 @@
   {
     "level": "多益2",
     "word": "reflexive",
-    "meaning": "a. 反身的；反射性的",
+    "meaning": "adj. 反身的；反射性的",
     "example": "The language instructor explained how a reflexive pronoun refers back to the subject of a sentence. (語言講師說明反身代名詞如何回指句子的主詞。)",
     "id": "多益2-reflexive-m1bg4g6h"
   },
   {
     "level": "多益2",
     "word": "snowy",
-    "meaning": "a. 下雪的；多雪的",
+    "meaning": "adj. 下雪的；多雪的",
     "example": "The snowy weather delayed the morning delivery truck traveling from the northern warehouse. (下雪的天氣延誤了從北部倉庫出發的早晨配送卡車。)",
     "id": "多益2-snowy-m1txjf32"
   },
@@ -4559,14 +4559,14 @@
   {
     "level": "多益2",
     "word": "timely",
-    "meaning": "a. 及時的；適時的",
+    "meaning": "adj. 及時的；適時的",
     "example": "A timely response from the supplier prevented the production line from stopping overnight. (供應商及時回覆，避免生產線夜間停擺。)",
     "id": "多益2-timely-m1plxyf0"
   },
   {
     "level": "多益2",
     "word": "uncomfortable",
-    "meaning": "a. 不舒服的；令人不自在的",
+    "meaning": "adj. 不舒服的；令人不自在的",
     "example": "The uncomfortable chairs made it difficult for participants to remain attentive during the long seminar. (不舒服的椅子讓參與者在漫長研討會中難以保持專注。)",
     "id": "多益2-uncomfortable-ma7pccu"
   },
@@ -4580,7 +4580,7 @@
   {
     "level": "多益2",
     "word": "approximate",
-    "meaning": "a. 大約的；近似的",
+    "meaning": "adj. 大約的；近似的",
     "example": "The approximate cost of the renovation is estimated at two million dollars. (整修費用估計為兩百萬美元。)",
     "id": "L6-approximate-a-v"
   },
@@ -4615,7 +4615,7 @@
   {
     "level": "多益2",
     "word": "blanket",
-    "meaning": "n / a. 毯子；毛毯；全面的；一律的",
+    "meaning": "n. 毯子；毛毯\nadj. 全面的；一律的",
     "example": "The company issued a blanket policy covering all regional offices. (該公司發布了一套涵蓋所有區域辦事處的全面性政策。)",
     "id": "L3-blanket-n-a"
   },
@@ -4629,7 +4629,7 @@
   {
     "level": "多益2",
     "word": "charitable",
-    "meaning": "a. 慈善的；樂善好施的",
+    "meaning": "adj. 慈善的；樂善好施的",
     "example": "The company made a charitable donation to support families affected by the recent flooding. (公司捐款做慈善，協助最近受洪水影響的家庭。)",
     "id": "多益2-charitable-m1bip7hr"
   },
@@ -4664,7 +4664,7 @@
   {
     "level": "多益2",
     "word": "dependable",
-    "meaning": "a. 可靠的；可信賴的",
+    "meaning": "adj. 可靠的；可信賴的",
     "example": "A dependable courier service helps the company deliver important contracts before deadlines. (可靠的快遞服務有助公司在期限前送達重要合約。)",
     "id": "多益2-dependable-m4aat1m"
   },
@@ -4692,21 +4692,21 @@
   {
     "level": "多益2",
     "word": "dynamic",
-    "meaning": "a. 充滿活力的；不斷變化的",
+    "meaning": "adj. 充滿活力的；不斷變化的",
     "example": "We are looking for a dynamic individual to lead our marketing division. (我們正在尋找一位充滿活力的人來領導我們的行銷部門。)",
     "id": "L4-dynamic-a"
   },
   {
     "level": "多益2",
     "word": "enthusiastically",
-    "meaning": "ad. 熱情地；熱烈地",
+    "meaning": "adv. 熱情地；熱烈地",
     "example": "Employees enthusiastically welcomed the new training program because it offered practical career skills. (員工熱烈歡迎新的訓練計畫，因為它提供實用的職涯技能。)",
     "id": "多益2-enthusiastically-m15wu8gq"
   },
   {
     "level": "多益2",
     "word": "freelance",
-    "meaning": "a. 自由接案的；自由業的",
+    "meaning": "adj. 自由接案的；自由業的",
     "example": "The magazine hired a freelance photographer to take portraits of the company's senior executives. (雜誌聘請自由接案攝影師為公司的高階主管拍攝肖像照。)",
     "id": "多益2-freelance-m1t8aqan"
   },
@@ -4720,21 +4720,21 @@
   {
     "level": "多益2",
     "word": "habitual",
-    "meaning": "a. 習慣性的；慣常的",
+    "meaning": "adj. 習慣性的；慣常的",
     "example": "The manager's habitual lateness to morning briefings began to negatively affect team morale. (經理習慣性遲到早上的簡報開始對團隊士氣產生負面影響。)",
     "id": "L4-habitual-a"
   },
   {
     "level": "多益2",
     "word": "internationally",
-    "meaning": "ad. 在國際上；跨國地",
+    "meaning": "adv. 在國際上；跨國地",
     "example": "The company operates internationally and maintains customer service centers in seven different countries. (公司在國際上營運，並在七個不同國家設有客服中心。)",
     "id": "多益2-internationally-m1us12c"
   },
   {
     "level": "多益2",
     "word": "invaluable",
-    "meaning": "a. 極有價值的；無價的",
+    "meaning": "adj. 極有價值的；無價的",
     "example": "Her experience with international suppliers proved invaluable during the company's expansion into new markets. (公司拓展新市場期間，她與國際供應商合作的經驗極具價值。)",
     "id": "多益2-invaluable-mqxma5a"
   },
@@ -4776,7 +4776,7 @@
   {
     "level": "多益2",
     "word": "spray",
-    "meaning": "n / v. 噴霧；噴劑；噴灑；噴霧",
+    "meaning": "n. 噴霧；噴劑\nv. 噴灑；噴霧",
     "example": "The automated assembly machine will spray a protective coating onto the chip. (自動組裝機將在晶片上噴塗保護塗層。)",
     "id": "L3-spray-n-v"
   },
@@ -4790,7 +4790,7 @@
   {
     "level": "多益2",
     "word": "strategic",
-    "meaning": "a. 策略性的；戰略的",
+    "meaning": "adj. 策略性的；戰略的",
     "example": "The director scheduled a strategic planning session to set priorities for the upcoming fiscal year. (主管安排了一場策略規劃會議，訂定即將到來的會計年度的優先事項。)",
     "id": "多益2-strategic-mh1xxkw"
   },
@@ -4832,7 +4832,7 @@
   {
     "level": "多益2",
     "word": "unusually",
-    "meaning": "ad. 不尋常地；格外地",
+    "meaning": "adv. 不尋常地；格外地",
     "example": "The usually quiet lobby was unusually crowded because several conferences were ending at once. (通常安靜的大廳因為多場會議同時結束而格外擁擠。)",
     "id": "多益2-unusually-m1u6wvn5"
   },
@@ -4853,7 +4853,7 @@
   {
     "level": "多益2",
     "word": "wisely",
-    "meaning": "ad. 明智地；審慎地",
+    "meaning": "adv. 明智地；審慎地",
     "example": "The department wisely reserved extra funds to cover unexpected equipment repairs later this year. (部門明智地預留了額外經費，以支付今年稍後的突發設備維修。)",
     "id": "多益2-wisely-m1hgnvtg"
   },
@@ -4874,14 +4874,14 @@
   {
     "level": "多益2",
     "word": "anew",
-    "meaning": "ad. 重新；再度",
+    "meaning": "adv. 重新；再度",
     "example": "After the initial software test failed, the technical team began the installation process anew. (初次軟體測試失敗後，技術團隊重新開始安裝程序。)",
     "id": "多益2-anew-mfpdy29"
   },
   {
     "level": "多益2",
     "word": "architectural",
-    "meaning": "a. 建築的；建築設計的",
+    "meaning": "adj. 建築的；建築設計的",
     "example": "The hotel preserved several architectural features while renovating the historic lobby and guest rooms. (飯店翻修歷史悠久的大廳和客房時，保留了幾項建築特色。)",
     "id": "多益2-architectural-m1o3awyc"
   },
@@ -4916,7 +4916,7 @@
   {
     "level": "多益2",
     "word": "cautious",
-    "meaning": "a. 謹慎的；小心的",
+    "meaning": "adj. 謹慎的；小心的",
     "example": "Investors remain cautious amid ongoing economic uncertainty. (在經濟持續不確定的情況下，投資人仍保持謹慎態度。)",
     "id": "L5-cautious-a"
   },
@@ -4972,7 +4972,7 @@
   {
     "level": "多益2",
     "word": "delicate",
-    "meaning": "a. 精緻的；易損的",
+    "meaning": "adj. 精緻的；易損的",
     "example": "The fragile laboratory equipment requires delicate handling during transportation. (易碎的實驗室設備在運送過程中需要小心處理。)",
     "id": "L4-delicate-a"
   },
@@ -5021,7 +5021,7 @@
   {
     "level": "多益2",
     "word": "evident",
-    "meaning": "a. 明顯的；顯而易見的",
+    "meaning": "adj. 明顯的；顯而易見的",
     "example": "It is evident from the rising sales charts that our new design is a success. (從不斷上升的銷售圖表可以明顯看出我們的新設計是成功的。)",
     "id": "L4-evident-a"
   },
@@ -5042,7 +5042,7 @@
   {
     "level": "多益2",
     "word": "fortunately",
-    "meaning": "ad. 幸好；幸運地",
+    "meaning": "adv. 幸好；幸運地",
     "example": "Fortunately, the backup servers prevented any data loss during the sudden power outage. (幸運的是，備份伺服器避免了突然斷電期間的任何資料遺失。)",
     "id": "TOEIC-fortunately-ad"
   },
@@ -5091,7 +5091,7 @@
   {
     "level": "多益2",
     "word": "imperative",
-    "meaning": "a. 必要的；迫切的",
+    "meaning": "adj. 必要的；迫切的",
     "example": "It is imperative that all staff members attend the mandatory safety briefing. (所有工作人員必須參加強制性安全簡報。)",
     "id": "L6-imperative-a"
   },
@@ -5119,7 +5119,7 @@
   {
     "level": "多益2",
     "word": "meaningful",
-    "meaning": "a. 有意義的；重要的",
+    "meaning": "adj. 有意義的；重要的",
     "example": "The survey gave employees a meaningful opportunity to comment on the redesigned work schedule. (這份調查讓員工有機會對重新設計的工作時程提出有意義的意見。)",
     "id": "多益2-meaningful-mtf4hcm"
   },
@@ -5196,7 +5196,7 @@
   {
     "level": "多益2",
     "word": "professionally",
-    "meaning": "ad. 專業地；職業上地",
+    "meaning": "adv. 專業地；職業上地",
     "example": "The consultant responded professionally to difficult questions during the client's annual review meeting. (顧問在客戶年度檢討會中專業地回應了棘手問題。)",
     "id": "多益2-professionally-mcqh32k"
   },
@@ -5238,7 +5238,7 @@
   {
     "level": "多益2",
     "word": "refundable",
-    "meaning": "a. 可退款的；可退還的",
+    "meaning": "adj. 可退款的；可退還的",
     "example": "The hotel offers a refundable deposit if guests cancel their reservation at least two days early. (旅客若至少提前兩天取消預約，飯店會退還押金。)",
     "id": "多益2-refundable-m1h9le2d"
   },
@@ -5259,7 +5259,7 @@
   {
     "level": "多益2",
     "word": "reluctant",
-    "meaning": "a. 不情願的；勉強的",
+    "meaning": "adj. 不情願的；勉強的",
     "example": "The supplier was reluctant to extend payment terms until the buyer provided recent financial statements. (買方提供近期財務報表前，供應商不太願意延長付款期限。)",
     "id": "多益2-reluctant-m1q1jm0v"
   },
@@ -5287,14 +5287,14 @@
   {
     "level": "多益2",
     "word": "sleepy",
-    "meaning": "a. 想睡的；昏昏欲睡的",
+    "meaning": "adj. 想睡的；昏昏欲睡的",
     "example": "Several sleepy employees ordered coffee before the early morning inventory meeting began. (清晨盤點會議開始前，幾名昏昏欲睡的員工點了咖啡。)",
     "id": "多益2-sleepy-m1vxr0ls"
   },
   {
     "level": "多益2",
     "word": "tailor",
-    "meaning": "n / v. 裁縫師；成衣修改師；量身訂製；調整",
+    "meaning": "n. 裁縫師；成衣修改師\nv. 量身訂製；調整",
     "example": "Designers can tailor the software configuration to meet specific client demands. (設計人員可以客製化軟體配置以滿足特定的客戶需求。)",
     "id": "L3-tailor-v-n"
   },
@@ -5336,7 +5336,7 @@
   {
     "level": "多益2",
     "word": "unused",
-    "meaning": "a. 未使用的；閒置的",
+    "meaning": "adj. 未使用的；閒置的",
     "example": "Unused conference materials were donated to a nearby school after the annual business seminar. (年度商務研討會結束後，未使用的會議材料捐給了附近的學校。)",
     "id": "多益2-unused-m1ned2ce"
   },
@@ -5364,14 +5364,14 @@
   {
     "level": "多益2",
     "word": "additionally",
-    "meaning": "ad. 此外；另外",
+    "meaning": "adv. 此外；另外",
     "example": "Additionally, all participants must complete the online training module. (此外，所有參加者都必須完成線上訓練單元。)",
     "id": "TOEIC-additionally-ad"
   },
   {
     "level": "多益2",
     "word": "affirmative",
-    "meaning": "a. 肯定的；贊成的",
+    "meaning": "adj. 肯定的；贊成的",
     "example": "Please provide an affirmative response by the stated deadline. (請在指定期限前給予肯定的答覆。)",
     "id": "TOEIC-affirmative-a"
   },
@@ -5420,28 +5420,28 @@
   {
     "level": "多益2",
     "word": "consecutive",
-    "meaning": "a. 連續的；接連的",
+    "meaning": "adj. 連續的；接連的",
     "example": "The company reported record-breaking profits for three consecutive quarters. (該公司連續三季獲利創下新高。)",
     "id": "中高級-consecutive-a"
   },
   {
     "level": "多益2",
     "word": "cordless",
-    "meaning": "a. 無線的；不需電線的",
+    "meaning": "adj. 無線的；不需電線的",
     "example": "The cordless scanner allowed warehouse staff to record incoming packages while moving between storage aisles. (無線掃描器讓倉庫員工能在各儲藏走道間移動時記錄進貨包裹。)",
     "id": "多益2-cordless-m1ferr6"
   },
   {
     "level": "多益2",
     "word": "deluxe",
-    "meaning": "a. 豪華的；高級的",
+    "meaning": "adj. 豪華的；高級的",
     "example": "The deluxe conference package includes upgraded catering, reserved parking, and access to the executive lounge. (豪華會議方案包含升級餐飲、預留停車位，以及行政貴賓室使用權。)",
     "id": "多益2-deluxe-m1u9h012"
   },
   {
     "level": "多益2",
     "word": "desirable",
-    "meaning": "a. 理想的；值得擁有的",
+    "meaning": "adj. 理想的；值得擁有的",
     "example": "A location near public transit is desirable for employees who commute from surrounding towns. (對從周邊城鎮通勤的員工而言，靠近大眾運輸的地點很理想。)",
     "id": "多益2-desirable-m1nnapnh"
   },
@@ -5469,21 +5469,21 @@
   {
     "level": "多益2",
     "word": "dull",
-    "meaning": "a. 乏味的；不鮮明的",
+    "meaning": "adj. 乏味的；不鮮明的",
     "example": "The dull presentation needed clearer charts to keep the audience interested in the quarterly results. (這場乏味的簡報需要更清楚的圖表，才能讓聽眾對季度成果保持興趣。)",
     "id": "多益2-dull-msj6vgy"
   },
   {
     "level": "多益2",
     "word": "economically",
-    "meaning": "ad. 經濟上；節省地",
+    "meaning": "adv. 經濟上；節省地",
     "example": "The new delivery route is economically efficient because it reduces fuel use and driver overtime. (新的配送路線在經濟上有效率，因為它減少燃料消耗和司機加班。)",
     "id": "多益2-economically-mvy514i"
   },
   {
     "level": "多益2",
     "word": "evenly",
-    "meaning": "ad. 平均地；均勻地",
+    "meaning": "adv. 平均地；均勻地",
     "example": "Please distribute the conference brochures evenly across all registration tables before guests arrive. (來賓抵達前，請將會議簡介平均分配到所有報到桌上。)",
     "id": "多益2-evenly-myxa5r1"
   },
@@ -5497,7 +5497,7 @@
   {
     "level": "多益2",
     "word": "exclusively",
-    "meaning": "ad. 專門地；獨占地",
+    "meaning": "adv. 專門地；獨占地",
     "example": "This premium lounge is reserved exclusively for first-class passengers. (此高級休息室專為頭等艙乘客保留。)",
     "id": "TOEIC-exclusively-ad"
   },
@@ -5518,7 +5518,7 @@
   {
     "level": "多益2",
     "word": "fiscal",
-    "meaning": "a. 財政的；會計年度的",
+    "meaning": "adj. 財政的；會計年度的",
     "example": "The company's fiscal year runs from the first of July to the thirtieth of June. (該公司的財政年度從七月一號到六月三十號。)",
     "id": "中高級-fiscal-a"
   },
@@ -5546,7 +5546,7 @@
   {
     "level": "多益2",
     "word": "formally",
-    "meaning": "ad. 正式地；依正式程序",
+    "meaning": "adv. 正式地；依正式程序",
     "example": "The director formally announced the merger after receiving approval from the company's board. (取得公司董事會核准後，主管正式宣布了合併案。)",
     "id": "多益2-formally-m1a2d4s6"
   },
@@ -5595,7 +5595,7 @@
   {
     "level": "多益2",
     "word": "homeless",
-    "meaning": "a. 無家可歸的；流離失所的",
+    "meaning": "adj. 無家可歸的；流離失所的",
     "example": "The charity opened a temporary shelter to provide meals and beds for homeless residents. (慈善機構開設臨時收容所，為無家可歸的居民提供餐食和床位。)",
     "id": "多益2-homeless-moiy933"
   },
@@ -5609,7 +5609,7 @@
   {
     "level": "多益2",
     "word": "loudly",
-    "meaning": "ad. 大聲地；吵鬧地",
+    "meaning": "adv. 大聲地；吵鬧地",
     "example": "The alarm sounded loudly throughout the office building when the emergency drill began. (緊急演練開始時，警報聲大聲響徹整棟辦公大樓。)",
     "id": "多益2-loudly-m12enmq0"
   },
@@ -5637,7 +5637,7 @@
   {
     "level": "多益2",
     "word": "neat",
-    "meaning": "a. 整齊的；俐落的",
+    "meaning": "adj. 整齊的；俐落的",
     "example": "The neat display of brochures made it easy for visitors to choose materials at the trade show. (整齊的簡介陳列讓訪客在商展上容易選取資料。)",
     "id": "多益2-neat-m16og23u"
   },
@@ -5651,7 +5651,7 @@
   {
     "level": "多益2",
     "word": "officially",
-    "meaning": "ad. 正式地；官方地",
+    "meaning": "adv. 正式地；官方地",
     "example": "The company officially announced its new regional office after the lease agreement was signed. (租約簽訂後，公司正式宣布成立新的區域辦公室。)",
     "id": "多益2-officially-mb19h3s"
   },
@@ -5679,14 +5679,14 @@
   {
     "level": "多益2",
     "word": "poorly",
-    "meaning": "ad. 不佳地；差勁地",
+    "meaning": "adv. 不佳地；差勁地",
     "example": "The instructions were poorly organized, so several employees missed the deadline for submitting their forms. (說明內容安排不佳，因此有幾位員工錯過了提交表格的期限。)",
     "id": "多益2-poorly-m1beit4c"
   },
   {
     "level": "多益2",
     "word": "prestigious",
-    "meaning": "a. 有聲望的；受尊敬的",
+    "meaning": "adj. 有聲望的；受尊敬的",
     "example": "She received an offer from a prestigious law firm after completing her graduate studies with honors. (她以優異成績完成研究所學業後，收到一家知名律師事務所的聘用邀請。)",
     "id": "多益2-prestigious-mh1d7zo"
   },
@@ -5756,35 +5756,35 @@
   {
     "level": "多益2",
     "word": "superb",
-    "meaning": "a. 極佳的；出色的",
+    "meaning": "adj. 極佳的；出色的",
     "example": "The restaurant boasts a superb menu featuring a wide selection of fine wines. (餐廳擁有一流的菜單，包括多種精選的優質葡萄酒。)",
     "id": "L6-superb-a"
   },
   {
     "level": "多益2",
     "word": "traditionally",
-    "meaning": "ad. 按照傳統地；歷來",
+    "meaning": "adv. 按照傳統地；歷來",
     "example": "The company traditionally closes its offices during the final week of December for annual maintenance. (這家公司歷來會在十二月的最後一週關閉辦公室，進行年度維護。)",
     "id": "多益2-traditionally-mu20n5i"
   },
   {
     "level": "多益2",
     "word": "tremendous",
-    "meaning": "a. 巨大的；極大的",
+    "meaning": "adj. 巨大的；極大的",
     "example": "The impressive success of the product launch generated a tremendous increase in revenue. (產品發布取得巨大成功，營收大幅增加。)",
     "id": "L4-tremendous-a"
   },
   {
     "level": "多益2",
     "word": "underway",
-    "meaning": "a. 進行中的；已經開始的",
+    "meaning": "adj. 進行中的；已經開始的",
     "example": "The massive cloud migration project is currently underway and making steady progress. (目前，大規模的雲端遷移專案正在穩步推進。)",
     "id": "中高級-underway-a"
   },
   {
     "level": "多益2",
     "word": "unpleasant",
-    "meaning": "a. 令人不快的；討厭的",
+    "meaning": "adj. 令人不快的；討厭的",
     "example": "An unpleasant odor near the loading dock prompted staff to contact the building maintenance team. (裝卸區附近有股難聞的氣味，促使員工聯絡大樓維修團隊。)",
     "id": "多益2-unpleasant-my7stru"
   },
@@ -5805,7 +5805,7 @@
   {
     "level": "多益2",
     "word": "worthwhile",
-    "meaning": "a. 值得花時間或精力的",
+    "meaning": "adj. 值得花時間或精力的",
     "example": "Although the training required several weekends, employees found the certification worthwhile for their careers. (雖然培訓占用了好幾個週末，員工仍認為這項認證對職涯很有價值。)",
     "id": "多益2-worthwhile-mq99ym0"
   },
@@ -5819,21 +5819,21 @@
   {
     "level": "多益2",
     "word": "advisable",
-    "meaning": "a. 明智的；可取的",
+    "meaning": "adj. 明智的；可取的",
     "example": "It is advisable to review the agreement carefully before signing. (建議在簽署之前仔細閱讀協議。)",
     "id": "中高級-advisable-a"
   },
   {
     "level": "多益2",
     "word": "archive",
-    "meaning": "n / v. 檔案庫；歷史資料；將……歸檔；存檔",
+    "meaning": "n. 檔案庫；歷史資料\nv. 將……歸檔；存檔",
     "example": "The company decided to archive outdated records electronically. (該公司決定以電子方式存檔過時的記錄。)",
     "id": "中高級-archive-v-n"
   },
   {
     "level": "多益2",
     "word": "artistic",
-    "meaning": "a. 藝術的；有美感的",
+    "meaning": "adj. 藝術的；有美感的",
     "example": "The architect added artistic details to the lobby while keeping the office building practical and accessible. (建築師在維持辦公大樓實用且無障礙的同時，也為大廳增添了藝術細節。)",
     "id": "多益2-artistic-m16c1p07"
   },
@@ -5847,7 +5847,7 @@
   {
     "level": "多益2",
     "word": "athletic",
-    "meaning": "a. 運動的；體格健壯的",
+    "meaning": "adj. 運動的；體格健壯的",
     "example": "The athletic employee volunteered to lead the charity run and encouraged coworkers to join the event. (這位體格健壯的員工自願帶領慈善路跑，並鼓勵同事參加活動。)",
     "id": "多益2-athletic-m1tcd58x"
   },
@@ -5910,7 +5910,7 @@
   {
     "level": "多益2",
     "word": "comfortably",
-    "meaning": "ad. 舒適地；寬裕地",
+    "meaning": "adv. 舒適地；寬裕地",
     "example": "The redesigned waiting area seats thirty visitors comfortably while leaving enough space for wheelchair access. (重新設計的候診區可舒適地容納三十位訪客，並留有足夠的輪椅通行空間。)",
     "id": "多益2-comfortably-mmk6wh1"
   },
@@ -6008,14 +6008,14 @@
   {
     "level": "多益2",
     "word": "fluent",
-    "meaning": "a. 流利的；流暢的",
+    "meaning": "adj. 流利的；流暢的",
     "example": "The successful applicant is a fluent speaker of Japanese and Mandarin. (成功的應徵者能流利地說日語和華語。)",
     "id": "L4-fluent-a"
   },
   {
     "level": "多益2",
     "word": "honestly",
-    "meaning": "ad. 誠實地；坦白說",
+    "meaning": "adv. 誠實地；坦白說",
     "example": "The supervisor honestly explained why the schedule had changed and apologized for the confusion it caused. (主管坦白說明時程改變的原因，並為造成的混亂道歉。)",
     "id": "多益2-honestly-mhjssiq"
   },
@@ -6043,14 +6043,14 @@
   {
     "level": "多益2",
     "word": "integral",
-    "meaning": "a. 不可或缺的；構成整體的",
+    "meaning": "adj. 不可或缺的；構成整體的",
     "example": "Reliable customer feedback is integral to improving the company's services and planning future product updates. (可靠的客戶回饋對改善公司服務及規劃未來產品更新不可或缺。)",
     "id": "多益2-integral-m1lwv42"
   },
   {
     "level": "多益2",
     "word": "interactive",
-    "meaning": "a. 互動式的；可互相交流的",
+    "meaning": "adj. 互動式的；可互相交流的",
     "example": "The museum introduced an interactive exhibit where visitors can control lighting and explore different design choices. (博物館推出互動式展覽，讓訪客可以控制燈光並探索不同的設計選擇。)",
     "id": "多益2-interactive-myzf2dx"
   },
@@ -6078,7 +6078,7 @@
   {
     "level": "多益2",
     "word": "lightweight",
-    "meaning": "a. 輕量的；重量較輕的",
+    "meaning": "adj. 輕量的；重量較輕的",
     "example": "The lightweight scanner fits inside a carry case, allowing sales representatives to visit several stores each day. (這台輕量掃描器可放進手提箱，讓業務代表每天拜訪好幾家門市。)",
     "id": "多益2-lightweight-m1ulkzkv"
   },
@@ -6099,7 +6099,7 @@
   {
     "level": "多益2",
     "word": "needy",
-    "meaning": "a. 貧困的；需要幫助的",
+    "meaning": "adj. 貧困的；需要幫助的",
     "example": "The foundation distributed winter coats to needy families who could not afford warm clothing for their children. (基金會把冬衣發給無力替孩子購買保暖衣物的貧困家庭。)",
     "id": "多益2-needy-mwiljlx"
   },
@@ -6120,7 +6120,7 @@
   {
     "level": "多益2",
     "word": "partial",
-    "meaning": "a. 部分的；不完全的",
+    "meaning": "adj. 部分的；不完全的",
     "example": "The report is based on partial data because several regional offices have not responded. (該報告基於部分資料，因為一些地區辦事處尚未回應。)",
     "id": "L4-partial-a"
   },
@@ -6148,14 +6148,14 @@
   {
     "level": "多益2",
     "word": "probable",
-    "meaning": "a. 很可能發生的；大概的",
+    "meaning": "adj. 很可能發生的；大概的",
     "example": "A short delay is probable because heavy rain has slowed deliveries across the northern district. (由於大雨拖慢北區各地的配送，短暫延誤很可能發生。)",
     "id": "多益2-probable-mxumym1"
   },
   {
     "level": "多益2",
     "word": "prominent",
-    "meaning": "a. 顯著的；知名的；突出的",
+    "meaning": "adj. 顯著的；知名的；突出的",
     "example": "A prominent architect spoke at the opening ceremony and praised the station's accessible design. (一位知名建築師在開幕典禮上致詞，並稱讚車站的無障礙設計。)",
     "id": "多益2-prominent-mgop3wt"
   },
@@ -6218,7 +6218,7 @@
   {
     "level": "多益2",
     "word": "sharply",
-    "meaning": "ad. 急劇地；尖銳地；嚴厲地",
+    "meaning": "adv. 急劇地；尖銳地；嚴厲地",
     "example": "Online orders increased sharply after the company introduced free delivery for purchases above the minimum amount. (公司推出達到最低金額即可免運後，線上訂單大幅增加。)",
     "id": "多益2-sharply-m1lpy34t"
   },
@@ -6232,7 +6232,7 @@
   {
     "level": "多益2",
     "word": "someday",
-    "meaning": "ad. 有朝一日；將來某天",
+    "meaning": "adv. 有朝一日；將來某天",
     "example": "The assistant hopes to manage a regional office someday after gaining more experience in customer relations. (這位助理希望累積更多客戶關係經驗後，有朝一日能管理區域辦公室。)",
     "id": "多益2-someday-monobve"
   },
@@ -6267,35 +6267,35 @@
   {
     "level": "多益2",
     "word": "suspicious",
-    "meaning": "a. 可疑的；起疑的",
+    "meaning": "adj. 可疑的；起疑的",
     "example": "Security staff reported a suspicious package near the loading entrance and cleared the surrounding area. (保全人員通報裝卸入口附近有可疑包裹，並清空了周圍區域。)",
     "id": "多益2-suspicious-m1960jdd"
   },
   {
     "level": "多益2",
     "word": "tasty",
-    "meaning": "a. 美味的；可口的",
+    "meaning": "adj. 美味的；可口的",
     "example": "The cafeteria prepared a tasty vegetarian lunch using fresh vegetables from the neighborhood farmers' market. (員工餐廳使用附近農夫市集的新鮮蔬菜，準備了一頓美味的素食午餐。)",
     "id": "多益2-tasty-m19zp73o"
   },
   {
     "level": "多益2",
     "word": "terrific",
-    "meaning": "a. 極好的；非常出色的",
+    "meaning": "adj. 極好的；非常出色的",
     "example": "The support team received terrific feedback after resolving the software issue before the customer presentation. (支援團隊在客戶簡報前解決軟體問題後，獲得了極佳的回饋。)",
     "id": "多益2-terrific-m49fno3"
   },
   {
     "level": "多益2",
     "word": "underground",
-    "meaning": "a. 地下的；秘密進行的",
+    "meaning": "adj. 地下的；秘密進行的",
     "example": "The city built a modern underground transit system to reduce metropolitan traffic jams. (該市建造了現代化的地下交通系統，以減少大都市的交通擁堵。)",
     "id": "L2-underground-a"
   },
   {
     "level": "多益2",
     "word": "unpaid",
-    "meaning": "a. 未支付的；無薪的",
+    "meaning": "adj. 未支付的；無薪的",
     "example": "The accounting department contacted vendors about unpaid invoices before closing the books for the quarter. (會計部門在季度結帳前聯絡供應商，處理尚未付款的發票。)",
     "id": "多益2-unpaid-m1ei60j5"
   },
@@ -6344,7 +6344,7 @@
   {
     "level": "多益2",
     "word": "anyhow",
-    "meaning": "ad. 無論如何；反正",
+    "meaning": "adv. 無論如何；反正",
     "example": "The printer was out of service, but the assistant submitted the signed forms anyhow through the reception desk. (印表機無法使用，但助理還是透過接待櫃檯提交了簽妥的表格。)",
     "id": "多益2-anyhow-mvc9cyx"
   },
@@ -6386,7 +6386,7 @@
   {
     "level": "多益2",
     "word": "beneficial",
-    "meaning": "a. 有益的；有利的",
+    "meaning": "adj. 有益的；有利的",
     "example": "The new policy has proven beneficial for employee retention. (事實證明，新政策有利於留住員工。)",
     "id": "L5-beneficial-a"
   },
@@ -6400,7 +6400,7 @@
   {
     "level": "多益2",
     "word": "bound",
-    "meaning": "a. 前往……的；受約束的",
+    "meaning": "adj. 前往……的；受約束的",
     "example": "The shipment is bound for the company's distribution center. (這批貨物將運往公司的配送中心。)",
     "id": "L5-bound-a-v"
   },
@@ -6421,7 +6421,7 @@
   {
     "level": "多益2",
     "word": "chilly",
-    "meaning": "a. 寒冷的；冷淡的",
+    "meaning": "adj. 寒冷的；冷淡的",
     "example": "The conference room felt chilly, so the organizer asked facilities staff to adjust the thermostat. (會議室感覺有些冷，因此主辦人請設施人員調整溫控器。)",
     "id": "多益2-chilly-m1amooce"
   },
@@ -6449,7 +6449,7 @@
   {
     "level": "多益2",
     "word": "continental",
-    "meaning": "a. 大陸的；歐洲大陸的",
+    "meaning": "adj. 大陸的；歐洲大陸的",
     "example": "The airline introduced continental breakfast service for passengers traveling on early morning international flights. (航空公司為搭乘清晨國際航班的乘客推出歐陸式早餐服務。)",
     "id": "多益2-continental-m1nddd8p"
   },
@@ -6477,14 +6477,14 @@
   {
     "level": "多益2",
     "word": "departmental",
-    "meaning": "a. 部門的；系所的",
+    "meaning": "adj. 部門的；系所的",
     "example": "The manager called a departmental meeting to discuss the new budget allocations. (經理召開了部門會議來討論新的預算分配。)",
     "id": "TOEIC-departmental-a"
   },
   {
     "level": "多益2",
     "word": "desperate",
-    "meaning": "a. 絕望的；極需要的；不顧一切的",
+    "meaning": "adj. 絕望的；極需要的；不顧一切的",
     "example": "The retailer was desperate to find a supplier before holiday demand exceeded the inventory available in stores. (假日需求可能超過門市庫存，這家零售商急於找到供應商。)",
     "id": "多益2-desperate-m1ki9hgz"
   },
@@ -6498,7 +6498,7 @@
   {
     "level": "多益2",
     "word": "diagnostic",
-    "meaning": "a. 診斷用的；判別問題的",
+    "meaning": "adj. 診斷用的；判別問題的",
     "example": "The technician ran a diagnostic test on the network before replacing the office router. (技術人員更換辦公室路由器前，先對網路執行了診斷測試。)",
     "id": "多益2-diagnostic-mwhev44"
   },
@@ -6547,7 +6547,7 @@
   {
     "level": "多益2",
     "word": "electronically",
-    "meaning": "ad. 以電子方式；透過電子設備",
+    "meaning": "adv. 以電子方式；透過電子設備",
     "example": "Applicants can submit their travel reimbursement forms electronically through the company's secure employee portal. (申請人可以透過公司的安全員工入口網站，以電子方式提交差旅報銷表。)",
     "id": "多益2-electronically-mdjoxij"
   },
@@ -6624,21 +6624,21 @@
   {
     "level": "多益2",
     "word": "hardworking",
-    "meaning": "a. 勤奮的；努力工作的",
+    "meaning": "adj. 勤奮的；努力工作的",
     "example": "The hardworking warehouse crew completed the inventory count before the distribution center closed for maintenance. (勤奮的倉庫團隊在配送中心因維護關閉前完成了庫存盤點。)",
     "id": "多益2-hardworking-mm2yr23"
   },
   {
     "level": "多益2",
     "word": "impatient",
-    "meaning": "a. 不耐煩的；急躁的",
+    "meaning": "adj. 不耐煩的；急躁的",
     "example": "Clients can become impatient when technical support takes too long to respond. (當技術支援回應時間過長時，客戶可能會變得不耐煩。)",
     "id": "TOEIC-impatient-a"
   },
   {
     "level": "多益2",
     "word": "indirect",
-    "meaning": "a. 間接的；不直接的",
+    "meaning": "adj. 間接的；不直接的",
     "example": "The report found an indirect link between flexible schedules and improved employee retention across regional offices. (報告發現，彈性時程與各區域辦公室員工留任率提升之間存在間接關聯。)",
     "id": "多益2-indirect-miv5973"
   },
@@ -6659,7 +6659,7 @@
   {
     "level": "多益2",
     "word": "irrelevant",
-    "meaning": "a. 不相關的；無關緊要的",
+    "meaning": "adj. 不相關的；無關緊要的",
     "example": "The information provided in the anonymous email was completely irrelevant to the audit. (匿名電子郵件中提供的資訊與稽核完全無關。)",
     "id": "TOEIC-irrelevant-a"
   },
@@ -6736,7 +6736,7 @@
   {
     "level": "多益2",
     "word": "operational",
-    "meaning": "a. 運作中的；營運上的",
+    "meaning": "adj. 運作中的；營運上的",
     "example": "The company managed to reduce its operational costs by automating routine tasks. (該公司透過自動化日常任務來降低營運成本。)",
     "id": "L6-operational-a"
   },
@@ -6764,7 +6764,7 @@
   {
     "level": "多益2",
     "word": "partially",
-    "meaning": "ad. 部分地；不完全地",
+    "meaning": "adv. 部分地；不完全地",
     "example": "The shipment was partially damaged during transport, so the receiver documented the condition before signing. (貨物在運送途中部分受損，因此收貨人在簽收前記錄了狀況。)",
     "id": "多益2-partially-m1hjhwkw"
   },
@@ -6778,7 +6778,7 @@
   {
     "level": "多益2",
     "word": "permanently",
-    "meaning": "ad. 永久地；長期地",
+    "meaning": "adv. 永久地；長期地",
     "example": "The company permanently closed the outdated branch after moving its customer service operations to a larger center. (公司將客服業務遷至較大的中心後，永久關閉了老舊分店。)",
     "id": "多益2-permanently-m115wwds"
   },
@@ -6932,7 +6932,7 @@
   {
     "level": "多益2",
     "word": "thirsty",
-    "meaning": "a. 口渴的；渴望的",
+    "meaning": "adj. 口渴的；渴望的",
     "example": "Travelers became thirsty after walking through the outdoor exhibition, so staff distributed bottled water. (旅客走過戶外展區後感到口渴，因此工作人員分發了瓶裝水。)",
     "id": "多益2-thirsty-m15vd27p"
   },
@@ -6967,7 +6967,7 @@
   {
     "level": "多益2",
     "word": "tropical",
-    "meaning": "a. 熱帶的；炎熱潮濕的",
+    "meaning": "adj. 熱帶的；炎熱潮濕的",
     "example": "The resort's tropical garden features palms and flowering plants that remain colorful throughout the year. (度假村的熱帶花園種有棕櫚樹和全年色彩繽紛的開花植物。)",
     "id": "多益2-tropical-muz1pj2"
   },
@@ -6981,7 +6981,7 @@
   {
     "level": "多益2",
     "word": "unemployed",
-    "meaning": "a. 失業的；沒有工作的",
+    "meaning": "adj. 失業的；沒有工作的",
     "example": "The training center offers computer classes to unemployed residents who are preparing to reenter the workforce. (訓練中心為準備重返職場的失業居民開設電腦課程。)",
     "id": "多益2-unemployed-m19in3c3"
   },
